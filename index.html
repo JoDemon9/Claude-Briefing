@@ -237,8 +237,28 @@
       .ticker-content { animation: none; }
       body { transition: none; }
     }
-    [id] { scroll-margin-top: 6rem; }
-    @media (max-width: 640px) { [id] { scroll-margin-top: 8rem; } }
+    [id] { scroll-margin-top: 5rem; }
+    @media (max-width: 640px) { [id] { scroll-margin-top: 5rem; } }
+
+    /* Smart Navigation Header (Headroom Auto-hide) */
+    #mainNav {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
+      will-change: transform;
+    }
+    #mainNav.nav-hidden {
+      transform: translateY(-100%);
+      box-shadow: none !important;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
 
     details > summary {
       list-style: none;
@@ -254,7 +274,7 @@
 <body class="antialiased min-h-screen">
 
   <!-- TOP BAR & STATUS -->
-  <div class="bg-[var(--paper-raised)] border-b border-[var(--rule)] text-xs py-1.5 px-4 sticky top-0 z-50 backdrop-blur-md bg-opacity-95">
+  <div class="bg-[var(--paper-raised)] border-b border-[var(--rule)] text-xs py-1.5 px-4">
     <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
       <div class="flex items-center gap-3">
         <span id="freshness" data-generated="2026-09-07T13:30:00+03:00"
@@ -328,33 +348,36 @@
   </div>
 
   <!-- NAVIGATION & INSTANT SEARCH -->
-  <nav class="bg-[var(--paper-raised)] border-b border-[var(--rule)] sticky top-8 z-40 px-4 py-2 shadow-xs" aria-label="Κύρια πλοήγηση">
-    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-3">
-      <div class="flex flex-wrap items-center gap-1.5 t-meta font-medium">
-        <a href="#top-story" class="px-3 py-1.5 rounded-full bg-[var(--accent)] text-white font-semibold transition">⭐ Πρώτο Θέμα</a>
-        <a href="#cyprus" class="px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition font-semibold">🇨🇾 Κύπρος</a>
-        <a href="#world" class="px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition">🌍 Διεθνή</a>
-        <a href="#markets" class="px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition">💰 Αγορές</a>
-        <a href="#rates-and-tools" class="px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition">🏦 Επιτόκια & Dashboard</a>
-        <a href="#portfolio" class="px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition">🎯 Ο Φάκελός μου</a>
-        <a href="house-search/latest.html" target="_blank" class="px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition font-medium flex items-center gap-1">🏠 <span>Ακίνητα</span></a>
-        <a href="#sports" class="px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition font-medium">⚽ Αθλητικά & F1</a>
-        <a href="#weather" class="px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition">🌤️ Καιρός</a>
-        <a href="#deadlines" class="px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition">📅 Προθεσμίες</a>
+  <nav id="mainNav" class="bg-[var(--paper-raised)] border-b border-[var(--rule)] sticky top-0 z-40 px-3 sm:px-4 py-2 shadow-xs backdrop-blur-md bg-opacity-95" aria-label="Κύρια πλοήγηση">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2.5">
+      <div class="flex items-center gap-1.5 t-meta font-medium overflow-x-auto no-scrollbar py-0.5 max-w-full flex-nowrap sm:flex-wrap">
+        <a href="#top-story" class="whitespace-nowrap flex-shrink-0 px-3 py-1.5 rounded-full bg-[var(--accent)] text-white font-semibold transition">⭐ Πρώτο Θέμα</a>
+        <a href="#cyprus" class="whitespace-nowrap flex-shrink-0 px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition font-semibold">🇨🇾 Κύπρος</a>
+        <a href="#world" class="whitespace-nowrap flex-shrink-0 px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition">🌍 Διεθνή</a>
+        <a href="#markets" class="whitespace-nowrap flex-shrink-0 px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition">💰 Αγορές</a>
+        <a href="#rates-and-tools" class="whitespace-nowrap flex-shrink-0 px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition">🏦 Επιτόκια & Dashboard</a>
+        <a href="#portfolio" class="whitespace-nowrap flex-shrink-0 px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition">🎯 Ο Φάκελός μου</a>
+        <a href="house-search/latest.html" target="_blank" class="whitespace-nowrap flex-shrink-0 px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition font-medium flex items-center gap-1">🏠 <span>Ακίνητα</span></a>
+        <a href="#sports" class="whitespace-nowrap flex-shrink-0 px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition font-medium">⚽ Αθλητικά & F1</a>
+        <a href="#weather" class="whitespace-nowrap flex-shrink-0 px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition">🌤️ Καιρός</a>
+        <a href="#deadlines" class="whitespace-nowrap flex-shrink-0 px-3 py-1.5 rounded-full bg-[var(--paper)] text-[var(--ink)] border border-[var(--rule)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition">📅 Προθεσμίες</a>
       </div>
 
       <!-- Search Input Container with Instant Dropdown -->
-      <div class="relative flex items-center gap-2">
+      <div class="relative flex items-center gap-1.5 flex-shrink-0 ml-auto sm:ml-0">
         <div class="relative">
           <label for="archiveSearch" class="sr-only">Αναζήτηση στο αρχείο</label>
           <input type="text" id="archiveSearch" placeholder="🔍 Αναζήτηση στο αρχείο..." 
-                 class="t-meta px-3 py-1.5 rounded border border-[var(--rule)] bg-[var(--paper)] text-[var(--ink)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)] w-44 sm:w-60 transition shadow-xs">
+                 class="t-meta px-3 py-1.5 rounded border border-[var(--rule)] bg-[var(--paper)] text-[var(--ink)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)] w-36 sm:w-60 focus:w-48 sm:focus:w-64 transition-all shadow-xs">
           <!-- Live Search Results Dropdown -->
           <div id="searchResults" class="hidden absolute right-0 top-full mt-2 w-80 sm:w-96 max-h-96 overflow-y-auto bg-[var(--paper-raised)] border border-[var(--rule)] rounded-xl shadow-xl z-50 p-2 text-xs space-y-2">
           </div>
         </div>
-        <button onclick="window.print()" class="t-meta px-2.5 py-1.5 rounded border border-[var(--rule)] hover:bg-[var(--paper)] transition" title="Εκτύπωση / PDF" aria-label="Εκτύπωση σελίδας">
+        <button onclick="window.print()" class="t-meta px-2 py-1.5 rounded border border-[var(--rule)] hover:bg-[var(--paper)] transition" title="Εκτύπωση / PDF" aria-label="Εκτύπωση σελίδας">
           🖨️
+        </button>
+        <button id="themeToggleNav" class="t-meta px-2 py-1.5 rounded border border-[var(--rule)] hover:bg-[var(--paper)] transition" title="Εναλλαγή θέματος" aria-label="Εναλλαγή θέματος">
+          🌓
         </button>
       </div>
     </div>
@@ -1995,15 +2018,22 @@
     // 1. Theme Toggle
     (function () {
       const btn = document.getElementById('themeToggle');
-      if (btn) {
-        const isDark = document.documentElement.classList.contains('dark');
-        btn.setAttribute('aria-pressed', isDark ? 'true' : 'false');
-        btn.addEventListener('click', () => {
-          const darkNow = document.documentElement.classList.toggle('dark');
-          localStorage.setItem('oracle-theme', darkNow ? 'dark' : 'light');
-          btn.setAttribute('aria-pressed', darkNow ? 'true' : 'false');
-        });
-      }
+      const btnNav = document.getElementById('themeToggleNav');
+      const updateThemeButtons = (isDark) => {
+        if (btn) btn.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+        if (btnNav) btnNav.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+      };
+      const isDarkInit = document.documentElement.classList.contains('dark');
+      updateThemeButtons(isDarkInit);
+
+      const toggleTheme = () => {
+        const darkNow = document.documentElement.classList.toggle('dark');
+        localStorage.setItem('oracle-theme', darkNow ? 'dark' : 'light');
+        updateThemeButtons(darkNow);
+      };
+
+      if (btn) btn.addEventListener('click', toggleTheme);
+      if (btnNav) btnNav.addEventListener('click', toggleTheme);
     })();
 
     // 2. Interactive Mortgage Calculator
@@ -2158,6 +2188,59 @@
           resultsContainer.classList.add('hidden');
         }
       });
+    })();
+
+    // 5. Smart Sticky Navigation Header (Auto-hide on scroll down, reveal on scroll up)
+    (function () {
+      const nav = document.getElementById('mainNav');
+      if (!nav) return;
+
+      let lastScrollY = window.pageYOffset || document.documentElement.scrollTop;
+      let ticking = false;
+      const threshold = 8;
+      const minScrollToHide = 100;
+
+      function onScroll() {
+        const currentScrollY = window.pageYOffset || document.documentElement.scrollTop;
+
+        // Near top of the page: always keep visible
+        if (currentScrollY <= minScrollToHide) {
+          nav.classList.remove('nav-hidden');
+          lastScrollY = currentScrollY;
+          ticking = false;
+          return;
+        }
+
+        // Prevent triggering on iOS rubber-band overscroll at bottom of document
+        const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+        if (currentScrollY >= maxScroll - 20) {
+          ticking = false;
+          return;
+        }
+
+        const delta = currentScrollY - lastScrollY;
+
+        if (Math.abs(delta) > threshold) {
+          if (delta > 0) {
+            // Scrolling down -> hide nav
+            nav.classList.add('nav-hidden');
+            const sr = document.getElementById('searchResults');
+            if (sr && !sr.classList.contains('hidden')) sr.classList.add('hidden');
+          } else {
+            // Scrolling up -> show nav
+            nav.classList.remove('nav-hidden');
+          }
+          lastScrollY = currentScrollY;
+        }
+        ticking = false;
+      }
+
+      window.addEventListener('scroll', function () {
+        if (!ticking) {
+          window.requestAnimationFrame(onScroll);
+          ticking = true;
+        }
+      }, { passive: true });
     })();
   </script>
 
