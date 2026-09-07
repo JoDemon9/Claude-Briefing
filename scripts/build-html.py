@@ -2311,11 +2311,12 @@ def main():
 
     root_index = os.path.join(BASE_DIR, 'index.html')
     briefing_html = os.path.join(BRIEFINGS_DIR, f'oracle-briefing-{date_slug}.html')
+    root_briefing_slug = os.path.join(BRIEFINGS_DIR, f'{date_slug}.html')
     docs_index = os.path.join(DOCS_DIR, 'index.html')
     docs_briefing_html = os.path.join(DOCS_BRIEFINGS_DIR, f'{date_slug}.html')
     docs_briefing_md = os.path.join(DOCS_BRIEFINGS_DIR, f'{date_slug}.md')
 
-    for path in [root_index, briefing_html, docs_index, docs_briefing_html]:
+    for path in [root_index, briefing_html, root_briefing_slug, docs_index, docs_briefing_html]:
         with open(path, 'w', encoding='utf-8') as f:
             f.write(html_content)
         print(f"Generated: {path}")
