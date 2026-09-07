@@ -539,8 +539,12 @@ def parse_markdown(md_content):
             w_data = {'raw_items': [], 'source': None}
             for sl in sec_lines[1:]:
                 sl_c = sl.strip()
+                if sl_c.startswith('---') or sl_c.startswith('***') or sl_c == '--' or not sl_c:
+                    continue
                 if sl_c.startswith('*') or sl_c.startswith('-'):
-                    item_text = re.sub(r'^[*\-]\s*', '', sl_c)
+                    item_text = re.sub(r'^[*\-]\s*', '', sl_c).strip()
+                    if not item_text or item_text in ['--', '---']:
+                        continue
                     if 'Πηγή:' in item_text:
                         src_parsed = re.findall(r'\[(.*?)\]\((.*?)\)', item_text)
                         if src_parsed:
@@ -553,36 +557,56 @@ def parse_markdown(md_content):
         elif 'ΕΞΕΛΙΞΕΙΣ' in sec_header:
             for sl in sec_lines[1:]:
                 sl_c = sl.strip()
+                if sl_c.startswith('---') or sl_c.startswith('***') or sl_c == '--' or not sl_c:
+                    continue
                 if sl_c.startswith('*') or sl_c.startswith('-'):
-                    data['developments'].append(re.sub(r'^[*\-]\s*', '', sl_c))
+                    item_text = re.sub(r'^[*\-]\s*', '', sl_c).strip()
+                    if item_text and item_text not in ['--', '---']:
+                        data['developments'].append(item_text)
 
         # PORTFOLIO / STANDING INTERESTS
         elif 'Ο ΦΑΚΕΛΟΣ ΜΟΥ' in sec_header:
             for sl in sec_lines[1:]:
                 sl_c = sl.strip()
+                if sl_c.startswith('---') or sl_c.startswith('***') or sl_c == '--' or not sl_c:
+                    continue
                 if sl_c.startswith('*') or sl_c.startswith('-'):
-                    data['portfolio'].append(re.sub(r'^[*\-]\s*', '', sl_c))
+                    item_text = re.sub(r'^[*\-]\s*', '', sl_c).strip()
+                    if item_text and item_text not in ['--', '---']:
+                        data['portfolio'].append(item_text)
 
         # DEADLINES
         elif 'ΤΙ ΝΑ ΚΑΝΩ' in sec_header:
             for sl in sec_lines[1:]:
                 sl_c = sl.strip()
+                if sl_c.startswith('---') or sl_c.startswith('***') or sl_c == '--' or not sl_c:
+                    continue
                 if sl_c.startswith('*') or sl_c.startswith('-'):
-                    data['deadlines'].append(re.sub(r'^[*\-]\s*', '', sl_c))
+                    item_text = re.sub(r'^[*\-]\s*', '', sl_c).strip()
+                    if item_text and item_text not in ['--', '---']:
+                        data['deadlines'].append(item_text)
 
         # TOMORROW
         elif 'ΓΙΑ ΑΥΡΙΟ' in sec_header:
             for sl in sec_lines[1:]:
                 sl_c = sl.strip()
+                if sl_c.startswith('---') or sl_c.startswith('***') or sl_c == '--' or not sl_c:
+                    continue
                 if re.match(r'^\d+\.', sl_c):
-                    data['tomorrow'].append(re.sub(r'^\d+\.\s*', '', sl_c))
+                    item_text = re.sub(r'^\d+\.\s*', '', sl_c).strip()
+                    if item_text and item_text not in ['--', '---']:
+                        data['tomorrow'].append(item_text)
 
         # FOOTNOTES
         elif 'Υποσημείωση' in sec_header or 'ΥΠΟΣΗΜΕΙΩΣΗ' in sec_header:
             for sl in sec_lines:
                 sl_c = sl.strip()
+                if sl_c.startswith('---') or sl_c.startswith('***') or sl_c == '--' or not sl_c:
+                    continue
                 if sl_c.startswith('*') or sl_c.startswith('-'):
-                    data['footnotes'].append(re.sub(r'^[*\-]\s*', '', sl_c))
+                    item_text = re.sub(r'^[*\-]\s*', '', sl_c).strip()
+                    if item_text and item_text not in ['--', '---']:
+                        data['footnotes'].append(item_text)
 
     return data
 
@@ -654,12 +678,18 @@ def build_search_index():
                 content = f.read()
             data = parse_markdown(content)
 
+            def clean_plain(s):
+                if not s: return ""
+                s = re.sub(r'\[(.*?)\]\((https?://[^\s)]+)\)', r'\1', s)
+                s = re.sub(r'\*+', '', s)
+                return s.strip()
+
             if data['top_story'].get('title'):
                 index_entries.append({
                     'date': date_str,
                     'section': '⭐ Πρώτο Θέμα',
-                    'title': data['top_story']['title'],
-                    'snippet': data['top_story']['body'][:180] + '...',
+                    'title': clean_plain(data['top_story']['title']),
+                    'snippet': clean_plain(data['top_story']['body'][:180]) + '...',
                     'url': f"briefings/{date_str}.html#top-story" if date_str != datetime.now().strftime('%Y-%m-%d') else "#top-story"
                 })
 
@@ -667,8 +697,8 @@ def build_search_index():
                 index_entries.append({
                     'date': date_str,
                     'section': '🇨🇾 Κύπρος',
-                    'title': item['title'],
-                    'snippet': item['body'][:160] + '...',
+                    'title': clean_plain(item['title']),
+                    'snippet': clean_plain(item['body'][:160]) + '...',
                     'url': f"briefings/{date_str}.html#cyprus" if date_str != datetime.now().strftime('%Y-%m-%d') else "#cyprus"
                 })
 
@@ -676,17 +706,18 @@ def build_search_index():
                 index_entries.append({
                     'date': date_str,
                     'section': '🌍 Διεθνή',
-                    'title': item['title'],
-                    'snippet': item['body'][:160] + '...',
+                    'title': clean_plain(item['title']),
+                    'snippet': clean_plain(item['body'][:160]) + '...',
                     'url': f"briefings/{date_str}.html#world" if date_str != datetime.now().strftime('%Y-%m-%d') else "#world"
                 })
 
             for dl in data['deadlines']:
+                clean_dl = clean_plain(dl)
                 index_entries.append({
                     'date': date_str,
                     'section': '📅 Προθεσμίες',
-                    'title': dl.split('—')[0].strip(),
-                    'snippet': dl[:160] + '...',
+                    'title': clean_dl.split('—')[0].strip(),
+                    'snippet': clean_dl[:160] + '...',
                     'url': f"briefings/{date_str}.html#deadlines" if date_str != datetime.now().strftime('%Y-%m-%d') else "#deadlines"
                 })
 
@@ -1001,40 +1032,40 @@ def render_html(data, house_stats, search_index):
         if last_res:
             if key == 'formula1':
                 m_gp = re.search(r'\*\*([^*]+Grand Prix[^*]*)\*\*', last_res, re.I)
-                gp_title = m_gp.group(1).strip() if m_gp else 'Italian Grand Prix (Monza)'
+                gp_title = m_gp.group(1).strip() if m_gp else 'Italian Grand Prix 2026 (Monza)'
                 scoreboard_html = f'''
-                <div class="bg-[var(--paper)] border border-[var(--rule)] rounded-2xl p-4 sm:p-5 mb-5 shadow-xs">
-                  <div class="flex items-center justify-between text-[11px] font-mono text-[var(--ink-quiet)] uppercase mb-2">
-                    <span class="flex items-center gap-1.5 font-bold">🏁 ΤΕΛΕΥΤΑΙΟ GRAND PRIX</span>
-                    <span class="px-2 py-0.5 rounded-full bg-red-100 text-red-800 dark:bg-red-950/70 dark:text-red-300 font-bold">MONZA</span>
+                <div class="bg-[var(--paper)] border border-[var(--rule)] rounded-2xl p-5 mb-6 shadow-xs">
+                  <div class="flex items-center justify-between text-xs font-mono text-[var(--ink-quiet)] uppercase mb-2.5">
+                    <span class="flex items-center gap-2 font-bold">🏁 ΤΕΛΕΥΤΑΙΟ GRAND PRIX</span>
+                    <span class="px-2.5 py-0.5 rounded-full bg-red-100 text-red-800 dark:bg-red-950/70 dark:text-red-300 font-bold">MONZA</span>
                   </div>
-                  <div class="text-sm sm:text-base font-bold text-[var(--ink)] font-sans mb-2">{gp_title}</div>
-                  <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-red-600/10 dark:bg-red-500/15 border border-red-500/30 text-xs sm:text-sm font-mono font-bold text-red-700 dark:text-red-300 mb-2.5">
+                  <div class="text-base sm:text-lg font-bold text-[var(--ink)] font-sans mb-2.5">{gp_title}</div>
+                  <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-red-600/10 dark:bg-red-500/15 border border-red-500/30 text-xs sm:text-sm font-mono font-bold text-red-700 dark:text-red-300 mb-3">
                     <span>🏆</span> <span>P1 Antonelli · P2 Russell · P3 Verstappen</span>
                   </div>
-                  <p class="text-xs sm:text-sm text-[var(--ink-quiet)] leading-relaxed">
+                  <p class="text-sm text-[var(--ink-body)] leading-relaxed">
                     {md_to_inline_html(last_res)}
                   </p>
                 </div>'''
             else:
                 score_m = re.search(r'\b(\d+)\s*[-–]\s*(\d+)\b', last_res)
-                score_str = f"{score_m.group(1)} - {score_m.group(2)}" if score_m else "FT"
+                score_str = f"{score_m.group(1)} – {score_m.group(2)}" if score_m else "FT"
                 first_part = last_res.split('(')[0].replace('**', '').strip()
                 fixture = re.sub(r'\s*\b\d+\s*[-–]\s*\d+\b\s*', '', first_part).strip(' –-')
                 fixture = re.sub(r'\s*–\s*', ' vs ', fixture)
                 scoreboard_html = f'''
-                <div class="bg-[var(--paper)] border border-[var(--rule)] rounded-2xl p-4 sm:p-5 mb-5 shadow-xs">
-                  <div class="flex items-center justify-between text-[11px] font-mono text-[var(--ink-quiet)] uppercase mb-2">
-                    <span class="flex items-center gap-1.5 font-bold">⚽ ΤΕΛΕΥΤΑΙΟ ΑΠΟΤΕΛΕΣΜΑ</span>
-                    <span class="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 dark:bg-emerald-950/70 dark:text-emerald-300 font-bold">FT</span>
+                <div class="bg-[var(--paper)] border border-[var(--rule)] rounded-2xl p-5 mb-6 shadow-xs">
+                  <div class="flex items-center justify-between text-xs font-mono text-[var(--ink-quiet)] uppercase mb-2.5">
+                    <span class="flex items-center gap-2 font-bold">⚽ ΤΕΛΕΥΤΑΙΟ ΑΠΟΤΕΛΕΣΜΑ</span>
+                    <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 dark:bg-emerald-950/70 dark:text-emerald-300 font-bold">FT</span>
                   </div>
-                  <div class="flex items-center justify-between gap-3 mb-2.5">
-                    <div class="text-sm sm:text-base font-bold text-[var(--ink)] truncate">{fixture}</div>
-                    <div class="px-3 py-1 rounded-xl bg-slate-900 text-amber-400 font-mono font-black text-base sm:text-lg tracking-wider shadow-inner">
+                  <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
+                    <div class="text-base sm:text-lg font-bold text-[var(--ink)]">{fixture}</div>
+                    <div class="px-3.5 py-1.5 rounded-xl bg-slate-900 text-amber-400 font-mono font-black text-lg tracking-wider shadow-inner">
                       {score_str}
                     </div>
                   </div>
-                  <p class="text-xs sm:text-sm text-[var(--ink-quiet)] leading-relaxed">
+                  <p class="text-sm text-[var(--ink-body)] leading-relaxed">
                     {md_to_inline_html(last_res)}
                   </p>
                 </div>'''
@@ -1049,22 +1080,22 @@ def render_html(data, house_stats, search_index):
 
         highlights_html = f'''
         <a href="{hl_url}" target="_blank" rel="noopener noreferrer" 
-           class="group flex items-center justify-between p-3.5 sm:p-4 rounded-xl bg-gradient-to-r from-red-600/10 via-red-600/5 to-transparent hover:from-red-600/20 hover:to-red-600/15 border border-red-500/30 hover:border-red-500/50 transition-all duration-200 mb-5 shadow-xs">
-          <div class="flex items-center gap-3 min-w-0">
-            <span class="w-9 h-9 sm:w-10 sm:h-10 flex-shrink-0 rounded-xl bg-red-600 text-white flex items-center justify-center font-bold text-sm sm:text-base shadow-sm group-hover:scale-110 transition-transform">
+           class="group flex items-center justify-between p-4 rounded-2xl bg-gradient-to-r from-red-600/10 via-red-600/5 to-transparent hover:from-red-600/20 hover:to-red-600/15 border border-red-500/30 hover:border-red-500/50 transition-all duration-200 mb-6 shadow-xs">
+          <div class="flex items-center gap-3.5 min-w-0 flex-1">
+            <span class="w-10 h-10 flex-shrink-0 rounded-xl bg-red-600 text-white flex items-center justify-center font-bold text-base shadow-sm group-hover:scale-110 transition-transform">
               ▶
             </span>
-            <div class="min-w-0 text-left">
-              <div class="text-[11px] font-mono uppercase tracking-wider text-red-600 dark:text-red-400 font-bold flex items-center gap-1.5">
+            <div class="min-w-0 flex-1">
+              <div class="text-xs font-mono uppercase tracking-wider text-red-600 dark:text-red-400 font-bold flex items-center gap-1.5">
                 <span>🎬 YOUTUBE HIGHLIGHTS</span>
                 <span class="text-[9px] px-1.5 py-0.2 rounded bg-red-600 text-white font-semibold">HD</span>
               </div>
-              <div class="text-xs sm:text-sm font-semibold text-[var(--ink)] group-hover:text-red-600 dark:group-hover:text-red-400 truncate mt-0.5">
+              <div class="text-sm font-semibold text-[var(--ink)] group-hover:text-red-600 dark:group-hover:text-red-400 mt-1 break-words">
                 {hl_title}
               </div>
             </div>
           </div>
-          <span class="text-sm text-red-600 dark:text-red-400 font-bold group-hover:translate-x-1 transition-transform ml-2 flex-shrink-0">↗</span>
+          <span class="text-base text-red-600 dark:text-red-400 font-bold group-hover:translate-x-1.5 transition-transform ml-3 flex-shrink-0">↗</span>
         </a>'''
 
         # 3. Next Match / Grand Prix
@@ -1072,11 +1103,11 @@ def render_html(data, house_stats, search_index):
         if nxt_match:
             lbl = "🏁 ΕΠΟΜΕΝΟ GRAND PRIX" if key == 'formula1' else "📅 ΕΠΟΜΕΝΟΣ ΑΓΩΝΑΣ"
             next_match_html = f'''
-            <div class="p-4 sm:p-5 rounded-2xl bg-[var(--paper)] border border-[var(--rule)] mb-5 shadow-xs">
-              <div class="text-[11px] font-mono text-[var(--ink-quiet)] uppercase tracking-wider mb-2 flex items-center gap-1.5 font-bold">
+            <div class="p-5 rounded-2xl bg-[var(--paper)] border border-[var(--rule)] mb-6 shadow-xs">
+              <div class="text-xs font-mono text-[var(--ink-quiet)] uppercase tracking-wider mb-2 flex items-center gap-1.5 font-bold">
                 {lbl}
               </div>
-              <div class="text-xs sm:text-sm font-semibold text-[var(--ink)] leading-relaxed">
+              <div class="text-sm sm:text-base font-semibold text-[var(--ink)] leading-relaxed">
                 {md_to_inline_html(nxt_match)}
               </div>
             </div>'''
@@ -1084,13 +1115,13 @@ def render_html(data, house_stats, search_index):
         # 4. News & Squad Report
         news_html = ""
         if news_items:
-            bullets = ''.join([f'<li class="leading-relaxed pl-1">{md_to_inline_html(n)}</li>' for n in news_items])
+            bullets = ''.join([f'<li class="leading-relaxed pl-1">{md_to_inline_html(n)}</li>' for n in news_items if n and n not in ['--', '---']])
             news_html = f'''
-            <div class="mb-5">
-              <div class="text-[11px] font-mono text-[var(--ink-quiet)] uppercase tracking-wider mb-2.5 font-bold flex items-center gap-1.5">
+            <div class="mb-6">
+              <div class="text-xs font-mono text-[var(--ink-quiet)] uppercase tracking-wider mb-3 font-bold flex items-center gap-2">
                 <span>📋</span> <span>ΑΓΩΝΙΣΤΙΚΑ ΝΕΑ & ΡΕΠΟΡΤΑΖ</span>
               </div>
-              <ul class="text-xs sm:text-sm text-[var(--ink-body)] space-y-2.5 list-disc list-inside leading-relaxed">
+              <ul class="text-sm text-[var(--ink-body)] space-y-3 list-disc list-inside leading-relaxed">
                 {bullets}
               </ul>
             </div>'''
@@ -1098,14 +1129,14 @@ def render_html(data, house_stats, search_index):
         # Fallback raw list if neither scoreboard nor next match
         fallback_raw = ""
         if not scoreboard_html and not next_match_html and team_data.get('raw'):
-            raw_bullets = ''.join([f'<li class="leading-relaxed pl-1">{md_to_inline_html(r)}</li>' for r in team_data['raw']])
-            fallback_raw = f'<ul class="text-xs sm:text-sm text-[var(--ink-body)] space-y-2.5 list-disc list-inside mb-5">{raw_bullets}</ul>'
+            raw_bullets = ''.join([f'<li class="leading-relaxed pl-1">{md_to_inline_html(r)}</li>' for r in team_data['raw'] if r and r not in ['--', '---']])
+            fallback_raw = f'<ul class="text-sm text-[var(--ink-body)] space-y-3 list-disc list-inside mb-6">{raw_bullets}</ul>'
 
         # 5. Source
         src_url = src_info.get('url', '#') if src_info else '#'
         src_name = src_info.get('name', 'Επίσημη Πηγή') if src_info else 'Επίσημη Πηγή'
         source_html = f'''
-        <div class="pt-3.5 border-t border-[var(--rule)] mt-auto flex items-center justify-between t-meta">
+        <div class="pt-4 border-t border-[var(--rule)] mt-auto flex items-center justify-between t-meta">
           <span class="text-[var(--ink-quiet)] font-mono flex items-center gap-1.5">
             <span>🌐</span> <span>Επίσημο Κανάλι:</span>
           </span>
@@ -1115,23 +1146,23 @@ def render_html(data, house_stats, search_index):
         </div>'''
 
         return f'''
-        <article class="card overflow-hidden flex flex-col justify-between border rounded-2xl shadow-xs {meta.get('border_cls', '')}">
+        <article class="card overflow-hidden flex flex-col justify-between border rounded-2xl shadow-sm {meta.get('border_cls', '')}">
           <div>
             <!-- Header -->
-            <div class="bg-gradient-to-r {meta.get('gradient', 'from-slate-900 to-black')} p-4 sm:p-5 text-white">
-              <div class="flex items-center justify-between gap-3">
-                <div class="flex items-center gap-2.5">
-                  <span class="text-2xl sm:text-3xl">{meta.get('icon', '⚽')}</span>
-                  <h3 class="font-masthead font-bold text-sm sm:text-base tracking-wide text-white">{meta.get('name', key.upper())}</h3>
+            <div class="bg-gradient-to-r {meta.get('gradient', 'from-slate-900 to-black')} p-5 sm:p-6 text-white">
+              <div class="flex flex-wrap items-center justify-between gap-3">
+                <div class="flex items-center gap-3">
+                  <span class="text-3xl sm:text-4xl">{meta.get('icon', '⚽')}</span>
+                  <h3 class="font-masthead font-bold text-base sm:text-lg tracking-wide text-white">{meta.get('name', key.upper())}</h3>
                 </div>
-                <span class="t-meta uppercase tracking-wider px-2.5 py-1 rounded-full text-[10px] sm:text-[11px] {meta.get('badge_bg', 'bg-white/10 text-white/90')}">
+                <span class="t-meta uppercase tracking-wider px-3 py-1 rounded-full text-xs {meta.get('badge_bg', 'bg-white/10 text-white/90')}">
                   {meta.get('badge', '')}
                 </span>
               </div>
             </div>
 
             <!-- Content with generous spacing -->
-            <div class="p-5 sm:p-6 lg:p-7">
+            <div class="p-6 sm:p-7 lg:p-8">
               {scoreboard_html}
               {highlights_html}
               {next_match_html}
@@ -1140,7 +1171,7 @@ def render_html(data, house_stats, search_index):
             </div>
           </div>
 
-          <div class="p-5 sm:p-6 lg:p-7 pt-0">
+          <div class="p-6 sm:p-7 lg:p-8 pt-0">
             {source_html}
           </div>
         </article>
@@ -1153,9 +1184,11 @@ def render_html(data, house_stats, search_index):
         build_sport_card('formula1', data['sports'].get('formula1', {}))
     ])
 
-    # Weather narrative with rich emojis & badges
+    # Weather narrative with rich emojis & badges (never showing -- separators)
     wx_formatted_items = []
     for raw in data['weather'].get('raw_items', []):
+        if not raw or raw.strip() in ['--', '---'] or raw.startswith('---'):
+            continue
         icon = '🌤️'
         low = raw.lower()
         if 'θερμοκρασία' in low:
@@ -1176,9 +1209,9 @@ def render_html(data, house_stats, search_index):
             lbl = m_label.group(1).strip()
             rest = md_to_inline_html(m_label.group(2).strip())
             is_warn = (icon == '⚠️')
-            bg_cls = "bg-amber-500/10 border border-amber-500/30" if is_warn else "bg-[var(--paper)] border border-[var(--rule)]"
+            bg_cls = "bg-amber-500/10 border border-amber-500/30 dark:bg-amber-950/30" if is_warn else "bg-[var(--paper)] border border-[var(--rule)]"
             wx_formatted_items.append(f'''
-            <div class="flex items-start gap-3 p-3 rounded-xl {bg_cls} shadow-2xs">
+            <div class="flex items-start gap-3.5 p-3.5 rounded-xl {bg_cls} shadow-2xs">
               <span class="text-xl flex-shrink-0 mt-0.5">{icon}</span>
               <div class="text-xs sm:text-sm text-[var(--ink-body)] leading-relaxed">
                 <span class="font-bold text-[var(--ink)]">{lbl}:</span> {rest}
@@ -1186,18 +1219,127 @@ def render_html(data, house_stats, search_index):
             </div>''')
         else:
             wx_formatted_items.append(f'''
-            <div class="flex items-start gap-3 p-3 rounded-xl bg-[var(--paper)] border border-[var(--rule)] shadow-2xs">
+            <div class="flex items-start gap-3.5 p-3.5 rounded-xl bg-[var(--paper)] border border-[var(--rule)] shadow-2xs">
               <span class="text-xl flex-shrink-0 mt-0.5">{icon}</span>
               <div class="text-xs sm:text-sm text-[var(--ink-body)] leading-relaxed">{md_to_inline_html(raw)}</div>
             </div>''')
     wx_items_html = '\n'.join(wx_formatted_items)
 
-    # Developments, Portfolio, Deadlines, Tomorrow
-    dev_html = ''.join([f'<li class="leading-relaxed">{item}</li>' for item in data['developments']])
-    port_html = ''.join([f'<li class="leading-relaxed">{item}</li>' for item in data['portfolio']])
-    dead_html = ''.join([f'<li class="leading-relaxed">{item}</li>' for item in data['deadlines']])
-    tom_html = ''.join([f'<li class="leading-relaxed">{item}</li>' for item in data['tomorrow']])
-    foot_html = ''.join([f'<li class="leading-relaxed">{item}</li>' for item in data['footnotes']])
+    # Developments Cards (clean executive blocks without raw asterisks)
+    dev_cards = []
+    for item in data['developments']:
+        if not item or item.strip() in ['--', '---'] or item.startswith('---'):
+            continue
+        m = re.match(r'^\*\*(.*?)\*\*:?\s*(.*)$', item)
+        if m:
+            title = m.group(1).strip()
+            body = md_to_inline_html(m.group(2).strip())
+            dev_cards.append(f'''
+            <div class="p-4 sm:p-5 rounded-2xl bg-[var(--paper)] border border-[var(--rule)] hover:border-[var(--accent)] transition-all shadow-2xs">
+              <div class="font-bold text-sm sm:text-base text-[var(--ink)] mb-2 flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-[var(--accent)] flex-shrink-0"></span>
+                <span>{title}</span>
+              </div>
+              <p class="t-body-sm text-[var(--ink-body)] leading-relaxed">{body}</p>
+            </div>''')
+        else:
+            dev_cards.append(f'''
+            <div class="p-4 sm:p-5 rounded-2xl bg-[var(--paper)] border border-[var(--rule)] shadow-2xs">
+              <p class="t-body-sm text-[var(--ink-body)] leading-relaxed">{md_to_inline_html(item)}</p>
+            </div>''')
+    dev_html = '\n'.join(dev_cards)
+
+    # Portfolio Cards
+    port_cards = []
+    for item in data['portfolio']:
+        if not item or item.strip() in ['--', '---'] or item.startswith('---'):
+            continue
+        m = re.match(r'^\*\*(.*?)\*\*:?\s*(.*)$', item)
+        if m:
+            title = m.group(1).strip()
+            body = md_to_inline_html(m.group(2).strip())
+            port_cards.append(f'''
+            <div class="p-4 sm:p-5 rounded-2xl bg-[var(--paper)] border border-[var(--rule)] hover:border-[var(--accent)] transition-all shadow-2xs">
+              <div class="font-bold text-sm sm:text-base text-[var(--ink)] mb-2 flex items-center gap-2">
+                <span>🎯</span> <span>{title}</span>
+              </div>
+              <p class="t-body-sm text-[var(--ink-body)] leading-relaxed">{body}</p>
+            </div>''')
+        else:
+            port_cards.append(f'''
+            <div class="p-4 sm:p-5 rounded-2xl bg-[var(--paper)] border border-[var(--rule)] shadow-2xs">
+              <p class="t-body-sm text-[var(--ink-body)] leading-relaxed">{md_to_inline_html(item)}</p>
+            </div>''')
+    port_html = '\n'.join(port_cards)
+
+    # Deadlines Cards (actionable timeline pills with active links)
+    dead_cards = []
+    for item in data['deadlines']:
+        if not item or item.strip() in ['--', '---'] or item.startswith('---'):
+            continue
+        m = re.match(r'^\*\*(.*?)\*\*\s*[—–-]\s*(.*)$', item)
+        if m:
+            date_str = m.group(1).strip()
+            rest_str = m.group(2).strip()
+            m_act = re.match(r'^\*\*(.*?)\*\*:?\s*(.*)$', rest_str)
+            if m_act:
+                act_title = m_act.group(1).strip()
+                det_body = md_to_inline_html(m_act.group(2).strip())
+            else:
+                act_title = ""
+                det_body = md_to_inline_html(rest_str)
+            
+            dead_cards.append(f'''
+            <div class="p-4 sm:p-5 rounded-2xl bg-[var(--paper)] border border-[var(--rule)] hover:border-[var(--accent)] transition-all shadow-2xs flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2.5">
+                  <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-bold bg-[var(--accent)]/15 text-[var(--accent)] border border-[var(--accent)]/30">
+                    <span>📅</span> <span>{date_str}</span>
+                  </span>
+                  <span class="t-meta text-[var(--ink-quiet)] uppercase font-mono font-semibold">ΠΡΟΘΕΣΜΙΑ</span>
+                </div>
+                {f'<div class="font-bold text-sm sm:text-base text-[var(--ink)] mb-1.5">{act_title}</div>' if act_title else ''}
+                <div class="t-body-sm text-[var(--ink-body)] leading-relaxed">{det_body}</div>
+              </div>
+            </div>''')
+        else:
+            dead_cards.append(f'''
+            <div class="p-4 sm:p-5 rounded-2xl bg-[var(--paper)] border border-[var(--rule)] shadow-2xs">
+              <div class="t-body-sm text-[var(--ink-body)] leading-relaxed">{md_to_inline_html(item)}</div>
+            </div>''')
+    dead_html = '\n'.join(dead_cards)
+
+    # Tomorrow Cards (numbered executive agenda points)
+    tom_cards = []
+    for idx, item in enumerate(data['tomorrow']):
+        if not item or item.strip() in ['--', '---'] or item.startswith('---'):
+            continue
+        m = re.match(r'^\*\*(.*?)\*\*:?\s*(.*)$', item)
+        if m:
+            title = m.group(1).strip()
+            desc = md_to_inline_html(m.group(2).strip())
+            tom_cards.append(f'''
+            <div class="flex items-start gap-4 p-4 sm:p-5 rounded-2xl bg-[var(--paper)] border border-[var(--rule)] hover:border-[var(--accent)] transition-all shadow-2xs">
+              <div class="w-9 h-9 rounded-xl bg-[var(--accent)]/15 border border-[var(--accent)]/30 text-[var(--accent)] flex items-center justify-center font-mono font-black text-sm flex-shrink-0">
+                {idx+1:02d}
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="font-bold text-sm sm:text-base text-[var(--ink)] mb-1">{title}</div>
+                <div class="t-body-sm text-[var(--ink-body)] leading-relaxed">{desc}</div>
+              </div>
+            </div>''')
+        else:
+            tom_cards.append(f'''
+            <div class="flex items-start gap-4 p-4 sm:p-5 rounded-2xl bg-[var(--paper)] border border-[var(--rule)] shadow-2xs">
+              <div class="w-9 h-9 rounded-xl bg-[var(--accent)]/15 border border-[var(--accent)]/30 text-[var(--accent)] flex items-center justify-center font-mono font-black text-sm flex-shrink-0">
+                {idx+1:02d}
+              </div>
+              <div class="t-body-sm text-[var(--ink-body)] leading-relaxed flex-1 min-w-0">{md_to_inline_html(item)}</div>
+            </div>''')
+    tom_html = '\n'.join(tom_cards)
+
+    # Footnotes
+    foot_html = ''.join([f'<li class="leading-relaxed">{md_to_inline_html(item)}</li>' for item in data['footnotes'] if item and item not in ['--', '---'] and not item.startswith('---')])
 
     # Top Story Source Links
     top_sources = []
@@ -1815,10 +1957,8 @@ def render_html(data, house_stats, search_index):
       <!-- House Search Banner if available -->
       {house_card_html}
 
-      <div class="card p-5 shadow-xs">
-        <ul class="t-body-sm text-[var(--ink-body)] space-y-2.5 list-disc list-inside">
-          {port_html}
-        </ul>
+      <div class="space-y-3.5">
+        {port_html}
       </div>
     </section>
 
@@ -1911,34 +2051,38 @@ def render_html(data, house_stats, search_index):
     </section>
 
     <!-- ==================== 🗂️ 9 & 10. ΕΞΕΛΙΞΕΙΣ & ΠΡΟΘΕΣΜΙΕΣ ==================== -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <section id="developments" class="card p-5 shadow-xs">
-        <h3 class="t-section mb-3 border-b border-[var(--rule)] pb-2 flex items-center gap-2">
-          <span>🗂️</span> <span>Εξελίξεις & Συνέχεια</span>
-        </h3>
-        <ul class="t-body-sm text-[var(--ink-body)] space-y-2 list-disc list-inside">
-          {dev_html}
-        </ul>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-7 lg:gap-8 my-8 sm:my-10">
+      <section id="developments" class="card p-5 sm:p-6 shadow-xs flex flex-col justify-between">
+        <div>
+          <h3 class="t-section mb-4 border-b border-[var(--rule)] pb-2.5 flex items-center gap-2">
+            <span>🗂️</span> <span>Εξελίξεις & Συνέχεια</span>
+          </h3>
+          <div class="space-y-3.5">
+            {dev_html}
+          </div>
+        </div>
       </section>
 
-      <section id="deadlines" class="card p-5 shadow-xs">
-        <h3 class="t-section mb-3 border-b border-[var(--rule)] pb-2 flex items-center gap-2">
-          <span>📅</span> <span>Προθεσμίες & Δράσεις</span>
-        </h3>
-        <ul class="t-body-sm text-[var(--ink-body)] space-y-2 list-disc list-inside">
-          {dead_html}
-        </ul>
+      <section id="deadlines" class="card p-5 sm:p-6 shadow-xs flex flex-col justify-between">
+        <div>
+          <h3 class="t-section mb-4 border-b border-[var(--rule)] pb-2.5 flex items-center gap-2">
+            <span>📅</span> <span>Προθεσμίες & Δράσεις</span>
+          </h3>
+          <div class="space-y-3.5">
+            {dead_html}
+          </div>
+        </div>
       </section>
     </div>
 
     <!-- ==================== 🔍 11. ΓΙΑ ΑΥΡΙΟ ==================== -->
-    <section id="tomorrow" class="card p-6 shadow-xs border-t-4 border-[var(--accent)]">
-      <h3 class="t-section mb-3 flex items-center gap-2">
+    <section id="tomorrow" class="card p-6 sm:p-7 shadow-xs border-t-4 border-[var(--accent)] my-8 sm:my-10">
+      <h3 class="t-section mb-4 border-b border-[var(--rule)] pb-2.5 flex items-center gap-2">
         <span>🔍</span> <span>Για Αύριο — Θέματα προς Παρακολούθηση</span>
       </h3>
-      <ol class="t-body-sm text-[var(--ink-body)] space-y-2 list-decimal list-inside">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         {tom_html}
-      </ol>
+      </div>
     </section>
 
     <!-- ==================== 12. FOOTNOTES ==================== -->
