@@ -27,17 +27,25 @@ if os.path.exists(env_file):
         pass
 
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+from datetime import datetime
+
 CHAT  = os.environ.get("TELEGRAM_CHAT_ID")
 BASE  = os.environ.get("BRIEFING_BASE_URL", "https://jodemon9.github.io/oracle-briefing")
-date  = sys.argv[1] if len(sys.argv) > 1 else "2026-09-07"
+
+arg = sys.argv[1] if len(sys.argv) > 1 else ""
+if arg and os.path.isfile(arg):
+    md_path = arg
+    m = re.search(r'(\d{4}-\d{2}-\d{2})', os.path.basename(arg))
+    date = m.group(1) if m else datetime.now().strftime('%Y-%m-%d')
+else:
+    date = arg if arg else datetime.now().strftime('%Y-%m-%d')
+    md_path = f"docs/briefings/{date}.md"
+    if not os.path.exists(md_path):
+        md_path = f"briefings/oracle-briefing-{date}.md"
 
 if not TOKEN or not CHAT:
     print("Warning: Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID in environment.")
     print("Test run mode: parsing markdown and validating formatted message...")
-
-md_path = f"docs/briefings/{date}.md"
-if not os.path.exists(md_path):
-    md_path = f"briefings/oracle-briefing-{date}.md"
 
 with open(md_path, "r", encoding="utf-8") as f:
     md = f.read()
