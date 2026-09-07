@@ -99,21 +99,51 @@ deadlines_str = "\n".join(deadlines[:3])
 def esc(s):
     return html.escape(s, quote=False)
 
-text = f"""🏛️ <b>THE ORACLE SOVEREIGN</b> — {date}
+# Extract edition time/label if present
+edition_time = ""
+for l in md.splitlines()[:6]:
+    m_ed = re.search(r'\*\*(\d{1,2}:\d{2}\s*ώρα Κύπρου.*?)\*\*', l.strip())
+    if m_ed:
+        edition_time = m_ed.group(1).strip()
+        break
 
-⭐ <b>Θέμα της ημέρας</b>
-{esc(top_story)}
+sports_block = grab("## ⚽", "## 🌤️")
+sports_summary = ""
+if "### ΟΜΟΝΟΙΑ" in sports_block:
+    m_om = re.search(r'\*\*Επόμενος αγώνας:\*\*\s*(.+)', sports_block)
+    if m_om:
+        clean_om = re.sub(r'\(\[.*?\]\(.*?\)\)', '', m_om.group(1)).strip()
+        clean_om = re.sub(r'[*_]', '', clean_om).strip()
+        sports_summary = f"⚽ <b>Αθλητικά:</b> {esc(clean_om)}"
 
-📊 <b>Αγορές</b>
-{esc(dash_rows_str)}
+weather_block = grab("## 🌤️", "## 🗂️")
+weather_summary = ""
+m_w = re.search(r'\*\*Θερμοκρασία:\*\*\s*(.+)', weather_block)
+if m_w:
+    clean_w = re.sub(r'\(\[.*?\]\(.*?\)\)', '', m_w.group(1)).strip()
+    clean_w = re.sub(r'[*_]', '', clean_w).strip()
+    weather_summary = f"🌤️ <b>Καιρός:</b> {esc(clean_w)}"
 
-🎯 <b>Ο φάκελός μου</b>
-{esc(my_file_str) or '—'}
+header_text = f"🏛️ <b>THE ORACLE SOVEREIGN</b> — {date}"
+if edition_time:
+    header_text += f"\n🕒 <i>{esc(edition_time)}</i>"
 
-📅 <b>Προθεσμίες</b>
-{esc(deadlines_str) or '—'}
+msg_parts = [
+    header_text,
+    f"⭐ <b>Θέμα της ημέρας</b>\n{esc(top_story)}",
+    f"📊 <b>Αγορές</b>\n{esc(dash_rows_str)}",
+    f"🎯 <b>Ο φάκελός μου</b>\n{esc(my_file_str) or '—'}",
+    f"📅 <b>Προθεσμίες</b>\n{esc(deadlines_str) or '—'}"
+]
 
-📖 <a href="{BASE}/briefings/{date}.html">Πλήρης έκδοση</a>"""
+if sports_summary:
+    msg_parts.append(sports_summary)
+if weather_summary:
+    msg_parts.append(weather_summary)
+
+msg_parts.append(f'📖 <a href="{BASE}/briefings/{date}.html">Πλήρης έκδοση</a>')
+
+text = "\n\n".join(msg_parts)
 
 if len(text) > 4000:
     text = text[:3900] + "\n…\n" + f'<a href="{BASE}/briefings/{date}.html">Πλήρης έκδοση</a>'

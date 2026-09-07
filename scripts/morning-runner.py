@@ -80,15 +80,10 @@ def main():
     else:
         print(f"Briefing markdown already present: {today_md}")
 
-    # 2. Execute Daily Pipeline (Build HTML, Quality Check, Telegram Dispatch)
+    # 2. Execute Daily Pipeline (Build HTML, Quality Check, Git Push to GitHub Pages, Telegram Dispatch)
     if not run_command(f'python "{DAILY_RUN_SCRIPT}" "{today_md}"', "Running Daily Pipeline"):
         print("Daily pipeline encountered an issue.")
         sys.exit(1)
-
-    # 3. Push to GitHub Pages
-    push_cmd = f'git add -A && git commit -m "feat: publish morning edition {today_str}" && git push'
-    print("\n▶ Syncing live GitHub Pages...")
-    subprocess.run(push_cmd, shell=True, cwd=BASE_DIR)
 
     mark_done(today_str)
 

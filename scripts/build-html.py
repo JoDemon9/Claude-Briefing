@@ -238,11 +238,12 @@ def parse_markdown(md_content):
         m_title = re.search(r'#\s+🏛️\s+THE ORACLE SOVEREIGN\s*[—–-]\s*(.+)', line_clean)
         if m_title:
             data['date_str'] = m_title.group(1).strip()
-        m_meta = re.search(r'\*\*(.+?)\s*ώρα Κύπρου\s*·\s*χρόνος ανάγνωσης\s*~?(\d+)?\s*(?:λεπτά|\')?\*\*', line_clean)
-        if m_meta:
-            data['time_str'] = m_meta.group(1).strip()
-            if m_meta.group(2):
-                data['read_time'] = f"{m_meta.group(2)}'"
+        m_time = re.search(r'\*\*(\d{1,2}:\d{2})\s*ώρα Κύπρου', line_clean)
+        if m_time:
+            data['time_str'] = m_time.group(1).strip()
+        m_read = re.search(r'χρόνος ανάγνωσης\s*~?(\d+)', line_clean)
+        if m_read:
+            data['read_time'] = f"{m_read.group(1)}'"
 
     sections = re.split(r'\n##\s+', md_content)
     for sec in sections[1:]:
@@ -1353,6 +1354,9 @@ def render_html(data, house_stats, search_index):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>THE ORACLE SOVEREIGN — {date_display}</title>
   <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
   <script>

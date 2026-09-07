@@ -50,9 +50,20 @@ def main():
     if not run_command(check_cmd, "Verifying anti-duplication quality on web edition"):
         sys.exit(1)
 
-    # 3. Telegram Dispatch
+    # 3. Sync to GitHub Pages FIRST (so live site is published before notifying user)
+    import re
+    from datetime import datetime
+    m_d = re.search(r'(\d{4}-\d{2}-\d{2})', target_md)
+    d_str = m_d.group(1) if m_d else datetime.now().strftime('%Y-%m-%d')
+    push_cmd = f'git add -A && git commit -m "feat: publish edition {d_str}" && git push'
+    print("\n▶ Syncing live GitHub Pages before dispatching notification...")
+    res_push = subprocess.run(push_cmd, shell=True, cwd=BASE_DIR)
+    if res_push.returncode != 0:
+        print("Note: git push status code", res_push.returncode, "(working tree may already be clean)")
+
+    # 4. Telegram Dispatch (FINAL STEP - sent only AFTER web portal is fully deployed)
     send_cmd = f'python "{SEND_SCRIPT}" "{target_md}"' if target_md else f'python "{SEND_SCRIPT}"'
-    if not run_command(send_cmd, "Dispatching Daily Briefing to Telegram"):
+    if not run_command(send_cmd, "Dispatching Daily Briefing to Telegram (FINAL STEP)"):
         print("Note: Telegram dispatch finished with notice (check token configuration).")
 
     print("\n" + "=" * 60)
