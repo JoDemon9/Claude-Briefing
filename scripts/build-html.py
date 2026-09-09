@@ -649,13 +649,10 @@ def get_latest_house_search():
     except Exception as e:
         print(f"Note: Could not parse deep House Search metrics: {e}")
 
-    target_dir = os.path.join(BASE_DIR, 'house-search')
     docs_target_dir = os.path.join(DOCS_DIR, 'house-search')
-    os.makedirs(target_dir, exist_ok=True)
     os.makedirs(docs_target_dir, exist_ok=True)
 
     if latest_html and os.path.exists(latest_html):
-        shutil.copy2(latest_html, os.path.join(target_dir, 'latest.html'))
         shutil.copy2(latest_html, os.path.join(docs_target_dir, 'latest.html'))
         stats['local_url'] = 'house-search/latest.html'
     else:
@@ -725,10 +722,8 @@ def build_search_index():
         except Exception as e:
             print(f"Error indexing {bpath}: {e}")
 
-    index_path = os.path.join(BASE_DIR, 'search-index.json')
     docs_index_path = os.path.join(DOCS_DIR, 'search-index.json')
-    with open(index_path, 'w', encoding='utf-8') as f:
-        json.dump(index_entries, f, ensure_ascii=False, indent=2)
+    os.makedirs(DOCS_DIR, exist_ok=True)
     with open(docs_index_path, 'w', encoding='utf-8') as f:
         json.dump(index_entries, f, ensure_ascii=False, indent=2)
 
@@ -2392,18 +2387,16 @@ def main():
 
     html_content = render_html(data, house_stats, search_index)
 
-    os.makedirs(BRIEFINGS_DIR, exist_ok=True)
     os.makedirs(DOCS_DIR, exist_ok=True)
     os.makedirs(DOCS_BRIEFINGS_DIR, exist_ok=True)
 
-    root_index = os.path.join(BASE_DIR, 'index.html')
-    briefing_html = os.path.join(BRIEFINGS_DIR, f'oracle-briefing-{date_slug}.html')
-    root_briefing_slug = os.path.join(BRIEFINGS_DIR, f'{date_slug}.html')
+    # docs/ is the single published tree (GitHub Pages source). The dated copy
+    # is the permanent archive URL; index.html is the "latest edition" alias.
     docs_index = os.path.join(DOCS_DIR, 'index.html')
     docs_briefing_html = os.path.join(DOCS_BRIEFINGS_DIR, f'{date_slug}.html')
     docs_briefing_md = os.path.join(DOCS_BRIEFINGS_DIR, f'{date_slug}.md')
 
-    for path in [root_index, briefing_html, root_briefing_slug, docs_index, docs_briefing_html]:
+    for path in [docs_index, docs_briefing_html]:
         with open(path, 'w', encoding='utf-8') as f:
             f.write(html_content)
         print(f"Generated: {path}")

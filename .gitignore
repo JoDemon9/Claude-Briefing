@@ -1,5 +1,13 @@
-﻿.env
+.env
 .env.local
 node_modules/
 logs/
 *.log
+
+# Generated output — docs/ is the single published tree
+/index.html
+/search-index.json
+/house-search/
+briefings/*.html
+__pycache__/
+*.pyc
