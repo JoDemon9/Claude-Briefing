@@ -32,6 +32,12 @@ if os.path.exists(ENV_PATH):
                 env_vars[k.strip()] = v.strip()
 
 
+def fail(message):
+    """Abort the run loudly rather than writing a made-up edition."""
+    print(f"\nFATAL: {message}", file=sys.stderr)
+    sys.exit(1)
+
+
 def fetch_rss_items(url, limit=8):
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
@@ -53,28 +59,49 @@ def fetch_rss_items(url, limit=8):
 
 
 def fetch_open_meteo():
+    """Live Limassol reading, or None. Never a stand-in number: a fabricated
+    temperature is indistinguishable from a measured one once published."""
     try:
-        url = "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,relative_humidity_2m,wind_speed_10m,uv_index&timezone=auto"
+        url = ("https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04"
+               "&current=temperature_2m,relative_humidity_2m,wind_speed_10m,uv_index"
+               "&timezone=auto")
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=10) as r:
             data = json.loads(r.read().decode('utf-8'))
             curr = data.get('current', {})
+            if curr.get('temperature_2m') is None:
+                print("Weather: Open-Meteo returned no current reading.")
+                return None
             return {
-                'temp': round(curr.get('temperature_2m', 35)),
-                'humidity': curr.get('relative_humidity_2m', 58),
-                'wind': round(curr.get('wind_speed_10m', 16)),
-                'uv': round(curr.get('uv_index', 8.8))
+                'temp': round(curr['temperature_2m']),
+                'humidity': curr.get('relative_humidity_2m'),
+                'wind': round(curr['wind_speed_10m']) if curr.get('wind_speed_10m') is not None else None,
+                'uv': round(curr['uv_index']) if curr.get('uv_index') is not None else None,
             }
     except Exception as e:
         print(f"Error fetching weather: {e}")
-        return {'temp': 35, 'humidity': 58, 'wind': 16, 'uv': 9}
+        return None
 
 
 def generate_with_gemini(api_key, cy_items, world_items, wx_info, today_str):
     try:
+        if wx_info:
+            weather_line = (f"Καιρός Λεμεσού (μέτρηση Open-Meteo): {wx_info['temp']}°C, "
+                            f"Υγρασία {wx_info['humidity']}%, Άνεμος {wx_info['wind']} km/h, "
+                            f"UV {wx_info['uv']}.")
+        else:
+            weather_line = ("Καιρός Λεμεσού: ΔΕΝ ΥΠΑΡΧΕΙ ΜΕΤΡΗΣΗ. Παράλειψε εντελώς "
+                            "την ενότητα ΚΑΙΡΟΣ — μην εφεύρεις τιμές.")
+
         prompt = f"""Είσαι ο αρχισυντάκτης του «THE ORACLE SOVEREIGN», ενός αυστηρά εμπιστευτικού ημερήσιου briefing για επιφανή αναγνώστη στη Λεμεσό της Κύπρου.
 Ημερομηνία: {today_str}.
-Καιρός Λεμεσού: {wx_info['temp']}°C, Υγρασία {wx_info['humidity']}%, Άνεμος {wx_info['wind']} km/h, UV {wx_info['uv']}.
+{weather_line}
+
+ΑΠΑΡΑΒΑΤΟΣ ΚΑΝΟΝΑΣ: μην εφεύρεις ποτέ γεγονός, αριθμό ή URL. Χρησιμοποίησε
+μόνο όσα δίνονται παρακάτω ή όσα μπορείς να τεκμηριώσεις. Τιμές αγορών,
+επιτόκια, αθλητικά αποτελέσματα και σημειώσεις χαρτοφυλακίου ΔΕΝ δίνονται εδώ:
+παρέλειψε ολόκληρη την αντίστοιχη ενότητα αντί να συμπληρώσεις εικαζόμενα
+νούμερα. Κάθε σύνδεσμος πρέπει να προέρχεται αυτούσιος από τη λίστα ειδήσεων.
 
 Πρόσφατες ειδήσεις Κύπρου:
 {json.dumps(cy_items[:6], ensure_ascii=False, indent=2)}
@@ -132,210 +159,6 @@ def generate_with_gemini(api_key, cy_items, world_items, wx_info, today_str):
         return None
 
 
-GREEK_MONTHS = {
-    1: 'Ιανουαρίου', 2: 'Φεβρουαρίου', 3: 'Μαρτίου', 4: 'Απριλίου',
-    5: 'Μαΐου', 6: 'Ιουνίου', 7: 'Ιουλίου', 8: 'Αυγούστου',
-    9: 'Σεπτεμβρίου', 10: 'Οκτωβρίου', 11: 'Νοεμβρίου', 12: 'Δεκεμβρίου'
-}
-
-
-def get_greek_date_str(today_str=None):
-    if today_str:
-        try:
-            dt = datetime.strptime(today_str, '%Y-%m-%d')
-        except Exception:
-            dt = datetime.now()
-    else:
-        dt = datetime.now()
-    return f"{dt.day} {GREEK_MONTHS.get(dt.month, '')} {dt.year}"
-
-
-def generate_rss_fallback(cy_items, world_items, wx_info, today_str):
-    greek_date = get_greek_date_str(today_str)
-    top = cy_items[0] if cy_items else {'title': 'Σημαντικές οικονομικές εξελίξεις στην Κύπρο', 'link': 'https://cyprus-mail.com', 'desc': 'Συνεχίζονται οι διεργασίες στον χρηματοπιστωτικό και επενδυτικό τομέα.'}
-    
-    md = f"""# 🏛️ THE ORACLE SOVEREIGN — {greek_date}
-
-**07:30 ώρα Κύπρου · χρόνος ανάγνωσης ~7 λεπτά**
-
----
-
-## ⭐ ΤΟ ΘΕΜΑ ΤΗΣ ΗΜΕΡΑΣ
-
-### {top['title']}
-
-{top['desc']}
-
-Η σημερινή εξέλιξη διαμορφώνει νέα δεδομένα για την κυπριακή αγορά και τους επενδυτές. Οι αρμόδιοι φορείς παρακολουθούν στενά τις διακυμάνσεις, ενώ οι αναλυτές επισημαίνουν ότι απαιτείται προσεκτική στρατηγική τοποθέτηση και αξιολόγηση των επόμενων βημάτων.
-
-**Αντίλογος:** Παρά τη θετική δυναμική, στελέχη της αγοράς υπογραμμίζουν ότι οι εξωγενείς γεωπολιτικές πιέσεις και ο πληθωρισμός στον τομέα υπηρεσιών ενδέχεται να περιορίσουν το εύρος των θετικών επιδράσεων τους επόμενους μήνες.
-
-**Πηγές:** [Cyprus Mail]({top['link']}) · [StockWatch](https://www.stockwatch.com.cy)
-
----
-
-## 📊 DASHBOARD
-
-| Δείκτης / Περιουσιακό Στοιχείο | Τιμή | Μεταβολή | Ημ. αναφοράς |
-| :--- | :--- | :--- | :--- |
-| **S&P 500** | 7.747,71 | +1,10% | κλείσιμο |
-| **Nasdaq Composite** | 26.584,06 | +1,40% | κλείσιμο |
-| **VIX** | 14,32 | -5,80% | κλείσιμο |
-| **US 10Y** | 4,770% | -0,42% | κλείσιμο |
-| **EUR/USD** | 1,1627 | +0,10% | {today_str} |
-| **Euribor 3M** | 2,679% | +0,024% | {today_str} |
-| **Bitcoin (BTC)** | $79.350 | -0,50% | {today_str} |
-| **Ethereum (ETH)** | $2.505 | +0,20% | {today_str} |
-| **Bank of Cyprus (BOCH)** | €10,590 | +1,34% | κλείσιμο |
-| **Hellenic Bank (HB)** | Διαγραφή (Squeeze-out) | — | {today_str} |
-
-**Ο αριθμός της ημέρας:** **41.280** — Ο συνολικός αριθμός μαθητών μέσης εκπαίδευσης που επέστρεψαν στις σχολικές αίθουσες της Κύπρου.
-
----
-
-## 🏦 ΕΠΙΤΟΚΙΑ & ΔΟΣΗ
-
-| Euribor | 1M | 3M | 6M | 12M |
-|---|---|---|---|---|
-| **Τρέχον** | 3,120% | 2,679% | 2,850% | 2,950% |
-| **Πριν 1 μήνα** | 3,250% | 2,850% | 3,020% | 3,150% |
-
-Επιτόκιο ΕΚΤ (deposit facility): 3,75% · Επόμενη συνεδρίαση: 10 Σεπτεμβρίου 2026  
-Μέσο επιτόκιο νέων στεγαστικών Κύπρου: 3,78% (στοιχεία ΚΤΚ)  
-
-Ενδεικτική δόση: €200.000 / 25 έτη με επιτόκιο 3,78% → **€1.032 τον μήνα**.  
-Μεταβολή έναντι προηγούμενης έκδοσης: €0 (αμετάβλητο).  
-
-Πηγές: [euribor-rates.eu](https://www.euribor-rates.eu/en/) · [Κεντρική Τράπεζα Κύπρου](https://www.centralbank.cy/)
-
----
-
-## 🇨🇾 ΚΥΠΡΟΣ
-
-"""
-    for i, it in enumerate(cy_items[1:6], 1):
-        tag = "[Ο Φάκελός μου]" if i == 5 else "[Επικαιρότητα]"
-        md += f"""### {i}. {it['title']} {tag}
-{it['desc']}  
-**Γιατί με αφορά:** Αποτυπώνει τις τρέχουσες εξελίξεις στον δημόσιο και οικονομικό βίο της Κύπρου.  
-**Βάθος:**
-*   **Το υπόβαθρο:** Οι αρμόδιες αρχές και φορείς εξετάζουν το ζήτημα στα πλαίσια της στρατηγικής επικαιροποίησης.
-*   **Τι σημαίνει πρακτικά:** Άμεση παρακολούθηση των αποφάσεων για τυχόν αντίκτυπο σε επαγγελματικές ή τοπικές δραστηριότητες.
-*   **Τι να παρακολουθήσω:** Τις επίσημες ανακοινώσεις και τις σχετικές τοποθετήσεις εντός της εβδομάδας.
-**Πηγή:** [Ειδήσεις Κύπρου]({it['link']})
-
-"""
-
-    md += """---
-
-## 🌍 ΔΙΕΘΝΗ
-
-"""
-    for i, it in enumerate(world_items[:5], 1):
-        md += f"""### {i}. {it['title']} [Διεθνή]
-{it['desc']}  
-**Βάθος:**
-*   **Το υπόβαθρο:** Οι διεθνείς αγορές και οι διπλωματικές αντιπροσωπείες αξιολογούν τον αντίκτυπο της είδησης.
-*   **Τι σημαίνει πρακτικά:** Επίδραση στο ευρύτερο γεωπολιτικό και επενδυτικό περιβάλλον.
-*   **Τι να παρακολουθήσω:** Τις επόμενες συνεδριάσεις και τις δηλώσεις αξιωματούχων.
-**Πηγή:** [BBC News]({it['link']})
-
-"""
-
-    md += f"""---
-
-## 💰 ΑΓΟΡΕΣ: TOP MOVERS
-
-### Bank of Cyprus (BOCH) — €10,590 (+1,34%)
-**Αιτία:** Ισχυρή ζήτηση και σταθερός όγκος συναλλαγών στο ΧΑΚ εν αναμονή των αποφάσεων για τα μερίσματα.  
-**Πηγή:** [ΧΑΚ](https://www.cse.com.cy)
-
-### S&P 500 — 7.747,71 (+1,10%)
-**Αιτία:** Ώθηση από τις τεχνολογικές μετοχές και τα θετικά εταιρικά αποτελέσματα.  
-**Πηγή:** [Yahoo Finance](https://finance.yahoo.com)
-
-### Bitcoin (BTC) — $79.350 (-0,50%)
-**Αιτία:** Ήπιες διορθωτικές κινήσεις κάτω από τα επίπεδα ρεκόρ εν αναμονή μακροοικονομικών δεδομένων.  
-**Πηγή:** [TradingView](https://www.tradingview.com)
-
----
-
-## ⚽ ΑΘΛΗΤΙΚΑ
-
-### ΟΜΟΝΟΙΑ
-
-*   **Τελευταίο αποτέλεσμα:** Αγωνιστική δράση για το κυπριακό πρωτάθλημα και προετοιμασία ευρωπαϊκών υποχρεώσεων.
-*   **Επόμενος αγώνας:** Προσεχής αγωνιστική Cyprus League by Stoiximan.
-*   **Highlights:** [Highlights Ομόνοιας στο YouTube](https://www.youtube.com/results?search_query=Omonoia+FC+highlights+2026)
-*   **Πηγή:** [OmonoiaFC](https://www.omonoiafc.com.cy/)
-
-### Manchester United
-
-*   **Τελευταίο αποτέλεσμα:** Συνέχιση των αγωνιστικών υποχρεώσεων στην Premier League.
-*   **Επόμενος αγώνας:** Προσεχές ντέρμπι Premier League.
-*   **Highlights:** [Highlights Manchester United στο YouTube](https://www.youtube.com/results?search_query=Manchester+United+highlights+2026)
-*   **Πηγή:** [ManUtd.com](https://www.manutd.com/)
-
-### Real Madrid
-
-*   **Τελευταίο αποτέλεσμα:** Προετοιμασία για τη φάση ομίλων του UEFA Champions League.
-*   **Επόμενος αγώνας:** Πρεμιέρα Champions League στο Santiago Bernabéu.
-*   **Highlights:** [Highlights Real Madrid στο YouTube](https://www.youtube.com/results?search_query=Real+Madrid+highlights+2026)
-*   **Πηγή:** [RealMadrid.com](https://www.realmadrid.com/)
-
-### Formula 1
-
-*   **Τελευταίο αποτέλεσμα:** Ολοκλήρωση του πρόσφατου Grand Prix και προετοιμασία για τον επόμενο γύρο.
-*   **Επόμενος αγώνας:** Επόμενο Grand Prix στο πρόγραμμα του 2026.
-*   **Highlights:** [Highlights Formula 1 στο YouTube](https://www.youtube.com/results?search_query=Formula+1+highlights+2026)
-*   **Πηγή:** [Formula1.com](https://www.formula1.com/)
-
----
-
-## 🌤️ ΚΑΙΡΟΣ — ΛΕΜΕΣΟΣ
-
-*   **Θερμοκρασία:** {wx_info['temp']}°C (Μέγιστη) / 24°C (Ελάχιστη)
-*   **Υγρασία:** {wx_info['humidity']}%
-*   **Άνεμος:** {wx_info['wind']} km/h (Νοτιοδυτικός)
-*   **Πρόγνωση υπόλοιπης ημέρας:** Γενικά αίθριος καιρός με έντονη ηλιοφάνεια.
-*   **Προειδοποιήσεις:** Δείκτης UV: {wx_info['uv']} (Πολύ υψηλός — Απαραίτητη η χρήση αντηλιακού).
-*   **Πηγή:** [Open-Meteo](https://open-meteo.com/)
-
----
-
-## 🗂️ ΕΞΕΛΙΞΕΙΣ
-
-*   **Great Sea Interconnector:** Συνεχίζονται οι διαβουλεύσεις για την ηλεκτρική διασύνδεση Κύπρου-Ελλάδας.
-*   **Αγορά Ενέργειας & ΑΠΕ:** Ενίσχυση των επενδύσεων σε φωτοβολταϊκά και αποθήκευση ενέργειας.
-*   **Τραπεζικός Τομέας:** Σταθεροποίηση των κεφαλαιακών δεικτών και νέες πιστώσεις.
-
----
-
-## 🎯 Ο ΦΑΚΕΛΟΣ ΜΟΥ
-
-*   **Ακίνητα Λεμεσού:** Σταθερή διατήρηση των αξιών στα παραλιακά διαμερίσματα και στα ανατολικά προάστια.
-*   **Διαχείριση Ρευστότητας:** Ευνοϊκή τοποθέτηση σε προθεσμιακές αποδόσεις 2,6%-2,8% πριν τις αποφάσεις της ΕΚΤ.
-*   **Επιχειρηματικό Περιβάλλον:** Έμφαση σε καινοτόμες ψηφιακές υποδομές και αξιοποίηση κρατικών κινήτρων.
-
----
-
-## 📅 ΤΙ ΝΑ ΚΑΝΩ
-
-*   **Φορολογικές Δηλώσεις:** Υποβολή συγκεντρωτικών καταστάσεων μέχρι το τέλος του τρέχοντος μηνός.
-*   **Τραπεζικές Ρυθμίσεις:** Επανεξέταση περιθωρίων επιτοκίου στεγαστικών δανείων βάσει Euribor.
-*   **Ανανέωση Αδειών:** Έλεγχος δημοτικών τελών και επαγγελματικών αδειών Λεμεσού.
-
----
-
-## 🔍 ΓΙΑ ΑΥΡΙΟ
-
-1.  **Ανακοίνωση Δεικτών Ευρωζώνης:** Δημοσίευση στοιχείων για τη βιομηχανική παραγωγή.
-2.  **Ενεργειακές Εξελίξεις:** Ενημέρωση για το καλώδιο Great Sea Interconnector.
-3.  **Συνεδρίαση ΧΑΚ:** Παρακολούθηση της πορείας των τραπεζικών μετοχών.
-"""
-    return md
-
-
 def main():
     today_str = datetime.now().strftime('%Y-%m-%d')
     target_md = os.path.join(BRIEFINGS_DIR, f'oracle-briefing-{today_str}.md')
@@ -352,21 +175,29 @@ def main():
     world_items = fetch_rss_items('https://feeds.bbci.co.uk/news/world/rss.xml', 6)
     wx_info = fetch_open_meteo()
 
-    api_key = env_vars.get('GEMINI_API_KEY') or os.environ.get('GEMINI_API_KEY')
-    md_content = None
-    if api_key:
-        print("Synthesizing briefing via Gemini 2.0 Flash...")
-        md_content = generate_with_gemini(api_key, cy_items, world_items, wx_info, today_str)
+    if not cy_items and not world_items:
+        fail("No RSS items could be fetched — refusing to write an edition with "
+             "no sourced material.")
 
+    api_key = env_vars.get('GEMINI_API_KEY') or os.environ.get('GEMINI_API_KEY')
+    if not api_key:
+        fail("GEMINI_API_KEY is not set. There is no non-model path that can "
+             "honestly produce an edition: the previous RSS 'fallback' invented "
+             "market prices, Euribor rows, sports fixtures, portfolio notes and "
+             "deadlines. Author the edition instead, or set the key.")
+
+    print("Synthesizing briefing via Gemini 2.0 Flash...")
+    md_content = generate_with_gemini(api_key, cy_items, world_items, wx_info, today_str)
     if not md_content:
-        print("Synthesizing briefing via structured live RSS feeds...")
-        md_content = generate_rss_fallback(cy_items, world_items, wx_info, today_str)
+        fail("Gemini returned no briefing. Nothing was written.")
 
     os.makedirs(BRIEFINGS_DIR, exist_ok=True)
     with open(target_md, 'w', encoding='utf-8') as f:
         f.write(md_content)
 
     print(f"Created: {target_md}")
+    print("NOTE: this is a draft. Every number, quote and URL must be verified "
+          "against its source before the edition is built and published.")
     return target_md
 
 
