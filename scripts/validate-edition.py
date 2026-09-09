@@ -192,6 +192,33 @@ def check_url_reuse(items):
         notes.append(f"URLs πηγών: {len(per_url)} μοναδικά")
 
 
+def check_source_tags(sections):
+    """A tag is a claim about sourcing, so it has to match the sources.
+
+    .antigravity/rules: «κάθε item με ετικέτα Επιβεβαιωμένο έχει 2 συνδέσμους
+    από διαφορετικά μέσα». [Μονή πηγή] asserts the opposite.
+    """
+    for keyword in ('ΚΥΠΡΟΣ', 'ΔΙΕΘΝΗ'):
+        _header, body = section_body(sections, keyword)
+        if body is None:
+            continue
+        for title, block in h3_items(body):
+            tags = re.findall(r'\[([^\]]+)\]', title)
+            outlets = {normalise_outlet(o) for o, _u in cited_links(block)}
+            label = f"{keyword} · {title[:60]}"
+            if 'Επιβεβαιωμένο' in tags and len(outlets) < 2:
+                fail('ΣΗΜΑΝΣΗ',
+                     f"«{label}» φέρει [Επιβεβαιωμένο] αλλά έχει "
+                     f"{len(outlets)} μέσο — απαιτούνται 2 διαφορετικά.")
+            if 'Μονή πηγή' in tags and len(outlets) > 1:
+                fail('ΣΗΜΑΝΣΗ',
+                     f"«{label}» φέρει [Μονή πηγή] αλλά επικαλείται "
+                     f"{len(outlets)} μέσα ({', '.join(sorted(outlets))}) — "
+                     f"πιθανώς πρέπει να είναι [Επιβεβαιωμένο].")
+            if not outlets:
+                fail('ΣΗΜΑΝΣΗ', f"«{label}» δεν έχει καμία πηγή.")
+
+
 def check_link_claim(md):
     for line in md.splitlines():
         if LINK_CLAIM_RE.search(line):
@@ -262,6 +289,7 @@ def main():
     check_portfolio_tag(sections)
     check_outlet_cap(items)
     check_url_reuse(items)
+    check_source_tags(sections)
     check_link_claim(md)
     check_details_overlap(html_path)
 
