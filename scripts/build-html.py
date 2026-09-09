@@ -493,17 +493,19 @@ def parse_markdown(md_content):
                 why_match = re.search(r'\*\*Γιατί με αφορά:\*\*\s*(.+)', raw_item)
                 why_text = why_match.group(1).strip() if why_match else ''
 
-                src_match = re.search(r'\*\*Πηγή:\*\*\s*(.+)', raw_item)
+                src_match = re.search(r'\*\*Πηγ(?:ή|ές):\*\*\s*(.+)', raw_item)
+                sources = []
                 source = None
                 if src_match:
                     src_parsed = re.findall(r'\[(.*?)\]\((.*?)\)', src_match.group(1))
-                    if src_parsed:
-                        source = {'name': src_parsed[0][0], 'url': src_parsed[0][1]}
+                    sources = [{'name': n, 'url': u} for n, u in src_parsed]
+                    if sources:
+                        source = sources[0]
 
                 body_lines = []
                 for bl in lines_i[1:]:
                     bl_c = bl.strip()
-                    if bl_c.startswith('**Γιατί με αφορά:') or bl_c.startswith('**Βάθος:') or bl_c.startswith('**Πηγή:'):
+                    if bl_c.startswith('**Γιατί με αφορά:') or bl_c.startswith('**Βάθος:') or bl_c.startswith('**Πηγή:') or bl_c.startswith('**Πηγές:'):
                         break
                     if bl_c.startswith('* **') or bl_c.startswith('- **') or bl_c.startswith('• **'):
                         break
@@ -527,6 +529,7 @@ def parse_markdown(md_content):
 
                 data['cyprus'].append({
                     'title': clean_title,
+                    'sources': sources,
                     'tag': tag,
                     'is_portfolio': is_portfolio,
                     'body': body_text,
@@ -547,17 +550,19 @@ def parse_markdown(md_content):
                 tag = tag_match[-1] if tag_match else 'Μονή πηγή'
                 clean_title = re.sub(r'^\d+\.\s*', '', title_line).replace(f'[{tag}]', '').strip()
 
-                src_match = re.search(r'\*\*Πηγή:\*\*\s*(.+)', raw_item)
+                src_match = re.search(r'\*\*Πηγ(?:ή|ές):\*\*\s*(.+)', raw_item)
+                sources = []
                 source = None
                 if src_match:
                     src_parsed = re.findall(r'\[(.*?)\]\((.*?)\)', src_match.group(1))
-                    if src_parsed:
-                        source = {'name': src_parsed[0][0], 'url': src_parsed[0][1]}
+                    sources = [{'name': n, 'url': u} for n, u in src_parsed]
+                    if sources:
+                        source = sources[0]
 
                 body_lines = []
                 for bl in lines_i[1:]:
                     bl_c = bl.strip()
-                    if bl_c.startswith('**Βάθος:') or bl_c.startswith('**Πηγή:'):
+                    if bl_c.startswith('**Βάθος:') or bl_c.startswith('**Πηγή:') or bl_c.startswith('**Πηγές:'):
                         break
                     if bl_c.startswith('* **') or bl_c.startswith('- **') or bl_c.startswith('• **'):
                         break
@@ -581,6 +586,7 @@ def parse_markdown(md_content):
 
                 data['world'].append({
                     'title': clean_title,
+                    'sources': sources,
                     'tag': tag,
                     'body': body_text,
                     'source': source,
@@ -903,6 +909,26 @@ def render_template(context):
         raise
 
 
+def render_sources_html(item):
+    """The card's source row: every outlet the item cites, separated by ·.
+
+    A [Επιβεβαιωμένο] item is required to carry two outlets; rendering only
+    the first hid the second source and left the tag unverifiable from the
+    page."""
+    sources = item.get('sources') or ([item['source']] if item.get('source') else [])
+    if not sources:
+        return ''
+    links = ' <span class="text-[var(--ink-quiet)]">·</span> '.join(
+        f'<a href="{src["url"]}" target="_blank" rel="noopener noreferrer" '
+        f'class="font-semibold text-[var(--accent)] hover:underline">{src["name"]}</a>'
+        for src in sources)
+    return f'''
+        <div class="flex justify-between items-center gap-3 t-meta pt-3 border-t border-[var(--rule)]">
+          <span class="flex flex-wrap items-center gap-x-1">{links}</span>
+          <span class="font-mono text-[var(--ink-quiet)] shrink-0">{item['tag']}</span>
+        </div>'''
+
+
 def render_html(data, house_stats, search_index):
     date_display = data['date_str'] or '7 Σεπτεμβρίου 2026'
     time_display = data['time_str'] or '13:30'
@@ -980,13 +1006,7 @@ def render_html(data, house_stats, search_index):
           <strong class="font-bold">Γιατί με αφορά:</strong> {item["why"]}
         </div>''' if item.get('why') else ''
 
-        src_html = f'''
-        <div class="flex justify-between items-center t-meta pt-3 border-t border-[var(--rule)]">
-          <a href="{item["source"]["url"]}" target="_blank" rel="noopener noreferrer" class="font-semibold text-[var(--accent)] hover:underline">
-            {item["source"]["name"]}
-          </a>
-          <span class="font-mono text-[var(--ink-quiet)]">{item['tag']}</span>
-        </div>''' if item.get('source') else ''
+        src_html = render_sources_html(item)
 
         depth_html = render_depth_html(item.get('depth', {}), is_world=False)
 
@@ -1036,13 +1056,7 @@ def render_html(data, house_stats, search_index):
 
         tag_cls = "bg-[var(--up)] text-white" if item['tag'] == 'Επιβεβαιωμένο' else ("bg-[var(--accent)] text-white" if item['tag'] == 'Εξελισσόμενο' else "bg-[var(--rule-strong)] text-white")
 
-        src_html = f'''
-        <div class="flex justify-between items-center t-meta pt-3 border-t border-[var(--rule)]">
-          <a href="{item["source"]["url"]}" target="_blank" rel="noopener noreferrer" class="font-semibold text-[var(--accent)] hover:underline">
-            {item["source"]["name"]}
-          </a>
-          <span class="font-mono text-[var(--ink-quiet)]">{item['tag']}</span>
-        </div>''' if item.get('source') else ''
+        src_html = render_sources_html(item)
 
         depth_html = render_depth_html(item.get('depth', {}), is_world=True)
 
