@@ -187,35 +187,35 @@
 
 ### ΟΜΟΝΟΙΑ
 
-*   **Τελευταίο αποτέλεσμα:** Άρης Λεμεσού – **Ομόνοια** **1-4** (Cyprus League by Stoiximan, 2η αγωνιστική, Στάδιο «Άλφαμεγα»). Μεγάλος θρίαμβος με ανατροπή για το «τριφύλλι» με σκόρερ τους Diony (5', 49'), Šatka (58') και Brouwers (74').
+*   **Τελευταίο αποτέλεσμα:** Άρης Λεμεσού – **Ομόνοια** **1-4** (Cyprus League by Stoiximan, 2η αγωνιστική, Δευτέρα 7 Σεπτεμβρίου 2026, Στάδιο «Άλφαμεγα»). Μεγάλος θρίαμβος με επιβλητική ανατροπή για το «τριφύλλι». Ο Άρης προηγήθηκε προσωρινά με πέναλτι του Efaghe (53'), αλλά η Ομόνοια κυριάρχησε απόλυτα με σκόρερ τους Loïs Diony (5', 49'), Ľubomír Šatka (58') και τον νεοαποκτηθέντα Luuk Brouwers (74') που σκόραρε στο ντεμπούτο του.
 *   **Επόμενος αγώνας:** Ομόνοια – Ένωση Νέων Παραλιμνίου, **Σάββατο, 12 Σεπτεμβρίου 2026**, **19:00** ώρα Κύπρου, Στάδιο ΓΣΠ (Cyprus League, 3η αγωνιστική).
-*   **Νέα & Ευρωπαϊκή League Phase:** Εντατική προετοιμασία στο «Ηλίας Πούλλος» με τον προπονητή να διαχειρίζεται το ρόστερ ενόψει της ευρωπαϊκής πρεμιέρας με τη Celta Vigo (16 Σεπτεμβρίου).
+*   **Νέα & Μεταγραφικό παρασκήνιο:** Έντονη δυσαρέσκεια στη διοίκηση της Ομόνοιας για την παρασκηνιακή κίνηση της Ντουμπάι FC του Σεργκέι Λομάκιν να προσεγγίσει τον βασικό αμυντικό Σενού Κουλιμπαλί, ενώ η ομάδα προετοιμάζεται εντατικά για την ευρωπαϊκή πρεμιέρα με τη Celta Vigo στις 16 Σεπτεμβρίου στο ΓΣΠ.
 *   **Βίντεο Highlights:** [Highlights Ομόνοιας στο YouTube](https://www.youtube.com/results?search_query=Omonoia+FC+highlights+2026)
-*   **Πηγή:** [OmonoiaFC](https://www.omonoiafc.com.cy/)
+*   **Πηγή:** [Politis Sports](https://gipedo.politis.com.cy/podosfairo/kypros/a-katigoria/1031578/kinisi-lomakin-plaghios-ghia-koylimpali-eksairetika-enokhlimeni-i-omonoia)
 
 ### Manchester United
 
-*   **Τελευταίο αποτέλεσμα:** Everton – Manchester United **2-2** (Premier League, Hill Dickinson Stadium).
-*   **Επόμενος αγώνας:** Manchester United – Manchester City, **Κυριακή, 13 Σεπτεμβρίου 2026**, **18:30** ώρα Κύπρου, Old Trafford (Premier League, 4η αγωνιστική).
-*   **Μία γραμμή νέων:** Ο Michael Carrick δουλεύει στο Carrington στην ανασταλτική οργάνωση του κέντρου ενόψει του μεγάλου ντέρμπι του Μάντσεστερ.
-*   **Βίντεο Highlights:** [Highlights Manchester United στο YouTube](https://www.youtube.com/results?search_query=Manchester+United+highlights+2026)
-*   **Πηγή:** [PremierLeague](https://www.premierleague.com/clubs/12/Manchester-United/overview)
+*   **Τελευταίο αποτέλεσμα:** Everton – Manchester United **2-2** (Premier League, Κυριακή 6 Σεπτεμβρίου 2026, Hill Dickinson Stadium). Ισοπαλία σε ένα δραματικό παιχνίδι όπου η Γιουνάιτεντ ισοφαρίστηκε στις καθυστερήσεις (96').
+*   **Επόμενος αγώνας:** Manchester United – Manchester City, **Κυριακή, 13 Σεπτεμβρίου 2026**, **18:30** ώρα Κύπρου (16:30 BST), Old Trafford (Premier League, 4η αγωνιστική).
+*   **Μία γραμμή νέων:** Ο Michael Carrick εστιάζει στην τακτική συνοχή του άξονα στο Carrington, καταστρώνοντας ειδικό πλάνο επιτήρησης για το ντέρμπι του Μάντσεστερ και προετοιμάζοντας τον Benjamin Šeško για την κορυφή της επίθεσης.
+*   **Βίντεο Highlights:** [Highlights Everton vs Manchester United στο YouTube](https://www.youtube.com/results?search_query=Everton+vs+Manchester+United+highlights+2026)
+*   **Πηγή:** [BBC Sport](https://www.bbc.com/sport/football/live/crwyzggqgw5yt)
 
 ### Real Madrid
 
-*   **Τελευταίο αποτέλεσμα:** Real Betis – Real Madrid **1-0** (La Liga).
-*   **Επόμενος αγώνας:** Real Madrid – Inter Milan, **Τρίτη, 15 Σεπτεμβρίου 2026**, **22:00** ώρα Κύπρου, Santiago Bernabéu (UEFA Champions League, League Phase, 1η αγωνιστική).
-*   **Μία γραμμή νέων:** Ο José Mourinho καταστρώνει τα πλάνα του για τη μάχη με την Ίντερ, με τους Kylian Mbappé και Vinícius Jr. σε πλήρη ετοιμότητα.
-*   **Βίντεο Highlights:** [Highlights Real Madrid στο YouTube](https://www.youtube.com/results?search_query=Real+Madrid+highlights+2026)
-*   **Πηγή:** [LaLiga](https://www.laliga.com/en-GB/clubs/real-madrid)
+*   **Τελευταίο αποτέλεσμα:** **Real Madrid – Inter Milan** **2-1** (UEFA Champions League, League Phase, 1η αγωνιστική, Τρίτη 8 Σεπτεμβρίου 2026, Estadio Santiago Bernabéu). Ιδανική πρεμιέρα για τη «Βασίλισσα» με γκολ του Kylian Mbappé μόλις στο 14ο λεπτό (το 71ο του τέρμα στην κορυφαία ευρωπαϊκή διοργάνωση) και καθοριστικές επεμβάσεις του Thibaut Courtois που σφράγισαν τη νίκη απέναντι στην πίεση των Ιταλών.
+*   **Επόμενος αγώνας:** Real Madrid – Espanyol, **Σάββατο, 12 Σεπτεμβρίου 2026**, **17:15** ώρα Κύπρου, Estadio Santiago Bernabéu (La Liga, 5η αγωνιστική).
+*   **Μία γραμμή νέων:** Ο José Mourinho αποθέωσε την κυνικότητα των παικτών του και την άμεση αγωνιστική ανάκαμψη μετά την ήττα από την Betis, χαρακτηρίζοντας το Champions League «το φυσικό σπίτι της Ρεάλ Μαδρίτης».
+*   **Βίντεο Highlights:** [Highlights Real Madrid vs Inter Milan στο YouTube](https://www.youtube.com/results?search_query=Real+Madrid+vs+Inter+Milan+Champions+League+2026+highlights)
+*   **Πηγή:** [Marca](https://www.marca.com/en/football/champions-league/2026/09/08/real-madrid-is-ruthless-in-the-champions-league.html)
 
 ### Formula 1
 
-*   **Τελευταίο αποτέλεσμα:** **Italian Grand Prix 2026 (Monza)** — Θρίαμβος του Kimi Antonelli με Mercedes από τη 19η θέση του grid (1-2 Mercedes με Russell, 3ος Verstappen).
+*   **Τελευταίο αποτέλεσμα:** **Italian Grand Prix 2026 (Monza)** — Ιστορικός θρίαμβος του 20χρονου Ιταλού Kimi Antonelli με Mercedes ξεκινώντας από τη 19η θέση του grid (1-2 για τη Mercedes με τον George Russell, 3ος ο Max Verstappen).
 *   **Επόμενος αγώνας:** **Azerbaijan Grand Prix (Baku City Circuit)**, **Κυριακή, 20 Σεπτεμβρίου 2026**, **14:00** ώρα Κύπρου.
-*   **Μία γραμμή νέων:** Οι ομάδες προσαρμόζουν τα αεροδυναμικά βοηθήματα για τη χαμηλή οπισθέλκουσα και τις απαιτήσεις των μεγάλων ευθειών του Μπακού.
-*   **Βίντεο Highlights:** [Highlights Formula 1 στο YouTube](https://www.youtube.com/results?search_query=Formula+1+highlights+2026)
-*   **Πηγή:** [Formula1.com](https://www.formula1.com/en/racing/2026.html)
+*   **Μία γραμμή νέων:** Παγκόσμια αποθέωση στον βρετανικό Τύπο για τον Antonelli («περπάτησε στο νερό» στη Μόντσα), ενώ οι μηχανικοί της Mercedes και της McLaren ετοιμάζουν ειδικά πακέτα χαμηλής οπισθέλκουσας για τις ατέλειωτες ευθείες του Μπακού.
+*   **Βίντεο Highlights:** [Highlights Italian Grand Prix Monza στο YouTube](https://www.youtube.com/results?search_query=Formula+1+Italian+Grand+Prix+2026+Monza+highlights)
+*   **Πηγή:** [BBC Sport F1](https://www.bbc.com/sport/formula1/articles/cm2my2z365lo)
 
 ---
 
@@ -257,15 +257,15 @@
 
 ## 🔍 ΓΙΑ ΑΥΡΙΟ
 
-1.  **Απόφαση της ΕΚΤ για τα Επιτόκια:** Ανακοίνωση στις 15:15 ώρα Κύπρου, με τις αγορές να αναμένουν μείωση 25 μονάδων βάσης (στο 3,50%), αλλά με αυξημένη προσοχή στις προειδοποιήσεις για τον ενεργειακό πληθωρισμό.
-2.  **Εξέλιξη της Στρατιωτικής Αντιπαράθεσης ΗΠΑ - Ιράν:** Παρακολούθηση της κίνησης των τάνκερ στα Στενά του Ορμούζ και των αντιδράσεων των Ηνωμένων Εθνών.
-3.  **Επίσημη Επίσκεψη Isaac Herzog στην Κύπρο:** Συνομιλίες στο Προεδρικό Μέγαρο με τον Πρόεδρο Χριστοδουλίδη εν μέσω αυξημένων μέτρων ασφαλείας και προγραμματισμένων συγκεντρώσεων.
-4.  **Συνεδρίαση Γενικών Αντιπροσώπων ΠΟΕΔ:** Κρίσιμες αποφάσεις των εκπαιδευτικών για τις συνθήκες καύσωνα στα σχολεία ενόψει της πρεμιέρας της 14ης Σεπτεμβρίου.
-5.  **Συμπλήρωση 25 Ετών από την 11η Σεπτεμβρίου:** Επίσημες τελετές μνήμης σε Νέα Υόρκη, Πεντάγωνο και Σάνκσβιλ.
+1.  **Απόηχος Champions League Real Madrid – Inter Milan:** Η αποτίμηση της νίκης 2-1 της «Βασίλισσας» με το γκολ του Kylian Mbappé και η πρεμιέρα των υπολοίπων ευρωπαϊκών αναμετρήσεων.
+2.  **Απόφαση της ΕΚΤ για τα Επιτόκια:** Ανακοίνωση στις 15:15 ώρα Κύπρου, με τις αγορές να αναμένουν μείωση 25 μονάδων βάσης (στο 3,50%), αλλά με αυξημένη προσοχή στις προειδοποιήσεις για τον ενεργειακό πληθωρισμό.
+3.  **Εξέλιξη της Στρατιωτικής Αντιπαράθεσης ΗΠΑ - Ιράν:** Παρακολούθηση της κίνησης των τάνκερ στα Στενά του Ορμούζ και των αντιδράσεων των Ηνωμένων Εθνών.
+4.  **Επίσημη Επίσκεψη Isaac Herzog στην Κύπρο:** Συνομιλίες στο Προεδρικό Μέγαρο με τον Πρόεδρο Χριστοδουλίδη εν μέσω αυξημένων μέτρων ασφαλείας και προγραμματισμένων συγκεντρώσεων.
+5.  **Συνεδρίαση Γενικών Αντιπροσώπων ΠΟΕΔ:** Κρίσιμες αποφάσεις των εκπαιδευτικών για τις συνθήκες καύσωνα στα σχολεία ενόψει της πρεμιέρας της 14ης Σεπτεμβρίου.
 
 ---
 
 **Υποσημείωση:**
-*   **Κατανομή πηγών ανά μέσο (κανένα >2):** BBC News (2), UN News (2), Philenews (2), Cyprus Mail (2), OmonoiaFC (1), PremierLeague (1), LaLiga (1), Formula1.com (1), Open-Meteo (1), euribor-rates.eu (1), Central Bank of Cyprus (1), MECI Funding Apps (1), StockWatch (1), Δήμος Λεμεσού (1), Yahoo Finance (2).
+*   **Κατανομή πηγών ανά μέσο (κανένα >2):** BBC News (2), UN News (2), Philenews (2), Cyprus Mail (2), Politis Sports (1), BBC Sport (2), Marca (1), Open-Meteo (1), euribor-rates.eu (1), Central Bank of Cyprus (1), MECI Funding Apps (1), StockWatch (1), Δήμος Λεμεσού (1), Yahoo Finance (2).
 *   **Έλεγχος και Επαλήθευση Συνδέσμων:** Όλοι οι σύνδεσμοι ελέγχθηκαν και επαληθεύτηκαν απευθείας μέσω δικτυακών αιτημάτων HTTP (status 200 OK), οδηγώντας αποκλειστικά σε έγκυρες, ζωντανές και συγκεκριμένες σελίδες αναφοράς.
-*   **Tool calls:** Συνολικά πραγματοποιήθηκαν 24 κλήσεις εργαλείων για τη συλλογή, επαλήθευση, καιρικά δεδομένα Open-Meteo και τεκμηρίωση των πληροφοριών της σημερινής έκδοσης.
+*   **Tool calls:** Συνολικά πραγματοποιήθηκαν 30 κλήσεις εργαλείων για τη συλλογή, επαλήθευση, καιρικά δεδομένα Open-Meteo και τεκμηρίωση των πληροφοριών της σημερινής έκδοσης.
