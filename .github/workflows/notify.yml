@@ -10,10 +10,24 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.11' }
-      - run: python scripts/build-html.py
-      - uses: actions/setup-node@v4
-        with: { node-version: '20' }
-      - run: node scripts/send-briefing.mjs
+
+      - name: Resolve today's edition
+        id: edition
+        run: |
+          md=$(ls -1 briefings/oracle-briefing-*.md | sort | tail -n 1)
+          echo "md=$md" >> "$GITHUB_OUTPUT"
+
+      - name: Build the published page
+        run: python scripts/build-html.py "${{ steps.edition.outputs.md }}"
+
+      - name: Check every link in the edition
+        run: python scripts/check-links.py "${{ steps.edition.outputs.md }}"
+
+      - name: Validate the edition against the house invariants
+        run: python scripts/validate-edition.py "${{ steps.edition.outputs.md }}"
+
+      - name: Send to Telegram
+        run: python scripts/send-briefing.py "${{ steps.edition.outputs.md }}"
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

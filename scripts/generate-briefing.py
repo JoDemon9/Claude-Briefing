@@ -14,22 +14,15 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
+from env_loader import load_env
+
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 BRIEFINGS_DIR = os.path.join(BASE_DIR, 'briefings')
-ENV_PATH = os.path.join(BASE_DIR, '.env')
 
-# Load .env
-env_vars = {}
-if os.path.exists(ENV_PATH):
-    with open(ENV_PATH, 'r', encoding='utf-8') as f:
-        for line in f:
-            line = line.strip()
-            if line and not line.startswith('#') and '=' in line:
-                k, v = line.split('=', 1)
-                env_vars[k.strip()] = v.strip()
+env_vars = load_env()
 
 
 def fail(message):

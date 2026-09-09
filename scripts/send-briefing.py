@@ -4,31 +4,17 @@ import re
 import json
 import html
 import urllib.request
+from datetime import datetime
+
+from env_loader import load_env
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
-# Automatically load .env file if present
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-env_file = os.path.join(BASE_DIR, '.env')
-if os.path.exists(env_file):
-    try:
-        with open(env_file, 'r', encoding='utf-8-sig') as ef:
-            for line in ef:
-                line = line.strip()
-                if not line or line.startswith('#') or '=' not in line:
-                    continue
-                k, v = line.split('=', 1)
-                k = k.strip().lstrip('\ufeff')
-                v = v.strip().strip('\'"')
-                if k not in os.environ:
-                    os.environ[k] = v
-    except Exception:
-        pass
+load_env()
 
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-from datetime import datetime
-
 CHAT  = os.environ.get("TELEGRAM_CHAT_ID")
 BASE  = os.environ.get("BRIEFING_BASE_URL", "https://jodemon9.github.io/oracle-briefing")
 
