@@ -245,6 +245,41 @@ def resolve_image(url, title, default_category='ΕΠΙΚΑΙΡΟΤΗΤΑ'):
     return final_img, category
 
 
+LINK_CLAIM_RE = re.compile(
+    r'(Έλεγχος και Επαλήθευση Συνδέσμων|σύνδεσμοι ελέγχθηκαν|200\s*OK|broken/404)',
+    re.IGNORECASE)
+
+
+def link_check_footnote(date_slug):
+    """The link-verification footnote, built from scripts/check-links.py's
+    report — never from prose in the markdown. Editions used to assert
+    «όλοι οι σύνδεσμοι ελέγχθηκαν (200 OK)» with nothing having checked."""
+    path = os.path.join(BRIEFINGS_DIR, f'.link-check-{date_slug}.json')
+    if not os.path.exists(path):
+        warn(f"Δεν βρέθηκε αναφορά ελέγχου συνδέσμων ({os.path.basename(path)}). "
+             f"Τρέξτε: python scripts/check-links.py <briefing.md>")
+        return ('**Έλεγχος συνδέσμων:** δεν εκτελέστηκε αυτόματος έλεγχος για '
+                'αυτή την έκδοση.')
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            rep = json.load(f)
+    except Exception as e:
+        warn(f"Μη αναγνώσιμη αναφορά ελέγχου συνδέσμων: {e}")
+        return ('**Έλεγχος συνδέσμων:** η αναφορά ελέγχου δεν ήταν αναγνώσιμη.')
+
+    when = rep.get('checked_at', '')
+    total, ok = rep.get('total', 0), rep.get('ok', 0)
+    blocked, dead = rep.get('blocked', []), rep.get('dead', [])
+    parts = [f"**Έλεγχος συνδέσμων:** {total} σύνδεσμοι ελέγχθηκαν αυτόματα με "
+             f"αιτήματα HTTP στις {when}: {ok} απάντησαν κανονικά"]
+    if blocked:
+        parts.append(f"{len(blocked)} επέστρεψαν φραγή αυτοματοποιημένης "
+                     f"πρόσβασης (403/429) και δεν επαληθεύτηκαν")
+    if dead:
+        parts.append(f"{len(dead)} ήταν νεκροί")
+    return ' · '.join(parts) + '.'
+
+
 def find_latest_briefing():
     pattern = os.path.join(BRIEFINGS_DIR, 'oracle-briefing-*.md')
     files = sorted(glob.glob(pattern))
@@ -711,6 +746,24 @@ def parse_markdown(md_content):
                     item_text = re.sub(r'^[*\-]\s*', '', sl_c).strip()
                     if item_text and item_text not in ['--', '---']:
                         data['footnotes'].append(item_text)
+
+    # Editions write the footnotes as a bold **Υποσημείωση:** paragraph rather
+    # than an "## " header, so the section loop above never sees them and the
+    # page's footnote list came out empty. Pick the block up directly.
+    if not data['footnotes']:
+        fn_m = re.search(r'\*\*Υποσημείωση[^\n]*\*\*\s*\n([\s\S]*?)(?=\n##\s|\Z)',
+                         md_content)
+        if fn_m:
+            for sl in fn_m.group(1).splitlines():
+                sl_c = sl.strip()
+                if not sl_c or sl_c.startswith('---') or sl_c.startswith('***'):
+                    continue
+                if sl_c.startswith('*') or sl_c.startswith('-'):
+                    item_text = re.sub(r'^[*\-]\s*', '', sl_c).strip()
+                    if item_text and item_text not in ['--', '---']:
+                        data['footnotes'].append(item_text)
+        else:
+            warn("Δεν βρέθηκε ενότητα «Υποσημείωση» στο markdown.")
 
     return data
 
@@ -1454,8 +1507,20 @@ def render_html(data, house_stats, search_index):
             </div>''')
     tom_html = '\n'.join(tom_cards)
 
-    # Footnotes
-    foot_html = ''.join([f'<li class="leading-relaxed">{md_to_inline_html(item)}</li>' for item in data['footnotes'] if item and item not in ['--', '---'] and not item.startswith('---')])
+    # Footnotes. Any authored sentence claiming the links were verified is
+    # dropped: only check-links.py's own report may make that claim.
+    foot_items = []
+    for item in data['footnotes']:
+        if not item or item in ['--', '---'] or item.startswith('---'):
+            continue
+        if LINK_CLAIM_RE.search(item):
+            warn("Το markdown ισχυρίζεται έλεγχο συνδέσμων· η πρόταση "
+                 "αντικαταστάθηκε από την πραγματική αναφορά του check-links.py.")
+            continue
+        foot_items.append(item)
+    foot_items.append(data['link_check_footnote'])
+    foot_html = ''.join([f'<li class="leading-relaxed">{md_to_inline_html(item)}</li>'
+                         for item in foot_items])
 
     # Top Story Source Links
     top_sources = []
@@ -2497,6 +2562,7 @@ def main():
     date_slug = m_date.group(1) if m_date else datetime.now().strftime('%Y-%m-%d')
 
     data = parse_markdown(content)
+    data['link_check_footnote'] = link_check_footnote(date_slug)
     house_stats = get_latest_house_search()
     if house_stats:
         print(f"Linked House Search from: {house_stats['date']} ({house_stats['unique_properties']} properties)")
