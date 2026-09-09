@@ -37,6 +37,62 @@ CACHE_FILE = os.path.join(os.path.dirname(__file__), 'image_cache.json')
 # SSL context for image fetching
 SSL_CTX = ssl._create_unverified_context()
 
+# Values that could not be parsed out of the briefing markdown. Rendered as
+# "—" on the page and shouted about at the end of the build; a stale hardcoded
+# number must never reach the published edition dressed up as live data.
+BUILD_WARNINGS = []
+
+
+def warn(message):
+    """Record a build warning and print it immediately."""
+    BUILD_WARNINGS.append(message)
+    print(f"!! BUILD WARNING: {message}")
+
+
+def dash(value):
+    """Render a missing value as an em dash rather than a stale default."""
+    return value if value not in (None, '') else '—'
+
+
+def parse_greek_number(raw):
+    """'3,78%' / '€200.000' / '25' -> float. None when unparseable."""
+    if not raw:
+        return None
+    txt = re.sub(r'[^\d.,]', '', str(raw))
+    if not txt:
+        return None
+    if '.' in txt and ',' in txt:
+        txt = txt.replace('.', '').replace(',', '.')      # 1.234,56
+    elif ',' in txt:
+        txt = txt.replace(',', '.')                       # 3,78
+    elif txt.count('.') == 1 and len(txt.split('.')[1]) == 3:
+        txt = txt.replace('.', '')                        # 200.000
+    else:
+        txt = txt.replace('.', '')
+    try:
+        return float(txt)
+    except ValueError:
+        return None
+
+
+def format_euro(value):
+    """1031.5 -> '€1.032' (Greek thousands separator)."""
+    return '€' + f"{round(value):,}".replace(',', '.')
+
+
+def annuity_payment(principal, years, annual_rate_pct):
+    """Fixed monthly instalment of a level-payment loan. None on bad input."""
+    if not principal or not years or annual_rate_pct is None:
+        return None
+    n = int(round(years * 12))
+    if n <= 0:
+        return None
+    r = (annual_rate_pct / 100.0) / 12.0
+    if r <= 0:
+        return principal / n
+    return (principal * r) / (1 - (1 + r) ** -n)
+
+
 TOPIC_FALLBACKS = {
     'school': 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80',
     'employment': 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80',
@@ -208,11 +264,15 @@ def parse_markdown(md_content):
         'number_of_day': {},
         'rates': {
             'euribor': [],
-            'ecb_rate': '3,75%',
-            'next_ecb': '10 Σεπτεμβρίου 2026',
-            'cbc_mortgage_rate': '3,78%',
-            'example_payment': '€1.032',
-            'example_change': '€0 (αμετάβλητο)',
+            'ecb_rate': None,
+            'next_ecb': None,
+            'cbc_mortgage_rate': None,
+            'loan_amount': None,
+            'loan_years': None,
+            'loan_rate': None,
+            'example_payment': None,
+            'example_total_interest': None,
+            'example_change': None,
             'sources': []
         },
         'cyprus': [],
@@ -317,17 +377,60 @@ def parse_markdown(md_content):
                         'period': period,
                         '1m': cols[1], '3m': cols[2], '6m': cols[3], '12m': cols[4]
                     })
-            ecb_m = re.search(r'Επιτόκιο ΕΚΤ.*?:\s*([\d,]+%?).*?Επόμενη συνεδρίαση:\s*([^\n·]+)', sec)
+            if not data['rates']['euribor']:
+                warn("ΕΠΙΤΟΚΙΑ: δεν βρέθηκε πίνακας Euribor στο markdown.")
+
+            ecb_m = re.search(r'Επιτόκιο ΕΚΤ.*?:\s*([\d,]+%?)', sec)
             if ecb_m:
                 data['rates']['ecb_rate'] = ecb_m.group(1).strip()
-                data['rates']['next_ecb'] = ecb_m.group(2).strip()
-            cbc_m = re.search(r'Μέσο επιτόκιο νέων στεγαστικών.*?:.*?([\d,]+%).*?\((.*?)\)', sec)
+            else:
+                warn("ΕΠΙΤΟΚΙΑ: δεν βρέθηκε το επιτόκιο ΕΚΤ (deposit facility).")
+
+            next_m = re.search(r'Επόμενη συνεδρίαση:\s*([^\n·]+)', sec)
+            if next_m:
+                data['rates']['next_ecb'] = next_m.group(1).strip()
+            else:
+                warn("ΕΠΙΤΟΚΙΑ: δεν βρέθηκε η ημερομηνία επόμενης συνεδρίασης ΕΚΤ.")
+
+            cbc_m = re.search(r'Μέσο επιτόκιο νέων στεγαστικών.*?:.*?([\d,]+%)', sec)
             if cbc_m:
                 data['rates']['cbc_mortgage_rate'] = cbc_m.group(1).strip()
+            else:
+                warn("ΕΠΙΤΟΚΙΑ: δεν βρέθηκε το μέσο επιτόκιο νέων στεγαστικών (ΚΤΚ).")
 
-            calc_m = re.search(r'Ενδεικτική δόση.*?→\s*\*\*([^*]+)\*\*', sec)
+            # The instalment is computed here from the parsed loan terms — never
+            # copied from the markdown — so the published figure always matches
+            # the rate printed beside it.
+            calc_m = re.search(
+                r'Ενδεικτική δόση:\s*€?([\d.,]+)\s*/\s*(\d+)\s*έτη\s*με επιτόκιο\s*([\d,]+)\s*%',
+                sec)
             if calc_m:
-                data['rates']['example_payment'] = calc_m.group(1).strip()
+                data['rates']['loan_amount'] = parse_greek_number(calc_m.group(1))
+                data['rates']['loan_years'] = parse_greek_number(calc_m.group(2))
+                data['rates']['loan_rate'] = parse_greek_number(calc_m.group(3))
+            else:
+                warn("ΕΠΙΤΟΚΙΑ: δεν βρέθηκαν οι όροι της ενδεικτικής δόσης "
+                     "(ποσό / διάρκεια / επιτόκιο).")
+                data['rates']['loan_rate'] = parse_greek_number(
+                    data['rates']['cbc_mortgage_rate'])
+
+            payment = annuity_payment(data['rates']['loan_amount'],
+                                      data['rates']['loan_years'],
+                                      data['rates']['loan_rate'])
+            if payment is None:
+                warn("ΕΠΙΤΟΚΙΑ: αδύνατος ο υπολογισμός της ενδεικτικής δόσης — "
+                     "εμφανίζεται «—».")
+            else:
+                months = data['rates']['loan_years'] * 12
+                data['rates']['example_payment'] = format_euro(payment)
+                data['rates']['example_total_interest'] = format_euro(
+                    payment * months - data['rates']['loan_amount'])
+
+            chg_m = re.search(r'Μεταβολή έναντι προηγούμενης έκδοσης:\s*([^\n]+)', sec)
+            if chg_m:
+                data['rates']['example_change'] = chg_m.group(1).strip().rstrip('. ')
+            else:
+                warn("ΕΠΙΤΟΚΙΑ: δεν βρέθηκε η μεταβολή δόσης έναντι προηγούμενης έκδοσης.")
 
             srcs_m = re.search(r'Πηγές:\s*(.+)', sec)
             if srcs_m:
@@ -956,6 +1059,23 @@ def render_html(data, house_stats, search_index):
         </tr>
         ''')
     dash_rows_html = '\n'.join(dash_rows)
+
+    # Mortgage-calculator seeds: taken from the parsed loan terms so the
+    # sliders open on the same figures the rates box states. The 200k/25y/CBC
+    # values below are only the slider's starting position when the edition
+    # omits the terms — the displayed instalment stays "—" in that case.
+    rates = data['rates']
+    calc_amount = int(rates['loan_amount']) if rates['loan_amount'] else 200000
+    calc_years = int(rates['loan_years']) if rates['loan_years'] else 25
+    calc_rate = rates['loan_rate'] if rates['loan_rate'] is not None else 3.5
+    calc_amount_label = format_euro(calc_amount)
+    calc_rate_label = f"{calc_rate:.2f}".replace('.', ',') + '%'
+    if rates['example_payment']:
+        example_line = (f"{calc_amount_label} / {calc_years} έτη με επιτόκιο "
+                        f"{calc_rate_label} → {rates['example_payment']} τον μήνα "
+                        f"({dash(rates['example_change'])})")
+    else:
+        example_line = '—'
 
     # Euribor rows
     euribor_rows = []
@@ -1885,9 +2005,9 @@ def render_html(data, house_stats, search_index):
               </tbody>
             </table>
             <div class="t-meta text-[var(--ink-body)] space-y-1 bg-[var(--paper)] p-3 rounded border border-[var(--rule)]">
-              <div>• <strong class="text-[var(--ink)]">Επιτόκιο ΕΚΤ (deposit facility):</strong> {data['rates']['ecb_rate']} (Επόμενη συνεδρίαση: {data['rates']['next_ecb']})</div>
-              <div>• <strong class="text-[var(--ink)]">Μέσο επιτόκιο νέων στεγαστικών Κύπρου:</strong> {data['rates']['cbc_mortgage_rate']} (στοιχεία ΚΤΚ)</div>
-              <div>• <strong class="text-[var(--ink)]">Ενδεικτική δόση έκδοσης:</strong> {data['rates']['example_payment']} ({data['rates']['example_change']})</div>
+              <div>• <strong class="text-[var(--ink)]">Επιτόκιο ΕΚΤ (deposit facility):</strong> {dash(data['rates']['ecb_rate'])} (Επόμενη συνεδρίαση: {dash(data['rates']['next_ecb'])})</div>
+              <div>• <strong class="text-[var(--ink)]">Μέσο επιτόκιο νέων στεγαστικών Κύπρου:</strong> {dash(data['rates']['cbc_mortgage_rate'])} (στοιχεία ΚΤΚ)</div>
+              <div>• <strong class="text-[var(--ink)]">Ενδεικτική δόση έκδοσης:</strong> {example_line}</div>
             </div>
           </div>
         </div>
@@ -1904,35 +2024,35 @@ def render_html(data, house_stats, search_index):
               <div>
                 <div class="flex justify-between items-center mb-1">
                   <label for="calcAmount" class="font-medium text-[var(--ink)]">Ποσό Δανείου (€):</label>
-                  <span id="amountVal" class="font-mono font-bold text-[var(--accent)]">€200.000</span>
+                  <span id="amountVal" class="font-mono font-bold text-[var(--accent)]">{calc_amount_label}</span>
                 </div>
-                <input type="range" id="calcAmount" min="50000" max="800000" step="10000" value="200000" class="w-full" style="accent-color: var(--accent);">
+                <input type="range" id="calcAmount" min="50000" max="800000" step="10000" value="{calc_amount}" class="w-full" style="accent-color: var(--accent);">
               </div>
 
               <div>
                 <div class="flex justify-between items-center mb-1">
                   <label for="calcYears" class="font-medium text-[var(--ink)]">Διάρκεια (Έτη):</label>
-                  <span id="yearsVal" class="font-mono font-bold text-[var(--accent)]">25 έτη</span>
+                  <span id="yearsVal" class="font-mono font-bold text-[var(--accent)]">{calc_years} έτη</span>
                 </div>
-                <input type="range" id="calcYears" min="5" max="35" step="1" value="25" class="w-full" style="accent-color: var(--accent);">
+                <input type="range" id="calcYears" min="5" max="35" step="1" value="{calc_years}" class="w-full" style="accent-color: var(--accent);">
               </div>
 
               <div>
                 <div class="flex justify-between items-center mb-1">
                   <label for="calcRate" class="font-medium text-[var(--ink)]">Συνολικό Επιτόκιο (%):</label>
-                  <span id="rateVal" class="font-mono font-bold text-[var(--accent)]">3,78%</span>
+                  <span id="rateVal" class="font-mono font-bold text-[var(--accent)]">{calc_rate_label}</span>
                 </div>
-                <input type="range" id="calcRate" min="1.0" max="8.0" step="0.05" value="3.78" class="w-full" style="accent-color: var(--accent);">
+                <input type="range" id="calcRate" min="1.0" max="8.0" step="0.05" value="{calc_rate}" class="w-full" style="accent-color: var(--accent);">
               </div>
 
               <div class="bg-[var(--paper)] border border-[var(--rule)] p-4 rounded-xl flex items-center justify-between mt-4">
                 <div>
                   <div class="t-meta font-mono text-[var(--ink-quiet)] uppercase tracking-wider">Μηνιαία Δόση</div>
-                  <div id="monthlyInstallment" class="font-masthead text-2xl sm:text-3xl font-black text-[var(--accent)]">€1.032</div>
+                  <div id="monthlyInstallment" class="font-masthead text-2xl sm:text-3xl font-black text-[var(--accent)]">{dash(data['rates']['example_payment'])}</div>
                 </div>
                 <div class="text-right">
                   <div class="t-meta font-mono text-[var(--ink-quiet)] uppercase tracking-wider">Σύνολο Τόκων</div>
-                  <div id="totalInterest" class="font-mono text-sm sm:text-base font-bold text-[var(--ink)]">€109.680</div>
+                  <div id="totalInterest" class="font-mono text-sm sm:text-base font-bold text-[var(--ink)]">{dash(data['rates']['example_total_interest'])}</div>
                 </div>
               </div>
             </div>
@@ -2403,6 +2523,15 @@ def main():
 
     shutil.copy2(target_md, docs_briefing_md)
     print(f"Copied markdown to docs: {docs_briefing_md}")
+
+    if BUILD_WARNINGS:
+        print("\n" + "!" * 70)
+        print(f"!! {len(BUILD_WARNINGS)} BUILD WARNING(S) — τιμές που ΔΕΝ βρέθηκαν στο markdown")
+        print("!! Η έκδοση δημοσιεύεται με «—» στη θέση τους. Διορθώστε το markdown.")
+        print("!" * 70)
+        for w in BUILD_WARNINGS:
+            print(f"  - {w}")
+        print("!" * 70 + "\n")
 
     print("\nSUCCESS! The Oracle Sovereign web portal and archives have been built with full news-first layout and imagery.")
 
