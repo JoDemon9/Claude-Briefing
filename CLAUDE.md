@@ -15,6 +15,7 @@ Editions are authored, not generated. The unattended morning loop
 0e82c39 because it published unreviewed output. Run the stages yourself:
 
 ```bash
+python scripts/fetch-markets.py --check briefings/oracle-briefing-YYYY-MM-DD.md
 python scripts/build-html.py briefings/oracle-briefing-YYYY-MM-DD.md
 python scripts/check-links.py briefings/oracle-briefing-YYYY-MM-DD.md
 python scripts/validate-edition.py briefings/oracle-briefing-YYYY-MM-DD.md
@@ -32,6 +33,7 @@ to Telegram if the link check and the validator both pass.
 | --- | --- |
 | `scripts/build-html.py` | markdown → `docs/`. Parses the edition, resolves images, builds the cross-edition search index, fills the template. |
 | `scripts/templates/edition.html` | the whole page: markup, CSS, JS. `string.Template` — a literal `$` is written `$$`. |
+| `scripts/fetch-markets.py` | live Yahoo Finance quotes. `--table` emits a DASHBOARD block to author from, `--check` compares an edition's published figures against the market. |
 | `scripts/check-links.py` | requests every URL in the edition; non-zero exit on any dead one; writes `briefings/.link-check-DATE.json`. |
 | `scripts/validate-edition.py` | the pre-publish gate — see Invariants. Non-zero exit blocks the push. |
 | `scripts/send-briefing.py` | formats and dispatches the Telegram summary. The only sender; the `.mjs` twin is gone. |
@@ -81,7 +83,16 @@ gitignored — do not reintroduce them.
 5. **`generate-briefing.py` fails rather than fabricates.** Its RSS fallback
    used to write invented dashboards, Euribor rows, sports fixtures, portfolio
    notes and deadlines as fact. No key or no model output is now an error.
-6. **Tailwind is pinned** (`cdn.tailwindcss.com/3.4.16`). It previously loaded
+6. **Market figures are checkable.** `fetch-markets.py --check` compares every
+   DASHBOARD and ΑΓΟΡΕΣ figure against a live quote and fails past 3% drift,
+   which catches a number carried over from yesterday. An unfetchable symbol
+   is reported as unverifiable and rendered `—`; never filled with an
+   estimate, and never with a 0,00% that would read as a real flat close.
+7. **A tag must match its sources.** `[Επιβεβαιωμένο]` requires two distinct
+   outlets, `[Μονή πηγή]` exactly one. Enforced by `validate-edition.py`.
+8. **Every outlet an item cites is rendered**, not just the first — otherwise
+   a two-source item looks single-sourced and the tag is unverifiable.
+9. **Tailwind is pinned** (`cdn.tailwindcss.com/3.4.16`). It previously loaded
    from an unversioned `gstatic.com/antigravity/web/dev/` host.
 
 ## Editing the page
