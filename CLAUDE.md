@@ -101,3 +101,8 @@ Markup, CSS and JS belong in `scripts/templates/edition.html`.
 `render_html()` is data prep only: it builds a context dict and calls
 `render_template()`. Adding a placeholder means adding a key — a missing one
 raises `KeyError` at build time, naming the placeholder.
+
+# Publishing repository notice
+
+This repository serves public static artifacts. Active development and generation belong in `JoDemon9/Claude-Briefing-Private`; use this repository's README for the current release boundary and `python tools/validate-site.py` for local checks. Do not generate news, load private credentials or send Telegram from this repository. The earlier instructions below are historical context and refer to a removed public development pipeline.
+

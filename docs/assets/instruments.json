@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-11",
+  "provider": "TradingView",
+  "support_reference": "https://www.tradingview.com/widget-docs/faq/data/",
+  "instruments": {
+    "sp": {"name": "S&P 500", "symbol": "SP:SPX", "kind": "index", "embed": false, "url": "https://www.tradingview.com/symbols/SPX/", "info": "S&P 500 · δείκτης αμερικανικών μετοχών · μονάδες δείκτη", "reason": "Ο πάροχος περιορίζει αυτόν τον δείκτη στην ιστοσελίδα του."},
+    "nasdaq": {"name": "Nasdaq Composite", "symbol": "NASDAQ:IXIC", "kind": "index", "embed": false, "url": "https://www.tradingview.com/symbols/NASDAQ-IXIC/", "info": "Nasdaq Composite · δείκτης · μονάδες δείκτη · διαφορετικός από τον Nasdaq-100", "reason": "Ο πάροχος περιορίζει αυτόν τον δείκτη στην ιστοσελίδα του."},
+    "btc": {"name": "Bitcoin / USD", "symbol": "COINBASE:BTCUSD", "kind": "crypto", "embed": true, "url": "https://www.tradingview.com/symbols/COINBASE-BTCUSD/", "info": "Bitcoin / δολάριο ΗΠΑ · Coinbase · συνεχής διαπραγμάτευση"},
+    "tsm": {"name": "TSMC ADR", "symbol": "NYSE:TSM", "kind": "adr", "embed": true, "url": "https://www.tradingview.com/symbols/NYSE-TSM/", "info": "TSMC ADR · εισαγωγή NYSE · USD · το widget χρησιμοποιεί τη ροή Cboe One"},
+    "nvda": {"name": "NVIDIA", "symbol": "NASDAQ:NVDA", "kind": "stock", "embed": true, "url": "https://www.tradingview.com/symbols/NASDAQ-NVDA/", "info": "NVIDIA · εισαγωγή Nasdaq · USD · το widget χρησιμοποιεί τη ροή Cboe One"},
+    "vuaa": {"name": "Vanguard S&P 500 UCITS ETF (Acc)", "symbol": "LSE:VUAA", "kind": "etf", "embed": false, "url": "https://www.tradingview.com/symbols/LSE-VUAA/", "info": "VUAA · London Stock Exchange · USD · συσσώρευση · ETF που ακολουθεί τον S&P 500", "reason": "Η συγκεκριμένη γραμμή LSE δεν είναι διαθέσιμη στο widget."},
+    "eqqq": {"name": "Invesco EQQQ Nasdaq-100 UCITS ETF (Dist)", "symbol": "LSE:EQQQ", "kind": "etf", "embed": false, "url": "https://www.tradingview.com/symbols/LSE-EQQQ/", "info": "EQQQ · London Stock Exchange · GBX (πένες στερλίνας) · διανομή · ETF Nasdaq-100", "reason": "Η συγκεκριμένη γραμμή LSE δεν είναι διαθέσιμη στο widget."}
+  }
+}
