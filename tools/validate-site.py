@@ -52,12 +52,14 @@ def validate(site):
         check_link(site / 'index.html', item['url'])
     for entry in manifest['editions']:
         check_link(site / 'index.html', entry['url'])
+        content_url = entry.get('content_url', entry['url'])
+        check_link(site / 'index.html', content_url)
         data_path = site / entry['articles_url']
         data = json.loads(data_path.read_text(encoding='utf-8'))
         if data['date'] != entry['date'] or len(data['articles']) != entry['article_count']:
             failures.append(f'{entry["date"]}: article payload and manifest disagree')
         for article in data['articles']:
-            check_link(site / 'index.html', entry['url'] + '#' + article['anchor'])
+            check_link(site / 'index.html', content_url + '#' + article['anchor'])
             if article.get('image'):
                 check_link(site / 'index.html', article['image']['src'])
     return failures

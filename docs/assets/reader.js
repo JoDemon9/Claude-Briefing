@@ -20,7 +20,8 @@
   const response=await fetch(`articles/${edition}.json`);if(!response.ok)throw Error('Η έκδοση δεν είναι διαθέσιμη.');
   const data=await response.json(), article=data.articles.find(item=>item.id===id);
   if(!article || data.date!==edition)throw Error('Το άρθρο δεν υπάρχει σε αυτήν την έκδοση.');
-  document.querySelectorAll('[data-edition-link]').forEach(link=>link.href=`briefings/${edition}.html#${article.anchor}`);
+  const editionURL=[`briefings/${edition}.html`,`morning/${edition}.html`].includes(data.content_url)?data.content_url:`briefings/${edition}.html`;
+  document.querySelectorAll('[data-edition-link]').forEach(link=>link.href=`${editionURL}#${article.anchor}`);
   document.title=article.title+' · The Oracle Sovereign';$('#category').textContent=article.category+' / '+edition;
   $('#headline').textContent=article.title;$('#subhead').textContent=article.summary||'Δημοσιευμένο άρθρο.';
   if(article.image && (/^assets\/[a-z0-9.-]+$/.test(article.image.src) || external(article.image.src))){
