@@ -16,4 +16,4 @@ The check verifies archive membership, article data, asset paths and links. The 
 
 TradingView currently embeds Bitcoin, TSMC ADR and NVIDIA. SPX, Nasdaq Composite and the LSE VUAA/EQQQ listings use explicit external links because the provider restricts embedding. Instruments are never silently replaced by ETFs or CFDs. Provider availability may change.
 
-Obsolete public generator scripts, duplicate Markdown and the automatic Telegram notifier are removed in this review. Their source/history remains in the private repository and Git history. Existing repository instructions and design notes remain as historical context; active engineering belongs in the private repository.
+Obsolete public generator scripts, duplicate Markdown and the automatic Telegram notifier are removed in this review. Their source/history remains in the private repository and Git history. Active publishing instructions remain in CLAUDE.md. Duplicate development instructions, the public environment example and design-plan copy are removed; their authoritative versions and Git history remain private.
