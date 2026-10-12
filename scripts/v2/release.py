@@ -6,6 +6,8 @@ import json
 from pathlib import Path
 import shutil
 import tempfile
+import time
+import urllib.error
 import urllib.request
 from urllib.parse import urlsplit
 
@@ -107,10 +109,17 @@ def verify_live(root=ROOT, base=BASE, opener=None):
     for name in dict.fromkeys(names):
         expected = digest(root/'docs'/name)
         request = urllib.request.Request(base+name+'?release='+receipt['release_id'], headers={'User-Agent': 'OracleReleaseCheck/1.0', 'Cache-Control': 'no-cache'})
-        with opener(request, timeout=20) as response:
-            if urlsplit(response.geturl()).hostname != 'jodemon9.github.io' or response.status != 200:
-                raise ValueError('Unexpected deployed destination: '+name)
-            raw = response.read(10_000_001)
+        for attempt in range(3):
+            try:
+                with opener(request, timeout=20) as response:
+                    if urlsplit(response.geturl()).hostname != 'jodemon9.github.io' or response.status != 200:
+                        raise ValueError('Unexpected deployed destination: '+name)
+                    raw = response.read(10_000_001)
+                break
+            except (urllib.error.URLError, TimeoutError, ConnectionError):
+                if attempt == 2:
+                    raise ValueError('Public release could not be reached: '+name) from None
+                time.sleep(attempt+1)
         if len(raw) > 10_000_000 or hashlib.sha256(raw).hexdigest() != expected:
             raise ValueError('Pages does not serve this release: '+name)
     result = {'schema_version': 1, 'release_id': receipt['release_id'], 'status': 'verified', 'base_url': base,

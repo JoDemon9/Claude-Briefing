@@ -5,6 +5,7 @@ import tempfile
 import unittest
 from unittest import mock
 import shutil
+import urllib.error
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -96,6 +97,16 @@ class ReleaseTests(unittest.TestCase):
             response.read.return_value = b'previous release'
             with self.assertRaisesRegex(ValueError, 'does not serve'):
                 release.verify_live(root, opener=lambda *a, **k: response)
+
+    def test_unreachable_release_fails_after_a_bounded_retry_budget(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory); self.fixture(root); release.record(root)
+            opener = mock.Mock(side_effect=urllib.error.URLError('connection reset'))
+            with mock.patch.object(release.time, 'sleep'):
+                with self.assertRaisesRegex(ValueError, 'could not be reached'):
+                    release.verify_live(root, opener=opener)
+            self.assertEqual(opener.call_count, 3)
+            self.assertFalse((root/'.work/publication-check.json').exists())
 
 
 if __name__ == '__main__':
