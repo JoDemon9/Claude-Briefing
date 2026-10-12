@@ -23,7 +23,7 @@ def run(screenshots=None):
         spec=importlib.util.spec_from_file_location('fixture_tests',ROOT/'tests/test_structured_content.py')
         fixture=importlib.util.module_from_spec(spec);spec.loader.exec_module(fixture)
         helper=fixture.StructuredContentTests();helper.setUp()
-        scenarios=json.loads((ROOT/'tests/fixtures/scenarios.json').read_text())
+        scenarios=json.loads((ROOT/'tests/fixtures/scenarios.json').read_text(encoding='utf-8'))
         for scenario in scenarios:
             e,aa=helper.candidate(scenario)
             folder=serving/scenario['type'];root=helper.fixture_root(folder,e,aa);fixture.build.build(root)

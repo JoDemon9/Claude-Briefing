@@ -5,13 +5,13 @@ import json
 from pathlib import Path
 
 def sync(public_root, portal_root):
-    records=json.loads((public_root/'docs/data/editions.json').read_text())
+    records=json.loads((public_root/'docs/data/editions.json').read_text(encoding='utf-8'))
     for record in records:
         if record['status']!='published' or not (public_root/'docs'/record['url']).is_file():
             raise ValueError('Only existing published editions may appear in the portal')
     target=portal_root/'docs/data/editions.json'
     target.parent.mkdir(parents=True,exist_ok=True)
-    target.write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
+    target.write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n', encoding='utf-8', newline='\n')
     print(f'Synced {len(records)} published editions to {target}')
 
 if __name__=='__main__':

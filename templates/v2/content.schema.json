@@ -60,7 +60,8 @@
         "used_for_claims": {
           "type": "boolean"
         }
-      }
+      },
+      "additionalProperties": false
     },
     "article": {
       "type": "object",
@@ -154,7 +155,8 @@
                   "minLength": 10
                 }
               }
-            }
+            },
+            "additionalProperties": false
           }
         },
         "image": {
@@ -189,8 +191,12 @@
         "url": {
           "type": "string",
           "pattern": "^articles/\\d{4}-\\d{2}-\\d{2}-(morning|midday|evening)/[a-z0-9-]+\\.html$"
+        },
+        "evidence_note": {
+          "type": "string"
         }
-      }
+      },
+      "additionalProperties": false
     },
     "match": {
       "type": "object",
@@ -243,7 +249,8 @@
             "$ref": "#/$defs/source"
           }
         }
-      }
+      },
+      "additionalProperties": false
     },
     "fixture": {
       "type": "object",
@@ -289,8 +296,12 @@
           "items": {
             "$ref": "#/$defs/source"
           }
+        },
+        "verification_note": {
+          "type": "string"
         }
-      }
+      },
+      "additionalProperties": false
     },
     "update": {
       "type": "object",
@@ -319,7 +330,8 @@
             "$ref": "#/$defs/source"
           }
         }
-      }
+      },
+      "additionalProperties": false
     },
     "sports_team": {
       "type": "object",
@@ -434,10 +446,21 @@
                   "$ref": "#/$defs/source"
                 }
               }
-            }
+            },
+            "additionalProperties": false
           }
+        },
+        "next_gp_sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "session_times_reason": {
+          "type": "string"
         }
-      }
+      },
+      "additionalProperties": false
     }
   },
   "type": "object",
@@ -535,7 +558,8 @@
               "null"
             ]
           }
-        }
+        },
+        "additionalProperties": false
       }
     },
     "sports": {
@@ -567,7 +591,8 @@
             "formula1": {
               "$ref": "#/$defs/sports_team"
             }
-          }
+          },
+          "additionalProperties": false
         },
         "major_stories": {
           "type": "array",
@@ -608,13 +633,15 @@
               "article_id": {
                 "type": "string"
               }
-            }
+            },
+            "additionalProperties": false
           }
         },
         "major_stories_reason": {
           "type": "string"
         }
-      }
+      },
+      "additionalProperties": false
     },
     "markets": {
       "type": "array",
@@ -666,9 +693,106 @@
           },
           "unit": {
             "type": "string"
+          },
+          "market_timezone": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "asset_class": {
+            "type": "string"
+          },
+          "change_pct": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "instrument": {
+            "type": "string"
+          },
+          "precision": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 8
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^(?:briefings|morning|midday|evening)/\\d{4}-\\d{2}-\\d{2}\\.html$"
+      }
+    },
+    "reader_routes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^(?:reader\\.html|readers/\\d{4}-\\d{2}-\\d{2}(?:-midday|-evening)?\\.html)$"
+      }
+    },
+    "preserve_legacy_html": {
+      "type": "boolean"
+    },
+    "editorial_completed_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "calculator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "principal",
+        "years",
+        "annual_rate"
+      ],
+      "properties": {
+        "principal": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "years": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "annual_rate": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "market_notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "text",
+          "sources"
+        ],
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/source"
+            }
+          },
+          "kind": {
+            "type": "string"
           }
         }
       }
     }
-  }
+  },
+  "additionalProperties": false
 }

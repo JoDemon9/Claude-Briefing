@@ -64,10 +64,14 @@ python tests/browser_checks.py --screenshots /tmp/oracle-preview
 python scripts/v2/sync_portal.py --portal-root ../oracle-briefing
 ```
 
-Ο builder είναι τοπικός, ντετερμινιστικός και χωρίς network/Telegram. Ελέγχει όλα τα δεδομένα πριν γράψει τις εκδόσεις. Στο private repository λειτουργεί ως ίδια επαληθεύσιμη μηχανή σε ιδιωτικό δέντρο· καμία αυτόματη μεταφορά προς δημόσιο. Τα παλαιά scripts παραμένουν για ιστορική συμβατότητα, δεν είναι το ενεργό workflow.
+Ο builder είναι τοπικός, ντετερμινιστικός και χωρίς network/Telegram. Ελέγχει όλα τα δεδομένα πριν γράψει τις εκδόσεις. Στο private repository λειτουργεί ως ίδια επαληθεύσιμη μηχανή σε ιδιωτικό δέντρο· καμία αυτόματη μεταφορά προς δημόσιο. Οι παλιοί Gemini/Antigravity generators, Telegram senders και daily/notify workflows έχουν διαγραφεί. Ο renderer v2 είναι η μοναδική μηχανή παραγωγής HTML. Τα ιστορικά HTML/URLs διατηρούνται.
 
 Δοκιμάζουμε morning/midday/evening, περιορισμένα αθλητικά, ελλιπή fixture/market, μία ή περισσότερες αλυσίδες πηγών, wire αναδημοσίευση, διατήρηση ιστορικών readers, DST, έλλειψη άρθρου, αποτυχία μητρώου/αναζήτησης, storage failure, keyboard και πλάτη 320/375/390/1440. Τα synthetic fixtures μένουν στα tests και σε προσωρινό δέντρο, ποτέ στο `docs` δημοσίευσης.
 
 Για δημοσίευση χρειάζονται το πραγματικό ελεγμένο commit του δημόσιου περιεχομένου και ενημέρωση του portal registry. Διατηρούμε ακριβώς τις υπάρχουσες διευθύνσεις Pages. Αναφέρουμε live URL μόνο αφού ολοκληρωθεί και επαληθευτεί η αντίστοιχη deployment. Ένα PR ή τοπικό screenshot δεν είναι live deployment.
 
 Οι αντικαταστάσεις prompts για τα εξωτερικά tasks είναι στο `CHATGPT_TASK_INSTRUCTIONS.md`. Δεν έχουν εφαρμοστεί αυτόματα στα tasks από αυτή την αλλαγή.
+
+## Ενεργή λειτουργία μετά τη συντήρηση 12/10
+
+Διάβασε το OPERATIONS.md. Ο builder προωθεί ολόκληρο υποψήφιο docs με rollback, το schema απορρίπτει άγνωστα δημόσια πεδία και scripts/v2/release.py παράγει hashes/επιτρεπόμενο δημόσιο πακέτο και ελέγχει το πραγματικό Pages αποτέλεσμα. Το Wire είναι ανεξάρτητο, χωρίς Telegram. Δεν απαιτείται Gemini ή άλλος repository scheduler.

@@ -15,8 +15,8 @@ build=importlib.util.module_from_spec(spec);spec.loader.exec_module(build)
 class StructuredContentTests(unittest.TestCase):
     def setUp(self):
         build.ROOT=ROOT
-        self.edition=json.loads((ROOT/'content/editions/2026-10-12-morning.json').read_text())
-        self.articles=[json.loads((ROOT/'content'/p).read_text()) for p in self.edition['articles']]
+        self.edition=json.loads((ROOT/'content/editions/2026-10-12-morning.json').read_text(encoding='utf-8'))
+        self.articles=[json.loads((ROOT/'content'/p).read_text(encoding='utf-8')) for p in self.edition['articles']]
 
     def candidate(self,scenario):
         e=copy.deepcopy(self.edition);aa=copy.deepcopy(self.articles)
@@ -42,11 +42,11 @@ class StructuredContentTests(unittest.TestCase):
         return root
 
     def test_three_editions_with_real_missing_data_render_truthful_states(self):
-        scenarios=json.loads((ROOT/'tests/fixtures/scenarios.json').read_text())
+        scenarios=json.loads((ROOT/'tests/fixtures/scenarios.json').read_text(encoding='utf-8'))
         for scenario in scenarios:
             with self.subTest(scenario=scenario),tempfile.TemporaryDirectory() as directory:
                 e,aa=self.candidate(scenario);root=self.fixture_root(directory,e,aa);build.build(root)
-                html=BeautifulSoup((root/'docs'/e['url']).read_text(),'html.parser')
+                html=BeautifulSoup((root/'docs'/e['url']).read_text(encoding='utf-8'),'html.parser')
                 current=html.select_one('[aria-current=page]')
                 self.assertIn(build.TYPES[e['type']],current.text)
                 self.assertEqual(len(html.select('[aria-current=page]')),1)
@@ -61,20 +61,20 @@ class StructuredContentTests(unittest.TestCase):
             marker=root/'docs/index.html';marker.write_text('existing archive')
             (root/'content'/self.edition['articles'][0]).unlink()
             with self.assertRaises(FileNotFoundError):build.build(root)
-            self.assertEqual(marker.read_text(),'existing archive')
+            self.assertEqual(marker.read_text(encoding='utf-8'),'existing archive')
 
     def test_article_cannot_resolve_to_different_historical_edition(self):
         self.articles[0]['edition_id']='2026-10-11-evening'
         with self.assertRaisesRegex(ValueError,'Historical'):build.validate(self.edition,self.articles)
 
     def test_readers_are_pinned_to_different_historical_content(self):
-        routes=json.loads((ROOT/'docs/data/reader-routes.json').read_text())
+        routes=json.loads((ROOT/'docs/data/reader-routes.json').read_text(encoding='utf-8'))
         self.assertEqual(routes['reader.html']['edition_id'],'2026-10-11-evening')
         self.assertEqual(routes['readers/2026-10-12.html']['edition_id'],'2026-10-12-morning')
         old=routes['articles']['2026-10-11-evening']['cyprus-1'];new=routes['articles']['2026-10-12-morning']['cyprus-1']
         self.assertNotEqual(old,new)
-        self.assertIn('Μόρφου',(ROOT/'docs'/old).read_text())
-        self.assertIn('Προϋπολογισμός',(ROOT/'docs'/new).read_text())
+        self.assertIn('Μόρφου',(ROOT/'docs'/old).read_text(encoding='utf-8'))
+        self.assertIn('Προϋπολογισμός',(ROOT/'docs'/new).read_text(encoding='utf-8'))
 
     def test_source_indicator_distinguishes_wire_copies_and_inaccessible_content(self):
         first=copy.deepcopy(self.articles[0]['sources'][0]);first['publisher']='Μέσο Α';first['reporting_group']='AFP'
@@ -88,6 +88,11 @@ class StructuredContentTests(unittest.TestCase):
     def test_inaccessible_article_cannot_be_used_for_claims(self):
         self.articles[0]['sources'][0].update(access='inaccessible',used_for_claims=True)
         with self.assertRaisesRegex(ValueError,'Inaccessible'):build.validate(self.edition,self.articles)
+
+    def test_private_notes_cannot_be_exported_as_undeclared_article_fields(self):
+        self.articles[0]['private_notes']='Personal information must remain private'
+        with self.assertRaises(ValidationError):
+            build.validate(self.edition,self.articles)
 
     def test_us_session_is_not_completed_close_at_1930_cyprus(self):
         quote=self.edition['markets'][0]
@@ -114,11 +119,11 @@ class StructuredContentTests(unittest.TestCase):
     def test_draft_never_becomes_available(self):
         with tempfile.TemporaryDirectory() as directory:
             self.edition['status']='draft';root=self.fixture_root(directory,self.edition,self.articles);build.build(root)
-            self.assertEqual(json.loads((root/'docs/data/editions.json').read_text()),[])
+            self.assertEqual(json.loads((root/'docs/data/editions.json').read_text(encoding='utf-8')),[])
             self.assertFalse((root/'docs'/self.edition['url']).exists())
 
     def test_search_includes_extended_text_and_correct_dated_url(self):
-        index=json.loads((ROOT/'docs/search-index.json').read_text())
+        index=json.loads((ROOT/'docs/search-index.json').read_text(encoding='utf-8'))
         item=next(x for x in index if x['edition_id']=='2026-10-12-morning' and 'Προϋπολογισμός' in x['headline'])
         self.assertIn('παρονομαστής',item['body'])
         self.assertEqual(item['url'],'articles/2026-10-12-morning/cyprus-1.html')
@@ -136,7 +141,7 @@ class StructuredContentTests(unittest.TestCase):
 
     def test_published_articles_are_independent_of_edition_html(self):
         a=self.articles[1]
-        html=(ROOT/'docs'/a['url']).read_text()
+        html=(ROOT/'docs'/a['url']).read_text(encoding='utf-8')
         self.assertIn(a['sections'][1]['paragraphs'][0],html)
         self.assertNotIn('DOMParser',html)
         self.assertNotIn('fetch(',html)

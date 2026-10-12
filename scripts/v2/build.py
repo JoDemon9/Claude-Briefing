@@ -5,6 +5,9 @@ import html
 import json
 import math
 import re
+import os
+import shutil
+import tempfile
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -26,11 +29,11 @@ def stamp(value, timezone='Europe/Athens'):
     return datetime.fromisoformat(value.replace('Z', '+00:00')).astimezone(ZoneInfo(timezone)).strftime('%d/%m/%Y · %H:%M %Z')
 
 def read(path):
-    return json.loads(path.read_text())
+    return json.loads(path.read_text(encoding='utf-8'))
 
 def write(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding='utf-8')
+    path.write_text(text, encoding='utf-8', newline='\n')
 
 def sources_label(sources):
     publishers = {s['publisher'].casefold().strip() for s in sources}
@@ -211,7 +214,7 @@ def edition_desk(e, registry):
 def head(title, canonical, css, depth=''):
     return f'<!doctype html><html lang="el" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} · The Oracle Sovereign</title><link rel="canonical" href="{BASE}{canonical}"><link rel="stylesheet" href="{depth}assets/{css}.css"><link rel="stylesheet" href="{depth}assets/accessibility.css"><script defer src="{depth}assets/reading.js"></script></head><body><a class="skip-link" href="#main">Μετάβαση στο περιεχόμενο</a>'
 
-def build(root=ROOT):
+def _render(root=ROOT):
     global ROOT
     ROOT = Path(root)
     editions = [read(f) for f in sorted((ROOT/'content/editions').glob('*.json'))]
@@ -279,12 +282,40 @@ def build(root=ROOT):
             write(ROOT/'docs'/route,compat)
     write(ROOT/'docs/data/reader-routes.json',json.dumps(route_registry,ensure_ascii=False,indent=2)+'\n')
     for name in ['newspaper','article']:
-        write(ROOT/'docs/assets'/(name+'.css'),(ROOT/'templates/v2'/(name+'.css')).read_text())
+        write(ROOT/'docs/assets'/(name+'.css'),(ROOT/'templates/v2'/(name+'.css')).read_text(encoding='utf-8'))
     archive=head('Αρχείο εκδόσεων','index.html','newspaper')+'<header class="masthead wrap"><div class="brand"><h1>THE ORACLE <em>SOVEREIGN.</em></h1><p>Αρχείο δημοσιευμένων εκδόσεων</p></div></header><main class="wrap" id="main"><div class="tools"><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button><a href="search.html">Αναζήτηση άρθρων</a><a href="https://jodemon9.github.io/oracle-briefing/">Κεντρική πύλη ↗</a></div><div class="g3">'
     for x in registry:
         archive+=f'<article class="newscard"><div class="story-content"><p>{x["date"]} · {TYPES[x["type"]]} έκδοση</p><h2>{esc(x["title"])}</h2><p>{stamp(x["published_at"])}</p><a class="read-link" href="{esc(x["url"])}">Ανάγνωση έκδοσης ↗</a></div></article>'
     write(ROOT/'docs/index.html',archive+'</div></main></body></html>')
     print(f'Built {len(bundles)} editions, {len(search)} separate articles, {len(registry)} archive entries')
+
+
+def build(root=ROOT):
+    """Publish a fully validated local candidate, with rollback; no remote writes."""
+    global ROOT
+    actual = Path(root).resolve()
+    previous = ROOT
+    try:
+        with tempfile.TemporaryDirectory(prefix='oracle-build-', dir=actual.parent) as directory:
+            candidate = Path(directory)/'candidate'
+            candidate.mkdir()
+            for name in ['content', 'templates', 'docs']:
+                if (actual/name).exists():
+                    shutil.copytree(actual/name, candidate/name)
+            _render(candidate)
+            live = actual/'docs'
+            backup = Path(directory)/'previous-docs'
+            had_live = live.exists()
+            if had_live:
+                os.replace(live, backup)
+            try:
+                os.replace(candidate/'docs', live)
+            except BaseException:
+                if had_live:
+                    os.replace(backup, live)
+                raise
+    finally:
+        ROOT = previous
 
 if __name__ == '__main__':
     parser=argparse.ArgumentParser(description=__doc__)

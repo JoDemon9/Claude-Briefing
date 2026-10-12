@@ -12,3 +12,6 @@ briefings/*.html
 __pycache__/
 *.pyc
 briefings/.link-check-*.json
+
+# Local publication receipts and candidates
+.work/
