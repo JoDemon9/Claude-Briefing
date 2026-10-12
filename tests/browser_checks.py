@@ -45,7 +45,12 @@ def run(screenshots=None):
                     page.set_viewport_size({'width':width,'height':900})
                     for path in paths:
                         page.goto(base+path,wait_until='networkidle')
-                        assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'),f'Horizontal overflow {width} {path}'
+                        if not page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'):
+                            print(page.evaluate('JSON.stringify([...document.querySelectorAll("*")].filter(e=>e.getBoundingClientRect().right>innerWidth+1||e.scrollWidth>e.clientWidth+2).slice(0,15).map(e=>({tag:e.tagName,cls:e.className,width:e.clientWidth,scroll:e.scrollWidth,whiteSpace:getComputedStyle(e).whiteSpace})))'))
+                            if screenshots:
+                                screenshots.mkdir(parents=True,exist_ok=True)
+                                page.screenshot(path=str(screenshots/('overflow-'+str(width)+'.png')),full_page=True)
+                            raise AssertionError(f'Horizontal overflow {width} {path}')
                         for button in page.locator('button:visible').all():
                             rect=button.bounding_box();assert rect['height']>=43,f'Touch target {path} {rect}'
                         assert not errors,(path,errors)
@@ -64,7 +69,7 @@ def run(screenshots=None):
                 page.goto(base+'/real/articles/2026-10-12-morning/cyprus-1.html')
                 page.locator('[data-bookmark]').click();assert page.locator('[data-bookmark]').get_attribute('aria-pressed')=='true'
                 page.evaluate('scrollTo(0,document.documentElement.scrollHeight/2)');page.wait_for_timeout(350)
-                page.reload();assert page.locator('[data-resume]').is_visible();page.locator('[data-resume]').click()
+                page.reload();page.wait_for_timeout(350);page.reload();assert page.locator('[data-resume]').is_visible();page.locator('[data-resume]').click()
                 assert page.evaluate('scrollY')>100
                 assert page.locator('a[href="../../morning/2026-10-12.html"]').count()>=1
                 checks.append('Bookmark, retained reading progress and dated return link passed')

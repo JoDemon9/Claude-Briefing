@@ -12,6 +12,6 @@ const key='oracle:article:'+main.dataset.articleKey,bookmark=document.querySelec
 const saved=get(key+':bookmark')==='true';bookmark.setAttribute('aria-pressed',String(saved));bookmark.textContent=saved?'Αποθηκευμένο άρθρο':'Αποθήκευση άρθρου';
 bookmark.addEventListener('click',()=>{const next=bookmark.getAttribute('aria-pressed')!=='true';if(set(key+':bookmark',String(next))){bookmark.setAttribute('aria-pressed',String(next));bookmark.textContent=next?'Αποθηκευμένο άρθρο':'Αποθήκευση άρθρου';status.textContent='Η αποθήκευση ισχύει μόνο σε αυτόν τον browser.'}else{status.textContent='Η αποθήκευση δεν είναι διαθέσιμη στον browser.'}});
 const previous=Number(get(key+':progress'));if(previous>0.03&&previous<0.98){resume.hidden=false;resume.addEventListener('click',()=>window.scrollTo({top:previous*Math.max(0,doc.scrollHeight-innerHeight),behavior:'auto'}))}
-let timer;function progress(){const amount=Math.max(0,Math.min(1,scrollY/Math.max(1,doc.scrollHeight-innerHeight)));document.querySelector('#reading-progress').value=amount*100;clearTimeout(timer);timer=setTimeout(()=>set(key+':progress',String(amount)),250)}
-document.addEventListener('scroll',progress,{passive:true});progress();
+let timer;function progress(persist=false){const amount=Math.max(0,Math.min(1,scrollY/Math.max(1,doc.scrollHeight-innerHeight)));document.querySelector('#reading-progress').value=amount*100;clearTimeout(timer);if(persist)timer=setTimeout(()=>set(key+':progress',String(amount)),250)}
+document.addEventListener('scroll',()=>progress(true),{passive:true});progress();
 })();

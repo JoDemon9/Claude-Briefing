@@ -7,3 +7,5 @@
 html{scroll-padding-top:calc(var(--sticky-height,82px) + 16px)}[id]{scroll-margin-top:calc(var(--sticky-height,82px) + 16px)}#reading-progress{top:var(--sticky-height,65px)}
 
 .masthead>.brand:only-child{grid-column:1/-1}.search-shell input[type=checkbox]{width:24px;min-height:24px;margin-right:10px}
+
+.hero-grid>*{min-width:0}@media(max-width:890px){.brand h1{white-space:normal}.hero-side{grid-template-columns:1fr}}@media(max-width:600px){.brand h1 em{display:block;margin-top:5px}}
