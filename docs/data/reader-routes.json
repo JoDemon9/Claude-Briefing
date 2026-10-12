@@ -14,6 +14,15 @@
       "world-4": "articles/2026-10-11-evening/world-4.html",
       "world-5": "articles/2026-10-11-evening/world-5.html"
     },
+    "2026-10-12-evening": {
+      "lead": "articles/2026-10-12-evening/lead.html",
+      "cyprus-1": "articles/2026-10-12-evening/cyprus-1.html",
+      "cyprus-2": "articles/2026-10-12-evening/cyprus-2.html",
+      "world-1": "articles/2026-10-12-evening/world-1.html",
+      "world-2": "articles/2026-10-12-evening/world-2.html",
+      "shanghai-bergs-alcaraz": "articles/2026-10-12-evening/shanghai-bergs-alcaraz.html",
+      "shanghai-tsitsipas-fritz": "articles/2026-10-12-evening/shanghai-tsitsipas-fritz.html"
+    },
     "2026-10-12-midday": {
       "lead": "articles/2026-10-12-midday/lead.html",
       "cyprus-1": "articles/2026-10-12-midday/cyprus-1.html",
@@ -42,6 +51,9 @@
   },
   "reader.html": {
     "edition_id": "2026-10-11-evening"
+  },
+  "readers/2026-10-12-evening.html": {
+    "edition_id": "2026-10-12-evening"
   },
   "readers/2026-10-12-midday.html": {
     "edition_id": "2026-10-12-midday"

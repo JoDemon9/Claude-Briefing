@@ -39,7 +39,7 @@ def run(screenshots=None):
                 # Tests use local artifacts. No analytics, weather, market API or messaging calls.
                 context.route('**/*',lambda route:route.continue_() if route.request.url.startswith(base) or route.request.url.startswith('data:') else route.abort())
                 page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
-                paths=['/real/morning/2026-10-12.html','/real/articles/2026-10-12-morning/cyprus-1.html','/real/index.html','/real/search.html']
+                paths=['/real/morning/2026-10-12.html','/real/articles/2026-10-12-morning/cyprus-1.html','/real/midday/2026-10-12.html','/real/evening/2026-10-12.html','/real/index.html','/real/search.html']
                 for s in scenarios:paths.append('/'+s['type']+'/docs/'+s['type']+'/'+s['date']+'.html')
                 for width in [320,375,390,1440]:
                     page.set_viewport_size({'width':width,'height':900})
@@ -54,6 +54,10 @@ def run(screenshots=None):
                         for button in page.locator('button:visible').all():
                             rect=button.bounding_box();assert rect['height']>=43,f'Touch target {path} {rect}'
                         assert not errors,(path,errors)
+                        if '/real/' in path and any('/'+edition+'/' in path for edition in ['morning','midday','evening']):
+                            current=page.locator('.edition-desk [aria-current=page]')
+                            assert current.count()==1
+                            assert current.first.get_attribute('href')=='../'+path.split('/')[2]+'/2026-10-12.html'
                         checks.append(f'{width}px {path}: no overflow or JavaScript errors')
                         if screenshots and width in [375,1440] and path in paths[:2]:
                             screenshots.mkdir(parents=True,exist_ok=True)
@@ -82,6 +86,9 @@ def run(screenshots=None):
                 checks.append('Search finds body-only terms and opens the correct dated article')
                 for path,expected in [('/real/reader.html?story=cyprus-1','Μόρφου'),('/real/readers/2026-10-12.html?story=cyprus-1','Προϋπολογισμός')]:
                     page.goto(base+path);page.wait_for_url('**/articles/**');assert expected in page.locator('h1').inner_text()
+                for edition in ['midday','evening']:
+                    page.goto(base+'/real/readers/2026-10-12-'+edition+'.html?story=cyprus-1')
+                    page.wait_for_url('**/articles/2026-10-12-'+edition+'/cyprus-1.html')
                 page.goto(base+'/real/readers/2026-10-12.html?story=does-not-exist');page.wait_for_function('document.querySelector("#reader-status").textContent.includes("δεν είναι διαθέσιμο")')
                 checks.append('Historical readers and unknown-story error passed')
                 page.route('**/data/reader-routes.json',lambda r:r.fulfill(status=404,body='not found'))
