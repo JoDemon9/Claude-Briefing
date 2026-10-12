@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Αερομεταφορές και υποδομές</title><desc id="desc">Σχηματική συντακτική εικονογράφηση αεροδρομίου και συνδεδεμένων διαδρομών. Δεν απεικονίζει πραγματική επίθεση.</desc>
+<defs><pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#c5ddcf" stroke-opacity=".08"/></pattern><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0f252a"/><stop offset="1" stop-color="#1e4440"/></linearGradient></defs>
+<rect width="1200" height="650" fill="url(#bg)"/><rect width="1200" height="650" fill="url(#grid)"/>
+<g fill="none" stroke="#d4ae7d"><path d="M130 510Q370 70 1010 175M130 510Q650 490 1010 175M310 120Q680 120 980 510" stroke-opacity=".4" stroke-width="2"/><circle cx="625" cy="310" r="215" stroke-dasharray="3 12" stroke-opacity=".5"/><circle cx="625" cy="310" r="140" stroke-opacity=".25"/></g>
+<g transform="translate(625 310) rotate(-30)"><rect x="-50" y="-190" width="100" height="380" rx="10" fill="#e7e4d5" fill-opacity=".12" stroke="#e7e4d5" stroke-opacity=".6"/><path d="M0-170V170" stroke="#e7e4d5" stroke-width="4" stroke-dasharray="20 18"/><path d="M-80-80H-160V60H-80M80-100H145V100H80" fill="none" stroke="#d4ae7d" stroke-width="12" stroke-opacity=".65"/></g>
+<g fill="#d4ae7d"><circle cx="130" cy="510" r="7"/><circle cx="1010" cy="175" r="7"/><circle cx="310" cy="120" r="7"/><circle cx="980" cy="510" r="7"/></g>
+<text x="65" y="76" fill="#e8dbbe" font-family="Georgia,serif" font-size="22" letter-spacing="5">THE ORACLE SOVEREIGN</text><text x="65" y="595" fill="#e8dbbe" font-family="Arial,sans-serif" font-size="18">ΑΕΡΟΜΕΤΑΦΟΡΕΣ / ΥΠΟΔΟΜΕΣ / ΠΕΡΙΦΕΡΕΙΑΚΟΣ ΚΙΝΔΥΝΟΣ</text>
+</svg>

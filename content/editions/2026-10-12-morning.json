@@ -1,0 +1,595 @@
+{
+  "schema_version": 2,
+  "id": "2026-10-12-morning",
+  "date": "2026-10-12",
+  "type": "morning",
+  "timezone": "Europe/Athens",
+  "published_at": "2026-10-12T07:24:05+03:00",
+  "status": "published",
+  "title": "Προϋπολογισμός, γεωπολιτική και αθλητικές εξελίξεις",
+  "url": "morning/2026-10-12.html",
+  "aliases": [
+    "briefings/2026-10-12.html"
+  ],
+  "preserve_legacy_html": false,
+  "reader_routes": [
+    "readers/2026-10-12.html"
+  ],
+  "articles": [
+    "articles/2026-10-12-morning/lead.json",
+    "articles/2026-10-12-morning/cyprus-1.json",
+    "articles/2026-10-12-morning/cyprus-2.json",
+    "articles/2026-10-12-morning/cyprus-3.json",
+    "articles/2026-10-12-morning/cyprus-4.json",
+    "articles/2026-10-12-morning/cyprus-5.json",
+    "articles/2026-10-12-morning/cyprus-6.json",
+    "articles/2026-10-12-morning/world-1.json",
+    "articles/2026-10-12-morning/world-2.json",
+    "articles/2026-10-12-morning/world-3.json",
+    "articles/2026-10-12-morning/world-4.json",
+    "articles/2026-10-12-morning/world-5.json",
+    "articles/2026-10-12-morning/golf-open-espana.json",
+    "articles/2026-10-12-morning/nfl-jaguars-london.json"
+  ],
+  "changes": [
+    {
+      "kind": "Εξέλιξη",
+      "story_id": "riyadh-airport-attacks",
+      "text": "Νεότερη αναφορά για το Ριάντ και αναθεώρηση απολογισμού· διακρίνονται οι διαδοχικές επιθέσεις."
+    },
+    {
+      "kind": "Προσθήκη",
+      "story_id": "cyprus-budget-2027",
+      "text": "Προγραμματισμένη παρουσίαση του προϋπολογισμού 2027 στην Επιτροπή Οικονομικών."
+    },
+    {
+      "kind": "Διόρθωση",
+      "story_id": "singapore-gp-2026",
+      "text": "Η τελική κατάταξη του κυριακάτικου αγώνα αντικαθιστά τη χθεσινή ενημέρωση sprint."
+    },
+    {
+      "kind": "Διόρθωση",
+      "story_id": "brexit-interference-evidence",
+      "text": "Η μη προσβάσιμη πηγή Financial Times δεν παρουσιάζεται ως αναγνωσμένο ή διασταυρωμένο ρεπορτάζ."
+    },
+    {
+      "kind": "Προσθήκη",
+      "story_id": "golf-open-espana-2026",
+      "text": "Πρόσθετη κάλυψη εκτός αγαπημένων: Grant Forrest: τίτλος στο Open de España με birdie στην τελευταία τρύπα"
+    },
+    {
+      "kind": "Προσθήκη",
+      "story_id": "nfl-jaguars-london-2026",
+      "text": "Πρόσθετη κάλυψη εκτός αγαπημένων: Jaguars–Eagles 19–17: νίκη στο Λονδίνο με field goal στην εκπνοή"
+    }
+  ],
+  "sports": {
+    "coverage": {
+      "omonoia": {
+        "symbol": "☘",
+        "summary": "Νίκη 3–0 επί της Καρμιώτισσας· επόμενο ευρωπαϊκό παιχνίδι με Celje. Η ώρα προκύπτει από το πρόγραμμα UEFA.",
+        "updated_at": "2026-10-12T06:06:04+00:00",
+        "last_match": {
+          "opponent": "Καρμιώτισσα",
+          "competition": "Πρωτάθλημα Κύπρου",
+          "date": "2026-10-09",
+          "venue": null,
+          "result": "Καρμιώτισσα 0–3 Ομόνοια",
+          "scorers": null,
+          "verified_at": "2026-10-12T06:06:04+00:00",
+          "sources": [
+            {
+              "publisher": "Sportime",
+              "url": "https://sportime.sigmalive.com/ta-telika-symperasmata-kai-i-ektimisi-apo-to-teleytaio-tis-omonoias/",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "Sportime",
+              "kind": "reporting",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Celje",
+          "competition": "UEFA Europa League",
+          "date": "2026-10-15",
+          "venue": null,
+          "kickoff_at": "2026-10-15T18:45:00+02:00",
+          "verified_at": "2026-10-12T06:06:04+00:00",
+          "sources": [
+            {
+              "publisher": "UEFA",
+              "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2177782493b9-69ba3288701d-1000--europa-league-league-phase-fixtures-by-team/",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "UEFA",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Το 3–0 είναι ένδειξη αποτελεσματικότητας στο συγκεκριμένο παιχνίδι. Δεν διαθέτουμε πλήρη επαληθευμένη σειρά τελικών προσπαθειών ή αναμενόμενων γκολ για λεπτομερή τακτική διάγνωση.",
+        "watch_next": "Η επιλογή ενδεκάδας και η διαχείριση εκτός έδρας πίεσης απέναντι σε Celje που επέστρεψε στις νίκες. Το ακριβές γήπεδο και οι σκόρερ του τελευταίου αγώνα δεν συμπληρώνονται χωρίς πρόσθετη επιβεβαίωση.",
+        "league_position": null,
+        "form": null,
+        "updates": [
+          {
+            "text": "Η Celje νίκησε την Aluminij 1–0, με γκολ Avdyil στο 10ο λεπτό, σύμφωνα με το ρεπορτάζ Kerkida. Πρόκειται για ενημέρωση του αντιπάλου.",
+            "sources": [
+              {
+                "publisher": "Kerkida",
+                "url": "https://www.kerkida.net/eyropaikoi-agones/omonoia/endiaferei-omonoia-etsi-epestrepse-stis-nikes-i-celje-stigmiotypa",
+                "published_at": null,
+                "retrieved_at": "2026-10-12T06:06:04+00:00",
+                "reporting_group": "Kerkida",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Ρεπορτάζ",
+            "published_at": "2026-10-11"
+          },
+          {
+            "text": "Το Sportime τονίζει την ανάγκη συνέπειας μετά τη νίκη. Πρόκειται για δημοσιογραφική αξιολόγηση, όχι νέα δήλωση του προπονητή.",
+            "sources": [
+              {
+                "publisher": "Sportime",
+                "url": "https://sportime.sigmalive.com/ta-telika-symperasmata-kai-i-ektimisi-apo-to-teleytaio-tis-omonoias/",
+                "published_at": null,
+                "retrieved_at": "2026-10-12T06:06:04+00:00",
+                "reporting_group": "Sportime",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Συντακτική αποτίμηση",
+            "published_at": "2026-10-11"
+          }
+        ],
+        "no_update_reason": "Δεν έχει επαληθευτεί νέα ουσιαστική ενημέρωση πέρα από τα παρατιθέμενα στοιχεία."
+      },
+      "manutd": {
+        "symbol": "M",
+        "summary": "United–Tottenham 1–1 στον τίτλο του επίσημου απολογισμού. Η UEFA επιβεβαιώνει το Atleti–United στις 13/10.",
+        "updated_at": "2026-10-12T06:06:04+00:00",
+        "last_match": {
+          "opponent": "Tottenham",
+          "competition": "Premier League",
+          "date": "2026-10-10",
+          "venue": null,
+          "result": "1–1",
+          "scorers": null,
+          "verified_at": "2026-10-12T06:06:04+00:00",
+          "sources": [
+            {
+              "publisher": "Manchester United",
+              "url": "https://www.manutd.com/en/news/report-united-1-tottenham-1-10-oct-2026",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "Manchester United",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Atlético Madrid",
+          "competition": "UEFA Champions League",
+          "date": "2026-10-13",
+          "venue": null,
+          "kickoff_at": null,
+          "verified_at": "2026-10-12T06:06:04+00:00",
+          "sources": [
+            {
+              "publisher": "UEFA",
+              "url": "https://www.uefa.com/uefachampionsleague/clubs/52682/matches/",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "UEFA",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Η ισοπαλία περιορίζει τη βαθμολογική συγκομιδή σε έναν βαθμό. Το σώμα του επίσημου απολογισμού δεν ανακτήθηκε πλήρως· γι’ αυτό δεν προσθέτουμε ανεπιβεβαίωτους σκόρερ, λεπτά ή τακτικές λεπτομέρειες.",
+        "watch_next": "Επίσημη αποστολή, επιβεβαίωση γηπέδου και ώρας και διαχείριση της μετάβασης σε ευρωπαϊκό εκτός έδρας παιχνίδι.",
+        "league_position": null,
+        "form": null,
+        "updates": [],
+        "no_update_reason": "Δεν επαληθεύτηκε νέα ουσιαστική ανακοίνωση για τραυματισμούς, προπόνηση ή αποστολή. Η απουσία ενημέρωσης δεν δηλώνει διαθεσιμότητα όλων των παικτών."
+      },
+      "realmadrid": {
+        "symbol": "♛",
+        "summary": "Real–Villarreal 1–0, σκόρερ Diomande κατά AFP. Ακολουθεί Roma στις 14/10, 22:00 ώρα Κύπρου.",
+        "updated_at": "2026-10-12T06:06:04+00:00",
+        "last_match": {
+          "opponent": "Villarreal",
+          "competition": "La Liga",
+          "date": "2026-10-10",
+          "venue": "Santiago Bernabéu",
+          "result": "1–0",
+          "scorers": [
+            "Yan Diomande"
+          ],
+          "verified_at": "2026-10-12T06:06:04+00:00",
+          "sources": [
+            {
+              "publisher": "The Daily Star / AFP",
+              "url": "https://www.thedailystar.net/sports/football/news/real-madrid-edge-villarreal-vinicius-sent-hair-pull-4295686",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "AFP",
+              "kind": "reporting",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Roma",
+          "competition": "UEFA Champions League",
+          "date": "2026-10-14",
+          "venue": null,
+          "kickoff_at": "2026-10-14T21:00:00+02:00",
+          "verified_at": "2026-10-12T06:06:04+00:00",
+          "sources": [
+            {
+              "publisher": "Real Madrid",
+              "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-calendario-del-real-madrid-en-octubre-24-09-2026",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "Real Madrid",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Το AFP περιγράφει περιορισμένες ευκαιρίες στο πρώτο μέρος, βελτίωση αμυντικής εικόνας και αντοχή με δέκα παίκτες στο τέλος. Αυτές είναι περιγραφές της συγκεκριμένης αναφοράς· δεν τις μετατρέπουμε σε μέτρηση απόδοσης για ολόκληρη τη σεζόν.",
+        "watch_next": "Επιλογές στην επίθεση και επίσημη πειθαρχική απόφαση. Η αποβολή σε αγώνα πρωταθλήματος δεν ισοδυναμεί αυτόματα με αποκλεισμό από το Champions League.",
+        "league_position": "Προσωρινά 3η μετά τον αγώνα, κατά AFP · 10/10· δεν είναι ενημερωμένος πλήρης πίνακας",
+        "form": null,
+        "updates": [
+          {
+            "text": "Αποβολή Vinícius μετά από έλεγχο VAR για τράβηγμα μαλλιών· το γκολ του ακυρώθηκε. Η διάρκεια ενδεχόμενης ποινής δεν έχει επιβεβαιωθεί.",
+            "sources": [
+              {
+                "publisher": "The Daily Star / AFP",
+                "url": "https://www.thedailystar.net/sports/football/news/real-madrid-edge-villarreal-vinicius-sent-hair-pull-4295686",
+                "published_at": null,
+                "retrieved_at": "2026-10-12T06:06:04+00:00",
+                "reporting_group": "AFP",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Ρεπορτάζ",
+            "published_at": "2026-10-10"
+          },
+          {
+            "text": "Ο Mbappé ξεκίνησε και αγωνίστηκε μετά το αναφερόμενο πρόβλημα στο γόνατο. Η συμμετοχή του δεν αποτελεί ιατρική επιβεβαίωση διαθεσιμότητας για τον επόμενο αγώνα.",
+            "sources": [
+              {
+                "publisher": "The Daily Star / AFP",
+                "url": "https://www.thedailystar.net/sports/football/news/real-madrid-edge-villarreal-vinicius-sent-hair-pull-4295686",
+                "published_at": null,
+                "retrieved_at": "2026-10-12T06:06:04+00:00",
+                "reporting_group": "AFP",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Ρεπορτάζ",
+            "published_at": "2026-10-10"
+          },
+          {
+            "text": "Ο σύλλογος δημοσιεύει το εκτός έδρας Roma–Real στις 21:00 CEST· η μετατροπή δίνει 22:00 Europe/Athens.",
+            "sources": [
+              {
+                "publisher": "Real Madrid",
+                "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-calendario-del-real-madrid-en-octubre-24-09-2026",
+                "published_at": null,
+                "retrieved_at": "2026-10-12T06:06:04+00:00",
+                "reporting_group": "Real Madrid",
+                "kind": "primary",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Επίσημο πρόγραμμα",
+            "published_at": "2026-09-24"
+          }
+        ],
+        "no_update_reason": "Δεν έχει επαληθευτεί νέα ουσιαστική ενημέρωση πέρα από τα παρατιθέμενα στοιχεία."
+      },
+      "formula1": {
+        "symbol": "F1",
+        "summary": "Κύριος αγώνας Σιγκαπούρης: Verstappen, Leclerc, Antonelli. Το αποτέλεσμα αφορά τον αγώνα της Κυριακής, χωριστά από sprint και κατατακτήριες.",
+        "updated_at": "2026-10-12T06:06:04+00:00",
+        "last_match": null,
+        "next_fixture": null,
+        "latest_session": {
+          "event": "Singapore Grand Prix",
+          "session_type": "Κύριος αγώνας",
+          "date": "2026-10-11",
+          "results": "Verstappen 1:42:00.785 · Leclerc +7.335s · Antonelli +24.573s. Norris 4ος, Piastri 5ος, Hamilton 6ος.",
+          "implications": "Ο Guardian αναφέρει προβάδισμα Antonelli 102 βαθμών από Russell και 111 από Hamilton. Το ενδεχόμενο τίτλου στο Austin εξαρτάται από συνδυασμό αποτελεσμάτων· δεν έχει ήδη κριθεί.",
+          "incidents": "Η επίσημη κατάταξη καταγράφει εγκαταλείψεις Albon, Stroll, Colapinto και Bortoleto. Δεν δίνει από μόνη της την αιτία κάθε εγκατάλειψης.",
+          "verified_at": "2026-10-12T06:06:04+00:00",
+          "sources": [
+            {
+              "publisher": "Formula 1",
+              "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "Formula 1",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            },
+            {
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/sport/2026/oct/11/antonelli-one-win-from-title-after-verstappen-wins-singapore-f1-gp",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "The Guardian",
+              "kind": "reporting",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_grand_prix": "Grand Prix ΗΠΑ · Circuit of The Americas, Austin · 25/10/2026",
+        "sessions": [],
+        "analysis": "Χωρίς επαληθευμένα πρόσθετα δεδομένα δεν συνάγεται τακτικό συμπέρασμα.",
+        "watch_next": "Επίσημη ανακοίνωση αγώνα και αποστολής.",
+        "league_position": null,
+        "form": null,
+        "updates": [
+          {
+            "text": "Ο Hamilton ανέλαβε ευθύνη για την επιλογή να μη σταματήσει υπό εικονικό αυτοκίνητο ασφαλείας, κατά Guardian. Ο Vasseur περιγράφει διαφορετικά την επικοινωνία ομάδας και οδηγού.",
+            "sources": [
+              {
+                "publisher": "The Guardian",
+                "url": "https://www.theguardian.com/sport/2026/oct/11/antonelli-one-win-from-title-after-verstappen-wins-singapore-f1-gp",
+                "published_at": null,
+                "retrieved_at": "2026-10-12T06:06:04+00:00",
+                "reporting_group": "The Guardian",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Ρεπορτάζ",
+            "published_at": "2026-10-11"
+          },
+          {
+            "text": "Η Mercedes προσπαθεί να αξιοποιήσει πρόσφατες αναβαθμίσεις. Ο Antonelli δήλωσε ότι χρειάζεται καλύτερη προσωπική απόδοση· δεν τεκμηριώνεται εδώ συγκεκριμένο νέο τεχνικό εξάρτημα.",
+            "sources": [
+              {
+                "publisher": "The Guardian",
+                "url": "https://www.theguardian.com/sport/2026/oct/11/antonelli-one-win-from-title-after-verstappen-wins-singapore-f1-gp",
+                "published_at": null,
+                "retrieved_at": "2026-10-12T06:06:04+00:00",
+                "reporting_group": "The Guardian",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Ρεπορτάζ",
+            "published_at": "2026-10-11"
+          },
+          {
+            "text": "Πιθανός τίτλος στο Austin κατά Guardian: νίκη Antonelli, Russell 9ος ή χαμηλότερα και Hamilton 5ος ή χαμηλότερα. Χρειάζεται επανέλεγχος με την επίσημη βαθμολογία και τον κανονισμό.",
+            "sources": [
+              {
+                "publisher": "The Guardian",
+                "url": "https://www.theguardian.com/sport/2026/oct/11/antonelli-one-win-from-title-after-verstappen-wins-singapore-f1-gp",
+                "published_at": null,
+                "retrieved_at": "2026-10-12T06:06:04+00:00",
+                "reporting_group": "The Guardian",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Ρεπορτάζ",
+            "published_at": "2026-10-11"
+          }
+        ],
+        "no_update_reason": "Δεν έχει επαληθευτεί νέα ουσιαστική ενημέρωση πέρα από τα παρατιθέμενα στοιχεία.",
+        "next_gp_sources": [
+          {
+            "publisher": "Formula 1",
+            "url": "https://www.formula1.com/en/racing/2026/united-states",
+            "published_at": null,
+            "retrieved_at": null,
+            "reporting_group": "Formula 1",
+            "kind": "primary",
+            "access": "read",
+            "used_for_claims": true
+          }
+        ],
+        "session_times_reason": "Η ανακτημένη σελίδα δείχνει ώρες στην επιλογή «MY TIME» χωρίς επαληθευμένη timezone στο κείμενο. Δεν τις μετατρέπουμε αυθαίρετα σε ώρα Κύπρου."
+      }
+    },
+    "major_stories": [
+      {
+        "headline": "Grant Forrest: τίτλος στο Open de España με birdie στην τελευταία τρύπα",
+        "published_at": "2026-10-11",
+        "summary": "Ο Grant Forrest ολοκλήρωσε στο −14 και νίκησε με διαφορά ενός χτυπήματος τους Eugenio Chacarra και Victor Perez στη Μαδρίτη. Το Sky Sports αναφέρει τρίτο τίτλο DP World Tour και θέσεις στο επόμενο Masters και στο The Open. Η νίκη κρίθηκε στο τελευταίο putt, αφού το αποτέλεσμα παρέμενε ισόπαλο πριν από την 18η τρύπα.",
+        "why_it_matters": "Η σημασία ξεπερνά το τρόπαιο: το αποτέλεσμα ανοίγει πρόσβαση σε δύο σημαντικές διοργανώσεις. Οι διαδρομές πρόκρισης είναι μέρος της ανταγωνιστικής αξίας μιας νίκης, αλλά η επόμενη συμμετοχή και απόδοση δεν είναι εγγυημένες.",
+        "sources": [
+          {
+            "publisher": "Sky Sports",
+            "url": "https://www.skysports.com/golf/news/12040/13597912/open-de-espana-scotlands-grant-forrest-birdies-final-hole-to-secure-thrilling-one-shot-victory-on-dp-world-tour",
+            "published_at": null,
+            "retrieved_at": "2026-10-12T06:06:04+00:00",
+            "reporting_group": "Sky Sports",
+            "kind": "reporting",
+            "access": "read",
+            "used_for_claims": true
+          }
+        ],
+        "article_id": "golf-open-espana"
+      },
+      {
+        "headline": "Jaguars–Eagles 19–17: νίκη στο Λονδίνο με field goal στην εκπνοή",
+        "published_at": "2026-10-11",
+        "summary": "Ο Cam Little πέτυχε field goal 57 γιάρδων στην εκπνοή για το 19–17 των Jacksonville Jaguars επί των Philadelphia Eagles στο Tottenham Hotspur Stadium. Σύμφωνα με το Sky Sports, προηγήθηκαν field goal των Eagles με 12 δευτερόλεπτα να απομένουν και επιστροφή kickoff 53 γιάρδων από τον Ameer Abdullah. Οι Jaguars έφτασαν σε απολογισμό 4–1, οι Eagles σε 2–3.",
+        "why_it_matters": "Το αποτέλεσμα δείχνει τη σημασία των ειδικών ομάδων και της θέσης στο γήπεδο στο τέλος ενός αγώνα. Αλλάζει τους απολογισμούς νικών, χωρίς να κρίνει από μόνο του πρόκριση στα playoffs.",
+        "sources": [
+          {
+            "publisher": "Sky Sports",
+            "url": "https://www.skysports.com/nfl/news/12040/13597513/nfl-in-london-cam-little-kicks-game-winning-field-goal-as-jacksonville-jaguars-beat-philadelphia-eagles-19-17-in-tottenham-hotspur-stadium-thriller",
+            "published_at": null,
+            "retrieved_at": "2026-10-12T06:06:04+00:00",
+            "reporting_group": "Sky Sports",
+            "kind": "reporting",
+            "access": "read",
+            "used_for_claims": true
+          }
+        ],
+        "article_id": "nfl-jaguars-london"
+      }
+    ],
+    "major_stories_reason": "Δεν έχει επαληθευτεί πρόσθετη σημαντική ιστορία."
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": "7.811,54",
+      "currency": "χωρίς νόμισμα",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-09",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · στιγμιότυπο αρχικής έκδοσης",
+          "url": "https://finance.yahoo.com/",
+          "published_at": null,
+          "retrieved_at": null,
+          "reporting_group": null,
+          "kind": "context",
+          "access": "archived",
+          "used_for_claims": false
+        }
+      ],
+      "market_timezone": "America/New_York"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "27.366,17",
+      "currency": "χωρίς νόμισμα",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-09",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · στιγμιότυπο αρχικής έκδοσης",
+          "url": "https://finance.yahoo.com/",
+          "published_at": null,
+          "retrieved_at": null,
+          "reporting_group": null,
+          "kind": "context",
+          "access": "archived",
+          "used_for_claims": false
+        }
+      ],
+      "market_timezone": "America/New_York"
+    },
+    {
+      "name": "EUR/USD",
+      "value": "1,1213",
+      "currency": "USD",
+      "unit": "1 EUR",
+      "status": "delayed",
+      "quoted_at": "2026-10-12T04:07:00+00:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · στιγμιότυπο αρχικής έκδοσης",
+          "url": "https://finance.yahoo.com/",
+          "published_at": null,
+          "retrieved_at": null,
+          "reporting_group": null,
+          "kind": "context",
+          "access": "archived",
+          "used_for_claims": false
+        }
+      ]
+    },
+    {
+      "name": "Brent",
+      "value": "103,26",
+      "currency": "USD",
+      "unit": "βαρέλι",
+      "status": "delayed",
+      "quoted_at": "2026-10-12T03:56:00+00:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · στιγμιότυπο αρχικής έκδοσης",
+          "url": "https://finance.yahoo.com/",
+          "published_at": null,
+          "retrieved_at": null,
+          "reporting_group": null,
+          "kind": "context",
+          "access": "archived",
+          "used_for_claims": false
+        }
+      ]
+    },
+    {
+      "name": "Bitcoin",
+      "value": "83.452,65",
+      "currency": "USD",
+      "unit": "1 BTC",
+      "status": "delayed",
+      "quoted_at": "2026-10-12T04:08:00+00:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · στιγμιότυπο αρχικής έκδοσης",
+          "url": "https://finance.yahoo.com/",
+          "published_at": null,
+          "retrieved_at": null,
+          "reporting_group": null,
+          "kind": "context",
+          "access": "archived",
+          "used_for_claims": false
+        }
+      ]
+    },
+    {
+      "name": "Bank of Cyprus",
+      "value": null,
+      "currency": "EUR",
+      "unit": "μετοχή",
+      "status": "unavailable",
+      "quoted_at": null,
+      "sources": []
+    }
+  ],
+  "calculator": {
+    "principal": 150000,
+    "years": 25,
+    "annual_rate": 3.5
+  },
+  "editorial_completed_at": "2026-10-12T07:15:00+03:00"
+}

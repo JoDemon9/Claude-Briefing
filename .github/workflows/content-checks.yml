@@ -1,0 +1,28 @@
+name: Structured briefing checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths: ['content/**', 'templates/v2/**', 'scripts/v2/**', 'tests/**', 'docs/**', '.github/workflows/content-checks.yml']
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-v2.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/v2/build.py
+      - run: python scripts/v2/release.py
+      - run: git diff --exit-code -- docs/
+      - run: python -m playwright install --with-deps chromium
+      - run: python tests/browser_checks.py --screenshots /tmp/oracle-preview
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: oracle-desktop-mobile-preview
+          path: /tmp/oracle-preview
