@@ -1609,6 +1609,19 @@ def render_html(data, house_stats, search_index):
 
 
 def main():
+    # The maintained pipeline uses independently authored structured articles.
+    # Explicit historical mode avoids a legacy build overwriting the v2 archive.
+    if '--legacy' not in sys.argv:
+        if len(sys.argv)>1 and not sys.argv[1].endswith('.json'):
+            raise SystemExit('Use scripts/v2/build.py for current publishing. --legacy is for historical migration only.')
+        from v2.build import build
+        build()
+        return
+    sys.argv.remove('--legacy')
+    if len(sys.argv)>1:
+        legacy_date=re.search(r'\d{4}-\d{2}-\d{2}',sys.argv[1])
+        if legacy_date and glob.glob(os.path.join(BASE_DIR,'content','editions',legacy_date.group()+'-*.json')):
+            raise SystemExit('This edition is maintained by v2; legacy rendering cannot overwrite it.')
     target_md = None
     if len(sys.argv) > 1:
         target_md = os.path.abspath(sys.argv[1])

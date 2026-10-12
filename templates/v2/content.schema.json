@@ -1,0 +1,674 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": [
+        "publisher",
+        "url",
+        "published_at",
+        "retrieved_at",
+        "reporting_group",
+        "kind",
+        "access"
+      ],
+      "properties": {
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "published_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "retrieved_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "reporting_group": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "primary",
+            "reporting",
+            "wire",
+            "context"
+          ]
+        },
+        "access": {
+          "enum": [
+            "read",
+            "archived",
+            "inaccessible"
+          ]
+        },
+        "used_for_claims": {
+          "type": "boolean"
+        }
+      }
+    },
+    "article": {
+      "type": "object",
+      "required": [
+        "id",
+        "story_id",
+        "edition_id",
+        "headline",
+        "category",
+        "summary",
+        "published_at",
+        "updated_at",
+        "sources",
+        "sections",
+        "image",
+        "related_story_ids",
+        "url"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "story_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "edition_id": {
+          "type": "string"
+        },
+        "headline": {
+          "type": "string",
+          "minLength": 5
+        },
+        "category": {
+          "enum": [
+            "Πρώτο θέμα",
+            "Κύπρος",
+            "Διεθνή",
+            "Αθλητικά"
+          ]
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 20
+        },
+        "published_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "sections": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "kind",
+              "heading",
+              "paragraphs"
+            ],
+            "properties": {
+              "kind": {
+                "enum": [
+                  "reported",
+                  "analysis"
+                ]
+              },
+              "heading": {
+                "type": "string",
+                "minLength": 2
+              },
+              "paragraphs": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 10
+                }
+              }
+            }
+          }
+        },
+        "image": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "required": [
+            "url",
+            "alt",
+            "attribution"
+          ],
+          "properties": {
+            "url": {
+              "type": "string"
+            },
+            "alt": {
+              "type": "string"
+            },
+            "attribution": {
+              "type": "string",
+              "minLength": 3
+            }
+          }
+        },
+        "related_story_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^articles/\\d{4}-\\d{2}-\\d{2}-(morning|midday|evening)/[a-z0-9-]+\\.html$"
+        }
+      }
+    },
+    "match": {
+      "type": "object",
+      "required": [
+        "opponent",
+        "competition",
+        "date",
+        "result",
+        "venue",
+        "scorers",
+        "verified_at",
+        "sources"
+      ],
+      "properties": {
+        "opponent": {
+          "type": "string"
+        },
+        "competition": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "result": {
+          "type": "string"
+        },
+        "venue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scorers": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "verified_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        }
+      }
+    },
+    "fixture": {
+      "type": "object",
+      "required": [
+        "opponent",
+        "competition",
+        "date",
+        "venue",
+        "kickoff_at",
+        "verified_at",
+        "sources"
+      ],
+      "properties": {
+        "opponent": {
+          "type": "string"
+        },
+        "competition": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "venue": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "kickoff_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "verified_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        }
+      }
+    },
+    "update": {
+      "type": "object",
+      "required": [
+        "published_at",
+        "status",
+        "text",
+        "sources"
+      ],
+      "properties": {
+        "published_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}(T.*)?$"
+        },
+        "status": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 15
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        }
+      }
+    },
+    "sports_team": {
+      "type": "object",
+      "required": [
+        "symbol",
+        "summary",
+        "updated_at",
+        "last_match",
+        "next_fixture",
+        "analysis",
+        "watch_next",
+        "league_position",
+        "form",
+        "updates",
+        "no_update_reason",
+        "latest_session",
+        "next_grand_prix",
+        "sessions"
+      ],
+      "properties": {
+        "symbol": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}(T.*)?$"
+        },
+        "last_match": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/match"
+            }
+          ]
+        },
+        "next_fixture": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/fixture"
+            }
+          ]
+        },
+        "analysis": {
+          "type": "string"
+        },
+        "watch_next": {
+          "type": "string"
+        },
+        "league_position": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "form": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "updates": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "$ref": "#/$defs/update"
+          }
+        },
+        "no_update_reason": {
+          "type": "string"
+        },
+        "latest_session": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "next_grand_prix": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sessions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "starts_at",
+              "sources"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "starts_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "sources": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "$ref": "#/$defs/source"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "date",
+    "type",
+    "timezone",
+    "published_at",
+    "status",
+    "title",
+    "url",
+    "articles",
+    "changes",
+    "sports",
+    "markets"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 2
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}-(morning|midday|evening)$"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "type": {
+      "enum": [
+        "morning",
+        "midday",
+        "evening"
+      ]
+    },
+    "timezone": {
+      "const": "Europe/Athens"
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "published"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^(morning|midday|evening|briefings)/\\d{4}-\\d{2}-\\d{2}\\.html$"
+    },
+    "articles": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^articles/[a-z0-9-]+/[a-z0-9-]+\\.json$"
+      }
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "text",
+          "story_id"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "Προσθήκη",
+              "Εξέλιξη",
+              "Διόρθωση",
+              "Πλαίσιο"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 10
+          },
+          "story_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "sports": {
+      "type": "object",
+      "required": [
+        "coverage",
+        "major_stories",
+        "major_stories_reason"
+      ],
+      "properties": {
+        "coverage": {
+          "type": "object",
+          "required": [
+            "omonoia",
+            "manutd",
+            "realmadrid",
+            "formula1"
+          ],
+          "properties": {
+            "omonoia": {
+              "$ref": "#/$defs/sports_team"
+            },
+            "manutd": {
+              "$ref": "#/$defs/sports_team"
+            },
+            "realmadrid": {
+              "$ref": "#/$defs/sports_team"
+            },
+            "formula1": {
+              "$ref": "#/$defs/sports_team"
+            }
+          }
+        },
+        "major_stories": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "headline",
+              "published_at",
+              "summary",
+              "why_it_matters",
+              "sources",
+              "article_id"
+            ],
+            "properties": {
+              "headline": {
+                "type": "string"
+              },
+              "published_at": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}(T.*)?$"
+              },
+              "summary": {
+                "type": "string",
+                "minLength": 60
+              },
+              "why_it_matters": {
+                "type": "string",
+                "minLength": 40
+              },
+              "sources": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "$ref": "#/$defs/source"
+                }
+              },
+              "article_id": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "major_stories_reason": {
+          "type": "string"
+        }
+      }
+    },
+    "markets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "value",
+          "currency",
+          "unit",
+          "status",
+          "quoted_at",
+          "sources"
+        ],
+        "properties": {
+          "status": {
+            "enum": [
+              "live",
+              "delayed",
+              "previous_close",
+              "unavailable"
+            ]
+          },
+          "quoted_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}(T.*)?$"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/source"
+            }
+          },
+          "name": {
+            "type": "string"
+          },
+          "value": {
+            "type": [
+              "string",
+              "number",
+              "null"
+            ]
+          },
+          "currency": {
+            "type": "string"
+          },
+          "unit": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

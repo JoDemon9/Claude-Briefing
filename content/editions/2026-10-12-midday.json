@@ -1,0 +1,1220 @@
+{
+  "schema_version": 2,
+  "id": "2026-10-12-midday",
+  "date": "2026-10-12",
+  "type": "midday",
+  "timezone": "Europe/Athens",
+  "published_at": "2026-10-12T13:56:19+03:00",
+  "status": "published",
+  "title": "Μηδενικός ΦΠΑ, διπλωματία και διεθνείς εξελίξεις",
+  "url": "midday/2026-10-12.html",
+  "aliases": [],
+  "preserve_legacy_html": false,
+  "reader_routes": [
+    "readers/2026-10-12-midday.html"
+  ],
+  "articles": [
+    "articles/2026-10-12-midday/lead.json",
+    "articles/2026-10-12-midday/cyprus-1.json",
+    "articles/2026-10-12-midday/cyprus-2.json",
+    "articles/2026-10-12-midday/world-1.json",
+    "articles/2026-10-12-midday/world-2.json",
+    "articles/2026-10-12-midday/liverpool-city-match.json",
+    "articles/2026-10-12-midday/aek-aradippou-preview.json"
+  ],
+  "changes": [
+    {
+      "kind": "Εξέλιξη",
+      "text": "Τρία νέα κυπριακά θέματα: εφαρμογή μηδενικού ΦΠΑ, διπλωματική καταγγελία για αγωγό και συνεργασία τελωνείων. Η ημερομηνία δημοσίευσης διακρίνεται από την ημερομηνία του γεγονότος.",
+      "story_id": null
+    },
+    {
+      "kind": "Εξέλιξη",
+      "text": "Η νέα αντίδραση της Κάλας προσθέτει εξέλιξη στο ουκρανικό θέμα· οι δηλώσεις Γκεοργκίεβα ανοίγουν νέο θέμα AI και ανάπτυξης.",
+      "story_id": null
+    },
+    {
+      "kind": "Εξέλιξη",
+      "text": "Αντικαταστάθηκαν τα πρωινά snapshots με χρονικά σημειωμένες μεσημεριανές τιμές. Οι αμερικανικές μετοχές παραμένουν στο κλείσιμο της Παρασκευής, χωρίς να βαφτίζονται ζωντανές.",
+      "story_id": null
+    },
+    {
+      "kind": "Εξέλιξη",
+      "text": "Στα αθλητικά προστέθηκαν η σημερινή ανακοίνωση εισιτηρίων Ομόνοιας, περισσότερο πλαίσιο για United και Real, η αριθμητική του τίτλου F1 και δύο γενικές αθλητικές ειδήσεις.",
+      "story_id": null
+    }
+  ],
+  "sports": {
+    "coverage": {
+      "omonoia": {
+        "symbol": "☘",
+        "summary": "Καρμιώτισσα – Ομόνοια · 09/10 · αποτέλεσμα που παραμένει ίδιο · Celje · 15/10 · 19:45 EEST · εκτός έδρας",
+        "updated_at": "2026-10-12T13:52:05.344920+03:00",
+        "last_match": {
+          "opponent": "Καρμιώτισσα",
+          "competition": "Πρωτάθλημα Κύπρου",
+          "date": "2026-10-09",
+          "venue": null,
+          "result": "Καρμιώτισσα 0–3 Ομόνοια",
+          "scorers": null,
+          "verified_at": "2026-10-12T06:06:04+00:00",
+          "sources": [
+            {
+              "publisher": "Sportime",
+              "url": "https://sportime.sigmalive.com/ta-telika-symperasmata-kai-i-ektimisi-apo-to-teleytaio-tis-omonoias/",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "Sportime",
+              "kind": "reporting",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Celje",
+          "competition": "UEFA Europa League",
+          "date": "2026-10-15",
+          "venue": null,
+          "kickoff_at": "2026-10-15T18:45:00+02:00",
+          "verified_at": "2026-10-12T06:06:04+00:00",
+          "sources": [
+            {
+              "publisher": "UEFA",
+              "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2177782493b9-69ba3288701d-1000--europa-league-league-phase-fixtures-by-team/",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "UEFA",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Συντακτική ανάγνωση: το ευρωπαϊκό παιχνίδι έρχεται πριν από την επόμενη αγωνιστική πρωταθλήματος. Παρακολούθησε την επίσημη αποστολή και τη διαχείριση του ρόστερ.",
+        "watch_next": "Η επιλογή ενδεκάδας και η διαχείριση εκτός έδρας πίεσης απέναντι σε Celje που επέστρεψε στις νίκες. Το ακριβές γήπεδο και οι σκόρερ του τελευταίου αγώνα δεν συμπληρώνονται χωρίς πρόσθετη επιβεβαίωση.",
+        "league_position": null,
+        "form": null,
+        "updates": [
+          {
+            "text": "Νέα ανακοίνωση 12/10: άρχισε η διάθεση εισιτηρίων για Ομόνοια–Ολυμπιακό Λευκωσίας, 19/10 στις 19:00 στο ΓΣΠ.",
+            "sources": [
+              {
+                "publisher": "Alphanews · αποτελέσματα",
+                "url": "https://www.alphanews.live/sports/cyprus-league-by-stoiximan-peftei-i-avlaia-stin-arena/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "Ομόνοια · νέα εισιτήρια",
+                "url": "https://www.omonoiafc.com.cy/%CE%B5%CE%B9%CF%83%CE%B9%CF%84%CE%B7%CF%81%CE%B9%CE%B1-%CE%BF%CE%BC%CE%BF%CE%BD%CE%BF%CE%B9%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%BF%CF%83-19-10-1900/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "Ομόνοια · νέα εισιτήρια",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "Omonoia24 · 12/10",
+                "url": "https://omonoia24.com/2026/10/12/sto-myalo-mono-i-celje/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              }
+            ],
+            "published_at": "2026-10-12",
+            "status": "Αρχειακή αναφορά της μεσημεριανής έκδοσης"
+          },
+          {
+            "text": "Η σημερινή ενημέρωση Omonoia24 αναφέρει αναχώρηση της αποστολής την Τετάρτη για Σλοβενία. Πρόκειται για ρεπορτάζ, όχι επίσημη ανακοίνωση τελικής αποστολής.",
+            "sources": [
+              {
+                "publisher": "Alphanews · αποτελέσματα",
+                "url": "https://www.alphanews.live/sports/cyprus-league-by-stoiximan-peftei-i-avlaia-stin-arena/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "Ομόνοια · νέα εισιτήρια",
+                "url": "https://www.omonoiafc.com.cy/%CE%B5%CE%B9%CF%83%CE%B9%CF%84%CE%B7%CF%81%CE%B9%CE%B1-%CE%BF%CE%BC%CE%BF%CE%BD%CE%BF%CE%B9%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%BF%CF%83-19-10-1900/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "Ομόνοια · νέα εισιτήρια",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "Omonoia24 · 12/10",
+                "url": "https://omonoia24.com/2026/10/12/sto-myalo-mono-i-celje/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              }
+            ],
+            "published_at": "2026-10-12",
+            "status": "Αρχειακή αναφορά της μεσημεριανής έκδοσης"
+          },
+          {
+            "text": "Δεν ανακτήθηκε νέα επίσημη λίστα τραυματισμών ή αρχική ενδεκάδα. Δεν συμπληρώνεται με προβλέψεις.",
+            "sources": [
+              {
+                "publisher": "Alphanews · αποτελέσματα",
+                "url": "https://www.alphanews.live/sports/cyprus-league-by-stoiximan-peftei-i-avlaia-stin-arena/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "Ομόνοια · νέα εισιτήρια",
+                "url": "https://www.omonoiafc.com.cy/%CE%B5%CE%B9%CF%83%CE%B9%CF%84%CE%B7%CF%81%CE%B9%CE%B1-%CE%BF%CE%BC%CE%BF%CE%BD%CE%BF%CE%B9%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%BF%CF%83-19-10-1900/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "Ομόνοια · νέα εισιτήρια",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "Omonoia24 · 12/10",
+                "url": "https://omonoia24.com/2026/10/12/sto-myalo-mono-i-celje/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              }
+            ],
+            "published_at": "2026-10-12",
+            "status": "Αρχειακή αναφορά της μεσημεριανής έκδοσης"
+          }
+        ],
+        "no_update_reason": "Δεν έχει επαληθευτεί νέα ουσιαστική ενημέρωση πέρα από τα παρατιθέμενα στοιχεία."
+      },
+      "manutd": {
+        "symbol": "M",
+        "summary": "United – Tottenham · 10/10 · Mbeumo / Solanke · Atlético Madrid · 13/10 · 22:00 EEST · Riyadh Air Metropolitano",
+        "updated_at": "2026-10-12T13:52:05.344920+03:00",
+        "last_match": {
+          "opponent": "Tottenham",
+          "competition": "Premier League",
+          "date": "2026-10-10",
+          "venue": null,
+          "result": "1–1",
+          "scorers": null,
+          "verified_at": "2026-10-12T06:06:04+00:00",
+          "sources": [
+            {
+              "publisher": "Manchester United",
+              "url": "https://www.manutd.com/en/news/report-united-1-tottenham-1-10-oct-2026",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "Manchester United",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Atlético Madrid",
+          "competition": "UEFA Champions League",
+          "date": "2026-10-13",
+          "venue": "Riyadh Air Metropolitano",
+          "kickoff_at": "2026-10-13T22:00:00+03:00",
+          "verified_at": "2026-10-12T13:52:05.344920+03:00",
+          "sources": [
+            {
+              "publisher": "United in Focus · preview",
+              "url": "https://www.unitedinfocus.com/news/ominous-atletico-madrid-preparations-begin-as-spanish-media-warn-of-manchester-united-crisis/",
+              "published_at": null,
+              "retrieved_at": null,
+              "reporting_group": null,
+              "kind": "reporting",
+              "access": "archived",
+              "used_for_claims": true
+            },
+            {
+              "publisher": "United · επίσημο report",
+              "url": "https://www.manutd.com/en/news/report-united-1-tottenham-1-10-oct-2026",
+              "published_at": null,
+              "retrieved_at": null,
+              "reporting_group": "United · επίσημο report",
+              "kind": "primary",
+              "access": "archived",
+              "used_for_claims": true
+            },
+            {
+              "publisher": "Cablenet · οδηγός μεταδόσεων",
+              "url": "https://cablenet.com.cy/tv/live-events/",
+              "published_at": null,
+              "retrieved_at": null,
+              "reporting_group": null,
+              "kind": "reporting",
+              "access": "archived",
+              "used_for_claims": true
+            }
+          ],
+          "verification_note": "Στοιχεία της δημοσιευμένης μεσημεριανής έκδοσης· δεν έγινε νέος έλεγχος πρωτογενούς προγράμματος."
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Συντακτική ανάγνωση: η διαχείριση προβαδίσματος και η αμυντική συγκέντρωση έχουν σημασία μετά την ισοφάριση στις καθυστερήσεις. Μια πιθανή ενδεκάδα δεν είναι επιβεβαιωμένη σύνθεση.",
+        "watch_next": "Επίσημη αποστολή, επιβεβαίωση γηπέδου και ώρας και διαχείριση της μετάβασης σε ευρωπαϊκό εκτός έδρας παιχνίδι.",
+        "league_position": null,
+        "form": null,
+        "updates": [
+          {
+            "text": "Το νέο preview του United in Focus επισημαίνει τέσσερα συνεχόμενα παιχνίδια Premier League χωρίς νίκη. Είναι αγωνιστικό πλαίσιο, όχι νέα τελική αποστολή.",
+            "sources": [
+              {
+                "publisher": "United in Focus · preview",
+                "url": "https://www.unitedinfocus.com/news/ominous-atletico-madrid-preparations-begin-as-spanish-media-warn-of-manchester-united-crisis/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "United · επίσημο report",
+                "url": "https://www.manutd.com/en/news/report-united-1-tottenham-1-10-oct-2026",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "United · επίσημο report",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "Cablenet · οδηγός μεταδόσεων",
+                "url": "https://cablenet.com.cy/tv/live-events/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              }
+            ],
+            "published_at": "2026-10-12",
+            "status": "Αρχειακή αναφορά της μεσημεριανής έκδοσης"
+          },
+          {
+            "text": "Η Atlético μπαίνει στο παιχνίδι μετά από τέσσερις διαδοχικές νίκες στη La Liga, σύμφωνα με το ίδιο ρεπορτάζ.",
+            "sources": [
+              {
+                "publisher": "United in Focus · preview",
+                "url": "https://www.unitedinfocus.com/news/ominous-atletico-madrid-preparations-begin-as-spanish-media-warn-of-manchester-united-crisis/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "United · επίσημο report",
+                "url": "https://www.manutd.com/en/news/report-united-1-tottenham-1-10-oct-2026",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "United · επίσημο report",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "Cablenet · οδηγός μεταδόσεων",
+                "url": "https://cablenet.com.cy/tv/live-events/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              }
+            ],
+            "published_at": "2026-10-12",
+            "status": "Αρχειακή αναφορά της μεσημεριανής έκδοσης"
+          },
+          {
+            "text": "Δεν δημοσιεύουμε λίστα απόντων: οι συγκεντρωτικές ιστοσελίδες εμφανίζουν ασυμφωνίες και δεν ανακτήθηκε επίσημη σημερινή ιατρική ενημέρωση.",
+            "sources": [
+              {
+                "publisher": "United in Focus · preview",
+                "url": "https://www.unitedinfocus.com/news/ominous-atletico-madrid-preparations-begin-as-spanish-media-warn-of-manchester-united-crisis/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "United · επίσημο report",
+                "url": "https://www.manutd.com/en/news/report-united-1-tottenham-1-10-oct-2026",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "United · επίσημο report",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "Cablenet · οδηγός μεταδόσεων",
+                "url": "https://cablenet.com.cy/tv/live-events/",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              }
+            ],
+            "published_at": "2026-10-12",
+            "status": "Αρχειακή αναφορά της μεσημεριανής έκδοσης"
+          }
+        ],
+        "no_update_reason": "Δεν επαληθεύτηκε νέα ουσιαστική ανακοίνωση για τραυματισμούς, προπόνηση ή αποστολή. Η απουσία ενημέρωσης δεν δηλώνει διαθεσιμότητα όλων των παικτών."
+      },
+      "realmadrid": {
+        "symbol": "♛",
+        "summary": "Real – Villarreal · 10/10 · αποτέλεσμα που παραμένει ίδιο · Roma · 14/10 · 22:00 EEST · Stadio Olimpico",
+        "updated_at": "2026-10-12T13:52:05.344920+03:00",
+        "last_match": {
+          "opponent": "Villarreal",
+          "competition": "La Liga",
+          "date": "2026-10-10",
+          "venue": "Santiago Bernabéu",
+          "result": "1–0",
+          "scorers": [
+            "Yan Diomande"
+          ],
+          "verified_at": "2026-10-12T06:06:04+00:00",
+          "sources": [
+            {
+              "publisher": "The Daily Star / AFP",
+              "url": "https://www.thedailystar.net/sports/football/news/real-madrid-edge-villarreal-vinicius-sent-hair-pull-4295686",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "AFP",
+              "kind": "reporting",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Roma",
+          "competition": "UEFA Champions League",
+          "date": "2026-10-14",
+          "venue": "Stadio Olimpico",
+          "kickoff_at": "2026-10-14T21:00:00+02:00",
+          "verified_at": "2026-10-12T06:06:04+00:00",
+          "sources": [
+            {
+              "publisher": "Real Madrid",
+              "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-calendario-del-real-madrid-en-octubre-24-09-2026",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "Real Madrid",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Συντακτική ανάγνωση: η πειθαρχική διαδικασία της La Liga και ο αγώνας Champions League είναι διαφορετικά θέματα. Η αποβολή στο πρωτάθλημα δεν χρησιμοποιείται εδώ ως απόδειξη ευρωπαϊκής απουσίας.",
+        "watch_next": "Επιλογές στην επίθεση και επίσημη πειθαρχική απόφαση. Η αποβολή σε αγώνα πρωταθλήματος δεν ισοδυναμεί αυτόματα με αποκλεισμό από το Champions League.",
+        "league_position": "Προσωρινά 3η μετά τον αγώνα, κατά AFP · 10/10· δεν είναι ενημερωμένος πλήρης πίνακας",
+        "form": null,
+        "updates": [
+          {
+            "text": "Το σημερινό ge/Globo προσθέτει πλαίσιο στην αποβολή Vinícius: ήταν η τρίτη απευθείας αποβολή του στο Real, περιλαμβανομένης εκείνης του 2023 που αργότερα ακυρώθηκε.",
+            "sources": [
+              {
+                "publisher": "Real · επίσημο πρόγραμμα",
+                "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-calendario-del-real-madrid-en-octubre-24-09-2026",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "Real · επίσημο πρόγραμμα",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "ge / Globo · 12/10",
+                "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/12/vinicius-junior-soma-so-tres-expulsoes-diretas-em-nove-anos-de-real-madrid-confira-detalhes.ghtml",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              }
+            ],
+            "published_at": "2026-10-12",
+            "status": "Αρχειακή αναφορά της μεσημεριανής έκδοσης"
+          },
+          {
+            "text": "Η δημόσια απολογία του Βραζιλιάνου καταγράφεται στο ρεπορτάζ. Δεν δημοσιεύεται ως νέα ανακοίνωση ποινής από την ομοσπονδία.",
+            "sources": [
+              {
+                "publisher": "Real · επίσημο πρόγραμμα",
+                "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-calendario-del-real-madrid-en-octubre-24-09-2026",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "Real · επίσημο πρόγραμμα",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "ge / Globo · 12/10",
+                "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/12/vinicius-junior-soma-so-tres-expulsoes-diretas-em-nove-anos-de-real-madrid-confira-detalhes.ghtml",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              }
+            ],
+            "published_at": "2026-10-12",
+            "status": "Αρχειακή αναφορά της μεσημεριανής έκδοσης"
+          },
+          {
+            "text": "Το επίσημο πρόγραμμα περιλαμβάνει Sevilla 18/10, Leipzig 21/10 και Barcelona 25/10. Δεν προεξοφλούμε πόσα παιχνίδια θα χάσει ο παίκτης χωρίς επιβεβαίωση της ποινής.",
+            "sources": [
+              {
+                "publisher": "Real · επίσημο πρόγραμμα",
+                "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-calendario-del-real-madrid-en-octubre-24-09-2026",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "Real · επίσημο πρόγραμμα",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "ge / Globo · 12/10",
+                "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/12/vinicius-junior-soma-so-tres-expulsoes-diretas-em-nove-anos-de-real-madrid-confira-detalhes.ghtml",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": null,
+                "kind": "reporting",
+                "access": "archived",
+                "used_for_claims": true
+              }
+            ],
+            "published_at": "2026-10-12",
+            "status": "Αρχειακή αναφορά της μεσημεριανής έκδοσης"
+          }
+        ],
+        "no_update_reason": "Δεν έχει επαληθευτεί νέα ουσιαστική ενημέρωση πέρα από τα παρατιθέμενα στοιχεία."
+      },
+      "formula1": {
+        "symbol": "F1",
+        "summary": "Προβάδισμα Antonelli έναντι Russell · μετά τη Σιγκαπούρη · Επόμενος αγώνας: Austin · United States GP",
+        "updated_at": "2026-10-12T13:52:05.344920+03:00",
+        "last_match": null,
+        "next_fixture": null,
+        "latest_session": {
+          "event": "Singapore Grand Prix",
+          "session_type": "Κύριος αγώνας",
+          "date": "2026-10-11",
+          "results": "Verstappen 1:42:00.785 · Leclerc +7.335s · Antonelli +24.573s. Norris 4ος, Piastri 5ος, Hamilton 6ος.",
+          "implications": "Η επίσημη ανάλυση Formula1 αναφέρει δυνατότητα τίτλου στο Austin αν ο Antonelli φύγει με διαφορά τουλάχιστον 125 βαθμών. Δεν έχει ήδη κατακτηθεί ο τίτλος.",
+          "incidents": "Η επίσημη κατάταξη καταγράφει εγκαταλείψεις Albon, Stroll, Colapinto και Bortoleto. Δεν δίνει από μόνη της την αιτία κάθε εγκατάλειψης.",
+          "verified_at": "2026-10-12T06:06:04+00:00",
+          "sources": [
+            {
+              "publisher": "Formula 1",
+              "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "Formula 1",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            },
+            {
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/sport/2026/oct/11/antonelli-one-win-from-title-after-verstappen-wins-singapore-f1-gp",
+              "published_at": null,
+              "retrieved_at": "2026-10-12T06:06:04+00:00",
+              "reporting_group": "The Guardian",
+              "kind": "reporting",
+              "access": "read",
+              "used_for_claims": true
+            },
+            {
+              "publisher": "Formula1 · ανάλυση τίτλου",
+              "url": "https://www.formula1.com/en/latest/article/can-i-really-antonelli-reacts-as-he-gives-himself-first-chance-of-sealing-world-title-after-singapore-podium.2BhiC6Exd2Jtm9uT3xZ2Rb",
+              "published_at": null,
+              "retrieved_at": null,
+              "reporting_group": "Formula1 · ανάλυση τίτλου",
+              "kind": "primary",
+              "access": "archived",
+              "used_for_claims": true
+            },
+            {
+              "publisher": "Formula1 · τελικό αποτέλεσμα",
+              "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+              "published_at": null,
+              "retrieved_at": null,
+              "reporting_group": "Formula1 · τελικό αποτέλεσμα",
+              "kind": "primary",
+              "access": "archived",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_grand_prix": "Grand Prix ΗΠΑ · Circuit of The Americas, Austin · 25/10/2026",
+        "sessions": [],
+        "analysis": "Συντακτική ανάγνωση: το προβάδισμα δεν ισοδυναμεί με ήδη κατακτημένο τίτλο. Οι συνθήκες του επόμενου αγώνα και η βαθμολογία των αντιπάλων παραμένουν καθοριστικές.",
+        "watch_next": "Επίσημη ανακοίνωση αγώνα και αποστολής.",
+        "league_position": null,
+        "form": null,
+        "updates": [
+          {
+            "text": "Το βάθρο VER–LEC–ANT παραμένει το τελικό αποτέλεσμα της Κυριακής· δεν παρουσιάζεται ως νέο μεσημεριανό αποτέλεσμα.",
+            "sources": [
+              {
+                "publisher": "Formula1 · ανάλυση τίτλου",
+                "url": "https://www.formula1.com/en/latest/article/can-i-really-antonelli-reacts-as-he-gives-himself-first-chance-of-sealing-world-title-after-singapore-podium.2BhiC6Exd2Jtm9uT3xZ2Rb",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "Formula1 · ανάλυση τίτλου",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "Formula1 · τελικό αποτέλεσμα",
+                "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "Formula1 · τελικό αποτέλεσμα",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              }
+            ],
+            "published_at": "2026-10-12",
+            "status": "Αρχειακή αναφορά της μεσημεριανής έκδοσης"
+          },
+          {
+            "text": "Η Formula1 αναφέρει μαθηματική δυνατότητα τίτλου στο Austin αν ο Antonelli φύγει με διαφορά τουλάχιστον 125 βαθμών από τον πλησιέστερο αντίπαλο.",
+            "sources": [
+              {
+                "publisher": "Formula1 · ανάλυση τίτλου",
+                "url": "https://www.formula1.com/en/latest/article/can-i-really-antonelli-reacts-as-he-gives-himself-first-chance-of-sealing-world-title-after-singapore-podium.2BhiC6Exd2Jtm9uT3xZ2Rb",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "Formula1 · ανάλυση τίτλου",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "Formula1 · τελικό αποτέλεσμα",
+                "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "Formula1 · τελικό αποτέλεσμα",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              }
+            ],
+            "published_at": "2026-10-12",
+            "status": "Αρχειακή αναφορά της μεσημεριανής έκδοσης"
+          },
+          {
+            "text": "Ο Russell τερμάτισε ένατος και ο Antonelli ανέβηκε από τέταρτος στην εκκίνηση σε τρίτος. Η επίσημη ανάλυση εστιάζει τώρα στο πρωτάθλημα.",
+            "sources": [
+              {
+                "publisher": "Formula1 · ανάλυση τίτλου",
+                "url": "https://www.formula1.com/en/latest/article/can-i-really-antonelli-reacts-as-he-gives-himself-first-chance-of-sealing-world-title-after-singapore-podium.2BhiC6Exd2Jtm9uT3xZ2Rb",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "Formula1 · ανάλυση τίτλου",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              },
+              {
+                "publisher": "Formula1 · τελικό αποτέλεσμα",
+                "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+                "published_at": null,
+                "retrieved_at": null,
+                "reporting_group": "Formula1 · τελικό αποτέλεσμα",
+                "kind": "primary",
+                "access": "archived",
+                "used_for_claims": true
+              }
+            ],
+            "published_at": "2026-10-12",
+            "status": "Αρχειακή αναφορά της μεσημεριανής έκδοσης"
+          }
+        ],
+        "no_update_reason": "Δεν έχει επαληθευτεί νέα ουσιαστική ενημέρωση πέρα από τα παρατιθέμενα στοιχεία.",
+        "next_gp_sources": [
+          {
+            "publisher": "Formula 1",
+            "url": "https://www.formula1.com/en/racing/2026/united-states",
+            "published_at": null,
+            "retrieved_at": null,
+            "reporting_group": "Formula 1",
+            "kind": "primary",
+            "access": "read",
+            "used_for_claims": true
+          }
+        ],
+        "session_times_reason": "Η ανακτημένη σελίδα δείχνει ώρες στην επιλογή «MY TIME» χωρίς επαληθευμένη timezone στο κείμενο. Δεν τις μετατρέπουμε αυθαίρετα σε ώρα Κύπρου."
+      }
+    },
+    "major_stories": [
+      {
+        "headline": "Liverpool–City 0–3: ο αγωνιστικός απολογισμός του Anfield",
+        "published_at": "2026-10-12",
+        "summary": "Η Manchester City κέρδισε την Κυριακή στο Anfield με γκολ Haaland, Doku και Cherki. Η αποβολή Gravenberch άλλαξε την ισορροπία. Είναι νέο θέμα σε αυτή την έκδοση, όχι παιχνίδι που έγινε σήμερα. Για το αποτέλεσμα υπάρχουν το επίσημο match centre και τα σημερινά highlights του Sky.",
+        "why_it_matters": "Το αποτέλεσμα και η αποβολή βοηθούν στην ανάγνωση της αγωνιστικής ισορροπίας· τα highlights δεν αντικαθιστούν πλήρη ανάλυση ολόκληρου του αγώνα.",
+        "sources": [
+          {
+            "publisher": "Premier League",
+            "url": "https://www.premierleague.com/en/match/2645252/liverpool-vs-manchester-city/overview",
+            "published_at": null,
+            "retrieved_at": null,
+            "reporting_group": "Premier League",
+            "kind": "primary",
+            "access": "archived",
+            "used_for_claims": true
+          },
+          {
+            "publisher": "Sky Sports",
+            "url": "https://www.skysports.com/football/video/13597931/liverpool-0-3-manchester-city-premier-league-highlights",
+            "published_at": null,
+            "retrieved_at": null,
+            "reporting_group": null,
+            "kind": "reporting",
+            "access": "archived",
+            "used_for_claims": true
+          }
+        ],
+        "article_id": "liverpool-city-match"
+      },
+      {
+        "headline": "Απόψε 19:00: ΑΕΚ–Ομόνοια Αραδίππου στην Αρένα",
+        "published_at": "2026-10-12",
+        "summary": "Ολοκληρώνεται η 5η αγωνιστική. Το σημερινό Alphanews δίνει έναρξη στις 19:00, ενώ ο οδηγός Cablenet αναφέρει Cytavision Sports 1HD. Η Ομόνοια Αραδίππου είναι διαφορετική ομάδα από την Ομόνοια Λευκωσίας των αγαπημένων· δεν τις συγχέουμε.",
+        "why_it_matters": "Πρόκειται για την ολοκλήρωση της αγωνιστικής και συγκεκριμένο σημερινό τηλεοπτικό/αγωνιστικό ορόσημο· δεν συγχέεται η Ομόνοια Αραδίππου με την Ομόνοια Λευκωσίας.",
+        "sources": [
+          {
+            "publisher": "AlphaNews",
+            "url": "https://www.alphanews.live/sports/cyprus-league-by-stoiximan-peftei-i-avlaia-stin-arena/",
+            "published_at": null,
+            "retrieved_at": null,
+            "reporting_group": null,
+            "kind": "reporting",
+            "access": "archived",
+            "used_for_claims": true
+          },
+          {
+            "publisher": "Cablenet",
+            "url": "https://cablenet.com.cy/tv/live-events/",
+            "published_at": null,
+            "retrieved_at": null,
+            "reporting_group": null,
+            "kind": "reporting",
+            "access": "archived",
+            "used_for_claims": true
+          }
+        ],
+        "article_id": "aek-aradippou-preview"
+      }
+    ],
+    "major_stories_reason": "Δεν έχει επαληθευτεί πρόσθετη σημαντική ιστορία."
+  },
+  "markets": [
+    {
+      "name": "S&P 500 futures",
+      "instrument": "ES=F",
+      "value": 7868.5,
+      "currency": "USD",
+      "unit": "μονάδες δείκτη",
+      "precision": 2,
+      "asset_class": "futures_index",
+      "market_timezone": "America/Chicago",
+      "status": "delayed",
+      "quoted_at": "2026-10-12T10:25:13+00:00",
+      "change_pct": 0.11132669614173363,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/ES%3DF?range=5d&interval=1d",
+          "published_at": "2026-10-12T10:25:13+00:00",
+          "retrieved_at": "2026-10-12T10:35:15.800333+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "Nasdaq-100 futures",
+      "instrument": "NQ=F",
+      "value": 31080.0,
+      "currency": "USD",
+      "unit": "μονάδες δείκτη",
+      "precision": 2,
+      "asset_class": "futures_index",
+      "market_timezone": "America/Chicago",
+      "status": "delayed",
+      "quoted_at": "2026-10-12T10:25:13+00:00",
+      "change_pct": -0.09241772813115556,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/NQ%3DF?range=5d&interval=1d",
+          "published_at": "2026-10-12T10:25:13+00:00",
+          "retrieved_at": "2026-10-12T10:35:15.773960+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "STOXX Europe 600",
+      "instrument": "^STOXX",
+      "value": 634.06,
+      "currency": "EUR",
+      "unit": "μονάδες δείκτη",
+      "precision": 2,
+      "asset_class": "index",
+      "market_timezone": "Europe/Zurich",
+      "status": "delayed",
+      "quoted_at": "2026-10-12T10:20:00+00:00",
+      "change_pct": 0.39743682298256644,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESTOXX?range=5d&interval=1d",
+          "published_at": "2026-10-12T10:20:00+00:00",
+          "retrieved_at": "2026-10-12T10:35:15.890368+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "DAX",
+      "instrument": "^GDAXI",
+      "value": 25219.65,
+      "currency": "EUR",
+      "unit": "μονάδες δείκτη",
+      "precision": 2,
+      "asset_class": "index",
+      "market_timezone": "Europe/Berlin",
+      "status": "delayed",
+      "quoted_at": "2026-10-12T10:20:14+00:00",
+      "change_pct": 0.5276798600385879,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGDAXI?range=5d&interval=1d",
+          "published_at": "2026-10-12T10:20:14+00:00",
+          "retrieved_at": "2026-10-12T10:35:15.879299+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "FTSE 100",
+      "instrument": "^FTSE",
+      "value": 10606.49,
+      "currency": "GBP",
+      "unit": "μονάδες δείκτη",
+      "precision": 2,
+      "asset_class": "index",
+      "market_timezone": "Europe/London",
+      "status": "delayed",
+      "quoted_at": "2026-10-12T10:20:15+00:00",
+      "change_pct": 0.5154461447338665,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EFTSE?range=5d&interval=1d",
+          "published_at": "2026-10-12T10:20:15+00:00",
+          "retrieved_at": "2026-10-12T10:35:15.824286+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "CAC 40",
+      "instrument": "^FCHI",
+      "value": 7810.12,
+      "currency": "EUR",
+      "unit": "μονάδες δείκτη",
+      "precision": 2,
+      "asset_class": "index",
+      "market_timezone": "Europe/Paris",
+      "status": "delayed",
+      "quoted_at": "2026-10-12T10:20:15+00:00",
+      "change_pct": 0.08701313166328273,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EFCHI?range=5d&interval=1d",
+          "published_at": "2026-10-12T10:20:15+00:00",
+          "retrieved_at": "2026-10-12T10:35:15.864801+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "ATHEX",
+      "instrument": "^ATG",
+      "value": null,
+      "currency": "EUR",
+      "unit": "μονάδες δείκτη",
+      "precision": 2,
+      "asset_class": "index",
+      "market_timezone": "Europe/Athens",
+      "status": "unavailable",
+      "quoted_at": null,
+      "sources": []
+    },
+    {
+      "name": "EUR/USD",
+      "instrument": "EURUSD=X",
+      "value": 1.1187,
+      "currency": "USD",
+      "unit": "1 EUR",
+      "precision": 4,
+      "asset_class": "fx",
+      "market_timezone": null,
+      "status": "delayed",
+      "quoted_at": "2026-10-12T10:34:26+00:00",
+      "change_pct": -0.23209486287028014,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/EURUSD%3DX?range=5d&interval=1d",
+          "published_at": "2026-10-12T10:34:26+00:00",
+          "retrieved_at": "2026-10-12T10:35:15.818844+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "EUR/GBP",
+      "instrument": "EURGBP=X",
+      "value": 0.845,
+      "currency": "GBP",
+      "unit": "1 EUR",
+      "precision": 4,
+      "asset_class": "fx",
+      "market_timezone": null,
+      "status": "delayed",
+      "quoted_at": "2026-10-12T10:35:18+00:00",
+      "change_pct": -0.2902758816119233,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/EURGBP%3DX?range=5d&interval=1d",
+          "published_at": "2026-10-12T10:35:18+00:00",
+          "retrieved_at": "2026-10-12T10:35:19.111335+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "Brent futures",
+      "instrument": "BZ=F",
+      "value": 105.54,
+      "currency": "USD",
+      "unit": "βαρέλι",
+      "precision": 2,
+      "asset_class": "commodity",
+      "market_timezone": "Europe/London",
+      "status": "delayed",
+      "quoted_at": "2026-10-12T10:24:57+00:00",
+      "change_pct": 0.7830393141122105,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?range=5d&interval=1d",
+          "published_at": "2026-10-12T10:24:57+00:00",
+          "retrieved_at": "2026-10-12T10:35:19.130542+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "Bitcoin",
+      "instrument": "BTC-USD",
+      "value": 83437.11,
+      "currency": "USD",
+      "unit": "1 BTC",
+      "precision": 2,
+      "asset_class": "crypto",
+      "market_timezone": null,
+      "status": "delayed",
+      "quoted_at": "2026-10-12T10:35:14+00:00",
+      "change_pct": -0.289627495991962,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BTC-USD?range=5d&interval=1d",
+          "published_at": "2026-10-12T10:35:14+00:00",
+          "retrieved_at": "2026-10-12T10:35:19.141348+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "TSM",
+      "instrument": "TSM",
+      "value": 453.31,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "precision": 2,
+      "asset_class": "equity",
+      "market_timezone": "America/New_York",
+      "status": "previous_close",
+      "quoted_at": "2026-10-09T20:00:02+00:00",
+      "change_pct": -1.0218542619195747,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?range=5d&interval=1d",
+          "published_at": "2026-10-09T20:00:02+00:00",
+          "retrieved_at": "2026-10-12T10:35:19.146942+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "NVDA",
+      "instrument": "NVDA",
+      "value": 229.28,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "precision": 2,
+      "asset_class": "equity",
+      "market_timezone": "America/New_York",
+      "status": "previous_close",
+      "quoted_at": "2026-10-09T20:00:00+00:00",
+      "change_pct": -0.520650707125847,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5d&interval=1d",
+          "published_at": "2026-10-09T20:00:00+00:00",
+          "retrieved_at": "2026-10-12T10:35:19.135174+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "GOOGL",
+      "instrument": "GOOGL",
+      "value": 351.66,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "precision": 2,
+      "asset_class": "equity",
+      "market_timezone": "America/New_York",
+      "status": "previous_close",
+      "quoted_at": "2026-10-09T20:00:00+00:00",
+      "change_pct": 0.967582007062795,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=5d&interval=1d",
+          "published_at": "2026-10-09T20:00:00+00:00",
+          "retrieved_at": "2026-10-12T10:35:19.291974+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "MSFT",
+      "instrument": "MSFT",
+      "value": 535.07,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "precision": 2,
+      "asset_class": "equity",
+      "market_timezone": "America/New_York",
+      "status": "previous_close",
+      "quoted_at": "2026-10-09T20:00:01+00:00",
+      "change_pct": 2.384189930863201,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=5d&interval=1d",
+          "published_at": "2026-10-09T20:00:01+00:00",
+          "retrieved_at": "2026-10-12T10:35:19.207883+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "AAPL",
+      "instrument": "AAPL",
+      "value": 336.64,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "precision": 2,
+      "asset_class": "equity",
+      "market_timezone": "America/New_York",
+      "status": "previous_close",
+      "quoted_at": "2026-10-09T20:00:00+00:00",
+      "change_pct": -1.1103969445488637,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d",
+          "published_at": "2026-10-09T20:00:00+00:00",
+          "retrieved_at": "2026-10-12T10:35:19.142676+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "MU",
+      "instrument": "MU",
+      "value": 1029.0,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "precision": 2,
+      "asset_class": "equity",
+      "market_timezone": "America/New_York",
+      "status": "previous_close",
+      "quoted_at": "2026-10-09T20:00:01+00:00",
+      "change_pct": -0.6603303643430758,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?range=5d&interval=1d",
+          "published_at": "2026-10-09T20:00:01+00:00",
+          "retrieved_at": "2026-10-12T10:35:22.345730+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "META",
+      "instrument": "META",
+      "value": 718.67,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "precision": 2,
+      "asset_class": "equity",
+      "market_timezone": "America/New_York",
+      "status": "previous_close",
+      "quoted_at": "2026-10-09T20:00:01+00:00",
+      "change_pct": -0.3079546953525525,
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · καταγεγραμμένο feed",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/META?range=5d&interval=1d",
+          "published_at": "2026-10-09T20:00:01+00:00",
+          "retrieved_at": "2026-10-12T10:35:22.395422+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "primary",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    }
+  ],
+  "calculator": {
+    "principal": 150000,
+    "years": 25,
+    "annual_rate": 3.5
+  },
+  "editorial_completed_at": "2026-10-12T13:52:05.344920+03:00",
+  "market_notes": [
+    {
+      "kind": "analysis",
+      "text": "Συντακτική εκτίμηση: ένα χρονικά σημειωμένο snapshot δεν αποδεικνύει την αιτία της μεταβολής. Για σύγκριση χρειάζονται το ίδιο χρηματοοικονομικό μέσο και η ίδια βάση προηγούμενου κλεισίματος. Δεν έχει προστεθεί ανεξάρτητα διασταυρωμένη εξήγηση για κάθε κίνηση.",
+      "sources": []
+    }
+  ]
+}
