@@ -237,8 +237,13 @@ def edition_desk(e, registry):
             out.append(f'<span>{label} · Δεν έχει δημοσιευτεί</span>')
     return ''.join(out)+'</nav>'
 
-def head(title, canonical, css, depth=''):
-    return f'<!doctype html><html lang="el" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} · The Oracle Sovereign</title><link rel="canonical" href="{BASE}{canonical}"><link rel="stylesheet" href="{depth}assets/{css}.css"><link rel="stylesheet" href="{depth}assets/accessibility.css"><script defer src="{depth}assets/reading.js"></script></head><body><a class="skip-link" href="#main">Μετάβαση στο περιεχόμενο</a>'
+def head(title, canonical, css, depth='', edition=None):
+    indicator = f' data-edition="{esc(edition)}"' if edition else ''
+    meta = f'<meta name="oracle-edition" content="{esc(edition)}">' if edition else ''
+    return f'<!doctype html><html lang="el" data-theme="light"{indicator}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{meta}<title>{esc(title)} · The Oracle Sovereign</title><link rel="canonical" href="{BASE}{canonical}"><link rel="stylesheet" href="{depth}assets/{css}.css"><link rel="stylesheet" href="{depth}assets/accessibility.css"><script defer src="{depth}assets/reading.js"></script></head><body><a class="skip-link" href="#main">Μετάβαση στο περιεχόμενο</a>'
+
+def edition_panels(e):
+    return ''.join('<section class="section" id="'+esc(panel['id'])+'"><div class="sectionhead"><h2>'+esc(panel['heading'])+'</h2></div>'+''.join('<p>'+esc(p)+'</p>' for p in panel['paragraphs'])+source_links(panel['sources'])+'</section>' for panel in e.get('panels', []))
 
 def _render(root=ROOT):
     global ROOT
@@ -265,10 +270,13 @@ def _render(root=ROOT):
     search = []
     for e, aa in bundles:
         date = stamp(e['published_at'],e['timezone'])
-        body = head(f'{TYPES[e["type"]]} έκδοση · {e["date"]} · {e["title"]}',e['url'],'newspaper','../')
-        body += f'<div class="line-top"></div><header class="masthead wrap"><div class="m-left">Ανεξάρτητο ημερήσιο briefing<br>Λεμεσός · Κύπρος</div><div class="brand"><h1>THE ORACLE <em>SOVEREIGN.</em></h1><p>Καθαρή ματιά πίσω από τους τίτλους</p></div><div class="m-right"><b>{e["date"]}</b>{TYPES[e["type"]]} έκδοση<br>{date}</div></header>'
+        body = head(f'{TYPES[e["type"]]} έκδοση · {e["date"]} · {e["title"]}',e['url'],'newspaper','../',e['type'])
+        slot = ' · '+esc(e['scheduled_slot']) if e.get('scheduled_slot') else ''
+        body += f'<div class="line-top"></div><header class="masthead wrap"><div class="m-left">Ανεξάρτητο ημερήσιο briefing<br>Λεμεσός · Κύπρος</div><div class="brand"><h1>THE ORACLE <em>SOVEREIGN.</em></h1><p>Καθαρή ματιά πίσω από τους τίτλους</p></div><div class="m-right"><b>{e["date"]}</b>{TYPES[e["type"]]} έκδοση{slot}<br>Δημοσίευση: {date}</div></header>'
         body += '<div class="stickybar"><div class="wrap"><nav class="navs" aria-label="Ενότητες εφημερίδας"><a href="#main">Κύρια νέα</a><a href="#cyprus">Κύπρος</a><a href="#world">Διεθνή</a><a href="#sports">Αθλητικά</a><a href="#markets">Αγορές</a><a href="#rates">Δόση</a><a href="../index.html">Αρχείο</a></nav><div class="tools"><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button><a href="../search.html">Αναζήτηση</a><button data-print>Εκτύπωση</button></div></div></div><main class="wrap" id="main">'
-        body += edition_desk(e,registry)+f'<div class="introbar"><b>{TYPES[e["type"]]} έκδοση · {e["date"]}</b><span>Δημοσίευση: {date}</span></div>'
+        body += edition_desk(e,registry)+f'<div class="introbar"><b>{TYPES[e["type"]]} έκδοση{slot} · {e["date"]}</b><span>Δημοσίευση: {date}</span></div>'
+        if e.get('summary_60s'):
+            body += '<section class="verdict" id="summary"><h2>Η έκδοση σε 60 δευτερόλεπτα</h2><div>'+''.join('<p>'+esc(p)+'</p>' for p in e['summary_60s'])+'</div></section>'
         if aa and aa[0]['category'] == 'Πρώτο θέμα':
             picks=''.join(f'<div class="brief-line"><b>{i+1:02}</b><p><a href="#{a["id"]}">{esc(a["headline"])}</a></p></div>' for i,a in enumerate(aa[1:6]))
             body += '<div class="hero-grid">'+card(e,aa[0],True)+'<aside class="hero-side"><div class="brief-panel"><div class="heading">Η επιλογή της έκδοσης</div><h3>Όσα αξίζουν<br><em>την προσοχή σου.</em></h3>'+picks+'</div></aside></div>'
@@ -277,7 +285,9 @@ def _render(root=ROOT):
         body += '<section class="verdict"><h2>Τι άλλαξε από την προηγούμενη έκδοση</h2><div>'
         body += ''.join(f'<p><b>{esc(c["kind"])}:</b> {esc(c["text"])}</p>' for c in e['changes']) or '<p>Δεν έχει καταγραφεί ουσιαστική αλλαγή.</p>'
         body += '</div></section>'
-        body += sports(e)+markets(e)+calculator(e)
+        if not e.get('calculator'):
+            body = body.replace('<a href="#rates">Δόση</a>', '<a href="#watch">Στη συνέχεια</a>' if any(p['id']=='watch' for p in e.get('panels',[])) else '')
+        body += sports(e)+markets(e)+calculator(e)+edition_panels(e)
         body += '<p class="warning">Η προσβασιμότητα συνδέσμων και η πραγματολογική διασταύρωση είναι διαφορετικοί έλεγχοι. Οι σελίδες διατηρούν την εικόνα της δικής τους έκδοσης.</p></main><footer class="footer"><div class="wrap">THE ORACLE SOVEREIGN · '+date+'</div></footer></body></html>'
         if not e.get('preserve_legacy_html') or not (ROOT/'docs'/e['url']).is_file():
             write(ROOT/'docs'/e['url'],body)

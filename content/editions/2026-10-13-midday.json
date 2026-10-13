@@ -1,0 +1,652 @@
+{
+  "schema_version": 2,
+  "id": "2026-10-13-midday",
+  "date": "2026-10-13",
+  "type": "midday",
+  "timezone": "Europe/Athens",
+  "published_at": "2026-10-13T14:04:48+03:00",
+  "status": "published",
+  "title": "Midday Pulse · Τιμές, διεθνείς επαφές και τραπεζικό AI",
+  "url": "midday/2026-10-13.html",
+  "scheduled_slot": "13:30",
+  "editorial_completed_at": "2026-10-13T14:04:48+03:00",
+  "articles": [
+    "articles/2026-10-13-midday/lead.json",
+    "articles/2026-10-13-midday/cyprus-2.json",
+    "articles/2026-10-13-midday/cyprus-3.json",
+    "articles/2026-10-13-midday/world-1.json",
+    "articles/2026-10-13-midday/world-2.json",
+    "articles/2026-10-13-midday/sport-arsenal.json",
+    "articles/2026-10-13-midday/sport-cyprus.json"
+  ],
+  "reader_routes": [
+    "readers/2026-10-13-midday.html"
+  ],
+  "image_review": {
+    "version": 1,
+    "completed_at": "2026-10-13T14:04:48+03:00"
+  },
+  "summary_60s": [
+    "Κύπρος: νέα σύγκριση βρίσκει αποκλίσεις έως 226% στο ίδιο προϊόν μεταξύ καταστημάτων. Η GRECO ξεκίνησε σήμερα έλεγχο τοπικής ακεραιότητας και ο Πάλμας συναντήθηκε με τον Defence Secretary της Ινδίας.",
+    "Διεθνή: οι τραπεζικοί επόπτες εξετάζουν κινδύνους AI και σχέδια ανάκαμψης. Στο Ριάντ προστίθενται συγκεκριμένες αεροπορικές ακυρώσεις στο ήδη γνωστό πρωινό πλαίσιο· δεν παρουσιάζονται ως νέα επίθεση.",
+    "Αγορές: STOXX 600 639,54 / +0,61% στις 11:49 Κύπρου. Στις 12:18 τα αμερικανικά futures είχαν μικτή εικόνα. Δεν επαληθεύτηκε σημερινή ενδοσυνεδριακή τιμή ΧΑΚ· το 310,09 είναι κλείσιμο της 12/10.",
+    "Στη συνέχεια: αναμένεται η συνάντηση στο Κυπριακό στις 15:30. Απόψε Atlético–United στις 22:00. Για Λεμεσό, αυξανόμενη συννεφιά και πιθανές απογευματινές μπόρες· δεν δίνεται βεβαιότητα για συγκεκριμένη γειτονιά."
+  ],
+  "changes": [
+    {
+      "kind": "Προσθήκη",
+      "text": "Η έρευνα τιμών δημοσιεύτηκε στις 09:44, η επίσκεψη GRECO στις 12:45 και η συνάντηση Κύπρου–Ινδίας στις 12:49· δεν περιλαμβάνονταν στο πρωινό. Προστίθεται επίσης το ρεπορτάζ των 09:00 για τραπεζικό AI.",
+      "story_id": null
+    },
+    {
+      "kind": "Πλαίσιο",
+      "text": "Οι αεροπορικές ακυρώσεις και οι δηλώσεις τραυματισμών προστίθενται ως πλαίσιο, με τις αρχικές ημερομηνίες τους· δεν παρουσιάζονται ως γεγονότα που συνέβησαν μετά το πρωί.",
+      "story_id": null
+    },
+    {
+      "kind": "Εξέλιξη",
+      "text": "Νεότερο ευρωπαϊκό στιγμιότυπο 11:49 και US futures 12:18 ώρα Κύπρου αντικαθιστούν την πρωινή εικόνα. Το ΧΑΚ παραμένει χωρίς επαληθευμένη σημερινή τιμή.",
+      "story_id": null
+    },
+    {
+      "kind": "Πλαίσιο",
+      "text": "Ως τον έλεγχο αυτής της έκδοσης δεν υπάρχει επαληθευμένο αποτέλεσμα της προγραμματισμένης συνάντησης Χριστοδουλίδη–Ερχιουρμάν στις 15:30. Οι πρωινές προτάσεις δεν παρουσιάζονται ως αποδεκτή συμφωνία.",
+      "story_id": "cyprus-leaders-oct13"
+    }
+  ],
+  "sports": {
+    "coverage": {
+      "omonoia": {
+        "symbol": "☘",
+        "summary": "Celje–Ομόνοια, 15/10 στις 19:45 Κύπρου. Τρίτη με 11 βαθμούς μετά την ολοκλήρωση της 5ης αγωνιστικής. Ο Μπράουερς αναφέρεται αμφίβολος σε ρεπορτάζ, όχι σε νέο επίσημο ιατρικό δελτίο.",
+        "updated_at": "2026-10-13T13:50:24+03:00",
+        "last_match": {
+          "opponent": "Καρμιώτισσα",
+          "competition": "Πρωτάθλημα Κύπρου",
+          "date": "2026-10-09",
+          "venue": null,
+          "result": "Καρμιώτισσα 0–3 Ομόνοια",
+          "scorers": null,
+          "verified_at": "2026-10-13T08:17:36.655786+03:00",
+          "sources": [
+            {
+              "publisher": "Sportime",
+              "url": "https://sportime.sigmalive.com/ta-telika-symperasmata-kai-i-ektimisi-apo-to-teleytaio-tis-omonoias/",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "Sportime",
+              "kind": "reporting",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Celje",
+          "competition": "UEFA Europa League",
+          "date": "2026-10-15",
+          "venue": null,
+          "kickoff_at": "2026-10-15T18:45:00+02:00",
+          "verified_at": "2026-10-13T08:17:36.655786+03:00",
+          "sources": [
+            {
+              "publisher": "UEFA",
+              "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2177782493b9-69ba3288701d-1000--europa-league-league-phase-fixtures-by-team/",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "UEFA",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Το 3–0 είναι ένδειξη αποτελεσματικότητας στο συγκεκριμένο παιχνίδι. Δεν διαθέτουμε πλήρη επαληθευμένη σειρά τελικών προσπαθειών ή αναμενόμενων γκολ για λεπτομερή τακτική διάγνωση.",
+        "watch_next": "Την επίσημη αποστολή, τυχόν ιατρικό δελτίο και την τελική ενδεκάδα για το εκτός έδρας παιχνίδι με τη Celje.",
+        "league_position": "3η · 11 βαθμοί, μετά την 5η αγωνιστική",
+        "form": null,
+        "updates": [
+          {
+            "text": "Το OmonoiaNews αναφέρει αμφιβολία για τον Μπράουερς και ότι ο Ακιντόλα είναι τραυματίας και εκτός ευρωπαϊκής λίστας. Πρόκειται για ρεπορτάζ 12/10, που προστίθεται ως πλαίσιο, όχι για σημερινή επίσημη αποστολή.",
+            "published_at": "2026-10-12T13:00:00+03:00",
+            "status": "Ρεπορτάζ · πρόσθετο πλαίσιο",
+            "sources": [
+              {
+                "publisher": "OmonoiaNews",
+                "url": "https://omonoianews.com/podosfairo/2026/10/kodikos-evropi-kai-tselie-i-vathmologia-kai-to-programma-tis-2is-agonistikis-sto-europa/",
+                "published_at": "2026-10-12T13:00:00+03:00",
+                "retrieved_at": "2026-10-13T13:50:24+03:00",
+                "reporting_group": "OmonoiaNews",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "text": "Με το 1–0 της ΑΕΚ επί της Ομόνοιας Αραδίππου, η Ομόνοια βρίσκεται έναν βαθμό από την κορυφή. Ακολουθεί Ολυμπιακός στις 19/10, 19:00 στο ΓΣΠ, κατά Omonoia24.",
+            "published_at": "2026-10-13",
+            "status": "Πρόσθετη βαθμολογική εικόνα",
+            "sources": [
+              {
+                "publisher": "Omonoia24",
+                "url": "https://omonoia24.com/2026/10/13/epese-i-avlaia-tis-5is-agwnistikis/",
+                "published_at": null,
+                "retrieved_at": "2026-10-13T13:50:24+03:00",
+                "reporting_group": "Omonoia24",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          }
+        ],
+        "no_update_reason": "Δεν επαληθεύτηκε νέα ανακοίνωση μετά τον πρωινό έλεγχο. Τα προηγούμενα αποτελέσματα και προγράμματα διατηρούν τον αρχικό χρόνο επαλήθευσης."
+      },
+      "manutd": {
+        "symbol": "M",
+        "summary": "Απόψε Atlético–United, 22:00 Κύπρου. Mainoo και Shaw δεν ταξίδεψαν λόγω προβλημάτων από τον αγώνα με Tottenham. Η τελική ενδεκάδα δεν έχει δημοσιευτεί.",
+        "updated_at": "2026-10-13T13:50:24+03:00",
+        "last_match": {
+          "opponent": "Tottenham",
+          "competition": "Premier League",
+          "date": "2026-10-10",
+          "result": "Manchester United 1–1 Tottenham",
+          "venue": "Old Trafford",
+          "scorers": null,
+          "verified_at": "2026-10-13T08:17:36.655786+03:00",
+          "sources": [
+            {
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/sports/soccer/spurs-show-fight-uniteds-struggles-deepen-old-trafford-2026-10-10/",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "Reuters",
+              "kind": "wire",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Atlético Madrid",
+          "competition": "UEFA Champions League",
+          "date": "2026-10-13",
+          "venue": "Riyadh Air Metropolitano",
+          "kickoff_at": "2026-10-13T21:00:00+02:00",
+          "verified_at": "2026-10-13T08:17:36.655786+03:00",
+          "sources": [
+            {
+              "publisher": "Manchester United",
+              "url": "https://www.manutd.com/en/news/champions-league-dates-confirmed-2026-27",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "Manchester United",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Η United έχει έξι βαθμούς σε έξι αγώνες πρωταθλήματος, το χαμηλότερο ξεκίνημά της από το 1986–87 σύμφωνα με Reuters. Η ευρωπαϊκή αντίδραση είναι ζητούμενο, όχι προεξοφλημένο γεγονός.",
+        "watch_next": "Την επίσημη ενδεκάδα και τον τρόπο κάλυψης των κενών στον άξονα και στην αριστερή πλευρά. Δεν θεωρείται η προβλεπόμενη ενδεκάδα επιβεβαιωμένη.",
+        "league_position": null,
+        "form": null,
+        "updates": [
+          {
+            "text": "Ο Guardian καταγράφει ότι Mainoo και Shaw δεν ταξίδεψαν στη Μαδρίτη. Οι δηλώσεις είναι της Δευτέρας· πρόκειται για συγκεκριμένη συμπλήρωση της πρωινής ενότητας, όχι για νέο τραυματισμό σήμερα.",
+            "published_at": "2026-10-12T20:52:16Z",
+            "status": "Επιβεβαιωμένη απουσία μέσω ρεπορτάζ",
+            "sources": [
+              {
+                "publisher": "The Guardian",
+                "url": "https://www.theguardian.com/football/2026/oct/12/michael-carrick-manchester-united-no-negativity-atletico-madrid",
+                "published_at": "2026-10-12T20:52:16Z",
+                "retrieved_at": "2026-10-13T13:50:24+03:00",
+                "reporting_group": "The Guardian",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          }
+        ],
+        "no_update_reason": "Δεν επαληθεύτηκε νέα ανακοίνωση μετά τον πρωινό έλεγχο. Τα προηγούμενα αποτελέσματα και προγράμματα διατηρούν τον αρχικό χρόνο επαλήθευσης."
+      },
+      "realmadrid": {
+        "symbol": "♛",
+        "summary": "Τελευταίο: Real Madrid–Villarreal 1–0 στις 10/10. Επόμενο: Roma–Real Madrid στις 14/10, 22:00 ώρα Κύπρου. Δεν επαληθεύτηκε νέα τελική αποστολή.",
+        "updated_at": "2026-10-13T08:17:36.655786+03:00",
+        "last_match": {
+          "opponent": "Villarreal",
+          "competition": "La Liga",
+          "date": "2026-10-10",
+          "venue": "Santiago Bernabéu",
+          "result": "1–0",
+          "scorers": [
+            "Yan Diomande"
+          ],
+          "verified_at": "2026-10-13T08:17:36.655786+03:00",
+          "sources": [
+            {
+              "publisher": "The Daily Star / AFP",
+              "url": "https://www.thedailystar.net/sports/football/news/real-madrid-edge-villarreal-vinicius-sent-hair-pull-4295686",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "AFP",
+              "kind": "reporting",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Roma",
+          "competition": "UEFA Champions League",
+          "date": "2026-10-14",
+          "venue": null,
+          "kickoff_at": "2026-10-14T21:00:00+02:00",
+          "verified_at": "2026-10-13T08:17:36.655786+03:00",
+          "sources": [
+            {
+              "publisher": "Real Madrid",
+              "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-calendario-del-real-madrid-en-octubre-24-09-2026",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "Real Madrid",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Το AFP περιγράφει περιορισμένες ευκαιρίες στο πρώτο μέρος, βελτίωση αμυντικής εικόνας και αντοχή με δέκα παίκτες στο τέλος. Αυτές είναι περιγραφές της συγκεκριμένης αναφοράς· δεν τις μετατρέπουμε σε μέτρηση απόδοσης για ολόκληρη τη σεζόν.",
+        "watch_next": "Επιλογές στην επίθεση και επίσημη πειθαρχική απόφαση. Η αποβολή σε αγώνα πρωταθλήματος δεν ισοδυναμεί αυτόματα με αποκλεισμό από το Champions League.",
+        "league_position": "Προσωρινά 3η μετά τον αγώνα, κατά AFP · 10/10· δεν είναι ενημερωμένος πλήρης πίνακας",
+        "form": null,
+        "updates": [],
+        "no_update_reason": "Επανελέγχθηκε το επίσημο πρόγραμμα: Roma–Real στις 14/10, 22:00 Κύπρου. Δεν ανακτήθηκε νεότερη επίσημη αποστολή ή ιατρικό δελτίο."
+      },
+      "formula1": {
+        "symbol": "F1",
+        "summary": "Singapore GP: Verstappen 1ος, Leclerc 2ος, Antonelli 3ος. Επόμενος κύριος αγώνας το US Grand Prix στο Austin στις 25/10.",
+        "updated_at": "2026-10-13T08:17:36.655786+03:00",
+        "last_match": null,
+        "next_fixture": null,
+        "latest_session": {
+          "event": "Singapore Grand Prix",
+          "session_type": "Κύριος αγώνας",
+          "date": "2026-10-11",
+          "results": "Verstappen 1:42:00.785 · Leclerc +7.335s · Antonelli +24.573s. Norris 4ος, Piastri 5ος, Hamilton 6ος.",
+          "implications": "Η κατάταξη της Singapore επανελέγχθηκε. Δεν προκύπτει από αυτή από μόνη της ότι έχει ήδη κριθεί ο τίτλος.",
+          "incidents": "Η επίσημη κατάταξη καταγράφει εγκαταλείψεις Albon, Stroll, Colapinto και Bortoleto. Δεν δίνει από μόνη της την αιτία κάθε εγκατάλειψης.",
+          "verified_at": "2026-10-13T13:50:24+03:00",
+          "sources": [
+            {
+              "publisher": "Formula 1",
+              "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T13:50:24+03:00",
+              "reporting_group": "Formula 1",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_grand_prix": "Grand Prix ΗΠΑ · Circuit of The Americas, Austin · 25/10/2026",
+        "sessions": [],
+        "analysis": "Χωρίς επαληθευμένα πρόσθετα δεδομένα δεν συνάγεται τακτικό συμπέρασμα.",
+        "watch_next": "Επίσημη ανακοίνωση αγώνα και αποστολής.",
+        "league_position": null,
+        "form": null,
+        "updates": [],
+        "no_update_reason": "Δεν επαληθεύτηκε νέα ουσιαστική εξέλιξη μετά το πρωινό. Επανελέγχθηκαν η επίσημη κατάταξη της Singapore και το πρόγραμμα του Austin. Οι ώρες MY TIME δεν χρησιμοποιούνται χωρίς σαφή ζώνη ώρας.",
+        "next_gp_sources": [
+          {
+            "publisher": "Formula 1",
+            "url": "https://www.formula1.com/en/racing/2026/united-states",
+            "published_at": null,
+            "retrieved_at": "2026-10-13T05:17:00+00:00",
+            "reporting_group": "Formula 1",
+            "kind": "primary",
+            "access": "read",
+            "used_for_claims": true
+          }
+        ],
+        "session_times_reason": "Η ανακτημένη σελίδα δείχνει ώρες στην επιλογή «MY TIME» χωρίς επαληθευμένη timezone στο κείμενο. Δεν τις μετατρέπουμε αυθαίρετα σε ώρα Κύπρου."
+      }
+    },
+    "major_stories": [
+      {
+        "headline": "Arsenal: διπλό πρόβλημα τραυματισμών πριν από τη Lille",
+        "published_at": "2026-10-13T10:26:00+03:00",
+        "summary": "Ο Arteta ανέφερε τραυματισμούς των Hincapie και Zubimendi σε συμπληρωματική προπόνηση μετά το 2–1 με Leeds. Η διαθεσιμότητά τους παραμένει αμφίβολη· δεν υπάρχει επαληθευμένο χρονοδιάγραμμα επιστροφής.",
+        "why_it_matters": "Το θέμα φωτίζει το δύσκολο σημείο διαχείρισης ενός μεγάλου ρόστερ: οι αναπληρωματικοί χρειάζονται ρυθμό, αλλά η επιπλέον δουλειά έχει και κίνδυνο επιβάρυνσης. Ένα ατυχές περιστατικό δεν αποδεικνύει ότι η μέθοδος προπόνησης είναι εσφαλμένη.",
+        "sources": [
+          {
+            "publisher": "Reuters μέσω Cyprus Mail",
+            "url": "https://cyprus-mail.com/2026/10/13/arsenal-suffer-unprecedented-double-injury-setback-says-arteta",
+            "published_at": "2026-10-13T10:26:00+03:00",
+            "retrieved_at": "2026-10-13T13:50:24+03:00",
+            "reporting_group": "Reuters",
+            "kind": "wire",
+            "access": "read",
+            "used_for_claims": true
+          }
+        ],
+        "article_id": "sport-arsenal"
+      },
+      {
+        "headline": "Η ΑΕΚ έκλεισε την αγωνιστική με νίκη· η Ομόνοια έναν βαθμό από την κορυφή",
+        "published_at": "2026-10-13",
+        "summary": "Το 1–0 της ΑΕΚ επί της Ομόνοιας Αραδίππου ολοκλήρωσε την πέμπτη αγωνιστική τη Δευτέρα. Η Ομόνοια βρίσκεται τρίτη με 11 βαθμούς. Η προτεραιότητά της είναι πλέον η ευρωπαϊκή έξοδος στη Celje.",
+        "why_it_matters": "Ένας βαθμός απόσταση δεν αρκεί για ασφαλή πρόβλεψη σε τόσο πρώιμο σημείο της σεζόν. Η συνέπεια στις επόμενες αγωνιστικές και η διαχείριση του ευρωπαϊκού ταξιδιού θα είναι πιο χρήσιμα κριτήρια από ένα μεμονωμένο στιγμιότυπο του πίνακα.",
+        "sources": [
+          {
+            "publisher": "Omonoia24",
+            "url": "https://omonoia24.com/2026/10/13/epese-i-avlaia-tis-5is-agwnistikis/",
+            "published_at": null,
+            "retrieved_at": "2026-10-13T13:50:24+03:00",
+            "reporting_group": "Omonoia24",
+            "kind": "reporting",
+            "access": "read",
+            "used_for_claims": true
+          }
+        ],
+        "article_id": "sport-cyprus"
+      }
+    ],
+    "major_stories_reason": "Δύο συμπληρωματικά θέματα με σαφή χρονική προέλευση. Δεν αναπαράγονται τα πρωινά νέα τένις χωρίς νέα εξέλιξη."
+  },
+  "markets": [
+    {
+      "name": "STOXX Europe 600",
+      "value": 639.54,
+      "currency": "EUR",
+      "unit": "μονάδες",
+      "status": "delayed",
+      "quoted_at": "2026-10-13T08:49:00Z",
+      "change_pct": 0.61,
+      "asset_class": "index",
+      "market_timezone": "Europe/Brussels",
+      "sources": [
+        {
+          "publisher": "Reuters μέσω MarketScreener",
+          "url": "https://www.marketscreener.com/news/european-shares-edge-higher-as-lower-oil-prices-lift-sentiment-ce785ddddd81ff20",
+          "published_at": "2026-10-13T09:16:00Z",
+          "retrieved_at": "2026-10-13T13:50:24+03:00",
+          "reporting_group": "Reuters",
+          "kind": "wire",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "ΧΑΚ · Γενικός · προηγούμενο κλείσιμο",
+      "value": 310.09,
+      "currency": "EUR",
+      "unit": "μονάδες",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12",
+      "change_pct": 0.76,
+      "asset_class": "index",
+      "market_timezone": "Asia/Nicosia",
+      "sources": [
+        {
+          "publisher": "Capital.gr",
+          "url": "https://www.capital.gr/finance/historycloses/%CE%93%CE%95%CE%9D_%CE%94_%CE%9A?page=1",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T13:50:24+03:00",
+          "reporting_group": "Capital.gr",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "ΧΑΚ · σημερινό ενδοσυνεδριακό",
+      "value": null,
+      "currency": "EUR",
+      "unit": "μονάδες",
+      "status": "unavailable",
+      "quoted_at": null,
+      "asset_class": "index",
+      "sources": []
+    },
+    {
+      "name": "S&P 500 futures · μεταβολή",
+      "value": "Περίπου αμετάβλητο · επίπεδο μη επαληθευμένο",
+      "currency": "USD",
+      "unit": "μονάδες",
+      "status": "delayed",
+      "quoted_at": "2026-10-13T09:18:00Z",
+      "asset_class": "futures_index",
+      "sources": [
+        {
+          "publisher": "Investing.com",
+          "url": "https://in.investing.com/news/stock-market-news/us-stock-futures-steady-as-bank-earnings-inflation-data-loom-5629401",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T13:50:24+03:00",
+          "reporting_group": "Investing.com",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "Nasdaq 100 futures · μεταβολή",
+      "value": "Επίπεδο μη επαληθευμένο",
+      "currency": "USD",
+      "unit": "μονάδες",
+      "status": "delayed",
+      "quoted_at": "2026-10-13T09:18:00Z",
+      "change_pct": -0.5,
+      "asset_class": "futures_index",
+      "sources": [
+        {
+          "publisher": "Investing.com",
+          "url": "https://in.investing.com/news/stock-market-news/us-stock-futures-steady-as-bank-earnings-inflation-data-loom-5629401",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T13:50:24+03:00",
+          "reporting_group": "Investing.com",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "name": "Dow futures · μεταβολή",
+      "value": "Επίπεδο μη επαληθευμένο",
+      "currency": "USD",
+      "unit": "μονάδες",
+      "status": "delayed",
+      "quoted_at": "2026-10-13T09:18:00Z",
+      "change_pct": 0.5,
+      "asset_class": "futures_index",
+      "sources": [
+        {
+          "publisher": "Investing.com",
+          "url": "https://in.investing.com/news/stock-market-news/us-stock-futures-steady-as-bank-earnings-inflation-data-loom-5629401",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T13:50:24+03:00",
+          "reporting_group": "Investing.com",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    }
+  ],
+  "market_notes": [
+    {
+      "text": "Ευρώπη: το Reuters συνδέει τη βελτίωση με χαμηλότερο πετρέλαιο και αποδόσεις ομολόγων. Στο ίδιο στιγμιότυπο, ASML −1,8% και LVMH −1,3%, ενώ Givaudan +7,4% μετά από καλύτερες οργανικές πωλήσεις. Πρόκειται για αποδιδόμενη εξήγηση της πηγής, όχι αυτόματη αιτιώδη απόδειξη.",
+      "sources": [
+        {
+          "publisher": "Reuters μέσω MarketScreener",
+          "url": "https://www.marketscreener.com/news/european-shares-edge-higher-as-lower-oil-prices-lift-sentiment-ce785ddddd81ff20",
+          "published_at": "2026-10-13T09:16:00Z",
+          "retrieved_at": "2026-10-13T13:50:24+03:00",
+          "reporting_group": "Reuters",
+          "kind": "wire",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "text": "Futures στις 12:18 Κύπρου: Nasdaq −0,5%, Dow +0,5%, S&P σχεδόν αμετάβλητο. Δεν επαληθεύτηκαν απόλυτα επίπεδα ή μήνες συμβολαίων. Πρόκειται για παράγωγα και για σταθερό στιγμιότυπο, όχι cash δείκτες ή ολοκληρωμένο κλείσιμο.",
+      "sources": [
+        {
+          "publisher": "Investing.com",
+          "url": "https://in.investing.com/news/stock-market-news/us-stock-futures-steady-as-bank-earnings-inflation-data-loom-5629401",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T13:50:24+03:00",
+          "reporting_group": "Investing.com",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    }
+  ],
+  "panels": [
+    {
+      "id": "tech",
+      "heading": "Tech watch · τι έχει σημασία τώρα",
+      "paragraphs": [
+        "TSMC: επίσημη παρουσίαση αποτελεσμάτων τρίτου τριμήνου στις 15/10, 14:00 Ταϊβάν / 09:00 Κύπρου. Η ημερομηνία είναι επαληθευμένη από την εταιρεία· τα αποτελέσματα δεν έχουν ακόμη ανακοινωθεί.",
+        "Nvidia και Micron: η τεχνολογική αδυναμία και ο ανταγωνισμός στις μνήμες είναι το σημερινό πλαίσιο των αγορών. Δεν εξισώνουμε μια κίνηση ολόκληρου κλάδου με επαληθευμένη εταιρική ανακοίνωση ούτε χρησιμοποιούμε επαναλαμβανόμενες τιμές κλεισίματος ως νέες premarket συναλλαγές.",
+        "Alphabet, Microsoft, Apple και Meta: δεν επαληθεύτηκε νέα ουσιαστική εταιρική εξέλιξη σε σχέση με το πρωινό. Παρακολουθούμε τις επίσημες ανακοινώσεις τους και την πραγματική ζήτηση για AI υποδομές. Δεν συμπληρώνεται η ενότητα με φήμες ή μη χρονοσημασμένες τιμές.",
+        "Συντακτική ανάγνωση: η νέα τραπεζική εποπτική προσοχή δείχνει ότι η υιοθέτηση AI συνοδεύεται από κόστος ελέγχου και λειτουργικής ανθεκτικότητας. Δεν τεκμηριώνει από μόνη της μεταβολή εσόδων κάποιας από τις επτά εταιρείες."
+      ],
+      "sources": [
+        {
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T13:50:24+03:00",
+          "reporting_group": "TSMC Investor Relations",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Reuters μέσω MarketScreener",
+          "url": "https://www.marketscreener.com/news/european-shares-edge-higher-as-lower-oil-prices-lift-sentiment-ce785ddddd81ff20",
+          "published_at": "2026-10-13T09:16:00Z",
+          "retrieved_at": "2026-10-13T13:50:24+03:00",
+          "reporting_group": "Reuters",
+          "kind": "wire",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Reuters μέσω Cyprus Mail",
+          "url": "https://cyprus-mail.com/2026/10/13/banking-regulators-step-up-scrutiny-of-ai-risks",
+          "published_at": "2026-10-13T09:00:00+03:00",
+          "retrieved_at": "2026-10-13T13:50:24+03:00",
+          "reporting_group": "Reuters",
+          "kind": "wire",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "heading": "Λεμεσός · το απόγευμα",
+      "paragraphs": [
+        "Λεμεσός: η πρόγνωση για τις νότιες ακτές δίνει μέγιστη γύρω στους 28°C. Το απόγευμα αναμένεται ανάπτυξη νεφώσεων, με πιθανότητα τοπικών βροχών. Δεν επαληθεύτηκε ωριαίο στιγμιότυπο ανέμου ή ακριβής χρόνος έναρξης βροχής για το παραλιακό μέτωπο.",
+        "Το σημερινό δελτίο που μεταφέρει ο Φιλελεύθερος προβλέπει μεμονωμένες καταιγίδες κυρίως στην ενδοχώρα, στον βορρά και στα ψηλά ορεινά γύρω στο μεσημέρι. Η ευρύτερη πρόγνωση δεν μεταφέρεται αυτόματα ως καταιγίδα στο παραλιακό μέτωπο της Λεμεσού. Χρόνος ελέγχου: 2026-10-13T13:50:24+03:00."
+      ],
+      "sources": [
+        {
+          "publisher": "Φιλελεύθερος · μετεωρολογικό δελτίο",
+          "url": "https://en.philenews.com/local/cyprus-weather-tuesday-storms-rain-cooler-until-friday/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T13:50:24+03:00",
+          "reporting_group": "Φιλελεύθερος · μετεωρολογικό δελτίο",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "id": "watch",
+      "heading": "Στη συνέχεια · το ραντάρ της ημέρας",
+      "paragraphs": [
+        "Σήμερα 15:30 Κύπρου: προγραμματισμένη συνάντηση Χριστοδουλίδη–Ερχιουρμάν στο πλαίσιο ΟΗΕ, όπως καταγράφηκε στο πρωινό. Περιμένουμε πραγματική ανακοίνωση αποτελέσματος, ιδίως για επόμενα βήματα· δεν προεξοφλούμε συμφωνία.",
+        "Σήμερα 16:30 Κύπρου: κανονικό άνοιγμα της αμερικανικής αγοράς μετοχών (09:30 Νέας Υόρκης). Θα φανεί αν η μικτή εικόνα των futures μεταφέρεται στη συνεδρίαση· τα futures δεν προβλέπουν βέβαιο άνοιγμα ή κλείσιμο.",
+        "Σήμερα 22:00 Κύπρου: Atlético–Manchester United. Αύριο 14/10 στις 22:00: Roma–Real Madrid. Στις 15/10, 09:00: παρουσίαση TSMC και 19:45: Celje–Ομόνοια. Οι τελικές αποστολές και πιθανές αλλαγές προγράμματος χρειάζονται τις επίσημες ανακοινώσεις.",
+        "Ερευνητικός έλεγχος ολοκληρώθηκε: 2026-10-13T14:04:48+03:00. Η ώρα 13:30 είναι η ετικέτα της μεσημεριανής έκδοσης. Η δημοσίευση εμφανίζεται χωριστά στην κορυφή. Οι τρεις κυπριακές ιστορίες και το τραπεζικό AI είναι προσθήκες της σημερινής ροής. Για το Ριάντ προστίθεται επιχειρησιακό πλαίσιο, χωρίς επιβεβαιωμένο νέο συμβάν μετά το πρωινό."
+      ],
+      "sources": [
+        {
+          "publisher": "Manchester United",
+          "url": "https://www.manutd.com/en/news/champions-league-dates-confirmed-2026-27",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Manchester United",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Real Madrid",
+          "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-calendario-del-real-madrid-en-octubre-24-09-2026",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Real Madrid",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T13:50:24+03:00",
+          "reporting_group": "TSMC Investor Relations",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Προεδρία της Κυπριακής Δημοκρατίας",
+          "url": "https://www.gov.cy/en/event/president-of-the-republic-of-cyprus-meeting-with-the-leader-of-the-turkish-cypriot-community-8/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Προεδρία της Κυπριακής Δημοκρατίας",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Cyprus Mail",
+          "url": "https://cyprus-mail.com/2026/10/12/govt-expects-progress-on-19-proposals-at-erhurman-meeting",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Cyprus Mail",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    }
+  ]
+}

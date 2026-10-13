@@ -63,6 +63,23 @@ class StructuredContentTests(unittest.TestCase):
             with self.assertRaises(FileNotFoundError):build.build(root)
             self.assertEqual(marker.read_text(encoding='utf-8'),'existing archive')
 
+    def test_scheduled_slot_and_evidence_panels_survive_rebuild(self):
+        self.edition['scheduled_slot']='07:30'
+        self.edition['summary_60s']=['Η σύντομη επισκόπηση παραμένει χωριστή από την ώρα δημοσίευσης.']
+        self.edition['panels']=[{'id':'weather','heading':'Καιρός <script>','paragraphs':['Η πρόγνωση είναι επαληθευμένη και δεν ενημερώνεται αυτόματα.'],'sources':[self.articles[0]['sources'][0]]}]
+        with tempfile.TemporaryDirectory() as directory:
+            root=self.fixture_root(directory,self.edition,self.articles)
+            build.build(root)
+            rendered=(root/'docs'/self.edition['url']).read_text()
+            html=BeautifulSoup(rendered,'html.parser')
+            self.assertEqual(html.html['data-edition'],'morning')
+            self.assertEqual(html.select_one('meta[name=oracle-edition]')['content'],'morning')
+            self.assertIn('07:30',html.select_one('.introbar').text)
+            self.assertIn(build.stamp(self.edition['published_at']),html.select_one('.introbar').text)
+            self.assertIn(self.edition['summary_60s'][0],html.select_one('#summary').text)
+            self.assertIsNone(html.select_one('#weather script'))
+            self.assertIn(self.articles[0]['sources'][0]['url'],str(html.select_one('#weather')))
+
     def test_article_cannot_resolve_to_different_historical_edition(self):
         self.articles[0]['edition_id']='2026-10-11-evening'
         with self.assertRaisesRegex(ValueError,'Historical'):build.validate(self.edition,self.articles)

@@ -96,3 +96,6 @@ python scripts/v2/sync_portal.py --portal-root ../oracle-briefing
 Οι φωτογραφίες εμφανίζονται στην εφημερίδα και στο άρθρο/dated reader, με πηγή, λεζάντα και σύνδεσμο άδειας. Έλεγξε naturalWidth/naturalHeight μετά το load σε κινητό και desktop, όχι μόνο παρουσία img ή HTTP 200. Η αποτυχία εικόνας δείχνει καθαρό fallback και κρατά το κείμενο διαθέσιμο. Το νέο image-candidate workflow προετοιμάζει μόνο υποψήφιο πακέτο και screenshots· δεν δημοσιεύει ούτε παράγει ειδήσεις. Δημοσίευσε όλα τα source και docs/assets μαζί, ανανέωσε release.json και περίμενε Pages/hash verification.
 
 Σε επανεκτέλεση μόνο για φωτογραφίες, ενημέρωσε την υπάρχουσα έκδοση χωρίς duplicate archive card. Διατήρησε την αρχική published_at και τους χρόνους ειδήσεων/αγορών, πρόσθεσε χωριστή ένδειξη ενημέρωσης εικόνων. Ενημέρωσε το πραγματικό prompt και των τριών υπαρχόντων scheduled actions· το commit οδηγιών από μόνο του δεν αλλάζει τα actions.
+
+## Structured edition supplements
+Use optional `scheduled_slot` for the edition label (separate from `published_at`), `summary_60s` for the short overview and `panels` with evidence-linked paragraphs for tech watch, weather and upcoming events. Renderer v2 retains these fields on rebuild. The photographed candidate workflow automatically selects the latest reviewed edition when no input is given.

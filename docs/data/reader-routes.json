@@ -48,6 +48,15 @@
       "golf-open-espana": "articles/2026-10-12-morning/golf-open-espana.html",
       "nfl-jaguars-london": "articles/2026-10-12-morning/nfl-jaguars-london.html"
     },
+    "2026-10-13-midday": {
+      "lead": "articles/2026-10-13-midday/lead.html",
+      "cyprus-2": "articles/2026-10-13-midday/cyprus-2.html",
+      "cyprus-3": "articles/2026-10-13-midday/cyprus-3.html",
+      "world-1": "articles/2026-10-13-midday/world-1.html",
+      "world-2": "articles/2026-10-13-midday/world-2.html",
+      "sport-arsenal": "articles/2026-10-13-midday/sport-arsenal.html",
+      "sport-cyprus": "articles/2026-10-13-midday/sport-cyprus.html"
+    },
     "2026-10-13-morning": {
       "lead": "articles/2026-10-13-morning/lead.html",
       "cyprus-1": "articles/2026-10-13-morning/cyprus-1.html",
@@ -77,5 +86,8 @@
   },
   "readers/2026-10-12.html": {
     "edition_id": "2026-10-12-morning"
+  },
+  "readers/2026-10-13-midday.html": {
+    "edition_id": "2026-10-13-midday"
   }
 }
