@@ -50,7 +50,7 @@ class StructuredContentTests(unittest.TestCase):
                 current=html.select_one('[aria-current=page]')
                 self.assertIn(build.TYPES[e['type']],current.text)
                 self.assertEqual(len(html.select('[aria-current=page]')),1)
-                self.assertEqual(html.select('.edition-desk span')[0].text.count('Δεν έχει δημοσιευτεί'),1)
+                self.assertEqual(html.select('.edition-desk span')[0]['aria-label'].count('Δεν έχει δημοσιευτεί'),1)
                 self.assertIn(e['date'],html.title.text)
                 if scenario['case']=='limited_sports':self.assertIn('Δεν βρέθηκε ουσιαστική νέα είδηση.',html.text)
                 if scenario['case']=='missing_market':self.assertIn('Μη διαθέσιμη',html.text);self.assertNotIn('7.811,54',html.text)

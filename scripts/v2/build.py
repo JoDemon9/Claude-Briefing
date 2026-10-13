@@ -50,10 +50,10 @@ def source_links(sources):
         f' · Ανάκτηση: {stamp(s.get("retrieved_at"))}'
         + (' · Μη προσβάσιμη· δεν διαβάστηκε' if s.get('access') == 'inaccessible' else '') + '</small></div>' for s in sources) + '</div>'
 
-def blocks(article):
+def blocks(article, excluded=()):
     out = []
     for section in article['sections']:
-        paragraphs=[p for p in section['paragraphs'] if p.strip()!=article['summary'].strip()]
+        paragraphs=[p for p in section['paragraphs'] if p.strip()!=article['summary'].strip() and p not in excluded]
         if not paragraphs:
             continue
         label = 'Δημοσιευμένες πληροφορίες' if section['kind'] == 'reported' else 'Συντακτική ανάλυση'
@@ -225,16 +225,30 @@ def calculator(e):
 
 def card(e, a, hero=False):
     cl = 'hero' if hero else 'newscard'
-    return f'<article class="{cl}" id="{esc(a["id"])}">'+image(a,'../')+f'<div class="story-content"><div class="eyebrow">{esc(a["category"])}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}><div class="abstract"><p>{esc(a["summary"])}</p></div><p class="muted">{sources_label(a["sources"])}</p><a class="read-link" href="../{article_url(e,a)}">Διάβασε την ανάλυση ↗</a>'+source_links(a['sources'])+'</div></article>'
+    abstract=f'<div class="abstract"><p>{esc(a["summary"])}</p></div>'
+    overview='<div class="lead-overview">'+abstract+image(a,'../')+'</div>' if hero else abstract
+    shown=[]
+    context=''
+    if not hero:
+        reported=[p for s in a['sections'] if s['kind']=='reported' for p in s['paragraphs'] if not p.strip().startswith(a['summary'].strip())][:2]
+        analysis=next((s for s in a['sections'] if s['kind']=='analysis'),None)
+        shown=reported+(analysis['paragraphs'][:1] if analysis else [])
+        context=''.join(f'<p>{esc(p)}</p>' for p in reported)
+        if analysis:
+            context+=f'<div class="card-context"><b>Συντακτική ανάλυση · {esc(analysis["heading"])}</b><p>{esc(analysis["paragraphs"][0])}</p></div>'
+    more='<details class="story-more"><summary>Περισσότερα μέσα στην έκδοση</summary>'+blocks(a,shown)+'</details>'
+    sources='<details class="sources-disclosure"><summary>Πηγές και χρόνοι αναφοράς</summary>'+source_links(a['sources'])+'</details>'
+    return f'<article class="{cl}" id="{esc(a["id"])}">'+('' if hero else image(a,'../'))+f'<div class="story-content"><div class="eyebrow">{esc(a["category"])}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}>'+overview+context+f'<p class="muted">{sources_label(a["sources"])}</p>'+more+sources+f'<a class="read-link" href="../{article_url(e,a)}">Ξεχωριστό άρθρο ↗</a></div></article>'
 
 def edition_desk(e, registry):
     out = ['<nav class="edition-desk" aria-label="Εκδόσεις της ημέρας"><b>Γραφείο εκδόσεων</b>']
     for t, label in TYPES.items():
         match = next((x for x in registry if x['date'] == e['date'] and x['type'] == t and x['status'] == 'published'), None)
         if match:
-            out.append(f'<a href="../{match["url"]}"'+(' aria-current="page"' if match['id'] == e['id'] else '')+f'>{label} · {"Τρέχουσα έκδοση" if match["id"] == e["id"] else "Δημοσιευμένη"}</a>')
+            state='Τρέχουσα έκδοση' if match['id']==e['id'] else 'Δημοσιευμένη'
+            out.append(f'<a href="../{match["url"]}" title="{label} · {state}" aria-label="{label} · {state}"'+(' aria-current="page"' if match['id'] == e['id'] else '')+f'>{label}</a>')
         else:
-            out.append(f'<span>{label} · Δεν έχει δημοσιευτεί</span>')
+            out.append(f'<span title="{label} · Δεν έχει δημοσιευτεί" aria-label="{label} · Δεν έχει δημοσιευτεί">{label} · —</span>')
     return ''.join(out)+'</nav>'
 
 def head(title, canonical, css, depth='', edition=None):
@@ -248,6 +262,9 @@ def edition_panels(e):
 def _render(root=ROOT):
     global ROOT
     ROOT = Path(root)
+    import importlib.util
+    latest_spec=importlib.util.spec_from_file_location('latest_publishing',Path(__file__).with_name('latest.py'))
+    latest=importlib.util.module_from_spec(latest_spec);latest_spec.loader.exec_module(latest)
     editions = [read(f) for f in sorted((ROOT/'content/editions').glob('*.json'))]
     registry = read(ROOT/'content/legacy-editions.json')
     bundles = []
@@ -275,11 +292,12 @@ def _render(root=ROOT):
         body += f'<div class="line-top"></div><header class="masthead wrap"><div class="m-left">Ανεξάρτητο ημερήσιο briefing<br>Λεμεσός · Κύπρος</div><div class="brand"><h1>THE ORACLE <em>SOVEREIGN.</em></h1><p>Καθαρή ματιά πίσω από τους τίτλους</p></div><div class="m-right"><b>{e["date"]}</b>{TYPES[e["type"]]} έκδοση{slot}<br>Δημοσίευση: {date}</div></header>'
         body += '<div class="stickybar"><div class="wrap"><nav class="navs" aria-label="Ενότητες εφημερίδας"><a href="#main">Κύρια νέα</a><a href="#cyprus">Κύπρος</a><a href="#world">Διεθνή</a><a href="#sports">Αθλητικά</a><a href="#markets">Αγορές</a><a href="#rates">Δόση</a><a href="../index.html">Αρχείο</a></nav><div class="tools"><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button><a href="../search.html">Αναζήτηση</a><button data-print>Εκτύπωση</button></div></div></div><main class="wrap" id="main">'
         body += edition_desk(e,registry)+f'<div class="introbar"><b>{TYPES[e["type"]]} έκδοση{slot} · {e["date"]}</b><span>Δημοσίευση: {date}</span></div>'
-        if e.get('summary_60s'):
-            body += '<section class="verdict" id="summary"><h2>Η έκδοση σε 60 δευτερόλεπτα</h2><div>'+''.join('<p>'+esc(p)+'</p>' for p in e['summary_60s'])+'</div></section>'
         if aa and aa[0]['category'] == 'Πρώτο θέμα':
-            picks=''.join(f'<div class="brief-line"><b>{i+1:02}</b><p><a href="#{a["id"]}">{esc(a["headline"])}</a></p></div>' for i,a in enumerate(aa[1:6]))
+            selected=[a for a in aa[1:] if a['category'] in ['Κύπρος','Διεθνή']][:5]
+            picks=''.join(f'<div class="brief-line"><b>{i+1:02}</b><p><a href="#{a["id"]}">{esc(a["headline"])}</a></p></div>' for i,a in enumerate(selected))
             body += '<div class="hero-grid">'+card(e,aa[0],True)+'<aside class="hero-side"><div class="brief-panel"><div class="heading">Η επιλογή της έκδοσης</div><h3>Όσα αξίζουν<br><em>την προσοχή σου.</em></h3>'+picks+'</div></aside></div>'
+        if e.get('summary_60s'):
+            body += '<details class="story-more" id="summary"><summary>Η έκδοση σε 60 δευτερόλεπτα</summary><div>'+''.join('<p>'+esc(p)+'</p>' for p in e['summary_60s'])+'</div></details>'
         for category, anchor in [('Κύπρος','cyprus'),('Διεθνή','world')]:
             body += f'<section class="section" id="{anchor}"><div class="sectionhead"><h2>{category}.</h2></div><div class="g3">'+''.join(card(e,a) for a in aa if a['category']==category)+'</div></section>'
         body += '<section class="verdict"><h2>Τι άλλαξε από την προηγούμενη έκδοση</h2><div>'
@@ -291,6 +309,8 @@ def _render(root=ROOT):
         body += '<p class="warning">Η προσβασιμότητα συνδέσμων και η πραγματολογική διασταύρωση είναι διαφορετικοί έλεγχοι. Οι σελίδες διατηρούν την εικόνα της δικής τους έκδοσης.</p></main><footer class="footer"><div class="wrap">THE ORACLE SOVEREIGN · '+date+'</div></footer></body></html>'
         if not e.get('preserve_legacy_html') or not (ROOT/'docs'/e['url']).is_file():
             write(ROOT/'docs'/e['url'],body)
+        elif e.get('image_review'):
+            write(ROOT/'docs'/e['url'],latest.compact_document((ROOT/'docs'/e['url']).read_text(encoding='utf-8'),edition_desk(e,registry)))
         for alias in e.get('aliases',[]) if not e.get('preserve_legacy_html') else []:
             # Preserve existing URLs as full edition pages; canonical stays on the primary path.
             write(ROOT/'docs'/alias,body)
@@ -328,6 +348,14 @@ def _render(root=ROOT):
             archive+=f'<article class="newscard{" current" if current else ""}"><div class="story-content"><p>{x["date"]} · {TYPES[x["type"]]} έκδοση{" · Τρέχουσα" if current else ""}</p><h3>{esc(x["title"])}</h3><p>{stamp(x["published_at"])}</p><a class="read-link" href="{esc(x["url"])}"'+(' aria-current="page"' if current else '')+'>Ανάγνωση έκδοσης ↗</a></div></article>'
         archive+='</div></section>'
     write(ROOT/'docs/index.html',archive+'</main></body></html>')
+    pages={e['url'] for e,_ in bundles if not e.get('preserve_legacy_html') or e.get('image_review')}
+    pages.update(article_url(e,a) for e,aa in bundles for a in aa)
+    pages.update(alias for e,_ in bundles for alias in e.get('aliases',[]))
+    for page_url in sorted(pages):
+        path=ROOT/'docs'/page_url
+        write(path,latest.version_resources(path.read_text(encoding='utf-8'),ROOT,page_url))
+    latest.publish(ROOT,registry)
+    write(ROOT/'docs/assets/latest-briefing.js',(ROOT/'templates/v2/latest-briefing.js').read_text(encoding='utf-8'))
     print(f'Built {len(bundles)} editions, {len(search)} separate articles, {len(registry)} archive entries')
 
 
