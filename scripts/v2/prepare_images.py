@@ -31,7 +31,7 @@ def prepare(root, edition_id, verify_only=False):
         if not target.exists():
             if verify_only:
                 raise ValueError('Missing image asset: '+str(local))
-            url = im['original_url']
+            url = im.get('download_url',im['original_url'])
             parsed = urlsplit(url)
             if parsed.scheme != 'https' or parsed.hostname not in HOSTS:
                 raise ValueError('Unapproved image host; review the publisher before extending HOSTS')
@@ -66,6 +66,8 @@ def prepare(root, edition_id, verify_only=False):
             raise ValueError('Optimized image is too large')
         count += 1
         print('Verified image:', local)
+        if not verify_only:
+            time.sleep(3)
     if edition.get('image_review') and count == 0:
         raise ValueError('No photographs found for reviewed edition')
     print(f'{count} local editorial images verified for {edition_id}')
