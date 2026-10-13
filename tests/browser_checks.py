@@ -73,9 +73,9 @@ def run(screenshots=None):
                             img.evaluate('(img)=>img.decode()')
                             assert img.evaluate('(img)=>img.naturalWidth>=200&&img.naturalHeight>=200'),f'Broken photograph: {path}'
                         checks.append(f'{width}px {path}: no overflow or JavaScript errors')
-                        if screenshots and width in [375,1440] and path in paths[:2]:
+                        if screenshots and width in [375,1440] and (path in paths[:2] or path==latest_path):
                             screenshots.mkdir(parents=True,exist_ok=True)
-                            page.screenshot(path=str(screenshots/(str(width)+'-'+('edition' if '/morning/' in path else 'article')+'.png')),full_page=True)
+                            page.screenshot(path=str(screenshots/(str(width)+'-'+('latest-edition' if path==latest_path else ('edition' if '/morning/' in path else 'article'))+'.png')),full_page=True)
                 page.set_viewport_size({'width':375,'height':900})
                 page.goto(base+'/real/morning/2026-10-12.html')
                 summary=page.locator('#sports summary').first

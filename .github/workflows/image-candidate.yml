@@ -22,8 +22,12 @@ jobs:
       - run: pip install -r requirements-v2.txt
       - name: Cache and verify the selected photographs
         env:
-          EDITION_ID: ${{ inputs.edition || '2026-10-13-morning' }}
-        run: python scripts/v2/prepare_images.py --edition "$EDITION_ID"
+          EDITION_ID: ${{ inputs.edition }}
+        run: |
+          if [ -z "$EDITION_ID" ]; then
+            EDITION_ID="$(python -c 'import json,pathlib; editions=[json.loads(p.read_text()) for p in pathlib.Path("content/editions").glob("*.json")]; print(max((e for e in editions if e.get("image_review")),key=lambda e:e["published_at"] or e["date"])["id"])')"
+          fi
+          python scripts/v2/prepare_images.py --edition "$EDITION_ID"
       - run: python scripts/v2/build.py
       - run: python -m unittest discover -s tests -v
       - run: python -m playwright install --with-deps chromium
