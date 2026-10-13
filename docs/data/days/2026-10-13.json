@@ -1,0 +1,1215 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-13",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-10-13.html",
+  "editions": [
+    {
+      "id": "2026-10-13-morning",
+      "type": "morning",
+      "url": "morning/2026-10-13.html",
+      "published_at": "2026-10-13T08:17:36.655786+03:00"
+    },
+    {
+      "id": "2026-10-13-midday",
+      "type": "midday",
+      "url": "midday/2026-10-13.html",
+      "published_at": "2026-10-13T14:11:16+03:00"
+    },
+    {
+      "id": "2026-10-13-evening",
+      "type": "evening",
+      "url": "evening/2026-10-13.html",
+      "published_at": "2026-10-13T20:20:59+03:00"
+    }
+  ],
+  "missing_slots": [],
+  "lead_story_id": "2026-10-13-lead",
+  "stories": [
+    {
+      "story_id": "2026-10-13-lead",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": "2026-10-13T20:20:59+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "lead",
+          "source_story_id": "2026-10-13-lead",
+          "url": "articles/2026-10-13-morning/lead.html"
+        },
+        {
+          "edition_id": "2026-10-13-evening",
+          "article_id": "lead",
+          "source_story_id": "2026-10-13-lead",
+          "url": "articles/2026-10-13-evening/lead.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "lead",
+        "source_story_id": "2026-10-13-lead",
+        "url": "articles/2026-10-13-evening/lead.html"
+      },
+      "section": "cyprus",
+      "priority": 1000
+    },
+    {
+      "story_id": "cyprus-supermarket-price-spread",
+      "first_seen_at": "2026-10-13T14:11:16+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-midday",
+          "article_id": "lead",
+          "source_story_id": "cyprus-supermarket-price-spread",
+          "url": "articles/2026-10-13-midday/lead.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "lead",
+        "source_story_id": "cyprus-supermarket-price-spread",
+        "url": "articles/2026-10-13-midday/lead.html"
+      },
+      "section": "cyprus",
+      "priority": 1000
+    },
+    {
+      "story_id": "2026-10-13-cyprus-1",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "cyprus-1",
+          "source_story_id": "2026-10-13-cyprus-1",
+          "url": "articles/2026-10-13-morning/cyprus-1.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "cyprus-1",
+        "source_story_id": "2026-10-13-cyprus-1",
+        "url": "articles/2026-10-13-morning/cyprus-1.html"
+      },
+      "section": "cyprus",
+      "priority": 1001
+    },
+    {
+      "story_id": "cyprus-india-defence-cooperation",
+      "first_seen_at": "2026-10-13T14:11:16+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-midday",
+          "article_id": "cyprus-2",
+          "source_story_id": "cyprus-india-defence-cooperation",
+          "url": "articles/2026-10-13-midday/cyprus-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "cyprus-2",
+        "source_story_id": "cyprus-india-defence-cooperation",
+        "url": "articles/2026-10-13-midday/cyprus-2.html"
+      },
+      "section": "cyprus",
+      "priority": 1001
+    },
+    {
+      "story_id": "halloumi-pdo-transition-2029",
+      "first_seen_at": "2026-10-13T20:20:59+03:00",
+      "last_substantive_at": "2026-10-13T20:20:59+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-13-evening",
+          "article_id": "cyprus-1",
+          "source_story_id": "halloumi-pdo-transition-2029",
+          "url": "articles/2026-10-13-evening/cyprus-1.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "cyprus-1",
+        "source_story_id": "halloumi-pdo-transition-2029",
+        "url": "articles/2026-10-13-evening/cyprus-1.html"
+      },
+      "section": "cyprus",
+      "priority": 1001
+    },
+    {
+      "story_id": "2026-10-13-cyprus-2",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "cyprus-2",
+          "source_story_id": "2026-10-13-cyprus-2",
+          "url": "articles/2026-10-13-morning/cyprus-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "cyprus-2",
+        "source_story_id": "2026-10-13-cyprus-2",
+        "url": "articles/2026-10-13-morning/cyprus-2.html"
+      },
+      "section": "cyprus",
+      "priority": 1002
+    },
+    {
+      "story_id": "aegean-paphos-2027-connectivity",
+      "first_seen_at": "2026-10-13T20:20:59+03:00",
+      "last_substantive_at": "2026-10-13T20:20:59+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-13-evening",
+          "article_id": "cyprus-2",
+          "source_story_id": "aegean-paphos-2027-connectivity",
+          "url": "articles/2026-10-13-evening/cyprus-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "cyprus-2",
+        "source_story_id": "aegean-paphos-2027-connectivity",
+        "url": "articles/2026-10-13-evening/cyprus-2.html"
+      },
+      "section": "cyprus",
+      "priority": 1002
+    },
+    {
+      "story_id": "cyprus-greco-local-integrity",
+      "first_seen_at": "2026-10-13T14:11:16+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-midday",
+          "article_id": "cyprus-3",
+          "source_story_id": "cyprus-greco-local-integrity",
+          "url": "articles/2026-10-13-midday/cyprus-3.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "cyprus-3",
+        "source_story_id": "cyprus-greco-local-integrity",
+        "url": "articles/2026-10-13-midday/cyprus-3.html"
+      },
+      "section": "cyprus",
+      "priority": 1002
+    },
+    {
+      "story_id": "2026-10-13-cyprus-3",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "cyprus-3",
+          "source_story_id": "2026-10-13-cyprus-3",
+          "url": "articles/2026-10-13-morning/cyprus-3.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "cyprus-3",
+        "source_story_id": "2026-10-13-cyprus-3",
+        "url": "articles/2026-10-13-morning/cyprus-3.html"
+      },
+      "section": "cyprus",
+      "priority": 1003
+    },
+    {
+      "story_id": "banking-ai-regulatory-scrutiny",
+      "first_seen_at": "2026-10-13T14:11:16+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-midday",
+          "article_id": "world-1",
+          "source_story_id": "banking-ai-regulatory-scrutiny",
+          "url": "articles/2026-10-13-midday/world-1.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "world-1",
+        "source_story_id": "banking-ai-regulatory-scrutiny",
+        "url": "articles/2026-10-13-midday/world-1.html"
+      },
+      "section": "world",
+      "priority": 1003
+    },
+    {
+      "story_id": "goldman-q3-2026-earnings",
+      "first_seen_at": "2026-10-13T20:20:59+03:00",
+      "last_substantive_at": "2026-10-13T20:20:59+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-13-evening",
+          "article_id": "world-1",
+          "source_story_id": "goldman-q3-2026-earnings",
+          "url": "articles/2026-10-13-evening/world-1.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "world-1",
+        "source_story_id": "goldman-q3-2026-earnings",
+        "url": "articles/2026-10-13-evening/world-1.html"
+      },
+      "section": "world",
+      "priority": 1003
+    },
+    {
+      "story_id": "2026-10-13-cyprus-4",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "cyprus-4",
+          "source_story_id": "2026-10-13-cyprus-4",
+          "url": "articles/2026-10-13-morning/cyprus-4.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "cyprus-4",
+        "source_story_id": "2026-10-13-cyprus-4",
+        "url": "articles/2026-10-13-morning/cyprus-4.html"
+      },
+      "section": "cyprus",
+      "priority": 1004
+    },
+    {
+      "story_id": "nvidia-doctolib-minority-stake",
+      "first_seen_at": "2026-10-13T20:20:59+03:00",
+      "last_substantive_at": "2026-10-13T20:20:59+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-13-evening",
+          "article_id": "world-2",
+          "source_story_id": "nvidia-doctolib-minority-stake",
+          "url": "articles/2026-10-13-evening/world-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "world-2",
+        "source_story_id": "nvidia-doctolib-minority-stake",
+        "url": "articles/2026-10-13-evening/world-2.html"
+      },
+      "section": "world",
+      "priority": 1004
+    },
+    {
+      "story_id": "2026-10-13-cyprus-5",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "cyprus-5",
+          "source_story_id": "2026-10-13-cyprus-5",
+          "url": "articles/2026-10-13-morning/cyprus-5.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "cyprus-5",
+        "source_story_id": "2026-10-13-cyprus-5",
+        "url": "articles/2026-10-13-morning/cyprus-5.html"
+      },
+      "section": "cyprus",
+      "priority": 1005
+    },
+    {
+      "story_id": "arsenal-training-injuries",
+      "first_seen_at": "2026-10-13T14:11:16+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-midday",
+          "article_id": "sport-arsenal",
+          "source_story_id": "arsenal-training-injuries",
+          "url": "articles/2026-10-13-midday/sport-arsenal.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "sport-arsenal",
+        "source_story_id": "arsenal-training-injuries",
+        "url": "articles/2026-10-13-midday/sport-arsenal.html"
+      },
+      "section": "sports",
+      "priority": 1005
+    },
+    {
+      "story_id": "real-madrid-roma-squad-oct14",
+      "first_seen_at": "2026-10-13T20:20:59+03:00",
+      "last_substantive_at": "2026-10-13T20:20:59+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-13-evening",
+          "article_id": "sport-real-roma",
+          "source_story_id": "real-madrid-roma-squad-oct14",
+          "url": "articles/2026-10-13-evening/sport-real-roma.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "sport-real-roma",
+        "source_story_id": "real-madrid-roma-squad-oct14",
+        "url": "articles/2026-10-13-evening/sport-real-roma.html"
+      },
+      "section": "sports",
+      "priority": 1005
+    },
+    {
+      "story_id": "2026-10-13-cyprus-6",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "cyprus-6",
+          "source_story_id": "2026-10-13-cyprus-6",
+          "url": "articles/2026-10-13-morning/cyprus-6.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "cyprus-6",
+        "source_story_id": "2026-10-13-cyprus-6",
+        "url": "articles/2026-10-13-morning/cyprus-6.html"
+      },
+      "section": "cyprus",
+      "priority": 1006
+    },
+    {
+      "story_id": "cyprus-league-round-five",
+      "first_seen_at": "2026-10-13T14:11:16+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-midday",
+          "article_id": "sport-cyprus",
+          "source_story_id": "cyprus-league-round-five",
+          "url": "articles/2026-10-13-midday/sport-cyprus.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "sport-cyprus",
+        "source_story_id": "cyprus-league-round-five",
+        "url": "articles/2026-10-13-midday/sport-cyprus.html"
+      },
+      "section": "sports",
+      "priority": 1006
+    },
+    {
+      "story_id": "2026-10-13-world-1",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": "2026-10-13T08:17:36.655786+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "world-1",
+          "source_story_id": "2026-10-13-world-1",
+          "url": "articles/2026-10-13-morning/world-1.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "world-1",
+        "source_story_id": "2026-10-13-world-1",
+        "url": "articles/2026-10-13-morning/world-1.html"
+      },
+      "section": "world",
+      "priority": 1007
+    },
+    {
+      "story_id": "2026-10-13-world-2",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": "2026-10-13T08:17:36.655786+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "world-2",
+          "source_story_id": "2026-10-13-world-2",
+          "url": "articles/2026-10-13-morning/world-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "world-2",
+        "source_story_id": "2026-10-13-world-2",
+        "url": "articles/2026-10-13-morning/world-2.html"
+      },
+      "section": "world",
+      "priority": 1008
+    },
+    {
+      "story_id": "riyadh-airport-disruption",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": "2026-10-13T14:11:16+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "world-3",
+          "source_story_id": "2026-10-13-world-3",
+          "url": "articles/2026-10-13-morning/world-3.html"
+        },
+        {
+          "edition_id": "2026-10-13-midday",
+          "article_id": "world-2",
+          "source_story_id": "riyadh-airport-disruption",
+          "url": "articles/2026-10-13-midday/world-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "world-2",
+        "source_story_id": "riyadh-airport-disruption",
+        "url": "articles/2026-10-13-midday/world-2.html"
+      },
+      "section": "world",
+      "priority": 1009
+    },
+    {
+      "story_id": "2026-10-13-world-4",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "world-4",
+          "source_story_id": "2026-10-13-world-4",
+          "url": "articles/2026-10-13-morning/world-4.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "world-4",
+        "source_story_id": "2026-10-13-world-4",
+        "url": "articles/2026-10-13-morning/world-4.html"
+      },
+      "section": "world",
+      "priority": 1010
+    },
+    {
+      "story_id": "2026-10-13-world-5",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "world-5",
+          "source_story_id": "2026-10-13-world-5",
+          "url": "articles/2026-10-13-morning/world-5.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "world-5",
+        "source_story_id": "2026-10-13-world-5",
+        "url": "articles/2026-10-13-morning/world-5.html"
+      },
+      "section": "world",
+      "priority": 1011
+    },
+    {
+      "story_id": "tennis-bergs-alcaraz-zverev",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "sport-tennis",
+          "source_story_id": "tennis-bergs-alcaraz-zverev",
+          "url": "articles/2026-10-13-morning/sport-tennis.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "sport-tennis",
+        "source_story_id": "tennis-bergs-alcaraz-zverev",
+        "url": "articles/2026-10-13-morning/sport-tennis.html"
+      },
+      "section": "sports",
+      "priority": 1012
+    },
+    {
+      "story_id": "coventry-home-win-2026",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "sport-coventry",
+          "source_story_id": "coventry-home-win-2026",
+          "url": "articles/2026-10-13-morning/sport-coventry.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "sport-coventry",
+        "source_story_id": "coventry-home-win-2026",
+        "url": "articles/2026-10-13-morning/sport-coventry.html"
+      },
+      "section": "sports",
+      "priority": 1013
+    },
+    {
+      "story_id": "jordan-jersey-auction-2026",
+      "first_seen_at": "2026-10-13T08:17:36.655786+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-13-morning",
+          "article_id": "sport-jordan-jersey",
+          "source_story_id": "jordan-jersey-auction-2026",
+          "url": "articles/2026-10-13-morning/sport-jordan-jersey.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "sport-jordan-jersey",
+        "source_story_id": "jordan-jersey-auction-2026",
+        "url": "articles/2026-10-13-morning/sport-jordan-jersey.html"
+      },
+      "section": "sports",
+      "priority": 1014
+    }
+  ],
+  "updates": [
+    {
+      "id": "20f94ab4e3c10befa524bbb2b9f8d8d8a486480c0aa155a7a8d281d017da4292",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-cyprus-1",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "cyprus-1",
+        "source_story_id": "2026-10-13-cyprus-1",
+        "url": "articles/2026-10-13-morning/cyprus-1.html"
+      }
+    },
+    {
+      "id": "251f6fb37d785502e4768497ccca806ae69a3eb845ce751b93c45c6bb003948e",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-cyprus-5",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "cyprus-5",
+        "source_story_id": "2026-10-13-cyprus-5",
+        "url": "articles/2026-10-13-morning/cyprus-5.html"
+      }
+    },
+    {
+      "id": "286fbce0a9b1acdcb8e624ddb843988aa0365423294630dc36d37a1b3ec9948b",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-cyprus-3",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "cyprus-3",
+        "source_story_id": "2026-10-13-cyprus-3",
+        "url": "articles/2026-10-13-morning/cyprus-3.html"
+      }
+    },
+    {
+      "id": "330810bfd77d384fca4fb601acf56b908e43afd77634bda33a40709f32c7a34d",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "riyadh-airport-disruption",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "world-3",
+        "source_story_id": "2026-10-13-world-3",
+        "url": "articles/2026-10-13-morning/world-3.html"
+      }
+    },
+    {
+      "id": "3c22c6d16f03c24229030af87b48a27530c243af18b5fd18ed181addaa04edfd",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "jordan-jersey-auction-2026",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "sport-jordan-jersey",
+        "source_story_id": "jordan-jersey-auction-2026",
+        "url": "articles/2026-10-13-morning/sport-jordan-jersey.html"
+      }
+    },
+    {
+      "id": "3e7b6ed12a8760513f5b347f1898402abc536046dde6a0924b0aae02d18cd0e3",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-cyprus-6",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "cyprus-6",
+        "source_story_id": "2026-10-13-cyprus-6",
+        "url": "articles/2026-10-13-morning/cyprus-6.html"
+      }
+    },
+    {
+      "id": "457b40492426fbbc24ba3e7430593e06cb1b9ceabf9404587aac6aabb8c8812d",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-cyprus-2",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "cyprus-2",
+        "source_story_id": "2026-10-13-cyprus-2",
+        "url": "articles/2026-10-13-morning/cyprus-2.html"
+      }
+    },
+    {
+      "id": "74801cd8fa581042b0883305436561cf7891e2f8587195446bf449cb5d278723",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-cyprus-4",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "cyprus-4",
+        "source_story_id": "2026-10-13-cyprus-4",
+        "url": "articles/2026-10-13-morning/cyprus-4.html"
+      }
+    },
+    {
+      "id": "759d8f5a788df7638977b2e5f55f37e3e70688ca283909a39c7ee852a466ad49",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "tennis-bergs-alcaraz-zverev",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "sport-tennis",
+        "source_story_id": "tennis-bergs-alcaraz-zverev",
+        "url": "articles/2026-10-13-morning/sport-tennis.html"
+      }
+    },
+    {
+      "id": "81967344621d955dd225adfd51d25e6b5a4e6cc3f4d615444f2f1ed99ffee9d4",
+      "kind": "correction",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Η τιμή της φανέλας Jordan διορθώθηκε σε $12,26 εκατ. και χαρακτηρίζεται ρεκόρ για αναμνηστικό του Jordan, όχι γενικό αθλητικό ρεκόρ.",
+      "source_urls": [
+        "https://www.reuters.com/sports/michael-jordans-last-dance-jersey-sells-record-1226m--flm-2026-10-01/"
+      ],
+      "story_id": "jordan-jersey-auction-2026",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "sport-jordan-jersey",
+        "source_story_id": "jordan-jersey-auction-2026",
+        "url": "articles/2026-10-13-morning/sport-jordan-jersey.html"
+      }
+    },
+    {
+      "id": "876da2fe25d79cf7286f3d29ce938b7acccca6947ebaf2af790b0df0236c5cbf",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-world-4",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "world-4",
+        "source_story_id": "2026-10-13-world-4",
+        "url": "articles/2026-10-13-morning/world-4.html"
+      }
+    },
+    {
+      "id": "8f76b7204d73a538176c2958c531c8abacd4eacdb34f131f3c6e62e2324286b3",
+      "kind": "substantive_update",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Η ασιατική συνεδρία κατέγραψε απότομη πτώση, με KOSPI άνω του 7% ενδοσυνεδριακά και πίεση στις μετοχές chips.",
+      "source_urls": [
+        "https://apnews.com/article/stocks-markets-us-tech-oil-mideast-a2edaf9ec297fb75ff2a4e245063ec08",
+        "https://www.reuters.com/world/asia-pacific/global-markets-wrapup-1-2026-10-13/"
+      ],
+      "story_id": "2026-10-13-world-2",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "world-2",
+        "source_story_id": "2026-10-13-world-2",
+        "url": "articles/2026-10-13-morning/world-2.html"
+      }
+    },
+    {
+      "id": "90c5d60f4de7f1e930ce03587a1e6679089cfd294625c2930cdbc5302de59d0d",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "coventry-home-win-2026",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "sport-coventry",
+        "source_story_id": "coventry-home-win-2026",
+        "url": "articles/2026-10-13-morning/sport-coventry.html"
+      }
+    },
+    {
+      "id": "97b97b0998fec06b0314caaa2c29168b3a4e96bd9c429ada29e211d4073b9bf2",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-lead",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "lead",
+        "source_story_id": "2026-10-13-lead",
+        "url": "articles/2026-10-13-morning/lead.html"
+      }
+    },
+    {
+      "id": "d31b5bb9cf8fd542b429f10653d51c87d9fa692bd8435c76adafa05c2343b0db",
+      "kind": "new",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Επιβεβαιώθηκε η σημερινή συνάντηση Χριστοδουλίδη–Έρχιουρμαν στις 15:30 και το κριτήριο για μετρήσιμο επόμενο βήμα.",
+      "source_urls": [
+        "https://www.gov.cy/en/event/president-of-the-republic-of-cyprus-meeting-with-the-leader-of-the-turkish-cypriot-community-8/",
+        "https://cyprus-mail.com/2026/10/12/govt-expects-progress-on-19-proposals-at-erhurman-meeting"
+      ],
+      "story_id": "2026-10-13-lead",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "lead",
+        "source_story_id": "2026-10-13-lead",
+        "url": "articles/2026-10-13-morning/lead.html"
+      }
+    },
+    {
+      "id": "d513a9962db60deb0176d0001867dfb7eb4d4e52c75e99588a3adb21b8775083",
+      "kind": "new",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Το νέο World Economic Outlook του ΔΝΤ τοποθετεί την παγκόσμια ανάπτυξη στο 3,1% για το 2026.",
+      "source_urls": [
+        "https://www.reuters.com/world/china/imf-says-ai-investment-propping-up-global-growth-war-debt-threaten-outlook-2026-10-13/"
+      ],
+      "story_id": "2026-10-13-world-1",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "world-1",
+        "source_story_id": "2026-10-13-world-1",
+        "url": "articles/2026-10-13-morning/world-1.html"
+      }
+    },
+    {
+      "id": "e6b5205ae770b0c006910b70cdcea801ccee313de635f1a286916c7c56783055",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-world-5",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "world-5",
+        "source_story_id": "2026-10-13-world-5",
+        "url": "articles/2026-10-13-morning/world-5.html"
+      }
+    },
+    {
+      "id": "f3b06e91c91ec8f4c803da1c783f420827366612ed4dc2ab699ba106f2630219",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-world-2",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "world-2",
+        "source_story_id": "2026-10-13-world-2",
+        "url": "articles/2026-10-13-morning/world-2.html"
+      }
+    },
+    {
+      "id": "f4b5dbdf9958b90fcf32cdfc4838386f6ae935aab3e64587f7142da77dbee0e2",
+      "kind": "provenance",
+      "at": "2026-10-13T08:17:36.655786+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-world-1",
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "article_id": "world-1",
+        "source_story_id": "2026-10-13-world-1",
+        "url": "articles/2026-10-13-morning/world-1.html"
+      }
+    },
+    {
+      "id": "7ba77944acbc43775fae5de6fd73085fef5381783dde58f1b78bd2f67731f913",
+      "kind": "provenance",
+      "at": "2026-10-13T14:11:16+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "riyadh-airport-disruption",
+      "origin": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "world-2",
+        "source_story_id": "riyadh-airport-disruption",
+        "url": "articles/2026-10-13-midday/world-2.html"
+      }
+    },
+    {
+      "id": "86d9ae5809b19d3692857143162abd74608481f7f92bd6f05553d4c055743b81",
+      "kind": "provenance",
+      "at": "2026-10-13T14:11:16+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-greco-local-integrity",
+      "origin": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "cyprus-3",
+        "source_story_id": "cyprus-greco-local-integrity",
+        "url": "articles/2026-10-13-midday/cyprus-3.html"
+      }
+    },
+    {
+      "id": "89bc132ca7108439c871f1333361093c250ac7f78cef8d8ee775f174fbe68a8d",
+      "kind": "provenance",
+      "at": "2026-10-13T14:11:16+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-league-round-five",
+      "origin": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "sport-cyprus",
+        "source_story_id": "cyprus-league-round-five",
+        "url": "articles/2026-10-13-midday/sport-cyprus.html"
+      }
+    },
+    {
+      "id": "bf9f3b04da0c6a586dcc88c456ec98864955e0f498f67bc97a13d7127cea79b6",
+      "kind": "provenance",
+      "at": "2026-10-13T14:11:16+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-supermarket-price-spread",
+      "origin": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "lead",
+        "source_story_id": "cyprus-supermarket-price-spread",
+        "url": "articles/2026-10-13-midday/lead.html"
+      }
+    },
+    {
+      "id": "d69cfc9792171449acfd5066849190a25fa01348838c01cd0ba06ab6a79a4293",
+      "kind": "substantive_update",
+      "at": "2026-10-13T14:11:16+03:00",
+      "summary": "Το σημερινό Reuters των 12:04 Κύπρου προσθέτει θετική ενδοσυνεδριακή εικόνα στη σαουδαραβική αγορά. Οι αποφάσεις αεροπορικών εταιρειών της Δευτέρας επισημαίνονται ως πλαίσιο.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/saudi-stocks-set-end-slide-most-gulf-bourses-edge-higher-2026-10-13/",
+        "https://theprint.in/world/closure-of-riyadh-airport-extended-after-deadly-houthi-strikes/3069382/"
+      ],
+      "story_id": "riyadh-airport-disruption",
+      "origin": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "world-2",
+        "source_story_id": "riyadh-airport-disruption",
+        "url": "articles/2026-10-13-midday/world-2.html"
+      }
+    },
+    {
+      "id": "f2c9ac092e91693c693dd30f5359c1af45a340fe0b236452cb785f9490da3b32",
+      "kind": "provenance",
+      "at": "2026-10-13T14:11:16+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-india-defence-cooperation",
+      "origin": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "cyprus-2",
+        "source_story_id": "cyprus-india-defence-cooperation",
+        "url": "articles/2026-10-13-midday/cyprus-2.html"
+      }
+    },
+    {
+      "id": "f2f9992b0f40079554b31e62fe975ed8bf1623973148503ce94db2e5b987443a",
+      "kind": "provenance",
+      "at": "2026-10-13T14:11:16+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "banking-ai-regulatory-scrutiny",
+      "origin": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "world-1",
+        "source_story_id": "banking-ai-regulatory-scrutiny",
+        "url": "articles/2026-10-13-midday/world-1.html"
+      }
+    },
+    {
+      "id": "f9c8518a29af30b9799c64a5f5cd65dfe4d8c0c13bb7ddb5b93c4da7eeeb2523",
+      "kind": "provenance",
+      "at": "2026-10-13T14:11:16+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "arsenal-training-injuries",
+      "origin": {
+        "edition_id": "2026-10-13-midday",
+        "article_id": "sport-arsenal",
+        "source_story_id": "arsenal-training-injuries",
+        "url": "articles/2026-10-13-midday/sport-arsenal.html"
+      }
+    },
+    {
+      "id": "2b26cb5dadcd8c6f6a87ed769a320ae639b996742b556b237c89b1a8778180cf",
+      "story_id": null,
+      "kind": "enrichment",
+      "at": "2026-10-13T15:54:24+03:00",
+      "summary": "Εμπλουτισμός εικόνων.",
+      "source_urls": [],
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "url": "morning/2026-10-13.html"
+      }
+    },
+    {
+      "id": "b5e96af51045d8ac5212ce39e6d1646c755973f69d7e9af0167574db6b980ae6",
+      "story_id": null,
+      "kind": "enrichment",
+      "at": "2026-10-13T15:54:24+03:00",
+      "summary": "Εμπλουτισμός εικόνων.",
+      "source_urls": [],
+      "origin": {
+        "edition_id": "2026-10-13-midday",
+        "url": "midday/2026-10-13.html"
+      }
+    },
+    {
+      "id": "92cab272633a2e53c1d9eb11c73ff5d353f21b22d9059cb41137800ec7c577ac",
+      "story_id": null,
+      "kind": "enrichment",
+      "at": "2026-10-13T16:08:42+03:00",
+      "summary": "Εμπλουτισμός ανάλυσης.",
+      "source_urls": [],
+      "origin": {
+        "edition_id": "2026-10-13-midday",
+        "url": "midday/2026-10-13.html"
+      }
+    },
+    {
+      "id": "984f867b624f3bd813758340dc2192efdb320bb25e1a34a3f856d4d0cf3e49a8",
+      "story_id": null,
+      "kind": "enrichment",
+      "at": "2026-10-13T16:08:42+03:00",
+      "summary": "Εμπλουτισμός ανάλυσης.",
+      "source_urls": [],
+      "origin": {
+        "edition_id": "2026-10-13-morning",
+        "url": "morning/2026-10-13.html"
+      }
+    },
+    {
+      "id": "0b0a9e19970b8932ddb4d2a4d8740d3226e2061ec9e8e7074ec350bfbc7496d8",
+      "kind": "provenance",
+      "at": "2026-10-13T20:20:59+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "aegean-paphos-2027-connectivity",
+      "origin": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "cyprus-2",
+        "source_story_id": "aegean-paphos-2027-connectivity",
+        "url": "articles/2026-10-13-evening/cyprus-2.html"
+      }
+    },
+    {
+      "id": "26518092360d5e79a239689cfbfa1182efced75a0e23868c22f6f9d56e4bab0d",
+      "kind": "provenance",
+      "at": "2026-10-13T20:20:59+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-doctolib-minority-stake",
+      "origin": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "world-2",
+        "source_story_id": "nvidia-doctolib-minority-stake",
+        "url": "articles/2026-10-13-evening/world-2.html"
+      }
+    },
+    {
+      "id": "3d72072ae0b684b8b364b13dff820406368461a16fe12a0ccc25f1ea586f444f",
+      "kind": "provenance",
+      "at": "2026-10-13T20:20:59+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "real-madrid-roma-squad-oct14",
+      "origin": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "sport-real-roma",
+        "source_story_id": "real-madrid-roma-squad-oct14",
+        "url": "articles/2026-10-13-evening/sport-real-roma.html"
+      }
+    },
+    {
+      "id": "429bf09c767bd4cf47bc953139f4664f86db2a7b4434c37faf396bcbe35355e6",
+      "kind": "provenance",
+      "at": "2026-10-13T20:20:59+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "goldman-q3-2026-earnings",
+      "origin": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "world-1",
+        "source_story_id": "goldman-q3-2026-earnings",
+        "url": "articles/2026-10-13-evening/world-1.html"
+      }
+    },
+    {
+      "id": "564ffe51cf1b16de01f1129e8d3eace793da1417f07c0d3d9f865fb4751c007e",
+      "kind": "new",
+      "at": "2026-10-13T20:20:59+03:00",
+      "summary": "Ανακοίνωση 18:51 για διατήρηση Aegean στην Πάφο το 2027. Δεν υπήρχε στο πρωινό ή μεσημεριανό.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/13/aegean-airlines-to-continue-flying-to-and-from-paphos-in-2027"
+      ],
+      "story_id": "aegean-paphos-2027-connectivity",
+      "origin": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "cyprus-2",
+        "source_story_id": "aegean-paphos-2027-connectivity",
+        "url": "articles/2026-10-13-evening/cyprus-2.html"
+      }
+    },
+    {
+      "id": "5b05442f3fe1ed93dc1e7ddcad1ce03dacb24ecfdcf5b7f63bf9b1cdd962fa52",
+      "kind": "new",
+      "at": "2026-10-13T20:20:59+03:00",
+      "summary": "Νέα κάλυψη 18:31 για την παρουσίαση χαλλουμιού στη Βουλή. Οι ετήσιοι αριθμοί χαρακτηρίζονται ως υπουργική περιγραφή, όχι σημερινή στατιστική μέτρηση.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/13/halloumi-exports-exceed-e350m-per-year"
+      ],
+      "story_id": "halloumi-pdo-transition-2029",
+      "origin": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "cyprus-1",
+        "source_story_id": "halloumi-pdo-transition-2029",
+        "url": "articles/2026-10-13-evening/cyprus-1.html"
+      }
+    },
+    {
+      "id": "8a4bb70e0a72d39370979c571599cd7c9826679ce6796281002bbeb91551b218",
+      "kind": "substantive_update",
+      "at": "2026-10-13T20:20:59+03:00",
+      "summary": "Από την πρωινή προγραμματισμένη συνάντηση και το μεσημεριανό άγνωστο αποτέλεσμα περάσαμε σε δημοσιευμένη συνέχεια επαφών, κοινή παρουσία στην Πύλα και δηλώσεις μετά τη συνάντηση. Δεν ανακοινώθηκε επανέναρξη συνομιλιών.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/13/leaders-agree-that-cyprus-solution-must-not-deviate-from-un-resolutions-christodoulides-says",
+        "https://en.philenews.com/politics/christodoulides-erhurman-meeting-pyla-festival-19-proposals/"
+      ],
+      "story_id": "2026-10-13-lead",
+      "origin": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "lead",
+        "source_story_id": "2026-10-13-lead",
+        "url": "articles/2026-10-13-evening/lead.html"
+      }
+    },
+    {
+      "id": "b2b54770e0dfaee180546da871e13e331612b62dd262858c51929b3966be9d54",
+      "kind": "substantive_update",
+      "at": "2026-10-13T20:20:59+03:00",
+      "summary": "Επίσημη αποστολή Real Madrid διαθέσιμη πλέον· η ενδεκάδα παραμένει άγνωστη. Για Ομόνοια και United ξεχωρίζουν το παλιότερο πλαίσιο και οι αβεβαιότητες.",
+      "source_urls": [
+        "https://www.realmadrid.com/en-US/news/football/first-team/squad-call/convocatoria-del-real-madrid-contra-la-roma-13-10-2026"
+      ],
+      "story_id": "real-madrid-roma-squad-oct14",
+      "origin": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "sport-real-roma",
+        "source_story_id": "real-madrid-roma-squad-oct14",
+        "url": "articles/2026-10-13-evening/sport-real-roma.html"
+      }
+    },
+    {
+      "id": "b3304e76217199fd58b5f4c6a8cad176a549a17a1f62b7b7b0d3408868f10163",
+      "kind": "new",
+      "at": "2026-10-13T20:20:59+03:00",
+      "summary": "Τα δημοσιευμένα αποτελέσματα αντικαθιστούν την πρωινή αναμονή τραπεζικών ανακοινώσεων. Χρησιμοποιείται πρωτογενής ανακοίνωση και χωριστή ερμηνεία.",
+      "source_urls": [
+        "https://www.goldmansachs.com/pressroom/press-releases/2026/2026-10-13-q3-results",
+        "https://www.reuters.com/business/finance/goldman-sachs-quarterly-profit-rises-equities-strength-2026-10-13/"
+      ],
+      "story_id": "goldman-q3-2026-earnings",
+      "origin": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "world-1",
+        "source_story_id": "goldman-q3-2026-earnings",
+        "url": "articles/2026-10-13-evening/world-1.html"
+      }
+    },
+    {
+      "id": "c17c19af4c26b9aca7d416bd1b3504616bfa5a048e6f7c3eaa64002b9b1430be",
+      "kind": "provenance",
+      "at": "2026-10-13T20:20:59+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-lead",
+      "origin": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "lead",
+        "source_story_id": "2026-10-13-lead",
+        "url": "articles/2026-10-13-evening/lead.html"
+      }
+    },
+    {
+      "id": "d50959a3b119069d2916d1ceab4daea569da7f4de00c418a906f5dffbc9b7e49",
+      "kind": "new",
+      "at": "2026-10-13T20:20:59+03:00",
+      "summary": "Το Reuters των 19:08 προσθέτει τη νέα μειοψηφική συμφωνία Nvidia–Doctolib, χωρίς γνωστούς οικονομικούς όρους.",
+      "source_urls": [
+        "https://www.reuters.com/business/healthcare-pharmaceuticals/nvidia-buy-minority-stake-frances-doctolib-2026-10-13/"
+      ],
+      "story_id": "nvidia-doctolib-minority-stake",
+      "origin": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "world-2",
+        "source_story_id": "nvidia-doctolib-minority-stake",
+        "url": "articles/2026-10-13-evening/world-2.html"
+      }
+    },
+    {
+      "id": "fb09319003636dcd330f83d7c67ffdd69518c337d8811f2c615f874cba58d2c6",
+      "kind": "provenance",
+      "at": "2026-10-13T20:20:59+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "halloumi-pdo-transition-2029",
+      "origin": {
+        "edition_id": "2026-10-13-evening",
+        "article_id": "cyprus-1",
+        "source_story_id": "halloumi-pdo-transition-2029",
+        "url": "articles/2026-10-13-evening/cyprus-1.html"
+      }
+    }
+  ],
+  "created_at": "2026-10-13T18:29:30.715006+00:00",
+  "updated_at": "2026-10-13T18:40:42.823992+00:00",
+  "input_sha256": "0dd7519f4bea1a976933a86be29e05e05de48d5bec6cf36877cd2b488443c643"
+}

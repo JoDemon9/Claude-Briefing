@@ -56,6 +56,8 @@ def manifest(root=ROOT):
                 raise ValueError('Unsafe source path')
             source_paths.append(root/'content'/relative)
     source_paths += sorted((root/'templates/v2').rglob('*'))
+    source_paths += sorted((root/'scripts/v2').glob('*.py'))
+    source_paths += [root/'content/day-story-aliases.json']
     sources = {p.relative_to(root).as_posix(): digest(p) for p in source_paths if p.is_file()}
     identity = hashlib.sha256(json.dumps({'sources': sources, 'files': files}, sort_keys=True).encode()).hexdigest()
     return {'schema_version': 1, 'release_id': identity, 'edition_ids': [r['id'] for r in records],
@@ -104,9 +106,9 @@ def verify_live(root=ROOT, base=BASE, opener=None):
         raise ValueError('Rebuild the receipt; local files changed')
     opener = opener or urllib.request.urlopen
     names = ['data/release.json', 'data/editions.json']
-    names += [name for name in ['latest.html','data/latest.json'] if name in receipt['files']]
+    names += [name for name in ['latest.html','data/latest.json','today.html','data/day-latest.json','data/days.json'] if name in receipt['files']]
     names += [r['url'] for r in json.loads((root/'docs/data/editions.json').read_text(encoding='utf-8'))]
-    names += [name for name in receipt['files'] if name.startswith(('articles/', 'assets/'))]
+    names += [name for name in receipt['files'] if name.startswith(('articles/', 'assets/', 'daily/', 'data/days/'))]
     for name in dict.fromkeys(names):
         expected = digest(root/'docs'/name)
         request = urllib.request.Request(base+name+'?release='+receipt['release_id'], headers={'User-Agent': 'OracleReleaseCheck/1.0', 'Cache-Control': 'no-cache'})

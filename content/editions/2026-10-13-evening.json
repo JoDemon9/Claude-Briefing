@@ -1012,5 +1012,119 @@
         }
       ]
     }
+  ],
+  "market_summary": [
+    {
+      "text": "Ευρώπη: STOXX Europe 600, κλείσιμο 635,01 μονάδες (−0,10%). Η πρωινή άνοδος ήταν άλλο στιγμιότυπο· δεν τεκμηριώνεται μοναδική αιτία για το κλείσιμο.",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart snapshot",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESTOXX?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T19:59:23+03:00",
+          "reporting_group": "Yahoo Finance · chart snapshot",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "text": "ΗΠΑ: S&P 500 −0,05%, Nasdaq −0,09%, ενδοσυνεδριακά. Το Reuters περιγράφει πίεση στα chips και αναμονή τραπεζικών αποτελεσμάτων· δεν πρόκειται για τελικό κλείσιμο.",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart snapshot",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T19:59:23+03:00",
+          "reporting_group": "Yahoo Finance · chart snapshot",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/sp-500-futures-muted-investors-await-big-bank-earnings-chip-weakness-weighs-2026-10-13/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T19:59:23+03:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "text": "Επόμενο: CPI και Real Earnings Σεπτεμβρίου, αύριο 14/10 στις 15:30 Κύπρου (BLS). Δεν υπάρχει εδώ πρόβλεψη για τον πληθωρισμό.",
+      "sources": [
+        {
+          "publisher": "BLS",
+          "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T19:59:23+03:00",
+          "reporting_group": "BLS",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    }
+  ],
+  "market_movers": [
+    {
+      "text": "Micron: το ρεπορτάζ αποδίδει την πίεση στον ανταγωνισμό μνήμης. Η εξήγηση αφορά τον συγκεκριμένο κλάδο και δεν μεταφέρεται αυτόματα σε όλες τις εταιρείες τεχνολογίας· η χρονολογημένη τιμή βρίσκεται στο Tech watch.",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/sp-500-futures-muted-investors-await-big-bank-earnings-chip-weakness-weighs-2026-10-13/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T19:59:23+03:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "text": "Goldman Sachs: τα δημοσιευμένα αποτελέσματα δείχνουν ισχυρό τρίμηνο. Πρόκειται για τεκμηριωμένο εταιρικό πλαίσιο, χωρίς να αποδεικνύεται ότι εξηγεί μόνο του την ενδοσυνεδριακή μεταβολή της μετοχής.",
+      "sources": [
+        {
+          "publisher": "Goldman Sachs",
+          "url": "https://www.goldmansachs.com/pressroom/press-releases/2026/2026-10-13-q3-results",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T19:59:23+03:00",
+          "reporting_group": "Goldman Sachs",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/finance/goldman-sachs-quarterly-profit-rises-equities-strength-2026-10-13/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T19:59:23+03:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "text": "ΧΑΚ: ο γενικός δείκτης έκλεισε με +0,29%, με συναλλαγές €206.528,35 κατά το δελτίο ΚΥΠΕ. Η πηγή δεν τεκμηριώνει μοναδική αιτία· η ώρα δημοσίευσης δεν είναι ώρα τελευταίας συναλλαγής.",
+      "sources": [
+        {
+          "publisher": "ΚΥΠΕ",
+          "url": "https://cna.org.cy/article/11022909/deiktis-timon-chrimatistirioy",
+          "published_at": "2026-10-13T18:18:00+03:00",
+          "retrieved_at": "2026-10-13T19:59:23+03:00",
+          "reporting_group": "ΚΥΠΕ",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    }
   ]
 }

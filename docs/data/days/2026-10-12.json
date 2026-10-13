@@ -1,0 +1,1064 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-10-12.html",
+  "editions": [
+    {
+      "id": "2026-10-12-morning",
+      "type": "morning",
+      "url": "morning/2026-10-12.html",
+      "published_at": "2026-10-12T07:24:05+03:00"
+    },
+    {
+      "id": "2026-10-12-midday",
+      "type": "midday",
+      "url": "midday/2026-10-12.html",
+      "published_at": "2026-10-12T13:56:19+03:00"
+    },
+    {
+      "id": "2026-10-12-evening",
+      "type": "evening",
+      "url": "evening/2026-10-12.html",
+      "published_at": "2026-10-12T19:47:35+03:00"
+    }
+  ],
+  "missing_slots": [],
+  "lead_story_id": "cyprus-budget-2027",
+  "stories": [
+    {
+      "story_id": "cyprus-zero-vat-2026",
+      "first_seen_at": "2026-10-12T13:56:19+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-midday",
+          "article_id": "lead",
+          "source_story_id": "cyprus-zero-vat-2026",
+          "url": "articles/2026-10-12-midday/lead.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-midday",
+        "article_id": "lead",
+        "source_story_id": "cyprus-zero-vat-2026",
+        "url": "articles/2026-10-12-midday/lead.html"
+      },
+      "section": "cyprus",
+      "priority": 1000
+    },
+    {
+      "story_id": "riyadh-airport-attacks",
+      "first_seen_at": "2026-10-12T07:24:05+03:00",
+      "last_substantive_at": "2026-10-12T07:24:05+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-12-morning",
+          "article_id": "lead",
+          "source_story_id": "riyadh-airport-attacks",
+          "url": "articles/2026-10-12-morning/lead.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "lead",
+        "source_story_id": "riyadh-airport-attacks",
+        "url": "articles/2026-10-12-morning/lead.html"
+      },
+      "section": "cyprus",
+      "priority": 1000
+    },
+    {
+      "story_id": "cyprus-budget-2027",
+      "first_seen_at": "2026-10-12T07:24:05+03:00",
+      "last_substantive_at": "2026-10-12T07:24:05+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-12-morning",
+          "article_id": "cyprus-1",
+          "source_story_id": "cyprus-budget-2027",
+          "url": "articles/2026-10-12-morning/cyprus-1.html"
+        },
+        {
+          "edition_id": "2026-10-12-evening",
+          "article_id": "lead",
+          "source_story_id": "cyprus-budget-2027",
+          "url": "articles/2026-10-12-evening/lead.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-evening",
+        "article_id": "lead",
+        "source_story_id": "cyprus-budget-2027",
+        "url": "articles/2026-10-12-evening/lead.html"
+      },
+      "section": "cyprus",
+      "priority": 1001
+    },
+    {
+      "story_id": "deloitte-cyprus-abramovich-investigation",
+      "first_seen_at": "2026-10-12T19:47:35+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-evening",
+          "article_id": "cyprus-1",
+          "source_story_id": "deloitte-cyprus-abramovich-investigation",
+          "url": "articles/2026-10-12-evening/cyprus-1.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-evening",
+        "article_id": "cyprus-1",
+        "source_story_id": "deloitte-cyprus-abramovich-investigation",
+        "url": "articles/2026-10-12-evening/cyprus-1.html"
+      },
+      "section": "cyprus",
+      "priority": 1001
+    },
+    {
+      "story_id": "turkey-cyprus-gas-pipeline",
+      "first_seen_at": "2026-10-12T13:56:19+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-midday",
+          "article_id": "cyprus-1",
+          "source_story_id": "turkey-cyprus-gas-pipeline",
+          "url": "articles/2026-10-12-midday/cyprus-1.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-midday",
+        "article_id": "cyprus-1",
+        "source_story_id": "turkey-cyprus-gas-pipeline",
+        "url": "articles/2026-10-12-midday/cyprus-1.html"
+      },
+      "section": "cyprus",
+      "priority": 1001
+    },
+    {
+      "story_id": "cyprus-foot-mouth-reporting",
+      "first_seen_at": "2026-10-12T07:24:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-morning",
+          "article_id": "cyprus-2",
+          "source_story_id": "cyprus-foot-mouth-reporting",
+          "url": "articles/2026-10-12-morning/cyprus-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "cyprus-2",
+        "source_story_id": "cyprus-foot-mouth-reporting",
+        "url": "articles/2026-10-12-morning/cyprus-2.html"
+      },
+      "section": "cyprus",
+      "priority": 1002
+    },
+    {
+      "story_id": "cyprus-greece-customs-cooperation",
+      "first_seen_at": "2026-10-12T13:56:19+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-midday",
+          "article_id": "cyprus-2",
+          "source_story_id": "cyprus-greece-customs-cooperation",
+          "url": "articles/2026-10-12-midday/cyprus-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-midday",
+        "article_id": "cyprus-2",
+        "source_story_id": "cyprus-greece-customs-cooperation",
+        "url": "articles/2026-10-12-midday/cyprus-2.html"
+      },
+      "section": "cyprus",
+      "priority": 1002
+    },
+    {
+      "story_id": "cyprus-housing-permits-composition",
+      "first_seen_at": "2026-10-12T19:47:35+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-evening",
+          "article_id": "cyprus-2",
+          "source_story_id": "cyprus-housing-permits-composition",
+          "url": "articles/2026-10-12-evening/cyprus-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-evening",
+        "article_id": "cyprus-2",
+        "source_story_id": "cyprus-housing-permits-composition",
+        "url": "articles/2026-10-12-evening/cyprus-2.html"
+      },
+      "section": "cyprus",
+      "priority": 1002
+    },
+    {
+      "story_id": "ai-investment-imf-growth",
+      "first_seen_at": "2026-10-12T13:56:19+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-midday",
+          "article_id": "world-1",
+          "source_story_id": "ai-investment-imf-growth",
+          "url": "articles/2026-10-12-midday/world-1.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-midday",
+        "article_id": "world-1",
+        "source_story_id": "ai-investment-imf-growth",
+        "url": "articles/2026-10-12-midday/world-1.html"
+      },
+      "section": "world",
+      "priority": 1003
+    },
+    {
+      "story_id": "eu-russian-military-supply-sanctions",
+      "first_seen_at": "2026-10-12T19:47:35+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-evening",
+          "article_id": "world-1",
+          "source_story_id": "eu-russian-military-supply-sanctions",
+          "url": "articles/2026-10-12-evening/world-1.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-evening",
+        "article_id": "world-1",
+        "source_story_id": "eu-russian-military-supply-sanctions",
+        "url": "articles/2026-10-12-evening/world-1.html"
+      },
+      "section": "world",
+      "priority": 1003
+    },
+    {
+      "story_id": "limassol-customs-supplements",
+      "first_seen_at": "2026-10-12T07:24:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-morning",
+          "article_id": "cyprus-3",
+          "source_story_id": "limassol-customs-supplements",
+          "url": "articles/2026-10-12-morning/cyprus-3.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "cyprus-3",
+        "source_story_id": "limassol-customs-supplements",
+        "url": "articles/2026-10-12-morning/cyprus-3.html"
+      },
+      "section": "cyprus",
+      "priority": 1003
+    },
+    {
+      "story_id": "eusm-lebanon-mission",
+      "first_seen_at": "2026-10-12T19:47:35+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-evening",
+          "article_id": "world-2",
+          "source_story_id": "eusm-lebanon-mission",
+          "url": "articles/2026-10-12-evening/world-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-evening",
+        "article_id": "world-2",
+        "source_story_id": "eusm-lebanon-mission",
+        "url": "articles/2026-10-12-evening/world-2.html"
+      },
+      "section": "world",
+      "priority": 1004
+    },
+    {
+      "story_id": "mari-naval-base-planning",
+      "first_seen_at": "2026-10-12T07:24:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-morning",
+          "article_id": "cyprus-4",
+          "source_story_id": "mari-naval-base-planning",
+          "url": "articles/2026-10-12-morning/cyprus-4.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "cyprus-4",
+        "source_story_id": "mari-naval-base-planning",
+        "url": "articles/2026-10-12-morning/cyprus-4.html"
+      },
+      "section": "cyprus",
+      "priority": 1004
+    },
+    {
+      "story_id": "cyprus-public-service-exams",
+      "first_seen_at": "2026-10-12T07:24:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-morning",
+          "article_id": "cyprus-5",
+          "source_story_id": "cyprus-public-service-exams",
+          "url": "articles/2026-10-12-morning/cyprus-5.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "cyprus-5",
+        "source_story_id": "cyprus-public-service-exams",
+        "url": "articles/2026-10-12-morning/cyprus-5.html"
+      },
+      "section": "cyprus",
+      "priority": 1005
+    },
+    {
+      "story_id": "liverpool-city-match-2026",
+      "first_seen_at": "2026-10-12T13:56:19+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-midday",
+          "article_id": "liverpool-city-match",
+          "source_story_id": "liverpool-city-match-2026",
+          "url": "articles/2026-10-12-midday/liverpool-city-match.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-midday",
+        "article_id": "liverpool-city-match",
+        "source_story_id": "liverpool-city-match-2026",
+        "url": "articles/2026-10-12-midday/liverpool-city-match.html"
+      },
+      "section": "sports",
+      "priority": 1005
+    },
+    {
+      "story_id": "shanghai-bergs-alcaraz-2026",
+      "first_seen_at": "2026-10-12T19:47:35+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-evening",
+          "article_id": "shanghai-bergs-alcaraz",
+          "source_story_id": "shanghai-bergs-alcaraz-2026",
+          "url": "articles/2026-10-12-evening/shanghai-bergs-alcaraz.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-evening",
+        "article_id": "shanghai-bergs-alcaraz",
+        "source_story_id": "shanghai-bergs-alcaraz-2026",
+        "url": "articles/2026-10-12-evening/shanghai-bergs-alcaraz.html"
+      },
+      "section": "sports",
+      "priority": 1005
+    },
+    {
+      "story_id": "aek-aradippou-preview-2026",
+      "first_seen_at": "2026-10-12T13:56:19+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-midday",
+          "article_id": "aek-aradippou-preview",
+          "source_story_id": "aek-aradippou-preview-2026",
+          "url": "articles/2026-10-12-midday/aek-aradippou-preview.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-midday",
+        "article_id": "aek-aradippou-preview",
+        "source_story_id": "aek-aradippou-preview-2026",
+        "url": "articles/2026-10-12-midday/aek-aradippou-preview.html"
+      },
+      "section": "sports",
+      "priority": 1006
+    },
+    {
+      "story_id": "cyprus-mortgage-rates",
+      "first_seen_at": "2026-10-12T07:24:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-morning",
+          "article_id": "cyprus-6",
+          "source_story_id": "cyprus-mortgage-rates",
+          "url": "articles/2026-10-12-morning/cyprus-6.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "cyprus-6",
+        "source_story_id": "cyprus-mortgage-rates",
+        "url": "articles/2026-10-12-morning/cyprus-6.html"
+      },
+      "section": "cyprus",
+      "priority": 1006
+    },
+    {
+      "story_id": "shanghai-tsitsipas-fritz-2026",
+      "first_seen_at": "2026-10-12T19:47:35+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-evening",
+          "article_id": "shanghai-tsitsipas-fritz",
+          "source_story_id": "shanghai-tsitsipas-fritz-2026",
+          "url": "articles/2026-10-12-evening/shanghai-tsitsipas-fritz.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-evening",
+        "article_id": "shanghai-tsitsipas-fritz",
+        "source_story_id": "shanghai-tsitsipas-fritz-2026",
+        "url": "articles/2026-10-12-evening/shanghai-tsitsipas-fritz.html"
+      },
+      "section": "sports",
+      "priority": 1006
+    },
+    {
+      "story_id": "ukraine-ceasefire-elections",
+      "first_seen_at": "2026-10-12T07:24:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-morning",
+          "article_id": "world-1",
+          "source_story_id": "ukraine-ceasefire-elections",
+          "url": "articles/2026-10-12-morning/world-1.html"
+        },
+        {
+          "edition_id": "2026-10-12-midday",
+          "article_id": "world-2",
+          "source_story_id": "ukraine-ceasefire-elections",
+          "url": "articles/2026-10-12-midday/world-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-midday",
+        "article_id": "world-2",
+        "source_story_id": "ukraine-ceasefire-elections",
+        "url": "articles/2026-10-12-midday/world-2.html"
+      },
+      "section": "world",
+      "priority": 1007
+    },
+    {
+      "story_id": "brexit-interference-evidence",
+      "first_seen_at": "2026-10-12T07:24:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-morning",
+          "article_id": "world-2",
+          "source_story_id": "brexit-interference-evidence",
+          "url": "articles/2026-10-12-morning/world-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "world-2",
+        "source_story_id": "brexit-interference-evidence",
+        "url": "articles/2026-10-12-morning/world-2.html"
+      },
+      "section": "world",
+      "priority": 1008
+    },
+    {
+      "story_id": "djibouti-migrant-shipwreck",
+      "first_seen_at": "2026-10-12T07:24:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-morning",
+          "article_id": "world-3",
+          "source_story_id": "djibouti-migrant-shipwreck",
+          "url": "articles/2026-10-12-morning/world-3.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "world-3",
+        "source_story_id": "djibouti-migrant-shipwreck",
+        "url": "articles/2026-10-12-morning/world-3.html"
+      },
+      "section": "world",
+      "priority": 1009
+    },
+    {
+      "story_id": "pope-lung-surgery",
+      "first_seen_at": "2026-10-12T07:24:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-morning",
+          "article_id": "world-4",
+          "source_story_id": "pope-lung-surgery",
+          "url": "articles/2026-10-12-morning/world-4.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "world-4",
+        "source_story_id": "pope-lung-surgery",
+        "url": "articles/2026-10-12-morning/world-4.html"
+      },
+      "section": "world",
+      "priority": 1010
+    },
+    {
+      "story_id": "portugal-housing-protests",
+      "first_seen_at": "2026-10-12T07:24:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-12-morning",
+          "article_id": "world-5",
+          "source_story_id": "portugal-housing-protests",
+          "url": "articles/2026-10-12-morning/world-5.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "world-5",
+        "source_story_id": "portugal-housing-protests",
+        "url": "articles/2026-10-12-morning/world-5.html"
+      },
+      "section": "world",
+      "priority": 1011
+    },
+    {
+      "story_id": "golf-open-espana-2026",
+      "first_seen_at": "2026-10-12T07:24:05+03:00",
+      "last_substantive_at": "2026-10-12T07:24:05+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-12-morning",
+          "article_id": "golf-open-espana",
+          "source_story_id": "golf-open-espana-2026",
+          "url": "articles/2026-10-12-morning/golf-open-espana.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "golf-open-espana",
+        "source_story_id": "golf-open-espana-2026",
+        "url": "articles/2026-10-12-morning/golf-open-espana.html"
+      },
+      "section": "sports",
+      "priority": 1012
+    },
+    {
+      "story_id": "nfl-jaguars-london-2026",
+      "first_seen_at": "2026-10-12T07:24:05+03:00",
+      "last_substantive_at": "2026-10-12T07:24:05+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-12-morning",
+          "article_id": "nfl-jaguars-london",
+          "source_story_id": "nfl-jaguars-london-2026",
+          "url": "articles/2026-10-12-morning/nfl-jaguars-london.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "nfl-jaguars-london",
+        "source_story_id": "nfl-jaguars-london-2026",
+        "url": "articles/2026-10-12-morning/nfl-jaguars-london.html"
+      },
+      "section": "sports",
+      "priority": 1013
+    }
+  ],
+  "updates": [
+    {
+      "id": "054b8bc2174d563bdba4c87764f52985ef68dd7249cb75c044ee31f10027431c",
+      "kind": "new",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Πρόσθετη κάλυψη εκτός αγαπημένων: Jaguars–Eagles 19–17: νίκη στο Λονδίνο με field goal στην εκπνοή",
+      "source_urls": [
+        "https://www.skysports.com/nfl/news/12040/13597513/nfl-in-london-cam-little-kicks-game-winning-field-goal-as-jacksonville-jaguars-beat-philadelphia-eagles-19-17-in-tottenham-hotspur-stadium-thriller"
+      ],
+      "story_id": "nfl-jaguars-london-2026",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "nfl-jaguars-london",
+        "source_story_id": "nfl-jaguars-london-2026",
+        "url": "articles/2026-10-12-morning/nfl-jaguars-london.html"
+      }
+    },
+    {
+      "id": "13d7b7f2441b73a4d8977efcb4b5134a216047f63db1748a2ba0c1fbef1d6773",
+      "kind": "provenance",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "mari-naval-base-planning",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "cyprus-4",
+        "source_story_id": "mari-naval-base-planning",
+        "url": "articles/2026-10-12-morning/cyprus-4.html"
+      }
+    },
+    {
+      "id": "1c48bd757af358c4603cfc9a208646507e3c723f6f138caaf32d4b1d384b00e9",
+      "kind": "provenance",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "brexit-interference-evidence",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "world-2",
+        "source_story_id": "brexit-interference-evidence",
+        "url": "articles/2026-10-12-morning/world-2.html"
+      }
+    },
+    {
+      "id": "1dd7a81455fc3827360108f0263b9a3ad1af4f3c30322253e4b6435bfb79505d",
+      "kind": "provenance",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-budget-2027",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "cyprus-1",
+        "source_story_id": "cyprus-budget-2027",
+        "url": "articles/2026-10-12-morning/cyprus-1.html"
+      }
+    },
+    {
+      "id": "3394f7c70daef11080ef984c3eaaaa1d904b5e50511c92cdf464de9bc835a03a",
+      "kind": "provenance",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-mortgage-rates",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "cyprus-6",
+        "source_story_id": "cyprus-mortgage-rates",
+        "url": "articles/2026-10-12-morning/cyprus-6.html"
+      }
+    },
+    {
+      "id": "4b09c3a5c3114d56cf033133e660a1182b1b603d5b2868a8a4452a8a6bf77934",
+      "kind": "new",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Προγραμματισμένη παρουσίαση του προϋπολογισμού 2027 στην Επιτροπή Οικονομικών.",
+      "source_urls": [
+        "https://inbusinessnews.reporter.com.cy/article/479084/proypologsmos-2027-pleonasma-4-toy-aep-kai-dimosio-chreos-sto-45-2-ti-deftera-sti-boyli-o-keravnos"
+      ],
+      "story_id": "cyprus-budget-2027",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "cyprus-1",
+        "source_story_id": "cyprus-budget-2027",
+        "url": "articles/2026-10-12-morning/cyprus-1.html"
+      }
+    },
+    {
+      "id": "507c75d09e8821dd0db709fb96ed2fb629d24c9f5c37c96c6614042445ffc8c2",
+      "kind": "provenance",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-customs-supplements",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "cyprus-3",
+        "source_story_id": "limassol-customs-supplements",
+        "url": "articles/2026-10-12-morning/cyprus-3.html"
+      }
+    },
+    {
+      "id": "55fbf49410f766e0b3684f2eb9fced669e7f0dbb14221eaec4f5b2cae77b15e2",
+      "kind": "correction",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Η μη προσβάσιμη πηγή Financial Times δεν παρουσιάζεται ως αναγνωσμένο ή διασταυρωμένο ρεπορτάζ.",
+      "source_urls": [],
+      "story_id": "brexit-interference-evidence",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "world-2",
+        "source_story_id": "brexit-interference-evidence",
+        "url": "articles/2026-10-12-morning/world-2.html"
+      }
+    },
+    {
+      "id": "6b459f9e3e50b5198d704fe65af78fe3e3089a3bd4129064878cd66df7de7456",
+      "kind": "provenance",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "djibouti-migrant-shipwreck",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "world-3",
+        "source_story_id": "djibouti-migrant-shipwreck",
+        "url": "articles/2026-10-12-morning/world-3.html"
+      }
+    },
+    {
+      "id": "7a342a56f7ec0b5337cc1cbf7b2a930e07f1c15331213cd806c7265881fcf2de",
+      "kind": "provenance",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-foot-mouth-reporting",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "cyprus-2",
+        "source_story_id": "cyprus-foot-mouth-reporting",
+        "url": "articles/2026-10-12-morning/cyprus-2.html"
+      }
+    },
+    {
+      "id": "83af736eeb8ec7d7c191d3da809bb03b51638de326769feb30c4ecb1956f640d",
+      "kind": "provenance",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "nfl-jaguars-london-2026",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "nfl-jaguars-london",
+        "source_story_id": "nfl-jaguars-london-2026",
+        "url": "articles/2026-10-12-morning/nfl-jaguars-london.html"
+      }
+    },
+    {
+      "id": "af8465cda68e28d435a5e26c683ec1e90f6ec9929941fcb2001c7612a298869d",
+      "kind": "provenance",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "golf-open-espana-2026",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "golf-open-espana",
+        "source_story_id": "golf-open-espana-2026",
+        "url": "articles/2026-10-12-morning/golf-open-espana.html"
+      }
+    },
+    {
+      "id": "b9ae88084e5b359b235cf56154512c23e01a2130f56fb50f57da752291dde084",
+      "kind": "substantive_update",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Νεότερη αναφορά για το Ριάντ και αναθεώρηση απολογισμού· διακρίνονται οι διαδοχικές επιθέσεις.",
+      "source_urls": [
+        "https://apnews.com/article/saudi-yemen-houthi-riyadh-airport-d2e0868ffb18d883c16465d7d6a87ccb"
+      ],
+      "story_id": "riyadh-airport-attacks",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "lead",
+        "source_story_id": "riyadh-airport-attacks",
+        "url": "articles/2026-10-12-morning/lead.html"
+      }
+    },
+    {
+      "id": "bd8ec2d77eb15d7495a6fc6147ca87924e029c50a03c70df0a2576953cfd1a23",
+      "kind": "new",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Πρόσθετη κάλυψη εκτός αγαπημένων: Grant Forrest: τίτλος στο Open de España με birdie στην τελευταία τρύπα",
+      "source_urls": [
+        "https://www.skysports.com/golf/news/12040/13597912/open-de-espana-scotlands-grant-forrest-birdies-final-hole-to-secure-thrilling-one-shot-victory-on-dp-world-tour"
+      ],
+      "story_id": "golf-open-espana-2026",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "golf-open-espana",
+        "source_story_id": "golf-open-espana-2026",
+        "url": "articles/2026-10-12-morning/golf-open-espana.html"
+      }
+    },
+    {
+      "id": "bda43c59eadae83598a5c57c0fb4168630681884ed916098059c991c9565e6bb",
+      "kind": "provenance",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "pope-lung-surgery",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "world-4",
+        "source_story_id": "pope-lung-surgery",
+        "url": "articles/2026-10-12-morning/world-4.html"
+      }
+    },
+    {
+      "id": "c3f43e7376afeffd98d11d93ce4306ccf59e1460f0577396e3fcb1a154e9b60e",
+      "kind": "provenance",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-public-service-exams",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "cyprus-5",
+        "source_story_id": "cyprus-public-service-exams",
+        "url": "articles/2026-10-12-morning/cyprus-5.html"
+      }
+    },
+    {
+      "id": "ca239ab7e7d0dd000cf83afe468ca1a14a99eae3ba6c322e890e5019c41170e3",
+      "kind": "provenance",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "portugal-housing-protests",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "world-5",
+        "source_story_id": "portugal-housing-protests",
+        "url": "articles/2026-10-12-morning/world-5.html"
+      }
+    },
+    {
+      "id": "f16ea34c67321c99205a8750b73768da15b6311e450a42ad78926ea97c8604e8",
+      "kind": "provenance",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "riyadh-airport-attacks",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "lead",
+        "source_story_id": "riyadh-airport-attacks",
+        "url": "articles/2026-10-12-morning/lead.html"
+      }
+    },
+    {
+      "id": "f7c0a2adbbd6062fb74559f6e50ff6695402f2068f8e3d8bd8d3ec69f4d0a3f0",
+      "kind": "provenance",
+      "at": "2026-10-12T07:24:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-ceasefire-elections",
+      "origin": {
+        "edition_id": "2026-10-12-morning",
+        "article_id": "world-1",
+        "source_story_id": "ukraine-ceasefire-elections",
+        "url": "articles/2026-10-12-morning/world-1.html"
+      }
+    },
+    {
+      "id": "25ad9aa278e3aa7977b50449ca3b445b4a5f929f8b902a761ccfa06cb3847432",
+      "kind": "provenance",
+      "at": "2026-10-12T13:56:19+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "liverpool-city-match-2026",
+      "origin": {
+        "edition_id": "2026-10-12-midday",
+        "article_id": "liverpool-city-match",
+        "source_story_id": "liverpool-city-match-2026",
+        "url": "articles/2026-10-12-midday/liverpool-city-match.html"
+      }
+    },
+    {
+      "id": "2c50db446d74084d4635a9bfc81fd3a0918a883704d8dc1a550771a1b8a0b45e",
+      "kind": "provenance",
+      "at": "2026-10-12T13:56:19+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-ceasefire-elections",
+      "origin": {
+        "edition_id": "2026-10-12-midday",
+        "article_id": "world-2",
+        "source_story_id": "ukraine-ceasefire-elections",
+        "url": "articles/2026-10-12-midday/world-2.html"
+      }
+    },
+    {
+      "id": "3cc5b51c9d6d01c27bea45459694335d627e00dfdaaf095a8321f7e2001f0d63",
+      "kind": "provenance",
+      "at": "2026-10-12T13:56:19+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "turkey-cyprus-gas-pipeline",
+      "origin": {
+        "edition_id": "2026-10-12-midday",
+        "article_id": "cyprus-1",
+        "source_story_id": "turkey-cyprus-gas-pipeline",
+        "url": "articles/2026-10-12-midday/cyprus-1.html"
+      }
+    },
+    {
+      "id": "5bd1f56c174fc28d81b8aaf176da82d28632de0d4c50ff2fb55a2d4eb12d790d",
+      "kind": "provenance",
+      "at": "2026-10-12T13:56:19+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ai-investment-imf-growth",
+      "origin": {
+        "edition_id": "2026-10-12-midday",
+        "article_id": "world-1",
+        "source_story_id": "ai-investment-imf-growth",
+        "url": "articles/2026-10-12-midday/world-1.html"
+      }
+    },
+    {
+      "id": "8e9490ca053cf8accfdcd9fb8b4977b96f3905eedb670cf4111b3765f0731468",
+      "kind": "provenance",
+      "at": "2026-10-12T13:56:19+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "aek-aradippou-preview-2026",
+      "origin": {
+        "edition_id": "2026-10-12-midday",
+        "article_id": "aek-aradippou-preview",
+        "source_story_id": "aek-aradippou-preview-2026",
+        "url": "articles/2026-10-12-midday/aek-aradippou-preview.html"
+      }
+    },
+    {
+      "id": "a069c344104ef484b40a630949ccf14981a223e737ef54f44d77b59817167bd8",
+      "kind": "provenance",
+      "at": "2026-10-12T13:56:19+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-greece-customs-cooperation",
+      "origin": {
+        "edition_id": "2026-10-12-midday",
+        "article_id": "cyprus-2",
+        "source_story_id": "cyprus-greece-customs-cooperation",
+        "url": "articles/2026-10-12-midday/cyprus-2.html"
+      }
+    },
+    {
+      "id": "f9c5c9ed0b6e40ad396f670d59643ce2b6461dde5e310d89cc6cfcbda7a0fe4d",
+      "kind": "provenance",
+      "at": "2026-10-12T13:56:19+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-zero-vat-2026",
+      "origin": {
+        "edition_id": "2026-10-12-midday",
+        "article_id": "lead",
+        "source_story_id": "cyprus-zero-vat-2026",
+        "url": "articles/2026-10-12-midday/lead.html"
+      }
+    },
+    {
+      "id": "2b595b11866590c74aa6a157d13c3dfaa4aa1a4603d60d211616904ac0d27e96",
+      "kind": "provenance",
+      "at": "2026-10-12T19:47:35+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-housing-permits-composition",
+      "origin": {
+        "edition_id": "2026-10-12-evening",
+        "article_id": "cyprus-2",
+        "source_story_id": "cyprus-housing-permits-composition",
+        "url": "articles/2026-10-12-evening/cyprus-2.html"
+      }
+    },
+    {
+      "id": "95ddb5f6f61981ec6e4a30c2b260891eef707529657b9a33774868fbb35232da",
+      "kind": "provenance",
+      "at": "2026-10-12T19:47:35+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "shanghai-bergs-alcaraz-2026",
+      "origin": {
+        "edition_id": "2026-10-12-evening",
+        "article_id": "shanghai-bergs-alcaraz",
+        "source_story_id": "shanghai-bergs-alcaraz-2026",
+        "url": "articles/2026-10-12-evening/shanghai-bergs-alcaraz.html"
+      }
+    },
+    {
+      "id": "df38bd0bef372595362fc2358626cc7e4c815e30fc7d7b7c6ca4984081a9add5",
+      "kind": "provenance",
+      "at": "2026-10-12T19:47:35+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "deloitte-cyprus-abramovich-investigation",
+      "origin": {
+        "edition_id": "2026-10-12-evening",
+        "article_id": "cyprus-1",
+        "source_story_id": "deloitte-cyprus-abramovich-investigation",
+        "url": "articles/2026-10-12-evening/cyprus-1.html"
+      }
+    },
+    {
+      "id": "e095c2c4441f5453c4050fa36fcdd7c92be587e23a22e399ae663b5fb6f3e649",
+      "kind": "provenance",
+      "at": "2026-10-12T19:47:35+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-budget-2027",
+      "origin": {
+        "edition_id": "2026-10-12-evening",
+        "article_id": "lead",
+        "source_story_id": "cyprus-budget-2027",
+        "url": "articles/2026-10-12-evening/lead.html"
+      }
+    },
+    {
+      "id": "eac56b1d4509ff0fcf826dc708ca0b7c2bcffd3ab2e77cbeb922d2ce622c6141",
+      "kind": "provenance",
+      "at": "2026-10-12T19:47:35+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "eu-russian-military-supply-sanctions",
+      "origin": {
+        "edition_id": "2026-10-12-evening",
+        "article_id": "world-1",
+        "source_story_id": "eu-russian-military-supply-sanctions",
+        "url": "articles/2026-10-12-evening/world-1.html"
+      }
+    },
+    {
+      "id": "f0bab4e70e1bccaacf6a3f657c829c59ebf2404f2a9f294058ec6ba87652611c",
+      "kind": "provenance",
+      "at": "2026-10-12T19:47:35+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "eusm-lebanon-mission",
+      "origin": {
+        "edition_id": "2026-10-12-evening",
+        "article_id": "world-2",
+        "source_story_id": "eusm-lebanon-mission",
+        "url": "articles/2026-10-12-evening/world-2.html"
+      }
+    },
+    {
+      "id": "f7cd07fc16c7f31037bd640e52540e7f526c3844876bb1e8e67cf0b00c7225c3",
+      "kind": "provenance",
+      "at": "2026-10-12T19:47:35+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "shanghai-tsitsipas-fritz-2026",
+      "origin": {
+        "edition_id": "2026-10-12-evening",
+        "article_id": "shanghai-tsitsipas-fritz",
+        "source_story_id": "shanghai-tsitsipas-fritz-2026",
+        "url": "articles/2026-10-12-evening/shanghai-tsitsipas-fritz.html"
+      }
+    }
+  ],
+  "created_at": "2026-10-13T18:29:30.615686+00:00",
+  "updated_at": "2026-10-13T18:29:30.615686+00:00",
+  "input_sha256": "52a2027ff1eb66773ff4348c5a5a99c1c7af6d080dd808618c27fe5bd73b5cfe"
+}

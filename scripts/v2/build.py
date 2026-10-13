@@ -8,6 +8,8 @@ import re
 import os
 import shutil
 import tempfile
+import importlib.util
+from types import SimpleNamespace
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -128,7 +130,7 @@ def validate(e, articles):
                 if not a.get('image_unavailable_reason'):
                     raise ValueError('Missing image research outcome: '+a['id'])
                 continue
-            for field in ['source_url','caption','license','license_url','retrieved_at']:
+            for field in ['source_url','original_url','caption','alt','attribution','license','license_url','retrieved_at']:
                 if not im.get(field):
                     raise ValueError('Image evidence missing '+field+': '+a['id'])
             for field in ['source_url','license_url']:
@@ -139,6 +141,11 @@ def validate(e, articles):
                 raise ValueError('Reviewed images must be local editorial assets')
             if not (ROOT/'docs'/path).is_file():
                 raise ValueError('Image asset missing; run prepare_images.py: '+im['url'])
+            from PIL import Image
+            with Image.open(ROOT/'docs'/path) as decoded:
+                decoded.load()
+                if decoded.width<200 or decoded.height<200:
+                    raise ValueError('Editorial photograph too small: '+im['url'])
     for a in articles:
         Draft202012Validator({'$ref':'#/$defs/article','$defs':schema['$defs']}, format_checker=FormatChecker()).validate(a)
         if a['edition_id'] != e['id']:
@@ -227,21 +234,17 @@ def sports(e, articles=()):
     out.append('</section>')
     return ''.join(out)
 
+def load_module(name):
+    spec=importlib.util.spec_from_file_location('oracle_'+name,Path(__file__).with_name(name+'.py'))
+    module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+    return module
+
+def quote_key(q):
+    return load_module('compact_markets').quote_key(q)
+
 def markets(e):
-    labels = {'live':'Ζωντανή','delayed':'Με καθυστέρηση','previous_close':'Προηγούμενο κλείσιμο','unavailable':'Μη διαθέσιμη'}
-    rows = []
-    for q in e['markets']:
-        value=q['value']
-        if isinstance(value,(int,float)):
-            value=f'{value:,.{q.get("precision",2)}f}'.replace(',','X').replace('.',',').replace('X','.')
-        if q.get('asset_class') in ['index','futures_index']:
-            display=f'{esc(value)} {esc(q["unit"])} · {esc(q["currency"])} (νόμισμα υπολογισμού)' if value is not None else '—'
-        else:
-            display=f'{esc(value) if value is not None else "—"} {esc(q["currency"])} / {esc(q["unit"])}'
-        change=f'{q["change_pct"]:+.2f}%'.replace('.',',') if q.get('change_pct') is not None else '—'
-        rows.append(f'<tr><th scope="row">{esc(q["name"])}</th><td>{display}</td><td>{change}</td><td>{labels[q["status"]]}</td><td>{stamp(q.get("quoted_at"))}</td><td>{source_links(q["sources"])}</td></tr>')
-    notes=''.join(f'<p>{esc(n["text"])}</p>'+source_links(n['sources']) for n in e.get('market_notes',[]))
-    return '<section class="section" id="markets"><div class="sectionhead"><h2>Αγορές.</h2><a class="read-link" href="../markets.html">Ιστορικά γραφήματα ↗</a></div><div class="tableroll" tabindex="0" role="region" aria-label="Τιμές αγορών · κύλιση οριζόντια"><table class="quotes"><caption>Τιμές αναφοράς, όχι αυτόματη ενημέρωση</caption><thead><tr><th>Στοιχείο</th><th>Τιμή / μονάδα</th><th>Μεταβολή</th><th>Κατάσταση</th><th>Χρόνος τιμής</th><th>Πηγή</th></tr></thead><tbody>'+''.join(rows)+'</tbody></table></div>'+notes+'<p>Οι εξηγήσεις μεταβολών αποδίδονται στις πηγές τους. Η συντακτική ερμηνεία δεν αποτελεί διαπιστωμένη αιτία. Τα στιγμιότυπα δεν θεωρούνται ζωντανές τιμές όταν η καθυστέρηση δεν είναι γνωστή.</p></section>'
+    return load_module('compact_markets').markets(SimpleNamespace(**globals()),e)
+
 
 def calculator(e):
     c=e.get('calculator')
@@ -312,6 +315,15 @@ def _render(root=ROOT):
             raise ValueError('Only published records belong in archive')
         if x['id'] not in {e['id'] for e,_ in bundles} and not (ROOT/'docs'/x['url']).is_file():
             raise ValueError('Archive points at missing HTML')
+    previous_registry=read(ROOT/'docs/data/editions.json') if (ROOT/'docs/data/editions.json').exists() else []
+    prior={r['id']:r for r in previous_registry}
+    for e,aa in bundles:
+        if e['id'] in prior and prior[e['id']].get('published_at') != e['published_at']:
+            raise ValueError('Keep the original edition published_at on correction')
+        for a in aa:
+            previous_article=ROOT/'docs/data/articles'/e['id']/(a['id']+'.json')
+            if previous_article.exists() and read(previous_article)['published_at'] != a['published_at']:
+                raise ValueError('Keep the original article published_at on correction')
     search = []
     for e, aa in bundles:
         date = stamp(e['published_at'],e['timezone'])
@@ -349,6 +361,8 @@ def _render(root=ROOT):
             related=''.join(f'<a href="{esc(b["id"])}.html">{esc(b["headline"])}</a>' for b in aa if b['id']!=a['id'] and (b['story_id'] in a.get('related_story_ids',[]) or b['category']==a['category']))
             p=head(a['headline'],url,'article','../../')
             p+=f'<header class="top"><div class="shell"><a class="logo" href="../../{e["url"]}">THE ORACLE SOVEREIGN.</a><nav class="navlinks"><a href="../../{e["url"]}">← Εφημερίδα</a><a href="../../search.html">{icon('search')} Αναζήτηση</a><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button></nav></div></header><main class="shell" id="main" data-article-key="{e["id"]}/{a["id"]}"><div class="kicker">{esc(a["category"])} · {TYPES[e["type"]]} έκδοση</div><h1>{esc(a["headline"])}</h1><div class="eyebrow">Συνοπτική καταγραφή της έκδοσης</div><p class="lede">{esc(a["summary"])}</p><div class="meta"><span>Δημοσίευση: {stamp(a["published_at"])}</span><span>Ενημέρωση: {stamp(a["updated_at"])}</span><span>{math.ceil(words(a)/220)} λεπτά ανάγνωσης · {words(a)} λέξεις</span><span>{sources_label(a["sources"])}</span></div>'+image(a,'../../')
+            if e.get('published_at'):
+                p+=f'<a class="read-link" href="../../daily/{e["date"]}.html">← Εφημερίδα της ημέρας · {e["date"]}</a>'
             p+='<div class="actions"><button data-font-step="-1" aria-label="Μικρότερο μέγεθος κειμένου">A−</button><button data-font-step="1" aria-label="Μεγαλύτερο μέγεθος κειμένου">A+</button><button data-bookmark aria-pressed="false">Αποθήκευση άρθρου</button><button data-resume hidden>Συνέχεια ανάγνωσης</button><span data-storage-status role="status"></span></div><progress id="reading-progress" max="100" value="0" aria-label="Πρόοδος ανάγνωσης"></progress>'
             if a.get('revision_note'):
                 p+='<p class="revision-note">'+esc(a['revision_note'])+'</p>'
@@ -388,6 +402,7 @@ def _render(root=ROOT):
         path=ROOT/'docs'/page_url
         write(path,latest.version_resources(path.read_text(encoding='utf-8'),ROOT,page_url))
     latest.publish(ROOT,registry)
+    load_module('daily').publish(SimpleNamespace(**globals()),latest,bundles)
     write(ROOT/'docs/assets/latest-briefing.js',(ROOT/'templates/v2/latest-briefing.js').read_text(encoding='utf-8'))
     print(f'Built {len(bundles)} editions, {len(search)} separate articles, {len(registry)} archive entries')
 

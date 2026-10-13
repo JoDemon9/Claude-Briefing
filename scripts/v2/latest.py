@@ -147,10 +147,10 @@ def publish(root, records):
     return descriptor
 
 
-def portal_snapshot(public_root, descriptor):
+def portal_snapshot(public_root, descriptor, page="latest.html"):
     """Return a complete fallback plus only its referenced public assets."""
     public_root = Path(public_root).resolve()
-    text = (public_root/'docs/latest.html').read_text(encoding='utf-8')
+    text = (public_root/'docs'/page).read_text(encoding='utf-8')
     if hashlib.sha256(text.encode('utf-8')).hexdigest() != descriptor['html_sha256']:
         raise ValueError('Latest edition and descriptor do not match')
     doc = BeautifulSoup(text, 'html.parser')

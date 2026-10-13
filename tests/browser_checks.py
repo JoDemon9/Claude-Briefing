@@ -39,7 +39,7 @@ def run(screenshots=None):
                 # Tests use local artifacts. No analytics, weather, market API or messaging calls.
                 context.route('**/*',lambda route:route.continue_() if route.request.url.startswith(base) or route.request.url.startswith('data:') else route.abort())
                 page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
-                paths=['/real/morning/2026-10-12.html','/real/articles/2026-10-12-morning/cyprus-1.html','/real/midday/2026-10-12.html','/real/evening/2026-10-12.html','/real/index.html','/real/search.html']
+                paths=['/real/morning/2026-10-12.html','/real/articles/2026-10-12-morning/cyprus-1.html','/real/midday/2026-10-12.html','/real/evening/2026-10-12.html','/real/index.html','/real/search.html','/real/daily/2026-10-12.html','/real/daily/2026-10-13.html','/real/daily/index.html']
                 registry=json.loads((ROOT/'docs/data/editions.json').read_text())
                 latest=registry[0]
                 latest_path='/real/'+latest['url']
@@ -60,6 +60,7 @@ def run(screenshots=None):
                 for width in [320,375,390,1440]:
                     page.set_viewport_size({'width':width,'height':900})
                     for path in paths:
+                        print(f'Checking {width}px {path}',flush=True)
                         page.goto(base+path,wait_until='networkidle')
                         if not page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'):
                             print(page.evaluate('JSON.stringify([...document.querySelectorAll("*")].filter(e=>e.getBoundingClientRect().right>innerWidth+1||e.scrollWidth>e.clientWidth+2).slice(0,15).map(e=>({tag:e.tagName,cls:e.className,width:e.clientWidth,scroll:e.scrollWidth,whiteSpace:getComputedStyle(e).whiteSpace})))'))
@@ -75,9 +76,16 @@ def run(screenshots=None):
                             assert current.count()==1
                             assert current.first.evaluate('(a)=>new URL(a.href).pathname')==path
                         for img in page.locator('[data-editorial-image] img').all():
+                            img.evaluate('(img)=>{for(let x=img.parentElement;x;x=x.parentElement)if(x.tagName==="DETAILS")x.open=true}')
                             img.scroll_into_view_if_needed()
-                            img.evaluate('(img)=>img.decode()')
+                            img.evaluate('(img)=>Promise.race([img.decode(),new Promise((_,reject)=>setTimeout(()=>reject(Error("Image decode timeout")),10000))])')
                             assert img.evaluate('(img)=>img.naturalWidth>=200&&img.naturalHeight>=200'),f'Broken photograph: {path}'
+                        if '/real/daily/' in path and not path.endswith('/index.html'):
+                            assert page.locator('.edition-desk [aria-current]').count()==0
+                            assert page.locator('.core-quotes>.quote-card:visible').count()<=6
+                            assert page.locator('.market-movers>.market-note:visible').count()<=3
+                            assert page.locator('#markets table.quotes').count()==0
+                            assert page.locator('details.day-summary>summary').count()==1
                         checks.append(f'{width}px {path}: no overflow or JavaScript errors')
                         if screenshots and width in [375,1440] and (path in paths[:2] or path==latest_path):
                             screenshots.mkdir(parents=True,exist_ok=True)
