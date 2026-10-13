@@ -93,3 +93,13 @@
 @media print{.editionbar,.oracle-market-gateway,.oracle-article-action{display:none!important}}
 
 .newsphotobox img,.hero-art img{font-size:0}.newsart .art-label{display:block}.sport .score{font-size:clamp(18px,3vw,35px)}.sport .note{color:var(--muted)}
+
+/* Licensed photographs are served as local assets, with readable source credits. */
+figure.photo{margin:0 0 20px;background:var(--card);max-width:100%;overflow:hidden;aspect-ratio:auto;max-height:none}
+figure.photo img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center 30%}
+figure.photo figcaption{position:static;background:var(--card);color:var(--muted,var(--secondary));font:11px/1.5 Arial,sans-serif;padding:10px 14px;overflow-wrap:anywhere}
+figure.photo figcaption a{text-underline-offset:2px}
+figure.photo .image-fallback{padding:25px;margin:0;font:14px/1.6 Arial,sans-serif}
+figure.photo img[hidden],figure.photo .image-fallback[hidden]{display:none}
+.hero figure.photo img{aspect-ratio:4/3}.newscard figure.photo{margin:0}.newscard figure.photo img{aspect-ratio:16/10}
+@media(max-width:560px){figure.photo figcaption{font-size:11px}.hero figure.photo img{aspect-ratio:4/3}}

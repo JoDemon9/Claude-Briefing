@@ -70,7 +70,13 @@ def image(a,depth=''):
     if not im:
         return ''
     url=im['url'] if im['url'].startswith(('https://','data:')) else depth+im['url']
-    return f'<figure class="photo"><img src="{esc(url)}" alt="{esc(im["alt"])}" loading="lazy"><figcaption>{esc(im["attribution"])}</figcaption></figure>'
+    caption=esc(im.get('caption',''))
+    credit=esc(im['attribution'])
+    if im.get('source_url'):
+        credit=f'<a href="{esc(im["source_url"])}" rel="noopener noreferrer">{credit}</a>'
+    if im.get('license_url'):
+        credit+=f' · <a href="{esc(im["license_url"])}" rel="noopener noreferrer">{esc(im["license"])}</a>'
+    return f'<figure class="photo" data-editorial-image><img src="{esc(url)}" alt="{esc(im["alt"])}" loading="lazy" decoding="async"><p class="image-fallback" data-image-fallback hidden>Η φωτογραφία δεν φορτώθηκε. Άνοιξε την αρχική πηγή από τη λεζάντα.</p><figcaption>{caption} {credit}</figcaption></figure>'
 
 def article_url(e, a):
     return f'articles/{e["id"]}/{a["id"]}.html'
@@ -91,6 +97,26 @@ def validate(e, articles):
     if set(TEAMS) != set(e['sports']['coverage']):
         raise ValueError('Permanent sports coverage required')
     ids = {a['id'] for a in articles}
+    if e.get('image_review'):
+        if not any(a.get('image') for a in articles):
+            raise ValueError('Reviewed edition contains no images; finish image research before publishing')
+        for a in articles:
+            im=a.get('image')
+            if not im:
+                if not a.get('image_unavailable_reason'):
+                    raise ValueError('Missing image research outcome: '+a['id'])
+                continue
+            for field in ['source_url','caption','license','license_url','retrieved_at']:
+                if not im.get(field):
+                    raise ValueError('Image evidence missing '+field+': '+a['id'])
+            for field in ['source_url','license_url']:
+                if not im[field].startswith('https://'):
+                    raise ValueError('Image credit URL must be HTTPS')
+            path=Path(im['url'])
+            if path.is_absolute() or '..' in path.parts or not im['url'].startswith('assets/editorial/'):
+                raise ValueError('Reviewed images must be local editorial assets')
+            if not (ROOT/'docs'/path).is_file():
+                raise ValueError('Image asset missing; run prepare_images.py: '+im['url'])
     for a in articles:
         Draft202012Validator({'$ref':'#/$defs/article','$defs':schema['$defs']}, format_checker=FormatChecker()).validate(a)
         if a['edition_id'] != e['id']:

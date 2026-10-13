@@ -40,6 +40,16 @@ def run(screenshots=None):
                 context.route('**/*',lambda route:route.continue_() if route.request.url.startswith(base) or route.request.url.startswith('data:') else route.abort())
                 page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
                 paths=['/real/morning/2026-10-12.html','/real/articles/2026-10-12-morning/cyprus-1.html','/real/midday/2026-10-12.html','/real/evening/2026-10-12.html','/real/index.html','/real/search.html']
+                registry=json.loads((ROOT/'docs/data/editions.json').read_text())
+                latest=registry[0]
+                latest_path='/real/'+latest['url']
+                if latest_path not in paths:paths.append(latest_path)
+                latest_source=ROOT/'content/editions'/(latest['id']+'.json')
+                photographed=json.loads(latest_source.read_text()) if latest_source.exists() else {}
+                if photographed.get('image_review'):
+                    paths.append('/real/articles/'+latest['id']+'/lead.html')
+                    dated_reader=ROOT/'docs/readers'/(latest['id']+'.html')
+                    if dated_reader.exists():paths.append('/real/readers/'+latest['id']+'.html?story=lead')
                 for s in scenarios:paths.append('/'+s['type']+'/docs/'+s['type']+'/'+s['date']+'.html')
                 for width in [320,375,390,1440]:
                     page.set_viewport_size({'width':width,'height':900})
@@ -57,7 +67,11 @@ def run(screenshots=None):
                         if '/real/' in path and any('/'+edition+'/' in path for edition in ['morning','midday','evening']):
                             current=page.locator('.edition-desk [aria-current=page]')
                             assert current.count()==1
-                            assert current.first.get_attribute('href')=='../'+path.split('/')[2]+'/2026-10-12.html'
+                            assert current.first.evaluate('(a)=>new URL(a.href).pathname')==path
+                        for img in page.locator('[data-editorial-image] img').all():
+                            img.scroll_into_view_if_needed()
+                            img.evaluate('(img)=>img.decode()')
+                            assert img.evaluate('(img)=>img.naturalWidth>=200&&img.naturalHeight>=200'),f'Broken photograph: {path}'
                         checks.append(f'{width}px {path}: no overflow or JavaScript errors')
                         if screenshots and width in [375,1440] and path in paths[:2]:
                             screenshots.mkdir(parents=True,exist_ok=True)
@@ -70,6 +84,14 @@ def run(screenshots=None):
                 assert page.locator('.edition-desk [aria-current=page]').count()==1
                 page.locator('[data-theme-toggle]').click();assert page.locator('html').get_attribute('data-theme')=='dark'
                 checks.append('Keyboard sports details, current edition and dark theme passed')
+                if photographed.get('image_review'):
+                    page.goto(base+latest_path)
+                    photos=page.locator('[data-editorial-image] img')
+                    assert photos.count()>=3,'Reviewed edition lacks photograph coverage'
+                    photos.first.evaluate('(img)=>{img.dispatchEvent(new Event("error"))}')
+                    assert page.locator('[data-image-fallback]').first.is_visible()
+                    assert page.locator('#main').is_visible()
+                    checks.append('Local photographs decode in edition/articles/readers; failed photograph shows readable fallback')
                 page.goto(base+'/real/articles/2026-10-12-morning/cyprus-1.html')
                 page.locator('[data-bookmark]').click();assert page.locator('[data-bookmark]').get_attribute('aria-pressed')=='true'
                 page.evaluate('scrollTo(0,document.documentElement.scrollHeight/2)');page.wait_for_timeout(350)

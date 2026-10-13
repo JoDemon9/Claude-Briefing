@@ -179,6 +179,33 @@
             "attribution": {
               "type": "string",
               "minLength": 3
+            },
+            "caption": {
+              "type": "string",
+              "minLength": 3
+            },
+            "license": {
+              "type": "string",
+              "minLength": 3
+            },
+            "source_url": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            },
+            "original_url": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            },
+            "license_url": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            },
+            "retrieved_at": {
+              "type": "string",
+              "format": "date-time"
             }
           }
         },
@@ -194,6 +221,10 @@
         },
         "evidence_note": {
           "type": "string"
+        },
+        "image_unavailable_reason": {
+          "type": "string",
+          "minLength": 15
         }
       },
       "additionalProperties": false
@@ -792,6 +823,23 @@
           }
         }
       }
+    },
+    "image_review": {
+      "type": "object",
+      "required": [
+        "version",
+        "completed_at"
+      ],
+      "properties": {
+        "version": {
+          "const": 1
+        },
+        "completed_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false

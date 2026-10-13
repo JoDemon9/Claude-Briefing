@@ -1,5 +1,8 @@
 (()=>{'use strict';
 const doc=document.documentElement;
+const missingPhoto=img=>{const f=img.closest('[data-editorial-image]');if(f){img.hidden=true;const note=f.querySelector('[data-image-fallback]');if(note)note.hidden=false;f.classList.add('image-unavailable')}};
+document.addEventListener('error',event=>{if(event.target.tagName==='IMG')missingPhoto(event.target)},true);
+document.querySelectorAll('[data-editorial-image] img').forEach(img=>{if(img.complete&&!img.naturalWidth)missingPhoto(img)});
 const get=k=>{try{return localStorage.getItem(k)}catch{return null}};
 const set=(k,v)=>{try{localStorage.setItem(k,v);return true}catch{return false}};
 doc.dataset.theme=get('oracle-black-label-theme')||'light';
