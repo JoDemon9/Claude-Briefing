@@ -1,0 +1,1130 @@
+{
+  "schema_version": 2,
+  "id": "2026-10-13-morning",
+  "date": "2026-10-13",
+  "type": "morning",
+  "timezone": "Europe/Athens",
+  "published_at": "2026-10-13T08:17:36.655786+03:00",
+  "status": "published",
+  "title": "Κυπριακό, ασιατικές αγορές και παγκόσμια ανάπτυξη",
+  "url": "morning/2026-10-13.html",
+  "preserve_legacy_html": true,
+  "articles": [
+    "articles/2026-10-13-morning/lead.json",
+    "articles/2026-10-13-morning/cyprus-1.json",
+    "articles/2026-10-13-morning/cyprus-2.json",
+    "articles/2026-10-13-morning/cyprus-3.json",
+    "articles/2026-10-13-morning/cyprus-4.json",
+    "articles/2026-10-13-morning/cyprus-5.json",
+    "articles/2026-10-13-morning/cyprus-6.json",
+    "articles/2026-10-13-morning/world-1.json",
+    "articles/2026-10-13-morning/world-2.json",
+    "articles/2026-10-13-morning/world-3.json",
+    "articles/2026-10-13-morning/world-4.json",
+    "articles/2026-10-13-morning/world-5.json",
+    "articles/2026-10-13-morning/sport-tennis.json",
+    "articles/2026-10-13-morning/sport-coventry.json",
+    "articles/2026-10-13-morning/sport-jordan-jersey.json"
+  ],
+  "changes": [
+    {
+      "kind": "Προσθήκη",
+      "story_id": "2026-10-13-lead",
+      "text": "Επιβεβαιώθηκε η σημερινή συνάντηση Χριστοδουλίδη–Έρχιουρμαν στις 15:30 και το κριτήριο για μετρήσιμο επόμενο βήμα."
+    },
+    {
+      "kind": "Εξέλιξη",
+      "story_id": "2026-10-13-world-2",
+      "text": "Η ασιατική συνεδρία κατέγραψε απότομη πτώση, με KOSPI άνω του 7% ενδοσυνεδριακά και πίεση στις μετοχές chips."
+    },
+    {
+      "kind": "Προσθήκη",
+      "story_id": "2026-10-13-world-1",
+      "text": "Το νέο World Economic Outlook του ΔΝΤ τοποθετεί την παγκόσμια ανάπτυξη στο 3,1% για το 2026."
+    },
+    {
+      "kind": "Διόρθωση",
+      "story_id": "jordan-jersey-auction-2026",
+      "text": "Η τιμή της φανέλας Jordan διορθώθηκε σε $12,26 εκατ. και χαρακτηρίζεται ρεκόρ για αναμνηστικό του Jordan, όχι γενικό αθλητικό ρεκόρ."
+    }
+  ],
+  "sports": {
+    "coverage": {
+      "omonoia": {
+        "symbol": "☘",
+        "summary": "Τελευταίο: Καρμιώτισσα–Ομόνοια 0–3 στις 9/10. Επόμενο: Celje–Ομόνοια στις 15/10, 19:45 ώρα Κύπρου. Δεν επαληθεύτηκε νεότερη επίσημη αποστολή ως τη δημοσίευση.",
+        "updated_at": "2026-10-13T08:17:36.655786+03:00",
+        "last_match": {
+          "opponent": "Καρμιώτισσα",
+          "competition": "Πρωτάθλημα Κύπρου",
+          "date": "2026-10-09",
+          "venue": null,
+          "result": "Καρμιώτισσα 0–3 Ομόνοια",
+          "scorers": null,
+          "verified_at": "2026-10-13T08:17:36.655786+03:00",
+          "sources": [
+            {
+              "publisher": "Sportime",
+              "url": "https://sportime.sigmalive.com/ta-telika-symperasmata-kai-i-ektimisi-apo-to-teleytaio-tis-omonoias/",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "Sportime",
+              "kind": "reporting",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Celje",
+          "competition": "UEFA Europa League",
+          "date": "2026-10-15",
+          "venue": null,
+          "kickoff_at": "2026-10-15T18:45:00+02:00",
+          "verified_at": "2026-10-13T08:17:36.655786+03:00",
+          "sources": [
+            {
+              "publisher": "UEFA",
+              "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2177782493b9-69ba3288701d-1000--europa-league-league-phase-fixtures-by-team/",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "UEFA",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Το 3–0 είναι ένδειξη αποτελεσματικότητας στο συγκεκριμένο παιχνίδι. Δεν διαθέτουμε πλήρη επαληθευμένη σειρά τελικών προσπαθειών ή αναμενόμενων γκολ για λεπτομερή τακτική διάγνωση.",
+        "watch_next": "Την επίσημη αποστολή, τυχόν ιατρικό δελτίο και την τελική ενδεκάδα για το εκτός έδρας παιχνίδι με τη Celje.",
+        "league_position": null,
+        "form": null,
+        "updates": [
+          {
+            "text": "Η Celje νίκησε την Aluminij 1–0, με γκολ Avdyil στο 10ο λεπτό, σύμφωνα με το ρεπορτάζ Kerkida. Πρόκειται για ενημέρωση του αντιπάλου.",
+            "sources": [
+              {
+                "publisher": "Kerkida",
+                "url": "https://www.kerkida.net/eyropaikoi-agones/omonoia/endiaferei-omonoia-etsi-epestrepse-stis-nikes-i-celje-stigmiotypa",
+                "published_at": null,
+                "retrieved_at": "2026-10-13T05:17:00+00:00",
+                "reporting_group": "Kerkida",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Ρεπορτάζ",
+            "published_at": "2026-10-11"
+          },
+          {
+            "text": "Το Sportime τονίζει την ανάγκη συνέπειας μετά τη νίκη. Πρόκειται για δημοσιογραφική αξιολόγηση, όχι νέα δήλωση του προπονητή.",
+            "sources": [
+              {
+                "publisher": "Sportime",
+                "url": "https://sportime.sigmalive.com/ta-telika-symperasmata-kai-i-ektimisi-apo-to-teleytaio-tis-omonoias/",
+                "published_at": null,
+                "retrieved_at": "2026-10-13T05:17:00+00:00",
+                "reporting_group": "Sportime",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Συντακτική αποτίμηση",
+            "published_at": "2026-10-11"
+          }
+        ],
+        "no_update_reason": "Δεν έχει επαληθευτεί νέα ουσιαστική ενημέρωση πέρα από τα παρατιθέμενα στοιχεία."
+      },
+      "manutd": {
+        "symbol": "M",
+        "summary": "Τελευταίο: Manchester United–Tottenham 1–1 στις 10/10. Επόμενο: Atlético Madrid–United σήμερα στις 22:00 ώρα Κύπρου.",
+        "updated_at": "2026-10-13T08:17:36.655786+03:00",
+        "last_match": {
+          "opponent": "Tottenham",
+          "competition": "Premier League",
+          "date": "2026-10-10",
+          "result": "Manchester United 1–1 Tottenham",
+          "venue": "Old Trafford",
+          "scorers": null,
+          "verified_at": "2026-10-13T08:17:36.655786+03:00",
+          "sources": [
+            {
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/sports/soccer/spurs-show-fight-uniteds-struggles-deepen-old-trafford-2026-10-10/",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "Reuters",
+              "kind": "wire",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Atlético Madrid",
+          "competition": "UEFA Champions League",
+          "date": "2026-10-13",
+          "venue": "Riyadh Air Metropolitano",
+          "kickoff_at": "2026-10-13T21:00:00+02:00",
+          "verified_at": "2026-10-13T08:17:36.655786+03:00",
+          "sources": [
+            {
+              "publisher": "Manchester United",
+              "url": "https://www.manutd.com/en/news/champions-league-dates-confirmed-2026-27",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "Manchester United",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Η United έχει έξι βαθμούς σε έξι αγώνες πρωταθλήματος, το χαμηλότερο ξεκίνημά της από το 1986–87 σύμφωνα με Reuters. Η ευρωπαϊκή αντίδραση είναι ζητούμενο, όχι προεξοφλημένο γεγονός.",
+        "watch_next": "Επίσημη ενδεκάδα, διαχείριση της μετάβασης μετά το 1–1 με Tottenham και αντίδραση απέναντι σε αντίπαλο υψηλής έντασης.",
+        "league_position": null,
+        "form": null,
+        "updates": [
+          {
+            "published_at": "2026-10-12T19:00:00+00:00",
+            "status": "Δήλωση προπονητή",
+            "text": "Ο Michael Carrick παραδέχθηκε ότι η ομάδα έμεινε κάτω από τις προσδοκίες και δήλωσε ότι περιμένει αντίδραση απέναντι στην Atlético.",
+            "sources": [
+              {
+                "publisher": "Reuters",
+                "url": "https://www.reuters.com/sports/soccer/carrick-backs-man-united-emerge-rough-spell-ahead-atletico-test-2026-10-12/",
+                "published_at": null,
+                "retrieved_at": "2026-10-13T05:17:00+00:00",
+                "reporting_group": "Reuters",
+                "kind": "wire",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          }
+        ],
+        "no_update_reason": "Δεν επαληθεύτηκε νέα ουσιαστική ανακοίνωση για τραυματισμούς, προπόνηση ή αποστολή. Η απουσία ενημέρωσης δεν δηλώνει διαθεσιμότητα όλων των παικτών."
+      },
+      "realmadrid": {
+        "symbol": "♛",
+        "summary": "Τελευταίο: Real Madrid–Villarreal 1–0 στις 10/10. Επόμενο: Roma–Real Madrid στις 14/10, 22:00 ώρα Κύπρου. Δεν επαληθεύτηκε νέα τελική αποστολή.",
+        "updated_at": "2026-10-13T08:17:36.655786+03:00",
+        "last_match": {
+          "opponent": "Villarreal",
+          "competition": "La Liga",
+          "date": "2026-10-10",
+          "venue": "Santiago Bernabéu",
+          "result": "1–0",
+          "scorers": [
+            "Yan Diomande"
+          ],
+          "verified_at": "2026-10-13T08:17:36.655786+03:00",
+          "sources": [
+            {
+              "publisher": "The Daily Star / AFP",
+              "url": "https://www.thedailystar.net/sports/football/news/real-madrid-edge-villarreal-vinicius-sent-hair-pull-4295686",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "AFP",
+              "kind": "reporting",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Roma",
+          "competition": "UEFA Champions League",
+          "date": "2026-10-14",
+          "venue": null,
+          "kickoff_at": "2026-10-14T21:00:00+02:00",
+          "verified_at": "2026-10-13T08:17:36.655786+03:00",
+          "sources": [
+            {
+              "publisher": "Real Madrid",
+              "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-calendario-del-real-madrid-en-octubre-24-09-2026",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "Real Madrid",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Το AFP περιγράφει περιορισμένες ευκαιρίες στο πρώτο μέρος, βελτίωση αμυντικής εικόνας και αντοχή με δέκα παίκτες στο τέλος. Αυτές είναι περιγραφές της συγκεκριμένης αναφοράς· δεν τις μετατρέπουμε σε μέτρηση απόδοσης για ολόκληρη τη σεζόν.",
+        "watch_next": "Επιλογές στην επίθεση και επίσημη πειθαρχική απόφαση. Η αποβολή σε αγώνα πρωταθλήματος δεν ισοδυναμεί αυτόματα με αποκλεισμό από το Champions League.",
+        "league_position": "Προσωρινά 3η μετά τον αγώνα, κατά AFP · 10/10· δεν είναι ενημερωμένος πλήρης πίνακας",
+        "form": null,
+        "updates": [
+          {
+            "text": "Αποβολή Vinícius μετά από έλεγχο VAR για τράβηγμα μαλλιών· το γκολ του ακυρώθηκε. Η διάρκεια ενδεχόμενης ποινής δεν έχει επιβεβαιωθεί.",
+            "sources": [
+              {
+                "publisher": "The Daily Star / AFP",
+                "url": "https://www.thedailystar.net/sports/football/news/real-madrid-edge-villarreal-vinicius-sent-hair-pull-4295686",
+                "published_at": null,
+                "retrieved_at": "2026-10-13T05:17:00+00:00",
+                "reporting_group": "AFP",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Ρεπορτάζ",
+            "published_at": "2026-10-10"
+          },
+          {
+            "text": "Ο Mbappé ξεκίνησε και αγωνίστηκε μετά το αναφερόμενο πρόβλημα στο γόνατο. Η συμμετοχή του δεν αποτελεί ιατρική επιβεβαίωση διαθεσιμότητας για τον επόμενο αγώνα.",
+            "sources": [
+              {
+                "publisher": "The Daily Star / AFP",
+                "url": "https://www.thedailystar.net/sports/football/news/real-madrid-edge-villarreal-vinicius-sent-hair-pull-4295686",
+                "published_at": null,
+                "retrieved_at": "2026-10-13T05:17:00+00:00",
+                "reporting_group": "AFP",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Ρεπορτάζ",
+            "published_at": "2026-10-10"
+          },
+          {
+            "text": "Ο σύλλογος δημοσιεύει το εκτός έδρας Roma–Real στις 21:00 CEST· η μετατροπή δίνει 22:00 Europe/Athens.",
+            "sources": [
+              {
+                "publisher": "Real Madrid",
+                "url": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/el-calendario-del-real-madrid-en-octubre-24-09-2026",
+                "published_at": null,
+                "retrieved_at": "2026-10-13T05:17:00+00:00",
+                "reporting_group": "Real Madrid",
+                "kind": "primary",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Επίσημο πρόγραμμα",
+            "published_at": "2026-09-24"
+          }
+        ],
+        "no_update_reason": "Δεν έχει επαληθευτεί νέα ουσιαστική ενημέρωση πέρα από τα παρατιθέμενα στοιχεία."
+      },
+      "formula1": {
+        "symbol": "F1",
+        "summary": "Singapore GP: Verstappen 1ος, Leclerc 2ος, Antonelli 3ος. Επόμενος κύριος αγώνας το US Grand Prix στο Austin στις 25/10.",
+        "updated_at": "2026-10-13T08:17:36.655786+03:00",
+        "last_match": null,
+        "next_fixture": null,
+        "latest_session": {
+          "event": "Singapore Grand Prix",
+          "session_type": "Κύριος αγώνας",
+          "date": "2026-10-11",
+          "results": "Verstappen 1:42:00.785 · Leclerc +7.335s · Antonelli +24.573s. Norris 4ος, Piastri 5ος, Hamilton 6ος.",
+          "implications": "Ο Guardian αναφέρει προβάδισμα Antonelli 102 βαθμών από Russell και 111 από Hamilton. Το ενδεχόμενο τίτλου στο Austin εξαρτάται από συνδυασμό αποτελεσμάτων· δεν έχει ήδη κριθεί.",
+          "incidents": "Η επίσημη κατάταξη καταγράφει εγκαταλείψεις Albon, Stroll, Colapinto και Bortoleto. Δεν δίνει από μόνη της την αιτία κάθε εγκατάλειψης.",
+          "verified_at": "2026-10-13T08:17:36.655786+03:00",
+          "sources": [
+            {
+              "publisher": "Formula 1",
+              "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "Formula 1",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            },
+            {
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/sport/2026/oct/11/antonelli-one-win-from-title-after-verstappen-wins-singapore-f1-gp",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "The Guardian",
+              "kind": "reporting",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_grand_prix": "Grand Prix ΗΠΑ · Circuit of The Americas, Austin · 25/10/2026",
+        "sessions": [],
+        "analysis": "Χωρίς επαληθευμένα πρόσθετα δεδομένα δεν συνάγεται τακτικό συμπέρασμα.",
+        "watch_next": "Επίσημη ανακοίνωση αγώνα και αποστολής.",
+        "league_position": null,
+        "form": null,
+        "updates": [
+          {
+            "text": "Ο Hamilton ανέλαβε ευθύνη για την επιλογή να μη σταματήσει υπό εικονικό αυτοκίνητο ασφαλείας, κατά Guardian. Ο Vasseur περιγράφει διαφορετικά την επικοινωνία ομάδας και οδηγού.",
+            "sources": [
+              {
+                "publisher": "The Guardian",
+                "url": "https://www.theguardian.com/sport/2026/oct/11/antonelli-one-win-from-title-after-verstappen-wins-singapore-f1-gp",
+                "published_at": null,
+                "retrieved_at": "2026-10-13T05:17:00+00:00",
+                "reporting_group": "The Guardian",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Ρεπορτάζ",
+            "published_at": "2026-10-11"
+          },
+          {
+            "text": "Η Mercedes προσπαθεί να αξιοποιήσει πρόσφατες αναβαθμίσεις. Ο Antonelli δήλωσε ότι χρειάζεται καλύτερη προσωπική απόδοση· δεν τεκμηριώνεται εδώ συγκεκριμένο νέο τεχνικό εξάρτημα.",
+            "sources": [
+              {
+                "publisher": "The Guardian",
+                "url": "https://www.theguardian.com/sport/2026/oct/11/antonelli-one-win-from-title-after-verstappen-wins-singapore-f1-gp",
+                "published_at": null,
+                "retrieved_at": "2026-10-13T05:17:00+00:00",
+                "reporting_group": "The Guardian",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Ρεπορτάζ",
+            "published_at": "2026-10-11"
+          },
+          {
+            "text": "Πιθανός τίτλος στο Austin κατά Guardian: νίκη Antonelli, Russell 9ος ή χαμηλότερα και Hamilton 5ος ή χαμηλότερα. Χρειάζεται επανέλεγχος με την επίσημη βαθμολογία και τον κανονισμό.",
+            "sources": [
+              {
+                "publisher": "The Guardian",
+                "url": "https://www.theguardian.com/sport/2026/oct/11/antonelli-one-win-from-title-after-verstappen-wins-singapore-f1-gp",
+                "published_at": null,
+                "retrieved_at": "2026-10-13T05:17:00+00:00",
+                "reporting_group": "The Guardian",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "status": "Ρεπορτάζ",
+            "published_at": "2026-10-11"
+          }
+        ],
+        "no_update_reason": "Δεν έχει επαληθευτεί νέα ουσιαστική ενημέρωση πέρα από τα παρατιθέμενα στοιχεία.",
+        "next_gp_sources": [
+          {
+            "publisher": "Formula 1",
+            "url": "https://www.formula1.com/en/racing/2026/united-states",
+            "published_at": null,
+            "retrieved_at": "2026-10-13T05:17:00+00:00",
+            "reporting_group": "Formula 1",
+            "kind": "primary",
+            "access": "read",
+            "used_for_claims": true
+          }
+        ],
+        "session_times_reason": "Η ανακτημένη σελίδα δείχνει ώρες στην επιλογή «MY TIME» χωρίς επαληθευμένη timezone στο κείμενο. Δεν τις μετατρέπουμε αυθαίρετα σε ώρα Κύπρου."
+      }
+    },
+    "major_stories": [
+      {
+        "headline": "Bergs απέκλεισε τον Alcaraz — ο Zverev κλειδώνει το Νο 1 της χρονιάς",
+        "published_at": "2026-10-12",
+        "summary": "Ο Zizou Bergs νίκησε τον Carlos Alcaraz 7–5, 7–6(4) στη Σαγκάη. Το αποτέλεσμα επιβεβαίωσε τον Alexander Zverev ως year-end No.1.",
+        "why_it_matters": "Το αποτέλεσμα αλλάζει τόσο την πορεία της Σαγκάης όσο και τη βεβαιότητα για το Νο 1 στο τέλος της σεζόν.",
+        "sources": [
+          {
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/sports/tennis/bergs-shocks-alcaraz-shanghai-zverev-claims-year-end-top-ranking-2026-10-12/",
+            "published_at": null,
+            "retrieved_at": "2026-10-13T05:17:00+00:00",
+            "reporting_group": "Reuters",
+            "kind": "wire",
+            "access": "read",
+            "used_for_claims": true
+          }
+        ],
+        "article_id": "sport-tennis"
+      },
+      {
+        "headline": "Coventry: πρώτη εντός έδρας νίκη στην Premier League σε 25 χρόνια",
+        "published_at": "2026-10-12",
+        "summary": "Η Coventry νίκησε 4–1 τη Newcastle και κατέγραψε την πρώτη εντός έδρας νίκη της στην κορυφαία κατηγορία επί 25 χρόνια.",
+        "why_it_matters": "Το 4–1 είναι αγωνιστικό και ιστορικό σημείο αναφοράς, αλλά δεν αρκεί μόνο του για συμπέρασμα παραμονής.",
+        "sources": [
+          {
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/sports/soccer/coventry-savour-first-home-premier-league-win-25-years-2026-10-12/",
+            "published_at": null,
+            "retrieved_at": "2026-10-13T05:17:00+00:00",
+            "reporting_group": "Reuters",
+            "kind": "wire",
+            "access": "read",
+            "used_for_claims": true
+          }
+        ],
+        "article_id": "sport-coventry"
+      },
+      {
+        "headline": "Φανέλα Michael Jordan από τους τελικούς του 1998 πωλήθηκε $12,26 εκτ.",
+        "published_at": "2026-10-12",
+        "summary": "Η φανέλα του Game 3 των τελικών NBA του 1998 πωλήθηκε για $12,26 εκατ., ρεκόρ για αναμνηστικό του Jordan σύμφωνα με το Reuters· δεν είναι το γενικό ρεκόρ αθλητικού αναμνηστικού.",
+        "why_it_matters": "Η τιμή αποτυπώνει τη σπανιότητα του συγκεκριμένου αντικειμένου και όχι μια γενική αποτίμηση όλων των αθλητικών αναμνηστικών.",
+        "sources": [
+          {
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/sports/michael-jordans-last-dance-jersey-sells-record-1226m--flm-2026-10-01/",
+            "published_at": null,
+            "retrieved_at": "2026-10-13T05:17:00+00:00",
+            "reporting_group": "Reuters",
+            "kind": "wire",
+            "access": "read",
+            "used_for_claims": true
+          }
+        ],
+        "article_id": "sport-jordan-jersey"
+      }
+    ],
+    "major_stories_reason": "Περιλαμβάνονται τρεις επαληθευμένες ειδήσεις εκτός των σταθερών φακέλων."
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "value": 7807.24,
+      "change_pct": -0.06,
+      "currency": "USD",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T16:00:00-04:00",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-stays-above-100-ahead-earnings-2026-10-12/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": 27245.9,
+      "change_pct": -0.44,
+      "currency": "USD",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T16:00:00-04:00",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-stays-above-100-ahead-earnings-2026-10-12/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "Dow Jones",
+      "value": 51850.55,
+      "change_pct": 0.38,
+      "currency": "USD",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T16:00:00-04:00",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-stays-above-100-ahead-earnings-2026-10-12/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "STOXX Europe 600",
+      "value": 635.65,
+      "change_pct": 0.65,
+      "currency": "EUR",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T17:30:00+02:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Paris",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "DAX",
+      "value": 25277.68,
+      "change_pct": 0.76,
+      "currency": "EUR",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T17:30:00+02:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Berlin",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "FTSE 100",
+      "value": 10656.28,
+      "change_pct": 0.99,
+      "currency": "GBP",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T16:30:00+01:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Yahoo Finance",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/London",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "ΧΑΚ Γενικός",
+      "value": 310.09,
+      "change_pct": 0.76,
+      "currency": "EUR",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T17:00:00+03:00",
+      "sources": [
+        {
+          "publisher": "ΚΥΠΕ",
+          "url": "https://www.cna.org.cy/en",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "ΚΥΠΕ",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Athens",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "KOSPI",
+      "value": 5914.35,
+      "change_pct": -7.4,
+      "currency": "KRW",
+      "unit": "μονάδες δείκτη",
+      "status": "delayed",
+      "quoted_at": "2026-10-13T11:52:00+09:00",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/stocks-markets-us-tech-oil-mideast-a2edaf9ec297fb75ff2a4e245063ec08",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Associated Press",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Asia/Seoul",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "Nikkei 225",
+      "value": 67292.39,
+      "change_pct": -2.5,
+      "currency": "JPY",
+      "unit": "μονάδες δείκτη",
+      "status": "delayed",
+      "quoted_at": "2026-10-13T11:52:00+09:00",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/stocks-markets-us-tech-oil-mideast-a2edaf9ec297fb75ff2a4e245063ec08",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Associated Press",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Asia/Tokyo",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "Brent",
+      "value": 105.2,
+      "change_pct": -1.4,
+      "currency": "USD",
+      "unit": "βαρέλι",
+      "status": "delayed",
+      "quoted_at": "2026-10-13T06:30:00+03:00",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/africa/dollar-holds-near-18-month-high-geopolitical-risks-rise-2026-10-13/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": null,
+      "asset_class": "commodity",
+      "precision": 2
+    },
+    {
+      "name": "EUR/USD",
+      "value": 1.1177,
+      "change_pct": 0.2,
+      "currency": "USD",
+      "unit": "1 EUR",
+      "status": "delayed",
+      "quoted_at": "2026-10-13T06:30:00+03:00",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/africa/dollar-holds-near-18-month-high-geopolitical-risks-rise-2026-10-13/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": null,
+      "asset_class": "fx",
+      "precision": 4
+    },
+    {
+      "name": "Micron",
+      "value": 989.04,
+      "change_pct": -3.87,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T16:00:00-04:00",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-stays-above-100-ahead-earnings-2026-10-12/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Microsoft",
+      "value": 541.15,
+      "change_pct": 1.12,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T16:00:00-04:00",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-stays-above-100-ahead-earnings-2026-10-12/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Meta",
+      "value": 742.96,
+      "change_pct": 3.38,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T16:00:00-04:00",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-stays-above-100-ahead-earnings-2026-10-12/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Chipotle",
+      "value": 30.4,
+      "change_pct": -3.74,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T16:00:00-04:00",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-stays-above-100-ahead-earnings-2026-10-12/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "eBay",
+      "value": 114.65,
+      "change_pct": 2.17,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T16:00:00-04:00",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-stays-above-100-ahead-earnings-2026-10-12/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "TSMC ADR",
+      "value": 444.35,
+      "change_pct": -1.94,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T16:00:00-04:00",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-stays-above-100-ahead-earnings-2026-10-12/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Nvidia",
+      "value": 226.32,
+      "change_pct": -1.21,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T16:00:00-04:00",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-stays-above-100-ahead-earnings-2026-10-12/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Alphabet",
+      "value": 352.72,
+      "change_pct": 0.31,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T16:00:00-04:00",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-stays-above-100-ahead-earnings-2026-10-12/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Apple",
+      "value": 340.97,
+      "change_pct": 1.31,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "previous_close",
+      "quoted_at": "2026-10-12T16:00:00-04:00",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-stays-above-100-ahead-earnings-2026-10-12/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Reuters",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "ΕΚΤ · διευκόλυνση καταθέσεων",
+      "value": 2.5,
+      "change_pct": null,
+      "currency": "EUR",
+      "unit": "% ετησίως",
+      "status": "previous_close",
+      "quoted_at": "2026-09-16",
+      "sources": [
+        {
+          "publisher": "Ευρωπαϊκή Κεντρική Τράπεζα",
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Ευρωπαϊκή Κεντρική Τράπεζα",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Athens",
+      "asset_class": "rate",
+      "precision": 3
+    },
+    {
+      "name": "ΕΚΤ · κύριες πράξεις αναχρηματοδότησης",
+      "value": 2.65,
+      "change_pct": null,
+      "currency": "EUR",
+      "unit": "% ετησίως",
+      "status": "previous_close",
+      "quoted_at": "2026-09-16",
+      "sources": [
+        {
+          "publisher": "Ευρωπαϊκή Κεντρική Τράπεζα",
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Ευρωπαϊκή Κεντρική Τράπεζα",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Athens",
+      "asset_class": "rate",
+      "precision": 3
+    },
+    {
+      "name": "ΕΚΤ · οριακή χρηματοδότηση",
+      "value": 2.9,
+      "change_pct": null,
+      "currency": "EUR",
+      "unit": "% ετησίως",
+      "status": "previous_close",
+      "quoted_at": "2026-09-16",
+      "sources": [
+        {
+          "publisher": "Ευρωπαϊκή Κεντρική Τράπεζα",
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "Ευρωπαϊκή Κεντρική Τράπεζα",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Athens",
+      "asset_class": "rate",
+      "precision": 3
+    },
+    {
+      "name": "Euribor 3 μηνών",
+      "value": 2.632,
+      "change_pct": null,
+      "currency": "EUR",
+      "unit": "% ετησίως",
+      "status": "previous_close",
+      "quoted_at": "2026-10-09",
+      "sources": [
+        {
+          "publisher": "EuriborDay",
+          "url": "https://www.euriborday.com/en/euribor-by-year/2026/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "EuriborDay",
+          "kind": "context",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Athens",
+      "asset_class": "rate",
+      "precision": 3
+    },
+    {
+      "name": "Euribor 6 μηνών",
+      "value": 2.909,
+      "change_pct": null,
+      "currency": "EUR",
+      "unit": "% ετησίως",
+      "status": "previous_close",
+      "quoted_at": "2026-10-09",
+      "sources": [
+        {
+          "publisher": "EuriborDay",
+          "url": "https://www.euriborday.com/en/euribor-by-year/2026/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "EuriborDay",
+          "kind": "context",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Athens",
+      "asset_class": "rate",
+      "precision": 3
+    },
+    {
+      "name": "Euribor 12 μηνών",
+      "value": 3.191,
+      "change_pct": null,
+      "currency": "EUR",
+      "unit": "% ετησίως",
+      "status": "previous_close",
+      "quoted_at": "2026-10-09",
+      "sources": [
+        {
+          "publisher": "EuriborDay",
+          "url": "https://www.euriborday.com/en/euribor-by-year/2026/",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T05:17:00+00:00",
+          "reporting_group": "EuriborDay",
+          "kind": "context",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Athens",
+      "asset_class": "rate",
+      "precision": 3
+    }
+  ],
+  "calculator": {
+    "principal": 150000,
+    "years": 25,
+    "annual_rate": 3.5
+  },
+  "editorial_completed_at": "2026-10-13T08:17:36.655786+03:00"
+}

@@ -283,10 +283,15 @@ def _render(root=ROOT):
     write(ROOT/'docs/data/reader-routes.json',json.dumps(route_registry,ensure_ascii=False,indent=2)+'\n')
     for name in ['newspaper','article']:
         write(ROOT/'docs/assets'/(name+'.css'),(ROOT/'templates/v2'/(name+'.css')).read_text(encoding='utf-8'))
-    archive=head('Αρχείο εκδόσεων','index.html','newspaper')+'<header class="masthead wrap"><div class="brand"><h1>THE ORACLE <em>SOVEREIGN.</em></h1><p>Αρχείο δημοσιευμένων εκδόσεων</p></div></header><main class="wrap" id="main"><div class="tools"><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button><a href="search.html">Αναζήτηση άρθρων</a><a href="https://jodemon9.github.io/oracle-briefing/">Κεντρική πύλη ↗</a></div><div class="g3">'
-    for x in registry:
-        archive+=f'<article class="newscard"><div class="story-content"><p>{x["date"]} · {TYPES[x["type"]]} έκδοση</p><h2>{esc(x["title"])}</h2><p>{stamp(x["published_at"])}</p><a class="read-link" href="{esc(x["url"])}">Ανάγνωση έκδοσης ↗</a></div></article>'
-    write(ROOT/'docs/index.html',archive+'</div></main></body></html>')
+    archive=head('Αρχείο εκδόσεων','index.html','newspaper')+'<header class="masthead wrap"><div class="brand"><h1>THE ORACLE <em>SOVEREIGN.</em></h1><p>Αρχείο δημοσιευμένων εκδόσεων</p></div></header><main class="wrap" id="main"><div class="tools"><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button><a href="search.html">Αναζήτηση άρθρων</a><a href="https://jodemon9.github.io/oracle-briefing/">Κεντρική πύλη ↗</a></div>'
+    current_id=registry[0]['id'] if registry else None
+    for edition_type, label in TYPES.items():
+        archive+=f'<section class="section" id="{edition_type}"><div class="sectionhead"><h2>{label}.</h2></div><div class="g3">'
+        for x in (item for item in registry if item['type']==edition_type):
+            current=x['id']==current_id
+            archive+=f'<article class="newscard{" current" if current else ""}"><div class="story-content"><p>{x["date"]} · {TYPES[x["type"]]} έκδοση{" · Τρέχουσα" if current else ""}</p><h3>{esc(x["title"])}</h3><p>{stamp(x["published_at"])}</p><a class="read-link" href="{esc(x["url"])}"'+(' aria-current="page"' if current else '')+'>Ανάγνωση έκδοσης ↗</a></div></article>'
+        archive+='</div></section>'
+    write(ROOT/'docs/index.html',archive+'</main></body></html>')
     print(f'Built {len(bundles)} editions, {len(search)} separate articles, {len(registry)} archive entries')
 
 
