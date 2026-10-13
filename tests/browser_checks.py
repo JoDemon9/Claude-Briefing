@@ -47,6 +47,12 @@ def run(screenshots=None):
                 latest_source=ROOT/'content/editions'/(latest['id']+'.json')
                 photographed=json.loads(latest_source.read_text()) if latest_source.exists() else {}
                 if photographed.get('image_review'):
+                    for source in (ROOT/'content/editions').glob('*.json'):
+                        reviewed=json.loads(source.read_text())
+                        if reviewed.get('reading_review'):
+                            edition_path='/real/'+reviewed['url']
+                            if edition_path not in paths:paths.append(edition_path)
+                            paths.extend('/real/articles/'+reviewed['id']+'/'+Path(a).stem+'.html' for a in reviewed['articles'])
                     paths.append('/real/articles/'+latest['id']+'/lead.html')
                     dated_reader=ROOT/'docs/readers'/(latest['id']+'.html')
                     if dated_reader.exists():paths.append('/real/readers/'+latest['id']+'.html?story=lead')
@@ -87,12 +93,17 @@ def run(screenshots=None):
                 if photographed.get('image_review'):
                     page.goto(base+latest_path)
                     photos=page.locator('[data-editorial-image] img')
-                    assert photos.count()>=3,'Reviewed edition lacks photograph coverage'
+                    assert photos.count()==len(photographed['articles']),'Every article must have a photograph' if photographed.get('reading_review') else 'Reviewed edition lacks photograph coverage'
                     photos.first.evaluate('(img)=>{img.dispatchEvent(new Event("error"))}')
                     assert page.locator('[data-image-fallback]').first.is_visible()
                     assert page.locator('#main').is_visible()
                     checks.append('Local photographs decode in edition/articles/readers; failed photograph shows readable fallback')
                 page.goto(base+'/real/articles/2026-10-12-morning/cyprus-1.html')
+                initial=page.evaluate('parseFloat(getComputedStyle(document.querySelector(".prose")).fontSize)')
+                page.locator('[data-font-step="1"]').click()
+                assert page.evaluate('parseFloat(getComputedStyle(document.querySelector(".prose")).fontSize)')>initial
+                page.reload();assert page.evaluate('parseFloat(getComputedStyle(document.querySelector(".prose")).fontSize)')>initial
+                assert page.locator('.reader-toc a').count()>0
                 page.locator('[data-bookmark]').click();assert page.locator('[data-bookmark]').get_attribute('aria-pressed')=='true'
                 page.evaluate('scrollTo(0,document.documentElement.scrollHeight/2)');page.wait_for_timeout(350)
                 page.reload();page.wait_for_timeout(350);page.reload();assert page.locator('[data-resume]').is_visible();page.locator('[data-resume]').click()

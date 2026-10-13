@@ -8,7 +8,7 @@
   "status": "published",
   "title": "Κυπριακό, ασιατικές αγορές και παγκόσμια ανάπτυξη",
   "url": "morning/2026-10-13.html",
-  "preserve_legacy_html": true,
+  "preserve_legacy_html": false,
   "articles": [
     "articles/2026-10-13-morning/lead.json",
     "articles/2026-10-13-morning/cyprus-1.json",
@@ -1133,7 +1133,35 @@
   },
   "editorial_completed_at": "2026-10-13T08:17:36.655786+03:00",
   "image_review": {
+    "version": 2,
+    "completed_at": "2026-10-13T15:54:24+03:00"
+  },
+  "image_revision_at": "2026-10-13T15:54:24+03:00",
+  "reading_review": {
     "version": 1,
-    "completed_at": "2026-10-13T10:31:13+03:00"
-  }
+    "completed_at": "2026-10-13T16:08:42+03:00"
+  },
+  "analysis_revision_at": "2026-10-13T16:08:42+03:00",
+  "panels": [
+    {
+      "id": "weather",
+      "heading": "Λεμεσός και επόμενα γεγονότα · αρχικό πρωινό στιγμιότυπο",
+      "paragraphs": [
+        "Λεμεσός & επόμενα γεγονότα. ΚΑΙΡΟΣ ΣΗΜΕΡΑ 19–28°C Μεταβλητές νεφώσεις και μία ή δύο παροδικές μπόρες. Τρέχουσα ένδειξη κατά την ανάκτηση: 20°C, μερική ηλιοφάνεια. Πρόγνωση, όχι παρατήρηση επίσημου κυπριακού σταθμού. Πρόγνωση Λεμεσού ↗ ΣΗΜΕΡΑ 15:30 · Χριστοδουλίδης–Έρχιουρμαν, ΟΗΕ. Αποτελέσματα μεγάλων αμερικανικών τραπεζών και συναντήσεις ΔΝΤ/Παγκόσμιας Τράπεζας. 22:00 · Atlético–Manchester United. ΕΠΟΜΕΝΟ 48ΩΡΟ 14/10 · CPI ΗΠΑ και Roma–Real Madrid 22:00. 15/10 09:00 · αποτελέσματα TSMC. 15/10 19:45 · Celje–Ομόνοια. 29/10 · συνεδρίαση ΕΚΤ."
+      ],
+      "sources": [
+        {
+          "publisher": "Πρόγνωση Λεμεσού ↗",
+          "url": "https://www.accuweather.com/en/cy/limassol/124030/weather-forecast/124030",
+          "published_at": null,
+          "retrieved_at": "2026-10-13T08:17:36.655786+03:00",
+          "reporting_group": "Πρωινό μετεωρολογικό/ημερολογιακό πλαίσιο",
+          "kind": "context",
+          "access": "archived",
+          "used_for_claims": true
+        }
+      ]
+    }
+  ],
+  "scheduled_slot": "07:30"
 }

@@ -52,18 +52,22 @@ def source_links(sources):
 
 def blocks(article, excluded=()):
     out = []
-    for section in article['sections']:
+    for index,section in enumerate(article['sections'],1):
         paragraphs=[p for p in section['paragraphs'] if p.strip()!=article['summary'].strip() and p not in excluded]
         if not paragraphs:
             continue
         label = 'Δημοσιευμένες πληροφορίες' if section['kind'] == 'reported' else 'Συντακτική ανάλυση'
-        out.append(f'<section class="section {esc(section["kind"])}"><div class="eyebrow">{label}</div><h2>{esc(section["heading"])}</h2>')
+        out.append(f'<section class="section {esc(section["kind"])}" id="section-{index}"><div class="eyebrow">{label}</div><h2>{esc(section["heading"])}</h2>')
         out.extend(f'<p>{esc(p)}</p>' for p in paragraphs)
         out.append('</section>')
     return ''.join(out)
 
 def words(article):
     return len(' '.join([article['summary']] + [p for s in article['sections'] for p in s['paragraphs'] if p.strip()!=article['summary'].strip()]).split())
+
+def icon(name):
+    paths={'news':'M4 4h16v16H4z M8 8h8 M8 12h8 M8 16h5','globe':'M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20 M2 12h20 M12 2c-5 5-5 15 0 20 M12 2c5 5 5 15 0 20','sport':'M5 3h14v5a7 7 0 0 1-14 0z M5 5H2v3c0 3 3 4 5 4 M19 5h3v3c0 3-3 4-5 4 M12 15v6 M8 21h8','chart':'M3 3v18h18 M6 15l5-5 4 3 5-8','search':'M10 3a7 7 0 1 0 0 14 7 7 0 1 0 0-14 M15 15l6 6','book':'M3 4h7l2 2 2-2h7v16h-7l-2 2-2-2H3z M12 6v16','clock':'M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20 M12 6v6l4 2','sun':'M12 7a5 5 0 1 0 0 10 5 5 0 1 0 0-10 M12 1v3 M12 20v3 M1 12h3 M20 12h3 M4 4l2 2 M18 18l2 2 M4 20l2-2 M18 6l2-2','moon':'M20 15A9 9 0 1 1 9 3a7 7 0 0 0 11 12','archive':'M3 3h18v5H3z M5 8v13h14V8 M9 12h6','up':'M5 14l7-7 7 7','check':'M4 12l5 5L20 6','arrow':'M4 12h16 M14 6l6 6-6 6','photo':'M3 4h18v16H3z M3 17l6-7 5 5 3-3 4 5 M15 7h1','print':'M6 8V2h12v6 M6 18H3V8h18v10h-3 M6 14h12v8H6z'}
+    return '<svg class="ui-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="'+paths.get(name,paths['news'])+'"/></svg>'
 
 def image(a,depth=''):
     im = a.get('image')
@@ -97,12 +101,30 @@ def validate(e, articles):
     if set(TEAMS) != set(e['sports']['coverage']):
         raise ValueError('Permanent sports coverage required')
     ids = {a['id'] for a in articles}
+    policy_start=datetime.fromisoformat('2026-10-13T15:40:17+03:00')
+    new_publication=e['status']=='published' and e.get('published_at') and datetime.fromisoformat(e['published_at'])>=policy_start
+    strict=e.get('reading_review',{}).get('version')==1
+    if new_publication and (not strict or e.get('image_review',{}).get('version')!=2):
+        raise ValueError('New publications require image_review.version=2 and reading_review.version=1')
+    if strict:
+        if e.get('image_review',{}).get('version')!=2:
+            raise ValueError('Full reading review requires mandatory photographs')
+        for a in articles:
+            if not a.get('image'):
+                raise ValueError('Every article requires a licensed photograph: '+a['id'])
+            count=len(' '.join(a.get('newspaper_analysis',[])).split())
+            if not 110<=count<=220:
+                raise ValueError('Newspaper analysis must contain 110–220 useful words: '+a['id'])
+            if words(a)<450:
+                raise ValueError('Full reader requires at least 450 useful words: '+a['id'])
     if e.get('image_review'):
         if not any(a.get('image') for a in articles):
             raise ValueError('Reviewed edition contains no images; finish image research before publishing')
         for a in articles:
             im=a.get('image')
             if not im:
+                if e['image_review']['version']==2:
+                    raise ValueError('Every article requires a licensed photograph: '+a['id'])
                 if not a.get('image_unavailable_reason'):
                     raise ValueError('Missing image research outcome: '+a['id'])
                 continue
@@ -166,7 +188,7 @@ def fixture(record):
         lines.append(f'<dt>Σέντρα · ώρα Κύπρου</dt><dd>{stamp(record["kickoff_at"]) if record["kickoff_at"] else UNKNOWN}</dd>')
     return '<dl class="fixture">'+''.join(lines)+'</dl>'+f'<p class="muted">Έλεγχος: {stamp(record["verified_at"])}</p>'+source_links(record['sources'])
 
-def sports(e):
+def sports(e, articles=()):
     out = ['<section class="section" id="sports"><div class="sectionhead"><h2>Αθλητικός παλμός.</h2><span>Η εικόνα κατά τη δημοσίευση</span></div><div class="sports">']
     for key, t in e['sports']['coverage'].items():
         out.append(f'<article class="sport"><div class="teamicon">{esc(t["symbol"])}</div><h3>{TEAMS[key]}</h3><p>{esc(t["summary"])}</p><p class="muted">Ενημέρωση: {stamp(t["updated_at"])}</p><details><summary>Περισσότερα · {TEAMS[key]}</summary>')
@@ -195,6 +217,10 @@ def sports(e):
         out.append('</details></article>')
     out.append('</div><h3>Μεγάλες αθλητικές ειδήσεις</h3>')
     for a in e['sports']['major_stories']:
+        full=next((x for x in articles if x['id']==a['article_id']),None)
+        if full and full.get('newspaper_analysis'):
+            out.append(card(e,full))
+            continue
         out.append(f'<article class="sport"><h3>{esc(a["headline"])}</h3><p>{stamp(a["published_at"])}</p><p>{esc(a["summary"])}</p><details><summary>Περισσότερα</summary><p>{esc(a["why_it_matters"])}</p>'+source_links(a['sources'])+f'<a class="read-link" href="../articles/{e["id"]}/{a["article_id"]}.html">Διάβασε την ανάλυση ↗</a></details></article>')
     if not e['sports']['major_stories']:
         out.append(f'<p>{esc(e["sports"]["major_stories_reason"])}</p>')
@@ -229,16 +255,18 @@ def card(e, a, hero=False):
     overview='<div class="lead-overview">'+abstract+image(a,'../')+'</div>' if hero else abstract
     shown=[]
     context=''
-    if not hero:
+    if a.get('newspaper_analysis'):
+        context='<div class="card-context"><b>'+icon('book')+' Η ουσία · ½–1 λεπτό</b>'+''.join('<p>'+esc(p)+'</p>' for p in a['newspaper_analysis'])+'</div>'
+    elif not hero:
         reported=[p for s in a['sections'] if s['kind']=='reported' for p in s['paragraphs'] if not p.strip().startswith(a['summary'].strip())][:2]
         analysis=next((s for s in a['sections'] if s['kind']=='analysis'),None)
         shown=reported+(analysis['paragraphs'][:1] if analysis else [])
         context=''.join(f'<p>{esc(p)}</p>' for p in reported)
         if analysis:
             context+=f'<div class="card-context"><b>Συντακτική ανάλυση · {esc(analysis["heading"])}</b><p>{esc(analysis["paragraphs"][0])}</p></div>'
-    more='<details class="story-more"><summary>Περισσότερα μέσα στην έκδοση</summary>'+blocks(a,shown)+'</details>'
+    more='' if a.get('newspaper_analysis') else '<details class="story-more"><summary>Περισσότερα μέσα στην έκδοση</summary>'+blocks(a,shown)+'</details>'
     sources='<details class="sources-disclosure"><summary>Πηγές και χρόνοι αναφοράς</summary>'+source_links(a['sources'])+'</details>'
-    return f'<article class="{cl}" id="{esc(a["id"])}">'+('' if hero else image(a,'../'))+f'<div class="story-content"><div class="eyebrow">{esc(a["category"])}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}>'+overview+context+f'<p class="muted">{sources_label(a["sources"])}</p>'+more+sources+f'<a class="read-link" href="../{article_url(e,a)}">Ξεχωριστό άρθρο ↗</a></div></article>'
+    return f'<article class="{cl}" id="{esc(a["id"])}">'+('' if hero else image(a,'../'))+f'<div class="story-content"><div class="eyebrow">{esc(a["category"])}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}>'+overview+context+f'<p class="muted">{sources_label(a["sources"])}</p>'+more+sources+f'<a class="read-link" href="../{article_url(e,a)}">{icon('book')} Διάβασε την πλήρη ανάλυση · {math.ceil(words(a)/220)}′ {icon('arrow')}</a></div></article>'
 
 def edition_desk(e, registry):
     out = ['<nav class="edition-desk" aria-label="Εκδόσεις της ημέρας"><b>Γραφείο εκδόσεων</b>']
@@ -246,7 +274,7 @@ def edition_desk(e, registry):
         match = next((x for x in registry if x['date'] == e['date'] and x['type'] == t and x['status'] == 'published'), None)
         if match:
             state='Τρέχουσα έκδοση' if match['id']==e['id'] else 'Δημοσιευμένη'
-            out.append(f'<a href="../{match["url"]}" title="{label} · {state}" aria-label="{label} · {state}"'+(' aria-current="page"' if match['id'] == e['id'] else '')+f'>{label}</a>')
+            out.append(f'<a href="../{match["url"]}" title="{label} · {state}" aria-label="{label} · {state}"'+(' aria-current="page"' if match['id'] == e['id'] else '')+f'>{icon({"morning":"sun","midday":"clock","evening":"moon"}[t])}{label}</a>')
         else:
             out.append(f'<span title="{label} · Δεν έχει δημοσιευτεί" aria-label="{label} · Δεν έχει δημοσιευτεί">{label} · —</span>')
     return ''.join(out)+'</nav>'
@@ -254,7 +282,7 @@ def edition_desk(e, registry):
 def head(title, canonical, css, depth='', edition=None):
     indicator = f' data-edition="{esc(edition)}"' if edition else ''
     meta = f'<meta name="oracle-edition" content="{esc(edition)}">' if edition else ''
-    return f'<!doctype html><html lang="el" data-theme="light"{indicator}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{meta}<title>{esc(title)} · The Oracle Sovereign</title><link rel="canonical" href="{BASE}{canonical}"><link rel="stylesheet" href="{depth}assets/{css}.css"><link rel="stylesheet" href="{depth}assets/accessibility.css"><script defer src="{depth}assets/reading.js"></script></head><body><a class="skip-link" href="#main">Μετάβαση στο περιεχόμενο</a>'
+    return f'<!doctype html><html lang="el" data-theme="light"{indicator}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{meta}<title>{esc(title)} · The Oracle Sovereign</title><link rel="canonical" href="{BASE}{canonical}"><link rel="stylesheet" href="{depth}assets/{css}.css"><link rel="stylesheet" href="{depth}assets/accessibility.css"><script defer src="{depth}assets/reading.js"></script></head><body><a class="back-top" href="#main" aria-label="Επιστροφή στην αρχή">{icon("up")}<span>Αρχή</span></a><a class="skip-link" href="#main">Μετάβαση στο περιεχόμενο</a>'
 
 def edition_panels(e):
     return ''.join('<section class="section" id="'+esc(panel['id'])+'"><div class="sectionhead"><h2>'+esc(panel['heading'])+'</h2></div>'+''.join('<p>'+esc(p)+'</p>' for p in panel['paragraphs'])+source_links(panel['sources'])+'</section>' for panel in e.get('panels', []))
@@ -290,8 +318,10 @@ def _render(root=ROOT):
         body = head(f'{TYPES[e["type"]]} έκδοση · {e["date"]} · {e["title"]}',e['url'],'newspaper','../',e['type'])
         slot = ' · '+esc(e['scheduled_slot']) if e.get('scheduled_slot') else ''
         body += f'<div class="line-top"></div><header class="masthead wrap"><div class="m-left">Ανεξάρτητο ημερήσιο briefing<br>Λεμεσός · Κύπρος</div><div class="brand"><h1>THE ORACLE <em>SOVEREIGN.</em></h1><p>Καθαρή ματιά πίσω από τους τίτλους</p></div><div class="m-right"><b>{e["date"]}</b>{TYPES[e["type"]]} έκδοση{slot}<br>Δημοσίευση: {date}</div></header>'
-        body += '<div class="stickybar"><div class="wrap"><nav class="navs" aria-label="Ενότητες εφημερίδας"><a href="#main">Κύρια νέα</a><a href="#cyprus">Κύπρος</a><a href="#world">Διεθνή</a><a href="#sports">Αθλητικά</a><a href="#markets">Αγορές</a><a href="#rates">Δόση</a><a href="../index.html">Αρχείο</a></nav><div class="tools"><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button><a href="../search.html">Αναζήτηση</a><button data-print>Εκτύπωση</button></div></div></div><main class="wrap" id="main">'
+        body += f'<div class="stickybar"><div class="wrap"><nav class="navs" aria-label="Ενότητες εφημερίδας"><a href="#main">{icon('news')} Κύρια νέα</a><a href="#cyprus">{icon('news')} Κύπρος</a><a href="#world">{icon('globe')} Διεθνή</a><a href="#sports">{icon('sport')} Αθλητικά</a><a href="#markets">{icon('chart')} Αγορές</a><a href="#rates">Δόση</a><a href="../index.html">{icon('archive')} Αρχείο</a></nav><div class="tools"><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button><a href="../search.html">{icon('search')} Αναζήτηση</a><button data-print>Εκτύπωση</button></div></div></div><main class="wrap" id="main">'
         body += edition_desk(e,registry)+f'<div class="introbar"><b>{TYPES[e["type"]]} έκδοση{slot} · {e["date"]}</b><span>Δημοσίευση: {date}</span></div>'
+        if e.get('analysis_revision_at'):
+            body += '<p class="revision-note">'+icon('photo')+' Εμπλουτισμός εικόνων και ανάλυσης: '+stamp(e['analysis_revision_at'])+' · Οι αρχικοί χρόνοι ειδήσεων και τιμών διατηρούνται.</p>'
         if aa and aa[0]['category'] == 'Πρώτο θέμα':
             selected=[a for a in aa[1:] if a['category'] in ['Κύπρος','Διεθνή']][:5]
             picks=''.join(f'<div class="brief-line"><b>{i+1:02}</b><p><a href="#{a["id"]}">{esc(a["headline"])}</a></p></div>' for i,a in enumerate(selected))
@@ -305,7 +335,7 @@ def _render(root=ROOT):
         body += '</div></section>'
         if not e.get('calculator'):
             body = body.replace('<a href="#rates">Δόση</a>', '<a href="#watch">Στη συνέχεια</a>' if any(p['id']=='watch' for p in e.get('panels',[])) else '')
-        body += sports(e)+markets(e)+calculator(e)+edition_panels(e)
+        body += sports(e,aa)+markets(e)+calculator(e)+edition_panels(e)
         body += '<p class="warning">Η προσβασιμότητα συνδέσμων και η πραγματολογική διασταύρωση είναι διαφορετικοί έλεγχοι. Οι σελίδες διατηρούν την εικόνα της δικής τους έκδοσης.</p></main><footer class="footer"><div class="wrap">THE ORACLE SOVEREIGN · '+date+'</div></footer></body></html>'
         if not e.get('preserve_legacy_html') or not (ROOT/'docs'/e['url']).is_file():
             write(ROOT/'docs'/e['url'],body)
@@ -318,9 +348,12 @@ def _render(root=ROOT):
             url=article_url(e,a)
             related=''.join(f'<a href="{esc(b["id"])}.html">{esc(b["headline"])}</a>' for b in aa if b['id']!=a['id'] and (b['story_id'] in a.get('related_story_ids',[]) or b['category']==a['category']))
             p=head(a['headline'],url,'article','../../')
-            p+=f'<header class="top"><div class="shell"><a class="logo" href="../../{e["url"]}">THE ORACLE SOVEREIGN.</a><nav class="navlinks"><a href="../../{e["url"]}">← Εφημερίδα</a><a href="../../search.html">Αναζήτηση</a><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button></nav></div></header><main class="shell" id="main" data-article-key="{e["id"]}/{a["id"]}"><div class="kicker">{esc(a["category"])} · {TYPES[e["type"]]} έκδοση</div><h1>{esc(a["headline"])}</h1><div class="eyebrow">Συνοπτική καταγραφή της έκδοσης</div><p class="lede">{esc(a["summary"])}</p><div class="meta"><span>Δημοσίευση: {stamp(a["published_at"])}</span><span>Ενημέρωση: {stamp(a["updated_at"])}</span><span>{math.ceil(words(a)/220)} λεπτά ανάγνωσης · {words(a)} λέξεις</span><span>{sources_label(a["sources"])}</span></div>'+image(a,'../../')
-            p+='<div class="actions"><button data-bookmark aria-pressed="false">Αποθήκευση άρθρου</button><button data-resume hidden>Συνέχεια ανάγνωσης</button><span data-storage-status role="status"></span></div><progress id="reading-progress" max="100" value="0" aria-label="Πρόοδος ανάγνωσης"></progress>'
-            p+='<div class="layout"><article class="prose">'+blocks(a)+'<section class="section"><h2>Πηγές και χρόνοι αναφοράς</h2>'+source_links(a['sources'])+f'<p>{esc(a.get("evidence_note",""))}</p>'+'<p class="warning">Οι αλυσίδες αναφοράς δείχνουν την προέλευση των πληροφοριών. Αναδημοσιεύσεις του ίδιου πρακτορείου δεν αποτελούν ανεξάρτητη διασταύρωση.</p></section>'+f'<a class="read-link" href="../../{e["url"]}">← Επιστροφή στη συγκεκριμένη έκδοση</a></article><aside class="side"><div class="sidebox"><h3>Σχετικές ιστορίες</h3><div class="sourcelinks">{related or "Δεν υπάρχουν επιπλέον σχετικές ιστορίες."}</div></div></aside></div></main></body></html>'
+            p+=f'<header class="top"><div class="shell"><a class="logo" href="../../{e["url"]}">THE ORACLE SOVEREIGN.</a><nav class="navlinks"><a href="../../{e["url"]}">← Εφημερίδα</a><a href="../../search.html">{icon('search')} Αναζήτηση</a><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button></nav></div></header><main class="shell" id="main" data-article-key="{e["id"]}/{a["id"]}"><div class="kicker">{esc(a["category"])} · {TYPES[e["type"]]} έκδοση</div><h1>{esc(a["headline"])}</h1><div class="eyebrow">Συνοπτική καταγραφή της έκδοσης</div><p class="lede">{esc(a["summary"])}</p><div class="meta"><span>Δημοσίευση: {stamp(a["published_at"])}</span><span>Ενημέρωση: {stamp(a["updated_at"])}</span><span>{math.ceil(words(a)/220)} λεπτά ανάγνωσης · {words(a)} λέξεις</span><span>{sources_label(a["sources"])}</span></div>'+image(a,'../../')
+            p+='<div class="actions"><button data-font-step="-1" aria-label="Μικρότερο μέγεθος κειμένου">A−</button><button data-font-step="1" aria-label="Μεγαλύτερο μέγεθος κειμένου">A+</button><button data-bookmark aria-pressed="false">Αποθήκευση άρθρου</button><button data-resume hidden>Συνέχεια ανάγνωσης</button><span data-storage-status role="status"></span></div><progress id="reading-progress" max="100" value="0" aria-label="Πρόοδος ανάγνωσης"></progress>'
+            if a.get('revision_note'):
+                p+='<p class="revision-note">'+esc(a['revision_note'])+'</p>'
+            toc='<div class="sidebox reader-toc"><h3>Σε αυτό το άρθρο</h3>'+''.join(f'<a href="#section-{i}">{esc(s["heading"])}</a>' for i,s in enumerate(a['sections'],1) if any(p.strip()!=a['summary'].strip() for p in s['paragraphs']))+'</div>'
+            p+='<div class="layout"><article class="prose">'+blocks(a)+'<section class="section"><h2>Πηγές και χρόνοι αναφοράς</h2>'+source_links(a['sources'])+f'<p>{esc(a.get("evidence_note",""))}</p>'+'<p class="warning">Οι αλυσίδες αναφοράς δείχνουν την προέλευση των πληροφοριών. Αναδημοσιεύσεις του ίδιου πρακτορείου δεν αποτελούν ανεξάρτητη διασταύρωση.</p></section>'+f'<a class="read-link" href="../../{e["url"]}">← Επιστροφή στη συγκεκριμένη έκδοση</a></article><aside class="side">'+toc+f'<div class="sidebox"><h3>Σχετικές ιστορίες</h3><div class="sourcelinks">{related or "Δεν υπάρχουν επιπλέον σχετικές ιστορίες."}</div></div></aside></div></main></body></html>'
             write(ROOT/'docs'/url,p)
             write(ROOT/'docs/data/articles'/e['id']/(a['id']+'.json'),json.dumps(a,ensure_ascii=False,indent=2)+'\n')
             search.append({'id':a['story_id'],'edition_id':e['id'],'date':e['date'],'headline':a['headline'],'summary':a['summary'],'body':' '.join(p for s in a['sections'] for p in s['paragraphs']),'url':url})
@@ -339,7 +372,7 @@ def _render(root=ROOT):
     write(ROOT/'docs/data/reader-routes.json',json.dumps(route_registry,ensure_ascii=False,indent=2)+'\n')
     for name in ['newspaper','article']:
         write(ROOT/'docs/assets'/(name+'.css'),(ROOT/'templates/v2'/(name+'.css')).read_text(encoding='utf-8'))
-    archive=head('Αρχείο εκδόσεων','index.html','newspaper')+'<header class="masthead wrap"><div class="brand"><h1>THE ORACLE <em>SOVEREIGN.</em></h1><p>Αρχείο δημοσιευμένων εκδόσεων</p></div></header><main class="wrap" id="main"><div class="tools"><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button><a href="search.html">Αναζήτηση άρθρων</a><a href="https://jodemon9.github.io/oracle-briefing/">Κεντρική πύλη ↗</a></div>'
+    archive=head('Αρχείο εκδόσεων','index.html','newspaper')+f'<header class="masthead wrap"><div class="brand"><h1>THE ORACLE <em>SOVEREIGN.</em></h1><p>Αρχείο δημοσιευμένων εκδόσεων</p></div></header><main class="wrap" id="main"><div class="tools"><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button><a href="search.html">Αναζήτηση άρθρων</a><a href="https://jodemon9.github.io/oracle-briefing/">Κεντρική πύλη ↗</a></div>'
     current_id=registry[0]['id'] if registry else None
     for edition_type, label in TYPES.items():
         archive+=f'<section class="section" id="{edition_type}"><div class="sectionhead"><h2>{label}.</h2></div><div class="g3">'

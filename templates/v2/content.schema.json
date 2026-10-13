@@ -230,6 +230,18 @@
         "image_unavailable_reason": {
           "type": "string",
           "minLength": 15
+        },
+        "newspaper_analysis": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 4,
+          "items": {
+            "type": "string",
+            "minLength": 20
+          }
+        },
+        "revision_note": {
+          "type": "string"
         }
       },
       "additionalProperties": false
@@ -837,7 +849,10 @@
       ],
       "properties": {
         "version": {
-          "const": 1
+          "enum": [
+            1,
+            2
+          ]
         },
         "completed_at": {
           "type": "string",
@@ -895,6 +910,31 @@
         },
         "additionalProperties": false
       }
+    },
+    "reading_review": {
+      "type": "object",
+      "required": [
+        "version",
+        "completed_at"
+      ],
+      "properties": {
+        "version": {
+          "const": 1
+        },
+        "completed_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    },
+    "image_revision_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "analysis_revision_at": {
+      "type": "string",
+      "format": "date-time"
     }
   },
   "additionalProperties": false

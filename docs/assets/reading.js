@@ -10,6 +10,11 @@ const sticky=document.querySelector('.stickybar,.top');if(sticky){const resize=(
 document.querySelectorAll('[data-theme-toggle]').forEach(b=>b.addEventListener('click',()=>{doc.dataset.theme=doc.dataset.theme==='dark'?'light':'dark';set('oracle-black-label-theme',doc.dataset.theme)}));
 document.querySelectorAll('[data-print]').forEach(b=>b.addEventListener('click',()=>print()));
 const calc=document.querySelector('[data-calculator]');if(calc){const update=()=>{const p=Number(document.querySelector('#principal').value),years=Number(document.querySelector('#years').value),rate=Number(document.querySelector('#interest').value),out=document.querySelector('#payment');if(p<=0||years<1||years>40||rate<0||rate>30){out.textContent='Συμπλήρωσε έγκυρα στοιχεία.';return}const months=years*12,r=rate/1200,v=r?p*r/(1-(1+r)**(-months)):p/months;out.textContent=new Intl.NumberFormat('el-CY',{style:'currency',currency:'EUR'}).format(v)+' / μήνα'};calc.addEventListener('input',update);update()}
+let fontSize=Number(get('oracle:reader-font-size'))||19;
+const applyFont=()=>doc.style.setProperty('--reader-font-size',fontSize+'px');applyFont();
+document.querySelectorAll('[data-font-step]').forEach(b=>b.addEventListener('click',()=>{fontSize=Math.max(16,Math.min(24,fontSize+Number(b.dataset.fontStep)));applyFont();set('oracle:reader-font-size',String(fontSize))}));
+const links=[...document.querySelectorAll('.navs a[href^="#"]')];
+if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting)links.forEach(a=>a.classList.toggle('is-active',a.hash==='#'+entry.target.id))},{rootMargin:'-15% 0px -65% 0px'});links.forEach(a=>{const target=document.querySelector(a.hash);if(target)observer.observe(target)})}
 const main=document.querySelector('[data-article-key]');if(!main)return;
 const key='oracle:article:'+main.dataset.articleKey,bookmark=document.querySelector('[data-bookmark]'),resume=document.querySelector('[data-resume]'),status=document.querySelector('[data-storage-status]');
 const saved=get(key+':bookmark')==='true';bookmark.setAttribute('aria-pressed',String(saved));bookmark.textContent=saved?'Αποθηκευμένο άρθρο':'Αποθήκευση άρθρου';
