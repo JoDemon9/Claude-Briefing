@@ -12,7 +12,7 @@
 - Ανεξάρτητα URLs της 13/10: morning/2026-10-13.html, midday/2026-10-13.html, evening/2026-10-13.html στο Claude-Briefing. Οι readers παραμένουν στο articles/<edition-id>/<article-id>.html. Τα παλιότερα dated reader routes δεν αλλάζουν.
 - Πηγή αρχικής ημέρας: ήδη δημοσιευμένες και ελεγμένες εκδόσεις 13/10· δεν έγινε νέα δημοσιογραφική έρευνα. Τα αρχικά Pages bytes των latest.json, editions.json και evening/2026-10-13.html συγκρίθηκαν με το πραγματικό αρχικό main και ταίριαξαν.
 - Αρχικά main: δημόσιο e3d0fe1dfba6172ffaf3377a73519eea69af3318, Oracle 3a70b20f34f5a662ed4868b6ab41ec674d1aab92, private b380f33ec57bbba8e205c60de99b36ef3227cf56. Οι πρόσφατες merged PR 4/3/2 (public), 3/2/1 (Oracle), 9/8/7 (private) επιθεωρήθηκαν. Δεν υπήρχε νεότερη ανοιχτή υλοποίηση ημέρας σε αυτές τις αναφορές.
-- Οι ακριβείς τελικοί implementation commits, deployment αποτελέσματα και receipt IDs καταγράφονται στην ενότητα «Επαληθευμένη δημοσίευση» μετά το πραγματικό Pages deployment.
+- Οι ακριβείς implementation commits, επιτυχημένα deployment αποτελέσματα και receipt IDs καταγράφονται στην ενότητα «Επαληθευμένη δημοσίευση».
 
 ## Paths και ροή
 
@@ -135,7 +135,7 @@ python scripts/daily_release.py --verify-live
 ## Migration και όρια
 
 - Ιστορίες επιλέγονται ανά explicit stable ID, όχι fuzzy title matching. Ρητό alias migration ενοποιεί τις δύο ήδη δημοσιευμένες ονομασίες του Ριάντ και την παλιά changes αναφορά στους ηγέτες· historical source IDs και URLs μένουν σταθερά.
-- Default ordering κρατά σειρά πρώτης εμφάνισης· explicit priority/section επιτρέπει συντακτική αλλαγή. Χωρίς lead πεδίο επιλέγεται το νεότερο πρώτο θέμα, αλλιώς η πρώτη ταξινομημένη ιστορία. Δεν αξιολογεί AI τη σημασία.
+- Default priority = 1000 + αρχική συντακτική θέση στην πρώτη έκδοση όπου εμφανίστηκε η ιστορία (πρώτο θέμα στη θέση 0), με ισοπαλίες βάσει stable story_id. Έτσι τα προηγούμενα κεντρικά θέματα διατηρούνται ψηλά. Explicit priority/section επιτρέπει συντακτική αλλαγή. Χωρίς lead πεδίο επιλέγεται το νεότερο πρώτο θέμα, αλλιώς η πρώτη ταξινομημένη ιστορία. Δεν αξιολογεί AI τη σημασία.
 - Διατηρούνται όλα τα διαφορετικά θέματα. Η ημέρα 13/10 έχει 26 μοναδικές ιστορίες από 28 άρθρα, με το κοινό κυπριακό πρώτο θέμα και το Ριάντ ενωμένα μόνο ως references.
 - Ημερήσια quotes επιλέγονται ανά instrument με τον πραγματικό χρόνο αναφοράς. Cash/futures και διαφορετικά rate tenors δεν συγχωνεύονται. Όταν μία ακριβής ώρα είναι άγνωστη και οι πραγματικές ημερομηνίες quote είναι ίδιες, επιλέγεται η νεότερη συμμετέχουσα έκδοση χωρίς να κατασκευάζεται ώρα. Οι παλιότερες τιμές EUR/USD/Brent παραμένουν με εμφανή πρωινό quote timestamp, χωρίς προσποίηση βραδινής live τιμής.
 - Legacy HTML με άγνωστο αρχικό published_at δεν κατασκευάζει ψευδές day model. Όλα τα ιστορικά URLs διατηρούνται. Ημέρες με δομημένα γνωστά timestamps αρχειοθετούνται από τα δικά τους δεδομένα.
@@ -150,4 +150,22 @@ python scripts/daily_release.py --verify-live
 
 ## Επαληθευμένη δημοσίευση
 
-Θα συμπληρωθεί με τους πραγματικούς ελέγχους live bytes μετά τη δημοσίευση της υλοποίησης.
+Ολοκληρώθηκε πραγματική δημοσίευση και έλεγχος στις 13/10/2026. Όλα τα παρακάτω αποτελέσματα παρατηρήθηκαν, δεν αποτελούν πρόβλεψη CI.
+
+| Repository | Implementation commit | Deployment / CI |
+| --- | --- | --- |
+| Claude-Briefing | [b04f9183ef004aca85d1d699b8e740bd48db9dee](https://github.com/JoDemon9/Claude-Briefing/commit/b04f9183ef004aca85d1d699b8e740bd48db9dee) | [Pages success](https://github.com/JoDemon9/Claude-Briefing/actions/runs/38451033483), [structured checks success](https://github.com/JoDemon9/Claude-Briefing/actions/runs/38451034201), [served release verification success](https://github.com/JoDemon9/Claude-Briefing/actions/runs/38451133421) |
+| oracle-briefing | [0b929ada45b77f24ed4e0d6a908cad127a87593c](https://github.com/JoDemon9/oracle-briefing/commit/0b929ada45b77f24ed4e0d6a908cad127a87593c) | [Pages success](https://github.com/JoDemon9/oracle-briefing/actions/runs/38451366469), [reading checks success](https://github.com/JoDemon9/oracle-briefing/actions/runs/38451368099), [served daily verification success](https://github.com/JoDemon9/oracle-briefing/actions/runs/38451518333) |
+| Claude-Briefing-Private | [342eaaabcffc9d8b39b58ebc0d697e1f69bc70ae](https://github.com/JoDemon9/Claude-Briefing-Private/commit/342eaaabcffc9d8b39b58ebc0d697e1f69bc70ae) | [CI success](https://github.com/JoDemon9/Claude-Briefing-Private/actions/runs/38451076161), ιδιωτικό preview μόνο |
+
+Οι ενημερώσεις έγιναν ως πλήρη Git commits με fresh main heads και non-force pushes. Δεν απορρίφθηκε παράλληλη αλλαγή και δεν τροποποιήθηκε το Wire. Ακολουθεί ξεχωριστή τεκμηριωτική ενημέρωση αυτού του handoff, χωρίς μεταβολή των δημοσιευμένων bytes.
+
+- Public release ID: `14f6ca20aa3f6cd75d7edacae2ec060c29cda13cb095d77f6771b7bf1b0bab5b`. Το `release.py --verify-live` επιβεβαίωσε **126 πραγματικά σερβιρισμένα αρχεία**, περιλαμβάνοντας ημερήσιο URL, today/descriptor, όλες τις δημοσιευμένες ανεξάρτητες εκδόσεις, αναλυτικά άρθρα και assets.
+- Oracle release ID: `526291edcd3daf5a74c25962f0f3af4d29d2ca75da54640c725a6ddb82cdc1a7`. Το `daily_release.py --verify-live` επιβεβαίωσε **38 πραγματικά σερβιρισμένα αρχεία**, κεντρική πλήρη ημέρα, descriptor, compatibility endpoints και όλα τα αναφερόμενα τοπικά assets.
+- Τοπικά unit tests: **57 public + 38 private + 9 Oracle = 104**, όλα επιτυχή. Περιλαμβάνουν τρία slots, ουσιαστική εξέλιξη/ουδέτερη προέλευση, correction/enrichment, idempotence, distinct stories, missing morning/new day/DST, immutable publication times, original quote timestamps, failed image/build/promotion/hash και πλήρες διατηρημένο dataset.
+- Τοπικά browser checks: **188 δημόσιας εφημερίδας/readers + 17 κεντρικής ημέρας + 9 ιστορικής πύλης = 214**, όλα επιτυχή. Πλάτη **320/375/390/1440 px**, overflow, πραγματικό decode/naturalWidth/naturalHeight, keyboard/native disclosures, independent active slot, daily participating slots, bookmarks/progress/search/TOC/font/theme, blocked storage, χωρίς JavaScript και fetch/hash/asset failures.
+- Πρόσθετα **28 live browser checks** πέρασαν με **85 πραγματικές HTTPS ανακτήσεις** από τα δημόσια Pages. Ελέγχθηκαν και οι δύο ιστοσελίδες, ημερήσια σελίδα, οι τρεις εκδόσεις και reader σε όλα τα πλάτη, τα παλιά pinned reader routes, αναζήτηση/bookmark/font/TOC και live Oracle fallback χωρίς JavaScript και με blocked storage. Οι πραγματικές αποκρίσεις μεταφέρθηκαν μέσω του runtime proxy και της CA trust, χωρίς συνθετικές αποκρίσεις δημοσίευσης.
+- Επιθεωρήθηκαν mobile/desktop screenshots του κεντρικού θέματος, μεγάλων καρτών, συμπαγών αγορών και expanded Tech watch. Οι χρόνοι/καταστάσεις είναι ορατοί. Η αρχική οικονομική όψη έχει έως έξι βασικές τιμές και έως τρεις movers· η πλήρης κάλυψη παραμένει στις σαφείς native αναπτύξεις. Τα CI runs παραπάνω διατηρούν τα αντίστοιχα browser artifacts· οι πρόσθετες live εικόνες είναι στο `.work/live-preview/` της τρέχουσας εργασίας.
+- Πέρασαν compilation, allowlisted public packaging, reproducible πλήρες rebuild/release και diff whitespace checks. Receipts: public `.work/publication-check.json`, Oracle `.work/daily-publication-check.json`, πρόσθετο `.work/live-browser-check.json` (τοπικά, δεν δημοσιεύουν private στοιχεία).
+
+**Δεν παραμένει εμπόδιο υλοποίησης ή δημοσίευσης. Τα πραγματικά automations παρέμειναν αμετάβλητα.**
