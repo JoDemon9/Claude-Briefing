@@ -9,7 +9,7 @@
       "id": "2026-10-14-morning",
       "type": "morning",
       "url": "morning/2026-10-14.html",
-      "published_at": "2026-10-14T08:03:44+03:00"
+      "published_at": "2026-10-14T08:22:25+03:00"
     }
   ],
   "missing_slots": [
@@ -20,8 +20,8 @@
   "stories": [
     {
       "story_id": "cyprus-child-benefit-bill-2026",
-      "first_seen_at": "2026-10-14T08:03:44+03:00",
-      "last_substantive_at": null,
+      "first_seen_at": "2026-10-14T08:22:25+03:00",
+      "last_substantive_at": "2026-10-14T08:22:25+03:00",
       "references": [
         {
           "edition_id": "2026-10-14-morning",
@@ -41,7 +41,7 @@
     },
     {
       "story_id": "google-gemini-4-argon-release",
-      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "first_seen_at": "2026-10-14T08:22:25+03:00",
       "last_substantive_at": null,
       "references": [
         {
@@ -62,8 +62,8 @@
     },
     {
       "story_id": "manutd-atletico-october-2026-result",
-      "first_seen_at": "2026-10-14T08:03:44+03:00",
-      "last_substantive_at": null,
+      "first_seen_at": "2026-10-14T08:22:25+03:00",
+      "last_substantive_at": "2026-10-14T08:22:25+03:00",
       "references": [
         {
           "edition_id": "2026-10-14-morning",
@@ -83,7 +83,7 @@
     },
     {
       "story_id": "champions-league-october-13-2026-roundup",
-      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "first_seen_at": "2026-10-14T08:22:25+03:00",
       "last_substantive_at": null,
       "references": [
         {
@@ -104,7 +104,7 @@
     },
     {
       "story_id": "china-september-2026-trade",
-      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "first_seen_at": "2026-10-14T08:22:25+03:00",
       "last_substantive_at": null,
       "references": [
         {
@@ -125,7 +125,7 @@
     },
     {
       "story_id": "cyprus-imf-october-2026-outlook",
-      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "first_seen_at": "2026-10-14T08:22:25+03:00",
       "last_substantive_at": null,
       "references": [
         {
@@ -146,7 +146,7 @@
     },
     {
       "story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
-      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "first_seen_at": "2026-10-14T08:22:25+03:00",
       "last_substantive_at": null,
       "references": [
         {
@@ -167,8 +167,8 @@
     },
     {
       "story_id": "cyprus-ccci-ai-training-november-2026",
-      "first_seen_at": "2026-10-14T08:03:44+03:00",
-      "last_substantive_at": null,
+      "first_seen_at": "2026-10-14T08:22:25+03:00",
+      "last_substantive_at": "2026-10-14T08:22:25+03:00",
       "references": [
         {
           "edition_id": "2026-10-14-morning",
@@ -188,7 +188,7 @@
     },
     {
       "story_id": "cyprus-cop31-presidential-attendance",
-      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "first_seen_at": "2026-10-14T08:22:25+03:00",
       "last_substantive_at": null,
       "references": [
         {
@@ -209,7 +209,7 @@
     },
     {
       "story_id": "yemen-sanaa-saudi-strikes-october-2026",
-      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "first_seen_at": "2026-10-14T08:22:25+03:00",
       "last_substantive_at": null,
       "references": [
         {
@@ -230,7 +230,7 @@
     },
     {
       "story_id": "cyprus-fintech-cyber-resilience-2026",
-      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "first_seen_at": "2026-10-14T08:22:25+03:00",
       "last_substantive_at": null,
       "references": [
         {
@@ -251,7 +251,7 @@
     },
     {
       "story_id": "us-greece-guilfoyle-resignation-request-2026",
-      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "first_seen_at": "2026-10-14T08:22:25+03:00",
       "last_substantive_at": null,
       "references": [
         {
@@ -272,7 +272,7 @@
     },
     {
       "story_id": "cyprus-israel-davidovich-credentials",
-      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "first_seen_at": "2026-10-14T08:22:25+03:00",
       "last_substantive_at": null,
       "references": [
         {
@@ -294,62 +294,6 @@
   ],
   "updates": [
     {
-      "id": "02ef01513e2ed678c35f258ee5810907f45b0d90eb3b8b44707aaaaa0db9eee8",
-      "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
-      "summary": "Συμμετοχή της morning έκδοσης.",
-      "source_urls": [],
-      "story_id": "cyprus-imf-october-2026-outlook",
-      "origin": {
-        "edition_id": "2026-10-14-morning",
-        "article_id": "cyprus-1",
-        "source_story_id": "cyprus-imf-october-2026-outlook",
-        "url": "articles/2026-10-14-morning/cyprus-1.html"
-      }
-    },
-    {
-      "id": "087edf1dca5f9da13bac8e576180bbd916a88d3911002d6eba114f611b9c4427",
-      "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
-      "summary": "Συμμετοχή της morning έκδοσης.",
-      "source_urls": [],
-      "story_id": "champions-league-october-13-2026-roundup",
-      "origin": {
-        "edition_id": "2026-10-14-morning",
-        "article_id": "sport-champions",
-        "source_story_id": "champions-league-october-13-2026-roundup",
-        "url": "articles/2026-10-14-morning/sport-champions.html"
-      }
-    },
-    {
-      "id": "16cd56374360a2e045cf87d3601496356ac8218361bfa4b6a8eb22768a98ccf3",
-      "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
-      "summary": "Συμμετοχή της morning έκδοσης.",
-      "source_urls": [],
-      "story_id": "cyprus-cop31-presidential-attendance",
-      "origin": {
-        "edition_id": "2026-10-14-morning",
-        "article_id": "cyprus-3",
-        "source_story_id": "cyprus-cop31-presidential-attendance",
-        "url": "articles/2026-10-14-morning/cyprus-3.html"
-      }
-    },
-    {
-      "id": "1a9f4ad21236f44d6bff240f5ae9935c858bfa1b3c60e6e402545f622bce9bdd",
-      "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
-      "summary": "Συμμετοχή της morning έκδοσης.",
-      "source_urls": [],
-      "story_id": "google-gemini-4-argon-release",
-      "origin": {
-        "edition_id": "2026-10-14-morning",
-        "article_id": "world-1",
-        "source_story_id": "google-gemini-4-argon-release",
-        "url": "articles/2026-10-14-morning/world-1.html"
-      }
-    },
-    {
       "id": "2026-10-14-morning-cyprus-1-provenance",
       "kind": "provenance",
       "at": "2026-10-14T08:03:44+03:00",
@@ -363,22 +307,6 @@
         "article_id": "cyprus-1",
         "source_story_id": "cyprus-imf-october-2026-outlook",
         "url": "articles/2026-10-14-morning/cyprus-1.html"
-      }
-    },
-    {
-      "id": "2026-10-14-morning-cyprus-2-provenance",
-      "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
-      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
-      "source_urls": [
-        "https://cyprus-mail.com/2026/10/14/cyprus-businesses-invited-to-subsidised-ai-training-programme"
-      ],
-      "story_id": "cyprus-ccci-ai-training-november-2026",
-      "origin": {
-        "edition_id": "2026-10-14-morning",
-        "article_id": "cyprus-2",
-        "source_story_id": "cyprus-ccci-ai-training-november-2026",
-        "url": "articles/2026-10-14-morning/cyprus-2.html"
       }
     },
     {
@@ -430,22 +358,6 @@
       }
     },
     {
-      "id": "2026-10-14-morning-lead-provenance",
-      "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
-      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
-      "source_urls": [
-        "https://cyprus-mail.com/2026/10/13/more-families-to-become-eligible-for-child-benefit"
-      ],
-      "story_id": "cyprus-child-benefit-bill-2026",
-      "origin": {
-        "edition_id": "2026-10-14-morning",
-        "article_id": "lead",
-        "source_story_id": "cyprus-child-benefit-bill-2026",
-        "url": "articles/2026-10-14-morning/lead.html"
-      }
-    },
-    {
       "id": "2026-10-14-morning-sport-champions-provenance",
       "kind": "provenance",
       "at": "2026-10-14T08:03:44+03:00",
@@ -460,24 +372,6 @@
         "article_id": "sport-champions",
         "source_story_id": "champions-league-october-13-2026-roundup",
         "url": "articles/2026-10-14-morning/sport-champions.html"
-      }
-    },
-    {
-      "id": "2026-10-14-morning-sport-united-provenance",
-      "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
-      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
-      "source_urls": [
-        "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
-        "https://www.skysports.com/football/news/13598750/atletico-madrid-2-0-man-utd-leny-yoro-sent-off-as-michael-carricks-side-extend-winless-run-to-five-games",
-        "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-202627-premier-league-season"
-      ],
-      "story_id": "manutd-atletico-october-2026-result",
-      "origin": {
-        "edition_id": "2026-10-14-morning",
-        "article_id": "sport-united",
-        "source_story_id": "manutd-atletico-october-2026-result",
-        "url": "articles/2026-10-14-morning/sport-united.html"
       }
     },
     {
@@ -563,9 +457,83 @@
       }
     },
     {
+      "id": "02ef01513e2ed678c35f258ee5810907f45b0d90eb3b8b44707aaaaa0db9eee8",
+      "kind": "provenance",
+      "at": "2026-10-14T08:22:25+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-imf-october-2026-outlook",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-1",
+        "source_story_id": "cyprus-imf-october-2026-outlook",
+        "url": "articles/2026-10-14-morning/cyprus-1.html"
+      }
+    },
+    {
+      "id": "087edf1dca5f9da13bac8e576180bbd916a88d3911002d6eba114f611b9c4427",
+      "kind": "provenance",
+      "at": "2026-10-14T08:22:25+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "champions-league-october-13-2026-roundup",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "sport-champions",
+        "source_story_id": "champions-league-october-13-2026-roundup",
+        "url": "articles/2026-10-14-morning/sport-champions.html"
+      }
+    },
+    {
+      "id": "16cd56374360a2e045cf87d3601496356ac8218361bfa4b6a8eb22768a98ccf3",
+      "kind": "provenance",
+      "at": "2026-10-14T08:22:25+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-cop31-presidential-attendance",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-3",
+        "source_story_id": "cyprus-cop31-presidential-attendance",
+        "url": "articles/2026-10-14-morning/cyprus-3.html"
+      }
+    },
+    {
+      "id": "1a9f4ad21236f44d6bff240f5ae9935c858bfa1b3c60e6e402545f622bce9bdd",
+      "kind": "provenance",
+      "at": "2026-10-14T08:22:25+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "google-gemini-4-argon-release",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-1",
+        "source_story_id": "google-gemini-4-argon-release",
+        "url": "articles/2026-10-14-morning/world-1.html"
+      }
+    },
+    {
+      "id": "23f4574d3279a3be4eb697010b3d0143c263a806e63b96d5b7553f52989668d7",
+      "kind": "new",
+      "at": "2026-10-14T08:22:25+03:00",
+      "summary": "Το επιβεβαιωμένο Atlético–United 2–0 της 13/10 αντικαθιστά τη χθεσινή προεπισκόπηση αγώνα. Η ώρα της σημερινής ένταξης δεν παρουσιάζεται ως ώρα λήξης της αναμέτρησης.",
+      "source_urls": [
+        "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "https://www.skysports.com/football/news/13598750/atletico-madrid-2-0-man-utd-leny-yoro-sent-off-as-michael-carricks-side-extend-winless-run-to-five-games",
+        "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-202627-premier-league-season"
+      ],
+      "story_id": "manutd-atletico-october-2026-result",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "sport-united",
+        "source_story_id": "manutd-atletico-october-2026-result",
+        "url": "articles/2026-10-14-morning/sport-united.html"
+      }
+    },
+    {
       "id": "5864ae020a26aeee84ee7f31c03c6ecb6ea7476a8cf33700b95df310c9fa6860",
       "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
+      "at": "2026-10-14T08:22:25+03:00",
       "summary": "Συμμετοχή της morning έκδοσης.",
       "source_urls": [],
       "story_id": "china-september-2026-trade",
@@ -579,7 +547,7 @@
     {
       "id": "68b8f54cf519d7bb1f6d71c8dac806450afc89fb8a31f2fa8d457ee73d3c7334",
       "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
+      "at": "2026-10-14T08:22:25+03:00",
       "summary": "Συμμετοχή της morning έκδοσης.",
       "source_urls": [],
       "story_id": "manutd-atletico-october-2026-result",
@@ -593,7 +561,7 @@
     {
       "id": "8474db4df93cf68ab17d22b167a5b9aa642fdd045876c0afab02b2c86bfb27b5",
       "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
+      "at": "2026-10-14T08:22:25+03:00",
       "summary": "Συμμετοχή της morning έκδοσης.",
       "source_urls": [],
       "story_id": "cyprus-israel-davidovich-credentials",
@@ -607,7 +575,7 @@
     {
       "id": "9efc76a5757d9f8b244b2091324f5ea355a72d8bc01e31943a826ad78c463480",
       "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
+      "at": "2026-10-14T08:22:25+03:00",
       "summary": "Συμμετοχή της morning έκδοσης.",
       "source_urls": [],
       "story_id": "cyprus-fintech-cyber-resilience-2026",
@@ -619,9 +587,25 @@
       }
     },
     {
+      "id": "a25ccb713637e8f811f369eaf1ce2d4838765583ce02272bf89a939ab7b388f8",
+      "kind": "new",
+      "at": "2026-10-14T08:22:25+03:00",
+      "summary": "Πρώτη ένταξη στο πρωινό: το νομοσχέδιο για το επίδομα τέκνου καταγράφηκε στη δημοσίευση της 13/10, 20:12. Η σημερινή ώρα αφορά την ένταξη στην εφημερίδα, όχι υποτιθέμενη ώρα κατάθεσης.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/13/more-families-to-become-eligible-for-child-benefit"
+      ],
+      "story_id": "cyprus-child-benefit-bill-2026",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "lead",
+        "source_story_id": "cyprus-child-benefit-bill-2026",
+        "url": "articles/2026-10-14-morning/lead.html"
+      }
+    },
+    {
       "id": "a35cf5d1db055af8fc4d70ad3d36a0717bfd753ec02cd92cdfe7c5b41b6425b9",
       "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
+      "at": "2026-10-14T08:22:25+03:00",
       "summary": "Συμμετοχή της morning έκδοσης.",
       "source_urls": [],
       "story_id": "cyprus-ccci-ai-training-november-2026",
@@ -635,7 +619,7 @@
     {
       "id": "add2e78566355df28273c5a5a27eb21fbd6b83a74dec5380328d0b9208b203d9",
       "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
+      "at": "2026-10-14T08:22:25+03:00",
       "summary": "Συμμετοχή της morning έκδοσης.",
       "source_urls": [],
       "story_id": "cyprus-child-benefit-bill-2026",
@@ -649,7 +633,7 @@
     {
       "id": "d523fb9311dc782e29b85979645a8b41743ed4a09dd89a5ad0646fa7d65f5356",
       "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
+      "at": "2026-10-14T08:22:25+03:00",
       "summary": "Συμμετοχή της morning έκδοσης.",
       "source_urls": [],
       "story_id": "us-greece-guilfoyle-resignation-request-2026",
@@ -663,7 +647,7 @@
     {
       "id": "d7bcd57f03169da341dab6a4683d443abddb7818420c9b34ce316dc80e5c8dc9",
       "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
+      "at": "2026-10-14T08:22:25+03:00",
       "summary": "Συμμετοχή της morning έκδοσης.",
       "source_urls": [],
       "story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
@@ -677,7 +661,7 @@
     {
       "id": "d9107095426ee8c088b62d937123f612d8005e77cd68990879e634b7c6b42778",
       "kind": "provenance",
-      "at": "2026-10-14T08:03:44+03:00",
+      "at": "2026-10-14T08:22:25+03:00",
       "summary": "Συμμετοχή της morning έκδοσης.",
       "source_urls": [],
       "story_id": "yemen-sanaa-saudi-strikes-october-2026",
@@ -687,9 +671,25 @@
         "source_story_id": "yemen-sanaa-saudi-strikes-october-2026",
         "url": "articles/2026-10-14-morning/world-4.html"
       }
+    },
+    {
+      "id": "fa4af1ac605da78f3f84f419c7e589906e56cff3e352e053aafbdb198865e69f",
+      "kind": "new",
+      "at": "2026-10-14T08:22:25+03:00",
+      "summary": "Προστίθεται η πρωινή δημοσίευση της 14/10 για το πρόγραμμα AI του ΚΕΒΕ. Δεν υπήρχε στη χθεσινή εφημερίδα· οι ημερομηνίες συμμετοχής αφορούν 11–12 Νοεμβρίου.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/cyprus-businesses-invited-to-subsidised-ai-training-programme"
+      ],
+      "story_id": "cyprus-ccci-ai-training-november-2026",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-2",
+        "source_story_id": "cyprus-ccci-ai-training-november-2026",
+        "url": "articles/2026-10-14-morning/cyprus-2.html"
+      }
     }
   ],
-  "created_at": "2026-10-14T05:08:09.130736+00:00",
-  "updated_at": "2026-10-14T05:08:09.130736+00:00",
-  "input_sha256": "d815c3a2d9c6c43a35df208e0cf36a0f44d00c8d4113491bf5cb5d3f660925cf"
+  "created_at": "2026-10-14T05:24:06.207851+00:00",
+  "updated_at": "2026-10-14T05:25:20.912281+00:00",
+  "input_sha256": "4e6bac9d6d859ca0b31cab2ec92dab857753f6bff28103a5517c26ee1ffecbc8"
 }
