@@ -151,17 +151,22 @@ def render(b, model, bundles):
         kinds = {x['kind'] for x in events}
         label = 'Συντακτική διόρθωση' if 'correction' in kinds else 'Ενημερώθηκε' if 'substantive_update' in kinds else 'Νέο' if 'new' in kinds else 'Από το πρωινό' if e['type'] == 'morning' else 'Από τη ' + b.TYPES[e['type']].lower()
         note = doc.new_tag('p', attrs={'class': 'story-origin'})
-        note.string = label + ' · ' + b.stamp(e['published_at'], model['timezone'])
+        badge=doc.new_tag('span', attrs={'class':'story-status'});badge.string=label
+        note.append(badge)
+        time=doc.new_tag('time',attrs={'datetime':e['published_at'],'title':'Δημοσίευση της επιλεγμένης έκδοσης'});time.string=b.stamp(e['published_at'],model['timezone'])
+        note.append(time)
         node.select_one('.eyebrow').insert_after(note)
         # Older legacy articles retain full text in their readers; cards keep their
         # factual abstract and available editorial preview, without concatenation.
         for more in node.select('.story-more'):
             more.decompose()
-        if hero and node.select_one('.card-context'):
+        if hero and node.select_one('.card-context') and not node.select_one('.lead-analysis'):
             context = node.select_one('.card-context')
             details = doc.new_tag('details', attrs={'class': 'lead-analysis'})
             summary = doc.new_tag('summary'); summary.string = 'Η ουσία · ½–1 λεπτό'
             context.replace_with(details); details.append(summary); details.append(context)
+            duplicate_label=context.find('b',recursive=False)
+            if duplicate_label:duplicate_label.decompose()
         provenance = doc.new_tag('details', attrs={'class': 'sources-disclosure story-history'})
         summary = doc.new_tag('summary'); summary.string = 'Εκδόσεις και προηγούμενες αναφορές'
         provenance.append(summary)
@@ -169,7 +174,7 @@ def render(b, model, bundles):
             origin, _ = lookup[ref['edition_id']]
             link = doc.new_tag('a', href='../' + ref['url']); link.string = b.TYPES[origin['type']] + ' · ' + b.stamp(origin['published_at'])
             provenance.append(link)
-        node.select_one('.story-content').append(provenance)
+        (node.select_one('.lead-copy') if hero else node.select_one('.story-content')).append(provenance)
         for link in node.select('.read-link'):
             link['href'] += '?from=daily/' + model['date'] + '.html'
         return str(node)
@@ -185,16 +190,22 @@ def render(b, model, bundles):
     if model['missing_slots']:
         html += '<p class="revision-note">Μερική ημέρα: περιλαμβάνονται μόνο οι διαθέσιμες δημοσιευμένες εκδόσεις.</p>'
     overview = latest.get('daily', {}).get('summary_60s') or latest.get('summary_60s') or [selected(s)[1]['summary'] for s in model['stories'][:3]]
-    html += '<details class="day-summary" id="summary"><summary>' + b.icon('clock') + 'Η ημέρα σε 60 δευτερόλεπτα</summary>' + ''.join('<p>' + b.esc(p) + '</p>' for p in overview) + '</details>'
+    html += '<details class="day-summary" id="summary"><summary>' + b.icon('clock') + 'Η ημέρα σε 60 δευτερόλεπτα</summary><ol class="summary-points">' + ''.join('<li>' + b.esc(p) + '</li>' for p in overview) + '</ol></details>'
     lead = next(s for s in model['stories'] if s['story_id'] == model['lead_story_id'])
     html += '<div class="day-lead">' + card(lead, True) + '</div>'
     html += '<section class="section day-changes" id="changes"><div class="sectionhead"><h2>Τι άλλαξε.</h2></div>'
     changes = [x for x in model['updates'] if x['kind'] != 'provenance']
     def event_html(event):
-        return '<li><time>' + b.stamp(event['at'], model['timezone']) + '</time> · <b>' + LABELS[event['kind']] + '</b><p>' + b.esc(event['summary']) + '</p><a href="../' + event['origin']['url'] + '">Έκδοση προέλευσης ↗</a> ' + ''.join('<a href="' + b.esc(url) + '">Πηγή ' + str(i+1) + ' ↗</a> ' for i, url in enumerate(event['source_urls'])) + '</li>'
-    html += '<ol>' + ''.join(event_html(x) for x in changes[-5:][::-1]) + '</ol>' if changes else '<p>Δεν έχει τεκμηριωθεί νέα ουσιαστική εξέλιξη. Η προέλευση αναγράφεται σε κάθε ιστορία.</p>'
+        origin,articles=lookup[event['origin']['edition_id']]
+        article=articles.get(event['origin'].get('article_id'))
+        title=article['headline'] if article else b.TYPES[origin['type']]+' έκδοση'
+        source_names={s['url']:s['publisher'] for s in article['sources']} if article else {}
+        links=''.join('<a href="'+b.esc(url)+'" rel="noopener noreferrer">'+b.esc(source_names.get(url,urlsplit(url).hostname))+' ↗</a>' for url in event['source_urls'])
+        return '<li class="update-card"><div class="update-meta"><span class="story-status">'+LABELS[event['kind']]+'</span><time datetime="'+b.esc(event['at'])+'">'+b.stamp(event['at'],model['timezone'])+'</time></div><h3>'+b.esc(title)+'</h3><p>'+b.esc(event['summary'])+'</p><div class="update-actions"><a class="update-origin" href="../'+event['origin']['url']+'">'+b.icon('book')+'Αρχική αναφορά ↗</a>'+('<details class="update-sources"><summary>Πηγές <span class="disclosure-count">'+str(len(event['source_urls']))+'</span></summary><div class="update-source-links">'+links+'</div></details>' if links else '')+'</div></li>'
+    from urllib.parse import urlsplit
+    html += '<ol class="update-timeline">' + ''.join(event_html(x) for x in changes[-5:][::-1]) + '</ol>' if changes else '<p class="empty-state">Δεν έχει τεκμηριωθεί νέα ουσιαστική εξέλιξη. Η προέλευση αναγράφεται σε κάθε ιστορία.</p>'
     if len(changes) > 5:
-        html += '<details><summary>Όλο το ιστορικό ενημερώσεων</summary><ol>' + ''.join(event_html(x) for x in changes[:-5][::-1]) + '</ol></details>'
+        html += '<details class="changes-history"><summary>Όλο το ιστορικό ενημερώσεων</summary><ol class="update-timeline">' + ''.join(event_html(x) for x in changes[:-5][::-1]) + '</ol></details>'
     html += '</section>'
     for section, label in [('cyprus','Κύπρος'), ('world','Διεθνή')]:
         html += '<section class="section" id="' + section + '"><div class="sectionhead"><h2>' + label + '.</h2></div><div class="g3">' + ''.join(card(s) for s in model['stories'] if s['section'] == section and s != lead) + '</div></section>'
@@ -218,7 +229,7 @@ def render(b, model, bundles):
             panels['watch' if panel['id'] in ('watch','risk-radar') else panel['id']] = panel
     market_edition = dict(latest, markets=list(quotes.values()), panels=list(panels.values()))
     html += b.markets(market_edition) + b.calculator(latest) + b.edition_panels(market_edition)
-    html += '<p class="muted">Δημιουργία ημερήσιου αρχείου: ' + b.stamp(model['created_at']) + ' · ' + model['timezone'] + '. Οι ώρες πηγών και τιμών διατηρούνται. Κάθε reader ανήκει στη συγκεκριμένη έκδοση.</p></main></body></html>'
+    html += '<footer class="day-footer"><span>THE ORACLE SOVEREIGN · '+model['date']+'</span><a href="../daily/index.html">'+b.icon('archive')+'Αρχείο ημερών</a><details class="edition-about"><summary>Σχετικά με την έκδοση</summary><p>Δημιουργία ημερήσιου αρχείου: ' + b.stamp(model['created_at']) + ' · ' + model['timezone'] + '. Οι ώρες πηγών και τιμών διατηρούνται. Κάθε reader ανήκει στη συγκεκριμένη έκδοση.</p></details></footer></main></body></html>'
     return html
 
 def publish(b, latest_module, bundles):

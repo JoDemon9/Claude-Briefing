@@ -47,10 +47,14 @@ def sources_label(sources):
 def source_links(sources):
     kinds={'primary':'Πρωτογενής πηγή','reporting':'Ρεπορτάζ','wire':'Πρακτορείο','context':'Πλαίσιο'}
     return '<div class="source-links sourcelinks">' + ''.join(
-        f'<div><a href="{esc(s["url"])}" rel="noopener noreferrer">{esc(s["publisher"])} ↗</a>'
-        f'<small> · {kinds[s["kind"]]} · Δημοσίευση: {stamp(s.get("published_at"))}'
-        f' · Ανάκτηση: {stamp(s.get("retrieved_at"))}'
-        + (' · Μη προσβάσιμη· δεν διαβάστηκε' if s.get('access') == 'inaccessible' else '') + '</small></div>' for s in sources) + '</div>'
+        f'<div class="source-item"><a href="{esc(s["url"])}" rel="noopener noreferrer">{esc(s["publisher"])} ↗</a>'
+        f'<span class="source-kind">{kinds[s["kind"]]}</span><dl class="source-times">'
+        f'<div><dt>Δημοσίευση</dt><dd>{stamp(s.get("published_at"))}</dd></div>'
+        f'<div><dt>Ανάκτηση</dt><dd>{stamp(s.get("retrieved_at"))}</dd></div></dl>'
+        + ('<p class="source-access">Μη προσβάσιμη · δεν διαβάστηκε</p>' if s.get('access') == 'inaccessible' else '') + '</div>' for s in sources) + '</div>'
+
+def source_disclosure(sources, label='Πηγές και χρόνοι αναφοράς', extra=''):
+    return '<details class="sources-disclosure"><summary>'+icon('book')+esc(label)+'<span class="disclosure-count">'+str(len(sources))+'</span></summary><div class="disclosure-body">'+extra+source_links(sources)+'</div></details>'
 
 def blocks(article, excluded=()):
     out = []
@@ -69,6 +73,7 @@ def words(article):
 
 def icon(name):
     paths={'news':'M4 4h16v16H4z M8 8h8 M8 12h8 M8 16h5','globe':'M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20 M2 12h20 M12 2c-5 5-5 15 0 20 M12 2c5 5 5 15 0 20','sport':'M5 3h14v5a7 7 0 0 1-14 0z M5 5H2v3c0 3 3 4 5 4 M19 5h3v3c0 3-3 4-5 4 M12 15v6 M8 21h8','chart':'M3 3v18h18 M6 15l5-5 4 3 5-8','search':'M10 3a7 7 0 1 0 0 14 7 7 0 1 0 0-14 M15 15l6 6','book':'M3 4h7l2 2 2-2h7v16h-7l-2 2-2-2H3z M12 6v16','clock':'M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20 M12 6v6l4 2','sun':'M12 7a5 5 0 1 0 0 10 5 5 0 1 0 0-10 M12 1v3 M12 20v3 M1 12h3 M20 12h3 M4 4l2 2 M18 18l2 2 M4 20l2-2 M18 6l2-2','moon':'M20 15A9 9 0 1 1 9 3a7 7 0 0 0 11 12','archive':'M3 3h18v5H3z M5 8v13h14V8 M9 12h6','up':'M5 14l7-7 7 7','check':'M4 12l5 5L20 6','arrow':'M4 12h16 M14 6l6 6-6 6','photo':'M3 4h18v16H3z M3 17l6-7 5 5 3-3 4 5 M15 7h1','print':'M6 8V2h12v6 M6 18H3V8h18v10h-3 M6 14h12v8H6z'}
+    paths.update({'calendar':'M4 5h16v16H4z M4 10h16 M8 3v4 M16 3v4 M8 14h2 M14 14h2 M8 18h2', 'weather':'M8 17h11a4 4 0 0 0 0-8 6 6 0 0 0-11 1 4 4 0 0 0 0 7 M4 3v2 M1 8h2 M7 3l-1 2 M11 19l-1 3 M16 19l-1 3', 'tech':'M6 6h12v12H6z M9 9h6v6H9z M9 2v4 M15 2v4 M9 18v4 M15 18v4 M2 9h4 M2 15h4 M18 9h4 M18 15h4', 'info':'M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20 M12 11v6 M12 7h.01'})
     return '<svg class="ui-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="'+paths.get(name,paths['news'])+'"/></svg>'
 
 def image(a,depth=''):
@@ -255,11 +260,10 @@ def calculator(e):
 def card(e, a, hero=False):
     cl = 'hero' if hero else 'newscard'
     abstract=f'<div class="abstract"><p>{esc(a["summary"])}</p></div>'
-    overview='<div class="lead-overview">'+abstract+image(a,'../')+'</div>' if hero else abstract
     shown=[]
     context=''
     if a.get('newspaper_analysis'):
-        context='<div class="card-context"><b>'+icon('book')+' Η ουσία · ½–1 λεπτό</b>'+''.join('<p>'+esc(p)+'</p>' for p in a['newspaper_analysis'])+'</div>'
+        context='<div class="card-context">'+('' if hero else '<b>'+icon('book')+' Η ουσία · ½–1 λεπτό</b>')+''.join('<p>'+esc(p)+'</p>' for p in a['newspaper_analysis'])+'</div>'
     elif not hero:
         reported=[p for s in a['sections'] if s['kind']=='reported' for p in s['paragraphs'] if not p.strip().startswith(a['summary'].strip())][:2]
         analysis=next((s for s in a['sections'] if s['kind']=='analysis'),None)
@@ -268,8 +272,13 @@ def card(e, a, hero=False):
         if analysis:
             context+=f'<div class="card-context"><b>Συντακτική ανάλυση · {esc(analysis["heading"])}</b><p>{esc(analysis["paragraphs"][0])}</p></div>'
     more='' if a.get('newspaper_analysis') else '<details class="story-more"><summary>Περισσότερα μέσα στην έκδοση</summary>'+blocks(a,shown)+'</details>'
-    sources='<details class="sources-disclosure"><summary>Πηγές και χρόνοι αναφοράς</summary>'+source_links(a['sources'])+'</details>'
-    return f'<article class="{cl}" id="{esc(a["id"])}">'+('' if hero else image(a,'../'))+f'<div class="story-content"><div class="eyebrow">{esc(a["category"])}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}>'+overview+context+f'<p class="muted">{sources_label(a["sources"])}</p>'+more+sources+f'<a class="read-link" href="../{article_url(e,a)}">{icon('book')} Διάβασε την πλήρη ανάλυση · {math.ceil(words(a)/220)}′ {icon('arrow')}</a></div></article>'
+    if hero and context:
+        context='<details class="lead-analysis"><summary>'+icon('book')+'Η ουσία · ½–1 λεπτό</summary>'+context+'</details>'
+    sources=source_disclosure(a['sources'], 'Πηγές', '<p class="muted">'+sources_label(a['sources'])+'</p>')
+    reader=f'<a class="read-link" href="../{article_url(e,a)}">{icon("book")} Πλήρης ανάλυση <span class="reading-time">{math.ceil(words(a)/220)}′</span>{icon("arrow")}</a>'
+    copy=abstract+context+more+'<div class="story-actions">'+reader+'</div>'+sources
+    overview='<div class="lead-overview"><div class="lead-copy">'+copy+'</div>'+image(a,'../')+'</div>' if hero else copy
+    return f'<article class="{cl}" id="{esc(a["id"])}">'+('' if hero else image(a,'../'))+f'<div class="story-content"><div class="eyebrow">{esc(a["category"])}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}>'+overview+'</div></article>'
 
 def edition_desk(e, registry):
     out = ['<nav class="edition-desk" aria-label="Εκδόσεις της ημέρας"><b>Γραφείο εκδόσεων</b>']
@@ -285,10 +294,31 @@ def edition_desk(e, registry):
 def head(title, canonical, css, depth='', edition=None):
     indicator = f' data-edition="{esc(edition)}"' if edition else ''
     meta = f'<meta name="oracle-edition" content="{esc(edition)}">' if edition else ''
-    return f'<!doctype html><html lang="el" data-theme="light"{indicator}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{meta}<title>{esc(title)} · The Oracle Sovereign</title><link rel="canonical" href="{BASE}{canonical}"><link rel="stylesheet" href="{depth}assets/{css}.css"><link rel="stylesheet" href="{depth}assets/accessibility.css"><script defer src="{depth}assets/reading.js"></script></head><body><a class="back-top" href="#main" aria-label="Επιστροφή στην αρχή">{icon("up")}<span>Αρχή</span></a><a class="skip-link" href="#main">Μετάβαση στο περιεχόμενο</a>'
+    components=f'<link rel="stylesheet" href="{depth}assets/newspaper-ui.css">' if css=='newspaper' else ''
+    return f'<!doctype html><html lang="el" data-theme="light"{indicator}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{meta}<title>{esc(title)} · The Oracle Sovereign</title><link rel="canonical" href="{BASE}{canonical}"><link rel="stylesheet" href="{depth}assets/{css}.css"><link rel="stylesheet" href="{depth}assets/accessibility.css">{components}<script defer src="{depth}assets/reading.js"></script></head><body><a class="back-top" href="#main" aria-label="Επιστροφή στην αρχή">{icon("up")}<span>Αρχή</span></a><a class="skip-link" href="#main">Μετάβαση στο περιεχόμενο</a>'
 
 def edition_panels(e):
-    return ''.join('<section class="section" id="'+esc(panel['id'])+'"><div class="sectionhead"><h2>'+esc(panel['heading'])+'</h2></div>'+''.join('<p>'+esc(p)+'</p>' for p in panel['paragraphs'])+source_links(panel['sources'])+'</section>' for panel in e.get('panels', []))
+    out=[]
+    for panel in e.get('panels', []):
+        kind='weather' if panel['id']=='weather' else 'calendar' if panel['id'] in ('watch','risk-radar') else 'tech' if panel['id']=='tech-watch' else 'info'
+        out.append('<section class="section edition-panel panel-'+kind+'" id="'+esc(panel['id'])+'"><div class="sectionhead"><h2>'+icon(kind)+esc(panel['heading'])+'</h2></div>')
+        if kind=='calendar':
+            out.append('<ol class="calendar-list">')
+            for paragraph in panel['paragraphs']:
+                when, separator, text=paragraph.partition(' · ')
+                # Only separate the date/time already explicitly written by the editor.
+                dated=bool(separator and re.match(r'^\d{1,2}/\d{1,2}',when))
+                out.append('<li class="calendar-event">'+('<div class="event-when">'+icon('clock')+esc(when)+'</div><span class="event-separator"> · </span><p>'+esc(text)+'</p>' if dated else '<p>'+esc(paragraph)+'</p>')+'</li>')
+            out.append('</ol>')
+        else:
+            out.append('<div class="panel-items">')
+            for index,paragraph in enumerate(panel['paragraphs']):
+                warning=kind=='weather' and paragraph.startswith('Πορτοκαλί προειδοποίηση')
+                title='Προειδοποίηση' if warning else 'Πρόγνωση' if kind=='weather' else paragraph.partition(':')[0] if ':' in paragraph and len(paragraph.partition(':')[0])<=40 else ''
+                out.append('<article class="panel-item'+(' panel-advisory' if warning else '')+'">'+('<h3>'+esc(title)+'</h3>' if title else '')+'<p>'+esc(paragraph)+'</p></article>')
+            out.append('</div>')
+        out.append(source_disclosure(panel['sources'], 'Πηγές της ενότητας')+'</section>')
+    return ''.join(out)
 
 def _render(root=ROOT):
     global ROOT
@@ -384,7 +414,7 @@ def _render(root=ROOT):
             compat+=f'<meta name="briefing-root" content="{depth or "./"}"><main class="shell" id="main"><h1>Άνοιγμα άρθρου</h1><p id="reader-status" role="status">Φόρτωση της συγκεκριμένης έκδοσης…</p><a class="read-link" href="{depth}index.html">← Αρχείο εκδόσεων</a><noscript>Χρειάζεται JavaScript για αυτόν τον παλιό σύνδεσμο. Τα άρθρα της έκδοσης είναι διαθέσιμα από το αρχείο.</noscript></main><script src="{depth}assets/reader-route.js"></script></body></html>'
             write(ROOT/'docs'/route,compat)
     write(ROOT/'docs/data/reader-routes.json',json.dumps(route_registry,ensure_ascii=False,indent=2)+'\n')
-    for name in ['newspaper','article']:
+    for name in ['newspaper','article','newspaper-ui']:
         write(ROOT/'docs/assets'/(name+'.css'),(ROOT/'templates/v2'/(name+'.css')).read_text(encoding='utf-8'))
     archive=head('Αρχείο εκδόσεων','index.html','newspaper')+f'<header class="masthead wrap"><div class="brand"><h1>THE ORACLE <em>SOVEREIGN.</em></h1><p>Αρχείο δημοσιευμένων εκδόσεων</p></div></header><main class="wrap" id="main"><div class="tools"><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button><a href="search.html">Αναζήτηση άρθρων</a><a href="https://jodemon9.github.io/oracle-briefing/">Κεντρική πύλη ↗</a></div>'
     current_id=registry[0]['id'] if registry else None

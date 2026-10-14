@@ -82,6 +82,10 @@ def run(screenshots=None):
                             img.scroll_into_view_if_needed()
                             img.evaluate('(img)=>Promise.race([img.decode(),new Promise((_,reject)=>setTimeout(()=>reject(Error("Image decode timeout")),10000))])')
                             assert img.evaluate('(img)=>img.naturalWidth>=200&&img.naturalHeight>=200'),f'Broken photograph: {path}'
+                        if '/real/' in path and page.locator('#cyprus .g3').count():
+                            expected_columns=3 if width>=1100 else 1
+                            for grid in page.locator('#cyprus .g3,#world .g3').all():
+                                assert grid.evaluate('(x)=>getComputedStyle(x).gridTemplateColumns.split(" ").length')==expected_columns,(width,path)
                         if '/real/daily/' in path and not path.endswith('/index.html'):
                             assert page.locator('.edition-desk [aria-current]').count()==0
                             assert page.locator('.core-quotes>.quote-card:visible').count()<=6

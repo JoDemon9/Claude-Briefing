@@ -32,7 +32,7 @@ def markets(b, e):
     used = set()
     def details(q):
         metadata = '<dl class="quote-metadata">' + ''.join('<dt>'+b.esc(k)+'</dt><dd>'+b.esc(v)+'</dd>' for k,v in q.items() if k != 'sources') + '</dl>'
-        return '<details class="quote-sources"><summary>Πηγή και metadata</summary>'+b.source_links(q['sources'])+metadata+'</details>'
+        return '<details class="quote-sources"><summary>Πηγές και στοιχεία</summary><div class="disclosure-body">'+b.source_links(q['sources'])+'<details class="raw-quote"><summary>Πλήρη δεδομένα τιμής</summary>'+metadata+'</details></div></details>'
     def quote(q):
         value = q['value']
         if isinstance(value, (int,float)):
@@ -54,7 +54,9 @@ def markets(b, e):
         overview = [{'text':q['name']+' · '+f'{q["change_pct"]:+.2f}%'.replace('.',',')+' ('+labels[q['status']]+'). Χρόνος τιμής: '+b.stamp(q['quoted_at'])+'. Δεν έχει τεκμηριωθεί μοναδική αιτία.', 'sources':q['sources']} for q in core if q.get('change_pct') is not None][:2]
         if e.get('market_next_event'): overview.append(e['market_next_event'])
     def note(n):
-        return '<article class="market-note"><p>'+b.esc(n['text'])+'</p><details><summary>Τεκμηρίωση</summary>'+b.source_links(n['sources'])+'</details></article>'
+        company=next((label for label in ['Johnson & Johnson','Goldman Sachs',*[label for label,_ in TECH]] if n['text'].startswith(label)),None)
+        heading=company or (n['text'].partition(':')[0] if ':' in n['text'] and len(n['text'].partition(':')[0])<=35 else None)
+        return '<article class="market-note">'+('<h4>'+b.esc(heading)+'</h4>' if heading else '')+'<p>'+b.esc(n['text'])+'</p>'+b.source_disclosure(n['sources'],'Τεκμηρίωση')+'</article>'
     html = '<section class="section compact-markets" id="markets"><div class="sectionhead"><h2>'+b.icon('chart')+'Αγορές.</h2><a class="read-link" href="../markets.html">Ιστορικά γραφήματα ↗</a></div><div class="market-overview"><h3>Η εικόνα των αγορών σε 30 δευτερόλεπτα</h3>'+(''.join(note(n) for n in overview[:3]) or '<p>Δεν υπάρχουν επαληθευμένες τιμές σε αυτή την έκδοση.</p>')+'</div><div class="core-quotes">'+''.join(quote(q) for q in core)+'</div>'
     tech_keys = {key for _,key in TECH}
     rates = []
@@ -85,13 +87,19 @@ def markets(b, e):
             html += '<tr data-quote-key="'+b.esc(key)+'"><th scope="row">'+b.esc(q['name'])+'</th><td>'+''.join(str(row.select_one(selector)) for selector in ('.quote-value','.quote-unit','.quote-change'))+'</td><td>'+str(row.select_one('.quote-status'))+str(row.time)+details(q)+'</td></tr>'
     html += '</tbody></table></details>'
     if rates:
-        html += '<div class="rate-summary"><h3>ECB / Euribor · χωριστά fixings</h3><p>Κάθε tenor και ημερομηνία ισχύος εξετάζονται χωριστά. Ο χρόνος fixing είναι ο χρόνος του στοιχείου.</p><details><summary>Επιτόκια, tenors και πηγές</summary><div class="quote-grid">'+''.join(quote(q) for q in rates)+'</div></details></div>'
+        def rate(q):
+            row=BeautifulSoup(quote(q),'html.parser')
+            row.article['class']=['quote-card','rate-card']
+            row.select_one('.quote-change').decompose()
+            row.select_one('.quote-status').string='Fixing' if 'euribor' in q['name'].casefold() else 'Ημερομηνία ισχύος'
+            return str(row.article)
+        html += '<div class="rate-summary"><div class="support-heading"><h3>'+b.icon('chart')+'Επιτόκια · ΕΚΤ & Euribor</h3><p>Κάθε διάρκεια και ημερομηνία αναφοράς διαβάζονται χωριστά.</p></div><details class="rate-disclosure"><summary>Επιτόκια ανά διάρκεια και πηγές <span class="disclosure-count">'+str(len(rates))+'</span></summary><div class="quote-grid">'+''.join(rate(q) for q in rates)+'</div></details></div>'
     movers = e.get('market_movers', [])
     if not movers:
         movers = [n for n in e.get('market_notes',[]) if n.get('kind') != 'Τεκμηρίωση τιμών']
     if movers:
         html += '<div class="market-movers"><h3>Κινήσεις και τεκμηριωμένη εξήγηση</h3>'+''.join(note(n) for n in movers[:3])
-        if len(movers)>3: html += '<details><summary>Περισσότερες κινήσεις</summary>'+''.join(note(n) for n in movers[3:])+'</details>'
+        if len(movers)>3: html += '<details class="more-movers"><summary>Περισσότερες κινήσεις</summary>'+''.join(note(n) for n in movers[3:])+'</details>'
         html += '</div>'
     documentation = e.get('market_notes',[]) if e.get('market_movers') else [n for n in e.get('market_notes',[]) if n.get('kind') == 'Τεκμηρίωση τιμών']
     if documentation: html += '<details class="market-documentation"><summary>Κοινή τεκμηρίωση τιμών και μεθοδολογία</summary>'+''.join(note(n) for n in documentation)+'</details>'
