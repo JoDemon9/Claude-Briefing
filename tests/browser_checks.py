@@ -44,6 +44,8 @@ def run(screenshots=None):
                 latest=registry[0]
                 latest_path='/real/'+latest['url']
                 if latest_path not in paths:paths.append(latest_path)
+                latest_day_path='/real/daily/'+latest['date']+'.html'
+                if latest_day_path not in paths:paths.append(latest_day_path)
                 latest_source=ROOT/'content/editions'/(latest['id']+'.json')
                 photographed=json.loads(latest_source.read_text()) if latest_source.exists() else {}
                 if photographed.get('image_review'):
@@ -54,8 +56,8 @@ def run(screenshots=None):
                             if edition_path not in paths:paths.append(edition_path)
                             paths.extend('/real/articles/'+reviewed['id']+'/'+Path(a).stem+'.html' for a in reviewed['articles'])
                     paths.append('/real/articles/'+latest['id']+'/lead.html')
-                    dated_reader=ROOT/'docs/readers'/(latest['id']+'.html')
-                    if dated_reader.exists():paths.append('/real/readers/'+latest['id']+'.html?story=lead')
+                    dated_reader=ROOT/'docs/readers'/((latest['date'] if latest['type']=='morning' else latest['id'])+'.html')
+                    if dated_reader.exists():paths.append('/real/readers/'+dated_reader.name+'?story=lead')
                 for s in scenarios:paths.append('/'+s['type']+'/docs/'+s['type']+'/'+s['date']+'.html')
                 for width in [320,375,390,1440]:
                     page.set_viewport_size({'width':width,'height':900})
@@ -87,9 +89,9 @@ def run(screenshots=None):
                             assert page.locator('#markets table.quotes').count()==0
                             assert page.locator('details.day-summary>summary').count()==1
                         checks.append(f'{width}px {path}: no overflow or JavaScript errors')
-                        if screenshots and width in [375,1440] and (path in paths[:2] or path==latest_path):
+                        if screenshots and width in [375,1440] and (path in paths[:2] or path in [latest_path,latest_day_path]):
                             screenshots.mkdir(parents=True,exist_ok=True)
-                            page.screenshot(path=str(screenshots/(str(width)+'-'+('latest-edition' if path==latest_path else ('edition' if '/morning/' in path else 'article'))+'.png')),full_page=True)
+                            page.screenshot(path=str(screenshots/(str(width)+'-'+('latest-day' if path==latest_day_path else ('latest-edition' if path==latest_path else ('edition' if '/morning/' in path else 'article')))+'.png')),full_page=True)
                 page.set_viewport_size({'width':375,'height':900})
                 page.goto(base+'/real/morning/2026-10-12.html')
                 summary=page.locator('#sports summary').first

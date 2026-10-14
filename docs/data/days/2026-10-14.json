@@ -1,0 +1,695 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-14",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-10-14.html",
+  "editions": [
+    {
+      "id": "2026-10-14-morning",
+      "type": "morning",
+      "url": "morning/2026-10-14.html",
+      "published_at": "2026-10-14T08:03:44+03:00"
+    }
+  ],
+  "missing_slots": [
+    "midday",
+    "evening"
+  ],
+  "lead_story_id": "cyprus-child-benefit-bill-2026",
+  "stories": [
+    {
+      "story_id": "cyprus-child-benefit-bill-2026",
+      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "lead",
+          "source_story_id": "cyprus-child-benefit-bill-2026",
+          "url": "articles/2026-10-14-morning/lead.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "lead",
+        "source_story_id": "cyprus-child-benefit-bill-2026",
+        "url": "articles/2026-10-14-morning/lead.html"
+      },
+      "section": "cyprus",
+      "priority": 0
+    },
+    {
+      "story_id": "google-gemini-4-argon-release",
+      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "world-1",
+          "source_story_id": "google-gemini-4-argon-release",
+          "url": "articles/2026-10-14-morning/world-1.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-1",
+        "source_story_id": "google-gemini-4-argon-release",
+        "url": "articles/2026-10-14-morning/world-1.html"
+      },
+      "section": "world",
+      "priority": 0
+    },
+    {
+      "story_id": "manutd-atletico-october-2026-result",
+      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "sport-united",
+          "source_story_id": "manutd-atletico-october-2026-result",
+          "url": "articles/2026-10-14-morning/sport-united.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "sport-united",
+        "source_story_id": "manutd-atletico-october-2026-result",
+        "url": "articles/2026-10-14-morning/sport-united.html"
+      },
+      "section": "sports",
+      "priority": 0
+    },
+    {
+      "story_id": "champions-league-october-13-2026-roundup",
+      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "sport-champions",
+          "source_story_id": "champions-league-october-13-2026-roundup",
+          "url": "articles/2026-10-14-morning/sport-champions.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "sport-champions",
+        "source_story_id": "champions-league-october-13-2026-roundup",
+        "url": "articles/2026-10-14-morning/sport-champions.html"
+      },
+      "section": "sports",
+      "priority": 10
+    },
+    {
+      "story_id": "china-september-2026-trade",
+      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "world-2",
+          "source_story_id": "china-september-2026-trade",
+          "url": "articles/2026-10-14-morning/world-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-2",
+        "source_story_id": "china-september-2026-trade",
+        "url": "articles/2026-10-14-morning/world-2.html"
+      },
+      "section": "world",
+      "priority": 10
+    },
+    {
+      "story_id": "cyprus-imf-october-2026-outlook",
+      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "cyprus-1",
+          "source_story_id": "cyprus-imf-october-2026-outlook",
+          "url": "articles/2026-10-14-morning/cyprus-1.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-1",
+        "source_story_id": "cyprus-imf-october-2026-outlook",
+        "url": "articles/2026-10-14-morning/cyprus-1.html"
+      },
+      "section": "cyprus",
+      "priority": 10
+    },
+    {
+      "story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
+      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "world-3",
+          "source_story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
+          "url": "articles/2026-10-14-morning/world-3.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-3",
+        "source_story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
+        "url": "articles/2026-10-14-morning/world-3.html"
+      },
+      "section": "world",
+      "priority": 20
+    },
+    {
+      "story_id": "cyprus-ccci-ai-training-november-2026",
+      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "cyprus-2",
+          "source_story_id": "cyprus-ccci-ai-training-november-2026",
+          "url": "articles/2026-10-14-morning/cyprus-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-2",
+        "source_story_id": "cyprus-ccci-ai-training-november-2026",
+        "url": "articles/2026-10-14-morning/cyprus-2.html"
+      },
+      "section": "cyprus",
+      "priority": 20
+    },
+    {
+      "story_id": "cyprus-cop31-presidential-attendance",
+      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "cyprus-3",
+          "source_story_id": "cyprus-cop31-presidential-attendance",
+          "url": "articles/2026-10-14-morning/cyprus-3.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-3",
+        "source_story_id": "cyprus-cop31-presidential-attendance",
+        "url": "articles/2026-10-14-morning/cyprus-3.html"
+      },
+      "section": "cyprus",
+      "priority": 30
+    },
+    {
+      "story_id": "yemen-sanaa-saudi-strikes-october-2026",
+      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "world-4",
+          "source_story_id": "yemen-sanaa-saudi-strikes-october-2026",
+          "url": "articles/2026-10-14-morning/world-4.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-4",
+        "source_story_id": "yemen-sanaa-saudi-strikes-october-2026",
+        "url": "articles/2026-10-14-morning/world-4.html"
+      },
+      "section": "world",
+      "priority": 30
+    },
+    {
+      "story_id": "cyprus-fintech-cyber-resilience-2026",
+      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "cyprus-4",
+          "source_story_id": "cyprus-fintech-cyber-resilience-2026",
+          "url": "articles/2026-10-14-morning/cyprus-4.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-4",
+        "source_story_id": "cyprus-fintech-cyber-resilience-2026",
+        "url": "articles/2026-10-14-morning/cyprus-4.html"
+      },
+      "section": "cyprus",
+      "priority": 40
+    },
+    {
+      "story_id": "us-greece-guilfoyle-resignation-request-2026",
+      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "world-5",
+          "source_story_id": "us-greece-guilfoyle-resignation-request-2026",
+          "url": "articles/2026-10-14-morning/world-5.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-5",
+        "source_story_id": "us-greece-guilfoyle-resignation-request-2026",
+        "url": "articles/2026-10-14-morning/world-5.html"
+      },
+      "section": "world",
+      "priority": 40
+    },
+    {
+      "story_id": "cyprus-israel-davidovich-credentials",
+      "first_seen_at": "2026-10-14T08:03:44+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "cyprus-5",
+          "source_story_id": "cyprus-israel-davidovich-credentials",
+          "url": "articles/2026-10-14-morning/cyprus-5.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-5",
+        "source_story_id": "cyprus-israel-davidovich-credentials",
+        "url": "articles/2026-10-14-morning/cyprus-5.html"
+      },
+      "section": "cyprus",
+      "priority": 50
+    }
+  ],
+  "updates": [
+    {
+      "id": "02ef01513e2ed678c35f258ee5810907f45b0d90eb3b8b44707aaaaa0db9eee8",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-imf-october-2026-outlook",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-1",
+        "source_story_id": "cyprus-imf-october-2026-outlook",
+        "url": "articles/2026-10-14-morning/cyprus-1.html"
+      }
+    },
+    {
+      "id": "087edf1dca5f9da13bac8e576180bbd916a88d3911002d6eba114f611b9c4427",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "champions-league-october-13-2026-roundup",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "sport-champions",
+        "source_story_id": "champions-league-october-13-2026-roundup",
+        "url": "articles/2026-10-14-morning/sport-champions.html"
+      }
+    },
+    {
+      "id": "16cd56374360a2e045cf87d3601496356ac8218361bfa4b6a8eb22768a98ccf3",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-cop31-presidential-attendance",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-3",
+        "source_story_id": "cyprus-cop31-presidential-attendance",
+        "url": "articles/2026-10-14-morning/cyprus-3.html"
+      }
+    },
+    {
+      "id": "1a9f4ad21236f44d6bff240f5ae9935c858bfa1b3c60e6e402545f622bce9bdd",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "google-gemini-4-argon-release",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-1",
+        "source_story_id": "google-gemini-4-argon-release",
+        "url": "articles/2026-10-14-morning/world-1.html"
+      }
+    },
+    {
+      "id": "2026-10-14-morning-cyprus-1-provenance",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/13/imf-trims-cyprus-growth-forecast-to-2-9-per-cent-diverging-from-finance-ministry"
+      ],
+      "story_id": "cyprus-imf-october-2026-outlook",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-1",
+        "source_story_id": "cyprus-imf-october-2026-outlook",
+        "url": "articles/2026-10-14-morning/cyprus-1.html"
+      }
+    },
+    {
+      "id": "2026-10-14-morning-cyprus-2-provenance",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/cyprus-businesses-invited-to-subsidised-ai-training-programme"
+      ],
+      "story_id": "cyprus-ccci-ai-training-november-2026",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-2",
+        "source_story_id": "cyprus-ccci-ai-training-november-2026",
+        "url": "articles/2026-10-14-morning/cyprus-2.html"
+      }
+    },
+    {
+      "id": "2026-10-14-morning-cyprus-3-provenance",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/13/christodoulides-of-course-i-will-attend-cop31-summit-in-turkey"
+      ],
+      "story_id": "cyprus-cop31-presidential-attendance",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-3",
+        "source_story_id": "cyprus-cop31-presidential-attendance",
+        "url": "articles/2026-10-14-morning/cyprus-3.html"
+      }
+    },
+    {
+      "id": "2026-10-14-morning-cyprus-4-provenance",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://en.philenews.com/insider/cyber-resilience-board-accountability-digital-finance-cyprus/"
+      ],
+      "story_id": "cyprus-fintech-cyber-resilience-2026",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-4",
+        "source_story_id": "cyprus-fintech-cyber-resilience-2026",
+        "url": "articles/2026-10-14-morning/cyprus-4.html"
+      }
+    },
+    {
+      "id": "2026-10-14-morning-cyprus-5-provenance",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/13/new-israeli-ambassador-davidovich-presents-credentials"
+      ],
+      "story_id": "cyprus-israel-davidovich-credentials",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-5",
+        "source_story_id": "cyprus-israel-davidovich-credentials",
+        "url": "articles/2026-10-14-morning/cyprus-5.html"
+      }
+    },
+    {
+      "id": "2026-10-14-morning-lead-provenance",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/13/more-families-to-become-eligible-for-child-benefit"
+      ],
+      "story_id": "cyprus-child-benefit-bill-2026",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "lead",
+        "source_story_id": "cyprus-child-benefit-bill-2026",
+        "url": "articles/2026-10-14-morning/lead.html"
+      }
+    },
+    {
+      "id": "2026-10-14-morning-sport-champions-provenance",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "https://www.uefa.com/uefachampionsleague/news/02a9-218f8e669a0a-debba167a199-1000--champions-league-top-scorer-nicolo-tresoldi/"
+      ],
+      "story_id": "champions-league-october-13-2026-roundup",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "sport-champions",
+        "source_story_id": "champions-league-october-13-2026-roundup",
+        "url": "articles/2026-10-14-morning/sport-champions.html"
+      }
+    },
+    {
+      "id": "2026-10-14-morning-sport-united-provenance",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+        "https://www.skysports.com/football/news/13598750/atletico-madrid-2-0-man-utd-leny-yoro-sent-off-as-michael-carricks-side-extend-winless-run-to-five-games",
+        "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-202627-premier-league-season"
+      ],
+      "story_id": "manutd-atletico-october-2026-result",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "sport-united",
+        "source_story_id": "manutd-atletico-october-2026-result",
+        "url": "articles/2026-10-14-morning/sport-united.html"
+      }
+    },
+    {
+      "id": "2026-10-14-morning-world-1-provenance",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://blog.google/intl/en-mena/product-updates/explore-get-answers/gemini-4-argon-built-to-solve-your-hardest-problems/",
+        "https://deepmind.google/models/model-cards/gemini-4-argon/"
+      ],
+      "story_id": "google-gemini-4-argon-release",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-1",
+        "source_story_id": "google-gemini-4-argon-release",
+        "url": "articles/2026-10-14-morning/world-1.html"
+      }
+    },
+    {
+      "id": "2026-10-14-morning-world-2-provenance",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.brecorder.com/news/40444136"
+      ],
+      "story_id": "china-september-2026-trade",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-2",
+        "source_story_id": "china-september-2026-trade",
+        "url": "articles/2026-10-14-morning/world-2.html"
+      }
+    },
+    {
+      "id": "2026-10-14-morning-world-3-provenance",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/13/eleven-sailors-missing-after-drone-sinks-ship-off-bulgaria"
+      ],
+      "story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-3",
+        "source_story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
+        "url": "articles/2026-10-14-morning/world-3.html"
+      }
+    },
+    {
+      "id": "2026-10-14-morning-world-4-provenance",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/13/saudi-arabia-strikes-yemen-capital-as-houthis-vow-to-retaliate",
+        "https://gvwire.com/2026/10/13/missile-hits-headquarters-of-saudi-aramco-source-says-as-houthi-conflict-escalates/"
+      ],
+      "story_id": "yemen-sanaa-saudi-strikes-october-2026",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-4",
+        "source_story_id": "yemen-sanaa-saudi-strikes-october-2026",
+        "url": "articles/2026-10-14-morning/world-4.html"
+      }
+    },
+    {
+      "id": "2026-10-14-morning-world-5-provenance",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Πρώτη ένταξη αυτού του τεκμηριωμένου θέματος στη σημερινή εφημερίδα, μετά τον πρωινό έλεγχο. Η ώρα αφορά τον συντακτικό έλεγχο, όχι υποτιθέμενη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/13/trump-fires-ambassador-to-greece-guilfoyle-after-reports-of-misconduct"
+      ],
+      "story_id": "us-greece-guilfoyle-resignation-request-2026",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-5",
+        "source_story_id": "us-greece-guilfoyle-resignation-request-2026",
+        "url": "articles/2026-10-14-morning/world-5.html"
+      }
+    },
+    {
+      "id": "5864ae020a26aeee84ee7f31c03c6ecb6ea7476a8cf33700b95df310c9fa6860",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "china-september-2026-trade",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-2",
+        "source_story_id": "china-september-2026-trade",
+        "url": "articles/2026-10-14-morning/world-2.html"
+      }
+    },
+    {
+      "id": "68b8f54cf519d7bb1f6d71c8dac806450afc89fb8a31f2fa8d457ee73d3c7334",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "manutd-atletico-october-2026-result",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "sport-united",
+        "source_story_id": "manutd-atletico-october-2026-result",
+        "url": "articles/2026-10-14-morning/sport-united.html"
+      }
+    },
+    {
+      "id": "8474db4df93cf68ab17d22b167a5b9aa642fdd045876c0afab02b2c86bfb27b5",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-israel-davidovich-credentials",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-5",
+        "source_story_id": "cyprus-israel-davidovich-credentials",
+        "url": "articles/2026-10-14-morning/cyprus-5.html"
+      }
+    },
+    {
+      "id": "9efc76a5757d9f8b244b2091324f5ea355a72d8bc01e31943a826ad78c463480",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-fintech-cyber-resilience-2026",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-4",
+        "source_story_id": "cyprus-fintech-cyber-resilience-2026",
+        "url": "articles/2026-10-14-morning/cyprus-4.html"
+      }
+    },
+    {
+      "id": "a35cf5d1db055af8fc4d70ad3d36a0717bfd753ec02cd92cdfe7c5b41b6425b9",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-ccci-ai-training-november-2026",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-2",
+        "source_story_id": "cyprus-ccci-ai-training-november-2026",
+        "url": "articles/2026-10-14-morning/cyprus-2.html"
+      }
+    },
+    {
+      "id": "add2e78566355df28273c5a5a27eb21fbd6b83a74dec5380328d0b9208b203d9",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-child-benefit-bill-2026",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "lead",
+        "source_story_id": "cyprus-child-benefit-bill-2026",
+        "url": "articles/2026-10-14-morning/lead.html"
+      }
+    },
+    {
+      "id": "d523fb9311dc782e29b85979645a8b41743ed4a09dd89a5ad0646fa7d65f5356",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-greece-guilfoyle-resignation-request-2026",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-5",
+        "source_story_id": "us-greece-guilfoyle-resignation-request-2026",
+        "url": "articles/2026-10-14-morning/world-5.html"
+      }
+    },
+    {
+      "id": "d7bcd57f03169da341dab6a4683d443abddb7818420c9b34ce316dc80e5c8dc9",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-3",
+        "source_story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
+        "url": "articles/2026-10-14-morning/world-3.html"
+      }
+    },
+    {
+      "id": "d9107095426ee8c088b62d937123f612d8005e77cd68990879e634b7c6b42778",
+      "kind": "provenance",
+      "at": "2026-10-14T08:03:44+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "yemen-sanaa-saudi-strikes-october-2026",
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-4",
+        "source_story_id": "yemen-sanaa-saudi-strikes-october-2026",
+        "url": "articles/2026-10-14-morning/world-4.html"
+      }
+    }
+  ],
+  "created_at": "2026-10-14T05:08:09.130736+00:00",
+  "updated_at": "2026-10-14T05:08:09.130736+00:00",
+  "input_sha256": "d815c3a2d9c6c43a35df208e0cf36a0f44d00c8d4113491bf5cb5d3f660925cf"
+}

@@ -164,12 +164,16 @@ class DailyTests(unittest.TestCase):
             a['daily']={'events':[{'id':'integrated-correction','kind':'correction','at':'2026-10-13T22:00:00+03:00','summary':'Διόρθωση διατύπωσης χωρίς νέο γεγονός.','source_urls':[a['sources'][0]['url']]}]}
             target.write_text(json.dumps(a,ensure_ascii=False))
             build.build(root)
-            first=(root/'docs/today.html').read_bytes()
+            corrected_day=root/'docs/daily'/f'{e["date"]}.html'
+            first=corrected_day.read_bytes()
             self.assertIn('συντακτική διόρθωση',first.decode())
+            latest_day=json.loads((root/'docs/data/day-latest.json').read_text())['day_id']
+            if latest_day!=e['date']:
+                self.assertNotIn('συντακτική διόρθωση',(root/'docs/today.html').read_text())
             model=json.loads((root/'docs/data/days/2026-10-13.json').read_text())
             self.assertEqual(next(x for x in model['updates'] if x['id']=='integrated-correction')['kind'],'correction')
             build.build(root)
-            self.assertEqual((root/'docs/today.html').read_bytes(),first)
+            self.assertEqual(corrected_day.read_bytes(),first)
             self.assertEqual(json.loads(target.read_text())['published_at'],published)
             self.assertEqual([q['quoted_at'] for q in json.loads((root/'content/editions'/f'{e["id"]}.json').read_text())['markets']],quote_times)
 
