@@ -40,9 +40,13 @@ class UIContentTests(unittest.TestCase):
                     else:self.assertFalse(doc.select('.card-analysis'))
                     self.assertEqual([p.get_text() for p in doc.select('.card-context>p')],article['newspaper_analysis'])
                     im=article['image']
-                    self.assertIn(im['caption'],doc.select_one('.photo-details').get_text())
-                    self.assertIn(im['attribution'],doc.select_one('.photo-details').get_text())
-                    self.assertTrue(doc.select_one('.photo-details').find('a',href=im['license_url']))
+                    self.assertFalse(doc.select('figcaption,.photo-details,.photo-credit,.photo-caption'))
+                    self.assertEqual(doc.select_one('img')['alt'],im['alt'])
+                    credits=BeautifulSoup((ROOT/'docs/photo-credits.html').read_text(),'html.parser')
+                    entry=credits.find(id=edition['id']+'-'+article['id'])
+                    self.assertIn(im['caption'],entry.get_text())
+                    self.assertIn(im['attribution'],entry.get_text())
+                    self.assertTrue(entry.find('a',href=im['license_url']))
                     self.assertTrue(doc.find('a',href='../'+article['url']) if article.get('reader_mode')=='full' else doc.select_one('.original-report'))
 
     def test_shared_overview_changes_and_sports_keep_all_editorial_text(self):

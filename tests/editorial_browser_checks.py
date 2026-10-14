@@ -21,18 +21,28 @@ def run(output):
                 context=browser.new_context(java_script_enabled=js,reduced_motion='reduce')
                 context.route('**/*',lambda r:r.continue_() if r.request.url.startswith(base) else r.abort())
                 page=context.new_page()
-                for width in [320,375,390,1440]:
+                for width in [320,375,390,768,1440]:
                     page.set_viewport_size({'width':width,'height':950});page.goto(base+model['url'],wait_until='networkidle')
                     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
                     assert page.locator('.editorial-revision').is_visible()
                     for sid,a in records.items():
                         card=page.locator('[data-story-id="'+sid+'"]')
+                        bar=card.locator('.article-actions')
+                        controls=bar.locator(':scope > details > summary,:scope > .story-actions > a')
+                        boxes=[control.bounding_box() for control in controls.all()]
+                        assert len(boxes)==(3 if a['newspaper_analysis'] else 2)
+                        assert max(box['y'] for box in boxes)-min(box['y'] for box in boxes)<2,(sid,width,boxes)
+                        assert all(box['height']>=44 for box in boxes)
+                        assert card.locator('figcaption,.photo-credit').count()==0
                         assert card.locator('.abstract').inner_text()==a['summary']
                         assert card.locator('.reading-layer').is_visible()
                         if a['newspaper_analysis']:
                             assert not card.locator('.card-context').is_visible()
                             trigger=card.locator('.card-analysis>summary');trigger.focus();page.keyboard.press('Enter')
                             assert card.locator('.card-context').is_visible()
+                            expanded=card.locator('.card-context').bounding_box()
+                            assert expanded['width']>=bar.bounding_box()['width']-2
+                            assert max(control.bounding_box()['y'] for control in controls.all())-min(control.bounding_box()['y'] for control in controls.all())<2
                             assert card.locator('.card-context p').all_text_contents()==a['newspaper_analysis']
                             trigger.click()
                         else:assert card.locator('.card-analysis').count()==0
@@ -42,6 +52,14 @@ def run(output):
                             assert '?from=daily/' not in url
                         else:
                             assert card.locator('.story-actions a[href*="articles/'+a['edition_id']+'/'+a['id']+'.html"]').count()==1
+                    funding=page.locator('#opportunities')
+                    assert funding.locator('.opportunities-grid').first.locator(':scope > article').count()==3
+                    assert '30/12/2026 · 23:59 Κύπρου' in funding.inner_text()
+                    assert '04/11/2026 · 18:00 Κύπρου' in funding.inner_text()
+                    assert not funding.locator('#opportunity-cy-new-entrepreneurship-2024-call2').is_visible()
+                    funding.locator('.opportunity-watch>summary').click()
+                    assert funding.locator('#opportunity-cy-new-entrepreneurship-2024-call2').is_visible()
+                    assert page.locator('.image-credits-link').count()==1
                     overview=page.locator('#summary>summary');overview.focus();page.keyboard.press('Enter')
                     assert page.locator('.summary-point:visible').count()==6
                     for link in page.locator('.summary-story-links a').all():

@@ -127,3 +127,21 @@ figure.photo figcaption{padding:10px 14px 4px;font:12px/1.5 Arial,sans-serif}.ph
 .edition-change-list{padding:0;margin:0;list-style:none}.edition-change{display:grid;grid-template-columns:125px minmax(0,1fr);align-items:start;gap:16px;padding:16px 0;border-top:1px solid var(--line)}.change-kind{display:inline-flex;align-items:center;gap:6px;font:700 13px/1.5 Arial,sans-serif;color:var(--forest)}.edition-change p{margin:0;font:16px/1.75 Arial,sans-serif;color:var(--ink)}
 @media(max-width:1099px){.summary-points{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:699px){.hub-guide{display:block;padding:12px 0}.hub-identity strong{font-size:14px}.hub-identity p{font-size:12px}.hub-links{gap:16px;margin-top:6px;font-size:12px}.publication-bar .edition-desk>.participating-caption{grid-column:1/-1;justify-content:start;align-items:start;margin:0;font-size:11px}.lead-copy>.lead-analysis{order:5}.day-summary{padding:2px 12px}.day-summary>summary{font-size:16px}.summary-points{grid-template-columns:minmax(0,1fr);gap:10px}.summary-points>.summary-point{padding:14px}.summary-point p{font-size:15px}.edition-changes{padding:16px}.edition-changes .sectionhead{display:block}.edition-changes .sectionhead h2{margin-bottom:7px}.edition-change{grid-template-columns:minmax(0,1fr);gap:8px}.sports .sport>p:not(.muted){font-size:16px}}
+
+/* DEC-006: three native controls, one row even at 320px; no per-photo prose. */
+.article-actions{position:relative;display:block;margin-top:auto;padding-top:54px;border-top:1px solid var(--line);width:100%;min-width:0;--action-width:calc((100% - 12px)/3)}
+.article-actions.two-actions{--action-width:calc((100% - 6px)/2)}
+.article-actions>.card-analysis,.article-actions>.sources-disclosure{display:block;margin:0;padding:0;border:0}
+.article-actions>.story-actions{display:contents}
+.article-actions>details>summary,.article-actions>.story-actions>.read-link{position:absolute;top:10px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:4px;width:var(--action-width);min-width:0;min-height:44px;padding:8px 2px;margin:0;border:1px solid var(--line);border-radius:4px;font:600 12px/1.3 Arial,sans-serif;white-space:nowrap}
+.article-actions>.card-analysis>summary{left:0}.article-actions>.story-actions>.read-link{left:calc((100% + 6px)/3)}.article-actions>.sources-disclosure>summary{right:0}
+.article-actions.two-actions>.story-actions>.read-link{left:0}
+.article-actions>details>summary::after{font-size:16px;margin-left:2px}
+.article-actions>.card-analysis>.card-context,.article-actions>.sources-disclosure>.disclosure-body{width:100%;padding-top:14px;min-width:0;box-sizing:border-box}
+.article-actions>.sources-disclosure>.disclosure-body a{overflow-wrap:anywhere}
+@media(max-width:699px){.lead-copy>.article-actions{order:5;width:100%}}
+.image-credits-link{font:12px/1.5 Arial,sans-serif;padding:10px;display:inline-block}
+
+/* DEC-007: actionable public programmes, separate from article news. */
+.opportunities>p{font:15px/1.7 Arial,sans-serif;color:var(--muted)}.opportunities-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.opportunity-card{padding:18px;border:1px solid var(--line);border-radius:6px;background:var(--card);min-width:0}.opportunity-card h3{font:600 24px/1.3 Georgia,serif;margin:10px 0}.opportunity-card p,.opportunity-card dd{font:14px/1.65 Arial,sans-serif;margin:0 0 12px}.opportunity-card .opportunity-type{font:700 11px/1.5 Arial,sans-serif;color:var(--forest);text-transform:uppercase}.opportunity-status{color:var(--forest);font-weight:700!important}.opportunity-status small{display:block;font-weight:400;color:var(--muted)}.opportunity-card dt{font:700 12px/1.6 Arial,sans-serif;color:var(--muted)}.opportunity-card dd{margin:0 0 12px}.opportunity-apply{display:flex;align-items:center;min-height:44px;font:700 14px/1.5 Arial,sans-serif}.more-opportunities>summary,.opportunity-watch>summary{cursor:pointer;min-height:44px;padding:14px 0;font:600 14px/1.5 Arial,sans-serif}.opportunity-card a{overflow-wrap:anywhere}.opportunity-watch{margin-top:12px}
+@media(max-width:1099px){.opportunities-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:699px){.opportunities-grid{grid-template-columns:minmax(0,1fr)}}

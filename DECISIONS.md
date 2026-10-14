@@ -6,6 +6,8 @@ This is the canonical record of user needs that future changes must respect. Rea
 
 | ID | User need | Current status | Record |
 | --- | --- | --- | --- |
+| DEC-006 | Keep three article actions on one row and remove per-photo prose. | Implemented for publication. | [Compact article actions](decisions/DEC-006-compact-article-actions.md) |
+| DEC-007 | Track actionable grants, benefits and rights with eligibility and application deadlines. | Implemented with verified seeds. | [Opportunities and rights](decisions/DEC-007-opportunities-and-rights.md) |
 | DEC-004 | The daily overview must include important selected stories from the whole available day. | Implemented under the 15 October request. | [Whole-day overview](decisions/DEC-004-whole-day-overview.md) |
 | DEC-005 | 30-second findings, useful expansion and further reading only when it adds knowledge; no forced counterarguments. | Implemented under the 15 October request. | [Reading value](decisions/DEC-005-reading-value.md) |
 | DEC-001 | Remember what was fixed and why, so unrelated work does not accidentally reverse it. | Accepted; repository documentation implemented. | [Decision history](decisions/DEC-001-decision-history.md) |

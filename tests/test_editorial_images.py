@@ -16,9 +16,11 @@ class EditorialImageTests(unittest.TestCase):
         rendered=build.image({'image':photo},'../../')
         self.assertIn('../../assets/editorial/example/lead.webp',rendered)
         self.assertIn('Ονομασία &lt;εικόνας&gt;',rendered)
-        self.assertIn('Φωτογραφία αρχείου, 2025.',rendered)
-        self.assertIn('https://commons.wikimedia.org/wiki/File:example.jpg',rendered)
-        self.assertIn('https://creativecommons.org/licenses/by/4.0/',rendered)
+        self.assertNotIn('figcaption',rendered)
+        credits=build.photo_credits([({'id':'2026-10-15-morning'},[{'id':'lead','headline':'Δοκιμή','image':photo}])])
+        self.assertIn(photo['caption'],credits)
+        self.assertIn(photo['source_url'],credits)
+        self.assertIn(photo['license_url'],credits)
         self.assertIn('data-image-fallback hidden',rendered)
 
     def test_missing_photo_does_not_invent_an_image_url(self):

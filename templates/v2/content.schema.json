@@ -591,6 +591,128 @@
         }
       },
       "additionalProperties": false
+    },
+    "opportunity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "jurisdiction",
+        "summary",
+        "eligibility",
+        "support",
+        "deadline_note",
+        "action",
+        "kind",
+        "status",
+        "verified_at",
+        "deadline",
+        "opens_at",
+        "deadline_type",
+        "application_url",
+        "application_kind",
+        "sources"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "jurisdiction": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "eligibility": {
+          "type": "string",
+          "minLength": 1
+        },
+        "support": {
+          "type": "string",
+          "minLength": 1
+        },
+        "deadline_note": {
+          "type": "string",
+          "minLength": 1
+        },
+        "action": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "grant",
+            "benefit",
+            "legal_right"
+          ]
+        },
+        "status": {
+          "enum": [
+            "open",
+            "upcoming",
+            "closed",
+            "proposed",
+            "needs_verification"
+          ]
+        },
+        "verified_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "deadline": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}(T.*)?$"
+        },
+        "opens_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}(T.*)?$"
+        },
+        "deadline_type": {
+          "enum": [
+            "fixed",
+            "rolling",
+            "unknown"
+          ]
+        },
+        "application_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "application_kind": {
+          "enum": [
+            "form",
+            "instructions",
+            "none"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "change_note": {
+          "type": "string"
+        }
+      }
     }
   },
   "type": "object",
@@ -1133,6 +1255,13 @@
       "uniqueItems": true,
       "items": {
         "type": "string"
+      }
+    },
+    "opportunities": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {
+        "$ref": "#/$defs/opportunity"
       }
     }
   },

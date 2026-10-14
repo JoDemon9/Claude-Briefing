@@ -106,7 +106,7 @@ def verify_live(root=ROOT, base=BASE, opener=None):
         raise ValueError('Rebuild the receipt; local files changed')
     opener = opener or urllib.request.urlopen
     names = ['data/release.json', 'data/editions.json']
-    names += [name for name in ['latest.html','data/latest.json','today.html','data/day-latest.json','data/days.json'] if name in receipt['files']]
+    names += [name for name in ['latest.html','data/latest.json','today.html','data/day-latest.json','data/days.json','photo-credits.html'] if name in receipt['files']]
     names += [r['url'] for r in json.loads((root/'docs/data/editions.json').read_text(encoding='utf-8'))]
     names += [name for name in receipt['files'] if name.startswith(('articles/', 'assets/', 'daily/', 'data/days/'))]
     for name in dict.fromkeys(names):

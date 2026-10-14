@@ -85,15 +85,17 @@ def image(a,depth=''):
     if not im:
         return ''
     url=im['url'] if im['url'].startswith(('https://','data:')) else depth+im['url']
-    caption=esc(im.get('caption',''))
-    credit=esc(im['attribution'])
-    if im.get('source_url'):
-        credit=f'<a href="{esc(im["source_url"])}" rel="noopener noreferrer">{credit}</a>'
-    if im.get('license_url'):
-        credit+=f' · <a href="{esc(im["license_url"])}" rel="noopener noreferrer">{esc(im["license"])}</a>'
-    short=re.split(r'Τεχνική (?:προσαρμογή|μετατροπή)|Μείωση μεγέθους/μετατροπή',im.get('caption',''),maxsplit=1)[0].strip() or im.get('caption','')
-    metadata='<dl class="photo-metadata">'+''.join('<div><dt>'+label+'</dt><dd>'+esc(im.get(key) or UNKNOWN)+'</dd></div>' for key,label in [('retrieved_at','Ανάκτηση'),('original_url','Αρχική εικόνα')])+'</dl>'
-    return f'<figure class="photo" data-editorial-image><img src="{esc(url)}" alt="{esc(im["alt"])}" loading="lazy" decoding="async"><p class="image-fallback" data-image-fallback hidden>Η φωτογραφία δεν φορτώθηκε. Άνοιξε την αρχική πηγή από τη λεζάντα.</p><figcaption><p class="photo-caption">{esc(short)}</p><details class="photo-credit"><summary>{icon("photo")}Φωτογραφία / δικαιώματα</summary><div class="photo-details"><p>{caption}</p><p>{credit}</p>{metadata}</div></details></figcaption></figure>'
+    return f'<figure class="photo" data-editorial-image><img src="{esc(url)}" alt="{esc(im["alt"])}" loading="lazy" decoding="async"><p class="image-fallback" data-image-fallback hidden>Η φωτογραφία δεν φορτώθηκε.</p></figure>'
+
+def photo_credits(bundles):
+    """One public attribution record, without repeated article captions/panels."""
+    entries=[]
+    for e,articles in bundles:
+        for a in articles:
+            im=a.get('image')
+            if not im:continue
+            entries.append('<section id="'+esc(e['id']+'-'+a['id'])+'"><h2><a href="'+esc(article_url(e,a))+'">'+esc(a['headline'])+'</a></h2><p>'+esc(im.get('caption',''))+'</p><p><a href="'+esc(im.get('source_url',''))+'">'+esc(im['attribution'])+'</a> · <a href="'+esc(im.get('license_url',''))+'">'+esc(im.get('license','Στοιχεία στην αρχική πηγή'))+'</a></p><p>'+esc(im.get('original_url',''))+' · Ανάκτηση: '+esc(im.get('retrieved_at',''))+'</p></section>')
+    return head('Συντελεστές εικόνων','photo-credits.html','article','')+'<main class="shell"><a href="today.html">← Εφημερίδα</a><h1>Συντελεστές εικόνων</h1>'+''.join(entries)+'</main></body></html>'
 
 def article_url(e, a):
     return f'articles/{e["id"]}/{a["id"]}.html'
@@ -103,6 +105,7 @@ def validate(e, articles):
     from jsonschema import Draft202012Validator, FormatChecker
     schema = read(ROOT/'templates/v2/content.schema.json')
     Draft202012Validator(schema, format_checker=FormatChecker()).validate(e)
+    load_module('opportunities').validate(e.get('opportunities',[]))
     if e['id'] != f'{e["date"]}-{e["type"]}':
         raise ValueError('Edition ID/date/type mismatch')
     if e['published_at'] and datetime.fromisoformat(e['published_at']).astimezone(ZoneInfo(e['timezone'])).date().isoformat() != e['date']:
@@ -400,7 +403,7 @@ def _render(root=ROOT):
         body += load_module('newspaper_ui').changes(SimpleNamespace(**globals()),e['changes'])
         if not e.get('calculator'):
             body = body.replace('<a href="#rates">Δόση</a>', '<a href="#watch">Στη συνέχεια</a>' if any(p['id']=='watch' for p in e.get('panels',[])) else '')
-        body += sports(e,aa)+markets(e)+calculator(e)+edition_panels(e)
+        body += load_module('opportunities').render(SimpleNamespace(**globals()),e.get('opportunities',[]))+sports(e,aa)+markets(e)+calculator(e)+edition_panels(e)
         body += '<p class="warning">Η προσβασιμότητα συνδέσμων και η πραγματολογική διασταύρωση είναι διαφορετικοί έλεγχοι. Οι σελίδες διατηρούν την εικόνα της δικής τους έκδοσης.</p></main><footer class="footer"><div class="wrap">THE ORACLE SOVEREIGN · '+date+'</div></footer></body></html>'
         body=load_module('newspaper_ui').decorate(SimpleNamespace(**globals()),body,e)
         if not e.get('preserve_legacy_html') or not (ROOT/'docs'/e['url']).is_file():
@@ -425,9 +428,11 @@ def _render(root=ROOT):
                 p+='<p class="revision-note">'+esc(a['revision_note'])+'</p>'
             toc='<div class="sidebox reader-toc"><h3>Σε αυτό το άρθρο</h3>'+''.join(f'<a href="#section-{i}">{esc(s["heading"])}</a>' for i,s in enumerate(a['sections'],1) if any(p.strip()!=a['summary'].strip() for p in s['paragraphs']))+'</div>'
             p+='<div class="layout"><article class="prose">'+blocks(a)+'<section class="section"><h2>Πηγές και χρόνοι αναφοράς</h2>'+source_links(a['sources'])+f'<p>{esc(a.get("evidence_note",""))}</p>'+'<p class="warning">Οι αλυσίδες αναφοράς δείχνουν την προέλευση των πληροφοριών. Αναδημοσιεύσεις του ίδιου πρακτορείου δεν αποτελούν ανεξάρτητη διασταύρωση.</p></section>'+f'<a class="read-link" href="../../{e["url"]}">← Επιστροφή στη συγκεκριμένη έκδοση</a></article><aside class="side">'+toc+f'<div class="sidebox"><h3>Σχετικές ιστορίες</h3><div class="sourcelinks">{related or "Δεν υπάρχουν επιπλέον σχετικές ιστορίες."}</div></div></aside></div></main></body></html>'
+            p=p.replace('</main></body>', '<footer class="shell"><a href="'+BASE+'photo-credits.html">Συντελεστές εικόνων</a></footer></main></body>')
             write(ROOT/'docs'/url,p)
             write(ROOT/'docs/data/articles'/e['id']/(a['id']+'.json'),json.dumps(a,ensure_ascii=False,indent=2)+'\n')
             search.append({'id':a['story_id'],'edition_id':e['id'],'date':e['date'],'headline':a['headline'],'summary':a['summary'],'body':' '.join(p for s in a['sections'] for p in s['paragraphs']),'url':url})
+    write(ROOT/'docs/photo-credits.html',photo_credits(bundles))
     registry.sort(key=lambda x:x['published_at'] or x['date'],reverse=True)
     write(ROOT/'docs/data/editions.json',json.dumps(registry,ensure_ascii=False,indent=2)+'\n')
     write(ROOT/'docs/search-index.json',json.dumps(search,ensure_ascii=False,indent=2)+'\n')

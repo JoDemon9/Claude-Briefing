@@ -126,4 +126,29 @@ def decorate(b, text, edition, day=None):
             body.append(heading)
             for anchor in list(history.select('a')):body.append(anchor.extract())
             history.decompose()
+    # DEC-006: concise controls share one row; their native panels span below it.
+    for card in doc.select('.hero,.newscard'):
+        parent=card.select_one('.lead-copy') or card.select_one('.story-content')
+        if not parent or parent.select_one('.article-actions'):continue
+        analysis=parent.select_one(':scope > .card-analysis,:scope > section.lead-analysis')
+        if analysis and analysis.name=='section':
+            analysis.name='details';analysis['class']=['card-analysis','lead-analysis']
+            analysis.h3.name='summary'
+        reader=parent.select_one(':scope > .story-actions')
+        sources=parent.select_one(':scope > .sources-disclosure')
+        if not reader or not sources:continue
+        actions=doc.new_tag('div',attrs={'class':'article-actions'+(' two-actions' if not analysis else '')})
+        reader.insert_before(actions)
+        for node,label in [(analysis,'Ανάλυση'),(reader,'Άρθρο'),(sources,'Πηγές')]:
+            if not node:continue
+            control=node.select_one('a') if node==reader else node.summary
+            original=control.get_text(' ',strip=True)
+            control['aria-label']=original;control['title']=original
+            control.clear();control.append(label)
+            actions.append(node.extract())
+    for caption in doc.select('figure[data-editorial-image] figcaption'):caption.decompose()
+    footer=doc.select_one('.day-footer,.footer')
+    if footer and not footer.select_one('.image-credits-link'):
+        link=doc.new_tag('a',href=b.BASE+'photo-credits.html',attrs={'class':'image-credits-link'})
+        link.string='Συντελεστές εικόνων';footer.append(link)
     return str(doc)

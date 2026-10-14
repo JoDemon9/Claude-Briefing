@@ -116,6 +116,11 @@ def compose(date, bundles, previous=None, aliases=None, now=None):
     if lead_id not in stories:
         raise ValueError('Daily lead must reference a participating published story')
     model = {'schema_version': 1, 'date': date, 'timezone': participating[0][0]['timezone'], 'status': 'published', 'url': f'daily/{date}.html', 'editions': edition_refs, 'missing_slots': [slot for slot in SLOTS if slot not in {e['type'] for e, _ in participating}], 'lead_story_id': lead_id, 'stories': sorted(stories.values(), key=lambda s: (s['priority'], s['story_id'])), 'updates': sorted(events.values(), key=lambda event: (instant(event['at']), event['id']))}
+    # Select the most recently verified record per stable programme ID.
+    import importlib.util
+    spec=importlib.util.spec_from_file_location('day_opportunities',Path(__file__).with_name('opportunities.py'))
+    opportunity=importlib.util.module_from_spec(spec);spec.loader.exec_module(opportunity)
+    model['opportunities']=opportunity.collect(participating)
     model['overview']=load_editorial().overview(model['stories'],participating,canonical)
     fingerprint = digest({'model': model, 'inputs': participating, 'aliases': aliases})
     moment = (now or datetime.now(timezone.utc)).isoformat()
@@ -250,6 +255,7 @@ def render(b, model, bundles):
         for panel in e.get('panels', []):
             panels['watch' if panel['id'] in ('watch','risk-radar') else panel['id']] = panel
     market_edition = dict(latest, markets=list(quotes.values()), panels=list(panels.values()))
+    html += b.load_module('opportunities').render(b,model.get('opportunities',[]))
     html += b.markets(market_edition) + b.calculator(latest) + b.edition_panels(market_edition)
     html += '<footer class="day-footer"><span>THE ORACLE SOVEREIGN · '+model['date']+'</span><a href="../'+model['url']+'">'+b.icon('book')+'Μόνιμο αρχείο αυτής της ημέρας</a><a href="../daily/index.html">'+b.icon('archive')+'Αρχείο ημερών</a><details class="edition-about"><summary>Τι αποθηκεύεται εδώ;</summary><p>Η εφημερίδα ημέρας συγκεντρώνει τα κύρια νέα των δημοσιευμένων πρωινών, μεσημεριανών και βραδινών εκδόσεων, χωρίς διπλές ιστορίες. Ανανεώνεται στην ίδια διεύθυνση και διατηρείται στο αρχείο ανά ημερομηνία. Τα τρία briefings και οι αναλυτικοί readers παραμένουν στα δικά τους URLs.</p><p>Δημιουργία ημερήσιου αρχείου: ' + b.stamp(model['created_at']) + ' · ' + model['timezone'] + '. Οι ώρες πηγών και τιμών διατηρούνται. Κάθε reader ανήκει στη συγκεκριμένη έκδοση.</p></details></footer></main></body></html>'
     return b.load_module('newspaper_ui').decorate(b,html,latest,model)
