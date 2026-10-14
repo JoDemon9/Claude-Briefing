@@ -28,8 +28,12 @@ The current 14 October newspaper's 24 underlying articles are revised from store
 
 Relevant checks are in `tests/test_editorial_value.py`, updated UI tests and the mobile/no-JavaScript browser checks. Existing image/license, archive, source-chain and publication integrity gates remain. The current newspaper revision does not claim fresh reporting or additional independently retrieved sources.
 
-Only three passages of each active daily task prompt are replaced: the cumulative-day overview instruction, the reading-depth instruction and the reading-review version. Task titles, enabled state, timing/timezone and all other prompt text are retained. The completed one-off task is untouched. Verification checks those unchanged fields and exact prompt text after updating.
+For the initial reading request, three passages of each active daily task prompt are replaced: the cumulative-day overview instruction, the reading-depth instruction and the reading-review version. Task titles, enabled state, timing/timezone and all other prompt text are retained. The completed one-off task is untouched. Verification checks those unchanged fields and exact prompt text after updating.
 
 ## Completed local checks
 
 71 newspaper unit tests, 300 general browser checks, 16 frontend browser checks, 8 focused editorial cases covering all 22 selected day stories with and without JavaScript, and 9 portal unit tests passed. Source/quote/image data, stable identities and original publication times were compared with main and preserved. Git diff whitespace and changed Markdown links were checked. Served release and actual task-prompt verification are recorded after publication.
+
+The subsequent user request adds only the DEC-006 photo/action presentation instructions and the DEC-007 opportunity-tracking block. The three actual task prompts were updated and read back exactly; their title, schedule, timezone and enabled state were preserved. See [the final verification record](../RELEASE_NOTES_2026-10-15.md).
+
+Code is on main, both Pages releases passed live verification, and the three task prompts were updated/read back exactly. Evidence is maintained in [RELEASE_NOTES_2026-10-15.md](../RELEASE_NOTES_2026-10-15.md).

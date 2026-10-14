@@ -10,3 +10,5 @@ The shared frontend groups Ανάλυση / Άρθρο / Πηγές in one row w
 `build.image` renders the image, accurate alt and failure state without captions or rights panels. One generated `docs/photo-credits.html` page preserves reviewed full captions, authorship, original source and license links; it is linked from the footer, not under every image. Source JSON is unchanged. Do not reintroduce per-photo prose during unrelated image or styling work.
 
 Affected sources: build.py, newspaper_ui.py, newspaper-ui.css, UI/image/browser tests, generated public pages and portal snapshot. Verification/publication is recorded in RELEASE_NOTES_2026-10-15.md after actual checks. This change is authorized for the repositories and the relevant scheduled-prompt instructions.
+
+Code is on main, both Pages releases passed live verification, and the three task prompts were updated/read back exactly. Evidence is maintained in [RELEASE_NOTES_2026-10-15.md](../RELEASE_NOTES_2026-10-15.md).

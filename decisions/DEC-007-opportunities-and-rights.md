@@ -11,3 +11,5 @@ The cumulative day deduplicates by stable ID and selects the latest actual verif
 Initial official research: Cyprus home-energy upgrades, EIC Accelerator, Erasmus for Young Entrepreneurs, EU cross-border SME VAT rules and the closed 2024 Cyprus entrepreneurship call. Full URLs and read-source metadata are stored in the 14 October evening edition with separate 15 October verification dates; original news timestamps are untouched. The closed startup call used ages 18–29, not 18–30; it is not advertised as a current call.
 
 Affected sources: optional content/day schemas, opportunities.py, build.py/daily.py, CSS, five seed records, tests, shared instructions and three existing ChatGPT prompts. No new automation or schedule change. Verification/publication is recorded in RELEASE_NOTES_2026-10-15.md after actual checks.
+
+Code is on main, both Pages releases passed live verification, and the three task prompts were updated/read back exactly. Evidence is maintained in [RELEASE_NOTES_2026-10-15.md](../RELEASE_NOTES_2026-10-15.md).

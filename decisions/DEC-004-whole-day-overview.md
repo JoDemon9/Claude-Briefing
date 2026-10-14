@@ -24,3 +24,5 @@ The renderer does not generate new analytical prose. The production task must re
 ## Completed local checks
 
 71 newspaper unit tests, 300 general browser checks, 16 frontend browser checks, 8 focused editorial cases covering all 22 selected day stories with and without JavaScript, and 9 portal unit tests passed. Source/quote/image data, stable identities and original publication times were compared with main and preserved. Git diff whitespace and changed Markdown links were checked. Served release and actual task-prompt verification are recorded after publication.
+
+Code is on main, both Pages releases passed live verification, and the three task prompts were updated/read back exactly. Evidence is maintained in [RELEASE_NOTES_2026-10-15.md](../RELEASE_NOTES_2026-10-15.md).

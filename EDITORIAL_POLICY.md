@@ -31,7 +31,7 @@ The structural gates enforce concise summaries/expansions, readable supporting s
 
 The 14 October newspaper was revised using only its stored public findings. Its 24 source articles were edited, genuine stakeholder disputes retained and formulaic opposing-view passages removed. The five retained separate full readers add distinct analysis; other cards lead to the original source. No new reporting, publication time, quote value or source retrieval time is implied by the editorial revision.
 
-The existing three scheduled tasks receive only the corresponding cumulative-overview, reading-depth and review-version edits. Keep their schedules, titles, enabled state, destinations, sports/finance/weather rules and publication workflow unchanged.
+For the initial DEC-004/005 request, the existing three scheduled tasks receive the corresponding cumulative-overview, reading-depth and review-version edits; DEC-006/007 below extend the authorized scope. Keep their schedules, titles, enabled state, destinations, sports/finance/weather rules and publication workflow unchanged.
 
 ## Latest user requirements — DEC-006 / DEC-007 (15 October 2026)
 
