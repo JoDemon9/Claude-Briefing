@@ -214,3 +214,30 @@ python scripts/daily_release.py --verify-live
 Τοπικά αποτελέσματα: **62 public + 38 private + 9 Oracle unit tests**, **248 public + 29 central + 9 portal browser checks**, όλα επιτυχή. Τα νέα tests ελέγχουν ακριβή διατήρηση κάθε paragraph/summary/λεζάντας/άδειας, την ταυτότητα των ιστοριών, idempotence, τα πραγματικά publication datetimes, native μενού/πηγές/ανάλυση/credits, μικρή κορυφή, τρεις desktop στήλες και χαμηλότερες κάρτες. Επιθεωρήθηκαν mobile/desktop, light/dark screenshots, μαζί με expanded πηγές/επιτόκια. Πέρασαν compilation, allowlisted package export και whitespace checks.
 
 Τα τρία πραγματικά automations παρέμειναν αμετάβλητα. Οι οδηγίες στα repositories εξηγούν μόνο την παρουσίαση του renderer. Δεν προστέθηκε scheduler/AI backend, δεν στάλθηκαν μηνύματα, δεν άλλαξε η χωριστή λειτουργία Wire και το private παραμένει χωρίς Pages.
+
+### Επαληθευμένο frontend deployment
+
+| Repository | Commit | Πραγματικό αποτέλεσμα |
+| --- | --- | --- |
+| Claude-Briefing | [26e2ac64a8b75882ea2089975fc6e2d158e22be4](https://github.com/JoDemon9/Claude-Briefing/commit/26e2ac64a8b75882ea2089975fc6e2d158e22be4) | [Pages success](https://github.com/JoDemon9/Claude-Briefing/actions/runs/38540970341), [structured checks success](https://github.com/JoDemon9/Claude-Briefing/actions/runs/38540971247), [served release success](https://github.com/JoDemon9/Claude-Briefing/actions/runs/38541075214) |
+| oracle-briefing | [eae07a9c8f4577d397960c728e213e200dd79b6d](https://github.com/JoDemon9/oracle-briefing/commit/eae07a9c8f4577d397960c728e213e200dd79b6d) | [Pages success](https://github.com/JoDemon9/oracle-briefing/actions/runs/38541492927), [reading checks success](https://github.com/JoDemon9/oracle-briefing/actions/runs/38541493284), [served daily success](https://github.com/JoDemon9/oracle-briefing/actions/runs/38541596767) |
+| Claude-Briefing-Private | [5f76196fe3773a05e18cd361324eabb920dd7093](https://github.com/JoDemon9/Claude-Briefing-Private/commit/5f76196fe3773a05e18cd361324eabb920dd7093) | [CI success](https://github.com/JoDemon9/Claude-Briefing-Private/actions/runs/38540985326), ιδιωτικό preview χωρίς Pages |
+
+Η πραγματική δημοσίευση χρησιμοποιεί τη διαθέσιμη εφημερίδα 14/10/2026 και την πρωινή συμμετέχουσα έκδοση. Τα midday/evening compatibility URLs οδηγούν στις πραγματικές νεότερες ανεξάρτητες εκδόσεις τους, με τη δική τους ημερομηνία.
+
+- Public live hashes: **156 αρχεία**, release `a542150a13eaa3940fcc66b1a6f684b428f8a02e7554ded8d4f8d28b983e239a`.
+- Oracle live hashes: **26 αρχεία**, release `a46cf2b8d86e32fef07dec934bac746e0e668ca6b64e4b7589f3b8f068483620`.
+- **43 επιπλέον live browser checks** πέρασαν, με **71 πραγματικές HTTPS ανακτήσεις** μέσω runtime proxy/CA trust, χωρίς συνθετικές δημοσιευμένες αποκρίσεις. Ελέγχθηκαν Oracle, ημερήσιο URL, today/latest, νεότερη πραγματική ανεξάρτητη έκδοση κάθε slot και ο επιλεγμένος reader στα 320/375/390/1440 px. Περιλαμβάνονται native μενού, πλήρης ανάλυση/πηγές/credits, quote times/status, πραγματικό decode, print expansion/restoration, themes, search/bookmark/font/TOC, χωρίς JavaScript και blocked storage.
+- Επιθεωρήθηκαν τα live screenshots στο `.work/layout-live-preview/`. Receipt: public `.work/layout-live-browser-check.json`, μαζί με `.work/publication-check.json` και Oracle `.work/daily-publication-check.json`.
+
+Μετρήσεις της ίδιας ύλης και κλειστών αναπτύξεων, πριν/μετά:
+
+| Μέτρηση | Πριν | Μετά |
+| --- | --- | --- |
+| Θέση πρώτου τίτλου, 375 px | 747 px | 382 px |
+| Ύψος πρώτης κάρτας Κύπρου, 375 px | 1682 px | 810 px |
+| Ύψος πρώτης κάρτας Κύπρου, 1440 px | 1410 px | 768 px |
+| Συνολικό ύψος ημέρας, 375 px | 31830 px | 18608 px |
+| Συνολικό ύψος ημέρας, 1440 px | 13099 px | 8820 px |
+
+Η μείωση προήλθε από τη διάταξη/native disclosures και τη συγκέντρωση controls, με μηδενικό diff σε content JSON και αποθηκευμένα μοντέλα ημέρας. Όλο το αρχικό κείμενο/πηγές/metadata παραμένει διαθέσιμο. Οι ενημερώσεις ήταν non-force, με fresh heads, χωρίς αλλαγές Wire ή automations. Δεν παραμένει εμπόδιο υλοποίησης ή δημοσίευσης.
