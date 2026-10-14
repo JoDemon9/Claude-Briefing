@@ -1,0 +1,1722 @@
+{
+  "schema_version": 2,
+  "id": "2026-10-14-evening",
+  "date": "2026-10-14",
+  "type": "evening",
+  "timezone": "Europe/Athens",
+  "published_at": "2026-10-14T20:12:34+03:00",
+  "editorial_completed_at": "2026-10-14T20:02:27+03:00",
+  "scheduled_slot": "19:30",
+  "status": "published",
+  "title": "Βραδινός απολογισμός · Κακοκαιρία, λογοδοσία και πληθωρισμός",
+  "url": "evening/2026-10-14.html",
+  "articles": [
+    "articles/2026-10-14-evening/lead.json",
+    "articles/2026-10-14-evening/cyprus-takata.json",
+    "articles/2026-10-14-evening/cyprus-audit.json",
+    "articles/2026-10-14-evening/cyprus-nursing.json",
+    "articles/2026-10-14-evening/world-cpi.json"
+  ],
+  "changes": [
+    {
+      "kind": "Εξέλιξη",
+      "story_id": null,
+      "text": "Πλέον διαθέσιμα σημερινά ευρωπαϊκά κλεισίματα και ΧΑΚ, με χωριστές ενδοσυνεδριακές τιμές ΗΠΑ. Οι νέες εξελίξεις κάθε άρθρου καταγράφονται με τη δημοσίευση της πηγής, χωρίς επινοημένη ώρα γεγονότος."
+    }
+  ],
+  "sports": {
+    "coverage": {
+      "omonoia": {
+        "symbol": "☘",
+        "summary": "Μπράουερς στην επίσημη σημερινή αποστολή· Celje–Ομόνοια αύριο 15/10 19:45 Κύπρου. Η ενδεκάδα δεν έχει ανακοινωθεί.",
+        "updated_at": "2026-10-14T13:46:48+03:00",
+        "last_match": {
+          "opponent": "Καρμιώτισσα",
+          "competition": "Πρωτάθλημα Κύπρου",
+          "date": "2026-10-09",
+          "venue": null,
+          "result": "Καρμιώτισσα 0–3 Ομόνοια",
+          "scorers": [
+            "Μπράουερς",
+            "Τάνκοβιτς",
+            "Σάτκα"
+          ],
+          "verified_at": "2026-10-14T08:03:44+03:00",
+          "sources": [
+            {
+              "publisher": "Ομόνοια",
+              "url": "https://www.omonoiafc.com.cy/match-report-%CE%B5%CE%BA%CF%84%CF%8C%CF%82-%CE%AD%CE%B4%CF%81%CE%B1%CF%82-%CE%BD%CE%AF%CE%BA%CE%B7-%CE%B1%CF%80%CE%AD%CE%BD%CE%B1%CE%BD%CF%84%CE%B9-%CF%83%CF%84%CE%B7%CE%BD-%CE%BA%CE%B1%CF%81%CE%BC/",
+              "published_at": "2026-10-09T17:57:44Z",
+              "retrieved_at": "2026-10-14T08:03:44+03:00",
+              "reporting_group": "Ομόνοια",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Celje",
+          "competition": "UEFA Europa League",
+          "date": "2026-10-15",
+          "venue": null,
+          "kickoff_at": "2026-10-15T19:45:00+03:00",
+          "verified_at": "2026-10-14T13:46:48+03:00",
+          "sources": [
+            {
+              "publisher": "Ομόνοια",
+              "url": "https://www.omonoiafc.com.cy/%CF%80%CE%BB%CE%B7%CF%81%CE%BF%CF%86%CE%BF%CF%81%CE%AF%CE%B5%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CE%B1%CF%80%CE%BF%CF%83%CF%84%CE%BF%CE%BB%CE%AE-%CF%83%CF%84%CE%B7-%CF%83%CE%BB%CE%BF%CE%B2/",
+              "published_at": "2026-10-14",
+              "retrieved_at": "2026-10-14T13:46:48+03:00",
+              "reporting_group": "Ομόνοια",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Η επίσημη πηγή δίνει τους τρεις σκόρερ. Διαφωνεί εσωτερικά στο λεπτό του πρώτου γκολ (59΄ στο κείμενο, 60΄ στον πίνακα), γι’ αυτό δεν αποθηκεύουμε ακριβές λεπτό. Η νίκη πρωταθλήματος δεν προδικάζει ευρωπαϊκό αποτέλεσμα.",
+        "watch_next": "Επίσημη αποστολή και ιατρική ενημέρωση πριν από το παιχνίδι· χωρίς προεξόφληση αποκλεισμού ή συμμετοχής.",
+        "league_position": null,
+        "form": null,
+        "updates": [
+          {
+            "published_at": "2026-10-14",
+            "status": "Επίσημη αποστολή",
+            "text": "Ο Μπράουερς συμπεριλαμβάνεται στην αποστολή της Σλοβενίας. Δεν δίνεται ιατρική εκτίμηση ή βεβαιότητα βασικής συμμετοχής.",
+            "sources": [
+              {
+                "publisher": "Ομόνοια",
+                "url": "https://www.omonoiafc.com.cy/%CF%80%CE%BB%CE%B7%CF%81%CE%BF%CF%86%CE%BF%CF%81%CE%AF%CE%B5%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CE%B1%CF%80%CE%BF%CF%83%CF%84%CE%BF%CE%BB%CE%AE-%CF%83%CF%84%CE%B7-%CF%83%CE%BB%CE%BF%CE%B2/",
+                "published_at": "2026-10-14",
+                "retrieved_at": "2026-10-14T13:46:48+03:00",
+                "reporting_group": "Ομόνοια",
+                "kind": "primary",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          }
+        ],
+        "no_update_reason": "Δεν επαληθεύτηκε νέο αποτέλεσμα ή πρόσθετη ολοκληρωμένη επίσημη ανακοίνωση μετά το μεσημέρι. Τα παλαιότερα στοιχεία διατηρούν τον αρχικό χρόνο επαλήθευσης."
+      },
+      "manutd": {
+        "symbol": "M",
+        "summary": "Οριστικό Atlético 2–0 United στις 13/10. Barrios και Lookman, αποβολή Yoro. Επόμενο Leeds–United στις 18/10, 16:00 Κύπρου.",
+        "updated_at": "2026-10-14T08:03:44+03:00",
+        "last_match": {
+          "opponent": "Atlético Madrid",
+          "competition": "UEFA Champions League",
+          "date": "2026-10-13",
+          "result": "Atlético Madrid 2–0 Manchester United",
+          "venue": "Riyadh Air Metropolitano",
+          "scorers": [
+            "Pablo Barrios · Atlético",
+            "Ademola Lookman · Atlético"
+          ],
+          "verified_at": "2026-10-14T08:03:44+03:00",
+          "sources": [
+            {
+              "publisher": "UEFA",
+              "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+              "published_at": "2026-10-13",
+              "retrieved_at": "2026-10-14T07:57:30+03:00",
+              "reporting_group": "UEFA",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            },
+            {
+              "publisher": "Sky Sports",
+              "url": "https://www.skysports.com/football/news/13598750/atletico-madrid-2-0-man-utd-leny-yoro-sent-off-as-michael-carricks-side-extend-winless-run-to-five-games",
+              "published_at": "2026-10-14T00:11:00+01:00",
+              "retrieved_at": "2026-10-14T07:57:30+03:00",
+              "reporting_group": "Sky Sports",
+              "kind": "reporting",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Leeds United",
+          "competition": "Premier League",
+          "date": "2026-10-18",
+          "venue": "Elland Road",
+          "kickoff_at": "2026-10-18T16:00:00+03:00",
+          "verified_at": "2026-10-14T08:03:44+03:00",
+          "sources": [
+            {
+              "publisher": "Premier League",
+              "url": "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-202627-premier-league-season",
+              "published_at": "2026-06-19",
+              "retrieved_at": "2026-10-14T08:03:44+03:00",
+              "reporting_group": "Premier League",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Το τελικό αποτέλεσμα αντικαθιστά τη χθεσινή προεπισκόπηση. Η πρώιμη παραχώρηση γκολ και η αποβολή είναι χωριστά ζητήματα· η πλήρης ανάλυση ανοίγει στο σχετικό άρθρο.",
+        "watch_next": "Επίσημη διαθεσιμότητα για Leeds και πειθαρχική ενημέρωση UEFA· η United παίζει επίσης Como εκτός έδρας στις 21/10, 19:45 Κύπρου κατά UEFA.",
+        "league_position": null,
+        "form": null,
+        "updates": [
+          {
+            "published_at": "2026-10-14T00:11:00+01:00",
+            "status": "Ρεπορτάζ αγώνα",
+            "text": "Το Sky καταγράφει γκολ στο πρώτο λεπτό, δεύτερο στο 79΄ και αποβολή Yoro. Η κριτική Martínez για στελέχωση δεν αποτελεί ανακοίνωση αλλαγής προπονητή.",
+            "sources": [
+              {
+                "publisher": "Sky Sports",
+                "url": "https://www.skysports.com/football/news/13598750/atletico-madrid-2-0-man-utd-leny-yoro-sent-off-as-michael-carricks-side-extend-winless-run-to-five-games",
+                "published_at": "2026-10-14T00:11:00+01:00",
+                "retrieved_at": "2026-10-14T07:57:30+03:00",
+                "reporting_group": "Sky Sports",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          }
+        ],
+        "no_update_reason": "Δεν επαληθεύτηκε νέο αποτέλεσμα ή πρόσθετη ολοκληρωμένη επίσημη ανακοίνωση μετά το μεσημέρι. Τα παλαιότερα στοιχεία διατηρούν τον αρχικό χρόνο επαλήθευσης."
+      },
+      "realmadrid": {
+        "symbol": "♛",
+        "summary": "Απόψε Roma–Real Madrid στις 22:00 Κύπρου, στο Ολυμπιακό Στάδιο Ρώμης. Η επίσημη προαναγγελία επανελέγχθηκε· δεν υπάρχει ακόμη επαληθευμένο αποτέλεσμα ή νέα επίσημη ενδεκάδα.",
+        "updated_at": "2026-10-14T19:59:46+03:00",
+        "last_match": {
+          "opponent": "Villarreal",
+          "competition": "La Liga",
+          "date": "2026-10-10",
+          "venue": "Santiago Bernabéu",
+          "result": "1–0",
+          "scorers": [
+            "Yan Diomande"
+          ],
+          "verified_at": "2026-10-13T08:17:36.655786+03:00",
+          "sources": [
+            {
+              "publisher": "The Daily Star / AFP",
+              "url": "https://www.thedailystar.net/sports/football/news/real-madrid-edge-villarreal-vinicius-sent-hair-pull-4295686",
+              "published_at": null,
+              "retrieved_at": "2026-10-13T05:17:00+00:00",
+              "reporting_group": "AFP",
+              "kind": "reporting",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_fixture": {
+          "opponent": "Roma",
+          "competition": "UEFA Champions League",
+          "date": "2026-10-14",
+          "venue": "Ολυμπιακό Στάδιο Ρώμης",
+          "kickoff_at": "2026-10-14T21:00:00+02:00",
+          "verified_at": "2026-10-14T19:59:46+03:00",
+          "sources": [
+            {
+              "publisher": "Real Madrid",
+              "url": "https://www.realmadrid.com/en-US/news/football/first-team/fixtures/roma-real-madrid-regresa-la-champions-en-roma-14-10-2026",
+              "published_at": "2026-10-14",
+              "retrieved_at": "2026-10-14T19:59:46+03:00",
+              "reporting_group": "Real Madrid",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "latest_session": null,
+        "next_grand_prix": null,
+        "sessions": [],
+        "analysis": "Το AFP περιγράφει περιορισμένες ευκαιρίες στο πρώτο μέρος, βελτίωση αμυντικής εικόνας και αντοχή με δέκα παίκτες στο τέλος. Αυτές είναι περιγραφές της συγκεκριμένης αναφοράς· δεν τις μετατρέπουμε σε μέτρηση απόδοσης για ολόκληρη τη σεζόν.",
+        "watch_next": "Η αρχική ενδεκάδα και η πραγματική κατανομή ρόλων πριν από τον αγώνα. Χωριστή τεκμηρίωση απαιτείται για ιατρική ετοιμότητα και πειθαρχικές αποφάσεις.",
+        "league_position": null,
+        "form": null,
+        "updates": [
+          {
+            "published_at": "2026-10-14",
+            "status": "Επίσημη προαναγγελία",
+            "text": "Εκτός έδρας με Roma στο Ολυμπιακό Στάδιο, 21:00 CEST / 22:00 Κύπρου. Η σημερινή προαναγγελία δεν είναι ανακοίνωση ενδεκάδας.",
+            "sources": [
+              {
+                "publisher": "Real Madrid",
+                "url": "https://www.realmadrid.com/en-US/news/football/first-team/fixtures/roma-real-madrid-regresa-la-champions-en-roma-14-10-2026",
+                "published_at": "2026-10-14",
+                "retrieved_at": "2026-10-14T13:46:48+03:00",
+                "reporting_group": "Real Madrid",
+                "kind": "primary",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          }
+        ],
+        "no_update_reason": "Επανελέγχθηκε η αποψινή σέντρα στην επίσημη προαναγγελία. Το προηγούμενο αποτέλεσμα κρατά τον αρχικό χρόνο· δεν προστέθηκε προβλεπόμενη ενδεκάδα."
+      },
+      "formula1": {
+        "symbol": "F1",
+        "summary": "Το πρόγραμμα Austin 23–25/10 επανελέγχθηκε στην επίσημη Formula 1. Ο κύριος αγώνας 25/10 στις 22:00 Κύπρου· η αλλαγή ώρας υπολογίζεται ανά session. Singapore 11/10 παραμένει παλαιότερο αποτέλεσμα.",
+        "updated_at": "2026-10-14T19:59:46+03:00",
+        "last_match": null,
+        "next_fixture": null,
+        "latest_session": {
+          "event": "Singapore Grand Prix",
+          "session_type": "Κύριος αγώνας",
+          "date": "2026-10-11",
+          "results": "Verstappen 1:42:00.785 · Leclerc +7.335s · Antonelli +24.573s. Norris 4ος, Piastri 5ος, Hamilton 6ος.",
+          "implications": "Ο Antonelli αύξησε το προβάδισμά του σύμφωνα με το επίσημο report· δεν έχει ανακοινωθεί κατάκτηση τίτλου.",
+          "incidents": "Το επίσημο report αναφέρει Stroll, Colapinto και Bortoleto ως εγκαταλείψεις. Ο Albon κατατάχθηκε 18ος παρότι σταμάτησε προς το τέλος. Οι τεχνικές αιτίες που περιγράφονται ως πιθανές δεν γίνονται οριστικές διαγνώσεις.",
+          "verified_at": "2026-10-13T19:59:23+03:00",
+          "sources": [
+            {
+              "publisher": "Formula 1",
+              "url": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A",
+              "published_at": "2026-10-11T14:06:00Z",
+              "retrieved_at": "2026-10-13T19:59:23+03:00",
+              "reporting_group": "Formula 1",
+              "kind": "primary",
+              "access": "read",
+              "used_for_claims": true
+            }
+          ]
+        },
+        "next_grand_prix": "Grand Prix ΗΠΑ · Circuit of The Americas, Austin · 25/10/2026",
+        "sessions": [
+          {
+            "name": "Ελεύθερες δοκιμές 1",
+            "starts_at": "2026-10-23T20:30:00+03:00",
+            "sources": [
+              {
+                "publisher": "Formula 1",
+                "url": "https://www.formula1.com/en/latest/article/formula-1-msc-cruises-united-states-grand-prix-2026.2u6li2pzNhPzL3TSYaagrm",
+                "published_at": null,
+                "retrieved_at": "2026-10-14T19:59:46+03:00",
+                "reporting_group": "Formula 1",
+                "kind": "primary",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Ελεύθερες δοκιμές 2",
+            "starts_at": "2026-10-24T00:00:00+03:00",
+            "sources": [
+              {
+                "publisher": "Formula 1",
+                "url": "https://www.formula1.com/en/latest/article/formula-1-msc-cruises-united-states-grand-prix-2026.2u6li2pzNhPzL3TSYaagrm",
+                "published_at": null,
+                "retrieved_at": "2026-10-14T19:59:46+03:00",
+                "reporting_group": "Formula 1",
+                "kind": "primary",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Ελεύθερες δοκιμές 3",
+            "starts_at": "2026-10-24T20:30:00+03:00",
+            "sources": [
+              {
+                "publisher": "Formula 1",
+                "url": "https://www.formula1.com/en/latest/article/formula-1-msc-cruises-united-states-grand-prix-2026.2u6li2pzNhPzL3TSYaagrm",
+                "published_at": null,
+                "retrieved_at": "2026-10-14T19:59:46+03:00",
+                "reporting_group": "Formula 1",
+                "kind": "primary",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Κατατακτήριες",
+            "starts_at": "2026-10-25T00:00:00+03:00",
+            "sources": [
+              {
+                "publisher": "Formula 1",
+                "url": "https://www.formula1.com/en/latest/article/formula-1-msc-cruises-united-states-grand-prix-2026.2u6li2pzNhPzL3TSYaagrm",
+                "published_at": null,
+                "retrieved_at": "2026-10-14T19:59:46+03:00",
+                "reporting_group": "Formula 1",
+                "kind": "primary",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Κύριος αγώνας",
+            "starts_at": "2026-10-25T22:00:00+02:00",
+            "sources": [
+              {
+                "publisher": "Formula 1",
+                "url": "https://www.formula1.com/en/latest/article/formula-1-msc-cruises-united-states-grand-prix-2026.2u6li2pzNhPzL3TSYaagrm",
+                "published_at": null,
+                "retrieved_at": "2026-10-14T19:59:46+03:00",
+                "reporting_group": "Formula 1",
+                "kind": "primary",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          }
+        ],
+        "analysis": "Η νίκη στη Singapore και η τρίτη θέση Antonelli είναι προηγούμενο αποτέλεσμα της 11/10. Δεν υπάρχει σημερινή συνεδρίαση πίστας που να αλλάζει την κατάταξη.",
+        "watch_next": "Austin: κύριος αγώνας 25/10, 22:00 Κύπρου. Οι κατατακτήριες αρχίζουν 25/10 στις 00:00 Κύπρου. Η ευρωπαϊκή αλλαγή ώρας εφαρμόζεται στον αγώνα· το πρόγραμμα υπόκειται σε αλλαγές.",
+        "league_position": null,
+        "form": null,
+        "updates": [],
+        "no_update_reason": "Δεν ανακτήθηκε νέο αγωνιστικό αποτέλεσμα ή χωριστή τεκμηριωμένη ανακοίνωση. Το πρόγραμμα επανελέγχθηκε· οι προηγούμενες συνέπειες πρωταθλήματος δεν βαφτίζονται σημερινές.",
+        "next_gp_sources": [
+          {
+            "publisher": "Formula 1",
+            "url": "https://www.formula1.com/en/latest/article/formula-1-msc-cruises-united-states-grand-prix-2026.2u6li2pzNhPzL3TSYaagrm",
+            "published_at": null,
+            "retrieved_at": "2026-10-14T08:03:44+03:00",
+            "reporting_group": "Formula 1",
+            "kind": "primary",
+            "access": "read",
+            "used_for_claims": true
+          }
+        ],
+        "session_times_reason": "Πρωτογενές πρόγραμμα F1 δηλώνει τοπική ώρα Austin (UTC−5). Μετατροπή μέσω America/Chicago και Europe/Athens για κάθε ξεχωριστή ημερομηνία."
+      }
+    },
+    "major_stories": [],
+    "major_stories_reason": "Δεν επαληθεύτηκαν επιπλέον ουσιαστικές αθλητικές εξελίξεις με επαρκή νέα τεκμηρίωση για 2–3 βραδινά explainers. Η πρωινή κάλυψη και η μεσημεριανή αποστολή παραμένουν στην εφημερίδα ημέρας. Δεν ανακυκλώνονται για συμπλήρωση πλήθους."
+  },
+  "markets": [
+    {
+      "name": "S&P 500",
+      "instrument": "^GSPC",
+      "value": 7728.32,
+      "change_pct": -0.988,
+      "currency": "USD",
+      "unit": "μονάδες δείκτη",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:10+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "Nasdaq Composite",
+      "instrument": "^IXIC",
+      "value": 26798.71,
+      "change_pct": -1.491,
+      "currency": "USD",
+      "unit": "μονάδες δείκτη",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:07+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "Dow Jones",
+      "instrument": "^DJI",
+      "value": 51522.83,
+      "change_pct": -0.285,
+      "currency": "USD",
+      "unit": "μονάδες δείκτη",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:10+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EDJI?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "STOXX Europe 600 · κλείσιμο 14/10",
+      "instrument": "^STOXX",
+      "value": 637.75,
+      "change_pct": 0.431,
+      "currency": "EUR",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-14T19:00:00+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESTOXX?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Zurich",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "FTSE 100 · κλείσιμο 14/10",
+      "instrument": "^FTSE",
+      "value": 10724.86,
+      "change_pct": 0.7,
+      "currency": "GBP",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-14T18:35:30+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EFTSE?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/London",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "DAX · κλείσιμο 14/10",
+      "instrument": "^GDAXI",
+      "value": 25298.61,
+      "change_pct": 0.153,
+      "currency": "EUR",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-14T19:00:00+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGDAXI?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Berlin",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "CAC 40 · κλείσιμο 14/10",
+      "instrument": "^FCHI",
+      "value": 7873.11,
+      "change_pct": 0.581,
+      "currency": "EUR",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-14T19:05:02+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EFCHI?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Paris",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "Nikkei 225 · πρωινό στιγμιότυπο · κλείσιμο 14/10",
+      "instrument": "^N225",
+      "value": 67744.29,
+      "change_pct": -0.049,
+      "currency": "JPY",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-14T09:45:03+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query2.finance.yahoo.com/v8/finance/chart/%5EN225?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T13:48:46+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Asia/Tokyo",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "KOSPI · πρωινό στιγμιότυπο · κλείσιμο 14/10",
+      "instrument": "^KS11",
+      "value": 6008.81,
+      "change_pct": -0.44,
+      "currency": "KRW",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-14T09:30:40+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query2.finance.yahoo.com/v8/finance/chart/%5EKS11?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T13:48:46+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Asia/Seoul",
+      "asset_class": "index",
+      "precision": 2
+    },
+    {
+      "name": "S&P 500 futures",
+      "instrument": "ES=F",
+      "value": 7871.5,
+      "change_pct": 0.2,
+      "currency": "USD",
+      "unit": "μονάδες συμβολαίου",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T13:39:00+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query2.finance.yahoo.com/v8/finance/chart/ES%3DF?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T13:48:46+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "futures_index",
+      "precision": 2
+    },
+    {
+      "name": "Nasdaq 100 futures",
+      "instrument": "NQ=F",
+      "value": 30775.75,
+      "change_pct": -0.051,
+      "currency": "USD",
+      "unit": "μονάδες συμβολαίου",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T13:38:52+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query2.finance.yahoo.com/v8/finance/chart/NQ%3DF?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T13:48:46+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "futures_index",
+      "precision": 2
+    },
+    {
+      "name": "EUR/USD",
+      "instrument": "eurusd",
+      "value": 1.1126,
+      "change_pct": -0.6897,
+      "currency": "USD",
+      "unit": "EUR",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:27+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/EURUSD%3DX?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/London",
+      "asset_class": "fx",
+      "precision": 4
+    },
+    {
+      "name": "Brent · futures",
+      "instrument": "brent",
+      "value": 106.42,
+      "change_pct": 0.691,
+      "currency": "USD",
+      "unit": "βαρέλι",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:37:23+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "futures",
+      "precision": 2
+    },
+    {
+      "name": "Bitcoin",
+      "instrument": "BTC-USD",
+      "value": 81816.7,
+      "change_pct": -1.762,
+      "currency": "USD",
+      "unit": "BTC",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:30+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BTC-USD?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "UTC",
+      "asset_class": "crypto",
+      "precision": 2
+    },
+    {
+      "name": "TSMC ADR",
+      "instrument": "TSM",
+      "value": 432.434,
+      "change_pct": -2.85,
+      "currency": "USD",
+      "unit": "ADR",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:20+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Nvidia",
+      "instrument": "NVDA",
+      "value": 222.27,
+      "change_pct": -2.735,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:10+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Alphabet · Class A",
+      "instrument": "GOOGL",
+      "value": 351.66,
+      "change_pct": -0.599,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:21+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Microsoft",
+      "instrument": "MSFT",
+      "value": 537.23,
+      "change_pct": -1.145,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:21+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Apple",
+      "instrument": "AAPL",
+      "value": 344.308,
+      "change_pct": 0.89,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:20+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Micron",
+      "instrument": "MU",
+      "value": 928.81,
+      "change_pct": -2.542,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:20+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Meta",
+      "instrument": "META",
+      "value": 738.96,
+      "change_pct": -3.087,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:17+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/META?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Johnson & Johnson",
+      "instrument": "JNJ",
+      "value": 248.61,
+      "change_pct": -5.733,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "previous_close",
+      "quoted_at": "2026-10-13T23:00:02+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query2.finance.yahoo.com/v8/finance/chart/JNJ?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T13:48:46+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Goldman Sachs",
+      "instrument": "GS",
+      "value": 891.91,
+      "change_pct": -0.228,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "previous_close",
+      "quoted_at": "2026-10-13T23:00:03+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query2.finance.yahoo.com/v8/finance/chart/GS?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T13:48:46+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "ΧΑΚ Γενικός · κλείσιμο 14/10",
+      "value": 311.38,
+      "change_pct": 0.12,
+      "currency": "EUR",
+      "unit": "μονάδες δείκτη",
+      "status": "previous_close",
+      "quoted_at": "2026-10-14",
+      "sources": [
+        {
+          "publisher": "NOMISMA",
+          "url": "https://nomisma.com.cy/business-category/%CE%BF%CF%81%CE%B9%CE%B1%CE%BA%CE%AC-%CE%BA%CE%AD%CF%81%CE%B4%CE%B7-%CF%83%CF%84%CE%BF-%CF%87%CE%B1%CE%BA-6/",
+          "published_at": "2026-10-14T18:34:00+03:00",
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "NOMISMA",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Athens",
+      "asset_class": "index",
+      "precision": 2,
+      "instrument": "cse"
+    },
+    {
+      "name": "ΕΚΤ · καταθέσεις · ισχύς 16/09",
+      "instrument": "ecb-deposit",
+      "value": 2.5,
+      "currency": "EUR",
+      "unit": "% ετησίως",
+      "status": "previous_close",
+      "quoted_at": "2026-09-16",
+      "sources": [
+        {
+          "publisher": "ΕΚΤ",
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T08:03:44+03:00",
+          "reporting_group": "ΕΚΤ",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Brussels",
+      "asset_class": "rate",
+      "precision": 3
+    },
+    {
+      "name": "ΕΚΤ · MRO · ισχύς 16/09",
+      "instrument": "ecb-mro",
+      "value": 2.65,
+      "currency": "EUR",
+      "unit": "% ετησίως",
+      "status": "previous_close",
+      "quoted_at": "2026-09-16",
+      "sources": [
+        {
+          "publisher": "ΕΚΤ",
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T08:03:44+03:00",
+          "reporting_group": "ΕΚΤ",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Brussels",
+      "asset_class": "rate",
+      "precision": 3
+    },
+    {
+      "name": "ΕΚΤ · οριακή χρηματοδότηση · ισχύς 16/09",
+      "instrument": "ecb-mlf",
+      "value": 2.9,
+      "currency": "EUR",
+      "unit": "% ετησίως",
+      "status": "previous_close",
+      "quoted_at": "2026-09-16",
+      "sources": [
+        {
+          "publisher": "ΕΚΤ",
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T08:03:44+03:00",
+          "reporting_group": "ΕΚΤ",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Brussels",
+      "asset_class": "rate",
+      "precision": 3
+    },
+    {
+      "name": "Euribor 3 μηνών · fixing 13/10",
+      "instrument": "euribor-3m",
+      "value": 2.634,
+      "currency": "EUR",
+      "unit": "% ετησίως",
+      "status": "previous_close",
+      "quoted_at": "2026-10-13",
+      "sources": [
+        {
+          "publisher": "MutuiOnline",
+          "url": "https://www.mutuionline.it/news/aggiornamento-tassi/00048385-aggiornamento-tassi-martedi-13-ottobre-2026.asp",
+          "published_at": "2026-10-14",
+          "retrieved_at": "2026-10-14T08:03:44+03:00",
+          "reporting_group": "MutuiOnline",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Brussels",
+      "asset_class": "rate",
+      "precision": 3
+    },
+    {
+      "name": "Euribor 6 μηνών · fixing 13/10",
+      "instrument": "euribor-6m",
+      "value": 2.905,
+      "currency": "EUR",
+      "unit": "% ετησίως",
+      "status": "previous_close",
+      "quoted_at": "2026-10-13",
+      "sources": [
+        {
+          "publisher": "MutuiOnline",
+          "url": "https://www.mutuionline.it/news/aggiornamento-tassi/00048385-aggiornamento-tassi-martedi-13-ottobre-2026.asp",
+          "published_at": "2026-10-14",
+          "retrieved_at": "2026-10-14T08:03:44+03:00",
+          "reporting_group": "MutuiOnline",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Brussels",
+      "asset_class": "rate",
+      "precision": 3
+    },
+    {
+      "name": "Euribor 12 μηνών · fixing 13/10",
+      "instrument": "euribor-12m",
+      "value": 3.191,
+      "currency": "EUR",
+      "unit": "% ετησίως",
+      "status": "previous_close",
+      "quoted_at": "2026-10-13",
+      "sources": [
+        {
+          "publisher": "MutuiOnline",
+          "url": "https://www.mutuionline.it/news/aggiornamento-tassi/00048385-aggiornamento-tassi-martedi-13-ottobre-2026.asp",
+          "published_at": "2026-10-14",
+          "retrieved_at": "2026-10-14T08:03:44+03:00",
+          "reporting_group": "MutuiOnline",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "Europe/Brussels",
+      "asset_class": "rate",
+      "precision": 3
+    },
+    {
+      "name": "Bank of America",
+      "instrument": "BAC",
+      "value": 50.995,
+      "change_pct": -5.494,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:21+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BAC?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "BlackRock",
+      "instrument": "BLK",
+      "value": 1067.185,
+      "change_pct": 0.1,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:46:35+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BLK?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "State Street",
+      "instrument": "STT",
+      "value": 162.38,
+      "change_pct": -6.732,
+      "currency": "USD",
+      "unit": "μετοχή",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:32+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/STT?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "equity",
+      "precision": 2
+    },
+    {
+      "name": "Χρυσός · futures",
+      "instrument": "GC=F",
+      "value": 4099.0,
+      "change_pct": -1.874,
+      "currency": "USD",
+      "unit": "ουγγιά troy",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:37:31+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "America/New_York",
+      "asset_class": "commodity",
+      "precision": 2
+    },
+    {
+      "name": "Ethereum",
+      "instrument": "ETH-USD",
+      "value": 2440.65,
+      "change_pct": -2.7653,
+      "currency": "USD",
+      "unit": "μονάδα",
+      "status": "delayed",
+      "quoted_at": "2026-10-14T19:47:27+03:00",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/ETH-USD?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "market_timezone": "UTC",
+      "asset_class": "crypto",
+      "precision": 2
+    }
+  ],
+  "market_core": [
+    "^GSPC",
+    "^IXIC",
+    "^STOXX",
+    "cse",
+    "eurusd",
+    "brent"
+  ],
+  "market_summary": [
+    {
+      "text": "Ευρώπη · Κλεισίματα 14/10 από το αποθηκευμένο Yahoo feed: STOXX 637,75 (+0,431%), FTSE 10.724,86, DAX 25.298,61, CAC 7.873,11. Το πρωινό θετικό στιγμιότυπο δεν παρουσιάζεται ως τιμή κλεισίματος.",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESTOXX?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EFTSE?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGDAXI?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EFCHI?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "text": "Κύπρος · ΧΑΚ 311,38 (+0,12%), συναλλαγές €140.137,98, κατά το δελτίο 18:34. Η ακριβής ώρα τελευταίας συναλλαγής δεν δίνεται· αποθηκεύεται μόνο η πραγματική ημερομηνία.",
+      "sources": [
+        {
+          "publisher": "NOMISMA",
+          "url": "https://nomisma.com.cy/business-category/%CE%BF%CF%81%CE%B9%CE%B1%CE%BA%CE%AC-%CE%BA%CE%AD%CF%81%CE%B4%CE%B7-%CF%83%CF%84%CE%BF-%CF%87%CE%B1%CE%BA-6/",
+          "published_at": "2026-10-14T18:34:00+03:00",
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "NOMISMA",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "text": "ΗΠΑ · Στιγμιότυπα περίπου 19:47 Κύπρου, μετά το CPI. Η κανονική συνεδρίαση παραμένει ανοικτή, με λήξη 23:00 βάσει NYSE και της σημερινής διαφοράς EEST–EDT. Δεν είναι κλείσιμο ημέρας.",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "NYSE",
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "NYSE",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    }
+  ],
+  "market_movers": [
+    {
+      "text": "Bank of America -5.49% στο στιγμιότυπο 19:47 Κύπρου. Το Reuters συνδέει την πίεση με χαμηλότερο τριμηνιαίο κέρδος και πρόβλεψη $1,2 δισ. για ρυθμιστικά πρόστιμα. Η τιμή έχει διαφορετικό χρόνο από το ρεπορτάζ.",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BAC?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/sp-500-dow-futures-rise-ahead-big-bank-results-cpi-data-2026-10-14/",
+          "published_at": "2026-10-14T10:04:43Z",
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "Reuters",
+          "kind": "wire",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "text": "Nvidia -2.73% στο στιγμιότυπο 19:47 Κύπρου. Το Reuters περιγράφει πίεση στους ημιαγωγούς και ευρύτερη ανατιμολόγηση επιτοκίων· δεν τεκμηριώνεται ένας μοναδικός καταλύτης.",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/sp-500-dow-futures-rise-ahead-big-bank-results-cpi-data-2026-10-14/",
+          "published_at": "2026-10-14T10:04:43Z",
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "Reuters",
+          "kind": "wire",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "text": "Micron -2.54% στο στιγμιότυπο 19:47 Κύπρου. Το Reuters αναφέρει κλαδικές ανησυχίες ανταγωνισμού CXMT. Η σύνδεση είναι αποδιδόμενη ερμηνεία, όχι απόδειξη αποκλειστικής αιτίας.",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/sp-500-dow-futures-rise-ahead-big-bank-results-cpi-data-2026-10-14/",
+          "published_at": "2026-10-14T10:04:43Z",
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "Reuters",
+          "kind": "wire",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "text": "BlackRock +0.10% στο στιγμιότυπο 19:46 Κύπρου. Το Reuters καταγράφει αύξηση κέρδους από υψηλότερες αμοιβές. Η πρωινότερη άνοδος του ρεπορτάζ δεν είναι η νεότερη τιμή ούτε τελικό κλείσιμο.",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BLK?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/sp-500-dow-futures-rise-ahead-big-bank-results-cpi-data-2026-10-14/",
+          "published_at": "2026-10-14T10:04:43Z",
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "Reuters",
+          "kind": "wire",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "text": "Apple +0.89% στο στιγμιότυπο 19:47 Κύπρου. Δεν επαληθεύτηκε μοναδική αιτία για τη συγκεκριμένη χρηματιστηριακή μεταβολή. Οι εταιρικές αναφορές εξετάζονται χωριστά στο τεχνολογικό πλαίσιο.",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    }
+  ],
+  "market_next_event": {
+    "text": "14/10, 21:00 Κύπρου · Beige Book Fed. 15/10, 15:30 · PPI Σεπτεμβρίου. Πρόκειται για προγραμματισμένες δημοσιεύσεις, όχι ήδη διαθέσιμα αποτελέσματα.",
+    "sources": [
+      {
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+        "published_at": null,
+        "retrieved_at": "2026-10-14T19:59:46+03:00",
+        "reporting_group": "Federal Reserve",
+        "kind": "primary",
+        "access": "read",
+        "used_for_claims": true
+      },
+      {
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/schedule/2026/home.htm",
+        "published_at": null,
+        "retrieved_at": "2026-10-14T19:59:46+03:00",
+        "reporting_group": "BLS",
+        "kind": "primary",
+        "access": "read",
+        "used_for_claims": true
+      }
+    ]
+  },
+  "summary_60s": [
+    "Κακοκαιρία · Από την πρόγνωση στα περιστατικά: κλείσιμο Πέγειας–Λάρας, εγκλωβισμός στον Άβακα και διακοπές ρεύματος. Πορτοκαλί προειδοποίηση έως 15/10 05:00.",
+    "Λογοδοσία · Φάκελος Takata στη Νομική Υπηρεσία και δήλωση εποπτικής αρχής για Deloitte. Δεν ανακτήθηκαν ανακοίνωση δίωξης ή τελικό πόρισμα.",
+    "Υγεία · Διαφωνία για νοσηλευτική στελέχωση ενόψει δύο προτάσεων στη Βουλή· οι αντικρουόμενοι αριθμοί δεν παρουσιάζονται ως ανεξάρτητα επιβεβαιωμένοι.",
+    "ΗΠΑ και αγορές · CPI Σεπτεμβρίου 3,7% ετησίως. Ευρωπαϊκά/κυπριακά κλεισίματα διαθέσιμα· οι ΗΠΑ συνεχίζουν μέχρι τη συνήθη λήξη 23:00 Κύπρου.",
+    "Απόψε και αύριο · Roma–Real 22:00· αύριο PPI 15:30 και Celje–Ομόνοια 19:45. Λεμεσός αύριο: πρόγνωση 19,2–23,3°C, με επανέλεγχο της νυχτερινής προειδοποίησης."
+  ],
+  "daily": {
+    "lead_story_id": "cyprus-orange-warning-october-14-2026",
+    "summary_60s": [
+      "Προτεραιότητα ημέρας · Η πρωινή προειδοποίηση αναθεωρήθηκε το μεσημέρι και το βράδυ ακολουθούν αναφορές πραγματικών περιστατικών. Ισχύς έως 15/10 05:00.",
+      "Κύπρος · Διατηρούνται η οικονομική/κοινωνική ύλη, η έκθεση λεωφορείων και οι ηλεκτρονικές ανανεώσεις. Προστίθενται Takata, εποπτική αντίδραση Deloitte και νοσηλευτικά νομοσχέδια.",
+      "Διεθνή · Το πρωινό πλαίσιο της Μαύρης Θάλασσας και οι μεσημεριανές αναφορές Aramco/Sberbank παραμένουν, χωρίς νέο ανεπιβεβαίωτο απολογισμό. Προστίθεται το πραγματικό CPI.",
+      "Αγορές · Η πρωινή αναμονή CPI αντικαθίσταται από στοιχεία και βραδινές τιμές. Ευρώπη/ΧΑΚ έχουν κλείσει· τα αμερικανικά στιγμιότυπα είναι ενδοσυνεδριακά.",
+      "Αθλητισμός και επόμενα · Διατηρούνται οι επαληθευμένοι προηγούμενοι αγώνες και η αποστολή Ομόνοιας. Roma–Real απόψε 22:00, Celje–Ομόνοια αύριο 19:45· χωρίς νέο επινοημένο αποτέλεσμα."
+    ]
+  },
+  "reader_routes": [
+    "readers/2026-10-14-evening.html"
+  ],
+  "image_review": {
+    "version": 2,
+    "completed_at": "2026-10-14T20:12:34+03:00"
+  },
+  "reading_review": {
+    "version": 1,
+    "completed_at": "2026-10-14T20:12:34+03:00"
+  },
+  "panels": [
+    {
+      "id": "tech-watch",
+      "heading": "Τεχνολογία",
+      "paragraphs": [
+        "Apple · Νέα κατάθεση OpenAI ισχυρίζεται μεταφορά αρχείων για μη ανακοινωμένο προϊόν από εργαζόμενο που μετακινήθηκε στην Apple. Πρόκειται για ισχυρισμό σε δικαστική διαμάχη, όχι διαπιστωμένη παράβαση· δεν ανακτήθηκε δικαστικό πόρισμα.",
+        "Ημιαγωγοί · Reuters: ιαπωνική επένδυση έως $21 δισ. σε δύο εργοστάσια Νέας Υόρκης υπό λειτουργία GlobalFoundries, με την Apple μεταξύ αρχικών πελατών. Προγραμματισμένη επένδυση, όχι ήδη ολοκληρωμένη παραγωγή.",
+        "TSMC ADR, Nvidia, Alphabet, Microsoft, Apple, Micron και Meta · οι επτά νεότερες χρηματιστηριακές τιμές διατηρούν δικούς τους χρόνους. Η πίεση τιμής δεν συνιστά νέα εταιρική ανακοίνωση. Η πρωινή/μεσημεριανή τεχνολογική ύλη παραμένει στην ημέρα χωρίς επανάληψη."
+      ],
+      "sources": [
+        {
+          "publisher": "Reuters / MarketScreener",
+          "url": "https://www.marketscreener.com/news/openai-employee-who-left-for-apple-took-files-about-unreleased-device-openai-alleges-ce785dd2de8cf62d",
+          "published_at": "2026-10-14T11:26:00-04:00",
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "Reuters",
+          "kind": "wire",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/japan-invest-up-21-billion-two-us-chip-factories-be-run-by-globalfoundries-2026-10-14/",
+          "published_at": "2026-10-14T12:30:00Z",
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "Reuters",
+          "kind": "wire",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "heading": "Λεμεσός αύριο",
+      "paragraphs": [
+        "Πέμπτη 15/10 · πρόγνωση μοντέλου Open-Meteo 19,2–23,3°C. Στις 08:00 19,7°C / πιθανότητα βροχής 28%, στις 12:00 22,9°C / 30%, στις 18:00 21,6°C / 0%. Νεφώσεις με διαστήματα καθαρότερου ουρανού· δεν είναι παρατήρηση σταθμού. Ανάκτηση περίπου 19:43 της 14/10.",
+        "Πορτοκαλί προειδοποίηση · ισχύς 14/10 15:00 έως 15/10 05:00, σύμφωνα με το ρεπορτάζ και την προηγούμενη αναθεώρηση. Δεν ανακτήθηκε νεότερη παράταση. Η λήξη δεν πιστοποιεί αποκατάσταση δρόμων ή ρεύματος· χρειάζεται έλεγχος των συγκεκριμένων οδηγιών."
+      ],
+      "sources": [
+        {
+          "publisher": "Open-Meteo · μοντέλο πρόγνωσης",
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=34.6841&longitude=33.0379&hourly=temperature_2m,precipitation_probability,weather_code&daily=temperature_2m_max,temperature_2m_min&timezone=Europe%2FAthens&start_date=2026-10-15&end_date=2026-10-15",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:43:43+03:00",
+          "reporting_group": "Open-Meteo · μοντέλο πρόγνωσης",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Cyprus Mail",
+          "url": "https://cyprus-mail.com/2026/10/14/heavy-rain-storms-and-winds-batter-cyprus",
+          "published_at": "2026-10-14T18:57:00+03:00",
+          "retrieved_at": "2026-10-14T19:55:48+03:00",
+          "reporting_group": "Cyprus Mail",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "id": "risk-radar",
+      "heading": "Απόψε και αύριο",
+      "paragraphs": [
+        "14/10, 21:00 Κύπρου · προγραμματισμένο Beige Book Fed· αναζητούμε πραγματική αξιολόγηση και όχι υποθετική απόφαση επιτοκίων.",
+        "14/10, 22:00 Κύπρου · Roma–Real Madrid. Η προαναγγελία δεν είναι ενδεκάδα ή αποτέλεσμα.",
+        "14/10, 23:00 Κύπρου · συνήθης λήξη κανονικής συνεδρίασης NYSE· έως τότε οι αμερικανικές τιμές είναι ενδοσυνεδριακές.",
+        "15/10, 05:00 Κύπρου · δηλωμένη λήξη πορτοκαλί προειδοποίησης· επανέλεγχος για παράταση και τοπικούς περιορισμούς.",
+        "15/10, 15:30 Κύπρου · PPI Σεπτεμβρίου ΗΠΑ, κατά BLS. Διαφορετική μέτρηση από τον CPI.",
+        "15/10, 19:45 Κύπρου · Celje–Ομόνοια. Η κοινοβουλευτική συζήτηση νοσηλευτικών προτάσεων αναφέρεται επίσης για 15/10, χωρίς επαληθευμένη ώρα."
+      ],
+      "sources": [
+        {
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "Federal Reserve",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "NYSE",
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "NYSE",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "BLS",
+          "url": "https://www.bls.gov/schedule/2026/home.htm",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "BLS",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Cyprus Mail",
+          "url": "https://cyprus-mail.com/2026/10/14/heavy-rain-storms-and-winds-batter-cyprus",
+          "published_at": "2026-10-14T18:57:00+03:00",
+          "retrieved_at": "2026-10-14T19:55:48+03:00",
+          "reporting_group": "Cyprus Mail",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Real Madrid",
+          "url": "https://www.realmadrid.com/en-US/news/football/first-team/fixtures/roma-real-madrid-regresa-la-champions-en-roma-14-10-2026",
+          "published_at": "2026-10-14",
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "Real Madrid",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Ομόνοια",
+          "url": "https://www.omonoiafc.com.cy/%CF%80%CE%BB%CE%B7%CF%81%CE%BF%CF%86%CE%BF%CF%81%CE%AF%CE%B5%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CE%B1%CF%80%CE%BF%CF%83%CF%84%CE%BF%CE%BB%CE%AE-%CF%83%CF%84%CE%B7-%CF%83%CE%BB%CE%BF%CE%B2/",
+          "published_at": "2026-10-14",
+          "retrieved_at": "2026-10-14T13:46:48+03:00",
+          "reporting_group": "Ομόνοια",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Cyprus Mail",
+          "url": "https://cyprus-mail.com/2026/10/14/nursing-shortage-dispute-intensifies-ahead-of-two-bills-before-parliament",
+          "published_at": "2026-10-14T14:38:00+03:00",
+          "retrieved_at": "2026-10-14T19:55:48+03:00",
+          "reporting_group": "Cyprus Mail",
+          "kind": "reporting",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    }
+  ],
+  "market_notes": [
+    {
+      "kind": "Χρόνοι και διαφορές πηγών",
+      "text": "Ευρωπαϊκές τιμές: ολοκληρωμένα snapshots του Yahoo feed μετά το τέλος της κανονικής περιόδου. Reuters αναφέρει STOXX +0,47%, ενώ το αποθηκευμένο Yahoo snapshot +0,431%· εμφανίζεται η ακριβής τιμή του επιλεγμένου feed, χωρίς εξίσωση διαφορετικών ενημερώσεων. US/FX/crypto/futures: delayed με δικό τους quoted_at, όχι ώρα δημοσίευσης. Futures ES/NQ και οι μη ανανεωμένες τιμές διατηρούν το προηγούμενο επαληθευμένο στιγμιότυπο· δεν παρουσιάζονται ως τρέχον βραδινό cash. Euribor: fixing 13/10, διότι η νέα πλήρης σελίδα δεν ανακτήθηκε. Οι ισχύουσες τιμές ECB διατηρούν την προηγούμενη επαλήθευση.",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · chart data",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESTOXX?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:47:00+03:00",
+          "reporting_group": "Yahoo Finance · chart data",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-14/",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "Reuters",
+          "kind": "wire",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "NYSE",
+          "url": "https://www.nyse.com/trade/hours-calendars",
+          "published_at": null,
+          "retrieved_at": "2026-10-14T19:59:46+03:00",
+          "reporting_group": "NYSE",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    }
+  ]
+}

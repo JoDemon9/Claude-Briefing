@@ -16,11 +16,15 @@
       "type": "midday",
       "url": "midday/2026-10-14.html",
       "published_at": "2026-10-14T14:04:57+03:00"
+    },
+    {
+      "id": "2026-10-14-evening",
+      "type": "evening",
+      "url": "evening/2026-10-14.html",
+      "published_at": "2026-10-14T20:12:34+03:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
+  "missing_slots": [],
   "lead_story_id": "cyprus-orange-warning-october-14-2026",
   "stories": [
     {
@@ -47,23 +51,71 @@
     {
       "story_id": "cyprus-orange-warning-october-14-2026",
       "first_seen_at": "2026-10-14T14:04:57+03:00",
-      "last_substantive_at": "2026-10-14T14:04:57+03:00",
+      "last_substantive_at": "2026-10-14T18:57:00+03:00",
       "references": [
         {
           "edition_id": "2026-10-14-midday",
           "article_id": "lead",
           "source_story_id": "cyprus-orange-warning-october-14-2026",
           "url": "articles/2026-10-14-midday/lead.html"
+        },
+        {
+          "edition_id": "2026-10-14-evening",
+          "article_id": "lead",
+          "source_story_id": "cyprus-orange-warning-october-14-2026",
+          "url": "articles/2026-10-14-evening/lead.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-14-midday",
+        "edition_id": "2026-10-14-evening",
         "article_id": "lead",
         "source_story_id": "cyprus-orange-warning-october-14-2026",
-        "url": "articles/2026-10-14-midday/lead.html"
+        "url": "articles/2026-10-14-evening/lead.html"
       },
       "section": "cyprus",
       "priority": 0
+    },
+    {
+      "story_id": "us-september-2026-cpi",
+      "first_seen_at": "2026-10-14T20:12:34+03:00",
+      "last_substantive_at": "2026-10-14T08:30:00-04:00",
+      "references": [
+        {
+          "edition_id": "2026-10-14-evening",
+          "article_id": "world-cpi",
+          "source_story_id": "us-september-2026-cpi",
+          "url": "articles/2026-10-14-evening/world-cpi.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-evening",
+        "article_id": "world-cpi",
+        "source_story_id": "us-september-2026-cpi",
+        "url": "articles/2026-10-14-evening/world-cpi.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-takata-police-file-legal-service-2026",
+      "first_seen_at": "2026-10-14T20:12:34+03:00",
+      "last_substantive_at": "2026-10-14T18:29:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-14-evening",
+          "article_id": "cyprus-takata",
+          "source_story_id": "cyprus-takata-police-file-legal-service-2026",
+          "url": "articles/2026-10-14-evening/cyprus-takata.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-evening",
+        "article_id": "cyprus-takata",
+        "source_story_id": "cyprus-takata-police-file-legal-service-2026",
+        "url": "articles/2026-10-14-evening/cyprus-takata.html"
+      },
+      "section": "cyprus",
+      "priority": 10
     },
     {
       "story_id": "yemen-sanaa-saudi-strikes-october-2026",
@@ -91,6 +143,27 @@
       },
       "section": "world",
       "priority": 10
+    },
+    {
+      "story_id": "cyprus-deloitte-abramovich-audit-oversight-2026",
+      "first_seen_at": "2026-10-14T20:12:34+03:00",
+      "last_substantive_at": "2026-10-14T17:34:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-14-evening",
+          "article_id": "cyprus-audit",
+          "source_story_id": "cyprus-deloitte-abramovich-audit-oversight-2026",
+          "url": "articles/2026-10-14-evening/cyprus-audit.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-evening",
+        "article_id": "cyprus-audit",
+        "source_story_id": "cyprus-deloitte-abramovich-audit-oversight-2026",
+        "url": "articles/2026-10-14-evening/cyprus-audit.html"
+      },
+      "section": "cyprus",
+      "priority": 20
     },
     {
       "story_id": "cyprus-imf-october-2026-outlook",
@@ -153,6 +226,27 @@
         "url": "articles/2026-10-14-morning/world-2.html"
       },
       "section": "world",
+      "priority": 30
+    },
+    {
+      "story_id": "cyprus-nursing-bills-staffing-dispute-2026",
+      "first_seen_at": "2026-10-14T20:12:34+03:00",
+      "last_substantive_at": "2026-10-14T14:38:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-14-evening",
+          "article_id": "cyprus-nursing",
+          "source_story_id": "cyprus-nursing-bills-staffing-dispute-2026",
+          "url": "articles/2026-10-14-evening/cyprus-nursing.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-evening",
+        "article_id": "cyprus-nursing",
+        "source_story_id": "cyprus-nursing-bills-staffing-dispute-2026",
+        "url": "articles/2026-10-14-evening/cyprus-nursing.html"
+      },
+      "section": "cyprus",
       "priority": 30
     },
     {
@@ -983,9 +1077,159 @@
         "source_story_id": "cyprus-nicosia-bus-audit-2026",
         "url": "articles/2026-10-14-midday/cyprus-buses.html"
       }
+    },
+    {
+      "id": "2026-10-14-evening-cyprus-nursing-reviewed-report",
+      "kind": "new",
+      "at": "2026-10-14T14:38:00+03:00",
+      "summary": "Χρόνος δημοσίευσης της αναφερόμενης πηγής. Ιδιωτικά νοσηλευτήρια επικαλούνται ελλείψεις και κλείσιμο κλινών. Η ΠΑΣΥΝΟ αμφισβητεί τα στοιχεία και ζητά ελέγχους. Το ρεπορτάζ περιγράφει προτάσεις ελεγχόμενης πρόσληψης από τρίτες χώρες ενόψει αυριανής κοινοβουλευτικής συζήτησης· δεν πρόκειται για ήδη ψηφισμένη αλλαγή.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/nursing-shortage-dispute-intensifies-ahead-of-two-bills-before-parliament"
+      ],
+      "story_id": "cyprus-nursing-bills-staffing-dispute-2026",
+      "origin": {
+        "edition_id": "2026-10-14-evening",
+        "article_id": "cyprus-nursing",
+        "source_story_id": "cyprus-nursing-bills-staffing-dispute-2026",
+        "url": "articles/2026-10-14-evening/cyprus-nursing.html"
+      }
+    },
+    {
+      "id": "2026-10-14-evening-world-cpi-reviewed-report",
+      "kind": "new",
+      "at": "2026-10-14T08:30:00-04:00",
+      "summary": "Χρόνος δημοσίευσης της αναφερόμενης πηγής. Το BLS ανακοίνωσε στις 15:30 Κύπρου CPI Σεπτεμβρίου +0,6% μηνιαίως και +3,7% ετησίως. Χωρίς τρόφιμα και ενέργεια: +0,3% και +2,6%. Η βενζίνη αυξήθηκε 9,1% μηνιαίως και εξηγεί πάνω από τη μισή συνολική μηνιαία άνοδο. Τα στοιχεία αντικαθιστούν την πρωινή και μεσημεριανή αναμονή.",
+      "source_urls": [
+        "https://www.bls.gov/news.release/cpi.htm"
+      ],
+      "story_id": "us-september-2026-cpi",
+      "origin": {
+        "edition_id": "2026-10-14-evening",
+        "article_id": "world-cpi",
+        "source_story_id": "us-september-2026-cpi",
+        "url": "articles/2026-10-14-evening/world-cpi.html"
+      }
+    },
+    {
+      "id": "2026-10-14-evening-cyprus-audit-reviewed-report",
+      "kind": "new",
+      "at": "2026-10-14T17:34:00+03:00",
+      "summary": "Χρόνος δημοσίευσης της αναφερόμενης πηγής. Το Cyprus Mail μεταφέρει δήλωση της δημόσιας ελεγκτικής εποπτικής αρχής ότι αναλαμβάνει τις αναγκαίες ενέργειες για δημοσιευμένες καταγγελίες οπισθοχρονολόγησης εγγράφων. Η Deloitte δηλώνει συμμόρφωση με τον νόμο· οι δικηγόροι Abramovich αρνούνται παρανομία. Δεν υπάρχει στο ανακτημένο υλικό τελικό πόρισμα.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/oversight-authority-examining-deloitte-cyprus-over-abramovich-assets"
+      ],
+      "story_id": "cyprus-deloitte-abramovich-audit-oversight-2026",
+      "origin": {
+        "edition_id": "2026-10-14-evening",
+        "article_id": "cyprus-audit",
+        "source_story_id": "cyprus-deloitte-abramovich-audit-oversight-2026",
+        "url": "articles/2026-10-14-evening/cyprus-audit.html"
+      }
+    },
+    {
+      "id": "2026-10-14-evening-cyprus-takata-reviewed-report",
+      "kind": "new",
+      "at": "2026-10-14T18:29:00+03:00",
+      "summary": "Χρόνος δημοσίευσης της αναφερόμενης πηγής. Η αστυνομία επιβεβαίωσε τη διαβίβαση του φακέλου στη Νομική Υπηρεσία. Στις 18:29 ο Γενικός Εισαγγελέας δήλωσε ότι θα αξιολογηθεί το συντομότερο. Δεν ανακτήθηκε ανακοίνωση άσκησης διώξεων· μπορεί να ζητηθεί συμπληρωματική έρευνα.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/polices-takata-file-will-be-evaluated-as-soon-as-possible-savvides-says"
+      ],
+      "story_id": "cyprus-takata-police-file-legal-service-2026",
+      "origin": {
+        "edition_id": "2026-10-14-evening",
+        "article_id": "cyprus-takata",
+        "source_story_id": "cyprus-takata-police-file-legal-service-2026",
+        "url": "articles/2026-10-14-evening/cyprus-takata.html"
+      }
+    },
+    {
+      "id": "2026-10-14-evening-lead-reviewed-report",
+      "kind": "substantive_update",
+      "at": "2026-10-14T18:57:00+03:00",
+      "summary": "Χρόνος αναθεωρημένου δημοσιεύματος, όχι ώρα του κάθε περιστατικού. Η ενημέρωση του Cyprus Mail στις 18:57 αναφέρει κλείσιμο Πέγειας–Λάρας από υπερχείλιση, εγκλωβισμό τουριστών στον Άβακα και διακοπές ηλεκτροδότησης στην επαρχία Λάρνακας. Η πορτοκαλί προειδοποίηση παραμένει 14/10 15:00–15/10 05:00. Πρόκειται πλέον για αναφερόμενα περιστατικά, όχι μόνο πρόγνωση.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/heavy-rain-storms-and-winds-batter-cyprus"
+      ],
+      "story_id": "cyprus-orange-warning-october-14-2026",
+      "origin": {
+        "edition_id": "2026-10-14-evening",
+        "article_id": "lead",
+        "source_story_id": "cyprus-orange-warning-october-14-2026",
+        "url": "articles/2026-10-14-evening/lead.html"
+      }
+    },
+    {
+      "id": "208b0da9e4ad9c3990e56731b70ce40c55fe1cae32c52019083fb90b8284eacb",
+      "kind": "provenance",
+      "at": "2026-10-14T20:12:34+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-nursing-bills-staffing-dispute-2026",
+      "origin": {
+        "edition_id": "2026-10-14-evening",
+        "article_id": "cyprus-nursing",
+        "source_story_id": "cyprus-nursing-bills-staffing-dispute-2026",
+        "url": "articles/2026-10-14-evening/cyprus-nursing.html"
+      }
+    },
+    {
+      "id": "25840b82abc74dda7c0dc705b4b347a87941fa3b5ccea9d9a43d6496467c739d",
+      "kind": "provenance",
+      "at": "2026-10-14T20:12:34+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-takata-police-file-legal-service-2026",
+      "origin": {
+        "edition_id": "2026-10-14-evening",
+        "article_id": "cyprus-takata",
+        "source_story_id": "cyprus-takata-police-file-legal-service-2026",
+        "url": "articles/2026-10-14-evening/cyprus-takata.html"
+      }
+    },
+    {
+      "id": "74e8151f49ffcb7d3b561db2cf25361413449097fc5142f3e51c54dcd9d48dcb",
+      "kind": "provenance",
+      "at": "2026-10-14T20:12:34+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-september-2026-cpi",
+      "origin": {
+        "edition_id": "2026-10-14-evening",
+        "article_id": "world-cpi",
+        "source_story_id": "us-september-2026-cpi",
+        "url": "articles/2026-10-14-evening/world-cpi.html"
+      }
+    },
+    {
+      "id": "93123ba0ec0b7dac1ac6200859c6bcf279894120d8a40f0cf839e1de3e925952",
+      "kind": "provenance",
+      "at": "2026-10-14T20:12:34+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-deloitte-abramovich-audit-oversight-2026",
+      "origin": {
+        "edition_id": "2026-10-14-evening",
+        "article_id": "cyprus-audit",
+        "source_story_id": "cyprus-deloitte-abramovich-audit-oversight-2026",
+        "url": "articles/2026-10-14-evening/cyprus-audit.html"
+      }
+    },
+    {
+      "id": "a78bb4ad4912f9431d86f1b6da68f9179b86d1b888be1de1a40125602eb6a94e",
+      "kind": "provenance",
+      "at": "2026-10-14T20:12:34+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-orange-warning-october-14-2026",
+      "origin": {
+        "edition_id": "2026-10-14-evening",
+        "article_id": "lead",
+        "source_story_id": "cyprus-orange-warning-october-14-2026",
+        "url": "articles/2026-10-14-evening/lead.html"
+      }
     }
   ],
   "created_at": "2026-10-14T05:49:07.061412+00:00",
-  "updated_at": "2026-10-14T11:05:00.891202+00:00",
-  "input_sha256": "4bff460b86260ec2df569268038148ee63d1ad8bf2e5e11ccc61c3c1fa355b9c"
+  "updated_at": "2026-10-14T17:12:38.506331+00:00",
+  "input_sha256": "0e2624fe99092c1472ed9e650a9d43ba9cd8a5be82bffbae33262ac2394577e9"
 }
