@@ -21,7 +21,7 @@ def run(output):
                 context=browser.new_context(java_script_enabled=js,reduced_motion='reduce')
                 context.route('**/*',lambda r:r.continue_() if r.request.url.startswith(base) else r.abort())
                 page=context.new_page()
-                for width in [320,375,390,768,1440]:
+                for width in [320,375,390,768,1100,1200,1440]:
                     page.set_viewport_size({'width':width,'height':950});page.goto(base+model['url'],wait_until='networkidle')
                     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
                     assert page.locator('.editorial-revision').is_visible()
@@ -52,6 +52,11 @@ def run(output):
                             assert '?from=daily/' not in url
                         else:
                             assert card.locator('.story-actions a[href*="articles/'+a['edition_id']+'/'+a['id']+'.html"]').count()==1
+                    if width<1100:
+                        page.locator('.section-menu>summary').click()
+                        jump=page.locator('.section-menu a[href="#opportunities"]')
+                    else:jump=page.locator('.navs a[href="#opportunities"]')
+                    assert jump.is_visible();jump.click();assert page.url.endswith('#opportunities')
                     funding=page.locator('#opportunities')
                     assert funding.locator('.opportunities-grid').first.locator(':scope > article').count()==3
                     assert '30/12/2026 · 23:59 Κύπρου' in funding.inner_text()

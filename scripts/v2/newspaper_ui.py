@@ -50,6 +50,11 @@ def decorate(b, text, edition, day=None):
             for child in list(brand.contents):anchor.append(child.extract())
             brand.append(anchor)
     nav=doc.select_one('.navs')
+    if nav and doc.select_one('#opportunities') and not nav.select_one('a[href="#opportunities"]'):
+        anchor=doc.new_tag('a',href='#opportunities');anchor.string='Επιδοτήσεις & δικαιώματα'
+        markets=nav.select_one('a[href="#markets"]')
+        if markets:markets.insert_before(anchor)
+        else:nav.append(anchor)
     if nav and not doc.select_one('.section-menu'):
         # One complete native menu replaces the horizontally clipped mobile links.
         links=BeautifulSoup(str(nav),'html.parser').nav
