@@ -125,7 +125,7 @@ def publish(root, records):
         link.string = 'Ροή'
         link['aria-label'] = 'Ροή ειδήσεων'
         link['title'] = 'Ροή ειδήσεων'
-        tools.append(link)
+        (tools.select_one('.utility-list') or tools).append(link)
     text = str(doc)
     (root/'docs/latest.html').write_text(text, encoding='utf-8', newline='\n')
     asset_hashes={}

@@ -202,3 +202,15 @@ python scripts/daily_release.py --verify-live
 - Πέρασαν compilation, δημόσια allowlisted εξαγωγή και reproducible build στο CI. Όλες οι ενημερώσεις ήταν non-force. Διατηρήθηκε η παράλληλη διόρθωση UTF-8 [fcb65c2](https://github.com/JoDemon9/oracle-briefing/commit/fcb65c2dda877586a88e323698e497da503e2bfb) με merge και εκ νέου επιτυχή Oracle unit tests. Δεν άλλαξαν content JSON, quote/source timestamps, Wire ή πραγματικά automations.
 
 Κεντρικό live URL: https://jodemon9.github.io/oracle-briefing/ · ημερήσιο URL: https://jodemon9.github.io/Claude-Briefing/daily/2026-10-14.html. Δεν παραμένει εμπόδιο UI υλοποίησης ή δημοσίευσης.
+
+## Frontend με προτεραιότητα στην ανάγνωση — 14/10/2026
+
+Εφαρμόστηκαν οι οκτώ βελτιώσεις της frontend αξιολόγησης στον κοινό renderer: μικρότερη κορυφή/publication bar, lead με μεγαλύτερη φωτογραφία δίπλα στον τίτλο, χαμηλότερες κάρτες με native πλήρη ανάλυση, λιγότερα επαναλαμβανόμενα πλαίσια, συμπαγές χρονολόγιο, καθαρές λεζάντες και συγκεντρωμένο provenance, πλήρες μενού ενοτήτων στο κινητό, σταθερά emoji στις επικεφαλίδες και σαφέστερες αγορές.
+
+Νέο κοινό path: `scripts/v2/newspaper_ui.py`. Καλείται από `build.py` στις ανεξάρτητες εκδόσεις και από `daily.render()` στην ημέρα. Η επανεφαρμογή του είναι idempotent και διατηρεί τη σειρά/ταυτότητα ιστοριών και όλα τα URLs. Το `templates/v2/newspaper-ui.css` αποδίδει τις 3/2/1 στήλες και native disclosures. Το `image()` διατηρεί την πλήρη αρχική λεζάντα, τους συνδέσμους δικαιωμάτων και όλα τα στοιχεία φωτογραφίας. Το `reading.js` κλείνει μενού με Escape/κλικ και ανοίγει το περιεχόμενο για εκτύπωση, επαναφέροντας μετά τις προηγούμενες αναπτύξεις.
+
+Δεν άλλαξε schema, content JSON, μοντέλο σύνθεσης ημέρας, χρόνος δημοσίευσης/πηγής/quote, εικόνα, ιστορικό URL ή εκδοτικό gate. Τα πλήρη newspaper_analysis και οι readers εξακολουθούν να απαιτούν 110–220 και ≥450 λέξεις αντίστοιχα. Η factual περίληψη παραμένει ολόκληρη ορατή. Οι αναπτύξεις λειτουργούν χωρίς JavaScript και δεν χρησιμοποιείται line-clamp. Η ελληνική ημερομηνία και τα time/datetime προέρχονται από τα ρητά editorial inputs. Ο προγραμματισμός παραμένει χωριστός από την πραγματική δημοσίευση.
+
+Τοπικά αποτελέσματα: **62 public + 38 private + 9 Oracle unit tests**, **248 public + 29 central + 9 portal browser checks**, όλα επιτυχή. Τα νέα tests ελέγχουν ακριβή διατήρηση κάθε paragraph/summary/λεζάντας/άδειας, την ταυτότητα των ιστοριών, idempotence, τα πραγματικά publication datetimes, native μενού/πηγές/ανάλυση/credits, μικρή κορυφή, τρεις desktop στήλες και χαμηλότερες κάρτες. Επιθεωρήθηκαν mobile/desktop, light/dark screenshots, μαζί με expanded πηγές/επιτόκια. Πέρασαν compilation, allowlisted package export και whitespace checks.
+
+Τα τρία πραγματικά automations παρέμειναν αμετάβλητα. Οι οδηγίες στα repositories εξηγούν μόνο την παρουσίαση του renderer. Δεν προστέθηκε scheduler/AI backend, δεν στάλθηκαν μηνύματα, δεν άλλαξε η χωριστή λειτουργία Wire και το private παραμένει χωρίς Pages.

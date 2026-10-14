@@ -40,7 +40,8 @@ def markets(b, e):
         change = q.get('change_pct')
         delta = ('↑ ' if change > 0 else '↓ ' if change < 0 else '→ ') + format(Decimal(str(change)).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP), '+.2f').replace('.', ',') + '%' if change is not None else 'Μεταβολή μη διαθέσιμη'
         unit = q['unit'] if q.get('asset_class') == 'rate' else q['unit'] + ' · ' + q['currency'] if q.get('asset_class') in ('index','futures_index') else q['currency'] + ' / ' + q['unit']
-        return '<article class="quote-card" data-quote-key="'+b.esc(quote_key(q))+'"><h4>'+b.esc(q['name'])+'</h4><strong class="quote-value">'+b.esc(value if value is not None else '—')+'</strong><span class="quote-unit">'+b.esc(unit)+'</span><b class="quote-change">'+b.esc(delta)+'</b><span class="quote-status">'+labels[q['status']]+'</span><time>'+b.stamp(q.get('quoted_at'))+'</time>'+details(q)+'</article>'
+        direction='unknown' if change is None else 'positive' if change>0 else 'negative' if change<0 else 'neutral'
+        return '<article class="quote-card" data-quote-key="'+b.esc(quote_key(q))+'"><h4>'+b.esc(q['name'])+'</h4><strong class="quote-value">'+b.esc(value if value is not None else '—')+'</strong><span class="quote-unit">'+b.esc(unit)+'</span><b class="quote-change change-'+direction+'">'+b.esc(delta)+'</b><span class="quote-status">'+labels[q['status']]+'</span><time>'+b.stamp(q.get('quoted_at'))+'</time>'+details(q)+'</article>'
     core = []
     configured = e.get('market_core')
     targets = [(key,(key,)) for key in configured] if configured else CORE
@@ -54,10 +55,12 @@ def markets(b, e):
         overview = [{'text':q['name']+' · '+f'{q["change_pct"]:+.2f}%'.replace('.',',')+' ('+labels[q['status']]+'). Χρόνος τιμής: '+b.stamp(q['quoted_at'])+'. Δεν έχει τεκμηριωθεί μοναδική αιτία.', 'sources':q['sources']} for q in core if q.get('change_pct') is not None][:2]
         if e.get('market_next_event'): overview.append(e['market_next_event'])
     def note(n):
-        company=next((label for label in ['Johnson & Johnson','Goldman Sachs',*[label for label,_ in TECH]] if n['text'].startswith(label)),None)
-        heading=company or (n['text'].partition(':')[0] if ':' in n['text'] and len(n['text'].partition(':')[0])<=35 else None)
-        return '<article class="market-note">'+('<h4>'+b.esc(heading)+'</h4>' if heading else '')+'<p>'+b.esc(n['text'])+'</p>'+b.source_disclosure(n['sources'],'Τεκμηρίωση')+'</article>'
-    html = '<section class="section compact-markets" id="markets"><div class="sectionhead"><h2>'+b.emblem('markets')+'Αγορές.</h2><a class="read-link" href="../markets.html">Ιστορικά γραφήματα ↗</a></div><div class="market-overview"><h3>Η εικόνα των αγορών σε 30 δευτερόλεπτα</h3>'+(''.join(note(n) for n in overview[:3]) or '<p>Δεν υπάρχουν επαληθευμένες τιμές σε αυτή την έκδοση.</p>')+'</div><div class="core-quotes">'+''.join(quote(q) for q in core)+'</div>'
+        return '<article class="market-note"><p>'+b.esc(n['text'])+'</p>'+b.source_disclosure(n['sources'],'Τεκμηρίωση')+'</article>'
+    overview=overview[:3]
+    summary='<ol class="market-summary">'+''.join('<li><p>'+b.esc(n['text'])+'</p></li>' for n in overview)+'</ol>' if overview else '<p>Δεν υπάρχουν επαληθευμένες τιμές σε αυτή την έκδοση.</p>'
+    evidence=''.join('<h4>Σημείο '+str(i)+'</h4>'+b.source_links(n['sources']) for i,n in enumerate(overview,1))
+    if evidence:summary+='<details class="sources-disclosure overview-sources"><summary>Πηγές σύνοψης</summary><div class="disclosure-body">'+evidence+'</div></details>'
+    html = '<section class="section compact-markets" id="markets"><div class="sectionhead"><h2>'+b.emblem('markets')+'Αγορές.</h2><a class="read-link" href="../markets.html">Ιστορικά γραφήματα ↗</a></div><div class="market-overview"><h3>Η εικόνα των αγορών σε 30 δευτερόλεπτα</h3>'+summary+'</div><div class="core-quotes">'+''.join(quote(q) for q in core)+'</div>'
     tech_keys = {key for _,key in TECH}
     rates = []
     groups = {}

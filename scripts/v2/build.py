@@ -91,7 +91,9 @@ def image(a,depth=''):
         credit=f'<a href="{esc(im["source_url"])}" rel="noopener noreferrer">{credit}</a>'
     if im.get('license_url'):
         credit+=f' · <a href="{esc(im["license_url"])}" rel="noopener noreferrer">{esc(im["license"])}</a>'
-    return f'<figure class="photo" data-editorial-image><img src="{esc(url)}" alt="{esc(im["alt"])}" loading="lazy" decoding="async"><p class="image-fallback" data-image-fallback hidden>Η φωτογραφία δεν φορτώθηκε. Άνοιξε την αρχική πηγή από τη λεζάντα.</p><figcaption>{caption} {credit}</figcaption></figure>'
+    short=re.split(r'Τεχνική (?:προσαρμογή|μετατροπή)|Μείωση μεγέθους/μετατροπή',im.get('caption',''),maxsplit=1)[0].strip() or im.get('caption','')
+    metadata='<dl class="photo-metadata">'+''.join('<div><dt>'+label+'</dt><dd>'+esc(im.get(key) or UNKNOWN)+'</dd></div>' for key,label in [('retrieved_at','Ανάκτηση'),('original_url','Αρχική εικόνα')])+'</dl>'
+    return f'<figure class="photo" data-editorial-image><img src="{esc(url)}" alt="{esc(im["alt"])}" loading="lazy" decoding="async"><p class="image-fallback" data-image-fallback hidden>Η φωτογραφία δεν φορτώθηκε. Άνοιξε την αρχική πηγή από τη λεζάντα.</p><figcaption><p class="photo-caption">{esc(short)}</p><details class="photo-credit"><summary>{icon("photo")}Φωτογραφία / δικαιώματα</summary><div class="photo-details"><p>{caption}</p><p>{credit}</p>{metadata}</div></details></figcaption></figure>'
 
 def article_url(e, a):
     return f'articles/{e["id"]}/{a["id"]}.html'
@@ -267,7 +269,7 @@ def card(e, a, hero=False):
     shown=[]
     context=''
     if a.get('newspaper_analysis'):
-        context='<div class="card-context">'+('' if hero else '<b>'+icon('book')+' Η ουσία · ½–1 λεπτό</b>')+''.join('<p>'+esc(p)+'</p>' for p in a['newspaper_analysis'])+'</div>'
+        context='<div class="card-context">'+''.join('<p>'+esc(p)+'</p>' for p in a['newspaper_analysis'])+'</div>'
     elif not hero:
         reported=[p for s in a['sections'] if s['kind']=='reported' for p in s['paragraphs'] if not p.strip().startswith(a['summary'].strip())][:2]
         analysis=next((s for s in a['sections'] if s['kind']=='analysis'),None)
@@ -276,13 +278,14 @@ def card(e, a, hero=False):
         if analysis:
             context+=f'<div class="card-context"><b>Συντακτική ανάλυση · {esc(analysis["heading"])}</b><p>{esc(analysis["paragraphs"][0])}</p></div>'
     more='' if a.get('newspaper_analysis') else '<details class="story-more"><summary>Περισσότερα μέσα στην έκδοση</summary>'+blocks(a,shown)+'</details>'
-    if hero and context:
-        context='<details class="lead-analysis"><summary>'+icon('book')+'Η ουσία · ½–1 λεπτό</summary>'+context+'</details>'
-    sources=source_disclosure(a['sources'], 'Πηγές', '<p class="muted">'+sources_label(a['sources'])+'</p>')
+    if context:
+        context='<details class="card-analysis'+(' lead-analysis' if hero else '')+'"><summary>'+icon('book')+'Η ουσία · ½–1 λεπτό</summary>'+context+'</details>'
+    sources=source_disclosure(a['sources'], 'Πηγές και στοιχεία', '<p class="muted">'+sources_label(a['sources'])+'</p>')
     reader=f'<a class="read-link" href="../{article_url(e,a)}">{icon("book")} Πλήρης ανάλυση <span class="reading-time">{math.ceil(words(a)/220)}′</span>{icon("arrow")}</a>'
     copy=abstract+context+more+'<div class="story-actions">'+reader+'</div>'+sources
-    overview='<div class="lead-overview"><div class="lead-copy">'+copy+'</div>'+image(a,'../')+'</div>' if hero else copy
-    return f'<article class="{cl}" id="{esc(a["id"])}">'+('' if hero else image(a,'../'))+f'<div class="story-content"><div class="eyebrow">'+(emblem('lead') if hero else '')+f'{esc(a["category"])}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}>'+overview+'</div></article>'
+    heading=f'<div class="eyebrow">'+(emblem('lead') if hero else '')+f'{esc(a["category"])}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}>'
+    overview='<div class="lead-overview"><div class="lead-copy">'+heading+copy+'</div>'+image(a,'../')+'</div>' if hero else heading+copy
+    return f'<article class="{cl}" id="{esc(a["id"])}">'+('' if hero else image(a,'../'))+'<div class="story-content">'+overview+'</div></article>'
 
 def edition_desk(e, registry):
     out = ['<nav class="edition-desk" aria-label="Εκδόσεις της ημέρας"><b>Γραφείο εκδόσεων</b>']
@@ -383,6 +386,7 @@ def _render(root=ROOT):
             body = body.replace('<a href="#rates">Δόση</a>', '<a href="#watch">Στη συνέχεια</a>' if any(p['id']=='watch' for p in e.get('panels',[])) else '')
         body += sports(e,aa)+markets(e)+calculator(e)+edition_panels(e)
         body += '<p class="warning">Η προσβασιμότητα συνδέσμων και η πραγματολογική διασταύρωση είναι διαφορετικοί έλεγχοι. Οι σελίδες διατηρούν την εικόνα της δικής τους έκδοσης.</p></main><footer class="footer"><div class="wrap">THE ORACLE SOVEREIGN · '+date+'</div></footer></body></html>'
+        body=load_module('newspaper_ui').decorate(SimpleNamespace(**globals()),body,e)
         if not e.get('preserve_legacy_html') or not (ROOT/'docs'/e['url']).is_file():
             write(ROOT/'docs'/e['url'],body)
         elif e.get('image_review'):

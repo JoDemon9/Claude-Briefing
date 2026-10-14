@@ -11,6 +11,37 @@ spec=importlib.util.spec_from_file_location('ui_content_builder',ROOT/'scripts/v
 build=importlib.util.module_from_spec(spec);spec.loader.exec_module(build)
 
 class UIContentTests(unittest.TestCase):
+    def test_frontend_reapplication_preserves_identity_and_never_duplicates_evidence_or_navigation(self):
+        edition=json.loads((ROOT/'content/editions/2026-10-14-morning.json').read_text())
+        original=(ROOT/'docs/daily/2026-10-14.html').read_text()
+        day=json.loads((ROOT/'docs/data/days/2026-10-14.json').read_text())
+        frontend=build.load_module('newspaper_ui')
+        first=frontend.decorate(build,original,edition,day)
+        self.assertEqual(frontend.decorate(build,first,edition,day),first)
+        doc=BeautifulSoup(first,'html.parser')
+        self.assertEqual(len(doc.select('.publication-bar')),1)
+        ids=[x['data-story-id'] for x in doc.select('[data-story-id]')]
+        self.assertEqual(ids,[x['data-story-id'] for x in BeautifulSoup(original,'html.parser').select('[data-story-id]')])
+        self.assertCountEqual(ids,[s['story_id'] for s in day['stories']])
+        self.assertEqual(len(doc.select('.edition-desk a')),len(day['editions']))
+        self.assertFalse(doc.select('.edition-desk [aria-current]'))
+
+    def test_native_article_and_photo_disclosures_keep_every_reviewed_paragraph_and_credit(self):
+        edition=json.loads((ROOT/'content/editions/2026-10-14-morning.json').read_text())
+        for path in edition['articles']:
+            article=json.loads((ROOT/'content'/path).read_text())
+            for hero in [False,True]:
+                with self.subTest(article=article['id'],hero=hero):
+                    doc=BeautifulSoup(build.card(edition,article,hero),'html.parser')
+                    self.assertEqual(doc.select_one('.abstract').get_text(),article['summary'])
+                    self.assertFalse(doc.select_one('.card-analysis').has_attr('open'))
+                    self.assertEqual([p.get_text() for p in doc.select('.card-context>p')],article['newspaper_analysis'])
+                    im=article['image']
+                    self.assertIn(im['caption'],doc.select_one('.photo-details').get_text())
+                    self.assertIn(im['attribution'],doc.select_one('.photo-details').get_text())
+                    self.assertTrue(doc.select_one('.photo-details').find('a',href=im['license_url']))
+                    self.assertTrue(doc.find('a',href='../'+article['url']))
+
     def test_panels_preserve_editorial_paragraphs_sources_and_reference_times(self):
         records=json.loads((ROOT/'docs/data/editions.json').read_text())
         edition=json.loads((ROOT/'content/editions'/f'{records[0]["id"]}.json').read_text())

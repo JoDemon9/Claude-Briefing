@@ -204,8 +204,9 @@ def render(b, model, bundles):
         title=article['headline'] if article else b.TYPES[origin['type']]+' έκδοση'
         source_names={s['url']:s['publisher'] for s in article['sources']} if article else {}
         links=''.join('<a href="'+b.esc(url)+'" rel="noopener noreferrer">'+b.esc(source_names.get(url,urlsplit(url).hostname))+' ↗</a>' for url in event['source_urls'])
-        marker={'new':'✨','substantive_update':'🔄','correction':'✏️','enrichment':'📖'}.get(event['kind'],'🗂️')
-        return '<li class="update-card"><div class="update-meta"><span class="story-status status-'+event['kind']+'"><span class="status-marker" aria-hidden="true">'+marker+'</span>'+LABELS[event['kind']]+'</span><time datetime="'+b.esc(event['at'])+'">'+b.stamp(event['at'],model['timezone'])+'</time></div><h3>'+b.esc(title)+'</h3><p>'+b.esc(event['summary'])+'</p><div class="update-actions"><a class="update-origin" href="../'+event['origin']['url']+'">'+b.icon('book')+'Αρχική αναφορά ↗</a>'+('<details class="update-sources"><summary>Πηγές <span class="disclosure-count">'+str(len(event['source_urls']))+'</span></summary><div class="update-source-links">'+links+'</div></details>' if links else '')+'</div></li>'
+        origin_link='<a class="update-origin" aria-label="'+b.esc('Διάβασε: '+title)+'" href="../'+event['origin']['url']+'">'+b.icon('book')+'Αρχική αναφορά ↗</a>'
+        evidence='<details class="update-sources"><summary>Αναφορά και πηγές <span class="disclosure-count">'+str(len(event['source_urls']))+'</span></summary><div class="update-source-links">'+origin_link+links+'</div></details>'
+        return '<li class="update-card"><div class="update-meta"><span class="story-status status-'+event['kind']+'">'+LABELS[event['kind']]+'</span><time datetime="'+b.esc(event['at'])+'">'+b.stamp(event['at'],model['timezone'])+'</time></div><div class="update-body"><h3 class="visually-hidden">'+b.esc(title)+'</h3><p>'+b.esc(event['summary'])+'</p></div><div class="update-actions">'+evidence+'</div></li>'
     from urllib.parse import urlsplit
     html += '<ol class="update-timeline">' + ''.join(event_html(x) for x in changes[-5:][::-1]) + '</ol>' if changes else '<p class="empty-state">Δεν έχει τεκμηριωθεί νέα ουσιαστική εξέλιξη. Η προέλευση αναγράφεται σε κάθε ιστορία.</p>'
     if len(changes) > 5:
@@ -234,7 +235,7 @@ def render(b, model, bundles):
     market_edition = dict(latest, markets=list(quotes.values()), panels=list(panels.values()))
     html += b.markets(market_edition) + b.calculator(latest) + b.edition_panels(market_edition)
     html += '<footer class="day-footer"><span>THE ORACLE SOVEREIGN · '+model['date']+'</span><a href="../daily/index.html">'+b.icon('archive')+'Αρχείο ημερών</a><details class="edition-about"><summary>Σχετικά με την έκδοση</summary><p>Δημιουργία ημερήσιου αρχείου: ' + b.stamp(model['created_at']) + ' · ' + model['timezone'] + '. Οι ώρες πηγών και τιμών διατηρούνται. Κάθε reader ανήκει στη συγκεκριμένη έκδοση.</p></details></footer></main></body></html>'
-    return html
+    return b.load_module('newspaper_ui').decorate(b,html,latest,model)
 
 def publish(b, latest_module, bundles):
     root = b.ROOT
@@ -269,7 +270,7 @@ def publish(b, latest_module, bundles):
         doc.head.append(doc.new_tag('meta', attrs={'name':name,'content':value}))
     tools = doc.select_one('.tools')
     if tools:
-        link = doc.new_tag('a', href=latest_module.PORTAL+'portal-archive.html#liveWireBar'); link.string = 'Ροή'; link['aria-label']='Ροή ειδήσεων'; tools.append(link)
+        link = doc.new_tag('a', href=latest_module.PORTAL+'portal-archive.html#liveWireBar'); link.string = 'Ροή'; link['aria-label']='Ροή ειδήσεων'; (tools.select_one('.utility-list') or tools).append(link)
     text = str(doc)
     b.write(root/'docs/today.html', text)
     html_hash = hashlib.sha256(text.encode()).hexdigest()
