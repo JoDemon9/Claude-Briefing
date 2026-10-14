@@ -152,3 +152,12 @@ Use optional `scheduled_slot` for the edition label (separate from `published_at
 Μετά τον έλεγχο ορίζουμε image_review.version=2 και reading_review.version=1, με completed_at. Ο renderer απορρίπτει νέο published περιεχόμενο μετά το αίτημα 13/10 15:40 που δεν έχει και τους δύο ελέγχους, όλες τις αδειοδοτημένες τοπικές φωτογραφίες και αρκετό πραγματικό κείμενο. Οι παλαιότερες εκδόσεις παραμένουν συμβατές. Η καθολική απαίτηση υπερισχύει της παλαιότερης οδηγίας για τρεις εικόνες και της εξαίρεσης image_unavailable_reason.
 
 Διορθώσεις της ίδιας έκδοσης κρατούν URL, published_at και quote/source timestamps. Οι image_revision_at και analysis_revision_at φαίνονται ως ξεχωριστός συντακτικός εμπλουτισμός. Το πλήρες latest snapshot και το sync_portal διατηρούνται, μαζί με τα historical readers, search και bookmarks. Οι εικόνες ελέγχονται με decode/naturalWidth στο κινητό και desktop και με το πραγματικό Pages release. Η παλιότερη συντήρηση εικόνων είχε καταγράψει ενημέρωση prompts. Στην παρούσα εργασία τα πραγματικά automations δεν αλλάζουν.
+
+
+## Ολοκλήρωση δημοσίευσης μέσω της εφαρμογής GitHub — 14/10/2026
+
+Το workflow `image-candidate.yml` παράγει ελεγμένο υποψήφιο και screenshots· δεν δημοσιεύει στο main/Pages. Μην σταματάς στο πράσινο candidate ή στο artifact. Η πρωινή 14/10 έμεινε σε candidate branch ενώ το main διατηρούσε τη 13/10.
+
+Σε περιβάλλον ChatGPT χωρίς GitHub credentials στο shell, η συνδεδεμένη εφαρμογή παραμένει η εξουσιοδοτημένη διαδρομή εγγραφής: `create_blob` (UTF-8 ή base64 για φωτογραφίες), `create_tree` με το φρέσκο base tree, `create_commit` με parent το φρέσκο main και `update_ref` με `force=false` και `expected_sha`. Ένα commit περιλαμβάνει όλα τα ελεγμένα related source/docs/assets και release descriptor. Κάνε το ίδιο για private πηγές και για το Oracle snapshot μετά το sync. Σε αλλαγή head, διάβασε ξανά και διατήρησε τις παράλληλες αλλαγές. Μην υποθέτεις ότι ένα ανώνυμο CLI clone δίνει δικαίωμα push.
+
+Κράτησε την έκδοση υποψήφια μέχρι να ολοκληρωθούν οι πραγματικοί έλεγχοι, η προώθηση και το Pages/hash verification. Αν η προηγούμενη απόπειρα έχει μόνο μη δημοσιευμένα generated αρχεία, ανακατασκεύασέ τα από τα source με τον αληθινό χρόνο της πρώτης δημοσίευσης· μην αλλάζεις timestamps έκδοσης που έχει ήδη δημοσιευτεί. Τα GitHub CI workflows δεν εκκινούν τα εξωτερικά ChatGPT tasks. Οι καθημερινές ώρες παραμένουν 07:30 / 13:30 / 19:30 Europe/Athens.
