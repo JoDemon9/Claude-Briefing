@@ -10,13 +10,18 @@
       "type": "morning",
       "url": "morning/2026-10-14.html",
       "published_at": "2026-10-14T08:48:14+03:00"
+    },
+    {
+      "id": "2026-10-14-midday",
+      "type": "midday",
+      "url": "midday/2026-10-14.html",
+      "published_at": "2026-10-14T13:50:18+03:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
+  "lead_story_id": "cyprus-orange-warning-october-14-2026",
   "stories": [
     {
       "story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
@@ -40,22 +45,49 @@
       "priority": 0
     },
     {
+      "story_id": "cyprus-orange-warning-october-14-2026",
+      "first_seen_at": "2026-10-14T13:50:18+03:00",
+      "last_substantive_at": "2026-10-14T13:50:18+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-14-midday",
+          "article_id": "lead",
+          "source_story_id": "cyprus-orange-warning-october-14-2026",
+          "url": "articles/2026-10-14-midday/lead.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "lead",
+        "source_story_id": "cyprus-orange-warning-october-14-2026",
+        "url": "articles/2026-10-14-midday/lead.html"
+      },
+      "section": "cyprus",
+      "priority": 0
+    },
+    {
       "story_id": "yemen-sanaa-saudi-strikes-october-2026",
       "first_seen_at": "2026-10-14T08:48:14+03:00",
-      "last_substantive_at": null,
+      "last_substantive_at": "2026-10-14T13:50:18+03:00",
       "references": [
         {
           "edition_id": "2026-10-14-morning",
           "article_id": "world-4",
           "source_story_id": "yemen-sanaa-saudi-strikes-october-2026",
           "url": "articles/2026-10-14-morning/world-4.html"
+        },
+        {
+          "edition_id": "2026-10-14-midday",
+          "article_id": "world-aramco",
+          "source_story_id": "yemen-sanaa-saudi-strikes-october-2026",
+          "url": "articles/2026-10-14-midday/world-aramco.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-14-morning",
-        "article_id": "world-4",
+        "edition_id": "2026-10-14-midday",
+        "article_id": "world-aramco",
         "source_story_id": "yemen-sanaa-saudi-strikes-october-2026",
-        "url": "articles/2026-10-14-morning/world-4.html"
+        "url": "articles/2026-10-14-midday/world-aramco.html"
       },
       "section": "world",
       "priority": 10
@@ -82,6 +114,27 @@
       "priority": 20
     },
     {
+      "story_id": "sberbank-balakovo-drone-strike-2026",
+      "first_seen_at": "2026-10-14T13:50:18+03:00",
+      "last_substantive_at": "2026-10-14T13:50:18+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-14-midday",
+          "article_id": "world-data-centre",
+          "source_story_id": "sberbank-balakovo-drone-strike-2026",
+          "url": "articles/2026-10-14-midday/world-data-centre.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "world-data-centre",
+        "source_story_id": "sberbank-balakovo-drone-strike-2026",
+        "url": "articles/2026-10-14-midday/world-data-centre.html"
+      },
+      "section": "world",
+      "priority": 25
+    },
+    {
       "story_id": "china-september-2026-trade",
       "first_seen_at": "2026-10-14T08:48:14+03:00",
       "last_substantive_at": null,
@@ -103,6 +156,27 @@
       "priority": 30
     },
     {
+      "story_id": "cyprus-nicosia-bus-audit-2026",
+      "first_seen_at": "2026-10-14T13:50:18+03:00",
+      "last_substantive_at": "2026-10-14T13:50:18+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-14-midday",
+          "article_id": "cyprus-buses",
+          "source_story_id": "cyprus-nicosia-bus-audit-2026",
+          "url": "articles/2026-10-14-midday/cyprus-buses.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "cyprus-buses",
+        "source_story_id": "cyprus-nicosia-bus-audit-2026",
+        "url": "articles/2026-10-14-midday/cyprus-buses.html"
+      },
+      "section": "cyprus",
+      "priority": 35
+    },
+    {
       "story_id": "cyprus-child-benefit-bill-2026",
       "first_seen_at": "2026-10-14T08:48:14+03:00",
       "last_substantive_at": "2026-10-14T08:48:14+03:00",
@@ -122,6 +196,27 @@
       },
       "section": "cyprus",
       "priority": 40
+    },
+    {
+      "story_id": "cyprus-residence-renewals-online-january-2027",
+      "first_seen_at": "2026-10-14T13:50:18+03:00",
+      "last_substantive_at": "2026-10-14T13:50:18+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-14-midday",
+          "article_id": "cyprus-permits",
+          "source_story_id": "cyprus-residence-renewals-online-january-2027",
+          "url": "articles/2026-10-14-midday/cyprus-permits.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "cyprus-permits",
+        "source_story_id": "cyprus-residence-renewals-online-january-2027",
+        "url": "articles/2026-10-14-midday/cyprus-permits.html"
+      },
+      "section": "cyprus",
+      "priority": 45
     },
     {
       "story_id": "us-greece-guilfoyle-resignation-request-2026",
@@ -290,6 +385,27 @@
       },
       "section": "sports",
       "priority": 120
+    },
+    {
+      "story_id": "omonoia-celje-squad-october-15-2026",
+      "first_seen_at": "2026-10-14T13:50:18+03:00",
+      "last_substantive_at": "2026-10-14T13:50:18+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-14-midday",
+          "article_id": "sport-omonoia",
+          "source_story_id": "omonoia-celje-squad-october-15-2026",
+          "url": "articles/2026-10-14-midday/sport-omonoia.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "sport-omonoia",
+        "source_story_id": "omonoia-celje-squad-october-15-2026",
+        "url": "articles/2026-10-14-midday/sport-omonoia.html"
+      },
+      "section": "sports",
+      "priority": 130
     }
   ],
   "updates": [
@@ -687,9 +803,189 @@
         "source_story_id": "cyprus-ccci-ai-training-november-2026",
         "url": "articles/2026-10-14-morning/cyprus-2.html"
       }
+    },
+    {
+      "id": "0fea0c66771a6c3440cc6046c0a80994860a47e91d3f4c9e61a4dcb97cc4d08e",
+      "kind": "substantive_update",
+      "at": "2026-10-14T13:50:18+03:00",
+      "summary": "Νέα επίσημη τοποθέτηση για περιορισμένη φωτιά σε διοικητικό κτίριο Aramco, χωρίς αναφερόμενα θύματα.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/saudi-aramco-headquarters-attacked-limited-fire-reported"
+      ],
+      "story_id": "yemen-sanaa-saudi-strikes-october-2026",
+      "origin": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "world-aramco",
+        "source_story_id": "yemen-sanaa-saudi-strikes-october-2026",
+        "url": "articles/2026-10-14-midday/world-aramco.html"
+      }
+    },
+    {
+      "id": "314f21cae9c3e40d31a124b427e0066cd34c1b5ca4f327c56c3ccd3d0249374b",
+      "kind": "provenance",
+      "at": "2026-10-14T13:50:18+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "omonoia-celje-squad-october-15-2026",
+      "origin": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "sport-omonoia",
+        "source_story_id": "omonoia-celje-squad-october-15-2026",
+        "url": "articles/2026-10-14-midday/sport-omonoia.html"
+      }
+    },
+    {
+      "id": "3b2729a7070b8c3af27f13a052dee450148ed73569b47076227005597af53016",
+      "kind": "new",
+      "at": "2026-10-14T13:50:18+03:00",
+      "summary": "Η επίσημη αποστολή Ομόνοιας περιλαμβάνει Μπράουερς· δεν έχει ανακοινωθεί ενδεκάδα ή ιατρική εκτίμηση.",
+      "source_urls": [
+        "https://www.omonoiafc.com.cy/%CF%80%CE%BB%CE%B7%CF%81%CE%BF%CF%86%CE%BF%CF%81%CE%AF%CE%B5%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CE%B1%CF%80%CE%BF%CF%83%CF%84%CE%BF%CE%BB%CE%AE-%CF%83%CF%84%CE%B7-%CF%83%CE%BB%CE%BF%CE%B2/"
+      ],
+      "story_id": "omonoia-celje-squad-october-15-2026",
+      "origin": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "sport-omonoia",
+        "source_story_id": "omonoia-celje-squad-october-15-2026",
+        "url": "articles/2026-10-14-midday/sport-omonoia.html"
+      }
+    },
+    {
+      "id": "4e479129c7536bd4fd2fc4264b99237633e952bfe70993e911c2b72d6c887518",
+      "kind": "substantive_update",
+      "at": "2026-10-14T13:50:18+03:00",
+      "summary": "Η πορτοκαλί προειδοποίηση αρχίζει στις 15:00 αντί 19:00· ισχύει έως 15/10 05:00.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/storms-to-begin-earlier-than-forecast-updated-orange-warning"
+      ],
+      "story_id": "cyprus-orange-warning-october-14-2026",
+      "origin": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "lead",
+        "source_story_id": "cyprus-orange-warning-october-14-2026",
+        "url": "articles/2026-10-14-midday/lead.html"
+      }
+    },
+    {
+      "id": "4f6d0a09068982527aa386cbc37504e593d2e1c0566aa22029c8c167976ae7aa",
+      "kind": "provenance",
+      "at": "2026-10-14T13:50:18+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-orange-warning-october-14-2026",
+      "origin": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "lead",
+        "source_story_id": "cyprus-orange-warning-october-14-2026",
+        "url": "articles/2026-10-14-midday/lead.html"
+      }
+    },
+    {
+      "id": "4fa295d0c860cf27ac7936e33528705c57f2d9e57ba7b54c59c60c2653ee216d",
+      "kind": "provenance",
+      "at": "2026-10-14T13:50:18+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-residence-renewals-online-january-2027",
+      "origin": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "cyprus-permits",
+        "source_story_id": "cyprus-residence-renewals-online-january-2027",
+        "url": "articles/2026-10-14-midday/cyprus-permits.html"
+      }
+    },
+    {
+      "id": "512f1d233df567c41042f8d539ea9b13cd0a8a0ebacb330d5281b50fbecbb8d9",
+      "kind": "new",
+      "at": "2026-10-14T13:50:18+03:00",
+      "summary": "Νέα έκθεση για την εμπειρία λεωφορείων στη Λευκωσία· τα ποσοστά αφορούν το δείγμα ελέγχου.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/63-per-cent-of-passengers-would-not-use-the-bus-again"
+      ],
+      "story_id": "cyprus-nicosia-bus-audit-2026",
+      "origin": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "cyprus-buses",
+        "source_story_id": "cyprus-nicosia-bus-audit-2026",
+        "url": "articles/2026-10-14-midday/cyprus-buses.html"
+      }
+    },
+    {
+      "id": "b2096ef2d33508d33969d7d5b7668aec0ae622b7fe8390621cbcdbc834650903",
+      "kind": "provenance",
+      "at": "2026-10-14T13:50:18+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "yemen-sanaa-saudi-strikes-october-2026",
+      "origin": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "world-aramco",
+        "source_story_id": "yemen-sanaa-saudi-strikes-october-2026",
+        "url": "articles/2026-10-14-midday/world-aramco.html"
+      }
+    },
+    {
+      "id": "db52df67ebe1d126f5fd632d25ce263e44f4b456872468dcbb80eed85a1ce72c",
+      "kind": "new",
+      "at": "2026-10-14T13:50:18+03:00",
+      "summary": "Συγκεκριμένες ανανεώσεις διαμονής περνούν ηλεκτρονικά από τον Ιανουάριο, με CY login.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/some-residence-permit-renewal-applications-to-move-online-from-january"
+      ],
+      "story_id": "cyprus-residence-renewals-online-january-2027",
+      "origin": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "cyprus-permits",
+        "source_story_id": "cyprus-residence-renewals-online-january-2027",
+        "url": "articles/2026-10-14-midday/cyprus-permits.html"
+      }
+    },
+    {
+      "id": "e2e97806d5626de5d5fb981da5fb1cbc35d1d49aa9be7b97da48f43d0d57fe50",
+      "kind": "provenance",
+      "at": "2026-10-14T13:50:18+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "sberbank-balakovo-drone-strike-2026",
+      "origin": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "world-data-centre",
+        "source_story_id": "sberbank-balakovo-drone-strike-2026",
+        "url": "articles/2026-10-14-midday/world-data-centre.html"
+      }
+    },
+    {
+      "id": "f26c5bc2cbc31bfe5f87ca1336fc55f9008cf3305e6bf348efdbd53009c90053",
+      "kind": "new",
+      "at": "2026-10-14T13:50:18+03:00",
+      "summary": "Νέα αναφορά πλήγματος σε κέντρο δεδομένων Sberbank· η εταιρεία δηλώνει συνέχεια υπηρεσιών.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/ukrainian-drones-hit-russias-biggest-data-centre"
+      ],
+      "story_id": "sberbank-balakovo-drone-strike-2026",
+      "origin": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "world-data-centre",
+        "source_story_id": "sberbank-balakovo-drone-strike-2026",
+        "url": "articles/2026-10-14-midday/world-data-centre.html"
+      }
+    },
+    {
+      "id": "f9fac0c85afaa61fbe8d64e986696be244b07f7cacc4447da320f69420a194a7",
+      "kind": "provenance",
+      "at": "2026-10-14T13:50:18+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-nicosia-bus-audit-2026",
+      "origin": {
+        "edition_id": "2026-10-14-midday",
+        "article_id": "cyprus-buses",
+        "source_story_id": "cyprus-nicosia-bus-audit-2026",
+        "url": "articles/2026-10-14-midday/cyprus-buses.html"
+      }
     }
   ],
   "created_at": "2026-10-14T05:49:07.061412+00:00",
-  "updated_at": "2026-10-14T09:44:13.088707+00:00",
-  "input_sha256": "9b14b697227c9c759dba7053df15209fe4e72e9a2af6174267a2adc316d6fd51"
+  "updated_at": "2026-10-14T10:50:40.324314+00:00",
+  "input_sha256": "2d360620a0f72b5e08dd17718ae600b73ea0a664625b04fe860080484f1a66a1"
 }
