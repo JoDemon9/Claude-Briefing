@@ -76,6 +76,10 @@ def icon(name):
     paths.update({'calendar':'M4 5h16v16H4z M4 10h16 M8 3v4 M16 3v4 M8 14h2 M14 14h2 M8 18h2', 'weather':'M8 17h11a4 4 0 0 0 0-8 6 6 0 0 0-11 1 4 4 0 0 0 0 7 M4 3v2 M1 8h2 M7 3l-1 2 M11 19l-1 3 M16 19l-1 3', 'tech':'M6 6h12v12H6z M9 9h6v6H9z M9 2v4 M15 2v4 M9 18v4 M15 18v4 M2 9h4 M2 15h4 M18 9h4 M18 15h4', 'info':'M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20 M12 11v6 M12 7h.01'})
     return '<svg class="ui-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="'+paths.get(name,paths['news'])+'"/></svg>'
 
+def emblem(name):
+    symbols={'cyprus':'🇨🇾','world':'🌍','sports':'🏆','markets':'📈','weather':'🌦️','tech':'💻','calendar':'📅','info':'📰','summary':'⚡','changes':'🕒','lead':'🗞️','rates':'🏦'}
+    return '<span class="section-emblem emblem-'+esc(name)+'" aria-hidden="true">'+symbols.get(name,'📰')+'</span>'
+
 def image(a,depth=''):
     im = a.get('image')
     if not im:
@@ -201,7 +205,7 @@ def fixture(record):
     return '<dl class="fixture">'+''.join(lines)+'</dl>'+f'<p class="muted">Έλεγχος: {stamp(record["verified_at"])}</p>'+source_links(record['sources'])
 
 def sports(e, articles=()):
-    out = ['<section class="section" id="sports"><div class="sectionhead"><h2>Αθλητικός παλμός.</h2><span>Η εικόνα κατά τη δημοσίευση</span></div><div class="sports">']
+    out = ['<section class="section" id="sports"><div class="sectionhead"><h2>'+emblem('sports')+'Αθλητικός παλμός.</h2><span>Η εικόνα κατά τη δημοσίευση</span></div><div class="sports">']
     for key, t in e['sports']['coverage'].items():
         out.append(f'<article class="sport"><div class="teamicon">{esc(t["symbol"])}</div><h3>{TEAMS[key]}</h3><p>{esc(t["summary"])}</p><p class="muted">Ενημέρωση: {stamp(t["updated_at"])}</p><details><summary>Περισσότερα · {TEAMS[key]}</summary>')
         if key == 'formula1':
@@ -278,7 +282,7 @@ def card(e, a, hero=False):
     reader=f'<a class="read-link" href="../{article_url(e,a)}">{icon("book")} Πλήρης ανάλυση <span class="reading-time">{math.ceil(words(a)/220)}′</span>{icon("arrow")}</a>'
     copy=abstract+context+more+'<div class="story-actions">'+reader+'</div>'+sources
     overview='<div class="lead-overview"><div class="lead-copy">'+copy+'</div>'+image(a,'../')+'</div>' if hero else copy
-    return f'<article class="{cl}" id="{esc(a["id"])}">'+('' if hero else image(a,'../'))+f'<div class="story-content"><div class="eyebrow">{esc(a["category"])}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}>'+overview+'</div></article>'
+    return f'<article class="{cl}" id="{esc(a["id"])}">'+('' if hero else image(a,'../'))+f'<div class="story-content"><div class="eyebrow">'+(emblem('lead') if hero else '')+f'{esc(a["category"])}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}>'+overview+'</div></article>'
 
 def edition_desk(e, registry):
     out = ['<nav class="edition-desk" aria-label="Εκδόσεις της ημέρας"><b>Γραφείο εκδόσεων</b>']
@@ -301,7 +305,7 @@ def edition_panels(e):
     out=[]
     for panel in e.get('panels', []):
         kind='weather' if panel['id']=='weather' else 'calendar' if panel['id'] in ('watch','risk-radar') else 'tech' if panel['id']=='tech-watch' else 'info'
-        out.append('<section class="section edition-panel panel-'+kind+'" id="'+esc(panel['id'])+'"><div class="sectionhead"><h2>'+icon(kind)+esc(panel['heading'])+'</h2></div>')
+        out.append('<section class="section edition-panel panel-'+kind+'" id="'+esc(panel['id'])+'"><div class="sectionhead"><h2>'+emblem(kind)+esc(panel['heading'])+'</h2></div>')
         if kind=='calendar':
             out.append('<ol class="calendar-list">')
             for paragraph in panel['paragraphs']:
@@ -315,7 +319,7 @@ def edition_panels(e):
             for index,paragraph in enumerate(panel['paragraphs']):
                 warning=kind=='weather' and paragraph.startswith('Πορτοκαλί προειδοποίηση')
                 title='Προειδοποίηση' if warning else 'Πρόγνωση' if kind=='weather' else paragraph.partition(':')[0] if ':' in paragraph and len(paragraph.partition(':')[0])<=40 else ''
-                out.append('<article class="panel-item'+(' panel-advisory' if warning else '')+'">'+('<h3>'+esc(title)+'</h3>' if title else '')+'<p>'+esc(paragraph)+'</p></article>')
+                out.append('<article class="panel-item'+(' panel-advisory' if warning else '')+'">'+('<h3>'+('<span aria-hidden="true">⚠️</span> ' if warning else '')+esc(title)+'</h3>' if title else '')+'<p>'+esc(paragraph)+'</p></article>')
             out.append('</div>')
         out.append(source_disclosure(panel['sources'], 'Πηγές της ενότητας')+'</section>')
     return ''.join(out)
@@ -371,7 +375,7 @@ def _render(root=ROOT):
         if e.get('summary_60s'):
             body += '<details class="story-more" id="summary"><summary>Η έκδοση σε 60 δευτερόλεπτα</summary><div>'+''.join('<p>'+esc(p)+'</p>' for p in e['summary_60s'])+'</div></details>'
         for category, anchor in [('Κύπρος','cyprus'),('Διεθνή','world')]:
-            body += f'<section class="section" id="{anchor}"><div class="sectionhead"><h2>{category}.</h2></div><div class="g3">'+''.join(card(e,a) for a in aa if a['category']==category)+'</div></section>'
+            body += f'<section class="section" id="{anchor}"><div class="sectionhead"><h2>'+emblem(anchor)+f'{category}.</h2></div><div class="g3">'+''.join(card(e,a) for a in aa if a['category']==category)+'</div></section>'
         body += '<section class="verdict"><h2>Τι άλλαξε από την προηγούμενη έκδοση</h2><div>'
         body += ''.join(f'<p><b>{esc(c["kind"])}:</b> {esc(c["text"])}</p>' for c in e['changes']) or '<p>Δεν έχει καταγραφεί ουσιαστική αλλαγή.</p>'
         body += '</div></section>'

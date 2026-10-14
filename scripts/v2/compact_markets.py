@@ -57,7 +57,7 @@ def markets(b, e):
         company=next((label for label in ['Johnson & Johnson','Goldman Sachs',*[label for label,_ in TECH]] if n['text'].startswith(label)),None)
         heading=company or (n['text'].partition(':')[0] if ':' in n['text'] and len(n['text'].partition(':')[0])<=35 else None)
         return '<article class="market-note">'+('<h4>'+b.esc(heading)+'</h4>' if heading else '')+'<p>'+b.esc(n['text'])+'</p>'+b.source_disclosure(n['sources'],'Τεκμηρίωση')+'</article>'
-    html = '<section class="section compact-markets" id="markets"><div class="sectionhead"><h2>'+b.icon('chart')+'Αγορές.</h2><a class="read-link" href="../markets.html">Ιστορικά γραφήματα ↗</a></div><div class="market-overview"><h3>Η εικόνα των αγορών σε 30 δευτερόλεπτα</h3>'+(''.join(note(n) for n in overview[:3]) or '<p>Δεν υπάρχουν επαληθευμένες τιμές σε αυτή την έκδοση.</p>')+'</div><div class="core-quotes">'+''.join(quote(q) for q in core)+'</div>'
+    html = '<section class="section compact-markets" id="markets"><div class="sectionhead"><h2>'+b.emblem('markets')+'Αγορές.</h2><a class="read-link" href="../markets.html">Ιστορικά γραφήματα ↗</a></div><div class="market-overview"><h3>Η εικόνα των αγορών σε 30 δευτερόλεπτα</h3>'+(''.join(note(n) for n in overview[:3]) or '<p>Δεν υπάρχουν επαληθευμένες τιμές σε αυτή την έκδοση.</p>')+'</div><div class="core-quotes">'+''.join(quote(q) for q in core)+'</div>'
     tech_keys = {key for _,key in TECH}
     rates = []
     groups = {}
@@ -76,7 +76,7 @@ def markets(b, e):
     for category, items in groups.items():
         html += '<h3>'+category+'</h3><div class="quote-grid">'+''.join(quote(q) for q in items)+'</div>'
     if not groups: html += '<p>Οι διαθέσιμες τιμές βρίσκονται στις βασικές κάρτες, στο Tech watch ή στα επιτόκια.</p>'
-    html += '</details><details class="tech-quotes"><summary>'+b.icon('chart')+'Tech watch · επτά εταιρείες</summary><table class="tech-table"><caption>Ελεγμένα στιγμιότυπα τεχνολογικών εταιρειών</caption><thead><tr><th scope="col">Εταιρεία</th><th scope="col">Τιμή · μονάδα · μεταβολή</th><th scope="col">Κατάσταση · χρόνος · πηγή</th></tr></thead><tbody>'
+    html += '</details><details class="tech-quotes"><summary>'+b.emblem('tech')+'Tech watch · επτά εταιρείες</summary><table class="tech-table"><caption>Ελεγμένα στιγμιότυπα τεχνολογικών εταιρειών</caption><thead><tr><th scope="col">Εταιρεία</th><th scope="col">Τιμή · μονάδα · μεταβολή</th><th scope="col">Κατάσταση · χρόνος · πηγή</th></tr></thead><tbody>'
     from bs4 import BeautifulSoup
     for name,key in TECH:
         if key not in tech:
@@ -93,7 +93,7 @@ def markets(b, e):
             row.select_one('.quote-change').decompose()
             row.select_one('.quote-status').string='Fixing' if 'euribor' in q['name'].casefold() else 'Ημερομηνία ισχύος'
             return str(row.article)
-        html += '<div class="rate-summary"><div class="support-heading"><h3>'+b.icon('chart')+'Επιτόκια · ΕΚΤ & Euribor</h3><p>Κάθε διάρκεια και ημερομηνία αναφοράς διαβάζονται χωριστά.</p></div><details class="rate-disclosure"><summary>Επιτόκια ανά διάρκεια και πηγές <span class="disclosure-count">'+str(len(rates))+'</span></summary><div class="quote-grid">'+''.join(rate(q) for q in rates)+'</div></details></div>'
+        html += '<div class="rate-summary"><div class="support-heading"><h3>'+b.emblem('rates')+'Επιτόκια · ΕΚΤ & Euribor</h3><p>Κάθε διάρκεια και ημερομηνία αναφοράς διαβάζονται χωριστά.</p></div><details class="rate-disclosure"><summary>Επιτόκια ανά διάρκεια και πηγές <span class="disclosure-count">'+str(len(rates))+'</span></summary><div class="quote-grid">'+''.join(rate(q) for q in rates)+'</div></details></div>'
     movers = e.get('market_movers', [])
     if not movers:
         movers = [n for n in e.get('market_notes',[]) if n.get('kind') != 'Τεκμηρίωση τιμών']

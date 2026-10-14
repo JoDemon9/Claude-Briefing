@@ -228,3 +228,51 @@ summary:hover { background: var(--surface-soft); }
 }
 
 .calendar-event > p:only-child { grid-column: 1 / -1; }
+
+/* A little colour and familiar symbols make the newspaper easier to scan. */
+.section-emblem {
+  display: inline-flex; align-items: center; justify-content: center; flex: none;
+  width: 48px; height: 48px; border-radius: 14px;
+  background: color-mix(in srgb, var(--forest) 10%, var(--card));
+  border: 1px solid color-mix(in srgb, var(--forest) 16%, var(--line));
+  font: 27px/1 "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+  letter-spacing: 0; text-transform: none;
+}
+.sectionhead h2 { display: flex; align-items: center; gap: 13px; font-size: clamp(28px, 3vw, 38px); }
+.emblem-summary, .emblem-lead, .emblem-sports { background: color-mix(in srgb, #e2ad47 17%, var(--card)); border-color: color-mix(in srgb, #e2ad47 30%, var(--line)); }
+.emblem-world, .emblem-tech { background: color-mix(in srgb, #4c9cad 14%, var(--card)); }
+.emblem-weather { background: color-mix(in srgb, #779bd6 16%, var(--card)); }
+.emblem-calendar, .emblem-changes { background: color-mix(in srgb, #a28ac7 15%, var(--card)); }
+.hero { border-top: 3px solid var(--amber); box-shadow: 0 8px 30px #00000008; }
+.hero .eyebrow { display: flex; align-items: center; gap: 9px; }
+.hero .eyebrow .section-emblem { width: 32px; height: 32px; border-radius: 9px; font-size: 19px; }
+.newscard { box-shadow: 0 5px 20px #00000006; transition: border-color .18s, box-shadow .18s; }
+.newscard:hover { border-color: color-mix(in srgb, var(--forest) 45%, var(--line)); box-shadow: 0 9px 28px #00000012; }
+.newscard .eyebrow { align-self: start; padding: 5px 9px; background: var(--surface-soft); border: 1px solid var(--line); border-radius: 5px; }
+.story-status { gap: 6px; border-radius: 20px; }
+.status-marker { font: 14px/1 "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; }
+.status-new { background: color-mix(in srgb, #67b69c 15%, var(--card)); }
+.status-substantive_update { background: color-mix(in srgb, #75a2d0 15%, var(--card)); }
+.status-correction { background: color-mix(in srgb, #d4a35e 15%, var(--card)); }
+.day-summary { background: linear-gradient(110deg, color-mix(in srgb, #d8ad62 11%, var(--card)), var(--card)); }
+.day-summary > summary { gap: 13px; }
+.summary-points > li::before { display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; background: color-mix(in srgb, #d8ad62 16%, var(--card)); }
+.update-card { border-top: 3px solid color-mix(in srgb, #a28ac7 50%, var(--line)) !important; }
+.edition-panel { --panel-accent: #4c9cad; background: linear-gradient(135deg, color-mix(in srgb, var(--panel-accent) 7%, var(--card)), var(--card) 60%); border-top: 3px solid color-mix(in srgb, var(--panel-accent) 55%, var(--line)); }
+.panel-weather { --panel-accent: #779bd6; }
+.panel-calendar { --panel-accent: #a28ac7; }
+.edition-panel .panel-item, .edition-panel .calendar-event { background: var(--card); }
+.panel-item h3 { display: flex; align-items: center; gap: 5px; }
+.event-when { border-radius: 7px; background: color-mix(in srgb, #a28ac7 10%, var(--card)); padding: 10px 12px; }
+.event-when .ui-icon { width: 17px; height: 17px; }
+.compact-markets .market-overview { background: linear-gradient(135deg, color-mix(in srgb, #67b69c 9%, var(--card)), var(--card)); }
+.tech-quotes > summary .section-emblem { width: 30px; height: 30px; font-size: 18px; border-radius: 8px; }
+.edition-desk { border-radius: var(--ui-radius); }
+.edition-desk a { padding: 10px 15px; border: 1px solid color-mix(in srgb, var(--forest) 25%, var(--line)); border-radius: 8px; background: color-mix(in srgb, var(--forest) 7%, var(--card)); text-decoration: none; }
+@media (max-width: 700px) {
+  .section-emblem { width: 42px; height: 42px; font-size: 24px; border-radius: 11px; }
+  .day-summary > summary { font-size: 21px; gap: 10px; }
+  .sectionhead h2 { gap: 10px; }
+  .edition-panel .sectionhead h2 { font-size: 25px; }
+}
+@media (prefers-reduced-motion: reduce) { .newscard { transition: none; } }
