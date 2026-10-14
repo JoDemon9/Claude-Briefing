@@ -72,9 +72,12 @@ class UIContentTests(unittest.TestCase):
         lead=next(a for a in articles if a['story_id']==edition['daily']['lead_story_id'])
         day=BeautifulSoup((ROOT/'docs/daily/2026-10-14.html').read_text(),'html.parser')
         independent=BeautifulSoup((ROOT/'docs'/edition['url']).read_text(),'html.parser')
-        for doc in [day,independent]:
-            self.assertEqual(doc.select_one('.hero h2').get_text(),lead['headline'])
-            self.assertEqual(len(doc.select('.hero,.newscard')),len(articles))
+        model=json.loads((ROOT/'docs/data/days/2026-10-14.json').read_text())
+        selected=next(s['selected'] for s in model['stories'] if s['story_id']==model['lead_story_id'])
+        day_lead=json.loads((ROOT/'docs/data/articles'/selected['edition_id']/f'{selected["article_id"]}.json').read_text())
+        for doc,expected_lead,expected_count in [(day,day_lead,len(model['stories'])),(independent,lead,len(articles))]:
+            self.assertEqual(doc.select_one('.hero h2').get_text(),expected_lead['headline'])
+            self.assertEqual(len(doc.select('.hero,.newscard')),expected_count)
             self.assertFalse(doc.select('.lead-analysis summary'))
             self.assertTrue(doc.select_one('.hub-home'))
         self.assertFalse(day.select('.edition-desk [aria-current]'))
