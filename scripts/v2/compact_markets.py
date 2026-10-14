@@ -39,7 +39,7 @@ def markets(b, e):
             value = f'{value:,.{q.get("precision",2)}f}'.replace(',', 'X').replace('.', ',').replace('X', '.')
         change = q.get('change_pct')
         delta = ('↑ ' if change > 0 else '↓ ' if change < 0 else '→ ') + format(Decimal(str(change)).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP), '+.2f').replace('.', ',') + '%' if change is not None else 'Μεταβολή μη διαθέσιμη'
-        unit = q['unit'] + ' · ' + q['currency'] if q.get('asset_class') in ('index','futures_index') else q['currency'] + ' / ' + q['unit']
+        unit = q['unit'] if q.get('asset_class') == 'rate' else q['unit'] + ' · ' + q['currency'] if q.get('asset_class') in ('index','futures_index') else q['currency'] + ' / ' + q['unit']
         return '<article class="quote-card" data-quote-key="'+b.esc(quote_key(q))+'"><h4>'+b.esc(q['name'])+'</h4><strong class="quote-value">'+b.esc(value if value is not None else '—')+'</strong><span class="quote-unit">'+b.esc(unit)+'</span><b class="quote-change">'+b.esc(delta)+'</b><span class="quote-status">'+labels[q['status']]+'</span><time>'+b.stamp(q.get('quoted_at'))+'</time>'+details(q)+'</article>'
     core = []
     configured = e.get('market_core')

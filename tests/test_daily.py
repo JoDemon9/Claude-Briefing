@@ -193,4 +193,14 @@ class DailyTests(unittest.TestCase):
         self.assertEqual(len(doc.select('.market-movers>details .market-note')),2)
         self.assertEqual(len(doc.select('[data-quote-key]')),len(e['markets']))
 
+    def test_rate_units_remain_percentages_in_the_compact_dashboard(self):
+        e=copy.deepcopy(self.bundles[0][0])
+        q=copy.deepcopy(next(q for q in e['markets'] if q.get('asset_class')=='rate'))
+        q.update(instrument='ecb-rate-test',currency='EUR',unit='% ετησίως')
+        e['markets']=[q]
+        doc=BeautifulSoup(build.markets(e),'html.parser')
+        label=doc.select_one('[data-quote-key="ecb-rate-test"] .quote-unit').text
+        self.assertEqual(label,'% ετησίως')
+        self.assertNotIn('EUR /',label)
+
 if __name__=='__main__':unittest.main()
