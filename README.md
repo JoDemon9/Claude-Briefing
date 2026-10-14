@@ -8,6 +8,8 @@
 
 Τα δημόσια URLs είναι [η εφημερίδα](https://jodemon9.github.io/Claude-Briefing/) και [η πύλη](https://jodemon9.github.io/oracle-briefing/). Το ιδιωτικό docs είναι preview και δεν φιλοξενείται δημόσια.
 
+Οι ανάγκες του χρήστη και οι λόγοι πίσω από τις αλλαγές διατηρούνται στο [DECISIONS.md](DECISIONS.md). Διάβασέ το πριν από νέα διόρθωση. Η [ανασκόπηση εφημερίδας](NEWSPAPER_REVIEW.md) χωρίζει τις προτεινόμενες βελτιώσεις από τις αποδεκτές αποφάσεις και τις πραγματικά δημοσιευμένες αλλαγές.
+
 ```sh
 python -m pip install -r requirements-v2.txt
 python scripts/v2/build.py
