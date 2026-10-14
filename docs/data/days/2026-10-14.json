@@ -16,109 +16,46 @@
     "midday",
     "evening"
   ],
-  "lead_story_id": "cyprus-child-benefit-bill-2026",
+  "lead_story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
   "stories": [
     {
-      "story_id": "cyprus-child-benefit-bill-2026",
-      "first_seen_at": "2026-10-14T08:48:14+03:00",
-      "last_substantive_at": "2026-10-14T08:48:14+03:00",
-      "references": [
-        {
-          "edition_id": "2026-10-14-morning",
-          "article_id": "lead",
-          "source_story_id": "cyprus-child-benefit-bill-2026",
-          "url": "articles/2026-10-14-morning/lead.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-14-morning",
-        "article_id": "lead",
-        "source_story_id": "cyprus-child-benefit-bill-2026",
-        "url": "articles/2026-10-14-morning/lead.html"
-      },
-      "section": "cyprus",
-      "priority": 0
-    },
-    {
-      "story_id": "google-gemini-4-argon-release",
+      "story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
       "first_seen_at": "2026-10-14T08:48:14+03:00",
       "last_substantive_at": null,
       "references": [
         {
           "edition_id": "2026-10-14-morning",
-          "article_id": "world-1",
-          "source_story_id": "google-gemini-4-argon-release",
-          "url": "articles/2026-10-14-morning/world-1.html"
+          "article_id": "world-3",
+          "source_story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
+          "url": "articles/2026-10-14-morning/world-3.html"
         }
       ],
       "selected": {
         "edition_id": "2026-10-14-morning",
-        "article_id": "world-1",
-        "source_story_id": "google-gemini-4-argon-release",
-        "url": "articles/2026-10-14-morning/world-1.html"
+        "article_id": "world-3",
+        "source_story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
+        "url": "articles/2026-10-14-morning/world-3.html"
       },
       "section": "world",
       "priority": 0
     },
     {
-      "story_id": "manutd-atletico-october-2026-result",
-      "first_seen_at": "2026-10-14T08:48:14+03:00",
-      "last_substantive_at": "2026-10-14T08:48:14+03:00",
-      "references": [
-        {
-          "edition_id": "2026-10-14-morning",
-          "article_id": "sport-united",
-          "source_story_id": "manutd-atletico-october-2026-result",
-          "url": "articles/2026-10-14-morning/sport-united.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-14-morning",
-        "article_id": "sport-united",
-        "source_story_id": "manutd-atletico-october-2026-result",
-        "url": "articles/2026-10-14-morning/sport-united.html"
-      },
-      "section": "sports",
-      "priority": 0
-    },
-    {
-      "story_id": "champions-league-october-13-2026-roundup",
+      "story_id": "yemen-sanaa-saudi-strikes-october-2026",
       "first_seen_at": "2026-10-14T08:48:14+03:00",
       "last_substantive_at": null,
       "references": [
         {
           "edition_id": "2026-10-14-morning",
-          "article_id": "sport-champions",
-          "source_story_id": "champions-league-october-13-2026-roundup",
-          "url": "articles/2026-10-14-morning/sport-champions.html"
+          "article_id": "world-4",
+          "source_story_id": "yemen-sanaa-saudi-strikes-october-2026",
+          "url": "articles/2026-10-14-morning/world-4.html"
         }
       ],
       "selected": {
         "edition_id": "2026-10-14-morning",
-        "article_id": "sport-champions",
-        "source_story_id": "champions-league-october-13-2026-roundup",
-        "url": "articles/2026-10-14-morning/sport-champions.html"
-      },
-      "section": "sports",
-      "priority": 10
-    },
-    {
-      "story_id": "china-september-2026-trade",
-      "first_seen_at": "2026-10-14T08:48:14+03:00",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-10-14-morning",
-          "article_id": "world-2",
-          "source_story_id": "china-september-2026-trade",
-          "url": "articles/2026-10-14-morning/world-2.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-14-morning",
-        "article_id": "world-2",
-        "source_story_id": "china-september-2026-trade",
-        "url": "articles/2026-10-14-morning/world-2.html"
+        "article_id": "world-4",
+        "source_story_id": "yemen-sanaa-saudi-strikes-october-2026",
+        "url": "articles/2026-10-14-morning/world-4.html"
       },
       "section": "world",
       "priority": 10
@@ -142,109 +79,46 @@
         "url": "articles/2026-10-14-morning/cyprus-1.html"
       },
       "section": "cyprus",
-      "priority": 10
+      "priority": 20
     },
     {
-      "story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
+      "story_id": "china-september-2026-trade",
       "first_seen_at": "2026-10-14T08:48:14+03:00",
       "last_substantive_at": null,
       "references": [
         {
           "edition_id": "2026-10-14-morning",
-          "article_id": "world-3",
-          "source_story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
-          "url": "articles/2026-10-14-morning/world-3.html"
+          "article_id": "world-2",
+          "source_story_id": "china-september-2026-trade",
+          "url": "articles/2026-10-14-morning/world-2.html"
         }
       ],
       "selected": {
         "edition_id": "2026-10-14-morning",
-        "article_id": "world-3",
-        "source_story_id": "black-sea-bulgaria-shipping-drone-attacks-2026",
-        "url": "articles/2026-10-14-morning/world-3.html"
+        "article_id": "world-2",
+        "source_story_id": "china-september-2026-trade",
+        "url": "articles/2026-10-14-morning/world-2.html"
       },
       "section": "world",
-      "priority": 20
+      "priority": 30
     },
     {
-      "story_id": "cyprus-ccci-ai-training-november-2026",
+      "story_id": "cyprus-child-benefit-bill-2026",
       "first_seen_at": "2026-10-14T08:48:14+03:00",
       "last_substantive_at": "2026-10-14T08:48:14+03:00",
       "references": [
         {
           "edition_id": "2026-10-14-morning",
-          "article_id": "cyprus-2",
-          "source_story_id": "cyprus-ccci-ai-training-november-2026",
-          "url": "articles/2026-10-14-morning/cyprus-2.html"
+          "article_id": "lead",
+          "source_story_id": "cyprus-child-benefit-bill-2026",
+          "url": "articles/2026-10-14-morning/lead.html"
         }
       ],
       "selected": {
         "edition_id": "2026-10-14-morning",
-        "article_id": "cyprus-2",
-        "source_story_id": "cyprus-ccci-ai-training-november-2026",
-        "url": "articles/2026-10-14-morning/cyprus-2.html"
-      },
-      "section": "cyprus",
-      "priority": 20
-    },
-    {
-      "story_id": "cyprus-cop31-presidential-attendance",
-      "first_seen_at": "2026-10-14T08:48:14+03:00",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-10-14-morning",
-          "article_id": "cyprus-3",
-          "source_story_id": "cyprus-cop31-presidential-attendance",
-          "url": "articles/2026-10-14-morning/cyprus-3.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-14-morning",
-        "article_id": "cyprus-3",
-        "source_story_id": "cyprus-cop31-presidential-attendance",
-        "url": "articles/2026-10-14-morning/cyprus-3.html"
-      },
-      "section": "cyprus",
-      "priority": 30
-    },
-    {
-      "story_id": "yemen-sanaa-saudi-strikes-october-2026",
-      "first_seen_at": "2026-10-14T08:48:14+03:00",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-10-14-morning",
-          "article_id": "world-4",
-          "source_story_id": "yemen-sanaa-saudi-strikes-october-2026",
-          "url": "articles/2026-10-14-morning/world-4.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-14-morning",
-        "article_id": "world-4",
-        "source_story_id": "yemen-sanaa-saudi-strikes-october-2026",
-        "url": "articles/2026-10-14-morning/world-4.html"
-      },
-      "section": "world",
-      "priority": 30
-    },
-    {
-      "story_id": "cyprus-fintech-cyber-resilience-2026",
-      "first_seen_at": "2026-10-14T08:48:14+03:00",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-10-14-morning",
-          "article_id": "cyprus-4",
-          "source_story_id": "cyprus-fintech-cyber-resilience-2026",
-          "url": "articles/2026-10-14-morning/cyprus-4.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-14-morning",
-        "article_id": "cyprus-4",
-        "source_story_id": "cyprus-fintech-cyber-resilience-2026",
-        "url": "articles/2026-10-14-morning/cyprus-4.html"
+        "article_id": "lead",
+        "source_story_id": "cyprus-child-benefit-bill-2026",
+        "url": "articles/2026-10-14-morning/lead.html"
       },
       "section": "cyprus",
       "priority": 40
@@ -268,7 +142,91 @@
         "url": "articles/2026-10-14-morning/world-5.html"
       },
       "section": "world",
-      "priority": 40
+      "priority": 50
+    },
+    {
+      "story_id": "cyprus-cop31-presidential-attendance",
+      "first_seen_at": "2026-10-14T08:48:14+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "cyprus-3",
+          "source_story_id": "cyprus-cop31-presidential-attendance",
+          "url": "articles/2026-10-14-morning/cyprus-3.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-3",
+        "source_story_id": "cyprus-cop31-presidential-attendance",
+        "url": "articles/2026-10-14-morning/cyprus-3.html"
+      },
+      "section": "cyprus",
+      "priority": 60
+    },
+    {
+      "story_id": "google-gemini-4-argon-release",
+      "first_seen_at": "2026-10-14T08:48:14+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "world-1",
+          "source_story_id": "google-gemini-4-argon-release",
+          "url": "articles/2026-10-14-morning/world-1.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "world-1",
+        "source_story_id": "google-gemini-4-argon-release",
+        "url": "articles/2026-10-14-morning/world-1.html"
+      },
+      "section": "world",
+      "priority": 70
+    },
+    {
+      "story_id": "cyprus-ccci-ai-training-november-2026",
+      "first_seen_at": "2026-10-14T08:48:14+03:00",
+      "last_substantive_at": "2026-10-14T08:48:14+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "cyprus-2",
+          "source_story_id": "cyprus-ccci-ai-training-november-2026",
+          "url": "articles/2026-10-14-morning/cyprus-2.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-2",
+        "source_story_id": "cyprus-ccci-ai-training-november-2026",
+        "url": "articles/2026-10-14-morning/cyprus-2.html"
+      },
+      "section": "cyprus",
+      "priority": 80
+    },
+    {
+      "story_id": "cyprus-fintech-cyber-resilience-2026",
+      "first_seen_at": "2026-10-14T08:48:14+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "cyprus-4",
+          "source_story_id": "cyprus-fintech-cyber-resilience-2026",
+          "url": "articles/2026-10-14-morning/cyprus-4.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "cyprus-4",
+        "source_story_id": "cyprus-fintech-cyber-resilience-2026",
+        "url": "articles/2026-10-14-morning/cyprus-4.html"
+      },
+      "section": "cyprus",
+      "priority": 90
     },
     {
       "story_id": "cyprus-israel-davidovich-credentials",
@@ -289,7 +247,49 @@
         "url": "articles/2026-10-14-morning/cyprus-5.html"
       },
       "section": "cyprus",
-      "priority": 50
+      "priority": 100
+    },
+    {
+      "story_id": "manutd-atletico-october-2026-result",
+      "first_seen_at": "2026-10-14T08:48:14+03:00",
+      "last_substantive_at": "2026-10-14T08:48:14+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "sport-united",
+          "source_story_id": "manutd-atletico-october-2026-result",
+          "url": "articles/2026-10-14-morning/sport-united.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "sport-united",
+        "source_story_id": "manutd-atletico-october-2026-result",
+        "url": "articles/2026-10-14-morning/sport-united.html"
+      },
+      "section": "sports",
+      "priority": 110
+    },
+    {
+      "story_id": "champions-league-october-13-2026-roundup",
+      "first_seen_at": "2026-10-14T08:48:14+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-14-morning",
+          "article_id": "sport-champions",
+          "source_story_id": "champions-league-october-13-2026-roundup",
+          "url": "articles/2026-10-14-morning/sport-champions.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-14-morning",
+        "article_id": "sport-champions",
+        "source_story_id": "champions-league-october-13-2026-roundup",
+        "url": "articles/2026-10-14-morning/sport-champions.html"
+      },
+      "section": "sports",
+      "priority": 120
     }
   ],
   "updates": [
@@ -690,6 +690,6 @@
     }
   ],
   "created_at": "2026-10-14T05:49:07.061412+00:00",
-  "updated_at": "2026-10-14T05:49:07.061412+00:00",
-  "input_sha256": "a578a9638fed0b9eb7b25141384aa512ea51873b1f4ebfca80dac9f01abcc97d"
+  "updated_at": "2026-10-14T09:44:13.088707+00:00",
+  "input_sha256": "9b14b697227c9c759dba7053df15209fe4e72e9a2af6174267a2adc316d6fd51"
 }

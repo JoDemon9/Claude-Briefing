@@ -34,13 +34,51 @@ class UIContentTests(unittest.TestCase):
                 with self.subTest(article=article['id'],hero=hero):
                     doc=BeautifulSoup(build.card(edition,article,hero),'html.parser')
                     self.assertEqual(doc.select_one('.abstract').get_text(),article['summary'])
-                    self.assertFalse(doc.select_one('.card-analysis').has_attr('open'))
+                    if hero:
+                        self.assertEqual(doc.select_one('.lead-analysis').name,'section')
+                        self.assertFalse(doc.select('.lead-analysis summary'))
+                    else:
+                        self.assertFalse(doc.select_one('.card-analysis').has_attr('open'))
                     self.assertEqual([p.get_text() for p in doc.select('.card-context>p')],article['newspaper_analysis'])
                     im=article['image']
                     self.assertIn(im['caption'],doc.select_one('.photo-details').get_text())
                     self.assertIn(im['attribution'],doc.select_one('.photo-details').get_text())
                     self.assertTrue(doc.select_one('.photo-details').find('a',href=im['license_url']))
                     self.assertTrue(doc.find('a',href='../'+article['url']))
+
+    def test_shared_overview_changes_and_sports_keep_all_editorial_text(self):
+        edition=json.loads((ROOT/'content/editions/2026-10-14-morning.json').read_text())
+        original=copy.deepcopy(edition)
+        ui=build.load_module('newspaper_ui')
+        summary=BeautifulSoup(ui.summary(build,edition['summary_60s'],'Η έκδοση σε 60 δευτερόλεπτα'),'html.parser')
+        self.assertEqual(len(summary.select('.summary-point')),len(edition['summary_60s']))
+        for paragraph,item in zip(edition['summary_60s'],summary.select('.summary-point')):
+            # Decorative icons do not replace a word of the reviewed overview.
+            for marker in item.select('[aria-hidden]'):marker.decompose()
+            self.assertEqual(' '.join(item.get_text(' ',strip=True).split()),' '.join(paragraph.split()))
+        changes=BeautifulSoup(ui.changes(build,edition['changes']),'html.parser')
+        self.assertEqual([p.get_text() for p in changes.select('.edition-change p')],[c['text'] for c in edition['changes']])
+        sports=BeautifulSoup(build.sports(edition),'html.parser')
+        for key,team in edition['sports']['coverage'].items():
+            card=sports.select_one('.team-'+key)
+            self.assertEqual(card.select_one('.teamicon')['aria-hidden'],'true')
+            self.assertIn(team['summary'],card.get_text())
+            self.assertIn(build.stamp(team['updated_at']),card.get_text())
+        self.assertEqual(edition,original)
+
+    def test_published_day_and_snapshot_use_explicit_editorial_lead_without_duplicates(self):
+        edition=json.loads((ROOT/'content/editions/2026-10-14-morning.json').read_text())
+        articles=[json.loads((ROOT/'content'/path).read_text()) for path in edition['articles']]
+        lead=next(a for a in articles if a['story_id']==edition['daily']['lead_story_id'])
+        day=BeautifulSoup((ROOT/'docs/daily/2026-10-14.html').read_text(),'html.parser')
+        independent=BeautifulSoup((ROOT/'docs'/edition['url']).read_text(),'html.parser')
+        for doc in [day,independent]:
+            self.assertEqual(doc.select_one('.hero h2').get_text(),lead['headline'])
+            self.assertEqual(len(doc.select('.hero,.newscard')),len(articles))
+            self.assertFalse(doc.select('.lead-analysis summary'))
+            self.assertTrue(doc.select_one('.hub-home'))
+        self.assertFalse(day.select('.edition-desk [aria-current]'))
+        self.assertEqual(len(independent.select('.edition-desk [aria-current]')),1)
 
     def test_panels_preserve_editorial_paragraphs_sources_and_reference_times(self):
         records=json.loads((ROOT/'docs/data/editions.json').read_text())

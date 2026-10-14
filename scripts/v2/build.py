@@ -209,7 +209,8 @@ def fixture(record):
 def sports(e, articles=()):
     out = ['<section class="section" id="sports"><div class="sectionhead"><h2>'+emblem('sports')+'Αθλητικός παλμός.</h2><span>Η εικόνα κατά τη δημοσίευση</span></div><div class="sports">']
     for key, t in e['sports']['coverage'].items():
-        out.append(f'<article class="sport"><div class="teamicon">{esc(t["symbol"])}</div><h3>{TEAMS[key]}</h3><p>{esc(t["summary"])}</p><p class="muted">Ενημέρωση: {stamp(t["updated_at"])}</p><details><summary>Περισσότερα · {TEAMS[key]}</summary>')
+        symbol={'omonoia':'☘️','manutd':'👹','realmadrid':'👑','formula1':'🏎️'}[key]
+        out.append(f'<article class="sport team-{key}"><div class="teamicon" aria-hidden="true">{symbol}</div><h3>{TEAMS[key]}</h3><p>{esc(t["summary"])}</p><p class="muted">Ενημέρωση: {stamp(t["updated_at"])}</p><details><summary>Περισσότερα · {TEAMS[key]}</summary>')
         if key == 'formula1':
             s = t.get('latest_session')
             out.append('<h4>Τελευταία ολοκληρωμένη περίοδος</h4>')
@@ -279,11 +280,12 @@ def card(e, a, hero=False):
             context+=f'<div class="card-context"><b>Συντακτική ανάλυση · {esc(analysis["heading"])}</b><p>{esc(analysis["paragraphs"][0])}</p></div>'
     more='' if a.get('newspaper_analysis') else '<details class="story-more"><summary>Περισσότερα μέσα στην έκδοση</summary>'+blocks(a,shown)+'</details>'
     if context:
-        context='<details class="card-analysis'+(' lead-analysis' if hero else '')+'"><summary>'+icon('book')+'Η ουσία · ½–1 λεπτό</summary>'+context+'</details>'
+        context=('<section class="lead-analysis"><h3>'+icon('book')+'Γιατί έχει σημασία <span>½–1 λεπτό</span></h3>'+context+'</section>') if hero else '<details class="card-analysis"><summary>'+icon('book')+'Η ουσία · ½–1 λεπτό</summary>'+context+'</details>'
     sources=source_disclosure(a['sources'], 'Πηγές και στοιχεία', '<p class="muted">'+sources_label(a['sources'])+'</p>')
     reader=f'<a class="read-link" href="../{article_url(e,a)}">{icon("book")} Πλήρης ανάλυση <span class="reading-time">{math.ceil(words(a)/220)}′</span>{icon("arrow")}</a>'
     copy=abstract+context+more+'<div class="story-actions">'+reader+'</div>'+sources
-    heading=f'<div class="eyebrow">'+(emblem('lead') if hero else '')+f'{esc(a["category"])}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}>'
+    label='Πρώτο θέμα' if hero else 'Κύπρος' if a['category']=='Πρώτο θέμα' else a['category']
+    heading=f'<div class="eyebrow">'+(emblem('lead') if hero else '')+f'{esc(label)}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}>'
     overview='<div class="lead-overview"><div class="lead-copy">'+heading+copy+'</div>'+image(a,'../')+'</div>' if hero else heading+copy
     return f'<article class="{cl}" id="{esc(a["id"])}">'+('' if hero else image(a,'../'))+'<div class="story-content">'+overview+'</div></article>'
 
@@ -371,17 +373,18 @@ def _render(root=ROOT):
         body += edition_desk(e,registry)+f'<div class="introbar"><b>{TYPES[e["type"]]} έκδοση{slot} · {e["date"]}</b><span>Δημοσίευση: {date}</span></div>'
         if e.get('analysis_revision_at'):
             body += '<p class="revision-note">'+icon('photo')+' Εμπλουτισμός εικόνων και ανάλυσης: '+stamp(e['analysis_revision_at'])+' · Οι αρχικοί χρόνοι ειδήσεων και τιμών διατηρούνται.</p>'
-        if aa and aa[0]['category'] == 'Πρώτο θέμα':
-            selected=[a for a in aa[1:] if a['category'] in ['Κύπρος','Διεθνή']][:5]
+        requested_lead=e.get('daily',{}).get('lead_story_id')
+        lead=next((a for a in aa if a['story_id']==requested_lead),None) if requested_lead else aa[0] if aa and aa[0]['category']=='Πρώτο θέμα' else None
+        ordered=sorted(aa,key=lambda a:a.get('daily',{}).get('priority',1000+aa.index(a)))
+        if lead:
+            selected=[a for a in ordered if a!=lead and a['category'] in ['Πρώτο θέμα','Κύπρος','Διεθνή']][:5]
             picks=''.join(f'<div class="brief-line"><b>{i+1:02}</b><p><a href="#{a["id"]}">{esc(a["headline"])}</a></p></div>' for i,a in enumerate(selected))
-            body += '<div class="hero-grid">'+card(e,aa[0],True)+'<aside class="hero-side"><div class="brief-panel"><div class="heading">Η επιλογή της έκδοσης</div><h3>Όσα αξίζουν<br><em>την προσοχή σου.</em></h3>'+picks+'</div></aside></div>'
+            body += '<div class="hero-grid">'+card(e,lead,True)+'<aside class="hero-side"><div class="brief-panel"><div class="heading">Η επιλογή της έκδοσης</div><h3>Όσα αξίζουν<br><em>την προσοχή σου.</em></h3>'+picks+'</div></aside></div>'
         if e.get('summary_60s'):
-            body += '<details class="story-more" id="summary"><summary>Η έκδοση σε 60 δευτερόλεπτα</summary><div>'+''.join('<p>'+esc(p)+'</p>' for p in e['summary_60s'])+'</div></details>'
+            body += load_module('newspaper_ui').summary(SimpleNamespace(**globals()),e['summary_60s'],'Η έκδοση σε 60 δευτερόλεπτα')
         for category, anchor in [('Κύπρος','cyprus'),('Διεθνή','world')]:
-            body += f'<section class="section" id="{anchor}"><div class="sectionhead"><h2>'+emblem(anchor)+f'{category}.</h2></div><div class="g3">'+''.join(card(e,a) for a in aa if a['category']==category)+'</div></section>'
-        body += '<section class="verdict"><h2>Τι άλλαξε από την προηγούμενη έκδοση</h2><div>'
-        body += ''.join(f'<p><b>{esc(c["kind"])}:</b> {esc(c["text"])}</p>' for c in e['changes']) or '<p>Δεν έχει καταγραφεί ουσιαστική αλλαγή.</p>'
-        body += '</div></section>'
+            body += f'<section class="section" id="{anchor}"><div class="sectionhead"><h2>'+emblem(anchor)+f'{category}.</h2></div><div class="g3">'+''.join(card(e,a) for a in ordered if a!=lead and (a['category']==category or category=='Κύπρος' and a['category']=='Πρώτο θέμα'))+'</div></section>'
+        body += load_module('newspaper_ui').changes(SimpleNamespace(**globals()),e['changes'])
         if not e.get('calculator'):
             body = body.replace('<a href="#rates">Δόση</a>', '<a href="#watch">Στη συνέχεια</a>' if any(p['id']=='watch' for p in e.get('panels',[])) else '')
         body += sports(e,aa)+markets(e)+calculator(e)+edition_panels(e)
@@ -424,7 +427,7 @@ def _render(root=ROOT):
     write(ROOT/'docs/data/reader-routes.json',json.dumps(route_registry,ensure_ascii=False,indent=2)+'\n')
     for name in ['newspaper','article','newspaper-ui']:
         write(ROOT/'docs/assets'/(name+'.css'),(ROOT/'templates/v2'/(name+'.css')).read_text(encoding='utf-8'))
-    archive=head('Αρχείο εκδόσεων','index.html','newspaper')+f'<header class="masthead wrap"><div class="brand"><h1>THE ORACLE <em>SOVEREIGN.</em></h1><p>Αρχείο δημοσιευμένων εκδόσεων</p></div></header><main class="wrap" id="main"><div class="tools"><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button><a href="search.html">Αναζήτηση άρθρων</a><a href="https://jodemon9.github.io/oracle-briefing/">Κεντρική πύλη ↗</a></div>'
+    archive=head('Αρχείο εκδόσεων','index.html','newspaper')+f'<header class="masthead wrap"><div class="brand"><h1>THE ORACLE <em>SOVEREIGN.</em></h1><p>Αρχείο δημοσιευμένων εκδόσεων</p></div></header><main class="wrap" id="main"><div class="tools"><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button><a href="search.html">Αναζήτηση άρθρων</a><a href="https://jodemon9.github.io/oracle-briefing/">🗞️ Κύρια εφημερίδα ημέρας ↗</a><a href="daily/index.html">Αρχείο ημερών</a></div>'
     current_id=registry[0]['id'] if registry else None
     for edition_type, label in TYPES.items():
         archive+=f'<section class="section" id="{edition_type}"><div class="sectionhead"><h2>{label}.</h2></div><div class="g3">'

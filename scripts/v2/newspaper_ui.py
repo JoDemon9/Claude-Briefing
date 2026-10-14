@@ -4,6 +4,24 @@ from bs4 import BeautifulSoup
 
 MONTHS=('Ιανουαρίου','Φεβρουαρίου','Μαρτίου','Απριλίου','Μαΐου','Ιουνίου','Ιουλίου','Αυγούστου','Σεπτεμβρίου','Οκτωβρίου','Νοεμβρίου','Δεκεμβρίου')
 DAYS=('Δευτέρα','Τρίτη','Τετάρτη','Πέμπτη','Παρασκευή','Σάββατο','Κυριακή')
+HUB='https://jodemon9.github.io/oracle-briefing/'
+
+def summary(b, paragraphs, label):
+    topics={'Πρώτο θέμα':('📰','lead'),'Επίδομα τέκνου':('👨‍👩‍👧','family'),'Κύπρος':('🇨🇾','cyprus'),'Διεθνή':('🌍','world'),'Αγορές':('📈','markets'),'Αθλητισμός':('🏆','sports'),'Λεμεσός':('🌤️','weather')}
+    items=[]
+    for index,paragraph in enumerate(paragraphs):
+        topic,separator,text=paragraph.partition(':')
+        known=separator and topic in topics
+        emoji,kind=topics[topic] if known else ('📰','news')
+        heading=b.esc(topic)+':' if known else f'{index+1:02}'
+        body=b.esc(text.lstrip() if known else paragraph)
+        items.append('<li class="summary-point summary-'+kind+'"><div class="summary-topic"><span aria-hidden="true">'+emoji+'</span><b>'+heading+'</b></div><p>'+body+'</p></li>')
+    return '<details class="day-summary" id="summary"><summary>'+b.emblem('summary')+'<span class="summary-heading">'+b.esc(label)+'<small>'+str(len(paragraphs))+' σημεία · Η γρήγορη ματιά σου</small></span></summary><ol class="summary-points">'+''.join(items)+'</ol></details>'
+
+def changes(b, records):
+    markers={'Πλαίσιο':'🧭','Προσθήκη':'＋','Εξέλιξη':'↗','Διόρθωση':'✎'}
+    items=''.join('<li class="edition-change"><span class="change-kind"><span aria-hidden="true">'+markers.get(c['kind'],'•')+'</span> '+b.esc(c['kind'])+'</span><p>'+b.esc(c['text'])+'</p></li>' for c in records)
+    return '<section class="edition-changes" id="edition-changes"><div class="sectionhead"><h2>'+b.emblem('changes')+'Τι άλλαξε</h2><span>Από την προηγούμενη έκδοση</span></div>'+('<ul class="edition-change-list">'+items+'</ul>' if items else '<p>Δεν έχει καταγραφεί ουσιαστική αλλαγή.</p>')+'</section>'
 
 def date_label(value):
     day=date.fromisoformat(value)
@@ -13,6 +31,22 @@ def decorate(b, text, edition, day=None):
     doc=BeautifulSoup(text,'html.parser')
     main=doc.select_one('main.wrap')
     if not main:return text
+    if not doc.select_one('.hub-guide'):
+        guide=doc.new_tag('section',attrs={'class':'hub-guide','aria-label':'Κύρια εφημερίδα και αρχείο'})
+        identity=doc.new_tag('div',attrs={'class':'hub-identity'})
+        title=doc.new_tag('strong');title.string='🗞️ Η κύρια εφημερίδα ημέρας' if day else '☀️ Πρωινό στιγμιότυπο' if edition['type']=='morning' else '🕑 Μεσημεριανό στιγμιότυπο' if edition['type']=='midday' else '🌙 Βραδινό στιγμιότυπο'
+        identity.append(title)
+        note=doc.new_tag('p');note.string='Τα κύρια νέα σε μία σελίδα · Πρωί, μεσημέρι και βράδυ όταν δημοσιευτούν.' if day else 'Δες τη συνολική εικόνα και τις εκδόσεις της ημέρας στην κύρια εφημερίδα.'
+        identity.append(note);guide.append(identity)
+        links=doc.new_tag('nav',attrs={'class':'hub-links','aria-label':'Εφημερίδα ημέρας'})
+        home=doc.new_tag('a',href=HUB,attrs={'class':'hub-home'});home.string='Κύρια εφημερίδα ↗';links.append(home)
+        archive=doc.new_tag('a',href='../daily/index.html');archive.string='Αρχείο ημερών';links.append(archive)
+        guide.append(links);main.insert(0,guide)
+        brand=doc.select_one('.masthead .brand h1')
+        if brand:
+            anchor=doc.new_tag('a',href=HUB,attrs={'aria-label':'The Oracle Sovereign · Κύρια εφημερίδα ημέρας'})
+            for child in list(brand.contents):anchor.append(child.extract())
+            brand.append(anchor)
     nav=doc.select_one('.navs')
     if nav and not doc.select_one('.section-menu'):
         # One complete native menu replaces the horizontally clipped mobile links.
@@ -58,7 +92,10 @@ def decorate(b, text, edition, day=None):
         if not day and edition.get('scheduled_slot'):
             slot=doc.new_tag('span',attrs={'class':'scheduled-slot'});slot.string='Προγραμματισμός: '+edition['scheduled_slot'];intro.append(slot)
         bar.append(intro.extract());bar.append(desk.extract())
+        if day:
+            caption=doc.new_tag('span',attrs={'class':'participating-caption'});caption.string='Συμμετέχουν στην ημέρα:';desk.insert(0,caption)
         for node in desk.find_all('span',recursive=False):
+            if 'participating-caption' in node.get('class',[]):continue
             original=node.get('aria-label') or node.get('title') or node.get_text(' ',strip=True)
             node['title']=original;node['aria-label']=original
             slot=node.get_text(' ',strip=True).partition(' · ')[0]

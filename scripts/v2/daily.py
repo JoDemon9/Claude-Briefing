@@ -147,6 +147,10 @@ def render(b, model, bundles):
         node = doc.article
         node['id'] = 'story-' + digest(story['story_id'])[:12]
         node['data-story-id'] = story['story_id']
+        eyebrow=node.select_one('.eyebrow')
+        eyebrow.clear()
+        if hero:eyebrow.append(BeautifulSoup(b.emblem('lead'),'html.parser'))
+        eyebrow.append('Πρώτο θέμα' if hero else {'cyprus':'Κύπρος','world':'Διεθνή','sports':'Αθλητικά'}[story['section']])
         events = [x for x in model['updates'] if x['story_id'] == story['story_id'] and x['origin']['edition_id'] == e['id']]
         kinds = {x['kind'] for x in events}
         label = 'Συντακτική διόρθωση' if 'correction' in kinds else 'Ενημερώθηκε' if 'substantive_update' in kinds else 'Νέο' if 'new' in kinds else 'Από το πρωινό' if e['type'] == 'morning' else 'Από τη ' + b.TYPES[e['type']].lower()
@@ -165,8 +169,8 @@ def render(b, model, bundles):
             more.decompose()
         if hero and node.select_one('.card-context') and not node.select_one('.lead-analysis'):
             context = node.select_one('.card-context')
-            details = doc.new_tag('details', attrs={'class': 'lead-analysis'})
-            summary = doc.new_tag('summary'); summary.string = 'Η ουσία · ½–1 λεπτό'
+            details = doc.new_tag('section', attrs={'class': 'lead-analysis'})
+            summary = doc.new_tag('h3'); summary.string = 'Γιατί έχει σημασία · ½–1 λεπτό'
             context.replace_with(details); details.append(summary); details.append(context)
             duplicate_label=context.find('b',recursive=False)
             if duplicate_label:duplicate_label.decompose()
@@ -193,7 +197,7 @@ def render(b, model, bundles):
     if model['missing_slots']:
         html += '<p class="revision-note">Μερική ημέρα: περιλαμβάνονται μόνο οι διαθέσιμες δημοσιευμένες εκδόσεις.</p>'
     overview = latest.get('daily', {}).get('summary_60s') or latest.get('summary_60s') or [selected(s)[1]['summary'] for s in model['stories'][:3]]
-    html += '<details class="day-summary" id="summary"><summary>' + b.emblem('summary') + 'Η ημέρα σε 60 δευτερόλεπτα</summary><ol class="summary-points">' + ''.join('<li>' + b.esc(p) + '</li>' for p in overview) + '</ol></details>'
+    html += b.load_module('newspaper_ui').summary(b,overview,'Η ημέρα σε 60 δευτερόλεπτα')
     lead = next(s for s in model['stories'] if s['story_id'] == model['lead_story_id'])
     html += '<div class="day-lead">' + card(lead, True) + '</div>'
     html += '<section class="section day-changes" id="changes"><div class="sectionhead"><h2>'+b.emblem('changes')+'Τι άλλαξε.</h2></div>'
@@ -234,7 +238,7 @@ def render(b, model, bundles):
             panels['watch' if panel['id'] in ('watch','risk-radar') else panel['id']] = panel
     market_edition = dict(latest, markets=list(quotes.values()), panels=list(panels.values()))
     html += b.markets(market_edition) + b.calculator(latest) + b.edition_panels(market_edition)
-    html += '<footer class="day-footer"><span>THE ORACLE SOVEREIGN · '+model['date']+'</span><a href="../daily/index.html">'+b.icon('archive')+'Αρχείο ημερών</a><details class="edition-about"><summary>Σχετικά με την έκδοση</summary><p>Δημιουργία ημερήσιου αρχείου: ' + b.stamp(model['created_at']) + ' · ' + model['timezone'] + '. Οι ώρες πηγών και τιμών διατηρούνται. Κάθε reader ανήκει στη συγκεκριμένη έκδοση.</p></details></footer></main></body></html>'
+    html += '<footer class="day-footer"><span>THE ORACLE SOVEREIGN · '+model['date']+'</span><a href="../'+model['url']+'">'+b.icon('book')+'Μόνιμο αρχείο αυτής της ημέρας</a><a href="../daily/index.html">'+b.icon('archive')+'Αρχείο ημερών</a><details class="edition-about"><summary>Τι αποθηκεύεται εδώ;</summary><p>Η εφημερίδα ημέρας συγκεντρώνει τα κύρια νέα των δημοσιευμένων πρωινών, μεσημεριανών και βραδινών εκδόσεων, χωρίς διπλές ιστορίες. Ανανεώνεται στην ίδια διεύθυνση και διατηρείται στο αρχείο ανά ημερομηνία. Τα τρία briefings και οι αναλυτικοί readers παραμένουν στα δικά τους URLs.</p><p>Δημιουργία ημερήσιου αρχείου: ' + b.stamp(model['created_at']) + ' · ' + model['timezone'] + '. Οι ώρες πηγών και τιμών διατηρούνται. Κάθε reader ανήκει στη συγκεκριμένη έκδοση.</p></details></footer></main></body></html>'
     return b.load_module('newspaper_ui').decorate(b,html,latest,model)
 
 def publish(b, latest_module, bundles):
