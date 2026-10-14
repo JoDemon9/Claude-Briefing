@@ -87,7 +87,8 @@ class LatestTests(unittest.TestCase):
         doc=BeautifulSoup((ROOT/'docs/latest.html').read_text(encoding='utf-8'),'html.parser')
         self.assertEqual(doc.select_one('.navs a[href="#cyprus"]')['href'],'#cyprus')
         self.assertTrue(doc.select_one('link[rel="stylesheet"]')['href'].startswith(latest.BASE+'assets/'))
-        self.assertTrue(doc.select_one('.read-link')['href'].startswith(latest.BASE))
+        self.assertTrue(doc.select_one('.read-link:not(.original-report)')['href'].startswith(latest.BASE))
+        self.assertTrue(doc.select_one('.original-report')['href'].startswith('https://'))
         self.assertTrue(doc.find('meta',attrs={'name':'oracle-edition-id'}))
 
 if __name__=='__main__':unittest.main()

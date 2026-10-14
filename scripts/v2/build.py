@@ -116,20 +116,26 @@ def validate(e, articles):
     ids = {a['id'] for a in articles}
     policy_start=datetime.fromisoformat('2026-10-13T15:40:17+03:00')
     new_publication=e['status']=='published' and e.get('published_at') and datetime.fromisoformat(e['published_at'])>=policy_start
-    strict=e.get('reading_review',{}).get('version')==1
+    review=e.get('reading_review',{}).get('version')
+    strict=review in (1,2)
     if new_publication and (not strict or e.get('image_review',{}).get('version')!=2):
-        raise ValueError('New publications require image_review.version=2 and reading_review.version=1')
+        raise ValueError('New publications require image_review.version=2 and reading_review.version=1 or 2')
+    if e['status']=='published' and e.get('published_at') and datetime.fromisoformat(e['published_at'])>=datetime.fromisoformat('2026-10-15T00:00:00+03:00') and review!=2:
+        raise ValueError('New publications require reading_review.version=2 (DEC-005)')
     if strict:
         if e.get('image_review',{}).get('version')!=2:
             raise ValueError('Full reading review requires mandatory photographs')
         for a in articles:
             if not a.get('image'):
                 raise ValueError('Every article requires a licensed photograph: '+a['id'])
-            count=len(' '.join(a.get('newspaper_analysis',[])).split())
-            if not 110<=count<=220:
-                raise ValueError('Newspaper analysis must contain 110–220 useful words: '+a['id'])
-            if words(a)<450:
-                raise ValueError('Full reader requires at least 450 useful words: '+a['id'])
+            if review==2:
+                load_module('editorial').validate_reading(a)
+            else:
+                count=len(' '.join(a.get('newspaper_analysis',[])).split())
+                if not 110<=count<=220:
+                    raise ValueError('Newspaper analysis must contain 110–220 useful words: '+a['id'])
+                if words(a)<450:
+                    raise ValueError('Full reader requires at least 450 useful words: '+a['id'])
     if e.get('image_review'):
         if not any(a.get('image') for a in articles):
             raise ValueError('Reviewed edition contains no images; finish image research before publishing')
@@ -163,9 +169,9 @@ def validate(e, articles):
             raise ValueError('Historical article belongs to another edition')
         if a['url'] != article_url(e,a):
             raise ValueError('Article URL must be stable and dated')
-        if not a['sections'] or not any(s['kind'] == 'analysis' for s in a['sections']):
+        if not a['sections'] or (review!=2 and not any(s['kind'] == 'analysis' for s in a['sections'])):
             raise ValueError('Separate original analysis required')
-        if all(p.strip() in a['summary'] for s in a['sections'] for p in s['paragraphs']):
+        if not (review==2 and a.get('reader_mode')=='source') and all(p.strip() in a['summary'] for s in a['sections'] for p in s['paragraphs']):
             raise ValueError('Article repeats the summary')
         if any(s['access'] == 'inaccessible' and s.get('used_for_claims') for s in a['sources']):
             raise ValueError('Inaccessible material cannot substantiate claims')
@@ -266,23 +272,30 @@ def calculator(e):
 
 def card(e, a, hero=False):
     cl = 'hero' if hero else 'newscard'
-    abstract=f'<div class="abstract"><p>{esc(a["summary"])}</p></div>'
+    layered=e.get('reading_review',{}).get('version')==2
+    abstract=('<p class="reading-layer">Η είδηση · 30 δευτερόλεπτα</p>' if layered else '')+f'<div class="abstract"><p>{esc(a["summary"])}</p></div>'
     shown=[]
     context=''
     if a.get('newspaper_analysis'):
         context='<div class="card-context">'+''.join('<p>'+esc(p)+'</p>' for p in a['newspaper_analysis'])+'</div>'
-    elif not hero:
+    elif not hero and not layered:
         reported=[p for s in a['sections'] if s['kind']=='reported' for p in s['paragraphs'] if not p.strip().startswith(a['summary'].strip())][:2]
         analysis=next((s for s in a['sections'] if s['kind']=='analysis'),None)
         shown=reported+(analysis['paragraphs'][:1] if analysis else [])
         context=''.join(f'<p>{esc(p)}</p>' for p in reported)
         if analysis:
             context+=f'<div class="card-context"><b>Συντακτική ανάλυση · {esc(analysis["heading"])}</b><p>{esc(analysis["paragraphs"][0])}</p></div>'
-    more='' if a.get('newspaper_analysis') else '<details class="story-more"><summary>Περισσότερα μέσα στην έκδοση</summary>'+blocks(a,shown)+'</details>'
+    more='' if a.get('newspaper_analysis') or layered else '<details class="story-more"><summary>Περισσότερα μέσα στην έκδοση</summary>'+blocks(a,shown)+'</details>'
     if context:
-        context=('<section class="lead-analysis"><h3>'+icon('book')+'Γιατί έχει σημασία <span>½–1 λεπτό</span></h3>'+context+'</section>') if hero else '<details class="card-analysis"><summary>'+icon('book')+'Η ουσία · ½–1 λεπτό</summary>'+context+'</details>'
+        if layered:
+            context='<details class="card-analysis'+(' lead-analysis' if hero else '')+'"><summary>'+icon('book')+'Τι σημαίνει · ανάλυση</summary>'+context+'</details>'
+        else:
+            context=('<section class="lead-analysis"><h3>'+icon('book')+'Γιατί έχει σημασία <span>½–1 λεπτό</span></h3>'+context+'</section>') if hero else '<details class="card-analysis"><summary>'+icon('book')+'Η ουσία · ½–1 λεπτό</summary>'+context+'</details>'
     sources=source_disclosure(a['sources'], 'Πηγές και στοιχεία', '<p class="muted">'+sources_label(a['sources'])+'</p>')
     reader=f'<a class="read-link" href="../{article_url(e,a)}">{icon("book")} Πλήρης ανάλυση <span class="reading-time">{math.ceil(words(a)/220)}′</span>{icon("arrow")}</a>'
+    if layered and a.get('reader_mode')=='source':
+        source=next(s for s in a['sources'] if s.get('access')=='read' and s.get('used_for_claims'))
+        reader='<a class="read-link original-report" href="'+esc(source['url'])+'" rel="noopener noreferrer">'+icon('book')+'Πλήρες ρεπορτάζ · '+esc(source['publisher'])+' ↗</a>'
     copy=abstract+context+more+'<div class="story-actions">'+reader+'</div>'+sources
     label='Πρώτο θέμα' if hero else 'Κύπρος' if a['category']=='Πρώτο θέμα' else a['category']
     heading=f'<div class="eyebrow">'+(emblem('lead') if hero else '')+f'{esc(label)}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}>'
@@ -402,6 +415,9 @@ def _render(root=ROOT):
             related=''.join(f'<a href="{esc(b["id"])}.html">{esc(b["headline"])}</a>' for b in aa if b['id']!=a['id'] and (b['story_id'] in a.get('related_story_ids',[]) or b['category']==a['category']))
             p=head(a['headline'],url,'article','../../')
             p+=f'<header class="top"><div class="shell"><a class="logo" href="../../{e["url"]}">THE ORACLE SOVEREIGN.</a><nav class="navlinks"><a href="../../{e["url"]}">← Εφημερίδα</a><a href="../../search.html">{icon('search')} Αναζήτηση</a><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button></nav></div></header><main class="shell" id="main" data-article-key="{e["id"]}/{a["id"]}"><div class="kicker">{esc(a["category"])} · {TYPES[e["type"]]} έκδοση</div><h1>{esc(a["headline"])}</h1><div class="eyebrow">Συνοπτική καταγραφή της έκδοσης</div><p class="lede">{esc(a["summary"])}</p><div class="meta"><span>Δημοσίευση: {stamp(a["published_at"])}</span><span>Ενημέρωση: {stamp(a["updated_at"])}</span><span>{math.ceil(words(a)/220)} λεπτά ανάγνωσης · {words(a)} λέξεις</span><span>{sources_label(a["sources"])}</span></div>'+image(a,'../../')
+            if e.get('reading_review',{}).get('version')==2 and a.get('reader_mode')=='source':
+                source=next(s for s in a['sources'] if s.get('access')=='read' and s.get('used_for_claims'))
+                p+='<p><a class="read-link original-report" href="'+esc(source['url'])+'" rel="noopener noreferrer">'+icon('book')+'Πλήρες δημοσίευμα · '+esc(source['publisher'])+' ↗</a></p>'
             if e.get('published_at'):
                 p+=f'<a class="read-link" href="../../daily/{e["date"]}.html">← Εφημερίδα της ημέρας · {e["date"]}</a>'
             p+='<div class="actions"><button data-font-step="-1" aria-label="Μικρότερο μέγεθος κειμένου">A−</button><button data-font-step="1" aria-label="Μεγαλύτερο μέγεθος κειμένου">A+</button><button data-bookmark aria-pressed="false">Αποθήκευση άρθρου</button><button data-resume hidden>Συνέχεια ανάγνωσης</button><span data-storage-status role="status"></span></div><progress id="reading-progress" max="100" value="0" aria-label="Πρόοδος ανάγνωσης"></progress>'

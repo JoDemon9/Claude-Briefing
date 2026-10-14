@@ -6,6 +6,8 @@ This is the canonical record of user needs that future changes must respect. Rea
 
 | ID | User need | Current status | Record |
 | --- | --- | --- | --- |
+| DEC-004 | The daily overview must include important selected stories from the whole available day. | Implemented under the 15 October request. | [Whole-day overview](decisions/DEC-004-whole-day-overview.md) |
+| DEC-005 | 30-second findings, useful expansion and further reading only when it adds knowledge; no forced counterarguments. | Implemented under the 15 October request. | [Reading value](decisions/DEC-005-reading-value.md) |
 | DEC-001 | Remember what was fixed and why, so unrelated work does not accidentally reverse it. | Accepted; repository documentation implemented. | [Decision history](decisions/DEC-001-decision-history.md) |
 | DEC-002 | Source links take too much mobile space and make scrolling harder. | Requested; market implementation validated locally; publication pending. | [Compact market evidence](decisions/DEC-002-compact-market-evidence.md) |
 | DEC-003 | Markets should return intelligence beyond numbers already available on TradingView. | Requested; market implementation validated locally; publication pending. | [Market interpretation](decisions/DEC-003-market-interpretation.md) |
@@ -27,7 +29,7 @@ New user instructions take precedence over older records. This process does not 
 These are existing documented rules, not reconstructed statements from unseen conversations. Their authority remains [AGENTS.md](AGENTS.md), [OPERATIONS.md](OPERATIONS.md), [BRIEFING_SPEC.md](BRIEFING_SPEC.md) and [CHATGPT_TASK_INSTRUCTIONS.md](CHATGPT_TASK_INSTRUCTIONS.md).
 
 - Keep the central daily newspaper, independent edition snapshots and dated readers distinct; preserve historical URLs and original publication times.
-- Preserve the full factual summaries, always-visible lead analysis, optional secondary-card analysis and separate full readers. The current reviewed word-count and image requirements remain active.
+- Preserve full factual summaries and historical readers. DEC-005 intentionally supersedes the earlier always-visible lead, preview/reader minimum lengths and universal counterargument checklist. The current layered reading policy and licensed-image requirements remain active.
 - Keep licensed, relevant photographs and complete credits, with honest archive captions and readable failure states.
 - Preserve source chains, unknown data, quote/source times and the distinction between reporting, editorial interpretation and verified events.
 - Preserve mobile navigation, the 3/2/1 article grid, themes, search, bookmarks and reading controls.

@@ -1,6 +1,8 @@
 # Newspaper review — 14 October 2026
 
-Status: recommendations only. These are not approved layout/content changes and must not silently replace accepted decisions. The market redesign is separately recorded as a staged implementation in [DEC-002](decisions/DEC-002-compact-market-evidence.md) and [DEC-003](decisions/DEC-003-market-interpretation.md).
+Update 15 October: recommendations 1 and 2 were requested by the user and implemented under DEC-004/DEC-005; see EDITORIAL_POLICY.md and the decision records. The reading-depth and lead-view rules described below are the historical audit baseline, intentionally superseded by DEC-005. Recommendations 3–6 remain proposals.
+
+Original review status: recommendations only. These are not approved layout/content changes and must not silently replace accepted decisions. The market redesign is separately recorded as a staged implementation in [DEC-002](decisions/DEC-002-compact-market-evidence.md) and [DEC-003](decisions/DEC-003-market-interpretation.md).
 
 ## Basis of the review
 

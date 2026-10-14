@@ -1227,9 +1227,92 @@
         "source_story_id": "cyprus-orange-warning-october-14-2026",
         "url": "articles/2026-10-14-evening/lead.html"
       }
+    },
+    {
+      "id": "16945a07d0a710fdd52e46d8ab5f6b66bbaadcb976068a5e4ee97a5b24905a31",
+      "story_id": null,
+      "kind": "enrichment",
+      "at": "2026-10-15T00:24:16+03:00",
+      "summary": "Εμπλουτισμός ανάλυσης.",
+      "source_urls": [],
+      "origin": {
+        "edition_id": "2026-10-14-midday",
+        "url": "midday/2026-10-14.html"
+      }
+    },
+    {
+      "id": "4cfa94fc8cd3df7fd305e4b0a8554e1c095b6ee819e451f465693243e34238e5",
+      "story_id": null,
+      "kind": "enrichment",
+      "at": "2026-10-15T00:24:16+03:00",
+      "summary": "Εμπλουτισμός ανάλυσης.",
+      "source_urls": [],
+      "origin": {
+        "edition_id": "2026-10-14-evening",
+        "url": "evening/2026-10-14.html"
+      }
+    },
+    {
+      "id": "eb604250a0e40708ac290112a3c18a8f13d79520ddd20d0fec877bc789653552",
+      "story_id": null,
+      "kind": "enrichment",
+      "at": "2026-10-15T00:24:16+03:00",
+      "summary": "Εμπλουτισμός ανάλυσης.",
+      "source_urls": [],
+      "origin": {
+        "edition_id": "2026-10-14-morning",
+        "url": "morning/2026-10-14.html"
+      }
     }
   ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Κακοκαιρία: από την επίσπευση της προειδοποίησης στα περιστατικά· κλειστός δρόμος Πέγειας–Λάρας, εγκλωβισμένοι στον Άβακα και βλάβες ρεύματος. Η προειδοποίηση λήγει 15/10 στις 05:00· οι αποκαταστάσεις χρειάζονται χωριστή επιβεβαίωση.",
+        "story_ids": [
+          "cyprus-orange-warning-october-14-2026"
+        ]
+      },
+      {
+        "text": "Ασφάλεια και ενέργεια: παραμένει σημαντική η πρωινή αναφορά για έντεκα αγνοουμένους στη Μαύρη Θάλασσα. Στην Aramco προστέθηκε επίσημη δήλωση για περιορισμένη φωτιά, όχι μέτρηση απώλειας παραγωγής.",
+        "story_ids": [
+          "black-sea-bulgaria-shipping-drone-attacks-2026",
+          "yemen-sanaa-saudi-strikes-october-2026"
+        ]
+      },
+      {
+        "text": "Οικονομία: οι προβλέψεις ΔΝΤ–υπουργείου διαφέρουν στα δύο έτη. Το αμερικανικό CPI Σεπτεμβρίου είναι +0,6% μηνιαίως και +3,7% ετησίως, με μεγάλη επίδραση βενζίνης· ο δομικός δείκτης επίσης αυξήθηκε.",
+        "story_ids": [
+          "cyprus-imf-october-2026-outlook",
+          "us-september-2026-cpi"
+        ]
+      },
+      {
+        "text": "Λογοδοσία: ο φάκελος Takata βρίσκεται στη Νομική Υπηρεσία, χωρίς ανακτημένη απόφαση δίωξης. Για Deloitte–Abramovich καταγράφεται αντίδραση του επόπτη και αρνήσεις των εμπλεκομένων, όχι τελικό πόρισμα.",
+        "story_ids": [
+          "cyprus-takata-police-file-legal-service-2026",
+          "cyprus-deloitte-abramovich-audit-oversight-2026"
+        ]
+      },
+      {
+        "text": "Δημόσιες υπηρεσίες: πραγματική διαφωνία για στοιχεία νοσηλευτικής στελέχωσης πριν από τη Βουλή. Διατηρούνται τα μεσημεριανά ευρήματα για στάσεις λεωφορείων και οι ανακοινωμένες ηλεκτρονικές ανανεώσεις διαμονής.",
+        "story_ids": [
+          "cyprus-nursing-bills-staffing-dispute-2026",
+          "cyprus-nicosia-bus-audit-2026",
+          "cyprus-residence-renewals-online-january-2027"
+        ]
+      },
+      {
+        "text": "Οικογένεια και αθλητισμός: το νομοσχέδιο επιδόματος τέκνου δεν έχει γίνει επιβεβαιωμένη πληρωμή. Η συμμετοχή Μπράουερς στην αποστολή Ομόνοιας επιβεβαιώθηκε· δεν προδικάζει βασική ενδεκάδα.",
+        "story_ids": [
+          "cyprus-child-benefit-bill-2026",
+          "omonoia-celje-squad-october-15-2026"
+        ]
+      }
+    ]
+  },
   "created_at": "2026-10-14T05:49:07.061412+00:00",
-  "updated_at": "2026-10-14T17:12:38.506331+00:00",
-  "input_sha256": "0e2624fe99092c1472ed9e650a9d43ba9cd8a5be82bffbae33262ac2394577e9"
+  "updated_at": "2026-10-14T21:27:22.366824+00:00",
+  "input_sha256": "789cdf7614dbe9a9cf041344a8f81d3da798dda8c8a083219203734cc609e0c8"
 }

@@ -267,6 +267,49 @@
           }
         }
       }
+    },
+    "overview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "points"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "reviewed",
+            "selected_summaries"
+          ]
+        },
+        "points": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "text",
+              "story_ids"
+            ],
+            "properties": {
+              "text": {
+                "type": "string",
+                "minLength": 20
+              },
+              "story_ids": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

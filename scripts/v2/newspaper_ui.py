@@ -6,7 +6,7 @@ MONTHS=('Ιανουαρίου','Φεβρουαρίου','Μαρτίου','Απρ
 DAYS=('Δευτέρα','Τρίτη','Τετάρτη','Πέμπτη','Παρασκευή','Σάββατο','Κυριακή')
 HUB='https://jodemon9.github.io/oracle-briefing/'
 
-def summary(b, paragraphs, label):
+def summary(b, paragraphs, label, story_links=None):
     topics={'Πρώτο θέμα':('📰','lead'),'Επίδομα τέκνου':('👨‍👩‍👧','family'),'Κύπρος':('🇨🇾','cyprus'),'Διεθνή':('🌍','world'),'Αγορές':('📈','markets'),'Αθλητισμός':('🏆','sports'),'Λεμεσός':('🌤️','weather')}
     items=[]
     for index,paragraph in enumerate(paragraphs):
@@ -15,7 +15,9 @@ def summary(b, paragraphs, label):
         emoji,kind=topics[topic] if known else ('📰','news')
         heading=b.esc(topic)+':' if known else f'{index+1:02}'
         body=b.esc(text.lstrip() if known else paragraph)
-        items.append('<li class="summary-point summary-'+kind+'"><div class="summary-topic"><span aria-hidden="true">'+emoji+'</span><b>'+heading+'</b></div><p>'+body+'</p></li>')
+        links=(story_links or [])[index] if story_links and index<len(story_links) else []
+        actions='<div class="summary-story-links">'+''.join('<a href="'+b.esc(link['url'])+'">'+b.esc(link['label'])+' '+b.icon('arrow')+'</a>' for link in links)+'</div>' if links else ''
+        items.append('<li class="summary-point summary-'+kind+'"><div class="summary-topic"><span aria-hidden="true">'+emoji+'</span><b>'+heading+'</b></div><p>'+body+'</p>'+actions+'</li>')
     return '<details class="day-summary" id="summary"><summary>'+b.emblem('summary')+'<span class="summary-heading">'+b.esc(label)+'<small>'+str(len(paragraphs))+' σημεία · Η γρήγορη ματιά σου</small></span></summary><ol class="summary-points">'+''.join(items)+'</ol></details>'
 
 def changes(b, records):
@@ -92,6 +94,10 @@ def decorate(b, text, edition, day=None):
         if not day and edition.get('scheduled_slot'):
             slot=doc.new_tag('span',attrs={'class':'scheduled-slot'});slot.string='Προγραμματισμός: '+edition['scheduled_slot'];intro.append(slot)
         bar.append(intro.extract());bar.append(desk.extract())
+        if edition.get('reading_review',{}).get('version')==2 and edition.get('analysis_revision_at'):
+            note=doc.new_tag('p',attrs={'class':'revision-note editorial-revision'})
+            note.string='Συντακτική αναθεώρηση: '+b.stamp(edition['analysis_revision_at'],edition['timezone'])+'. Οι ειδήσεις και οι πηγές διατηρούν τους αρχικούς χρόνους τους.'
+            bar.insert_after(note)
         if day:
             caption=doc.new_tag('span',attrs={'class':'participating-caption'});caption.string='Συμμετέχουν στην ημέρα:';desk.insert(0,caption)
         for node in desk.find_all('span',recursive=False):

@@ -40,14 +40,16 @@ def run(output):
                         archive=page.locator('.hub-links a').last.get_attribute('href')
                         assert (ROOT/'docs'/route).parent.joinpath(archive).resolve().is_file()
                         assert page.locator('.hero h2').inner_text()==article['headline']
+                        assert not page.locator('.hero .card-context').is_visible()
+                        detail=page.locator('.hero .lead-analysis>summary');detail.focus();page.keyboard.press('Enter')
                         assert page.locator('.hero .card-context').is_visible()
-                        assert page.locator('.hero .lead-analysis summary').count()==0
                         assert page.locator('.hero .card-context p').all_text_contents()==article['newspaper_analysis']
+                        detail.click()
                         img=page.locator('.hero img');img.scroll_into_view_if_needed()
                         img.evaluate('(x)=>x.decode()')
                         assert img.evaluate('(x)=>x.naturalWidth>0&&x.naturalHeight>0')
                         summary=page.locator('.day-summary>summary');summary.focus();page.keyboard.press('Enter')
-                        assert page.locator('.summary-point:visible').count()==len(edition['summary_60s'])
+                        assert page.locator('.summary-point:visible').count()==(len(model['overview']['points']) if route==model['url'] else len(edition['summary_60s']))
                         assert page.locator('.summary-point').first.evaluate('(x)=>getComputedStyle(x).fontSize')
                         assert page.locator('.summary-points').evaluate('(x)=>getComputedStyle(x).gridTemplateColumns.split(" ").length')==(3 if width>=1100 else 1)
                         for key,team in edition['sports']['coverage'].items():

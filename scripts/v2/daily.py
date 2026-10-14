@@ -1,5 +1,6 @@
 """Compose reviewed edition references into a day. No research or novelty inference."""
 import hashlib
+import importlib.util
 import json
 from datetime import datetime, timezone
 from pathlib import Path
@@ -10,6 +11,11 @@ from jsonschema import Draft202012Validator, FormatChecker
 SLOTS = ('morning', 'midday', 'evening')
 KINDS = {'Προσθήκη': 'new', 'Εξέλιξη': 'substantive_update', 'Διόρθωση': 'correction', 'Πλαίσιο': 'provenance'}
 LABELS = {'new': 'Νέο', 'substantive_update': 'Ενημερώθηκε', 'correction': 'Συντακτική διόρθωση', 'enrichment': 'Εμπλουτισμός', 'provenance': 'Προέλευση'}
+
+def load_editorial():
+    spec=importlib.util.spec_from_file_location('day_editorial',Path(__file__).with_name('editorial.py'))
+    module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+    return module
 
 def digest(value):
     return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
@@ -110,6 +116,7 @@ def compose(date, bundles, previous=None, aliases=None, now=None):
     if lead_id not in stories:
         raise ValueError('Daily lead must reference a participating published story')
     model = {'schema_version': 1, 'date': date, 'timezone': participating[0][0]['timezone'], 'status': 'published', 'url': f'daily/{date}.html', 'editions': edition_refs, 'missing_slots': [slot for slot in SLOTS if slot not in {e['type'] for e, _ in participating}], 'lead_story_id': lead_id, 'stories': sorted(stories.values(), key=lambda s: (s['priority'], s['story_id'])), 'updates': sorted(events.values(), key=lambda event: (instant(event['at']), event['id']))}
+    model['overview']=load_editorial().overview(model['stories'],participating,canonical)
     fingerprint = digest({'model': model, 'inputs': participating, 'aliases': aliases})
     moment = (now or datetime.now(timezone.utc)).isoformat()
     model['created_at'] = previous['created_at'] if previous else moment
@@ -123,6 +130,9 @@ def validate(root, model, bundles):
     lookup = {e['id']: (e, {a['id']: a for a in aa}) for e, aa in bundles}
     if len({s['story_id'] for s in model['stories']}) != len(model['stories']):
         raise ValueError('Duplicate daily story')
+    known={s['story_id'] for s in model['stories']}
+    if any(sid not in known for point in model.get('overview',{}).get('points',[]) for sid in point['story_ids']):
+        raise ValueError('Daily overview references an unavailable story')
     for edition in model['editions']:
         e, _ = lookup[edition['id']]
         if e['date'] != model['date'] or e['status'] != 'published' or not (root/'docs'/e['url']).is_file():
@@ -183,7 +193,8 @@ def render(b, model, bundles):
             provenance.append(link)
         (node.select_one('.lead-copy') if hero else node.select_one('.story-content')).append(provenance)
         for link in node.select('.read-link'):
-            link['href'] += '?from=daily/' + model['date'] + '.html'
+            if link['href'].startswith('../articles/'):
+                link['href'] += '?from=daily/' + model['date'] + '.html'
         return str(node)
     latest = bundles[-1][0]
     html = b.head('Εφημερίδα ημέρας · ' + model['date'], model['url'], 'newspaper', '../', 'daily')
@@ -196,8 +207,10 @@ def render(b, model, bundles):
     html += '</nav>'
     if model['missing_slots']:
         html += '<p class="revision-note">Μερική ημέρα: περιλαμβάνονται μόνο οι διαθέσιμες δημοσιευμένες εκδόσεις.</p>'
-    overview = latest.get('daily', {}).get('summary_60s') or latest.get('summary_60s') or [selected(s)[1]['summary'] for s in model['stories'][:3]]
-    html += b.load_module('newspaper_ui').summary(b,overview,'Η ημέρα σε 60 δευτερόλεπτα')
+    overview=model.get('overview') or load_editorial().overview(model['stories'],bundles)
+    points=overview['points']
+    links=[[{'url':'#story-'+digest(sid)[:12],'label':selected(next(s for s in model['stories'] if s['story_id']==sid))[1]['headline']} for sid in point['story_ids']] for point in points]
+    html += b.load_module('newspaper_ui').summary(b,[p['text'] for p in points],'Η ημέρα σε 60 δευτερόλεπτα' if overview['kind']=='reviewed' else 'Επιλεγμένες ειδήσεις της ημέρας',links)
     lead = next(s for s in model['stories'] if s['story_id'] == model['lead_story_id'])
     html += '<div class="day-lead">' + card(lead, True) + '</div>'
     html += '<section class="section day-changes" id="changes"><div class="sectionhead"><h2>'+b.emblem('changes')+'Τι άλλαξε.</h2></div>'

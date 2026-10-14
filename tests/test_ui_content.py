@@ -34,17 +34,16 @@ class UIContentTests(unittest.TestCase):
                 with self.subTest(article=article['id'],hero=hero):
                     doc=BeautifulSoup(build.card(edition,article,hero),'html.parser')
                     self.assertEqual(doc.select_one('.abstract').get_text(),article['summary'])
-                    if hero:
-                        self.assertEqual(doc.select_one('.lead-analysis').name,'section')
-                        self.assertFalse(doc.select('.lead-analysis summary'))
-                    else:
+                    if article['newspaper_analysis']:
                         self.assertFalse(doc.select_one('.card-analysis').has_attr('open'))
+                        if hero:self.assertEqual(doc.select_one('.lead-analysis').name,'details')
+                    else:self.assertFalse(doc.select('.card-analysis'))
                     self.assertEqual([p.get_text() for p in doc.select('.card-context>p')],article['newspaper_analysis'])
                     im=article['image']
                     self.assertIn(im['caption'],doc.select_one('.photo-details').get_text())
                     self.assertIn(im['attribution'],doc.select_one('.photo-details').get_text())
                     self.assertTrue(doc.select_one('.photo-details').find('a',href=im['license_url']))
-                    self.assertTrue(doc.find('a',href='../'+article['url']))
+                    self.assertTrue(doc.find('a',href='../'+article['url']) if article.get('reader_mode')=='full' else doc.select_one('.original-report'))
 
     def test_shared_overview_changes_and_sports_keep_all_editorial_text(self):
         edition=json.loads((ROOT/'content/editions/2026-10-14-morning.json').read_text())
@@ -78,7 +77,8 @@ class UIContentTests(unittest.TestCase):
         for doc,expected_lead,expected_count in [(day,day_lead,len(model['stories'])),(independent,lead,len(articles))]:
             self.assertEqual(doc.select_one('.hero h2').get_text(),expected_lead['headline'])
             self.assertEqual(len(doc.select('.hero,.newscard')),expected_count)
-            self.assertFalse(doc.select('.lead-analysis summary'))
+            self.assertTrue(doc.select('.lead-analysis summary'))
+            self.assertFalse(doc.select_one('.lead-analysis').has_attr('open'))
             self.assertTrue(doc.select_one('.hub-home'))
         self.assertFalse(day.select('.edition-desk [aria-current]'))
         self.assertEqual(len(independent.select('.edition-desk [aria-current]')),1)
