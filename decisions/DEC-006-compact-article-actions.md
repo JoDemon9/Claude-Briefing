@@ -12,3 +12,7 @@ The shared frontend groups Ανάλυση / Άρθρο / Πηγές in one row w
 Affected sources: build.py, newspaper_ui.py, newspaper-ui.css, UI/image/browser tests, generated public pages and portal snapshot. Verification/publication is recorded in RELEASE_NOTES_2026-10-15.md after actual checks. This change is authorized for the repositories and the relevant scheduled-prompt instructions.
 
 Code is on main, both Pages releases passed live verification, and the three task prompts were updated/read back exactly. Evidence is maintained in [RELEASE_NOTES_2026-10-15.md](../RELEASE_NOTES_2026-10-15.md).
+
+## Evening validation reliability, 15 October
+
+The evening candidate's general and frontend checks passed, but the historical 14 October editorial check sampled expanded action controls with separate browser protocol calls. Native-disclosure scrolling and lazy-image layout shifts can move the whole row between those samples. The existing central-portal check already uses one `getBoundingClientRect` snapshot for this reason. The editorial check now applies that same atomic measurement to collapsed and expanded controls, retaining the strict under-2px alignment and 44px target requirements, and adds an expanded-state failure screenshot. No UI CSS, source time, reading policy, image gate, scheduler or Wire changes are involved. Actual candidate/main/Pages outcomes are recorded separately with the evening publication evidence; this note is not a publication claim.
