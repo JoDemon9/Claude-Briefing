@@ -32,7 +32,9 @@ def run(output):
                             continue
                         bar=card.locator('.article-actions')
                         controls=bar.locator(':scope > details > summary,:scope > .story-actions > a')
-                        boxes=[control.bounding_box() for control in controls.all()]
+                        # Compare one layout frame. Separate protocol calls can
+                        # straddle native-disclosure scrolling/lazy-image shifts.
+                        boxes=controls.evaluate_all('(nodes)=>nodes.map(n=>{const b=n.getBoundingClientRect();return {y:b.y,height:b.height}})')
                         assert len(boxes)==(3 if a['newspaper_analysis'] else 2)
                         assert max(box['y'] for box in boxes)-min(box['y'] for box in boxes)<2,(sid,width,boxes)
                         assert all(box['height']>=44 for box in boxes)
@@ -45,7 +47,12 @@ def run(output):
                             assert card.locator('.card-context').is_visible()
                             expanded=card.locator('.card-context').bounding_box()
                             assert expanded['width']>=bar.bounding_box()['width']-2
-                            assert max(control.bounding_box()['y'] for control in controls.all())-min(control.bounding_box()['y'] for control in controls.all())<2
+                            boxes=controls.evaluate_all('(nodes)=>nodes.map(n=>{const b=n.getBoundingClientRect();return {y:b.y,height:b.height}})')
+                            aligned=max(box['y'] for box in boxes)-min(box['y'] for box in boxes)<2
+                            if not aligned:
+                                page.screenshot(path=str(output/f'{width}-{sid}-expanded-alignment-failure.png'),full_page=True)
+                            assert aligned,(sid,width,'expanded',boxes)
+                            assert all(box['height']>=44 for box in boxes)
                             assert card.locator('.card-context p').all_text_contents()==a['newspaper_analysis']
                             trigger.click()
                         else:assert card.locator('.card-analysis').count()==0
