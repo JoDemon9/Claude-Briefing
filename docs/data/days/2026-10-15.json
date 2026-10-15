@@ -10,14 +10,40 @@
       "type": "morning",
       "url": "morning/2026-10-15.html",
       "published_at": "2026-10-15T08:11:43+03:00"
+    },
+    {
+      "id": "2026-10-15-midday",
+      "type": "midday",
+      "url": "midday/2026-10-15.html",
+      "published_at": "2026-10-15T13:48:29+03:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "global-markets-ai-rates-october-15-2026",
+  "lead_story_id": "cyprus-gsi-navtex-payment-october-2026",
   "stories": [
+    {
+      "story_id": "cyprus-gsi-navtex-payment-october-2026",
+      "first_seen_at": "2026-10-15T13:48:29+03:00",
+      "last_substantive_at": "2026-10-15T12:33:04+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-15-midday",
+          "article_id": "lead",
+          "source_story_id": "cyprus-gsi-navtex-payment-october-2026",
+          "url": "articles/2026-10-15-midday/lead.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "lead",
+        "source_story_id": "cyprus-gsi-navtex-payment-october-2026",
+        "url": "articles/2026-10-15-midday/lead.html"
+      },
+      "section": "cyprus",
+      "priority": 0
+    },
     {
       "story_id": "global-markets-ai-rates-october-15-2026",
       "first_seen_at": "2026-10-15T08:11:43+03:00",
@@ -59,27 +85,6 @@
       },
       "section": "sports",
       "priority": 0
-    },
-    {
-      "story_id": "cyprus-orange-warning-october-14-2026",
-      "first_seen_at": "2026-10-15T08:11:43+03:00",
-      "last_substantive_at": "2026-10-15T07:48:57+03:00",
-      "references": [
-        {
-          "edition_id": "2026-10-15-morning",
-          "article_id": "cyprus-storm",
-          "source_story_id": "cyprus-orange-warning-october-14-2026",
-          "url": "articles/2026-10-15-morning/cyprus-storm.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-15-morning",
-        "article_id": "cyprus-storm",
-        "source_story_id": "cyprus-orange-warning-october-14-2026",
-        "url": "articles/2026-10-15-morning/cyprus-storm.html"
-      },
-      "section": "cyprus",
-      "priority": 5
     },
     {
       "story_id": "cyprus-vasiliko-completion-tender-2026",
@@ -142,6 +147,33 @@
         "url": "articles/2026-10-15-morning/sport-omonoia.html"
       },
       "section": "sports",
+      "priority": 10
+    },
+    {
+      "story_id": "tsmc-q3-2026-results-preview",
+      "first_seen_at": "2026-10-15T08:11:43+03:00",
+      "last_substantive_at": "2026-10-15T13:48:29+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "world-tsmc",
+          "source_story_id": "tsmc-q3-2026-results-preview",
+          "url": "articles/2026-10-15-morning/world-tsmc.html"
+        },
+        {
+          "edition_id": "2026-10-15-midday",
+          "article_id": "world-tsmc",
+          "source_story_id": "tsmc-q3-2026-results-preview",
+          "url": "articles/2026-10-15-midday/world-tsmc.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "world-tsmc",
+        "source_story_id": "tsmc-q3-2026-results-preview",
+        "url": "articles/2026-10-15-midday/world-tsmc.html"
+      },
+      "section": "world",
       "priority": 10
     },
     {
@@ -208,24 +240,24 @@
       "priority": 20
     },
     {
-      "story_id": "tsmc-q3-2026-results-preview",
-      "first_seen_at": "2026-10-15T08:11:43+03:00",
-      "last_substantive_at": null,
+      "story_id": "cyprus-schengen-december-political-decision-2026",
+      "first_seen_at": "2026-10-15T13:48:29+03:00",
+      "last_substantive_at": "2026-10-15T12:39:55+03:00",
       "references": [
         {
-          "edition_id": "2026-10-15-morning",
-          "article_id": "world-tsmc",
-          "source_story_id": "tsmc-q3-2026-results-preview",
-          "url": "articles/2026-10-15-morning/world-tsmc.html"
+          "edition_id": "2026-10-15-midday",
+          "article_id": "cyprus-schengen",
+          "source_story_id": "cyprus-schengen-december-political-decision-2026",
+          "url": "articles/2026-10-15-midday/cyprus-schengen.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-15-morning",
-        "article_id": "world-tsmc",
-        "source_story_id": "tsmc-q3-2026-results-preview",
-        "url": "articles/2026-10-15-morning/world-tsmc.html"
+        "edition_id": "2026-10-15-midday",
+        "article_id": "cyprus-schengen",
+        "source_story_id": "cyprus-schengen-december-political-decision-2026",
+        "url": "articles/2026-10-15-midday/cyprus-schengen.html"
       },
-      "section": "world",
+      "section": "cyprus",
       "priority": 20
     },
     {
@@ -271,6 +303,33 @@
       "priority": 25
     },
     {
+      "story_id": "cyprus-orange-warning-october-14-2026",
+      "first_seen_at": "2026-10-15T08:11:43+03:00",
+      "last_substantive_at": "2026-10-15T10:44:20+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "cyprus-storm",
+          "source_story_id": "cyprus-orange-warning-october-14-2026",
+          "url": "articles/2026-10-15-morning/cyprus-storm.html"
+        },
+        {
+          "edition_id": "2026-10-15-midday",
+          "article_id": "cyprus-storm",
+          "source_story_id": "cyprus-orange-warning-october-14-2026",
+          "url": "articles/2026-10-15-midday/cyprus-storm.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "cyprus-storm",
+        "source_story_id": "cyprus-orange-warning-october-14-2026",
+        "url": "articles/2026-10-15-midday/cyprus-storm.html"
+      },
+      "section": "cyprus",
+      "priority": 30
+    },
+    {
       "story_id": "cyprus-egypt-border-guard-security-meeting-october-2026",
       "first_seen_at": "2026-10-15T08:11:43+03:00",
       "last_substantive_at": null,
@@ -290,6 +349,69 @@
       },
       "section": "cyprus",
       "priority": 35
+    },
+    {
+      "story_id": "eu-one-europe-one-market-october-review-2026",
+      "first_seen_at": "2026-10-15T13:48:29+03:00",
+      "last_substantive_at": "2026-10-15T12:20:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-15-midday",
+          "article_id": "world-roadmap",
+          "source_story_id": "eu-one-europe-one-market-october-review-2026",
+          "url": "articles/2026-10-15-midday/world-roadmap.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "world-roadmap",
+        "source_story_id": "eu-one-europe-one-market-october-review-2026",
+        "url": "articles/2026-10-15-midday/world-roadmap.html"
+      },
+      "section": "world",
+      "priority": 50
+    },
+    {
+      "story_id": "red-bull-mekies-contract-through-2031",
+      "first_seen_at": "2026-10-15T13:48:29+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-15-midday",
+          "article_id": "sport-mekies",
+          "source_story_id": "red-bull-mekies-contract-through-2031",
+          "url": "articles/2026-10-15-midday/sport-mekies.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "sport-mekies",
+        "source_story_id": "red-bull-mekies-contract-through-2031",
+        "url": "articles/2026-10-15-midday/sport-mekies.html"
+      },
+      "section": "sports",
+      "priority": 80
+    },
+    {
+      "story_id": "six-kings-slam-december-postponement-2026",
+      "first_seen_at": "2026-10-15T13:48:29+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-15-midday",
+          "article_id": "sport-slam",
+          "source_story_id": "six-kings-slam-december-postponement-2026",
+          "url": "articles/2026-10-15-midday/sport-slam.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "sport-slam",
+        "source_story_id": "six-kings-slam-december-postponement-2026",
+        "url": "articles/2026-10-15-midday/sport-slam.html"
+      },
+      "section": "sports",
+      "priority": 90
     }
   ],
   "updates": [
@@ -695,11 +817,226 @@
         "source_story_id": "hormuz-gfs-pride-giselle-october-2026",
         "url": "articles/2026-10-15-morning/world-hormuz.html"
       }
+    },
+    {
+      "id": "2026-10-15-midday-cyprus-storm-review",
+      "kind": "substantive_update",
+      "at": "2026-10-15T10:44:20+03:00",
+      "summary": "Νέος δημοσιευμένος απολογισμός 78 κλήσεων/13 πλημμυρικών περιστατικών προστίθεται στη χθεσινή κακοκαιρία. Ο χρόνος είναι δημοσίευσης, όχι ώρα κάθε συμβάντος.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/15/fire-brigade-responds-to-78-calls-in-24-hours-13-flood-related",
+        "https://www.dom.org.cy/FORECAST/public_b.html"
+      ],
+      "story_id": "cyprus-orange-warning-october-14-2026",
+      "origin": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "cyprus-storm",
+        "source_story_id": "cyprus-orange-warning-october-14-2026",
+        "url": "articles/2026-10-15-midday/cyprus-storm.html"
+      }
+    },
+    {
+      "id": "2026-10-15-midday-world-roadmap-review",
+      "kind": "new",
+      "at": "2026-10-15T12:20:00+03:00",
+      "summary": "Νέα θεσμική ανασκόπηση δημοσιεύθηκε στις 11:20 Βρυξελλών/12:20 Κύπρου, μετά την πρωινή ατζέντα. Δεν αποτελεί τελικά συμπεράσματα Ευρωπαϊκού Συμβουλίου.",
+      "source_urls": [
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/10/15/steady-progress-of-the-one-europe-one-market-roadmap/"
+      ],
+      "story_id": "eu-one-europe-one-market-october-review-2026",
+      "origin": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "world-roadmap",
+        "source_story_id": "eu-one-europe-one-market-october-review-2026",
+        "url": "articles/2026-10-15-midday/world-roadmap.html"
+      }
+    },
+    {
+      "id": "2026-10-15-midday-lead-review",
+      "kind": "new",
+      "at": "2026-10-15T12:33:04+03:00",
+      "summary": "Σημερινή υπουργική δήλωση για NAVTEX εντός Οκτωβρίου και καταβολή €25 εκατ., δημοσιευμένη μετά την πρωινή έκδοση. Ο χρόνος είναι δημοσίευσης του ρεπορτάζ.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/15/damianos-interconnector-navtex-will-be-issued-by-end-of-month",
+        "https://economytoday.sigmalive.com/damianos-gia-gsi-i-nexans-den-xreiazetai-adeia-apo-tin-toyrkia-gia-na-proxorisei/"
+      ],
+      "story_id": "cyprus-gsi-navtex-payment-october-2026",
+      "origin": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "lead",
+        "source_story_id": "cyprus-gsi-navtex-payment-october-2026",
+        "url": "articles/2026-10-15-midday/lead.html"
+      }
+    },
+    {
+      "id": "2026-10-15-midday-cyprus-schengen-review",
+      "kind": "new",
+      "at": "2026-10-15T12:39:55+03:00",
+      "summary": "Δημοσιευμένες σημερινές δηλώσεις του Προέδρου για τεχνική ετοιμότητα και προσδοκία πολιτικών αποφάσεων τον Δεκέμβριο· όχι απόφαση ένταξης.",
+      "source_urls": [
+        "https://en.sigmalive.com/president-says-december-will-be-key-for-cyprus-schengen-accession/"
+      ],
+      "story_id": "cyprus-schengen-december-political-decision-2026",
+      "origin": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "cyprus-schengen",
+        "source_story_id": "cyprus-schengen-december-political-decision-2026",
+        "url": "articles/2026-10-15-midday/cyprus-schengen.html"
+      }
+    },
+    {
+      "id": "2026-10-15-midday-sport-mekies-review",
+      "kind": "provenance",
+      "at": "2026-10-15T13:48:29+03:00",
+      "summary": "Πρώτη επιλογή ήδη δημοσιευμένης ανακοίνωσης της 14/10. Ο χρόνος είναι σημερινός συντακτικός έλεγχος, όχι νέα ανακοίνωση συμβολαίου.",
+      "source_urls": [
+        "https://www.formula1.com/en/latest/article/mekies-commits-to-long-term-contract-extension-as-red-bull-team-principal.1NfCP1Zas2IAzVa3sNa3yf"
+      ],
+      "story_id": "red-bull-mekies-contract-through-2031",
+      "origin": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "sport-mekies",
+        "source_story_id": "red-bull-mekies-contract-through-2031",
+        "url": "articles/2026-10-15-midday/sport-mekies.html"
+      }
+    },
+    {
+      "id": "2026-10-15-midday-sport-slam-review",
+      "kind": "provenance",
+      "at": "2026-10-15T13:48:29+03:00",
+      "summary": "Πρώτη επιλογή της αναβολής που είχε ανακοινωθεί στις 14/10. Η σημερινή ανάγνωση δεν μετατρέπει τη χθεσινή απόφαση σε νέο γεγονός.",
+      "source_urls": [
+        "https://www.skysports.com/tennis/news/13599297/six-kings-slam-big-money-tournament-in-riyadh-saudi-arabia-postponed-until-december",
+        "https://cyprus-mail.com/2026/10/15/six-kings-slam-in-saudi-arabia-postponed"
+      ],
+      "story_id": "six-kings-slam-december-postponement-2026",
+      "origin": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "sport-slam",
+        "source_story_id": "six-kings-slam-december-postponement-2026",
+        "url": "articles/2026-10-15-midday/sport-slam.html"
+      }
+    },
+    {
+      "id": "2026-10-15-midday-world-tsmc-review",
+      "kind": "substantive_update",
+      "at": "2026-10-15T13:48:29+03:00",
+      "summary": "Επαληθεύτηκαν πραγματικά αποτελέσματα γ΄ τριμήνου και νέα καθοδήγηση δ΄ τριμήνου, αντικαθιστώντας την πρωινή προεπισκόπηση. Ο χρόνος καταγράφει ανάγνωση των νέων πρωτογενών εγγράφων, όχι επινοημένο λεπτό ανακοίνωσης.",
+      "source_urls": [
+        "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+        "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
+        "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/f83780000ddc0c3b48e57a87eab6814c4ab35058/3Q26%20ManagementReport.pdf"
+      ],
+      "story_id": "tsmc-q3-2026-results-preview",
+      "origin": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "world-tsmc",
+        "source_story_id": "tsmc-q3-2026-results-preview",
+        "url": "articles/2026-10-15-midday/world-tsmc.html"
+      }
+    },
+    {
+      "id": "476a9bc0b27efce1ab1fba44343c0ac58715ca660eed92123024622d48d1672a",
+      "kind": "provenance",
+      "at": "2026-10-15T13:48:29+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-orange-warning-october-14-2026",
+      "origin": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "cyprus-storm",
+        "source_story_id": "cyprus-orange-warning-october-14-2026",
+        "url": "articles/2026-10-15-midday/cyprus-storm.html"
+      }
+    },
+    {
+      "id": "4bca120725878c589867fa26c96e28027d9ab15b536847c48d91f984370a8a1b",
+      "kind": "provenance",
+      "at": "2026-10-15T13:48:29+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "red-bull-mekies-contract-through-2031",
+      "origin": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "sport-mekies",
+        "source_story_id": "red-bull-mekies-contract-through-2031",
+        "url": "articles/2026-10-15-midday/sport-mekies.html"
+      }
+    },
+    {
+      "id": "4eeb5911ee6a3c015ffb41767800173ee15c21f10a86dc26221802e0676d2058",
+      "kind": "provenance",
+      "at": "2026-10-15T13:48:29+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-schengen-december-political-decision-2026",
+      "origin": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "cyprus-schengen",
+        "source_story_id": "cyprus-schengen-december-political-decision-2026",
+        "url": "articles/2026-10-15-midday/cyprus-schengen.html"
+      }
+    },
+    {
+      "id": "6068f6ad7fb4c4d0d5f43c36311e6bdb5b5694c26171e3a46452224b85ccbcbd",
+      "kind": "provenance",
+      "at": "2026-10-15T13:48:29+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "tsmc-q3-2026-results-preview",
+      "origin": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "world-tsmc",
+        "source_story_id": "tsmc-q3-2026-results-preview",
+        "url": "articles/2026-10-15-midday/world-tsmc.html"
+      }
+    },
+    {
+      "id": "bfae10cb97415978ee6ed33b2f6c27c3abd1df112247dfd8ad251ecf92d6c1a2",
+      "kind": "provenance",
+      "at": "2026-10-15T13:48:29+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "eu-one-europe-one-market-october-review-2026",
+      "origin": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "world-roadmap",
+        "source_story_id": "eu-one-europe-one-market-october-review-2026",
+        "url": "articles/2026-10-15-midday/world-roadmap.html"
+      }
+    },
+    {
+      "id": "d6ad1a081fe5fa74ac0f34317d2c4ebdbe010b80bf6db811a8f3c39f921167c1",
+      "kind": "provenance",
+      "at": "2026-10-15T13:48:29+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "six-kings-slam-december-postponement-2026",
+      "origin": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "sport-slam",
+        "source_story_id": "six-kings-slam-december-postponement-2026",
+        "url": "articles/2026-10-15-midday/sport-slam.html"
+      }
+    },
+    {
+      "id": "da67d75dc2722306b112f0e874adfad92123876fe8a7d639987dafba46cfa662",
+      "kind": "provenance",
+      "at": "2026-10-15T13:48:29+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-gsi-navtex-payment-october-2026",
+      "origin": {
+        "edition_id": "2026-10-15-midday",
+        "article_id": "lead",
+        "source_story_id": "cyprus-gsi-navtex-payment-october-2026",
+        "url": "articles/2026-10-15-midday/lead.html"
+      }
     }
   ],
   "opportunities": [
     {
-      "verified_at": "2026-10-15T07:51:47+03:00",
+      "verified_at": "2026-10-15T10:40:26.316818+00:00",
       "opens_at": null,
       "deadline": "2024-07-31T23:59:00+03:00",
       "deadline_type": "fixed",
@@ -720,7 +1057,7 @@
           "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
           "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
           "published_at": null,
-          "retrieved_at": "2026-10-15T07:51:44+03:00",
+          "retrieved_at": "2026-10-15T10:40:26.316818+00:00",
           "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
           "kind": "primary",
           "access": "read",
@@ -730,17 +1067,17 @@
           "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
           "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
           "published_at": null,
-          "retrieved_at": "2026-10-15T07:51:47+03:00",
+          "retrieved_at": "2026-10-15T10:40:23.305309+00:00",
           "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
           "kind": "primary",
           "access": "read",
           "used_for_claims": true
         }
       ],
-      "change_note": "Πρωινός επανέλεγχος επίσημων αναγνωσμένων πηγών 15/10· δεν διαπιστώθηκε αλλαγή της πρόσκλησης ή νέο άνοιγμα."
+      "change_note": "Επανέλεγχος των επίσημων όρων στο μεσημεριανό της 15/10: δεν εντοπίστηκε αλλαγή έναντι της πρωινής καταγραφής. Διατηρούνται οι πραγματικές προθεσμίες και οι περιορισμοί σταδίων/προϋπολογισμού."
     },
     {
-      "verified_at": "2026-10-15T07:51:45+03:00",
+      "verified_at": "2026-10-15T10:40:16.761286+00:00",
       "opens_at": null,
       "deadline": "2026-11-04T18:00:00+02:00",
       "deadline_type": "fixed",
@@ -761,17 +1098,17 @@
           "publisher": "European Innovation Council",
           "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
           "published_at": null,
-          "retrieved_at": "2026-10-15T07:51:45+03:00",
+          "retrieved_at": "2026-10-15T10:40:16.761286+00:00",
           "reporting_group": "European Innovation Council",
           "kind": "primary",
           "access": "read",
           "used_for_claims": true
         }
       ],
-      "change_note": "Πρωινός επανέλεγχος επίσημων αναγνωσμένων πηγών 15/10· δεν διαπιστώθηκε αλλαγή της πρόσκλησης ή νέο άνοιγμα."
+      "change_note": "Επανέλεγχος των επίσημων όρων στο μεσημεριανό της 15/10: δεν εντοπίστηκε αλλαγή έναντι της πρωινής καταγραφής. Διατηρούνται οι πραγματικές προθεσμίες και οι περιορισμοί σταδίων/προϋπολογισμού."
     },
     {
-      "verified_at": "2026-10-15T07:51:45+03:00",
+      "verified_at": "2026-10-15T10:40:17.701048+00:00",
       "opens_at": "2026-10-20T09:00:00+03:00",
       "deadline": "2026-12-30T23:59:00+02:00",
       "deadline_type": "fixed",
@@ -792,7 +1129,7 @@
           "publisher": "ΥΕΕΒ · Υπηρεσία Βιομηχανίας και Τεχνολογίας",
           "url": "https://www.industry.gov.cy/gr/%CE%B5%CE%BD%CE%B7%CE%BC%CE%AD%CF%81%CF%89%CF%83%CE%B7/%CE%B1%CE%BD%CE%B1%CE%BA%CE%BF%CE%B9%CE%BD%CF%8E%CF%83%CE%B5%CE%B9%CF%82/2-%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CF%87%CE%BF%CF%81%CE%B7%CE%B3%CE%B9%CF%8E%CE%BD-%CE%B5%CE%BE%CE%BF%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CF%8E-%E2%80%93-%CE%B1%CE%BD%CE%B1%CE%B2%CE%B1%CE%B8%CE%BC%CE%AF%CE%B6%CF%89-%CF%83%CF%84%CE%B9%CF%82-%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B5%CF%82-2026",
           "published_at": null,
-          "retrieved_at": "2026-10-15T07:51:44+03:00",
+          "retrieved_at": "2026-10-15T10:40:17.477903+00:00",
           "reporting_group": "ΥΕΕΒ · Υπηρεσία Βιομηχανίας και Τεχνολογίας",
           "kind": "primary",
           "access": "read",
@@ -802,17 +1139,17 @@
           "publisher": "ΥΕΕΒ · Οδηγός 2026 V4.0",
           "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202609/137/docs/odigosv2.pdf",
           "published_at": null,
-          "retrieved_at": "2026-10-15T07:51:45+03:00",
+          "retrieved_at": "2026-10-15T10:40:17.701048+00:00",
           "reporting_group": "ΥΕΕΒ · Οδηγός 2026 V4.0",
           "kind": "primary",
           "access": "read",
           "used_for_claims": true
         }
       ],
-      "change_note": "Διευκρίνιση μετά την ανάγνωση του πλήρους οδηγού, υποσημειώσεις 5 και 13: προβλέπεται εξαίρεση για παλαιότερο ΠΕΑ με μεταγενέστερη επιβεβαιωτική επίσκεψη. Δεν πρόκειται για νέα αλλαγή όρων ή ήδη ανοικτή πλατφόρμα."
+      "change_note": "Επανέλεγχος των επίσημων όρων στο μεσημεριανό της 15/10: δεν εντοπίστηκε αλλαγή έναντι της πρωινής καταγραφής. Διατηρούνται οι πραγματικές προθεσμίες και οι περιορισμοί σταδίων/προϋπολογισμού."
     },
     {
-      "verified_at": "2026-10-15T07:51:44+03:00",
+      "verified_at": "2026-10-15T10:40:26.260534+00:00",
       "opens_at": null,
       "deadline": null,
       "deadline_type": "unknown",
@@ -833,7 +1170,7 @@
           "publisher": "European Commission · DG TAXUD",
           "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
           "published_at": null,
-          "retrieved_at": "2026-10-15T07:51:44+03:00",
+          "retrieved_at": "2026-10-15T10:40:18.051256+00:00",
           "reporting_group": "European Commission · DG TAXUD",
           "kind": "primary",
           "access": "read",
@@ -843,7 +1180,7 @@
           "publisher": "European Commission · SME VAT",
           "url": "https://sme-vat-rules.ec.europa.eu/index_en",
           "published_at": null,
-          "retrieved_at": "2026-10-15T07:51:44+03:00",
+          "retrieved_at": "2026-10-15T10:40:17.856909+00:00",
           "reporting_group": "European Commission · SME VAT",
           "kind": "primary",
           "access": "read",
@@ -853,17 +1190,17 @@
           "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
           "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
           "published_at": null,
-          "retrieved_at": "2026-10-15T07:51:44+03:00",
+          "retrieved_at": "2026-10-15T10:40:26.260534+00:00",
           "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
           "kind": "primary",
           "access": "read",
           "used_for_claims": true
         }
       ],
-      "change_note": "Πρωινός επανέλεγχος επίσημων αναγνωσμένων πηγών 15/10· δεν διαπιστώθηκε αλλαγή της πρόσκλησης ή νέο άνοιγμα."
+      "change_note": "Επανέλεγχος των επίσημων όρων στο μεσημεριανό της 15/10: δεν εντοπίστηκε αλλαγή έναντι της πρωινής καταγραφής. Διατηρούνται οι πραγματικές προθεσμίες και οι περιορισμοί σταδίων/προϋπολογισμού."
     },
     {
-      "verified_at": "2026-10-15T07:51:43+03:00",
+      "verified_at": "2026-10-15T10:40:17.924185+00:00",
       "opens_at": null,
       "deadline": null,
       "deadline_type": "rolling",
@@ -884,7 +1221,7 @@
           "publisher": "Erasmus for Young Entrepreneurs",
           "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=16",
           "published_at": null,
-          "retrieved_at": "2026-10-15T07:51:43+03:00",
+          "retrieved_at": "2026-10-15T10:40:17.924185+00:00",
           "reporting_group": "Erasmus for Young Entrepreneurs",
           "kind": "primary",
           "access": "read",
@@ -894,59 +1231,67 @@
           "publisher": "Erasmus · FAQ προθεσμίας",
           "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
           "published_at": null,
-          "retrieved_at": "2026-10-15T07:51:43+03:00",
+          "retrieved_at": "2026-10-15T10:40:17.912476+00:00",
           "reporting_group": "Erasmus · FAQ προθεσμίας",
           "kind": "primary",
           "access": "read",
           "used_for_claims": true
         }
       ],
-      "change_note": "Πρωινός επανέλεγχος επίσημων αναγνωσμένων πηγών 15/10· δεν διαπιστώθηκε αλλαγή της πρόσκλησης ή νέο άνοιγμα."
+      "change_note": "Επανέλεγχος των επίσημων όρων στο μεσημεριανό της 15/10: δεν εντοπίστηκε αλλαγή έναντι της πρωινής καταγραφής. Διατηρούνται οι πραγματικές προθεσμίες και οι περιορισμοί σταδίων/προϋπολογισμού."
     }
   ],
   "overview": {
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η πρωινή εικόνα της 15/10: η χθεσινή πτώση των ΗΠΑ συνεχίζεται στην Ασία. Η ενημέρωση TSMC στις 09:00 και ο PPI στις 15:30 είναι τα επόμενα διαφορετικά τεκμήρια.",
+        "text": "Ενέργεια Κύπρου: αναμενόμενη NAVTEX για GSI εντός Οκτωβρίου και €25 εκατ. συνδεδεμένα με πρόοδο. Στο Βασιλικό συνεχίζεται η προετοιμασία νέας διαδικασίας, όχι ήδη ανατεθειμένο έργο.",
+        "story_ids": [
+          "cyprus-gsi-navtex-payment-october-2026",
+          "cyprus-vasiliko-completion-tender-2026"
+        ]
+      },
+      {
+        "text": "Αγορές και τεχνολογία: μετά το αρνητικό κλείσιμο ΗΠΑ και την ασιατική πτώση, η TSMC ανακοινώνει $46,72 δισ. έσοδα. Τα νέα αποτελέσματα αντικαθιστούν την πρωινή προεπισκόπηση.",
         "story_ids": [
           "global-markets-ai-rates-october-15-2026",
           "tsmc-q3-2026-results-preview"
         ]
       },
       {
-        "text": "Κύπρος: το Βασιλικό περνά στη διαμόρφωση κριτηρίων, ενώ μετά την κακοκαιρία επιβεβαιώνεται νυχτερινή αποκατάσταση στην Αραδίππου και νέο πρωινό δελτίο.",
+        "text": "Μετά την κακοκαιρία, ο νέος απολογισμός μετρά 13 πλημμυρικά περιστατικά μέσα σε 78 συνολικές κλήσεις. Το απογευματινό δελτίο διατηρεί τοπική αστάθεια.",
         "story_ids": [
-          "cyprus-vasiliko-completion-tender-2026",
           "cyprus-orange-warning-october-14-2026"
         ]
       },
       {
-        "text": "Το εύρος της έρευνας βαν παραμένει επίδικο. Για το ρεύμα στα πλοία της Λεμεσού εκκρεμούν γη και σύνδεση· η Eurostat καταγράφει 4,7 κιλά συλλογής ηλεκτρονικών αποβλήτων ανά κάτοικο το 2024.",
+        "text": "Βρυξέλλες: ο Πρόεδρος συνδέει το Σένγκεν με πολιτικές αποφάσεις τον Δεκέμβριο. Η ευρωπαϊκή ενιαία αγορά έχει νέα ανασκόπηση, ενώ η σύνοδος παραμένει σε εξέλιξη.",
         "story_ids": [
-          "cyprus-savvides-spyvan-inquiry-scope-2026",
-          "limassol-port-shore-power-grid-funding-2026",
-          "cyprus-eurostat-ewaste-2024-release-2026"
+          "cyprus-schengen-december-political-decision-2026",
+          "eu-one-europe-one-market-october-review-2026",
+          "european-council-october-15-16-2026"
         ]
       },
       {
-        "text": "Η ευρωπαϊκή σύνοδος αρχίζει με ενεργειακό κόστος και προϋπολογισμό στην ατζέντα. Στο Ορμούζ η Σιγκαπούρη επιβεβαιώνει βύθιση ενός πλοίου και ασφαλή πληρώματα δύο σκαφών.",
+        "text": "Παραμένουν σημαντικά: στο Ορμούζ επιβεβαιωμένα ασφαλή πληρώματα δύο σκαφών· βρετανικά £17 εκατ. για το προστατευτικό κέλυφος Τσερνόμπιλ. Στην Κύπρο εκκρεμεί η διαφωνία για το εύρος έρευνας του βαν.",
         "story_ids": [
-          "european-council-october-15-16-2026",
-          "hormuz-gfs-pride-giselle-october-2026"
-        ]
-      },
-      {
-        "text": "Η Βρετανία ανακοινώνει £17 εκατ. για το προστατευτικό κέλυφος Τσερνόμπιλ. Στα αθλητικά, Real 4–3 στη Ρώμη και Ομόνοια στο Celje σήμερα 19:45.",
-        "story_ids": [
+          "hormuz-gfs-pride-giselle-october-2026",
           "uk-chornobyl-repairs-funding-october-2026",
+          "cyprus-savvides-spyvan-inquiry-scope-2026"
+        ]
+      },
+      {
+        "text": "Αθλητικά: Real 4–3 στη Ρώμη στις 14/10, Ομόνοια στο Celje σήμερα 19:45. Προστίθενται οι χθεσινές ανακοινώσεις Mekies έως 2031 και μεταφοράς Six Kings Slam στις 27–30/12.",
+        "story_ids": [
           "real-madrid-roma-squad-oct14",
-          "omonoia-celje-squad-october-15-2026"
+          "omonoia-celje-squad-october-15-2026",
+          "red-bull-mekies-contract-through-2031",
+          "six-kings-slam-december-postponement-2026"
         ]
       }
     ]
   },
   "created_at": "2026-10-15T05:11:50.406064+00:00",
-  "updated_at": "2026-10-15T05:11:50.406064+00:00",
-  "input_sha256": "e3fb7f7e2aa40396826672912c3f9b622f55afbf3a6015affe01662edd9f6c33"
+  "updated_at": "2026-10-15T10:50:34.848418+00:00",
+  "input_sha256": "e6f582a2271fbb4ab25930bdf43b054a5be9107651239b26a15104f1aaf73a91"
 }
