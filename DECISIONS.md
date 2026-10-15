@@ -6,6 +6,10 @@ This is the canonical record of user needs that future changes must respect. Rea
 
 | ID | User need | Current status | Record |
 | --- | --- | --- | --- |
+| DEC-011 | Authentic small sports logos replace emojis. | Implemented; publication pending. | [Sports logos](decisions/DEC-011-real-sports-logos.md) |
+| DEC-008 | Four small sports links and two distinct other sports stories. | Implemented; publication pending. | [Compact sports](decisions/DEC-008-compact-sports.md) |
+| DEC-009 | Compose the day as one curated newspaper. | Implemented; publication pending. | [Daily composition](decisions/DEC-009-curated-daily-newspaper.md) |
+| DEC-010 | At most five local stories; five globals, up to seven when justified. | Implemented; publication pending. | [Morning balance](decisions/DEC-010-morning-news-balance.md) |
 | DEC-006 | Keep three article actions on one row and remove per-photo prose. | Published and live verified; tasks updated. | [Compact article actions](decisions/DEC-006-compact-article-actions.md) |
 | DEC-007 | Track actionable grants, benefits and rights with eligibility and application deadlines. | Published and live verified; tasks maintain the tracker. | [Opportunities and rights](decisions/DEC-007-opportunities-and-rights.md) |
 | DEC-004 | The daily overview must include important selected stories from the whole available day. | Published and live verified; tasks updated. | [Whole-day overview](decisions/DEC-004-whole-day-overview.md) |

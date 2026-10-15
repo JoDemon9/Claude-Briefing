@@ -95,6 +95,7 @@ def photo_credits(bundles):
             im=a.get('image')
             if not im:continue
             entries.append('<section id="'+esc(e['id']+'-'+a['id'])+'"><h2><a href="'+esc(article_url(e,a))+'">'+esc(a['headline'])+'</a></h2><p>'+esc(im.get('caption',''))+'</p><p><a href="'+esc(im.get('source_url',''))+'">'+esc(im['attribution'])+'</a> · <a href="'+esc(im.get('license_url',''))+'">'+esc(im.get('license','Στοιχεία στην αρχική πηγή'))+'</a></p><p>'+esc(im.get('original_url',''))+' · Ανάκτηση: '+esc(im.get('retrieved_at',''))+'</p></section>')
+    entries.append(load_module('sports').credits(SimpleNamespace(**globals())))
     return head('Συντελεστές εικόνων','photo-credits.html','article','')+'<main class="shell"><a href="today.html">← Εφημερίδα</a><h1>Συντελεστές εικόνων</h1>'+''.join(entries)+'</main></body></html>'
 
 def article_url(e, a):
@@ -116,6 +117,7 @@ def validate(e, articles):
         raise ValueError('Duplicate article IDs')
     if set(TEAMS) != set(e['sports']['coverage']):
         raise ValueError('Permanent sports coverage required')
+    load_module('selection').validate(e, articles)
     ids = {a['id'] for a in articles}
     policy_start=datetime.fromisoformat('2026-10-13T15:40:17+03:00')
     new_publication=e['status']=='published' and e.get('published_at') and datetime.fromisoformat(e['published_at'])>=policy_start
@@ -215,45 +217,9 @@ def fixture(record):
         lines.append(f'<dt>Σέντρα · ώρα Κύπρου</dt><dd>{stamp(record["kickoff_at"]) if record["kickoff_at"] else UNKNOWN}</dd>')
     return '<dl class="fixture">'+''.join(lines)+'</dl>'+f'<p class="muted">Έλεγχος: {stamp(record["verified_at"])}</p>'+source_links(record['sources'])
 
-def sports(e, articles=()):
-    out = ['<section class="section" id="sports"><div class="sectionhead"><h2>'+emblem('sports')+'Αθλητικός παλμός.</h2><span>Η εικόνα κατά τη δημοσίευση</span></div><div class="sports">']
-    for key, t in e['sports']['coverage'].items():
-        symbol={'omonoia':'☘️','manutd':'👹','realmadrid':'👑','formula1':'🏎️'}[key]
-        out.append(f'<article class="sport team-{key}"><div class="teamicon" aria-hidden="true">{symbol}</div><h3>{TEAMS[key]}</h3><p>{esc(t["summary"])}</p><p class="muted">Ενημέρωση: {stamp(t["updated_at"])}</p><details><summary>Περισσότερα · {TEAMS[key]}</summary>')
-        if key == 'formula1':
-            s = t.get('latest_session')
-            out.append('<h4>Τελευταία ολοκληρωμένη περίοδος</h4>')
-            if s:
-                out.append(f'<p>{esc(s["event"])} · {esc(s["session_type"])} · {esc(s["date"])}</p><p>{esc(s["results"])}</p><p>{esc(s["implications"])}</p><p>{esc(s["incidents"])}</p>'+source_links(s['sources']))
-            else:
-                out.append(f'<p>{UNKNOWN}</p>')
-            out.append(f'<h4>Επόμενο Grand Prix</h4><p>{esc(t.get("next_grand_prix") or UNKNOWN)}</p>')
-            out.append(source_links(t.get('next_gp_sources',[])))
-            out.extend(f'<p>{esc(x["name"])} · {stamp(x["starts_at"])}</p>'+source_links(x['sources']) for x in t.get('sessions', []))
-            if not t.get('sessions'):
-                out.append(f'<p>{esc(t.get("session_times_reason") or "Οι ώρες των περιόδων δεν έχουν επαληθευτεί.")}</p>')
-        else:
-            out.append('<h4>Τελευταίος ολοκληρωμένος αγώνας</h4>'+fixture(t.get('last_match')))
-            out.append(f'<h4>Ανάγνωση του αγώνα</h4><p>{esc(t["analysis"])}</p>')
-            out.append('<h4>Επόμενος αγώνας</h4>'+fixture(t.get('next_fixture')))
-            out.append(f'<p>Βαθμολογία: {esc(t.get("league_position") or UNKNOWN)} · Φόρμα: {esc(t.get("form") or UNKNOWN)}</p><h4>Τι παρακολουθούμε</h4><p>{esc(t["watch_next"])}</p>')
-        out.append('<h4>Νεότερες εξελίξεις</h4>')
-        for u in t['updates']:
-            out.append(f'<p><time>{stamp(u["published_at"])}</time> · {esc(u["status"])} · {esc(u["text"])}</p>'+source_links(u['sources']))
-        if not t['updates']:
-            out.append(f'<p>{esc(t["no_update_reason"])}</p>')
-        out.append('</details></article>')
-    out.append('</div><h3>Μεγάλες αθλητικές ειδήσεις</h3>')
-    for a in e['sports']['major_stories']:
-        full=next((x for x in articles if x['id']==a['article_id']),None)
-        if full and full.get('newspaper_analysis'):
-            out.append(card(e,full))
-            continue
-        out.append(f'<article class="sport"><h3>{esc(a["headline"])}</h3><p>{stamp(a["published_at"])}</p><p>{esc(a["summary"])}</p><details><summary>Περισσότερα</summary><p>{esc(a["why_it_matters"])}</p>'+source_links(a['sources'])+f'<a class="read-link" href="../articles/{e["id"]}/{a["article_id"]}.html">Διάβασε την ανάλυση ↗</a></details></article>')
-    if not e['sports']['major_stories']:
-        out.append(f'<p>{esc(e["sports"]["major_stories_reason"])}</p>')
-    out.append('</section>')
-    return ''.join(out)
+def sports(e, articles=(), anchors=None, include_major=True):
+    return load_module('sports').render(SimpleNamespace(**globals()), e, articles, anchors, include_major)
+
 
 def load_module(name):
     spec=importlib.util.spec_from_file_location('oracle_'+name,Path(__file__).with_name(name+'.py'))

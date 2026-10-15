@@ -27,6 +27,9 @@ def run(output):
                     assert page.locator('.editorial-revision').is_visible()
                     for sid,a in records.items():
                         card=page.locator('[data-story-id="'+sid+'"]')
+                        if a.get('sports_interest','other')!='other':
+                            assert card.locator('xpath=..').locator('.sport-news-link').count()==1
+                            continue
                         bar=card.locator('.article-actions')
                         controls=bar.locator(':scope > details > summary,:scope > .story-actions > a')
                         boxes=[control.bounding_box() for control in controls.all()]

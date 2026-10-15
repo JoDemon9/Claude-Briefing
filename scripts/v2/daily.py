@@ -166,7 +166,7 @@ def render(b, model, bundles):
         eyebrow.clear()
         if hero:eyebrow.append(BeautifulSoup(b.emblem('lead'),'html.parser'))
         eyebrow.append('Πρώτο θέμα' if hero else {'cyprus':'Κύπρος','world':'Διεθνή','sports':'Αθλητικά'}[story['section']])
-        events = [x for x in model['updates'] if x['story_id'] == story['story_id'] and x['origin']['edition_id'] == e['id']]
+        events = [x for x in model['updates'] if x['story_id'] == story['story_id'] and x['origin']['edition_id'] == e['id'] and e['id'] == bundles[-1][0]['id']]
         kinds = {x['kind'] for x in events}
         label = 'Συντακτική διόρθωση' if 'correction' in kinds else 'Ενημερώθηκε' if 'substantive_update' in kinds else 'Νέο' if 'new' in kinds else 'Από το πρωινό' if e['type'] == 'morning' else 'Από τη ' + b.TYPES[e['type']].lower()
         note = doc.new_tag('p', attrs={'class': 'story-origin'})
@@ -217,8 +217,14 @@ def render(b, model, bundles):
     links=[[{'url':'#story-'+digest(sid)[:12],'label':selected(next(s for s in model['stories'] if s['story_id']==sid))[1]['headline']} for sid in point['story_ids']] for point in points]
     html += b.load_module('newspaper_ui').summary(b,[p['text'] for p in points],'Η ημέρα σε 60 δευτερόλεπτα' if overview['kind']=='reviewed' else 'Επιλεγμένες ειδήσεις της ημέρας',links)
     lead = next(s for s in model['stories'] if s['story_id'] == model['lead_story_id'])
-    html += '<div class="day-lead">' + card(lead, True) + '</div>'
-    html += '<section class="section day-changes" id="changes"><div class="sectionhead"><h2>'+b.emblem('changes')+'Τι άλλαξε.</h2></div>'
+    # One editorial opening, with links into unique cards further down the page.
+    picks = []
+    for section in ('world', 'cyprus'):
+        picks.extend([story for story in model['stories'] if story != lead and story['section'] == section][:2])
+    picks.sort(key=lambda story: (story['priority'], story['story_id']))
+    brief = ''.join('<div class="brief-line"><b>' + f'{i+1:02}' + '</b><p><a href="#story-' + digest(story['story_id'])[:12] + '">' + b.esc(selected(story)[1]['headline']) + '</a></p></div>' for i, story in enumerate(picks))
+    html += '<div class="hero-grid day-lead">' + card(lead, True) + '<aside class="hero-side"><div class="brief-panel"><div class="heading">Η επιλογή της ημέρας</div><h3>Σημαντικά<br><em>σε μία ματιά.</em></h3>' + brief + '</div></aside></div>'
+    changes_html = '<details class="section day-changes" id="changes"><summary>'+b.emblem('changes')+'Το χρονικό της ημέρας <span>Ενημερώσεις και προηγούμενες αναφορές</span></summary>'
     changes = [x for x in model['updates'] if x['kind'] != 'provenance']
     def event_html(event):
         origin,articles=lookup[event['origin']['edition_id']]
@@ -230,19 +236,34 @@ def render(b, model, bundles):
         evidence='<details class="update-sources"><summary>Αναφορά και πηγές <span class="disclosure-count">'+str(len(event['source_urls']))+'</span></summary><div class="update-source-links">'+origin_link+links+'</div></details>'
         return '<li class="update-card"><div class="update-meta"><span class="story-status status-'+event['kind']+'">'+LABELS[event['kind']]+'</span><time datetime="'+b.esc(event['at'])+'">'+b.stamp(event['at'],model['timezone'])+'</time></div><div class="update-body"><h3 class="visually-hidden">'+b.esc(title)+'</h3><p>'+b.esc(event['summary'])+'</p></div><div class="update-actions">'+evidence+'</div></li>'
     from urllib.parse import urlsplit
-    html += '<ol class="update-timeline">' + ''.join(event_html(x) for x in changes[-5:][::-1]) + '</ol>' if changes else '<p class="empty-state">Δεν έχει τεκμηριωθεί νέα ουσιαστική εξέλιξη. Η προέλευση αναγράφεται σε κάθε ιστορία.</p>'
+    changes_html += '<ol class="update-timeline">' + ''.join(event_html(x) for x in changes[-5:][::-1]) + '</ol>' if changes else '<p class="empty-state">Δεν έχει τεκμηριωθεί νέα ουσιαστική εξέλιξη. Η προέλευση αναγράφεται σε κάθε ιστορία.</p>'
     if len(changes) > 5:
-        html += '<details class="changes-history"><summary>Όλο το ιστορικό ενημερώσεων</summary><ol class="update-timeline">' + ''.join(event_html(x) for x in changes[:-5][::-1]) + '</ol></details>'
-    html += '</section>'
-    for section, label in [('cyprus','Κύπρος'), ('world','Διεθνή')]:
-        html += '<section class="section" id="' + section + '"><div class="sectionhead"><h2>' + b.emblem(section) + label + '.</h2></div><div class="g3">' + ''.join(card(s) for s in model['stories'] if s['section'] == section and s != lead) + '</div></section>'
-    sport_edition = dict(latest, sports=dict(latest['sports'], major_stories=[]))
-    html += b.sports(sport_edition).replace('<h3>Μεγάλες αθλητικές ειδήσεις</h3>', '')
-    sport_stories = [s for s in model['stories'] if s['section'] == 'sports' and s != lead]
+        changes_html += '<details class="changes-history"><summary>Όλο το ιστορικό ενημερώσεων</summary><ol class="update-timeline">' + ''.join(event_html(x) for x in changes[:-5][::-1]) + '</ol></details>'
+    changes_html += '</details>'
+    for section, label in [('world','Διεθνή'), ('cyprus','Κύπρος')]:
+        stories = [story for story in model['stories'] if story['section'] == section and story != lead]
+        if stories:
+            html += '<section class="section" id="' + section + '"><div class="sectionhead"><h2>' + b.emblem(section) + label + '.</h2><span>' + str(len(stories)) + ' ιστορίες</span></div><div class="g3">' + ''.join(card(story) for story in stories) + '</div></section>'
+    html += changes_html
+    sports_module = b.load_module('sports')
+    anchors = {}
+    sport_stories = []
+    for story in model['stories']:
+        if story['section'] != 'sports' or story == lead:
+            continue
+        _, article = selected(story)
+        interest = sports_module.interest(article)
+        if interest in b.TEAMS:
+            anchors.setdefault(interest, []).append((story['story_id'], digest(story['story_id'])[:12]))
+        else:
+            sport_stories.append(story)
+    html += b.sports(latest, anchors=anchors, include_major=False)
     if sport_stories:
-        html += '<section class="section"><h2>Μεγάλες αθλητικές ιστορίες</h2><div class="g3">' + ''.join(card(s) for s in sport_stories[:3]) + '</div>'
-        if len(sport_stories) > 3:
-            html += '<details><summary>Περισσότερες αθλητικές ιστορίες της ημέρας</summary><div class="g3">' + ''.join(card(s) for s in sport_stories[3:]) + '</div></details>'
+        # Latest participating reporting first; preserve older independent readers.
+        sport_stories.sort(key=lambda story: (-SLOTS.index(lookup[story['selected']['edition_id']][0]['type']), story['priority'], story['story_id']))
+        html += '<section class="section sports-other" id="other-sports"><div class="sectionhead"><h2>Από τον υπόλοιπο αθλητισμό.</h2></div><div class="g3">' + ''.join(card(story) for story in sport_stories[:2]) + '</div>'
+        if len(sport_stories) > 2:
+            html += '<details class="sports-archive"><summary>Περισσότερες αθλητικές ιστορίες της ημέρας</summary><div class="g3">' + ''.join(card(story) for story in sport_stories[2:]) + '</div></details>'
         html += '</section>'
     quotes = {}
     panels = {}

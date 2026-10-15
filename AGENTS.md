@@ -1,5 +1,11 @@
 # Οδηγίες για βοηθούς — Claude-Briefing
 
+Latest follow-up DEC-011: use small authentic local club/F1 logo images instead of the four sports emojis. See EDITORIAL_POLICY.md; this supersedes older emoji-only/no-logo presentation rules and keeps the four news links compact.
+
+## Latest requested fixes — DEC-008/009/010
+Read the sports/composition/morning policy in [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md). Four favourite interests render as direct official news links only. The separate sports desk contains up to two `sports_interest=other` stories, excluding all four favourites. The daily newspaper has one lead, a linked editorial selection, global/Cyprus sections and a collapsed chronology below the news; keep stable story IDs, cumulative overview and archived readers. Morning: at most five Cyprus stories, normally five globals, six or seven only when justified, including the lead in its actual section. From 16 October morning publication requires `selection_review.version=1` and a reason for six/seven globals; every new sports article requires explicit `sports_interest`. Existing standalone inventories and source/publication times remain preserved. This request authorizes corresponding changes to the three existing scheduled prompts, without changing schedules or unrelated instructions.
+
+
 ## Νεότερο αίτημα χρήστη — DEC-006 / DEC-007
 Διάβασε την ενεργή πολιτική https://github.com/JoDemon9/Claude-Briefing/blob/main/EDITORIAL_POLICY.md. Τρία article controls σε μία σειρά desktop/mobile, native αναπτύξεις από κάτω. Δεν εμφανίζονται λεζάντες ή panels φωτογραφίας/δικαιωμάτων ανά άρθρο· διατηρούνται ακριβές alt, metadata, gates και ενιαία σελίδα συντελεστών από το footer. Χωριστή ενότητα Επιδοτήσεις & δικαιώματα με πλήρη ελεγμένα edition.opportunities, σταθερά IDs, eligibility, ποσά, επίσημη αίτηση/οδηγίες, ημερομηνίες έναρξης/λήξης και χρόνο ελέγχου. Μην παρουσιάζεις κλειστή πρόσκληση, άγνωστη ημερομηνία ή πρόταση νόμου ως ενεργό δικαίωμα. Μην υποθέτεις προσωπική επιλεξιμότητα. Το νεότερο αίτημα εξουσιοδοτεί αντίστοιχες στοχευμένες αλλαγές στα τρία υπάρχοντα scheduled prompts χωρίς αλλαγή προγράμματος ή άλλων οδηγιών.
 

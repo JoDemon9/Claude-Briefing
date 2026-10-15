@@ -68,13 +68,18 @@ def run(output):
                         assert page.locator('.summary-points').evaluate('(x)=>getComputedStyle(x).gridTemplateColumns.split(" ").length')==(3 if width>=1100 else 1)
                         for key,team in edition['sports']['coverage'].items():
                             card=page.locator('.team-'+key)
-                            assert team['summary'] in card.inner_text()
-                            assert float(card.locator('p').first.evaluate('(x)=>parseFloat(getComputedStyle(x).fontSize)'))>=16
+                            assert card.locator('a.sport-news-link').count()==1
+                            assert card.locator('details,p').count()==0
                             assert card.locator('.teamicon').get_attribute('aria-hidden')=='true'
-                            more=card.locator('details>summary');more.focus();page.keyboard.press('Enter')
-                            assert card.locator('details').evaluate('(x)=>x.open')
+                            logo=card.locator('img.sport-logo');logo.scroll_into_view_if_needed()
+                            logo.evaluate('(x)=>x.decode()')
+                            assert logo.evaluate('(x)=>x.naturalWidth>0&&x.naturalHeight>0')
+                            assert logo.get_attribute('src').startswith('../assets/brands/')
+                            assert logo.bounding_box()['width']<=38 and logo.bounding_box()['height']<=38
+                            link=card.locator('a');link.focus()
+                            assert link.evaluate('(x)=>document.activeElement===x')
+                            assert link.bounding_box()['height']>=44
                             assert not page.evaluate('document.documentElement.scrollWidth>innerWidth+1')
-                            more.click()
                         is_day=route==model['url']
                         if not is_day:
                             assert page.locator('.edition-change').count()==len(edition['changes'])

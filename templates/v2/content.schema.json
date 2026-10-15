@@ -324,6 +324,15 @@
         "reader_value": {
           "type": "string",
           "minLength": 15
+        },
+        "sports_interest": {
+          "enum": [
+            "omonoia",
+            "manutd",
+            "realmadrid",
+            "formula1",
+            "other"
+          ]
         }
       },
       "additionalProperties": false
@@ -1262,6 +1271,31 @@
       "maxItems": 20,
       "items": {
         "$ref": "#/$defs/opportunity"
+      }
+    },
+    "selection_review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "completed_at",
+        "global_exception_reason"
+      ],
+      "properties": {
+        "version": {
+          "const": 1
+        },
+        "completed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "global_exception_reason": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 20
+        }
       }
     }
   },

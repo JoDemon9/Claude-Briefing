@@ -1,5 +1,11 @@
 # Ακριβείς οδηγίες αντικατάστασης των εξωτερικών ChatGPT tasks
 
+Latest follow-up DEC-011: use small authentic local club/F1 logo images instead of the four sports emojis. See EDITORIAL_POLICY.md; this supersedes older emoji-only/no-logo presentation rules and keeps the four news links compact.
+
+## Latest requested fixes — DEC-008/009/010
+Read the sports/composition/morning policy in [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md). Four favourite interests render as direct official news links only. The separate sports desk contains up to two `sports_interest=other` stories, excluding all four favourites. The daily newspaper has one lead, a linked editorial selection, global/Cyprus sections and a collapsed chronology below the news; keep stable story IDs, cumulative overview and archived readers. Morning: at most five Cyprus stories, normally five globals, six or seven only when justified, including the lead in its actual section. From 16 October morning publication requires `selection_review.version=1` and a reason for six/seven globals; every new sports article requires explicit `sports_interest`. Existing standalone inventories and source/publication times remain preserved. This request authorizes corresponding changes to the three existing scheduled prompts, without changing schedules or unrelated instructions.
+
+
 Ενεργή πολιτική ανάγνωσης/ημέρας: [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md), DEC-004/DEC-005. Υπερισχύει των παλιότερων ορίων λέξεων, υποχρεωτικού αντίλογου και αρχικά ανοικτής ανάλυσης lead. Το αίτημα 15/10 εξουσιοδοτεί μόνο τις σχετικές αλλαγές στα τρία υπάρχοντα ChatGPT prompts, χωρίς αλλαγή προγράμματος.
 
 ## Εφημερίδα ημέρας — ενεργή αρχιτεκτονική 13/10/2026
