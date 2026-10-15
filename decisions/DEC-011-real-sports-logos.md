@@ -10,3 +10,5 @@ Use exact Omonoia, Manchester United and Real Madrid crests and the F1 logo as l
 Official Omonoia and F1 assets and Wikipedia's identifying club crests were retrieved. Source URLs, brand owners, retrieval instants, SHA-256 and honest non-open rights metadata are kept in templates/v2/sports-logos.json; the shared image credits page links original sources and owners once. These identifying marks are separate from licensed article photographs. No invented logo, hotlink, false open license, source or publication time is introduced.
 
 Affected: sports.py, build.py shared credits, sports CSS, local assets, source metadata, portal release asset types and relevant browser/unit checks. Publication state and verification results are recorded in RELEASE_NOTES_2026-10-15-CURATION.md.
+
+The central refresh verifier now decodes hashed SVG/raster assets with Image.decode and an explicit SVG MIME type; createImageBitmap rejected the new SVG crests. Byte hashes and the saved-good-snapshot fallback remain enforced. The simulated-next-publication browser case exercises the actual logo assets.
