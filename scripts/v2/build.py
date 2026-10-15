@@ -106,6 +106,7 @@ def validate(e, articles):
     schema = read(ROOT/'templates/v2/content.schema.json')
     Draft202012Validator(schema, format_checker=FormatChecker()).validate(e)
     load_module('opportunities').validate(e.get('opportunities',[]))
+    load_module('backend').check_contract(ROOT,e,articles)
     if e['id'] != f'{e["date"]}-{e["type"]}':
         raise ValueError('Edition ID/date/type mismatch')
     if e['published_at'] and datetime.fromisoformat(e['published_at']).astimezone(ZoneInfo(e['timezone'])).date().isoformat() != e['date']:
@@ -310,7 +311,7 @@ def edition_panels(e):
         out.append(source_disclosure(panel['sources'], 'Πηγές της ενότητας')+'</section>')
     return ''.join(out)
 
-def _render(root=ROOT):
+def _render(root=ROOT, affected=None):
     global ROOT
     ROOT = Path(root)
     import importlib.util
@@ -344,8 +345,19 @@ def _render(root=ROOT):
             previous_article=ROOT/'docs/data/articles'/e['id']/(a['id']+'.json')
             if previous_article.exists() and read(previous_article)['published_at'] != a['published_at']:
                 raise ValueError('Keep the original article published_at on correction')
+    backend = load_module('backend')
+    aliases_path = ROOT/'content/day-story-aliases.json'
+    reviews_path = ROOT/'content/story-identity-reviews.json'
+    identity = backend.story_registry(bundles,read(aliases_path) if aliases_path.exists() else {},read(reviews_path) if reviews_path.exists() else {})
+    write(ROOT/'docs/data/capabilities.json',json.dumps(backend.capabilities(ROOT),ensure_ascii=False,indent=2)+'\n')
+    write(ROOT/'docs/data/edition-contracts.json',json.dumps({e['id']:{'contract':e['producer_contract'],'source_sha256':backend.edition_fingerprint(e,aa)} for e,aa in bundles if e.get('producer_contract')},ensure_ascii=False,indent=2)+'\n')
+    write(ROOT/'docs/data/story-registry.json',json.dumps(identity,ensure_ascii=False,indent=2)+'\n')
+    write(ROOT/'docs/data/freshness.json',json.dumps({'schema_version':1,'editions':[backend.freshness(e,aa) for e,aa in bundles]},ensure_ascii=False,indent=2)+'\n')
     search = []
     for e, aa in bundles:
+        search.extend({'id':a['story_id'],'edition_id':e['id'],'date':e['date'],'headline':a['headline'],'summary':a['summary'],'body':' '.join(p for section in a['sections'] for p in section['paragraphs']),'url':article_url(e,a)} for a in aa)
+        if affected is not None and e['id'] not in affected:
+            continue
         date = stamp(e['published_at'],e['timezone'])
         body = head(f'{TYPES[e["type"]]} έκδοση · {e["date"]} · {e["title"]}',e['url'],'newspaper','../',e['type'])
         slot = ' · '+esc(e['scheduled_slot']) if e.get('scheduled_slot') else ''
@@ -396,7 +408,6 @@ def _render(root=ROOT):
             p=p.replace('</main></body>', '<footer class="shell"><a href="'+BASE+'photo-credits.html">Συντελεστές εικόνων</a></footer></main></body>')
             write(ROOT/'docs'/url,p)
             write(ROOT/'docs/data/articles'/e['id']/(a['id']+'.json'),json.dumps(a,ensure_ascii=False,indent=2)+'\n')
-            search.append({'id':a['story_id'],'edition_id':e['id'],'date':e['date'],'headline':a['headline'],'summary':a['summary'],'body':' '.join(p for s in a['sections'] for p in s['paragraphs']),'url':url})
     write(ROOT/'docs/photo-credits.html',photo_credits(bundles))
     registry.sort(key=lambda x:x['published_at'] or x['date'],reverse=True)
     write(ROOT/'docs/data/editions.json',json.dumps(registry,ensure_ascii=False,indent=2)+'\n')
@@ -425,20 +436,25 @@ def _render(root=ROOT):
     pages={e['url'] for e,_ in bundles if not e.get('preserve_legacy_html') or e.get('image_review')}
     pages.update(article_url(e,a) for e,aa in bundles for a in aa)
     pages.update(alias for e,_ in bundles for alias in e.get('aliases',[]))
+    if affected is not None:
+        pages = {page for page in pages if any(page == e['url'] or page in e.get('aliases',[]) or page.startswith('articles/'+e['id']+'/') for e,_ in bundles if e['id'] in affected)}
     for page_url in sorted(pages):
         path=ROOT/'docs'/page_url
         write(path,latest.version_resources(path.read_text(encoding='utf-8'),ROOT,page_url))
     latest.publish(ROOT,registry)
-    load_module('daily').publish(SimpleNamespace(**globals()),latest,bundles)
+    load_module('daily').publish(SimpleNamespace(**globals()),latest,bundles,affected_dates=None if affected is None else {e['date'] for e,_ in bundles if e['id'] in affected})
     write(ROOT/'docs/assets/latest-briefing.js',(ROOT/'templates/v2/latest-briefing.js').read_text(encoding='utf-8'))
     print(f'Built {len(bundles)} editions, {len(search)} separate articles, {len(registry)} archive entries')
 
 
-def build(root=ROOT):
+def build(root=ROOT, incremental=False):
     """Publish a fully validated local candidate, with rollback; no remote writes."""
     global ROOT
     actual = Path(root).resolve()
     previous = ROOT
+    cache = load_module('incremental')
+    affected = cache.affected(actual,Path(__file__).parent,incremental)
+    input_state = cache.inputs(actual,Path(__file__).parent)
     try:
         with tempfile.TemporaryDirectory(prefix='oracle-build-', dir=actual.parent) as directory:
             candidate = Path(directory)/'candidate'
@@ -446,7 +462,9 @@ def build(root=ROOT):
             for name in ['content', 'templates', 'docs']:
                 if (actual/name).exists():
                     shutil.copytree(actual/name, candidate/name)
-            _render(candidate)
+            _render(candidate,affected)
+            if cache.inputs(actual,Path(__file__).parent) != input_state:
+                raise ValueError('Publication inputs changed during build; retry from validation')
             live = actual/'docs'
             backup = Path(directory)/'previous-docs'
             had_live = live.exists()
@@ -458,11 +476,14 @@ def build(root=ROOT):
                 if had_live:
                     os.replace(backup, live)
                 raise
+            cache.save(actual,Path(__file__).parent,load_module('atomic'))
     finally:
         ROOT = previous
+    return {'mode':'full' if affected is None else 'incremental','rendered_editions':None if affected is None else sorted(affected)}
 
 if __name__ == '__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root',type=Path,default=ROOT)
+    parser.add_argument('--incremental',action='store_true')
     args=parser.parse_args()
-    build(args.root)
+    print(json.dumps(build(args.root,args.incremental)))

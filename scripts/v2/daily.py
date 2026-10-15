@@ -328,7 +328,7 @@ def render(b, model, bundles):
     html += '<footer class="day-footer"><span>THE ORACLE SOVEREIGN · '+model['date']+'</span><a href="../'+model['url']+'">'+b.icon('book')+'Μόνιμο αρχείο αυτής της ημέρας</a><a href="../daily/index.html">'+b.icon('archive')+'Αρχείο ημερών</a><details class="edition-about"><summary>Τι αποθηκεύεται εδώ;</summary><p>Η εφημερίδα ημέρας συγκεντρώνει τα κύρια νέα των δημοσιευμένων πρωινών, μεσημεριανών και βραδινών εκδόσεων, χωρίς διπλές ιστορίες. Ανανεώνεται στην ίδια διεύθυνση και διατηρείται στο αρχείο ανά ημερομηνία. Τα τρία briefings και οι αναλυτικοί readers παραμένουν στα δικά τους URLs.</p><p>Δημιουργία ημερήσιου αρχείου: ' + b.stamp(model['created_at']) + ' · ' + model['timezone'] + '. Οι ώρες πηγών και τιμών διατηρούνται. Κάθε reader ανήκει στη συγκεκριμένη έκδοση.</p></details></footer></main></body></html>'
     return b.load_module('newspaper_ui').decorate(b,html,latest,model)
 
-def publish(b, latest_module, bundles):
+def publish(b, latest_module, bundles, affected_dates=None):
     root = b.ROOT
     alias_path = root/'content/day-story-aliases.json'
     aliases = b.read(alias_path) if alias_path.exists() else {}
@@ -337,6 +337,9 @@ def publish(b, latest_module, bundles):
         day_bundles = sorted([(e, aa) for e, aa in bundles if e['date'] == date], key=lambda pair: SLOTS.index(pair[0]['type']))
         path = root/'docs/data/days'/f'{date}.json'
         previous = b.read(path) if path.exists() else None
+        if affected_dates is not None and date not in affected_dates and previous and (root/'docs'/previous['url']).is_file():
+            records.append({k:previous[k] for k in ('date','url','created_at','updated_at','missing_slots')})
+            continue
         model = compose(date, day_bundles, previous, aliases)
         validate(root, model, bundles)
         b.write(path, json.dumps(model, ensure_ascii=False, indent=2)+'\n')

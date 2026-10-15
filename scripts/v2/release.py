@@ -4,6 +4,8 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
+import importlib.util
 import shutil
 import tempfile
 import time
@@ -57,7 +59,7 @@ def manifest(root=ROOT):
             source_paths.append(root/'content'/relative)
     source_paths += sorted((root/'templates/v2').rglob('*'))
     source_paths += sorted((root/'scripts/v2').glob('*.py'))
-    source_paths += [root/'content/day-story-aliases.json']
+    source_paths += sorted((root/'content').glob('*.json'))
     sources = {p.relative_to(root).as_posix(): digest(p) for p in source_paths if p.is_file()}
     identity = hashlib.sha256(json.dumps({'sources': sources, 'files': files}, sort_keys=True).encode()).hexdigest()
     return {'schema_version': 1, 'release_id': identity, 'edition_ids': [r['id'] for r in records],
@@ -69,7 +71,9 @@ def record(root=ROOT):
     root = Path(root)
     receipt = manifest(root)
     target = root/'docs/data/release.json'
-    target.write_text(json.dumps(receipt, ensure_ascii=False, indent=2)+'\n', encoding='utf-8', newline='\n')
+    spec=importlib.util.spec_from_file_location('record_atomic',Path(__file__).with_name('atomic.py'))
+    atomic=importlib.util.module_from_spec(spec);spec.loader.exec_module(atomic)
+    atomic.write_json(target,receipt)
     return receipt
 
 
@@ -96,7 +100,7 @@ def stage(root, destination):
     return receipt
 
 
-def verify_live(root=ROOT, base=BASE, opener=None):
+def verify_live(root=ROOT, base=BASE, opener=None, full=False, workers=6):
     """Check exact deployed bytes, not just HTTP 200 or a green code test."""
     if base != BASE:
         raise ValueError('Only the configured public Pages origin may be verified')
@@ -105,11 +109,27 @@ def verify_live(root=ROOT, base=BASE, opener=None):
     if manifest(root)['release_id'] != receipt['release_id']:
         raise ValueError('Rebuild the receipt; local files changed')
     opener = opener or urllib.request.urlopen
-    names = ['data/release.json', 'data/editions.json']
-    names += [name for name in ['latest.html','data/latest.json','today.html','data/day-latest.json','data/days.json','photo-credits.html'] if name in receipt['files']]
-    names += [r['url'] for r in json.loads((root/'docs/data/editions.json').read_text(encoding='utf-8'))]
-    names += [name for name in receipt['files'] if name.startswith(('articles/', 'assets/', 'daily/', 'data/days/'))]
-    for name in dict.fromkeys(names):
+    output = root/'.work/publication-check.json'
+    try:
+        previous = json.loads(output.read_text())
+        trusted = previous.get('files',{}) if previous.get('status')=='verified' and previous.get('base_url')==base else {}
+    except (OSError,ValueError,TypeError):
+        trusted = {}
+    changed = {name for name,sha in receipt['files'].items() if trusted.get(name)!=sha}
+    critical = {'data/release.json','data/editions.json'}
+    critical.update(name for name in ('index.html','latest.html','data/latest.json','today.html','data/day-latest.json','data/days.json','data/capabilities.json','data/story-registry.json','data/freshness.json') if name in receipt['files'])
+    records = json.loads((root/'docs/data/editions.json').read_text())
+    current_date = max((r.get('date','') for r in records),default='')
+    for record in records:
+        if record.get('date','') == current_date:
+            critical.add(record['url'])
+            critical.update(name for name in receipt['files'] if name.startswith(('articles/'+record['id']+'/', 'data/articles/'+record['id']+'/')))
+    for descriptor in ('data/latest.json','data/day-latest.json'):
+        if descriptor in receipt['files']:
+            info=json.loads((root/'docs'/descriptor).read_text())
+            critical.update(urlsplit(url).path.removeprefix('/Claude-Briefing/') for url in info.get('asset_sha256',{}))
+    names = ['data/release.json',*sorted((set(receipt['files']) if full else changed)|critical-{'data/release.json'})]
+    def check(name):
         expected = digest(root/'docs'/name)
         request = urllib.request.Request(base+name+'?release='+receipt['release_id'], headers={'User-Agent': 'OracleReleaseCheck/1.0', 'Cache-Control': 'no-cache'})
         for attempt in range(3):
@@ -125,11 +145,16 @@ def verify_live(root=ROOT, base=BASE, opener=None):
                 time.sleep(attempt+1)
         if len(raw) > 10_000_000 or hashlib.sha256(raw).hexdigest() != expected:
             raise ValueError('Pages does not serve this release: '+name)
-    result = {'schema_version': 1, 'release_id': receipt['release_id'], 'status': 'verified', 'base_url': base,
-              'checked_files': len(set(names))}
-    output = root/'.work/publication-check.json'
-    output.parent.mkdir(exist_ok=True)
-    output.write_text(json.dumps(result, indent=2)+'\n', encoding='utf-8', newline='\n')
+    # Verify the release pointer first, then fetch assets with bounded concurrency.
+    check('data/release.json')
+    with ThreadPoolExecutor(max_workers=max(1,min(workers,8))) as pool:
+        list(pool.map(check,names[1:]))
+    result = {'schema_version': 2, 'release_id': receipt['release_id'], 'status': 'verified', 'base_url': base,
+              'mode':'full' if full or not trusted else 'changed_and_current',
+              'checked_files':len(names),'files':receipt['files']}
+    spec=importlib.util.spec_from_file_location('release_atomic',Path(__file__).with_name('atomic.py'))
+    atomic=importlib.util.module_from_spec(spec);spec.loader.exec_module(atomic)
+    atomic.write_json(output,result)
     return result
 
 
@@ -138,9 +163,10 @@ if __name__ == '__main__':
     parser.add_argument('--root', type=Path, default=ROOT)
     parser.add_argument('--stage', type=Path)
     parser.add_argument('--verify-live', action='store_true')
+    parser.add_argument('--full', action='store_true', help='Audit every archive file, independent of the last verified release')
     args = parser.parse_args()
     if args.verify_live:
-        print(json.dumps(verify_live(args.root), ensure_ascii=False))
+        print(json.dumps(verify_live(args.root,full=args.full), ensure_ascii=False))
     elif args.stage:
         print('Staged release', stage(args.root, args.stage)['release_id'])
     else:

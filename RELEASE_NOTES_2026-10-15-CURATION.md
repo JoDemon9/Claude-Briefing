@@ -31,3 +31,11 @@ All 112 article source files are byte-for-byte unchanged from the preceding revi
 The three internal ChatGPT prompts now also contain DEC-012, including explicit reviewed follow-ups and a guard against unsupported public fields before main is updated. Exact prompt read-back and preservation of titles, schedules, enabled states and timezone were verified; the fourth historical task is unchanged. Private local receipts remain in .work.
 
 Validation: 90 newspaper unit tests, 9 portal unit tests, 16 focused frontend scenarios, 14 editorial browser scenarios and 29 central refresh/browser cases pass locally. All 388 broad historical/browser checks also pass. The focused checks cover 320/375/390/1440px, keyboard/no-JavaScript dropdowns, lead image order, action alignment, explicit later-coverage navigation, hidden labels, logo decoding and light/dark themes. Main merges, CI and live Pages publication remain separate pending states.
+
+## DEC-013 backend follow-up
+
+All six backend recommendations are implemented on these same review branches. See [backend operations](BACKEND_OPERATIONS.md) and [DEC-013](decisions/DEC-013-backend-publication-reliability.md). The coordinator prepares safely by default; actual two-site publication remains a separately verified operation on reviewed main. Prompt contract/recovery instructions are active in the same three internal tasks, read back exactly, with all schedules/settings and the historical fourth task preserved.
+
+Local checks so far: the 104-test complete newspaper suite passed, the final 14-test backend suite passed after retry/Git changes, and an additional portal-promotion rollback case passed. All 11 portal tests and 29 central browser cases passed. All 112 article files and all five Wire/cache/health files are byte-identical to the preceding branch. The only edition-data additions are exact existing weather-validity metadata with next-slot editorial recheck deadlines.
+
+Final backend regression: all 388 newspaper browser checks pass, as do the 29 central browser cases. A no-change incremental rebuild renders zero edition/readers and preserves the exact manifest. Source/central manifests match their files; current per-slot status truthfully remains prepared with both sites pending publication. These are local results; no new main push, CI completion or live Pages verification is claimed.

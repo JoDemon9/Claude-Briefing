@@ -1,5 +1,8 @@
 # The Oracle Sovereign — προδιαγραφή εκδόσεων v2
 
+## Latest backend request — DEC-013
+Follow [BACKEND_OPERATIONS.md](BACKEND_OPERATIONS.md): resumable validated two-site publication with a private durable journal and explicit missing/failing slot/site status; machine-readable oracle-briefing/3 capabilities/schema hash; shared story registry and editorial duplicate review; source-backed typed freshness; conservative incremental rendering and bounded changed/current verification with a separate full archive audit. New contract, stable story_identity and structured weather-validity gates start 16 October 2026. Preserve unchanged historical contracts through accepted source fingerprints. No inferred outcomes, fuzzy automatic merges, private export, new scheduler, schedule changes or automatic PR merge. Actual main capabilities govern producers until these review branches are merged. The user's approval covers targeted corresponding updates to the three existing briefing prompts; other settings remain unchanged.
+
 ## Latest reading UI request — DEC-012
 Follow EDITORIAL_POLICY.md: compact native mobile edition dropdown/date/update row; mobile headline → photo → full summary → existing actions; explicit edition.daily.follow_ups links from earlier coverage to a genuinely later published outcome. Remove repeated 30-second labels and per-article reading-duration estimates entirely. The named daily overview, factual summaries, source/publication times, photo gates and three compact article controls remain. Since-last-visit tracking is deferred. New follow-up fields must follow the fetched main schema; do not infer relationships from similar titles or add future reporting to an independent snapshot.
 
