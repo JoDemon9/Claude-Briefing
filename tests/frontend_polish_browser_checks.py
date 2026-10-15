@@ -40,6 +40,20 @@ def run(output):
                         archive=page.locator('.hub-links a').last.get_attribute('href')
                         assert (ROOT/'docs'/route).parent.joinpath(archive).resolve().is_file()
                         assert page.locator('.hero h2').inner_text()==article['headline']
+                        # Quick titles inherit the paper theme, not the old dark-panel ink.
+                        for theme in ['light','dark']:
+                            page.locator('html').evaluate('(x,t)=>x.dataset.theme=t',theme)
+                            for title in page.locator('.brief-line a,.brief-line b').all():
+                                contrast=title.evaluate("""(x)=>{
+                                    const rgba=c=>c.match(/[0-9.]+/g).map(Number);
+                                    let parent=x,bg;
+                                    while(parent){bg=rgba(getComputedStyle(parent).backgroundColor);if(bg.length===3||bg[3]>0.99)break;parent=parent.parentElement;}
+                                    const lum=c=>c.slice(0,3).map(v=>{v/=255;return v<=0.04045?v/12.92:((v+0.055)/1.055)**2.4}).reduce((n,v,i)=>n+v*[0.2126,0.7152,0.0722][i],0);
+                                    const a=lum(rgba(getComputedStyle(x).color)),b=lum(bg);
+                                    return (Math.max(a,b)+0.05)/(Math.min(a,b)+0.05);
+                                }""")
+                                assert contrast>=4.5,('Quick-title contrast',theme,width,contrast)
+                        page.locator('html').evaluate('(x)=>x.dataset.theme="light"')
                         assert not page.locator('.hero .card-context').is_visible()
                         detail=page.locator('.hero .lead-analysis>summary');detail.focus();page.keyboard.press('Enter')
                         assert page.locator('.hero .card-context').is_visible()
