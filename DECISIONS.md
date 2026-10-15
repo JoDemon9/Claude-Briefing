@@ -6,6 +6,7 @@ This is the canonical record of user needs that future changes must respect. Rea
 
 | ID | User need | Current status | Record |
 | --- | --- | --- | --- |
+| DEC-012 | Compact mobile header, clear later developments, photo-first lead and no reading labels. | Locally validated on review branch; prompts updated; publication pending. | [Reading UI and follow-ups](decisions/DEC-012-reading-ui-and-followups.md) |
 | DEC-011 | Authentic small sports logos replace emojis. | Implemented; publication pending. | [Sports logos](decisions/DEC-011-real-sports-logos.md) |
 | DEC-008 | Four small sports links and two distinct other sports stories. | Implemented; publication pending. | [Compact sports](decisions/DEC-008-compact-sports.md) |
 | DEC-009 | Compose the day as one curated newspaper. | Implemented; publication pending. | [Daily composition](decisions/DEC-009-curated-daily-newspaper.md) |

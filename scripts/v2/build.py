@@ -3,7 +3,6 @@
 import argparse
 import html
 import json
-import math
 import re
 import os
 import shutil
@@ -242,7 +241,7 @@ def calculator(e):
 def card(e, a, hero=False):
     cl = 'hero' if hero else 'newscard'
     layered=e.get('reading_review',{}).get('version')==2
-    abstract=('<p class="reading-layer">Η είδηση · 30 δευτερόλεπτα</p>' if layered else '')+f'<div class="abstract"><p>{esc(a["summary"])}</p></div>'
+    abstract=f'<div class="abstract"><p>{esc(a["summary"])}</p></div>'
     shown=[]
     context=''
     if a.get('newspaper_analysis'):
@@ -259,9 +258,9 @@ def card(e, a, hero=False):
         if layered:
             context='<details class="card-analysis'+(' lead-analysis' if hero else '')+'"><summary>'+icon('book')+'Τι σημαίνει · ανάλυση</summary>'+context+'</details>'
         else:
-            context=('<section class="lead-analysis"><h3>'+icon('book')+'Γιατί έχει σημασία <span>½–1 λεπτό</span></h3>'+context+'</section>') if hero else '<details class="card-analysis"><summary>'+icon('book')+'Η ουσία · ½–1 λεπτό</summary>'+context+'</details>'
+            context=('<section class="lead-analysis"><h3>'+icon('book')+'Γιατί έχει σημασία</h3>'+context+'</section>') if hero else '<details class="card-analysis"><summary>'+icon('book')+'Η ουσία</summary>'+context+'</details>'
     sources=source_disclosure(a['sources'], 'Πηγές και στοιχεία', '<p class="muted">'+sources_label(a['sources'])+'</p>')
-    reader=f'<a class="read-link" href="../{article_url(e,a)}">{icon("book")} Πλήρης ανάλυση <span class="reading-time">{math.ceil(words(a)/220)}′</span>{icon("arrow")}</a>'
+    reader=f'<a class="read-link" href="../{article_url(e,a)}">{icon("book")} Πλήρης ανάλυση{icon("arrow")}</a>'
     if layered and a.get('reader_mode')=='source':
         source=next(s for s in a['sources'] if s.get('access')=='read' and s.get('used_for_claims'))
         reader='<a class="read-link original-report" href="'+esc(source['url'])+'" rel="noopener noreferrer">'+icon('book')+'Πλήρες ρεπορτάζ · '+esc(source['publisher'])+' ↗</a>'
@@ -383,7 +382,7 @@ def _render(root=ROOT):
             url=article_url(e,a)
             related=''.join(f'<a href="{esc(b["id"])}.html">{esc(b["headline"])}</a>' for b in aa if b['id']!=a['id'] and (b['story_id'] in a.get('related_story_ids',[]) or b['category']==a['category']))
             p=head(a['headline'],url,'article','../../')
-            p+=f'<header class="top"><div class="shell"><a class="logo" href="../../{e["url"]}">THE ORACLE SOVEREIGN.</a><nav class="navlinks"><a href="../../{e["url"]}">← Εφημερίδα</a><a href="../../search.html">{icon('search')} Αναζήτηση</a><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button></nav></div></header><main class="shell" id="main" data-article-key="{e["id"]}/{a["id"]}"><div class="kicker">{esc(a["category"])} · {TYPES[e["type"]]} έκδοση</div><h1>{esc(a["headline"])}</h1><div class="eyebrow">Συνοπτική καταγραφή της έκδοσης</div><p class="lede">{esc(a["summary"])}</p><div class="meta"><span>Δημοσίευση: {stamp(a["published_at"])}</span><span>Ενημέρωση: {stamp(a["updated_at"])}</span><span>{math.ceil(words(a)/220)} λεπτά ανάγνωσης · {words(a)} λέξεις</span><span>{sources_label(a["sources"])}</span></div>'+image(a,'../../')
+            p+=f'<header class="top"><div class="shell"><a class="logo" href="../../{e["url"]}">THE ORACLE SOVEREIGN.</a><nav class="navlinks"><a href="../../{e["url"]}">← Εφημερίδα</a><a href="../../search.html">{icon('search')} Αναζήτηση</a><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button></nav></div></header><main class="shell" id="main" data-article-key="{e["id"]}/{a["id"]}"><div class="kicker">{esc(a["category"])} · {TYPES[e["type"]]} έκδοση</div><h1>{esc(a["headline"])}</h1><div class="eyebrow">Συνοπτική καταγραφή της έκδοσης</div><p class="lede">{esc(a["summary"])}</p><div class="meta"><span>Δημοσίευση: {stamp(a["published_at"])}</span><span>Ενημέρωση: {stamp(a["updated_at"])}</span><span>{words(a)} λέξεις</span><span>{sources_label(a["sources"])}</span></div>'+image(a,'../../')
             if e.get('reading_review',{}).get('version')==2 and a.get('reader_mode')=='source':
                 source=next(s for s in a['sources'] if s.get('access')=='read' and s.get('used_for_claims'))
                 p+='<p><a class="read-link original-report" href="'+esc(source['url'])+'" rel="noopener noreferrer">'+icon('book')+'Πλήρες δημοσίευμα · '+esc(source['publisher'])+' ↗</a></p>'

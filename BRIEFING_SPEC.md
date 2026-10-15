@@ -1,5 +1,9 @@
 # The Oracle Sovereign — προδιαγραφή εκδόσεων v2
 
+## Latest reading UI request — DEC-012
+Follow EDITORIAL_POLICY.md: compact native mobile edition dropdown/date/update row; mobile headline → photo → full summary → existing actions; explicit edition.daily.follow_ups links from earlier coverage to a genuinely later published outcome. Remove repeated 30-second labels and per-article reading-duration estimates entirely. The named daily overview, factual summaries, source/publication times, photo gates and three compact article controls remain. Since-last-visit tracking is deferred. New follow-up fields must follow the fetched main schema; do not infer relationships from similar titles or add future reporting to an independent snapshot.
+
+
 Latest follow-up DEC-011: use small authentic local club/F1 logo images instead of the four sports emojis. See EDITORIAL_POLICY.md; this supersedes older emoji-only/no-logo presentation rules and keeps the four news links compact.
 
 ## Latest requested fixes — DEC-008/009/010

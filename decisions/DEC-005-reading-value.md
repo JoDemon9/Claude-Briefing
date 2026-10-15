@@ -37,3 +37,5 @@ For the initial reading request, three passages of each active daily task prompt
 The subsequent user request adds only the DEC-006 photo/action presentation instructions and the DEC-007 opportunity-tracking block. The three actual task prompts were updated and read back exactly; their title, schedule, timezone and enabled state were preserved. See [the final verification record](../RELEASE_NOTES_2026-10-15.md).
 
 Code is on main, both Pages releases passed live verification, and the three task prompts were updated/read back exactly. Evidence is maintained in [RELEASE_NOTES_2026-10-15.md](../RELEASE_NOTES_2026-10-15.md).
+
+Follow-up [DEC-012](DEC-012-reading-ui-and-followups.md) removes visible duration labels while preserving concise findings, and adds explicit later-coverage links and a compact mobile reading layout.

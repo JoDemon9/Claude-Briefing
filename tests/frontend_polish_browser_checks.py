@@ -40,6 +40,34 @@ def run(output):
                         archive=page.locator('.hub-links a').last.get_attribute('href')
                         assert (ROOT/'docs'/route).parent.joinpath(archive).resolve().is_file()
                         assert page.locator('.hero h2').inner_text()==article['headline']
+                        assert page.locator('.reading-layer,.reading-time').count()==0
+                        if width<700:
+                            assert not page.locator('.hub-guide').is_visible()
+                            assert not page.locator('.publication-bar>.edition-desk').is_visible()
+                            assert page.locator('.publication-bar').bounding_box()['height']<=72
+                            menu=page.locator('.mobile-editions')
+                            assert not menu.evaluate('(x)=>x.open')
+                            if route!=model['url']:
+                                assert {'morning':'Πρωινή','midday':'Μεσημεριανή','evening':'Βραδινή'}[edition['type']] in menu.locator('summary').inner_text()
+                            trigger=menu.locator('summary');trigger.focus();page.keyboard.press('Enter')
+                            assert menu.locator('.mobile-edition-panel').is_visible()
+                            assert menu.locator('.mobile-edition-links a').count()==len(model['editions'])
+                            trigger.click()
+                            headline=page.locator('.hero h2').bounding_box()
+                            photo=page.locator('.hero figure.photo').bounding_box()
+                            abstract=page.locator('.hero .abstract').bounding_box()
+                            actions=page.locator('.hero .article-actions').bounding_box()
+                            assert headline['y']+headline['height']<=photo['y']+1
+                            assert photo['y']+photo['height']<=abstract['y']+1
+                            assert abstract['y']+abstract['height']<=actions['y']+1
+                        if route==model['url']:
+                            for relation in model.get('follow_ups',[]):
+                                link=page.locator('[data-follow-up-story-id="'+relation['to_story_id']+'"]')
+                                target=link.get_attribute('href')
+                                link.click()
+                                assert page.locator(target).get_attribute('data-story-id')==relation['to_story_id']
+                                assert page.url.endswith(target)
+
                         # Quick titles inherit the paper theme, not the old dark-panel ink.
                         for theme in ['light','dark']:
                             page.locator('html').evaluate('(x,t)=>x.dataset.theme=t',theme)
@@ -90,7 +118,7 @@ def run(output):
                         if js and width in [375,1440]:
                             prefix=f'{width}-'+('day' if is_day else 'edition')
                             style='.stickybar,.back-top,.skip-link{visibility:hidden!important}'
-                            for selector,name in [('.hero','lead'),('.day-summary','overview'),('#sports .sports','sports'),('.hub-guide','home')]+([] if is_day else [('.edition-changes','changes')]):
+                            for selector,name in [('.hero','lead'),('.day-summary','overview'),('#sports .sports','sports'),('.publication-bar' if width<700 else '.hub-guide','home')]+([] if is_day else [('.edition-changes','changes')]):
                                 page.locator(selector).screenshot(path=str(output/f'{prefix}-{name}.png'),style=style)
                             page.locator('[data-theme-toggle]').click()
                             assert page.locator('html').get_attribute('data-theme')=='dark'

@@ -13,3 +13,5 @@ Extends DEC-004/005. Preserve one selected version per story, every participatin
 ## Verification and publication
 
 See tests/test_selection.py, relevant UI/browser checks and RELEASE_NOTES_2026-10-15-CURATION.md for actual checks, main commits, Pages and task status. Do not equate a local build with a live release. New selection gates begin with the 16 October morning; the rendered layout applies to maintained existing pages immediately.
+
+Follow-up [DEC-012](DEC-012-reading-ui-and-followups.md) removes visible duration labels while preserving concise findings, and adds explicit later-coverage links and a compact mobile reading layout.

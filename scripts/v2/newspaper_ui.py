@@ -29,6 +29,37 @@ def date_label(value):
     day=date.fromisoformat(value)
     return f'{DAYS[day.weekday()]} {day.day} {MONTHS[day.month-1]} {day.year}'
 
+def mobile_publication(doc, edition, day):
+    """Compact native mobile navigation, derived from the same edition records."""
+    bar=doc.select_one('.publication-bar')
+    if not bar or bar.select_one('.mobile-editions'):return
+    intro=bar.select_one('.introbar');desk=bar.select_one('.edition-desk')
+    if not intro or not desk:return
+    value=date.fromisoformat((day or edition)['date'])
+    calendar=doc.new_tag('time',attrs={'class':'mobile-publication-date','datetime':value.isoformat(),'title':date_label(value.isoformat())})
+    calendar.string=f'{DAYS[value.weekday()]} {value.day:02}/{value.month:02}'
+    intro.insert(0,calendar)
+    menu=doc.new_tag('details',attrs={'class':'mobile-editions'})
+    toggle=doc.new_tag('summary')
+    edition_name={'morning':'Πρωινή','midday':'Μεσημεριανή','evening':'Βραδινή'}[edition['type']]
+    toggle.string=f'Εκδόσεις · {len(day["editions"])}/3' if day else edition_name
+    toggle['aria-label']='Επιλογή εκδόσεων' if day else edition_name+' έκδοση · Επιλογή εκδόσεων'
+    menu.append(toggle)
+    panel=doc.new_tag('div',attrs={'class':'mobile-edition-panel'})
+    label=doc.new_tag('strong');label.string='Εφημερίδα ημέρας' if day else edition_name+' έκδοση'
+    panel.append(label)
+    if edition.get('scheduled_slot') and not day:
+        scheduled=doc.new_tag('p');scheduled.string='Προγραμματισμός: '+edition['scheduled_slot'];panel.append(scheduled)
+    links=BeautifulSoup(str(desk),'html.parser').nav
+    links['class']=['mobile-edition-links']
+    for node in links.select('b,.participating-caption'):node.decompose()
+    for node in links.select('[aria-current]'):
+        node['data-current-edition']='true';del node['aria-current']
+    panel.append(links)
+    home=doc.new_tag('a',href=HUB);home.string='Κύρια εφημερίδα ↗';panel.append(home)
+    archive=doc.new_tag('a',href='../daily/index.html');archive.string='Αρχείο ημερών';panel.append(archive)
+    menu.append(panel);bar.append(menu)
+
 def decorate(b, text, edition, day=None):
     doc=BeautifulSoup(text,'html.parser')
     main=doc.select_one('main.wrap')
@@ -119,6 +150,8 @@ def decorate(b, text, edition, day=None):
                 about=doc.select_one('.edition-about')
                 if about:about.append(note.extract())
             intro.append(status)
+    mobile_publication(doc,edition,day)
+    for label in doc.select('.reading-layer,.reading-time'):label.decompose()
     # Reuse the existing sources disclosure for the edition references as well.
     for card in doc.select('[data-story-id]'):
         history=card.select_one('.story-history')

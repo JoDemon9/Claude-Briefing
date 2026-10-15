@@ -1,6 +1,6 @@
 # Sports, daily composition and morning balance — 15 October 2026
 
-User request implemented as [DEC-008](decisions/DEC-008-compact-sports.md), [DEC-009](decisions/DEC-009-curated-daily-newspaper.md) [DEC-010](decisions/DEC-010-morning-news-balance.md) and [DEC-011](decisions/DEC-011-real-sports-logos.md).
+User request implemented as [DEC-008](decisions/DEC-008-compact-sports.md), [DEC-009](decisions/DEC-009-curated-daily-newspaper.md), [DEC-010](decisions/DEC-010-morning-news-balance.md) and [DEC-011](decisions/DEC-011-real-sports-logos.md).
 
 - Four favourite sports display one small official latest-news link each; small authentic local club/F1 logo images replace the emojis; no per-interest paragraphs or disclosures.
 - Separate sports selection excludes all four interests, including F1 management reports. Up to two other stories are selected; the current 15 October inventory has one eligible other story (Six Kings Slam), so an unsupported second story is not invented.
@@ -13,6 +13,21 @@ User request implemented as [DEC-008](decisions/DEC-008-compact-sports.md), [DEC
 
 ## Publication state
 
-Validated local implementation. Automatic approval review rejected direct default-branch publication because the fixes did not include explicit publication approval. The changes are prepared on review branches instead. Both main merges, Pages publication and the three existing task prompt updates remain pending; task edits depend on the new schema/renderer reaching main. These states must be verified separately. Schedules, enabled states, the unrelated fourth historical task, Wire and private notes are outside this change.
+Validated local implementation. Automatic approval review rejected direct default-branch publication because the fixes did not include explicit publication approval. The changes are prepared on review branches instead. Both main merges and Pages publication remain pending. The user separately authorized the three internal ChatGPT prompt edits; they were updated and read back exactly, with unchanged schedules/settings and a schema-compatibility guard until the reviewed website changes reach main. These states are verified separately. Schedules, enabled states, the unrelated fourth historical task, Wire and private notes are outside this change.
 
-Reviewable results: [newspaper PR #7](https://github.com/JoDemon9/Claude-Briefing/pull/7) and [central portal PR #9](https://github.com/JoDemon9/oracle-briefing/pull/9). Local previews and prepared exact task-prompt changes remain in .work (not published). Main/Pages/tasks are unchanged pending publication approval.
+Reviewable results: [newspaper PR #7](https://github.com/JoDemon9/Claude-Briefing/pull/7) and [central portal PR #9](https://github.com/JoDemon9/oracle-briefing/pull/9). Local previews and prepared exact task-prompt changes remain in .work (not published). Main/Pages remain unchanged pending publication approval. The three internal prompts are updated; the unrelated historical task remains unchanged.
+
+## Latest UI follow-up — DEC-012
+
+The user approved recommendations 1–3, requested complete removal of the repeated reading labels, and deferred since-last-visit tracking. The existing PRs now include:
+
+- A compact mobile date/update row and native edition dropdown, preserving edition identity, missing slots, home/archive links and distinct scheduled/publication times. The mobile publication bar measures 57px at 390px.
+- An explicit reviewed link from the stored morning markets/TSMC preview to the selected midday results, with earlier coverage marked as background. The renderer supports valid participating follow_ups and rejects absent/draft/future/self references and conflicting targets; obsolete pointers never lead backwards in edition chronology. No fuzzy headline/entity matching is used.
+- Mobile lead order: headline, licensed photograph, full factual summary, existing one-row actions.
+- Removal of repeated 30-second labels and per-article duration estimates, with no once-per-page replacement. The named cumulative overview and internal concise-summary gates remain.
+
+All 112 article source files are byte-for-byte unchanged from the preceding review branch. Edition data only gains the explicit cumulative relationship; all findings, publication/quote/source times, images, original article URLs and story IDs remain preserved. Since-last-visit tracking was not added.
+
+The three internal ChatGPT prompts now also contain DEC-012, including explicit reviewed follow-ups and a guard against unsupported public fields before main is updated. Exact prompt read-back and preservation of titles, schedules, enabled states and timezone were verified; the fourth historical task is unchanged. Private local receipts remain in .work.
+
+Validation: 90 newspaper unit tests, 9 portal unit tests, 16 focused frontend scenarios, 14 editorial browser scenarios and 29 central refresh/browser cases pass locally. All 388 broad historical/browser checks also pass. The focused checks cover 320/375/390/1440px, keyboard/no-JavaScript dropdowns, lead image order, action alignment, explicit later-coverage navigation, hidden labels, logo decoding and light/dark themes. Main merges, CI and live Pages publication remain separate pending states.

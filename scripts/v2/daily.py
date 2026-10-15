@@ -45,6 +45,28 @@ def newer_quote(candidate, previous, timezone_name):
         return True
     return left>=right
 
+def collect_follow_ups(stories, bundles, canonical=lambda sid:sid):
+    """Use explicit editorial relationships; never match headlines or keywords."""
+    by_edition={e['id']:index for index,(e,_) in enumerate(bundles)}
+    relations={}
+    for index,(edition,_) in enumerate(bundles):
+        declared=set()
+        for record in edition.get('daily',{}).get('follow_ups',[]):
+            origin,target=(canonical(record[key]) for key in ('from_story_id','to_story_id'))
+            if origin==target:raise ValueError('A story cannot follow up itself; use the same stable story ID for evolving versions')
+            if origin in declared:raise ValueError('Declare only one follow-up target per story in an edition')
+            declared.add(origin)
+            if any(sid not in stories for sid in (origin,target)):
+                raise ValueError('Follow-up references an unavailable participating story')
+            if any(min(by_edition[r['edition_id']] for r in stories[sid]['references'])>index for sid in (origin,target)):
+                raise ValueError('Follow-up cannot reference a future or draft edition')
+            relations[origin]={'from_story_id':origin,'to_story_id':target,'reviewed_in':edition['id']}
+    # A later update to the earlier story can make an old pointer obsolete.
+    # Keep its historical declaration but never send readers backwards in time.
+    return [record for origin,record in sorted(relations.items()) if
+            by_edition[stories[record['to_story_id']]['selected']['edition_id']]>
+            by_edition[stories[origin]['selected']['edition_id']]]
+
 def compose(date, bundles, previous=None, aliases=None, now=None):
     if previous and previous['date'] != date:
         previous = None
@@ -122,6 +144,7 @@ def compose(date, bundles, previous=None, aliases=None, now=None):
     opportunity=importlib.util.module_from_spec(spec);spec.loader.exec_module(opportunity)
     model['opportunities']=opportunity.collect(participating)
     model['overview']=load_editorial().overview(model['stories'],participating,canonical)
+    model['follow_ups']=collect_follow_ups(stories,participating,canonical)
     fingerprint = digest({'model': model, 'inputs': participating, 'aliases': aliases})
     moment = (now or datetime.now(timezone.utc)).isoformat()
     model['created_at'] = previous['created_at'] if previous else moment
@@ -136,6 +159,16 @@ def validate(root, model, bundles):
     if len({s['story_id'] for s in model['stories']}) != len(model['stories']):
         raise ValueError('Duplicate daily story')
     known={s['story_id'] for s in model['stories']}
+    if len({r['from_story_id'] for r in model.get('follow_ups',[])})!=len(model.get('follow_ups',[])):
+        raise ValueError('Only one selected follow-up per story is allowed')
+    # Model IDs have already been canonicalized by compose, including aliases.
+    for record in model.get('follow_ups',[]):
+        if record['from_story_id'] not in known or record['to_story_id'] not in known or record['reviewed_in'] not in {e['id'] for e in model['editions']}:
+            raise ValueError('Follow-up references an unavailable participating story or edition')
+        by_story={s['story_id']:s for s in model['stories']}
+        times={e['id']:instant(e['published_at']) for e in model['editions']}
+        if times[by_story[record['to_story_id']]['selected']['edition_id']]<=times[by_story[record['from_story_id']]['selected']['edition_id']]:
+            raise ValueError('Follow-up target must be a later published edition')
     if any(sid not in known for point in model.get('overview',{}).get('points',[]) for sid in point['story_ids']):
         raise ValueError('Daily overview references an unavailable story')
     for edition in model['editions']:
@@ -153,6 +186,8 @@ def validate(root, model, bundles):
 
 def render(b, model, bundles):
     lookup = {e['id']: (e, {a['id']: a for a in aa}) for e, aa in bundles}
+    follow_ups={r['from_story_id']:r['to_story_id'] for r in model.get('follow_ups',[])}
+    story_lookup={s['story_id']:s for s in model['stories']}
     def selected(story):
         e, aa = lookup[story['selected']['edition_id']]
         return e, aa[story['selected']['article_id']]
@@ -171,13 +206,25 @@ def render(b, model, bundles):
         label = 'Συντακτική διόρθωση' if 'correction' in kinds else 'Ενημερώθηκε' if 'substantive_update' in kinds else 'Νέο' if 'new' in kinds else 'Από το πρωινό' if e['type'] == 'morning' else 'Από τη ' + b.TYPES[e['type']].lower()
         note = doc.new_tag('p', attrs={'class': 'story-origin'})
         badge_kind='correction' if 'correction' in kinds else 'substantive_update' if 'substantive_update' in kinds else 'new' if 'new' in kinds else 'provenance'
+        successor=follow_ups.get(story['story_id'])
+        if successor:
+            label='Πρωινό πλαίσιο' if e['type']=='morning' else 'Προηγούμενη κάλυψη'
+            badge_kind='background'
+            node['class']=node.get('class',[])+['story-background']
         badge=doc.new_tag('span', attrs={'class':'story-status status-'+badge_kind})
-        marker=doc.new_tag('span',attrs={'class':'status-marker','aria-hidden':'true'});marker.string={'new':'✨','substantive_update':'🔄','correction':'✏️','provenance':'🗂️'}[badge_kind]
+        marker=doc.new_tag('span',attrs={'class':'status-marker','aria-hidden':'true'});marker.string={'new':'✨','substantive_update':'🔄','correction':'✏️','provenance':'🗂️','background':'🗂️'}[badge_kind]
         badge.append(marker);badge.append(label)
         note.append(badge)
         time=doc.new_tag('time',attrs={'datetime':e['published_at'],'title':'Δημοσίευση της επιλεγμένης έκδοσης'});time.string=b.stamp(e['published_at'],model['timezone'])
         note.append(time)
         node.select_one('.eyebrow').insert_after(note)
+        if successor:
+            _,outcome=selected(story_lookup[successor])
+            follow=doc.new_tag('aside',attrs={'class':'story-follow-up','aria-label':'Μεταγενέστερη εξέλιξη'})
+            link=doc.new_tag('a',href='#story-'+digest(successor)[:12],attrs={'data-follow-up-story-id':successor})
+            prefix=doc.new_tag('span');prefix.string='Νεότερη εξέλιξη →';link.append(prefix)
+            title=doc.new_tag('strong');title.string=outcome['headline'];link.append(title)
+            follow.append(link);node.select_one('h2,h3').insert_after(follow)
         # Older legacy articles retain full text in their readers; cards keep their
         # factual abstract and available editorial preview, without concatenation.
         for more in node.select('.story-more'):
@@ -185,7 +232,7 @@ def render(b, model, bundles):
         if hero and node.select_one('.card-context') and not node.select_one('.lead-analysis'):
             context = node.select_one('.card-context')
             details = doc.new_tag('section', attrs={'class': 'lead-analysis'})
-            summary = doc.new_tag('h3'); summary.string = 'Γιατί έχει σημασία · ½–1 λεπτό'
+            summary = doc.new_tag('h3'); summary.string = 'Γιατί έχει σημασία'
             context.replace_with(details); details.append(summary); details.append(context)
             duplicate_label=context.find('b',recursive=False)
             if duplicate_label:duplicate_label.decompose()

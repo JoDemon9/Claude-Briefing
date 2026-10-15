@@ -84,6 +84,7 @@ class EditorialValueTests(unittest.TestCase):
             a=self.articles[0];doc=BeautifulSoup(build.card(self.e,a,hero),'html.parser')
             self.assertEqual(doc.select_one('.abstract').get_text(),a['summary'])
             self.assertFalse(doc.select_one('.card-analysis').has_attr('open'))
-            self.assertIn('30 δευτερόλεπτα',doc.get_text())
+            self.assertNotIn('30 δευτερόλεπτα',doc.get_text())
+            self.assertFalse(doc.select('.reading-layer,.reading-time'))
 
 if __name__=='__main__':unittest.main()
