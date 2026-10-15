@@ -4,8 +4,8 @@
   "date": "2026-10-15",
   "type": "midday",
   "timezone": "Europe/Athens",
-  "published_at": "2026-10-15T13:48:29+03:00",
-  "editorial_completed_at": "2026-10-15T13:48:29+03:00",
+  "published_at": "2026-10-15T14:03:34+03:00",
+  "editorial_completed_at": "2026-10-15T14:03:34+03:00",
   "scheduled_slot": "13:30",
   "status": "published",
   "title": "Μεσημεριανός παλμός · GSI, Σένγκεν και πραγματικά αποτελέσματα TSMC",
@@ -635,7 +635,7 @@
       "precision": 2
     },
     {
-      "name": "STOXX Europe 600 · κλείσιμο 14/10",
+      "name": "STOXX Europe 600",
       "instrument": "^STOXX",
       "value": 636.32,
       "change_pct": -0.224,
@@ -660,7 +660,7 @@
       "precision": 2
     },
     {
-      "name": "FTSE 100 · κλείσιμο 14/10",
+      "name": "FTSE 100",
       "instrument": "^FTSE",
       "value": 10778.5,
       "change_pct": 0.5,
@@ -685,7 +685,7 @@
       "precision": 2
     },
     {
-      "name": "DAX · κλείσιμο 14/10",
+      "name": "DAX",
       "instrument": "^GDAXI",
       "value": 25197.14,
       "change_pct": -0.401,
@@ -710,7 +710,7 @@
       "precision": 2
     },
     {
-      "name": "CAC 40 · κλείσιμο 14/10",
+      "name": "CAC 40",
       "instrument": "^FCHI",
       "value": 7883.24,
       "change_pct": 0.129,
@@ -735,7 +735,7 @@
       "precision": 2
     },
     {
-      "name": "Nikkei 225 · πρωινό στιγμιότυπο · κλείσιμο 14/10",
+      "name": "Nikkei 225",
       "instrument": "^N225",
       "value": 64425.95,
       "change_pct": -4.898,
@@ -760,7 +760,7 @@
       "precision": 2
     },
     {
-      "name": "KOSPI · πρωινό στιγμιότυπο · κλείσιμο 14/10",
+      "name": "KOSPI",
       "instrument": "^KS11",
       "value": 5554.22,
       "change_pct": -7.565,
@@ -1135,7 +1135,7 @@
       "precision": 2
     },
     {
-      "name": "ΧΑΚ Γενικός · κλείσιμο 14/10",
+      "name": "ΧΑΚ Γενικός",
       "value": 310.74,
       "change_pct": -0.206,
       "currency": "EUR",
@@ -1232,7 +1232,7 @@
       "precision": 3
     },
     {
-      "name": "Euribor 3 μηνών · fixing 13/10",
+      "name": "Euribor 3 μηνών · fixing 14/10",
       "instrument": "euribor-3m",
       "value": 2.628,
       "currency": "EUR",
@@ -1256,7 +1256,7 @@
       "precision": 3
     },
     {
-      "name": "Euribor 6 μηνών · fixing 13/10",
+      "name": "Euribor 6 μηνών · fixing 14/10",
       "instrument": "euribor-6m",
       "value": 2.924,
       "currency": "EUR",
@@ -1280,7 +1280,7 @@
       "precision": 3
     },
     {
-      "name": "Euribor 12 μηνών · fixing 13/10",
+      "name": "Euribor 12 μηνών · fixing 14/10",
       "instrument": "euribor-12m",
       "value": 3.201,
       "currency": "EUR",
@@ -1641,7 +1641,7 @@
       ]
     },
     {
-      "text": "TSMC Ταϊβάν 2.440 TWD (−2,01%), ολοκληρωμένη συνεδρίαση 15/10. Το αμερικανικό ADR $430,00 είναι κλείσιμο 14/10 και δεν μετρά την αντίδραση στα νέα αποτελέσματα.",
+      "text": "TSMC Ταϊβάν 2.440 TWD (−2,01%), κλείσιμο 15/10 με ώρα quote 08:30 Κύπρου, πριν την τηλεδιάσκεψη 09:00. Δεν το ερμηνεύουμε ως μεταγενέστερη αντίδραση στα αποτελέσματα. Το ADR $430,00 παραμένει κλείσιμο ΗΠΑ 14/10.",
       "sources": [
         {
           "publisher": "Yahoo Finance · δεδομένα αγοράς",
@@ -1685,6 +1685,16 @@
         "published_at": null,
         "retrieved_at": "2026-10-15T10:40:22.466078+00:00",
         "reporting_group": "BLS",
+        "kind": "primary",
+        "access": "read",
+        "used_for_claims": true
+      },
+      {
+        "publisher": "NYSE · επίσημο ωράριο και αργίες",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "published_at": null,
+        "retrieved_at": "2026-10-15T10:54:31.104249+00:00",
+        "reporting_group": "NYSE",
         "kind": "primary",
         "access": "read",
         "used_for_claims": true
@@ -1742,11 +1752,11 @@
   ],
   "image_review": {
     "version": 2,
-    "completed_at": "2026-10-15T13:48:29+03:00"
+    "completed_at": "2026-10-15T14:03:34+03:00"
   },
   "reading_review": {
     "version": 2,
-    "completed_at": "2026-10-15T13:48:29+03:00"
+    "completed_at": "2026-10-15T14:03:34+03:00"
   },
   "panels": [
     {
