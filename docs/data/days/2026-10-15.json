@@ -1,0 +1,952 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-10-15.html",
+  "editions": [
+    {
+      "id": "2026-10-15-morning",
+      "type": "morning",
+      "url": "morning/2026-10-15.html",
+      "published_at": "2026-10-15T07:52:05+03:00"
+    }
+  ],
+  "missing_slots": [
+    "midday",
+    "evening"
+  ],
+  "lead_story_id": "global-markets-ai-rates-october-15-2026",
+  "stories": [
+    {
+      "story_id": "global-markets-ai-rates-october-15-2026",
+      "first_seen_at": "2026-10-15T07:52:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "lead",
+          "source_story_id": "global-markets-ai-rates-october-15-2026",
+          "url": "articles/2026-10-15-morning/lead.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "lead",
+        "source_story_id": "global-markets-ai-rates-october-15-2026",
+        "url": "articles/2026-10-15-morning/lead.html"
+      },
+      "section": "world",
+      "priority": 0
+    },
+    {
+      "story_id": "real-madrid-roma-squad-oct14",
+      "first_seen_at": "2026-10-15T07:52:05+03:00",
+      "last_substantive_at": "2026-10-15T07:48:57+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "sport-real",
+          "source_story_id": "real-madrid-roma-squad-oct14",
+          "url": "articles/2026-10-15-morning/sport-real.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "sport-real",
+        "source_story_id": "real-madrid-roma-squad-oct14",
+        "url": "articles/2026-10-15-morning/sport-real.html"
+      },
+      "section": "sports",
+      "priority": 0
+    },
+    {
+      "story_id": "cyprus-orange-warning-october-14-2026",
+      "first_seen_at": "2026-10-15T07:52:05+03:00",
+      "last_substantive_at": "2026-10-15T07:48:57+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "cyprus-storm",
+          "source_story_id": "cyprus-orange-warning-october-14-2026",
+          "url": "articles/2026-10-15-morning/cyprus-storm.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-storm",
+        "source_story_id": "cyprus-orange-warning-october-14-2026",
+        "url": "articles/2026-10-15-morning/cyprus-storm.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-vasiliko-completion-tender-2026",
+      "first_seen_at": "2026-10-15T07:52:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "cyprus-defa",
+          "source_story_id": "cyprus-vasiliko-completion-tender-2026",
+          "url": "articles/2026-10-15-morning/cyprus-defa.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-defa",
+        "source_story_id": "cyprus-vasiliko-completion-tender-2026",
+        "url": "articles/2026-10-15-morning/cyprus-defa.html"
+      },
+      "section": "cyprus",
+      "priority": 10
+    },
+    {
+      "story_id": "european-council-october-15-16-2026",
+      "first_seen_at": "2026-10-15T07:52:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "world-eu",
+          "source_story_id": "european-council-october-15-16-2026",
+          "url": "articles/2026-10-15-morning/world-eu.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "world-eu",
+        "source_story_id": "european-council-october-15-16-2026",
+        "url": "articles/2026-10-15-morning/world-eu.html"
+      },
+      "section": "world",
+      "priority": 10
+    },
+    {
+      "story_id": "omonoia-celje-squad-october-15-2026",
+      "first_seen_at": "2026-10-15T07:52:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "sport-omonoia",
+          "source_story_id": "omonoia-celje-squad-october-15-2026",
+          "url": "articles/2026-10-15-morning/sport-omonoia.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "sport-omonoia",
+        "source_story_id": "omonoia-celje-squad-october-15-2026",
+        "url": "articles/2026-10-15-morning/sport-omonoia.html"
+      },
+      "section": "sports",
+      "priority": 10
+    },
+    {
+      "story_id": "cyprus-savvides-spyvan-inquiry-scope-2026",
+      "first_seen_at": "2026-10-15T07:52:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "cyprus-savvides",
+          "source_story_id": "cyprus-savvides-spyvan-inquiry-scope-2026",
+          "url": "articles/2026-10-15-morning/cyprus-savvides.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-savvides",
+        "source_story_id": "cyprus-savvides-spyvan-inquiry-scope-2026",
+        "url": "articles/2026-10-15-morning/cyprus-savvides.html"
+      },
+      "section": "cyprus",
+      "priority": 15
+    },
+    {
+      "story_id": "hormuz-gfs-pride-giselle-october-2026",
+      "first_seen_at": "2026-10-15T07:52:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "world-hormuz",
+          "source_story_id": "hormuz-gfs-pride-giselle-october-2026",
+          "url": "articles/2026-10-15-morning/world-hormuz.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "world-hormuz",
+        "source_story_id": "hormuz-gfs-pride-giselle-october-2026",
+        "url": "articles/2026-10-15-morning/world-hormuz.html"
+      },
+      "section": "world",
+      "priority": 15
+    },
+    {
+      "story_id": "cyprus-eurostat-ewaste-2024-release-2026",
+      "first_seen_at": "2026-10-15T07:52:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "cyprus-waste",
+          "source_story_id": "cyprus-eurostat-ewaste-2024-release-2026",
+          "url": "articles/2026-10-15-morning/cyprus-waste.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-waste",
+        "source_story_id": "cyprus-eurostat-ewaste-2024-release-2026",
+        "url": "articles/2026-10-15-morning/cyprus-waste.html"
+      },
+      "section": "cyprus",
+      "priority": 20
+    },
+    {
+      "story_id": "tsmc-q3-2026-results-preview",
+      "first_seen_at": "2026-10-15T07:52:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "world-tsmc",
+          "source_story_id": "tsmc-q3-2026-results-preview",
+          "url": "articles/2026-10-15-morning/world-tsmc.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "world-tsmc",
+        "source_story_id": "tsmc-q3-2026-results-preview",
+        "url": "articles/2026-10-15-morning/world-tsmc.html"
+      },
+      "section": "world",
+      "priority": 20
+    },
+    {
+      "story_id": "limassol-port-shore-power-grid-funding-2026",
+      "first_seen_at": "2026-10-15T07:52:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "cyprus-port",
+          "source_story_id": "limassol-port-shore-power-grid-funding-2026",
+          "url": "articles/2026-10-15-morning/cyprus-port.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-port",
+        "source_story_id": "limassol-port-shore-power-grid-funding-2026",
+        "url": "articles/2026-10-15-morning/cyprus-port.html"
+      },
+      "section": "cyprus",
+      "priority": 25
+    },
+    {
+      "story_id": "uk-chornobyl-repairs-funding-october-2026",
+      "first_seen_at": "2026-10-15T07:52:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "world-nuclear",
+          "source_story_id": "uk-chornobyl-repairs-funding-october-2026",
+          "url": "articles/2026-10-15-morning/world-nuclear.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "world-nuclear",
+        "source_story_id": "uk-chornobyl-repairs-funding-october-2026",
+        "url": "articles/2026-10-15-morning/world-nuclear.html"
+      },
+      "section": "world",
+      "priority": 25
+    },
+    {
+      "story_id": "cyprus-egypt-border-guard-security-meeting-october-2026",
+      "first_seen_at": "2026-10-15T07:52:05+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-15-morning",
+          "article_id": "cyprus-egypt",
+          "source_story_id": "cyprus-egypt-border-guard-security-meeting-october-2026",
+          "url": "articles/2026-10-15-morning/cyprus-egypt.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-egypt",
+        "source_story_id": "cyprus-egypt-border-guard-security-meeting-october-2026",
+        "url": "articles/2026-10-15-morning/cyprus-egypt.html"
+      },
+      "section": "cyprus",
+      "priority": 35
+    }
+  ],
+  "updates": [
+    {
+      "id": "2026-10-15-morning-cyprus-defa-review",
+      "kind": "provenance",
+      "at": "2026-10-15T07:48:57+03:00",
+      "summary": "Πρωινή επαλήθευση: Μία αναγνωσμένη αλυσίδα: Cyprus Mail που μεταφέρει δηλώσεις στο ΚΥΠΕ. Δεν ανακτήθηκε το πλήρες τεύχος του νέου διαγωνισμού· οι στόχοι αποδίδονται στον πρόεδρο ΔΕΦΑ.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/15/defa-has-learnt-from-mistakes-over-vasiliko-chief-says-of-new-tender"
+      ],
+      "story_id": "cyprus-vasiliko-completion-tender-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-defa",
+        "source_story_id": "cyprus-vasiliko-completion-tender-2026",
+        "url": "articles/2026-10-15-morning/cyprus-defa.html"
+      }
+    },
+    {
+      "id": "2026-10-15-morning-cyprus-egypt-review",
+      "kind": "provenance",
+      "at": "2026-10-15T07:48:57+03:00",
+      "summary": "Πρωινή επαλήθευση: Σύντομη ανακοίνωση μέσω μίας αναγνωσμένης δημοσιογραφικής αναφοράς σε ανάρτηση υπουργείου. Δεν προστίθεται τεχνητή ανάλυση σε ανακοίνωση χωρίς αναλυτικούς νέους όρους.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/cyprus-and-egypt-discuss-security-challenges-in-east-med"
+      ],
+      "story_id": "cyprus-egypt-border-guard-security-meeting-october-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-egypt",
+        "source_story_id": "cyprus-egypt-border-guard-security-meeting-october-2026",
+        "url": "articles/2026-10-15-morning/cyprus-egypt.html"
+      }
+    },
+    {
+      "id": "2026-10-15-morning-cyprus-port-review",
+      "kind": "provenance",
+      "at": "2026-10-15T07:48:57+03:00",
+      "summary": "Πρώτη επιλογή στην πρωινή εφημερίδα της 15/10 από τις αναφερόμενες πηγές. Ο χρόνος καταγράφει συντακτική επαλήθευση, όχι επινοημένη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/limassol-port-cold-ironing-project-faces-critical-hurdles-over-eu-funding"
+      ],
+      "story_id": "limassol-port-shore-power-grid-funding-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-port",
+        "source_story_id": "limassol-port-shore-power-grid-funding-2026",
+        "url": "articles/2026-10-15-morning/cyprus-port.html"
+      }
+    },
+    {
+      "id": "2026-10-15-morning-cyprus-savvides-review",
+      "kind": "provenance",
+      "at": "2026-10-15T07:48:57+03:00",
+      "summary": "Πρωινή επαλήθευση: Μία αναγνωσμένη αλυσίδα αναφοράς, χωρίς πλήρη πρωτότυπη αλληλογραφία. Πρόκειται για πραγματικές αντικρουόμενες θεσμικές θέσεις, όχι συντακτικά επινοημένο αντίλογο.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/savvides-condemns-media-cover-up-claims-as-dangerous-to-democracy"
+      ],
+      "story_id": "cyprus-savvides-spyvan-inquiry-scope-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-savvides",
+        "source_story_id": "cyprus-savvides-spyvan-inquiry-scope-2026",
+        "url": "articles/2026-10-15-morning/cyprus-savvides.html"
+      }
+    },
+    {
+      "id": "2026-10-15-morning-cyprus-storm-review",
+      "kind": "substantive_update",
+      "at": "2026-10-15T07:48:57+03:00",
+      "summary": "Πρωινή επαλήθευση: Ουσιαστική νυχτερινή εξέλιξη σε ήδη δημοσιευμένη ιστορία: αποκατάσταση Αραδίππου 22:30 κατά την ενημέρωση 22:54 και νέο επίσημο δελτίο 15/10 05:00. Οι υπόλοιπες βλάβες δεν δηλώνονται αυθαίρετα ακόμη ενεργές.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/14/heavy-rain-storms-and-winds-batter-cyprus",
+        "https://www.dom.org.cy/FORECAST/public_a.html"
+      ],
+      "story_id": "cyprus-orange-warning-october-14-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-storm",
+        "source_story_id": "cyprus-orange-warning-october-14-2026",
+        "url": "articles/2026-10-15-morning/cyprus-storm.html"
+      }
+    },
+    {
+      "id": "2026-10-15-morning-cyprus-waste-review",
+      "kind": "provenance",
+      "at": "2026-10-15T07:48:57+03:00",
+      "summary": "Πρώτη επιλογή στην πρωινή εφημερίδα της 15/10 από τις αναφερόμενες πηγές. Ο χρόνος καταγράφει συντακτική επαλήθευση, όχι επινοημένη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261014-1"
+      ],
+      "story_id": "cyprus-eurostat-ewaste-2024-release-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-waste",
+        "source_story_id": "cyprus-eurostat-ewaste-2024-release-2026",
+        "url": "articles/2026-10-15-morning/cyprus-waste.html"
+      }
+    },
+    {
+      "id": "2026-10-15-morning-lead-review",
+      "kind": "provenance",
+      "at": "2026-10-15T07:48:57+03:00",
+      "summary": "Πρώτη επιλογή στην πρωινή εφημερίδα της 15/10 από τις αναφερόμενες πηγές. Ο χρόνος καταγράφει συντακτική επαλήθευση, όχι επινοημένη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/%5EN225?interval=1d&range=5d",
+        "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?interval=1d&range=5d",
+        "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&range=5d",
+        "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&range=5d",
+        "https://query1.finance.yahoo.com/v8/finance/chart/%5EDJI?interval=1d&range=5d",
+        "https://apnews.com/article/224008b0bae0921d1e2867a4b1ecf511",
+        "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+        "https://www.bls.gov/schedule/2026/10_sched.htm"
+      ],
+      "story_id": "global-markets-ai-rates-october-15-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "lead",
+        "source_story_id": "global-markets-ai-rates-october-15-2026",
+        "url": "articles/2026-10-15-morning/lead.html"
+      }
+    },
+    {
+      "id": "2026-10-15-morning-sport-omonoia-review",
+      "kind": "provenance",
+      "at": "2026-10-15T07:48:57+03:00",
+      "summary": "Πρωινή επαλήθευση προεπισκόπησης ημέρας αγώνα με τη χθεσινή συνέντευξη Τύπου. Η αποστολή και η σέντρα είχαν ήδη δημοσιευθεί· δεν είναι νέο αποτέλεσμα.",
+      "source_urls": [
+        "https://www.omonoiafc.com.cy/%CF%80%CE%BB%CE%B7%CF%81%CE%BF%CF%86%CE%BF%CF%81%CE%AF%CE%B5%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CE%B1%CF%80%CE%BF%CF%83%CF%84%CE%BF%CE%BB%CE%AE-%CF%83%CF%84%CE%B7-%CF%83%CE%BB%CE%BF%CE%B2/",
+        "https://themasports.tothemaonline.com/Article/968995/mpergk-den-allazoyn-oi-filodoxies-mas-%E2%80%94-anypomonoyme-gia-tetoia-paihnidia"
+      ],
+      "story_id": "omonoia-celje-squad-october-15-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "sport-omonoia",
+        "source_story_id": "omonoia-celje-squad-october-15-2026",
+        "url": "articles/2026-10-15-morning/sport-omonoia.html"
+      }
+    },
+    {
+      "id": "2026-10-15-morning-sport-real-review",
+      "kind": "substantive_update",
+      "at": "2026-10-15T07:48:57+03:00",
+      "summary": "Πρωινή επαλήθευση: Νέο οριστικό αποτέλεσμα σε σταθερή ιστορία που στην προηγούμενη έκδοση ήταν προαναγγελία. Το επίσημο αγγλικό report δηλώνει αυτόματη μετάφραση· κρατούμε αποτέλεσμα, επαληθευμένους σκόρερ και σαφή συμβάντα, χωρίς αμφισβητούμενη κατανομή του πρώτου γκολ της Roma.",
+      "source_urls": [
+        "https://www.realmadrid.com/en-US/news/football/first-team/reports/cronica-roma-real-madrid-14-10-2026",
+        "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/courtois-14-10-2026",
+        "https://www.realmadrid.com/es-ES/futbol/partidos/entradas/real-madrid-sevilla-18-10-2026"
+      ],
+      "story_id": "real-madrid-roma-squad-oct14",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "sport-real",
+        "source_story_id": "real-madrid-roma-squad-oct14",
+        "url": "articles/2026-10-15-morning/sport-real.html"
+      }
+    },
+    {
+      "id": "2026-10-15-morning-world-eu-review",
+      "kind": "provenance",
+      "at": "2026-10-15T07:48:57+03:00",
+      "summary": "Πρώτη επιλογή στην πρωινή εφημερίδα της 15/10 από τις αναφερόμενες πηγές. Ο χρόνος καταγράφει συντακτική επαλήθευση, όχι επινοημένη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/10/14/media-advisory-european-council-meeting-of-15-16-october-2026/"
+      ],
+      "story_id": "european-council-october-15-16-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "world-eu",
+        "source_story_id": "european-council-october-15-16-2026",
+        "url": "articles/2026-10-15-morning/world-eu.html"
+      }
+    },
+    {
+      "id": "2026-10-15-morning-world-hormuz-review",
+      "kind": "provenance",
+      "at": "2026-10-15T07:48:57+03:00",
+      "summary": "Πρώτη επιλογή στην πρωινή εφημερίδα της 15/10 από τις αναφερόμενες πηγές. Ο χρόνος καταγράφει συντακτική επαλήθευση, όχι επινοημένη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.mpa.gov.sg/media-centre/details/two-singapore-registered-vessels-struck-in-strait-of-hormuz"
+      ],
+      "story_id": "hormuz-gfs-pride-giselle-october-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "world-hormuz",
+        "source_story_id": "hormuz-gfs-pride-giselle-october-2026",
+        "url": "articles/2026-10-15-morning/world-hormuz.html"
+      }
+    },
+    {
+      "id": "2026-10-15-morning-world-nuclear-review",
+      "kind": "provenance",
+      "at": "2026-10-15T07:48:57+03:00",
+      "summary": "Πρώτη επιλογή στην πρωινή εφημερίδα της 15/10 από τις αναφερόμενες πηγές. Ο χρόνος καταγράφει συντακτική επαλήθευση, όχι επινοημένη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.gov.uk/government/news/britain-funds-critical-repairs-to-chornobyl-nuclear-power-plant-damaged-by-russian-drone-attack"
+      ],
+      "story_id": "uk-chornobyl-repairs-funding-october-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "world-nuclear",
+        "source_story_id": "uk-chornobyl-repairs-funding-october-2026",
+        "url": "articles/2026-10-15-morning/world-nuclear.html"
+      }
+    },
+    {
+      "id": "2026-10-15-morning-world-tsmc-review",
+      "kind": "provenance",
+      "at": "2026-10-15T07:48:57+03:00",
+      "summary": "Πρώτη επιλογή στην πρωινή εφημερίδα της 15/10 από τις αναφερόμενες πηγές. Ο χρόνος καταγράφει συντακτική επαλήθευση, όχι επινοημένη ώρα του γεγονότος.",
+      "source_urls": [
+        "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+        "https://query1.finance.yahoo.com/v8/finance/chart/TSM?interval=1d&range=5d"
+      ],
+      "story_id": "tsmc-q3-2026-results-preview",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "world-tsmc",
+        "source_story_id": "tsmc-q3-2026-results-preview",
+        "url": "articles/2026-10-15-morning/world-tsmc.html"
+      }
+    },
+    {
+      "id": "14a512ab3c4c738299f227dad28ab1d54112c1978623d2a2374eb7ff3be1fd43",
+      "kind": "provenance",
+      "at": "2026-10-15T07:52:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-port-shore-power-grid-funding-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-port",
+        "source_story_id": "limassol-port-shore-power-grid-funding-2026",
+        "url": "articles/2026-10-15-morning/cyprus-port.html"
+      }
+    },
+    {
+      "id": "287eeb05f7163f84783c9c070e4c0e4c528b701eb577abf2926ba57cc5fdd33a",
+      "kind": "provenance",
+      "at": "2026-10-15T07:52:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-vasiliko-completion-tender-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-defa",
+        "source_story_id": "cyprus-vasiliko-completion-tender-2026",
+        "url": "articles/2026-10-15-morning/cyprus-defa.html"
+      }
+    },
+    {
+      "id": "2dd95495afa7b3e322749cd55f3d1416977bf2c78c8b3dec70fbaadf70cc8ad0",
+      "kind": "provenance",
+      "at": "2026-10-15T07:52:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "global-markets-ai-rates-october-15-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "lead",
+        "source_story_id": "global-markets-ai-rates-october-15-2026",
+        "url": "articles/2026-10-15-morning/lead.html"
+      }
+    },
+    {
+      "id": "39ce0b5e4e7509ba7a2501d566678b6642cdcc96bd1aa9a9ecffbd887aeb0bc6",
+      "kind": "provenance",
+      "at": "2026-10-15T07:52:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-eurostat-ewaste-2024-release-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-waste",
+        "source_story_id": "cyprus-eurostat-ewaste-2024-release-2026",
+        "url": "articles/2026-10-15-morning/cyprus-waste.html"
+      }
+    },
+    {
+      "id": "4bc17cbd4f3195db64a34069a1cc1363bca9050ab08b5fbf335575a07b572a2e",
+      "kind": "provenance",
+      "at": "2026-10-15T07:52:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "european-council-october-15-16-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "world-eu",
+        "source_story_id": "european-council-october-15-16-2026",
+        "url": "articles/2026-10-15-morning/world-eu.html"
+      }
+    },
+    {
+      "id": "585a4dde8f01cdf34719f131831a6484cc7060e6cf5e0660bdd826e9b025ecff",
+      "kind": "provenance",
+      "at": "2026-10-15T07:52:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "omonoia-celje-squad-october-15-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "sport-omonoia",
+        "source_story_id": "omonoia-celje-squad-october-15-2026",
+        "url": "articles/2026-10-15-morning/sport-omonoia.html"
+      }
+    },
+    {
+      "id": "5aa694cae65faebf6e4d5521f0f7144a3415ce3d8025b6b82847e0feba339a15",
+      "kind": "provenance",
+      "at": "2026-10-15T07:52:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-savvides-spyvan-inquiry-scope-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-savvides",
+        "source_story_id": "cyprus-savvides-spyvan-inquiry-scope-2026",
+        "url": "articles/2026-10-15-morning/cyprus-savvides.html"
+      }
+    },
+    {
+      "id": "609efc1bc6d7469713412be78a9e5f5baafc0a87df1a2f4bda217edaa7d23291",
+      "kind": "provenance",
+      "at": "2026-10-15T07:52:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "real-madrid-roma-squad-oct14",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "sport-real",
+        "source_story_id": "real-madrid-roma-squad-oct14",
+        "url": "articles/2026-10-15-morning/sport-real.html"
+      }
+    },
+    {
+      "id": "766809e3005183eb67c236655c9ca8c7e0fc7d10c4f49a5c051cf0d307c5b83b",
+      "kind": "provenance",
+      "at": "2026-10-15T07:52:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-orange-warning-october-14-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-storm",
+        "source_story_id": "cyprus-orange-warning-october-14-2026",
+        "url": "articles/2026-10-15-morning/cyprus-storm.html"
+      }
+    },
+    {
+      "id": "8ae895430d48af150ed9d4ac8816c06be3651ecadfdacc1a759d29b39c78e143",
+      "kind": "provenance",
+      "at": "2026-10-15T07:52:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-egypt-border-guard-security-meeting-october-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "cyprus-egypt",
+        "source_story_id": "cyprus-egypt-border-guard-security-meeting-october-2026",
+        "url": "articles/2026-10-15-morning/cyprus-egypt.html"
+      }
+    },
+    {
+      "id": "ad9b32b16d3dd23e8a9162e77c7cb674214704e9d9e74b65fb56b13d29c35a2b",
+      "kind": "provenance",
+      "at": "2026-10-15T07:52:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "tsmc-q3-2026-results-preview",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "world-tsmc",
+        "source_story_id": "tsmc-q3-2026-results-preview",
+        "url": "articles/2026-10-15-morning/world-tsmc.html"
+      }
+    },
+    {
+      "id": "b1e0ecba66210d76a132d4ff1328cc710e066e900806389e2231578b7ba61fdd",
+      "kind": "provenance",
+      "at": "2026-10-15T07:52:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-chornobyl-repairs-funding-october-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "world-nuclear",
+        "source_story_id": "uk-chornobyl-repairs-funding-october-2026",
+        "url": "articles/2026-10-15-morning/world-nuclear.html"
+      }
+    },
+    {
+      "id": "f072dc352a0ef84b8bd7534eaa3b2c17857246f6925f8ade236216139aa7a7fa",
+      "kind": "provenance",
+      "at": "2026-10-15T07:52:05+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "hormuz-gfs-pride-giselle-october-2026",
+      "origin": {
+        "edition_id": "2026-10-15-morning",
+        "article_id": "world-hormuz",
+        "source_story_id": "hormuz-gfs-pride-giselle-october-2026",
+        "url": "articles/2026-10-15-morning/world-hormuz.html"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "verified_at": "2026-10-15T07:51:47+03:00",
+      "opens_at": null,
+      "deadline": "2024-07-31T23:59:00+03:00",
+      "deadline_type": "fixed",
+      "application_kind": "instructions",
+      "id": "cy-new-entrepreneurship-2024-call2",
+      "kind": "grant",
+      "status": "closed",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "title": "Νέα Επιχειρηματική Δραστηριότητα · παλιά 2η προκήρυξη",
+      "summary": "Ιστορική πρόσκληση του 2024 που έχει λήξει. Παραμένει μόνο στην παρακολούθηση για τυχόν νέα επίσημη προκήρυξη, όχι στις ενεργές αιτήσεις.",
+      "eligibility": "Η προκήρυξη του 2024 όριζε νέους 18–29, άνδρες 30–50 και γυναίκες 30–55. Νέα πρόσκληση μπορεί να αλλάξει τους όρους· δεν έχει κριθεί προσωπική επιλεξιμότητα.",
+      "support": "Παλιοί όροι: 70% επιλέξιμης δαπάνης για 18–29, 60% για τις άλλες ομάδες, με μέγιστο επιλέξιμο προϋπολογισμό €120.000.",
+      "deadline_note": "Ιστορική προθεσμία της 2ης πρόσκλησης, όχι ημερομηνία νέας αίτησης. Νέα ενεργή πρόσκληση δεν επιβεβαιώθηκε στον παρόντα έλεγχο.",
+      "action": "Δες την επίσημη ανακοίνωση ως ιστορικό πλαίσιο. Αναμένουμε επαληθευμένη νέα προκήρυξη πριν εμφανίσουμε ενεργή αίτηση.",
+      "application_url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+      "sources": [
+        {
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+          "published_at": null,
+          "retrieved_at": "2026-10-15T07:51:44+03:00",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
+          "published_at": null,
+          "retrieved_at": "2026-10-15T07:51:47+03:00",
+          "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "change_note": "Πρωινός επανέλεγχος επίσημων αναγνωσμένων πηγών 15/10· δεν διαπιστώθηκε αλλαγή της πρόσκλησης ή νέο άνοιγμα."
+    },
+    {
+      "verified_at": "2026-10-15T07:51:45+03:00",
+      "opens_at": null,
+      "deadline": "2026-11-04T18:00:00+02:00",
+      "deadline_type": "fixed",
+      "application_kind": "form",
+      "id": "eu-eic-accelerator-2026",
+      "kind": "grant",
+      "status": "open",
+      "jurisdiction": "ΕΕ · περιλαμβάνει την Κύπρο",
+      "title": "EIC Accelerator: επόμενη πλήρης πρόταση 4 Νοεμβρίου",
+      "summary": "Στήριξη νεοφυών και μικρομεσαίων επιχειρήσεων με ανατρεπτική καινοτομία σε στάδιο ανάπτυξης και κλιμάκωσης. Δεν είναι γενική επιδότηση ίδρυσης επιχείρησης.",
+      "eligibility": "Μία startup/ΜμΕ στην ΕΕ ή συνδεδεμένη χώρα, με καινοτομία TRL 6–8. Για πλήρη πρόταση προηγείται θετική αξιολόγηση (GO) της σύντομης πρότασης ή επιλέξιμη ειδική διαδρομή.",
+      "support": "Επιχορήγηση κάτω από €2,5 εκατ.· χωριστά επενδυτικό σκέλος €1–10 εκατ., που δεν αποτελεί επιχορήγηση.",
+      "deadline_note": "4/11 στις 17:00 Βρυξελλών = 18:00 Κύπρου. Αφορά πλήρη πρόταση μετά το GO. Οι σύντομες προτάσεις υποβάλλονται συνεχώς· αξιολόγηση συνήθως 4–6 εβδομάδες.",
+      "action": "Αν έχεις GO, προετοίμασε πλήρη πρόταση. Διαφορετικά ξεκίνα τη σύντομη αίτηση χωρίς να θεωρείς εξασφαλισμένη συμμετοχή στον γύρο Νοεμβρίου.",
+      "application_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+      "sources": [
+        {
+          "publisher": "European Innovation Council",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "published_at": null,
+          "retrieved_at": "2026-10-15T07:51:45+03:00",
+          "reporting_group": "European Innovation Council",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "change_note": "Πρωινός επανέλεγχος επίσημων αναγνωσμένων πηγών 15/10· δεν διαπιστώθηκε αλλαγή της πρόσκλησης ή νέο άνοιγμα."
+    },
+    {
+      "verified_at": "2026-10-15T07:51:45+03:00",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "deadline": "2026-12-30T23:59:00+02:00",
+      "deadline_type": "fixed",
+      "application_kind": "form",
+      "id": "cy-home-energy-2026",
+      "kind": "grant",
+      "status": "upcoming",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "title": "Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026",
+      "summary": "Ενεργειακή αναβάθμιση υφιστάμενων κατοικιών. Η προετοιμασία αρχίζει με Πιστοποιητικό Ενεργειακής Απόδοσης, πριν από τις επιλέξιμες εργασίες.",
+      "eligibility": "Φυσικά πρόσωπα, μία αίτηση. Κατοικία και οικιακός λογαριασμός ΑΗΚ σε φυσικό πρόσωπο· σύνδεση πριν από 1/1/2008 ή αίτηση άδειας πριν από 21/12/2007. Ισχύουν οι πλήρεις όροι του οδηγού.",
+      "support": "Έως €32.000 για τύπο Α (σχεδόν μηδενική κατανάλωση), έως €24.000 για τύπο Β· απαιτείται εξοικονόμηση ενέργειας τουλάχιστον 60%.",
+      "deadline_note": "Έως 30/12 23:59 Κύπρου ή νωρίτερα με εξάντληση προϋπολογισμού· σειρά υποβολής. Ο οδηγός επιτρέπει υπό όρους και παλαιότερο ΠΕΑ με επιβεβαιωτική επίσκεψη εμπειρογνώμονα μετά τις 15/5/2026. Δεν επιτρέπεται ολοκλήρωση όλων των εργασιών πριν από την αίτηση.",
+      "action": "Διάβασε τον οδηγό και τη διαδικασία αρχικού ΠΕΑ/επιβεβαίωσης πριν από εργασίες. Αιτήσεις από 20/10 στις 09:00· η προετοιμασία δεν εγγυάται έγκριση.",
+      "application_url": "https://fundingapps.meci.gov.cy",
+      "sources": [
+        {
+          "publisher": "ΥΕΕΒ · Υπηρεσία Βιομηχανίας και Τεχνολογίας",
+          "url": "https://www.industry.gov.cy/gr/%CE%B5%CE%BD%CE%B7%CE%BC%CE%AD%CF%81%CF%89%CF%83%CE%B7/%CE%B1%CE%BD%CE%B1%CE%BA%CE%BF%CE%B9%CE%BD%CF%8E%CF%83%CE%B5%CE%B9%CF%82/2-%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CF%87%CE%BF%CF%81%CE%B7%CE%B3%CE%B9%CF%8E%CE%BD-%CE%B5%CE%BE%CE%BF%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CF%8E-%E2%80%93-%CE%B1%CE%BD%CE%B1%CE%B2%CE%B1%CE%B8%CE%BC%CE%AF%CE%B6%CF%89-%CF%83%CF%84%CE%B9%CF%82-%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B5%CF%82-2026",
+          "published_at": null,
+          "retrieved_at": "2026-10-15T07:51:44+03:00",
+          "reporting_group": "ΥΕΕΒ · Υπηρεσία Βιομηχανίας και Τεχνολογίας",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "ΥΕΕΒ · Οδηγός 2026 V4.0",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202609/137/docs/odigosv2.pdf",
+          "published_at": null,
+          "retrieved_at": "2026-10-15T07:51:45+03:00",
+          "reporting_group": "ΥΕΕΒ · Οδηγός 2026 V4.0",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "change_note": "Διευκρίνιση μετά την ανάγνωση του πλήρους οδηγού, υποσημειώσεις 5 και 13: προβλέπεται εξαίρεση για παλαιότερο ΠΕΑ με μεταγενέστερη επιβεβαιωτική επίσκεψη. Δεν πρόκειται για νέα αλλαγή όρων ή ήδη ανοικτή πλατφόρμα."
+    },
+    {
+      "verified_at": "2026-10-15T07:51:44+03:00",
+      "opens_at": null,
+      "deadline": null,
+      "deadline_type": "unknown",
+      "application_kind": "instructions",
+      "id": "eu-cross-border-sme-vat",
+      "kind": "legal_right",
+      "status": "open",
+      "jurisdiction": "ΕΕ / Κύπρος · διασυνοριακές πωλήσεις",
+      "title": "Προαιρετική απαλλαγή ΦΠΑ για μικρές επιχειρήσεις",
+      "summary": "Το ευρωπαϊκό καθεστώς μικρών επιχειρήσεων επιτρέπει απαλλαγή ΦΠΑ σε επιλέξιμες διασυνοριακές πωλήσεις. Απαιτεί προηγούμενη κοινοποίηση· δεν εφαρμόζεται αυτόματα.",
+      "eligibility": "Επιχείρηση εγκατεστημένη στην ΕΕ: ενωσιακός τζίρος έως €100.000 στο τρέχον και προηγούμενο έτος, καθώς και το εθνικό/κλαδικό όριο κάθε χώρας απαλλαγής.",
+      "support": "Πιθανή απλούστευση υποχρεώσεων ΦΠΑ, με απώλεια δικαιώματος έκπτωσης ΦΠΑ για τις απαλλασσόμενες πράξεις. Αξιολόγησε το καθαρό όφελος πριν επιλέξεις.",
+      "deadline_note": "Δεν πρόκειται για γύρο χορηγιών. Η απαλλαγή ξεκινά μετά την έγκριση/επιβεβαίωση EX· ισχύουν ξεχωριστές υποχρεώσεις τριμηνιαίας αναφοράς.",
+      "action": "Έλεγξε τα όρια και τη διαδικασία προηγούμενης κοινοποίησης στο κράτος εγκατάστασης. Ο σύνδεσμος δίνει οδηγίες, όχι κυπριακό έντυπο.",
+      "application_url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+      "sources": [
+        {
+          "publisher": "European Commission · DG TAXUD",
+          "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+          "published_at": null,
+          "retrieved_at": "2026-10-15T07:51:44+03:00",
+          "reporting_group": "European Commission · DG TAXUD",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "European Commission · SME VAT",
+          "url": "https://sme-vat-rules.ec.europa.eu/index_en",
+          "published_at": null,
+          "retrieved_at": "2026-10-15T07:51:44+03:00",
+          "reporting_group": "European Commission · SME VAT",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
+          "published_at": null,
+          "retrieved_at": "2026-10-15T07:51:44+03:00",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "change_note": "Πρωινός επανέλεγχος επίσημων αναγνωσμένων πηγών 15/10· δεν διαπιστώθηκε αλλαγή της πρόσκλησης ή νέο άνοιγμα."
+    },
+    {
+      "verified_at": "2026-10-15T07:51:43+03:00",
+      "opens_at": null,
+      "deadline": null,
+      "deadline_type": "rolling",
+      "application_kind": "form",
+      "id": "eu-erasmus-new-entrepreneurs",
+      "kind": "benefit",
+      "status": "open",
+      "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
+      "title": "Erasmus for Young Entrepreneurs",
+      "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
+      "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
+      "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
+      "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
+      "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "sources": [
+        {
+          "publisher": "Erasmus for Young Entrepreneurs",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=16",
+          "published_at": null,
+          "retrieved_at": "2026-10-15T07:51:43+03:00",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Erasmus · FAQ προθεσμίας",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
+          "published_at": null,
+          "retrieved_at": "2026-10-15T07:51:43+03:00",
+          "reporting_group": "Erasmus · FAQ προθεσμίας",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "change_note": "Πρωινός επανέλεγχος επίσημων αναγνωσμένων πηγών 15/10· δεν διαπιστώθηκε αλλαγή της πρόσκλησης ή νέο άνοιγμα."
+    }
+  ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Η πρωινή εικόνα της 15/10: η χθεσινή πτώση των ΗΠΑ συνεχίζεται στην Ασία. Η ενημέρωση TSMC στις 09:00 και ο PPI στις 15:30 είναι τα επόμενα διαφορετικά τεκμήρια.",
+        "story_ids": [
+          "global-markets-ai-rates-october-15-2026",
+          "tsmc-q3-2026-results-preview"
+        ]
+      },
+      {
+        "text": "Κύπρος: το Βασιλικό περνά στη διαμόρφωση κριτηρίων, ενώ μετά την κακοκαιρία επιβεβαιώνεται νυχτερινή αποκατάσταση στην Αραδίππου και νέο πρωινό δελτίο.",
+        "story_ids": [
+          "cyprus-vasiliko-completion-tender-2026",
+          "cyprus-orange-warning-october-14-2026"
+        ]
+      },
+      {
+        "text": "Το εύρος της έρευνας βαν παραμένει επίδικο. Για το ρεύμα στα πλοία της Λεμεσού εκκρεμούν γη και σύνδεση· η Eurostat καταγράφει 4,7 κιλά συλλογής ηλεκτρονικών αποβλήτων ανά κάτοικο το 2024.",
+        "story_ids": [
+          "cyprus-savvides-spyvan-inquiry-scope-2026",
+          "limassol-port-shore-power-grid-funding-2026",
+          "cyprus-eurostat-ewaste-2024-release-2026"
+        ]
+      },
+      {
+        "text": "Η ευρωπαϊκή σύνοδος αρχίζει με ενεργειακό κόστος και προϋπολογισμό στην ατζέντα. Στο Ορμούζ η Σιγκαπούρη επιβεβαιώνει βύθιση ενός πλοίου και ασφαλή πληρώματα δύο σκαφών.",
+        "story_ids": [
+          "european-council-october-15-16-2026",
+          "hormuz-gfs-pride-giselle-october-2026"
+        ]
+      },
+      {
+        "text": "Η Βρετανία ανακοινώνει £17 εκατ. για το προστατευτικό κέλυφος Τσερνόμπιλ. Στα αθλητικά, Real 4–3 στη Ρώμη και Ομόνοια στο Celje σήμερα 19:45.",
+        "story_ids": [
+          "uk-chornobyl-repairs-funding-october-2026",
+          "real-madrid-roma-squad-oct14",
+          "omonoia-celje-squad-october-15-2026"
+        ]
+      }
+    ]
+  },
+  "created_at": "2026-10-15T04:52:12.404693+00:00",
+  "updated_at": "2026-10-15T04:52:12.404693+00:00",
+  "input_sha256": "d4ac08405259c0e1a90629ba0e0fb3313c626b337e25d86ee449fa123104170f"
+}

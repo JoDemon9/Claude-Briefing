@@ -111,6 +111,21 @@
       "world-5": "articles/2026-10-14-morning/world-5.html",
       "sport-united": "articles/2026-10-14-morning/sport-united.html",
       "sport-champions": "articles/2026-10-14-morning/sport-champions.html"
+    },
+    "2026-10-15-morning": {
+      "lead": "articles/2026-10-15-morning/lead.html",
+      "cyprus-defa": "articles/2026-10-15-morning/cyprus-defa.html",
+      "cyprus-storm": "articles/2026-10-15-morning/cyprus-storm.html",
+      "cyprus-savvides": "articles/2026-10-15-morning/cyprus-savvides.html",
+      "cyprus-port": "articles/2026-10-15-morning/cyprus-port.html",
+      "cyprus-waste": "articles/2026-10-15-morning/cyprus-waste.html",
+      "cyprus-egypt": "articles/2026-10-15-morning/cyprus-egypt.html",
+      "world-eu": "articles/2026-10-15-morning/world-eu.html",
+      "world-hormuz": "articles/2026-10-15-morning/world-hormuz.html",
+      "world-nuclear": "articles/2026-10-15-morning/world-nuclear.html",
+      "world-tsmc": "articles/2026-10-15-morning/world-tsmc.html",
+      "sport-real": "articles/2026-10-15-morning/sport-real.html",
+      "sport-omonoia": "articles/2026-10-15-morning/sport-omonoia.html"
     }
   },
   "reader.html": {
@@ -139,5 +154,8 @@
   },
   "readers/2026-10-14.html": {
     "edition_id": "2026-10-14-morning"
+  },
+  "readers/2026-10-15.html": {
+    "edition_id": "2026-10-15-morning"
   }
 }
