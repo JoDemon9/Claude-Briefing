@@ -10,10 +10,15 @@
       "type": "morning",
       "url": "morning/2026-10-16.html",
       "published_at": "2026-10-16T10:24:50+03:00"
+    },
+    {
+      "id": "2026-10-16-midday",
+      "type": "midday",
+      "url": "midday/2026-10-16.html",
+      "published_at": "2026-10-16T14:45:58+03:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
   "lead_story_id": "european-council-october-15-16-2026",
@@ -21,20 +26,26 @@
     {
       "story_id": "european-council-october-15-16-2026",
       "first_seen_at": "2026-10-16T10:24:50+03:00",
-      "last_substantive_at": "2026-10-16T00:40:00+02:00",
+      "last_substantive_at": "2026-10-16T09:55:00+02:00",
       "references": [
         {
           "edition_id": "2026-10-16-morning",
           "article_id": "lead",
           "source_story_id": "european-council-october-15-16-2026",
           "url": "articles/2026-10-16-morning/lead.html"
+        },
+        {
+          "edition_id": "2026-10-16-midday",
+          "article_id": "lead",
+          "source_story_id": "european-council-october-15-16-2026",
+          "url": "articles/2026-10-16-midday/lead.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-16-morning",
+        "edition_id": "2026-10-16-midday",
         "article_id": "lead",
         "source_story_id": "european-council-october-15-16-2026",
-        "url": "articles/2026-10-16-morning/lead.html"
+        "url": "articles/2026-10-16-midday/lead.html"
       },
       "section": "world",
       "priority": 0
@@ -61,6 +72,48 @@
       "priority": 10
     },
     {
+      "story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+      "first_seen_at": "2026-10-16T14:45:58+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-16-midday",
+          "article_id": "cyprus-road",
+          "source_story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+          "url": "articles/2026-10-16-midday/cyprus-road.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "cyprus-road",
+        "source_story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+        "url": "articles/2026-10-16-midday/cyprus-road.html"
+      },
+      "section": "cyprus",
+      "priority": 10
+    },
+    {
+      "story_id": "bend-silver-rail-school-shooting-october-15-2026",
+      "first_seen_at": "2026-10-16T14:45:58+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-16-midday",
+          "article_id": "world-oregon",
+          "source_story_id": "bend-silver-rail-school-shooting-october-15-2026",
+          "url": "articles/2026-10-16-midday/world-oregon.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "world-oregon",
+        "source_story_id": "bend-silver-rail-school-shooting-october-15-2026",
+        "url": "articles/2026-10-16-midday/world-oregon.html"
+      },
+      "section": "world",
+      "priority": 15
+    },
+    {
       "story_id": "fed-warsh-bangkok-october-16-2026",
       "first_seen_at": "2026-10-16T10:24:50+03:00",
       "last_substantive_at": "2026-10-16T10:24:50+03:00",
@@ -80,6 +133,48 @@
       },
       "section": "world",
       "priority": 20
+    },
+    {
+      "story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
+      "first_seen_at": "2026-10-16T14:45:58+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-16-midday",
+          "article_id": "cyprus-court",
+          "source_story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
+          "url": "articles/2026-10-16-midday/cyprus-court.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "cyprus-court",
+        "source_story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
+        "url": "articles/2026-10-16-midday/cyprus-court.html"
+      },
+      "section": "cyprus",
+      "priority": 20
+    },
+    {
+      "story_id": "cyprus-concession-receipts-october-16-2026",
+      "first_seen_at": "2026-10-16T14:45:58+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-16-midday",
+          "article_id": "cyprus-airports",
+          "source_story_id": "cyprus-concession-receipts-october-16-2026",
+          "url": "articles/2026-10-16-midday/cyprus-airports.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "cyprus-airports",
+        "source_story_id": "cyprus-concession-receipts-october-16-2026",
+        "url": "articles/2026-10-16-midday/cyprus-airports.html"
+      },
+      "section": "cyprus",
+      "priority": 30
     },
     {
       "story_id": "france-ukraine-aviation-freyja-october-15-2026",
@@ -325,6 +420,163 @@
         "source_story_id": "drc-ebola-north-ubangi-october-15-2026",
         "url": "articles/2026-10-16-morning/world-ebola.html"
       }
+    },
+    {
+      "id": "2026-10-16-midday-lead-origin",
+      "kind": "substantive_update",
+      "at": "2026-10-16T09:55:00+02:00",
+      "summary": "Δημοσίευση της επίσημης σημερινής δήλωσης Costa, μετά το πρωινό χρονικό όριο· οι χρηματοδοτικές εκκρεμότητες συμπληρώνονται από το νεότερο Reuters.",
+      "source_urls": [
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/10/16/remarks-by-president-antonio-costa-at-the-joint-doorstep-with-presidents-volodymyr-zelenskyy-and-ursula-von-der-leyen/",
+        "https://www.aol.com/articles/eu-leaders-rally-around-zelenskiy-075900000.html",
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/10/16/european-council-conclusions-on-competitiveness-the-next-multiannual-financial-framework-and-enlargement-and-reforms/",
+        "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/"
+      ],
+      "story_id": "european-council-october-15-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "lead",
+        "source_story_id": "european-council-october-15-16-2026",
+        "url": "articles/2026-10-16-midday/lead.html"
+      }
+    },
+    {
+      "id": "2026-10-16-midday-cyprus-airports-origin",
+      "kind": "provenance",
+      "at": "2026-10-16T14:44:27+03:00",
+      "summary": "Ένταξη της τεκμηριωμένης ιστορίας στη μεσημεριανή έκδοση κατά τον τελικό συντακτικό έλεγχο. Δεν αποδίδεται αυτή η ώρα στο ίδιο το γεγονός.",
+      "source_urls": [
+        "https://www.cyprus-mail.com/2026/10/16/cyprus-takes-in-e1-57bn-from-airports-and-limassol-port",
+        "https://www.hermesairports.com/corporate/press-office/media-releases/20-years-of-operating-larnaka-and-pafos-airports"
+      ],
+      "story_id": "cyprus-concession-receipts-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "cyprus-airports",
+        "source_story_id": "cyprus-concession-receipts-october-16-2026",
+        "url": "articles/2026-10-16-midday/cyprus-airports.html"
+      }
+    },
+    {
+      "id": "2026-10-16-midday-cyprus-court-origin",
+      "kind": "provenance",
+      "at": "2026-10-16T14:44:27+03:00",
+      "summary": "Ένταξη της τεκμηριωμένης ιστορίας στη μεσημεριανή έκδοση κατά τον τελικό συντακτικό έλεγχο. Δεν αποδίδεται αυτή η ώρα στο ίδιο το γεγονός.",
+      "source_urls": [
+        "https://www.cyprus-mail.com/2026/10/16/british-dad-fined-e3000-after-child-falls-to-death-at-paphos-hotel",
+        "https://www.aol.com/articles/father-caused-toddler-death-cyprus-093058000.html"
+      ],
+      "story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "cyprus-court",
+        "source_story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
+        "url": "articles/2026-10-16-midday/cyprus-court.html"
+      }
+    },
+    {
+      "id": "2026-10-16-midday-cyprus-road-origin",
+      "kind": "provenance",
+      "at": "2026-10-16T14:44:27+03:00",
+      "summary": "Ένταξη της τεκμηριωμένης ιστορίας στη μεσημεριανή έκδοση κατά τον τελικό συντακτικό έλεγχο. Δεν αποδίδεται αυτή η ώρα στο ίδιο το γεγονός.",
+      "source_urls": [
+        "https://www.philenews.com/kipros/koinonia/article/1782871/dromos-pafou-polis-akirosan-tis-prosfores-epiveveose-i-ipourgos-metaforon-e34-ekat-ke-e38-ekat-psiloteres-tis-ektimisis-i-dio-pou-ipovlithikan-anazitounte-enallaktikes-lisis/",
+        "https://knews.kathimerini.com.cy/en/news/yesterday-bids-today-goodbye-paphos%E2%80%93polis-road-hits-another-dead-end"
+      ],
+      "story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "cyprus-road",
+        "source_story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+        "url": "articles/2026-10-16-midday/cyprus-road.html"
+      }
+    },
+    {
+      "id": "2026-10-16-midday-world-oregon-origin",
+      "kind": "provenance",
+      "at": "2026-10-16T14:44:27+03:00",
+      "summary": "Ένταξη της τεκμηριωμένης ιστορίας στη μεσημεριανή έκδοση κατά τον τελικό συντακτικό έλεγχο. Δεν αποδίδεται αυτή η ώρα στο ίδιο το γεγονός.",
+      "source_urls": [
+        "https://apps.oregon.gov/oregon-newsroom/OR/GOV/Posts/Post/governor-kotek-issues-statement-on-silver-rail-elementary-shooting",
+        "https://www.opb.org/article/2026/10/15/children-shooter-dead-bend-school/"
+      ],
+      "story_id": "bend-silver-rail-school-shooting-october-15-2026",
+      "origin": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "world-oregon",
+        "source_story_id": "bend-silver-rail-school-shooting-october-15-2026",
+        "url": "articles/2026-10-16-midday/world-oregon.html"
+      }
+    },
+    {
+      "id": "18cc2809b0f837b1fa86d7d73910f8dafc680018183ff8b7e4f032cdf0812f8d",
+      "kind": "provenance",
+      "at": "2026-10-16T14:45:58+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-concession-receipts-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "cyprus-airports",
+        "source_story_id": "cyprus-concession-receipts-october-16-2026",
+        "url": "articles/2026-10-16-midday/cyprus-airports.html"
+      }
+    },
+    {
+      "id": "58c43eba268e804ff248d955014c4b541d6afc0be9fd7d26eadf3d89575bea51",
+      "kind": "provenance",
+      "at": "2026-10-16T14:45:58+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "cyprus-court",
+        "source_story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
+        "url": "articles/2026-10-16-midday/cyprus-court.html"
+      }
+    },
+    {
+      "id": "9143a755b5d5b599538c133bb5ee9e04d95147a9d6b841433f9bc7348f15f7f2",
+      "kind": "provenance",
+      "at": "2026-10-16T14:45:58+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "bend-silver-rail-school-shooting-october-15-2026",
+      "origin": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "world-oregon",
+        "source_story_id": "bend-silver-rail-school-shooting-october-15-2026",
+        "url": "articles/2026-10-16-midday/world-oregon.html"
+      }
+    },
+    {
+      "id": "c0fef9fdc327fb81ea27d6a691b963c0a0cc0b0d61c737ce6412d33c74a6f4d0",
+      "kind": "provenance",
+      "at": "2026-10-16T14:45:58+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "european-council-october-15-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "lead",
+        "source_story_id": "european-council-october-15-16-2026",
+        "url": "articles/2026-10-16-midday/lead.html"
+      }
+    },
+    {
+      "id": "f68d81952b54e5ff5c815d7c532c082dbdea88dd20bfc3cb1b54f92df8d72bae",
+      "kind": "provenance",
+      "at": "2026-10-16T14:45:58+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "cyprus-road",
+        "source_story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+        "url": "articles/2026-10-16-midday/cyprus-road.html"
+      }
     }
   ],
   "opportunities": [
@@ -367,7 +619,7 @@
           "used_for_claims": true
         }
       ],
-      "change_note": "Βραδινός επανέλεγχος των επίσημων όρων και της κατάστασης· δεν επαληθεύτηκε νέα μεταβολή από το μεσημέρι. Δεν παρουσιάζεται ως νέα πρόσκληση."
+      "change_note": "Διατήρηση του πλήρους ελεγμένου στιγμιοτύπου της 15/10 με τον αρχικό χρόνο επαλήθευσης. Δεν παρουσιάζεται ως νέα πρόσκληση ή νέα μεταβολή όρων."
     },
     {
       "verified_at": "2026-10-15T19:46:44+03:00",
@@ -398,7 +650,7 @@
           "used_for_claims": true
         }
       ],
-      "change_note": "Βραδινός επανέλεγχος των επίσημων όρων και της κατάστασης· δεν επαληθεύτηκε νέα μεταβολή από το μεσημέρι. Δεν παρουσιάζεται ως νέα πρόσκληση."
+      "change_note": "Διατήρηση του πλήρους ελεγμένου στιγμιοτύπου της 15/10 με τον αρχικό χρόνο επαλήθευσης. Δεν παρουσιάζεται ως νέα πρόσκληση ή νέα μεταβολή όρων."
     },
     {
       "verified_at": "2026-10-15T19:46:44+03:00",
@@ -439,7 +691,7 @@
           "used_for_claims": true
         }
       ],
-      "change_note": "Βραδινός επανέλεγχος των επίσημων όρων και της κατάστασης· δεν επαληθεύτηκε νέα μεταβολή από το μεσημέρι. Δεν παρουσιάζεται ως νέα πρόσκληση."
+      "change_note": "Διατήρηση του πλήρους ελεγμένου στιγμιοτύπου της 15/10 με τον αρχικό χρόνο επαλήθευσης. Δεν παρουσιάζεται ως νέα πρόσκληση ή νέα μεταβολή όρων."
     },
     {
       "verified_at": "2026-10-15T19:46:44+03:00",
@@ -490,7 +742,7 @@
           "used_for_claims": true
         }
       ],
-      "change_note": "Βραδινός επανέλεγχος των επίσημων όρων και της κατάστασης· δεν επαληθεύτηκε νέα μεταβολή από το μεσημέρι. Δεν παρουσιάζεται ως νέα πρόσκληση."
+      "change_note": "Διατήρηση του πλήρους ελεγμένου στιγμιοτύπου της 15/10 με τον αρχικό χρόνο επαλήθευσης. Δεν παρουσιάζεται ως νέα πρόσκληση ή νέα μεταβολή όρων."
     },
     {
       "verified_at": "2026-10-15T19:46:44+03:00",
@@ -531,46 +783,52 @@
           "used_for_claims": true
         }
       ],
-      "change_note": "Βραδινός επανέλεγχος των επίσημων όρων και της κατάστασης· δεν επαληθεύτηκε νέα μεταβολή από το μεσημέρι. Δεν παρουσιάζεται ως νέα πρόσκληση."
+      "change_note": "Διατήρηση του πλήρους ελεγμένου στιγμιοτύπου της 15/10 με τον αρχικό χρόνο επαλήθευσης. Δεν παρουσιάζεται ως νέα πρόσκληση ή νέα μεταβολή όρων."
     }
   ],
   "overview": {
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η Σύνοδος απέκτησε συμφωνημένα συμπεράσματα για ανταγωνιστικότητα και ενέργεια. Ο προϋπολογισμός παραμένει αντικείμενο διαπραγμάτευσης· σήμερα συνεχίζονται οι συζητήσεις για Ουκρανία, άμυνα και Μέση Ανατολή.",
+        "text": "Η Σύνοδος περνά στην Ουκρανία: δηλώσεις στήριξης και πίεσης προς τη Ρωσία, αλλά ακόμη ανοικτή χρηματοδότηση του 2027. Παραμένουν τα πρωινά ενεργειακά συμπεράσματα και η εκκρεμότητα του ευρωπαϊκού προϋπολογισμού.",
         "story_ids": [
           "european-council-october-15-16-2026"
         ]
       },
       {
-        "text": "Η Ασία ανακάμπτει μετά το σοκ χρηματοδότησης AI. Ο Warsh εκφράζει οικονομική αισιοδοξία, χωρίς να δεσμεύεται για την επόμενη απόφαση επιτοκίων.",
+        "text": "Πάφου–Πόλης: ακύρωση του διαγωνισμού με υπερβάσεις προσφορών 38,4% και 42,9%. Η κυβέρνηση αναζητεί εναλλακτικό τρόπο υλοποίησης χωρίς νέο χρονοδιάγραμμα.",
+        "story_ids": [
+          "paphos-polis-road-retender-cancellation-october-16-2026"
+        ]
+      },
+      {
+        "text": "Όρεγκον: τέσσερα θύματα από την επίθεση της 15ης Οκτωβρίου, νεκρός και ο ύποπτος· κλείσιμο σχολείων και υποστήριξη της κοινότητας. Σημαντική προσθήκη στην κάλυψη της ημέρας.",
+        "story_ids": [
+          "bend-silver-rail-school-shooting-october-15-2026"
+        ]
+      },
+      {
+        "text": "Πάφος: πρόστιμο €3.000 μετά την παραδοχή πρόκλησης θανάτου του παιδιού στο δυστύχημα της 12ης Ιουλίου. Η ποινή δεν ισοδυναμεί με αθώωση.",
+        "story_ids": [
+          "paphos-child-hotel-fall-sentencing-october-16-2026"
+        ]
+      },
+      {
+        "text": "Παραχωρήσεις: €44,6 εκατ. αναφερόμενων κρατικών εσόδων από το λιμάνι στο επτάμηνο. Χρειάζεται συμφιλίωση των διαφορετικών βάσεων για το αεροδρομιακό σκέλος του δημοσιευμένου συνόλου.",
+        "story_ids": [
+          "cyprus-concession-receipts-october-16-2026"
+        ]
+      },
+      {
+        "text": "Από το πρωινό παραμένουν η ασιατική ανάκαμψη μετά το σοκ χρηματοδότησης AI και η δειγματοληπτική κυπριακή καταγραφή μειωμένων τιμών μετά τον μηδενικό ΦΠΑ — όχι γενικευμένη μέτρηση του καλαθιού.",
         "story_ids": [
           "asia-ai-financing-rebound-october-16-2026",
-          "fed-warsh-bangkok-october-16-2026"
-        ]
-      },
-      {
-        "text": "Γαλλία και Ουκρανία δηλώνουν περαιτέρω αεροπορική και αντιβαλλιστική συνεργασία, χωρίς συγκεκριμένες ποσότητες ή παραδόσεις στην αναγνωσμένη ανταπόκριση.",
-        "story_ids": [
-          "france-ukraine-aviation-freyja-october-15-2026"
-        ]
-      },
-      {
-        "text": "Στην Κύπρο, η Υπηρεσία Καταναλωτή εντοπίζει μείωση τιμών στο δείγμα εφαρμογής του μηδενικού ΦΠΑ· η μέτρηση δεν καλύπτει το σύνολο της αγοράς.",
-        "story_ids": [
           "cyprus-zero-vat-october-2026-monitoring"
-        ]
-      },
-      {
-        "text": "Στο Κονγκό, το Reuters μεταφέρει δύο αξιωματούχους για νέα γεωγραφική επέκταση του Έμπολα. Η αναφερόμενη καταγραφή δεν είχε ακόμη ανακοινωθεί επίσημα.",
-        "story_ids": [
-          "drc-ebola-north-ubangi-october-15-2026"
         ]
       }
     ]
   },
   "created_at": "2026-10-16T07:26:00.514306+00:00",
-  "updated_at": "2026-10-16T07:26:00.514306+00:00",
-  "input_sha256": "08d66494ba3a5f6027f93dba11aa18f2dc39dbb4e30653204646caa52d0e8f8e"
+  "updated_at": "2026-10-16T11:47:13.942319+00:00",
+  "input_sha256": "78b94c77bf25c6ddd81478f0acf58d6a466dee9d7806af1908cf83819bc2d89f"
 }
