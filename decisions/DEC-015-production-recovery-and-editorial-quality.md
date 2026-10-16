@@ -19,3 +19,5 @@ The portal implementation was still on its review branch: SVG/JPG logo support, 
 ## Verification and release state
 
 See REPAIR_REPORT_2026-10-16.md for actual local/remote checks, publication identities and task readback. Record statuses separately; a prepared candidate, a push, green CI and exact live Pages verification are different evidence. Real account-usage savings remain unmeasured; no quota percentage is inferred from these repairs.
+
+Completed 16 October after explicit user approval: both reviewed implementations and the recovered evening are on main, both Pages releases are exact-byte verified, and all three existing daily tasks are enabled with their protected settings. See the final deployment section of REPAIR_REPORT_2026-10-16.md.

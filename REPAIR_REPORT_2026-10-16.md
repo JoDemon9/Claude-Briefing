@@ -21,3 +21,18 @@ Local source full checks, current-edition mobile/desktop/no-JS checks and public
 The existing three task prompts are prepared at 5,439/5,452/5,483 characters, within the compact prompt budget. Settings and the historical fourth task remain protected. After verified recovery, only the three daily tasks are resumed. A failed edition blocks that edition, preserves its candidate and leaves future schedules enabled. No new scheduler, run-now, catch-up flow, paid API or additional message destination is introduced.
 
 Implementation and prepared validation are not a claim of live publication or measured Pro savings. The live pilot remains necessary.
+
+## Approved deployment completed — 16 October 2026
+
+The user explicitly approved main publication and restoring the three daily tasks. The source implementation/recovered evening reached main at cb952b414d793e5d601eb90cf52d54853815c4b6; the central implementation/snapshot reached main at 37b16b544d5bfb6f0bfb21e04fc11b031f229ca3. PRs public #7/#11 and portal #9 are merged. Earlier pending/blocking statements describe the preparation stage; this section records the completed recovery.
+
+The exact source candidate passed 124 unit tests, 500 broad browser checks, 16 frontend scenarios, 14 editorial scenarios across 22 stories, and 88 current-edition cases. Exact-head candidate CI passed for both repositories. Both Pages deployments and their independent served-release verification workflows passed. Main CI may repeat the same approved candidate checks separately.
+
+Exact live source verification covered 453 files; source release aa54ad51f00889f16fab4ddf15f8a12ff3e93b099c0d71c6dbf7ff626f04a6f9. Exact central verification covered 31 files; central release 5bff19a5a4bde334742dfc340982d439968a43d97e9e3e5156e56c8118f16834. The coordinator records generated/validated/built/checked and both publication/verification/sync stages complete, with no failed stage. Final source/central verification completed at 18:12 UTC. Independent Wire files remain unchanged.
+
+Browser checks against the served bytes passed at 390 and 1440 pixels: six decoded evening photos, fourteen decoded unique daily-story photos, four official sports links and no horizontal overflow. HTTPS content was fetched through the environment’s normal proxy/CA verification for browser rendering; TLS verification was retained.
+
+The three existing daily tasks are enabled. Exact readback preserves the revised prompts (5,439/5,452/5,483 characters), titles, Europe/Athens timezone and original 07:30/13:30/19:30 schedules. The fourth historical task is unchanged and disabled. No new task or run-now was created. Actual Pro usage savings remain unmeasured and require the live pilot.
+
+Live newspaper: https://jodemon9.github.io/oracle-briefing/
+Recovered evening: https://jodemon9.github.io/Claude-Briefing/evening/2026-10-16.html
