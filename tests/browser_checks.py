@@ -115,7 +115,8 @@ def run(screenshots=None):
                         if article.get('sports_interest','other')!='other':continue
                         photo=page.locator('article[id="'+article['id']+'"] [data-editorial-image] img')
                         assert photo.count()==1, f'{latest_path}: article {article["id"]} must render its own photograph'
-                        assert photo.get_attribute('src')=='../'+article['image']['url'],f'{latest_path}: wrong photograph for {article["id"]}'
+                        actual_path=photo.evaluate('(img)=>new URL(img.currentSrc||img.src,document.baseURI).pathname')
+                        assert actual_path=='/real/'+article['image']['url'],f'{latest_path}: wrong photograph for {article["id"]}: {actual_path}'
                     photos.first.evaluate('(img)=>{img.dispatchEvent(new Event("error"))}')
                     assert page.locator('[data-image-fallback]').first.is_visible()
                     assert page.locator('#main').is_visible()
