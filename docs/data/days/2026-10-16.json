@@ -16,39 +16,58 @@
       "type": "midday",
       "url": "midday/2026-10-16.html",
       "published_at": "2026-10-16T14:45:58+03:00"
+    },
+    {
+      "id": "2026-10-16-evening",
+      "type": "evening",
+      "url": "evening/2026-10-16.html",
+      "published_at": "2026-10-16T19:48:09+03:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "european-council-october-15-16-2026",
+  "missing_slots": [],
+  "lead_story_id": "gaza-unicef-children-winter-october-16-2026",
   "stories": [
     {
-      "story_id": "european-council-october-15-16-2026",
-      "first_seen_at": "2026-10-16T10:24:50+03:00",
-      "last_substantive_at": "2026-10-16T09:55:00+02:00",
+      "story_id": "gaza-unicef-children-winter-october-16-2026",
+      "first_seen_at": "2026-10-16T19:48:09+03:00",
+      "last_substantive_at": null,
       "references": [
         {
-          "edition_id": "2026-10-16-morning",
+          "edition_id": "2026-10-16-evening",
           "article_id": "lead",
-          "source_story_id": "european-council-october-15-16-2026",
-          "url": "articles/2026-10-16-morning/lead.html"
-        },
-        {
-          "edition_id": "2026-10-16-midday",
-          "article_id": "lead",
-          "source_story_id": "european-council-october-15-16-2026",
-          "url": "articles/2026-10-16-midday/lead.html"
+          "source_story_id": "gaza-unicef-children-winter-october-16-2026",
+          "url": "articles/2026-10-16-evening/lead.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-16-midday",
+        "edition_id": "2026-10-16-evening",
         "article_id": "lead",
-        "source_story_id": "european-council-october-15-16-2026",
-        "url": "articles/2026-10-16-midday/lead.html"
+        "source_story_id": "gaza-unicef-children-winter-october-16-2026",
+        "url": "articles/2026-10-16-evening/lead.html"
       },
       "section": "world",
       "priority": 0
+    },
+    {
+      "story_id": "midas-vat-fraud-arrests-october-16-2026",
+      "first_seen_at": "2026-10-16T19:48:09+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-16-evening",
+          "article_id": "cyprus-eppo",
+          "source_story_id": "midas-vat-fraud-arrests-october-16-2026",
+          "url": "articles/2026-10-16-evening/cyprus-eppo.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "cyprus-eppo",
+        "source_story_id": "midas-vat-fraud-arrests-october-16-2026",
+        "url": "articles/2026-10-16-evening/cyprus-eppo.html"
+      },
+      "section": "cyprus",
+      "priority": 5
     },
     {
       "story_id": "asia-ai-financing-rebound-october-16-2026",
@@ -72,24 +91,36 @@
       "priority": 10
     },
     {
-      "story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
-      "first_seen_at": "2026-10-16T14:45:58+03:00",
-      "last_substantive_at": null,
+      "story_id": "european-council-october-15-16-2026",
+      "first_seen_at": "2026-10-16T10:24:50+03:00",
+      "last_substantive_at": "2026-10-16T09:55:00+02:00",
       "references": [
         {
+          "edition_id": "2026-10-16-morning",
+          "article_id": "lead",
+          "source_story_id": "european-council-october-15-16-2026",
+          "url": "articles/2026-10-16-morning/lead.html"
+        },
+        {
           "edition_id": "2026-10-16-midday",
-          "article_id": "cyprus-road",
-          "source_story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
-          "url": "articles/2026-10-16-midday/cyprus-road.html"
+          "article_id": "lead",
+          "source_story_id": "european-council-october-15-16-2026",
+          "url": "articles/2026-10-16-midday/lead.html"
+        },
+        {
+          "edition_id": "2026-10-16-evening",
+          "article_id": "world-eu",
+          "source_story_id": "european-council-october-15-16-2026",
+          "url": "articles/2026-10-16-evening/world-eu.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-16-midday",
-        "article_id": "cyprus-road",
-        "source_story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
-        "url": "articles/2026-10-16-midday/cyprus-road.html"
+        "edition_id": "2026-10-16-evening",
+        "article_id": "world-eu",
+        "source_story_id": "european-council-october-15-16-2026",
+        "url": "articles/2026-10-16-evening/world-eu.html"
       },
-      "section": "cyprus",
+      "section": "world",
       "priority": 10
     },
     {
@@ -111,6 +142,33 @@
         "url": "articles/2026-10-16-midday/world-oregon.html"
       },
       "section": "world",
+      "priority": 15
+    },
+    {
+      "story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+      "first_seen_at": "2026-10-16T14:45:58+03:00",
+      "last_substantive_at": "2026-10-16T19:05:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-16-midday",
+          "article_id": "cyprus-road",
+          "source_story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+          "url": "articles/2026-10-16-midday/cyprus-road.html"
+        },
+        {
+          "edition_id": "2026-10-16-evening",
+          "article_id": "cyprus-road",
+          "source_story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+          "url": "articles/2026-10-16-evening/cyprus-road.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "cyprus-road",
+        "source_story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+        "url": "articles/2026-10-16-evening/cyprus-road.html"
+      },
+      "section": "cyprus",
       "priority": 15
     },
     {
@@ -238,6 +296,27 @@
       },
       "section": "cyprus",
       "priority": 50
+    },
+    {
+      "story_id": "giorgos-vardinogiannis-death-october-16-2026",
+      "first_seen_at": "2026-10-16T19:48:09+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-16-evening",
+          "article_id": "sport-pao",
+          "source_story_id": "giorgos-vardinogiannis-death-october-16-2026",
+          "url": "articles/2026-10-16-evening/sport-pao.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "sport-pao",
+        "source_story_id": "giorgos-vardinogiannis-death-october-16-2026",
+        "url": "articles/2026-10-16-evening/sport-pao.html"
+      },
+      "section": "sports",
+      "priority": 100
     }
   ],
   "updates": [
@@ -577,6 +656,165 @@
         "source_story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
         "url": "articles/2026-10-16-midday/cyprus-road.html"
       }
+    },
+    {
+      "id": "2026-10-16-evening-cyprus-road-substantive_update",
+      "kind": "substantive_update",
+      "at": "2026-10-16T19:05:00+03:00",
+      "summary": "Ώρα δημοσίευσης του ΚΥΠΕ/StockWatch για την ανακοίνωση του Υπουργείου: αλλαγή αντικειμένου σε τέσσερις λωρίδες και στόχος επαναπροκήρυξης το 2027. Δεν είναι ώρα απόφασης κατακύρωσης.",
+      "source_urls": [
+        "https://www.stockwatch.com.cy/el/news/autokinitodromos-pafoy-polis-nea-prokiriksi-entos-toy-2027",
+        "https://cyprus-mail.com/2026/10/16/paphos-polis-highway-to-go-ahead-on-proper-basis",
+        "https://www.philenews.com/kipros/koinonia/article/1782871/dromos-pafou-polis-akirosan-tis-prosfores-epiveveose-i-ipourgos-metaforon-e34-ekat-ke-e38-ekat-psiloteres-tis-ektimisis-i-dio-pou-ipovlithikan-anazitounte-enallaktikes-lisis/",
+        "https://knews.kathimerini.com.cy/en/news/yesterday-bids-today-goodbye-paphos%E2%80%93polis-road-hits-another-dead-end"
+      ],
+      "story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "cyprus-road",
+        "source_story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+        "url": "articles/2026-10-16-evening/cyprus-road.html"
+      }
+    },
+    {
+      "id": "2026-10-16-evening-cyprus-eppo-provenance",
+      "kind": "provenance",
+      "at": "2026-10-16T19:46:46+03:00",
+      "summary": "Προσθήκη ελεγμένης κάλυψης κατά τον συντακτικό έλεγχο της βραδινής έκδοσης. Η ώρα αφορά την ένταξη, όχι την ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.eppo.europa.eu/media/news/investigation-midas-five-arrests-cyprus-germany-and-italy-probe-eur114-million-vat-fraud-2026-10-16_en",
+        "https://cyprus-mail.com/2026/10/16/five-arrested-in-european-e114m-vat-fraud-probe-three-in-cyprus"
+      ],
+      "story_id": "midas-vat-fraud-arrests-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "cyprus-eppo",
+        "source_story_id": "midas-vat-fraud-arrests-october-16-2026",
+        "url": "articles/2026-10-16-evening/cyprus-eppo.html"
+      }
+    },
+    {
+      "id": "2026-10-16-evening-lead-provenance",
+      "kind": "provenance",
+      "at": "2026-10-16T19:46:46+03:00",
+      "summary": "Προσθήκη ελεγμένης κάλυψης κατά τον συντακτικό έλεγχο της βραδινής έκδοσης. Η ώρα αφορά την ένταξη, όχι την ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.unicef.org/mena/press-releases/childhood-defined-struggle-survival-gaza-strip"
+      ],
+      "story_id": "gaza-unicef-children-winter-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "lead",
+        "source_story_id": "gaza-unicef-children-winter-october-16-2026",
+        "url": "articles/2026-10-16-evening/lead.html"
+      }
+    },
+    {
+      "id": "2026-10-16-evening-sport-pao-provenance",
+      "kind": "provenance",
+      "at": "2026-10-16T19:46:46+03:00",
+      "summary": "Προσθήκη ελεγμένης κάλυψης κατά τον συντακτικό έλεγχο της βραδινής έκδοσης. Η ώρα αφορά την ένταξη, όχι την ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.pao.gr/fc/efyge-o-kapetanios/",
+        "https://cyprus-mail.com/2026/10/16/giorgos-vardinogiannis-the-captain-of-shipping-and-panathinaikos-dies-aged-90"
+      ],
+      "story_id": "giorgos-vardinogiannis-death-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "sport-pao",
+        "source_story_id": "giorgos-vardinogiannis-death-october-16-2026",
+        "url": "articles/2026-10-16-evening/sport-pao.html"
+      }
+    },
+    {
+      "id": "2026-10-16-evening-world-eu-provenance",
+      "kind": "provenance",
+      "at": "2026-10-16T19:46:46+03:00",
+      "summary": "Βραδινός έλεγχος της νεότερης ανταπόκρισης Reuters και της επίσημης σελίδας. Η ώρα αφορά επαλήθευση/ένταξη της ενημέρωσης, όχι επαληθευμένη ώρα εκφώνησης του αιτήματος.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/16/eu-rallies-behind-zelenskiy-as-trump-attacks-ukraine",
+        "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/10/16/remarks-by-president-antonio-costa-at-the-joint-doorstep-with-presidents-volodymyr-zelenskyy-and-ursula-von-der-leyen/",
+        "https://www.aol.com/articles/eu-leaders-rally-around-zelenskiy-075900000.html",
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/10/16/european-council-conclusions-on-competitiveness-the-next-multiannual-financial-framework-and-enlargement-and-reforms/"
+      ],
+      "story_id": "european-council-october-15-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "world-eu",
+        "source_story_id": "european-council-october-15-16-2026",
+        "url": "articles/2026-10-16-evening/world-eu.html"
+      }
+    },
+    {
+      "id": "1c2ef3bc1ede8da68aeae7697b97b5a5dd91b3699bb3480d63c9b4a5aebfb8fb",
+      "kind": "provenance",
+      "at": "2026-10-16T19:48:09+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "gaza-unicef-children-winter-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "lead",
+        "source_story_id": "gaza-unicef-children-winter-october-16-2026",
+        "url": "articles/2026-10-16-evening/lead.html"
+      }
+    },
+    {
+      "id": "45f2e6ac1e5818c7aa488f974a72983be064905a18b0e2218ea5a3b998d3b816",
+      "kind": "provenance",
+      "at": "2026-10-16T19:48:09+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "european-council-october-15-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "world-eu",
+        "source_story_id": "european-council-october-15-16-2026",
+        "url": "articles/2026-10-16-evening/world-eu.html"
+      }
+    },
+    {
+      "id": "95a7d874eb4f5fa4c27b96b3b349a8802d6657ed419370dd80506c20dc14b2e4",
+      "kind": "provenance",
+      "at": "2026-10-16T19:48:09+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "cyprus-road",
+        "source_story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
+        "url": "articles/2026-10-16-evening/cyprus-road.html"
+      }
+    },
+    {
+      "id": "f32074992e884907a50cbea36a397f9729affe88bbd2a8490dd5f3301b08997d",
+      "kind": "provenance",
+      "at": "2026-10-16T19:48:09+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "giorgos-vardinogiannis-death-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "sport-pao",
+        "source_story_id": "giorgos-vardinogiannis-death-october-16-2026",
+        "url": "articles/2026-10-16-evening/sport-pao.html"
+      }
+    },
+    {
+      "id": "fa1d8fe044ebe2d73744df0672eb931c8056636472151faa04f671cd30dcfc03",
+      "kind": "provenance",
+      "at": "2026-10-16T19:48:09+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "midas-vat-fraud-arrests-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "cyprus-eppo",
+        "source_story_id": "midas-vat-fraud-arrests-october-16-2026",
+        "url": "articles/2026-10-16-evening/cyprus-eppo.html"
+      }
     }
   ],
   "opportunities": [
@@ -790,37 +1028,38 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η Σύνοδος περνά στην Ουκρανία: δηλώσεις στήριξης και πίεσης προς τη Ρωσία, αλλά ακόμη ανοικτή χρηματοδότηση του 2027. Παραμένουν τα πρωινά ενεργειακά συμπεράσματα και η εκκρεμότητα του ευρωπαϊκού προϋπολογισμού.",
+        "text": "Γάζα: η UNICEF καταγράφει επτά παιδιά νεκρά το τελευταίο δεκαπενθήμερο και προειδοποιεί για χειμερινές πλημμύρες/λύματα. Οι αριθμοί αποδίδονται στον οργανισμό.",
+        "story_ids": [
+          "gaza-unicef-children-winter-october-16-2026"
+        ]
+      },
+      {
+        "text": "Σύνοδος ΕΕ: από τα πρωινά ενεργειακά συμπεράσματα στο αίτημα Zelensky για τουλάχιστον €70 δισ. επιπλέον το 2027. Αίτημα, δημοσιονομικό κενό και εγκεκριμένη χρηματοδότηση παραμένουν διαφορετικά πράγματα.",
         "story_ids": [
           "european-council-october-15-16-2026"
         ]
       },
       {
-        "text": "Πάφου–Πόλης: ακύρωση του διαγωνισμού με υπερβάσεις προσφορών 38,4% και 42,9%. Η κυβέρνηση αναζητεί εναλλακτικό τρόπο υλοποίησης χωρίς νέο χρονοδιάγραμμα.",
+        "text": "Πάφου–Πόλης: μετά την ακύρωση των προσφορών, το Υπουργείο προσανατολίζεται σε τέσσερις λωρίδες και νέα προκήρυξη το 2027· δεν ανακοίνωσε ημερομηνία ολοκλήρωσης.",
         "story_ids": [
           "paphos-polis-road-retender-cancellation-october-16-2026"
         ]
       },
       {
-        "text": "Όρεγκον: τέσσερα θύματα από την επίθεση της 15ης Οκτωβρίου, νεκρός και ο ύποπτος· κλείσιμο σχολείων και υποστήριξη της κοινότητας. Σημαντική προσθήκη στην κάλυψη της ημέρας.",
+        "text": "Midas: τρεις συλλήψεις στην Κύπρο, εκτιμώμενη ζημιά ΦΠΑ €114 εκατ. σε Σουηδία/Γερμανία και ανοικτή δικαστική έρευνα.",
         "story_ids": [
-          "bend-silver-rail-school-shooting-october-15-2026"
+          "midas-vat-fraud-arrests-october-16-2026"
         ]
       },
       {
-        "text": "Πάφος: πρόστιμο €3.000 μετά την παραδοχή πρόκλησης θανάτου του παιδιού στο δυστύχημα της 12ης Ιουλίου. Η ποινή δεν ισοδυναμεί με αθώωση.",
+        "text": "Παραμένουν στην ημέρα η επίθεση σε σχολείο του Oregon με τέσσερα θύματα πέραν του υπόπτου και η κυπριακή δικαστική απόφαση για τον θάνατο παιδιού σε ξενοδοχείο — με τους αρχικούς ελέγχους και χωρίς επινοημένες νεότερες εξελίξεις.",
         "story_ids": [
+          "bend-silver-rail-school-shooting-october-15-2026",
           "paphos-child-hotel-fall-sentencing-october-16-2026"
         ]
       },
       {
-        "text": "Παραχωρήσεις: €44,6 εκατ. αναφερόμενων κρατικών εσόδων από το λιμάνι στο επτάμηνο. Χρειάζεται συμφιλίωση των διαφορετικών βάσεων για το αεροδρομιακό σκέλος του δημοσιευμένου συνόλου.",
-        "story_ids": [
-          "cyprus-concession-receipts-october-16-2026"
-        ]
-      },
-      {
-        "text": "Από το πρωινό παραμένουν η ασιατική ανάκαμψη μετά το σοκ χρηματοδότησης AI και η δειγματοληπτική κυπριακή καταγραφή μειωμένων τιμών μετά τον μηδενικό ΦΠΑ — όχι γενικευμένη μέτρηση του καλαθιού.",
+        "text": "Το πρωινό οικονομικό υπόβαθρο διατηρείται: ασιατική ανάκαμψη μετά το σοκ χρηματοδότησης AI και δειγματοληπτική πτώση επιλεγμένων κυπριακών τιμών μετά τον μηδενικό ΦΠΑ, όχι γενική μέτρηση ακρίβειας.",
         "story_ids": [
           "asia-ai-financing-rebound-october-16-2026",
           "cyprus-zero-vat-october-2026-monitoring"
@@ -829,6 +1068,6 @@
     ]
   },
   "created_at": "2026-10-16T07:26:00.514306+00:00",
-  "updated_at": "2026-10-16T11:47:13.942319+00:00",
-  "input_sha256": "78b94c77bf25c6ddd81478f0acf58d6a466dee9d7806af1908cf83819bc2d89f"
+  "updated_at": "2026-10-16T16:48:17.736982+00:00",
+  "input_sha256": "daff7e8527b4e62c4c95ded2e0c91b1f545203fa9ea16e574715f44c6c99a01f"
 }

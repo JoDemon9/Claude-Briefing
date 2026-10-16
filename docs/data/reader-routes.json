@@ -145,6 +145,13 @@
       "sport-real": "articles/2026-10-15-morning/sport-real.html",
       "sport-omonoia": "articles/2026-10-15-morning/sport-omonoia.html"
     },
+    "2026-10-16-evening": {
+      "lead": "articles/2026-10-16-evening/lead.html",
+      "cyprus-eppo": "articles/2026-10-16-evening/cyprus-eppo.html",
+      "world-eu": "articles/2026-10-16-evening/world-eu.html",
+      "cyprus-road": "articles/2026-10-16-evening/cyprus-road.html",
+      "sport-pao": "articles/2026-10-16-evening/sport-pao.html"
+    },
     "2026-10-16-midday": {
       "lead": "articles/2026-10-16-midday/lead.html",
       "cyprus-road": "articles/2026-10-16-midday/cyprus-road.html",
@@ -196,6 +203,9 @@
   },
   "readers/2026-10-15.html": {
     "edition_id": "2026-10-15-morning"
+  },
+  "readers/2026-10-16-evening.html": {
+    "edition_id": "2026-10-16-evening"
   },
   "readers/2026-10-16-midday.html": {
     "edition_id": "2026-10-16-midday"
