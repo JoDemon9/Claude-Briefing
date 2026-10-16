@@ -2,6 +2,7 @@
 """Cache editorially selected, licensed photographs. Never select stories or publish."""
 import argparse
 import io
+import hashlib
 import json
 import time
 import urllib.request
@@ -28,6 +29,15 @@ def prepare(root, edition_id, verify_only=False):
         if local.is_absolute() or '..' in local.parts or not im['url'].startswith('assets/editorial/'):
             raise ValueError('Unsafe editorial asset path')
         target = root/'docs'/local
+        downloaded = False
+        reuse=im.get('reuse_review')
+        if reuse:
+            source=Path(reuse['source_asset'])
+            if source.is_absolute() or '..' in source.parts or not str(source).startswith('assets/editorial/'):
+                raise ValueError('Unsafe reused photo provenance')
+            original=root/'docs'/source
+            if not reuse.get('relevance_and_archive_date_checked') or hashlib.sha256(original.read_bytes()).hexdigest()!=reuse['sha256']:
+                raise ValueError('Reused photo source no longer matches its review')
         if not target.exists():
             if verify_only:
                 raise ValueError('Missing image asset: '+str(local))
@@ -60,13 +70,17 @@ def prepare(root, edition_id, verify_only=False):
                     raise ValueError('Image resolution too small')
                 target.parent.mkdir(parents=True, exist_ok=True)
                 image.save(target, 'WEBP', quality=82, method=6)
+                downloaded = True
         with Image.open(target) as image:
+            if min(image.size)<200:raise ValueError('Cached image resolution too small')
             image.verify()
+        if reuse and hashlib.sha256(target.read_bytes()).hexdigest()!=reuse['sha256']:
+            raise ValueError('Reused photo bytes do not match their reviewed source')
         if target.stat().st_size > 1_000_000:
             raise ValueError('Optimized image is too large')
         count += 1
         print('Verified image:', local)
-        if not verify_only:
+        if downloaded:
             time.sleep(3)
     if edition.get('image_review') and count == 0:
         raise ValueError('No photographs found for reviewed edition')

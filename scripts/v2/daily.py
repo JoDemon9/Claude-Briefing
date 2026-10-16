@@ -45,6 +45,28 @@ def newer_quote(candidate, previous, timezone_name):
         return True
     return left>=right
 
+def collect_follow_ups(stories, bundles, canonical=lambda sid:sid):
+    """Use explicit editorial relationships; never match headlines or keywords."""
+    by_edition={e['id']:index for index,(e,_) in enumerate(bundles)}
+    relations={}
+    for index,(edition,_) in enumerate(bundles):
+        declared=set()
+        for record in edition.get('daily',{}).get('follow_ups',[]):
+            origin,target=(canonical(record[key]) for key in ('from_story_id','to_story_id'))
+            if origin==target:raise ValueError('A story cannot follow up itself; use the same stable story ID for evolving versions')
+            if origin in declared:raise ValueError('Declare only one follow-up target per story in an edition')
+            declared.add(origin)
+            if any(sid not in stories for sid in (origin,target)):
+                raise ValueError('Follow-up references an unavailable participating story')
+            if any(min(by_edition[r['edition_id']] for r in stories[sid]['references'])>index for sid in (origin,target)):
+                raise ValueError('Follow-up cannot reference a future or draft edition')
+            relations[origin]={'from_story_id':origin,'to_story_id':target,'reviewed_in':edition['id']}
+    # A later update to the earlier story can make an old pointer obsolete.
+    # Keep its historical declaration but never send readers backwards in time.
+    return [record for origin,record in sorted(relations.items()) if
+            by_edition[stories[record['to_story_id']]['selected']['edition_id']]>
+            by_edition[stories[origin]['selected']['edition_id']]]
+
 def compose(date, bundles, previous=None, aliases=None, now=None):
     if previous and previous['date'] != date:
         previous = None
@@ -122,6 +144,7 @@ def compose(date, bundles, previous=None, aliases=None, now=None):
     opportunity=importlib.util.module_from_spec(spec);spec.loader.exec_module(opportunity)
     model['opportunities']=opportunity.collect(participating)
     model['overview']=load_editorial().overview(model['stories'],participating,canonical)
+    model['follow_ups']=collect_follow_ups(stories,participating,canonical)
     fingerprint = digest({'model': model, 'inputs': participating, 'aliases': aliases})
     moment = (now or datetime.now(timezone.utc)).isoformat()
     model['created_at'] = previous['created_at'] if previous else moment
@@ -136,6 +159,16 @@ def validate(root, model, bundles):
     if len({s['story_id'] for s in model['stories']}) != len(model['stories']):
         raise ValueError('Duplicate daily story')
     known={s['story_id'] for s in model['stories']}
+    if len({r['from_story_id'] for r in model.get('follow_ups',[])})!=len(model.get('follow_ups',[])):
+        raise ValueError('Only one selected follow-up per story is allowed')
+    # Model IDs have already been canonicalized by compose, including aliases.
+    for record in model.get('follow_ups',[]):
+        if record['from_story_id'] not in known or record['to_story_id'] not in known or record['reviewed_in'] not in {e['id'] for e in model['editions']}:
+            raise ValueError('Follow-up references an unavailable participating story or edition')
+        by_story={s['story_id']:s for s in model['stories']}
+        times={e['id']:instant(e['published_at']) for e in model['editions']}
+        if times[by_story[record['to_story_id']]['selected']['edition_id']]<=times[by_story[record['from_story_id']]['selected']['edition_id']]:
+            raise ValueError('Follow-up target must be a later published edition')
     if any(sid not in known for point in model.get('overview',{}).get('points',[]) for sid in point['story_ids']):
         raise ValueError('Daily overview references an unavailable story')
     for edition in model['editions']:
@@ -153,6 +186,8 @@ def validate(root, model, bundles):
 
 def render(b, model, bundles):
     lookup = {e['id']: (e, {a['id']: a for a in aa}) for e, aa in bundles}
+    follow_ups={r['from_story_id']:r['to_story_id'] for r in model.get('follow_ups',[])}
+    story_lookup={s['story_id']:s for s in model['stories']}
     def selected(story):
         e, aa = lookup[story['selected']['edition_id']]
         return e, aa[story['selected']['article_id']]
@@ -166,18 +201,30 @@ def render(b, model, bundles):
         eyebrow.clear()
         if hero:eyebrow.append(BeautifulSoup(b.emblem('lead'),'html.parser'))
         eyebrow.append('Πρώτο θέμα' if hero else {'cyprus':'Κύπρος','world':'Διεθνή','sports':'Αθλητικά'}[story['section']])
-        events = [x for x in model['updates'] if x['story_id'] == story['story_id'] and x['origin']['edition_id'] == e['id']]
+        events = [x for x in model['updates'] if x['story_id'] == story['story_id'] and x['origin']['edition_id'] == e['id'] and e['id'] == bundles[-1][0]['id']]
         kinds = {x['kind'] for x in events}
         label = 'Συντακτική διόρθωση' if 'correction' in kinds else 'Ενημερώθηκε' if 'substantive_update' in kinds else 'Νέο' if 'new' in kinds else 'Από το πρωινό' if e['type'] == 'morning' else 'Από τη ' + b.TYPES[e['type']].lower()
         note = doc.new_tag('p', attrs={'class': 'story-origin'})
         badge_kind='correction' if 'correction' in kinds else 'substantive_update' if 'substantive_update' in kinds else 'new' if 'new' in kinds else 'provenance'
+        successor=follow_ups.get(story['story_id'])
+        if successor:
+            label='Πρωινό πλαίσιο' if e['type']=='morning' else 'Προηγούμενη κάλυψη'
+            badge_kind='background'
+            node['class']=node.get('class',[])+['story-background']
         badge=doc.new_tag('span', attrs={'class':'story-status status-'+badge_kind})
-        marker=doc.new_tag('span',attrs={'class':'status-marker','aria-hidden':'true'});marker.string={'new':'✨','substantive_update':'🔄','correction':'✏️','provenance':'🗂️'}[badge_kind]
+        marker=doc.new_tag('span',attrs={'class':'status-marker','aria-hidden':'true'});marker.string={'new':'✨','substantive_update':'🔄','correction':'✏️','provenance':'🗂️','background':'🗂️'}[badge_kind]
         badge.append(marker);badge.append(label)
         note.append(badge)
         time=doc.new_tag('time',attrs={'datetime':e['published_at'],'title':'Δημοσίευση της επιλεγμένης έκδοσης'});time.string=b.stamp(e['published_at'],model['timezone'])
         note.append(time)
         node.select_one('.eyebrow').insert_after(note)
+        if successor:
+            _,outcome=selected(story_lookup[successor])
+            follow=doc.new_tag('aside',attrs={'class':'story-follow-up','aria-label':'Μεταγενέστερη εξέλιξη'})
+            link=doc.new_tag('a',href='#story-'+digest(successor)[:12],attrs={'data-follow-up-story-id':successor})
+            prefix=doc.new_tag('span');prefix.string='Νεότερη εξέλιξη →';link.append(prefix)
+            title=doc.new_tag('strong');title.string=outcome['headline'];link.append(title)
+            follow.append(link);node.select_one('h2,h3').insert_after(follow)
         # Older legacy articles retain full text in their readers; cards keep their
         # factual abstract and available editorial preview, without concatenation.
         for more in node.select('.story-more'):
@@ -185,7 +232,7 @@ def render(b, model, bundles):
         if hero and node.select_one('.card-context') and not node.select_one('.lead-analysis'):
             context = node.select_one('.card-context')
             details = doc.new_tag('section', attrs={'class': 'lead-analysis'})
-            summary = doc.new_tag('h3'); summary.string = 'Γιατί έχει σημασία · ½–1 λεπτό'
+            summary = doc.new_tag('h3'); summary.string = 'Γιατί έχει σημασία'
             context.replace_with(details); details.append(summary); details.append(context)
             duplicate_label=context.find('b',recursive=False)
             if duplicate_label:duplicate_label.decompose()
@@ -217,8 +264,14 @@ def render(b, model, bundles):
     links=[[{'url':'#story-'+digest(sid)[:12],'label':selected(next(s for s in model['stories'] if s['story_id']==sid))[1]['headline']} for sid in point['story_ids']] for point in points]
     html += b.load_module('newspaper_ui').summary(b,[p['text'] for p in points],'Η ημέρα σε 60 δευτερόλεπτα' if overview['kind']=='reviewed' else 'Επιλεγμένες ειδήσεις της ημέρας',links)
     lead = next(s for s in model['stories'] if s['story_id'] == model['lead_story_id'])
-    html += '<div class="day-lead">' + card(lead, True) + '</div>'
-    html += '<section class="section day-changes" id="changes"><div class="sectionhead"><h2>'+b.emblem('changes')+'Τι άλλαξε.</h2></div>'
+    # One editorial opening, with links into unique cards further down the page.
+    picks = []
+    for section in ('world', 'cyprus'):
+        picks.extend([story for story in model['stories'] if story != lead and story['section'] == section][:2])
+    picks.sort(key=lambda story: (story['priority'], story['story_id']))
+    brief = ''.join('<div class="brief-line"><b>' + f'{i+1:02}' + '</b><p><a href="#story-' + digest(story['story_id'])[:12] + '">' + b.esc(selected(story)[1]['headline']) + '</a></p></div>' for i, story in enumerate(picks))
+    html += '<div class="hero-grid day-lead">' + card(lead, True) + '<aside class="hero-side"><div class="brief-panel"><div class="heading">Η επιλογή της ημέρας</div><h3>Σημαντικά<br><em>σε μία ματιά.</em></h3>' + brief + '</div></aside></div>'
+    changes_html = '<details class="section day-changes" id="changes"><summary>'+b.emblem('changes')+'Το χρονικό της ημέρας <span>Ενημερώσεις και προηγούμενες αναφορές</span></summary>'
     changes = [x for x in model['updates'] if x['kind'] != 'provenance']
     def event_html(event):
         origin,articles=lookup[event['origin']['edition_id']]
@@ -230,19 +283,34 @@ def render(b, model, bundles):
         evidence='<details class="update-sources"><summary>Αναφορά και πηγές <span class="disclosure-count">'+str(len(event['source_urls']))+'</span></summary><div class="update-source-links">'+origin_link+links+'</div></details>'
         return '<li class="update-card"><div class="update-meta"><span class="story-status status-'+event['kind']+'">'+LABELS[event['kind']]+'</span><time datetime="'+b.esc(event['at'])+'">'+b.stamp(event['at'],model['timezone'])+'</time></div><div class="update-body"><h3 class="visually-hidden">'+b.esc(title)+'</h3><p>'+b.esc(event['summary'])+'</p></div><div class="update-actions">'+evidence+'</div></li>'
     from urllib.parse import urlsplit
-    html += '<ol class="update-timeline">' + ''.join(event_html(x) for x in changes[-5:][::-1]) + '</ol>' if changes else '<p class="empty-state">Δεν έχει τεκμηριωθεί νέα ουσιαστική εξέλιξη. Η προέλευση αναγράφεται σε κάθε ιστορία.</p>'
+    changes_html += '<ol class="update-timeline">' + ''.join(event_html(x) for x in changes[-5:][::-1]) + '</ol>' if changes else '<p class="empty-state">Δεν έχει τεκμηριωθεί νέα ουσιαστική εξέλιξη. Η προέλευση αναγράφεται σε κάθε ιστορία.</p>'
     if len(changes) > 5:
-        html += '<details class="changes-history"><summary>Όλο το ιστορικό ενημερώσεων</summary><ol class="update-timeline">' + ''.join(event_html(x) for x in changes[:-5][::-1]) + '</ol></details>'
-    html += '</section>'
-    for section, label in [('cyprus','Κύπρος'), ('world','Διεθνή')]:
-        html += '<section class="section" id="' + section + '"><div class="sectionhead"><h2>' + b.emblem(section) + label + '.</h2></div><div class="g3">' + ''.join(card(s) for s in model['stories'] if s['section'] == section and s != lead) + '</div></section>'
-    sport_edition = dict(latest, sports=dict(latest['sports'], major_stories=[]))
-    html += b.sports(sport_edition).replace('<h3>Μεγάλες αθλητικές ειδήσεις</h3>', '')
-    sport_stories = [s for s in model['stories'] if s['section'] == 'sports' and s != lead]
+        changes_html += '<details class="changes-history"><summary>Όλο το ιστορικό ενημερώσεων</summary><ol class="update-timeline">' + ''.join(event_html(x) for x in changes[:-5][::-1]) + '</ol></details>'
+    changes_html += '</details>'
+    for section, label in [('world','Διεθνή'), ('cyprus','Κύπρος')]:
+        stories = [story for story in model['stories'] if story['section'] == section and story != lead]
+        if stories:
+            html += '<section class="section" id="' + section + '"><div class="sectionhead"><h2>' + b.emblem(section) + label + '.</h2><span>' + str(len(stories)) + ' ιστορίες</span></div><div class="g3">' + ''.join(card(story) for story in stories) + '</div></section>'
+    html += changes_html
+    sports_module = b.load_module('sports')
+    anchors = {}
+    sport_stories = []
+    for story in model['stories']:
+        if story['section'] != 'sports' or story == lead:
+            continue
+        _, article = selected(story)
+        interest = sports_module.interest(article)
+        if interest in b.TEAMS:
+            anchors.setdefault(interest, []).append((story['story_id'], digest(story['story_id'])[:12]))
+        else:
+            sport_stories.append(story)
+    html += b.sports(latest, anchors=anchors, include_major=False)
     if sport_stories:
-        html += '<section class="section"><h2>Μεγάλες αθλητικές ιστορίες</h2><div class="g3">' + ''.join(card(s) for s in sport_stories[:3]) + '</div>'
-        if len(sport_stories) > 3:
-            html += '<details><summary>Περισσότερες αθλητικές ιστορίες της ημέρας</summary><div class="g3">' + ''.join(card(s) for s in sport_stories[3:]) + '</div></details>'
+        # Latest participating reporting first; preserve older independent readers.
+        sport_stories.sort(key=lambda story: (-SLOTS.index(lookup[story['selected']['edition_id']][0]['type']), story['priority'], story['story_id']))
+        html += '<section class="section sports-other" id="other-sports"><div class="sectionhead"><h2>Από τον υπόλοιπο αθλητισμό.</h2></div><div class="g3">' + ''.join(card(story) for story in sport_stories[:2]) + '</div>'
+        if len(sport_stories) > 2:
+            html += '<details class="sports-archive"><summary>Περισσότερες αθλητικές ιστορίες της ημέρας</summary><div class="g3">' + ''.join(card(story) for story in sport_stories[2:]) + '</div></details>'
         html += '</section>'
     quotes = {}
     panels = {}
@@ -260,7 +328,7 @@ def render(b, model, bundles):
     html += '<footer class="day-footer"><span>THE ORACLE SOVEREIGN · '+model['date']+'</span><a href="../'+model['url']+'">'+b.icon('book')+'Μόνιμο αρχείο αυτής της ημέρας</a><a href="../daily/index.html">'+b.icon('archive')+'Αρχείο ημερών</a><details class="edition-about"><summary>Τι αποθηκεύεται εδώ;</summary><p>Η εφημερίδα ημέρας συγκεντρώνει τα κύρια νέα των δημοσιευμένων πρωινών, μεσημεριανών και βραδινών εκδόσεων, χωρίς διπλές ιστορίες. Ανανεώνεται στην ίδια διεύθυνση και διατηρείται στο αρχείο ανά ημερομηνία. Τα τρία briefings και οι αναλυτικοί readers παραμένουν στα δικά τους URLs.</p><p>Δημιουργία ημερήσιου αρχείου: ' + b.stamp(model['created_at']) + ' · ' + model['timezone'] + '. Οι ώρες πηγών και τιμών διατηρούνται. Κάθε reader ανήκει στη συγκεκριμένη έκδοση.</p></details></footer></main></body></html>'
     return b.load_module('newspaper_ui').decorate(b,html,latest,model)
 
-def publish(b, latest_module, bundles):
+def publish(b, latest_module, bundles, affected_dates=None):
     root = b.ROOT
     alias_path = root/'content/day-story-aliases.json'
     aliases = b.read(alias_path) if alias_path.exists() else {}
@@ -269,6 +337,9 @@ def publish(b, latest_module, bundles):
         day_bundles = sorted([(e, aa) for e, aa in bundles if e['date'] == date], key=lambda pair: SLOTS.index(pair[0]['type']))
         path = root/'docs/data/days'/f'{date}.json'
         previous = b.read(path) if path.exists() else None
+        if affected_dates is not None and date not in affected_dates and previous and (root/'docs'/previous['url']).is_file():
+            records.append({k:previous[k] for k in ('date','url','created_at','updated_at','missing_slots')})
+            continue
         model = compose(date, day_bundles, previous, aliases)
         validate(root, model, bundles)
         b.write(path, json.dumps(model, ensure_ascii=False, indent=2)+'\n')

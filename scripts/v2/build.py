@@ -3,7 +3,6 @@
 import argparse
 import html
 import json
-import math
 import re
 import os
 import shutil
@@ -95,6 +94,7 @@ def photo_credits(bundles):
             im=a.get('image')
             if not im:continue
             entries.append('<section id="'+esc(e['id']+'-'+a['id'])+'"><h2><a href="'+esc(article_url(e,a))+'">'+esc(a['headline'])+'</a></h2><p>'+esc(im.get('caption',''))+'</p><p><a href="'+esc(im.get('source_url',''))+'">'+esc(im['attribution'])+'</a> · <a href="'+esc(im.get('license_url',''))+'">'+esc(im.get('license','Στοιχεία στην αρχική πηγή'))+'</a></p><p>'+esc(im.get('original_url',''))+' · Ανάκτηση: '+esc(im.get('retrieved_at',''))+'</p></section>')
+    entries.append(load_module('sports').credits(SimpleNamespace(**globals())))
     return head('Συντελεστές εικόνων','photo-credits.html','article','')+'<main class="shell"><a href="today.html">← Εφημερίδα</a><h1>Συντελεστές εικόνων</h1>'+''.join(entries)+'</main></body></html>'
 
 def article_url(e, a):
@@ -106,6 +106,8 @@ def validate(e, articles):
     schema = read(ROOT/'templates/v2/content.schema.json')
     Draft202012Validator(schema, format_checker=FormatChecker()).validate(e)
     load_module('opportunities').validate(e.get('opportunities',[]))
+    load_module('research').validate_opportunity_reviews(ROOT,e)
+    load_module('backend').check_contract(ROOT,e,articles)
     if e['id'] != f'{e["date"]}-{e["type"]}':
         raise ValueError('Edition ID/date/type mismatch')
     if e['published_at'] and datetime.fromisoformat(e['published_at']).astimezone(ZoneInfo(e['timezone'])).date().isoformat() != e['date']:
@@ -116,6 +118,7 @@ def validate(e, articles):
         raise ValueError('Duplicate article IDs')
     if set(TEAMS) != set(e['sports']['coverage']):
         raise ValueError('Permanent sports coverage required')
+    load_module('selection').validate(e, articles)
     ids = {a['id'] for a in articles}
     policy_start=datetime.fromisoformat('2026-10-13T15:40:17+03:00')
     new_publication=e['status']=='published' and e.get('published_at') and datetime.fromisoformat(e['published_at'])>=policy_start
@@ -161,6 +164,14 @@ def validate(e, articles):
                 raise ValueError('Reviewed images must be local editorial assets')
             if not (ROOT/'docs'/path).is_file():
                 raise ValueError('Image asset missing; run prepare_images.py: '+im['url'])
+            if im.get('reuse_review'):
+                library=load_module('photo_library');reuse=im['reuse_review']
+                source=library.asset(ROOT,reuse['source_asset'])
+                if not reuse.get('relevance_and_archive_date_checked') or library.sha(source)!=reuse['sha256'] or library.sha(ROOT/'docs'/path)!=reuse['sha256']:
+                    raise ValueError('Reused photograph no longer matches its reviewed source')
+                reviewed=load_module('backend').instant(reuse['reviewed_at'])
+                if e.get('editorial_completed_at') and reviewed>load_module('backend').instant(e['editorial_completed_at']):
+                    raise ValueError('Reuse review cannot follow edition completion')
             from PIL import Image
             with Image.open(ROOT/'docs'/path) as decoded:
                 decoded.load()
@@ -215,45 +226,9 @@ def fixture(record):
         lines.append(f'<dt>Σέντρα · ώρα Κύπρου</dt><dd>{stamp(record["kickoff_at"]) if record["kickoff_at"] else UNKNOWN}</dd>')
     return '<dl class="fixture">'+''.join(lines)+'</dl>'+f'<p class="muted">Έλεγχος: {stamp(record["verified_at"])}</p>'+source_links(record['sources'])
 
-def sports(e, articles=()):
-    out = ['<section class="section" id="sports"><div class="sectionhead"><h2>'+emblem('sports')+'Αθλητικός παλμός.</h2><span>Η εικόνα κατά τη δημοσίευση</span></div><div class="sports">']
-    for key, t in e['sports']['coverage'].items():
-        symbol={'omonoia':'☘️','manutd':'👹','realmadrid':'👑','formula1':'🏎️'}[key]
-        out.append(f'<article class="sport team-{key}"><div class="teamicon" aria-hidden="true">{symbol}</div><h3>{TEAMS[key]}</h3><p>{esc(t["summary"])}</p><p class="muted">Ενημέρωση: {stamp(t["updated_at"])}</p><details><summary>Περισσότερα · {TEAMS[key]}</summary>')
-        if key == 'formula1':
-            s = t.get('latest_session')
-            out.append('<h4>Τελευταία ολοκληρωμένη περίοδος</h4>')
-            if s:
-                out.append(f'<p>{esc(s["event"])} · {esc(s["session_type"])} · {esc(s["date"])}</p><p>{esc(s["results"])}</p><p>{esc(s["implications"])}</p><p>{esc(s["incidents"])}</p>'+source_links(s['sources']))
-            else:
-                out.append(f'<p>{UNKNOWN}</p>')
-            out.append(f'<h4>Επόμενο Grand Prix</h4><p>{esc(t.get("next_grand_prix") or UNKNOWN)}</p>')
-            out.append(source_links(t.get('next_gp_sources',[])))
-            out.extend(f'<p>{esc(x["name"])} · {stamp(x["starts_at"])}</p>'+source_links(x['sources']) for x in t.get('sessions', []))
-            if not t.get('sessions'):
-                out.append(f'<p>{esc(t.get("session_times_reason") or "Οι ώρες των περιόδων δεν έχουν επαληθευτεί.")}</p>')
-        else:
-            out.append('<h4>Τελευταίος ολοκληρωμένος αγώνας</h4>'+fixture(t.get('last_match')))
-            out.append(f'<h4>Ανάγνωση του αγώνα</h4><p>{esc(t["analysis"])}</p>')
-            out.append('<h4>Επόμενος αγώνας</h4>'+fixture(t.get('next_fixture')))
-            out.append(f'<p>Βαθμολογία: {esc(t.get("league_position") or UNKNOWN)} · Φόρμα: {esc(t.get("form") or UNKNOWN)}</p><h4>Τι παρακολουθούμε</h4><p>{esc(t["watch_next"])}</p>')
-        out.append('<h4>Νεότερες εξελίξεις</h4>')
-        for u in t['updates']:
-            out.append(f'<p><time>{stamp(u["published_at"])}</time> · {esc(u["status"])} · {esc(u["text"])}</p>'+source_links(u['sources']))
-        if not t['updates']:
-            out.append(f'<p>{esc(t["no_update_reason"])}</p>')
-        out.append('</details></article>')
-    out.append('</div><h3>Μεγάλες αθλητικές ειδήσεις</h3>')
-    for a in e['sports']['major_stories']:
-        full=next((x for x in articles if x['id']==a['article_id']),None)
-        if full and full.get('newspaper_analysis'):
-            out.append(card(e,full))
-            continue
-        out.append(f'<article class="sport"><h3>{esc(a["headline"])}</h3><p>{stamp(a["published_at"])}</p><p>{esc(a["summary"])}</p><details><summary>Περισσότερα</summary><p>{esc(a["why_it_matters"])}</p>'+source_links(a['sources'])+f'<a class="read-link" href="../articles/{e["id"]}/{a["article_id"]}.html">Διάβασε την ανάλυση ↗</a></details></article>')
-    if not e['sports']['major_stories']:
-        out.append(f'<p>{esc(e["sports"]["major_stories_reason"])}</p>')
-    out.append('</section>')
-    return ''.join(out)
+def sports(e, articles=(), anchors=None, include_major=True):
+    return load_module('sports').render(SimpleNamespace(**globals()), e, articles, anchors, include_major)
+
 
 def load_module(name):
     spec=importlib.util.spec_from_file_location('oracle_'+name,Path(__file__).with_name(name+'.py'))
@@ -276,7 +251,7 @@ def calculator(e):
 def card(e, a, hero=False):
     cl = 'hero' if hero else 'newscard'
     layered=e.get('reading_review',{}).get('version')==2
-    abstract=('<p class="reading-layer">Η είδηση · 30 δευτερόλεπτα</p>' if layered else '')+f'<div class="abstract"><p>{esc(a["summary"])}</p></div>'
+    abstract=f'<div class="abstract"><p>{esc(a["summary"])}</p></div>'
     shown=[]
     context=''
     if a.get('newspaper_analysis'):
@@ -293,9 +268,9 @@ def card(e, a, hero=False):
         if layered:
             context='<details class="card-analysis'+(' lead-analysis' if hero else '')+'"><summary>'+icon('book')+'Τι σημαίνει · ανάλυση</summary>'+context+'</details>'
         else:
-            context=('<section class="lead-analysis"><h3>'+icon('book')+'Γιατί έχει σημασία <span>½–1 λεπτό</span></h3>'+context+'</section>') if hero else '<details class="card-analysis"><summary>'+icon('book')+'Η ουσία · ½–1 λεπτό</summary>'+context+'</details>'
+            context=('<section class="lead-analysis"><h3>'+icon('book')+'Γιατί έχει σημασία</h3>'+context+'</section>') if hero else '<details class="card-analysis"><summary>'+icon('book')+'Η ουσία</summary>'+context+'</details>'
     sources=source_disclosure(a['sources'], 'Πηγές και στοιχεία', '<p class="muted">'+sources_label(a['sources'])+'</p>')
-    reader=f'<a class="read-link" href="../{article_url(e,a)}">{icon("book")} Πλήρης ανάλυση <span class="reading-time">{math.ceil(words(a)/220)}′</span>{icon("arrow")}</a>'
+    reader=f'<a class="read-link" href="../{article_url(e,a)}">{icon("book")} Πλήρης ανάλυση{icon("arrow")}</a>'
     if layered and a.get('reader_mode')=='source':
         source=next(s for s in a['sources'] if s.get('access')=='read' and s.get('used_for_claims'))
         reader='<a class="read-link original-report" href="'+esc(source['url'])+'" rel="noopener noreferrer">'+icon('book')+'Πλήρες ρεπορτάζ · '+esc(source['publisher'])+' ↗</a>'
@@ -345,7 +320,7 @@ def edition_panels(e):
         out.append(source_disclosure(panel['sources'], 'Πηγές της ενότητας')+'</section>')
     return ''.join(out)
 
-def _render(root=ROOT):
+def _render(root=ROOT, affected=None):
     global ROOT
     ROOT = Path(root)
     import importlib.util
@@ -379,8 +354,21 @@ def _render(root=ROOT):
             previous_article=ROOT/'docs/data/articles'/e['id']/(a['id']+'.json')
             if previous_article.exists() and read(previous_article)['published_at'] != a['published_at']:
                 raise ValueError('Keep the original article published_at on correction')
+    backend = load_module('backend')
+    aliases_path = ROOT/'content/day-story-aliases.json'
+    reviews_path = ROOT/'content/story-identity-reviews.json'
+    identity = backend.story_registry(bundles,read(aliases_path) if aliases_path.exists() else {},read(reviews_path) if reviews_path.exists() else {})
+    write(ROOT/'docs/data/capabilities.json',json.dumps(backend.capabilities(ROOT),ensure_ascii=False,indent=2)+'\n')
+    write(ROOT/'docs/data/edition-contracts.json',json.dumps({e['id']:{'contract':e['producer_contract'],'source_sha256':backend.edition_fingerprint(e,aa)} for e,aa in bundles if e.get('producer_contract')},ensure_ascii=False,indent=2)+'\n')
+    write(ROOT/'docs/data/story-registry.json',json.dumps(identity,ensure_ascii=False,indent=2)+'\n')
+    write(ROOT/'docs/data/freshness.json',json.dumps({'schema_version':1,'editions':[backend.freshness(e,aa) for e,aa in bundles]},ensure_ascii=False,indent=2)+'\n')
+    write(ROOT/'docs/data/research-index.json',json.dumps(load_module('research').index(ROOT),ensure_ascii=False,indent=2)+'\n')
+    write(ROOT/'docs/data/photo-library.json',json.dumps(load_module('photo_library').catalog(ROOT),ensure_ascii=False,indent=2)+'\n')
     search = []
     for e, aa in bundles:
+        search.extend({'id':a['story_id'],'edition_id':e['id'],'date':e['date'],'headline':a['headline'],'summary':a['summary'],'body':' '.join(p for section in a['sections'] for p in section['paragraphs']),'url':article_url(e,a)} for a in aa)
+        if affected is not None and e['id'] not in affected:
+            continue
         date = stamp(e['published_at'],e['timezone'])
         body = head(f'{TYPES[e["type"]]} έκδοση · {e["date"]} · {e["title"]}',e['url'],'newspaper','../',e['type'])
         slot = ' · '+esc(e['scheduled_slot']) if e.get('scheduled_slot') else ''
@@ -417,7 +405,7 @@ def _render(root=ROOT):
             url=article_url(e,a)
             related=''.join(f'<a href="{esc(b["id"])}.html">{esc(b["headline"])}</a>' for b in aa if b['id']!=a['id'] and (b['story_id'] in a.get('related_story_ids',[]) or b['category']==a['category']))
             p=head(a['headline'],url,'article','../../')
-            p+=f'<header class="top"><div class="shell"><a class="logo" href="../../{e["url"]}">THE ORACLE SOVEREIGN.</a><nav class="navlinks"><a href="../../{e["url"]}">← Εφημερίδα</a><a href="../../search.html">{icon('search')} Αναζήτηση</a><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button></nav></div></header><main class="shell" id="main" data-article-key="{e["id"]}/{a["id"]}"><div class="kicker">{esc(a["category"])} · {TYPES[e["type"]]} έκδοση</div><h1>{esc(a["headline"])}</h1><div class="eyebrow">Συνοπτική καταγραφή της έκδοσης</div><p class="lede">{esc(a["summary"])}</p><div class="meta"><span>Δημοσίευση: {stamp(a["published_at"])}</span><span>Ενημέρωση: {stamp(a["updated_at"])}</span><span>{math.ceil(words(a)/220)} λεπτά ανάγνωσης · {words(a)} λέξεις</span><span>{sources_label(a["sources"])}</span></div>'+image(a,'../../')
+            p+=f'<header class="top"><div class="shell"><a class="logo" href="../../{e["url"]}">THE ORACLE SOVEREIGN.</a><nav class="navlinks"><a href="../../{e["url"]}">← Εφημερίδα</a><a href="../../search.html">{icon('search')} Αναζήτηση</a><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button></nav></div></header><main class="shell" id="main" data-article-key="{e["id"]}/{a["id"]}"><div class="kicker">{esc(a["category"])} · {TYPES[e["type"]]} έκδοση</div><h1>{esc(a["headline"])}</h1><div class="eyebrow">Συνοπτική καταγραφή της έκδοσης</div><p class="lede">{esc(a["summary"])}</p><div class="meta"><span>Δημοσίευση: {stamp(a["published_at"])}</span><span>Ενημέρωση: {stamp(a["updated_at"])}</span><span>{words(a)} λέξεις</span><span>{sources_label(a["sources"])}</span></div>'+image(a,'../../')
             if e.get('reading_review',{}).get('version')==2 and a.get('reader_mode')=='source':
                 source=next(s for s in a['sources'] if s.get('access')=='read' and s.get('used_for_claims'))
                 p+='<p><a class="read-link original-report" href="'+esc(source['url'])+'" rel="noopener noreferrer">'+icon('book')+'Πλήρες δημοσίευμα · '+esc(source['publisher'])+' ↗</a></p>'
@@ -431,7 +419,6 @@ def _render(root=ROOT):
             p=p.replace('</main></body>', '<footer class="shell"><a href="'+BASE+'photo-credits.html">Συντελεστές εικόνων</a></footer></main></body>')
             write(ROOT/'docs'/url,p)
             write(ROOT/'docs/data/articles'/e['id']/(a['id']+'.json'),json.dumps(a,ensure_ascii=False,indent=2)+'\n')
-            search.append({'id':a['story_id'],'edition_id':e['id'],'date':e['date'],'headline':a['headline'],'summary':a['summary'],'body':' '.join(p for s in a['sections'] for p in s['paragraphs']),'url':url})
     write(ROOT/'docs/photo-credits.html',photo_credits(bundles))
     registry.sort(key=lambda x:x['published_at'] or x['date'],reverse=True)
     write(ROOT/'docs/data/editions.json',json.dumps(registry,ensure_ascii=False,indent=2)+'\n')
@@ -460,20 +447,25 @@ def _render(root=ROOT):
     pages={e['url'] for e,_ in bundles if not e.get('preserve_legacy_html') or e.get('image_review')}
     pages.update(article_url(e,a) for e,aa in bundles for a in aa)
     pages.update(alias for e,_ in bundles for alias in e.get('aliases',[]))
+    if affected is not None:
+        pages = {page for page in pages if any(page == e['url'] or page in e.get('aliases',[]) or page.startswith('articles/'+e['id']+'/') for e,_ in bundles if e['id'] in affected)}
     for page_url in sorted(pages):
         path=ROOT/'docs'/page_url
         write(path,latest.version_resources(path.read_text(encoding='utf-8'),ROOT,page_url))
     latest.publish(ROOT,registry)
-    load_module('daily').publish(SimpleNamespace(**globals()),latest,bundles)
+    load_module('daily').publish(SimpleNamespace(**globals()),latest,bundles,affected_dates=None if affected is None else {e['date'] for e,_ in bundles if e['id'] in affected})
     write(ROOT/'docs/assets/latest-briefing.js',(ROOT/'templates/v2/latest-briefing.js').read_text(encoding='utf-8'))
     print(f'Built {len(bundles)} editions, {len(search)} separate articles, {len(registry)} archive entries')
 
 
-def build(root=ROOT):
+def build(root=ROOT, incremental=False):
     """Publish a fully validated local candidate, with rollback; no remote writes."""
     global ROOT
     actual = Path(root).resolve()
     previous = ROOT
+    cache = load_module('incremental')
+    affected = cache.affected(actual,Path(__file__).parent,incremental)
+    input_state = cache.inputs(actual,Path(__file__).parent)
     try:
         with tempfile.TemporaryDirectory(prefix='oracle-build-', dir=actual.parent) as directory:
             candidate = Path(directory)/'candidate'
@@ -481,7 +473,11 @@ def build(root=ROOT):
             for name in ['content', 'templates', 'docs']:
                 if (actual/name).exists():
                     shutil.copytree(actual/name, candidate/name)
-            _render(candidate)
+            if (actual/'BRIEFING_RUNTIME.md').is_file():
+                shutil.copyfile(actual/'BRIEFING_RUNTIME.md',candidate/'BRIEFING_RUNTIME.md')
+            _render(candidate,affected)
+            if cache.inputs(actual,Path(__file__).parent) != input_state:
+                raise ValueError('Publication inputs changed during build; retry from validation')
             live = actual/'docs'
             backup = Path(directory)/'previous-docs'
             had_live = live.exists()
@@ -493,11 +489,14 @@ def build(root=ROOT):
                 if had_live:
                     os.replace(backup, live)
                 raise
+            cache.save(actual,Path(__file__).parent,load_module('atomic'))
     finally:
         ROOT = previous
+    return {'mode':'full' if affected is None else 'incremental','rendered_editions':None if affected is None else sorted(affected)}
 
 if __name__ == '__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root',type=Path,default=ROOT)
+    parser.add_argument('--incremental',action='store_true')
     args=parser.parse_args()
-    build(args.root)
+    print(json.dumps(build(args.root,args.incremental)))

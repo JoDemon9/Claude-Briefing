@@ -40,6 +40,34 @@ def run(output):
                         archive=page.locator('.hub-links a').last.get_attribute('href')
                         assert (ROOT/'docs'/route).parent.joinpath(archive).resolve().is_file()
                         assert page.locator('.hero h2').inner_text()==article['headline']
+                        assert page.locator('.reading-layer,.reading-time').count()==0
+                        if width<700:
+                            assert not page.locator('.hub-guide').is_visible()
+                            assert not page.locator('.publication-bar>.edition-desk').is_visible()
+                            assert page.locator('.publication-bar').bounding_box()['height']<=72
+                            menu=page.locator('.mobile-editions')
+                            assert not menu.evaluate('(x)=>x.open')
+                            if route!=model['url']:
+                                assert {'morning':'Πρωινή','midday':'Μεσημεριανή','evening':'Βραδινή'}[edition['type']] in menu.locator('summary').inner_text()
+                            trigger=menu.locator('summary');trigger.focus();page.keyboard.press('Enter')
+                            assert menu.locator('.mobile-edition-panel').is_visible()
+                            assert menu.locator('.mobile-edition-links a').count()==len(model['editions'])
+                            trigger.click()
+                            headline=page.locator('.hero h2').bounding_box()
+                            photo=page.locator('.hero figure.photo').bounding_box()
+                            abstract=page.locator('.hero .abstract').bounding_box()
+                            actions=page.locator('.hero .article-actions').bounding_box()
+                            assert headline['y']+headline['height']<=photo['y']+1
+                            assert photo['y']+photo['height']<=abstract['y']+1
+                            assert abstract['y']+abstract['height']<=actions['y']+1
+                        if route==model['url']:
+                            for relation in model.get('follow_ups',[]):
+                                link=page.locator('[data-follow-up-story-id="'+relation['to_story_id']+'"]')
+                                target=link.get_attribute('href')
+                                link.click()
+                                assert page.locator(target).get_attribute('data-story-id')==relation['to_story_id']
+                                assert page.url.endswith(target)
+
                         # Quick titles inherit the paper theme, not the old dark-panel ink.
                         for theme in ['light','dark']:
                             page.locator('html').evaluate('(x,t)=>x.dataset.theme=t',theme)
@@ -68,13 +96,18 @@ def run(output):
                         assert page.locator('.summary-points').evaluate('(x)=>getComputedStyle(x).gridTemplateColumns.split(" ").length')==(3 if width>=1100 else 1)
                         for key,team in edition['sports']['coverage'].items():
                             card=page.locator('.team-'+key)
-                            assert team['summary'] in card.inner_text()
-                            assert float(card.locator('p').first.evaluate('(x)=>parseFloat(getComputedStyle(x).fontSize)'))>=16
+                            assert card.locator('a.sport-news-link').count()==1
+                            assert card.locator('details,p').count()==0
                             assert card.locator('.teamicon').get_attribute('aria-hidden')=='true'
-                            more=card.locator('details>summary');more.focus();page.keyboard.press('Enter')
-                            assert card.locator('details').evaluate('(x)=>x.open')
+                            logo=card.locator('img.sport-logo');logo.scroll_into_view_if_needed()
+                            logo.evaluate('(x)=>x.decode()')
+                            assert logo.evaluate('(x)=>x.naturalWidth>0&&x.naturalHeight>0')
+                            assert logo.get_attribute('src').startswith('../assets/brands/')
+                            assert logo.bounding_box()['width']<=38 and logo.bounding_box()['height']<=38
+                            link=card.locator('a');link.focus()
+                            assert link.evaluate('(x)=>document.activeElement===x')
+                            assert link.bounding_box()['height']>=44
                             assert not page.evaluate('document.documentElement.scrollWidth>innerWidth+1')
-                            more.click()
                         is_day=route==model['url']
                         if not is_day:
                             assert page.locator('.edition-change').count()==len(edition['changes'])
@@ -85,7 +118,7 @@ def run(output):
                         if js and width in [375,1440]:
                             prefix=f'{width}-'+('day' if is_day else 'edition')
                             style='.stickybar,.back-top,.skip-link{visibility:hidden!important}'
-                            for selector,name in [('.hero','lead'),('.day-summary','overview'),('#sports .sports','sports'),('.hub-guide','home')]+([] if is_day else [('.edition-changes','changes')]):
+                            for selector,name in [('.hero','lead'),('.day-summary','overview'),('#sports .sports','sports'),('.publication-bar' if width<700 else '.hub-guide','home')]+([] if is_day else [('.edition-changes','changes')]):
                                 page.locator(selector).screenshot(path=str(output/f'{prefix}-{name}.png'),style=style)
                             page.locator('[data-theme-toggle]').click()
                             assert page.locator('html').get_attribute('data-theme')=='dark'

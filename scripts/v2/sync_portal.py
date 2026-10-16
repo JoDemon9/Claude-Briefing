@@ -8,7 +8,7 @@ import shutil
 import tempfile
 from pathlib import Path
 
-def sync(public_root, portal_root):
+def _sync(public_root, portal_root):
     records=json.loads((public_root/'docs/data/editions.json').read_text(encoding='utf-8'))
     for record in records:
         if record['status']!='published' or not (public_root/'docs'/record['url']).is_file():
@@ -61,6 +61,27 @@ def sync(public_root, portal_root):
         release=importlib.util.module_from_spec(release_spec);release_spec.loader.exec_module(release)
         release.record(portal_root)
     print(f'Saved complete newspaper {descriptor.get("day_id",descriptor.get("edition_id"))}; synced {len(records)} editions')
+
+def sync(public_root, portal_root):
+    """Prepare every descriptor/asset/receipt before replacing the saved newspaper."""
+    public_root,portal_root=Path(public_root).resolve(),Path(portal_root).resolve()
+    atomic_spec=importlib.util.spec_from_file_location('sync_atomic',Path(__file__).with_name('atomic.py'))
+    atomic=importlib.util.module_from_spec(atomic_spec);atomic_spec.loader.exec_module(atomic)
+    with atomic.lock(portal_root/'.work/publication.lock'):
+        with tempfile.TemporaryDirectory(prefix='oracle-sync-',dir=portal_root.parent) as directory:
+            candidate=Path(directory)/'candidate';candidate.mkdir()
+            for name in ('docs','scripts'):
+                if (portal_root/name).exists():shutil.copytree(portal_root/name,candidate/name)
+            _sync(public_root,candidate)
+            live=portal_root/'docs';backup=Path(directory)/'previous-docs'
+            had_live=live.exists()
+            if had_live:os.replace(live,backup)
+            try:
+                os.replace(candidate/'docs',live)
+            except BaseException:
+                if had_live:os.replace(backup,live)
+                raise
+
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)

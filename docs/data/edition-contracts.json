@@ -1,0 +1,23 @@
+{
+  "2026-10-16-evening": {
+    "contract": {
+      "producer_protocol": "oracle-briefing/3",
+      "content_schema_sha256": "e31a86ea229692455921097b2c9d1a9fcd58d9fcd2015ce6d039926815621ce5"
+    },
+    "source_sha256": "2dfe182f66143a170e9d59c0064cf232988bbd70c51bb5856f0cb8e1bc6d8b5f"
+  },
+  "2026-10-16-midday": {
+    "contract": {
+      "producer_protocol": "oracle-briefing/3",
+      "content_schema_sha256": "e31a86ea229692455921097b2c9d1a9fcd58d9fcd2015ce6d039926815621ce5"
+    },
+    "source_sha256": "e3056d45383292511a03c2d54b1eb4cf3b83c7a35ab4c66a5e8de1e3ceb94ea9"
+  },
+  "2026-10-16-morning": {
+    "contract": {
+      "producer_protocol": "oracle-briefing/3",
+      "content_schema_sha256": "e31a86ea229692455921097b2c9d1a9fcd58d9fcd2015ce6d039926815621ce5"
+    },
+    "source_sha256": "4ef6790a480d0003f68a5317caf9db6cc826422cbc34eb3e84045b8ef02a8e34"
+  }
+}

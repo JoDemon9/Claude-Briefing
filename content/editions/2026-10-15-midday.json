@@ -1745,6 +1745,12 @@
         "red-bull-mekies-contract-through-2031",
         "six-kings-slam-december-postponement-2026"
       ]
+    ],
+    "follow_ups": [
+      {
+        "from_story_id": "global-markets-ai-rates-october-15-2026",
+        "to_story_id": "tsmc-q3-2026-results-preview"
+      }
     ]
   },
   "reader_routes": [
@@ -2161,6 +2167,20 @@
         }
       ],
       "change_note": "Επανέλεγχος των επίσημων όρων στο μεσημεριανό της 15/10: δεν εντοπίστηκε αλλαγή έναντι της πρωινής καταγραφής. Διατηρούνται οι πραγματικές προθεσμίες και οι περιορισμοί σταδίων/προϋπολογισμού."
+    }
+  ],
+  "freshness": [
+    {
+      "id": "limassol-coastal-forecast",
+      "kind": "weather",
+      "label": "Λεμεσός το απόγευμα",
+      "checked_at": "2026-10-15T10:37:30.835283+00:00",
+      "valid_from": "2026-10-15T12:00:00+03:00",
+      "valid_until": "2026-10-16T18:00:00+03:00",
+      "recheck_at": "2026-10-15T19:30:00+03:00",
+      "sources": [
+        "https://www.dom.org.cy/FORECAST/public_b.html"
+      ]
     }
   ]
 }

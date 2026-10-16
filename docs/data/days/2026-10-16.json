@@ -21,15 +21,36 @@
       "id": "2026-10-16-evening",
       "type": "evening",
       "url": "evening/2026-10-16.html",
-      "published_at": "2026-10-16T19:48:09+03:00"
+      "published_at": "2026-10-16T20:32:42+03:00"
     }
   ],
   "missing_slots": [],
   "lead_story_id": "gaza-unicef-children-winter-october-16-2026",
   "stories": [
     {
+      "story_id": "bend-silver-rail-school-shooting-october-15-2026",
+      "first_seen_at": "2026-10-16T14:45:58+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-16-midday",
+          "article_id": "world-oregon",
+          "source_story_id": "bend-silver-rail-school-shooting-october-15-2026",
+          "url": "articles/2026-10-16-midday/world-oregon.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "world-oregon",
+        "source_story_id": "bend-silver-rail-school-shooting-october-15-2026",
+        "url": "articles/2026-10-16-midday/world-oregon.html"
+      },
+      "section": "world",
+      "priority": 0
+    },
+    {
       "story_id": "gaza-unicef-children-winter-october-16-2026",
-      "first_seen_at": "2026-10-16T19:48:09+03:00",
+      "first_seen_at": "2026-10-16T20:32:42+03:00",
       "last_substantive_at": null,
       "references": [
         {
@@ -50,7 +71,7 @@
     },
     {
       "story_id": "midas-vat-fraud-arrests-october-16-2026",
-      "first_seen_at": "2026-10-16T19:48:09+03:00",
+      "first_seen_at": "2026-10-16T20:32:42+03:00",
       "last_substantive_at": null,
       "references": [
         {
@@ -70,22 +91,43 @@
       "priority": 5
     },
     {
-      "story_id": "asia-ai-financing-rebound-october-16-2026",
+      "story_id": "ukraine-civilian-strikes-october-16-2026",
+      "first_seen_at": "2026-10-16T20:32:42+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-16-evening",
+          "article_id": "world-ukraine-civilians",
+          "source_story_id": "ukraine-civilian-strikes-october-16-2026",
+          "url": "articles/2026-10-16-evening/world-ukraine-civilians.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "world-ukraine-civilians",
+        "source_story_id": "ukraine-civilian-strikes-october-16-2026",
+        "url": "articles/2026-10-16-evening/world-ukraine-civilians.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
+      "story_id": "drc-ebola-north-ubangi-october-15-2026",
       "first_seen_at": "2026-10-16T10:24:50+03:00",
       "last_substantive_at": "2026-10-16T10:24:50+03:00",
       "references": [
         {
           "edition_id": "2026-10-16-morning",
-          "article_id": "world-asia",
-          "source_story_id": "asia-ai-financing-rebound-october-16-2026",
-          "url": "articles/2026-10-16-morning/world-asia.html"
+          "article_id": "world-ebola",
+          "source_story_id": "drc-ebola-north-ubangi-october-15-2026",
+          "url": "articles/2026-10-16-morning/world-ebola.html"
         }
       ],
       "selected": {
         "edition_id": "2026-10-16-morning",
-        "article_id": "world-asia",
-        "source_story_id": "asia-ai-financing-rebound-october-16-2026",
-        "url": "articles/2026-10-16-morning/world-asia.html"
+        "article_id": "world-ebola",
+        "source_story_id": "drc-ebola-north-ubangi-october-15-2026",
+        "url": "articles/2026-10-16-morning/world-ebola.html"
       },
       "section": "world",
       "priority": 10
@@ -124,27 +166,6 @@
       "priority": 10
     },
     {
-      "story_id": "bend-silver-rail-school-shooting-october-15-2026",
-      "first_seen_at": "2026-10-16T14:45:58+03:00",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-10-16-midday",
-          "article_id": "world-oregon",
-          "source_story_id": "bend-silver-rail-school-shooting-october-15-2026",
-          "url": "articles/2026-10-16-midday/world-oregon.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-16-midday",
-        "article_id": "world-oregon",
-        "source_story_id": "bend-silver-rail-school-shooting-october-15-2026",
-        "url": "articles/2026-10-16-midday/world-oregon.html"
-      },
-      "section": "world",
-      "priority": 15
-    },
-    {
       "story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
       "first_seen_at": "2026-10-16T14:45:58+03:00",
       "last_substantive_at": "2026-10-16T19:05:00+03:00",
@@ -172,45 +193,24 @@
       "priority": 15
     },
     {
-      "story_id": "fed-warsh-bangkok-october-16-2026",
+      "story_id": "france-ukraine-aviation-freyja-october-15-2026",
       "first_seen_at": "2026-10-16T10:24:50+03:00",
       "last_substantive_at": "2026-10-16T10:24:50+03:00",
       "references": [
         {
           "edition_id": "2026-10-16-morning",
-          "article_id": "world-fed",
-          "source_story_id": "fed-warsh-bangkok-october-16-2026",
-          "url": "articles/2026-10-16-morning/world-fed.html"
+          "article_id": "world-ukraine",
+          "source_story_id": "france-ukraine-aviation-freyja-october-15-2026",
+          "url": "articles/2026-10-16-morning/world-ukraine.html"
         }
       ],
       "selected": {
         "edition_id": "2026-10-16-morning",
-        "article_id": "world-fed",
-        "source_story_id": "fed-warsh-bangkok-october-16-2026",
-        "url": "articles/2026-10-16-morning/world-fed.html"
+        "article_id": "world-ukraine",
+        "source_story_id": "france-ukraine-aviation-freyja-october-15-2026",
+        "url": "articles/2026-10-16-morning/world-ukraine.html"
       },
       "section": "world",
-      "priority": 20
-    },
-    {
-      "story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
-      "first_seen_at": "2026-10-16T14:45:58+03:00",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-10-16-midday",
-          "article_id": "cyprus-court",
-          "source_story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
-          "url": "articles/2026-10-16-midday/cyprus-court.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-16-midday",
-        "article_id": "cyprus-court",
-        "source_story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
-        "url": "articles/2026-10-16-midday/cyprus-court.html"
-      },
-      "section": "cyprus",
       "priority": 20
     },
     {
@@ -235,48 +235,6 @@
       "priority": 30
     },
     {
-      "story_id": "france-ukraine-aviation-freyja-october-15-2026",
-      "first_seen_at": "2026-10-16T10:24:50+03:00",
-      "last_substantive_at": "2026-10-16T10:24:50+03:00",
-      "references": [
-        {
-          "edition_id": "2026-10-16-morning",
-          "article_id": "world-ukraine",
-          "source_story_id": "france-ukraine-aviation-freyja-october-15-2026",
-          "url": "articles/2026-10-16-morning/world-ukraine.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-16-morning",
-        "article_id": "world-ukraine",
-        "source_story_id": "france-ukraine-aviation-freyja-october-15-2026",
-        "url": "articles/2026-10-16-morning/world-ukraine.html"
-      },
-      "section": "world",
-      "priority": 30
-    },
-    {
-      "story_id": "drc-ebola-north-ubangi-october-15-2026",
-      "first_seen_at": "2026-10-16T10:24:50+03:00",
-      "last_substantive_at": "2026-10-16T10:24:50+03:00",
-      "references": [
-        {
-          "edition_id": "2026-10-16-morning",
-          "article_id": "world-ebola",
-          "source_story_id": "drc-ebola-north-ubangi-october-15-2026",
-          "url": "articles/2026-10-16-morning/world-ebola.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-16-morning",
-        "article_id": "world-ebola",
-        "source_story_id": "drc-ebola-north-ubangi-october-15-2026",
-        "url": "articles/2026-10-16-morning/world-ebola.html"
-      },
-      "section": "world",
-      "priority": 40
-    },
-    {
       "story_id": "cyprus-zero-vat-october-2026-monitoring",
       "first_seen_at": "2026-10-16T10:24:50+03:00",
       "last_substantive_at": "2026-10-16T10:24:50+03:00",
@@ -295,11 +253,74 @@
         "url": "articles/2026-10-16-morning/cyprus-vat.html"
       },
       "section": "cyprus",
-      "priority": 50
+      "priority": 30
+    },
+    {
+      "story_id": "fed-warsh-bangkok-october-16-2026",
+      "first_seen_at": "2026-10-16T10:24:50+03:00",
+      "last_substantive_at": "2026-10-16T10:24:50+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-16-morning",
+          "article_id": "world-fed",
+          "source_story_id": "fed-warsh-bangkok-october-16-2026",
+          "url": "articles/2026-10-16-morning/world-fed.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-16-morning",
+        "article_id": "world-fed",
+        "source_story_id": "fed-warsh-bangkok-october-16-2026",
+        "url": "articles/2026-10-16-morning/world-fed.html"
+      },
+      "section": "world",
+      "priority": 30
+    },
+    {
+      "story_id": "asia-ai-financing-rebound-october-16-2026",
+      "first_seen_at": "2026-10-16T10:24:50+03:00",
+      "last_substantive_at": "2026-10-16T10:24:50+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-16-morning",
+          "article_id": "world-asia",
+          "source_story_id": "asia-ai-financing-rebound-october-16-2026",
+          "url": "articles/2026-10-16-morning/world-asia.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-16-morning",
+        "article_id": "world-asia",
+        "source_story_id": "asia-ai-financing-rebound-october-16-2026",
+        "url": "articles/2026-10-16-morning/world-asia.html"
+      },
+      "section": "world",
+      "priority": 40
+    },
+    {
+      "story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
+      "first_seen_at": "2026-10-16T14:45:58+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-16-midday",
+          "article_id": "cyprus-court",
+          "source_story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
+          "url": "articles/2026-10-16-midday/cyprus-court.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-16-midday",
+        "article_id": "cyprus-court",
+        "source_story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
+        "url": "articles/2026-10-16-midday/cyprus-court.html"
+      },
+      "section": "cyprus",
+      "priority": 40
     },
     {
       "story_id": "giorgos-vardinogiannis-death-october-16-2026",
-      "first_seen_at": "2026-10-16T19:48:09+03:00",
+      "first_seen_at": "2026-10-16T20:32:42+03:00",
       "last_substantive_at": null,
       "references": [
         {
@@ -747,9 +768,50 @@
       }
     },
     {
+      "id": "b837654b0713a0cb3fb51863cae96021c5c183ce777efad1ea8ab602a901fc38",
+      "story_id": null,
+      "kind": "enrichment",
+      "at": "2026-10-16T20:30:43+03:00",
+      "summary": "Εμπλουτισμός ανάλυσης.",
+      "source_urls": [],
+      "origin": {
+        "edition_id": "2026-10-16-morning",
+        "url": "morning/2026-10-16.html"
+      }
+    },
+    {
+      "id": "bf131cc8c457fb86a40ae73f4e20ab49fd1893226737ff8935fb8f227712f4ee",
+      "story_id": null,
+      "kind": "enrichment",
+      "at": "2026-10-16T20:30:43+03:00",
+      "summary": "Εμπλουτισμός ανάλυσης.",
+      "source_urls": [],
+      "origin": {
+        "edition_id": "2026-10-16-midday",
+        "url": "midday/2026-10-16.html"
+      }
+    },
+    {
+      "id": "2026-10-16-evening-ukraine-civilians-enrichment",
+      "kind": "enrichment",
+      "at": "2026-10-16T20:32:29+03:00",
+      "summary": "Προσθήκη κάλυψης των επιθέσεων και της έκθεσης του ΟΗΕ κατά τη συντακτική διόρθωση της βραδινής έκδοσης.",
+      "source_urls": [
+        "https://apnews.com/article/025bdb5cebc0be727a6197ce37f2c365",
+        "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-September-2026"
+      ],
+      "story_id": "ukraine-civilian-strikes-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "world-ukraine-civilians",
+        "source_story_id": "ukraine-civilian-strikes-october-16-2026",
+        "url": "articles/2026-10-16-evening/world-ukraine-civilians.html"
+      }
+    },
+    {
       "id": "1c2ef3bc1ede8da68aeae7697b97b5a5dd91b3699bb3480d63c9b4a5aebfb8fb",
       "kind": "provenance",
-      "at": "2026-10-16T19:48:09+03:00",
+      "at": "2026-10-16T20:32:42+03:00",
       "summary": "Συμμετοχή της evening έκδοσης.",
       "source_urls": [],
       "story_id": "gaza-unicef-children-winter-october-16-2026",
@@ -763,7 +825,7 @@
     {
       "id": "45f2e6ac1e5818c7aa488f974a72983be064905a18b0e2218ea5a3b998d3b816",
       "kind": "provenance",
-      "at": "2026-10-16T19:48:09+03:00",
+      "at": "2026-10-16T20:32:42+03:00",
       "summary": "Συμμετοχή της evening έκδοσης.",
       "source_urls": [],
       "story_id": "european-council-october-15-16-2026",
@@ -775,9 +837,21 @@
       }
     },
     {
+      "id": "6ad3a728e4d40296cf593363c859f28889bf8defd9fc58b1bd8d749aa67f89de",
+      "story_id": null,
+      "kind": "enrichment",
+      "at": "2026-10-16T20:32:42+03:00",
+      "summary": "Εμπλουτισμός ανάλυσης.",
+      "source_urls": [],
+      "origin": {
+        "edition_id": "2026-10-16-evening",
+        "url": "evening/2026-10-16.html"
+      }
+    },
+    {
       "id": "95a7d874eb4f5fa4c27b96b3b349a8802d6657ed419370dd80506c20dc14b2e4",
       "kind": "provenance",
-      "at": "2026-10-16T19:48:09+03:00",
+      "at": "2026-10-16T20:32:42+03:00",
       "summary": "Συμμετοχή της evening έκδοσης.",
       "source_urls": [],
       "story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
@@ -789,9 +863,23 @@
       }
     },
     {
+      "id": "9afe5a2080da69197fe6b30cae533a1501b479c3d01066524e6514787bc1df20",
+      "kind": "provenance",
+      "at": "2026-10-16T20:32:42+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-civilian-strikes-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-16-evening",
+        "article_id": "world-ukraine-civilians",
+        "source_story_id": "ukraine-civilian-strikes-october-16-2026",
+        "url": "articles/2026-10-16-evening/world-ukraine-civilians.html"
+      }
+    },
+    {
       "id": "f32074992e884907a50cbea36a397f9729affe88bbd2a8490dd5f3301b08997d",
       "kind": "provenance",
-      "at": "2026-10-16T19:48:09+03:00",
+      "at": "2026-10-16T20:32:42+03:00",
       "summary": "Συμμετοχή της evening έκδοσης.",
       "source_urls": [],
       "story_id": "giorgos-vardinogiannis-death-october-16-2026",
@@ -805,7 +893,7 @@
     {
       "id": "fa1d8fe044ebe2d73744df0672eb931c8056636472151faa04f671cd30dcfc03",
       "kind": "provenance",
-      "at": "2026-10-16T19:48:09+03:00",
+      "at": "2026-10-16T20:32:42+03:00",
       "summary": "Συμμετοχή της evening έκδοσης.",
       "source_urls": [],
       "story_id": "midas-vat-fraud-arrests-october-16-2026",
@@ -860,7 +948,7 @@
       "change_note": "Διατήρηση του πλήρους ελεγμένου στιγμιοτύπου της 15/10 με τον αρχικό χρόνο επαλήθευσης. Δεν παρουσιάζεται ως νέα πρόσκληση ή νέα μεταβολή όρων."
     },
     {
-      "verified_at": "2026-10-15T19:46:44+03:00",
+      "verified_at": "2026-10-16T20:32:42+03:00",
       "opens_at": null,
       "deadline": "2026-11-04T18:00:00+02:00",
       "deadline_type": "fixed",
@@ -881,7 +969,7 @@
           "publisher": "European Innovation Council",
           "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:18.662830+00:00",
+          "retrieved_at": "2026-10-16T17:27:48.497924+00:00",
           "reporting_group": "European Innovation Council",
           "kind": "primary",
           "access": "read",
@@ -891,7 +979,7 @@
       "change_note": "Διατήρηση του πλήρους ελεγμένου στιγμιοτύπου της 15/10 με τον αρχικό χρόνο επαλήθευσης. Δεν παρουσιάζεται ως νέα πρόσκληση ή νέα μεταβολή όρων."
     },
     {
-      "verified_at": "2026-10-15T19:46:44+03:00",
+      "verified_at": "2026-10-16T20:32:42+03:00",
       "opens_at": "2026-10-20T09:00:00+03:00",
       "deadline": "2026-12-30T23:59:00+02:00",
       "deadline_type": "fixed",
@@ -905,14 +993,14 @@
       "eligibility": "Φυσικά πρόσωπα, μία αίτηση. Κατοικία και οικιακός λογαριασμός ΑΗΚ σε φυσικό πρόσωπο· σύνδεση πριν από 1/1/2008 ή αίτηση άδειας πριν από 21/12/2007. Ισχύουν οι πλήρεις όροι του οδηγού.",
       "support": "Έως €32.000 για τύπο Α (σχεδόν μηδενική κατανάλωση), έως €24.000 για τύπο Β· απαιτείται εξοικονόμηση ενέργειας τουλάχιστον 60%.",
       "deadline_note": "Έως 30/12 23:59 Κύπρου ή νωρίτερα με εξάντληση προϋπολογισμού· σειρά υποβολής. Ο οδηγός επιτρέπει υπό όρους και παλαιότερο ΠΕΑ με επιβεβαιωτική επίσκεψη εμπειρογνώμονα μετά τις 15/5/2026. Δεν επιτρέπεται ολοκλήρωση όλων των εργασιών πριν από την αίτηση.",
-      "action": "Διάβασε τον οδηγό και τη διαδικασία αρχικού ΠΕΑ/επιβεβαίωσης πριν από εργασίες. Αιτήσεις από 20/10 στις 09:00· η προετοιμασία δεν εγγυάται έγκριση.",
+      "action": "Διάβασε τον οδηγό και τη διαδικασία αρχικού ΠΕΑ/επιβεβαίωσης πριν από εργασίες. Αιτήσεις από 20/10 στις 09:00· η προετοιμασία δεν εγγυάται έγκριση. Επανέλεγχος όρων 16/10: η επίσημη πρόσκληση διατηρεί άνοιγμα 20/10. Το fundingapps.meci.gov.cy δεν ήταν προσβάσιμο στον τεχνικό έλεγχο· η διαθεσιμότητα της αίτησης χρειάζεται έλεγχο κατά το άνοιγμα.",
       "application_url": "https://fundingapps.meci.gov.cy",
       "sources": [
         {
           "publisher": "ΥΕΕΒ · Υπηρεσία Βιομηχανίας και Τεχνολογίας",
           "url": "https://www.industry.gov.cy/gr/%CE%B5%CE%BD%CE%B7%CE%BC%CE%AD%CF%81%CF%89%CF%83%CE%B7/%CE%B1%CE%BD%CE%B1%CE%BA%CE%BF%CE%B9%CE%BD%CF%8E%CF%83%CE%B5%CE%B9%CF%82/2-%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CF%87%CE%BF%CF%81%CE%B7%CE%B3%CE%B9%CF%8E%CE%BD-%CE%B5%CE%BE%CE%BF%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CF%8E-%E2%80%93-%CE%B1%CE%BD%CE%B1%CE%B2%CE%B1%CE%B8%CE%BC%CE%AF%CE%B6%CF%89-%CF%83%CF%84%CE%B9%CF%82-%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B5%CF%82-2026",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:24.701839+00:00",
+          "retrieved_at": "2026-10-16T17:27:51.422635+00:00",
           "reporting_group": "ΥΕΕΒ · Υπηρεσία Βιομηχανίας και Τεχνολογίας",
           "kind": "primary",
           "access": "read",
@@ -922,7 +1010,7 @@
           "publisher": "ΥΕΕΒ · Οδηγός 2026 V4.0",
           "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202609/137/docs/odigosv2.pdf",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:25.324264+00:00",
+          "retrieved_at": "2026-10-16T17:27:51.746433+00:00",
           "reporting_group": "ΥΕΕΒ · Οδηγός 2026 V4.0",
           "kind": "primary",
           "access": "read",
@@ -932,7 +1020,7 @@
       "change_note": "Διατήρηση του πλήρους ελεγμένου στιγμιοτύπου της 15/10 με τον αρχικό χρόνο επαλήθευσης. Δεν παρουσιάζεται ως νέα πρόσκληση ή νέα μεταβολή όρων."
     },
     {
-      "verified_at": "2026-10-15T19:46:44+03:00",
+      "verified_at": "2026-10-16T20:32:42+03:00",
       "opens_at": null,
       "deadline": null,
       "deadline_type": "unknown",
@@ -953,7 +1041,7 @@
           "publisher": "European Commission · DG TAXUD",
           "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:18.387445+00:00",
+          "retrieved_at": "2026-10-16T17:27:51.153783+00:00",
           "reporting_group": "European Commission · DG TAXUD",
           "kind": "primary",
           "access": "read",
@@ -963,7 +1051,7 @@
           "publisher": "European Commission · SME VAT",
           "url": "https://sme-vat-rules.ec.europa.eu/index_en",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:17.901922+00:00",
+          "retrieved_at": "2026-10-16T17:27:48.647295+00:00",
           "reporting_group": "European Commission · SME VAT",
           "kind": "primary",
           "access": "read",
@@ -973,7 +1061,7 @@
           "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
           "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:26.013163+00:00",
+          "retrieved_at": "2026-10-16T17:27:50.540845+00:00",
           "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
           "kind": "primary",
           "access": "read",
@@ -983,7 +1071,7 @@
       "change_note": "Διατήρηση του πλήρους ελεγμένου στιγμιοτύπου της 15/10 με τον αρχικό χρόνο επαλήθευσης. Δεν παρουσιάζεται ως νέα πρόσκληση ή νέα μεταβολή όρων."
     },
     {
-      "verified_at": "2026-10-15T19:46:44+03:00",
+      "verified_at": "2026-10-16T20:32:42+03:00",
       "opens_at": null,
       "deadline": null,
       "deadline_type": "rolling",
@@ -1004,7 +1092,7 @@
           "publisher": "Erasmus for Young Entrepreneurs",
           "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=16",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:18.553016+00:00",
+          "retrieved_at": "2026-10-16T17:28:46.550137+00:00",
           "reporting_group": "Erasmus for Young Entrepreneurs",
           "kind": "primary",
           "access": "read",
@@ -1014,7 +1102,7 @@
           "publisher": "Erasmus · FAQ προθεσμίας",
           "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:18.644882+00:00",
+          "retrieved_at": "2026-10-16T17:28:47.050618+00:00",
           "reporting_group": "Erasmus · FAQ προθεσμίας",
           "kind": "primary",
           "access": "read",
@@ -1034,9 +1122,10 @@
         ]
       },
       {
-        "text": "Σύνοδος ΕΕ: από τα πρωινά ενεργειακά συμπεράσματα στο αίτημα Zelensky για τουλάχιστον €70 δισ. επιπλέον το 2027. Αίτημα, δημοσιονομικό κενό και εγκεκριμένη χρηματοδότηση παραμένουν διαφορετικά πράγματα.",
+        "text": "Στην Ουκρανία, επιθέσεις σε εννέα περιφέρειες και μεγάλη αύξηση απωλειών αμάχων καταγράφονται παράλληλα με το αίτημα για ευρωπαϊκή χρηματοδότηση.",
         "story_ids": [
-          "european-council-october-15-16-2026"
+          "european-council-october-15-16-2026",
+          "ukraine-civilian-strikes-october-16-2026"
         ]
       },
       {
@@ -1067,7 +1156,8 @@
       }
     ]
   },
+  "follow_ups": [],
   "created_at": "2026-10-16T07:26:00.514306+00:00",
-  "updated_at": "2026-10-16T16:48:17.736982+00:00",
-  "input_sha256": "daff7e8527b4e62c4c95ded2e0c91b1f545203fa9ea16e574715f44c6c99a01f"
+  "updated_at": "2026-10-16T17:33:00.906968+00:00",
+  "input_sha256": "2e6c24302f1ac2ac97c40f4893ce749f0fc09250d9fcbece4b0ce734b8ae6291"
 }

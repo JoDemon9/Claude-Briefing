@@ -4,8 +4,8 @@
   "date": "2026-10-16",
   "type": "evening",
   "timezone": "Europe/Athens",
-  "published_at": "2026-10-16T19:48:09+03:00",
-  "editorial_completed_at": "2026-10-16T19:48:09+03:00",
+  "published_at": "2026-10-16T20:32:42+03:00",
+  "editorial_completed_at": "2026-10-16T20:32:42+03:00",
   "scheduled_slot": "19:30",
   "status": "published",
   "title": "Βραδινός απολογισμός · Γάζα, ευρωπαϊκή χρηματοδότηση και νέος σχεδιασμός Πάφου–Πόλης",
@@ -15,7 +15,8 @@
     "articles/2026-10-16-evening/cyprus-eppo.json",
     "articles/2026-10-16-evening/world-eu.json",
     "articles/2026-10-16-evening/cyprus-road.json",
-    "articles/2026-10-16-evening/sport-pao.json"
+    "articles/2026-10-16-evening/sport-pao.json",
+    "articles/2026-10-16-evening/world-ukraine-civilians.json"
   ],
   "changes": [
     {
@@ -1663,6 +1664,7 @@
   },
   "summary_60s": [
     "Η UNICEF προστίθεται στην κάλυψη με στοιχεία για παιδιά στη Γάζα και συγκεκριμένο χειμερινό κίνδυνο από υποδομές αποχέτευσης και ομβρίων που δεν λειτουργούν.",
+    "Η Ουκρανία δέχεται επιθέσεις σε εννέα περιφέρειες. Ο ΟΗΕ καταγράφει 328 νεκρούς αμάχους τον Σεπτέμβριο και αύξηση 85% στις συνολικές απώλειες έναντι του Σεπτεμβρίου 2025.",
     "Νεότερα από το μεσημέρι: αίτημα Zelensky για τουλάχιστον €70 δισ. επιπλέον το 2027, χωρίς επαληθευμένη έγκριση πακέτου· για Πάφου–Πόλης στόχος νέας προκήρυξης το 2027 και τεσσάρων λωρίδων, όχι παράδοση τότε.",
     "EPPO: τρεις συλλήψεις στην Κύπρο για εκτιμώμενη απάτη ΦΠΑ €114 εκατ. εις βάρος Σουηδίας/Γερμανίας. Η εισαγγελική ανακοίνωση δεν είναι καταδίκη.",
     "Ευρώπη και ΧΑΚ έχουν κλείσει· οι αμερικανικές τιμές παραμένουν ενδοσυνεδριακές. Για Λεμεσό αύριο περίπου 17–25°C ως νότιο παράλιο, με πιθανές παράκτιες βροχές από τη νύχτα."
@@ -1671,7 +1673,7 @@
     "lead_story_id": "gaza-unicef-children-winter-october-16-2026",
     "summary_60s": [
       "Γάζα: η UNICEF καταγράφει επτά παιδιά νεκρά το τελευταίο δεκαπενθήμερο και προειδοποιεί για χειμερινές πλημμύρες/λύματα. Οι αριθμοί αποδίδονται στον οργανισμό.",
-      "Σύνοδος ΕΕ: από τα πρωινά ενεργειακά συμπεράσματα στο αίτημα Zelensky για τουλάχιστον €70 δισ. επιπλέον το 2027. Αίτημα, δημοσιονομικό κενό και εγκεκριμένη χρηματοδότηση παραμένουν διαφορετικά πράγματα.",
+      "Στην Ουκρανία, επιθέσεις σε εννέα περιφέρειες και μεγάλη αύξηση απωλειών αμάχων καταγράφονται παράλληλα με το αίτημα για ευρωπαϊκή χρηματοδότηση.",
       "Πάφου–Πόλης: μετά την ακύρωση των προσφορών, το Υπουργείο προσανατολίζεται σε τέσσερις λωρίδες και νέα προκήρυξη το 2027· δεν ανακοίνωσε ημερομηνία ολοκλήρωσης.",
       "Midas: τρεις συλλήψεις στην Κύπρο, εκτιμώμενη ζημιά ΦΠΑ €114 εκατ. σε Σουηδία/Γερμανία και ανοικτή δικαστική έρευνα.",
       "Παραμένουν στην ημέρα η επίθεση σε σχολείο του Oregon με τέσσερα θύματα πέραν του υπόπτου και η κυπριακή δικαστική απόφαση για τον θάνατο παιδιού σε ξενοδοχείο — με τους αρχικούς ελέγχους και χωρίς επινοημένες νεότερες εξελίξεις.",
@@ -1682,7 +1684,8 @@
         "gaza-unicef-children-winter-october-16-2026"
       ],
       [
-        "european-council-october-15-16-2026"
+        "european-council-october-15-16-2026",
+        "ukraine-civilian-strikes-october-16-2026"
       ],
       [
         "paphos-polis-road-retender-cancellation-october-16-2026"
@@ -1912,7 +1915,7 @@
   ],
   "opportunities": [
     {
-      "verified_at": "2026-10-15T19:46:44+03:00",
+      "verified_at": "2026-10-16T20:32:42+03:00",
       "opens_at": "2026-10-20T09:00:00+03:00",
       "deadline": "2026-12-30T23:59:00+02:00",
       "deadline_type": "fixed",
@@ -1926,14 +1929,14 @@
       "eligibility": "Φυσικά πρόσωπα, μία αίτηση. Κατοικία και οικιακός λογαριασμός ΑΗΚ σε φυσικό πρόσωπο· σύνδεση πριν από 1/1/2008 ή αίτηση άδειας πριν από 21/12/2007. Ισχύουν οι πλήρεις όροι του οδηγού.",
       "support": "Έως €32.000 για τύπο Α (σχεδόν μηδενική κατανάλωση), έως €24.000 για τύπο Β· απαιτείται εξοικονόμηση ενέργειας τουλάχιστον 60%.",
       "deadline_note": "Έως 30/12 23:59 Κύπρου ή νωρίτερα με εξάντληση προϋπολογισμού· σειρά υποβολής. Ο οδηγός επιτρέπει υπό όρους και παλαιότερο ΠΕΑ με επιβεβαιωτική επίσκεψη εμπειρογνώμονα μετά τις 15/5/2026. Δεν επιτρέπεται ολοκλήρωση όλων των εργασιών πριν από την αίτηση.",
-      "action": "Διάβασε τον οδηγό και τη διαδικασία αρχικού ΠΕΑ/επιβεβαίωσης πριν από εργασίες. Αιτήσεις από 20/10 στις 09:00· η προετοιμασία δεν εγγυάται έγκριση.",
+      "action": "Διάβασε τον οδηγό και τη διαδικασία αρχικού ΠΕΑ/επιβεβαίωσης πριν από εργασίες. Αιτήσεις από 20/10 στις 09:00· η προετοιμασία δεν εγγυάται έγκριση. Επανέλεγχος όρων 16/10: η επίσημη πρόσκληση διατηρεί άνοιγμα 20/10. Το fundingapps.meci.gov.cy δεν ήταν προσβάσιμο στον τεχνικό έλεγχο· η διαθεσιμότητα της αίτησης χρειάζεται έλεγχο κατά το άνοιγμα.",
       "application_url": "https://fundingapps.meci.gov.cy",
       "sources": [
         {
           "publisher": "ΥΕΕΒ · Υπηρεσία Βιομηχανίας και Τεχνολογίας",
           "url": "https://www.industry.gov.cy/gr/%CE%B5%CE%BD%CE%B7%CE%BC%CE%AD%CF%81%CF%89%CF%83%CE%B7/%CE%B1%CE%BD%CE%B1%CE%BA%CE%BF%CE%B9%CE%BD%CF%8E%CF%83%CE%B5%CE%B9%CF%82/2-%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CF%87%CE%BF%CF%81%CE%B7%CE%B3%CE%B9%CF%8E%CE%BD-%CE%B5%CE%BE%CE%BF%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CF%8E-%E2%80%93-%CE%B1%CE%BD%CE%B1%CE%B2%CE%B1%CE%B8%CE%BC%CE%AF%CE%B6%CF%89-%CF%83%CF%84%CE%B9%CF%82-%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B5%CF%82-2026",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:24.701839+00:00",
+          "retrieved_at": "2026-10-16T17:27:51.422635+00:00",
           "reporting_group": "ΥΕΕΒ · Υπηρεσία Βιομηχανίας και Τεχνολογίας",
           "kind": "primary",
           "access": "read",
@@ -1943,7 +1946,7 @@
           "publisher": "ΥΕΕΒ · Οδηγός 2026 V4.0",
           "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202609/137/docs/odigosv2.pdf",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:25.324264+00:00",
+          "retrieved_at": "2026-10-16T17:27:51.746433+00:00",
           "reporting_group": "ΥΕΕΒ · Οδηγός 2026 V4.0",
           "kind": "primary",
           "access": "read",
@@ -1953,7 +1956,7 @@
       "change_note": "Διατήρηση του πλήρους ελεγμένου στιγμιοτύπου της 15/10 με τον αρχικό χρόνο επαλήθευσης. Δεν παρουσιάζεται ως νέα πρόσκληση ή νέα μεταβολή όρων."
     },
     {
-      "verified_at": "2026-10-15T19:46:44+03:00",
+      "verified_at": "2026-10-16T20:32:42+03:00",
       "opens_at": null,
       "deadline": "2026-11-04T18:00:00+02:00",
       "deadline_type": "fixed",
@@ -1974,7 +1977,7 @@
           "publisher": "European Innovation Council",
           "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:18.662830+00:00",
+          "retrieved_at": "2026-10-16T17:27:48.497924+00:00",
           "reporting_group": "European Innovation Council",
           "kind": "primary",
           "access": "read",
@@ -1984,7 +1987,7 @@
       "change_note": "Διατήρηση του πλήρους ελεγμένου στιγμιοτύπου της 15/10 με τον αρχικό χρόνο επαλήθευσης. Δεν παρουσιάζεται ως νέα πρόσκληση ή νέα μεταβολή όρων."
     },
     {
-      "verified_at": "2026-10-15T19:46:44+03:00",
+      "verified_at": "2026-10-16T20:32:42+03:00",
       "opens_at": null,
       "deadline": null,
       "deadline_type": "rolling",
@@ -2005,7 +2008,7 @@
           "publisher": "Erasmus for Young Entrepreneurs",
           "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=16",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:18.553016+00:00",
+          "retrieved_at": "2026-10-16T17:28:46.550137+00:00",
           "reporting_group": "Erasmus for Young Entrepreneurs",
           "kind": "primary",
           "access": "read",
@@ -2015,7 +2018,7 @@
           "publisher": "Erasmus · FAQ προθεσμίας",
           "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:18.644882+00:00",
+          "retrieved_at": "2026-10-16T17:28:47.050618+00:00",
           "reporting_group": "Erasmus · FAQ προθεσμίας",
           "kind": "primary",
           "access": "read",
@@ -2025,7 +2028,7 @@
       "change_note": "Διατήρηση του πλήρους ελεγμένου στιγμιοτύπου της 15/10 με τον αρχικό χρόνο επαλήθευσης. Δεν παρουσιάζεται ως νέα πρόσκληση ή νέα μεταβολή όρων."
     },
     {
-      "verified_at": "2026-10-15T19:46:44+03:00",
+      "verified_at": "2026-10-16T20:32:42+03:00",
       "opens_at": null,
       "deadline": null,
       "deadline_type": "unknown",
@@ -2046,7 +2049,7 @@
           "publisher": "European Commission · DG TAXUD",
           "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:18.387445+00:00",
+          "retrieved_at": "2026-10-16T17:27:51.153783+00:00",
           "reporting_group": "European Commission · DG TAXUD",
           "kind": "primary",
           "access": "read",
@@ -2056,7 +2059,7 @@
           "publisher": "European Commission · SME VAT",
           "url": "https://sme-vat-rules.ec.europa.eu/index_en",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:17.901922+00:00",
+          "retrieved_at": "2026-10-16T17:27:48.647295+00:00",
           "reporting_group": "European Commission · SME VAT",
           "kind": "primary",
           "access": "read",
@@ -2066,7 +2069,7 @@
           "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
           "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
           "published_at": null,
-          "retrieved_at": "2026-10-15T16:39:26.013163+00:00",
+          "retrieved_at": "2026-10-16T17:27:50.540845+00:00",
           "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
           "kind": "primary",
           "access": "read",
@@ -2119,10 +2122,29 @@
   ],
   "reading_review": {
     "version": 2,
-    "completed_at": "2026-10-16T19:48:09+03:00"
+    "completed_at": "2026-10-16T20:32:42+03:00"
   },
   "image_review": {
     "version": 2,
-    "completed_at": "2026-10-16T19:48:09+03:00"
-  }
+    "completed_at": "2026-10-16T20:32:42+03:00"
+  },
+  "producer_contract": {
+    "producer_protocol": "oracle-briefing/3",
+    "content_schema_sha256": "e31a86ea229692455921097b2c9d1a9fcd58d9fcd2015ce6d039926815621ce5"
+  },
+  "freshness": [
+    {
+      "id": "limassol-forecast",
+      "kind": "weather",
+      "label": "Λεμεσός · αύριο 17/10",
+      "checked_at": "2026-10-16T16:36:33.637496+00:00",
+      "valid_from": "2026-10-16T18:00:00+03:00",
+      "valid_until": "2026-10-18T00:00:00+03:00",
+      "recheck_at": "2026-10-17T07:30:00+03:00",
+      "sources": [
+        "https://www.dom.org.cy/FORECAST/public_c.html"
+      ]
+    }
+  ],
+  "analysis_revision_at": "2026-10-16T20:32:42+03:00"
 }

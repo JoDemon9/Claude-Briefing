@@ -98,16 +98,24 @@ def run(screenshots=None):
                             page.screenshot(path=str(screenshots/(str(width)+'-'+('latest-day' if path==latest_day_path else ('latest-edition' if path==latest_path else ('edition' if '/morning/' in path else 'article')))+'.png')),full_page=True)
                 page.set_viewport_size({'width':375,'height':900})
                 page.goto(base+'/real/morning/2026-10-12.html')
-                summary=page.locator('#sports summary').first
-                summary.focus();page.keyboard.press('Enter')
-                assert summary.evaluate('(x)=>x.parentElement.open')
+                link=page.locator('#sports .sport-news-link').first
+                link.focus()
+                assert link.evaluate('(x)=>document.activeElement===x')
+                assert page.locator('#sports .sports-links details').count()==0
                 assert page.locator('.edition-desk [aria-current=page]').count()==1
                 page.locator('[data-theme-toggle]').click();assert page.locator('html').get_attribute('data-theme')=='dark'
-                checks.append('Keyboard sports details, current edition and dark theme passed')
+                checks.append('Keyboard sports links, current edition and dark theme passed')
                 if photographed.get('image_review'):
                     page.goto(base+latest_path)
                     photos=page.locator('[data-editorial-image] img')
-                    assert photos.count()==len(photographed['articles']),'Every article must have a photograph' if photographed.get('reading_review') else 'Reviewed edition lacks photograph coverage'
+                    expected=sum(json.loads((ROOT/'content'/p).read_text()).get('sports_interest','other')=='other' for p in photographed['articles'])
+                    assert photos.count()==expected,'Every rendered article must have a photograph'
+                    for relative in photographed['articles']:
+                        article=json.loads((ROOT/'content'/relative).read_text())
+                        if article.get('sports_interest','other')!='other':continue
+                        photo=page.locator('article[id="'+article['id']+'"] [data-editorial-image] img')
+                        assert photo.count()==1, f'{latest_path}: article {article["id"]} must render its own photograph'
+                        assert photo.get_attribute('src')=='../'+article['image']['url'],f'{latest_path}: wrong photograph for {article["id"]}'
                     photos.first.evaluate('(img)=>{img.dispatchEvent(new Event("error"))}')
                     assert page.locator('[data-image-fallback]').first.is_visible()
                     assert page.locator('#main').is_visible()

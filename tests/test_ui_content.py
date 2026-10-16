@@ -65,8 +65,9 @@ class UIContentTests(unittest.TestCase):
         for key,team in edition['sports']['coverage'].items():
             card=sports.select_one('.team-'+key)
             self.assertEqual(card.select_one('.teamicon')['aria-hidden'],'true')
-            self.assertIn(team['summary'],card.get_text())
-            self.assertIn(build.stamp(team['updated_at']),card.get_text())
+            self.assertEqual(len(card.select('a')),1)
+            self.assertFalse(card.select('details,p'))
+            self.assertEqual(card.select_one('a').get_text(),'Τελευταία νέα ↗')
         self.assertEqual(edition,original)
 
     def test_published_day_and_snapshot_use_explicit_editorial_lead_without_duplicates(self):
@@ -78,7 +79,7 @@ class UIContentTests(unittest.TestCase):
         model=json.loads((ROOT/'docs/data/days/2026-10-14.json').read_text())
         selected=next(s['selected'] for s in model['stories'] if s['story_id']==model['lead_story_id'])
         day_lead=json.loads((ROOT/'docs/data/articles'/selected['edition_id']/f'{selected["article_id"]}.json').read_text())
-        for doc,expected_lead,expected_count in [(day,day_lead,len(model['stories'])),(independent,lead,len(articles))]:
+        for doc,expected_lead,expected_count in [(day,day_lead,len(model['stories'])-len(day.select('.sport-story-anchor'))),(independent,lead,sum(a.get('sports_interest','other')=='other' for a in articles))]:
             self.assertEqual(doc.select_one('.hero h2').get_text(),expected_lead['headline'])
             self.assertEqual(len(doc.select('.hero,.newscard')),expected_count)
             self.assertTrue(doc.select('.lead-analysis summary'))

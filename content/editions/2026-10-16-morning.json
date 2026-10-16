@@ -1796,7 +1796,7 @@
   },
   "reading_review": {
     "version": 2,
-    "completed_at": "2026-10-16T10:24:50+03:00"
+    "completed_at": "2026-10-16T20:30:43+03:00"
   },
   "panels": [
     {
@@ -2129,5 +2129,29 @@
       ],
       "change_note": "Βραδινός επανέλεγχος των επίσημων όρων και της κατάστασης· δεν επαληθεύτηκε νέα μεταβολή από το μεσημέρι. Δεν παρουσιάζεται ως νέα πρόσκληση."
     }
-  ]
+  ],
+  "producer_contract": {
+    "producer_protocol": "oracle-briefing/3",
+    "content_schema_sha256": "e31a86ea229692455921097b2c9d1a9fcd58d9fcd2015ce6d039926815621ce5"
+  },
+  "selection_review": {
+    "version": 1,
+    "completed_at": "2026-10-16T10:24:50+03:00",
+    "global_exception_reason": null
+  },
+  "freshness": [
+    {
+      "id": "limassol-forecast",
+      "kind": "weather",
+      "label": "Λεμεσός · σήμερα 16/10",
+      "checked_at": "2026-10-16T07:19:42.023688+00:00",
+      "valid_from": "2026-10-16T06:00:00+03:00",
+      "valid_until": "2026-10-17T06:00:00+03:00",
+      "recheck_at": "2026-10-16T13:30:00+03:00",
+      "sources": [
+        "https://www.dom.org.cy/FORECAST/public_a.html"
+      ]
+    }
+  ],
+  "analysis_revision_at": "2026-10-16T20:30:43+03:00"
 }

@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "editions": [
+    {
+      "edition_id": "2026-10-11-evening",
+      "as_of": null,
+      "records": [],
+      "coverage": "legacy_unstructured"
+    },
+    {
+      "edition_id": "2026-10-12-evening",
+      "as_of": "2026-10-12T19:46:55.906484+03:00",
+      "records": [],
+      "coverage": "legacy_unstructured"
+    },
+    {
+      "edition_id": "2026-10-12-midday",
+      "as_of": "2026-10-12T13:52:05.344920+03:00",
+      "records": [],
+      "coverage": "legacy_unstructured"
+    },
+    {
+      "edition_id": "2026-10-12-morning",
+      "as_of": "2026-10-12T07:15:00+03:00",
+      "records": [],
+      "coverage": "legacy_unstructured"
+    },
+    {
+      "edition_id": "2026-10-13-evening",
+      "as_of": "2026-10-13T19:59:23+03:00",
+      "records": [],
+      "coverage": "legacy_unstructured"
+    },
+    {
+      "edition_id": "2026-10-13-midday",
+      "as_of": "2026-10-13T14:11:16+03:00",
+      "records": [],
+      "coverage": "legacy_unstructured"
+    },
+    {
+      "edition_id": "2026-10-13-morning",
+      "as_of": "2026-10-13T08:17:36.655786+03:00",
+      "records": [],
+      "coverage": "legacy_unstructured"
+    },
+    {
+      "edition_id": "2026-10-14-evening",
+      "as_of": "2026-10-14T20:02:27+03:00",
+      "records": [],
+      "coverage": "legacy_unstructured"
+    },
+    {
+      "edition_id": "2026-10-14-midday",
+      "as_of": "2026-10-14T13:50:18+03:00",
+      "records": [],
+      "coverage": "legacy_unstructured"
+    },
+    {
+      "edition_id": "2026-10-14-morning",
+      "as_of": "2026-10-14T08:48:14+03:00",
+      "records": [],
+      "coverage": "legacy_unstructured"
+    },
+    {
+      "edition_id": "2026-10-15-evening",
+      "as_of": "2026-10-15T20:38:27+03:00",
+      "records": [],
+      "coverage": "legacy_unstructured"
+    },
+    {
+      "edition_id": "2026-10-15-midday",
+      "as_of": "2026-10-15T14:03:34+03:00",
+      "records": [
+        {
+          "owner": "2026-10-15-midday",
+          "id": "limassol-coastal-forecast",
+          "kind": "weather",
+          "label": "Λεμεσός το απόγευμα",
+          "checked_at": "2026-10-15T10:37:30.835283+00:00",
+          "valid_from": "2026-10-15T12:00:00+03:00",
+          "valid_until": "2026-10-16T18:00:00+03:00",
+          "recheck_at": "2026-10-15T19:30:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_b.html"
+          ],
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-10-15-morning",
+      "as_of": "2026-10-15T07:52:05+03:00",
+      "records": [
+        {
+          "owner": "2026-10-15-morning",
+          "id": "limassol-coastal-forecast",
+          "kind": "weather",
+          "label": "Λεμεσός σήμερα",
+          "checked_at": "2026-10-15T04:41:49.231479+00:00",
+          "valid_from": "2026-10-15T06:00:00+03:00",
+          "valid_until": "2026-10-16T06:00:00+03:00",
+          "recheck_at": "2026-10-15T13:30:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_a.html"
+          ],
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-10-16-evening",
+      "as_of": "2026-10-16T20:32:42+03:00",
+      "records": [
+        {
+          "owner": "2026-10-16-evening",
+          "id": "limassol-forecast",
+          "kind": "weather",
+          "label": "Λεμεσός · αύριο 17/10",
+          "checked_at": "2026-10-16T16:36:33.637496+00:00",
+          "valid_from": "2026-10-16T18:00:00+03:00",
+          "valid_until": "2026-10-18T00:00:00+03:00",
+          "recheck_at": "2026-10-17T07:30:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_c.html"
+          ],
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-10-16-midday",
+      "as_of": "2026-10-16T14:45:58+03:00",
+      "records": [
+        {
+          "owner": "2026-10-16-midday",
+          "id": "limassol-forecast",
+          "kind": "weather",
+          "label": "Λεμεσός · απόγευμα 16/10",
+          "checked_at": "2026-10-16T11:41:27.303196+00:00",
+          "valid_from": "2026-10-16T06:00:00+03:00",
+          "valid_until": "2026-10-17T06:00:00+03:00",
+          "recheck_at": "2026-10-16T19:30:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_a.html"
+          ],
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-10-16-morning",
+      "as_of": "2026-10-16T10:24:50+03:00",
+      "records": [
+        {
+          "owner": "2026-10-16-morning",
+          "id": "limassol-forecast",
+          "kind": "weather",
+          "label": "Λεμεσός · σήμερα 16/10",
+          "checked_at": "2026-10-16T07:19:42.023688+00:00",
+          "valid_from": "2026-10-16T06:00:00+03:00",
+          "valid_until": "2026-10-17T06:00:00+03:00",
+          "recheck_at": "2026-10-16T13:30:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_a.html"
+          ],
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    }
+  ]
+}

@@ -27,6 +27,9 @@ def run(output):
                     assert page.locator('.editorial-revision').is_visible()
                     for sid,a in records.items():
                         card=page.locator('[data-story-id="'+sid+'"]')
+                        if a.get('sports_interest','other')!='other':
+                            assert card.locator('xpath=..').locator('.sport-news-link').count()==1
+                            continue
                         bar=card.locator('.article-actions')
                         controls=bar.locator(':scope > details > summary,:scope > .story-actions > a')
                         # Compare one layout frame. Separate protocol calls can
@@ -37,7 +40,7 @@ def run(output):
                         assert all(box['height']>=44 for box in boxes)
                         assert card.locator('figcaption,.photo-credit').count()==0
                         assert card.locator('.abstract').inner_text()==a['summary']
-                        assert card.locator('.reading-layer').is_visible()
+                        assert card.locator('.reading-layer,.reading-time').count()==0
                         if a['newspaper_analysis']:
                             assert not card.locator('.card-context').is_visible()
                             trigger=card.locator('.card-analysis>summary');trigger.focus();page.keyboard.press('Enter')

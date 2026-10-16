@@ -1,0 +1,114 @@
+import hashlib
+import copy
+import importlib.util
+import json
+import unittest
+from pathlib import Path
+from bs4 import BeautifulSoup
+
+ROOT = Path(__file__).resolve().parents[1]
+spec = importlib.util.spec_from_file_location('selection_builder', ROOT/'scripts/v2/build.py')
+build = importlib.util.module_from_spec(spec); spec.loader.exec_module(build)
+selection = build.load_module('selection')
+
+
+class SelectionTests(unittest.TestCase):
+    def setUp(self):
+        self.edition = json.loads((ROOT/'content/editions/2026-10-15-midday.json').read_text())
+        self.articles = [json.loads((ROOT/'content'/p).read_text()) for p in self.edition['articles']]
+
+    def test_favourites_are_four_small_news_links_and_extra_f1_is_excluded(self):
+        original = copy.deepcopy(self.edition)
+        doc = BeautifulSoup(build.sports(self.edition, self.articles), 'html.parser')
+        self.assertEqual(len(doc.select('.sports-links a')), 4)
+        self.assertEqual(len(doc.select('.sports-links img.sport-logo')),4)
+        self.assertTrue(all(img['alt']=='' for img in doc.select('.sport-logo')))
+        for record in json.loads((ROOT/'templates/v2/sports-logos.json').read_text()):
+            self.assertEqual(hashlib.sha256((ROOT/'docs'/record['asset']).read_bytes()).hexdigest(),record['sha256'])
+        self.assertFalse(doc.select('.sports-links details,.sports-links p'))
+        self.assertIn('Six Kings Slam', doc.select_one('.sports-other').text)
+        self.assertNotIn('Mekies', doc.select_one('.sports-other').text)
+        self.assertEqual(self.edition, original)
+
+    def test_day_has_one_story_version_balanced_opening_and_quiet_history(self):
+        daily = build.load_module('daily')
+        bundles = []
+        for slot in ('morning', 'midday'):
+            e = json.loads((ROOT/'content/editions'/f'2026-10-15-{slot}.json').read_text())
+            bundles.append((e, [json.loads((ROOT/'content'/p).read_text()) for p in e['articles']]))
+        model = daily.compose('2026-10-15', bundles)
+        doc = BeautifulSoup(daily.render(build, model, bundles), 'html.parser')
+        ids = [node['data-story-id'] for node in doc.select('[data-story-id]')]
+        self.assertCountEqual(ids, [story['story_id'] for story in model['stories']])
+        self.assertEqual(len(ids), len(set(ids)))
+        self.assertFalse(doc.select_one('#changes').has_attr('open'))
+        sections = [node.get('id') for node in doc.select('main > section, main > details')]
+        self.assertLess(sections.index('world'), sections.index('cyprus'))
+        self.assertLess(sections.index('cyprus'), sections.index('changes'))
+        for link in doc.select('.day-lead .brief-line a,.summary-story-links a'):
+            self.assertIsNotNone(doc.select_one(link['href']))
+        sports = doc.select_one('#other-sports')
+        self.assertIn('Six Kings Slam', sports.text)
+        self.assertNotIn('Mekies', sports.text)
+        for story in model['stories']:
+            self.assertTrue((ROOT/'docs'/story['selected']['url']).is_file())
+
+    def test_other_sports_without_optional_analysis_keeps_its_photo_and_source_link(self):
+        article = copy.deepcopy(next(a for a in self.articles if a.get('sports_interest') == 'other' and a['category'] == 'Αθλητικά'))
+        article.update(newspaper_analysis=[], reader_mode='source')
+        edition = copy.deepcopy(self.edition)
+        edition['sports']['major_stories'] = [next(r for r in edition['sports']['major_stories'] if r['article_id'] == article['id'])]
+        doc = BeautifulSoup(build.sports(edition, [article]), 'html.parser')
+        card = doc.select_one('.sports-other article')
+        self.assertEqual(card.select_one('[data-editorial-image] img')['src'], '../' + article['image']['url'])
+        self.assertEqual(card.select_one('.abstract').get_text(strip=True), article['summary'])
+        self.assertFalse(card.select('.card-analysis'))
+        self.assertIn(card.select_one('.original-report')['href'], [s['url'] for s in article['sources'] if s.get('access') == 'read' and s.get('used_for_claims')])
+
+    def morning(self, local=5, world=5, reason=None):
+        edition = copy.deepcopy(self.edition)
+        edition.update(type='morning', date='2026-10-16', selection_review={'version':1, 'completed_at':'2026-10-16T07:30:00+03:00','global_exception_reason':reason})
+        edition['sports']['major_stories'] = []
+        articles = [{'category':'Κύπρος'} for _ in range(local)] + [{'category':'Διεθνή'} for _ in range(world)]
+        return edition, articles
+
+    def test_morning_caps_count_the_lead_by_its_actual_section(self):
+        e, articles = self.morning()
+        articles[-1] = {'category':'Πρώτο θέμα','daily':{'section':'world'}}
+        selection.validate(e, articles)
+        with self.assertRaisesRegex(ValueError,'at most five'):
+            selection.validate(e, articles+[{'category':'Κύπρος'}])
+        e, articles = self.morning(world=8,reason='Eight stories are still above the absolute ceiling.')
+        with self.assertRaisesRegex(ValueError,'seven global'):
+            selection.validate(e,articles)
+
+    def test_six_or_seven_global_stories_need_a_reason_and_fewer_are_allowed(self):
+        for count in (6,7):
+            e, articles = self.morning(world=count)
+            with self.assertRaisesRegex(ValueError,'editorial reason'):
+                selection.validate(e,articles)
+            e['selection_review']['global_exception_reason']='Additional major verified developments warrant coverage.'
+            selection.validate(e,articles)
+        selection.validate(*self.morning(local=2,world=3))
+
+    def test_new_morning_requires_review_and_old_snapshots_keep_their_inventory(self):
+        e, articles = self.morning()
+        e.pop('selection_review')
+        with self.assertRaisesRegex(ValueError,'selection_review'):
+            selection.validate(e,articles)
+        e['date']='2026-10-15'
+        selection.validate(e,articles+[{'category':'Κύπρος'}])
+
+    def test_new_extra_sports_must_be_explicit_and_outside_the_favourites(self):
+        e = copy.deepcopy(self.edition); e['date']='2026-10-16'
+        with self.assertRaisesRegex(ValueError,'four favourites'):
+            selection.validate(e,self.articles)
+        e['sports']['major_stories'] = [r for r in e['sports']['major_stories'] if r['article_id']=='sport-slam']
+        selection.validate(e,self.articles)
+        articles=copy.deepcopy(self.articles);articles[-1].pop('sports_interest')
+        with self.assertRaisesRegex(ValueError,'explicit sports_interest'):
+            selection.validate(e,articles)
+
+
+if __name__ == '__main__':
+    unittest.main()

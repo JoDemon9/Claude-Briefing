@@ -166,10 +166,10 @@ class DailyTests(unittest.TestCase):
             build.build(root)
             corrected_day=root/'docs/daily'/f'{e["date"]}.html'
             first=corrected_day.read_bytes()
-            self.assertIn('συντακτική διόρθωση',first.decode())
+            self.assertIn(a['headline'],first.decode())
             latest_day=json.loads((root/'docs/data/day-latest.json').read_text())['day_id']
             if latest_day!=e['date']:
-                self.assertNotIn('συντακτική διόρθωση',(root/'docs/today.html').read_text())
+                self.assertNotIn(a['headline'],(root/'docs/today.html').read_text())
             model=json.loads((root/'docs/data/days/2026-10-13.json').read_text())
             self.assertEqual(next(x for x in model['updates'] if x['id']=='integrated-correction')['kind'],'correction')
             build.build(root)

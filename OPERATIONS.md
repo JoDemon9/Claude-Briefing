@@ -1,215 +1,25 @@
-# Λειτουργία του Morning Briefing
+# Newspaper operations
 
-Ενεργή πολιτική ανάγνωσης/ημέρας: [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md), DEC-004/DEC-005. Υπερισχύει των παλιότερων ορίων λέξεων, υποχρεωτικού αντίλογου και αρχικά ανοικτής ανάλυσης lead. Το αίτημα 15/10 εξουσιοδοτεί μόνο τις σχετικές αλλαγές στα τρία υπάρχοντα ChatGPT prompts, χωρίς αλλαγή προγράμματος.
+Routine production uses [BRIEFING_RUNTIME.md](BRIEFING_RUNTIME.md), the compact packet and fresh main capabilities. This consolidated policy supersedes the former repeated startup document list (DEC-014). Detailed recovery contracts remain in [BACKEND_OPERATIONS.md](BACKEND_OPERATIONS.md); the original instructions are preserved under maintenance/history/2026-10-15.
 
-## Εφημερίδα ημέρας — ενεργή αρχιτεκτονική 13/10/2026
+The existing ChatGPT tasks at 07:30 / 13:30 / 19:30 Europe/Athens select, research, write and review. No second scheduler is introduced. The public repo holds reviewed structured content and deterministic static output; Private holds source notes and persistent research state; Oracle holds the saved full daily newspaper and independent RSS Wire.
 
-Η κύρια εμπειρία στο https://jodemon9.github.io/oracle-briefing/ είναι πλήρης ημερήσια εφημερίδα. Ο κοινός renderer παράγει `docs/daily/YYYY-MM-DD.html` (μόνιμο URL), `docs/today.html` (φορητή νεότερη πραγματική ημέρα), `docs/data/day-latest.json` (ταυτότητα και hashes), `docs/data/days/YYYY-MM-DD.json` (επικυρωμένο μοντέλο αναφορών), `docs/data/days.json` και `docs/daily/index.html` (αρχείο ημερών). Τα `docs/latest.html` / `docs/data/latest.json` διατηρούν ακριβώς τον ρόλο της τελευταίας **ανεξάρτητης έκδοσης**, μαζί με όλα τα morning/midday/evening URLs και readers.
+## Routine commands
 
-Το `scripts/v2/daily.py` εκτελείται αυτόματα στο υπάρχον `build.py`, μετά από τα ίδια gates και τη δημιουργία των readers. Δεν χρειάζεται αλλαγή των ενεργών prompts για να συνθέτει έγκυρες εκδόσεις. Ο τύπος και η ημερομηνία προέρχονται από `edition.type` / `edition.date`, ποτέ από την ώρα του build. `Europe/Athens` ή `Asia/Nicosia` χρησιμοποιούν IANA DST. Η ημερομηνία παραμένει η νεότερη πραγματική διαθέσιμη ημέρα· δεν αλλάζει επειδή πέρασαν μεσάνυχτα. Απουσία πρωινού σημαίνει μερική ημέρα με σαφή μη διαθεσιμότητα.
+1. research.py --date D --slot E --at <offset time> --private-root <private checkout> --wire-root <portal checkout>
+2. collect.py --packet <returned packet> --private-root <private checkout>; read attention items and relevant evidence only. No automatic verified_at changes.
+3. photo_library.py --story-id <stable ID>; explicitly review relevance/date before --reuse. prepare_images.py --edition D-E verifies every selected asset.
+4. publish.py --portal-root <portal checkout> prepares and validates one candidate. For an already authorised publication use the same command with --publish. Inspect --status and .work/check-report.json; resume after the recorded failure rather than regenerating unrelated material.
+5. usage.py --packet <packet> --checks .work/check-report.json --private-root <private checkout> records work and outcome. Real Pro usage is optional manually observed data, never a token/time estimate.
 
-Η σύνθεση κρατά μία ιστορία ανά stable `story_id`, με αναφορές στη συγκεκριμένη έκδοση και reader. Επιλέγει την τελευταία συμμετέχουσα χρονική έκδοση morning → midday → evening, χωρίς ένωση paragraphs. Διατηρεί τις διαφορετικές πρωινές ιστορίες. Το προαιρετικό `article.daily.priority` (μικρότερο πρώτα) και `article.daily.section` δίνουν ρητή αναδιάταξη. Χωρίς αυτά η προτεραιότητα είναι 1000 + η αρχική συντακτική θέση του άρθρου στην πρώτη έκδοση όπου εμφανίστηκε (θέση 0 για πρώτο θέμα), με ισοπαλίες βάσει stable story_id. Διατηρείται η κατηγορία (παλιό «Πρώτο θέμα» που δεν είναι πλέον κεντρικό εντάσσεται στην Κύπρο· δηλώστε section για διεθνές/αθλητικό κύριο θέμα). Το `edition.daily.lead_story_id` επιλέγει κεντρικό θέμα· fallback είναι το νεότερο «Πρώτο θέμα». Το `edition.daily.summary_60s` μπορεί να συνοψίζει όλη την ημέρα· fallback είναι η τελευταία διαθέσιμη `summary_60s`, αλλιώς σύντομες περιλήψεις ιστοριών.
+All commands are under scripts/v2; run from a checked-out maintained main with requirements-v2.txt installed. A producer without local runtime uses a validated candidate/CI and verifies its exact release receipt; it must not write substitute HTML or claim missing checks ran. Until these helpers exist on actual main, follow the active editorial policy with the maintained main workflow and supported fields, storing unsupported metadata privately.
 
-Το ακριβές schema είναι `templates/v2/content.schema.json` για τα optional editorial inputs και `templates/v2/day.schema.json` για το παραγόμενο μοντέλο. `article.daily.events[]`: μοναδικό αμετάβλητο `id`, `kind` (`new`, `substantive_update`, `correction`, `enrichment`, `provenance`), `at` με offset, `summary`, `source_urls` από τις προσβάσιμες ελεγμένες πηγές του άρθρου. `new`/`substantive_update` χωρίς τεκμήριο υποβαθμίζονται σε ουδέτερη προέλευση. Τα ήδη υπάρχοντα `changes` με συγκεκριμένο `story_id` είναι ρητή εκδοτική τεκμηρίωση και χρησιμοποιούν τις ελεγμένες πηγές του άρθρου και την ώρα έκδοσης· αλλαγές με `story_id:null` δεν αποδίδονται αυθαίρετα σε άρθρο. `image_revision_at` / `analysis_revision_at` είναι enrichment, ποτέ νέο γεγονός. Αλλαγή hash, φωτογραφίας ή μεγέθους κειμένου δεν αποδεικνύει novelty.
+## Publication contracts
 
-Το μοντέλο διατηρεί `created_at`, πραγματική τελευταία ανανέωση `updated_at`, `input_sha256`, συμμετέχουσες εκδόσεις, `missing_slots`, `first_seen_at`, `last_substantive_at`, επιλεγμένη και προηγούμενες αναφορές και σύντομο τεκμηριωμένο ιστορικό. Ίδια inputs και ήδη αποθηκευμένο μοντέλο δίνουν byte-identical επανεκτέλεση. Νέα περιεχόμενα αλλάζουν την πραγματική ώρα ανανέωσης της ημέρας, χωρίς αυτό να γίνεται ώρα γεγονότος ή quote. Διορθώσεις διατηρούν αρχικά `published_at` έκδοσης και άρθρων: το build απορρίπτει αλλαγή τους σε ήδη αποθηκευμένη δημοσίευση.
+build.py produces independent editions/readers/archive/search, the cumulative daily/YYYY-MM-DD.html, today.html/day-latest.json, and public indexes. latest.html/latest.json remains the latest independent snapshot. sync_portal.py saves the complete day, descriptors and required assets in Oracle, preserving archive/Wire. Keep original times and existing URLs on corrections.
 
-Το `content/day-story-aliases.json` είναι μικρή ρητή migration αντιστοίχιση ελεγμένων ιστοριών, χωρίς fuzzy/AI deduplication. Αρχικά ενοποιεί το πρωινό Ριάντ (`2026-10-13-world-3`) με `riyadh-airport-disruption` και την παλιότερη αναφορά changes `cyprus-leaders-oct13` με `2026-10-13-lead`. Δεν αλλάζει ιστορικά IDs/URLs.
+release.py records the public allowlist and verifies exact served bytes; daily_release.py does the same for the central snapshot. Source Pages must verify before central promotion. The private durable journal distinguishes generated/validated/built/checked, pushed and served/verified stages on each site. Retain last good receipts/snapshots and accurately report partial publication.
 
-Νεότερη ενεργή πολιτική DEC-004/DEC-005 (15/10/2026): διάβασε [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md). Η αρχική κάρτα δίνει πλήρη factual περίληψη περίπου 30 δευτερολέπτων (στόχος 60–90, μέγιστο 110 λέξεις). Η προαιρετική ανάπτυξη newspaper_analysis προσθέτει τεκμηριωμένη ερμηνεία (συνήθως 80–140, μέγιστο 180 λέξεις), χωρίς ελάχιστο μήκος ή υποχρεωτικό αντίλογο. reader_mode=full μόνο με πρόσθετη ουσία, analysis_sources και reader_value· διαφορετικά reader_mode=source και σύνδεσμος στο πρωτότυπο, με διατήρηση ιστορικού reader. reading_review.version=2 για νέες εκδόσεις. Η ανάλυση και του πρώτου θέματος ανοίγει προαιρετικά. Οι φωτογραφίες και οι αρχικοί χρόνοι διατηρούνται.
+Routine content CI validates source constraints and changed edition/day/readers at mobile/desktop with and without JavaScript. Code/schema/template/test/workflow changes trigger full unit/browser regression; archive audits remain separately available. A failure blocks publication and produces a concise report plus logs. Routine tasks do not debug or weaken tests.
 
-Το `sync_portal.py` αποθηκεύει την πλήρη ημέρα στο Oracle `docs/index.html` με όλα τα αναφερόμενα δημόσια assets, `data/day-snapshot.html`, descriptor και μητρώα. Η ανανέωση από `assets/latest-briefing.js` ελέγχει `day-latest.json`, ταυτότητα, νεότερη ημερομηνία, hashes HTML/κάθε asset και αποκωδικοποίηση φωτογραφιών **πριν** αντικαταστήσει τη σελίδα στην ίδια διεύθυνση. Σε αποτυχία διατηρεί το πλήρες αποθηκευμένο fallback. Δεν υπάρχει iframe ή redirect. Η ιστορική πύλη και το Wire δεν αλλάζουν.
-
-### Κοινή συμπαγής οικονομική ενότητα
-
-Το `scripts/v2/compact_markets.py` αποδίδει ημέρα και ανεξάρτητες εκδόσεις με ίδια UI: έως τρία σημεία «30 δευτερόλεπτα», έως έξι βασικές επαληθευμένες τιμές, έως τρεις movers. `market_summary[]` και `market_movers[]` είναι σύντομη τεκμηριωμένη σύνοψη dashboard (`text`, `sources`), όχι άρθρα με μεγάλο υποχρεωτικό κείμενο. `market_next_event` δίνει το επόμενο ορόσημο στο fallback. Χωρίς νέα πεδία εμφανίζονται οι επαληθευμένες μεταβολές με ουδέτερη εξήγηση και οι υπάρχουσες market_notes. Δεν επινοούνται τιμές ή αιτίες.
-
-Η εύκολα προσαρμόσιμη επιλογή είναι `compact_markets.CORE` ή optional `edition.market_core` (έως έξι instrument keys). Default: ^GSPC (S&P 500), ^IXIC (Nasdaq Composite), ^STOXX, cse (ΧΑΚ), eurusd, brent. Cash και futures παραμένουν χωριστά. Στην ημέρα επιλέγεται το νεότερο πραγματικό quote ανά instrument, με μετατροπή timestamps. Όταν λείπει η ακριβής ώρα αλλά η πραγματική ημερομηνία quote είναι ίδια, επιλέγεται το διαθέσιμο στιγμιότυπο της νεότερης συμμετέχουσας έκδοσης χωρίς επινόηση ώρας· μια άγνωστη νεότερη τιμή δεν εξαφανίζει επαληθευμένο στιγμιότυπο. Χρόνος, μονάδα/νόμισμα, πρόσημο και κατάσταση είναι πάντα ορατά.
-
-Όλα τα υπόλοιπα δεδομένα παραμένουν διαθέσιμα σε native `details`: «Όλες οι τιμές» ανά κατηγορία, συμπαγές Tech watch για TSM/ NVDA/ GOOGL/ MSFT/ AAPL/ MU/ META, χωριστά ECB/Euribor fixings/tenors, περισσότερες κινήσεις και κοινή τεκμηρίωση. Η τιμή μιας εταιρείας δεν επαναλαμβάνεται σε επτά παραγράφους. Οι πραγματικές εταιρικές εξελίξεις παραμένουν στο tech panel και στα άρθρα. Το πλήρες πρωτογενές dataset δεν περικόπτεται. Τα fixings και οι χρόνοι πηγών δεν αντικαθίστανται από την ώρα ανανέωσης της σελίδας.
-
-Η έκδοση 13/10 συντέθηκε αποκλειστικά από την ήδη δημοσιευμένη ύλη· οι νέες σύντομες οικονομικές συνόψεις προέρχονται από τις αποθηκευμένες πηγές της βραδινής. **Κανένα από τα τρία πραγματικά ChatGPT automations δεν άλλαξε στην εργασία αυτή.** Οι οδηγίες προετοιμάζονται για την επόμενη συνομιλία. Δεν προστίθεται scheduler, AI backend ή προσωπικό μήνυμα. Διαβάστε και το `DAILY_HUB_HANDOFF.md` στο δημόσιο repository.
-
-
-Ημερομηνία συντήρησης: 13 Οκτωβρίου 2026. Το παρόν είναι το κοινό εγχειρίδιο λειτουργίας και πρέπει να ενημερώνεται μαζί με κάθε αλλαγή της πραγματικής διαδικασίας.
-
-## Ποιος εκκινεί την παραγωγή
-
-Ο χρήστης εκτελεί το briefing ως **scheduled action μέσα στο ChatGPT**. Οι τρεις εξωτερικές ενέργειες είναι στις 07:30, 13:30 και 19:30 Europe/Athens, στην ίδια τοπική ώρα με την Κύπρο. Το ChatGPT ερευνά, γράφει και δημοσιεύει την αντίστοιχη morning/midday/evening έκδοση.
-
-Τα repository commits δεν ενημερώνουν τα αποθηκευμένα prompts ή τις ώρες αυτών των actions. Δεν δημιουργούμε δεύτερο scheduler, Gemini/Antigravity generator ή αυτόματη συμπλήρωση χαμένων εκδόσεων. Η αφαίρεση αυτών των μηχανισμών είναι απόφαση του χρήστη της 12/10, όχι προσωρινό σφάλμα προς αποκατάσταση.
-
-## Ευθύνη κάθε αποθετηρίου
-
-| Αποθετήριο | Περιεχόμενο | Δημόσια διεύθυνση |
-| --- | --- | --- |
-| JoDemon9/Claude-Briefing-Private | Πρωτογενή Markdown, ιδιωτικές σημειώσεις, κανονικά δομημένα JSON και preview | Καμία. Δεν ενεργοποιούμε Pages. |
-| JoDemon9/Claude-Briefing | Μόνο περιεχόμενο ελεγμένο για δημόσια χρήση, ξεχωριστά άρθρα, renderer και docs | https://jodemon9.github.io/Claude-Briefing/ |
-| JoDemon9/oracle-briefing | Κεντρική εφημερίδα ημέρας, ιστορική πύλη και Wire | https://jodemon9.github.io/oracle-briefing/ |
-
-Η παλιά ιδιωτική αρχική HTML δεν είναι ένδειξη ότι σταμάτησε το δημόσιο briefing. Εξετάζουμε τα πραγματικά δημόσια αρχεία και το Pages deployment.
-
-## Αρχεία και εκτελέσιμα
-
-| Αρχείο/φάκελος | Τι ακριβώς κάνει |
-| --- | --- |
-| AGENTS.md | Οδηγίες που πρέπει να διαβάζει ο επόμενος βοηθός πριν εργαστεί. |
-| OPERATIONS.md | Το παρόν εγχειρίδιο: ενεργή ροή, ευθύνες, περιορισμοί και διάγνωση. |
-| BRIEFING_SPEC.md | Εκδοτική προδιαγραφή: έρευνα, ανεξάρτητες πηγές, αθλητικά, ημερομηνίες και αγορές. |
-| CHATGPT_TASK_INSTRUCTIONS.md | Ακριβές κοινό prompt για τις υπάρχουσες εξωτερικές ενέργειες. Δεν τις δημιουργεί ούτε τις ενημερώνει μόνο του. |
-| content/editions/*.json | Μεταδεδομένα, αναφορές άρθρων, αθλητικά, αγορές και πραγματικές αλλαγές κάθε έκδοσης. |
-| content/articles/<edition-id>/*.json | Δημόσιο κείμενο κάθε ανεξάρτητου άρθρου, πηγές και χρόνοι. Ιδιωτικές σημειώσεις δεν μπαίνουν εδώ. |
-| templates/v2/ | Μόνιμο schema και σχεδίαση. Δεν χρησιμοποιούμε χρονολογημένη HTML ως πρότυπο. |
-| scripts/v2/build.py | Τοπική, ντετερμινιστική παραγωγή όλων των HTML, άρθρων, αρχείου και αναζήτησης. Ελέγχει πρώτα και προωθεί ολόκληρο υποψήφιο docs με rollback σε αποτυχία. Δεν ερευνά, δεν παράγει ειδήσεις με AI, δεν στέλνει μηνύματα. |
-| scripts/v2/release.py | Καταγραφή hashes, εξαγωγή μόνο επιτρεπόμενων δημόσιων αρχείων και έλεγχος ότι το Pages σερβίρει ακριβώς την έκδοση. Δεν είναι scheduler ή δημοσιογραφική διασταύρωση. |
-| scripts/v2/sync_portal.py | Αποθηκεύει ολόκληρη τη νεότερη δημόσια ημέρα και μόνο τα αναφερόμενα δημόσια assets στην αρχική Oracle, μαζί με το μητρώο. Δεν μεταφέρει ιδιωτικές πηγές. |
-| docs/data/release.json | Δημόσιο αποτύπωμα της υποψήφιας έκδοσης. Η ύπαρξή του δεν αποδεικνύει ότι δημοσιεύτηκε. |
-| .work/publication-check.json | Τοπικό αποτέλεσμα επιτυχούς ελέγχου των πραγματικά σερβιρισμένων αρχείων. Δεν μπαίνει στο Git. |
-| .github/workflows/content-checks.yml (public) | Έλεγχοι schema, tests, αναπαραγωγιμότητας HTML και browser. Δεν δημιουργεί ειδήσεις ούτε εκκινεί τα scheduled actions. |
-| .github/workflows/verify-deployment.yml (public) | Μετά από επιτυχημένο Pages deployment ελέγχει τα πραγματικά σερβιρισμένα hashes. Δεν παράγει περιεχόμενο και δεν είναι δεύτερος scheduler. Το αποτέλεσμα αποθηκεύεται ως artifact. |
-| .github/workflows/ci.yml (private) | Έλεγχοι κώδικα/δομημένων δεδομένων. Δεν δημοσιεύει και δεν ενεργοποιεί AI. |
-| scripts/monitor-breaking.py (Oracle) | Συλλογή πρόσφατων χρονολογημένων RSS ειδήσεων, φιλτράρισμα, αποθήκευση Wire και υγείας παρόχων. Δεν παράγει έκδοση και δεν στέλνει Telegram. |
-| .github/workflows/wire-monitor.yml (Oracle) | Ξεχωριστή συλλογή Wire στις :15/:45 UTC. GitHub cron μπορεί να καθυστερήσει. Μόνο τα συγκεκριμένα JSON αλλάζουν. |
-| docs/wire-health.json (Oracle) | Πραγματικός τελευταίος έλεγχος, τελευταία επιτυχής συλλογή και κατάσταση ανά πάροχο. Πάνω από 90 λεπτά εμφανίζεται καθυστέρηση. |
-| scripts/public_http.py, runtime.py, html_tree.py (private) | Διατηρημένα βοηθήματα ασφαλών HTTP, hashes/ατομικών εγγραφών και ανάγνωσης HTML. Δεν αποτελούν παλιό generator. |
-| scripts/financial_references.py (private) | Διατηρημένοι ελεγμένοι adapters επίσημων επιτοκίων/ημερολογίου ΕΚΤ. Μηνιαίος Euribor δεν υποκαθιστά ημερήσιο fixing. Δεν παράγει briefing. |
-
-## Ροή μιας έκδοσης
-
-1. Διάβασε τα πραγματικά main και τα AGENTS.md, OPERATIONS.md, BRIEFING_SPEC.md. Έλεγξε τυχόν ανοιχτά PR και νέες εκδόσεις ώστε να μη χαθεί παράλληλη εργασία.
-2. Το ChatGPT ερευνά τις διαθέσιμες πηγές και γράφει την έκδοση/ανεξάρτητα άρθρα. Διάκρινε γεγονός, δήλωση και εκτίμηση. HTTP 200 δεν σημαίνει επαλήθευση. Άγνωστα στοιχεία παραμένουν null.
-3. Αποθήκευσε πρωτογενές Markdown και ιδιωτικές σημειώσεις μόνο στο private. Έλεγξε ρητά ποια JSON/κείμενα επιτρέπεται να είναι δημόσια. Το schema απορρίπτει άγνωστα πεδία αντί να εξάγει προσωπικές σημειώσεις.
-4. Ενημέρωσε τα δημόσια content και εκτέλεσε build/tests/browser checks. Κατέγραψε το release αποτύπωμα. Μη βαφτίσεις tests που δεν εκτελέστηκαν επιτυχή.
-5. Δημοσίευσε τα ελεγμένα δημόσια αρχεία στο main και περίμενε το πραγματικό Pages deployment. Αν δεν έχεις τοπικό runtime, χρησιμοποίησε διαθέσιμο ελεγμένο περιβάλλον/CI· μην αντικαθιστάς τον renderer γράφοντας αυθαίρετο HTML.
-6. Επιβεβαίωσε την έκδοση και τα άρθρα στα πραγματικά URLs. Ο release έλεγχος συγκρίνει bytes/hashes ώστε παλιό cache ή άλλο deployment να μην εμφανιστεί ως επιτυχία.
-7. Συγχρόνισε το portal registry και επιβεβαίωσε και την πύλη. Αναφέρεις ημερομηνία/τύπο, commit, Pages αποτέλεσμα, URL και ακριβώς ποιο βήμα έμεινε ανολοκλήρωτο.
-
-Ο έλεγχος δημοσίευσης αφορά **το αποτέλεσμα του ChatGPT scheduled action**. Δεν εκκινεί άλλο task και δεν επηρεάζει τις ώρες του. Ένα πράσινο CI, ένα PR ή ένα τοπικό preview δεν είναι δημοσιευμένο briefing.
-
-## Εντολές με τοπικό runtime
-
-```sh
-python -m pip install -r requirements-v2.txt
-python -m compileall -q scripts tests
-python -m unittest discover -s tests -v
-python scripts/v2/build.py
-python tests/browser_checks.py --screenshots .work/preview
-python scripts/v2/release.py
-python scripts/v2/release.py --stage .work/public-package
-python scripts/v2/sync_portal.py --portal-root ../oracle-briefing
-# Μετά από επιτυχημένο δημόσιο Pages deployment:
-python scripts/v2/release.py --verify-live
-```
-
-Στο private το build είναι preview. Η εξαγωγή επιτρέπει μόνο δημόσια web αρχεία, δεν αντιγράφει το αποθετήριο. Μην ενεργοποιήσεις Pages στο private.
-
-## Τι έχει αφαιρεθεί
-
-Οι Gemini/Antigravity generators, agent-runner, παλιοί daily/morning/catch-up runners, Telegram senders/bot, παλιά templates/builders και workflows daily/notify διαγράφονται από το ενεργό δέντρο. Ο κώδικας παραμένει στο Git history για αναφορά. Μην τον επαναφέρεις επειδή λείπει ένα αρχείο που αναφέρεται σε παλιά οδηγία.
-
-Το Wire επίσης δεν στέλνει πλέον Telegram. Δεν απαιτούνται secrets ή API quotas για παραγωγή ειδήσεων μέσα σε αυτά τα repositories. Υπάρχοντα αποθηκευμένα secrets του λογαριασμού δεν διαγράφονται από αλλαγές κώδικα και δεν χρειάζονται για τη νέα ροή.
-
-## Διάγνωση χωρίς επαναλαμβανόμενες ερωτήσεις
-
-* Λείπει νέα έκδοση: έλεγξε πρώτα το εξωτερικό scheduled action και το πραγματικό δημόσιο main. Μην ενεργοποιήσεις άλλον generator.
-* Νέα JSON αλλά παλιά HTML: έλεγξε build, commit και Pages deployment. Τα source-only commits δεν αρκούν.
-* Πράσινο CI αλλά παλιός ιστότοπος: έλεγξε deployment/σερβιρισμένα hashes, όχι μόνο tests.
-* Άδειο/παλιό Wire: έλεγξε Actions και wire-health.json. Μην υποσχεθείς ακριβή εκτέλεση cron από τη ρύθμιση μόνο. Feed failure εμφανίζεται χωριστά και πλήρης αποτυχία δίνει αποτυχημένο job.
-* Παλιό audit/PR περιγράφει κάτι διαφορετικό: το εγχειρίδιο και ο τρέχων κώδικας main υπερισχύουν. Οι παλιές αναφορές είναι ιστορικές.
-
-## Συμφιλίωση προηγούμενων διορθώσεων
-
-Η v2 διατηρεί κοινά δεδομένα, ανεξάρτητα άρθρα, ιστορικούς readers, αθλητικά, timestamps, αναζήτηση, bookmarks και προσβασιμότητα. Από την παλιότερη σταθεροποίηση διατηρούνται οι ασφαλείς HTTP/επίσημοι οικονομικοί adapters, απομονωμένο build με rollback και επιτρεπόμενη εξαγωγή με hashes/έλεγχο δημοσίευσης. Οι Gemini retries και τα απαρχαιωμένα Markdown/sports-sidecar workflows αποσύρονται μαζί με τους generators. Δεν εισάγεται απαίτηση εξωτερικού reviewer key ως εμπόδιο για το ChatGPT action. Η πραγματολογική έρευνα παραμένει ευθύνη του action και καταγράφεται στις πηγές των άρθρων, χωρίς ψευδή ισχυρισμό ανεξάρτητης έγκρισης από software.
-
-## Προτεραιότητα ανάγνωσης
-
-Το κύριο θέμα και οι κυπριακές/διεθνείς ειδήσεις προηγούνται των αθλητικών και των αγορών. Στις εκδόσεις v2 το «Τι άλλαξε» εμφανίζεται μετά τα κυπριακά και διεθνή, πριν από τα αθλητικά. Η επάνω μπάρα δίνει σύντομους συνδέσμους προς κύρια νέα, Κύπρο, διεθνή, αθλητικά και αγορές. Δεν προσθέτουμε μεγάλες αθλητικές ή οικονομικές περιοχές πριν από τις κύριες ειδήσεις.
-
-Στην πύλη Oracle η αρχειακή επικαιρότητα προηγείται των αθλητικών και του πίνακα αγορών. Το ticker αγορών βρίσκεται δίπλα στην ενότητα αγορών και διατηρεί τις αρχικές τιμές/ημερομηνία της αρχειακής έκδοσης. Τα ιστορικά URLs και το περιεχόμενο των ειδήσεων διατηρούνται.
-
-Σημαντική οικονομική ή αθλητική εξέλιξη μπορεί να επιλεγεί συντακτικά ως «Πρώτο θέμα». Η επιλογή βασίζεται στη σημασία του γεγονότος, χωρίς αυτόματη αναβάθμιση ολόκληρης κατηγορίας. Αυτή η διάταξη δεν αλλάζει τις τρεις εκτελέσεις του ChatGPT ή τη συλλογή Wire.
-
-
-## Φωτογραφίες σε κάθε νέα έκδοση — 13/10/2026
-
-Πριν από τη δημοσίευση κάθε morning/midday/evening, ερεύνησε και διάλεξε πραγματικές σχετικές φωτογραφίες. Προτεραιότητα σε εικόνες εκδότη με επαληθευμένα δικαιώματα χρήσης· εναλλακτικά φωτογραφίες με σαφή άδεια από Wikimedia Commons ή άλλη πρωτογενή ανοικτή πηγή. Απαιτείται κατάλληλη αδειοδοτημένη φωτογραφία σε κάθε άρθρο, χωρίς άσχετες εικόνες για συμπλήρωση πλήθους. Μην αφήνεις όλα τα image=null χωρίς έρευνα. Όταν δεν βρεθεί νόμιμη κατάλληλη εικόνα, το άρθρο παραμένει draft και η έλλειψη δηλώνεται ρητά.
-
-Κάθε επιλεγμένη εικόνα καταγράφει source_url, original_url, caption, alt, attribution, license, license_url, retrieved_at και τοπικό url assets/editorial/<edition-id>/<article-id>.webp. Φωτογραφίες αρχείου δηλώνουν την αρχική ημερομηνία και δεν παρουσιάζονται ως εικόνες του σημερινού γεγονότος. Οπτική προσαρμογή μεγέθους/κωδικοποίησης δηλώνεται στις πηγές εικόνων. Δεν χρησιμοποιούνται επινοημένες φωτογραφίες ή ανεπιβεβαίωτες αποδόσεις.
-
-Εκτέλεσε python scripts/v2/prepare_images.py --edition YYYY-MM-DD-type πριν από το build. Ο helper αποθηκεύει και αποκωδικοποιεί επιλεγμένες ανοικτές φωτογραφίες, χωρίς παραγωγή ειδήσεων, δημοσίευση ή scheduler. Ελεγμένο νέο CDN εκδότη προστίθεται στην allowlist μόνο μετά από επιβεβαίωση πηγής/άδειας. Μην χρησιμοποιείς ασταθές hotlink ή τυχαίο URL φωτογραφίας. Συμπλήρωσε image_review.version=2 και completed_at στην έκδοση. Το build ελέγχει ότι οι τοπικές εικόνες και η τεκμηρίωση υπάρχουν.
-
-Οι φωτογραφίες εμφανίζονται στην εφημερίδα και στο άρθρο/dated reader, με πηγή, λεζάντα και σύνδεσμο άδειας. Έλεγξε naturalWidth/naturalHeight μετά το load σε κινητό και desktop, όχι μόνο παρουσία img ή HTTP 200. Η αποτυχία εικόνας δείχνει καθαρό fallback και κρατά το κείμενο διαθέσιμο. Το νέο image-candidate workflow προετοιμάζει μόνο υποψήφιο πακέτο και screenshots· δεν δημοσιεύει ούτε παράγει ειδήσεις. Δημοσίευσε όλα τα source και docs/assets μαζί, ανανέωσε release.json και περίμενε Pages/hash verification.
-
-Σε επανεκτέλεση μόνο για φωτογραφίες, ενημέρωσε την υπάρχουσα έκδοση χωρίς duplicate archive card. Διατήρησε την αρχική published_at και τους χρόνους ειδήσεων/αγορών, πρόσθεσε χωριστή ένδειξη ενημέρωσης εικόνων. Προετοίμασε τις οδηγίες για τα τρία υπάρχοντα actions· μην τα αλλάξεις σε αυτή την εργασία. Το commit οδηγιών δεν μεταβάλλει τα automations.
-
-## Structured edition supplements
-Use optional `scheduled_slot` for the edition label (separate from `published_at`), `summary_60s` for the short overview and `panels` with evidence-linked paragraphs for tech watch, weather and upcoming events. Renderer v2 retains these fields on rebuild. The photographed candidate workflow automatically selects the latest reviewed edition when no input is given.
-
-## Υποχρεωτική εικόνα και δύο επίπεδα ανάγνωσης — 13/10/2026
-
-Κάθε άρθρο, μαζί με τα αθλητικά explainers, απαιτεί πραγματική σχετική φωτογραφία με επαληθευμένα δικαιώματα. Δεν αρκούν τρεις φωτογραφίες συνολικά. Αν δεν υπάρχει χρησιμοποιήσιμη φωτογραφία του γεγονότος, ερευνούμε σχετική ελεύθερη φωτογραφία αρχείου με αληθινή ημερομηνία και σαφή λεζάντα. Δεν επινοούμε εικόνες ή άδειες. Το image=null δεν περνά τη νέα δημοσίευση· το item/edition μένει draft και διατηρείται η προηγούμενη καλή έκδοση.
-
-Νεότερη ενεργή πολιτική DEC-004/DEC-005 (15/10/2026): διάβασε [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md). Η αρχική κάρτα δίνει πλήρη factual περίληψη περίπου 30 δευτερολέπτων (στόχος 60–90, μέγιστο 110 λέξεις). Η προαιρετική ανάπτυξη newspaper_analysis προσθέτει τεκμηριωμένη ερμηνεία (συνήθως 80–140, μέγιστο 180 λέξεις), χωρίς ελάχιστο μήκος ή υποχρεωτικό αντίλογο. reader_mode=full μόνο με πρόσθετη ουσία, analysis_sources και reader_value· διαφορετικά reader_mode=source και σύνδεσμος στο πρωτότυπο, με διατήρηση ιστορικού reader. reading_review.version=2 για νέες εκδόσεις. Η ανάλυση και του πρώτου θέματος ανοίγει προαιρετικά. Οι φωτογραφίες και οι αρχικοί χρόνοι διατηρούνται.
-
-Μετά τον έλεγχο ορίζουμε image_review.version=2 και reading_review.version=1, με completed_at. Ο renderer απορρίπτει νέο published περιεχόμενο μετά το αίτημα 13/10 15:40 που δεν έχει και τους δύο ελέγχους, όλες τις αδειοδοτημένες τοπικές φωτογραφίες και αρκετό πραγματικό κείμενο. Οι παλαιότερες εκδόσεις παραμένουν συμβατές. Η καθολική απαίτηση υπερισχύει της παλαιότερης οδηγίας για τρεις εικόνες και της εξαίρεσης image_unavailable_reason.
-
-Διορθώσεις της ίδιας έκδοσης κρατούν URL, published_at και quote/source timestamps. Οι image_revision_at και analysis_revision_at φαίνονται ως ξεχωριστός συντακτικός εμπλουτισμός. Το πλήρες latest snapshot και το sync_portal διατηρούνται, μαζί με τα historical readers, search και bookmarks. Οι εικόνες ελέγχονται με decode/naturalWidth στο κινητό και desktop και με το πραγματικό Pages release. Η παλιότερη συντήρηση εικόνων είχε καταγράψει ενημέρωση prompts. Στην παρούσα εργασία τα πραγματικά automations δεν αλλάζουν.
-
-
-## Ολοκλήρωση δημοσίευσης μέσω της εφαρμογής GitHub — 14/10/2026
-
-Το workflow `image-candidate.yml` παράγει ελεγμένο υποψήφιο και screenshots· δεν δημοσιεύει στο main/Pages. Μην σταματάς στο πράσινο candidate ή στο artifact. Η πρωινή 14/10 έμεινε σε candidate branch ενώ το main διατηρούσε τη 13/10.
-
-Σε περιβάλλον ChatGPT χωρίς GitHub credentials στο shell, η συνδεδεμένη εφαρμογή παραμένει η εξουσιοδοτημένη διαδρομή εγγραφής: `create_blob` (UTF-8 ή base64 για φωτογραφίες), `create_tree` με το φρέσκο base tree, `create_commit` με parent το φρέσκο main και `update_ref` με `force=false` και `expected_sha`. Ένα commit περιλαμβάνει όλα τα ελεγμένα related source/docs/assets και release descriptor. Κάνε το ίδιο για private πηγές και για το Oracle snapshot μετά το sync. Σε αλλαγή head, διάβασε ξανά και διατήρησε τις παράλληλες αλλαγές. Μην υποθέτεις ότι ένα ανώνυμο CLI clone δίνει δικαίωμα push.
-
-Κράτησε την έκδοση υποψήφια μέχρι να ολοκληρωθούν οι πραγματικοί έλεγχοι, η προώθηση και το Pages/hash verification. Αν η προηγούμενη απόπειρα έχει μόνο μη δημοσιευμένα generated αρχεία, ανακατασκεύασέ τα από τα source με τον αληθινό χρόνο της πρώτης δημοσίευσης· μην αλλάζεις timestamps έκδοσης που έχει ήδη δημοσιευτεί. Τα GitHub CI workflows δεν εκκινούν τα εξωτερικά ChatGPT tasks. Οι καθημερινές ώρες παραμένουν 07:30 / 13:30 / 19:30 Europe/Athens.
-
-
-## Ενοποιημένο UI εφημερίδας — 14/10/2026
-
-Το `templates/v2/newspaper-ui.css` είναι το κοινό επίπεδο εμφάνισης για όλες τις νέες ημερήσιες και ανεξάρτητες εκδόσεις, φορτωμένο μετά από base/accessibility CSS και ενταγμένο στα versioned assets και hashes. Οι κάρτες Κύπρου/διεθνών έχουν **3 στήλες από 1100 px**, 2 από 700–1099 px και μία σε μικρότερες οθόνες. Διατηρούν ολόκληρη την περίληψη/ανάλυση, χωρίς line-clamp.
-
-Το πρώτο θέμα τοποθετεί ανάλυση, κουμπί reader, πηγές και ιστορικό στην ίδια στήλη με την περίληψη. Δεν αφήνει μεγάλο κενό επειδή η φωτογραφία είναι ψηλότερη. Σε κινητό η σειρά είναι τίτλος → περίληψη → φωτογραφία → ενέργειες. Η βασική ανάλυση του πρώτου θέματος ανοίγει με native details τόσο στην ημέρα όσο και στην ανεξάρτητη έκδοση. Τα κουμπιά έχουν επαρκή αντίθεση και στα δύο θέματα.
-
-Το «Τι άλλαξε» έχει κάρτες με τίτλο της αναφοράς, διακριτικό τύπου, πραγματικό χρόνο καταχώρισης και publisher-labelled πηγές. Τεχνολογία/καιρός/ημερολόγιο έχουν κοινά πλαίσια, εικονίδια με λεκτικά labels και συνεπή τυπογραφία. Στο ημερολόγιο χωρίζεται μόνο το date/time prefix που υπάρχει ήδη στο editorial paragraph· άγνωστη μορφή παραμένει πλήρες κείμενο. Δεν συμπεραίνονται νέα γεγονότα ή μη δηλωμένοι χρόνοι. Πηγές, χρόνοι και πλήρη quote δεδομένα παραμένουν διαθέσιμα σε native disclosures. Η ΕΚΤ δείχνει ημερομηνία ισχύος και το Euribor fixing, ανά πραγματική διάρκεια.
-
-Η αλλαγή είναι παρουσίαση στον renderer. Δεν μεταβάλλει content JSON, δημοσιευμένα timestamps, εικόνες, ιστορικά URLs, automations ή Wire. Οι αναλυτικοί readers, η αναζήτηση και οι λειτουργίες ανάγνωσης διατηρούνται.
-
-Οι βασικές ενότητες χρησιμοποιούν διακοσμητικά emoji με `aria-hidden=true` δίπλα σε σαφείς λεκτικές ετικέτες. Χρωματικά πλαίσια, ημερολογιακές ετικέτες και διακριτικά τύπου βοηθούν την οπτική σάρωση και στα δύο θέματα. Τα emoji δεν αποτελούν ένδειξη live δεδομένων ή νέα τεκμηρίωση novelty.
-
-
-## Frontend με προτεραιότητα στην ανάγνωση — 14/10/2026
-
-Η παρούσα ενότητα αντικαθιστά την αρχική διάταξη UI της 14/10, χωρίς αλλαγή schema, σύνθεσης ημέρας ή εκδοτικών gates. Ο κοινός `scripts/v2/newspaper_ui.py` οργανώνει την κορυφή/πλοήγηση και τις πηγές των ημερήσιων και νέων ανεξάρτητων εκδόσεων. Το `templates/v2/newspaper-ui.css` παραμένει το κοινό versioned stylesheet. Οι τύποι και οι ημερομηνίες είναι τα ρητά δεδομένα της έκδοσης· η ελληνική ημερομηνία και τα HTML time/datetime δεν χρησιμοποιούν runtime ώρα. Ο προγραμματισμός του slot παραμένει χωριστός από την πραγματική δημοσίευση.
-
-- Συμπαγής masthead και μία toolbar. Σε κινητό/tablet οι θεματικές ενότητες εμφανίζονται σε πλήρες native μενού «Ενότητες», μαζί με tech/καιρό/ημερολόγιο. Εκτύπωση και ο υπάρχων σύνδεσμος Wire είναι στο «Περισσότερα». Escape/κλικ κλείνουν τα μενού με JavaScript· χωρίς JavaScript λειτουργούν ως native details.
-- Η ημερομηνία, ο πραγματικός χρόνος ανανέωσης/δημοσίευσης και τα τρία slots συγκεντρώνονται σε publication bar. Μη δημοσιευμένα slots δηλώνονται ορατά μη διαθέσιμα. Η ημέρα δεν έχει aria-current σε συμμετέχουσα έκδοση· η ανεξάρτητη έχει μόνο τη δική της active. Η πλήρης εξήγηση μερικής ημέρας είναι διαθέσιμη στο footer.
-- Πρώτο θέμα με τίτλο/περίληψη/ενέργειες στην ίδια στήλη και φωτογραφία περίπου στο 1/3 του desktop πλάτους. Σε κινητό η φωτογραφία ακολουθεί την περίληψη.
-Νεότερη ενεργή πολιτική DEC-004/DEC-005 (15/10/2026): διάβασε [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md). Η αρχική κάρτα δίνει πλήρη factual περίληψη περίπου 30 δευτερολέπτων (στόχος 60–90, μέγιστο 110 λέξεις). Η προαιρετική ανάπτυξη newspaper_analysis προσθέτει τεκμηριωμένη ερμηνεία (συνήθως 80–140, μέγιστο 180 λέξεις), χωρίς ελάχιστο μήκος ή υποχρεωτικό αντίλογο. reader_mode=full μόνο με πρόσθετη ουσία, analysis_sources και reader_value· διαφορετικά reader_mode=source και σύνδεσμος στο πρωτότυπο, με διατήρηση ιστορικού reader. reading_review.version=2 για νέες εκδόσεις. Η ανάλυση και του πρώτου θέματος ανοίγει προαιρετικά. Οι φωτογραφίες και οι αρχικοί χρόνοι διατηρούνται.
-- Πηγές, χρόνοι, evidence notes και προηγούμενες αναφορές της ίδιας ιστορίας βρίσκονται σε μία ανάπτυξη «Πηγές και εκδόσεις». Οι αναφορές/URLs και η σειρά της εφημερίδας διατηρούνται. Το «Τι άλλαξε» είναι συμπαγές χρονολόγιο με την ακριβή αρχική εκδοτική περίληψη/χρόνο/τύπο, χωρίς δεύτερη μεγάλη εμφάνιση τίτλου.
-- Η βασική λεζάντα διατηρεί την πραγματική περιγραφή και ημερομηνία αρχείου. Μόνο ρητές φράσεις τεχνικής επεξεργασίας μεταφέρονται από την αρχική όψη στο «Φωτογραφία / δικαιώματα», όπου παραμένουν η πλήρης αρχική λεζάντα, attribution, source/license links, original_url και retrieved_at. Τα JSON και οι εικόνες δεν αλλάζουν. Οι πλήρεις λεζάντες είναι διαθέσιμες και στους readers.
-- Αγορές: έως τρία πλήρη σημεία σε λίστα, με ομαδοποιημένες πηγές ανά σημείο, έως έξι βασικές τιμές και έως τρεις movers. Πρόσημα/βελάκια παραμένουν μαζί με διακριτικό χρώμα ανόδου/πτώσης. Τα εταιρικά ονόματα δεν επαναλαμβάνονται ως πρόσθετοι παράγωγοι τίτλοι. Όλοι οι χρόνοι, οι καταστάσεις και το πλήρες dataset παραμένουν διαθέσιμα. Emoji κυρίως στις θεματικές επικεφαλίδες, SVG/λέξεις στις ενέργειες.
-
-Η `docs/assets/reading.js` διατηρεί themes, bookmarks, progress και font controls και προσθέτει κλείσιμο μενού/πλήρη ανάπτυξη για εκτύπωση με επαναφορά μετά. Δεν απαιτεί διαθέσιμο storage. Το υπάρχον build/release/sync αντιγράφει όλα τα νέα referenced bytes. Δεν άλλαξαν πραγματικά automations, AI backend, scheduler, Wire, private Markdown ή προσωπικά στοιχεία.
-
-
-## Κύρια εφημερίδα και εκδοτική ιεράρχηση — νεότερη οδηγία 14/10/2026
-Η κύρια μορφή είναι https://jodemon9.github.io/oracle-briefing/: ενιαία εφημερίδα ημέρας με μοναδικές ιστορίες και συμμετέχουσες δημοσιευμένες πρωινές/μεσημεριανές/βραδινές εκδόσεις. Αποθηκεύεται ανά ημερομηνία στο δημόσιο docs/daily/YYYY-MM-DD.html και βρίσκεται στο docs/daily/index.html. Το latest.html παραμένει ανεξάρτητο χρονικό στιγμιότυπο. Ο κοινός renderer εμφανίζει ορατή ταυτότητα και σύνδεσμο «Κύρια εφημερίδα» σε κάθε ημερήσια/ανεξάρτητη σελίδα. Δεν δημιουργεί ανύπαρκτες μεσημεριανές/βραδινές εκδόσεις.
-
-Από DEC-005, το πρώτο θέμα και οι δευτερεύουσες κάρτες v2 εμφανίζουν πλήρη σύντομη factual περίληψη και προαιρετική native ανάπτυξη τεκμηριωμένης ανάλυσης. Η σύνοψη 60 δευτερολέπτων αποδίδεται από κοινό helper ως θεματικές κάρτες με διακοσμητικά emoji, διατηρώντας έως έξι ελεγμένα σημεία. Το «Τι άλλαξε» της ανεξάρτητης έκδοσης αποδίδει κάθε υπάρχον εκδοτικό record ξεχωριστά, με ευανάγνωστο sans-serif κείμενο, χωρίς επινοημένο χρόνο. Τα αθλητικά έχουν διακοσμητικά emoji και χρώματα ομάδων, όχι μη αδειοδοτημένα επίσημα logos.
-
-Η ιεράρχηση είναι ρητή: edition.daily.lead_story_id επιλέγει πρώτο θέμα και στον κοινό renderer της ανεξάρτητης έκδοσης, article.daily.priority ταξινομεί με μικρότερη τιμή πρώτα. Αλλαγή αυτών των πεδίων είναι εκδοτική αναδιάταξη, όχι substantive_update ή απόδειξη νέου γεγονότος. Διατηρούνται categories, story_id, URLs, published_at, πηγές, quotes και ολόκληρο το ελεγμένο κείμενο. Στις 14/10, κατόπιν αιτήματος του χρήστη, προτάχθηκαν οι έντεκα αγνοούμενοι και η ασφάλεια ναυσιπλοΐας στη Μαύρη Θάλασσα, μετά η ενεργειακή/γεωπολιτική αναφορά, η κυπριακή οικονομία και το εμπόριο της Κίνας, πριν από ανακοινώσεις, μελλοντικές συμμετοχές και σεμινάρια. Κριτήρια: άμεση ανθρώπινη σημασία, ευρύς αντίκτυπος, ολοκληρωμένα/τεκμηριωμένα γεγονότα πριν από μελλοντικές υποσχέσεις. Η αβεβαιότητα για ευθύνη/παραγωγή παραμένει ρητή. Δεν έγινε νέα έρευνα· χρησιμοποιήθηκε αποκλειστικά η υπάρχουσα ελεγμένη ύλη.
-
-Τα πραγματικά ChatGPT automations δεν άλλαξαν. Δεν αλλάζουν Wire, scheduler, backend, image/reading gates ή ιδιωτικότητα.
-
-## Latest user requirements — DEC-006 / DEC-007 (15 October 2026)
-
-The user's follow-up intentionally supersedes repeated visible image captions/rights disclosures. Keep all photo/rights research and image/license/decode gates, accurate accessible alt text and original image metadata; render photographs without per-article caption or rights panels. Generate one public `photo-credits.html` attribution record, linked once in the newspaper footer and from readers. The three article actions — Ανάλυση, Άρθρο, Πηγές — share one row on mobile and desktop, including when expanded; their native panels open below at full width. Items with no useful analysis have only the two meaningful actions. Do not restore filler merely to create a third button.
-
-Maintain a separate **Επιδοτήσεις & δικαιώματα** section, available from the sections menu. Research primary official Cyprus/EU calls, household benefits and useful enacted rights/tax rules; other reputable official providers may be relevant. Keep a complete reviewed `edition.opportunities` snapshot with stable programme/call IDs, current status, jurisdiction, concise purpose, support, eligibility, actual source/retrieval and verification times, official application form or clearly labelled instructions, next step, opening and application-deadline dates. Follow the optional schema and `scripts/v2/opportunities.py`. Carry still-relevant programmes forward after checking their status; record actual changed terms in `change_note`, not a fresh-news claim for an unchanged listing. The day selects the most recently verified record for each ID across participating editions.
-
-`deadline_type=fixed` requires the official date, with an offset only when a time is published; date-only deadlines must not invent 23:59. Render times in Asia/Nicosia, accounting for daylight saving. `rolling` means an official continuous application route; otherwise use `unknown`, null and an honest explanation. Show budget exhaustion, priority order, preliminary approval and stage-specific deadlines prominently. Distinguish application cutoffs from effective dates, retroactive-benefit dates and implementation deadlines. Open/upcoming calls need a form or official instructions; a webpage listing a form is not evidence that applications remain open. Do not mark expired calls open at verification. Closed calls and legislative proposals stay in a collapsed watchlist, not among active applications. A proposal is not an enacted entitlement. Do not infer the user's age, income, property ownership or eligibility, and never publish personal details. Show the verification time so an archived newspaper is not mistaken for a live eligibility service.
-
-Initial research was separately checked after midnight on 15 October; it does not change the 14 October news/publication/quote times. Verified seeds: Cyprus home energy upgrade call (opens 20 October), EIC Accelerator (4 November full-proposal deadline after GO), Erasmus for Young Entrepreneurs (continuous), the EU cross-border SME VAT option, and the closed 2024 youth entrepreneurship call as a renewal watch. These are different instruments, not equivalent startup grants. Full source links are stored beside each record.
-
-The three existing ChatGPT tasks receive only the relevant editorial, image presentation/action layout and opportunity-tracking changes. Keep task titles, schedules/timezones, enabled states and unrelated instructions unchanged. No new task, scheduler or message destination is introduced.
+Wire collection remains its own existing :15/:45 UTC workflow; provider health older than 90 minutes is stale discovery, never verified reporting. No private Pages, personal messages, additional task or changes to task schedules. Git commits alone never update the actual ChatGPT prompts. Track code/main/Pages and actual task updates separately.

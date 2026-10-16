@@ -1,0 +1,10 @@
+{
+  "7e998be67444b511f5e7f99e446baf3ed6e23df92a7d6c7bfb177691745da853": {
+    "decision": "distinct_stories",
+    "reason": "The morning market-wide report and the company-specific TSMC earnings story have separate scope. Both cite TSMC investor relations. The explicit daily follow-up connects the broader morning context to the later results; the existing TSMC preview/results retain their stable ID."
+  },
+  "2265f7acccab197f5699257d2418450a58edfd5ed4877b4c12d51cb7fe50e8d3": {
+    "decision": "distinct_stories",
+    "reason": "The Champions League roundup covers Inter–Brugge and Viking–Bayern; the Manchester United report covers Atletico–United. They share UEFA’s fixture/results index but cover different matches. Preserve both original story IDs and historical readers."
+  }
+}

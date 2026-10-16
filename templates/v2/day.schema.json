@@ -317,6 +317,34 @@
       "items": {
         "$ref": "#/$defs/opportunity"
       }
+    },
+    "follow_ups": {
+      "type": "array",
+      "maxItems": 50,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "from_story_id",
+          "to_story_id",
+          "reviewed_in"
+        ],
+        "properties": {
+          "from_story_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "to_story_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reviewed_in": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}-(morning|midday|evening)$"
+          }
+        }
+      }
     }
   },
   "$defs": {
