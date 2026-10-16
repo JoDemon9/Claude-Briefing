@@ -14,7 +14,7 @@ Future tasks rank a bounded private shortlist from two independent broad world-n
 
 All three recurring tasks had become paused after failures. A failed candidate blocks that release and preserves the previous good site; it does not authorise disabling future scheduled runs. Update the existing prompts and restore the same three schedules after the repaired implementation is verified. Keep the historical fourth task disabled. No catch-up automation, run-now, replacement generator or additional delivery is introduced.
 
-The portal main had overwritten the approved SVG/JPG logo support, atomic receipt/retry handling, shared Wire lock, compact instructions and corresponding assertions with older versions. Restore those reviewed implementation files, retain all subsequent Wire updates, and sync the complete repaired day only after exact source Pages verification. A generation task must never export cached infrastructure/instructions onto a newer main.
+The portal implementation was still on its review branch: SVG/JPG logo support, atomic receipt/retry handling, the shared Wire lock, compact instructions and corresponding assertions had not reached main. Integrate those reviewed files with all subsequent Wire updates, and sync the complete repaired day only after exact source Pages verification. A generation task must never export cached infrastructure/instructions onto a newer main.
 
 ## Verification and release state
 

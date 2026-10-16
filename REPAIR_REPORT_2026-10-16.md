@@ -1,6 +1,6 @@
 # 16 October production and editorial repair
 
-The failed evening is preserved in PR #11 and its original commit. This repair integrates that research with the approved source implementation, improves the morning/noon writing and ranking, and restores portal safeguards overwritten by the last content sync.
+The failed evening is preserved in PR #11 and its original commit. This repair integrates that research with the approved source implementation, improves the morning/noon writing and ranking, and deploys the reviewed portal safeguards that were still confined to its review branch.
 
 ## Verified cause
 
