@@ -144,6 +144,14 @@
       "world-tsmc": "articles/2026-10-15-morning/world-tsmc.html",
       "sport-real": "articles/2026-10-15-morning/sport-real.html",
       "sport-omonoia": "articles/2026-10-15-morning/sport-omonoia.html"
+    },
+    "2026-10-16-morning": {
+      "lead": "articles/2026-10-16-morning/lead.html",
+      "world-asia": "articles/2026-10-16-morning/world-asia.html",
+      "world-fed": "articles/2026-10-16-morning/world-fed.html",
+      "world-ukraine": "articles/2026-10-16-morning/world-ukraine.html",
+      "world-ebola": "articles/2026-10-16-morning/world-ebola.html",
+      "cyprus-vat": "articles/2026-10-16-morning/cyprus-vat.html"
     }
   },
   "reader.html": {
@@ -181,5 +189,8 @@
   },
   "readers/2026-10-15.html": {
     "edition_id": "2026-10-15-morning"
+  },
+  "readers/2026-10-16.html": {
+    "edition_id": "2026-10-16-morning"
   }
 }
