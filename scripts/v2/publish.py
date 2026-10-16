@@ -15,7 +15,7 @@ import shutil
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[2]
-STAGES = ('generated','validated','built','public_published','public_verified',
+STAGES = ('generated','validated','built','checked','public_published','public_verified',
           'portal_synced','portal_published','portal_verified')
 REPOS = {'public':'JoDemon9/Claude-Briefing','portal':'JoDemon9/oracle-briefing'}
 
@@ -33,8 +33,10 @@ def timestamp():
 def source_identity(root):
     """Inputs include editorial assets and maintained code, never private notes or receipts."""
     files = []
-    for name in ('content','templates/v2','scripts/v2','docs/assets'):
+    for name in ('content','templates/v2','scripts/v2','docs/assets','tests','.github/workflows'):
         files += [p for p in (root/name).rglob('*') if p.is_file() and '__pycache__' not in p.parts]
+    if (root/'BRIEFING_RUNTIME.md').is_file():files.append(root/'BRIEFING_RUNTIME.md')
+    if (root/'requirements-v2.txt').is_file():files.append(root/'requirements-v2.txt')
     return hashlib.sha256(json.dumps({p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
                                      for p in sorted(files)},sort_keys=True).encode()).hexdigest()
 
@@ -133,7 +135,7 @@ def validate(root):
         builder.ROOT=previous
 
 
-def run(root=ROOT, portal=None, publish=False, handlers=None):
+def run(root=ROOT, portal=None, publish=False, handlers=None, checks_receipt=None):
     root=Path(root).resolve();portal=Path(portal).resolve() if portal else None
     if portal is None or portal==root:raise ValueError('A distinct portal checkout is required')
     atomic=module('atomic');release=module('release')
@@ -184,6 +186,15 @@ def run(root=ROOT, portal=None, publish=False, handlers=None):
         if not handlers and release.manifest(root)['release_id']!=state.get('release_id'):
             for stage in STAGES[2:]:state['stages'].pop(stage,None)
             persist();call('built',build)
+        def checked():
+            if checks_receipt:
+                proof=json.loads(Path(checks_receipt).read_text())
+                required=module('checks').classify(root)['profile']
+                if proof.get('status')!='passed' or proof.get('release_id')!=state['release_id'] or (required=='full' and proof.get('selection',{}).get('profile')!='full'):
+                    raise ValueError('Candidate checks receipt does not cover this release/profile')
+                return {'status':'passed','release_id':proof['release_id'],'report':str(checks_receipt)}
+            return module('checks').run(root,prebuilt=True)
+        call('checked',checked)
         if not publish:
             state['mode']='prepared';persist();return state
         state['mode']='publication';persist()
@@ -208,7 +219,7 @@ def run(root=ROOT, portal=None, publish=False, handlers=None):
         call('portal_synced',sync)
         central=lambda:module('central',portal/'scripts/daily_release.py')
         if not handlers and central().manifest(portal)['release_id']!=state.get('portal_release_id'):
-            for stage in STAGES[5:]:state['stages'].pop(stage,None)
+            for stage in STAGES[STAGES.index('portal_synced'):]:state['stages'].pop(stage,None)
             persist();call('portal_synced',sync)
         def portal_publish():
             receipt=central().manifest(portal)
@@ -233,7 +244,7 @@ def status(root, date=None):
     for slot in ('morning','midday','evening'):
         edition=state['editions'].get(f'{date}-{slot}')
         result['slots'][slot]={'generated':bool(edition),'content_status':edition.get('content_status') if edition else 'missing',
-                               **{stage:state['stages'].get(stage,{}).get('status','pending') if edition and matches and (stage in ('validated','built') or edition.get('content_status')=='published') else ('pending' if edition else 'missing')
+                               **{stage:state['stages'].get(stage,{}).get('status','pending') if edition and matches and (stage in ('validated','built','checked') or edition.get('content_status')=='published') else ('pending' if edition else 'missing')
                                   for stage in STAGES[1:]}}
     return result
 
@@ -243,11 +254,12 @@ if __name__=='__main__':
     parser.add_argument('--root',type=Path,default=ROOT)
     parser.add_argument('--portal-root',type=Path)
     parser.add_argument('--publish',action='store_true')
+    parser.add_argument('--checks-receipt',type=Path,help='Exact release/profile receipt from an actually completed local/CI candidate check')
     parser.add_argument('--status',action='store_true')
     parser.add_argument('--date')
     args=parser.parse_args()
     from contextlib import redirect_stdout
     import sys
     with redirect_stdout(sys.stderr):
-        result=status(args.root,args.date) if args.status else run(args.root,args.portal_root,args.publish)
+        result=status(args.root,args.date) if args.status else run(args.root,args.portal_root,args.publish,checks_receipt=args.checks_receipt)
     print(json.dumps(result,ensure_ascii=False,indent=2))

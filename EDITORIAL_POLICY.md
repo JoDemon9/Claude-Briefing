@@ -1,5 +1,7 @@
 # Current editorial policy — DEC-004 / DEC-005
 
+DEC-014 consolidates the active routine contract in [BRIEFING_RUNTIME.md](BRIEFING_RUNTIME.md). Read it once rather than rereading this historical policy accumulation every slot. It preserves the editorial/image/privacy/UI rules below while replacing blanket startup reads, hidden favourite-sports research, per-slot rechecking of unchanged long-lived programmes and development/debugging during production. Due-check rules preserve original verification times and block overdue active terms on new publications; caches/HTTP hashes do not establish editorial verification.
+
 Effective from the user's request on 15 October 2026 (Asia/Nicosia). This policy supersedes the earlier mandatory 110–220-word preview, 450-word reader floor, counterargument checklist and always-expanded lead for reading review v2. Licensed images, honest sources, privacy, historical URLs and original publication/quote/source times remain required.
 
 ## Whole-day overview

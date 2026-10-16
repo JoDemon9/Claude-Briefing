@@ -39,3 +39,9 @@ All six backend recommendations are implemented on these same review branches. S
 Local checks so far: the 104-test complete newspaper suite passed, the final 14-test backend suite passed after retry/Git changes, and an additional portal-promotion rollback case passed. All 11 portal tests and 29 central browser cases passed. All 112 article files and all five Wire/cache/health files are byte-identical to the preceding branch. The only edition-data additions are exact existing weather-validity metadata with next-slot editorial recheck deadlines.
 
 Final backend regression: all 388 newspaper browser checks pass, as do the 29 central browser cases. A no-change incremental rebuild renders zero edition/readers and preserves the exact manifest. Source/central manifests match their files; current per-slot status truthfully remains prepared with both sites pending publication. These are local results; no new main push, CI completion or live Pages verification is claimed.
+
+## DEC-014 approved efficiency implementation
+
+The active instructions and three internal task prompts are consolidated. Prompt readback proves 79.1–79.3% fewer characters, with all settings and the historical fourth task unchanged. Private research/due-check/checkpoint/scaffold/collection/usage helpers, explicit licensed photo reuse and a blocking change-aware check stage are implemented on the review branch. Prior instructions are archived; the latest evening and Wire publication is integrated.
+
+See EFFICIENCY_REPORT_2026-10-15.md for measured payload proxies, scope and actual checks. The full local candidate profile passed 123 source unit tests and all browser profiles; portal units/browser checks and a separate routine-content replay pass. Real scheduled usage savings remain unmeasured and the live pilot awaits main deployment. No new scheduler/model/paid API/private export or direct main publication is introduced.

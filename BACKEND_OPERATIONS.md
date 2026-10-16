@@ -11,7 +11,7 @@ python scripts/v2/publish.py --portal-root ../oracle-briefing
 python scripts/v2/publish.py --status --date 2026-10-16
 ```
 
-The coordinator records generated → validated → built → public_published → public_verified → portal_synced → portal_published → portal_verified in `.work/publication-state.json`. The status command reports all three slots, including missing/draft content, the exact failed stage, release IDs and whether current inputs still match the record. `published` means the Git push was accepted; `verified` means exact live Pages bytes passed. No generation or deployment time is inferred from a scheduled slot.
+The coordinator records generated → validated → built → checked → public_published → public_verified → portal_synced → portal_published → portal_verified in `.work/publication-state.json`. The status command reports all three slots, including missing/draft content, the exact failed stage, release IDs and whether current inputs still match the record. `published` means the Git push was accepted; `verified` means exact live Pages bytes passed. No generation or deployment time is inferred from a scheduled slot.
 
 For an already authorized daily publication on reviewed main:
 
@@ -19,7 +19,7 @@ For an already authorized daily publication on reviewed main:
 python scripts/v2/publish.py --portal-root ../oracle-briefing --publish
 ```
 
-Retry the same command after resolving the recorded failure. Completed preparation/publication steps are retained for the same inputs; each retry rechecks live state before advancing the portal. Changed inputs archive the prior journal and start a new run. Changed/missing local outputs invalidate build/sync completion. A killed process releases the OS lock; a `running` step is retried. Never delete the journal merely to hide a failed step.
+Retry the same command after resolving the recorded failure. Completed preparation/check/publication steps are retained for the same inputs; each retry rechecks live state before advancing the portal. Changed inputs archive the prior journal and start a new run. Changed/missing local outputs invalidate build/sync completion. A killed process releases the OS lock; a `running` step is retried. Never delete the journal merely to hide a failed step.
 
 The Git adapter accepts only the configured repositories and main, rejects unrelated staged/untracked work, and publishes allowlisted public files through a temporary worktree based on fresh remote main. Concurrent unrelated Wire commits survive. Incoming publisher-code drift or conflicting editorial files stop publication. No force push, automatic PR merge or private export occurs. A successful push does not reset the operator's checkout; the private Git baseline permits retries and subsequent publications without discarding local work. Use a fresh checkout when updating publisher code.
 
@@ -68,3 +68,19 @@ python scripts/v2/release.py --verify-live --full
 ```
 
 The existing deployment-verification workflow exposes the same manual full_archive input. Central verification checks its small complete current snapshot with the same bounded network retries. Wire files stay outside the daily release receipt.
+
+## Efficient editorial production — DEC-014
+
+BRIEFING_RUNTIME.md is the compact active contract. Routine tasks read that and applicable AGENTS files once, then prepare a private research.py packet instead of rereading full manuals/schemas/renderer/earlier bodies. Public research-index.json/photo-library.json contain only published context and approved image provenance. Private editorial memory, drafts, full collection evidence, packets and metrics never enter public docs or CI artifacts.
+
+research.py --scaffold <packet> --title <Greek title> --articles <new article paths> mechanically creates a new draft from stable data. It copies all dated quote records and unchanged opportunities, clears old reviews/overviews/weather/movers/reader aliases, and never invents news or replaces an existing edition. After research, --remember D-E --at <actual time> --private-root <checkout> saves a checkpoint; --notes <JSON> accepts explicit unresolved questions/next_check_at by stable story ID. Resume is offered only when the source hash still matches and evidence predates the checkpoint.
+
+collect.py caches bounded public-source fetches, normalises changed text and proposes conservative parsed quote snapshots. Unsupported providers, changed/new/failed documents and official close/fixing ambiguities require review. HTTP 304 preserves original retrieval provenance; neither collection nor unchanged hashes advances verified_at. --apply-report <collection.json> --edition D-E --approve <instruments> --at <actual review> copies only explicitly reviewed, non-older, matching-unit candidates into the matching draft and validates its schema. No article text or catalyst is generated.
+
+photo_library.py suggests already licensed/decoded assets by exact story identity. --reuse requires explicit factual caption/alt, relevance and original date/archive review; checksums bind source and target and original rights/retrieval metadata stays unchanged. prepare_images.py validates cached/reused bytes and only paces actual network downloads. Logos are excluded.
+
+A new blocking checked stage runs checks.py or consumes an exact release/profile receipt from an actually completed local/CI check. Routine content runs source/image/reading/selection/opportunity/follow-up gates and affected edition/day/readers at two viewports with JS on/off. Code/schema/template/tests/workflow/runtime policy changes require the full regression profile; it cannot be downgraded. Detailed logs stay in .work/check-logs; ChatGPT reads check-report.json. QA inputs are part of release/journal fingerprints, so changing a test does not reuse an old pass. Gate failures preserve the last good publication and are handled as maintenance, not a development loop inside an edition.
+
+The existing source CI selects the same profile. Central CI always runs units/current-snapshot checks and adds the historical portal/Wire browser suite for code changes. No new scheduler is added. Wire timestamps/health are checked and RSS stays discovery. The full archive/live hash audit remains separately available.
+
+usage.py writes private work/gate metrics and optional explicitly observed Pro-window percentages. It never estimates account quota from bytes/calls/time. research.py --replay <3–5 saved IDs> measures input/due-check proxies, not fresh editorial quality or real Pro savings. Historical maintenance can make earlier evidence unavailable at a replay cutoff; the packet withholds it rather than guessing the old version. The real 3–5-edition pilot starts when the helpers are on maintained main; compact prompt policy can apply meanwhile using supported main fields.

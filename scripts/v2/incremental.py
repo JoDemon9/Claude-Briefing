@@ -17,6 +17,7 @@ def fingerprint(value):
 def inputs(root, scripts):
     common = {'templates':hashes(root/'templates/v2'), 'scripts':hashes(scripts),
               'assets':hashes(root/'docs/assets')}
+    common['runtime_policy']=(root/'BRIEFING_RUNTIME.md').read_text() if (root/'BRIEFING_RUNTIME.md').exists() else None
     for name in ('legacy-editions.json','day-story-aliases.json','story-identity-reviews.json'):
         path = root/'content'/name
         common[name] = path.read_text() if path.exists() else None

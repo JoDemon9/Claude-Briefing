@@ -25,7 +25,9 @@ def capabilities(root):
             'edition_fields': sorted(schema['properties']),
             'article_fields': sorted(schema['$defs']['article']['properties']),
             'features': ['sports_interest', 'selection_review', 'daily.follow_ups', 'story_identity',
-                         'story_registry', 'freshness', 'resumable_publication'],
+                         'story_registry', 'freshness', 'resumable_publication', 'research_packets', 'photo_reuse', 'change_aware_checks'],
+            'editorial_protocol':'oracle-editorial/1',
+            'runtime_policy_sha256':digest((root/'BRIEFING_RUNTIME.md').read_bytes()) if (root/'BRIEFING_RUNTIME.md').exists() else None,
             'required_from_local_date': POLICY_START,
             'reading_review_version': 2, 'image_review_version': 2,
             'schedules': 'Existing ChatGPT tasks; this contract creates no schedule.'}

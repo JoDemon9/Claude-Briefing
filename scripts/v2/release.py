@@ -60,6 +60,11 @@ def manifest(root=ROOT):
     source_paths += sorted((root/'templates/v2').rglob('*'))
     source_paths += sorted((root/'scripts/v2').glob('*.py'))
     source_paths += sorted((root/'content').glob('*.json'))
+    source_paths += [root/'BRIEFING_RUNTIME.md']
+    source_paths += sorted((root/'tests').rglob('*.py'))
+    source_paths += sorted((root/'tests/fixtures').rglob('*.json'))
+    source_paths += sorted((root/'.github/workflows').glob('*.yml'))
+    source_paths += [root/'requirements-v2.txt']
     sources = {p.relative_to(root).as_posix(): digest(p) for p in source_paths if p.is_file()}
     identity = hashlib.sha256(json.dumps({'sources': sources, 'files': files}, sort_keys=True).encode()).hexdigest()
     return {'schema_version': 1, 'release_id': identity, 'edition_ids': [r['id'] for r in records],

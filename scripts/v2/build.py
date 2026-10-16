@@ -106,6 +106,7 @@ def validate(e, articles):
     schema = read(ROOT/'templates/v2/content.schema.json')
     Draft202012Validator(schema, format_checker=FormatChecker()).validate(e)
     load_module('opportunities').validate(e.get('opportunities',[]))
+    load_module('research').validate_opportunity_reviews(ROOT,e)
     load_module('backend').check_contract(ROOT,e,articles)
     if e['id'] != f'{e["date"]}-{e["type"]}':
         raise ValueError('Edition ID/date/type mismatch')
@@ -163,6 +164,14 @@ def validate(e, articles):
                 raise ValueError('Reviewed images must be local editorial assets')
             if not (ROOT/'docs'/path).is_file():
                 raise ValueError('Image asset missing; run prepare_images.py: '+im['url'])
+            if im.get('reuse_review'):
+                library=load_module('photo_library');reuse=im['reuse_review']
+                source=library.asset(ROOT,reuse['source_asset'])
+                if not reuse.get('relevance_and_archive_date_checked') or library.sha(source)!=reuse['sha256'] or library.sha(ROOT/'docs'/path)!=reuse['sha256']:
+                    raise ValueError('Reused photograph no longer matches its reviewed source')
+                reviewed=load_module('backend').instant(reuse['reviewed_at'])
+                if e.get('editorial_completed_at') and reviewed>load_module('backend').instant(e['editorial_completed_at']):
+                    raise ValueError('Reuse review cannot follow edition completion')
             from PIL import Image
             with Image.open(ROOT/'docs'/path) as decoded:
                 decoded.load()
@@ -353,6 +362,8 @@ def _render(root=ROOT, affected=None):
     write(ROOT/'docs/data/edition-contracts.json',json.dumps({e['id']:{'contract':e['producer_contract'],'source_sha256':backend.edition_fingerprint(e,aa)} for e,aa in bundles if e.get('producer_contract')},ensure_ascii=False,indent=2)+'\n')
     write(ROOT/'docs/data/story-registry.json',json.dumps(identity,ensure_ascii=False,indent=2)+'\n')
     write(ROOT/'docs/data/freshness.json',json.dumps({'schema_version':1,'editions':[backend.freshness(e,aa) for e,aa in bundles]},ensure_ascii=False,indent=2)+'\n')
+    write(ROOT/'docs/data/research-index.json',json.dumps(load_module('research').index(ROOT),ensure_ascii=False,indent=2)+'\n')
+    write(ROOT/'docs/data/photo-library.json',json.dumps(load_module('photo_library').catalog(ROOT),ensure_ascii=False,indent=2)+'\n')
     search = []
     for e, aa in bundles:
         search.extend({'id':a['story_id'],'edition_id':e['id'],'date':e['date'],'headline':a['headline'],'summary':a['summary'],'body':' '.join(p for section in a['sections'] for p in section['paragraphs']),'url':article_url(e,a)} for a in aa)
@@ -462,6 +473,8 @@ def build(root=ROOT, incremental=False):
             for name in ['content', 'templates', 'docs']:
                 if (actual/name).exists():
                     shutil.copytree(actual/name, candidate/name)
+            if (actual/'BRIEFING_RUNTIME.md').is_file():
+                shutil.copyfile(actual/'BRIEFING_RUNTIME.md',candidate/'BRIEFING_RUNTIME.md')
             _render(candidate,affected)
             if cache.inputs(actual,Path(__file__).parent) != input_state:
                 raise ValueError('Publication inputs changed during build; retry from validation')

@@ -226,7 +226,8 @@ class BackendTests(unittest.TestCase):
             path=root/'content/articles/2026-10-15-midday/world-tsmc.json'
             article=json.loads(path.read_text());article['evidence_note']+=' Verified editorial note.';path.write_text(json.dumps(article,ensure_ascii=False))
             result=build.build(root,incremental=True)
-            self.assertEqual(set(result['rendered_editions']),{'2026-10-15-morning','2026-10-15-midday'})
+            expected={json.loads(p.read_text())['id'] for p in (root/'content/editions').glob('2026-10-15-*.json')}
+            self.assertEqual(set(result['rendered_editions']),expected)
             incremental=load('incremental');expected=incremental.hashes(root/'docs')
             build.build(root)
             self.assertEqual(expected,incremental.hashes(root/'docs'))

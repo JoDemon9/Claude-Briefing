@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "protocol": "oracle-editorial/1",
+  "opportunities": {
+    "standard_hours": 24,
+    "legal_right_hours": 168,
+    "closed_hours": 168,
+    "near_event_hours": 48,
+    "urgent_hours": 4,
+    "budget_sensitive_ids": ["cy-home-energy-2026"]
+  },
+  "network": {"workers": 4, "timeout_seconds": 15, "attempts": 2, "max_bytes": 8000000},
+  "notes": "Due checks are editorial deadlines, not new evidence. HTTP/content hashes never advance verified_at. RSS is discovery only."
+}

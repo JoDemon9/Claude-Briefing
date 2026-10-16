@@ -211,6 +211,33 @@
               "type": "string",
               "format": "uri",
               "pattern": "^https://"
+            },
+            "reuse_review": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "source_asset",
+                "sha256",
+                "reviewed_at",
+                "relevance_and_archive_date_checked"
+              ],
+              "properties": {
+                "source_asset": {
+                  "type": "string",
+                  "pattern": "^assets/editorial/"
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                },
+                "reviewed_at": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "relevance_and_archive_date_checked": {
+                  "const": true
+                }
+              }
             }
           }
         },

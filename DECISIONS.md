@@ -6,6 +6,7 @@ This is the canonical record of user needs that future changes must respect. Rea
 
 | ID | User need | Current status | Record |
 | --- | --- | --- | --- |
+| DEC-014 | Reduce Pro usage and improve editorial quality through compact inputs, reuse and automated routine work. | Implemented/replay under review; publication and task state in release notes. | [Efficient editorial production](decisions/DEC-014-efficient-editorial-production.md) |
 | DEC-013 | Reliable resumable publishing, status, versioned producers, identity, freshness and incremental work. | Implemented on review branch; publication pending. | [Backend reliability](decisions/DEC-013-backend-publication-reliability.md) |
 | DEC-012 | Compact mobile header, clear later developments, photo-first lead and no reading labels. | Locally validated on review branch; prompts updated; publication pending. | [Reading UI and follow-ups](decisions/DEC-012-reading-ui-and-followups.md) |
 | DEC-011 | Authentic small sports logos replace emojis. | Implemented; publication pending. | [Sports logos](decisions/DEC-011-real-sports-logos.md) |
