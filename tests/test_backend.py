@@ -202,6 +202,35 @@ class BackendTests(unittest.TestCase):
             self.assertEqual((root/'docs/index.html').read_bytes(),original)
             self.assertFalse((root/'.work/build-cache.json').exists())
 
+    def test_build_stages_outside_synced_checkout_on_same_filesystem(self):
+        with tempfile.TemporaryDirectory() as directory:
+            workspace=Path(directory)/'synced-workspace'
+            root=workspace/'checkout';root.mkdir(parents=True);self.root_copy(root)
+            render=build._render
+            def isolated(candidate,*args,**kwargs):
+                self.assertFalse(candidate.is_relative_to(workspace),
+                                 'Background sync must not recreate build staging files')
+                self.assertEqual(candidate.stat().st_dev,root.stat().st_dev,
+                                 'Promotion must remain an atomic same-filesystem rename')
+                return render(candidate,*args,**kwargs)
+            with mock.patch.object(build,'_render',side_effect=isolated):
+                build.build(root)
+            self.assertTrue((root/'docs/data/day-latest.json').is_file())
+            self.assertEqual(list(workspace.iterdir()),[root])
+
+    def test_failed_build_promotion_restores_previous_docs(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)/'checkout';root.mkdir();self.root_copy(root)
+            original=(root/'docs/index.html').read_bytes();replace=build.os.replace
+            def promote(source,target):
+                if Path(source).name=='docs' and Path(source).parent.name=='candidate':
+                    raise OSError('promotion failed')
+                return replace(source,target)
+            with mock.patch.object(build.os,'replace',side_effect=promote):
+                with self.assertRaisesRegex(OSError,'promotion failed'):build.build(root)
+            self.assertEqual((root/'docs/index.html').read_bytes(),original)
+            self.assertFalse((root/'.work/build-cache.json').exists())
+
     def test_failed_portal_promotion_restores_previous_snapshot(self):
         with tempfile.TemporaryDirectory() as directory:
             portal=Path(directory)/'portal';(portal/'docs').mkdir(parents=True)
@@ -214,6 +243,21 @@ class BackendTests(unittest.TestCase):
             with mock.patch.object(sync,'_sync',side_effect=candidate),mock.patch.object(sync.os,'replace',side_effect=promote):
                 with self.assertRaises(OSError):sync.sync(ROOT,portal)
             self.assertEqual((portal/'docs/index.html').read_text(),'previous good snapshot')
+
+    def test_portal_stages_outside_synced_checkout_on_same_filesystem(self):
+        with tempfile.TemporaryDirectory() as directory:
+            workspace=Path(directory)/'synced-workspace'
+            portal=workspace/'portal';(portal/'docs').mkdir(parents=True)
+            (portal/'docs/index.html').write_text('previous snapshot')
+            (portal/'docs/wire.json').write_text('independent Wire')
+            def candidate(public,staged):
+                self.assertFalse(staged.is_relative_to(workspace))
+                self.assertEqual(staged.stat().st_dev,portal.stat().st_dev)
+                (staged/'docs/index.html').write_text('complete new snapshot')
+            with mock.patch.object(sync,'_sync',side_effect=candidate):sync.sync(ROOT,portal)
+            self.assertEqual((portal/'docs/index.html').read_text(),'complete new snapshot')
+            self.assertEqual((portal/'docs/wire.json').read_text(),'independent Wire')
+            self.assertEqual(list(workspace.iterdir()),[portal])
 
     def test_incremental_matches_full_build_and_repairs_modified_outputs(self):
         with tempfile.TemporaryDirectory() as directory:

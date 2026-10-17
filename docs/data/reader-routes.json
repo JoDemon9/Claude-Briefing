@@ -167,6 +167,14 @@
       "world-ukraine": "articles/2026-10-16-morning/world-ukraine.html",
       "world-ebola": "articles/2026-10-16-morning/world-ebola.html",
       "cyprus-vat": "articles/2026-10-16-morning/cyprus-vat.html"
+    },
+    "2026-10-17-morning": {
+      "lead": "articles/2026-10-17-morning/lead.html",
+      "world-westbank": "articles/2026-10-17-morning/world-westbank.html",
+      "world-kenya": "articles/2026-10-17-morning/world-kenya.html",
+      "world-china": "articles/2026-10-17-morning/world-china.html",
+      "world-brazil": "articles/2026-10-17-morning/world-brazil.html",
+      "cyprus-larnaca": "articles/2026-10-17-morning/cyprus-larnaca.html"
     }
   },
   "reader.html": {
@@ -213,5 +221,8 @@
   },
   "readers/2026-10-16.html": {
     "edition_id": "2026-10-16-morning"
+  },
+  "readers/2026-10-17.html": {
+    "edition_id": "2026-10-17-morning"
   }
 }

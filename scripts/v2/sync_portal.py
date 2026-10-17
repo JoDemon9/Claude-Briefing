@@ -68,7 +68,12 @@ def sync(public_root, portal_root):
     atomic_spec=importlib.util.spec_from_file_location('sync_atomic',Path(__file__).with_name('atomic.py'))
     atomic=importlib.util.module_from_spec(atomic_spec);atomic_spec.loader.exec_module(atomic)
     with atomic.lock(portal_root/'.work/publication.lock'):
-        with tempfile.TemporaryDirectory(prefix='oracle-sync-',dir=portal_root.parent) as directory:
+        # Avoid synchronisers recreating staged files during promotion/cleanup.
+        # Keep the sibling fallback when system temp is on another filesystem.
+        staging_parent=Path(tempfile.gettempdir()).resolve()
+        if staging_parent.stat().st_dev != portal_root.stat().st_dev:
+            staging_parent=portal_root.parent
+        with tempfile.TemporaryDirectory(prefix='oracle-sync-',dir=staging_parent) as directory:
             candidate=Path(directory)/'candidate';candidate.mkdir()
             for name in ('docs','scripts'):
                 if (portal_root/name).exists():shutil.copytree(portal_root/name,candidate/name)

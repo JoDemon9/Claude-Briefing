@@ -106,6 +106,13 @@
       "type": "morning",
       "published_at": "2026-10-16T10:24:50+03:00",
       "url": "morning/2026-10-16.html"
+    },
+    {
+      "id": "2026-10-17-morning",
+      "date": "2026-10-17",
+      "type": "morning",
+      "published_at": "2026-10-17T08:55:01+03:00",
+      "url": "morning/2026-10-17.html"
     }
   ],
   "stories": [
@@ -3768,6 +3775,224 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-16-morning/cyprus-vat.webp"
+    },
+    {
+      "story_id": "us-graham-russia-sanctions-waiver-october-16-2026",
+      "identity": "us-graham-russia-sanctions-waiver-october-16-2026",
+      "edition_id": "2026-10-17-morning",
+      "date": "2026-10-17",
+      "slot": "morning",
+      "published_at": "2026-10-17T08:55:01+03:00",
+      "available_at": "2026-10-17T08:55:01+03:00",
+      "headline": "Ο Trump αναστέλλει νέες κυρώσεις και δασμούς κατά της Ρωσίας",
+      "finding": "Ο Donald Trump υπέγραψε στις 16 Οκτωβρίου διάταγμα που απαλλάσσει από την εφαρμογή νέων κυρώσεων και δασμών του νόμου Graham, επικαλούμενος το εθνικό συμφέρον των ΗΠΑ. Ο νόμος είχε υπογραφεί τον Σεπτέμβριο και κρίσιμες προβλέψεις του θα ενεργοποιούνταν στις 18 Οκτωβρίου. Το ίδιο το διάταγμα διευκρινίζει ότι δεν επηρεάζονται κυρώσεις από προϋπάρχοντα εκτελεστικά διατάγματα. Η κίνηση προκάλεσε αντιδράσεις στο Κογκρέσο, καθώς προηγείται και η συμφωνία αγοράς ρωσικού ντίζελ.",
+      "section": "world",
+      "priority": 0,
+      "article_path": "articles/2026-10-17-morning/lead.json",
+      "reader_url": "articles/2026-10-17-morning/lead.html",
+      "sources": [
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
+          "publisher": "Λευκός Οίκος · εκτελεστικό διάταγμα",
+          "reporting_group": "Λευκός Οίκος · εκτελεστικό διάταγμα",
+          "published_at": "2026-10-16",
+          "retrieved_at": "2026-10-17T04:31:15.218583+00:00",
+          "kind": "primary"
+        },
+        {
+          "url": "https://apnews.com/article/russia-sanctions-trump-ukraine-e50c561ab805883bb4e484c092d8fadd",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": null,
+          "retrieved_at": "2026-10-17T04:30:19.726868+00:00",
+          "kind": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/cxr5yvzv7rp0o",
+          "publisher": "BBC News",
+          "reporting_group": "BBC News",
+          "published_at": "2026-10-17T02:48:36.874Z",
+          "retrieved_at": "2026-10-17T04:30:19.727262+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-17-morning/lead.webp"
+    },
+    {
+      "story_id": "west-bank-olive-harvest-attacks-october-16-2026",
+      "identity": "west-bank-olive-harvest-attacks-october-16-2026",
+      "edition_id": "2026-10-17-morning",
+      "date": "2026-10-17",
+      "slot": "morning",
+      "published_at": "2026-10-17T08:55:01+03:00",
+      "available_at": "2026-10-17T08:55:01+03:00",
+      "headline": "Δυτική Όχθη: επιθέσεις σε ελαιοσυλλέκτες και τραυματισμός φωτορεπόρτερ",
+      "finding": "Έποικοι επιτέθηκαν στις 16 Οκτωβρίου σε Παλαιστινίους κατά την ελαιοσυγκομιδή στην κατεχόμενη Δυτική Όχθη, καίγοντας οχήματα και δένδρα. Ομάδα του BBC ήταν παρούσα κοντά στο Abu Falah, ενώ το AP καταγράφει αναφορές επιθέσεων σε τουλάχιστον οκτώ χωριά. Τραυματίστηκαν κάτοικοι και η φωτορεπόρτερ της Washington Post Heidi Levine. Ο ισραηλινός στρατός αναγνώρισε τον τραυματισμό δημοσιογράφου και ανακοίνωσε εξέταση των περιστατικών. Η βία διακόπτει την πρόσβαση οικογενειών στη σοδειά από την οποία εξαρτάται το εισόδημά τους.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-10-17-morning/world-westbank.json",
+      "reader_url": "articles/2026-10-17-morning/world-westbank.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/c65ynk7212vqo",
+          "publisher": "BBC · επιτόπιο ρεπορτάζ",
+          "reporting_group": "BBC · επιτόπιο ρεπορτάζ",
+          "published_at": "2026-10-16T14:31:04.326Z",
+          "retrieved_at": "2026-10-17T04:30:19.731968+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://apnews.com/article/israel-palestinians-settler-violence-west-bank-078194df041b835ec95cad9c3d3ac060",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": null,
+          "retrieved_at": "2026-10-17T04:30:19.730563+00:00",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-17-morning/world-westbank.webp"
+    },
+    {
+      "story_id": "kenya-ebola-third-confirmed-case-october-16-2026",
+      "identity": "kenya-ebola-third-confirmed-case-october-16-2026",
+      "edition_id": "2026-10-17-morning",
+      "date": "2026-10-17",
+      "slot": "morning",
+      "published_at": "2026-10-17T08:55:01+03:00",
+      "available_at": "2026-10-17T08:55:01+03:00",
+      "headline": "Κένυα: τρίτο κρούσμα Έμπολα εντοπίστηκε μέσα στην καραντίνα",
+      "finding": "Η Κένυα επιβεβαίωσε στις 16 Οκτωβρίου τρίτο κρούσμα Έμπολα, σε 65χρονη συγγενή του πρώτου ασθενούς που είχε επιστρέψει από το Κονγκό και πέθανε στις 5 Οκτωβρίου. Η γυναίκα ήταν ήδη σε καραντίνα από τις 6 Οκτωβρίου. Κατά τον ΠΟΥ, 127 από τις 130 καταγεγραμμένες επαφές παρακολουθούνταν σε καραντίνα, ενώ και το δεύτερο κρούσμα ανήκει στην ίδια οικογενειακή αλυσίδα. Το υπουργείο Υγείας αναφέρει ότι δεν έχει ενδείξεις μετάδοσης στην κοινότητα.",
+      "section": "world",
+      "priority": 10,
+      "article_path": "articles/2026-10-17-morning/world-kenya.json",
+      "reader_url": "articles/2026-10-17-morning/world-kenya.html",
+      "sources": [
+        {
+          "url": "https://afro.who.int/countries/kenya/news/who-supports-kenyas-ebola-response-third-case-found-early-quarantine",
+          "publisher": "Παγκόσμιος Οργανισμός Υγείας · Κένυα",
+          "reporting_group": "Παγκόσμιος Οργανισμός Υγείας · Κένυα",
+          "published_at": "2026-10-16",
+          "retrieved_at": "2026-10-17T04:32:15.892182+00:00",
+          "kind": "primary"
+        },
+        {
+          "url": "https://apnews.com/article/kenya-ebola-congo-25f722f20d89e9cf8977a5080e9d575c",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": null,
+          "retrieved_at": "2026-10-17T04:30:19.733155+00:00",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-17-morning/world-kenya.webp"
+    },
+    {
+      "story_id": "china-technology-export-registration-proposal-october-16-2026",
+      "identity": "china-technology-export-registration-proposal-october-16-2026",
+      "edition_id": "2026-10-17-morning",
+      "date": "2026-10-17",
+      "slot": "morning",
+      "published_at": "2026-10-17T08:55:01+03:00",
+      "available_at": "2026-10-17T08:55:01+03:00",
+      "headline": "Κίνα: καταγραφή εξαγωγών 40 τεχνολογιών, με αυστηρότερους περιορισμούς υπό διαβούλευση",
+      "finding": "Τα κινεζικά υπουργεία Εμπορίου και Επιστήμης δημοσίευσαν στις 16 Οκτωβρίου σχέδιο προσθήκης 40 τεχνολογιών στον κατάλογο απαγορευμένων ή περιορισμένων εξαγωγών: 23 στην τεχνητή νοημοσύνη, πέντε στη βιοϊατρική και δώδεκα στα φωτοβολταϊκά. Η διαβούλευση διαρκεί έως τις 15 Νοεμβρίου. Παράλληλα, η επίσημη ανακοίνωση επιβάλλει άμεση καταγραφή των σχετικών εξαγωγών πριν πραγματοποιηθούν, μέχρι την τελική αναθεώρηση του καταλόγου. Πρόκειται συνεπώς για ήδη ενεργή διοικητική υποχρέωση, αλλά όχι για οριστική γενική απαγόρευση όλων των προτεινόμενων τεχνολογιών.",
+      "section": "world",
+      "priority": 15,
+      "article_path": "articles/2026-10-17-morning/world-china.json",
+      "reader_url": "articles/2026-10-17-morning/world-china.html",
+      "sources": [
+        {
+          "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html",
+          "publisher": "Υπουργεία Εμπορίου και Επιστήμης Κίνας",
+          "reporting_group": "Υπουργεία Εμπορίου και Επιστήμης Κίνας",
+          "published_at": "2026-10-16T16:00:00+08:00",
+          "retrieved_at": "2026-10-17T04:31:15.218976+00:00",
+          "kind": "primary"
+        },
+        {
+          "url": "https://apnews.com/article/china-export-restrictions-ai-chips-solar-us-5ac381c0c6d6628bbea2e0da7d855a5b",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": null,
+          "retrieved_at": "2026-10-17T04:30:19.736736+00:00",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-17-morning/world-china.webp"
+    },
+    {
+      "story_id": "brazil-prodes-deforestation-2025-2026-release",
+      "identity": "brazil-prodes-deforestation-2025-2026-release",
+      "edition_id": "2026-10-17-morning",
+      "date": "2026-10-17",
+      "slot": "morning",
+      "published_at": "2026-10-17T08:55:01+03:00",
+      "available_at": "2026-10-17T08:55:01+03:00",
+      "headline": "Αμαζόνιος: η χαμηλότερη ετήσια αποψίλωση από την έναρξη των μετρήσεων",
+      "finding": "Η Βραζιλία ανακοίνωσε στις 16 Οκτωβρίου εκτιμώμενη αποψίλωση 3.335 τετραγωνικών χιλιομέτρων στον Αμαζόνιο για το διάστημα Αυγούστου 2025–Ιουλίου 2026. Πρόκειται για μείωση 41,8% από τα 5.731 τετραγωνικά χιλιόμετρα της προηγούμενης περιόδου και τη χαμηλότερη τιμή της σειράς που άρχισε το 1988, σύμφωνα με το INPE. Στο Cerrado η μείωση ήταν 23,8%. Η ανακοίνωση προηγείται του δεύτερου γύρου των προεδρικών εκλογών στις 25 Οκτωβρίου, με τη συνέχεια της περιβαλλοντικής πολιτικής στο επίκεντρο.",
+      "section": "world",
+      "priority": 20,
+      "article_path": "articles/2026-10-17-morning/world-brazil.json",
+      "reader_url": "articles/2026-10-17-morning/world-brazil.html",
+      "sources": [
+        {
+          "url": "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/brasil-alcanca-menores-taxas-de-desmatamento-da-serie-historica-na-amazonia-e-no-cerrado",
+          "publisher": "INPE · δορυφορική παρακολούθηση",
+          "reporting_group": "INPE · δορυφορική παρακολούθηση",
+          "published_at": "2026-10-16T15:17:00-03:00",
+          "retrieved_at": "2026-10-17T04:31:37.256689+00:00",
+          "kind": "primary"
+        },
+        {
+          "url": "https://apnews.com/article/brazil-amazon-deforestation-lula-flavio-bolsonaro-c00358ad3db9d53fcdf3a1e65da5d8ec",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": null,
+          "retrieved_at": "2026-10-17T04:30:19.734268+00:00",
+          "kind": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/cqe8rzg6zl00o",
+          "publisher": "BBC News",
+          "reporting_group": "BBC News",
+          "published_at": "2026-10-17T02:33:09.094Z",
+          "retrieved_at": "2026-10-17T04:30:19.735359+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-17-morning/world-brazil.webp"
+    },
+    {
+      "story_id": "larnaca-eoa-permit-backlog-review-october-16-2026",
+      "identity": "larnaca-eoa-permit-backlog-review-october-16-2026",
+      "edition_id": "2026-10-17-morning",
+      "date": "2026-10-17",
+      "slot": "morning",
+      "published_at": "2026-10-17T08:55:01+03:00",
+      "available_at": "2026-10-17T08:55:01+03:00",
+      "headline": "ΕΟΑ Λάρνακας: σχεδόν 92% των παλαιών αιτήσεων αδειοδότησης διεκπεραιώθηκε",
+      "finding": "Σχεδόν το 92% των εκκρεμών αιτήσεων αδειοδότησης που παρέλαβε από τις προηγούμενες αρχές έχει διεκπεραιώσει ο ΕΟΑ Λάρνακας, σύμφωνα με τον απολογισμό που παρουσιάστηκε την Παρασκευή και δημοσιεύει σήμερα το Cyprus Mail. Ο υπουργός Εσωτερικών Κωνσταντίνος Ιωάννου έθεσε ως επόμενο κριτήριο την ταχύτητα και την αξιοπιστία της εξυπηρέτησης. Ο πρόεδρος του ΕΟΑ αναφέρθηκε επίσης σε έργα ύδρευσης για αυτονομία 48 ωρών και σε προωθούμενα έργα αποχέτευσης προϋπολογισμού €380 εκατ., όχι σε ήδη ολοκληρωμένες υποδομές.",
+      "section": "cyprus",
+      "priority": 25,
+      "article_path": "articles/2026-10-17-morning/cyprus-larnaca.json",
+      "reader_url": "articles/2026-10-17-morning/cyprus-larnaca.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/17/larnaca-eoa-makes-significant-progress-in-processing-permit-backlog",
+          "publisher": "Cyprus Mail · απολογισμός ΕΟΑ Λάρνακας",
+          "reporting_group": "Cyprus Mail · απολογισμός ΕΟΑ Λάρνακας",
+          "published_at": "2026-10-17T01:25:00Z",
+          "retrieved_at": "2026-10-17T04:30:22.872567+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-17-morning/cyprus-larnaca.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."

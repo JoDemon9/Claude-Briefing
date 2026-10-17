@@ -171,6 +171,39 @@
         }
       ],
       "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-10-17-morning",
+      "as_of": "2026-10-17T08:55:01+03:00",
+      "records": [
+        {
+          "owner": "2026-10-17-morning",
+          "id": "limassol-south-coast-2026-10-17",
+          "kind": "weather",
+          "label": "Νότια παράλια/Λεμεσός · πρόγνωση 17/10",
+          "checked_at": "2026-10-17T04:29:22.174242+00:00",
+          "valid_from": "2026-10-17T06:00:00+03:00",
+          "valid_until": "2026-10-18T06:00:00+03:00",
+          "recheck_at": "2026-10-17T13:00:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_a.html"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-17-morning",
+          "id": "weather-warning-recheck-2026-10-17",
+          "kind": "recheck",
+          "label": "Καμία ενεργή προειδοποίηση στο τελευταίο αναγνωσμένο στιγμιότυπο· εκδοτικός επανέλεγχος",
+          "checked_at": "2026-10-17T04:29:22.175266+00:00",
+          "recheck_at": "2026-10-17T13:00:00+03:00",
+          "sources": [
+            "https://agromet.dom.org.cy/"
+          ],
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
     }
   ]
 }

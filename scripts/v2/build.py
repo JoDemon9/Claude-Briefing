@@ -466,8 +466,14 @@ def build(root=ROOT, incremental=False):
     cache = load_module('incremental')
     affected = cache.affected(actual,Path(__file__).parent,incremental)
     input_state = cache.inputs(actual,Path(__file__).parent)
+    # Keep disposable candidates out of workspace synchronisation, which can
+    # recreate moved/deleted files during cleanup. Promotion still requires the
+    # same filesystem; fall back to a sibling when system temp is another mount.
+    staging_parent = Path(tempfile.gettempdir()).resolve()
+    if staging_parent.stat().st_dev != actual.stat().st_dev:
+        staging_parent = actual.parent
     try:
-        with tempfile.TemporaryDirectory(prefix='oracle-build-', dir=actual.parent) as directory:
+        with tempfile.TemporaryDirectory(prefix='oracle-build-', dir=staging_parent) as directory:
             candidate = Path(directory)/'candidate'
             candidate.mkdir()
             for name in ['content', 'templates', 'docs']:
