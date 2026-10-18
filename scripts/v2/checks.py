@@ -99,9 +99,12 @@ def run(root=ROOT,base=None,prebuilt=False,profile=None,execute=None):
         return rows
     step('prepare_images',fn=lambda:prepare_candidate_images(root,selection['edition_ids'],verify_only=prebuilt))
     step('section_coverage',fn=sections)
+    if not prebuilt:
+        # The builder validates source inputs before rendering. The complete
+        # publication validator also requires generated edition/reader files.
+        step('build',fn=lambda:module('build').build(root,incremental=True))
     step('validate',fn=lambda:module('publish').validate(root))
     if not prebuilt:
-        step('build',fn=lambda:module('build').build(root,incremental=True))
         step('release_record',fn=lambda:{'release_id':module('release').record(root)['release_id']})
     def integrity():
         if module('release').manifest(root)!=json.loads((root/'docs/data/release.json').read_text()):raise ValueError('Candidate release receipt is stale')

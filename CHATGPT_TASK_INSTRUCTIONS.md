@@ -10,3 +10,6 @@ Full prior prompts and original requirements remain under maintenance/history/20
 
 
 DEC-017: all three prompts select five International and five Cyprus articles separately, with explicit evidence-backed section shortfalls only after broader research. They delegate deterministic gates/build/browser checks to the existing GitHub Actions and consume the exact passing candidate receipt/artifact. Main capability checks precede version-2 fields. Later editions keep useful dated context without false novelty. Apply these prompt-only changes to the existing tasks; preserve all settings and the historical fourth task.
+
+
+DEC-018: actual self-contained prompts supersede blanket startup reading. Use targeted reference sections, compact code-projected packet/collection views, mechanical copying of complete stable data, one story draft and one editorial review. Source reading for new/material claims, broad discovery, weather/due checks, photos/rights, article targets, all gates and exact live verification remain mandatory. Do not treat this policy as an implemented external service: only actual-main helpers/workflows may run. Prompt settings and the fourth task remain protected.

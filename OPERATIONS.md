@@ -26,3 +26,6 @@ Wire collection remains its own existing :15/:45 UTC workflow; provider health o
 
 
 DEC-017: use existing Structured briefing checks on a source candidate PR for deterministic build/gates/browser work. Read its compact report and use briefing-built-candidate bytes; inspect logs only on failure. Source-only PRs need not commit generated docs; main still must contain the exact tested output. publish.py --checks-receipt accepts a genuine matching release/profile report. Five International and five Cyprus stories are separate every-slot targets from 18 October evening, enforced by selection_review.version=2; genuine shortages need explicit section evidence. No new scheduler or change to editorial verification.
+
+
+DEC-018: do not manually reconstruct complete data or read full packets/logs in the model. Use scaffold/copy operations and attention-only projections, actual source evidence for new/changed/due claims, genuine external artifacts and receipt reuse. For a source-only CI candidate, build.py validates source inputs while rendering; complete day/reader file validation follows build and remains blocking. This fixes the validation-before-build cycle without accepting missing generated pages. Prebuilt candidates still receive complete validation. Maintenance and runtime-policy changes retain the full regression profile.
