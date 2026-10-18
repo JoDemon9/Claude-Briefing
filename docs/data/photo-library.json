@@ -196,23 +196,34 @@
     },
     {
       "id": "303346c4ccf61ce471ee01d3ef0ce9bb69d6a710167d7a855147ee8b3f7c8d83",
-      "asset": "assets/editorial/2026-10-18-morning/lead-france.webp",
+      "asset": "assets/editorial/2026-10-18-midday/lead-france.webp",
       "image": {
-        "url": "assets/editorial/2026-10-18-morning/lead-france.webp",
+        "url": "assets/editorial/2026-10-18-midday/lead-france.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Paris-2023-01-31-manif-retraites07.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
         "source_url": "https://commons.wikimedia.org/wiki/File:Paris-2023-01-31-manif-retraites07.jpg",
-        "caption": "Παρίσι, διαδήλωση κατά της συνταξιοδοτικής μεταρρύθμισης στο 13ο διαμέρισμα, 31/1/2023. Αρχείο, όχι οι ταραχές της 17/10/2026.",
-        "alt": "Διαδηλωτές και πανό σε δημαρχείο του Παρισιού, 31 Ιανουαρίου 2023.",
+        "caption": "Παρίσι, διαδήλωση της 31/1/2023. Αρχειακή φωτογραφία κοινωνικών κινητοποιήσεων, όχι οι ταραχές ή οι ζημιές της 17/10/2026.",
+        "alt": "Διαδηλωτές και πανό σε δημαρχείο του Παρισιού, 31 Ιανουαρίου 2023· αρχείο.",
         "attribution": "Roland Godefroy / Wikimedia Commons · μετατροπή WebP",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "retrieved_at": "2026-10-18T04:33:50.449675+00:00"
+        "retrieved_at": "2026-10-18T04:33:50.449675+00:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-18-morning/lead-france.webp",
+          "sha256": "303346c4ccf61ce471ee01d3ef0ce9bb69d6a710167d7a855147ee8b3f7c8d83",
+          "reviewed_at": "2026-10-18T13:42:02.814453+03:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1280,
         893
       ],
       "references": [
+        {
+          "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+          "article_path": "articles/2026-10-18-midday/lead-france.json",
+          "edition_id": "2026-10-18-midday"
+        },
         {
           "story_id": "france-cost-of-living-mobilisation-october-17-2026",
           "article_path": "articles/2026-10-18-morning/lead-france.json",
@@ -565,6 +576,11 @@
           "story_id": "france-ukraine-aviation-freyja-october-15-2026",
           "article_path": "articles/2026-10-16-morning/world-ukraine.json",
           "edition_id": "2026-10-16-morning"
+        },
+        {
+          "story_id": "ukraine-russia-energy-strikes-october-18-2026",
+          "article_path": "articles/2026-10-18-midday/world-energy.json",
+          "edition_id": "2026-10-18-midday"
         }
       ]
     },
@@ -601,6 +617,11 @@
           "story_id": "cyprus-cop31-presidential-attendance",
           "article_path": "articles/2026-10-14-morning/cyprus-3.json",
           "edition_id": "2026-10-14-morning"
+        },
+        {
+          "story_id": "cyprus-pyla-leaders-peace-festival-october-17-2026",
+          "article_path": "articles/2026-10-18-midday/cyprus-pyla.json",
+          "edition_id": "2026-10-18-midday"
         },
         {
           "story_id": "cyprus-pyla-leaders-peace-festival-october-17-2026",
@@ -1010,6 +1031,11 @@
           "story_id": "us-graham-russia-sanctions-waiver-october-16-2026",
           "article_path": "articles/2026-10-17-morning/lead.json",
           "edition_id": "2026-10-17-morning"
+        },
+        {
+          "story_id": "us-graham-russia-sanctions-waiver-october-16-2026",
+          "article_path": "articles/2026-10-18-midday/world-sanctions.json",
+          "edition_id": "2026-10-18-midday"
         }
       ]
     },
@@ -1352,6 +1378,11 @@
           "story_id": "2026-10-13-cyprus-4",
           "article_path": "articles/2026-10-13-morning/cyprus-4.json",
           "edition_id": "2026-10-13-morning"
+        },
+        {
+          "story_id": "cyprus-trafficking-29-convictions-2020-2026-october-18",
+          "article_path": "articles/2026-10-18-midday/cyprus-trafficking.json",
+          "edition_id": "2026-10-18-midday"
         }
       ]
     },

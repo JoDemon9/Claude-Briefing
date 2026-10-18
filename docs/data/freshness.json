@@ -206,6 +206,65 @@
       "coverage": "structured"
     },
     {
+      "edition_id": "2026-10-18-midday",
+      "as_of": "2026-10-18T13:46:47.905877+03:00",
+      "records": [
+        {
+          "owner": "2026-10-18-midday",
+          "kind": "weather",
+          "id": "limassol-south-coast-2026-10-18-midday",
+          "label": "Λεμεσός/νότια παράλια · νεότερο δελτίο Β",
+          "checked_at": "2026-10-18T10:38:04.694893+00:00",
+          "valid_from": "2026-10-18T12:00:00+03:00",
+          "valid_until": "2026-10-19T18:00:00+03:00",
+          "recheck_at": "2026-10-18T18:45:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_b.html"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-18-midday",
+          "kind": "recheck",
+          "id": "weather-warning-recheck-2026-10-18-midday",
+          "label": "Agromet: καμία προειδοποίηση στον χρόνο ελέγχου",
+          "checked_at": "2026-10-18T10:35:59.485220+00:00",
+          "recheck_at": "2026-10-18T18:45:00+03:00",
+          "sources": [
+            "https://agromet.dom.org.cy/"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-18-midday",
+          "kind": "recheck",
+          "id": "wainwright-casualty-recheck-2026-10-18-midday",
+          "label": "Wainwright: εκκρεμεί επίσημος συγκεκριμένος απολογισμός και αιτία",
+          "checked_at": "2026-10-18T10:37:02.326769+00:00",
+          "recheck_at": "2026-10-18T18:45:00+03:00",
+          "sources": [
+            "https://apnews.com/article/canada-alberta-military-base-fire-wainwright-1a41899da5b6e797b000061fa4da9c6a",
+            "https://www.bbc.com/news/articles/cr86z0w4lxdxo"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-18-midday",
+          "kind": "event",
+          "id": "nyse-open-2026-10-19",
+          "label": "NYSE · επόμενο κανονικό άνοιγμα",
+          "checked_at": "2026-10-18T10:38:04.326022+00:00",
+          "starts_at": "2026-10-19T16:30:00+03:00",
+          "recheck_at": "2026-10-19T16:30:00+03:00",
+          "sources": [
+            "https://www.nyse.com/trade/hours-calendars"
+          ],
+          "state": "upcoming"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
       "edition_id": "2026-10-18-morning",
       "as_of": "2026-10-18T07:36:54+03:00",
       "records": [

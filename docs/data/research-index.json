@@ -115,6 +115,13 @@
       "url": "morning/2026-10-17.html"
     },
     {
+      "id": "2026-10-18-midday",
+      "date": "2026-10-18",
+      "type": "midday",
+      "published_at": "2026-10-18T13:46:47.905877+03:00",
+      "url": "midday/2026-10-18.html"
+    },
+    {
       "id": "2026-10-18-morning",
       "date": "2026-10-18",
       "type": "morning",
@@ -4000,6 +4007,213 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-17-morning/cyprus-larnaca.webp"
+    },
+    {
+      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+      "identity": "france-cost-of-living-mobilisation-october-17-2026",
+      "edition_id": "2026-10-18-midday",
+      "date": "2026-10-18",
+      "slot": "midday",
+      "published_at": "2026-10-18T13:46:47.905877+03:00",
+      "available_at": "2026-10-18T13:46:47.905877+03:00",
+      "headline": "Γαλλία: περίπου 1.800 συλλήψεις στον νεότερο απολογισμό — αρχίζει η αποκατάσταση ζημιών",
+      "finding": "Περίπου 1.800 συλλήψεις για τις διαδηλώσεις του Σαββάτου αναφέρει το νεότερο κυριακάτικο ρεπορτάζ του BBC, έναντι τουλάχιστον 1.200 στο πρωινό μας φύλλο. Η ενημέρωση αφορά τον απολογισμό της ίδιας κινητοποίησης, όχι νέες σημερινές συλλήψεις. Περίπου 550.000 άνθρωποι διαδήλωσαν για ακρίβεια και δημόσιες υπηρεσίες, κυρίως ειρηνικά. Στο Παρίσι άρχισε ο καθαρισμός λεηλατημένων καταστημάτων και καμένων οχημάτων. Ο πρωθυπουργός ανέφερε 150 τραυματίες αστυνομικούς· εκτεταμένες ζημιές καταγράφονται και σε άλλες πόλεις.",
+      "section": "world",
+      "priority": 0,
+      "article_path": "articles/2026-10-18-midday/lead-france.json",
+      "reader_url": "articles/2026-10-18-midday/lead-france.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/c574pdzl0k4no",
+          "publisher": "BBC · επιτόπια ανταπόκριση",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-18T09:56:45.762Z",
+          "retrieved_at": "2026-10-18T10:36:57.448154+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/c6d937wedj7jo",
+          "publisher": "BBC · προηγούμενος απολογισμός",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-17",
+          "retrieved_at": "2026-10-18T10:36:57.685472+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-18-midday/lead-france.webp"
+    },
+    {
+      "story_id": "cyprus-pyla-leaders-peace-festival-october-17-2026",
+      "identity": "cyprus-pyla-leaders-peace-festival-october-17-2026",
+      "edition_id": "2026-10-18-midday",
+      "date": "2026-10-18",
+      "slot": "midday",
+      "published_at": "2026-10-18T13:46:47.905877+03:00",
+      "available_at": "2026-10-18T13:46:47.905877+03:00",
+      "headline": "Μετά την Πύλα, διαφωνία για τις προϋποθέσεις επανέναρξης των συνομιλιών",
+      "finding": "Ο Νίκος Χριστοδουλίδης κατηγόρησε την Κυριακή την τουρκοκυπριακή πλευρά ότι θέτει προϋποθέσεις πριν από την επανέναρξη συνομιλιών. Ο Τουφάν Έρχιουρμαν, σε συνέντευξη στον Πολίτη, ζητεί εκ των προτέρων αποδοχή της εκ περιτροπής προεδρίας και δηλώνει ότι δεν έλαβε έγγραφο με τις 19 προτάσεις του Προέδρου. Ο Χριστοδουλίδης απαντά ότι τις κατέθεσε προφορικά. Η αντιπαράθεση ακολουθεί την κοινή παρουσία τους στην Πύλα. Η συνάντηση της Τρίτης στις 11:00 παραμένει δημοσιογραφική πληροφορία του ΡΙΚ, όχι ανακοινωμένη συμφωνία.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-10-18-midday/cyprus-pyla.json",
+      "reader_url": "articles/2026-10-18-midday/cyprus-pyla.html",
+      "sources": [
+        {
+          "url": "https://news.rik.cy/article/2026/10/18/ptd-apokaluptike-e-sunenteuxe-erkhiourman-deikhnei-giati-den-epanerkhisan-oi-sunomilies/",
+          "publisher": "ΡΙΚ · δηλώσεις Προέδρου",
+          "reporting_group": "ΡΙΚ",
+          "published_at": "2026-10-18T11:57:00+03:00",
+          "retrieved_at": "2026-10-18T10:36:57.529787+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://news.rik.cy/article/2026/10/18/touphan-erkhiourman-to-periekhomeno-tes-luses-einai-semantikotero-apo-tis-etiketes/",
+          "publisher": "Πολίτης μέσω ΡΙΚ · συνέντευξη Έρχιουρμαν",
+          "reporting_group": "Πολίτης",
+          "published_at": "2026-10-18T06:21:00+03:00",
+          "retrieved_at": "2026-10-18T10:36:57.262471+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://cyprus-mail.com/2026/10/18/christodoulides-accuses-erhurman-of-setting-preconditions-on-resumption-of-talks",
+          "publisher": "Cyprus Mail · πολιτικό ρεπορτάζ",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-18T08:50:48Z",
+          "retrieved_at": "2026-10-18T10:38:04.846382+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://news.rik.cy/article/2026/10/17/menuma-eirenes-apo-to-dikoinotiko-phestibal-sten-pula-ten-trite-to-proi-e-epomene-sunantese-video/",
+          "publisher": "ΡΙΚ · επιτόπιο ρεπορτάζ",
+          "reporting_group": "ΡΙΚ · επιτόπιο ρεπορτάζ",
+          "published_at": "2026-10-17T20:44:00+03:00",
+          "retrieved_at": "2026-10-18T04:31:55.117400+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.politis.com.cy/kypriako/1053679/ta-vlemmata-strammena-stin-pyla-ola-etoima-ghia-tin-koini-paroysia-xristodoylidi-erkhioyrman",
+          "publisher": "Πολίτης · επιτόπια κάλυψη",
+          "reporting_group": "Πολίτης · επιτόπια κάλυψη",
+          "published_at": "2026-10-17T19:00:00+03:00",
+          "retrieved_at": "2026-10-18T04:31:54.824063+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-18-midday/cyprus-pyla.webp"
+    },
+    {
+      "story_id": "ukraine-russia-energy-strikes-october-18-2026",
+      "identity": "ukraine-russia-energy-strikes-october-18-2026",
+      "edition_id": "2026-10-18-midday",
+      "date": "2026-10-18",
+      "slot": "midday",
+      "published_at": "2026-10-18T13:46:47.905877+03:00",
+      "available_at": "2026-10-18T13:46:47.905877+03:00",
+      "headline": "Νέα πλήγματα σε ενεργειακές υποδομές Ρωσίας και Ουκρανίας",
+      "finding": "Πυρκαγιές εκδηλώθηκαν την Κυριακή στον πετρελαϊκό τερματικό της Αγίας Πετρούπολης και στην αποθήκη Ρούτσι. Ο κυβερνήτης Αλεξάντρ Μπεγκλόφ ανέφερε έναν νεκρό και πέντε τραυματίες, κατά το AP. Η Μόσχα ισχυρίζεται ότι κατέρριψε 1.015 ουκρανικά drones σε ευρύ γεωγραφικό μέτωπο· ο αριθμός δεν είναι ανεξάρτητα επαληθευμένος. Στη Ζαπορίζια, τοπικές αρχές ανακοίνωσαν μία νεκρή και τουλάχιστον δύο τραυματίες από ρωσικά πλήγματα. Το Κίεβο αναφέρει νέες επιθέσεις σε ενεργειακές εγκαταστάσεις και συνεχιζόμενες διακοπές ρεύματος.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-18-midday/world-energy.json",
+      "reader_url": "articles/2026-10-18-midday/world-energy.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-18T09:49:18Z",
+          "retrieved_at": "2026-10-18T10:38:04.882720+00:00",
+          "kind": "wire"
+        },
+        {
+          "url": "https://news.rik.cy/article/2026/10/18/rosia-purkagia-se-petrelaiko-termatiko-stathmo-tes-agias-petroupoles-meta-apo-oukranike-epithese/",
+          "publisher": "ΑΠΕ-ΜΠΕ μέσω ΡΙΚ · προηγούμενο περιφερειακό δελτίο",
+          "reporting_group": "ΑΠΕ-ΜΠΕ",
+          "published_at": "2026-10-18T09:20:00+03:00",
+          "retrieved_at": "2026-10-18T10:37:04.017698+00:00",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-18-midday/world-energy.webp"
+    },
+    {
+      "story_id": "us-graham-russia-sanctions-waiver-october-16-2026",
+      "identity": "us-graham-russia-sanctions-waiver-october-16-2026",
+      "edition_id": "2026-10-18-midday",
+      "date": "2026-10-18",
+      "slot": "midday",
+      "published_at": "2026-10-18T13:46:47.905877+03:00",
+      "available_at": "2026-10-18T13:46:47.905877+03:00",
+      "headline": "Ρούμπιο: 60 ημέρες αξιολόγησης για τις κυρώσεις — το διάταγμα δεν ορίζει αυτόματη λήξη",
+      "finding": "Ο Μάρκο Ρούμπιο περιέγραψε περίοδο 60 ημερών για αξιολόγηση των επιπτώσεων των νέων κυρώσεων στη Ρωσία, μετά την αναστολή που υπέγραψε ο Donald Trump στις 16/10. Η διευκρίνιση καταγράφεται από AP και BBC, μαζί με διακομματικές αντιδράσεις και επικρίσεις του Βολοντίμιρ Ζελένσκι. Ωστόσο, το ίδιο το διάταγμα διατηρεί τις εξαιρέσεις μέχρι νεότερη απόφαση, χωρίς αυτόματη ημερομηνία επαναφοράς. Δεν καταργεί όλες τις προϋπάρχουσες κυρώσεις. Πρόκειται για εξέλιξη ιστορίας που δημοσιεύσαμε στις 17/10, όχι για νέο σημερινό διάταγμα.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-10-18-midday/world-sanctions.json",
+      "reader_url": "articles/2026-10-18-midday/world-sanctions.html",
+      "sources": [
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
+          "publisher": "Λευκός Οίκος · εκτελεστικό διάταγμα",
+          "reporting_group": "Λευκός Οίκος · εκτελεστικό διάταγμα",
+          "published_at": "2026-10-16",
+          "retrieved_at": "2026-10-18T10:38:05.399564+00:00",
+          "kind": "primary"
+        },
+        {
+          "url": "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-18",
+          "retrieved_at": "2026-10-18T10:35:52.229329+00:00",
+          "kind": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/cxr5yvzv7rp0o",
+          "publisher": "BBC · διπλωματικό ρεπορτάζ",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-17",
+          "retrieved_at": "2026-10-18T10:36:57.772683+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-18-midday/world-sanctions.webp"
+    },
+    {
+      "story_id": "cyprus-trafficking-29-convictions-2020-2026-october-18",
+      "identity": "cyprus-trafficking-29-convictions-2020-2026-october-18",
+      "edition_id": "2026-10-18-midday",
+      "date": "2026-10-18",
+      "slot": "midday",
+      "published_at": "2026-10-18T13:46:47.905877+03:00",
+      "available_at": "2026-10-18T13:46:47.905877+03:00",
+      "headline": "Εμπορία προσώπων: 29 καταδίκες την περίοδο 2020–2026, με κενά στην προστασία θυμάτων",
+      "finding": "Είκοσι εννέα καταδίκες για εμπορία προσώπων καταγράφηκαν στην Κύπρο την περίοδο 2020–2026, σύμφωνα με αστυνομικά στοιχεία που επικαλείται η Επίτροπος Διοικήσεως στο σημερινό μήνυμά της, όπως το μεταδίδει το ΚΥΠΕ μέσω Πολίτη. Η Μαρία Στυλιανού Λοττίδη τονίζει ότι ο αριθμός δεν μετρά ολόκληρη την έκταση της εκμετάλλευσης. Ζητεί έγκαιρο εντοπισμό, στέγαση, νομική και υγειονομική στήριξη, χωρίς η προστασία να εξαρτάται αποκλειστικά από επίσημη αναγνώριση ή συνεργασία με τις διωκτικές αρχές.",
+      "section": "cyprus",
+      "priority": 12,
+      "article_path": "articles/2026-10-18-midday/cyprus-trafficking.json",
+      "reader_url": "articles/2026-10-18-midday/cyprus-trafficking.html",
+      "sources": [
+        {
+          "url": "https://www.politis.com.cy/politis-news/koinonia/1053826/emporia-proswpon-oi-29-katadikes-stin-kypro-den-apotipwnoyn-tin-ektasi-toy-fainomenoy",
+          "publisher": "ΚΥΠΕ μέσω Πολίτη",
+          "reporting_group": "ΚΥΠΕ",
+          "published_at": "2026-10-18T11:26:00+03:00",
+          "retrieved_at": "2026-10-18T10:35:59.723330+00:00",
+          "kind": "wire"
+        },
+        {
+          "url": "https://www.coe.int/en/web/anti-human-trafficking/-/greta-publishes-its-fourth-report-on-cyprus",
+          "publisher": "Συμβούλιο της Ευρώπης · GRETA",
+          "reporting_group": "Συμβούλιο της Ευρώπης",
+          "published_at": "2025-04-28",
+          "retrieved_at": "2026-10-18T10:40:12.038717+00:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-18-midday/cyprus-trafficking.webp"
     },
     {
       "story_id": "france-cost-of-living-mobilisation-october-17-2026",

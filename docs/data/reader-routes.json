@@ -176,6 +176,13 @@
       "world-brazil": "articles/2026-10-17-morning/world-brazil.html",
       "cyprus-larnaca": "articles/2026-10-17-morning/cyprus-larnaca.html"
     },
+    "2026-10-18-midday": {
+      "lead-france": "articles/2026-10-18-midday/lead-france.html",
+      "cyprus-pyla": "articles/2026-10-18-midday/cyprus-pyla.html",
+      "world-energy": "articles/2026-10-18-midday/world-energy.html",
+      "world-sanctions": "articles/2026-10-18-midday/world-sanctions.html",
+      "cyprus-trafficking": "articles/2026-10-18-midday/cyprus-trafficking.html"
+    },
     "2026-10-18-morning": {
       "lead-france": "articles/2026-10-18-morning/lead-france.html",
       "world-india": "articles/2026-10-18-morning/world-india.html",
@@ -231,6 +238,9 @@
   },
   "readers/2026-10-17.html": {
     "edition_id": "2026-10-17-morning"
+  },
+  "readers/2026-10-18-midday.html": {
+    "edition_id": "2026-10-18-midday"
   },
   "readers/2026-10-18.html": {
     "edition_id": "2026-10-18-morning"

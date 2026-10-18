@@ -10,10 +10,15 @@
       "type": "morning",
       "url": "morning/2026-10-18.html",
       "published_at": "2026-10-18T07:36:54+03:00"
+    },
+    {
+      "id": "2026-10-18-midday",
+      "type": "midday",
+      "url": "midday/2026-10-18.html",
+      "published_at": "2026-10-18T13:46:47.905877+03:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
   "lead_story_id": "france-cost-of-living-mobilisation-october-17-2026",
@@ -21,23 +26,50 @@
     {
       "story_id": "france-cost-of-living-mobilisation-october-17-2026",
       "first_seen_at": "2026-10-18T07:36:54+03:00",
-      "last_substantive_at": null,
+      "last_substantive_at": "2026-10-18T12:56:45.762+03:00",
       "references": [
         {
           "edition_id": "2026-10-18-morning",
           "article_id": "lead-france",
           "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
           "url": "articles/2026-10-18-morning/lead-france.html"
+        },
+        {
+          "edition_id": "2026-10-18-midday",
+          "article_id": "lead-france",
+          "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
+          "url": "articles/2026-10-18-midday/lead-france.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-18-morning",
+        "edition_id": "2026-10-18-midday",
         "article_id": "lead-france",
         "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
-        "url": "articles/2026-10-18-morning/lead-france.html"
+        "url": "articles/2026-10-18-midday/lead-france.html"
       },
       "section": "world",
       "priority": 0
+    },
+    {
+      "story_id": "ukraine-russia-energy-strikes-october-18-2026",
+      "first_seen_at": "2026-10-18T13:46:47.905877+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-18-midday",
+          "article_id": "world-energy",
+          "source_story_id": "ukraine-russia-energy-strikes-october-18-2026",
+          "url": "articles/2026-10-18-midday/world-energy.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-18-midday",
+        "article_id": "world-energy",
+        "source_story_id": "ukraine-russia-energy-strikes-october-18-2026",
+        "url": "articles/2026-10-18-midday/world-energy.html"
+      },
+      "section": "world",
+      "priority": 2
     },
     {
       "story_id": "kolkata-durga-puja-crowd-crush-october-17-2026",
@@ -61,22 +93,49 @@
       "priority": 3
     },
     {
+      "story_id": "us-graham-russia-sanctions-waiver-october-16-2026",
+      "first_seen_at": "2026-10-18T13:46:47.905877+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-18-midday",
+          "article_id": "world-sanctions",
+          "source_story_id": "us-graham-russia-sanctions-waiver-october-16-2026",
+          "url": "articles/2026-10-18-midday/world-sanctions.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-18-midday",
+        "article_id": "world-sanctions",
+        "source_story_id": "us-graham-russia-sanctions-waiver-october-16-2026",
+        "url": "articles/2026-10-18-midday/world-sanctions.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
       "story_id": "cyprus-pyla-leaders-peace-festival-october-17-2026",
       "first_seen_at": "2026-10-18T07:36:54+03:00",
-      "last_substantive_at": null,
+      "last_substantive_at": "2026-10-18T11:57:00+03:00",
       "references": [
         {
           "edition_id": "2026-10-18-morning",
           "article_id": "cyprus-pyla",
           "source_story_id": "cyprus-pyla-leaders-peace-festival-october-17-2026",
           "url": "articles/2026-10-18-morning/cyprus-pyla.html"
+        },
+        {
+          "edition_id": "2026-10-18-midday",
+          "article_id": "cyprus-pyla",
+          "source_story_id": "cyprus-pyla-leaders-peace-festival-october-17-2026",
+          "url": "articles/2026-10-18-midday/cyprus-pyla.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-18-morning",
+        "edition_id": "2026-10-18-midday",
         "article_id": "cyprus-pyla",
         "source_story_id": "cyprus-pyla-leaders-peace-festival-october-17-2026",
-        "url": "articles/2026-10-18-morning/cyprus-pyla.html"
+        "url": "articles/2026-10-18-midday/cyprus-pyla.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -122,6 +181,27 @@
       },
       "section": "world",
       "priority": 10
+    },
+    {
+      "story_id": "cyprus-trafficking-29-convictions-2020-2026-october-18",
+      "first_seen_at": "2026-10-18T13:46:47.905877+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-18-midday",
+          "article_id": "cyprus-trafficking",
+          "source_story_id": "cyprus-trafficking-29-convictions-2020-2026-october-18",
+          "url": "articles/2026-10-18-midday/cyprus-trafficking.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-18-midday",
+        "article_id": "cyprus-trafficking",
+        "source_story_id": "cyprus-trafficking-29-convictions-2020-2026-october-18",
+        "url": "articles/2026-10-18-midday/cyprus-trafficking.html"
+      },
+      "section": "cyprus",
+      "priority": 12
     }
   ],
   "updates": [
@@ -278,6 +358,165 @@
         "source_story_id": "west-bank-diplomats-attack-october-17-2026",
         "url": "articles/2026-10-18-morning/world-diplomats.html"
       }
+    },
+    {
+      "id": "2026-10-18-midday-cyprus-pyla-review",
+      "kind": "substantive_update",
+      "at": "2026-10-18T11:57:00+03:00",
+      "summary": "Ώρα δημοσίευσης ΡΙΚ για τις νέες κυριακάτικες δηλώσεις Χριστοδουλίδη μετά την Πύλα: απάντηση στις θέσεις Έρχιουρμαν και διευκρίνιση ότι οι 19 προτάσεις κατατέθηκαν προφορικά.",
+      "source_urls": [
+        "https://news.rik.cy/article/2026/10/18/ptd-apokaluptike-e-sunenteuxe-erkhiourman-deikhnei-giati-den-epanerkhisan-oi-sunomilies/",
+        "https://news.rik.cy/article/2026/10/18/touphan-erkhiourman-to-periekhomeno-tes-luses-einai-semantikotero-apo-tis-etiketes/",
+        "https://cyprus-mail.com/2026/10/18/christodoulides-accuses-erhurman-of-setting-preconditions-on-resumption-of-talks",
+        "https://news.rik.cy/article/2026/10/17/menuma-eirenes-apo-to-dikoinotiko-phestibal-sten-pula-ten-trite-to-proi-e-epomene-sunantese-video/",
+        "https://www.politis.com.cy/kypriako/1053679/ta-vlemmata-strammena-stin-pyla-ola-etoima-ghia-tin-koini-paroysia-xristodoylidi-erkhioyrman"
+      ],
+      "story_id": "cyprus-pyla-leaders-peace-festival-october-17-2026",
+      "origin": {
+        "edition_id": "2026-10-18-midday",
+        "article_id": "cyprus-pyla",
+        "source_story_id": "cyprus-pyla-leaders-peace-festival-october-17-2026",
+        "url": "articles/2026-10-18-midday/cyprus-pyla.html"
+      }
+    },
+    {
+      "id": "2026-10-18-midday-lead-france-review",
+      "kind": "substantive_update",
+      "at": "2026-10-18T12:56:45.762+03:00",
+      "summary": "Ώρα δημοσίευσης του νεότερου ρεπορτάζ BBC: ο απολογισμός της κινητοποίησης 17/10 αναθεωρείται σε περίπου 1.800 συλλήψεις από τουλάχιστον 1.200. Δεν είναι ώρα νέου γύρου συλλήψεων.",
+      "source_urls": [
+        "https://www.bbc.com/news/articles/c574pdzl0k4no",
+        "https://www.bbc.com/news/articles/c6d937wedj7jo"
+      ],
+      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+      "origin": {
+        "edition_id": "2026-10-18-midday",
+        "article_id": "lead-france",
+        "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
+        "url": "articles/2026-10-18-midday/lead-france.html"
+      }
+    },
+    {
+      "id": "0342de66e80ca2727283983c18b5e56e7085d32be24349514ce4509658f6edec",
+      "kind": "provenance",
+      "at": "2026-10-18T13:46:47.905877+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-russia-energy-strikes-october-18-2026",
+      "origin": {
+        "edition_id": "2026-10-18-midday",
+        "article_id": "world-energy",
+        "source_story_id": "ukraine-russia-energy-strikes-october-18-2026",
+        "url": "articles/2026-10-18-midday/world-energy.html"
+      }
+    },
+    {
+      "id": "17885c327f12b475836a237b030ddc5f4eeab1b6cb3f4722d5a6900b8fff81cc",
+      "kind": "provenance",
+      "at": "2026-10-18T13:46:47.905877+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-graham-russia-sanctions-waiver-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-18-midday",
+        "article_id": "world-sanctions",
+        "source_story_id": "us-graham-russia-sanctions-waiver-october-16-2026",
+        "url": "articles/2026-10-18-midday/world-sanctions.html"
+      }
+    },
+    {
+      "id": "2026-10-18-midday-cyprus-trafficking-review",
+      "kind": "provenance",
+      "at": "2026-10-18T13:46:47.905877+03:00",
+      "summary": "Πρώτη ένταξη της συγκεκριμένης κάλυψης στη σημερινή εφημερίδα. Η ώρα αφορά τον συντακτικό έλεγχο, όχι την ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.politis.com.cy/politis-news/koinonia/1053826/emporia-proswpon-oi-29-katadikes-stin-kypro-den-apotipwnoyn-tin-ektasi-toy-fainomenoy",
+        "https://www.coe.int/en/web/anti-human-trafficking/-/greta-publishes-its-fourth-report-on-cyprus"
+      ],
+      "story_id": "cyprus-trafficking-29-convictions-2020-2026-october-18",
+      "origin": {
+        "edition_id": "2026-10-18-midday",
+        "article_id": "cyprus-trafficking",
+        "source_story_id": "cyprus-trafficking-29-convictions-2020-2026-october-18",
+        "url": "articles/2026-10-18-midday/cyprus-trafficking.html"
+      }
+    },
+    {
+      "id": "2026-10-18-midday-world-energy-review",
+      "kind": "provenance",
+      "at": "2026-10-18T13:46:47.905877+03:00",
+      "summary": "Πρώτη ένταξη της συγκεκριμένης κάλυψης στη σημερινή εφημερίδα. Η ώρα αφορά τον συντακτικό έλεγχο, όχι την ώρα του γεγονότος.",
+      "source_urls": [
+        "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+        "https://news.rik.cy/article/2026/10/18/rosia-purkagia-se-petrelaiko-termatiko-stathmo-tes-agias-petroupoles-meta-apo-oukranike-epithese/"
+      ],
+      "story_id": "ukraine-russia-energy-strikes-october-18-2026",
+      "origin": {
+        "edition_id": "2026-10-18-midday",
+        "article_id": "world-energy",
+        "source_story_id": "ukraine-russia-energy-strikes-october-18-2026",
+        "url": "articles/2026-10-18-midday/world-energy.html"
+      }
+    },
+    {
+      "id": "2026-10-18-midday-world-sanctions-review",
+      "kind": "provenance",
+      "at": "2026-10-18T13:46:47.905877+03:00",
+      "summary": "Πρώτη ένταξη της συγκεκριμένης κάλυψης στη σημερινή εφημερίδα. Η ώρα αφορά τον συντακτικό έλεγχο, όχι την ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
+        "https://apnews.com/article/trump-sanctions-waiver-russa-putin-ukraine-war-3cc9740c39e9e9eb713b1c553b5709e6",
+        "https://www.bbc.com/news/articles/cxr5yvzv7rp0o"
+      ],
+      "story_id": "us-graham-russia-sanctions-waiver-october-16-2026",
+      "origin": {
+        "edition_id": "2026-10-18-midday",
+        "article_id": "world-sanctions",
+        "source_story_id": "us-graham-russia-sanctions-waiver-october-16-2026",
+        "url": "articles/2026-10-18-midday/world-sanctions.html"
+      }
+    },
+    {
+      "id": "2c790d41d4ce2976e204a05067916a333a8e6aac29bfeaa662210a74529ecfb0",
+      "kind": "provenance",
+      "at": "2026-10-18T13:46:47.905877+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-trafficking-29-convictions-2020-2026-october-18",
+      "origin": {
+        "edition_id": "2026-10-18-midday",
+        "article_id": "cyprus-trafficking",
+        "source_story_id": "cyprus-trafficking-29-convictions-2020-2026-october-18",
+        "url": "articles/2026-10-18-midday/cyprus-trafficking.html"
+      }
+    },
+    {
+      "id": "8ad49e4f798e1188e35c9eb2e9423cbd1ed3caef738c66ed1dff6db9bf287801",
+      "kind": "provenance",
+      "at": "2026-10-18T13:46:47.905877+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+      "origin": {
+        "edition_id": "2026-10-18-midday",
+        "article_id": "lead-france",
+        "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
+        "url": "articles/2026-10-18-midday/lead-france.html"
+      }
+    },
+    {
+      "id": "fcdb90f09ac380f69c7689c881a131856757d6f9a3413e70bf4aebd20ed5387b",
+      "kind": "provenance",
+      "at": "2026-10-18T13:46:47.905877+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-pyla-leaders-peace-festival-october-17-2026",
+      "origin": {
+        "edition_id": "2026-10-18-midday",
+        "article_id": "cyprus-pyla",
+        "source_story_id": "cyprus-pyla-leaders-peace-festival-october-17-2026",
+        "url": "articles/2026-10-18-midday/cyprus-pyla.html"
+      }
     }
   ],
   "opportunities": [
@@ -320,7 +559,7 @@
           "used_for_claims": true
         }
       ],
-      "change_note": "Διατήρηση της προηγούμενης επαλήθευσης, χωρίς παρουσίαση ως νέα πρόσκληση ή αλλαγή όρων."
+      "change_note": "Βραδινός επανέλεγχος των επίσημων όρων και της κατάστασης· δεν επαληθεύτηκε νέα μεταβολή από το μεσημέρι. Δεν παρουσιάζεται ως νέα πρόσκληση."
     },
     {
       "verified_at": "2026-10-18T07:36:54+03:00",
@@ -354,7 +593,7 @@
       "change_note": "Επανέλεγχος επίσημων όρων 18/10: προθεσμία πλήρους πρότασης 4/11, 17:00 Βρυξελλών = 18:00 Κύπρου, μετά από GO. Καμία νέα αλλαγή όρων."
     },
     {
-      "verified_at": "2026-10-18T07:36:54+03:00",
+      "verified_at": "2026-10-18T13:46:47.905877+03:00",
       "opens_at": "2026-10-20T09:00:00+03:00",
       "deadline": "2026-12-30T23:59:00+02:00",
       "deadline_type": "fixed",
@@ -368,14 +607,14 @@
       "eligibility": "Φυσικά πρόσωπα, μία αίτηση. Κατοικία και οικιακός λογαριασμός ΑΗΚ σε φυσικό πρόσωπο· σύνδεση πριν από 1/1/2008 ή αίτηση άδειας πριν από 21/12/2007. Ισχύουν οι πλήρεις όροι του οδηγού.",
       "support": "Έως €32.000 για τύπο Α (σχεδόν μηδενική κατανάλωση), έως €24.000 για τύπο Β· απαιτείται εξοικονόμηση ενέργειας τουλάχιστον 60%.",
       "deadline_note": "Έως 30/12 23:59 Κύπρου ή νωρίτερα με εξάντληση προϋπολογισμού· σειρά υποβολής. Ο οδηγός επιτρέπει υπό όρους και παλαιότερο ΠΕΑ με επιβεβαιωτική επίσκεψη εμπειρογνώμονα μετά τις 15/5/2026. Δεν επιτρέπεται ολοκλήρωση όλων των εργασιών πριν από την αίτηση.",
-      "action": "Διάβασε τον οδηγό και εξασφάλισε αρχικό ΠΕΑ ή την προβλεπόμενη επιβεβαιωτική επίσκεψη πριν από επιλέξιμες εργασίες. Αίτηση από 20/10 09:00. Η προετοιμασία δεν εγγυάται έγκριση και η διαθεσιμότητα της εφαρμογής ελέγχεται κατά το άνοιγμα.",
+      "action": "Προετοίμασε ΠΕΑ και δικαιολογητικά με τον ειδικευμένο εμπειρογνώμονα. Έλεγξε την πύλη στο άνοιγμα 20/10 09:00· στον μεσημεριανό έλεγχο δεν ήταν προσβάσιμη.",
       "application_url": "https://fundingapps.meci.gov.cy",
       "sources": [
         {
           "publisher": "ΥΕΕΒ · πρόσκληση",
           "url": "https://www.industry.gov.cy/gr/%CE%B5%CE%BD%CE%B7%CE%BC%CE%AD%CF%81%CF%89%CF%83%CE%B7/%CE%B1%CE%BD%CE%B1%CE%BA%CE%BF%CE%B9%CE%BD%CF%8E%CF%83%CE%B5%CE%B9%CF%82/2-%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CF%87%CE%BF%CF%81%CE%B7%CE%B3%CE%B9%CF%8E%CE%BD-%CE%B5%CE%BE%CE%BF%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CF%8E-%E2%80%93-%CE%B1%CE%BD%CE%B1%CE%B2%CE%B1%CE%B8%CE%BC%CE%AF%CE%B6%CF%89-%CF%83%CF%84%CE%B9%CF%82-%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B5%CF%82-2026",
           "published_at": "2026-09-30",
-          "retrieved_at": "2026-10-18T04:32:34.175760+00:00",
+          "retrieved_at": "2026-10-18T10:36:45.709446+00:00",
           "reporting_group": "ΥΕΕΒ · πρόσκληση",
           "kind": "primary",
           "access": "read",
@@ -385,14 +624,14 @@
           "publisher": "ΥΕΕΒ · Οδηγός V4.0",
           "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202609/137/docs/odigosv2.pdf",
           "published_at": null,
-          "retrieved_at": "2026-10-18T04:34:03.674066+00:00",
+          "retrieved_at": "2026-10-18T10:36:46.248108+00:00",
           "reporting_group": "ΥΕΕΒ",
           "kind": "primary",
           "access": "read",
           "used_for_claims": true
         }
       ],
-      "change_note": "Επανέλεγχος 18/10 πρόσκλησης και σχετικών όρων οδηγού V4.0. Άνοιγμα 20/10 09:00, αμετάβλητα ποσά/στάδια. Η αίτηση δεν έχει ανοίξει ακόμη."
+      "change_note": "Μεσημεριανός επανέλεγχος της επίσημης πρόσκλησης και των σχετικών όρων του οδηγού V4.0: ίδια έναρξη, όρια και στάδια. Η ηλεκτρονική πύλη αιτήσεων δεν ήταν προσβάσιμη στον έλεγχο· δεν επιβεβαιώνεται λειτουργική υποβολή πριν από το ανακοινωμένο άνοιγμα."
     },
     {
       "verified_at": "2026-10-16T20:32:42+03:00",
@@ -443,7 +682,7 @@
           "used_for_claims": true
         }
       ],
-      "change_note": "Διατήρηση της προηγούμενης επαλήθευσης, χωρίς παρουσίαση ως νέα πρόσκληση ή αλλαγή όρων."
+      "change_note": "Διατήρηση του πλήρους ελεγμένου στιγμιοτύπου της 15/10 με τον αρχικό χρόνο επαλήθευσης. Δεν παρουσιάζεται ως νέα πρόσκληση ή νέα μεταβολή όρων."
     },
     {
       "verified_at": "2026-10-18T07:36:54+03:00",
@@ -491,34 +730,47 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Γαλλία: οι ταραχές του Σαββάτου αφήνουν εκτεταμένες ζημιές· το νεότερο BBC δίνει τουλάχιστον 1.200 συλλήψεις. Οι περισσότεροι διαδηλωτές διατύπωσαν ειρηνικά αιτήματα για ακρίβεια και σχολεία.",
+        "text": "Γαλλία: ο νεότερος απολογισμός ανεβαίνει σε περίπου 1.800 συλλήψεις. Η μαζική κυρίως ειρηνική κινητοποίηση για ακρίβεια και δημόσιες υπηρεσίες συνοδεύτηκε από εκτεταμένες ζημιές.",
         "story_ids": [
           "france-cost-of-living-mobilisation-october-17-2026"
         ]
       },
       {
-        "text": "Καλκούτα: ο νεότερος απολογισμός του AP ανεβάζει σε τουλάχιστον 19 τους νεκρούς από συνωστισμό στη γιορτή Durga Puja.",
+        "text": "Ενεργειακός πόλεμος Ρωσίας–Ουκρανίας: νέα πλήγματα και θύματα. Στις ΗΠΑ, η αναφορά Ρούμπιο σε 60ήμερη αξιολόγηση δεν αλλάζει αυτόματα τη διάρκεια των εξαιρέσεων από τις νέες κυρώσεις.",
+        "story_ids": [
+          "ukraine-russia-energy-strikes-october-18-2026",
+          "us-graham-russia-sanctions-waiver-october-16-2026"
+        ]
+      },
+      {
+        "text": "Καλκούτα: παραμένει ο πρωινός απολογισμός του AP για τουλάχιστον 19 νεκρούς από συνωστισμό στη γιορτή Durga Puja· δεν παρουσιάζεται ως νέα μεσημεριανή εξέλιξη.",
         "story_ids": [
           "kolkata-durga-puja-crowd-crush-october-17-2026"
         ]
       },
       {
-        "text": "Δυτική Όχθη: επίθεση σε Ευρωπαίους διπλωμάτες και Γάλλο δήμαρχο, με ισραηλινή έρευνα. Κένυα: επτά κρούσματα Έμπολα στον απολογισμό της 17/10, έναντι τριών στην τελευταία δημοσιευμένη πρωινή εφημερίδα.",
+        "text": "Κυπριακό: μετά την κοινή παρουσία στην Πύλα, δημόσια διαφωνία για τις προϋποθέσεις επανέναρξης. Οι 19 προτάσεις ήταν προφορικές, κατά τον Πρόεδρο.",
+        "story_ids": [
+          "cyprus-pyla-leaders-peace-festival-october-17-2026"
+        ]
+      },
+      {
+        "text": "Δυτική Όχθη: διατηρείται η πρωινή κάλυψη της επίθεσης σε Ευρωπαίους διπλωμάτες. Κένυα: επτά κρούσματα Έμπολα στον απολογισμό της 17/10, χωρίς νέο επιβεβαιωμένο μεσημεριανό αριθμό.",
         "story_ids": [
           "west-bank-diplomats-attack-october-17-2026",
           "kenya-ebola-third-confirmed-case-october-16-2026"
         ]
       },
       {
-        "text": "Πύλα: η κοινή παρουσία των ηγετών πραγματοποιήθηκε· νέα συνάντηση την Τρίτη 20/10 στις 11:00 κατά το ΡΙΚ, χωρίς ανακοίνωση συμφωνίας.",
+        "text": "Εμπορία προσώπων στην Κύπρο: 29 καταδίκες την περίοδο 2020–2026, με την Επίτροπο να ζητεί έγκαιρο εντοπισμό και συνεχή στήριξη θυμάτων.",
         "story_ids": [
-          "cyprus-pyla-leaders-peace-festival-october-17-2026"
+          "cyprus-trafficking-29-convictions-2020-2026-october-18"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-10-18T04:37:16.980563+00:00",
-  "updated_at": "2026-10-18T04:37:16.980563+00:00",
-  "input_sha256": "ca3e5de1d0865f00caddc09b055073dce89f2cb6c3e5da13cb3d20affca96bba"
+  "updated_at": "2026-10-18T10:47:03.250378+00:00",
+  "input_sha256": "013f73990ee2cd7c86de8afaf605713d609ad35e3c5fc1fde5f8c9e733fe4b37"
 }
