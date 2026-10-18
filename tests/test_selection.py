@@ -109,6 +109,59 @@ class SelectionTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'explicit sports_interest'):
             selection.validate(e,articles)
 
+    def coverage_edition(self, slot='morning', local=5, world=5):
+        edition, articles = self.morning(local, world)
+        edition.update(id='2026-10-19-'+slot, date='2026-10-19', type=slot)
+        edition['selection_review'].update(version=2, section_shortfalls={})
+        for index, article in enumerate(articles):
+            article['story_id'] = 'distinct-story-'+str(index)
+        return edition, articles
+
+    def test_every_slot_requires_separate_five_story_sections(self):
+        for slot in ('morning', 'midday', 'evening'):
+            with self.subTest(slot=slot):
+                edition, articles = self.coverage_edition(slot)
+                articles[-1].update(category='Πρώτο θέμα', daily={'section':'world'})
+                selection.validate(edition, articles)
+                for local, world, name in ((5,4,'world'),(4,5,'cyprus'),(0,5,'cyprus')):
+                    with self.assertRaisesRegex(ValueError,name+' section needs five'):
+                        selection.validate(*self.coverage_edition(slot,local,world))
+
+    def test_shortfalls_require_section_specific_evidence_and_cannot_be_stale(self):
+        edition, articles = self.coverage_edition(local=3)
+        exception={'reason':'A broad Cyprus scan found only three distinct supported material stories.',
+                   'checked_sources':['https://www.example.org/news','https://example.org/other']}
+        edition['selection_review']['section_shortfalls']['cyprus']=exception
+        with self.assertRaisesRegex(ValueError,'two independent'):
+            selection.validate(edition,articles)
+        exception['checked_sources'][1]='https://independent.example/news'
+        selection.validate(edition,articles)
+        self.assertEqual(selection.coverage(edition,articles)['shortfalls'],{'cyprus':2})
+        edition, articles = self.coverage_edition()
+        edition['selection_review']['section_shortfalls']['cyprus']=exception
+        with self.assertRaisesRegex(ValueError,'stale cyprus'):
+            selection.validate(edition,articles)
+
+    def test_duplicate_stories_cannot_fill_sections_and_v1_cannot_bypass_policy(self):
+        edition, articles = self.coverage_edition()
+        articles[1]['story_id']=articles[0]['story_id']
+        with self.assertRaisesRegex(ValueError,'distinct story IDs'):
+            selection.validate(edition,articles)
+        edition, articles = self.coverage_edition('midday')
+        edition['selection_review']['version']=1
+        with self.assertRaisesRegex(ValueError,'version=2'):
+            selection.validate(edition,articles)
+
+    def test_policy_begins_next_slot_and_preserves_completed_editions(self):
+        edition, articles = self.morning(local=1,world=4)
+        edition.update(date='2026-10-18',type='midday')
+        selection.validate(edition,articles)
+        edition['type']='evening'
+        with self.assertRaisesRegex(ValueError,'version=2'):
+            selection.validate(edition,articles)
+        edition['status']='draft'
+        selection.validate(edition,articles)
+
 
 if __name__ == '__main__':
     unittest.main()

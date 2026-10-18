@@ -1,7 +1,7 @@
 {
   "contract_version": 1,
   "producer_protocol": "oracle-briefing/3",
-  "content_schema_sha256": "e31a86ea229692455921097b2c9d1a9fcd58d9fcd2015ce6d039926815621ce5",
+  "content_schema_sha256": "0907527d72e1bec712614458bee68beb92125519242f224e09ece92b0740b901",
   "edition_schema_versions": [
     2
   ],
@@ -78,10 +78,18 @@
     "resumable_publication",
     "research_packets",
     "photo_reuse",
-    "change_aware_checks"
+    "change_aware_checks",
+    "section_coverage_v2",
+    "ci_built_candidate"
   ],
+  "section_targets": {
+    "world": 5,
+    "cyprus": 5
+  },
+  "selection_review_version": 2,
+  "section_coverage_required_from": "2026-10-18-evening",
   "editorial_protocol": "oracle-editorial/1",
-  "runtime_policy_sha256": "432d617a8855d67e64d43d35e9c3086a141539e05151806bcb8d58e124fa15b7",
+  "runtime_policy_sha256": "41bef2b1d18ebcf7a56e29b7a652e768f644deda4f6febe4a4d99d2c2991178a",
   "required_from_local_date": "2026-10-16",
   "reading_review_version": 2,
   "image_review_version": 2,

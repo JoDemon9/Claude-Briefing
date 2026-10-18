@@ -220,6 +220,10 @@ def prepare(root,day,slot,at,private_root=None,wire_root=None):
     opportunities=[{'record':copy.deepcopy(r),'review':opportunity_due(r,at,policy)} for r in old_opportunities.values()]
     packet={'schema_version':1,'protocol':policy['protocol'],'edition_id':edition_id,'as_of':at.isoformat(),
         'runtime_policy':'BRIEFING_RUNTIME.md','broad_news_scan_required':True,'context_date':selected_day,
+        'section_targets':module('selection').TARGETS.copy(),
+        'section_selection':{'lead_counts_in_actual_section':True,
+            'review_version':2 if module('selection').coverage_required({'date':day,'type':slot}) else 1,
+            'action':'Select world and Cyprus separately; investigate shortages before an evidence-backed exception. Later slots retain useful dated context without claiming new reporting.'},
         'resume_research':resume,
         'stories':[{**r,'editorial_notes':notes.get(sid), 'use':'historical_context; research material changes'} for sid,r in sorted(selected.items(),key=lambda p:(p[1]['priority'],p[0]))],
         'opportunities':opportunities,'market_reference':{'edition_id':previous['id'] if previous else None,

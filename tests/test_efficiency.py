@@ -48,6 +48,7 @@ class EfficiencyTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             packet,path=research.prepare(ROOT,'2026-10-15','midday','2026-10-15T22:00:00+03:00',directory)
             self.assertTrue(path.is_file());self.assertTrue(packet['broad_news_scan_required'])
+            self.assertEqual(packet['section_targets'],{'world':5,'cyprus':5})
             self.assertEqual(packet['market_reference']['edition_id'],'2026-10-15-morning')
             self.assertTrue(all(r['slot']=='morning' for r in packet['stories']))
             self.assertTrue(all(r['record']['verified_at']==r['review']['verified_at'] for r in packet['opportunities']))
