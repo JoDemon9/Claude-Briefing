@@ -13,3 +13,5 @@ DEC-017: all three prompts select five International and five Cyprus articles se
 
 
 DEC-018: actual self-contained prompts supersede blanket startup reading. Use targeted reference sections, compact code-projected packet/collection views, mechanical copying of complete stable data, one story draft and one editorial review. Source reading for new/material claims, broad discovery, weather/due checks, photos/rights, article targets, all gates and exact live verification remain mandatory. Do not treat this policy as an implemented external service: only actual-main helpers/workflows may run. Prompt settings and the fourth task remain protected.
+
+DEC-019: show favourite sports headlines instead of generic links alone. Use bounded sports/context helpers where main supports them, otherwise existing sourced update fields. Preflight blockers before research; one draft/review and one input correction/recheck, then checkpoint failures. A 12,000-byte planning page is not a cap on evidence or account usage. All task settings and the historical fourth task remain protected. DEC-019 records actual prompt read-back and separate code/main/live status.

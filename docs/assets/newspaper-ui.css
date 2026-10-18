@@ -161,6 +161,13 @@ figure.photo figcaption{padding:10px 14px 4px;font:12px/1.5 Arial,sans-serif}.ph
 @media(max-width:599px){.sports.sports-links{grid-template-columns:1fr;gap:0}.sports.sports-links>.sport{flex-wrap:nowrap;padding:8px 12px;border-radius:0}.sports.sports-links h3{font-size:15px}.sports-links .sport-news-link{width:auto;flex:none;font-size:13px}.sports-other>.g3{grid-template-columns:1fr}}
 .sports.sports-links .teamicon{background:#fff;border:1px solid var(--line);border-radius:5px;width:38px;height:38px;padding:3px}
 .sports.sports-links .sport-logo{display:block;width:32px;height:32px;object-fit:contain}
+/* DEC-019: actual dated favourite headlines, visible without JavaScript. */
+.sport-headlines{flex:0 0 100%;min-width:0;width:100%;font:13px/1.5 Arial,sans-serif}
+.sport-headlines ul{list-style:none;padding:0;margin:0}.sport-headlines li+li{margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
+.sport-headlines .sport-headline-link{display:flex;align-items:center;min-height:44px;color:var(--ink);font:600 14px/1.45 Arial,sans-serif;text-underline-offset:3px;overflow-wrap:anywhere}
+.sport-headlines time,.sport-headlines li>span,.sport-source-status,.sport-check-time{display:block;color:var(--muted);font-size:12px;overflow-wrap:anywhere}
+.sport-source-status,.sport-check-time{margin:6px 0}.sport-check-time{border-top:1px solid var(--line);padding-top:6px}
+@media(max-width:599px){.sports.sports-links>.sport{flex-wrap:wrap;padding:12px}.sport-headlines{margin-top:2px}}
 /* DEC-012: compact mobile publication controls and explicit later coverage. */
 .mobile-publication-date,.mobile-editions{display:none}
 .story-follow-up{margin:0 0 14px;padding:8px 12px;border-left:3px solid var(--amber);background:var(--surface-soft);border-radius:3px}
