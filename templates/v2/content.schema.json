@@ -876,6 +876,87 @@
           }
         ]
       }
+    },
+    "favourite_news_item": {
+      "type": "object",
+      "required": [
+        "url",
+        "headline",
+        "published_at",
+        "retrieved_at"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "headline": {
+          "type": "string",
+          "minLength": 12,
+          "maxLength": 280
+        },
+        "headline_el": {
+          "type": "string",
+          "minLength": 8,
+          "maxLength": 280
+        },
+        "published_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}(T.*)?$"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    },
+    "favourite_news_check": {
+      "type": "object",
+      "required": [
+        "source_url",
+        "checked_at",
+        "status",
+        "items",
+        "note"
+      ],
+      "properties": {
+        "source_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "checked_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "status": {
+          "enum": [
+            "available",
+            "cached",
+            "unavailable"
+          ]
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "$ref": "#/$defs/favourite_news_item"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 160
+        }
+      },
+      "additionalProperties": false
     }
   },
   "type": "object",
@@ -1057,6 +1138,30 @@
         },
         "major_stories_reason": {
           "type": "string"
+        },
+        "news_links": {
+          "type": "object",
+          "required": [
+            "omonoia",
+            "manutd",
+            "realmadrid",
+            "formula1"
+          ],
+          "properties": {
+            "omonoia": {
+              "$ref": "#/$defs/favourite_news_check"
+            },
+            "manutd": {
+              "$ref": "#/$defs/favourite_news_check"
+            },
+            "realmadrid": {
+              "$ref": "#/$defs/favourite_news_check"
+            },
+            "formula1": {
+              "$ref": "#/$defs/favourite_news_check"
+            }
+          },
+          "additionalProperties": false
         }
       },
       "additionalProperties": false

@@ -17,10 +17,19 @@ class SelectionTests(unittest.TestCase):
         self.edition = json.loads((ROOT/'content/editions/2026-10-15-midday.json').read_text())
         self.articles = [json.loads((ROOT/'content'/p).read_text()) for p in self.edition['articles']]
 
-    def test_favourites_are_four_small_news_links_and_extra_f1_is_excluded(self):
+    def test_favourites_show_dated_headlines_and_extra_f1_is_excluded(self):
         original = copy.deepcopy(self.edition)
         doc = BeautifulSoup(build.sports(self.edition, self.articles), 'html.parser')
-        self.assertEqual(len(doc.select('.sports-links a')), 4)
+        self.assertEqual(len(doc.select('.sports-links .sport-news-link')), 4)
+        for key,team in self.edition['sports']['coverage'].items():
+            card=doc.select_one('.team-'+key)
+            links=card.select('.sport-headline-link')
+            self.assertLessEqual(len(links),2)
+            if team['updates']:self.assertTrue(links)
+            for link in links:
+                self.assertIn(link['href'],[s['url'] for u in team['updates'] for s in u['sources']])
+                self.assertIsNotNone(link.find_next_sibling('time'))
+            self.assertIn('Από το αρχείο',card.text)
         self.assertEqual(len(doc.select('.sports-links img.sport-logo')),4)
         self.assertTrue(all(img['alt']=='' for img in doc.select('.sport-logo')))
         for record in json.loads((ROOT/'templates/v2/sports-logos.json').read_text()):

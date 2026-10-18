@@ -65,9 +65,16 @@ class UIContentTests(unittest.TestCase):
         for key,team in edition['sports']['coverage'].items():
             card=sports.select_one('.team-'+key)
             self.assertEqual(card.select_one('.teamicon')['aria-hidden'],'true')
-            self.assertEqual(len(card.select('a')),1)
+            self.assertEqual(len(card.select('a.sport-news-link')),1)
+            headlines=card.select('a.sport-headline-link')
+            self.assertLessEqual(len(headlines),2)
+            if team['updates']:self.assertTrue(headlines)
+            for link in headlines:
+                self.assertIn(link.get_text(),[u['text'] for u in team['updates']])
+                self.assertIn(link['href'],[s['url'] for u in team['updates'] for s in u['sources']])
+                self.assertIsNotNone(link.find_next_sibling('time'))
             self.assertFalse(card.select('details,p'))
-            self.assertEqual(card.select_one('a').get_text(),'Τελευταία νέα ↗')
+            self.assertEqual(card.select_one('a.sport-news-link').get_text(),'Όλα τα νέα ↗')
         self.assertEqual(edition,original)
 
     def test_published_day_and_snapshot_use_explicit_editorial_lead_without_duplicates(self):
