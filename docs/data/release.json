@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "release_id": "22f84e3d9c5fcc7b6bd1707ced30586f66ccf3efc63d6e64138b52415ced32a8",
+  "release_id": "408ab79a4f56de653f8a988ee14816d17070ab1f4a5244aa05ab480898e32f61",
   "edition_ids": [
     "2026-10-18-midday",
     "2026-10-18-morning",
@@ -252,7 +252,7 @@
     "tests/test_selection.py": "084a3ecebf1e00a434370273f1f1c8c9cca56adbd6b1070f8492e2d18535d780",
     "tests/test_sports_news.py": "6d082bce8974c5795348257ac1bf8018d0aa22ba1fa69b3f8d586430bcec0d4d",
     "tests/test_structured_content.py": "7e65519b34d3bb2e79298c17824809548a2a5e91f85c928fdb09ce874dfd95c7",
-    "tests/test_ui_content.py": "6d80f0045688e370f866a448f7da4eb7873a9338919c9332b624b3919a19537e",
+    "tests/test_ui_content.py": "c8e91c766c0bb4bdcd2fff4b7a0f54c2baf02e8edee7c558eeca633479201787",
     "tests/fixtures/scenarios.json": "1a81028ca5347895a0285ef78e43492c3b23e1033dcecdf2684b045ac1b6c562",
     ".github/workflows/content-checks.yml": "1d7a7046f99dd79ec415a9bc5996acc09ba83f577c9bd8284618a5fa2ed030da",
     ".github/workflows/image-candidate.yml": "8b548d9e25338c9a61f64cf6c5a64ab1e3fd08c9d0c158e2e1b5edc3aa5c0c86",

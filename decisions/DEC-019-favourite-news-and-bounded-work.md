@@ -21,6 +21,8 @@ These are enforceable tool/work limits, not a hard percentage limit on the ChatG
 
 Focused sports/context regressions cover request/response budgets, safe URLs/redirects, cache and failed-source dates, unknown/future metadata, required fresh source statuses, immutable published editions, visible escaped headlines and complete bounded pagination. Existing selection/source-only/structured-content gates remain intact. Source content files remain unchanged; generated layout/metadata changes require full CI.
 
+The prior UI-content test explicitly required a single generic link and the old label per favourite. It is revised for this user-requested behavior: exactly one all-news link plus up to two actual source-backed update links with their full stored text/original dates, no hidden disclosures, and no mutation of source data. This supersedes that links-only assertion rather than removing source/quality checks.
+
 The live official-source probe returned two headlines per interest. The first Omonoia attempt exposed leading whitespace before its XML declaration; normalising that whitespace repaired parsing. A subsequent pass used the cache for the other three sources and needed one Omonoia request. No probe data or private report is published.
 
 Mobile/desktop checks with JavaScript enabled and disabled pass, including eight visible links, keyboard targets, no overflow, unknown dates and retained-source-failure states (24 frontend checks).
