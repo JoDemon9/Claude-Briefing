@@ -27,3 +27,8 @@ usage.py records private work counts, gate outcomes and optional actual account-
 Relevant modules: research, collect, photo_library, usage, checks, publisher/builder/release; research policy, compact prompts/runtime, schemas/public indexes, source/portal CI and failure tests. Current evening reporting and concurrent Wire updates are integrated into the existing review branches. Source article and Wire data invariants are checked against the actual main snapshot. Do not overwrite the later publication to reproduce an older candidate.
 
 Local validation is recorded in EFFICIENCY_REPORT_2026-10-15.md. The full candidate and isolated content-only path pass; both manifests and preservation invariants are checked. Internal prompts are updated/read-back exact at 4,955/4,968/4,999 characters, settings unchanged and the fourth task untouched. Helper code/main/Pages deployment remains a separate pending state; real Pro savings are not measured by replay.
+
+
+## Extension on 18 October 2026
+
+[DEC-016](DEC-016-section-coverage-and-github-checks.md) adds explicit five-per-section targets for every slot, evidence-backed section shortfalls, and GitHub-built candidate/receipt reuse. It revises the later-slot combined five-story scope while preserving no filler, source/editorial review, original times and historical snapshots. Actual task prompts are updated; the checked implementation in PR #15 awaits explicit merge approval.

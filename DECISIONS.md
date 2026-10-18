@@ -6,7 +6,7 @@ This is the canonical record of user needs that future changes must respect. Rea
 
 | ID | User need | Current status | Record |
 | --- | --- | --- | --- |
-| DEC-016 | Move deterministic checks/builds to GitHub and meet separate International/Cyprus article targets in every slot. | Implemented on review branch; main/CI and actual task status recorded in the decision. | [Section coverage and GitHub checks](decisions/DEC-016-section-coverage-and-github-checks.md) |
+| DEC-016 | Move deterministic checks/builds to GitHub and meet separate International/Cyprus article targets in every slot. | PR #15 passes full CI; actual prompts updated; merge approval pending. | [Section coverage and GitHub checks](decisions/DEC-016-section-coverage-and-github-checks.md) |
 | DEC-015 | Recover failed publication, improve news selection and clear writing, and keep schedules running. | Published and live verified on 16 October; deployment/task evidence in the recovery report. | [Production recovery](decisions/DEC-015-production-recovery-and-editorial-quality.md) |
 | DEC-014 | Reduce Pro usage and improve editorial quality through compact inputs, reuse and automated routine work. | Published and live verified; compact tasks active; real usage pilot pending. | [Efficient editorial production](decisions/DEC-014-efficient-editorial-production.md) |
 | DEC-013 | Reliable resumable publishing, status, versioned producers, identity, freshness and incremental work. | Published and live verified on 16 October; deployment/task evidence in the recovery report. | [Backend reliability](decisions/DEC-013-backend-publication-reliability.md) |

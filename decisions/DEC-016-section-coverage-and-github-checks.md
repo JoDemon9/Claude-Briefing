@@ -2,7 +2,7 @@
 
 - User request (18 October 2026): review the briefing Markdown and changes intended to move checks to GitHub, apply them to the prompts and section creation, and fix International/Cyprus article shortages.
 - Extends DEC-010/014/015. The working target is five International and five Cyprus articles in each edition, counting the lead once in its actual section. This replaces the later-slot instruction limiting both sections together to five. The user was offered the alternative of morning-only five/five while implementation continued; no answer was available when this record was prepared.
-- Status: implementation on review branch. Main deployment, GitHub check outcome and actual task updates are distinct; final evidence is recorded below.
+- Status: implementation checked on PR #15; all three actual prompts updated and read-back verified. Main/Pages deployment is pending explicit merge approval after automatic approval review rejected the merge.
 
 ## Findings and changes
 
@@ -20,9 +20,12 @@ No new scheduler, model/API, Telegram/email, private Pages, private artifact exp
 
 Focused checks cover separate section shortages in every slot, lead/duplicate counting, evidence requirements, stale exceptions, historical cutoff, packet targets and exact CI artifact reuse/rejection without rebuilding. Full unit and browser regression, deterministic build/release integrity and GitHub results are recorded after execution. Real ChatGPT quota savings are not measured or promised.
 
-## Actual status
+## Actual status — 18 October 2026
 
-- Local implementation and focused section/efficiency/receipt tests: passed.
-- Full regression/build/release and GitHub candidate checks: pending at record creation.
-- Main/Pages: not deployed at record creation.
-- Actual three task prompt updates/read-back: pending at record creation; schedules and historical task must remain unchanged.
+- Implementation: [PR #15](https://github.com/JoDemon9/Claude-Briefing/pull/15), checked code commit `1da61caf4c6405b85705880354b22a3d18c321ec`. Subsequent decision-record edits do not change release inputs or generated output.
+- GitHub: [full-profile run 39124298421](https://github.com/JoDemon9/Claude-Briefing/actions/runs/39124298421) passed all ten stages. Its release ID is `a4c45f505b8581daf6083eb694921ed97164d30d0191db6bbbf2a822fd300ebf`, matching the local candidate exactly. Both `briefing-built-candidate` (artifact 12135294502) and `briefing-candidate-checks` (12136041202) were produced for that exact implementation head.
+- Local: 132 unit tests passed; 576 browser checks, 16 frontend checks and 14 editorial browser checks across 22 articles passed. Build/release integrity passed for 19 editions and 152 articles. All 174 historical content files are byte-identical to the starting commit.
+- Earlier verification attempts: one full run was invalidated by concurrent implementation edits and restarted against fixed inputs. A local browser attempt hit the sandbox socket restriction; the complete browser suites passed after granting preview-server network permission. No test/gate was weakened.
+- Actual task prompts: morning/midday/evening updated and independently read back exactly at 5,398 / 5,497 / 5,488 characters. Titles, schedules (07:30 / 13:30 / 19:30 Europe/Athens), timezones, enabled states and destinations are preserved; the disabled historical fourth task is unchanged. No run-now was invoked. New fields/artifacts are conditional on actual main capabilities until deployment.
+- Main/Pages: implementation is not merged or deployed. Automatic approval review rejected the exact merge of PR #15 into main because the user's implementation/review request did not explicitly authorize that protected-branch merge. No indirect main update or workaround was attempted. The concrete checked PR is ready for explicit user approval.
+- Real quota savings and the exact unidentified Antigravity change: not measured/verified; no unsupported claim is made.
