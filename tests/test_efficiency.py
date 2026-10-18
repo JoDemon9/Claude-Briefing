@@ -202,8 +202,10 @@ class EfficiencyTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory);(root/'content/editions').mkdir(parents=True)
             (root/'content/articles/current').mkdir(parents=True)
-            edition={'id':'current','status':'published','articles':['articles/current/story.json']}
+            edition={'id':'current','status':'published','image_review':{'version':2},'articles':['articles/current/story.json']}
             (root/'content/editions/current.json').write_text(json.dumps(edition))
+            (root/'content/editions/legacy.json').write_text(json.dumps({
+                'id':'legacy','status':'published','articles':['legacy-illustration.json']}))
             url='https://upload.wikimedia.org/wikipedia/commons/example.jpg'
             asset=root/'docs/assets/editorial/current/story.webp'
             (root/'content/articles/current/story.json').write_text(json.dumps({'image':{
@@ -221,7 +223,8 @@ class EfficiencyTests(unittest.TestCase):
                 network.assert_called_once()
                 with Image.open(asset) as decoded:self.assertEqual(decoded.format,'WEBP')
                 original=asset.read_bytes();network.reset_mock()
-                checks.prepare_candidate_images(root,['current'],verify_only=True)
+                result=checks.prepare_candidate_images(root,verify_only=True)
+                self.assertEqual(result['edition_ids'],['current'])
                 network.assert_not_called();self.assertEqual(asset.read_bytes(),original)
 
     def test_code_changes_cannot_downgrade_to_content_checks(self):

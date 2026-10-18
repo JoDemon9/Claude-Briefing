@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "release_id": "97599b48e56ad9c5f37aa2fee4a82470d3f4c78b7827da26dea01bbc7cde5e61",
+  "release_id": "1de88dec723be1cecf5bb10ebf6eeeecb4a1c614730ccdfeab47371896cf2aef",
   "edition_ids": [
     "2026-10-18-midday",
     "2026-10-18-morning",
@@ -212,7 +212,7 @@
     "scripts/v2/atomic.py": "187c5c9471a078e371d7f500126402707994ae36f616de74ec86101ee4cf48d2",
     "scripts/v2/backend.py": "dc50dc0c932de780be27c29310358b24cd32d62250868eb30a911b494bffa916",
     "scripts/v2/build.py": "b6dec5b22afe177049f402c67a0df5506e057c7344faa9920bd9f809ac876e60",
-    "scripts/v2/checks.py": "ee128d77c8d4e050b039de2abf04857c0fa8c9b61b910ddd4f830ab766c83f5c",
+    "scripts/v2/checks.py": "0cdc1ff7d3c39ab6639953bba010cd7785c33e1ae0231c53b8de280aec68d7d2",
     "scripts/v2/collect.py": "dbe47f6e40bfb8ff5b6c34847483f6c57edea98f0631b50036930b4a94cb7815",
     "scripts/v2/compact_markets.py": "ade13cf958ccdb0ae2a333b529f8bf71752c67cfee98464b070dcb09b6014b9c",
     "scripts/v2/daily.py": "db1bed80bcc0516896c428bc278b8d222a7982448818c0e66e9c36ae8a1cd31a",
@@ -241,7 +241,7 @@
     "tests/test_daily.py": "276d153915ebac4701f822f45a97d95267cac927ffd254bc22b19b8f4c662260",
     "tests/test_editorial_images.py": "ac7892942abdcb442d4dcba67783b62b51163969be8589da8918d2e3097887f4",
     "tests/test_editorial_value.py": "5298ddb6707eb93f9923f9e4c1804365ea08777524d7d3b6ee850bbd72210502",
-    "tests/test_efficiency.py": "cc7b2cd3e7c60369869650b8e11afc942d73789506c8f45c4169840ff61715d5",
+    "tests/test_efficiency.py": "22cddd043a41e3bc3878c6080697ecb77c80b4289a910a880067fe3f614902e6",
     "tests/test_follow_ups.py": "4bfab22d2fd1c88152efbc2eeab984fbab27f261320b36d95ca0697924767200",
     "tests/test_latest.py": "3086f98b30f014f343d038d67d5ef7b8e7e5b8ced5d8029f7a805fbaa44ce664",
     "tests/test_opportunities.py": "5fa779ce501fbcf67bfcf2676a4f295ff568ef2ce17ebd6b3cdff0d5596fb1e0",

@@ -47,6 +47,9 @@ def prepare_candidate_images(root, edition_ids=(), verify_only=False):
     for path in sorted((root/'content/editions').glob('*.json')):
         edition=json.loads(path.read_text())
         if edition['status']!='published' or (edition_ids and edition['id'] not in edition_ids):continue
+        # Historical snapshots can contain legacy illustrations. New publications
+        # without image review are rejected by validation, never upgraded here.
+        if not edition.get('image_review'):continue
         images.prepare(root,edition['id'],verify_only=verify_only)
         prepared.append(edition['id'])
     return {'edition_ids':prepared,'mode':'verify_only' if verify_only else 'prepare_selected_assets'}
