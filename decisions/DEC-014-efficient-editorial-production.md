@@ -31,4 +31,4 @@ Local validation is recorded in EFFICIENCY_REPORT_2026-10-15.md. The full candid
 
 ## Extension on 18 October 2026
 
-[DEC-016](DEC-016-section-coverage-and-github-checks.md) adds explicit five-per-section targets for every slot, evidence-backed section shortfalls, and GitHub-built candidate/receipt reuse. It revises the later-slot combined five-story scope while preserving no filler, source/editorial review, original times and historical snapshots. Actual task prompts are updated; the checked implementation in PR #15 awaits explicit merge approval.
+[DEC-017](DEC-017-section-coverage-and-github-checks.md) adds explicit five-per-section targets for every slot, evidence-backed section shortfalls, and GitHub-built candidate/receipt reuse. It revises the later-slot combined five-story scope while preserving no filler, source/editorial review, original times and historical snapshots. Actual task prompts are updated; the checked implementation in PR #15 has explicit user merge approval and awaits amended candidate verification.

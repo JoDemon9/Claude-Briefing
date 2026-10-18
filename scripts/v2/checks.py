@@ -41,6 +41,17 @@ def classify(root,base=None):
             'reason':'Publisher/schema/template/test/workflow change.' if profile=='full' else 'Content only; current/changed gates remain blocking.'}
 
 
+def prepare_candidate_images(root, edition_ids=(), verify_only=False):
+    """Prepare selected public assets before validation; never select or approve images."""
+    root=Path(root);images=module('prepare_images');prepared=[]
+    for path in sorted((root/'content/editions').glob('*.json')):
+        edition=json.loads(path.read_text())
+        if edition['status']!='published' or (edition_ids and edition['id'] not in edition_ids):continue
+        images.prepare(root,edition['id'],verify_only=verify_only)
+        prepared.append(edition['id'])
+    return {'edition_ids':prepared,'mode':'verify_only' if verify_only else 'prepare_selected_assets'}
+
+
 def run(root=ROOT,base=None,prebuilt=False,profile=None,execute=None):
     root=Path(root).resolve();selection=classify(root,base)
     if profile=='full':selection['profile']='full'
@@ -83,6 +94,7 @@ def run(root=ROOT,base=None,prebuilt=False,profile=None,execute=None):
             rows.append(inventory.coverage(edition,articles))
         result['section_coverage']=rows
         return rows
+    step('prepare_images',fn=lambda:prepare_candidate_images(root,selection['edition_ids'],verify_only=prebuilt))
     step('section_coverage',fn=sections)
     step('validate',fn=lambda:module('publish').validate(root))
     if not prebuilt:
