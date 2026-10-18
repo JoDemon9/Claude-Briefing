@@ -7,3 +7,6 @@ Apply only the prompt to the same existing morning/midday/evening task IDs. Keep
 The user has approved these targeted prompt changes. Main/Pages release and actual internal task updates remain distinct. Prompts include a supported-main fallback while implementation is still under review; they never authorise merging a PR merely to obtain a helper.
 
 Full prior prompts and original requirements remain under maintenance/history/2026-10-15 for provenance. The new contract retains factual verification, rights/images, private/public separation, reading/finance/opportunity rules, original times, real two-site live checks and all agreed presentation choices. It removes repeated instructions, unnecessary hidden favourite-sports research and development/debugging during production.
+
+
+DEC-017: all three prompts select five International and five Cyprus articles separately, with explicit evidence-backed section shortfalls only after broader research. They delegate deterministic gates/build/browser checks to the existing GitHub Actions and consume the exact passing candidate receipt/artifact. Main capability checks precede version-2 fields. Later editions keep useful dated context without false novelty. Apply these prompt-only changes to the existing tasks; preserve all settings and the historical fourth task.

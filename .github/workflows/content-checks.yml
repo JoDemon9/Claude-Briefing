@@ -28,13 +28,22 @@ jobs:
       - name: Validate one candidate and report blocking gates
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+          CANDIDATE_SOURCE_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
         run: python scripts/v2/checks.py --base "$BASE_SHA"
       - name: Confirm generated files are committed
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: git diff --exit-code -- docs/
+      - name: Return the exact built public candidate
+        uses: actions/upload-artifact@v4
+        with:
+          name: briefing-built-candidate
+          retention-days: 7
+          path: docs/
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: briefing-candidate-checks
+          retention-days: 7
           path: |
             .work/check-report.json
             .work/check-logs/

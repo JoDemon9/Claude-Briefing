@@ -1,5 +1,7 @@
 # Working in Claude-Briefing
 
+DEC-017: each slot targets five International and five Cyprus stories separately, with explicit evidence-backed exceptions after broader discovery. Count the lead in its actual section. Later snapshots may retain useful dated coverage without false novelty. Delegate deterministic build/gates/browser checks to the existing GitHub Actions, read the compact report and reuse the exact passing public artifact/receipt. ChatGPT retains editorial/source review. Read BRIEFING_RUNTIME.md for the version-2 selection contract and preserved historical cutoff. The user authorises the corresponding prompt-only updates to the three existing tasks with all settings and the fourth historical task preserved.
+
 The user approved the efficiency plan (DEC-014): keep all three Greek editions and quality gates while removing repeated reads, hidden sports research and routine maintenance from production. The user authorises the corresponding edits to all three existing ChatGPT prompts; preserve titles/schedules/timezones/enabled states/destinations and the fourth historical task.
 
 For a routine briefing, read applicable AGENTS files and [BRIEFING_RUNTIME.md](BRIEFING_RUNTIME.md) once. Use the compact packet and fresh main capabilities, targeted source/schema lookups and the maintained scripts. Do not reread the full manuals/renderer/decision archive on every run. This supersedes older blanket startup lists and closed-task notes saying automations were unchanged. The saved historical documents are references, not an extra checklist.

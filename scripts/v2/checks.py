@@ -5,6 +5,7 @@ from contextlib import redirect_stdout
 from datetime import datetime,timezone
 import importlib.util
 import json
+import os
 from pathlib import Path
 import subprocess
 import sys
@@ -40,6 +41,20 @@ def classify(root,base=None):
             'reason':'Publisher/schema/template/test/workflow change.' if profile=='full' else 'Content only; current/changed gates remain blocking.'}
 
 
+def prepare_candidate_images(root, edition_ids=(), verify_only=False):
+    """Prepare selected public assets before validation; never select or approve images."""
+    root=Path(root);images=module('prepare_images');prepared=[]
+    for path in sorted((root/'content/editions').glob('*.json')):
+        edition=json.loads(path.read_text())
+        if edition['status']!='published' or (edition_ids and edition['id'] not in edition_ids):continue
+        # Historical snapshots can contain legacy illustrations. New publications
+        # without image review are rejected by validation, never upgraded here.
+        if not edition.get('image_review'):continue
+        images.prepare(root,edition['id'],verify_only=verify_only)
+        prepared.append(edition['id'])
+    return {'edition_ids':prepared,'mode':'verify_only' if verify_only else 'prepare_selected_assets'}
+
+
 def run(root=ROOT,base=None,prebuilt=False,profile=None,execute=None):
     root=Path(root).resolve();selection=classify(root,base)
     if profile=='full':selection['profile']='full'
@@ -47,6 +62,13 @@ def run(root=ROOT,base=None,prebuilt=False,profile=None,execute=None):
     output=root/'.work/check-report.json';folder=root/'.work/check-logs';folder.mkdir(parents=True,exist_ok=True)
     result={'schema_version':1,'status':'running','selection':selection,'steps':[],
             'started_at':datetime.now(timezone.utc).isoformat()}
+    try:
+        commit=subprocess.check_output(['git','-C',str(root),'rev-parse','HEAD'],text=True,stderr=subprocess.DEVNULL).strip()
+    except subprocess.CalledProcessError:
+        commit=None
+    result['candidate']={'checked_commit_sha':commit,
+        'source_commit_sha':os.environ.get('CANDIDATE_SOURCE_SHA') or commit,
+        'workflow_run_id':os.environ.get('GITHUB_RUN_ID')}
     atomic=module('atomic')
     def step(name,command=None,fn=None):
         start=time.perf_counter();record={'name':name,'status':'running'};result['steps'].append(record);atomic.write_json(output,result)
@@ -64,6 +86,19 @@ def run(root=ROOT,base=None,prebuilt=False,profile=None,execute=None):
             record.update(status='failed',error_type=type(error).__name__,seconds=round(time.perf_counter()-start,3))
             result.update(status='failed',failed_step=name);atomic.write_json(output,result);raise
         atomic.write_json(output,result)
+    def sections():
+        inventory=module('selection');rows=[]
+        paths=sorted((root/'content/editions').glob('*.json'))
+        for path in paths:
+            edition=json.loads(path.read_text())
+            if edition['status']!='published':continue
+            if selection['edition_ids'] and edition['id'] not in selection['edition_ids']:continue
+            articles=[json.loads((root/'content'/p).read_text()) for p in edition['articles']]
+            rows.append(inventory.coverage(edition,articles))
+        result['section_coverage']=rows
+        return rows
+    step('prepare_images',fn=lambda:prepare_candidate_images(root,selection['edition_ids'],verify_only=prebuilt))
+    step('section_coverage',fn=sections)
     step('validate',fn=lambda:module('publish').validate(root))
     if not prebuilt:
         step('build',fn=lambda:module('build').build(root,incremental=True))

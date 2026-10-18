@@ -1,6 +1,7 @@
 import copy
 from email.message import Message
 import importlib.util
+import io
 import json
 from pathlib import Path
 import shutil
@@ -48,6 +49,7 @@ class EfficiencyTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             packet,path=research.prepare(ROOT,'2026-10-15','midday','2026-10-15T22:00:00+03:00',directory)
             self.assertTrue(path.is_file());self.assertTrue(packet['broad_news_scan_required'])
+            self.assertEqual(packet['section_targets'],{'world':5,'cyprus':5})
             self.assertEqual(packet['market_reference']['edition_id'],'2026-10-15-morning')
             self.assertTrue(all(r['slot']=='morning' for r in packet['stories']))
             self.assertTrue(all(r['record']['verified_at']==r['review']['verified_at'] for r in packet['opportunities']))
@@ -194,6 +196,36 @@ class EfficiencyTests(unittest.TestCase):
         with mock.patch.object(prepare.time,'sleep') as pause,mock.patch.object(prepare.urllib.request,'urlopen') as network:
             prepare.prepare(ROOT,'2026-10-15-evening')
             pause.assert_not_called();network.assert_not_called()
+
+    def test_ci_prepares_missing_selected_images_and_prebuilt_checks_do_not_download(self):
+        from PIL import Image
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);(root/'content/editions').mkdir(parents=True)
+            (root/'content/articles/current').mkdir(parents=True)
+            edition={'id':'current','status':'published','image_review':{'version':2},'articles':['articles/current/story.json']}
+            (root/'content/editions/current.json').write_text(json.dumps(edition))
+            (root/'content/editions/legacy.json').write_text(json.dumps({
+                'id':'legacy','status':'published','articles':['legacy-illustration.json']}))
+            url='https://upload.wikimedia.org/wikipedia/commons/example.jpg'
+            asset=root/'docs/assets/editorial/current/story.webp'
+            (root/'content/articles/current/story.json').write_text(json.dumps({'image':{
+                'url':'assets/editorial/current/story.webp','original_url':url}}))
+            payload=io.BytesIO();Image.new('RGB',(400,300),'blue').save(payload,'JPEG')
+            response=mock.MagicMock();response.__enter__.return_value=response
+            response.headers.get_content_type.return_value='image/jpeg'
+            response.geturl.return_value=url;response.read.return_value=payload.getvalue()
+            with mock.patch('urllib.request.urlopen',return_value=response) as network,mock.patch('time.sleep'):
+                with self.assertRaisesRegex(ValueError,'Missing image asset'):
+                    checks.prepare_candidate_images(root,['current'],verify_only=True)
+                network.assert_not_called()
+                result=checks.prepare_candidate_images(root,['current'])
+                self.assertEqual(result['edition_ids'],['current']);self.assertTrue(asset.is_file())
+                network.assert_called_once()
+                with Image.open(asset) as decoded:self.assertEqual(decoded.format,'WEBP')
+                original=asset.read_bytes();network.reset_mock()
+                result=checks.prepare_candidate_images(root,verify_only=True)
+                self.assertEqual(result['edition_ids'],['current'])
+                network.assert_not_called();self.assertEqual(asset.read_bytes(),original)
 
     def test_code_changes_cannot_downgrade_to_content_checks(self):
         with mock.patch.object(checks,'classify',return_value={'profile':'full','changed_files':['templates/v2/x.css'],'edition_ids':[]}):

@@ -1460,7 +1460,10 @@
       ],
       "properties": {
         "version": {
-          "const": 1
+          "enum": [
+            1,
+            2
+          ]
         },
         "completed_at": {
           "type": "string",
@@ -1472,8 +1475,78 @@
             "null"
           ],
           "minLength": 20
+        },
+        "section_shortfalls": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "world": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "reason",
+                "checked_sources"
+              ],
+              "properties": {
+                "reason": {
+                  "type": "string",
+                  "minLength": 40
+                },
+                "checked_sources": {
+                  "type": "array",
+                  "minItems": 2,
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "string",
+                    "format": "uri",
+                    "pattern": "^https://"
+                  }
+                }
+              }
+            },
+            "cyprus": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "reason",
+                "checked_sources"
+              ],
+              "properties": {
+                "reason": {
+                  "type": "string",
+                  "minLength": 40
+                },
+                "checked_sources": {
+                  "type": "array",
+                  "minItems": 2,
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "string",
+                    "format": "uri",
+                    "pattern": "^https://"
+                  }
+                }
+              }
+            }
+          }
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "version": {
+                "const": 2
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "section_shortfalls"
+            ]
+          }
+        }
+      ]
     },
     "freshness": {
       "$ref": "#/$defs/freshness"

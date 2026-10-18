@@ -135,6 +135,21 @@ def validate(root):
         builder.ROOT=previous
 
 
+def accept_checks(root, checks_receipt):
+    """Bind an actual check report to the current public files and all release inputs."""
+    root=Path(root)
+    proof=json.loads(Path(checks_receipt).read_text())
+    receipt=module('release').manifest(root)
+    recorded=json.loads((root/'docs/data/release.json').read_text())
+    required=module('checks').classify(root)['profile']
+    if (recorded!=receipt or proof.get('status')!='passed' or
+            proof.get('release_id')!=receipt['release_id'] or
+            proof.get('selection',{}).get('profile') not in ('content','full') or
+            (required=='full' and proof['selection']['profile']!='full')):
+        raise ValueError('Candidate checks receipt does not cover this release/profile')
+    return {'status':'passed','release_id':receipt['release_id'],'report':str(checks_receipt)}
+
+
 def run(root=ROOT, portal=None, publish=False, handlers=None, checks_receipt=None):
     root=Path(root).resolve();portal=Path(portal).resolve() if portal else None
     if portal is None or portal==root:raise ValueError('A distinct portal checkout is required')
@@ -175,6 +190,10 @@ def run(root=ROOT, portal=None, publish=False, handlers=None, checks_receipt=Non
         call('generated',lambda:{'edition_ids':list(state['editions'])})
         call('validated',lambda:validate(root))
         def build():
+            if checks_receipt:
+                result=accept_checks(root,checks_receipt)
+                state['release_id']=result['release_id']
+                return {**result,'build':'reused exact checked candidate'}
             result=module('build').build(root,incremental=True)
             receipt=release.record(root)
             state['release_id']=receipt['release_id']
@@ -188,11 +207,7 @@ def run(root=ROOT, portal=None, publish=False, handlers=None, checks_receipt=Non
             persist();call('built',build)
         def checked():
             if checks_receipt:
-                proof=json.loads(Path(checks_receipt).read_text())
-                required=module('checks').classify(root)['profile']
-                if proof.get('status')!='passed' or proof.get('release_id')!=state['release_id'] or (required=='full' and proof.get('selection',{}).get('profile')!='full'):
-                    raise ValueError('Candidate checks receipt does not cover this release/profile')
-                return {'status':'passed','release_id':proof['release_id'],'report':str(checks_receipt)}
+                return accept_checks(root,checks_receipt)
             return module('checks').run(root,prebuilt=True)
         call('checked',checked)
         if not publish:

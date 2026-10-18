@@ -149,6 +149,31 @@ class BackendTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError,'Another publication'):
                     with atomic.lock(path):pass
 
+    def test_ci_candidate_is_reused_without_build_and_rejects_changed_bytes_or_weak_profile(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);(root/'docs/data').mkdir(parents=True)
+            (root/'content/editions').mkdir(parents=True)
+            (root/'docs/index.html').write_text('Exact tested candidate')
+            (root/'docs/data/editions.json').write_text(json.dumps([{'id':'candidate','status':'published','url':'index.html'}]))
+            receipt=release.record(root)
+            report=root/'checks.json'
+            proof={'status':'passed','release_id':receipt['release_id'],'selection':{'profile':'full'}}
+            report.write_text(json.dumps(proof))
+            handlers={name:mock.Mock(return_value={}) for name in ('generated','validated')}
+            original=publish.module
+            def modules(name):
+                if name=='build':raise AssertionError('An unchanged CI candidate must not be rebuilt')
+                return original(name)
+            with mock.patch.object(publish,'module',side_effect=modules):
+                state=publish.run(root,root/'portal',handlers=handlers,checks_receipt=report)
+            self.assertEqual(state['stages']['built']['result']['build'],'reused exact checked candidate')
+            self.assertEqual(state['stages']['checked']['status'],'complete')
+            proof['selection']['profile']='content';report.write_text(json.dumps(proof))
+            with self.assertRaisesRegex(ValueError,'release/profile'):publish.accept_checks(root,report)
+            proof['selection']['profile']='full';report.write_text(json.dumps(proof))
+            (root/'docs/index.html').write_text('Changed after CI')
+            with self.assertRaisesRegex(ValueError,'release/profile'):publish.accept_checks(root,report)
+
     def test_git_publication_preserves_concurrent_wire_and_retry_is_idempotent(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory);remote=root/'JoDemon9/oracle-briefing.git'
