@@ -231,6 +231,33 @@ class EfficiencyTests(unittest.TestCase):
         with mock.patch.object(checks,'classify',return_value={'profile':'full','changed_files':['templates/v2/x.css'],'edition_ids':[]}):
             with self.assertRaisesRegex(ValueError,'cannot use'):checks.run(ROOT,profile='content',execute=mock.Mock())
 
+    def test_source_only_ci_builds_before_file_validation_and_still_rejects_missing_readers(self):
+        fixture_spec=importlib.util.spec_from_file_location('source_only_fixture',ROOT/'tests/test_structured_content.py')
+        fixture=importlib.util.module_from_spec(fixture_spec);fixture_spec.loader.exec_module(fixture)
+        helper=fixture.StructuredContentTests();helper.setUp()
+        with tempfile.TemporaryDirectory() as directory:
+            edition,articles=helper.edition,helper.articles
+            root=helper.fixture_root(directory,edition,articles)
+            self.assertFalse((root/'docs'/edition['url']).exists())
+            with self.assertRaisesRegex(ValueError,'unavailable edition'):
+                load('publish').validate(root)
+            executed=[]
+            def execute(name,command,fn):
+                executed.append(name)
+                if fn:fn()
+            with mock.patch.object(checks,'classify',return_value={
+                    'profile':'content','changed_files':['content/editions/'+edition['id']+'.json'],
+                    'edition_ids':[edition['id']]}):
+                result=checks.run(root,execute=execute)
+                self.assertEqual(result['status'],'passed')
+                self.assertLess(executed.index('build'),executed.index('validate'))
+                reader=root/'docs'/articles[0]['url']
+                self.assertTrue(reader.is_file());reader.unlink()
+                with self.assertRaisesRegex(ValueError,'unavailable reader'):
+                    checks.run(root,prebuilt=True,execute=execute)
+                report=json.loads((root/'.work/check-report.json').read_text())
+                self.assertEqual(report['failed_step'],'validate')
+
     def test_routine_and_code_change_profiles_are_distinct(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory);subprocess.run(['git','init','--initial-branch=main',str(root)],check=True,capture_output=True)
