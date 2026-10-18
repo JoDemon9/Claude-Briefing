@@ -175,6 +175,13 @@
       "world-china": "articles/2026-10-17-morning/world-china.html",
       "world-brazil": "articles/2026-10-17-morning/world-brazil.html",
       "cyprus-larnaca": "articles/2026-10-17-morning/cyprus-larnaca.html"
+    },
+    "2026-10-18-morning": {
+      "lead-france": "articles/2026-10-18-morning/lead-france.html",
+      "world-india": "articles/2026-10-18-morning/world-india.html",
+      "world-diplomats": "articles/2026-10-18-morning/world-diplomats.html",
+      "world-kenya": "articles/2026-10-18-morning/world-kenya.html",
+      "cyprus-pyla": "articles/2026-10-18-morning/cyprus-pyla.html"
     }
   },
   "reader.html": {
@@ -224,5 +231,8 @@
   },
   "readers/2026-10-17.html": {
     "edition_id": "2026-10-17-morning"
+  },
+  "readers/2026-10-18.html": {
+    "edition_id": "2026-10-18-morning"
   }
 }

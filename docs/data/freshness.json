@@ -204,6 +204,51 @@
         }
       ],
       "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-10-18-morning",
+      "as_of": "2026-10-18T07:36:54+03:00",
+      "records": [
+        {
+          "owner": "2026-10-18-morning",
+          "id": "limassol-south-coast-2026-10-18",
+          "kind": "weather",
+          "label": "Νότια παράλια/Λεμεσός · Κυριακή 18/10",
+          "checked_at": "2026-10-18T04:31:54.571827+00:00",
+          "valid_from": "2026-10-18T06:00:00+03:00",
+          "valid_until": "2026-10-19T06:00:00+03:00",
+          "recheck_at": "2026-10-18T13:00:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_a.html"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-18-morning",
+          "id": "weather-warning-recheck-2026-10-18",
+          "kind": "recheck",
+          "label": "Agromet: καμία προειδοποίηση στον τρέχοντα έλεγχο",
+          "checked_at": "2026-10-18T04:31:58.686227+00:00",
+          "recheck_at": "2026-10-18T13:00:00+03:00",
+          "sources": [
+            "https://agromet.dom.org.cy/"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-18-morning",
+          "id": "wainwright-casualty-recheck-2026-10-18",
+          "kind": "recheck",
+          "label": "Wainwright: εκκρεμεί συγκεκριμένος απολογισμός και αιτία",
+          "checked_at": "2026-10-18T04:32:27.132063+00:00",
+          "recheck_at": "2026-10-18T13:00:00+03:00",
+          "sources": [
+            "https://apnews.com/article/canada-alberta-military-base-fire-wainwright-1a41899da5b6e797b000061fa4da9c6a"
+          ],
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
     }
   ]
 }

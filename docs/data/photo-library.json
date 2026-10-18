@@ -195,6 +195,32 @@
       ]
     },
     {
+      "id": "303346c4ccf61ce471ee01d3ef0ce9bb69d6a710167d7a855147ee8b3f7c8d83",
+      "asset": "assets/editorial/2026-10-18-morning/lead-france.webp",
+      "image": {
+        "url": "assets/editorial/2026-10-18-morning/lead-france.webp",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Paris-2023-01-31-manif-retraites07.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Paris-2023-01-31-manif-retraites07.jpg",
+        "caption": "Παρίσι, διαδήλωση κατά της συνταξιοδοτικής μεταρρύθμισης στο 13ο διαμέρισμα, 31/1/2023. Αρχείο, όχι οι ταραχές της 17/10/2026.",
+        "alt": "Διαδηλωτές και πανό σε δημαρχείο του Παρισιού, 31 Ιανουαρίου 2023.",
+        "attribution": "Roland Godefroy / Wikimedia Commons · μετατροπή WebP",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "retrieved_at": "2026-10-18T04:33:50.449675+00:00"
+      },
+      "dimensions": [
+        1280,
+        893
+      ],
+      "references": [
+        {
+          "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+          "article_path": "articles/2026-10-18-morning/lead-france.json",
+          "edition_id": "2026-10-18-morning"
+        }
+      ]
+    },
+    {
       "id": "34c2ec4b915629bd00270c9d67d17f7a6371b9263cd65ae4f4ee783657c2ea5d",
       "asset": "assets/editorial/2026-10-15-evening/sport-bodo.webp",
       "image": {
@@ -353,6 +379,11 @@
           "story_id": "west-bank-olive-harvest-attacks-october-16-2026",
           "article_path": "articles/2026-10-17-morning/world-westbank.json",
           "edition_id": "2026-10-17-morning"
+        },
+        {
+          "story_id": "west-bank-diplomats-attack-october-17-2026",
+          "article_path": "articles/2026-10-18-morning/world-diplomats.json",
+          "edition_id": "2026-10-18-morning"
         }
       ]
     },
@@ -467,6 +498,11 @@
           "story_id": "kenya-ebola-third-confirmed-case-october-16-2026",
           "article_path": "articles/2026-10-17-morning/world-kenya.json",
           "edition_id": "2026-10-17-morning"
+        },
+        {
+          "story_id": "kenya-ebola-third-confirmed-case-october-16-2026",
+          "article_path": "articles/2026-10-18-morning/world-kenya.json",
+          "edition_id": "2026-10-18-morning"
         }
       ]
     },
@@ -565,6 +601,11 @@
           "story_id": "cyprus-cop31-presidential-attendance",
           "article_path": "articles/2026-10-14-morning/cyprus-3.json",
           "edition_id": "2026-10-14-morning"
+        },
+        {
+          "story_id": "cyprus-pyla-leaders-peace-festival-october-17-2026",
+          "article_path": "articles/2026-10-18-morning/cyprus-pyla.json",
+          "edition_id": "2026-10-18-morning"
         }
       ]
     },
@@ -783,6 +824,32 @@
           "story_id": "brazil-prodes-deforestation-2025-2026-release",
           "article_path": "articles/2026-10-17-morning/world-brazil.json",
           "edition_id": "2026-10-17-morning"
+        }
+      ]
+    },
+    {
+      "id": "97a1416d4290f74c94fb44bb212359027a501ec7417f4efbfc10ec8b698a1b58",
+      "asset": "assets/editorial/2026-10-18-morning/world-india.webp",
+      "image": {
+        "url": "assets/editorial/2026-10-18-morning/world-india.webp",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Durga_Puja_Festival_-_Kolkata_October_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Durga_Puja_Festival_-_Kolkata_October_2022.jpg",
+        "caption": "Durga Puja στην Καλκούτα, 1/10/2022. Θεματική φωτογραφία αρχείου, όχι ο χώρος ή τα θύματα της τραγωδίας του 2026.",
+        "alt": "Φωτογραφία της γιορτής Durga Puja στην Καλκούτα, αρχείο Οκτωβρίου 2022.",
+        "attribution": "Pramanikshreya / Wikimedia Commons · μετατροπή WebP",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "retrieved_at": "2026-10-18T04:33:50.485685+00:00"
+      },
+      "dimensions": [
+        1280,
+        960
+      ],
+      "references": [
+        {
+          "story_id": "kolkata-durga-puja-crowd-crush-october-17-2026",
+          "article_path": "articles/2026-10-18-morning/world-india.json",
+          "edition_id": "2026-10-18-morning"
         }
       ]
     },

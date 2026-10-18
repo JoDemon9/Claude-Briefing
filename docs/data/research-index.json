@@ -113,6 +113,13 @@
       "type": "morning",
       "published_at": "2026-10-17T08:55:01+03:00",
       "url": "morning/2026-10-17.html"
+    },
+    {
+      "id": "2026-10-18-morning",
+      "date": "2026-10-18",
+      "type": "morning",
+      "published_at": "2026-10-18T07:36:54+03:00",
+      "url": "morning/2026-10-18.html"
     }
   ],
   "stories": [
@@ -3993,6 +4000,173 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-17-morning/cyprus-larnaca.webp"
+    },
+    {
+      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+      "identity": "france-cost-of-living-mobilisation-october-17-2026",
+      "edition_id": "2026-10-18-morning",
+      "date": "2026-10-18",
+      "slot": "morning",
+      "published_at": "2026-10-18T07:36:54+03:00",
+      "available_at": "2026-10-18T07:36:54+03:00",
+      "headline": "Γαλλία: τουλάχιστον 1.200 συλλήψεις και εκτεταμένες ζημιές μετά τις διαδηλώσεις",
+      "finding": "Τουλάχιστον 1.200 συλλήψεις και 150 τραυματίες αστυνομικούς αναφέρει το νεότερο ρεπορτάζ του BBC για τις διαδηλώσεις του Σαββάτου 17 Οκτωβρίου στη Γαλλία, αποδίδοντας τα στοιχεία στις αρχές. Εκατοντάδες χιλιάδες συμμετείχαν για την ακρίβεια και τις συνθήκες στα σχολεία. Στο Παρίσι και άλλες πόλεις σημειώθηκαν λεηλασίες και εμπρησμοί· στο δημαρχείο της Λιμόζ κατέρρευσε μέρος της στέγης. Η κύρια απογευματινή πορεία στο Παρίσι ήταν σε μεγάλο βαθμό ειρηνική, σύμφωνα με την επιτόπια καταγραφή.",
+      "section": "world",
+      "priority": 0,
+      "article_path": "articles/2026-10-18-morning/lead-france.json",
+      "reader_url": "articles/2026-10-18-morning/lead-france.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/c6d937wedj7jo",
+          "publisher": "BBC · επιτόπια ανταπόκριση",
+          "reporting_group": "BBC · επιτόπια ανταπόκριση",
+          "published_at": "2026-10-17T18:40:14.676Z",
+          "retrieved_at": "2026-10-18T04:32:52.900138+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://apnews.com/article/44b9d3ba91ffad4029f975dced7e31cb",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-17T09:18:37Z",
+          "retrieved_at": "2026-10-18T04:31:53.297153+00:00",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-18-morning/lead-france.webp"
+    },
+    {
+      "story_id": "kolkata-durga-puja-crowd-crush-october-17-2026",
+      "identity": "kolkata-durga-puja-crowd-crush-october-17-2026",
+      "edition_id": "2026-10-18-morning",
+      "date": "2026-10-18",
+      "slot": "morning",
+      "published_at": "2026-10-18T07:36:54+03:00",
+      "available_at": "2026-10-18T07:36:54+03:00",
+      "headline": "Καλκούτα: τουλάχιστον 19 νεκροί από συνωστισμό στη γιορτή Durga Puja",
+      "finding": "Τουλάχιστον 19 άνθρωποι έχασαν τη ζωή τους στην Καλκούτα το βράδυ του Σαββάτου, σε συνωστισμό κατά τη γιορτή Durga Puja, σύμφωνα με τον νεότερο κυριακάτικο απολογισμό του AP που επικαλείται τις αρχές. Άλλοι 25 νοσηλεύονται. Η αστυνομία αναφέρει ότι η βροχή προκάλεσε μετακίνηση πλήθους προς καταφύγιο και κάποιοι προσκυνητές έπεσαν στον δρόμο. Ανακοινώθηκε έρευνα για την ασφάλεια και τη διαχείριση του πλήθους. Το BBC μετέδιδε νωρίτερα 17 θανάτους· η αιτία και οι ευθύνες παραμένουν υπό διερεύνηση.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-10-18-morning/world-india.json",
+      "reader_url": "articles/2026-10-18-morning/world-india.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/india-hindu-festival-durga-puja-stampede-ee803af1bef07fab3c1157974be2e876",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-18T03:09:02Z",
+          "retrieved_at": "2026-10-18T04:32:28.036009+00:00",
+          "kind": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/c820vwq7qg2ko",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-17T19:19:16.384Z",
+          "retrieved_at": "2026-10-18T04:32:27.718939+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-18-morning/world-india.webp"
+    },
+    {
+      "story_id": "west-bank-diplomats-attack-october-17-2026",
+      "identity": "west-bank-diplomats-attack-october-17-2026",
+      "edition_id": "2026-10-18-morning",
+      "date": "2026-10-18",
+      "slot": "morning",
+      "published_at": "2026-10-18T07:36:54+03:00",
+      "available_at": "2026-10-18T07:36:54+03:00",
+      "headline": "Τάιμπε: επίθεση σε Ευρωπαίους διπλωμάτες και Γάλλο δήμαρχο, με έρευνα του Ισραήλ",
+      "finding": "Ευρωπαίοι διπλωμάτες και ο Γάλλος δήμαρχος Bernard Baudoux δέχθηκαν επίθεση στην Τάιμπε της κατεχόμενης Δυτικής Όχθης το Σάββατο. Ο δήμαρχος περιγράφει χτυπήματα με μεταλλικές ράβδους και κλοτσιές, ενώ ο Βέλγος υπουργός Εξωτερικών επιβεβαίωσε ότι στοχοποιήθηκε η αποστολή. Το AP καταγράφει μαρτυρίες και βίντεο. Ο ισραηλινός στρατός καταδίκασε την επίθεση, σημειώνοντας ότι η επίσκεψη δεν είχε συντονιστεί μαζί του· η αστυνομία ερευνά. Το γραφείο Netanyahu προειδοποίησε αργότερα κατά «πρόωρων συμπερασμάτων».",
+      "section": "world",
+      "priority": 8,
+      "article_path": "articles/2026-10-18-morning/world-diplomats.json",
+      "reader_url": "articles/2026-10-18-morning/world-diplomats.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/west-bank-israel-european-diplomats-settlers-89ebd068167669db357ad1fa4f3a8758",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-17T15:54:22Z",
+          "retrieved_at": "2026-10-18T04:33:54.075154+00:00",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-18-morning/world-diplomats.webp"
+    },
+    {
+      "story_id": "kenya-ebola-third-confirmed-case-october-16-2026",
+      "identity": "kenya-ebola-third-confirmed-case-october-16-2026",
+      "edition_id": "2026-10-18-morning",
+      "date": "2026-10-18",
+      "slot": "morning",
+      "published_at": "2026-10-18T07:36:54+03:00",
+      "available_at": "2026-10-18T07:36:54+03:00",
+      "headline": "Κένυα: επτά κρούσματα Έμπολα μετά τη διάγνωση τριών υγειονομικών και συγγενή",
+      "finding": "Η Κένυα ανακοίνωσε στις 17 Οκτωβρίου τέσσερα επιπλέον κρούσματα Έμπολα, ανεβάζοντας το σύνολο σε επτά από τα τρία της τελευταίας δημοσιευμένης πρωινής εφημερίδας. Οι νέοι ασθενείς είναι τρεις υγειονομικοί που φρόντισαν τον πρώτο ασθενή και ένας συγγενής του. Όλοι βρίσκονταν ήδη σε καραντίνα, σύμφωνα με το υπουργείο Υγείας όπως το μεταδίδουν AP και Reuters. Έχουν εντοπιστεί και τεθεί σε καραντίνα 128 από τις 130 γνωστές επαφές· δύο εξακολουθούν να αναζητούνται στον συγκεκριμένο απολογισμό.",
+      "section": "world",
+      "priority": 10,
+      "article_path": "articles/2026-10-18-morning/world-kenya.json",
+      "reader_url": "articles/2026-10-18-morning/world-kenya.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/kenya-ebola-congo-uganda-0ae2b2874ae114c2359df58282cf656d",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-17T15:43:27Z",
+          "retrieved_at": "2026-10-18T04:32:27.485633+00:00",
+          "kind": "wire"
+        },
+        {
+          "url": "https://cyprus-mail.com/2026/10/17/kenya-confirms-four-new-ebola-cases-bringing-total-number-to-seven",
+          "publisher": "Reuters μέσω Cyprus Mail",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-17T15:19:59.000Z",
+          "retrieved_at": "2026-10-18T04:33:53.233366+00:00",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-18-morning/world-kenya.webp"
+    },
+    {
+      "story_id": "cyprus-pyla-leaders-peace-festival-october-17-2026",
+      "identity": "cyprus-pyla-leaders-peace-festival-october-17-2026",
+      "edition_id": "2026-10-18-morning",
+      "date": "2026-10-18",
+      "slot": "morning",
+      "published_at": "2026-10-18T07:36:54+03:00",
+      "available_at": "2026-10-18T07:36:54+03:00",
+      "headline": "Πύλα: κοινή παρουσία των δύο ηγετών — νέα συνάντηση την Τρίτη κατά το ΡΙΚ",
+      "finding": "Ο Νίκος Χριστοδουλίδης και ο Τουφάν Έρχιουρμαν παρέστησαν μαζί το Σάββατο 17 Οκτωβρίου στο δικοινοτικό Φεστιβάλ Ειρήνης της Πύλας. Ο Πολίτης καταγράφει κοινή παρουσία περίπου δύο ωρών και αποχώρηση μετά τις 21:30. Ο Πρόεδρος έστειλε μήνυμα επανένωσης, τονίζοντας ότι οι συμβολικές συναντήσεις δεν αρκούν χωρίς πολιτική βούληση. Κατά πληροφορίες του ΡΙΚ, η επόμενη συνάντηση θα γίνει την Τρίτη 20 Οκτωβρίου στις 11:00. Πρόκειται για δημοσιογραφική πληροφορία προγραμματισμού, όχι ανακοίνωση συμφωνίας στο Κυπριακό.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-10-18-morning/cyprus-pyla.json",
+      "reader_url": "articles/2026-10-18-morning/cyprus-pyla.html",
+      "sources": [
+        {
+          "url": "https://news.rik.cy/article/2026/10/17/menuma-eirenes-apo-to-dikoinotiko-phestibal-sten-pula-ten-trite-to-proi-e-epomene-sunantese-video/",
+          "publisher": "ΡΙΚ · επιτόπιο ρεπορτάζ",
+          "reporting_group": "ΡΙΚ · επιτόπιο ρεπορτάζ",
+          "published_at": "2026-10-17T20:44:00+03:00",
+          "retrieved_at": "2026-10-18T04:31:55.117400+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.politis.com.cy/kypriako/1053679/ta-vlemmata-strammena-stin-pyla-ola-etoima-ghia-tin-koini-paroysia-xristodoylidi-erkhioyrman",
+          "publisher": "Πολίτης · επιτόπια κάλυψη",
+          "reporting_group": "Πολίτης · επιτόπια κάλυψη",
+          "published_at": "2026-10-17T19:00:00+03:00",
+          "retrieved_at": "2026-10-18T04:31:54.824063+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-18-morning/cyprus-pyla.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
