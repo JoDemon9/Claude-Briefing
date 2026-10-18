@@ -17,4 +17,4 @@ See tests/test_selection.py, relevant UI/browser checks and RELEASE_NOTES_2026-1
 
 ## Extension on 18 October 2026
 
-[DEC-017](DEC-017-section-coverage-and-github-checks.md) adds explicit five-per-section targets for every slot, evidence-backed section shortfalls, and GitHub-built candidate/receipt reuse. It revises the later-slot combined five-story scope while preserving no filler, source/editorial review, original times and historical snapshots. Actual task prompts are updated; the checked implementation in PR #15 has explicit user merge approval and awaits amended candidate verification.
+[DEC-017](DEC-017-section-coverage-and-github-checks.md) adds explicit five-per-section targets for every slot, evidence-backed section shortfalls, and GitHub-built candidate/receipt reuse. It revises the later-slot combined five-story scope while preserving no filler, source/editorial review, original times and historical snapshots. Actual task prompts are updated; the checked implementation in PR #15 is merged through approved PR #15 with full CI and live verification recorded in DEC-017.
