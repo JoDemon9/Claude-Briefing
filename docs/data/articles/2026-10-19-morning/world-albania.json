@@ -1,0 +1,74 @@
+{
+  "id": "world-albania",
+  "story_id": "albania-student-protests-october-2026",
+  "story_identity": "albania-student-protests-october-2026",
+  "edition_id": "2026-10-19-morning",
+  "headline": "Αλβανία: έκτη ημέρα διαδηλώσεων, ο Ράμα απορρίπτει την παραίτηση",
+  "category": "Διεθνή",
+  "summary": "Οι αντικυβερνητικές κινητοποιήσεις στην Αλβανία έφθασαν την Κυριακή 18/10 στην έκτη ημέρα, με νέες συγκρούσεις έξω από το υπουργείο Παιδείας στα Τίρανα, σύμφωνα με Reuters. Ο Έντι Ράμα απέρριψε την παραίτηση και κάλεσε τους φοιτητές σε διάλογο. Η αστυνομία ανέφερε 388 κατηγορουμένους για ποινικά αδικήματα στην περίοδο των ταραχών — όχι 388 νέες συλλήψεις την Κυριακή. Οι διαμαρτυρίες αφορούν διαφθορά, εργασία και εκπαίδευση· ο ισχυρισμός Ράμα ότι απειλείται η ευρωπαϊκή πορεία αποτελεί πολιτική εκτίμησή του.",
+  "published_at": "2026-10-19T07:44:02+03:00",
+  "updated_at": "2026-10-19T07:44:02+03:00",
+  "sources": [
+    {
+      "publisher": "Reuters μέσω Internazionale",
+      "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/18/albanian-pm-says-mass-protests-a-threat-to-eu-membership-not-government",
+      "published_at": "2026-10-18T19:45:35+02:00",
+      "retrieved_at": "2026-10-19T04:30:43.832676+00:00",
+      "reporting_group": "Reuters",
+      "kind": "wire",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Associated Press · απολογισμός Σαββάτου",
+      "url": "https://apnews.com/article/9f0ce30c446aa9f273068b98d9f40b14",
+      "published_at": "2026-10-17",
+      "retrieved_at": "2026-10-19T04:33:09.198347+00:00",
+      "reporting_group": "Associated Press · απολογισμός Σαββάτου",
+      "kind": "wire",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Η τεκμηριωμένη καταγραφή",
+      "paragraphs": [
+        "Το ανεξάρτητο ρεπορτάζ του AP για το Σάββατο περιγράφει την ένταξη μαθητών και φοιτητών στο ευρύτερο κίνημα και επτά αστυνομικούς σε διαθεσιμότητα ενόψει έρευνας για υπέρβαση καθηκόντων. Το Reuters της Κυριακής αποτελεί νεότερη χρονική εικόνα και αναφέρει ότι ακυρώθηκε η προγραμματισμένη συνάντηση Ράμα–Στόκερ στη Βιέννη τη Δευτέρα. Οι διαφορετικοί αριθμοί του Σαββάτου και της Κυριακής δεν συγκρίνονται ως όμοια στατιστικά."
+      ]
+    }
+  ],
+  "image": {
+    "url": "assets/editorial/2026-10-19-morning/world-albania.webp",
+    "alt": "Αρχειακή άποψη της πλατείας Σκεντέρμπεη στα Τίρανα.",
+    "caption": "Πλατεία Σκεντέρμπεη, Τίρανα, 19/08/2019. Φωτογραφία πόλης αρχείου· όχι οι διαδηλώσεις ή οι ζημιές του Οκτωβρίου 2026.",
+    "attribution": "Andrew Milligan sumo · Wikimedia Commons · CC BY 2.0 · σμίκρυνση/μετατροπή WebP",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Skanderbeg_Square,_Tirana_(49594012912).jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Skanderbeg_Square%2C_Tirana_%2849594012912%29.jpg",
+    "retrieved_at": "2026-10-19T04:33:09.348281+00:00"
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-19-morning/world-albania.html",
+  "reader_mode": "source",
+  "newspaper_analysis": [],
+  "analysis_sources": [],
+  "daily": {
+    "section": "world",
+    "priority": 40,
+    "events": [
+      {
+        "id": "2026-10-19-morning-world-albania-review",
+        "kind": "provenance",
+        "at": "2026-10-19T07:41:59+03:00",
+        "summary": "Πρώτη τεκμηριωμένη επιλογή στο Oracle· τα γεγονότα διατηρούν την ημερομηνία των πηγών τους.",
+        "source_urls": [
+          "https://www.internazionale.it/ultime-notizie-reuters/2026/10/18/albanian-pm-says-mass-protests-a-threat-to-eu-membership-not-government",
+          "https://apnews.com/article/9f0ce30c446aa9f273068b98d9f40b14"
+        ]
+      }
+    ]
+  }
+}

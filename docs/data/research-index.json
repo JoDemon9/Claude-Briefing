@@ -127,6 +127,13 @@
       "type": "morning",
       "published_at": "2026-10-18T07:36:54+03:00",
       "url": "morning/2026-10-18.html"
+    },
+    {
+      "id": "2026-10-19-morning",
+      "date": "2026-10-19",
+      "type": "morning",
+      "published_at": "2026-10-19T07:44:02+03:00",
+      "url": "morning/2026-10-19.html"
     }
   ],
   "stories": [
@@ -4381,6 +4388,332 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-18-morning/cyprus-pyla.webp"
+    },
+    {
+      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+      "identity": "france-cost-of-living-mobilisation-october-17-2026",
+      "edition_id": "2026-10-19-morning",
+      "date": "2026-10-19",
+      "slot": "morning",
+      "published_at": "2026-10-18T07:36:54+03:00",
+      "available_at": "2026-10-19T07:44:02+03:00",
+      "headline": "Γαλλία: διάγγελμα Μακρόν, νέες συγκρούσεις και βαρύτερος απολογισμός",
+      "finding": "Σχεδόν 2.400 συλλήψεις και περίπου 1.000 τραυματίες αστυνομικοί και χωροφύλακες αναφέρονται στον νεότερο επίσημο απολογισμό για τις ταραχές του Σαββάτου στη Γαλλία, σύμφωνα με AFP και AP. Ο Εμανουέλ Μακρόν καταδίκασε τη βία στο διάγγελμα της Κυριακής 18/10 και επέτρεψε τοπικές απαγορεύσεις συγκεντρώσεων όπου κριθούν αναγκαίες, χωρίς ανακοίνωση γενικής κατάστασης έκτακτης ανάγκης. Νέες συγκρούσεις σημειώθηκαν την Κυριακή στο Παρίσι. Τα αιτήματα κατά της ακρίβειας παραμένουν ανοικτά.",
+      "section": "world",
+      "priority": 10,
+      "article_path": "articles/2026-10-19-morning/lead-france.json",
+      "reader_url": "articles/2026-10-19-morning/lead-france.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/f5ce07c2ef46ad0c02c6ff7018532a59",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-18",
+          "retrieved_at": "2026-10-19T04:30:44.268153+00:00",
+          "kind": "wire"
+        },
+        {
+          "url": "https://www.afp.com/en/macron-denounces-unbridled-violence-france-hit-new-clashes",
+          "publisher": "Agence France-Presse",
+          "reporting_group": "Agence France-Presse",
+          "published_at": "2026-10-18",
+          "retrieved_at": "2026-10-19T04:30:43.435149+00:00",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-morning/lead-france.webp"
+    },
+    {
+      "story_id": "cyprus-gsi-navtex-payment-october-2026",
+      "identity": "cyprus-gsi-navtex-payment-october-2026",
+      "edition_id": "2026-10-19-morning",
+      "date": "2026-10-19",
+      "slot": "morning",
+      "published_at": "2026-10-15T14:03:34+03:00",
+      "available_at": "2026-10-19T07:44:02+03:00",
+      "headline": "GSI: άδειες και προσδοκία NAVTEX, όχι ακόμη επιβεβαιωμένη επανέναρξη",
+      "finding": "Το ΡΙΚ μετέδωσε το βράδυ της 18/10 ότι δόθηκαν άδειες για τις έρευνες του GSI και αναμένεται NAVTEX μεταξύ 23 και 26 Οκτωβρίου, με σύνδεση της αποδέσμευσης €25 εκατ. με την έκδοσή της. Νεότερο ρεπορτάζ του Business Daily τοποθετεί την επανέναρξη εργασιών μετά το τέλος του μήνα, λόγω διοικητικών διαδικασιών. Οι πληροφορίες αφορούν διαφορετικά στάδια και δεν επιβεβαιώνουν ότι δημοσιεύθηκε ήδη NAVTEX, άρχισαν εργασίες ή καταβλήθηκαν χρήματα.",
+      "section": "cyprus",
+      "priority": 15,
+      "article_path": "articles/2026-10-19-morning/cyprus-gsi.json",
+      "reader_url": "articles/2026-10-19-morning/cyprus-gsi.html",
+      "sources": [
+        {
+          "url": "https://news.rik.cy/article/2026/10/18/dothekan-oi-adeies-gia-gsi-navtex-ton-oktobre-kai-apodesmeuse-25-ek-euro/",
+          "publisher": "ΡΙΚ",
+          "reporting_group": "ΡΙΚ",
+          "published_at": "2026-10-18T20:54:00+03:00",
+          "retrieved_at": "2026-10-19T04:30:17.502233+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://businessdaily.gr/oikonomia/238468_xemplokarei-gsi-mazi-kai-oi-oikonomikes-ekkremotites-tis-leykosias",
+          "publisher": "Business Daily",
+          "reporting_group": "Business Daily",
+          "published_at": "2026-10-19T06:15:05+03:00",
+          "retrieved_at": "2026-10-19T04:32:12.049586+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-morning/cyprus-gsi.webp"
+    },
+    {
+      "story_id": "canada-wainwright-base-fire-october-17-2026",
+      "identity": "canada-wainwright-base-fire-october-17-2026",
+      "edition_id": "2026-10-19-morning",
+      "date": "2026-10-19",
+      "slot": "morning",
+      "published_at": "2026-10-19T07:44:02+03:00",
+      "available_at": "2026-10-19T07:44:02+03:00",
+      "headline": "Wainwright: τέσσερις στρατιώτες νεκροί, 39 τραυματίες — ανοικτή η αιτία",
+      "finding": "Τέσσερις στρατιώτες σκοτώθηκαν και 39 τραυματίστηκαν στην πυρκαγιά της βάσης Wainwright στην Αλμπέρτα, με 19 σε κρίσιμη κατάσταση, ανακοίνωσε την Κυριακή 18/10 ο καναδικός στρατός, σύμφωνα με AP και BBC. Ο στρατός γνώριζε για φωτιά στην περιοχή και θεωρούσε ότι είχε περιοριστεί πριν αλλάξει ο άνεμος. Η αρχική ανάφλεξη παραμένει άγνωστη. Η κατάσταση έκτακτης νοσοκομειακής κινητοποίησης έχει λήξει, όχι όμως η περίθαλψη και η διερεύνηση της καταστροφής.",
+      "section": "world",
+      "priority": 20,
+      "article_path": "articles/2026-10-19-morning/world-canada.json",
+      "reader_url": "articles/2026-10-19-morning/world-canada.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/canada-alberta-military-base-fire-wainwright-1a41899da5b6e797b000061fa4da9c6a",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-18",
+          "retrieved_at": "2026-10-19T04:30:14.642412+00:00",
+          "kind": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/cmgelrq8x92do",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-19T00:49:14.232Z",
+          "retrieved_at": "2026-10-19T04:30:13.583678+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-morning/world-canada.webp"
+    },
+    {
+      "story_id": "cyprus-workplace-safety-penalties-review-october-19-2026",
+      "identity": "cyprus-workplace-safety-penalties-review-october-19-2026",
+      "edition_id": "2026-10-19-morning",
+      "date": "2026-10-19",
+      "slot": "morning",
+      "published_at": "2026-10-19T07:44:02+03:00",
+      "available_at": "2026-10-19T07:44:02+03:00",
+      "headline": "Πέντε εργατικοί θάνατοι το 2026· εξετάζονται αυστηρότερες ποινές",
+      "finding": "Πέντε θανατηφόρα εργατικά ατυχήματα έχουν καταγραφεί μέχρι τώρα το 2026, σύμφωνα με την αναπληρώτρια διευθύντρια του Τμήματος Επιθεώρησης Εργασίας Τασούλα Κυπριανίδου, σε συνέντευξη στο ΚΥΠΕ που δημοσιεύει ο Πολίτης. Το Τμήμα εξετάζει νομοθετικές αλλαγές για αυστηρότερες ποινές και εξώδικα, χωρίς να έχει ανακοινωθεί εδώ ψηφισμένος νέος νόμος. Για ολόκληρο το 2025 καταγράφηκαν επτά θάνατοι και 1.276 ατυχήματα με απουσία άνω των τριών ημερών. Η εβδομάδα ασφάλειας αρχίζει σήμερα, 19/10.",
+      "section": "cyprus",
+      "priority": 25,
+      "article_path": "articles/2026-10-19-morning/cyprus-work.json",
+      "reader_url": "articles/2026-10-19-morning/cyprus-work.html",
+      "sources": [
+        {
+          "url": "https://www.politis.com.cy/politis-news/oikonomia/1054070/erghatika-atikhimata-austiroteres-poines-fernoyn-oi-pente-nekri",
+          "publisher": "Πολίτης / ΚΥΠΕ",
+          "reporting_group": "ΚΥΠΕ",
+          "published_at": "2026-10-19",
+          "retrieved_at": "2026-10-19T04:30:18.247359+00:00",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-morning/cyprus-work.webp"
+    },
+    {
+      "story_id": "ukraine-russia-energy-strikes-october-18-2026",
+      "identity": "ukraine-russia-energy-strikes-october-18-2026",
+      "edition_id": "2026-10-19-morning",
+      "date": "2026-10-19",
+      "slot": "morning",
+      "published_at": "2026-10-18T13:46:47.905877+03:00",
+      "available_at": "2026-10-19T07:44:02+03:00",
+      "headline": "Ενεργειακά πλήγματα και διαφωνία Τραμπ–Ζελένσκι για τη χαλάρωση κυρώσεων",
+      "finding": "Ο Ντόναλντ Τραμπ υπερασπίστηκε την Κυριακή 18/10 τη χαλάρωση των αμερικανικών κυρώσεων στη Ρωσία, λέγοντας ότι θέλει να διατηρήσει ανοικτή τη διαπραγμάτευση. Ο Βολοντίμιρ Ζελένσκι υποστήριξε ότι η απόφαση ενισχύει τη ρωσική πολεμική δυνατότητα, ενώ συνεχίζονται επιθέσεις σε ενεργειακές εγκαταστάσεις. Το AP καταγράφει έναν νεκρό και πέντε τραυματίες στην Αγία Πετρούπολη κατά τον κυβερνήτη, καθώς και νεκρή γυναίκα στη Ζαπορίζια. Πρόκειται για την εικόνα της Κυριακής, όχι επιβεβαιωμένο νέο κύμα της Δευτέρας.",
+      "section": "world",
+      "priority": 30,
+      "article_path": "articles/2026-10-19-morning/world-energy.json",
+      "reader_url": "articles/2026-10-19-morning/world-energy.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/russia-ukraine-war-energy-diesel-trump-f813d3725b8b5f23958a68a95729fd0d",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-18",
+          "retrieved_at": "2026-10-19T04:30:43.429093+00:00",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-morning/world-energy.webp"
+    },
+    {
+      "story_id": "cyprus-cycle-scooter-police-campaign-october-19-25-2026",
+      "identity": "cyprus-cycle-scooter-police-campaign-october-19-25-2026",
+      "edition_id": "2026-10-19-morning",
+      "date": "2026-10-19",
+      "slot": "morning",
+      "published_at": "2026-10-19T07:44:02+03:00",
+      "available_at": "2026-10-19T07:44:02+03:00",
+      "headline": "Από σήμερα έλεγχοι για ποδήλατα και σκούτερ, έως τις 25 Οκτωβρίου",
+      "finding": "Παγκύπρια εκστρατεία ελέγχων για ποδήλατα και ηλεκτρικά σκούτερ αρχίζει σήμερα, Δευτέρα 19/10, και διαρκεί έως την Κυριακή 25/10, ανακοίνωσε η Αστυνομία. Οι έλεγχοι επικεντρώνονται σε αλκοόλ και ναρκωτικά, παραβίαση φωτεινών σηματοδοτών, εγκεκριμένο κράνος και επικίνδυνη συμπεριφορά. Η επίσημη ανακοίνωση αναφέρει δέκα νεκρούς ποδηλάτες την περίοδο 2021–2025 και, έως τις 16/10/2026, έναν ποδηλάτη και δύο χρήστες σκούτερ. Δεν δημοσιεύει νέο πίνακα προστίμων ή αλλαγή νόμου.",
+      "section": "cyprus",
+      "priority": 35,
+      "article_path": "articles/2026-10-19-morning/cyprus-cycling.json",
+      "reader_url": "articles/2026-10-19-morning/cyprus-cycling.html",
+      "sources": [
+        {
+          "url": "https://www.cypruspolicenews.com/archives/61294",
+          "publisher": "Αστυνομία Κύπρου",
+          "reporting_group": "Αστυνομία Κύπρου",
+          "published_at": "2026-10-18T11:30:00+03:00",
+          "retrieved_at": "2026-10-19T04:32:09.921683+00:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-morning/cyprus-cycling.webp"
+    },
+    {
+      "story_id": "albania-student-protests-october-2026",
+      "identity": "albania-student-protests-october-2026",
+      "edition_id": "2026-10-19-morning",
+      "date": "2026-10-19",
+      "slot": "morning",
+      "published_at": "2026-10-19T07:44:02+03:00",
+      "available_at": "2026-10-19T07:44:02+03:00",
+      "headline": "Αλβανία: έκτη ημέρα διαδηλώσεων, ο Ράμα απορρίπτει την παραίτηση",
+      "finding": "Οι αντικυβερνητικές κινητοποιήσεις στην Αλβανία έφθασαν την Κυριακή 18/10 στην έκτη ημέρα, με νέες συγκρούσεις έξω από το υπουργείο Παιδείας στα Τίρανα, σύμφωνα με Reuters. Ο Έντι Ράμα απέρριψε την παραίτηση και κάλεσε τους φοιτητές σε διάλογο. Η αστυνομία ανέφερε 388 κατηγορουμένους για ποινικά αδικήματα στην περίοδο των ταραχών — όχι 388 νέες συλλήψεις την Κυριακή. Οι διαμαρτυρίες αφορούν διαφθορά, εργασία και εκπαίδευση· ο ισχυρισμός Ράμα ότι απειλείται η ευρωπαϊκή πορεία αποτελεί πολιτική εκτίμησή του.",
+      "section": "world",
+      "priority": 40,
+      "article_path": "articles/2026-10-19-morning/world-albania.json",
+      "reader_url": "articles/2026-10-19-morning/world-albania.html",
+      "sources": [
+        {
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/18/albanian-pm-says-mass-protests-a-threat-to-eu-membership-not-government",
+          "publisher": "Reuters μέσω Internazionale",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-18T19:45:35+02:00",
+          "retrieved_at": "2026-10-19T04:30:43.832676+00:00",
+          "kind": "wire"
+        },
+        {
+          "url": "https://apnews.com/article/9f0ce30c446aa9f273068b98d9f40b14",
+          "publisher": "Associated Press · απολογισμός Σαββάτου",
+          "reporting_group": "Associated Press · απολογισμός Σαββάτου",
+          "published_at": "2026-10-17",
+          "retrieved_at": "2026-10-19T04:33:09.198347+00:00",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-morning/world-albania.webp"
+    },
+    {
+      "story_id": "cyprus-water-infrastructure-alassa-plan-october-18-2026",
+      "identity": "cyprus-water-infrastructure-alassa-plan-october-18-2026",
+      "edition_id": "2026-10-19-morning",
+      "date": "2026-10-19",
+      "slot": "morning",
+      "published_at": "2026-10-19T07:44:02+03:00",
+      "available_at": "2026-10-19T07:44:02+03:00",
+      "headline": "Υδατικά έργα άνω των €200 εκατ.· πρόταση €600.000 για την Άλασσα",
+      "finding": "Σχεδιασμό υδατικών υποδομών άνω των €200 εκατ. περιέγραψε ο υπουργός Γεωργίας Χρίστος Σενέκης στο φεστιβάλ Άλασσας στις 18/10: αφαλατώσεις, ανακτημένο νερό, μείωση απωλειών και αναβάθμιση δικτύων. Για την Άλασσα και βόρειες κοινότητες προβλέπεται μεταφορά νερού σε δύο φάσεις και αντικατάσταση κεντρικού αγωγού, με προτεινόμενη πρόνοια €600.000 στον προγραμματισμό του 2027. Το ΡΙΚ και το αναλυτικό κείμενο του χαιρετισμού καταγράφουν σχεδιασμό, όχι ολοκληρωμένα έργα ή ήδη δαπανημένο προϋπολογισμό.",
+      "section": "cyprus",
+      "priority": 45,
+      "article_path": "articles/2026-10-19-morning/cyprus-water.json",
+      "reader_url": "articles/2026-10-19-morning/cyprus-water.html",
+      "sources": [
+        {
+          "url": "https://news.rik.cy/article/2026/10/18/erkhontai-udatika-erga-200-ek-euro-leei-o-khristos-senekes/",
+          "publisher": "ΡΙΚ",
+          "reporting_group": "ΡΙΚ",
+          "published_at": "2026-10-18T19:12:00+03:00",
+          "retrieved_at": "2026-10-19T04:30:17.377701+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://lemesosblog.com/chairetismos-tou-ypourgou-georgias-agrotikis-anaptyxis-kai-perivallontos-k-christou-seneki-sto-2o-politistiko-festival-alassas/",
+          "publisher": "Lemesos Blog · χαιρετισμός Υπουργού",
+          "reporting_group": "Υπουργείο Γεωργίας · ομιλία 18/10",
+          "published_at": "2026-10-18T16:27:20+03:00",
+          "retrieved_at": "2026-10-19T04:32:10.540962+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-morning/cyprus-water.webp"
+    },
+    {
+      "story_id": "anthropic-public-benefit-equity-fund-october-18-2026",
+      "identity": "anthropic-public-benefit-equity-fund-october-18-2026",
+      "edition_id": "2026-10-19-morning",
+      "date": "2026-10-19",
+      "slot": "morning",
+      "published_at": "2026-10-19T07:44:02+03:00",
+      "available_at": "2026-10-19T07:44:02+03:00",
+      "headline": "Anthropic: σχέδιο διάθεσης 5% των μετοχών σε ταμείο δημόσιου οφέλους",
+      "finding": "Η Anthropic ανακοίνωσε στις 18/10 σχέδιο διάθεσης 5% των μετοχών της σε νέο ταμείο δημόσιου οφέλους, υπό έγκριση των μετόχων. Το ταμείο θα μπορούσε να χρηματοδοτεί μη κερδοσκοπικούς οργανισμούς, έρευνα και μέτρα για τις επιπτώσεις της τεχνητής νοημοσύνης στην εργασία. Η εταιρεία προβλέπει δυνατότητα επιπλέον διάθεσης μετοχών καθώς αυξάνεται η αποτίμησή της. Δεν πρόκειται για ήδη καταβληθείσα χρηματική δωρεά· λεπτομέρειες διοίκησης και εφαρμογής θα ακολουθήσουν τους επόμενους μήνες.",
+      "section": "world",
+      "priority": 50,
+      "article_path": "articles/2026-10-19-morning/world-anthropic.json",
+      "reader_url": "articles/2026-10-19-morning/world-anthropic.html",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "publisher": "Anthropic · εταιρική ανακοίνωση",
+          "reporting_group": "Anthropic · εταιρική ανακοίνωση",
+          "published_at": "2026-10-18T16:49:35.513Z",
+          "retrieved_at": "2026-10-19T04:30:43.277809+00:00",
+          "kind": "primary"
+        },
+        {
+          "url": "https://apnews.com/article/anthropic-shares-public-benefit-8181332fbbc48f2ef9447cef096f14de",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-18T23:29:41Z",
+          "retrieved_at": "2026-10-19T04:30:14.268228+00:00",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-morning/world-anthropic.webp"
+    },
+    {
+      "story_id": "cyprus-el-nino-seasonal-rain-outlook-october-18-2026",
+      "identity": "cyprus-el-nino-seasonal-rain-outlook-october-18-2026",
+      "edition_id": "2026-10-19-morning",
+      "date": "2026-10-19",
+      "slot": "morning",
+      "published_at": "2026-10-19T07:44:02+03:00",
+      "available_at": "2026-10-19T07:44:02+03:00",
+      "headline": "Εποχικό σήμα για περισσότερες βροχές — όχι πρόγνωση καταιγίδας σήμερα",
+      "finding": "Στατιστικό σήμα για 20%–70% περισσότερη βροχή στην Κύπρο την περίοδο Οκτωβρίου–Δεκεμβρίου, ανά περιοχή και ισχυρότερο τον Οκτώβριο, περιγράφει ο διευθυντής Μετεωρολογίας Φίλιππος Τύμβιος στη Cyprus Mail της 18/10. Συνδέει την εικόνα με το ισχυρό El Niño και τον θετικό Δίπολο του Ινδικού Ωκεανού, επισημαίνοντας ότι δεν αποτελεί εγγύηση. Για Δεκέμβριο–Φεβρουάριο η ίδια ανάλυση δείχνει κυρίως κανονικά ή ελαφρώς χαμηλότερα επίπεδα. Δεν συνιστά σημερινή προειδοποίηση βροχής.",
+      "section": "cyprus",
+      "priority": 55,
+      "article_path": "articles/2026-10-19-morning/cyprus-seasonal.json",
+      "reader_url": "articles/2026-10-19-morning/cyprus-seasonal.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/18/cyprus-could-escape-worst-of-record-breaking-el-nino",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-18T13:22:38Z",
+          "retrieved_at": "2026-10-19T04:32:10.644404+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://wmo.int/news/media-centre/sea-surface-temperatures-reflect-strengthening-el-nino",
+          "publisher": "Παγκόσμιος Μετεωρολογικός Οργανισμός",
+          "reporting_group": "Παγκόσμιος Μετεωρολογικός Οργανισμός",
+          "published_at": "2026-10-08",
+          "retrieved_at": "2026-10-19T04:32:15.130424+00:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-morning/cyprus-seasonal.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
