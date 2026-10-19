@@ -10,31 +10,36 @@
       "type": "morning",
       "url": "morning/2026-10-19.html",
       "published_at": "2026-10-19T07:44:02+03:00"
+    },
+    {
+      "id": "2026-10-19-midday",
+      "type": "midday",
+      "url": "midday/2026-10-19.html",
+      "published_at": "2026-10-19T16:13:07+03:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "france-cost-of-living-mobilisation-october-17-2026",
+  "lead_story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
   "stories": [
     {
-      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
-      "first_seen_at": "2026-10-19T07:44:02+03:00",
-      "last_substantive_at": "2026-10-19T07:41:59+03:00",
+      "story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+      "first_seen_at": "2026-10-19T16:13:07+03:00",
+      "last_substantive_at": "2026-10-19T16:05:56+03:00",
       "references": [
         {
-          "edition_id": "2026-10-19-morning",
-          "article_id": "lead-france",
-          "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
-          "url": "articles/2026-10-19-morning/lead-france.html"
+          "edition_id": "2026-10-19-midday",
+          "article_id": "lead-gaza",
+          "source_story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+          "url": "articles/2026-10-19-midday/lead-gaza.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-19-morning",
-        "article_id": "lead-france",
-        "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
-        "url": "articles/2026-10-19-morning/lead-france.html"
+        "edition_id": "2026-10-19-midday",
+        "article_id": "lead-gaza",
+        "source_story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+        "url": "articles/2026-10-19-midday/lead-gaza.html"
       },
       "section": "world",
       "priority": 10
@@ -42,20 +47,26 @@
     {
       "story_id": "cyprus-gsi-navtex-payment-october-2026",
       "first_seen_at": "2026-10-19T07:44:02+03:00",
-      "last_substantive_at": "2026-10-19T07:41:59+03:00",
+      "last_substantive_at": "2026-10-19T16:05:56+03:00",
       "references": [
         {
           "edition_id": "2026-10-19-morning",
           "article_id": "cyprus-gsi",
           "source_story_id": "cyprus-gsi-navtex-payment-october-2026",
           "url": "articles/2026-10-19-morning/cyprus-gsi.html"
+        },
+        {
+          "edition_id": "2026-10-19-midday",
+          "article_id": "cyprus-gsi",
+          "source_story_id": "cyprus-gsi-navtex-payment-october-2026",
+          "url": "articles/2026-10-19-midday/cyprus-gsi.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-19-morning",
+        "edition_id": "2026-10-19-midday",
         "article_id": "cyprus-gsi",
         "source_story_id": "cyprus-gsi-navtex-payment-october-2026",
-        "url": "articles/2026-10-19-morning/cyprus-gsi.html"
+        "url": "articles/2026-10-19-midday/cyprus-gsi.html"
       },
       "section": "cyprus",
       "priority": 15
@@ -82,6 +93,54 @@
       "priority": 20
     },
     {
+      "story_id": "ukraine-russia-energy-strikes-october-18-2026",
+      "first_seen_at": "2026-10-19T07:44:02+03:00",
+      "last_substantive_at": "2026-10-19T16:05:56+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-19-morning",
+          "article_id": "world-energy",
+          "source_story_id": "ukraine-russia-energy-strikes-october-18-2026",
+          "url": "articles/2026-10-19-morning/world-energy.html"
+        },
+        {
+          "edition_id": "2026-10-19-midday",
+          "article_id": "world-ukraine",
+          "source_story_id": "ukraine-russia-energy-strikes-october-18-2026",
+          "url": "articles/2026-10-19-midday/world-ukraine.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-russia-energy-strikes-october-18-2026",
+        "url": "articles/2026-10-19-midday/world-ukraine.html"
+      },
+      "section": "world",
+      "priority": 20
+    },
+    {
+      "story_id": "cyprus-nicosia-emergency-department-upgrade-october-19-2026",
+      "first_seen_at": "2026-10-19T16:13:07+03:00",
+      "last_substantive_at": "2026-10-19T16:05:56+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-19-midday",
+          "article_id": "cyprus-hospital",
+          "source_story_id": "cyprus-nicosia-emergency-department-upgrade-october-19-2026",
+          "url": "articles/2026-10-19-midday/cyprus-hospital.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "cyprus-hospital",
+        "source_story_id": "cyprus-nicosia-emergency-department-upgrade-october-19-2026",
+        "url": "articles/2026-10-19-midday/cyprus-hospital.html"
+      },
+      "section": "cyprus",
+      "priority": 25
+    },
+    {
       "story_id": "cyprus-workplace-safety-penalties-review-october-19-2026",
       "first_seen_at": "2026-10-19T07:44:02+03:00",
       "last_substantive_at": null,
@@ -103,22 +162,22 @@
       "priority": 25
     },
     {
-      "story_id": "ukraine-russia-energy-strikes-october-18-2026",
-      "first_seen_at": "2026-10-19T07:44:02+03:00",
-      "last_substantive_at": "2026-10-19T07:41:59+03:00",
+      "story_id": "spain-storm-adam-floods-october-19-2026",
+      "first_seen_at": "2026-10-19T16:13:07+03:00",
+      "last_substantive_at": "2026-10-19T16:05:56+03:00",
       "references": [
         {
-          "edition_id": "2026-10-19-morning",
-          "article_id": "world-energy",
-          "source_story_id": "ukraine-russia-energy-strikes-october-18-2026",
-          "url": "articles/2026-10-19-morning/world-energy.html"
+          "edition_id": "2026-10-19-midday",
+          "article_id": "world-spain",
+          "source_story_id": "spain-storm-adam-floods-october-19-2026",
+          "url": "articles/2026-10-19-midday/world-spain.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-19-morning",
-        "article_id": "world-energy",
-        "source_story_id": "ukraine-russia-energy-strikes-october-18-2026",
-        "url": "articles/2026-10-19-morning/world-energy.html"
+        "edition_id": "2026-10-19-midday",
+        "article_id": "world-spain",
+        "source_story_id": "spain-storm-adam-floods-october-19-2026",
+        "url": "articles/2026-10-19-midday/world-spain.html"
       },
       "section": "world",
       "priority": 30
@@ -145,6 +204,27 @@
       "priority": 35
     },
     {
+      "story_id": "cyprus-eu-innovation-life-projects-october-19-2026",
+      "first_seen_at": "2026-10-19T16:13:07+03:00",
+      "last_substantive_at": "2026-10-19T16:05:56+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-19-midday",
+          "article_id": "cyprus-eu",
+          "source_story_id": "cyprus-eu-innovation-life-projects-october-19-2026",
+          "url": "articles/2026-10-19-midday/cyprus-eu.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "cyprus-eu",
+        "source_story_id": "cyprus-eu-innovation-life-projects-october-19-2026",
+        "url": "articles/2026-10-19-midday/cyprus-eu.html"
+      },
+      "section": "cyprus",
+      "priority": 35
+    },
+    {
       "story_id": "albania-student-protests-october-2026",
       "first_seen_at": "2026-10-19T07:44:02+03:00",
       "last_substantive_at": null,
@@ -164,6 +244,54 @@
       },
       "section": "world",
       "priority": 40
+    },
+    {
+      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+      "first_seen_at": "2026-10-19T07:44:02+03:00",
+      "last_substantive_at": "2026-10-19T16:05:56+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-19-morning",
+          "article_id": "lead-france",
+          "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
+          "url": "articles/2026-10-19-morning/lead-france.html"
+        },
+        {
+          "edition_id": "2026-10-19-midday",
+          "article_id": "world-france",
+          "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
+          "url": "articles/2026-10-19-midday/world-france.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "world-france",
+        "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
+        "url": "articles/2026-10-19-midday/world-france.html"
+      },
+      "section": "world",
+      "priority": 40
+    },
+    {
+      "story_id": "cyprus-investment-citizenship-trial-october-19-2026",
+      "first_seen_at": "2026-10-19T16:13:07+03:00",
+      "last_substantive_at": "2026-10-19T16:05:56+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-19-midday",
+          "article_id": "cyprus-court",
+          "source_story_id": "cyprus-investment-citizenship-trial-october-19-2026",
+          "url": "articles/2026-10-19-midday/cyprus-court.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "cyprus-court",
+        "source_story_id": "cyprus-investment-citizenship-trial-october-19-2026",
+        "url": "articles/2026-10-19-midday/cyprus-court.html"
+      },
+      "section": "cyprus",
+      "priority": 45
     },
     {
       "story_id": "cyprus-water-infrastructure-alassa-plan-october-18-2026",
@@ -227,6 +355,48 @@
       },
       "section": "cyprus",
       "priority": 55
+    },
+    {
+      "story_id": "cyprus-zero-vat-october-2026-monitoring",
+      "first_seen_at": "2026-10-19T16:13:07+03:00",
+      "last_substantive_at": "2026-10-19T16:05:56+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-19-midday",
+          "article_id": "cyprus-vat",
+          "source_story_id": "cyprus-zero-vat-october-2026-monitoring",
+          "url": "articles/2026-10-19-midday/cyprus-vat.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "cyprus-vat",
+        "source_story_id": "cyprus-zero-vat-october-2026-monitoring",
+        "url": "articles/2026-10-19-midday/cyprus-vat.html"
+      },
+      "section": "cyprus",
+      "priority": 55
+    },
+    {
+      "story_id": "china-q3-2026-gdp-october-19",
+      "first_seen_at": "2026-10-19T16:13:07+03:00",
+      "last_substantive_at": "2026-10-19T16:05:56+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-19-midday",
+          "article_id": "world-china",
+          "source_story_id": "china-q3-2026-gdp-october-19",
+          "url": "articles/2026-10-19-midday/world-china.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "world-china",
+        "source_story_id": "china-q3-2026-gdp-october-19",
+        "url": "articles/2026-10-19-midday/world-china.html"
+      },
+      "section": "world",
+      "priority": 60
     }
   ],
   "updates": [
@@ -536,6 +706,314 @@
         "source_story_id": "ukraine-russia-energy-strikes-october-18-2026",
         "url": "articles/2026-10-19-morning/world-energy.html"
       }
+    },
+    {
+      "id": "2026-10-19-midday-cyprus-court-review",
+      "kind": "new",
+      "at": "2026-10-19T16:05:56+03:00",
+      "summary": "Πρώτη ένταξη στην εφημερίδα μετά την ανάγνωση της διαθέσιμης αναφοράς. Ο χρόνος αφορά τον συντακτικό έλεγχο, όχι την ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.politis.com.cy/politis-news/koinonia/1054291/arkhise-i-akroamatiki-diadikasia-ghia-tis-politoghrafiseis-katatethikan-tekmiria-ghia-prosopa-apo-kina-kai-kampotzi",
+        "https://cyprus-mail.com/2026/10/19/evidence-presented-in-golden-passport-trial"
+      ],
+      "story_id": "cyprus-investment-citizenship-trial-october-19-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "cyprus-court",
+        "source_story_id": "cyprus-investment-citizenship-trial-october-19-2026",
+        "url": "articles/2026-10-19-midday/cyprus-court.html"
+      }
+    },
+    {
+      "id": "2026-10-19-midday-cyprus-eu-review",
+      "kind": "new",
+      "at": "2026-10-19T16:05:56+03:00",
+      "summary": "Πρώτη ένταξη στην εφημερίδα μετά την ανάγνωση της διαθέσιμης αναφοράς. Ο χρόνος αφορά τον συντακτικό έλεγχο, όχι την ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.politis.com.cy/politis-news/europi/1054293/komision-eur38-dis-ghia-prasines-ependyseis-tria-ergha-stin-kypro"
+      ],
+      "story_id": "cyprus-eu-innovation-life-projects-october-19-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "cyprus-eu",
+        "source_story_id": "cyprus-eu-innovation-life-projects-october-19-2026",
+        "url": "articles/2026-10-19-midday/cyprus-eu.html"
+      }
+    },
+    {
+      "id": "2026-10-19-midday-cyprus-gsi-review",
+      "kind": "substantive_update",
+      "at": "2026-10-19T16:05:56+03:00",
+      "summary": "Προστέθηκαν οι δηλώσεις Δαμιανού στη Βουλή της 19/10 για NAVTEX, €25 εκατ. και αναγνώριση δαπανών· ο χρόνος είναι χρόνος ανάγνωσης και ελέγχου.",
+      "source_urls": [
+        "https://www.politis.com.cy/energia-agores/1054287/damianos-h-katavoli-ton-eur25-ekat-ghia-to-gsi-sindeetai-me-navtex-eos-to-telos-oktovrioy",
+        "https://cyprus-mail.com/2026/10/19/if-electricity-does-not-come-to-cyprus-we-will-not-pay-damianos-says-of-gsi"
+      ],
+      "story_id": "cyprus-gsi-navtex-payment-october-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "cyprus-gsi",
+        "source_story_id": "cyprus-gsi-navtex-payment-october-2026",
+        "url": "articles/2026-10-19-midday/cyprus-gsi.html"
+      }
+    },
+    {
+      "id": "2026-10-19-midday-cyprus-hospital-review",
+      "kind": "new",
+      "at": "2026-10-19T16:05:56+03:00",
+      "summary": "Πρώτη ένταξη στην εφημερίδα μετά την ανάγνωση της διαθέσιμης αναφοράς. Ο χρόνος αφορά τον συντακτικό έλεγχο, όχι την ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.politis.com.cy/cyprus/igeia/1054299/eghkainiastike-to-neo-taep-lefkosias-ti-allazei-stin-eksipiretisi-ton-asthenwn-xristodoylidis-yghia-kai-paidia-oi-simantikoteres-proteraiotites-mas",
+        "https://cyprus-mail.com/2026/10/19/e4-1m-upgrade-to-nicosia-hospital-casualty-department-unveiled"
+      ],
+      "story_id": "cyprus-nicosia-emergency-department-upgrade-october-19-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "cyprus-hospital",
+        "source_story_id": "cyprus-nicosia-emergency-department-upgrade-october-19-2026",
+        "url": "articles/2026-10-19-midday/cyprus-hospital.html"
+      }
+    },
+    {
+      "id": "2026-10-19-midday-cyprus-vat-review",
+      "kind": "substantive_update",
+      "at": "2026-10-19T16:05:56+03:00",
+      "summary": "Ενσωματώθηκε η χρονολογημένη ανακοίνωση του Συνδέσμου της 18/10 και η πρωτογενής θέση της Υπηρεσίας της 15/10· ο χρόνος αφορά τον σημερινό συντακτικό έλεγχο.",
+      "source_urls": [
+        "https://www.politis.com.cy/oikonomia/cyprus/1054019/sto-idio-ergho-theates-me-tis-times-sta-rafia-times-auksanontai-anti-na-meiwnontai-meta-tin-efarmoghi-midenikou-fpa-kataghghellei-o-syndesmos-katanalotwn",
+        "https://consumer.gov.cy/en/press-room/announcements/336/?ctype=ar"
+      ],
+      "story_id": "cyprus-zero-vat-october-2026-monitoring",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "cyprus-vat",
+        "source_story_id": "cyprus-zero-vat-october-2026-monitoring",
+        "url": "articles/2026-10-19-midday/cyprus-vat.html"
+      }
+    },
+    {
+      "id": "2026-10-19-midday-lead-gaza-review",
+      "kind": "new",
+      "at": "2026-10-19T16:05:56+03:00",
+      "summary": "Πρώτη ένταξη στην εφημερίδα μετά την ανάγνωση της διαθέσιμης αναφοράς. Ο χρόνος αφορά τον συντακτικό έλεγχο, όχι την ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/world-food-programme-cuts-aid-500000-palestinians-gaza-citing-funding-shortages-2026-10-19/",
+        "https://www.theguardian.com/world/2026/oct/19/cuts-world-food-programme-end-support-palestinians-gaza"
+      ],
+      "story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "lead-gaza",
+        "source_story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+        "url": "articles/2026-10-19-midday/lead-gaza.html"
+      }
+    },
+    {
+      "id": "2026-10-19-midday-world-china-review",
+      "kind": "new",
+      "at": "2026-10-19T16:05:56+03:00",
+      "summary": "Πρώτη ένταξη στην εφημερίδα μετά την ανάγνωση της διαθέσιμης αναφοράς. Ο χρόνος αφορά τον συντακτικό έλεγχο, όχι την ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.stats.gov.cn/english/PressRelease/202610/t20261019_1965619.html",
+        "https://apnews.com/article/china-economy-71354a055a412ef13e4e2edad070b4a5"
+      ],
+      "story_id": "china-q3-2026-gdp-october-19",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "world-china",
+        "source_story_id": "china-q3-2026-gdp-october-19",
+        "url": "articles/2026-10-19-midday/world-china.html"
+      }
+    },
+    {
+      "id": "2026-10-19-midday-world-france-review",
+      "kind": "substantive_update",
+      "at": "2026-10-19T16:05:56+03:00",
+      "summary": "Προστέθηκαν οι ταξιδιωτικές συστάσεις της 19/10 με έλεγχο της γερμανικής πρωτογενούς οδηγίας· ο χρόνος αφορά τη συντακτική επαλήθευση.",
+      "source_urls": [
+        "https://www.reuters.com/world/european-governments-warn-citizens-over-security-france-after-riots-2026-10-19/",
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524"
+      ],
+      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "world-france",
+        "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
+        "url": "articles/2026-10-19-midday/world-france.html"
+      }
+    },
+    {
+      "id": "2026-10-19-midday-world-spain-review",
+      "kind": "new",
+      "at": "2026-10-19T16:05:56+03:00",
+      "summary": "Πρώτη ένταξη στην εφημερίδα μετά την ανάγνωση της διαθέσιμης αναφοράς. Ο χρόνος αφορά τον συντακτικό έλεγχο, όχι την ώρα του γεγονότος.",
+      "source_urls": [
+        "https://www.reuters.com/business/environment/residents-trapped-torrential-rain-floods-towns-eastern-spain-2026-10-19/"
+      ],
+      "story_id": "spain-storm-adam-floods-october-19-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "world-spain",
+        "source_story_id": "spain-storm-adam-floods-october-19-2026",
+        "url": "articles/2026-10-19-midday/world-spain.html"
+      }
+    },
+    {
+      "id": "2026-10-19-midday-world-ukraine-review",
+      "kind": "substantive_update",
+      "at": "2026-10-19T16:05:56+03:00",
+      "summary": "Συντακτική ενημέρωση με το κύμα της 19/10, τον διευρυμένο απολογισμό και τις αντικρουόμενες δηλώσεις για την προειδοποίηση· ο χρόνος είναι χρόνος ελέγχου των πηγών.",
+      "source_urls": [
+        "https://apnews.com/article/russia-ukraine-war-kyiv-attack-b041f78e5d037a0f3377b7108eac1dc7",
+        "https://www.reuters.com/world/europe/russian-strike-kills-woman-hits-kyiv-subway-station-mayor-says-2026-10-19/"
+      ],
+      "story_id": "ukraine-russia-energy-strikes-october-18-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-russia-energy-strikes-october-18-2026",
+        "url": "articles/2026-10-19-midday/world-ukraine.html"
+      }
+    },
+    {
+      "id": "032b38102f636b14fc951ac6326f1deb36f7a1a3e06cb4338a6054ccfd66f810",
+      "kind": "provenance",
+      "at": "2026-10-19T16:13:07+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-eu-innovation-life-projects-october-19-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "cyprus-eu",
+        "source_story_id": "cyprus-eu-innovation-life-projects-october-19-2026",
+        "url": "articles/2026-10-19-midday/cyprus-eu.html"
+      }
+    },
+    {
+      "id": "0683638cdc74d08ed5637ff4532d444470bc9323f68d82124e7848900e23a86c",
+      "kind": "provenance",
+      "at": "2026-10-19T16:13:07+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-zero-vat-october-2026-monitoring",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "cyprus-vat",
+        "source_story_id": "cyprus-zero-vat-october-2026-monitoring",
+        "url": "articles/2026-10-19-midday/cyprus-vat.html"
+      }
+    },
+    {
+      "id": "56b0928b562353732fcc0e322b87d1c6b5f927774d47d35cf4e7e42852f92ce3",
+      "kind": "provenance",
+      "at": "2026-10-19T16:13:07+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-investment-citizenship-trial-october-19-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "cyprus-court",
+        "source_story_id": "cyprus-investment-citizenship-trial-october-19-2026",
+        "url": "articles/2026-10-19-midday/cyprus-court.html"
+      }
+    },
+    {
+      "id": "75abb13231cbb2a5e16e7984415e5b7d4011bf2da4870fe6fdf86eb074e8f31a",
+      "kind": "provenance",
+      "at": "2026-10-19T16:13:07+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-russia-energy-strikes-october-18-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-russia-energy-strikes-october-18-2026",
+        "url": "articles/2026-10-19-midday/world-ukraine.html"
+      }
+    },
+    {
+      "id": "97ca2e20b2f6024e574c3beae8fc0e1e0439d2d30c23d440317886a830b325f6",
+      "kind": "provenance",
+      "at": "2026-10-19T16:13:07+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "lead-gaza",
+        "source_story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+        "url": "articles/2026-10-19-midday/lead-gaza.html"
+      }
+    },
+    {
+      "id": "a098c3c8b00e5f74b0bc7f498ed3802d58885dd1f5580bd0ad71d714cab0c1c3",
+      "kind": "provenance",
+      "at": "2026-10-19T16:13:07+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "world-france",
+        "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
+        "url": "articles/2026-10-19-midday/world-france.html"
+      }
+    },
+    {
+      "id": "a568d0a19ae10ffb62e7e68ac7d0a93bc51921f10c1ea6f4a21f1cb13a21b0bf",
+      "kind": "provenance",
+      "at": "2026-10-19T16:13:07+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "china-q3-2026-gdp-october-19",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "world-china",
+        "source_story_id": "china-q3-2026-gdp-october-19",
+        "url": "articles/2026-10-19-midday/world-china.html"
+      }
+    },
+    {
+      "id": "acfe4ad734cae4a25af75e167c6eca327695a7bfeaf37af930f90255ef040867",
+      "kind": "provenance",
+      "at": "2026-10-19T16:13:07+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-gsi-navtex-payment-october-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "cyprus-gsi",
+        "source_story_id": "cyprus-gsi-navtex-payment-october-2026",
+        "url": "articles/2026-10-19-midday/cyprus-gsi.html"
+      }
+    },
+    {
+      "id": "b3ce56ded5ac70b6866ac17eb35ad00991071d2ddd309bedc23360e21800d0df",
+      "kind": "provenance",
+      "at": "2026-10-19T16:13:07+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-nicosia-emergency-department-upgrade-october-19-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "cyprus-hospital",
+        "source_story_id": "cyprus-nicosia-emergency-department-upgrade-october-19-2026",
+        "url": "articles/2026-10-19-midday/cyprus-hospital.html"
+      }
+    },
+    {
+      "id": "e758b3f83e9e8972db67f7b909017aec0d067d2955148c815e30b6a88dd00bce",
+      "kind": "provenance",
+      "at": "2026-10-19T16:13:07+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "spain-storm-adam-floods-october-19-2026",
+      "origin": {
+        "edition_id": "2026-10-19-midday",
+        "article_id": "world-spain",
+        "source_story_id": "spain-storm-adam-floods-october-19-2026",
+        "url": "articles/2026-10-19-midday/world-spain.html"
+      }
     }
   ],
   "opportunities": [
@@ -612,7 +1090,7 @@
       "change_note": "Επανέλεγχος 19/10 των επίσημων σταδίων, χρηματοδότησης και προθεσμίας 4/11 17:00 Βρυξελλών = 18:00 Κύπρου. Δεν διαπιστώθηκε αλλαγή όρων."
     },
     {
-      "verified_at": "2026-10-19T07:44:02+03:00",
+      "verified_at": "2026-10-19T16:13:07+03:00",
       "opens_at": "2026-10-20T09:00:00+03:00",
       "deadline": "2026-12-30T23:59:00+02:00",
       "deadline_type": "fixed",
@@ -626,14 +1104,14 @@
       "eligibility": "Φυσικά πρόσωπα, μία αίτηση. Κατοικία και οικιακός λογαριασμός ΑΗΚ σε φυσικό πρόσωπο· σύνδεση πριν από 1/1/2008 ή αίτηση άδειας πριν από 21/12/2007. Ισχύουν οι πλήρεις όροι του οδηγού.",
       "support": "Έως €32.000 για τύπο Α (σχεδόν μηδενική κατανάλωση), έως €24.000 για τύπο Β· απαιτείται εξοικονόμηση ενέργειας τουλάχιστον 60%.",
       "deadline_note": "Έως 30/12 23:59 Κύπρου ή νωρίτερα με εξάντληση προϋπολογισμού· σειρά υποβολής. Ο οδηγός επιτρέπει υπό όρους και παλαιότερο ΠΕΑ με επιβεβαιωτική επίσκεψη εμπειρογνώμονα μετά τις 15/5/2026. Δεν επιτρέπεται ολοκλήρωση όλων των εργασιών πριν από την αίτηση.",
-      "action": "Προετοίμασε ΠΕΑ και δικαιολογητικά με ειδικευμένο εμπειρογνώμονα. Άνοιγμα 20/10 09:00 κατά την πρόσκληση· η πύλη δεν ανταποκρίθηκε στις 19/10 07:29. Μην ολοκληρώσεις όλες τις εργασίες πριν από την αίτηση.",
+      "action": "Προετοίμασε ΠΕΑ και δικαιολογητικά με ειδικευμένο εμπειρογνώμονα. Άνοιγμα 20/10 09:00 κατά την πρόσκληση· η διαθεσιμότητα της πύλης χρειάζεται νέο έλεγχο κατά την έναρξη. Μην ολοκληρώσεις όλες τις εργασίες πριν από την αίτηση.",
       "application_url": "https://fundingapps.meci.gov.cy",
       "sources": [
         {
           "publisher": "ΥΕΕΒ · πρόσκληση",
           "url": "https://www.industry.gov.cy/gr/%CE%B5%CE%BD%CE%B7%CE%BC%CE%AD%CF%81%CF%89%CF%83%CE%B7/%CE%B1%CE%BD%CE%B1%CE%BA%CE%BF%CE%B9%CE%BD%CF%8E%CF%83%CE%B5%CE%B9%CF%82/2-%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CF%87%CE%BF%CF%81%CE%B7%CE%B3%CE%B9%CF%8E%CE%BD-%CE%B5%CE%BE%CE%BF%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CF%8E-%E2%80%93-%CE%B1%CE%BD%CE%B1%CE%B2%CE%B1%CE%B8%CE%BC%CE%AF%CE%B6%CF%89-%CF%83%CF%84%CE%B9%CF%82-%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B5%CF%82-2026",
           "published_at": "2026-09-30",
-          "retrieved_at": "2026-10-19T04:29:55.295389+00:00",
+          "retrieved_at": "2026-10-19T13:12:38.158160+00:00",
           "reporting_group": "ΥΕΕΒ · πρόσκληση",
           "kind": "primary",
           "access": "read",
@@ -643,14 +1121,14 @@
           "publisher": "ΥΕΕΒ · Οδηγός V4.0",
           "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202609/137/docs/odigosv2.pdf",
           "published_at": null,
-          "retrieved_at": "2026-10-19T04:29:55.614405+00:00",
+          "retrieved_at": "2026-10-19T13:12:07.792085+00:00",
           "reporting_group": "ΥΕΕΒ · Οδηγός V4.0",
           "kind": "primary",
           "access": "read",
           "used_for_claims": true
         }
       ],
-      "change_note": "Επανέλεγχος 19/10 της πρόσκλησης και σχετικών όρων/υποσημείωσης 5 στη σελίδα 12 του οδηγού V4.0. Ίδια έναρξη, όρια και προϋποθέσεις· η υποβολή δεν έχει ανοίξει ακόμη."
+      "change_note": "Επανέλεγχος 19/10 της επίσημης πρόσκλησης και των σχετικών ενοτήτων του Οδηγού V4.0: δικαιούχοι, παλαιότητα κατοικίας, ΠΕΑ, εξοικονόμηση 60%, όρια €32.000/€24.000 και μη ολοκλήρωση όλων των επενδύσεων πριν από την αίτηση. Αμετάβλητο άνοιγμα 20/10 09:00 και λήξη 30/12 23:59 ή εξάντληση προϋπολογισμού. Η πύλη δεν ήταν προσβάσιμη στον απογευματινό έλεγχο· δεν θεωρείται ήδη ανοικτή."
     },
     {
       "verified_at": "2026-10-16T20:32:42+03:00",
@@ -749,44 +1227,54 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Γαλλία: μετά το διάγγελμα Μακρόν, νεότερος απολογισμός σχεδόν 2.400 συλλήψεων και περίπου 1.000 τραυματιών αστυνομικών/χωροφυλάκων για το Σάββατο· νέες συγκρούσεις την Κυριακή.",
+        "text": "Γάζα: 500.000 άνθρωποι χάνουν τη μηνιαία βοήθεια WFP. Wainwright: διατηρείται ο απολογισμός της 18/10, τέσσερις στρατιώτες νεκροί, 39 τραυματίες και άγνωστη αρχική αιτία.",
         "story_ids": [
-          "france-cost-of-living-mobilisation-october-17-2026"
-        ]
-      },
-      {
-        "text": "Wainwright: τέσσερις στρατιώτες νεκροί, 39 τραυματίες, 19 κρίσιμοι· η αρχική αιτία της φωτιάς παραμένει άγνωστη.",
-        "story_ids": [
+          "gaza-wfp-food-aid-cuts-october-19-2026",
           "canada-wainwright-base-fire-october-17-2026"
         ]
       },
       {
-        "text": "Ουκρανία–Ρωσία: ενεργειακά πλήγματα και διαφωνία για τη χαλάρωση κυρώσεων. Αλβανία: έκτη ημέρα κινητοποιήσεων. Anthropic: σχέδιο 5% μετοχών σε ταμείο δημόσιου οφέλους, υπό έγκριση.",
+        "text": "Ουκρανία: νέο ενεργειακό πλήγμα με τουλάχιστον τρεις νεκρούς κατά αξιωματούχους, μεγάλες διακοπές ρεύματος και αντικρουόμενες δηλώσεις για την ανταλλαγή πληροφοριών.",
         "story_ids": [
-          "ukraine-russia-energy-strikes-october-18-2026",
+          "ukraine-russia-energy-strikes-october-18-2026"
+        ]
+      },
+      {
+        "text": "Ισπανία: πλημμύρες, δύο νεκρές γυναίκες και συνεχιζόμενες διασώσεις. Γαλλία: μετά τις ταραχές και το διάγγελμα Μακρόν, ευρωπαϊκές ταξιδιωτικές συστάσεις.",
+        "story_ids": [
+          "spain-storm-adam-floods-october-19-2026",
+          "france-cost-of-living-mobilisation-october-17-2026"
+        ]
+      },
+      {
+        "text": "Κίνα: ανάπτυξη 4,5% στο τρίμηνο, με αδύναμη κατανάλωση. Παραμένει η πρωινή κάλυψη Αλβανίας και του υπό έγκριση σχεδίου Anthropic για ταμείο δημόσιου οφέλους.",
+        "story_ids": [
+          "china-q3-2026-gdp-october-19",
           "albania-student-protests-october-2026",
           "anthropic-public-benefit-equity-fund-october-18-2026"
         ]
       },
       {
-        "text": "GSI: άδειες και προσδοκία NAVTEX, όχι ήδη επιβεβαιωμένες εργασίες ή πληρωμή. Εργατικά ατυχήματα: πέντε θάνατοι έως τώρα το 2026 και εξέταση αυστηρότερων ποινών.",
+        "text": "GSI: υπό όρους τα €25 εκατ., χωρίς επιβεβαιωμένη πληρωμή. Εγκαινιάστηκε το αναβαθμισμένο ΤΑΕΠ Λευκωσίας· τρία κυπριακά έργα στις νέες ευρωπαϊκές πράσινες επιλογές χρηματοδότησης.",
         "story_ids": [
           "cyprus-gsi-navtex-payment-october-2026",
-          "cyprus-workplace-safety-penalties-review-october-19-2026"
+          "cyprus-nicosia-emergency-department-upgrade-october-19-2026",
+          "cyprus-eu-innovation-life-projects-october-19-2026"
         ]
       },
       {
-        "text": "Αρχίζουν οι έλεγχοι ποδηλάτων/σκούτερ 19–25/10. Υδατικά έργα άνω των €200 εκατ. και πρόταση €600.000 για Άλασσα· το εποχικό σήμα περισσότερης βροχής δεν είναι σημερινή προειδοποίηση.",
+        "text": "Κύπρος: άρχισε η δίκη πολιτογραφήσεων· διαφωνία για το όφελος μηδενικού ΦΠΑ. Διατηρούνται οι πέντε εργατικοί θάνατοι έως τώρα το 2026, οι έλεγχοι ποδηλάτων/σκούτερ.",
         "story_ids": [
-          "cyprus-cycle-scooter-police-campaign-october-19-25-2026",
-          "cyprus-water-infrastructure-alassa-plan-october-18-2026",
-          "cyprus-el-nino-seasonal-rain-outlook-october-18-2026"
+          "cyprus-investment-citizenship-trial-october-19-2026",
+          "cyprus-zero-vat-october-2026-monitoring",
+          "cyprus-workplace-safety-penalties-review-october-19-2026",
+          "cyprus-cycle-scooter-police-campaign-october-19-25-2026"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-10-19T04:46:11.975115+00:00",
-  "updated_at": "2026-10-19T04:46:11.975115+00:00",
-  "input_sha256": "a2229d8bc4286aafc8f37198823b88a466d9a2bb598b348ae6790f138ece573a"
+  "updated_at": "2026-10-19T13:14:47.666649+00:00",
+  "input_sha256": "6d784407a4de6fd8653ceaa5112280530ac7a83f4c251816ed02c6764afd7708"
 }

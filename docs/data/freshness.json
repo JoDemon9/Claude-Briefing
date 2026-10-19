@@ -310,6 +310,52 @@
       "coverage": "structured"
     },
     {
+      "edition_id": "2026-10-19-midday",
+      "as_of": "2026-10-19T16:13:07+03:00",
+      "records": [
+        {
+          "owner": "2026-10-19-midday",
+          "id": "limassol-afternoon-2026-10-19-midday",
+          "kind": "weather",
+          "label": "Νότια παράλια/Λεμεσός · δελτίο Β",
+          "checked_at": "2026-10-19T12:52:37.826802+00:00",
+          "valid_from": "2026-10-19T12:00:00+03:00",
+          "valid_until": "2026-10-20T18:00:00+03:00",
+          "recheck_at": "2026-10-19T19:00:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_b.html"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-19-midday",
+          "id": "warning-check-2026-10-19-midday",
+          "kind": "recheck",
+          "label": "Agromet: καμία προειδοποίηση κατά τον έλεγχο",
+          "checked_at": "2026-10-19T12:50:43.925758+00:00",
+          "recheck_at": "2026-10-19T19:00:00+03:00",
+          "sources": [
+            "https://agromet.dom.org.cy/"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-19-midday",
+          "id": "citizenship-hearing-2026-10-20",
+          "kind": "event",
+          "label": "Επόμενη συνεδρίαση δίκης πολιτογραφήσεων",
+          "checked_at": "2026-10-19T12:50:42.416671+00:00",
+          "starts_at": "2026-10-20T09:30:00+03:00",
+          "recheck_at": "2026-10-20T12:00:00+03:00",
+          "sources": [
+            "https://www.politis.com.cy/politis-news/koinonia/1054291/arkhise-i-akroamatiki-diadikasia-ghia-tis-politoghrafiseis-katatethikan-tekmiria-ghia-prosopa-apo-kina-kai-kampotzi"
+          ],
+          "state": "upcoming"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
       "edition_id": "2026-10-19-morning",
       "as_of": "2026-10-19T07:44:02+03:00",
       "records": [

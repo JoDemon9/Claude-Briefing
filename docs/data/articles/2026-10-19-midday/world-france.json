@@ -1,0 +1,78 @@
+{
+  "id": "world-france",
+  "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+  "story_identity": "france-cost-of-living-mobilisation-october-17-2026",
+  "edition_id": "2026-10-19-midday",
+  "headline": "Γαλλία: ευρωπαϊκές ταξιδιωτικές συστάσεις μετά τις ταραχές",
+  "category": "Διεθνή",
+  "summary": "Ευρωπαϊκές κυβερνήσεις καλούν στις 19/10 τους επισκέπτες της Γαλλίας να αποφεύγουν διαδηλώσεις και μεγάλα πλήθη μετά τις ταραχές του Σαββατοκύριακου. Η Γερμανία προειδοποιεί ότι δεν αποκλείονται νέες συγκρούσεις και ζητά συμμόρφωση με τις τοπικές αρχές. Η Ιταλία συστήνει καταγραφή παρουσίας των ταξιδιωτών. Το Reuters διακρίνει τις νέες παρεμβάσεις από την ολλανδική οδηγία της 7/10 και τη γενική πολωνική σύσταση, η οποία δεν άλλαξε. Πρόκειται για πρακτική εξέλιξη μετά το διάγγελμα της Κυριακής και τον ήδη δημοσιευμένο πρωινό απολογισμό.",
+  "published_at": "2026-10-18T07:36:54+03:00",
+  "updated_at": "2026-10-19T16:05:56+03:00",
+  "sources": [
+    {
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/european-governments-warn-citizens-over-security-france-after-riots-2026-10-19/",
+      "published_at": "2026-10-19T10:20:00+00:00",
+      "retrieved_at": "2026-10-19T16:02:32+03:00",
+      "reporting_group": "Reuters",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Υπουργείο Εξωτερικών Γερμανίας",
+      "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524",
+      "published_at": null,
+      "retrieved_at": "2026-10-19T12:54:32.339044+00:00",
+      "reporting_group": "Υπουργείο Εξωτερικών Γερμανίας",
+      "kind": "primary",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Επόμενο βήμα",
+      "paragraphs": [
+        "Η επίσημη γερμανική οδηγία αφορά την αποφυγή συγκεντρώσεων· δεν αποτελεί γενική απαγόρευση εισόδου στη Γαλλία."
+      ]
+    }
+  ],
+  "image": {
+    "url": "assets/editorial/2026-10-19-midday/world-france.webp",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Paris-2023-01-31-manif-retraites07.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris-2023-01-31-manif-retraites07.jpg",
+    "caption": "Παρίσι, διαδήλωση 31/01/2023. Αρχειακή φωτογραφία κοινωνικών κινητοποιήσεων· όχι οι ταραχές ή οι ταξιδιωτικές συστάσεις του Οκτωβρίου 2026.",
+    "alt": "Παρίσι, διαδήλωση 31/01/2023. Αρχειακή φωτογραφία κοινωνικών κινητοποιήσεων· όχι οι ταραχές ή οι ταξιδιωτικές συστάσεις του Οκτωβρίου 2026.",
+    "attribution": "Roland Godefroy / Wikimedia Commons · μετατροπή WebP",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "retrieved_at": "2026-10-18T04:33:50.449675+00:00",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-18-midday/lead-france.webp",
+      "sha256": "303346c4ccf61ce471ee01d3ef0ce9bb69d6a710167d7a855147ee8b3f7c8d83",
+      "reviewed_at": "2026-10-19T16:02:32+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-19-midday/world-france.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 40,
+    "events": [
+      {
+        "id": "2026-10-19-midday-world-france-review",
+        "kind": "substantive_update",
+        "at": "2026-10-19T16:05:56+03:00",
+        "summary": "Προστέθηκαν οι ταξιδιωτικές συστάσεις της 19/10 με έλεγχο της γερμανικής πρωτογενούς οδηγίας· ο χρόνος αφορά τη συντακτική επαλήθευση.",
+        "source_urls": [
+          "https://www.reuters.com/world/european-governments-warn-citizens-over-security-france-after-riots-2026-10-19/",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524"
+        ]
+      }
+    ]
+  }
+}

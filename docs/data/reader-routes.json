@@ -190,6 +190,18 @@
       "world-kenya": "articles/2026-10-18-morning/world-kenya.html",
       "cyprus-pyla": "articles/2026-10-18-morning/cyprus-pyla.html"
     },
+    "2026-10-19-midday": {
+      "lead-gaza": "articles/2026-10-19-midday/lead-gaza.html",
+      "world-ukraine": "articles/2026-10-19-midday/world-ukraine.html",
+      "world-spain": "articles/2026-10-19-midday/world-spain.html",
+      "world-france": "articles/2026-10-19-midday/world-france.html",
+      "world-china": "articles/2026-10-19-midday/world-china.html",
+      "cyprus-gsi": "articles/2026-10-19-midday/cyprus-gsi.html",
+      "cyprus-hospital": "articles/2026-10-19-midday/cyprus-hospital.html",
+      "cyprus-eu": "articles/2026-10-19-midday/cyprus-eu.html",
+      "cyprus-court": "articles/2026-10-19-midday/cyprus-court.html",
+      "cyprus-vat": "articles/2026-10-19-midday/cyprus-vat.html"
+    },
     "2026-10-19-morning": {
       "lead-france": "articles/2026-10-19-morning/lead-france.html",
       "cyprus-gsi": "articles/2026-10-19-morning/cyprus-gsi.html",
@@ -256,6 +268,9 @@
   },
   "readers/2026-10-18.html": {
     "edition_id": "2026-10-18-morning"
+  },
+  "readers/2026-10-19-midday.html": {
+    "edition_id": "2026-10-19-midday"
   },
   "readers/2026-10-19.html": {
     "edition_id": "2026-10-19-morning"

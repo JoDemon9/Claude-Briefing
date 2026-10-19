@@ -231,6 +231,11 @@
         },
         {
           "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+          "article_path": "articles/2026-10-19-midday/world-france.json",
+          "edition_id": "2026-10-19-midday"
+        },
+        {
+          "story_id": "france-cost-of-living-mobilisation-october-17-2026",
           "article_path": "articles/2026-10-19-morning/lead-france.json",
           "edition_id": "2026-10-19-morning"
         }
@@ -374,6 +379,11 @@
           "story_id": "china-september-2026-trade",
           "article_path": "articles/2026-10-14-morning/world-2.json",
           "edition_id": "2026-10-14-morning"
+        },
+        {
+          "story_id": "china-q3-2026-gdp-october-19",
+          "article_path": "articles/2026-10-19-midday/world-china.json",
+          "edition_id": "2026-10-19-midday"
         }
       ]
     },
@@ -594,6 +604,11 @@
         },
         {
           "story_id": "ukraine-russia-energy-strikes-october-18-2026",
+          "article_path": "articles/2026-10-19-midday/world-ukraine.json",
+          "edition_id": "2026-10-19-midday"
+        },
+        {
+          "story_id": "ukraine-russia-energy-strikes-october-18-2026",
           "article_path": "articles/2026-10-19-morning/world-energy.json",
           "edition_id": "2026-10-19-morning"
         }
@@ -642,6 +657,11 @@
           "story_id": "cyprus-pyla-leaders-peace-festival-october-17-2026",
           "article_path": "articles/2026-10-18-morning/cyprus-pyla.json",
           "edition_id": "2026-10-18-morning"
+        },
+        {
+          "story_id": "cyprus-nicosia-emergency-department-upgrade-october-19-2026",
+          "article_path": "articles/2026-10-19-midday/cyprus-hospital.json",
+          "edition_id": "2026-10-19-midday"
         }
       ]
     },
@@ -942,6 +962,32 @@
       ]
     },
     {
+      "id": "99f6952a2b9f33df85add01e1c76e51a9e7fa73de9a6ac1c2a99955354a0b412",
+      "asset": "assets/editorial/2026-10-19-midday/world-spain.webp",
+      "image": {
+        "url": "assets/editorial/2026-10-19-midday/world-spain.webp",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Carrer_San_Cristafol_de_Pego.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Carrer_San_Cristafol_de_Pego.jpg",
+        "caption": "Οδός San Cristafol στο Pego, 08/09/2022. Γεωγραφική φωτογραφία αρχείου της πόλης που αναφέρεται στις διασώσεις· δεν απεικονίζει τις πλημμύρες του 2026.",
+        "alt": "Οδός San Cristafol στο Pego, 08/09/2022. Γεωγραφική φωτογραφία αρχείου της πόλης που αναφέρεται στις διασώσεις· δεν απεικονίζει τις πλημμύρες του 2026.",
+        "attribution": "Salvador Escriva / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "retrieved_at": "2026-10-19T12:57:41.669974+00:00"
+      },
+      "dimensions": [
+        1280,
+        852
+      ],
+      "references": [
+        {
+          "story_id": "spain-storm-adam-floods-october-19-2026",
+          "article_path": "articles/2026-10-19-midday/world-spain.json",
+          "edition_id": "2026-10-19-midday"
+        }
+      ]
+    },
+    {
       "id": "9fa19bf42d3a22ff0e686d863366cb910aba144aca296b2fba55c94437ac34b3",
       "asset": "assets/editorial/2026-10-13-morning/cyprus-1.webp",
       "image": {
@@ -1155,6 +1201,32 @@
           "story_id": "midas-vat-fraud-arrests-october-16-2026",
           "article_path": "articles/2026-10-16-evening/cyprus-eppo.json",
           "edition_id": "2026-10-16-evening"
+        }
+      ]
+    },
+    {
+      "id": "a96537219264ff423ebcd44cae2e3f70200c50b0aea488b4f734c4d1d7cca787",
+      "asset": "assets/editorial/2026-10-19-midday/cyprus-eu.webp",
+      "image": {
+        "url": "assets/editorial/2026-10-19-midday/cyprus-eu.webp",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Solar_panels_and_a_tourist_shelter_on_the_top_of_Mt_Tripylos%2C_Troodos_Mountains%2C_Cyprus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Solar_panels_and_a_tourist_shelter_on_the_top_of_Mt_Tripylos,_Troodos_Mountains,_Cyprus.jpg",
+        "caption": "Φωτοβολταϊκά και καταφύγιο στην κορυφή Τριπύλου, Τρόοδος, 05/02/2019. Φωτογραφία αρχείου κυπριακών ΑΠΕ· δεν απεικονίζει το έργο EuniFlex VPP ή τη σημερινή ανακοίνωση.",
+        "alt": "Φωτοβολταϊκά και καταφύγιο στην κορυφή Τριπύλου, Τρόοδος, 05/02/2019. Φωτογραφία αρχείου κυπριακών ΑΠΕ· δεν απεικονίζει το έργο EuniFlex VPP ή τη σημερινή ανακοίνωση.",
+        "attribution": "Michal Klajban / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "retrieved_at": "2026-10-19T12:57:53.202024+00:00"
+      },
+      "dimensions": [
+        1280,
+        839
+      ],
+      "references": [
+        {
+          "story_id": "cyprus-eu-innovation-life-projects-october-19-2026",
+          "article_path": "articles/2026-10-19-midday/cyprus-eu.json",
+          "edition_id": "2026-10-19-midday"
         }
       ]
     },
@@ -1543,6 +1615,11 @@
           "story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
           "article_path": "articles/2026-10-16-midday/cyprus-court.json",
           "edition_id": "2026-10-16-midday"
+        },
+        {
+          "story_id": "cyprus-investment-citizenship-trial-october-19-2026",
+          "article_path": "articles/2026-10-19-midday/cyprus-court.json",
+          "edition_id": "2026-10-19-midday"
         }
       ]
     },
@@ -1595,6 +1672,11 @@
           "story_id": "gaza-unicef-children-winter-october-16-2026",
           "article_path": "articles/2026-10-16-evening/lead.json",
           "edition_id": "2026-10-16-evening"
+        },
+        {
+          "story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+          "article_path": "articles/2026-10-19-midday/lead-gaza.json",
+          "edition_id": "2026-10-19-midday"
         }
       ]
     },
@@ -1798,6 +1880,11 @@
           "story_id": "cyprus-zero-vat-october-2026-monitoring",
           "article_path": "articles/2026-10-16-morning/cyprus-vat.json",
           "edition_id": "2026-10-16-morning"
+        },
+        {
+          "story_id": "cyprus-zero-vat-october-2026-monitoring",
+          "article_path": "articles/2026-10-19-midday/cyprus-vat.json",
+          "edition_id": "2026-10-19-midday"
         }
       ]
     },
@@ -1938,6 +2025,11 @@
           "story_id": "cyprus-gsi-navtex-payment-october-2026",
           "article_path": "articles/2026-10-15-midday/lead.json",
           "edition_id": "2026-10-15-midday"
+        },
+        {
+          "story_id": "cyprus-gsi-navtex-payment-october-2026",
+          "article_path": "articles/2026-10-19-midday/cyprus-gsi.json",
+          "edition_id": "2026-10-19-midday"
         },
         {
           "story_id": "cyprus-gsi-navtex-payment-october-2026",

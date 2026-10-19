@@ -129,6 +129,13 @@
       "url": "morning/2026-10-18.html"
     },
     {
+      "id": "2026-10-19-midday",
+      "date": "2026-10-19",
+      "type": "midday",
+      "published_at": "2026-10-19T16:13:07+03:00",
+      "url": "midday/2026-10-19.html"
+    },
+    {
       "id": "2026-10-19-morning",
       "date": "2026-10-19",
       "type": "morning",
@@ -4388,6 +4395,348 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-18-morning/cyprus-pyla.webp"
+    },
+    {
+      "story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+      "identity": "gaza-wfp-food-aid-cuts-october-19-2026",
+      "edition_id": "2026-10-19-midday",
+      "date": "2026-10-19",
+      "slot": "midday",
+      "published_at": "2026-10-19T16:13:07+03:00",
+      "available_at": "2026-10-19T16:13:07+03:00",
+      "headline": "Γάζα: 500.000 άνθρωποι χάνουν τη μηνιαία επισιτιστική βοήθεια",
+      "finding": "Το Παγκόσμιο Επισιτιστικό Πρόγραμμα μειώνει από 1,6 σε 1,1 εκατομμύριο τους αποδέκτες μηνιαίας βοήθειας στη Γάζα λόγω έλλειψης χρηματοδότησης, σύμφωνα με Reuters και Guardian στις 19/10. Οι περικοπές έχουν ήδη αρχίσει τον Οκτώβριο: λιγότερες μερίδες, μειωμένες χρηματικές ενισχύσεις και 150.000 ζεστά γεύματα ημερησίως αντί 250.000. Ο οργανισμός ζητά $450 εκατ. για έξι μήνες επιχειρήσεων στη Γάζα και τη Δυτική Όχθη. Περίπου 1,4 εκατ. κάτοικοι της Γάζας αντιμετωπίζουν επισιτιστική κρίση ή χειρότερη κατάσταση.",
+      "section": "world",
+      "priority": 10,
+      "article_path": "articles/2026-10-19-midday/lead-gaza.json",
+      "reader_url": "articles/2026-10-19-midday/lead-gaza.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/middle-east/world-food-programme-cuts-aid-500000-palestinians-gaza-citing-funding-shortages-2026-10-19/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-19T07:21:00+00:00",
+          "retrieved_at": "2026-10-19T16:02:32+03:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/oct/19/cuts-world-food-programme-end-support-palestinians-gaza",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-10-19T09:54:33Z",
+          "retrieved_at": "2026-10-19T12:50:38.438471+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-midday/lead-gaza.webp"
+    },
+    {
+      "story_id": "ukraine-russia-energy-strikes-october-18-2026",
+      "identity": "ukraine-russia-energy-strikes-october-18-2026",
+      "edition_id": "2026-10-19-midday",
+      "date": "2026-10-19",
+      "slot": "midday",
+      "published_at": "2026-10-18T13:46:47.905877+03:00",
+      "available_at": "2026-10-19T16:13:07+03:00",
+      "headline": "Ουκρανία: νέο πλήγμα στο δίκτυο και διαφωνία για την έγκαιρη προειδοποίηση",
+      "finding": "Τρεις άνθρωποι σκοτώθηκαν στο Κίεβο και στο Κρίβι Ριχ στο νέο ρωσικό κύμα επιθέσεων, σύμφωνα με ουκρανούς αξιωματούχους που επικαλείται το Reuters στις 19/10. Ο Ζελένσκι αναφέρει 16 βαλλιστικούς πυραύλους, πάνω από 200 drones και ζημιές σε περισσότερες από δέκα ενεργειακές εγκαταστάσεις. Τουλάχιστον 550.000 οικογένειες έμειναν χωρίς ρεύμα. Ο ίδιος καταγγέλλει έλλειψη έγκαιρης προειδοποίησης· ο Μάρκο Ρούμπιο αρνείται αμερικανική παύση ανταλλαγής πληροφοριών. Ουκρανός εκπρόσωπος διευκρινίζει ότι δόθηκαν πληροφορίες πριν από δεύτερο πλήγμα.",
+      "section": "world",
+      "priority": 20,
+      "article_path": "articles/2026-10-19-midday/world-ukraine.json",
+      "reader_url": "articles/2026-10-19-midday/world-ukraine.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/russia-ukraine-war-kyiv-attack-b041f78e5d037a0f3377b7108eac1dc7",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-19",
+          "retrieved_at": "2026-10-19T12:52:30.291411+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.reuters.com/world/europe/russian-strike-kills-woman-hits-kyiv-subway-station-mayor-says-2026-10-19/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-19T01:11:00+00:00",
+          "retrieved_at": "2026-10-19T16:02:32+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-midday/world-ukraine.webp"
+    },
+    {
+      "story_id": "spain-storm-adam-floods-october-19-2026",
+      "identity": "spain-storm-adam-floods-october-19-2026",
+      "edition_id": "2026-10-19-midday",
+      "date": "2026-10-19",
+      "slot": "midday",
+      "published_at": "2026-10-19T16:13:07+03:00",
+      "available_at": "2026-10-19T16:13:07+03:00",
+      "headline": "Ανατολική Ισπανία: διασώσεις από στέγες και εντολές παραμονής στα σπίτια",
+      "finding": "Ελικόπτερα απομακρύνουν εγκλωβισμένους από στέγες στην ανατολική Ισπανία, ενώ εντολές παραμονής σε ασφαλείς εσωτερικούς χώρους αφορούν πάνω από 800.000 κατοίκους, σύμφωνα με το Reuters της 19/10. Δύο γυναίκες βρέθηκαν νεκρές το Σαββατοκύριακο στη Βαλένθια και κοντά στη Βαρκελώνη. Στο Pego οι προσβάσεις αποκλείστηκαν και στην Oliva συνεχίζονταν διασώσεις. Η AEMET χαρακτήρισε τις συνθήκες εξαιρετικά δυσμενείς, με πάνω από 600 χιλιοστά βροχής σε ορισμένες περιοχές μέσα σε 48 ώρες. Ο απολογισμός αφορά την αναφορά των 13:27 Κύπρου.",
+      "section": "world",
+      "priority": 30,
+      "article_path": "articles/2026-10-19-midday/world-spain.json",
+      "reader_url": "articles/2026-10-19-midday/world-spain.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/business/environment/residents-trapped-torrential-rain-floods-towns-eastern-spain-2026-10-19/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-19T10:27:00+00:00",
+          "retrieved_at": "2026-10-19T16:02:32+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-midday/world-spain.webp"
+    },
+    {
+      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+      "identity": "france-cost-of-living-mobilisation-october-17-2026",
+      "edition_id": "2026-10-19-midday",
+      "date": "2026-10-19",
+      "slot": "midday",
+      "published_at": "2026-10-18T07:36:54+03:00",
+      "available_at": "2026-10-19T16:13:07+03:00",
+      "headline": "Γαλλία: ευρωπαϊκές ταξιδιωτικές συστάσεις μετά τις ταραχές",
+      "finding": "Ευρωπαϊκές κυβερνήσεις καλούν στις 19/10 τους επισκέπτες της Γαλλίας να αποφεύγουν διαδηλώσεις και μεγάλα πλήθη μετά τις ταραχές του Σαββατοκύριακου. Η Γερμανία προειδοποιεί ότι δεν αποκλείονται νέες συγκρούσεις και ζητά συμμόρφωση με τις τοπικές αρχές. Η Ιταλία συστήνει καταγραφή παρουσίας των ταξιδιωτών. Το Reuters διακρίνει τις νέες παρεμβάσεις από την ολλανδική οδηγία της 7/10 και τη γενική πολωνική σύσταση, η οποία δεν άλλαξε. Πρόκειται για πρακτική εξέλιξη μετά το διάγγελμα της Κυριακής και τον ήδη δημοσιευμένο πρωινό απολογισμό.",
+      "section": "world",
+      "priority": 40,
+      "article_path": "articles/2026-10-19-midday/world-france.json",
+      "reader_url": "articles/2026-10-19-midday/world-france.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/european-governments-warn-citizens-over-security-france-after-riots-2026-10-19/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-19T10:20:00+00:00",
+          "retrieved_at": "2026-10-19T16:02:32+03:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524",
+          "publisher": "Υπουργείο Εξωτερικών Γερμανίας",
+          "reporting_group": "Υπουργείο Εξωτερικών Γερμανίας",
+          "published_at": null,
+          "retrieved_at": "2026-10-19T12:54:32.339044+00:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-midday/world-france.webp"
+    },
+    {
+      "story_id": "china-q3-2026-gdp-october-19",
+      "identity": "china-q3-2026-gdp-october-19",
+      "edition_id": "2026-10-19-midday",
+      "date": "2026-10-19",
+      "slot": "midday",
+      "published_at": "2026-10-19T16:13:07+03:00",
+      "available_at": "2026-10-19T16:13:07+03:00",
+      "headline": "Κίνα: ανάπτυξη 4,5% στο τρίμηνο, με εξαγωγές ισχυρότερες από την κατανάλωση",
+      "finding": "Η κινεζική οικονομία αναπτύχθηκε κατά 4,5% σε ετήσια βάση το τρίτο τρίμηνο, έναντι 4,3% το δεύτερο, ανακοίνωσε στις 19/10 η εθνική στατιστική υπηρεσία. Η αύξηση ήταν 1,2% έναντι του προηγούμενου τριμήνου και 4,6% στο εννεάμηνο. Το AP συνδέει την επιτάχυνση με τις ισχυρές εξαγωγές, ενώ καταγράφει αδύναμη εσωτερική ζήτηση. Ο επίσημος ετήσιος στόχος παραμένει 4,5%–5%. Η ανακοίνωση δεν σημαίνει ότι όλοι οι κλάδοι ή τα νοικοκυριά μοιράζονται εξίσου την ανάπτυξη.",
+      "section": "world",
+      "priority": 60,
+      "article_path": "articles/2026-10-19-midday/world-china.json",
+      "reader_url": "articles/2026-10-19-midday/world-china.html",
+      "sources": [
+        {
+          "url": "https://www.stats.gov.cn/english/PressRelease/202610/t20261019_1965619.html",
+          "publisher": "Εθνική Στατιστική Υπηρεσία Κίνας",
+          "reporting_group": "Εθνική Στατιστική Υπηρεσία Κίνας",
+          "published_at": "2026-10-19",
+          "retrieved_at": "2026-10-19T12:52:30.289690+00:00",
+          "kind": "primary"
+        },
+        {
+          "url": "https://apnews.com/article/china-economy-71354a055a412ef13e4e2edad070b4a5",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-19",
+          "retrieved_at": "2026-10-19T12:52:30.287887+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-midday/world-china.webp"
+    },
+    {
+      "story_id": "cyprus-gsi-navtex-payment-october-2026",
+      "identity": "cyprus-gsi-navtex-payment-october-2026",
+      "edition_id": "2026-10-19-midday",
+      "date": "2026-10-19",
+      "slot": "midday",
+      "published_at": "2026-10-15T14:03:34+03:00",
+      "available_at": "2026-10-19T16:13:07+03:00",
+      "headline": "GSI: ο υπουργός συνδέει τα €25 εκατ. με NAVTEX και πρόοδο του έργου",
+      "finding": "Ο Μιχάλης Δαμιανός δήλωσε στη Βουλή στις 19/10 ότι η καταβολή των €25 εκατ. για το GSI συνδέεται με έκδοση ελληνικής NAVTEX πριν από το τέλος Οκτωβρίου και με έργο που προχωρά. Κατά τον υπουργό, η ΡΑΕΚ έχει αναγνωρίσει €82 εκατ. δαπανών από €302 εκατ. που ζήτησε ο ΑΔΜΗΕ. Οι καταναλωτές θα επιβαρυνθούν όταν ολοκληρωθεί η διασύνδεση και φθάσει ηλεκτρική ενέργεια στην Κύπρο, με αποπληρωμή του μεριδίου τους σε 30 χρόνια. Δεν ανακοινώθηκε ήδη πραγματοποιημένη πληρωμή.",
+      "section": "cyprus",
+      "priority": 15,
+      "article_path": "articles/2026-10-19-midday/cyprus-gsi.json",
+      "reader_url": "articles/2026-10-19-midday/cyprus-gsi.html",
+      "sources": [
+        {
+          "url": "https://www.politis.com.cy/energia-agores/1054287/damianos-h-katavoli-ton-eur25-ekat-ghia-to-gsi-sindeetai-me-navtex-eos-to-telos-oktovrioy",
+          "publisher": "ΚΥΠΕ μέσω Πολίτη",
+          "reporting_group": "ΚΥΠΕ",
+          "published_at": "2026-10-19",
+          "retrieved_at": "2026-10-19T12:52:30.293052+00:00",
+          "kind": "wire"
+        },
+        {
+          "url": "https://cyprus-mail.com/2026/10/19/if-electricity-does-not-come-to-cyprus-we-will-not-pay-damianos-says-of-gsi",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-19",
+          "retrieved_at": "2026-10-19T12:52:30.294281+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-midday/cyprus-gsi.webp"
+    },
+    {
+      "story_id": "cyprus-nicosia-emergency-department-upgrade-october-19-2026",
+      "identity": "cyprus-nicosia-emergency-department-upgrade-october-19-2026",
+      "edition_id": "2026-10-19-midday",
+      "date": "2026-10-19",
+      "slot": "midday",
+      "published_at": "2026-10-19T16:13:07+03:00",
+      "available_at": "2026-10-19T16:13:07+03:00",
+      "headline": "ΤΑΕΠ Λευκωσίας: εγκαινιάστηκε η αναβάθμιση των €4,1 εκατ.",
+      "finding": "Η ανακαίνιση και επέκταση του ΤΑΕΠ του Γενικού Νοσοκομείου Λευκωσίας, κόστους €4,1 εκατ., εγκαινιάστηκε στις 19/10 από τον Πρόεδρο της Δημοκρατίας. Το αναβαθμισμένο τμήμα διαθέτει ειδικό χώρο ενημέρωσης συγγενών και χώρο ανάπαυσης προσωπικού, σύμφωνα με Πολίτη και Cyprus Mail. Η παρέμβαση χρηματοδοτείται μέσω του Σχεδίου Ανάκαμψης και Ανθεκτικότητας. Η ταχύτερη εξυπηρέτηση παρουσιάζεται ως στόχος της επένδυσης· τα σημερινά ρεπορτάζ δεν δημοσιεύουν μετρημένη μεταβολή στους χρόνους αναμονής ή νέους αριθμούς στελέχωσης.",
+      "section": "cyprus",
+      "priority": 25,
+      "article_path": "articles/2026-10-19-midday/cyprus-hospital.json",
+      "reader_url": "articles/2026-10-19-midday/cyprus-hospital.html",
+      "sources": [
+        {
+          "url": "https://www.politis.com.cy/cyprus/igeia/1054299/eghkainiastike-to-neo-taep-lefkosias-ti-allazei-stin-eksipiretisi-ton-asthenwn-xristodoylidis-yghia-kai-paidia-oi-simantikoteres-proteraiotites-mas",
+          "publisher": "Πολίτης",
+          "reporting_group": "Πολίτης",
+          "published_at": "2026-10-19",
+          "retrieved_at": "2026-10-19T12:50:38.495013+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://cyprus-mail.com/2026/10/19/e4-1m-upgrade-to-nicosia-hospital-casualty-department-unveiled",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-19",
+          "retrieved_at": "2026-10-19T12:52:36.418660+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-midday/cyprus-hospital.webp"
+    },
+    {
+      "story_id": "cyprus-eu-innovation-life-projects-october-19-2026",
+      "identity": "cyprus-eu-innovation-life-projects-october-19-2026",
+      "edition_id": "2026-10-19-midday",
+      "date": "2026-10-19",
+      "slot": "midday",
+      "published_at": "2026-10-19T16:13:07+03:00",
+      "available_at": "2026-10-19T16:13:07+03:00",
+      "headline": "Τρία έργα με κυπριακή συμμετοχή στη νέα ευρωπαϊκή πράσινη χρηματοδότηση",
+      "finding": "Τρία έργα που αφορούν την Κύπρο περιλαμβάνονται στις νέες ευρωπαϊκές επιλογές χρηματοδότησης, αναφέρει ο Πολίτης στις 19/10: το EuniFlex VPP για αποθήκευση και αμφίδρομη φόρτιση οχημάτων, το Raptors for LIFE για αρπακτικά πτηνά και το LIFE BioCommunities για βιοποικιλότητα. Η Κομισιόν ανακοινώνει συνολικά €3,4 δισ. για 77 έργα τεχνολογιών μηδενικών εκπομπών και πάνω από €390 εκατ. για 135 έργα LIFE. Αυτά είναι ευρωπαϊκά σύνολα, όχι ποσό που αποδίδεται εξ ολοκλήρου στην Κύπρο.",
+      "section": "cyprus",
+      "priority": 35,
+      "article_path": "articles/2026-10-19-midday/cyprus-eu.json",
+      "reader_url": "articles/2026-10-19-midday/cyprus-eu.html",
+      "sources": [
+        {
+          "url": "https://www.politis.com.cy/politis-news/europi/1054293/komision-eur38-dis-ghia-prasines-ependyseis-tria-ergha-stin-kypro",
+          "publisher": "Πολίτης",
+          "reporting_group": "Πολίτης",
+          "published_at": "2026-10-19",
+          "retrieved_at": "2026-10-19T12:50:38.493148+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://energy.ec.europa.eu/news_en?prefLang=lv",
+          "publisher": "Ευρωπαϊκή Επιτροπή · ΓΔ Ενέργειας",
+          "reporting_group": "Ευρωπαϊκή Επιτροπή · ΓΔ Ενέργειας",
+          "published_at": "2026-10-19",
+          "retrieved_at": "2026-10-19T16:02:32+03:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-midday/cyprus-eu.webp"
+    },
+    {
+      "story_id": "cyprus-investment-citizenship-trial-october-19-2026",
+      "identity": "cyprus-investment-citizenship-trial-october-19-2026",
+      "edition_id": "2026-10-19-midday",
+      "date": "2026-10-19",
+      "slot": "midday",
+      "published_at": "2026-10-19T16:13:07+03:00",
+      "available_at": "2026-10-19T16:13:07+03:00",
+      "headline": "Πολιτογραφήσεις: άρχισε η ακροαματική διαδικασία με τα πρώτα τεκμήρια",
+      "finding": "Με την κατάθεση εγγράφων άρχισε στις 19/10 στο Μόνιμο Κακουργιοδικείο Λευκωσίας η ακροαματική διαδικασία για υπόθεση πολιτογραφήσεων, με κατηγορουμένους τον πρώην υπουργό Μάριο Δημητριάδη και άλλα εννέα φυσικά και νομικά πρόσωπα. Η πρώτη μάρτυρας κατηγορίας παρουσίασε τεκμήρια για πολιτογραφήσεις υπηκόων Κίνας και Καμπότζης. Συνήγορος υπεράσπισης προανήγγειλε ενστάσεις για ορισμένα επόμενα τεκμήρια, σύμφωνα με το ΚΥΠΕ. Η δίκη συνεχίζεται στις 20/10 στις 09:30. Οι κατηγορίες δεν αποτελούν απόφαση ενοχής και ισχύει το τεκμήριο αθωότητας.",
+      "section": "cyprus",
+      "priority": 45,
+      "article_path": "articles/2026-10-19-midday/cyprus-court.json",
+      "reader_url": "articles/2026-10-19-midday/cyprus-court.html",
+      "sources": [
+        {
+          "url": "https://www.politis.com.cy/politis-news/koinonia/1054291/arkhise-i-akroamatiki-diadikasia-ghia-tis-politoghrafiseis-katatethikan-tekmiria-ghia-prosopa-apo-kina-kai-kampotzi",
+          "publisher": "ΚΥΠΕ μέσω Πολίτη",
+          "reporting_group": "ΚΥΠΕ",
+          "published_at": "2026-10-19",
+          "retrieved_at": "2026-10-19T12:50:42.416671+00:00",
+          "kind": "wire"
+        },
+        {
+          "url": "https://cyprus-mail.com/2026/10/19/evidence-presented-in-golden-passport-trial",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-19",
+          "retrieved_at": "2026-10-19T12:52:34.458618+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-midday/cyprus-court.webp"
+    },
+    {
+      "story_id": "cyprus-zero-vat-october-2026-monitoring",
+      "identity": "cyprus-zero-vat-october-2026-monitoring",
+      "edition_id": "2026-10-19-midday",
+      "date": "2026-10-19",
+      "slot": "midday",
+      "published_at": "2026-10-16T10:24:50+03:00",
+      "available_at": "2026-10-19T16:13:07+03:00",
+      "headline": "Μηδενικός ΦΠΑ: ο Σύνδεσμος Καταναλωτών αμφισβητεί το όφελος στις τιμές",
+      "finding": "Ο Κυπριακός Σύνδεσμος Καταναλωτών αμφισβητεί την πλήρη μεταφορά του μηδενικού ΦΠΑ στις τιμές, σε ανακοίνωση της 18/10 που δημοσιεύει ο Πολίτης. Αναφέρει μέση μείωση 3,76% την πρώτη ημέρα εφαρμογής και 4,5% στις 14/10, αλλά και αυξήσεις πριν από την εφαρμογή. Η Υπηρεσία Προστασίας Καταναλωτή είχε δηλώσει στις 15/10 ότι το μέτρο εφαρμόστηκε σε πολύ μεγάλο βαθμό στο περιορισμένο δείγμα της. Πρόκειται για διαφωνία αξιολόγησης συγκεκριμένων μετρήσεων· ο Σύνδεσμος διευκρινίζει ότι οι ανατιμήσεις από μόνες τους δεν συνιστούν παρανομία.",
+      "section": "cyprus",
+      "priority": 55,
+      "article_path": "articles/2026-10-19-midday/cyprus-vat.json",
+      "reader_url": "articles/2026-10-19-midday/cyprus-vat.html",
+      "sources": [
+        {
+          "url": "https://www.politis.com.cy/oikonomia/cyprus/1054019/sto-idio-ergho-theates-me-tis-times-sta-rafia-times-auksanontai-anti-na-meiwnontai-meta-tin-efarmoghi-midenikou-fpa-kataghghellei-o-syndesmos-katanalotwn",
+          "publisher": "Πολίτης",
+          "reporting_group": "Πολίτης",
+          "published_at": "2026-10-18T18:37:00+03:00",
+          "retrieved_at": "2026-10-19T12:50:43.595460+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://consumer.gov.cy/en/press-room/announcements/336/?ctype=ar",
+          "publisher": "Υπηρεσία Προστασίας Καταναλωτή",
+          "reporting_group": "Υπηρεσία Προστασίας Καταναλωτή",
+          "published_at": "2026-10-15",
+          "retrieved_at": "2026-10-19T12:56:52.126438+00:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-19-midday/cyprus-vat.webp"
     },
     {
       "story_id": "france-cost-of-living-mobilisation-october-17-2026",
