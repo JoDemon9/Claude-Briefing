@@ -1,0 +1,78 @@
+{
+  "id": "world-ukraine",
+  "story_id": "ukraine-russia-energy-strikes-october-18-2026",
+  "story_identity": "ukraine-russia-energy-strikes-october-18-2026",
+  "edition_id": "2026-10-19-midday",
+  "headline": "Ουκρανία: νέο πλήγμα στο δίκτυο και διαφωνία για την έγκαιρη προειδοποίηση",
+  "category": "Διεθνή",
+  "summary": "Τρεις άνθρωποι σκοτώθηκαν στο Κίεβο και στο Κρίβι Ριχ στο νέο ρωσικό κύμα επιθέσεων, σύμφωνα με ουκρανούς αξιωματούχους που επικαλείται το Reuters στις 19/10. Ο Ζελένσκι αναφέρει 16 βαλλιστικούς πυραύλους, πάνω από 200 drones και ζημιές σε περισσότερες από δέκα ενεργειακές εγκαταστάσεις. Τουλάχιστον 550.000 οικογένειες έμειναν χωρίς ρεύμα. Ο ίδιος καταγγέλλει έλλειψη έγκαιρης προειδοποίησης· ο Μάρκο Ρούμπιο αρνείται αμερικανική παύση ανταλλαγής πληροφοριών. Ουκρανός εκπρόσωπος διευκρινίζει ότι δόθηκαν πληροφορίες πριν από δεύτερο πλήγμα.",
+  "published_at": "2026-10-18T13:46:47.905877+03:00",
+  "updated_at": "2026-10-19T16:05:56+03:00",
+  "sources": [
+    {
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/russia-ukraine-war-kyiv-attack-b041f78e5d037a0f3377b7108eac1dc7",
+      "published_at": "2026-10-19",
+      "retrieved_at": "2026-10-19T12:52:30.291411+00:00",
+      "reporting_group": "Associated Press",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/europe/russian-strike-kills-woman-hits-kyiv-subway-station-mayor-says-2026-10-19/",
+      "published_at": "2026-10-19T01:11:00+00:00",
+      "retrieved_at": "2026-10-19T16:02:32+03:00",
+      "reporting_group": "Reuters",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Επόμενο βήμα",
+      "paragraphs": [
+        "Οι αντικρουόμενες δηλώσεις για την προειδοποίηση παραμένουν ανοικτές· δεν τεκμηριώνουν από μόνες τους συνολική διακοπή της συνεργασίας."
+      ]
+    }
+  ],
+  "image": {
+    "url": "assets/editorial/2026-10-19-midday/world-ukraine.webp",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Darnytska_Combined_Heat_and_Power_Plant_in_Kyiv_after_Russian_attack_on_2026-02-03_%2819%29.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Darnytska_Combined_Heat_and_Power_Plant_in_Kyiv_after_Russian_attack_on_2026-02-03_%2819%29.jpg",
+    "caption": "Επίσκεψη στην ενεργειακή μονάδα Darnytska του Κιέβου μετά την επίθεση της 03/02/2026. Αρχειακό πλαίσιο της ενεργειακής υποδομής· όχι το πλήγμα της 19/10.",
+    "alt": "Επίσκεψη στην ενεργειακή μονάδα Darnytska του Κιέβου μετά την επίθεση της 03/02/2026. Αρχειακό πλαίσιο της ενεργειακής υποδομής· όχι το πλήγμα της 19/10.",
+    "attribution": "Ministry of Energy of Ukraine · Mev.gov.ua / Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "retrieved_at": "2026-10-13T15:54:24+03:00",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-13-morning/world-4.webp",
+      "sha256": "74e70536c975934300273a9c7895e4f37467506aeacddf64f685f05475e609e1",
+      "reviewed_at": "2026-10-19T16:02:32+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-19-midday/world-ukraine.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 20,
+    "events": [
+      {
+        "id": "2026-10-19-midday-world-ukraine-review",
+        "kind": "substantive_update",
+        "at": "2026-10-19T16:05:56+03:00",
+        "summary": "Συντακτική ενημέρωση με το κύμα της 19/10, τον διευρυμένο απολογισμό και τις αντικρουόμενες δηλώσεις για την προειδοποίηση· ο χρόνος είναι χρόνος ελέγχου των πηγών.",
+        "source_urls": [
+          "https://apnews.com/article/russia-ukraine-war-kyiv-attack-b041f78e5d037a0f3377b7108eac1dc7",
+          "https://www.reuters.com/world/europe/russian-strike-kills-woman-hits-kyiv-subway-station-mayor-says-2026-10-19/"
+        ]
+      }
+    ]
+  }
+}
