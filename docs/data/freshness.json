@@ -399,6 +399,65 @@
         }
       ],
       "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-10-20-morning",
+      "as_of": "2026-10-20T04:51:55.233000+00:00",
+      "records": [
+        {
+          "owner": "2026-10-20-morning",
+          "id": "limassol-forecast-2026-10-20-morning",
+          "kind": "weather",
+          "label": "Λεμεσός/νότια παράλια · δελτίο Α",
+          "checked_at": "2026-10-20T04:48:18.157Z",
+          "valid_from": "2026-10-20T06:00:00+03:00",
+          "valid_until": "2026-10-21T06:00:00+03:00",
+          "recheck_at": "2026-10-20T13:30:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_a.html"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-20-morning",
+          "id": "warnings-2026-10-20-morning",
+          "kind": "recheck",
+          "label": "Agromet: καμία ενεργή προειδοποίηση κατά την ανάγνωση",
+          "checked_at": "2026-10-20T04:48:18.157Z",
+          "recheck_at": "2026-10-20T13:30:00+03:00",
+          "sources": [
+            "https://agromet.dom.org.cy/"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-20-morning",
+          "id": "energy-opening-2026-10-20-morning",
+          "kind": "event",
+          "label": "Προγραμματισμένο άνοιγμα χορηγιών· απαιτείται έλεγχος πύλης",
+          "checked_at": "2026-10-20T04:48:18.157Z",
+          "starts_at": "2026-10-20T09:00:00+03:00",
+          "recheck_at": "2026-10-20T09:00:00+03:00",
+          "sources": [
+            "https://www.industry.gov.cy/gr/%CE%B5%CE%BD%CE%B7%CE%BC%CE%AD%CF%81%CF%89%CF%83%CE%B7/%CE%B1%CE%BD%CE%B1%CE%BA%CE%BF%CE%B9%CE%BD%CF%8E%CF%83%CE%B5%CE%B9%CF%82/2-%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CF%87%CE%BF%CF%81%CE%B7%CE%B3%CE%B9%CF%8E%CE%BD-%CE%B5%CE%BE%CE%BF%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CF%8E-%E2%80%93-%CE%B1%CE%BD%CE%B1%CE%B2%CE%B1%CE%B8%CE%BC%CE%AF%CE%B6%CF%89-%CF%83%CF%84%CE%B9%CF%82-%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B5%CF%82-2026"
+          ],
+          "state": "upcoming"
+        },
+        {
+          "owner": "2026-10-20-morning",
+          "id": "leaders-meeting-2026-10-20-morning",
+          "kind": "event",
+          "label": "Προγραμματισμένη συνάντηση ηγετών· όχι ακόμη αποτέλεσμα",
+          "checked_at": "2026-10-20T04:48:18.157Z",
+          "starts_at": "2026-10-20T11:00:00+03:00",
+          "recheck_at": "2026-10-20T13:30:00+03:00",
+          "sources": [
+            "https://en.sigmalive.com/christodoulides-and-erhurman-to-meet-tomorrow-aiming-to-achieve-meaningful-progress/"
+          ],
+          "state": "upcoming"
+        }
+      ],
+      "coverage": "structured"
     }
   ]
 }

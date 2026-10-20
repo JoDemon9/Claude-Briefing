@@ -1,0 +1,77 @@
+{
+  "id": "lead-yemen",
+  "story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
+  "story_identity": "yemen-shabwa-training-camp-attack-october-19-2026",
+  "edition_id": "2026-10-20-morning",
+  "headline": "Υεμένη: τουλάχιστον 53 νεκροί σε στρατόπεδο — διευρύνεται η σύγκρουση",
+  "category": "Πρώτο θέμα",
+  "summary": "Βαλλιστική επίθεση των Χούθι σε στρατόπεδο κυβερνητικών δυνάμεων στη Σάμπουα της Υεμένης σκότωσε τουλάχιστον 53 στρατιώτες και τραυμάτισε ακόμη 200 νεοσύλλεκτους τη Δευτέρα 19/10, σύμφωνα με στρατιωτικούς αξιωματούχους και την επαρχιακή κυβέρνηση που επικαλείται το AP. Οι Χούθι αναγνώρισαν ότι στόχευσαν το στρατόπεδο. Η τοπική αρχή προειδοποίησε ότι ο απολογισμός μπορεί να αυξηθεί· ο ισχυρισμός των ανταρτών ότι σκοτώθηκαν Σαουδάραβες αξιωματικοί δεν συνοδεύτηκε από αποδείξεις.",
+  "published_at": "2026-10-20T04:51:55.233Z",
+  "updated_at": "2026-10-20T04:51:55.233Z",
+  "sources": [
+    {
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/6afad4ec4c22dcccd379152ea87cb0e2",
+      "published_at": "2026-10-19T10:32:12Z",
+      "retrieved_at": "2026-10-20T04:41:10.375Z",
+      "reporting_group": "Associated Press",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Reuters μέσω Investing.com",
+      "url": "https://www.investing.com/news/commodities-news/houthi-attack-kills-53-at-yemen-government-training-camp-officials-say-4957722",
+      "published_at": "2026-10-19T09:32:15Z",
+      "retrieved_at": "2026-10-20T04:48:18.157Z",
+      "reporting_group": "Reuters",
+      "kind": "wire",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Τι ακολουθεί",
+      "paragraphs": [
+        "Η επαρχιακή κυβέρνηση ζητά ενίσχυση της αεράμυνας. Ο απολογισμός και τυχόν σαουδαραβική αντίδραση παραμένουν υπό εξέταση."
+      ]
+    }
+  ],
+  "image": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sanaa_Yemen_2013_old_city_001.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Sanaa_Yemen_2013_old_city_001.jpg",
+    "caption": "Παλιά πόλη της Σαναά, 15/08/2013. Γεωγραφική φωτογραφία αρχείου της Υεμένης· όχι το στρατόπεδο στη Σάμπουα ή η επίθεση της 19/10/2026. Σμίκρυνση και WebP.",
+    "alt": "Παλιά πόλη της Σαναά, 15/08/2013. Γεωγραφική φωτογραφία αρχείου της Υεμένης· όχι το στρατόπεδο στη Σάμπουα ή η επίθεση της 19/10/2026. Σμίκρυνση και WebP.",
+    "attribution": "Rod Waddington",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "retrieved_at": "2026-10-14T07:57:30+03:00",
+    "url": "assets/editorial/2026-10-20-morning/lead-yemen.webp",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-14-midday/world-aramco.webp",
+      "sha256": "6d5cb7ce9615d006c0eda535b815d2b9e3c5e07704e540412ba29389663572e1",
+      "reviewed_at": "2026-10-20T07:43:57.300+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-20-morning/lead-yemen.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 10,
+    "events": [
+      {
+        "id": "2026-10-20-morning-lead-yemen-review",
+        "kind": "new",
+        "at": "2026-10-20T04:43:57.300Z",
+        "summary": "Ένταξη της τεκμηριωμένης αναφοράς στην πρωινή έκδοση· ο χρόνος αφορά τον συντακτικό έλεγχο, όχι την ώρα του γεγονότος.",
+        "source_urls": [
+          "https://apnews.com/article/6afad4ec4c22dcccd379152ea87cb0e2"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "world-canada",
+  "story_id": "canada-wainwright-base-fire-october-17-2026",
+  "story_identity": "canada-wainwright-base-fire-october-17-2026",
+  "edition_id": "2026-10-20-morning",
+  "headline": "Wainwright: 50 ερευνητές και ανοικτό το ερώτημα της αρχικής ανάφλεξης",
+  "category": "Διεθνή",
+  "summary": "Πενήντα ερευνητές εξετάζουν την πυρκαγιά της 17/10 στη βάση Wainwright, η οποία σκότωσε τέσσερις στρατιώτες και τραυμάτισε 39, δήλωσε τη Δευτέρα ο Μαρκ Κάρνεϊ, σύμφωνα με το AP. Η έρευνα καθοδηγείται από τη στρατιωτική υπηρεσία ερευνών με υποστήριξη της ομοσπονδιακής αστυνομίας. Δεκαεννέα τραυματίες παρέμεναν σε κρίσιμη κατάσταση στον απολογισμό της Δευτέρας. Η αρχική αιτία της φωτιάς δεν είχε ακόμη εξακριβωθεί· τα επίσημα στοιχεία επιβεβαιώνουν ότι διεξαγόταν εκπαίδευση με πραγματικά πυρά.",
+  "published_at": "2026-10-19T07:44:02+03:00",
+  "updated_at": "2026-10-20T04:51:55.233Z",
+  "sources": [
+    {
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/6d2f53b647b9203620302da35374a416",
+      "published_at": "2026-10-19T15:56:39Z",
+      "retrieved_at": "2026-10-20T04:42:03.809Z",
+      "reporting_group": "Associated Press",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Canadian Armed Forces",
+      "url": "https://www.canada.ca/en/department-national-defence/news/2026/10/four-canadian-armed-forces-members-killed-during-training-in-cfb-wainwright.html",
+      "published_at": null,
+      "retrieved_at": "2026-10-20T04:42:03.809Z",
+      "reporting_group": "Canadian Armed Forces",
+      "kind": "primary",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Τι ακολουθεί",
+      "paragraphs": [
+        "Η έρευνα εξετάζει τη διασπορά της φωτιάς και αν χρειάζονται αλλαγές στις διαδικασίες ασφαλείας. Η παρουσία πραγματικών πυρών δεν αποδεικνύει από μόνη της αιτιότητα."
+      ]
+    }
+  ],
+  "image": {
+    "url": "assets/editorial/2026-10-20-morning/world-canada.webp",
+    "alt": "Μαρκ Κάρνεϊ, επίσημο πορτρέτο 06/05/2025. Αρχειακή φωτογραφία του πρωθυπουργού· όχι η βάση, η φωτιά ή τα θύματα.",
+    "caption": "Μαρκ Κάρνεϊ, επίσημο πορτρέτο 06/05/2025. Αρχειακή φωτογραφία του πρωθυπουργού· όχι η βάση, η φωτιά ή τα θύματα.",
+    "attribution": "Daniel Torok / The White House · Wikimedia Commons · Public domain (US federal government) · σμίκρυνση/μετατροπή WebP",
+    "license": "Public domain (US federal government)",
+    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-POTUS",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mark_Carney_portrait_May_2025.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mark_Carney_portrait_May_2025.jpg",
+    "retrieved_at": "2026-10-19T04:33:09.247348+00:00",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-19-morning/world-canada.webp",
+      "sha256": "a6f6bb335d86fde3cd6d35bcf190105a5e0ac9409784cb5deb8adca22b51742d",
+      "reviewed_at": "2026-10-20T07:43:57.300+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-20-morning/world-canada.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 60,
+    "events": [
+      {
+        "id": "2026-10-20-morning-world-canada-review",
+        "kind": "substantive_update",
+        "at": "2026-10-20T04:43:57.300Z",
+        "summary": "Ένταξη της τεκμηριωμένης αναφοράς στην πρωινή έκδοση· ο χρόνος αφορά τον συντακτικό έλεγχο, όχι την ώρα του γεγονότος.",
+        "source_urls": [
+          "https://apnews.com/article/6d2f53b647b9203620302da35374a416",
+          "https://www.canada.ca/en/department-national-defence/news/2026/10/four-canadian-armed-forces-members-killed-during-training-in-cfb-wainwright.html"
+        ]
+      }
+    ]
+  }
+}

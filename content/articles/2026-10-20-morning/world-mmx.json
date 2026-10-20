@@ -1,0 +1,72 @@
+{
+  "id": "world-mmx",
+  "story_id": "japan-mmx-launch-october-20-2026",
+  "story_identity": "japan-mmx-launch-october-20-2026",
+  "edition_id": "2026-10-20-morning",
+  "headline": "MMX: εκτοξεύτηκε η ιαπωνική αποστολή για δείγματα από τον Φόβο",
+  "category": "Διεθνή",
+  "summary": "Η JAXA ανακοίνωσε ότι ο πύραυλος H3 εκτόξευσε το MMX από την Τανεγκασίμα στις 04:41:03 Ιαπωνίας της 20/10, δηλαδή στις 22:41:03 Κύπρου της 19/10. Ο διαχωρισμός του σκάφους επιβεβαιώθηκε περίπου 71 λεπτά αργότερα. Η αποστολή θα μελετήσει τους δορυφόρους του Άρη και θα επιχειρήσει συλλογή υλικού από τον Φόβο. Εφόσον πετύχει, η επιστροφή των δειγμάτων στη Γη προγραμματίζεται για το 2031, σύμφωνα με το AP.",
+  "published_at": "2026-10-20T04:51:55.233Z",
+  "updated_at": "2026-10-20T04:51:55.233Z",
+  "sources": [
+    {
+      "publisher": "JAXA",
+      "url": "https://www.jaxa.jp/press/2026/10/20261020-1_j.html",
+      "published_at": null,
+      "retrieved_at": "2026-10-20T04:40:24.226Z",
+      "reporting_group": "JAXA",
+      "kind": "primary",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/japan-mars-moon-mission-fb51fbbf90374631e8ae658f9ca46154",
+      "published_at": null,
+      "retrieved_at": "2026-10-20T04:41:10.375Z",
+      "reporting_group": "Associated Press",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Τι ακολουθεί",
+      "paragraphs": [
+        "Η επιτυχής εκτόξευση είναι το πρώτο βήμα· η προσεδάφιση, η συλλογή και η επιστροφή δειγμάτων παραμένουν μελλοντικοί στόχοι."
+      ]
+    }
+  ],
+  "image": {
+    "url": "assets/editorial/2026-10-20-morning/world-mmx.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Phobos_colour_2008.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Phobos_colour_2008.jpg",
+    "attribution": "NASA / JPL-Caltech / University of Arizona",
+    "license": "Public domain · NASA",
+    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA",
+    "retrieved_at": "2026-10-20T04:43:57.300Z",
+    "caption": "Ο Φόβος από το Mars Reconnaissance Orbiter, 23/03/2008. Πραγματική φωτογραφία με συνδυασμό χρωματικών καναλιών· όχι λήψη του MMX ή εικόνα της εκτόξευσης. Σμίκρυνση και WebP.",
+    "alt": "Ο Φόβος από το Mars Reconnaissance Orbiter, 23/03/2008. Πραγματική φωτογραφία με συνδυασμό χρωματικών καναλιών· όχι λήψη του MMX ή εικόνα της εκτόξευσης. Σμίκρυνση και WebP."
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-20-morning/world-mmx.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 50,
+    "events": [
+      {
+        "id": "2026-10-20-morning-world-mmx-review",
+        "kind": "new",
+        "at": "2026-10-20T04:43:57.300Z",
+        "summary": "Ένταξη της τεκμηριωμένης αναφοράς στην πρωινή έκδοση· ο χρόνος αφορά τον συντακτικό έλεγχο, όχι την ώρα του γεγονότος.",
+        "source_urls": [
+          "https://www.jaxa.jp/press/2026/10/20261020-1_j.html",
+          "https://apnews.com/article/japan-mars-moon-mission-fb51fbbf90374631e8ae658f9ca46154"
+        ]
+      }
+    ]
+  }
+}
