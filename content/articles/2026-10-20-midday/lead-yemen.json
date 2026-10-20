@@ -1,0 +1,87 @@
+{
+  "id": "lead-yemen",
+  "story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
+  "story_identity": "yemen-shabwa-training-camp-attack-october-19-2026",
+  "edition_id": "2026-10-20-midday",
+  "headline": "Υεμένη: ο απολογισμός στο στρατόπεδο αυξήθηκε σε 60 νεκρούς",
+  "category": "Διεθνή",
+  "summary": "Ο απολογισμός από την επίθεση των Χούθι στο στρατόπεδο αλ-Αλάμ της Σάμπουα αυξήθηκε την Τρίτη 20/10 σε 60 νεκρούς, σύμφωνα με αξιωματούχους του στρατού και της κυβέρνησης της Υεμένης που μίλησαν στο AP. Περισσότεροι από 200 νεοσύλλεκτοι τραυματίστηκαν και τουλάχιστον δώδεκα αγνοούνται. Το πρωί οι επιβεβαιωμένες αναφορές μιλούσαν για τουλάχιστον 53 νεκρούς. Η νέα καταμέτρηση παραμένει ανοικτή· ο ισχυρισμός των Χούθι για Σαουδάραβες αξιωματικούς δεν έχει τεκμηριωθεί.",
+  "published_at": "2026-10-20T14:23:26+03:00",
+  "updated_at": "2026-10-20T14:23:26+03:00",
+  "sources": [
+    {
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/mideast-yemen-saudi-israel-gaza-october-20-2026-6f69abd6470c9b43b75de7b223011486",
+      "published_at": "2026-10-20T09:51:48Z",
+      "retrieved_at": "2026-10-20T11:16:46Z",
+      "reporting_group": "Associated Press",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/6afad4ec4c22dcccd379152ea87cb0e2",
+      "published_at": "2026-10-19T10:32:12Z",
+      "retrieved_at": "2026-10-20T04:41:10.375Z",
+      "reporting_group": "Associated Press",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Reuters μέσω Investing.com",
+      "url": "https://www.investing.com/news/commodities-news/houthi-attack-kills-53-at-yemen-government-training-camp-officials-say-4957722",
+      "published_at": "2026-10-19T09:32:15Z",
+      "retrieved_at": "2026-10-20T04:48:18.157Z",
+      "reporting_group": "Reuters",
+      "kind": "wire",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Τι ακολουθεί",
+      "paragraphs": [
+        "Οι αρχές αναζητούν τους αγνοούμενους και θα αναθεωρήσουν τον απολογισμό εάν επιβεβαιωθούν επιπλέον θάνατοι. Η πρωινή καταμέτρηση διατηρείται στην αυτοτελή πρωινή έκδοση."
+      ]
+    }
+  ],
+  "image": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sanaa_Yemen_2013_old_city_001.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Sanaa_Yemen_2013_old_city_001.jpg",
+    "caption": "Παλιά πόλη της Σαναά, 15/08/2013. Γεωγραφική φωτογραφία αρχείου της Υεμένης· όχι το στρατόπεδο αλ-Αλάμ ή η επίθεση του 2026.",
+    "alt": "Παλιά πόλη της Σαναά, 15/08/2013. Γεωγραφική φωτογραφία αρχείου της Υεμένης· όχι το στρατόπεδο αλ-Αλάμ ή η επίθεση του 2026.",
+    "attribution": "Rod Waddington",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "retrieved_at": "2026-10-14T07:57:30+03:00",
+    "url": "assets/editorial/2026-10-20-midday/lead-yemen.webp",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-14-midday/world-aramco.webp",
+      "sha256": "6d5cb7ce9615d006c0eda535b815d2b9e3c5e07704e540412ba29389663572e1",
+      "reviewed_at": "2026-10-20T14:17:00+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-20-midday/lead-yemen.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 20,
+    "events": [
+      {
+        "id": "2026-10-20-midday-lead-yemen-review",
+        "kind": "substantive_update",
+        "at": "2026-10-20T11:16:46Z",
+        "summary": "Αυξημένος απολογισμός 60 νεκρών και τουλάχιστον δώδεκα αγνοουμένων, κατά AP Η ώρα αφορά τον συντακτικό έλεγχο.",
+        "source_urls": [
+          "https://apnews.com/article/mideast-yemen-saudi-israel-gaza-october-20-2026-6f69abd6470c9b43b75de7b223011486"
+        ]
+      }
+    ]
+  }
+}

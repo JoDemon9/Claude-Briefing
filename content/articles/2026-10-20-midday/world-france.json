@@ -1,0 +1,87 @@
+{
+  "id": "world-france",
+  "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+  "story_identity": "france-cost-of-living-mobilisation-october-17-2026",
+  "edition_id": "2026-10-20-midday",
+  "headline": "Γαλλία: η ακρίβεια τροφοδοτεί τις διαδηλώσεις, τοπικοί οι περιορισμοί",
+  "category": "Διεθνή",
+  "summary": "Οι γαλλικές διαδηλώσεις που άρχισαν από ζητήματα σχολικών υποδομών συνδέονται πλέον και με το κόστος καυσίμων και διαβίωσης, σύμφωνα με τη σημερινή επιτόπια αναφορά του Reuters. Το ρεπορτάζ καταγράφει επεισόδια και σε άλλες πόλεις. Η πρωινή τεκμηρίωση των νυχτερινών περιορισμών αφορούσε δύο συγκεκριμένες παρισινές ζώνες, όχι εθνική απαγόρευση. Οι πιθανές πολιτικές επιπτώσεις ενόψει εκλογών είναι εκτίμηση του ρεπορτάζ και δεν αποτελούν μετρημένο αποτέλεσμα.",
+  "published_at": "2026-10-20T14:23:26+03:00",
+  "updated_at": "2026-10-20T14:23:26+03:00",
+  "sources": [
+    {
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/europe/france-erupts-europes-far-right-gains-fuel-price-anger-ahead-elections-2026-10-20/",
+      "published_at": "2026-10-20T06:02:16Z",
+      "retrieved_at": "2026-10-20T11:16:46Z",
+      "reporting_group": "Reuters",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/75825aafc5412ae389c6d41443b4082e",
+      "published_at": null,
+      "retrieved_at": "2026-10-20T04:41:10.375Z",
+      "reporting_group": "Associated Press",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Anadolu · αναφορά BFMTV",
+      "url": "https://www.aa.com.tr/en/europe/france-extends-night-curfews-beyond-paris-following-weekend-violence/4093761",
+      "published_at": null,
+      "retrieved_at": "2026-10-20T04:51:55.233Z",
+      "reporting_group": "Anadolu / BFMTV",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Τι ακολουθεί",
+      "paragraphs": [
+        "Οι επόμενες τοπικές διαταγές και οι νέες κινητοποιήσεις θα καθορίσουν τη διάρκεια των περιορισμών. Δεν έχει τεκμηριωθεί γενικός περιορισμός σε όλη τη Γαλλία."
+      ]
+    }
+  ],
+  "image": {
+    "url": "assets/editorial/2026-10-20-midday/world-france.webp",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Paris-2023-01-31-manif-retraites07.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris-2023-01-31-manif-retraites07.jpg",
+    "caption": "Διαδήλωση στο Παρίσι, 31/01/2023. Φωτογραφία αρχείου· όχι οι ταραχές του Οκτωβρίου 2026.",
+    "alt": "Διαδήλωση στο Παρίσι, 31/01/2023. Φωτογραφία αρχείου· όχι οι ταραχές του Οκτωβρίου 2026.",
+    "attribution": "Roland Godefroy / Wikimedia Commons · μετατροπή WebP",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "retrieved_at": "2026-10-18T04:33:50.449675+00:00",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-18-midday/lead-france.webp",
+      "sha256": "303346c4ccf61ce471ee01d3ef0ce9bb69d6a710167d7a855147ee8b3f7c8d83",
+      "reviewed_at": "2026-10-20T14:17:00+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-20-midday/world-france.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 60,
+    "events": [
+      {
+        "id": "2026-10-20-midday-world-france-review",
+        "kind": "enrichment",
+        "at": "2026-10-20T11:16:46Z",
+        "summary": "Προστέθηκε επιτόπια τεκμηρίωση για ακρίβεια και πολιτικό πλαίσιο χωρίς αλλαγή της γεωγραφικής ισχύος των πρωινών μέτρων Η ώρα αφορά τον συντακτικό έλεγχο.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/france-erupts-europes-far-right-gains-fuel-price-anger-ahead-elections-2026-10-20/"
+        ]
+      }
+    ]
+  }
+}

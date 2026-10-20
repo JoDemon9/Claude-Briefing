@@ -1,0 +1,77 @@
+{
+  "id": "world-ukraine",
+  "story_id": "ukraine-october-20-strikes-oslo-diplomacy",
+  "story_identity": "ukraine-october-20-strikes-oslo-diplomacy",
+  "edition_id": "2026-10-20-midday",
+  "headline": "Ουκρανία: επτά νεκροί από πλήγματα ενώ αρχίζουν συναντήσεις στο Όσλο",
+  "category": "Διεθνή",
+  "summary": "Ρωσικά πυραυλικά και μη επανδρωμένα πλήγματα σκότωσαν τουλάχιστον επτά ανθρώπους στην Ουκρανία την Τρίτη 20/10, σύμφωνα με ουκρανικές υπηρεσίες που επικαλείται το AP. Ο διαχειριστής του δικτύου ανέφερε διακοπές ηλεκτροδότησης σε δώδεκα περιφέρειες. Την ίδια ημέρα ο Βολοντίμιρ Ζελένσκι ταξιδεύει στο Όσλο για επαφές με τη νορβηγική και φινλανδική ηγεσία και τον Αμερικανό απεσταλμένο Στιβ Γουίτκοφ. Το αποτέλεσμα των συνομιλιών δεν είχε ανακοινωθεί κατά τον έλεγχο.",
+  "published_at": "2026-10-20T14:23:26+03:00",
+  "updated_at": "2026-10-20T14:23:26+03:00",
+  "sources": [
+    {
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/russia-ukraine-zelenskyy-norway-trump-rubio-witkoff-140895c6c0a1682c46f4fe197e056996",
+      "published_at": "2026-10-20T09:01:34Z",
+      "retrieved_at": "2026-10-20T11:16:46Z",
+      "reporting_group": "Associated Press",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/ukraines-zelenskiy-travels-norway-talks-war-security-tuesday-2026-10-20/",
+      "published_at": "2026-10-20T05:47:24Z",
+      "retrieved_at": "2026-10-20T11:16:46Z",
+      "reporting_group": "Reuters",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Τι ακολουθεί",
+      "paragraphs": [
+        "Αναμένονται η συνέντευξη Τύπου στο Όσλο και επιβεβαιωμένος νεότερος απολογισμός των επιθέσεων. Οι προγραμματισμένες επαφές δεν είναι συμφωνία."
+      ]
+    }
+  ],
+  "image": {
+    "url": "assets/editorial/2026-10-20-midday/world-ukraine.webp",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Darnytska_Combined_Heat_and_Power_Plant_in_Kyiv_after_Russian_attack_on_2026-02-03_%2819%29.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Darnytska_Combined_Heat_and_Power_Plant_in_Kyiv_after_Russian_attack_on_2026-02-03_%2819%29.jpg",
+    "caption": "Μονάδα Darnytska του Κιέβου μετά την επίθεση της 03/02/2026. Φωτογραφία αρχείου· όχι τα πλήγματα της 20/10.",
+    "alt": "Μονάδα Darnytska του Κιέβου μετά την επίθεση της 03/02/2026. Φωτογραφία αρχείου· όχι τα πλήγματα της 20/10.",
+    "attribution": "Ministry of Energy of Ukraine · Mev.gov.ua / Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "retrieved_at": "2026-10-13T15:54:24+03:00",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-13-morning/world-4.webp",
+      "sha256": "74e70536c975934300273a9c7895e4f37467506aeacddf64f685f05475e609e1",
+      "reviewed_at": "2026-10-20T14:17:00+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-20-midday/world-ukraine.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 35,
+    "events": [
+      {
+        "id": "2026-10-20-midday-world-ukraine-review",
+        "kind": "new",
+        "at": "2026-10-20T11:16:46Z",
+        "summary": "Πρώτη τεκμηριωμένη ένταξη στη μεσημεριανή έκδοση Η ώρα αφορά τον συντακτικό έλεγχο.",
+        "source_urls": [
+          "https://apnews.com/article/russia-ukraine-zelenskyy-norway-trump-rubio-witkoff-140895c6c0a1682c46f4fe197e056996"
+        ]
+      }
+    ]
+  }
+}
