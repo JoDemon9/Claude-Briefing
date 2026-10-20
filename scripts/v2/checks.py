@@ -13,7 +13,7 @@ import time
 
 ROOT=Path(__file__).resolve().parents[2]
 CODE=('scripts/','templates/','tests/','.github/','requirements','BRIEFING_RUNTIME.md')
-CONTENT_TESTS=('test_reading_policy.py','test_editorial_images.py','test_selection.py','test_opportunities.py','test_follow_ups.py')
+CONTENT_TESTS=('test_reading_policy.py','test_editorial_images.py','test_selection.py','test_sports_news.py','test_opportunities.py','test_follow_ups.py')
 
 
 def module(name):

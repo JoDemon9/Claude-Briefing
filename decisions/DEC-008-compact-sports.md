@@ -15,3 +15,5 @@ Supersedes the old expandable favourite layout and 2–3 sports target. Keep exa
 See tests/test_selection.py, relevant UI/browser checks and RELEASE_NOTES_2026-10-15-CURATION.md for actual checks, main commits, Pages and task status. Do not equate a local build with a live release. New selection gates begin with the 16 October morning; the rendered layout applies to maintained existing pages immediately.
 
 Follow-up [DEC-011](DEC-011-real-sports-logos.md) supersedes the emoji markers with small authentic logo images; the four-link layout is preserved.
+
+[DEC-019](DEC-019-favourite-news-and-bounded-work.md) and [DEC-020](DEC-020-luna-sports-and-collapsible-findings.md) supersede the links-only rule: show up to two real dated headlines per favourite with the small logos and official all-news link. Preserve the original sources/dates and separate other-sports desk.

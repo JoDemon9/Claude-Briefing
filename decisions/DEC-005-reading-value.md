@@ -17,6 +17,8 @@ The current 14 October newspaper's 24 underlying articles are revised from store
 
 ## Preserve during unrelated work
 
+Follow-up [DEC-020](DEC-020-luna-sports-and-collapsible-findings.md) intentionally supersedes the always-visible presentation below: complete findings now open in a native disclosure at the user's request. All factual text, qualifications and useful reading-depth requirements remain.
+
 - Never restore minimum article length or mandatory “opposite view” boilerplate merely to make a validator pass.
 - Keep all factual summary text visible. Keep expanded analysis concise and optional, including on the lead.
 - Require actual reviewed evidence; do not mistake a populated metadata field for proof of intelligence.
