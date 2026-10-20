@@ -1814,10 +1814,9 @@
     },
     {
       "id": "energy-portal-2026-10-20-midday",
-      "kind": "event",
-      "label": "Επίσημη ώρα έναρξης παρήλθε· η πύλη δεν ήταν αναγνώσιμη",
+    "kind": "recheck",
+    "label": "Μετά την ανακοινωμένη έναρξη, η πύλη δεν ήταν αναγνώσιμη στον μεσημεριανό έλεγχο· η κατάσταση παραμένει αβέβαιη",
       "checked_at": "2026-10-20T11:16:46Z",
-      "starts_at": "2026-10-20T09:00:00+03:00",
       "recheck_at": "2026-10-20T19:30:00+03:00",
       "sources": [
         "https://www.diakivernisi.gov.cy/gr/1-kybernhtiko-ergo/kybernhtiko-ergo/sxedio-exoikonomw-%E2%80%93-anabathmizo-xorigies-eos-%E2%82%AC32-000-gia-energeiaki-anabathmisi-katoikiwn"
