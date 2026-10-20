@@ -95,11 +95,15 @@ def run(output):
                         assert trigger.bounding_box()['height']>=44
                         trigger.click()
                         assert not findings.locator('.abstract').is_visible()
+                        # DEC-005 keeps analysis optional; newer leads can link
+                        # directly to their source without an invented expansion.
+                        assert page.locator('.hero .lead-analysis').count()==int(bool(article.get('newspaper_analysis')))
                         assert not page.locator('.hero .card-context').is_visible()
-                        detail=page.locator('.hero .lead-analysis>summary');detail.focus();page.keyboard.press('Enter')
-                        assert page.locator('.hero .card-context').is_visible()
-                        assert page.locator('.hero .card-context p').all_text_contents()==article['newspaper_analysis']
-                        detail.click()
+                        if article.get('newspaper_analysis'):
+                            detail=page.locator('.hero .lead-analysis>summary');detail.focus();page.keyboard.press('Enter')
+                            assert page.locator('.hero .card-context').is_visible()
+                            assert page.locator('.hero .card-context p').all_text_contents()==article['newspaper_analysis']
+                            detail.click()
                         img=page.locator('.hero img');img.scroll_into_view_if_needed()
                         img.evaluate('(x)=>x.decode()')
                         assert img.evaluate('(x)=>x.naturalWidth>0&&x.naturalHeight>0')
