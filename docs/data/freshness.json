@@ -401,6 +401,51 @@
       "coverage": "structured"
     },
     {
+      "edition_id": "2026-10-20-midday",
+      "as_of": "2026-10-20T14:23:26+03:00",
+      "records": [
+        {
+          "owner": "2026-10-20-midday",
+          "id": "limassol-forecast-2026-10-20-midday",
+          "kind": "weather",
+          "label": "Λεμεσός/νότια παράλια · δελτίο Α",
+          "checked_at": "2026-10-20T11:16:46Z",
+          "valid_from": "2026-10-20T06:00:00+03:00",
+          "valid_until": "2026-10-21T06:00:00+03:00",
+          "recheck_at": "2026-10-20T19:30:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_a.html"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-20-midday",
+          "id": "warnings-2026-10-20-midday",
+          "kind": "recheck",
+          "label": "Agromet: καμία προειδοποίηση κατά τον μεσημεριανό έλεγχο",
+          "checked_at": "2026-10-20T11:16:46Z",
+          "recheck_at": "2026-10-20T19:30:00+03:00",
+          "sources": [
+            "https://agromet.dom.org.cy/"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-20-midday",
+          "id": "energy-portal-2026-10-20-midday",
+          "kind": "recheck",
+          "label": "Μετά την ανακοινωμένη έναρξη, η πύλη δεν ήταν αναγνώσιμη στον μεσημεριανό έλεγχο· η κατάσταση παραμένει αβέβαιη",
+          "checked_at": "2026-10-20T11:16:46Z",
+          "recheck_at": "2026-10-20T19:30:00+03:00",
+          "sources": [
+            "https://www.diakivernisi.gov.cy/gr/1-kybernhtiko-ergo/kybernhtiko-ergo/sxedio-exoikonomw-%E2%80%93-anabathmizo-xorigies-eos-%E2%82%AC32-000-gia-energeiaki-anabathmisi-katoikiwn"
+          ],
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
       "edition_id": "2026-10-20-morning",
       "as_of": "2026-10-20T04:51:55.233000+00:00",
       "records": [

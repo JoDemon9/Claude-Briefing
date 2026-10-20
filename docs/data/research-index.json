@@ -143,6 +143,13 @@
       "url": "morning/2026-10-19.html"
     },
     {
+      "id": "2026-10-20-midday",
+      "date": "2026-10-20",
+      "type": "midday",
+      "published_at": "2026-10-20T14:23:26+03:00",
+      "url": "midday/2026-10-20.html"
+    },
+    {
       "id": "2026-10-20-morning",
       "date": "2026-10-20",
       "type": "morning",
@@ -5070,6 +5077,364 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-19-morning/cyprus-seasonal.webp"
+    },
+    {
+      "story_id": "cyprus-leaders-meeting-october-20-2026",
+      "identity": "cyprus-leaders-meeting-october-20-2026",
+      "edition_id": "2026-10-20-midday",
+      "date": "2026-10-20",
+      "slot": "midday",
+      "published_at": "2026-10-20T14:23:26+03:00",
+      "available_at": "2026-10-20T14:23:26+03:00",
+      "headline": "Κυπριακό: δύο κοινές πρωτοβουλίες, νέα συνάντηση και τριμερής στις 9/11",
+      "finding": "Ο Νίκος Χριστοδουλίδης και ο Τουφάν Ερχιουρμάν συναντήθηκαν στις 20/10 στη νεκρή ζώνη και συμφώνησαν να προχωρήσουν πρωτοβουλίες για το περιβάλλον και την ανταλλαγή πολιτιστικών αντικειμένων, σύμφωνα με ανακοίνωση των Ηνωμένων Εθνών που μεταφέρουν Cyprus Mail και Philenews. Θα ξανασυναντηθούν την επόμενη εβδομάδα. Η απεσταλμένη Μαρία Άνχελα Ολγκίν αναμένεται στις 29/10, με τριμερή προγραμματισμένη για τις 9/11. Οι συμφωνίες αυτές δεν συνιστούν ακόμη επανέναρξη επίσημων διαπραγματεύσεων για λύση.",
+      "section": "cyprus",
+      "priority": 10,
+      "article_path": "articles/2026-10-20-midday/cyprus-leaders.json",
+      "reader_url": "articles/2026-10-20-midday/cyprus-leaders.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/20/christodoulides-and-erhurman-to-meet-again-next-week-ahead-of-un-envoys-visit",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-20T13:15:00+03:00",
+          "retrieved_at": "2026-10-20T11:16:46Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://en.philenews.com/politics/christodoulides-erhurman-meeting-initiatives-holguin-trilateral-9-november-live/",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-20",
+          "retrieved_at": "2026-10-20T11:16:46Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.cyprus-mail.com/2026/10/19/christodoulides-erhurman-to-meet-on-tuesday",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": null,
+          "retrieved_at": "2026-10-20T04:40:24.226Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://en.sigmalive.com/christodoulides-and-erhurman-to-meet-tomorrow-aiming-to-achieve-meaningful-progress/",
+          "publisher": "SigmaLive · ΚΥΠΕ",
+          "reporting_group": "ΚΥΠΕ",
+          "published_at": "2026-10-19T10:33:00+03:00",
+          "retrieved_at": "2026-10-20T04:48:18.157Z",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-20-midday/cyprus-leaders.webp"
+    },
+    {
+      "story_id": "cy-home-energy-2026-application-window",
+      "identity": "cy-home-energy-2026-application-window",
+      "edition_id": "2026-10-20-midday",
+      "date": "2026-10-20",
+      "slot": "midday",
+      "published_at": "2026-10-20T14:23:26+03:00",
+      "available_at": "2026-10-20T14:23:26+03:00",
+      "headline": "Κατοικίες: από τις 09:00 το προγραμματισμένο παράθυρο χορηγιών έως €32.000",
+      "finding": "Η επίσημη προκήρυξη ορίζει έναρξη αιτήσεων στις 09:00 της 20ής Οκτωβρίου για το σχέδιο ενεργειακής αναβάθμισης κατοικιών, με προϋπολογισμό €20 εκατ. και ανώτατη χορηγία €32.000 στον τύπο Α. Απαιτείται αρχικό Πιστοποιητικό Ενεργειακής Απόδοσης και ισχύουν αναλυτικοί όροι. Το ηλεκτρονικό σύστημα αιτήσεων δεν ήταν αναγνώσιμο κατά τον μεσημεριανό έλεγχο, επομένως δεν βεβαιώνεται ότι δέχεται υποβολές ή ότι απομένει προϋπολογισμός. Η λήξη προβλέπεται 30/12 στις 23:59 Κύπρου ή νωρίτερα λόγω εξάντλησης.",
+      "section": "cyprus",
+      "priority": 30,
+      "article_path": "articles/2026-10-20-midday/cyprus-energy.json",
+      "reader_url": "articles/2026-10-20-midday/cyprus-energy.html",
+      "sources": [
+        {
+          "url": "https://www.diakivernisi.gov.cy/gr/1-kybernhtiko-ergo/kybernhtiko-ergo/sxedio-exoikonomw-%E2%80%93-anabathmizo-xorigies-eos-%E2%82%AC32-000-gia-energeiaki-anabathmisi-katoikiwn",
+          "publisher": "Προεδρία της Κυπριακής Δημοκρατίας",
+          "reporting_group": "Προεδρία της Κυπριακής Δημοκρατίας",
+          "published_at": "2026-10-02",
+          "retrieved_at": "2026-10-20T11:16:46Z",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-20-midday/cyprus-energy.webp"
+    },
+    {
+      "story_id": "ukraine-october-20-strikes-oslo-diplomacy",
+      "identity": "ukraine-october-20-strikes-oslo-diplomacy",
+      "edition_id": "2026-10-20-midday",
+      "date": "2026-10-20",
+      "slot": "midday",
+      "published_at": "2026-10-20T14:23:26+03:00",
+      "available_at": "2026-10-20T14:23:26+03:00",
+      "headline": "Ουκρανία: επτά νεκροί από πλήγματα ενώ αρχίζουν συναντήσεις στο Όσλο",
+      "finding": "Ρωσικά πυραυλικά και μη επανδρωμένα πλήγματα σκότωσαν τουλάχιστον επτά ανθρώπους στην Ουκρανία την Τρίτη 20/10, σύμφωνα με ουκρανικές υπηρεσίες που επικαλείται το AP. Ο διαχειριστής του δικτύου ανέφερε διακοπές ηλεκτροδότησης σε δώδεκα περιφέρειες. Την ίδια ημέρα ο Βολοντίμιρ Ζελένσκι ταξιδεύει στο Όσλο για επαφές με τη νορβηγική και φινλανδική ηγεσία και τον Αμερικανό απεσταλμένο Στιβ Γουίτκοφ. Το αποτέλεσμα των συνομιλιών δεν είχε ανακοινωθεί κατά τον έλεγχο.",
+      "section": "world",
+      "priority": 35,
+      "article_path": "articles/2026-10-20-midday/world-ukraine.json",
+      "reader_url": "articles/2026-10-20-midday/world-ukraine.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/russia-ukraine-zelenskyy-norway-trump-rubio-witkoff-140895c6c0a1682c46f4fe197e056996",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-20T09:01:34Z",
+          "retrieved_at": "2026-10-20T11:16:46Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.reuters.com/world/ukraines-zelenskiy-travels-norway-talks-war-security-tuesday-2026-10-20/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-20T05:47:24Z",
+          "retrieved_at": "2026-10-20T11:16:46Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-20-midday/world-ukraine.webp"
+    },
+    {
+      "story_id": "iran-us-talks-strategy-october-20-2026",
+      "identity": "iran-us-talks-strategy-october-20-2026",
+      "edition_id": "2026-10-20-midday",
+      "date": "2026-10-20",
+      "slot": "midday",
+      "published_at": "2026-10-20T14:23:26+03:00",
+      "available_at": "2026-10-20T14:23:26+03:00",
+      "headline": "Ιράν–ΗΠΑ: παρατεταμένο αδιέξοδο στις επαφές για τον πόλεμο",
+      "finding": "Τρεις ανώνυμοι ανώτεροι Ιρανοί αξιωματούχοι και ένας συνομιλητής τους δήλωσαν στο Reuters στις 20/10 ότι η Τεχεράνη καθυστερεί τις διαπραγματεύσεις με τις ΗΠΑ, ενώ φοβάται νέους βομβαρδισμούς. Η ιρανική πρόταση μέσω Κατάρ συνδέει την επαναλειτουργία των Στενών του Ορμούζ με άρση του ναυτικού αποκλεισμού και περιορισμών στις εξαγωγές πετρελαίου. Το ιρανικό ΥΠΕΞ και ο Λευκός Οίκος δεν απάντησαν στο Reuters. Δεν έχει συμφωνηθεί κατάπαυση ή άνοιγμα των Στενών.",
+      "section": "world",
+      "priority": 40,
+      "article_path": "articles/2026-10-20-midday/world-iran.json",
+      "reader_url": "articles/2026-10-20-midday/world-iran.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/us/iran-prolongs-talks-stalemate-influence-us-midterms-officials-say-2026-10-20/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-20T10:26:13Z",
+          "retrieved_at": "2026-10-20T11:16:46Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-20-midday/world-iran.webp"
+    },
+    {
+      "story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
+      "identity": "yemen-shabwa-training-camp-attack-october-19-2026",
+      "edition_id": "2026-10-20-midday",
+      "date": "2026-10-20",
+      "slot": "midday",
+      "published_at": "2026-10-20T14:23:26+03:00",
+      "available_at": "2026-10-20T14:23:26+03:00",
+      "headline": "Υεμένη: ο απολογισμός στο στρατόπεδο αυξήθηκε σε 60 νεκρούς",
+      "finding": "Ο απολογισμός από την επίθεση των Χούθι στο στρατόπεδο αλ-Αλάμ της Σάμπουα αυξήθηκε την Τρίτη 20/10 σε 60 νεκρούς, σύμφωνα με αξιωματούχους του στρατού και της κυβέρνησης της Υεμένης που μίλησαν στο AP. Περισσότεροι από 200 νεοσύλλεκτοι τραυματίστηκαν και τουλάχιστον δώδεκα αγνοούνται. Το πρωί οι επιβεβαιωμένες αναφορές μιλούσαν για τουλάχιστον 53 νεκρούς. Η νέα καταμέτρηση παραμένει ανοικτή· ο ισχυρισμός των Χούθι για Σαουδάραβες αξιωματικούς δεν έχει τεκμηριωθεί.",
+      "section": "world",
+      "priority": 20,
+      "article_path": "articles/2026-10-20-midday/lead-yemen.json",
+      "reader_url": "articles/2026-10-20-midday/lead-yemen.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/mideast-yemen-saudi-israel-gaza-october-20-2026-6f69abd6470c9b43b75de7b223011486",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-20T09:51:48Z",
+          "retrieved_at": "2026-10-20T11:16:46Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://apnews.com/article/6afad4ec4c22dcccd379152ea87cb0e2",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-19T10:32:12Z",
+          "retrieved_at": "2026-10-20T04:41:10.375Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.investing.com/news/commodities-news/houthi-attack-kills-53-at-yemen-government-training-camp-officials-say-4957722",
+          "publisher": "Reuters μέσω Investing.com",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-19T09:32:15Z",
+          "retrieved_at": "2026-10-20T04:48:18.157Z",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-20-midday/lead-yemen.webp"
+    },
+    {
+      "story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+      "identity": "cyprus-israel-naval-procurement-report-october-20-2026",
+      "edition_id": "2026-10-20-midday",
+      "date": "2026-10-20",
+      "slot": "midday",
+      "published_at": "2026-10-20T14:23:26+03:00",
+      "available_at": "2026-10-20T14:23:26+03:00",
+      "headline": "Ναυτική προμήθεια: δημοσίευμα για συμφωνία €150 εκατ., χωρίς επίσημη επιβεβαίωση του συνόλου",
+      "finding": "Η Cyprus Mail μετέδωσε στις 20/10, επικαλούμενη την ισραηλινή Calcalist, ότι Israel Shipyards και Rafael βρίσκονται κοντά σε συμφωνία περίπου €150 εκατ. για πλοία και οπλικά συστήματα προς την Κύπρο. Πηγές του κυπριακού υπουργείου Άμυνας επιβεβαίωσαν στην εφημερίδα συμφωνία αγοράς περιπολικού, όχι όμως το αναφερόμενο συνολικό τίμημα, τον αριθμό σκαφών ή τον εξοπλισμό. Τα υπουργεία δεν έχουν ανακοινώσει την περιγραφόμενη προμήθεια. Η υπογραφή και το αντικείμενό της παραμένουν προς επαλήθευση.",
+      "section": "cyprus",
+      "priority": 55,
+      "article_path": "articles/2026-10-20-midday/cyprus-naval.json",
+      "reader_url": "articles/2026-10-20-midday/cyprus-naval.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/20/israeli-firms-reportedly-close-to-e150m-naval-deal-with-cyprus",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-20T13:01:00+03:00",
+          "retrieved_at": "2026-10-20T11:16:46Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-20-midday/cyprus-naval.webp"
+    },
+    {
+      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+      "identity": "france-cost-of-living-mobilisation-october-17-2026",
+      "edition_id": "2026-10-20-midday",
+      "date": "2026-10-20",
+      "slot": "midday",
+      "published_at": "2026-10-20T14:23:26+03:00",
+      "available_at": "2026-10-20T14:23:26+03:00",
+      "headline": "Γαλλία: η ακρίβεια τροφοδοτεί τις διαδηλώσεις, τοπικοί οι περιορισμοί",
+      "finding": "Οι γαλλικές διαδηλώσεις που άρχισαν από ζητήματα σχολικών υποδομών συνδέονται πλέον και με το κόστος καυσίμων και διαβίωσης, σύμφωνα με τη σημερινή επιτόπια αναφορά του Reuters. Το ρεπορτάζ καταγράφει επεισόδια και σε άλλες πόλεις. Η πρωινή τεκμηρίωση των νυχτερινών περιορισμών αφορούσε δύο συγκεκριμένες παρισινές ζώνες, όχι εθνική απαγόρευση. Οι πιθανές πολιτικές επιπτώσεις ενόψει εκλογών είναι εκτίμηση του ρεπορτάζ και δεν αποτελούν μετρημένο αποτέλεσμα.",
+      "section": "world",
+      "priority": 60,
+      "article_path": "articles/2026-10-20-midday/world-france.json",
+      "reader_url": "articles/2026-10-20-midday/world-france.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/europe/france-erupts-europes-far-right-gains-fuel-price-anger-ahead-elections-2026-10-20/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-20T06:02:16Z",
+          "retrieved_at": "2026-10-20T11:16:46Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://apnews.com/article/75825aafc5412ae389c6d41443b4082e",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": null,
+          "retrieved_at": "2026-10-20T04:41:10.375Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.aa.com.tr/en/europe/france-extends-night-curfews-beyond-paris-following-weekend-violence/4093761",
+          "publisher": "Anadolu · αναφορά BFMTV",
+          "reporting_group": "Anadolu / BFMTV",
+          "published_at": null,
+          "retrieved_at": "2026-10-20T04:51:55.233Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-20-midday/world-france.webp"
+    },
+    {
+      "story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+      "identity": "gaza-wfp-food-aid-cuts-october-19-2026",
+      "edition_id": "2026-10-20-midday",
+      "date": "2026-10-20",
+      "slot": "midday",
+      "published_at": "2026-10-19T16:13:07+03:00",
+      "available_at": "2026-10-20T14:23:26+03:00",
+      "headline": "WFP: οι περικοπές αγγίζουν Γάζα και Δυτική Όχθη",
+      "finding": "Το WFP επιβεβαιώνει στην ανακοίνωση της 19/10 ότι η μηνιαία βοήθεια στη Γάζα μειώνεται από 1,6 σε 1,1 εκατομμύριο ανθρώπους από τον Οκτώβριο. Στη Δυτική Όχθη οι αποδέκτες είχαν ήδη μειωθεί από 400.000 σε 200.000 τον Σεπτέμβριο. Ο οργανισμός ζητά $450 εκατ. για επιχειρήσεις έως τον Μάρτιο 2027. Στη Γάζα τα ζεστά γεύματα περιορίστηκαν σε 150.000 ημερησίως από 250.000, ενώ οι μερίδες τροφίμων έχουν υποδιπλασιαστεί.",
+      "section": "world",
+      "priority": 90,
+      "article_path": "articles/2026-10-20-midday/world-gaza.json",
+      "reader_url": "articles/2026-10-20-midday/world-gaza.html",
+      "sources": [
+        {
+          "url": "https://www.wfp.org/news/funding-cuts-force-wfp-drastically-reduce-lifesaving-assistance-gaza",
+          "publisher": "World Food Programme",
+          "reporting_group": "World Food Programme",
+          "published_at": null,
+          "retrieved_at": "2026-10-20T04:42:03.809Z",
+          "kind": "primary"
+        },
+        {
+          "url": "https://apnews.com/article/d7ebbcf1fd30cc608c9b9ed5126deb95",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-19T21:33:38Z",
+          "retrieved_at": "2026-10-20T04:42:03.809Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-20-midday/world-gaza.webp"
+    },
+    {
+      "story_id": "cyprus-tourist-arrivals-september-2026",
+      "identity": "cyprus-tourist-arrivals-september-2026",
+      "edition_id": "2026-10-20-midday",
+      "date": "2026-10-20",
+      "slot": "midday",
+      "published_at": "2026-10-20T04:51:55.233Z",
+      "available_at": "2026-10-20T14:23:26+03:00",
+      "headline": "Τουρισμός: ρεκόρ Σεπτεμβρίου, αλλά το εννεάμηνο παραμένει στο −5,6%",
+      "finding": "Οι τουριστικές αφίξεις στην Κύπρο ανήλθαν σε 580.889 τον Σεπτέμβριο 2026, αυξημένες κατά 1,8% από τις 570.635 του Σεπτεμβρίου 2025, σύμφωνα με τη Στατιστική Υπηρεσία και την αναλυτική κάλυψη του Cyprus Mail της 19/10. Στο εννεάμηνο, όμως, οι αφίξεις ήταν 3.401.538, μειωμένες κατά 5,6% σε ετήσια βάση. Η άνοδος από Ισραήλ, Βρετανία και Ελλάδα αντιστάθμισε αδυναμία άλλων ευρωπαϊκών αγορών. Ο ισχυρός μήνας δεν εξαλείφει ακόμη το ετήσιο έλλειμμα.",
+      "section": "cyprus",
+      "priority": 80,
+      "article_path": "articles/2026-10-20-midday/cyprus-tourism.json",
+      "reader_url": "articles/2026-10-20-midday/cyprus-tourism.html",
+      "sources": [
+        {
+          "url": "https://www.cystat.gov.cy/el/SubthemeStatistics?id=51",
+          "publisher": "Στατιστική Υπηρεσία Κύπρου",
+          "reporting_group": "Στατιστική Υπηρεσία Κύπρου",
+          "published_at": null,
+          "retrieved_at": "2026-10-20T04:40:24.226Z",
+          "kind": "primary"
+        },
+        {
+          "url": "https://cyprus-mail.com/2026/10/19/cyprus-tourism-is-closing-the-gap-though-not-everyone-is-coming-back",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": null,
+          "retrieved_at": "2026-10-20T04:40:24.226Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-20-midday/cyprus-tourism.webp"
+    },
+    {
+      "story_id": "cyprus-poverty-social-exclusion-2025-regional-data",
+      "identity": "cyprus-poverty-social-exclusion-2025-regional-data",
+      "edition_id": "2026-10-20-midday",
+      "date": "2026-10-20",
+      "slot": "midday",
+      "published_at": "2026-10-20T04:51:55.233Z",
+      "available_at": "2026-10-20T14:23:26+03:00",
+      "headline": "Κίνδυνος φτώχειας στο 17,1% — ο εθνικός μέσος δεν δείχνει τις τοπικές ανισότητες",
+      "finding": "Στο 17,1% βρισκόταν το 2025 το ποσοστό του πληθυσμού της Κύπρου σε κίνδυνο φτώχειας ή κοινωνικού αποκλεισμού, έναντι 20,9% στην ΕΕ, αναφέρει το Cyprus Mail στις 20/10 με βάση τη Eurostat. Η ευρωπαϊκή περιφερειακή δημοσίευση είναι της 16/10 και αφορά το 2025, όχι νέα μέτρηση της σημερινής κατάστασης. Επειδή η Κύπρος υπολογίζεται ως μία στατιστική περιφέρεια, η σύγκριση δεν αποκαλύπτει τις διαφορές μεταξύ επαρχιών και κοινοτήτων.",
+      "section": "cyprus",
+      "priority": 85,
+      "article_path": "articles/2026-10-20-midday/cyprus-poverty.json",
+      "reader_url": "articles/2026-10-20-midday/cyprus-poverty.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/20/cyprus-below-eu-average-for-poverty-and-social-exclusion-risk",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-20T06:30:00+03:00",
+          "retrieved_at": "2026-10-20T04:41:10.375Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20261016-1",
+          "publisher": "Eurostat",
+          "reporting_group": "Eurostat",
+          "published_at": null,
+          "retrieved_at": "2026-10-20T04:40:24.226Z",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-20-midday/cyprus-poverty.webp"
     },
     {
       "story_id": "fxpro-capital-cyprus-client-book-transfer-october-2026",

@@ -10,138 +10,113 @@
       "type": "morning",
       "url": "morning/2026-10-20.html",
       "published_at": "2026-10-20T04:51:55.233Z"
+    },
+    {
+      "id": "2026-10-20-midday",
+      "type": "midday",
+      "url": "midday/2026-10-20.html",
+      "published_at": "2026-10-20T14:23:26+03:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
+  "lead_story_id": "cyprus-leaders-meeting-october-20-2026",
   "stories": [
-    {
-      "story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
-      "first_seen_at": "2026-10-20T04:51:55.233Z",
-      "last_substantive_at": "2026-10-20T04:43:57.300Z",
-      "references": [
-        {
-          "edition_id": "2026-10-20-morning",
-          "article_id": "lead-yemen",
-          "source_story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
-          "url": "articles/2026-10-20-morning/lead-yemen.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-20-morning",
-        "article_id": "lead-yemen",
-        "source_story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
-        "url": "articles/2026-10-20-morning/lead-yemen.html"
-      },
-      "section": "world",
-      "priority": 10
-    },
     {
       "story_id": "cyprus-leaders-meeting-october-20-2026",
       "first_seen_at": "2026-10-20T04:51:55.233Z",
-      "last_substantive_at": "2026-10-20T04:43:57.300Z",
+      "last_substantive_at": "2026-10-20T11:16:46Z",
       "references": [
         {
           "edition_id": "2026-10-20-morning",
           "article_id": "cyprus-leaders",
           "source_story_id": "cyprus-leaders-meeting-october-20-2026",
           "url": "articles/2026-10-20-morning/cyprus-leaders.html"
+        },
+        {
+          "edition_id": "2026-10-20-midday",
+          "article_id": "cyprus-leaders",
+          "source_story_id": "cyprus-leaders-meeting-october-20-2026",
+          "url": "articles/2026-10-20-midday/cyprus-leaders.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-20-morning",
+        "edition_id": "2026-10-20-midday",
         "article_id": "cyprus-leaders",
         "source_story_id": "cyprus-leaders-meeting-october-20-2026",
-        "url": "articles/2026-10-20-morning/cyprus-leaders.html"
+        "url": "articles/2026-10-20-midday/cyprus-leaders.html"
       },
       "section": "cyprus",
-      "priority": 15
+      "priority": 10
     },
     {
-      "story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+      "story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
       "first_seen_at": "2026-10-20T04:51:55.233Z",
-      "last_substantive_at": null,
+      "last_substantive_at": "2026-10-20T11:16:46Z",
       "references": [
         {
           "edition_id": "2026-10-20-morning",
-          "article_id": "world-gaza",
-          "source_story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
-          "url": "articles/2026-10-20-morning/world-gaza.html"
+          "article_id": "lead-yemen",
+          "source_story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
+          "url": "articles/2026-10-20-morning/lead-yemen.html"
+        },
+        {
+          "edition_id": "2026-10-20-midday",
+          "article_id": "lead-yemen",
+          "source_story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
+          "url": "articles/2026-10-20-midday/lead-yemen.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-20-morning",
-        "article_id": "world-gaza",
-        "source_story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
-        "url": "articles/2026-10-20-morning/world-gaza.html"
+        "edition_id": "2026-10-20-midday",
+        "article_id": "lead-yemen",
+        "source_story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
+        "url": "articles/2026-10-20-midday/lead-yemen.html"
       },
       "section": "world",
       "priority": 20
     },
     {
-      "story_id": "cyprus-poverty-social-exclusion-2025-regional-data",
-      "first_seen_at": "2026-10-20T04:51:55.233Z",
-      "last_substantive_at": "2026-10-20T04:43:57.300Z",
+      "story_id": "cy-home-energy-2026-application-window",
+      "first_seen_at": "2026-10-20T14:23:26+03:00",
+      "last_substantive_at": "2026-10-20T11:16:46Z",
       "references": [
         {
-          "edition_id": "2026-10-20-morning",
-          "article_id": "cyprus-poverty",
-          "source_story_id": "cyprus-poverty-social-exclusion-2025-regional-data",
-          "url": "articles/2026-10-20-morning/cyprus-poverty.html"
+          "edition_id": "2026-10-20-midday",
+          "article_id": "cyprus-energy",
+          "source_story_id": "cy-home-energy-2026-application-window",
+          "url": "articles/2026-10-20-midday/cyprus-energy.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-20-morning",
-        "article_id": "cyprus-poverty",
-        "source_story_id": "cyprus-poverty-social-exclusion-2025-regional-data",
-        "url": "articles/2026-10-20-morning/cyprus-poverty.html"
+        "edition_id": "2026-10-20-midday",
+        "article_id": "cyprus-energy",
+        "source_story_id": "cy-home-energy-2026-application-window",
+        "url": "articles/2026-10-20-midday/cyprus-energy.html"
       },
       "section": "cyprus",
-      "priority": 25
-    },
-    {
-      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
-      "first_seen_at": "2026-10-20T04:51:55.233Z",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-10-20-morning",
-          "article_id": "world-france",
-          "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
-          "url": "articles/2026-10-20-morning/world-france.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-20-morning",
-        "article_id": "world-france",
-        "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
-        "url": "articles/2026-10-20-morning/world-france.html"
-      },
-      "section": "world",
       "priority": 30
     },
     {
-      "story_id": "cyprus-tourist-arrivals-september-2026",
-      "first_seen_at": "2026-10-20T04:51:55.233Z",
-      "last_substantive_at": "2026-10-20T04:43:57.300Z",
+      "story_id": "ukraine-october-20-strikes-oslo-diplomacy",
+      "first_seen_at": "2026-10-20T14:23:26+03:00",
+      "last_substantive_at": "2026-10-20T11:16:46Z",
       "references": [
         {
-          "edition_id": "2026-10-20-morning",
-          "article_id": "cyprus-tourism",
-          "source_story_id": "cyprus-tourist-arrivals-september-2026",
-          "url": "articles/2026-10-20-morning/cyprus-tourism.html"
+          "edition_id": "2026-10-20-midday",
+          "article_id": "world-ukraine",
+          "source_story_id": "ukraine-october-20-strikes-oslo-diplomacy",
+          "url": "articles/2026-10-20-midday/world-ukraine.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-20-morning",
-        "article_id": "cyprus-tourism",
-        "source_story_id": "cyprus-tourist-arrivals-september-2026",
-        "url": "articles/2026-10-20-morning/cyprus-tourism.html"
+        "edition_id": "2026-10-20-midday",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-october-20-strikes-oslo-diplomacy",
+        "url": "articles/2026-10-20-midday/world-ukraine.html"
       },
-      "section": "cyprus",
+      "section": "world",
       "priority": 35
     },
     {
@@ -161,6 +136,27 @@
         "article_id": "world-china",
         "source_story_id": "china-lpr-decision-october-20-2026",
         "url": "articles/2026-10-20-morning/world-china.html"
+      },
+      "section": "world",
+      "priority": 40
+    },
+    {
+      "story_id": "iran-us-talks-strategy-october-20-2026",
+      "first_seen_at": "2026-10-20T14:23:26+03:00",
+      "last_substantive_at": "2026-10-20T11:16:46Z",
+      "references": [
+        {
+          "edition_id": "2026-10-20-midday",
+          "article_id": "world-iran",
+          "source_story_id": "iran-us-talks-strategy-october-20-2026",
+          "url": "articles/2026-10-20-midday/world-iran.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "world-iran",
+        "source_story_id": "iran-us-talks-strategy-october-20-2026",
+        "url": "articles/2026-10-20-midday/world-iran.html"
       },
       "section": "world",
       "priority": 40
@@ -208,6 +204,27 @@
       "priority": 50
     },
     {
+      "story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+      "first_seen_at": "2026-10-20T14:23:26+03:00",
+      "last_substantive_at": "2026-10-20T11:16:46Z",
+      "references": [
+        {
+          "edition_id": "2026-10-20-midday",
+          "article_id": "cyprus-naval",
+          "source_story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+          "url": "articles/2026-10-20-midday/cyprus-naval.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "cyprus-naval",
+        "source_story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+        "url": "articles/2026-10-20-midday/cyprus-naval.html"
+      },
+      "section": "cyprus",
+      "priority": 55
+    },
+    {
       "story_id": "fxpro-capital-cyprus-client-book-transfer-october-2026",
       "first_seen_at": "2026-10-20T04:51:55.233Z",
       "last_substantive_at": "2026-10-20T04:43:57.300Z",
@@ -248,6 +265,114 @@
       },
       "section": "world",
       "priority": 60
+    },
+    {
+      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+      "first_seen_at": "2026-10-20T04:51:55.233Z",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-20-morning",
+          "article_id": "world-france",
+          "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
+          "url": "articles/2026-10-20-morning/world-france.html"
+        },
+        {
+          "edition_id": "2026-10-20-midday",
+          "article_id": "world-france",
+          "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
+          "url": "articles/2026-10-20-midday/world-france.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "world-france",
+        "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
+        "url": "articles/2026-10-20-midday/world-france.html"
+      },
+      "section": "world",
+      "priority": 60
+    },
+    {
+      "story_id": "cyprus-tourist-arrivals-september-2026",
+      "first_seen_at": "2026-10-20T04:51:55.233Z",
+      "last_substantive_at": "2026-10-20T04:43:57.300Z",
+      "references": [
+        {
+          "edition_id": "2026-10-20-morning",
+          "article_id": "cyprus-tourism",
+          "source_story_id": "cyprus-tourist-arrivals-september-2026",
+          "url": "articles/2026-10-20-morning/cyprus-tourism.html"
+        },
+        {
+          "edition_id": "2026-10-20-midday",
+          "article_id": "cyprus-tourism",
+          "source_story_id": "cyprus-tourist-arrivals-september-2026",
+          "url": "articles/2026-10-20-midday/cyprus-tourism.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "cyprus-tourism",
+        "source_story_id": "cyprus-tourist-arrivals-september-2026",
+        "url": "articles/2026-10-20-midday/cyprus-tourism.html"
+      },
+      "section": "cyprus",
+      "priority": 80
+    },
+    {
+      "story_id": "cyprus-poverty-social-exclusion-2025-regional-data",
+      "first_seen_at": "2026-10-20T04:51:55.233Z",
+      "last_substantive_at": "2026-10-20T04:43:57.300Z",
+      "references": [
+        {
+          "edition_id": "2026-10-20-morning",
+          "article_id": "cyprus-poverty",
+          "source_story_id": "cyprus-poverty-social-exclusion-2025-regional-data",
+          "url": "articles/2026-10-20-morning/cyprus-poverty.html"
+        },
+        {
+          "edition_id": "2026-10-20-midday",
+          "article_id": "cyprus-poverty",
+          "source_story_id": "cyprus-poverty-social-exclusion-2025-regional-data",
+          "url": "articles/2026-10-20-midday/cyprus-poverty.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "cyprus-poverty",
+        "source_story_id": "cyprus-poverty-social-exclusion-2025-regional-data",
+        "url": "articles/2026-10-20-midday/cyprus-poverty.html"
+      },
+      "section": "cyprus",
+      "priority": 85
+    },
+    {
+      "story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+      "first_seen_at": "2026-10-20T04:51:55.233Z",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-20-morning",
+          "article_id": "world-gaza",
+          "source_story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+          "url": "articles/2026-10-20-morning/world-gaza.html"
+        },
+        {
+          "edition_id": "2026-10-20-midday",
+          "article_id": "world-gaza",
+          "source_story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+          "url": "articles/2026-10-20-midday/world-gaza.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "world-gaza",
+        "source_story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+        "url": "articles/2026-10-20-midday/world-gaza.html"
+      },
+      "section": "world",
+      "priority": 90
     }
   ],
   "updates": [
@@ -586,6 +711,258 @@
         "source_story_id": "canada-wainwright-base-fire-october-17-2026",
         "url": "articles/2026-10-20-morning/world-canada.html"
       }
+    },
+    {
+      "id": "2026-10-20-midday-cyprus-energy-review",
+      "kind": "new",
+      "at": "2026-10-20T11:16:46Z",
+      "summary": "Πρώτη τεκμηριωμένη ένταξη στη μεσημεριανή έκδοση Η ώρα αφορά τον συντακτικό έλεγχο.",
+      "source_urls": [
+        "https://www.diakivernisi.gov.cy/gr/1-kybernhtiko-ergo/kybernhtiko-ergo/sxedio-exoikonomw-%E2%80%93-anabathmizo-xorigies-eos-%E2%82%AC32-000-gia-energeiaki-anabathmisi-katoikiwn"
+      ],
+      "story_id": "cy-home-energy-2026-application-window",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "cyprus-energy",
+        "source_story_id": "cy-home-energy-2026-application-window",
+        "url": "articles/2026-10-20-midday/cyprus-energy.html"
+      }
+    },
+    {
+      "id": "2026-10-20-midday-cyprus-leaders-review",
+      "kind": "substantive_update",
+      "at": "2026-10-20T11:16:46Z",
+      "summary": "Η προαναγγελθείσα συνάντηση πραγματοποιήθηκε και ανακοινώθηκαν δύο πρωτοβουλίες και επόμενες επαφές Η ώρα αφορά τον συντακτικό έλεγχο.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/20/christodoulides-and-erhurman-to-meet-again-next-week-ahead-of-un-envoys-visit"
+      ],
+      "story_id": "cyprus-leaders-meeting-october-20-2026",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "cyprus-leaders",
+        "source_story_id": "cyprus-leaders-meeting-october-20-2026",
+        "url": "articles/2026-10-20-midday/cyprus-leaders.html"
+      }
+    },
+    {
+      "id": "2026-10-20-midday-cyprus-naval-review",
+      "kind": "new",
+      "at": "2026-10-20T11:16:46Z",
+      "summary": "Πρώτη τεκμηριωμένη ένταξη στη μεσημεριανή έκδοση Η ώρα αφορά τον συντακτικό έλεγχο.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/20/israeli-firms-reportedly-close-to-e150m-naval-deal-with-cyprus"
+      ],
+      "story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "cyprus-naval",
+        "source_story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+        "url": "articles/2026-10-20-midday/cyprus-naval.html"
+      }
+    },
+    {
+      "id": "2026-10-20-midday-lead-yemen-review",
+      "kind": "substantive_update",
+      "at": "2026-10-20T11:16:46Z",
+      "summary": "Αυξημένος απολογισμός 60 νεκρών και τουλάχιστον δώδεκα αγνοουμένων, κατά AP Η ώρα αφορά τον συντακτικό έλεγχο.",
+      "source_urls": [
+        "https://apnews.com/article/mideast-yemen-saudi-israel-gaza-october-20-2026-6f69abd6470c9b43b75de7b223011486"
+      ],
+      "story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "lead-yemen",
+        "source_story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
+        "url": "articles/2026-10-20-midday/lead-yemen.html"
+      }
+    },
+    {
+      "id": "2026-10-20-midday-world-france-review",
+      "kind": "enrichment",
+      "at": "2026-10-20T11:16:46Z",
+      "summary": "Προστέθηκε επιτόπια τεκμηρίωση για ακρίβεια και πολιτικό πλαίσιο χωρίς αλλαγή της γεωγραφικής ισχύος των πρωινών μέτρων Η ώρα αφορά τον συντακτικό έλεγχο.",
+      "source_urls": [
+        "https://www.reuters.com/world/europe/france-erupts-europes-far-right-gains-fuel-price-anger-ahead-elections-2026-10-20/"
+      ],
+      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "world-france",
+        "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
+        "url": "articles/2026-10-20-midday/world-france.html"
+      }
+    },
+    {
+      "id": "2026-10-20-midday-world-iran-review",
+      "kind": "new",
+      "at": "2026-10-20T11:16:46Z",
+      "summary": "Πρώτη τεκμηριωμένη ένταξη στη μεσημεριανή έκδοση Η ώρα αφορά τον συντακτικό έλεγχο.",
+      "source_urls": [
+        "https://www.reuters.com/world/us/iran-prolongs-talks-stalemate-influence-us-midterms-officials-say-2026-10-20/"
+      ],
+      "story_id": "iran-us-talks-strategy-october-20-2026",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "world-iran",
+        "source_story_id": "iran-us-talks-strategy-october-20-2026",
+        "url": "articles/2026-10-20-midday/world-iran.html"
+      }
+    },
+    {
+      "id": "2026-10-20-midday-world-ukraine-review",
+      "kind": "new",
+      "at": "2026-10-20T11:16:46Z",
+      "summary": "Πρώτη τεκμηριωμένη ένταξη στη μεσημεριανή έκδοση Η ώρα αφορά τον συντακτικό έλεγχο.",
+      "source_urls": [
+        "https://apnews.com/article/russia-ukraine-zelenskyy-norway-trump-rubio-witkoff-140895c6c0a1682c46f4fe197e056996"
+      ],
+      "story_id": "ukraine-october-20-strikes-oslo-diplomacy",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-october-20-strikes-oslo-diplomacy",
+        "url": "articles/2026-10-20-midday/world-ukraine.html"
+      }
+    },
+    {
+      "id": "224bd74d07714e310cf6f855e8c9d327daddf90af12beebbad7f7702efaf62c9",
+      "kind": "provenance",
+      "at": "2026-10-20T14:23:26+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "lead-yemen",
+        "source_story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
+        "url": "articles/2026-10-20-midday/lead-yemen.html"
+      }
+    },
+    {
+      "id": "3f82e3ad7d2ec67727a76ddeae9cc69223d278c7853cef0391e532e8b417d936",
+      "kind": "provenance",
+      "at": "2026-10-20T14:23:26+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-october-20-strikes-oslo-diplomacy",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-october-20-strikes-oslo-diplomacy",
+        "url": "articles/2026-10-20-midday/world-ukraine.html"
+      }
+    },
+    {
+      "id": "68a5455785473cdd5814d863b2704056a34b60fec64dca214384b921421d196d",
+      "kind": "provenance",
+      "at": "2026-10-20T14:23:26+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cy-home-energy-2026-application-window",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "cyprus-energy",
+        "source_story_id": "cy-home-energy-2026-application-window",
+        "url": "articles/2026-10-20-midday/cyprus-energy.html"
+      }
+    },
+    {
+      "id": "79378e990b01262c3f429ec6735059c136ab0c3d037f769647512665a1fca16d",
+      "kind": "provenance",
+      "at": "2026-10-20T14:23:26+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "world-gaza",
+        "source_story_id": "gaza-wfp-food-aid-cuts-october-19-2026",
+        "url": "articles/2026-10-20-midday/world-gaza.html"
+      }
+    },
+    {
+      "id": "8ce1a0517dd790470e0ea39e82dfb7ed266395908c4fa75472cd9314e762bf60",
+      "kind": "provenance",
+      "at": "2026-10-20T14:23:26+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-poverty-social-exclusion-2025-regional-data",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "cyprus-poverty",
+        "source_story_id": "cyprus-poverty-social-exclusion-2025-regional-data",
+        "url": "articles/2026-10-20-midday/cyprus-poverty.html"
+      }
+    },
+    {
+      "id": "98227fcb9e58f0193b998727b724bc492a2311674841ccddb6f8b6854b185ca4",
+      "kind": "provenance",
+      "at": "2026-10-20T14:23:26+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "france-cost-of-living-mobilisation-october-17-2026",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "world-france",
+        "source_story_id": "france-cost-of-living-mobilisation-october-17-2026",
+        "url": "articles/2026-10-20-midday/world-france.html"
+      }
+    },
+    {
+      "id": "b0f4669800e274dba3ca7317f6f12d4bde20a28cdc89048c380d7c526ecaab79",
+      "kind": "provenance",
+      "at": "2026-10-20T14:23:26+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "cyprus-naval",
+        "source_story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+        "url": "articles/2026-10-20-midday/cyprus-naval.html"
+      }
+    },
+    {
+      "id": "c64a23517039b904b466e29e014afa30ff040f465d980db9a0af5b6e52d83f3c",
+      "kind": "provenance",
+      "at": "2026-10-20T14:23:26+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-tourist-arrivals-september-2026",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "cyprus-tourism",
+        "source_story_id": "cyprus-tourist-arrivals-september-2026",
+        "url": "articles/2026-10-20-midday/cyprus-tourism.html"
+      }
+    },
+    {
+      "id": "d9120ded53c8f5da6f48c77f578565a2c8c388c3b55733e497bb29d96cfdccf1",
+      "kind": "provenance",
+      "at": "2026-10-20T14:23:26+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-leaders-meeting-october-20-2026",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "cyprus-leaders",
+        "source_story_id": "cyprus-leaders-meeting-october-20-2026",
+        "url": "articles/2026-10-20-midday/cyprus-leaders.html"
+      }
+    },
+    {
+      "id": "f2686237643468e8ea7c2fad5c72af13021f21e01eb62149821f331132ff3d93",
+      "kind": "provenance",
+      "at": "2026-10-20T14:23:26+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "iran-us-talks-strategy-october-20-2026",
+      "origin": {
+        "edition_id": "2026-10-20-midday",
+        "article_id": "world-iran",
+        "source_story_id": "iran-us-talks-strategy-october-20-2026",
+        "url": "articles/2026-10-20-midday/world-iran.html"
+      }
     }
   ],
   "opportunities": [
@@ -662,21 +1039,21 @@
       "change_note": "Επανέλεγχος 20/10 των επίσημων κριτηρίων και της δυνατότητας υποβολής. Δεν διαπιστώθηκε αλλαγή όρων· δεν υπονοείται προσωπική επιλεξιμότητα."
     },
     {
-      "verified_at": "2026-10-20T04:48:18.157Z",
+      "verified_at": "2026-10-20T11:16:46Z",
       "opens_at": "2026-10-20T09:00:00+03:00",
       "deadline": "2026-12-30T23:59:00+02:00",
       "deadline_type": "fixed",
       "application_kind": "form",
       "id": "cy-home-energy-2026",
       "kind": "grant",
-      "status": "upcoming",
+      "status": "needs_verification",
       "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
       "title": "Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026",
       "summary": "Ενεργειακή αναβάθμιση υφιστάμενων κατοικιών. Η προετοιμασία αρχίζει με Πιστοποιητικό Ενεργειακής Απόδοσης, πριν από τις επιλέξιμες εργασίες.",
       "eligibility": "Φυσικά πρόσωπα, μία αίτηση. Κατοικία και οικιακός λογαριασμός ΑΗΚ σε φυσικό πρόσωπο· σύνδεση πριν από 1/1/2008 ή αίτηση άδειας πριν από 21/12/2007. Ισχύουν οι πλήρεις όροι του οδηγού.",
       "support": "Έως €32.000 για τύπο Α (σχεδόν μηδενική κατανάλωση), έως €24.000 για τύπο Β· απαιτείται εξοικονόμηση ενέργειας τουλάχιστον 60%.",
       "deadline_note": "Έως 30/12 23:59 Κύπρου ή νωρίτερα με εξάντληση προϋπολογισμού· σειρά υποβολής. Ο οδηγός επιτρέπει υπό όρους και παλαιότερο ΠΕΑ με επιβεβαιωτική επίσκεψη εμπειρογνώμονα μετά τις 15/5/2026. Δεν επιτρέπεται ολοκλήρωση όλων των εργασιών πριν από την αίτηση.",
-      "action": "Προετοίμασε ΠΕΑ και δικαιολογητικά. Έλεγξε την επίσημη πύλη από τις 09:00· η πρωινή ανάκτηση απέτυχε. Μην ολοκληρώσεις όλες τις εργασίες πριν από την αίτηση.",
+      "action": "Η προκήρυξη ορίζει αιτήσεις από 09:00. Έλεγξε την επίσημη πύλη και διαθέσιμο προϋπολογισμό· η μεσημεριανή ανάκτηση απέτυχε. Διάβασε πλήρη οδηγό και προετοίμασε το απαιτούμενο ΠΕΑ.",
       "application_url": "https://fundingapps.meci.gov.cy",
       "sources": [
         {
@@ -698,9 +1075,19 @@
           "kind": "primary",
           "access": "read",
           "used_for_claims": true
+        },
+        {
+          "publisher": "Προεδρία της Κυπριακής Δημοκρατίας",
+          "url": "https://www.diakivernisi.gov.cy/gr/1-kybernhtiko-ergo/kybernhtiko-ergo/sxedio-exoikonomw-%E2%80%93-anabathmizo-xorigies-eos-%E2%82%AC32-000-gia-energeiaki-anabathmisi-katoikiwn",
+          "published_at": "2026-10-02",
+          "retrieved_at": "2026-10-20T11:16:46Z",
+          "reporting_group": "Προεδρία της Κυπριακής Δημοκρατίας",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
         }
       ],
-      "change_note": "Επανέλεγχος 20/10 της επίσημης πρόσκλησης και των ενοτήτων 6–8 του Οδηγού V4.0. Αμετάβλητοι όροι και προγραμματισμένο άνοιγμα 09:00. Η πύλη δεν ανακτήθηκε· δεν επιβεβαιώνεται ακόμη αποδοχή αιτήσεων."
+      "change_note": "20/10 μεσημέρι: παρήλθε η αναγγελθείσα ώρα 09:00, αλλά η επίσημη πύλη δεν ανακτήθηκε. Η δυνατότητα πραγματικής υποβολής και ο υπόλοιπος προϋπολογισμός χρειάζονται επανέλεγχο· οι όροι της πρόσκλησης δεν άλλαξαν."
     },
     {
       "verified_at": "2026-10-16T20:32:42+03:00",
@@ -799,50 +1186,43 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Υεμένη: τουλάχιστον 53 νεκροί και 200 τραυματίες σε κυβερνητικό στρατόπεδο, με απολογισμό που οι τοπικές αρχές θεωρούν ανοικτό. Το WFP ζητά $450 εκατ. μετά τις περικοπές στη Γάζα και τη Δυτική Όχθη.",
+        "text": "Στη Σάμπουα της Υεμένης ο απολογισμός της επίθεσης ανέβηκε σε 60 νεκρούς, με αγνοουμένους και περισσότερους από 200 τραυματίες. Στη Γάζα οι χθεσινές περικοπές του WFP παραμένουν κρίσιμες.",
         "story_ids": [
           "yemen-shabwa-training-camp-attack-october-19-2026",
           "gaza-wfp-food-aid-cuts-october-19-2026"
         ]
       },
       {
-        "text": "Γαλλία: η παρισινή διαταγή όριζε νυχτερινό περιορισμό σε δύο περιοχές· δεν επαληθεύτηκε παράταση. Καναδάς: 50 ερευνητές εξετάζουν τη φωτιά που σκότωσε τέσσερις στρατιώτες.",
+        "text": "Νέα ρωσικά πλήγματα σκότωσαν τουλάχιστον επτά στην Ουκρανία, ενώ αρχίζουν επαφές στο Όσλο. Για το Ιράν, το Reuters περιγράφει αδιέξοδο στις συνομιλίες μέσω ανώνυμων αξιωματούχων, χωρίς ανακοίνωση συμφωνίας.",
         "story_ids": [
-          "france-cost-of-living-mobilisation-october-17-2026",
-          "canada-wainwright-base-fire-october-17-2026"
+          "ukraine-october-20-strikes-oslo-diplomacy",
+          "iran-us-talks-strategy-october-20-2026"
         ]
       },
       {
-        "text": "Κίνα: αμετάβλητα LPR 3,00% και 3,50%. Ιαπωνία: επιβεβαιώθηκε η εκτόξευση και ο διαχωρισμός του MMX· η επιστροφή δειγμάτων παραμένει στόχος για το 2031.",
-        "story_ids": [
-          "china-lpr-decision-october-20-2026",
-          "japan-mmx-launch-october-20-2026"
-        ]
-      },
-      {
-        "text": "Κυπριακό: συνάντηση ηγετών στις 11:00 με ανοικτή τη διαφωνία για τις προϋποθέσεις επανέναρξης. Αναμένεται η μεταγενέστερη ανακοίνωση.",
+        "text": "Στο Κυπριακό, οι ηγέτες συμφώνησαν σε πρωτοβουλίες περιβάλλοντος και πολιτιστικών αντικειμένων, με νέα συνάντηση την επόμενη εβδομάδα και τριμερή με Ολγκίν στις 9/11.",
         "story_ids": [
           "cyprus-leaders-meeting-october-20-2026"
         ]
       },
       {
-        "text": "Τουρισμός: 580.889 αφίξεις τον Σεπτέμβριο, +1,8%, αλλά −5,6% στο εννεάμηνο. Κίνδυνος φτώχειας/κοινωνικού αποκλεισμού 17,1% το 2025, με περιορισμούς στην περιφερειακή σύγκριση.",
+        "text": "Η χορηγία ενεργειακής αναβάθμισης κατοικιών είχε προγραμματισμένη έναρξη στις 09:00, όμως η πρόσβαση στην επίσημη πύλη δεν επιβεβαιώθηκε. Δημοσίευμα για ναυτική σύμβαση €150 εκατ. δεν ισοδυναμεί με πλήρη επίσημη επιβεβαίωση.",
         "story_ids": [
-          "cyprus-tourist-arrivals-september-2026",
-          "cyprus-poverty-social-exclusion-2025-regional-data"
+          "cy-home-energy-2026-application-window",
+          "cyprus-israel-naval-procurement-report-october-20-2026"
         ]
       },
       {
-        "text": "Πιτσιλιά: αίτημα αποζημιώσεων, όχι εγκεκριμένη νέα ενίσχυση. FxPro–Capital.com: σχεδιαζόμενη μεταφορά υπό έγκριση CySEC και έλεγχο πελατών.",
+        "text": "Τα πρωινά στοιχεία τουρισμού Σεπτεμβρίου και κινδύνου φτώχειας παραμένουν χρονολογημένο υπόβαθρο. Στις αγορές οι ευρωπαϊκές τιμές είναι ενδοσυνεδριακές, οι ΗΠΑ στο τελευταίο ολοκληρωμένο κλείσιμο 19/10.",
         "story_ids": [
-          "pitsillia-vine-growers-support-demand-october-19-2026",
-          "fxpro-capital-cyprus-client-book-transfer-october-2026"
+          "cyprus-tourist-arrivals-september-2026",
+          "cyprus-poverty-social-exclusion-2025-regional-data"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-10-20T04:54:39.474597+00:00",
-  "updated_at": "2026-10-20T04:54:39.474597+00:00",
-  "input_sha256": "e9b5821270b2d0da19e0cbbbff94d400abc10bcb91f6496426fcf7f7181b0914"
+  "updated_at": "2026-10-20T11:29:49.658545+00:00",
+  "input_sha256": "07f556e929537992f39a6b21d9c099d5843e4e333b802e8274ed33488e4606d1"
 }
