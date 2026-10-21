@@ -34,6 +34,11 @@ class UIContentTests(unittest.TestCase):
                 with self.subTest(article=article['id'],hero=hero):
                     doc=BeautifulSoup(build.card(edition,article,hero),'html.parser')
                     self.assertEqual(doc.select_one('.abstract').get_text(),article['summary'])
+                    findings=doc.select_one('details.story-findings')
+                    self.assertIsNotNone(findings)
+                    self.assertFalse(findings.has_attr('open'))
+                    self.assertEqual(findings.select_one('summary').get_text(strip=True),'Ευρήματα')
+                    self.assertEqual(findings.select_one('.abstract').get_text(),article['summary'])
                     if article['newspaper_analysis']:
                         self.assertFalse(doc.select_one('.card-analysis').has_attr('open'))
                         if hero:self.assertEqual(doc.select_one('.lead-analysis').name,'details')
@@ -65,9 +70,16 @@ class UIContentTests(unittest.TestCase):
         for key,team in edition['sports']['coverage'].items():
             card=sports.select_one('.team-'+key)
             self.assertEqual(card.select_one('.teamicon')['aria-hidden'],'true')
-            self.assertEqual(len(card.select('a')),1)
+            self.assertEqual(len(card.select('a.sport-news-link')),1)
+            headlines=card.select('a.sport-headline-link')
+            self.assertLessEqual(len(headlines),2)
+            if team['updates']:self.assertTrue(headlines)
+            for link in headlines:
+                self.assertIn(link.get_text(),[u['text'] for u in team['updates']])
+                self.assertIn(link['href'],[s['url'] for u in team['updates'] for s in u['sources']])
+                self.assertIsNotNone(link.find_next_sibling('time'))
             self.assertFalse(card.select('details,p'))
-            self.assertEqual(card.select_one('a').get_text(),'Τελευταία νέα ↗')
+            self.assertEqual(card.select_one('a.sport-news-link').get_text(),'Όλα τα νέα ↗')
         self.assertEqual(edition,original)
 
     def test_published_day_and_snapshot_use_explicit_editorial_lead_without_duplicates(self):

@@ -118,6 +118,7 @@ def validate(e, articles):
         raise ValueError('Duplicate article IDs')
     if set(TEAMS) != set(e['sports']['coverage']):
         raise ValueError('Permanent sports coverage required')
+    load_module('sports_news').validate(e,ROOT)
     load_module('selection').validate(e, articles)
     ids = {a['id'] for a in articles}
     policy_start=datetime.fromisoformat('2026-10-13T15:40:17+03:00')
@@ -251,7 +252,7 @@ def calculator(e):
 def card(e, a, hero=False):
     cl = 'hero' if hero else 'newscard'
     layered=e.get('reading_review',{}).get('version')==2
-    abstract=f'<div class="abstract"><p>{esc(a["summary"])}</p></div>'
+    abstract='<details class="story-findings"><summary>'+icon('news')+'Ευρήματα</summary>'+f'<div class="abstract"><p>{esc(a["summary"])}</p></div></details>'
     shown=[]
     context=''
     if a.get('newspaper_analysis'):

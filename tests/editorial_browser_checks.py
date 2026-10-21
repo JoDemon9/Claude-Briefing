@@ -39,7 +39,15 @@ def run(output):
                         assert max(box['y'] for box in boxes)-min(box['y'] for box in boxes)<2,(sid,width,boxes)
                         assert all(box['height']>=44 for box in boxes)
                         assert card.locator('figcaption,.photo-credit').count()==0
-                        assert card.locator('.abstract').inner_text()==a['summary']
+                        findings=card.locator('.story-findings')
+                        assert not findings.evaluate('(x)=>x.open')
+                        assert not findings.locator('.abstract').is_visible()
+                        toggle=findings.locator('summary');toggle.focus();page.keyboard.press('Enter')
+                        assert findings.locator('.abstract').is_visible()
+                        assert findings.locator('.abstract').inner_text()==a['summary']
+                        assert toggle.bounding_box()['height']>=44
+                        toggle.click()
+                        assert not findings.locator('.abstract').is_visible()
                         assert card.locator('.reading-layer,.reading-time').count()==0
                         if a['newspaper_analysis']:
                             assert not card.locator('.card-context').is_visible()
