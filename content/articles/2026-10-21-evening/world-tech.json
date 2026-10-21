@@ -1,0 +1,75 @@
+{
+  "id": "world-tech",
+  "story_id": "tech-energy-grid-datacenter-ai-nuclear-contracts-october-2026",
+  "story_identity": "tech-energy-grid-datacenter-ai-nuclear-contracts-october-2026",
+  "edition_id": "2026-10-21-evening",
+  "headline": "Big Tech & Πυρηνική Ενέργεια: Τα μακροχρόνια συμβόλαια PPA για την τροφοδοσία AI data centers",
+  "category": "Διεθνή",
+  "summary": "Σε πρωτοφανή κούρσα εξασφάλισης καθαρής ενέργειας βάσης αποδύονται οι κολοσσοί της τεχνολογίας (Amazon, Google, Microsoft), υπογράφοντας μακροχρόνιες συμβάσεις αγοράς ηλεκτρικής ενέργειας (PPA) με παραγωγούς πυρηνικής ενέργειας και εταιρείες ανάπτυξης μικρών αρθρωτών αντιδραστήρων (SMR). Η εκθετική αύξηση της κατανάλωσης ρεύματος από τα κέντρα δεδομένων τεχνητής νοημοσύνης δοκιμάζει τα ενεργειακά δίκτυα παγκοσμίως και επαναφέρει την πυρηνική ενέργεια στο επίκεντρο.",
+  "published_at": "2026-10-21T20:15:00+03:00",
+  "updated_at": "2026-10-21T20:15:00+03:00",
+  "sources": [
+    {
+      "publisher": "Wall Street Journal",
+      "url": "https://www.wsj.com/business/energy-oil/big-tech-nuclear-power-deals-ai-data-centers-october-2026",
+      "published_at": "2026-10-21T11:30:00Z",
+      "retrieved_at": "2026-10-21T17:00:00Z",
+      "reporting_group": "WSJ",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Η ενεργειακή συμφόρηση των AI clusters",
+      "paragraphs": [
+        "Οι αναλυτές εκτιμούν ότι η ζήτηση ενέργειας από τα κέντρα δεδομένων στις ΗΠΑ και την Ευρώπη θα διπλασιαστεί έως το 2030, απαιτώντας επενδύσεις εκατοντάδων δισεκατομμυρίων σε γραμμές μεταφοράς.",
+        "Η επιλογή της πυρηνικής τεχνολογίας προσφέρει μηδενικές εκπομπές άνθρακα και 100% διαθεσιμότητα, ξεπερνώντας τη στοχαστικότητα των αιολικών και φωτοβολταϊκών πάρκων."
+      ]
+    }
+  ],
+  "image": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Server_Room_%2822397102849%29.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Server_Room_%2822397102849%29.jpg",
+    "caption": "Αίθουσα διακομιστών, 04/11/2015. Θεματική φωτογραφία αρχείου· δεν απεικονίζει το κέντρο της Sberbank ή το πλήγμα στο Balakovo. Τεχνική προσαρμογή: σμίκρυνση και WebP.",
+    "alt": "Αίθουσα διακομιστών, 04/11/2015. Θεματική φωτογραφία αρχείου· δεν απεικονίζει το κέντρο της Sberbank ή το πλήγμα στο Balakovo.",
+    "attribution": "Carl Lender",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "retrieved_at": "2026-10-21T20:15:00+03:00",
+    "url": "assets/editorial/2026-10-21-evening/world-tech.webp",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-14-midday/world-data-centre.webp",
+      "sha256": "80f551bb339467e82e827e82d1d465ea66907fb6a7427249328f7093fe1e8245",
+      "reviewed_at": "2026-10-21T20:15:00+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-21-evening/world-tech.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 15,
+    "events": [
+      {
+        "id": "2026-10-21-evening-world-tech-event",
+        "kind": "substantive_update",
+        "at": "2026-10-21T17:00:00Z",
+        "summary": "Υπογραφή νέας συμφωνίας συνεργασίας για τροφοδοσία hyperscale data center με πυρηνική ενέργεια.",
+        "source_urls": [
+          "https://www.wsj.com/business/energy-oil/big-tech-nuclear-power-deals-ai-data-centers-october-2026"
+        ]
+      }
+    ]
+  },
+  "mechanics_and_incentives": "Οι Big Tech διαθέτουν άφθονη ρευστότητα και είναι διατεθειμένες να πληρώσουν premium τιμές ηλεκτρισμού για να εξασφαλίσουν ότι τα data centers τους δεν θα αντιμετωπίσουν διακοπές ρεύματος.",
+  "second_order_effects": "Η στροφή στην πυρηνική ενέργεια εκτινάσσει τις τιμές του ουρανίου και δίνει ώθηση στις νεοφυείς επιχειρήσεις αδειοδότησης μικρών αρθρωτών αντιδραστήρων (SMR).",
+  "scenarios": {
+    "base_case": "Πρώτη εμπορική λειτουργία data center τροφοδοτούμενου από επαναλειτουργούντα παραδοσιακό αντιδραστήρα εντός του 2027.",
+    "tail_risk": "Ρυθμιστικό μπλόκο από τις ρυθμιστικές αρχές ενέργειας (FERC) λόγω ανησυχιών για επιβάρυνση των οικιακών καταναλωτών.",
+    "what_to_watch": "Τις ρυθμιστικές αποφάσεις στις ΗΠΑ σχετικά με τη συν-εγκατάσταση (co-location) κέντρων δεδομένων δίπλα σε πυρηνικούς σταθμούς."
+  }
+}

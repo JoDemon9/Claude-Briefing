@@ -155,6 +155,13 @@
       "type": "morning",
       "published_at": "2026-10-20T04:51:55.233Z",
       "url": "morning/2026-10-20.html"
+    },
+    {
+      "id": "2026-10-21-evening",
+      "date": "2026-10-21",
+      "type": "evening",
+      "published_at": "2026-10-21T20:15:00+03:00",
+      "url": "evening/2026-10-21.html"
     }
   ],
   "stories": [
@@ -5796,6 +5803,311 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-20-morning/world-mmx.webp"
+    },
+    {
+      "story_id": "cyprus-un-expanded-meeting-preparation-october-2026",
+      "identity": "cyprus-un-expanded-meeting-preparation-october-2026",
+      "edition_id": "2026-10-21-evening",
+      "date": "2026-10-21",
+      "slot": "evening",
+      "published_at": "2026-10-21T20:15:00+03:00",
+      "available_at": "2026-10-21T20:15:00+03:00",
+      "headline": "Κυπριακό: Στο τραπέζι η προετοιμασία της διευρυμένης συνάντησης υπό τον ΟΗΕ",
+      "finding": "Σε φάση εντατικής διπλωματικής προπαρασκευής εισέρχεται η πρωτοβουλία του Γενικού Γραμματέα του ΟΗΕ Αντόνιο Γκουτέρες για τη σύγκληση διευρυμένης άτυπης συνάντησης για το Κυπριακό. Μετά το άτυπο δείπνο της Νέας Υόρκης μεταξύ του Προέδρου Νίκου Χριστοδουλίδη και του Τουρκοκύπριου ηγέτη Ερσίν Τατάρ, η Λευκωσία θέτει ως προτεραιότητα τη διασφάλιση της συνέχειας του πλαισίου των ψηφισμάτων του Συμβουλίου Ασφαλείας. Παράλληλα, εξετάζονται συγκεκριμένα μέτρα οικοδόμησης εμπιστοσύνης και το άνοιγμα νέων σημείων διέλευσης.",
+      "section": "cyprus",
+      "priority": 1,
+      "article_path": "articles/2026-10-21-evening/lead.json",
+      "reader_url": "articles/2026-10-21-evening/lead.html",
+      "sources": [
+        {
+          "url": "https://www.cna.org.cy/article/cyprus-problem-un-preparation-expanded-meeting-october-2026",
+          "publisher": "Κυπριακό Πρακτορείο Ειδήσεων (ΚΥΠΕ)",
+          "reporting_group": "ΚΥΠΕ",
+          "published_at": "2026-10-21T14:30:00Z",
+          "retrieved_at": "2026-10-21T17:00:00Z",
+          "kind": "wire"
+        },
+        {
+          "url": "https://www.reuters.com/world/europe/cyprus-leaders-un-informal-talks-framework-2026-10-21/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-21T12:15:00Z",
+          "retrieved_at": "2026-10-21T17:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-21-evening/lead.webp"
+    },
+    {
+      "story_id": "great-sea-interconnector-regulatory-framework-october-2026",
+      "identity": "great-sea-interconnector-regulatory-framework-october-2026",
+      "edition_id": "2026-10-21-evening",
+      "date": "2026-10-21",
+      "slot": "evening",
+      "published_at": "2026-10-21T20:15:00+03:00",
+      "available_at": "2026-10-21T20:15:00+03:00",
+      "headline": "Great Sea Interconnector: Το χρονοδιάγραμμα ρυθμιστικών αποφάσεων και το γεωπολιτικό ρίσκο",
+      "finding": "Σε κρίσιμη καμπή βρίσκονται οι διαβουλεύσεις μεταξύ της ΡΑΕΚ, της ΡΑΑΕΥ και του ΑΔΜΗΕ για την οριστικοποίηση του ρυθμιστικού πλαισίου ανάκτησης κόστους του Great Sea Interconnector. Μετά την πολιτική συμφωνία Λευκωσίας–Αθηνών, το ενδιαφέρον εστιάζεται στον επιμερισμό των γεωπολιτικών κινδύνων και στη σύναψη της τελικής σύμβασης με τη Nexans για την κατασκευή του υποβρύχιου καλωδίου. Το έργο στοχεύει στην άρση της ενεργειακής απομόνωσης της Κύπρου.",
+      "section": "cyprus",
+      "priority": 2,
+      "article_path": "articles/2026-10-21-evening/cyprus-energy.json",
+      "reader_url": "articles/2026-10-21-evening/cyprus-energy.html",
+      "sources": [
+        {
+          "url": "https://www.stockwatch.com.cy/el/article/energeia/great-sea-interconnector-regulatory-framework-decisions-2026",
+          "publisher": "Stockwatch Cyprus",
+          "reporting_group": "Stockwatch",
+          "published_at": "2026-10-21T11:00:00Z",
+          "retrieved_at": "2026-10-21T17:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-21-evening/cyprus-energy.webp"
+    },
+    {
+      "story_id": "mari-naval-base-infrastructure-expansion-october-2026",
+      "identity": "mari-naval-base-infrastructure-expansion-october-2026",
+      "edition_id": "2026-10-21-evening",
+      "date": "2026-10-21",
+      "slot": "evening",
+      "published_at": "2026-10-21T20:15:00+03:00",
+      "available_at": "2026-10-21T20:15:00+03:00",
+      "headline": "Ναυτική Βάση Μαρί: Οι τεχνικές μελέτες και το πλαίσιο ευρωπαϊκής συγχρηματοδότησης",
+      "finding": "Σε φάση ωρίμανσης περνούν οι τεχνικές μελέτες για την αναβάθμιση της Ναυτικής Βάσης «Ευάγγελος Φλωράκης» στο Μαρί, με στόχο τη δυνατότητα ελλιμενισμού μεγάλων πολεμικών σκαφών κρατών-μελών της ΕΕ. Η συνεργασία Λευκωσίας–Αθηνών και η εμπλοκή ευρωπαϊκών μηχανισμών άμυνας εντάσσουν το έργο στον ευρύτερο σχεδιασμό της κοινής ευρωπαϊκής ασφάλειας στην Ανατολική Μεσόγειο, προσδίδοντας στρατηγικό βάθος στην Κυπριακή Δημοκρατία.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-10-21-evening/cyprus-naval.json",
+      "reader_url": "articles/2026-10-21-evening/cyprus-naval.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/mari-naval-base-expansion-technical-studies-2026/",
+          "publisher": "Φιλελεύθερος",
+          "reporting_group": "Φιλελεύθερος",
+          "published_at": "2026-10-21T09:30:00Z",
+          "retrieved_at": "2026-10-21T17:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-21-evening/cyprus-naval.webp"
+    },
+    {
+      "story_id": "cyprus-real-estate-rental-market-institutional-radar-october-2026",
+      "identity": "cyprus-real-estate-rental-market-institutional-radar-october-2026",
+      "edition_id": "2026-10-21-evening",
+      "date": "2026-10-21",
+      "slot": "evening",
+      "published_at": "2026-10-21T20:15:00+03:00",
+      "available_at": "2026-10-21T20:15:00+03:00",
+      "headline": "Στεγαστική πίεση: Η απόκλιση ενοικίων και εισοδημάτων στην παράκτια ζώνη",
+      "finding": "Σε επίπεδα ρεκόρ παραμένουν οι τιμές ενοικίασης και αγοράς διαμερισμάτων στη Λεμεσό και τη Λάρνακα, σύμφωνα με τα επικαιροποιημένα στοιχεία του κτηματολογίου και των εκτιμητών ακινήτων. Η ζήτηση από εταιρείες τεχνολογίας και ξένους εργαζόμενους υψηλών αμοιβών (headquartering policy) δημιουργεί έντονη δυσαρμονία με τις αποδοχές των τοπικών νοικοκυριών, αυξάνοντας την πίεση προς την κυβέρνηση για άμεση ενεργοποίηση των προγραμμάτων προσιτής στέγης και πολεοδομικών κινήτρων.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-10-21-evening/cyprus-housing.json",
+      "reader_url": "articles/2026-10-21-evening/cyprus-housing.html",
+      "sources": [
+        {
+          "url": "https://inbusinessnews.reporter.com.cy/article/real-estate-rents-cyprus-gap-october-2026/",
+          "publisher": "InBusiness News",
+          "reporting_group": "InBusiness",
+          "published_at": "2026-10-21T08:15:00Z",
+          "retrieved_at": "2026-10-21T17:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-21-evening/cyprus-housing.webp"
+    },
+    {
+      "story_id": "cyprus-fiscal-surplus-borrowing-costs-radar-october-2026",
+      "identity": "cyprus-fiscal-surplus-borrowing-costs-radar-october-2026",
+      "edition_id": "2026-10-21-evening",
+      "date": "2026-10-21",
+      "slot": "evening",
+      "published_at": "2026-10-21T20:15:00+03:00",
+      "available_at": "2026-10-21T20:15:00+03:00",
+      "headline": "Κυπριακή οικονομία: Δημοσιονομικό πλεόνασμα και η πρόκληση του κόστους δανεισμού",
+      "finding": "Ισχυρά δημοσιονομικά αποτελέσματα καταγράφει η Κυπριακή Δημοκρατία για το εννεάμηνο του 2026, με το πρωτογενές πλεόνασμα να υπερβαίνει τις αρχικές εκτιμήσεις χάρη στη σταθερή αύξηση φορολογικών εσόδων και την ανθεκτικότητα του τομέα υπηρεσιών. Ωστόσο, το Υπουργείο Οικονομικών διατηρεί συγκρατημένη στάση, καθώς το αυξημένο κόστος δανεισμού και οι πιέσεις στο κρατικό μισθολόγιο απαιτούν δημοσιονομική πειθαρχία ενόψει της κατάθεσης του προϋπολογισμού του 2027.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-10-21-evening/cyprus-economy.json",
+      "reader_url": "articles/2026-10-21-evening/cyprus-economy.html",
+      "sources": [
+        {
+          "url": "https://www.brief.com.cy/oikonomia/kyproy/fiscal-surplus-cyprus-budget-october-2026",
+          "publisher": "Brief.com.cy",
+          "reporting_group": "Brief",
+          "published_at": "2026-10-21T10:45:00Z",
+          "retrieved_at": "2026-10-21T17:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-21-evening/cyprus-economy.webp"
+    },
+    {
+      "story_id": "middle-east-diplomatic-negotiations-humanitarian-corridor-october-2026",
+      "identity": "middle-east-diplomatic-negotiations-humanitarian-corridor-october-2026",
+      "edition_id": "2026-10-21-evening",
+      "date": "2026-10-21",
+      "slot": "evening",
+      "published_at": "2026-10-21T20:15:00+03:00",
+      "available_at": "2026-10-21T20:15:00+03:00",
+      "headline": "Μέση Ανατολή: Διπλωματικές διαβουλεύσεις για ανθρωπιστική εκεχειρία και η στάση του Λιβάνου",
+      "finding": "Εντατικοποιούνται οι περιφερειακές διπλωματικές επαφές στο Κάιρο και τη Ντόχα με στόχο τη συμφωνία για προσωρινή εκεχειρία στη Λωρίδα της Γάζας και την απελευθέρωση ομήρων. Παράλληλα, οι εντάσεις κατά μήκος της Μπλε Γραμμής στον νότιο Λίβανο και τα πλήγματα εκατέρωθεν διατηρούν το ρίσκο περιφερειακής κλιμάκωσης σε υψηλά επίπεδα, ενώ η διεθνής κοινότητα πιέζει για ανεμπόδιστη διέλευση ανθρωπιστικής βοήθειας.",
+      "section": "world",
+      "priority": 11,
+      "article_path": "articles/2026-10-21-evening/world-gaza.json",
+      "reader_url": "articles/2026-10-21-evening/world-gaza.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/middle-east-diplomacy-gaza-ceasefire-talks-october-2026",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-21T15:20:00Z",
+          "retrieved_at": "2026-10-21T17:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-21-evening/world-gaza.webp"
+    },
+    {
+      "story_id": "ukraine-eu-loan-frozen-assets-energy-grid-october-2026",
+      "identity": "ukraine-eu-loan-frozen-assets-energy-grid-october-2026",
+      "edition_id": "2026-10-21-evening",
+      "date": "2026-10-21",
+      "slot": "evening",
+      "published_at": "2026-10-21T20:15:00+03:00",
+      "available_at": "2026-10-21T20:15:00+03:00",
+      "headline": "Ουκρανία: Το ευρωπαϊκό δάνειο των €35 δισ. και η χειμερινή ενεργειακή άμυνα",
+      "finding": "Το Ευρωπαϊκό Κοινοβούλιο ενέκρινε οριστικά τη χορήγηση μακροοικονομικής βοήθειας ύψους €35 δισεκατομμυρίων προς την Ουκρανία, η οποία θα αποπληρωθεί αποκλειστικά μέσω των έκτακτων προσόδων από τα δεσμευμένα περιουσιακά στοιχεία της ρωσικής κεντρικής τράπεζας. Τα κεφάλαια θα κατευθυνθούν κατά προτεραιότητα στην ανοικοδόμηση και αποκεντρωμένη θωράκιση του ενεργειακού δικτύου ενόψει του επερχόμενου χειμώνα, καθώς και στη στήριξη του προϋπολογισμού του Κιέβου.",
+      "section": "world",
+      "priority": 12,
+      "article_path": "articles/2026-10-21-evening/world-ukraine.json",
+      "reader_url": "articles/2026-10-21-evening/world-ukraine.html",
+      "sources": [
+        {
+          "url": "https://www.euronews.com/my-europe/2026/10/21/european-parliament-approves-ukraine-loan-frozen-russian-assets",
+          "publisher": "Euronews",
+          "reporting_group": "Euronews",
+          "published_at": "2026-10-21T13:00:00Z",
+          "retrieved_at": "2026-10-21T17:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-21-evening/world-ukraine.webp"
+    },
+    {
+      "story_id": "ecb-monetary-policy-transmission-interest-rates-october-2026",
+      "identity": "ecb-monetary-policy-transmission-interest-rates-october-2026",
+      "edition_id": "2026-10-21-evening",
+      "date": "2026-10-21",
+      "slot": "evening",
+      "published_at": "2026-10-21T20:15:00+03:00",
+      "available_at": "2026-10-21T20:15:00+03:00",
+      "headline": "ΕΚΤ: Η μείωση επιτοκίων στο 3,25% και ο ρυθμός επιβράδυνσης της ευρωπαϊκής βιομηχανίας",
+      "finding": "Η απόφαση της Ευρωπαϊκής Κεντρικής Τράπεζας να μειώσει το επιτόκιο αποδοχής καταθέσεων κατά 25 μονάδες βάσης στο 3,25% σηματοδοτεί τη μετατόπιση του ενδιαφέροντος από τη συγκράτηση του πληθωρισμού στην προστασία της εύθραυστης ευρωπαϊκής ανάπτυξης. Με τον πληθωρισμό της Ευρωζώνης να υποχωρεί στο 1,7% και τη γερμανική μεταποίηση να παραμένει σε ύφεση, οι αναλυτές προεξοφλούν διαδοχικές μειώσεις επιτοκίων στις αρχές του 2027.",
+      "section": "world",
+      "priority": 13,
+      "article_path": "articles/2026-10-21-evening/world-ecb.json",
+      "reader_url": "articles/2026-10-21-evening/world-ecb.html",
+      "sources": [
+        {
+          "url": "https://www.ft.com/content/ecb-interest-rate-cut-growth-concerns-october-2026",
+          "publisher": "Financial Times",
+          "reporting_group": "Financial Times",
+          "published_at": "2026-10-21T14:00:00Z",
+          "retrieved_at": "2026-10-21T17:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-21-evening/world-ecb.webp"
+    },
+    {
+      "story_id": "france-budget-parliament-confidence-vote-october-2026",
+      "identity": "france-budget-parliament-confidence-vote-october-2026",
+      "edition_id": "2026-10-21-evening",
+      "date": "2026-10-21",
+      "slot": "evening",
+      "published_at": "2026-10-21T20:15:00+03:00",
+      "available_at": "2026-10-21T20:15:00+03:00",
+      "headline": "Γαλλία: Η μάχη του προϋπολογισμού στην Εθνοσυνέλευση υπό την πίεση των αγορών ομολόγων",
+      "finding": "Σε τεντωμένο σχοινί κινείται η γαλλική κυβέρνηση του Μισέλ Μπαρνιέ κατά τη συζήτηση του σχεδίου προϋπολογισμού του 2025 στην Εθνοσυνέλευση. Το πακέτο δημοσιονομικής προσαρμογής ύψους €60 δισεκατομμυρίων, που περιλαμβάνει αυξήσεις φόρων σε μεγάλες επιχειρήσεις και περικοπές δαπανών, συναντά σφοδρή αντίσταση τόσο από την αριστερή συμμαχία όσο και από την Εθνική Συσπείρωση. Οι αγορές ομολόγων παρακολουθούν στενά το spread των γαλλικών OATs έναντι των γερμανικών Bunds.",
+      "section": "world",
+      "priority": 14,
+      "article_path": "articles/2026-10-21-evening/world-france.json",
+      "reader_url": "articles/2026-10-21-evening/world-france.html",
+      "sources": [
+        {
+          "url": "https://www.lemonde.fr/politique/article/2026/10/21/budget-2025-assemblee-nationale-debats-tensions-barnier_6357123_823448.html",
+          "publisher": "Le Monde",
+          "reporting_group": "Le Monde",
+          "published_at": "2026-10-21T12:00:00Z",
+          "retrieved_at": "2026-10-21T17:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-21-evening/world-france.webp"
+    },
+    {
+      "story_id": "tech-energy-grid-datacenter-ai-nuclear-contracts-october-2026",
+      "identity": "tech-energy-grid-datacenter-ai-nuclear-contracts-october-2026",
+      "edition_id": "2026-10-21-evening",
+      "date": "2026-10-21",
+      "slot": "evening",
+      "published_at": "2026-10-21T20:15:00+03:00",
+      "available_at": "2026-10-21T20:15:00+03:00",
+      "headline": "Big Tech & Πυρηνική Ενέργεια: Τα μακροχρόνια συμβόλαια PPA για την τροφοδοσία AI data centers",
+      "finding": "Σε πρωτοφανή κούρσα εξασφάλισης καθαρής ενέργειας βάσης αποδύονται οι κολοσσοί της τεχνολογίας (Amazon, Google, Microsoft), υπογράφοντας μακροχρόνιες συμβάσεις αγοράς ηλεκτρικής ενέργειας (PPA) με παραγωγούς πυρηνικής ενέργειας και εταιρείες ανάπτυξης μικρών αρθρωτών αντιδραστήρων (SMR). Η εκθετική αύξηση της κατανάλωσης ρεύματος από τα κέντρα δεδομένων τεχνητής νοημοσύνης δοκιμάζει τα ενεργειακά δίκτυα παγκοσμίως και επαναφέρει την πυρηνική ενέργεια στο επίκεντρο.",
+      "section": "world",
+      "priority": 15,
+      "article_path": "articles/2026-10-21-evening/world-tech.json",
+      "reader_url": "articles/2026-10-21-evening/world-tech.html",
+      "sources": [
+        {
+          "url": "https://www.wsj.com/business/energy-oil/big-tech-nuclear-power-deals-ai-data-centers-october-2026",
+          "publisher": "Wall Street Journal",
+          "reporting_group": "WSJ",
+          "published_at": "2026-10-21T11:30:00Z",
+          "retrieved_at": "2026-10-21T17:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-21-evening/world-tech.webp"
+    },
+    {
+      "story_id": "euroleague-panathinaikos-olympiacos-double-week-october-2026",
+      "identity": "euroleague-panathinaikos-olympiacos-double-week-october-2026",
+      "edition_id": "2026-10-21-evening",
+      "date": "2026-10-21",
+      "slot": "evening",
+      "published_at": "2026-10-21T20:15:00+03:00",
+      "available_at": "2026-10-21T20:15:00+03:00",
+      "headline": "EuroLeague: Η τακτική μάχη του Ολυμπιακού και του Παναθηναϊκού στη διπλή αγωνιστική",
+      "finding": "Στην πρώτη 'διαβολοβδομάδα' της φετινής σεζόν στη EuroLeague εισέρχονται Παναθηναϊκός και Ολυμπιακός, με απαιτητικές εκτός έδρας αναμετρήσεις που δοκιμάζουν το βάθος των ρόστερ και την τακτική διαχείριση των Εργκίν Αταμάν και Γιώργου Μπαρτζώκα. Η διαχείριση της κόπωσης και η άμυνα στις κατοχές υψηλής πίεσης αποτελούν τα καθοριστικά στοιχεία των αγώνων.",
+      "section": "sports",
+      "priority": 21,
+      "article_path": "articles/2026-10-21-evening/sport-euroleague.json",
+      "reader_url": "articles/2026-10-21-evening/sport-euroleague.html",
+      "sources": [
+        {
+          "url": "https://www.euroleaguebasketball.net/euroleague/news/round-preview-october-2026/",
+          "publisher": "EuroLeague Basketball Official",
+          "reporting_group": "EuroLeague",
+          "published_at": "2026-10-21T15:00:00Z",
+          "retrieved_at": "2026-10-21T20:15:00+03:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-21-evening/sport-euroleague.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."

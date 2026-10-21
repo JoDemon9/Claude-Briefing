@@ -503,6 +503,39 @@
         }
       ],
       "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-10-21-evening",
+      "as_of": "2026-10-21T20:15:00+03:00",
+      "records": [
+        {
+          "owner": "2026-10-21-evening",
+          "id": "weather-2026-10-21-evening",
+          "kind": "weather",
+          "label": "Πρόγνωση καιρού Κύπρου",
+          "checked_at": "2026-10-21T17:00:00Z",
+          "valid_from": "2026-10-21T18:00:00+03:00",
+          "valid_until": "2026-10-22T06:00:00+03:00",
+          "recheck_at": "2026-10-22T07:00:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_a.html"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-21-evening",
+          "id": "warnings-2026-10-21-evening",
+          "kind": "recheck",
+          "label": "Agromet: Μετεωρολογικές προειδοποιήσεις",
+          "checked_at": "2026-10-21T17:00:00Z",
+          "recheck_at": "2026-10-22T07:00:00+03:00",
+          "sources": [
+            "https://agromet.dom.org.cy/"
+          ],
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
     }
   ]
 }

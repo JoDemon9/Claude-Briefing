@@ -1,0 +1,75 @@
+{
+  "id": "world-ukraine",
+  "story_id": "ukraine-eu-loan-frozen-assets-energy-grid-october-2026",
+  "story_identity": "ukraine-eu-loan-frozen-assets-energy-grid-october-2026",
+  "edition_id": "2026-10-21-evening",
+  "headline": "Ουκρανία: Το ευρωπαϊκό δάνειο των €35 δισ. και η χειμερινή ενεργειακή άμυνα",
+  "category": "Διεθνή",
+  "summary": "Το Ευρωπαϊκό Κοινοβούλιο ενέκρινε οριστικά τη χορήγηση μακροοικονομικής βοήθειας ύψους €35 δισεκατομμυρίων προς την Ουκρανία, η οποία θα αποπληρωθεί αποκλειστικά μέσω των έκτακτων προσόδων από τα δεσμευμένα περιουσιακά στοιχεία της ρωσικής κεντρικής τράπεζας. Τα κεφάλαια θα κατευθυνθούν κατά προτεραιότητα στην ανοικοδόμηση και αποκεντρωμένη θωράκιση του ενεργειακού δικτύου ενόψει του επερχόμενου χειμώνα, καθώς και στη στήριξη του προϋπολογισμού του Κιέβου.",
+  "published_at": "2026-10-21T20:15:00+03:00",
+  "updated_at": "2026-10-21T20:15:00+03:00",
+  "sources": [
+    {
+      "publisher": "Euronews",
+      "url": "https://www.euronews.com/my-europe/2026/10/21/european-parliament-approves-ukraine-loan-frozen-russian-assets",
+      "published_at": "2026-10-21T13:00:00Z",
+      "retrieved_at": "2026-10-21T17:00:00Z",
+      "reporting_group": "Euronews",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Η χρηματοδοτική δομή των G7",
+      "paragraphs": [
+        "Το δάνειο αποτελεί μέρος της ευρύτερης δέσμευσης των G7 για συνολική χρηματοδότηση $50 δισεκατομμυρίων, ξεπερνώντας τις αντιρρήσεις επιμέρους ευρωπαϊκών κρατών.",
+        "Στο μέτωπο των επιχειρήσεων, οι ουκρανικές δυνάμεις ενισχύουν τις γραμμές άμυνας στον άξονα του Ποκρόβσκ, αντιμετωπίζοντας συνεχείς πιέσεις."
+      ]
+    }
+  ],
+  "image": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Darnytska_Combined_Heat_and_Power_Plant_in_Kyiv_after_Russian_attack_on_2026-02-03_%2819%29.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Darnytska_Combined_Heat_and_Power_Plant_in_Kyiv_after_Russian_attack_on_2026-02-03_%2819%29.jpg",
+    "caption": "Επίσκεψη στη μονάδα Darnytska του Κιέβου μετά την επίθεση της 03/02/2026. Φωτογραφία αρχείου για το πλαίσιο του θέματος· δεν απεικονίζει το σημερινό γεγονός. Μείωση μεγέθους/μετατροπή WebP.",
+    "alt": "Επίσκεψη στη μονάδα Darnytska του Κιέβου μετά την επίθεση της 03/02/2026. Φωτογραφία αρχείου.",
+    "attribution": "Ministry of Energy of Ukraine · Mev.gov.ua / Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "retrieved_at": "2026-10-21T20:15:00+03:00",
+    "url": "assets/editorial/2026-10-21-evening/world-ukraine.webp",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-13-morning/world-4.webp",
+      "sha256": "74e70536c975934300273a9c7895e4f37467506aeacddf64f685f05475e609e1",
+      "reviewed_at": "2026-10-21T20:15:00+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-21-evening/world-ukraine.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 12,
+    "events": [
+      {
+        "id": "2026-10-21-evening-world-ukraine-event",
+        "kind": "substantive_update",
+        "at": "2026-10-21T17:00:00Z",
+        "summary": "Οριστική έγκριση του ευρωπαϊκού δανείου €35 δισ. για την Ουκρανία.",
+        "source_urls": [
+          "https://www.euronews.com/my-europe/2026/10/21/european-parliament-approves-ukraine-loan-frozen-russian-assets"
+        ]
+      }
+    ]
+  },
+  "mechanics_and_incentives": "Η Ευρωπαϊκή Ένωση δημιουργεί νομικό προηγούμενο αξιοποίησης δεσμευμένων ρωσικών assets χωρίς άμεση δήμευση κεφαλαίου, ελαχιστοποιώντας τον κίνδυνο για το ευρώ.",
+  "second_order_effects": "Η αποκατάσταση των ουκρανικών θερμοηλεκτρικών σταθμών θα μειώσει την ανάγκη εισαγωγής ακριβού ηλεκτρισμού από την Πολωνία και τη Ρουμανία.",
+  "scenarios": {
+    "base_case": "Πρώτη εκταμίευση δόσης εντός του Νοεμβρίου για επείγουσες προμήθειες γεννητριών και μετασχηματιστών.",
+    "tail_risk": "Νομική προσφυγή της Μόσχας σε διεθνή διαιτητικά δικαστήρια που θα δημιουργήσει πάγωμα ευρωπαϊκών τραπεζικών απαιτήσεων στη Ρωσία.",
+    "what_to_watch": "Την τελική απόφαση του αμερικανικού Κογκρέσου για το συμπληρωματικό μερίδιο των ΗΠΑ στο πακέτο των $50 δισ."
+  }
+}

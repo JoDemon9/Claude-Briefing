@@ -1,0 +1,75 @@
+{
+  "id": "world-ecb",
+  "story_id": "ecb-monetary-policy-transmission-interest-rates-october-2026",
+  "story_identity": "ecb-monetary-policy-transmission-interest-rates-october-2026",
+  "edition_id": "2026-10-21-evening",
+  "headline": "ΕΚΤ: Η μείωση επιτοκίων στο 3,25% και ο ρυθμός επιβράδυνσης της ευρωπαϊκής βιομηχανίας",
+  "category": "Διεθνή",
+  "summary": "Η απόφαση της Ευρωπαϊκής Κεντρικής Τράπεζας να μειώσει το επιτόκιο αποδοχής καταθέσεων κατά 25 μονάδες βάσης στο 3,25% σηματοδοτεί τη μετατόπιση του ενδιαφέροντος από τη συγκράτηση του πληθωρισμού στην προστασία της εύθραυστης ευρωπαϊκής ανάπτυξης. Με τον πληθωρισμό της Ευρωζώνης να υποχωρεί στο 1,7% και τη γερμανική μεταποίηση να παραμένει σε ύφεση, οι αναλυτές προεξοφλούν διαδοχικές μειώσεις επιτοκίων στις αρχές του 2027.",
+  "published_at": "2026-10-21T20:15:00+03:00",
+  "updated_at": "2026-10-21T20:15:00+03:00",
+  "sources": [
+    {
+      "publisher": "Financial Times",
+      "url": "https://www.ft.com/content/ecb-interest-rate-cut-growth-concerns-october-2026",
+      "published_at": "2026-10-21T14:00:00Z",
+      "retrieved_at": "2026-10-21T17:00:00Z",
+      "reporting_group": "Financial Times",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Η μετάδοση στη ρευστότητα και τα στεγαστικά δάνεια",
+      "paragraphs": [
+        "Η μείωση των επιτοκίων αναμένεται να αποσυμπιέσει σταδιακά το Euribor 3 και 6 μηνών, ελαφρύνοντας τις μηνιαίες δόσεις των κυμαινόμενων στεγαστικών και επιχειρηματικών δανείων.",
+        "Ωστόσο, η αυστηρότητα των τραπεζικών κριτηρίων χορήγησης νέων πιστώσεων παραμένει υψηλή, περιορίζοντας την άμεση επενδυτική επίδραση στην πραγματική οικονομία."
+      ]
+    }
+  ],
+  "image": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:European_Central_Bank_building%2C_Frankfurt.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/European_Central_Bank_building%2C_Frankfurt.jpg",
+    "caption": "ΕΚΤ, Φρανκφούρτη, 19/07/2019. Φωτογραφία αρχείου για το πλαίσιο του θέματος· δεν απεικονίζει το σημερινό γεγονός. Μείωση μεγέθους/μετατροπή WebP.",
+    "alt": "ΕΚΤ, Φρανκφούρτη, 19/07/2019. Φωτογραφία αρχείου.",
+    "attribution": "acediscovery / Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "retrieved_at": "2026-10-21T20:15:00+03:00",
+    "url": "assets/editorial/2026-10-21-evening/world-ecb.webp",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-13-midday/world-1.webp",
+      "sha256": "cd41c7c4fcb9dfa69a499a167b8d3fb71b8b213c7b5dfee1fa2d590f649dd211",
+      "reviewed_at": "2026-10-21T20:15:00+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-21-evening/world-ecb.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 13,
+    "events": [
+      {
+        "id": "2026-10-21-evening-world-ecb-event",
+        "kind": "substantive_update",
+        "at": "2026-10-21T17:00:00Z",
+        "summary": "Ανάλυση μετάδοσης της μείωσης των ευρωπαϊκών επιτοκίων στο κόστος δανεισμού.",
+        "source_urls": [
+          "https://www.ft.com/content/ecb-interest-rate-cut-growth-concerns-october-2026"
+        ]
+      }
+    ]
+  },
+  "mechanics_and_incentives": "Η Κριστίν Λαγκάρντ επιχειρεί να προλάβει μια δομική ύφεση στην Ευρωζώνη χωρίς να προκαλέσει απότομη υποτίμηση του ευρώ έναντι του δολαρίου.",
+  "second_order_effects": "Τα χαμηλότερα επιτόκια ευνοούν την αποκλιμάκωση των αποδόσεων στα κρατικά ομόλογα του ευρωπαϊκού Νότου (Ιταλία, Ισπανία, Ελλάδα, Κύπρος).",
+  "scenarios": {
+    "base_case": "Νέα μείωση 25 μ.β. στη συνεδρίαση του Δεκεμβρίου, οδηγώντας το επιτόκιο καταθέσεων στο 3,00%.",
+    "tail_risk": "Επανεμφάνιση ενεργειακού πληθωρισμού λόγω γεωπολιτικής ανάφλεξης που αναγκάζει την ΕΚΤ σε πρόωρο 'πάγωμα' των μειώσεων.",
+    "what_to_watch": "Τους προκαταρκτικούς δείκτες PMI μεταποίησης και υπηρεσιών της Ευρωζώνης την ερχόμενη Πέμπτη."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "world-france",
+  "story_id": "france-budget-parliament-confidence-vote-october-2026",
+  "story_identity": "france-budget-parliament-confidence-vote-october-2026",
+  "edition_id": "2026-10-21-evening",
+  "headline": "Γαλλία: Η μάχη του προϋπολογισμού στην Εθνοσυνέλευση υπό την πίεση των αγορών ομολόγων",
+  "category": "Διεθνή",
+  "summary": "Σε τεντωμένο σχοινί κινείται η γαλλική κυβέρνηση του Μισέλ Μπαρνιέ κατά τη συζήτηση του σχεδίου προϋπολογισμού του 2025 στην Εθνοσυνέλευση. Το πακέτο δημοσιονομικής προσαρμογής ύψους €60 δισεκατομμυρίων, που περιλαμβάνει αυξήσεις φόρων σε μεγάλες επιχειρήσεις και περικοπές δαπανών, συναντά σφοδρή αντίσταση τόσο από την αριστερή συμμαχία όσο και από την Εθνική Συσπείρωση. Οι αγορές ομολόγων παρακολουθούν στενά το spread των γαλλικών OATs έναντι των γερμανικών Bunds.",
+  "published_at": "2026-10-21T20:15:00+03:00",
+  "updated_at": "2026-10-21T20:15:00+03:00",
+  "sources": [
+    {
+      "publisher": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/10/21/budget-2025-assemblee-nationale-debats-tensions-barnier_6357123_823448.html",
+      "published_at": "2026-10-21T12:00:00Z",
+      "retrieved_at": "2026-10-21T17:00:00Z",
+      "reporting_group": "Le Monde",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Το ενδεχόμενο χρήσης του άρθρου 49.3",
+      "paragraphs": [
+        "Αναλυτές εκτιμούν ότι η κυβέρνηση ενδέχεται να καταφύγει στο συνταγματικό άρθρο 49.3 για την ψήφιση του προϋπολογισμού χωρίς κοινοβουλευτική ψηφοφορία, αντιμετωπίζοντας πρόταση δυσπιστίας.",
+        "Το δημοσιονομικό έλλειμμα της Γαλλίας, που αναμένεται να αγγίξει το 6,1% του ΑΕΠ φέτος, θέτει το Παρίσι υπό το αυστηρό καθεστώς υπερβολικού ελλείμματος της Κομισιόν."
+      ]
+    }
+  ],
+  "image": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris-2023-01-31-manif-retraites07.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Paris-2023-01-31-manif-retraites07.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "caption": "Παρίσι, διαδήλωση της 31/1/2023. Αρχειακή φωτογραφία κοινωνικών κινητοποιήσεων, όχι οι ταραχές ή οι ζημιές της 17/10/2026.",
+    "alt": "Διαδηλωτές και πανό σε δημαρχείο του Παρισιού, 31 Ιανουαρίου 2023· αρχείο.",
+    "attribution": "Roland Godefroy / Wikimedia Commons · μετατροπή WebP",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "retrieved_at": "2026-10-21T20:15:00+03:00",
+    "url": "assets/editorial/2026-10-21-evening/world-france.webp",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-18-midday/lead-france.webp",
+      "sha256": "303346c4ccf61ce471ee01d3ef0ce9bb69d6a710167d7a855147ee8b3f7c8d83",
+      "reviewed_at": "2026-10-21T20:15:00+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-21-evening/world-france.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 14,
+    "events": [
+      {
+        "id": "2026-10-21-evening-world-france-event",
+        "kind": "substantive_update",
+        "at": "2026-10-21T17:00:00Z",
+        "summary": "Έναρξη συζήτησης επί των άρθρων του προϋπολογισμού στη γαλλική Εθνοσυνέλευση.",
+        "source_urls": [
+          "https://www.lemonde.fr/politique/article/2026/10/21/budget-2025-assemblee-nationale-debats-tensions-barnier_6357123_823448.html"
+        ]
+      }
+    ]
+  },
+  "mechanics_and_incentives": "Η κυβέρνηση Μπαρνιέ πρέπει να ισορροπήσει μεταξύ των απαιτήσεων των Βρυξελλών για πειθαρχία και της ανάγκης αποφυγής πρόωρων βουλευτικών εκλογών.",
+  "second_order_effects": "Μια πολιτική κρίση στο Παρίσι θα αποσταθεροποιήσει τη γαλλογερμανική συνεργασία σε κρίσιμα ευρωπαϊκά ζητήματα κοινής άμυνας και ενεργειακής πολιτικής.",
+  "scenarios": {
+    "base_case": "Ψήφιση του προϋπολογισμού μέσω άρθρου 49.3 με επιβίωση της κυβέρνησης χάρη στην αποχή της αντιπολίτευσης.",
+    "tail_risk": "Υπερψήφιση πρότασης μομφής και πτώση της κυβέρνησης, οδηγώντας το γαλλικό 10ετές spread σε επίπεδα άνω των 90 μονάδων βάσης.",
+    "what_to_watch": "Τη στάση των βουλευτών της Μαρίν Λεπέν κατά τις κρίσιμες ψηφοφορίες επί των φορολογικών τροπολογιών."
+  }
+}

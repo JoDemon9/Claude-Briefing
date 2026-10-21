@@ -1,0 +1,653 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-10-21.html",
+  "editions": [
+    {
+      "id": "2026-10-21-evening",
+      "type": "evening",
+      "url": "evening/2026-10-21.html",
+      "published_at": "2026-10-21T20:15:00+03:00"
+    }
+  ],
+  "missing_slots": [
+    "morning",
+    "midday"
+  ],
+  "lead_story_id": "cyprus-un-expanded-meeting-preparation-october-2026",
+  "stories": [
+    {
+      "story_id": "cyprus-un-expanded-meeting-preparation-october-2026",
+      "first_seen_at": "2026-10-21T20:15:00+03:00",
+      "last_substantive_at": "2026-10-21T17:00:00Z",
+      "references": [
+        {
+          "edition_id": "2026-10-21-evening",
+          "article_id": "lead",
+          "source_story_id": "cyprus-un-expanded-meeting-preparation-october-2026",
+          "url": "articles/2026-10-21-evening/lead.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "lead",
+        "source_story_id": "cyprus-un-expanded-meeting-preparation-october-2026",
+        "url": "articles/2026-10-21-evening/lead.html"
+      },
+      "section": "cyprus",
+      "priority": 1
+    },
+    {
+      "story_id": "great-sea-interconnector-regulatory-framework-october-2026",
+      "first_seen_at": "2026-10-21T20:15:00+03:00",
+      "last_substantive_at": "2026-10-21T17:00:00Z",
+      "references": [
+        {
+          "edition_id": "2026-10-21-evening",
+          "article_id": "cyprus-energy",
+          "source_story_id": "great-sea-interconnector-regulatory-framework-october-2026",
+          "url": "articles/2026-10-21-evening/cyprus-energy.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "cyprus-energy",
+        "source_story_id": "great-sea-interconnector-regulatory-framework-october-2026",
+        "url": "articles/2026-10-21-evening/cyprus-energy.html"
+      },
+      "section": "cyprus",
+      "priority": 2
+    },
+    {
+      "story_id": "mari-naval-base-infrastructure-expansion-october-2026",
+      "first_seen_at": "2026-10-21T20:15:00+03:00",
+      "last_substantive_at": "2026-10-21T17:00:00Z",
+      "references": [
+        {
+          "edition_id": "2026-10-21-evening",
+          "article_id": "cyprus-naval",
+          "source_story_id": "mari-naval-base-infrastructure-expansion-october-2026",
+          "url": "articles/2026-10-21-evening/cyprus-naval.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "cyprus-naval",
+        "source_story_id": "mari-naval-base-infrastructure-expansion-october-2026",
+        "url": "articles/2026-10-21-evening/cyprus-naval.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
+      "story_id": "cyprus-real-estate-rental-market-institutional-radar-october-2026",
+      "first_seen_at": "2026-10-21T20:15:00+03:00",
+      "last_substantive_at": "2026-10-21T17:00:00Z",
+      "references": [
+        {
+          "edition_id": "2026-10-21-evening",
+          "article_id": "cyprus-housing",
+          "source_story_id": "cyprus-real-estate-rental-market-institutional-radar-october-2026",
+          "url": "articles/2026-10-21-evening/cyprus-housing.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "cyprus-housing",
+        "source_story_id": "cyprus-real-estate-rental-market-institutional-radar-october-2026",
+        "url": "articles/2026-10-21-evening/cyprus-housing.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "cyprus-fiscal-surplus-borrowing-costs-radar-october-2026",
+      "first_seen_at": "2026-10-21T20:15:00+03:00",
+      "last_substantive_at": "2026-10-21T17:00:00Z",
+      "references": [
+        {
+          "edition_id": "2026-10-21-evening",
+          "article_id": "cyprus-economy",
+          "source_story_id": "cyprus-fiscal-surplus-borrowing-costs-radar-october-2026",
+          "url": "articles/2026-10-21-evening/cyprus-economy.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "cyprus-economy",
+        "source_story_id": "cyprus-fiscal-surplus-borrowing-costs-radar-october-2026",
+        "url": "articles/2026-10-21-evening/cyprus-economy.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "middle-east-diplomatic-negotiations-humanitarian-corridor-october-2026",
+      "first_seen_at": "2026-10-21T20:15:00+03:00",
+      "last_substantive_at": "2026-10-21T17:00:00Z",
+      "references": [
+        {
+          "edition_id": "2026-10-21-evening",
+          "article_id": "world-gaza",
+          "source_story_id": "middle-east-diplomatic-negotiations-humanitarian-corridor-october-2026",
+          "url": "articles/2026-10-21-evening/world-gaza.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-gaza",
+        "source_story_id": "middle-east-diplomatic-negotiations-humanitarian-corridor-october-2026",
+        "url": "articles/2026-10-21-evening/world-gaza.html"
+      },
+      "section": "world",
+      "priority": 11
+    },
+    {
+      "story_id": "ukraine-eu-loan-frozen-assets-energy-grid-october-2026",
+      "first_seen_at": "2026-10-21T20:15:00+03:00",
+      "last_substantive_at": "2026-10-21T17:00:00Z",
+      "references": [
+        {
+          "edition_id": "2026-10-21-evening",
+          "article_id": "world-ukraine",
+          "source_story_id": "ukraine-eu-loan-frozen-assets-energy-grid-october-2026",
+          "url": "articles/2026-10-21-evening/world-ukraine.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-eu-loan-frozen-assets-energy-grid-october-2026",
+        "url": "articles/2026-10-21-evening/world-ukraine.html"
+      },
+      "section": "world",
+      "priority": 12
+    },
+    {
+      "story_id": "ecb-monetary-policy-transmission-interest-rates-october-2026",
+      "first_seen_at": "2026-10-21T20:15:00+03:00",
+      "last_substantive_at": "2026-10-21T17:00:00Z",
+      "references": [
+        {
+          "edition_id": "2026-10-21-evening",
+          "article_id": "world-ecb",
+          "source_story_id": "ecb-monetary-policy-transmission-interest-rates-october-2026",
+          "url": "articles/2026-10-21-evening/world-ecb.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-ecb",
+        "source_story_id": "ecb-monetary-policy-transmission-interest-rates-october-2026",
+        "url": "articles/2026-10-21-evening/world-ecb.html"
+      },
+      "section": "world",
+      "priority": 13
+    },
+    {
+      "story_id": "france-budget-parliament-confidence-vote-october-2026",
+      "first_seen_at": "2026-10-21T20:15:00+03:00",
+      "last_substantive_at": "2026-10-21T17:00:00Z",
+      "references": [
+        {
+          "edition_id": "2026-10-21-evening",
+          "article_id": "world-france",
+          "source_story_id": "france-budget-parliament-confidence-vote-october-2026",
+          "url": "articles/2026-10-21-evening/world-france.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-france",
+        "source_story_id": "france-budget-parliament-confidence-vote-october-2026",
+        "url": "articles/2026-10-21-evening/world-france.html"
+      },
+      "section": "world",
+      "priority": 14
+    },
+    {
+      "story_id": "tech-energy-grid-datacenter-ai-nuclear-contracts-october-2026",
+      "first_seen_at": "2026-10-21T20:15:00+03:00",
+      "last_substantive_at": "2026-10-21T17:00:00Z",
+      "references": [
+        {
+          "edition_id": "2026-10-21-evening",
+          "article_id": "world-tech",
+          "source_story_id": "tech-energy-grid-datacenter-ai-nuclear-contracts-october-2026",
+          "url": "articles/2026-10-21-evening/world-tech.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-tech",
+        "source_story_id": "tech-energy-grid-datacenter-ai-nuclear-contracts-october-2026",
+        "url": "articles/2026-10-21-evening/world-tech.html"
+      },
+      "section": "world",
+      "priority": 15
+    },
+    {
+      "story_id": "euroleague-panathinaikos-olympiacos-double-week-october-2026",
+      "first_seen_at": "2026-10-21T20:15:00+03:00",
+      "last_substantive_at": "2026-10-21T17:00:00Z",
+      "references": [
+        {
+          "edition_id": "2026-10-21-evening",
+          "article_id": "sport-euroleague",
+          "source_story_id": "euroleague-panathinaikos-olympiacos-double-week-october-2026",
+          "url": "articles/2026-10-21-evening/sport-euroleague.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "sport-euroleague",
+        "source_story_id": "euroleague-panathinaikos-olympiacos-double-week-october-2026",
+        "url": "articles/2026-10-21-evening/sport-euroleague.html"
+      },
+      "section": "sports",
+      "priority": 21
+    }
+  ],
+  "updates": [
+    {
+      "id": "2026-10-21-evening-cyprus-economy-event",
+      "kind": "substantive_update",
+      "at": "2026-10-21T17:00:00Z",
+      "summary": "Ανακοίνωση δημοσιονομικών στοιχείων εννεαμήνου από τη Στατιστική Υπηρεσία Κύπρου.",
+      "source_urls": [
+        "https://www.brief.com.cy/oikonomia/kyproy/fiscal-surplus-cyprus-budget-october-2026"
+      ],
+      "story_id": "cyprus-fiscal-surplus-borrowing-costs-radar-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "cyprus-economy",
+        "source_story_id": "cyprus-fiscal-surplus-borrowing-costs-radar-october-2026",
+        "url": "articles/2026-10-21-evening/cyprus-economy.html"
+      }
+    },
+    {
+      "id": "2026-10-21-evening-cyprus-energy-event",
+      "kind": "substantive_update",
+      "at": "2026-10-21T17:00:00Z",
+      "summary": "Οριστικοποίηση ρυθμιστικού πλαισίου για τον επιμερισμό κόστους του GSI.",
+      "source_urls": [
+        "https://www.stockwatch.com.cy/el/article/energeia/great-sea-interconnector-regulatory-framework-decisions-2026"
+      ],
+      "story_id": "great-sea-interconnector-regulatory-framework-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "cyprus-energy",
+        "source_story_id": "great-sea-interconnector-regulatory-framework-october-2026",
+        "url": "articles/2026-10-21-evening/cyprus-energy.html"
+      }
+    },
+    {
+      "id": "2026-10-21-evening-cyprus-housing-event",
+      "kind": "substantive_update",
+      "at": "2026-10-21T17:00:00Z",
+      "summary": "Δημοσίευση τριμηνιαίων δεικτών ενοικίων και αξιών ακινήτων για τη Λεμεσό και Λάρνακα.",
+      "source_urls": [
+        "https://inbusinessnews.reporter.com.cy/article/real-estate-rents-cyprus-gap-october-2026/"
+      ],
+      "story_id": "cyprus-real-estate-rental-market-institutional-radar-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "cyprus-housing",
+        "source_story_id": "cyprus-real-estate-rental-market-institutional-radar-october-2026",
+        "url": "articles/2026-10-21-evening/cyprus-housing.html"
+      }
+    },
+    {
+      "id": "2026-10-21-evening-cyprus-naval-event",
+      "kind": "substantive_update",
+      "at": "2026-10-21T17:00:00Z",
+      "summary": "Ολοκλήρωση προκαταρκτικών τεχνικών μελετών για τη Ναυτική Βάση Μαρί.",
+      "source_urls": [
+        "https://www.philenews.com/politiki/article/mari-naval-base-expansion-technical-studies-2026/"
+      ],
+      "story_id": "mari-naval-base-infrastructure-expansion-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "cyprus-naval",
+        "source_story_id": "mari-naval-base-infrastructure-expansion-october-2026",
+        "url": "articles/2026-10-21-evening/cyprus-naval.html"
+      }
+    },
+    {
+      "id": "2026-10-21-evening-lead-event",
+      "kind": "substantive_update",
+      "at": "2026-10-21T17:00:00Z",
+      "summary": "Ολοκλήρωση γύρου διαβουλεύσεων για τη διευρυμένη συνάντηση Κυπριακού υπό τον ΟΗΕ.",
+      "source_urls": [
+        "https://www.cna.org.cy/article/cyprus-problem-un-preparation-expanded-meeting-october-2026"
+      ],
+      "story_id": "cyprus-un-expanded-meeting-preparation-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "lead",
+        "source_story_id": "cyprus-un-expanded-meeting-preparation-october-2026",
+        "url": "articles/2026-10-21-evening/lead.html"
+      }
+    },
+    {
+      "id": "2026-10-21-evening-sport-euroleague-event",
+      "kind": "substantive_update",
+      "at": "2026-10-21T17:00:00Z",
+      "summary": "Προετοιμασία των ελληνικών ομάδων για τη διπλή αγωνιστική της EuroLeague.",
+      "source_urls": [
+        "https://www.euroleaguebasketball.net/euroleague/news/round-preview-october-2026/"
+      ],
+      "story_id": "euroleague-panathinaikos-olympiacos-double-week-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "sport-euroleague",
+        "source_story_id": "euroleague-panathinaikos-olympiacos-double-week-october-2026",
+        "url": "articles/2026-10-21-evening/sport-euroleague.html"
+      }
+    },
+    {
+      "id": "2026-10-21-evening-world-ecb-event",
+      "kind": "substantive_update",
+      "at": "2026-10-21T17:00:00Z",
+      "summary": "Ανάλυση μετάδοσης της μείωσης των ευρωπαϊκών επιτοκίων στο κόστος δανεισμού.",
+      "source_urls": [
+        "https://www.ft.com/content/ecb-interest-rate-cut-growth-concerns-october-2026"
+      ],
+      "story_id": "ecb-monetary-policy-transmission-interest-rates-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-ecb",
+        "source_story_id": "ecb-monetary-policy-transmission-interest-rates-october-2026",
+        "url": "articles/2026-10-21-evening/world-ecb.html"
+      }
+    },
+    {
+      "id": "2026-10-21-evening-world-france-event",
+      "kind": "substantive_update",
+      "at": "2026-10-21T17:00:00Z",
+      "summary": "Έναρξη συζήτησης επί των άρθρων του προϋπολογισμού στη γαλλική Εθνοσυνέλευση.",
+      "source_urls": [
+        "https://www.lemonde.fr/politique/article/2026/10/21/budget-2025-assemblee-nationale-debats-tensions-barnier_6357123_823448.html"
+      ],
+      "story_id": "france-budget-parliament-confidence-vote-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-france",
+        "source_story_id": "france-budget-parliament-confidence-vote-october-2026",
+        "url": "articles/2026-10-21-evening/world-france.html"
+      }
+    },
+    {
+      "id": "2026-10-21-evening-world-gaza-event",
+      "kind": "substantive_update",
+      "at": "2026-10-21T17:00:00Z",
+      "summary": "Συνέχιση των διπλωματικών διαβουλεύσεων στο Κάιρο για ανθρωπιστική εκεχειρία.",
+      "source_urls": [
+        "https://apnews.com/article/middle-east-diplomacy-gaza-ceasefire-talks-october-2026"
+      ],
+      "story_id": "middle-east-diplomatic-negotiations-humanitarian-corridor-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-gaza",
+        "source_story_id": "middle-east-diplomatic-negotiations-humanitarian-corridor-october-2026",
+        "url": "articles/2026-10-21-evening/world-gaza.html"
+      }
+    },
+    {
+      "id": "2026-10-21-evening-world-tech-event",
+      "kind": "substantive_update",
+      "at": "2026-10-21T17:00:00Z",
+      "summary": "Υπογραφή νέας συμφωνίας συνεργασίας για τροφοδοσία hyperscale data center με πυρηνική ενέργεια.",
+      "source_urls": [
+        "https://www.wsj.com/business/energy-oil/big-tech-nuclear-power-deals-ai-data-centers-october-2026"
+      ],
+      "story_id": "tech-energy-grid-datacenter-ai-nuclear-contracts-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-tech",
+        "source_story_id": "tech-energy-grid-datacenter-ai-nuclear-contracts-october-2026",
+        "url": "articles/2026-10-21-evening/world-tech.html"
+      }
+    },
+    {
+      "id": "2026-10-21-evening-world-ukraine-event",
+      "kind": "substantive_update",
+      "at": "2026-10-21T17:00:00Z",
+      "summary": "Οριστική έγκριση του ευρωπαϊκού δανείου €35 δισ. για την Ουκρανία.",
+      "source_urls": [
+        "https://www.euronews.com/my-europe/2026/10/21/european-parliament-approves-ukraine-loan-frozen-russian-assets"
+      ],
+      "story_id": "ukraine-eu-loan-frozen-assets-energy-grid-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-eu-loan-frozen-assets-energy-grid-october-2026",
+        "url": "articles/2026-10-21-evening/world-ukraine.html"
+      }
+    },
+    {
+      "id": "17d6ddc987780cda9ac2814613ccf032c02f61efc82db3dda9ee0247d564a561",
+      "kind": "provenance",
+      "at": "2026-10-21T20:15:00+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "france-budget-parliament-confidence-vote-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-france",
+        "source_story_id": "france-budget-parliament-confidence-vote-october-2026",
+        "url": "articles/2026-10-21-evening/world-france.html"
+      }
+    },
+    {
+      "id": "86ee2a93dd12caa8769a20f345252b3b9d06b3af6cc6055224a20a5f3c488e78",
+      "kind": "provenance",
+      "at": "2026-10-21T20:15:00+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-fiscal-surplus-borrowing-costs-radar-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "cyprus-economy",
+        "source_story_id": "cyprus-fiscal-surplus-borrowing-costs-radar-october-2026",
+        "url": "articles/2026-10-21-evening/cyprus-economy.html"
+      }
+    },
+    {
+      "id": "a945d9fe811848ee1da682677a9d2d59503b19c5f18a040d614ade5d3f9515df",
+      "kind": "provenance",
+      "at": "2026-10-21T20:15:00+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-un-expanded-meeting-preparation-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "lead",
+        "source_story_id": "cyprus-un-expanded-meeting-preparation-october-2026",
+        "url": "articles/2026-10-21-evening/lead.html"
+      }
+    },
+    {
+      "id": "bc08d6cc3cf8edf06a3ec215673aaa298d3c3644561459cd95937323e2e20007",
+      "kind": "provenance",
+      "at": "2026-10-21T20:15:00+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "mari-naval-base-infrastructure-expansion-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "cyprus-naval",
+        "source_story_id": "mari-naval-base-infrastructure-expansion-october-2026",
+        "url": "articles/2026-10-21-evening/cyprus-naval.html"
+      }
+    },
+    {
+      "id": "cd40da73509ed99048224d62081e46488d43465e2042bd97713ea59d55e58851",
+      "kind": "provenance",
+      "at": "2026-10-21T20:15:00+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "tech-energy-grid-datacenter-ai-nuclear-contracts-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-tech",
+        "source_story_id": "tech-energy-grid-datacenter-ai-nuclear-contracts-october-2026",
+        "url": "articles/2026-10-21-evening/world-tech.html"
+      }
+    },
+    {
+      "id": "cf006ed540415b00505ad03f17784c5da23b01d250e2a1154548685a2ac1ef98",
+      "kind": "provenance",
+      "at": "2026-10-21T20:15:00+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-eu-loan-frozen-assets-energy-grid-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-eu-loan-frozen-assets-energy-grid-october-2026",
+        "url": "articles/2026-10-21-evening/world-ukraine.html"
+      }
+    },
+    {
+      "id": "d0063e59c139eec117f98f70d715b36d8e0ba8a637de4b3b6e2bc065b9d8b905",
+      "kind": "provenance",
+      "at": "2026-10-21T20:15:00+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "euroleague-panathinaikos-olympiacos-double-week-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "sport-euroleague",
+        "source_story_id": "euroleague-panathinaikos-olympiacos-double-week-october-2026",
+        "url": "articles/2026-10-21-evening/sport-euroleague.html"
+      }
+    },
+    {
+      "id": "d3c70a0ca4ffae4b4f77df42483cc3177a6f8f94633bf5724c447ea44c9e21d1",
+      "kind": "provenance",
+      "at": "2026-10-21T20:15:00+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "middle-east-diplomatic-negotiations-humanitarian-corridor-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-gaza",
+        "source_story_id": "middle-east-diplomatic-negotiations-humanitarian-corridor-october-2026",
+        "url": "articles/2026-10-21-evening/world-gaza.html"
+      }
+    },
+    {
+      "id": "d4f391d5e22cdcac537c15af3c547a5d834f3d2cc408e6e9057dddb9dce147e7",
+      "kind": "provenance",
+      "at": "2026-10-21T20:15:00+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "ecb-monetary-policy-transmission-interest-rates-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "world-ecb",
+        "source_story_id": "ecb-monetary-policy-transmission-interest-rates-october-2026",
+        "url": "articles/2026-10-21-evening/world-ecb.html"
+      }
+    },
+    {
+      "id": "eeb4df50358d6e7d9e24c9fa8b420b3cf1ab9a09ca2d6cc73d214816b77f93e6",
+      "kind": "provenance",
+      "at": "2026-10-21T20:15:00+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "great-sea-interconnector-regulatory-framework-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "cyprus-energy",
+        "source_story_id": "great-sea-interconnector-regulatory-framework-october-2026",
+        "url": "articles/2026-10-21-evening/cyprus-energy.html"
+      }
+    },
+    {
+      "id": "fa9e8787cc876b8748043bbbe89b88110ca5b4fcbde9a5d4e4e0bbc75f8262ea",
+      "kind": "provenance",
+      "at": "2026-10-21T20:15:00+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-real-estate-rental-market-institutional-radar-october-2026",
+      "origin": {
+        "edition_id": "2026-10-21-evening",
+        "article_id": "cyprus-housing",
+        "source_story_id": "cyprus-real-estate-rental-market-institutional-radar-october-2026",
+        "url": "articles/2026-10-21-evening/cyprus-housing.html"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "cy-home-energy-2026",
+      "kind": "grant",
+      "status": "needs_verification",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "deadline": "2026-12-30T23:59:00+02:00",
+      "deadline_type": "fixed",
+      "deadline_note": "Έως 30/12/2026 ή μέχρι εξαντλήσεως προϋπολογισμού.",
+      "application_kind": "form",
+      "application_url": "https://fundingapps.meci.gov.cy",
+      "action": "Υποβολή ηλεκτρονικών αιτήσεων μέσω του ενιαίου κυβερνητικού portal.",
+      "verified_at": "2026-10-21T20:15:00+03:00",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "change_note": "Κανονική ροή υποβολής αιτήσεων χωρίς τεχνικά προβλήματα.",
+      "sources": [
+        {
+          "publisher": "ΥΕΕΒ",
+          "url": "https://www.industry.gov.cy",
+          "published_at": "2026-09-30",
+          "retrieved_at": "2026-10-21T20:15:00+03:00",
+          "reporting_group": "ΥΕΕΒ",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    }
+  ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Στην Κύπρο, στο επίκεντρο βρίσκονται οι προπαρασκευαστικές επαφές για τη διευρυμένη συνάντηση του Κυπριακού υπό τον ΟΗΕ.",
+        "story_ids": [
+          "cyprus-un-expanded-meeting-preparation-october-2026"
+        ]
+      },
+      {
+        "text": "Ενεργειακές & αμυντικές υποδομές: Ρυθμιστική πρόοδος στον Great Sea Interconnector και τεχνικές μελέτες για τη Ναυτική Βάση Μαρί.",
+        "story_ids": [
+          "great-sea-interconnector-regulatory-framework-october-2026",
+          "mari-naval-base-infrastructure-expansion-october-2026"
+        ]
+      },
+      {
+        "text": "Διεθνώς, το Ευρωκοινοβούλιο ενέκρινε το δάνειο €35 δισ. προς το Κίεβο, ενώ στη Γαλλία κορυφώνεται η κοινοβουλευτική μάχη του προϋπολογισμού.",
+        "story_ids": [
+          "ukraine-eu-loan-frozen-assets-energy-grid-october-2026",
+          "france-budget-parliament-confidence-vote-october-2026"
+        ]
+      },
+      {
+        "text": "Στα αθλητικά, η Ομόνοια ολοκληρώνει το τακτικό πλάνο της ενόψει της ευρωπαϊκής αναμέτρησης της Πέμπτης.",
+        "story_ids": [
+          "euroleague-panathinaikos-olympiacos-double-week-october-2026"
+        ]
+      }
+    ]
+  },
+  "follow_ups": [],
+  "created_at": "2026-10-21T17:48:45.918939+00:00",
+  "updated_at": "2026-10-21T17:48:45.918939+00:00",
+  "input_sha256": "2dbccb7b53e2cb4f38c5d94d87884b813ea84ef8b4ab4756d567f03ccf121ff5"
+}
