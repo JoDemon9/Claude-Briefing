@@ -250,13 +250,13 @@ class EfficiencyTests(unittest.TestCase):
                     'edition_ids':[edition['id']]}):
                 result=checks.run(root,execute=execute)
                 self.assertEqual(result['status'],'passed')
-                self.assertLess(executed.index('build'),executed.index('validate'))
+                self.assertEqual(executed,['content','preview','integrity'])
                 reader=root/'docs'/articles[0]['url']
                 self.assertTrue(reader.is_file());reader.unlink()
                 with self.assertRaisesRegex(ValueError,'unavailable reader'):
                     checks.run(root,prebuilt=True,execute=execute)
                 report=json.loads((root/'.work/check-report.json').read_text())
-                self.assertEqual(report['failed_step'],'validate')
+                self.assertEqual(report['failed_step'],'content')
 
     def test_routine_and_code_change_profiles_are_distinct(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -268,7 +268,7 @@ class EfficiencyTests(unittest.TestCase):
             self.assertEqual(checks.classify(root,'HEAD')['profile'],'content')
             self.assertEqual(checks.classify(root,'HEAD')['edition_ids'],['2026-10-16-evening'])
             (root/'scripts').mkdir();(root/'scripts/helper.py').write_text('pass')
-            self.assertEqual(checks.classify(root,'HEAD')['profile'],'full')
+            self.assertEqual(checks.classify(root,'HEAD')['profile'],'maintenance')
 
     def test_usage_does_not_translate_work_into_quota_and_handles_reset(self):
         with tempfile.TemporaryDirectory() as directory:

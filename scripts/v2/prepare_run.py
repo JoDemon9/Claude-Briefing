@@ -47,14 +47,14 @@ def prepare(root,day,slot,at,private_root,wire_root=None):
             'source_statuses':{status:sum(r['status']==status for r in collection['records'])
                                for status in sorted({r['status'] for r in collection['records']})},
             'sports':{key:{'status':row['status'],'headlines':len(row['items'])} for key,row in sports['news_links'].items()}},
+        'daily_quality_gates':['content','preview','integrity'],
         'editorial_steps':[
-            'Read every planning page; inspect exact private records for due, failed, disputed or unresolved evidence. These pages are not source evidence.',
-            'Scan independent world/Cyprus desks beyond tracked topics; select five world/five Cyprus stories or document genuine researched shortfalls.',
-            'Read supporting evidence; separate facts, comparisons, interpretation and material uncertainty. Draft each story once. Never invent a mechanism to add depth.',
-            'Scaffold the matching draft and copy stable data. Apply sports metadata to that draft; review Greek headlines and refresh checks if older than 120 minutes at completion.',
-            'Review dated market quotes, every-slot weather, due opportunities and relevant licensed photos. Approve only evidence actually reviewed.',
-            'One editorial pass checks factual support, original times, omissions and clear Greek; optional analysis/reader must add specific supported knowledge.',
-            'Submit one source candidate to existing GitHub checks. Use its exact passing artifact/receipt; verify source Pages, then full-day portal. Preserve blockers and last good releases.'
+            '1 PREPARE: read every planning page and the relevant original private evidence; resume matching work. Planning pages do not prove source reading.',
+            '2 RESEARCH: scan independent desks; select five International/five Cyprus stories or record genuine researched shortfalls; investigate new, changed, disputed and due facts.',
+            '3 WRITE: scaffold/copy stable data, apply the prepared sports report once, write clear supported Greek and useful optional depth. Keep all markets, weather, opportunities and licensed photos.',
+            '4 REVIEW ONCE: check factual support, dates/numbers/rights, important omissions and useful analysis. Approve only evidence actually read; refresh due sports checks.',
+            '5 RUN ONE CHECK: submit one reviewed candidate. Daily content needs content, preview and integrity only; maintenance adds units and full archive audits are manual. Fix the named input or preserve a precise blocker.',
+            '6 PUBLISH: use the exact genuine passing artifact/receipt without rebuilding or repeating tests. Verify source Pages, then complete-day portal; preserve concurrent Wire and the last good release.'
         ],
         'scope':'Preparation only. No article/edition writes, source-reading approval, verified_at changes, model/API selection, quality waiver or publication.'}
     handoff_path=run/'handoff.json';atomic.write_json(handoff_path,handoff)

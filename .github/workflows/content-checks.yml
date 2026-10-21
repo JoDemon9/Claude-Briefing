@@ -5,6 +5,11 @@ on:
     branches: [main]
     paths: ['content/**', 'templates/v2/**', 'scripts/v2/**', 'tests/**', 'docs/**', 'BRIEFING_RUNTIME.md', '.github/workflows/content-checks.yml']
   workflow_dispatch:
+    inputs:
+      full_regression:
+        description: 'Also run the historical archive browser suites (maintenance audit only)'
+        type: boolean
+        default: false
 permissions:
   contents: read
 jobs:
@@ -29,7 +34,13 @@ jobs:
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
           CANDIDATE_SOURCE_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
-        run: python scripts/v2/checks.py --base "$BASE_SHA"
+          FULL_REGRESSION: ${{ github.event.inputs.full_regression || 'false' }}
+        run: |
+          if [ "$FULL_REGRESSION" = "true" ]; then
+            python scripts/v2/checks.py --base "$BASE_SHA" --profile full
+          else
+            python scripts/v2/checks.py --base "$BASE_SHA"
+          fi
       - name: Confirm generated files are committed
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: git diff --exit-code -- docs/

@@ -1,5 +1,7 @@
 # DEC-014 — Spend briefing usage on editorial judgement
 
+DEC-021 supersedes automatic full regression, repeated validation and broad current-reader browser matrices for routine completion. Daily content uses three gates; maintenance adds units; archive browser audits are explicit. Evidence, coverage and presentation requirements below remain. See [DEC-021](DEC-021-minimum-daily-checks.md).
+
 - User request: routine edition creation used too much of the available ChatGPT allowance. Implement the approved plan to reduce usage while improving quality: concise instructions, reusable research records, change-focused editions, routine collection/publishing, suitable licensed-image reuse and separate maintenance.
 - Extends DEC-004–013. Explicitly replaces repeated startup document reads, compulsory hidden favourite-sports research, retyping unchanged records and blanket per-slot research of unchanged long-lived opportunities. Keep all three existing schedules/settings, coverage/reading/photo/privacy/source/UI rules and exact two-site publication gates. Since-last-visit tracking remains deferred.
 - Status: implementation/replay under review; main/Pages and actual task updates are separately reported in release notes. A replay is not fresh research or measured quota.

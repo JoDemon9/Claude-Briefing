@@ -1,5 +1,7 @@
 # DEC-017 — Separate section coverage and the DEC-016 CI handoff
 
+DEC-021 supersedes automatic full regression, repeated validation and broad current-reader browser matrices for routine completion. Daily content uses three gates; maintenance adds units; archive browser audits are explicit. Evidence, coverage and presentation requirements below remain. See [DEC-021](DEC-021-minimum-daily-checks.md).
+
 - User request: read the briefing instructions and latest changes entry, apply the GitHub check handoff to the prompts and section creation, and fix International/Cyprus article shortages.
 - Implements the existing [Oracle DEC-016 entry](https://github.com/JoDemon9/oracle-briefing/blob/main/DECISIONS.md), corroborated by Oracle AGENTS.md. The original decision ID is preserved; this coverage extension is DEC-017. Extends DEC-010/014/015/016.
 - Status: PR #15 explicitly approved, merged and live verified on 18 October 2026. All three actual task prompts updated and independently read back.

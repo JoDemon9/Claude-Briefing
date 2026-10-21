@@ -141,11 +141,10 @@ def accept_checks(root, checks_receipt):
     proof=json.loads(Path(checks_receipt).read_text())
     receipt=module('release').manifest(root)
     recorded=json.loads((root/'docs/data/release.json').read_text())
-    required=module('checks').classify(root)['profile']
+    checks=module('checks');required=checks.classify(root)['profile']
     if (recorded!=receipt or proof.get('status')!='passed' or
             proof.get('release_id')!=receipt['release_id'] or
-            proof.get('selection',{}).get('profile') not in ('content','full') or
-            (required=='full' and proof['selection']['profile']!='full')):
+            checks.PROFILES.get(proof.get('selection',{}).get('profile'),-1)<checks.PROFILES[required]):
         raise ValueError('Candidate checks receipt does not cover this release/profile')
     return {'status':'passed','release_id':receipt['release_id'],'report':str(checks_receipt)}
 
@@ -188,27 +187,28 @@ def run(root=ROOT, portal=None, publish=False, handlers=None, checks_receipt=Non
         custom=handlers or {}
         call=lambda stage,fn:action(stage,custom.get(stage,fn))
         call('generated',lambda:{'edition_ids':list(state['editions'])})
-        call('validated',lambda:validate(root))
+        # Without a CI artifact, validation/build/preview run together once below.
+        # Keep the durable stage names for existing journals and status consumers.
+        candidate_report=Path(checks_receipt) if checks_receipt else root/'.work/check-report.json'
+        call('validated',lambda:accept_checks(root,checks_receipt) if checks_receipt else
+             {'validation':'Deferred to the single content gate in built.'})
         def build():
             if checks_receipt:
                 result=accept_checks(root,checks_receipt)
                 state['release_id']=result['release_id']
                 return {**result,'build':'reused exact checked candidate'}
-            result=module('build').build(root,incremental=True)
-            receipt=release.record(root)
-            state['release_id']=receipt['release_id']
-            # Generated CSS can change when the first full build repairs an old output.
+            result=module('checks').run(root)
+            state['release_id']=result['release_id']
+            # Generated CSS can change when the first build repairs an old output.
             state['source_identity']=source_identity(root)
-            return {**result,'release_id':receipt['release_id']}
+            return {**result,'build':'built and checked once'}
         call('built',build)
         # A resumed run cannot trust a formerly completed stage if its output was altered.
         if not handlers and release.manifest(root)['release_id']!=state.get('release_id'):
             for stage in STAGES[2:]:state['stages'].pop(stage,None)
             persist();call('built',build)
         def checked():
-            if checks_receipt:
-                return accept_checks(root,checks_receipt)
-            return module('checks').run(root,prebuilt=True)
+            return accept_checks(root,candidate_report)
         call('checked',checked)
         if not publish:
             state['mode']='prepared';persist();return state

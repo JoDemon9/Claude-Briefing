@@ -13,7 +13,8 @@ import time
 
 ROOT=Path(__file__).resolve().parents[2]
 CODE=('scripts/','templates/','tests/','.github/','requirements','BRIEFING_RUNTIME.md')
-CONTENT_TESTS=('test_reading_policy.py','test_editorial_images.py','test_selection.py','test_sports_news.py','test_opportunities.py','test_follow_ups.py')
+PROFILES={'content':0,'maintenance':1,'full':2}
+DAILY_GATES=('content','preview','integrity')
 
 
 def module(name):
@@ -29,8 +30,8 @@ def classify(root,base=None):
         files=subprocess.check_output(['git','-C',str(root),'diff','--name-only',base,'--'],text=True).splitlines()
         files+=subprocess.check_output(['git','-C',str(root),'ls-files','--others','--exclude-standard'],text=True).splitlines()
     except subprocess.CalledProcessError:
-        return {'profile':'full','changed_files':[],'edition_ids':[],'reason':'Unknown baseline; full checks required.'}
-    profile='full' if any(path.startswith(CODE) for path in files) else 'content'
+        return {'profile':'maintenance','changed_files':[],'edition_ids':[],'reason':'Unknown baseline; include maintenance unit checks.'}
+    profile='maintenance' if any(path.startswith(CODE) for path in files) else 'content'
     editions=set()
     for path in files:
         parts=Path(path).parts
@@ -38,7 +39,18 @@ def classify(root,base=None):
         if len(parts)>=4 and parts[:2]==('content','articles'):editions.add(parts[2])
         if len(parts)>=5 and parts[:3]==('docs','assets','editorial'):editions.add(parts[3])
     return {'profile':profile,'changed_files':sorted(set(files)),'edition_ids':sorted(editions),
-            'reason':'Publisher/schema/template/test/workflow change.' if profile=='full' else 'Content only; current/changed gates remain blocking.'}
+            'reason':'Code/policy change: daily gates plus unit regressions.' if profile=='maintenance' else 'Daily content: three quality gates only.'}
+
+
+def selected_editions(root,edition_ids=()):
+    editions=[json.loads(path.read_text()) for path in (Path(root)/'content/editions').glob('*.json')]
+    published=[e for e in editions if e['status']=='published' and e.get('published_at')]
+    if not published:raise ValueError('No published candidate to check')
+    if edition_ids:
+        missing=set(edition_ids)-{e['id'] for e in published}
+        if missing:raise ValueError('Requested candidate is missing or unpublished: '+', '.join(sorted(missing)))
+        return [e for e in published if e['id'] in edition_ids]
+    return [max(published,key=lambda e:datetime.fromisoformat(e['published_at'].replace('Z','+00:00')))]
 
 
 def prepare_candidate_images(root, edition_ids=(), verify_only=False):
@@ -57,10 +69,12 @@ def prepare_candidate_images(root, edition_ids=(), verify_only=False):
 
 def run(root=ROOT,base=None,prebuilt=False,profile=None,execute=None):
     root=Path(root).resolve();selection=classify(root,base)
-    if profile=='full':selection['profile']='full'
-    if profile=='content' and selection['profile']=='full':raise ValueError('Code changes cannot use content-only gates')
+    if profile:
+        if profile not in PROFILES or PROFILES[profile]<PROFILES[selection['profile']]:
+            raise ValueError('Code changes cannot use a weaker check profile')
+        selection['profile']=profile
     output=root/'.work/check-report.json';folder=root/'.work/check-logs';folder.mkdir(parents=True,exist_ok=True)
-    result={'schema_version':1,'status':'running','selection':selection,'steps':[],
+    result={'schema_version':1,'quality_policy_version':2,'daily_gates':list(DAILY_GATES),'status':'running','selection':selection,'steps':[],
             'started_at':datetime.now(timezone.utc).isoformat()}
     try:
         commit=subprocess.check_output(['git','-C',str(root),'rev-parse','HEAD'],text=True,stderr=subprocess.DEVNULL).strip()
@@ -83,45 +97,43 @@ def run(root=ROOT,base=None,prebuilt=False,profile=None,execute=None):
                     if value is not None:print(json.dumps(value,ensure_ascii=False))
             record.update(status='passed',seconds=round(time.perf_counter()-start,3),log=str(log.relative_to(root)))
         except Exception as error:
-            record.update(status='failed',error_type=type(error).__name__,seconds=round(time.perf_counter()-start,3))
+            record.update(status='failed',error_type=type(error).__name__,detail=str(error)[:400],log=str(log.relative_to(root)),seconds=round(time.perf_counter()-start,3))
             result.update(status='failed',failed_step=name);atomic.write_json(output,result);raise
         atomic.write_json(output,result)
-    def sections():
+    def content():
         inventory=module('selection');rows=[]
-        paths=sorted((root/'content/editions').glob('*.json'))
-        for path in paths:
-            edition=json.loads(path.read_text())
-            if edition['status']!='published':continue
-            if selection['edition_ids'] and edition['id'] not in selection['edition_ids']:continue
+        selected=selected_editions(root,selection['edition_ids'])
+        selection['edition_ids']=[e['id'] for e in selected]
+        for edition in selected:
             articles=[json.loads((root/'content'/p).read_text()) for p in edition['articles']]
             rows.append(inventory.coverage(edition,articles))
         result['section_coverage']=rows
-        return rows
-    step('prepare_images',fn=lambda:prepare_candidate_images(root,selection['edition_ids'],verify_only=prebuilt))
-    step('section_coverage',fn=sections)
-    if not prebuilt:
-        # The builder validates source inputs before rendering. The complete
-        # publication validator also requires generated edition/reader files.
-        step('build',fn=lambda:module('build').build(root,incremental=True))
-    step('validate',fn=lambda:module('publish').validate(root))
-    if not prebuilt:
-        step('release_record',fn=lambda:{'release_id':module('release').record(root)['release_id']})
-    def integrity():
-        if module('release').manifest(root)!=json.loads((root/'docs/data/release.json').read_text()):raise ValueError('Candidate release receipt is stale')
-    step('release_integrity',fn=integrity)
+        prepare_candidate_images(root,selection['edition_ids'],verify_only=prebuilt)
+        if prebuilt:
+            module('publish').validate(root)
+        else:
+            # The builder already checks source/schema/reading/rights/coverage/
+            # dates/identity and generated reader references. Do that once.
+            module('build').build(root,incremental=True)
+        return {'editions':selection['edition_ids'],'source_review_required':True,'section_coverage':rows}
+    step('content',fn=content)
     receipt=module('release').manifest(root)
-    if selection['profile']=='full':
+    if prebuilt and receipt!=json.loads((root/'docs/data/release.json').read_text()):
+        result.update(status='failed',failed_step='content');atomic.write_json(output,result)
+        raise ValueError('Candidate release receipt is stale')
+    if PROFILES[selection['profile']]>=PROFILES['maintenance']:
         step('unit',command=[sys.executable,'-m','unittest','discover','-s','tests','-q'])
+    command=[sys.executable,'tests/edition_browser_checks.py','--root',str(root),'--screenshots',str(folder/'current-preview')]
+    for eid in selection['edition_ids']:command.extend(['--edition',eid])
+    step('preview',command=command)
+    if selection['profile']=='full':
         for name in ('browser_checks','frontend_polish_browser_checks','editorial_browser_checks'):
             step(name,command=[sys.executable,'tests/'+name+'.py','--screenshots',str(folder/name)])
-    else:
-        for test in CONTENT_TESTS:step(Path(test).stem,command=[sys.executable,'-m','unittest','discover','-s','tests','-p',test,'-q'])
-        command=[sys.executable,'tests/edition_browser_checks.py','--root',str(root),'--screenshots',str(folder/'changed-preview')]
-        for eid in selection['edition_ids']:command.extend(['--edition',eid])
-        step('edition_browser',command=command)
-    def unchanged():
+    def integrity():
         if module('release').manifest(root)!=receipt:raise ValueError('Candidate changed during quality checks')
-    step('candidate_unchanged',fn=unchanged)
+        if not prebuilt:atomic.write_json(root/'docs/data/release.json',receipt)
+        return {'release_id':receipt['release_id'],'immutable_candidate':True}
+    step('integrity',fn=integrity)
     result.update(status='passed',release_id=receipt['release_id'],completed_at=datetime.now(timezone.utc).isoformat())
     atomic.write_json(output,result)
     return {'status':'passed','profile':selection['profile'],'release_id':receipt['release_id'],
@@ -130,6 +142,6 @@ def run(root=ROOT,base=None,prebuilt=False,profile=None,execute=None):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--root',type=Path,default=ROOT)
-    parser.add_argument('--base');parser.add_argument('--prebuilt',action='store_true');parser.add_argument('--profile',choices=('full','content'))
+    parser.add_argument('--base');parser.add_argument('--prebuilt',action='store_true');parser.add_argument('--profile',choices=tuple(PROFILES))
     parser.add_argument('--classify',action='store_true');args=parser.parse_args()
     print(json.dumps(classify(args.root,args.base) if args.classify else run(args.root,args.base,args.prebuilt,args.profile),ensure_ascii=False))

@@ -2,7 +2,11 @@
 
 DEC-020 allows the user's selected ChatGPT model, including Luna. The producer uses ChatGPT tools and existing Python/GitHub helpers; it has no hardcoded LLM client, model ID or external AI bill. Five International/five Cyprus stories, actual source review, dated financial/weather/opportunity data, licensed photos, useful analysis and blocking release checks apply to every model.
 
-## Prepare and review
+## Six steps for every model
+
+Follow the maintained task prompt: PREPARE, RESEARCH, WRITE, REVIEW ONCE, RUN ONE CHECK, PUBLISH AND FINISH. DEC-021 requires only content, preview and integrity for daily content. Maintenance adds unit checks; full archive browser audits are manual. Review the evidence and useful writing once, then consume the compact result and exact artifact. Do not add extra per-story essays/checklists or browser matrices.
+
+## Preparation details
 
 Read the applicable AGENTS files and fresh main capabilities once. Install requirements-v2.txt in the runtime. When main advertises `producer_handoff`, run:
 
@@ -28,4 +32,4 @@ Submit one source candidate to the existing GitHub Actions workflow. Consume its
 
 Select Luna using the model control for the task/conversation where available. The exposed automation update API has no model field. These prompts cannot switch or attest to the actual runtime model. Preserve the three task titles/times/timezones/enabled states/destinations and the fourth historical task.
 
-The regressions establish preparation, sports/UI and publication-contract behavior. They do not measure Luna's editorial quality or account quota. A genuine comparison requires completed Luna briefings assessed for coverage, factual support, meaningful depth, Greek clarity and exact served releases. Do not lower article counts, evidence standards or gates to obtain a pass.
+The regressions establish preparation, sports/UI and publication-contract behavior. They do not measure Luna's editorial quality or account quota. A genuine comparison requires completed Luna briefings assessed for coverage, factual support, meaningful depth, Greek clarity and exact served releases. Keep article targets, evidence standards and useful depth. The minimum three daily gates replace redundant automated suites, not editorial judgment.

@@ -1,5 +1,7 @@
 # DEC-018 — More external work, intact editorial quality
 
+DEC-021 supersedes automatic full regression, repeated validation and broad current-reader browser matrices for routine completion. Daily content uses three gates; maintenance adds units; archive browser audits are explicit. Evidence, coverage and presentation requirements below remain. See [DEC-021](DEC-021-minimum-daily-checks.md).
+
 The user reports that briefing quota consumption remains too high and requests stronger instructions to outsource work while preserving quality. Extends DEC-014/016/017 without reducing the five-International/five-Cyprus targets, model quality, source reading, image rights, freshness, readability or publication gates.
 
 ## Findings and concrete policy

@@ -1,5 +1,7 @@
 # DEC-020 — Sports recovery, Luna support and collapsible findings
 
+DEC-021 supersedes automatic full regression, repeated validation and broad current-reader browser matrices for routine completion. Daily content uses three gates; maintenance adds units; archive browser audits are explicit. Evidence, coverage and presentation requirements below remain. See [DEC-021](DEC-021-minimum-daily-checks.md).
+
 - Date: 20 October 2026.
 - User request: sports outputs nothing; make the briefing work with Luna without reducing quality and improve it; make findings collapsible.
 - Status: implementation prepared on a review branch. Main, both Pages deployments, actual prompts and model selection are separate states.

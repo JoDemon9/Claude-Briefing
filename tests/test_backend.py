@@ -174,6 +174,28 @@ class BackendTests(unittest.TestCase):
             (root/'docs/index.html').write_text('Changed after CI')
             with self.assertRaisesRegex(ValueError,'release/profile'):publish.accept_checks(root,report)
 
+    def test_local_preparation_builds_and_checks_once_without_repeated_validation(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);(root/'docs/data').mkdir(parents=True)
+            (root/'content/editions').mkdir(parents=True)
+            (root/'docs/index.html').write_text('Exact tested candidate')
+            (root/'docs/data/editions.json').write_text(json.dumps([{'id':'candidate','status':'published','url':'index.html'}]))
+            original=publish.module;checks=original('checks')
+            def one_check(candidate):
+                receipt=release.record(candidate)
+                report=candidate/'.work/check-report.json'
+                report.write_text(json.dumps({'status':'passed','release_id':receipt['release_id'],'selection':{'profile':'maintenance'}}))
+                return {'status':'passed','release_id':receipt['release_id']}
+            checks.run=mock.Mock(side_effect=one_check)
+            def modules(name):
+                if name=='checks':return checks
+                if name=='build':raise AssertionError('The checked artifact must not be built twice')
+                return original(name)
+            with mock.patch.object(publish,'module',side_effect=modules),mock.patch.object(publish,'validate',side_effect=AssertionError('Do not revalidate a passed artifact')):
+                state=publish.run(root,root/'portal')
+            checks.run.assert_called_once_with(root)
+            self.assertEqual(state['stages']['checked']['status'],'complete')
+
     def test_git_publication_preserves_concurrent_wire_and_retry_is_idempotent(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory);remote=root/'JoDemon9/oracle-briefing.git'
