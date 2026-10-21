@@ -104,6 +104,8 @@ def validate_opportunity_reviews(root,edition):
     for record in edition.get('opportunities',[]):
         if instant(record['verified_at'])>at:raise ValueError('Opportunity review cannot follow edition completion')
         review=opportunity_due(record,at,policy)
+        if edition.get('availability_policy') == 'partial-v1' and edition['date'] >= '2026-10-22' and record.get('review_due'):
+            continue  # Retain original evidence as archive; renderer suppresses active application action.
         if review['due']:raise ValueError('Due opportunity requires actual source review or an honest unavailable/closed update: '+record['id'])
 
 

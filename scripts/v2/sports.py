@@ -18,7 +18,8 @@ BRAND_LOGOS = {
 
 
 def interest(article):
-    return article.get('sports_interest', 'other')
+    value = article.get('sports_interest', 'other')
+    return 'formula1' if value == 'f1' else value
 
 
 def credits(b):
@@ -73,6 +74,8 @@ def headlines(b, edition, key):
     out.append('</ul>')
     if checked:
         out.append('<span class="sport-check-time">' + ('Απόπειρα ελέγχου: ' if status == 'unavailable' else 'Έλεγχος πηγής: ') + b.esc(b.stamp(checked)) + '</span>')
+    if record and record.get('attempted_at') and status == 'unavailable':
+        out.append('<span class="sport-check-time">Νεότερη απόπειρα: '+b.esc(b.stamp(record['attempted_at']))+'</span>')
     out.append('</div>')
     return ''.join(out)
 
@@ -100,21 +103,35 @@ def render(b, edition, articles=(), anchors=None, include_major=True):
             opp = lm.get('opponent', '')
             res = lm.get('result', '')
             last = f"{opp} ({res})" if opp or res else None
+            if last and lm.get('date'):
+                last += ' · ' + lm['date']
+            if last and lm.get('scorers'):
+                last += ' · ' + ', '.join(lm['scorers'])
+        if not last and isinstance(team_cov.get('latest_session'), dict):
+            last = ' · '.join(str(team_cov['latest_session'][key]) for key in ('name','result','date') if team_cov['latest_session'].get(key))
         if last:
             meta_html.append('<div class="sport-fixture"><strong>Τελευταίο:</strong> ' + b.esc(last) + '</div>')
 
         nxt = team_cov.get('next_fixture') if isinstance(team_cov.get('next_fixture'), str) else None
         if not nxt and isinstance(team_cov.get('next_fixture'), dict):
             nf = team_cov['next_fixture']
-            nxt = f"{nf.get('opponent', '')} - {nf.get('date', '')}"
+            nxt = f"{nf.get('opponent', '')} · {nf.get('date', '')}"
+            if nf.get('kickoff_at'):
+                nxt += ' · ' + b.stamp(nf['kickoff_at'])
+            if nf.get('venue'):
+                nxt += ' · ' + nf['venue']
         if not nxt and team_cov.get('next_grand_prix'):
             nxt = team_cov['next_grand_prix']
         if nxt:
             meta_html.append('<div class="sport-fixture"><strong>Επόμενο:</strong> ' + b.esc(nxt) + '</div>')
+        for session in team_cov.get('sessions', []):
+            meta_html.append('<div class="sport-fixture">'+b.esc(session['name'])+' · '+b.stamp(session['starts_at'])+'</div>')
 
         analysis = team_cov.get('editorial_summary') or team_cov.get('analysis')
         if analysis:
             meta_html.append('<div class="sport-summary">' + b.esc(analysis) + '</div>')
+        if team_cov.get('updated_at'):
+            meta_html.append('<span class="sport-check-time">Στοιχεία έως: '+b.esc(b.stamp(team_cov['updated_at']))+'</span>')
 
         extra = ''.join(meta_html)
         out.append('<article class="sport team-' + key + '">' + refs + '<span class="teamicon" aria-hidden="true"><img class="sport-logo" src="../' + logo_asset + '" alt="" width="32" height="32" loading="lazy" decoding="async"></span><h3>' + b.TEAMS[key] + '</h3><a class="sport-news-link" href="' + url + '" rel="noopener noreferrer" aria-label="Όλα τα νέα · ' + b.TEAMS[key] + '">Όλα τα νέα ↗</a>' + extra + headlines(b, edition, key) + '</article>')

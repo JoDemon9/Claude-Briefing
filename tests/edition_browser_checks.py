@@ -59,9 +59,7 @@ def run(root,edition_ids=(),output=None):
     if output:output.mkdir(parents=True,exist_ok=True)
     for relative in pages:check_local_links(root,relative)
     if sync_playwright is None:
-        print(json.dumps({'status':'passed','browser_cases':0,'pages':list(pages),'editions':[e['id'] for e in editions],
-            'note':'Playwright not installed in local environment; local links verified.'}))
-        return
+        raise ValueError('Playwright is required for the blocking preview gate; local links alone are insufficient')
     server=ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(root/'docs')))
     threading.Thread(target=server.serve_forever,daemon=True).start();base=f'http://127.0.0.1:{server.server_port}/';count=0
     try:

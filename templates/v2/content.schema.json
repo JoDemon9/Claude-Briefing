@@ -376,24 +376,44 @@
         },
         "mechanics_and_incentives": {
           "anyOf": [
-            { "type": "string" },
-            { "type": "array", "items": { "type": "string" } }
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
           ],
           "description": "Layer 2: Underlying economic/political mechanics and actor incentives"
         },
         "second_order_effects": {
           "anyOf": [
-            { "type": "string" },
-            { "type": "array", "items": { "type": "string" } }
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
           ],
           "description": "Layer 3: Unintended consequences and ripple effects"
         },
         "scenarios": {
           "type": "object",
           "properties": {
-            "base_case": { "type": "string" },
-            "tail_risk": { "type": "string" },
-            "watch_next": { "type": "string" }
+            "base_case": {
+              "type": "string"
+            },
+            "tail_risk": {
+              "type": "string"
+            },
+            "watch_next": {
+              "type": "string"
+            }
           },
           "additionalProperties": true,
           "description": "Layer 4: Sovereign forward-looking scenarios"
@@ -558,11 +578,20 @@
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["title", "url"],
+            "required": [
+              "title",
+              "url"
+            ],
             "properties": {
-              "title": { "type": "string" },
-              "url": { "type": "string" },
-              "source": { "type": "string" }
+              "title": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              }
             }
           }
         },
@@ -801,6 +830,9 @@
         },
         "change_note": {
           "type": "string"
+        },
+        "review_due": {
+          "type": "boolean"
         }
       }
     },
@@ -999,6 +1031,10 @@
             "null"
           ],
           "maxLength": 160
+        },
+        "attempted_at": {
+          "type": "string",
+          "format": "date-time"
         }
       },
       "additionalProperties": false
@@ -1284,6 +1320,10 @@
             "type": "integer",
             "minimum": 0,
             "maximum": 8
+          },
+          "transmission_mechanism": {
+            "type": "string",
+            "minLength": 20
           }
         },
         "additionalProperties": false
@@ -1777,6 +1817,15 @@
           }
         },
         "additionalProperties": true
+      }
+    },
+    "availability_policy": {
+      "const": "partial-v1"
+    },
+    "availability_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
       }
     }
   },

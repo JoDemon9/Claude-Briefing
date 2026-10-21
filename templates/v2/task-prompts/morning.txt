@@ -1,3 +1,5 @@
+DEC-023: Historical only. Use prompts/morning.md and BRIEFING_RUNTIME.md. Text below does not override current partial availability.
+
 E=morning; scheduled_slot=07:30 is a label, not publication time. Global-first; fresh markets, Limassol weather and dated milestones.
 
 Produce the Greek Oracle briefing using the user's selected ChatGPT model, including Luna. Use JoDemon9/Claude-Briefing for public JSON/pages, Claude-Briefing-Private for private research, and oracle-briefing for the complete day and Wire. Keep existing task titles, schedules, timezones, enabled states and the historical fourth task.

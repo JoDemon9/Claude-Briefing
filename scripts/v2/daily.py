@@ -257,6 +257,7 @@ def render(b, model, bundles):
         ref = next((x for x in model['editions'] if x['type'] == slot), None)
         html += '<a href="../' + ref['url'] + '" title="Συμμετέχουσα δημοσιευμένη έκδοση">' + b.icon({'morning':'sun','midday':'clock','evening':'moon'}[slot]) + b.TYPES[slot] + '</a>' if ref else '<span>' + b.TYPES[slot] + ' · Μη διαθέσιμη</span>'
     html += '</nav>'
+    html += b.edition_scan(latest)
     if model['missing_slots']:
         html += '<p class="revision-note">Μερική ημέρα: περιλαμβάνονται μόνο οι διαθέσιμες δημοσιευμένες εκδόσεις.</p>'
     overview=model.get('overview') or load_editorial().overview(model['stories'],bundles)
@@ -291,6 +292,8 @@ def render(b, model, bundles):
         stories = [story for story in model['stories'] if story['section'] == section and story != lead]
         if stories:
             html += '<section class="section" id="' + section + '"><div class="sectionhead"><h2>' + b.emblem(section) + label + '.</h2><span>' + str(len(stories)) + ' ιστορίες</span></div><div class="g3">' + ''.join(card(story) for story in stories) + '</div></section>'
+        elif latest.get('availability_policy') == 'partial-v1':
+            html += '<section class="section" id="'+section+'"><div class="sectionhead"><h2>'+b.emblem(section)+label+'.</h2></div><p class="empty-state">Δεν υπάρχουν πρόσθετες επαληθευμένες ιστορίες σε αυτή την ενότητα.</p></section>'
     html += changes_html
     sports_module = b.load_module('sports')
     anchors = {}
@@ -300,7 +303,7 @@ def render(b, model, bundles):
             continue
         _, article = selected(story)
         interest = sports_module.interest(article)
-        if interest in b.TEAMS:
+        if interest in b.TEAMS and latest['date'] < '2026-10-21':
             anchors.setdefault(interest, []).append((story['story_id'], digest(story['story_id'])[:12]))
         else:
             sport_stories.append(story)
@@ -308,7 +311,8 @@ def render(b, model, bundles):
     if sport_stories:
         # Latest participating reporting first; preserve older independent readers.
         sport_stories.sort(key=lambda story: (-SLOTS.index(lookup[story['selected']['edition_id']][0]['type']), story['priority'], story['story_id']))
-        html += '<section class="section sports-other" id="other-sports"><div class="sectionhead"><h2>Από τον υπόλοιπο αθλητισμό.</h2></div><div class="g3">' + ''.join(card(story) for story in sport_stories[:2]) + '</div>'
+        title = 'Κύρια αθλητικά θέματα και ανάλυση.' if latest['date'] >= '2026-10-21' else 'Από τον υπόλοιπο αθλητισμό.'
+        html += '<section class="section sports-other" id="other-sports"><div class="sectionhead"><h2>' + title + '</h2></div><div class="g3">' + ''.join(card(story) for story in sport_stories[:2]) + '</div>'
         if len(sport_stories) > 2:
             html += '<details class="sports-archive"><summary>Περισσότερες αθλητικές ιστορίες της ημέρας</summary><div class="g3">' + ''.join(card(story) for story in sport_stories[2:]) + '</div></details>'
         html += '</section>'
