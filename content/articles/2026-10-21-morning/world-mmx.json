@@ -1,0 +1,70 @@
+{
+  "id": "world-mmx",
+  "story_id": "japan-mmx-launch-october-20-2026",
+  "story_identity": "japan-mmx-launch-october-20-2026",
+  "edition_id": "2026-10-21-morning",
+  "headline": "MMX: επιτυχής εκτόξευση της ιαπωνικής αποστολής προς τον Φόβο",
+  "category": "Διεθνή",
+  "summary": "Η JAXA εκτόξευσε επιτυχώς το MMX με πύραυλο H3 από την Τανεγκασίμα στις 20/10, στις 04:41:03 ώρα Ιαπωνίας. Η αποστολή κατευθύνεται προς το σύστημα του Άρη, με στόχο να παρατηρήσει τους δορυφόρους Φόβο και Δείμο και να επιστρέψει δείγματα του Φόβου στη Γη το 2031. Η επιβεβαίωση εκτόξευσης δεν σημαίνει ακόμη επιτυχή άφιξη, δειγματοληψία ή επιστροφή· αυτά είναι μεταγενέστερα ορόσημα.",
+  "published_at": "2026-10-21T07:41:46+03:00",
+  "updated_at": "2026-10-21T07:41:46+03:00",
+  "sources": [
+    {
+      "publisher": "JAXA",
+      "url": "https://www.jaxa.jp/press/2026/10/20261020-1_j.html",
+      "published_at": "2026-10-20",
+      "retrieved_at": "2026-10-21T04:38:00Z",
+      "reporting_group": "JAXA",
+      "kind": "primary",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/mission/mmx/",
+      "published_at": null,
+      "retrieved_at": "2026-10-21T04:38:00Z",
+      "reporting_group": "NASA",
+      "kind": "primary",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [],
+  "image": {
+    "url": "assets/editorial/2026-10-21-morning/world-mmx.webp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Phobos_colour_2008.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Phobos_colour_2008.jpg",
+    "attribution": "NASA / JPL-Caltech / University of Arizona",
+    "license": "Public domain · NASA",
+    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA",
+    "retrieved_at": "2026-10-20T04:43:57.300Z",
+    "caption": "Ο Φόβος από το Mars Reconnaissance Orbiter, 23/03/2008. Πραγματική φωτογραφία με συνδυασμό χρωματικών καναλιών· όχι λήψη του MMX ή εικόνα της εκτόξευσης. Σμίκρυνση και WebP.",
+    "alt": "Ο Φόβος από το Mars Reconnaissance Orbiter, 23/03/2008. Πραγματική φωτογραφία με συνδυασμό χρωματικών καναλιών· όχι λήψη του MMX ή εικόνα της εκτόξευσης. Σμίκρυνση και WebP.",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-21-morning/world-mmx.webp",
+      "sha256": "b19ce36967732e9ad3cabcc3737b6ec4fe49b936a8316fce8e96789b63afde1a",
+      "reviewed_at": "2026-10-21T07:41:46+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-21-morning/world-mmx.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 60,
+    "events": [
+      {
+        "id": "2026-10-21-morning-world-mmx-editorial-review",
+        "kind": "substantive_update",
+        "at": "2026-10-21T07:41:46+03:00",
+        "summary": "Συντακτικός έλεγχος της πρωινής έκδοσης με τις αναφερόμενες πηγές και τους αρχικούς χρόνους τους.",
+        "source_urls": [
+          "https://www.jaxa.jp/press/2026/10/20261020-1_j.html",
+          "https://science.nasa.gov/mission/mmx/"
+        ]
+      }
+    ]
+  }
+}
