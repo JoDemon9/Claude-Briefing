@@ -22,8 +22,8 @@ def _sync(public_root, portal_root):
     day_path=public_root/'docs/data/day-latest.json'
     is_day=day_path.is_file()
     if is_day:
-        descriptor=json.loads(day_path.read_text())
-        day=json.loads((public_root/'docs/data/days'/f'{descriptor["day_id"]}.json').read_text())
+        descriptor=json.loads(day_path.read_text(encoding='utf-8'))
+        day=json.loads((public_root/'docs/data/days'/f'{descriptor["day_id"]}.json').read_text(encoding='utf-8'))
         if day['date']!=max(r['date'] for r in records) or day['date']!=descriptor['day_id']:
             raise ValueError('Daily snapshot must match the latest published date')
     snapshot,assets=latest.portal_snapshot(public_root,descriptor,'today.html' if is_day else 'latest.html')
