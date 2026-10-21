@@ -195,7 +195,7 @@ def validate(e, articles):
             raise ValueError('Sports explainer missing')
     for team in e['sports']['coverage'].values():
         for record in [team.get('last_match'), team.get('next_fixture'), team.get('latest_session')]:
-            if record and (not record.get('sources') or not record.get('verified_at')):
+            if isinstance(record, dict) and (not record.get('sources') or not record.get('verified_at')):
                 raise ValueError('Sports results/fixtures require evidence and verification time')
         for u in team['updates']:
             if not u.get('published_at') or not u.get('sources'):

@@ -1,23 +1,30 @@
 # Oracle Sovereign Briefing: Runtime & Production Architecture (v3.0 Sovereign)
 
-Canonical reference for all agent workflows (ChatGPT, Luna, Antigravity). Follow the 4-step streamlined protocol. Internal LLM generation containers produce clean, validated JSON content; deterministic compilation, WebP image processing, Playwright tests, and GitHub Pages sync are handled autonomously by GitHub Actions CI upon Git push.
+Canonical reference for all agent workflows (ChatGPT, Luna, Antigravity). Follow the single-payload protocol. Internal LLM generation containers produce a single clean, validated JSON payload (`/tmp/payload.json`); deterministic compilation, WebP image processing, multi-file decomposition, Playwright tests, and GitHub Pages sync are handled autonomously by `scripts/v2/compose.py` and GitHub Actions CI upon Git push.
 
 ---
 
-## 1. PREPARE (30 Seconds)
-1. Determine the target slot and local date (`Europe/Athens` / `Asia/Nicosia` timezone):
-   - **Morning**: `YYYY-MM-DD-morning` (07:30 EEST)
-   - **Midday**: `YYYY-MM-DD-midday` (13:30 EEST)
-   - **Evening**: `YYYY-MM-DD-evening` (19:30 / 20:30 EEST)
-2. Run planning helper:
+## 1. SINGLE-PAYLOAD COMPOSITION WORKFLOW
+Rather than orchestrating 12 separate JSON files, manual SHA-256 calculation, and image manipulation, agent workflows execute a streamlined 2-step process:
+
+1. **Write Lean Payload**: The LLM outputs a single high-signal file to `/tmp/payload.json` containing:
+   - `edition_id`: Target slot (e.g. `YYYY-MM-DD-morning`, `YYYY-MM-DD-midday`, or `YYYY-MM-DD-evening`).
+   - `edition_mode`: `morning_scan`, `midday_delta`, or `evening_synthesis`.
+   - `executive_scan`: 3-Pillar scan (`geopolitics_macro`, `cyprus_institutions`, `markets_tech`) + `day_catalysts`.
+   - `delta_log`: Delta shift log for midday editions.
+   - `articles`: Array of structured analytical articles (1 lead, Cyprus, World, Sports) with 4-layer analytical depth.
+   - `fast_wire`: Rapid single-line ticker developments.
+   - `sports_highlights`: Real-time match data and analysis for `omonoia`, `manutd`, `realmadrid`, and `formula1`.
+
+2. **Execute Smart Compiler**:
    ```bash
-   python scripts/v2/prepare_run.py
+   python scripts/v2/compose.py --input /tmp/payload.json --publish
    ```
-   Inspect current capabilities, sports headlines, and existing coverage to avoid duplicate stories.
+   The compiler dynamically computes SHA-256 hashes, copies WebP assets, clones 38 market instruments, decomposes articles into `content/articles/<edition_id>/*.json`, compiles static HTML, and pushes to Git.
 
 ---
 
-## 2. RESEARCH & ASYMMETRIC WRITING
+## 2. RESEARCH & ASYMMETRIC WRITING MODES
 
 ### 2.1. Asymmetric Slot Modes
 - **Morning Scan (`edition_mode: "morning_scan"`)**:
@@ -26,7 +33,7 @@ Canonical reference for all agent workflows (ChatGPT, Luna, Antigravity). Follow
     - `cyprus_institutions`: National regulatory, political, and institutional agenda.
     - `markets_tech`: Market sentiment and key technology/AI developments.
     - `day_catalysts`: 3–5 bullet points of scheduled events, speeches, earnings, or data releases to watch today.
-  - Comprehensive analytical reporting across Cyprus and World.
+  - Comprehensive analytical reporting across Cyprus, World, and morning sports.
 - **Midday Delta Mode (`edition_mode: "midday_delta"`)**:
   - `delta_log`: 3–6 concise bullet points explaining strictly **«Τι Άλλαξε από τις 07:30»** (breaking shifts, official announcements, mid-session market reactions).
   - Articles updating earlier morning stories include `delta_update` callouts at the top.
@@ -35,7 +42,7 @@ Canonical reference for all agent workflows (ChatGPT, Luna, Antigravity). Follow
 - **Evening Synthesis (`edition_mode: "evening_synthesis"`)**:
   - Full daily synthesis, final closing market analysis with economic transmission mechanisms (`transmission_mechanism`), final match and score analysis, and tomorrow's watchpoints.
 
-### 2.2. 4-Layer Analytical Realism on Articles (`content/articles/<edition-id>/*.json`)
+### 2.2. 4-Layer Analytical Realism on Articles
 For high-impact stories, write structured articles with 4-layer analytical depth:
 - **Layer 1: Delta & Core Facts**: Clear headline, verified sources, and `summary` (with optional `delta_update` for developing stories).
 - **Layer 2: Mechanics & Incentives (`mechanics_and_incentives`)**: The economic forces, institutional incentives, and underlying motives driving actors.
@@ -53,7 +60,7 @@ For high-impact stories, write structured articles with 4-layer analytical depth
   - `next_fixture`: Next match date, kickoff time, opponent, and venue.
   - `analysis`: 2–3 sentences of tactical breakdown, injuries, or strategic stakes.
   - `verified_links`: 1–2 official headline links.
-- **Full Sports Articles**: Write 1–2 dedicated sports articles (`sport-*.json`) in `content/articles/<edition-id>/` whenever there are match reviews, previews, or major sports news, and link them in `sports.major_stories`. Articles for Omonoia, Man Utd, Real Madrid, F1, and other sports are fully supported and rendered on both the edition and homepage.
+- **Full Sports Articles**: Dedicated sports articles (`sport-*.json`) in `content/articles/<edition-id>/` linked in `sports.major_stories`. Articles for Omonoia, Man Utd, Real Madrid, F1, and other sports are fully supported and rendered on both the edition and homepage.
 
 ### 2.4. Causal Markets & Cyprus Real Economy Radar
 - **Markets**: Track S&P 500, Nasdaq, STOXX Europe 600, CSE (ΧΑΚ), EUR/USD, Brent, ECB Deposit Rate, and Euribor.
@@ -62,36 +69,8 @@ For high-impact stories, write structured articles with 4-layer analytical depth
 
 ---
 
-## 3. QUICK VALIDATE (0.5s)
-Before pushing, run the lightweight offline validator:
-```bash
-python scripts/v2/quick_validate.py <edition-id>
-```
-Confirms JSON syntax, required keys, and article path references.
-
----
-
-## 4. COMMIT & PUSH
-Push directly to the `main` branch:
-```bash
-git add content/editions/<edition-id>.json content/articles/<edition-id>/
-git commit -m "feat(edition): publish <edition-id>"
-git pull --rebase origin main
-git push origin main
-```
-**Publication Complete!**
-GitHub Actions CI autonomously:
-1. Prepares and optimizes images with soft-fail fallback placeholders.
-2. Compiles static HTML for the edition, articles, Daily Hub, and archive (`build.py`).
-3. Runs deterministic integrity gates (`checks.py`).
-4. Commits and deploys built assets to GitHub Pages.
-5. Synchronizes the portal release to `JoDemon9/oracle-briefing`.
-
----
-
-## 5. POLICY & BOUNDARIES
+## 3. POLICY & BOUNDARIES
 - **private Pages**: private Pages stays disabled; original source/quote times are preserved verbatim from original publishers without artificial shifts.
 - **morning, midday, evening**: Every morning, midday, and evening edition preserves image_review.version=2 and reading_review.
 - **Integrity**: No fuzzy automatic matching of headlines; keep unchanged historical editions, schemas, and contracts intact.
 - **Constraints**: No arbitrary quota/time limit inside generation; No PR merge operations in automated tasks.
-

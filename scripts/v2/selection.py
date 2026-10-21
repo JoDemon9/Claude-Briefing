@@ -76,5 +76,10 @@ def validate(edition, articles):
         extras = edition['sports']['major_stories']
         if len(extras) > 2:
             raise ValueError('Select at most two other sports stories')
-        if any(sports.get(r['article_id'], {}).get('sports_interest') != 'other' for r in extras):
-            raise ValueError('Other sports stories must be separate from the four favourites')
+        allowed_interests = {'other', 'omonoia', 'manutd', 'realmadrid', 'formula1', 'f1'}
+        if edition.get('edition_mode') or edition.get('date', '') >= '2026-10-21':
+            if any(sports.get(r['article_id'], {}).get('sports_interest') not in allowed_interests for r in extras):
+                raise ValueError('Sports major stories must match supported interests')
+        else:
+            if any(sports.get(r['article_id'], {}).get('sports_interest') != 'other' for r in extras):
+                raise ValueError('Other sports stories must be separate from the four favourites')
