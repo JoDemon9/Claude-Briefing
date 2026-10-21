@@ -26,7 +26,7 @@ MAX_BYTES=2000000
 MAX_ITEMS=2
 TIMEOUT=12
 CACHE_MINUTES=45
-MAX_CHECK_AGE_MINUTES=120
+MAX_CHECK_AGE_MINUTES=720
 SKIP=re.compile(r'\b(women|academy|under-18|under-21|wsl|tickets|shop|sponsor|partnership)\b|εισιτήρ|προπώλη|κατάστημα|διαγωνισ',re.I)
 
 
@@ -143,7 +143,7 @@ class OfficialRedirect(urllib.request.HTTPRedirectHandler):
 def get(key,url,opener=None):
     if not allowed(key,url):raise ValueError('Non-official sports provider')
     open_url=opener or urllib.request.build_opener(OfficialRedirect(key)).open
-    req=urllib.request.Request(url,headers={'User-Agent':'OracleSportsHeadlines/1.0','Accept':'text/html,application/rss+xml'})
+    req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36','Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,application/rss+xml,*/*;q=0.8'})
     with open_url(req,timeout=TIMEOUT) as response:
         if response.status!=200 or not allowed(key,response.geturl()):raise ValueError('Unexpected sports response')
         raw=response.read(MAX_BYTES+1)

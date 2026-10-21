@@ -1,6 +1,13 @@
 """Small durable JSON writes and process-scoped local locks."""
 from contextlib import contextmanager
-import fcntl
+try:
+    import fcntl
+except ImportError:
+    fcntl = None
+try:
+    import msvcrt
+except ImportError:
+    msvcrt = None
 import json
 import os
 from pathlib import Path
@@ -27,12 +34,26 @@ def write_json(path, value):
 @contextmanager
 def lock(path):
     path = Path(path); path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open('a') as stream:
-        try:
-            fcntl.flock(stream, fcntl.LOCK_EX | fcntl.LOCK_NB)
-        except BlockingIOError:
-            raise ValueError('Another publication is running for this checkout') from None
+    with path.open('a+') as stream:
+        if fcntl:
+            try:
+                fcntl.flock(stream, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            except BlockingIOError:
+                raise ValueError('Another publication is running for this checkout') from None
+        elif msvcrt:
+            try:
+                stream.seek(0)
+                msvcrt.locking(stream.fileno(), msvcrt.LK_NBLCK, 1)
+            except (BlockingIOError, OSError):
+                raise ValueError('Another publication is running for this checkout') from None
         try:
             yield
         finally:
-            fcntl.flock(stream, fcntl.LOCK_UN)
+            if fcntl:
+                fcntl.flock(stream, fcntl.LOCK_UN)
+            elif msvcrt:
+                try:
+                    stream.seek(0)
+                    msvcrt.locking(stream.fileno(), msvcrt.LK_UNLCK, 1)
+                except OSError:
+                    pass

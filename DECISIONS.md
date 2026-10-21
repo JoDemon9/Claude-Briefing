@@ -6,6 +6,7 @@ This is the canonical record of user needs that future changes must respect. Rea
 
 | ID | User need | Current status | Record |
 | --- | --- | --- | --- |
+| DEC-022 | Sports section renaissance (rich team cards, restore favorite major stories), and autonomous CI publishing with zero-friction LLM push. | Implemented: sports_news, sports renderer, relaxed schema, quick_validate, and GitHub Actions autonomous pipeline. | [Sports renaissance & autonomous CI](decisions/DEC-022-sports-renaissance-and-autonomous-ci.md) |
 | DEC-021 | Reduce daily checks to the minimum and make instructions clear for lower models, preserving good quality. | Three-gate implementation and six-step prompts under review; code/main/Pages/tasks tracked separately. | [Minimum daily checks](decisions/DEC-021-minimum-daily-checks.md) |
 | DEC-020 | Restore sports output, support user-selected Luna with intact quality, and make findings collapsible. | Review branch prepared; checks, prompts, model selection and publication tracked separately. | [Luna, sports and findings](decisions/DEC-020-luna-sports-and-collapsible-findings.md) |
 | DEC-019 | Further restrict mechanical quota use and restore visible news for the four favourite sports interests. | Three live prompts updated/read-back verified; bounded helpers and visible headline layout under review. Full CI pending. | [Visible favourite news and bounded work](decisions/DEC-019-favourite-news-and-bounded-work.md) |

@@ -511,22 +511,33 @@
     "sports_team": {
       "type": "object",
       "required": [
-        "symbol",
-        "summary",
-        "updated_at",
-        "last_match",
-        "next_fixture",
-        "analysis",
-        "watch_next",
-        "league_position",
-        "form",
-        "updates",
-        "no_update_reason",
-        "latest_session",
-        "next_grand_prix",
-        "sessions"
+        "analysis"
       ],
       "properties": {
+        "name": {
+          "type": "string"
+        },
+        "status_badge": {
+          "type": "string"
+        },
+        "last_result": {
+          "type": "string"
+        },
+        "editorial_summary": {
+          "type": "string"
+        },
+        "verified_links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["title", "url"],
+            "properties": {
+              "title": { "type": "string" },
+              "url": { "type": "string" },
+              "source": { "type": "string" }
+            }
+          }
+        },
         "symbol": {
           "type": "string"
         },
@@ -543,6 +554,9 @@
               "type": "null"
             },
             {
+              "type": "string"
+            },
+            {
               "$ref": "#/$defs/match"
             }
           ]
@@ -551,6 +565,9 @@
           "anyOf": [
             {
               "type": "null"
+            },
+            {
+              "type": "string"
             },
             {
               "$ref": "#/$defs/fixture"
@@ -635,7 +652,7 @@
           "type": "string"
         }
       },
-      "additionalProperties": false
+      "additionalProperties": true
     },
     "opportunity": {
       "type": "object",

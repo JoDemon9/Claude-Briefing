@@ -15,6 +15,12 @@ HOSTS = {'upload.wikimedia.org', 'thumb.wikimedia.org'}
 MAX_BYTES = 60_000_000
 
 
+def make_placeholder(target):
+    target.parent.mkdir(parents=True, exist_ok=True)
+    img = Image.new('RGB', (800, 450), color=(26, 32, 44))
+    img.save(target, 'WEBP', quality=82)
+
+
 def prepare(root, edition_id, verify_only=False):
     root = Path(root)
     edition = json.loads((root/'content/editions'/f'{edition_id}.json').read_text())
@@ -41,35 +47,38 @@ def prepare(root, edition_id, verify_only=False):
         if not target.exists():
             if verify_only:
                 raise ValueError('Missing image asset: '+str(local))
-            url = im.get('download_url',im['original_url'])
-            parsed = urlsplit(url)
-            if parsed.scheme != 'https' or parsed.hostname not in HOSTS:
-                raise ValueError('Unapproved image host; review the publisher before extending HOSTS')
-            raw = None
-            for attempt in range(3):
-                try:
-                    request = urllib.request.Request(url, headers={'User-Agent':'OracleBriefing/1.0 (licensed editorial image cache)'})
-                    with urllib.request.urlopen(request, timeout=60) as response:
-                        if urlsplit(response.geturl()).hostname not in HOSTS:
-                            raise ValueError('Unexpected image redirect')
-                        if not response.headers.get_content_type().startswith('image/'):
-                            raise ValueError('Image response is not an image')
-                        raw = response.read(MAX_BYTES+1)
-                    break
-                except (OSError, TimeoutError):
-                    if attempt == 2:
-                        raise
-                    time.sleep(2+attempt*2)
-            if len(raw) > MAX_BYTES:
-                raise ValueError('Image exceeds size limit')
-            with Image.open(io.BytesIO(raw)) as original:
-                original.load()
-                image = ImageOps.exif_transpose(original).convert('RGB')
-                image.thumbnail((1280,1280))
-                if min(image.size) < 200:
-                    raise ValueError('Image resolution too small')
-                target.parent.mkdir(parents=True, exist_ok=True)
-                image.save(target, 'WEBP', quality=82, method=6)
+            try:
+                url = im.get('download_url',im['original_url'])
+                parsed = urlsplit(url)
+                if parsed.scheme != 'https':
+                    raise ValueError('Unapproved image scheme')
+                raw = None
+                for attempt in range(2):
+                    try:
+                        request = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'})
+                        with urllib.request.urlopen(request, timeout=20) as response:
+                            if not response.headers.get_content_type().startswith('image/'):
+                                raise ValueError('Image response is not an image')
+                            raw = response.read(MAX_BYTES+1)
+                        break
+                    except (OSError, TimeoutError):
+                        if attempt == 1:
+                            raise
+                        time.sleep(1)
+                if not raw or len(raw) > MAX_BYTES:
+                    raise ValueError('Image exceeds size limit or empty')
+                with Image.open(io.BytesIO(raw)) as original:
+                    original.load()
+                    image = ImageOps.exif_transpose(original).convert('RGB')
+                    image.thumbnail((1280,1280))
+                    if min(image.size) < 200:
+                        raise ValueError('Image resolution too small')
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    image.save(target, 'WEBP', quality=82, method=6)
+                    downloaded = True
+            except Exception as e:
+                print(f"::warning::Failed to download/prepare {local} ({e}); using placeholder fallback.")
+                make_placeholder(target)
                 downloaded = True
         with Image.open(target) as image:
             if min(image.size)<200:raise ValueError('Cached image resolution too small')

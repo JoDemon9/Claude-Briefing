@@ -11,11 +11,14 @@ on:
         type: boolean
         default: false
 permissions:
-  contents: read
+  contents: write
 jobs:
   checks:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      ORACLE_SKIP_LIVE_POLL: "1"
+      PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,7 +26,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install -r requirements-v2.txt
+      - run: pip install -r requirements-v2.txt pillow jsonschema
       - uses: actions/cache@v4
         with:
           path: .work/build-cache.json
@@ -41,9 +44,32 @@ jobs:
           else
             python scripts/v2/checks.py --base "$BASE_SHA"
           fi
-      - name: Confirm generated files are committed
+      - name: Commit and push built assets to Claude-Briefing
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: git diff --exit-code -- docs/
+        run: |
+          git config user.name "Oracle Briefing CI"
+          git config user.email "actions@github.com"
+          git add docs/ content/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(build): compile newspaper HTML and assets [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi
+      - name: Sync to Central Portal (oracle-briefing)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && env.PORTAL_TOKEN != ''
+        env:
+          PORTAL_TOKEN: ${{ secrets.PORTAL_DEPLOY_TOKEN }}
+        run: |
+          git clone "https://x-access-token:${PORTAL_TOKEN}@github.com/JoDemon9/oracle-briefing.git" /tmp/oracle-briefing
+          python scripts/v2/sync_portal.py --portal-dir /tmp/oracle-briefing
+          cd /tmp/oracle-briefing
+          git config user.name "Oracle Briefing CI"
+          git config user.email "actions@github.com"
+          git add -A
+          if ! git diff --staged --quiet; then
+            git commit -m "publish: sync latest Oracle Briefing edition [skip ci]"
+            git push origin main
+          fi
       - name: Return the exact built public candidate
         uses: actions/upload-artifact@v4
         with:

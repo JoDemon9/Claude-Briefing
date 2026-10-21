@@ -1,27 +1,40 @@
-# Daily briefing: six steps and three automated gates (DEC-021)
+# Daily briefing: Four steps and autonomous CI publishing (DEC-022)
 
-Use the existing morning/midday/evening tasks and their unchanged schedules.
+Use the existing morning/midday/evening tasks and their unchanged schedules (07:30, 13:30, 19:30 Europe/Athens).
 
-Produce the Greek Oracle briefing using the user's selected ChatGPT model, including Luna. Use JoDemon9/Claude-Briefing for public JSON/pages, Claude-Briefing-Private for private research, and oracle-briefing for the complete day and Wire. Keep existing task titles, schedules, timezones, enabled states and the historical fourth task.
+Produce the Greek Oracle briefing using the user's selected model (ChatGPT / Luna). JoDemon9/Claude-Briefing is the public content and build engine; oracle-briefing is the central public portal and Wire.
 
-1. PREPARE
-Use fresh main, the actual local date/time in Europe/Athens and this task's slot. The scheduled time is only a label. Read applicable AGENTS and current capabilities once; never emit unsupported fields. Consult BRIEFING_RUNTIME.md or a schema only for the field you need. If main supports producer_handoff, run scripts/v2/prepare_run.py with --date, --slot, --at, --private-root and --wire-root. Otherwise use supported research.py/collect.py helpers. Read all returned planning pages and relevant original evidence. Keep full reports private. Resume existing work instead of starting again.
+## 1. PREPARE
+Use fresh main, the actual local date/time in Europe/Athens and this task's slot. Read current capabilities once. Run `python scripts/v2/prepare_run.py` to get current planning context, sports headlines, and already published coverage for today to avoid duplicate stories.
 
-2. RESEARCH
-Aim for five International and five Cyprus stories in every slot; count the lead in its real section. Scan independent broad desks, rank impact/urgency and check important omissions. Maximum five Cyprus/seven International; explain six/seven International. A genuine shortage needs the supported selection_review reason and two independent checked_sources after broader research. Do not pad or relabel. Keep useful earlier coverage with original dates; investigate new, changed, disputed and due facts. Read supporting passages for material claims. Use primary evidence and independent corroboration where consequential or disputed. Syndication is one chain; snippets, paywalls and cached metadata do not prove reading. Preserve attribution and uncertainty; never invent facts, causes or outcomes.
+## 2. RESEARCH & WRITE
+- **Cyprus (4–6 stories)**: Major national, political, economic, legal, infrastructure, and community news.
+- **World & Greece (4–5 stories)**: Consequential international developments, European policy, geopolitics, markets/tech.
+- **Sports (High Value)**:
+  - Permanent coverage for **Omonoia**, **Manchester United**, **Real Madrid**, and **Formula 1**.
+  - In `sports.coverage`: provide `status_badge` (league position/points), `last_match` (score & scorers), `next_fixture` (time & opponent), and `analysis` (tactics, key developments, stakes).
+  - Write 1 to 2 full sports articles (`sport-*.json`) in `content/articles/<edition-id>/` whenever there are match reviews, previews, or major sports news. Include them in `sports.major_stories` (full articles for Omonoia, Man Utd, Real Madrid, F1, and other sports are fully supported and encouraged).
+- **Markets & Desks**: Keep ECB/Euribor, Brent, Gold, S&P, Nasdaq, CSE with accurate quote timestamps. Check Limassol weather.
+- **Writing**: Clear, informative Greek. 60–90 word findings; optional evidence-backed analysis up to 180 words. Include real, relevant licensed image attribution.
 
-3. WRITE
-Write each story once in clear Greek. Give the factual finding, useful supported context and the next relevant development. Findings normally 60–90 words, maximum 110. Optional analysis is maximum 180 words and must add evidence-backed knowledge, with read analysis_sources. A separate full reader needs reader_value; otherwise link the original source. No filler, compulsory counterargument or duplicate essay.
-Use scaffold/file tools to copy complete stable data. Keep all markets, seven technology names, ECB/Euribor with true quote dates, units and session labels; never infer a close or catalyst. Check Limassol weather/warnings every slot, including validity/expiry. Carry complete opportunities; recheck due/changed/uncertain terms, eligibility, forms, deadlines and budget-sensitive calls. Closed/proposed/unknown is not open; hashes never renew verified_at.
-For Omonoia, Manchester United, Real Madrid football and F1 show up to two useful dated headline links each, small authentic logos and source status. Apply the prepared sports report once if supported; preserve unknown dates/retained items and refresh checks due at publication. Up to two other-sports stories exclude these four. Every article needs a relevant real licensed local photo with reviewed rights and original date; reuse approved photos honestly. Preserve IDs, URLs, full findings, cumulative-day overview and independent dated readers. Never handwrite HTML.
+## 3. QUICK VALIDATE (0.5s)
+Run:
+```bash
+python scripts/v2/quick_validate.py <edition-id>
+```
+Confirms that the edition JSON and all referenced article JSON files exist and have valid structure. No heavy image processing, Playwright browser suites, or live polling required inside the generation container.
 
-4. REVIEW ONCE
-Before submitting, ask: Are the material claims supported by sources actually read? Are numbers, dates, uncertainty and photo rights accurate? Does the selection cover important International/Cyprus developments and required desks? Does any analysis add useful knowledge rather than repeat the finding? Fix the affected text. Set reading_review.version=2 and image_review.version=2 only after this real review. Do not create a second review essay or verification checklist per article.
-
-5. RUN ONE CHECK
-Submit the reviewed source JSON/assets to the existing GitHub workflow. When main supports minimum_daily_checks, ordinary content needs only three automated gates: content (validate/build once), preview (current edition/day on mobile and desktop), integrity (unchanged exact release). Do not run unit suites, archive sweeps or extra browser matrices for daily content. Code changes add maintenance unit checks; full archive tests are an explicit maintenance audit. Before that feature reaches main, run the existing check command once; do not modify or bypass it during a briefing. Read the compact check report. If an input fails, fix only the named issue and resubmit; keep the other research. An infrastructure or repeated failure keeps the candidate/last good release for maintenance. Never self-pause a task or claim a failed check passed.
-
-6. PUBLISH AND FINISH
-Use the exact passing artifact and publish.py --checks-receipt; do not rebuild or repeat passed tests. Publication uses actual finalisation time. Verify source Pages first, then sync/verify the complete day in Oracle, preserving concurrent Wire. A push or green CI alone is not live verification. Keep notes/cache/metrics/personal details private. No new scheduler, paid AI/API or messages to others. No PR merge is authorised merely by these instructions. Return verified Greek URLs or a short precise blocker. Keep quality through evidence and useful writing, not extra tests.
-
-The original source/quote times and unchanged historical readers remain. No fuzzy automatic story merging. No arbitrary quota/time limit permits invented evidence. Do not enable private Pages. The previous exact contract and prompts are archived under maintenance/history/2026-10-21-before-dec021; they are history, not a second startup checklist. See BACKEND_OPERATIONS.md for recovery and schema field references only when needed.
+## 4. COMMIT & PUSH
+Commit the content files directly:
+```bash
+git add content/editions/<edition-id>.json content/articles/<edition-id>/
+git commit -m "feat(edition): publish <edition-id>"
+git pull --rebase origin main
+git push origin main
+```
+**Done!** Once pushed to `main`, GitHub Actions CI autonomously:
+- Refreshes sports cache and validates assets.
+- Prepares and optimizes images with soft placeholder fallbacks.
+- Compiles the static HTML newspaper and Daily Hub (`build.py`).
+- Runs deterministic integrity checks (`checks.py`).
+- Commits and pushes compiled `docs/` and synchronizes to `oracle-briefing`.

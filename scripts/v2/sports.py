@@ -60,13 +60,44 @@ def render(b, edition, articles=(), anchors=None, include_major=True):
         # Keep existing day-summary anchors for favourite stories without repeating
         # their articles in the separate, general sports desk.
         refs = ''.join('<span class="sport-story-anchor" id="story-' + sid_hash + '" data-story-id="' + b.esc(sid) + '"></span>' for sid, sid_hash in (anchors or {}).get(key, []))
-        out.append('<article class="sport team-' + key + '">' + refs + '<span class="teamicon" aria-hidden="true"><img class="sport-logo" src="../' + logos[key]['asset'] + '" alt="" width="32" height="32" loading="lazy" decoding="async"></span><h3>' + b.TEAMS[key] + '</h3><a class="sport-news-link" href="' + url + '" rel="noopener noreferrer" aria-label="Όλα τα νέα · ' + b.TEAMS[key] + '">Όλα τα νέα ↗</a>'+headlines(b,edition,key)+'</article>')
+        
+        # Rich details if present in coverage
+        team_cov = edition.get('sports', {}).get('coverage', {}).get(key, {})
+        meta_html = []
+        badge = team_cov.get('status_badge') or team_cov.get('league_position') or team_cov.get('form')
+        if badge:
+            meta_html.append('<span class="sport-badge">' + b.esc(badge) + '</span>')
+        last = team_cov.get('last_result') or (team_cov.get('last_match') if isinstance(team_cov.get('last_match'), str) else None)
+        if not last and isinstance(team_cov.get('last_match'), dict):
+            lm = team_cov['last_match']
+            opp = lm.get('opponent', '')
+            res = lm.get('result', '')
+            last = f"{opp} ({res})" if opp or res else None
+        if last:
+            meta_html.append('<div class="sport-fixture"><strong>Τελευταίο:</strong> ' + b.esc(last) + '</div>')
+        nxt = team_cov.get('next_fixture') if isinstance(team_cov.get('next_fixture'), str) else None
+        if not nxt and isinstance(team_cov.get('next_fixture'), dict):
+            nf = team_cov['next_fixture']
+            nxt = f"{nf.get('opponent', '')} - {nf.get('date', '')}"
+        if not nxt and team_cov.get('next_grand_prix'):
+            nxt = team_cov['next_grand_prix']
+        if nxt:
+            meta_html.append('<div class="sport-fixture"><strong>Επόμενο:</strong> ' + b.esc(nxt) + '</div>')
+        analysis = team_cov.get('editorial_summary') or team_cov.get('analysis')
+        if analysis:
+            meta_html.append('<div class="sport-summary">' + b.esc(analysis) + '</div>')
+            
+        extra = ''.join(meta_html)
+        out.append('<article class="sport team-' + key + '">' + refs + '<span class="teamicon" aria-hidden="true"><img class="sport-logo" src="../' + logos[key]['asset'] + '" alt="" width="32" height="32" loading="lazy" decoding="async"></span><h3>' + b.TEAMS[key] + '</h3><a class="sport-news-link" href="' + url + '" rel="noopener noreferrer" aria-label="Όλα τα νέα · ' + b.TEAMS[key] + '">Όλα τα νέα ↗</a>' + extra + headlines(b,edition,key) + '</article>')
     out.append('</div>')
     if include_major:
         lookup = {a['id']: a for a in articles}
-        records = [r for r in edition['sports']['major_stories'] if r['article_id'] in lookup and interest(lookup[r['article_id']]) == 'other']
-        out.append('<div class="sports-other"><h3>Από τον υπόλοιπο αθλητισμό</h3><div class="g3">')
-        for record in records[:2]:
+        # DEC-022: New editions allow major stories for favorite teams; historical editions (<= 2026-10-20) filter interest == 'other'
+        allow_all = edition.get('date', '') >= '2026-10-21'
+        records = [r for r in edition['sports']['major_stories'] if r['article_id'] in lookup and (allow_all or interest(lookup[r['article_id']]) == 'other')]
+        title = "Κύρια αθλητικά θέματα & ανάλυση" if allow_all else "Από τον υπόλοιπο αθλητισμό"
+        out.append('<div class="sports-other"><h3>' + title + '</h3><div class="g3">')
+        for record in records[:3 if allow_all else 2]:
             full = lookup.get(record['article_id'])
             if full:
                 out.append(b.card(edition, full))
@@ -76,8 +107,8 @@ def render(b, edition, articles=(), anchors=None, include_major=True):
         if not records:
             reason = edition['sports']['major_stories_reason'] if not edition['sports']['major_stories'] else 'Δεν έχει επιλεγεί άλλη επαληθευμένη αθλητική είδηση σε αυτή την έκδοση.'
             out.append('<p class="muted">' + b.esc(reason) + '</p>')
-        if len(records) > 2:
-            out.append('<details class="sports-archive"><summary>Περισσότερες αθλητικές αναφορές</summary><ul>' + ''.join('<li><a href="../articles/' + edition['id'] + '/' + r['article_id'] + '.html">' + b.esc(r['headline']) + '</a></li>' for r in records[2:]) + '</ul></details>')
+        if len(records) > (3 if allow_all else 2):
+            out.append('<details class="sports-archive"><summary>Περισσότερες αθλητικές αναφορές</summary><ul>' + ''.join('<li><a href="../articles/' + edition['id'] + '/' + r['article_id'] + '.html">' + b.esc(r['headline']) + '</a></li>' for r in records[(3 if allow_all else 2):]) + '</ul></details>')
         out.append('</div>')
     out.append('</section>')
     return ''.join(out)
