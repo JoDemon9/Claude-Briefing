@@ -378,6 +378,45 @@ def _render(root=ROOT, affected=None):
         body += edition_desk(e,registry)+f'<div class="introbar"><b>{TYPES[e["type"]]} έκδοση{slot} · {e["date"]}</b><span>Δημοσίευση: {date}</span></div>'
         if e.get('analysis_revision_at'):
             body += '<p class="revision-note">'+icon('photo')+' Εμπλουτισμός εικόνων και ανάλυσης: '+stamp(e['analysis_revision_at'])+' · Οι αρχικοί χρόνοι ειδήσεων και τιμών διατηρούνται.</p>'
+        if e.get('executive_scan'):
+            scan = e['executive_scan']
+            catalysts = ''.join(f'<li>{esc(c)}</li>' for c in scan.get('day_catalysts', []))
+            catalysts_html = f'<div class="catalysts-box"><h4>⚡ Καταλύτες Ημέρας</h4><ul>{catalysts}</ul></div>' if catalysts else ''
+            body += f'''<section class="executive-scan">
+<div class="scan-grid">
+  <div class="scan-col">
+    <div class="scan-icon">🌍</div>
+    <h4>Γεωπολιτική &amp; Macro</h4>
+    <p>{esc(scan.get("geopolitics_macro", ""))}</p>
+  </div>
+  <div class="scan-col">
+    <div class="scan-icon">🏛️</div>
+    <h4>Κυπριακοί Θεσμοί &amp; Ρυθμίσεις</h4>
+    <p>{esc(scan.get("cyprus_institutions", ""))}</p>
+  </div>
+  <div class="scan-col">
+    <div class="scan-icon">📊</div>
+    <h4>Αγορές &amp; Τεχνολογία</h4>
+    <p>{esc(scan.get("markets_tech", ""))}</p>
+  </div>
+</div>
+{catalysts_html}
+</section>'''
+        if e.get('edition_mode') == 'midday_delta' or e.get('delta_log'):
+            delta_items = ''.join(f'<li>{esc(d)}</li>' for d in e.get('delta_log', []))
+            body += f'''<div class="midday-delta-callout">
+<h3>⚡ Μεσημεριανό Δέλτα: Τι Άλλαξε από τις 07:30</h3>
+<ul>{delta_items}</ul>
+</div>'''
+        if e.get('fast_wire'):
+            wire_items = []
+            for w in e['fast_wire']:
+                src = f' <a href="{esc(w["source_url"])}" target="_blank" rel="noopener noreferrer">[{esc(w.get("source_name", "Πηγή"))}]</a>' if w.get('source_url') else ''
+                wire_items.append(f'<div class="wire-item"><span class="wire-badge">{esc(w.get("category", "Εξέλιξη"))}</span> <span class="wire-summary">{esc(w.get("summary", ""))}</span>{src}</div>')
+            body += f'''<section class="fast-wire-ticker">
+<div class="ticker-header">⚡ Τηλεγραφικές Εξελίξεις (Fast Wire)</div>
+<div class="ticker-content">{"".join(wire_items)}</div>
+</section>'''
         requested_lead=e.get('daily',{}).get('lead_story_id')
         lead=next((a for a in aa if a['story_id']==requested_lead),None) if requested_lead else aa[0] if aa and aa[0]['category']=='Πρώτο θέμα' else None
         ordered=sorted(aa,key=lambda a:a.get('daily',{}).get('priority',1000+aa.index(a)))
@@ -407,6 +446,8 @@ def _render(root=ROOT, affected=None):
             related=''.join(f'<a href="{esc(b["id"])}.html">{esc(b["headline"])}</a>' for b in aa if b['id']!=a['id'] and (b['story_id'] in a.get('related_story_ids',[]) or b['category']==a['category']))
             p=head(a['headline'],url,'article','../../')
             p+=f'<header class="top"><div class="shell"><a class="logo" href="../../{e["url"]}">THE ORACLE SOVEREIGN.</a><nav class="navlinks"><a href="../../{e["url"]}">← Εφημερίδα</a><a href="../../search.html">{icon('search')} Αναζήτηση</a><button data-theme-toggle aria-label="Εναλλαγή θέματος">◐</button></nav></div></header><main class="shell" id="main" data-article-key="{e["id"]}/{a["id"]}"><div class="kicker">{esc(a["category"])} · {TYPES[e["type"]]} έκδοση</div><h1>{esc(a["headline"])}</h1><div class="eyebrow">Συνοπτική καταγραφή της έκδοσης</div><p class="lede">{esc(a["summary"])}</p><div class="meta"><span>Δημοσίευση: {stamp(a["published_at"])}</span><span>Ενημέρωση: {stamp(a["updated_at"])}</span><span>{words(a)} λέξεις</span><span>{sources_label(a["sources"])}</span></div>'+image(a,'../../')
+            if a.get('delta_update'):
+                p+=f'<div class="article-delta-callout"><strong>Εξέλιξη / Τι άλλαξε:</strong> {esc(a["delta_update"])}</div>'
             if e.get('reading_review',{}).get('version')==2 and a.get('reader_mode')=='source':
                 source=next(s for s in a['sources'] if s.get('access')=='read' and s.get('used_for_claims'))
                 p+='<p><a class="read-link original-report" href="'+esc(source['url'])+'" rel="noopener noreferrer">'+icon('book')+'Πλήρες δημοσίευμα · '+esc(source['publisher'])+' ↗</a></p>'
@@ -416,7 +457,26 @@ def _render(root=ROOT, affected=None):
             if a.get('revision_note'):
                 p+='<p class="revision-note">'+esc(a['revision_note'])+'</p>'
             toc='<div class="sidebox reader-toc"><h3>Σε αυτό το άρθρο</h3>'+''.join(f'<a href="#section-{i}">{esc(s["heading"])}</a>' for i,s in enumerate(a['sections'],1) if any(p.strip()!=a['summary'].strip() for p in s['paragraphs']))+'</div>'
-            p+='<div class="layout"><article class="prose">'+blocks(a)+'<section class="section"><h2>Πηγές και χρόνοι αναφοράς</h2>'+source_links(a['sources'])+f'<p>{esc(a.get("evidence_note",""))}</p>'+'<p class="warning">Οι αλυσίδες αναφοράς δείχνουν την προέλευση των πληροφοριών. Αναδημοσιεύσεις του ίδιου πρακτορείου δεν αποτελούν ανεξάρτητη διασταύρωση.</p></section>'+f'<a class="read-link" href="../../{e["url"]}">← Επιστροφή στη συγκεκριμένη έκδοση</a></article><aside class="side">'+toc+f'<div class="sidebox"><h3>Σχετικές ιστορίες</h3><div class="sourcelinks">{related or "Δεν υπάρχουν επιπλέον σχετικές ιστορίες."}</div></div></aside></div></main></body></html>'
+            article_layers = ''
+            if a.get('mechanics_and_incentives'):
+                mech = a['mechanics_and_incentives']
+                mech_p = ''.join(f'<p>{esc(x)}</p>' for x in (mech if isinstance(mech, list) else [mech]))
+                article_layers += f'<section class="article-layer mechanics-layer"><h3>⚙️ Μηχανισμοί &amp; Κίνητρα Παραγόντων</h3>{mech_p}</section>'
+            if a.get('second_order_effects'):
+                eff = a['second_order_effects']
+                eff_p = ''.join(f'<p>{esc(x)}</p>' for x in (eff if isinstance(eff, list) else [eff]))
+                article_layers += f'<section class="article-layer effects-layer"><h3>🌊 Δευτερογενείς Συνέπειες &amp; Αλυσιδωτές Αντιδράσεις</h3>{eff_p}</section>'
+            if a.get('scenarios'):
+                scen = a['scenarios']
+                article_layers += f'''<section class="article-layer scenarios-layer">
+<h3>🎯 Προβολή &amp; Σενάρια</h3>
+<div class="scenario-grid">
+  <div class="scenario-card base"><strong>Βασικό Σενάριο:</strong> <p>{esc(scen.get("base_case", ""))}</p></div>
+  <div class="scenario-card tail"><strong>Ακραίος Κίνδυνος (Tail Risk):</strong> <p>{esc(scen.get("tail_risk", ""))}</p></div>
+  <div class="scenario-card watch"><strong>Σημεία Επαλήθευσης (Watch Next):</strong> <p>{esc(scen.get("watch_next", ""))}</p></div>
+</div>
+</section>'''
+            p+='<div class="layout"><article class="prose">'+blocks(a)+article_layers+'<section class="section"><h2>Πηγές και χρόνοι αναφοράς</h2>'+source_links(a['sources'])+f'<p>{esc(a.get("evidence_note",""))}</p>'+'<p class="warning">Οι αλυσίδες αναφοράς δείχνουν την προέλευση των πληροφοριών. Αναδημοσιεύσεις του ίδιου πρακτορείου δεν αποτελούν ανεξάρτητη διασταύρωση.</p></section>'+f'<a class="read-link" href="../../{e["url"]}">← Επιστροφή στη συγκεκριμένη έκδοση</a></article><aside class="side">'+toc+f'<div class="sidebox"><h3>Σχετικές ιστορίες</h3><div class="sourcelinks">{related or "Δεν υπάρχουν επιπλέον σχετικές ιστορίες."}</div></div></aside></div></main></body></html>'
             p=p.replace('</main></body>', '<footer class="shell"><a href="'+BASE+'photo-credits.html">Συντελεστές εικόνων</a></footer></main></body>')
             write(ROOT/'docs'/url,p)
             write(ROOT/'docs/data/articles'/e['id']/(a['id']+'.json'),json.dumps(a,ensure_ascii=False,indent=2)+'\n')

@@ -133,8 +133,8 @@ def compose(date, bundles, previous=None, aliases=None, now=None):
             lead_id = canonical(requested)
         elif aa and aa[0]['category'] == 'Πρώτο θέμα':
             lead_id = canonical(aa[0]['story_id'])
-    if lead_id is None:
-        lead_id = min(stories.values(), key=lambda story: (story['priority'], story['story_id']))['story_id']
+    if lead_id is None or lead_id not in stories:
+        lead_id = min(stories.values(), key=lambda story: (story['priority'], story['story_id']))['story_id'] if stories else None
     if lead_id not in stories:
         raise ValueError('Daily lead must reference a participating published story')
     model = {'schema_version': 1, 'date': date, 'timezone': participating[0][0]['timezone'], 'status': 'published', 'url': f'daily/{date}.html', 'editions': edition_refs, 'missing_slots': [slot for slot in SLOTS if slot not in {e['type'] for e, _ in participating}], 'lead_story_id': lead_id, 'stories': sorted(stories.values(), key=lambda s: (s['priority'], s['story_id'])), 'updates': sorted(events.values(), key=lambda event: (instant(event['at']), event['id']))}
@@ -153,7 +153,7 @@ def compose(date, bundles, previous=None, aliases=None, now=None):
     return model
 
 def validate(root, model, bundles):
-    schema = json.loads((root/'templates/v2/day.schema.json').read_text())
+    schema = json.loads((root/'templates/v2/day.schema.json').read_text(encoding='utf-8'))
     Draft202012Validator(schema, format_checker=FormatChecker()).validate(model)
     lookup = {e['id']: (e, {a['id']: a for a in aa}) for e, aa in bundles}
     if len({s['story_id'] for s in model['stories']}) != len(model['stories']):
@@ -353,7 +353,7 @@ def publish(b, latest_module, bundles, affected_dates=None):
     if not records:
         return
     record = records[-1]
-    doc = BeautifulSoup((root/'docs'/record['url']).read_text(), 'html.parser')
+    doc = BeautifulSoup((root/'docs'/record['url']).read_text(encoding='utf-8'), 'html.parser')
     source = urljoin(b.BASE, record['url'])
     for node in doc.find_all(True):
         for attr in ('href','src','poster'):

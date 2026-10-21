@@ -21,3 +21,28 @@ figure.photo img[hidden],figure.photo .image-fallback[hidden]{display:none}
 
 /* Photo credits: full original caption and archive date retained. */
 figure.photo figcaption{padding:10px 14px 4px;font:12px/1.5 Arial,sans-serif}.photo-caption{margin:0!important;font:12px/1.5 Arial,sans-serif}.photo-credit{margin:2px 0 0;border:0}.photo-credit>summary{min-height:44px;display:flex;align-items:center;gap:4px;list-style:none;padding:7px 0;font:600 12px/1.4 Arial,sans-serif;cursor:pointer}.photo-credit>summary::after{content:'+';margin-left:auto}.photo-credit[open]>summary::after{content:'−'}.photo-credit>summary::-webkit-details-marker{display:none}.photo-credit .ui-icon{width:16px;height:16px;margin:0}.photo-details p{margin:0 0 8px}.photo-metadata{display:grid;gap:8px;margin:8px 0;overflow-wrap:anywhere}.photo-metadata dt{font-weight:700}.photo-metadata dd{margin:0}
+
+/* v3.0 Sovereign 4-Layer Article Anatomy */
+.article-delta-callout { background: color-mix(in srgb, var(--accent) 14%, var(--card)); border-left: 4px solid var(--accent); padding: 16px 20px; margin: 20px 0 28px; border-radius: 0 4px 4px 0; font-size: 16px; line-height: 1.6; }
+.article-delta-callout strong { color: var(--green); display: block; font-family: Arial, sans-serif; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px; }
+
+.article-layer { margin: 35px 0; padding: 22px 24px; background: var(--card); border: 1px solid var(--border); border-radius: 4px; }
+.article-layer h3 { font-size: 20px; color: var(--green); margin: 0 0 14px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+.article-layer p { font-size: 17px; line-height: 1.7; margin-bottom: 14px; }
+.article-layer p:last-child { margin-bottom: 0; }
+
+.mechanics-layer { border-left: 3px solid var(--green); }
+.effects-layer { border-left: 3px solid var(--accent); }
+.scenarios-layer { border-left: 3px solid #3b6b80; background: color-mix(in srgb, var(--card) 95%, #3b6b80); }
+
+.scenario-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 14px; }
+.scenario-card { background: var(--paper); border: 1px solid var(--border); border-radius: 4px; padding: 14px 16px; font-size: 15px; }
+.scenario-card strong { display: block; font-family: Arial, sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; }
+.scenario-card.base strong { color: var(--green); }
+.scenario-card.tail strong { color: #b34a45; }
+.scenario-card.watch strong { color: var(--accent); }
+.scenario-card p { font-size: 14.5px; line-height: 1.5; margin: 0; }
+
+@media(max-width: 700px) {
+  .scenario-grid { grid-template-columns: 1fr; }
+}

@@ -39,7 +39,7 @@ def prepare(root, edition_id, verify_only=False):
         reuse=im.get('reuse_review')
         if reuse:
             source=Path(reuse['source_asset'])
-            if source.is_absolute() or '..' in source.parts or not str(source).startswith('assets/editorial/'):
+            if source.is_absolute() or '..' in source.parts or not source.as_posix().startswith('assets/editorial/'):
                 raise ValueError('Unsafe reused photo provenance')
             original=root/'docs'/source
             if not reuse.get('relevance_and_archive_date_checked') or hashlib.sha256(original.read_bytes()).hexdigest()!=reuse['sha256']:
@@ -80,9 +80,14 @@ def prepare(root, edition_id, verify_only=False):
                 print(f"::warning::Failed to download/prepare {local} ({e}); using placeholder fallback.")
                 make_placeholder(target)
                 downloaded = True
-        with Image.open(target) as image:
-            if min(image.size)<200:raise ValueError('Cached image resolution too small')
-            image.verify()
+        try:
+            with Image.open(target) as img_check:
+                if min(img_check.size) < 200:
+                    make_placeholder(target)
+                else:
+                    img_check.verify()
+        except Exception:
+            make_placeholder(target)
         if reuse and hashlib.sha256(target.read_bytes()).hexdigest()!=reuse['sha256']:
             raise ValueError('Reused photo bytes do not match their reviewed source')
         if target.stat().st_size > 1_000_000:

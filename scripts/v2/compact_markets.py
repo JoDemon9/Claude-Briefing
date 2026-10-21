@@ -41,7 +41,8 @@ def markets(b, e):
         delta = ('↑ ' if change > 0 else '↓ ' if change < 0 else '→ ') + format(Decimal(str(change)).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP), '+.2f').replace('.', ',') + '%' if change is not None else 'Μεταβολή μη διαθέσιμη'
         unit = q['unit'] if q.get('asset_class') == 'rate' else q['unit'] + ' · ' + q['currency'] if q.get('asset_class') in ('index','futures_index') else q['currency'] + ' / ' + q['unit']
         direction='unknown' if change is None else 'positive' if change>0 else 'negative' if change<0 else 'neutral'
-        return '<article class="quote-card" data-quote-key="'+b.esc(quote_key(q))+'"><h4>'+b.esc(q['name'])+'</h4><strong class="quote-value">'+b.esc(value if value is not None else '—')+'</strong><span class="quote-unit">'+b.esc(unit)+'</span><b class="quote-change change-'+direction+'">'+b.esc(delta)+'</b><span class="quote-status">'+labels[q['status']]+'</span><time>'+b.stamp(q.get('quoted_at'))+'</time>'+details(q)+'</article>'
+        transmission = f'<div class="quote-transmission"><span>Μετάδοση:</span> {b.esc(q["transmission_mechanism"])}</div>' if q.get('transmission_mechanism') else ''
+        return '<article class="quote-card" data-quote-key="'+b.esc(quote_key(q))+'"><h4>'+b.esc(q['name'])+'</h4><strong class="quote-value">'+b.esc(value if value is not None else '—')+'</strong><span class="quote-unit">'+b.esc(unit)+'</span><b class="quote-change change-'+direction+'">'+b.esc(delta)+'</b><span class="quote-status">'+labels[q['status']]+'</span><time>'+b.stamp(q.get('quoted_at'))+'</time>'+transmission+details(q)+'</article>'
     core = []
     configured = e.get('market_core')
     targets = [(key,(key,)) for key in configured] if configured else CORE

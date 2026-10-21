@@ -369,6 +369,34 @@
           "minLength": 8,
           "maxLength": 240,
           "description": "Editorial event identity, stable across updates; e.g. subject/event/date. Never inferred from headline similarity."
+        },
+        "delta_update": {
+          "type": "string",
+          "description": "Midday delta update callout or breaking developments since morning"
+        },
+        "mechanics_and_incentives": {
+          "anyOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" } }
+          ],
+          "description": "Layer 2: Underlying economic/political mechanics and actor incentives"
+        },
+        "second_order_effects": {
+          "anyOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" } }
+          ],
+          "description": "Layer 3: Unintended consequences and ripple effects"
+        },
+        "scenarios": {
+          "type": "object",
+          "properties": {
+            "base_case": { "type": "string" },
+            "tail_risk": { "type": "string" },
+            "watch_next": { "type": "string" }
+          },
+          "additionalProperties": true,
+          "description": "Layer 4: Sovereign forward-looking scenarios"
         }
       },
       "additionalProperties": false
@@ -1689,6 +1717,66 @@
           "type": "string",
           "pattern": "^[a-f0-9]{64}$"
         }
+      }
+    },
+    "edition_mode": {
+      "type": "string",
+      "enum": [
+        "morning_scan",
+        "midday_delta",
+        "evening_synthesis"
+      ]
+    },
+    "executive_scan": {
+      "type": "object",
+      "properties": {
+        "geopolitics_macro": {
+          "type": "string"
+        },
+        "cyprus_institutions": {
+          "type": "string"
+        },
+        "markets_tech": {
+          "type": "string"
+        },
+        "day_catalysts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "delta_log": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fast_wire": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "category",
+          "summary"
+        ],
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "source_name": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
       }
     }
   },

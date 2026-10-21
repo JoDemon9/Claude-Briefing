@@ -1,40 +1,97 @@
-# Daily briefing: Four steps and autonomous CI publishing (DEC-022)
+# Oracle Sovereign Briefing: Runtime & Production Architecture (v3.0 Sovereign)
 
-Use the existing morning/midday/evening tasks and their unchanged schedules (07:30, 13:30, 19:30 Europe/Athens).
+Canonical reference for all agent workflows (ChatGPT, Luna, Antigravity). Follow the 4-step streamlined protocol. Internal LLM generation containers produce clean, validated JSON content; deterministic compilation, WebP image processing, Playwright tests, and GitHub Pages sync are handled autonomously by GitHub Actions CI upon Git push.
 
-Produce the Greek Oracle briefing using the user's selected model (ChatGPT / Luna). JoDemon9/Claude-Briefing is the public content and build engine; oracle-briefing is the central public portal and Wire.
+---
 
-## 1. PREPARE
-Use fresh main, the actual local date/time in Europe/Athens and this task's slot. Read current capabilities once. Run `python scripts/v2/prepare_run.py` to get current planning context, sports headlines, and already published coverage for today to avoid duplicate stories.
+## 1. PREPARE (30 Seconds)
+1. Determine the target slot and local date (`Europe/Athens` / `Asia/Nicosia` timezone):
+   - **Morning**: `YYYY-MM-DD-morning` (07:30 EEST)
+   - **Midday**: `YYYY-MM-DD-midday` (13:30 EEST)
+   - **Evening**: `YYYY-MM-DD-evening` (19:30 / 20:30 EEST)
+2. Run planning helper:
+   ```bash
+   python scripts/v2/prepare_run.py
+   ```
+   Inspect current capabilities, sports headlines, and existing coverage to avoid duplicate stories.
 
-## 2. RESEARCH & WRITE
-- **Cyprus (4–6 stories)**: Major national, political, economic, legal, infrastructure, and community news.
-- **World & Greece (4–5 stories)**: Consequential international developments, European policy, geopolitics, markets/tech.
-- **Sports (High Value)**:
-  - Permanent coverage for **Omonoia**, **Manchester United**, **Real Madrid**, and **Formula 1**.
-  - In `sports.coverage`: provide `status_badge` (league position/points), `last_match` (score & scorers), `next_fixture` (time & opponent), and `analysis` (tactics, key developments, stakes).
-  - Write 1 to 2 full sports articles (`sport-*.json`) in `content/articles/<edition-id>/` whenever there are match reviews, previews, or major sports news. Include them in `sports.major_stories` (full articles for Omonoia, Man Utd, Real Madrid, F1, and other sports are fully supported and encouraged).
-- **Markets & Desks**: Keep ECB/Euribor, Brent, Gold, S&P, Nasdaq, CSE with accurate quote timestamps. Check Limassol weather.
-- **Writing**: Clear, informative Greek. 60–90 word findings; optional evidence-backed analysis up to 180 words. Include real, relevant licensed image attribution.
+---
+
+## 2. RESEARCH & ASYMMETRIC WRITING
+
+### 2.1. Asymmetric Slot Modes
+- **Morning Scan (`edition_mode: "morning_scan"`)**:
+  - `executive_scan`: 3-Pillar high-level overview:
+    - `geopolitics_macro`: Global and European macro developments.
+    - `cyprus_institutions`: National regulatory, political, and institutional agenda.
+    - `markets_tech`: Market sentiment and key technology/AI developments.
+    - `day_catalysts`: 3–5 bullet points of scheduled events, speeches, earnings, or data releases to watch today.
+  - Comprehensive analytical reporting across Cyprus and World.
+- **Midday Delta Mode (`edition_mode: "midday_delta"`)**:
+  - `delta_log`: 3–6 concise bullet points explaining strictly **«Τι Άλλαξε από τις 07:30»** (breaking shifts, official announcements, mid-session market reactions).
+  - Articles updating earlier morning stories include `delta_update` callouts at the top.
+  - `fast_wire`: 3–6 fast single-line ticker developments (`category`, `summary`, `source_name`, `source_url`) for breaking wire items that do not require full long-form articles.
+  - **No copy-pasting**: Never duplicate static morning text; focus strictly on newly emerged facts and delta shifts.
+- **Evening Synthesis (`edition_mode: "evening_synthesis"`)**:
+  - Full daily synthesis, final closing market analysis with economic transmission mechanisms (`transmission_mechanism`), final match and score analysis, and tomorrow's watchpoints.
+
+### 2.2. 4-Layer Analytical Realism on Articles (`content/articles/<edition-id>/*.json`)
+For high-impact stories, write structured articles with 4-layer analytical depth:
+- **Layer 1: Delta & Core Facts**: Clear headline, verified sources, and `summary` (with optional `delta_update` for developing stories).
+- **Layer 2: Mechanics & Incentives (`mechanics_and_incentives`)**: The economic forces, institutional incentives, and underlying motives driving actors.
+- **Layer 3: Second-Order Effects (`second_order_effects`)**: Ripple effects, unintended consequences, and sector-wide impacts.
+- **Layer 4: Sovereign Scenarios (`scenarios`)**:
+  - `base_case`: Most probable medium-term outcome.
+  - `tail_risk`: Low-probability, high-consequence risk scenario.
+  - `watch_next`: Observable trigger points to monitor.
+
+### 2.3. Sports Renaissance
+- **Four Permanent Pillars**: Permanent structured reporting for **Omonoia**, **Manchester United**, **Real Madrid**, and **Formula 1**.
+- Under `sports.coverage`, populate for each team:
+  - `status_badge`: Position / points, championship standing, or Grand Prix status.
+  - `last_match`: Final score, opponent, scorers, and date.
+  - `next_fixture`: Next match date, kickoff time, opponent, and venue.
+  - `analysis`: 2–3 sentences of tactical breakdown, injuries, or strategic stakes.
+  - `verified_links`: 1–2 official headline links.
+- **Full Sports Articles**: Write 1–2 dedicated sports articles (`sport-*.json`) in `content/articles/<edition-id>/` whenever there are match reviews, previews, or major sports news, and link them in `sports.major_stories`. Articles for Omonoia, Man Utd, Real Madrid, F1, and other sports are fully supported and rendered on both the edition and homepage.
+
+### 2.4. Causal Markets & Cyprus Real Economy Radar
+- **Markets**: Track S&P 500, Nasdaq, STOXX Europe 600, CSE (ΧΑΚ), EUR/USD, Brent, ECB Deposit Rate, and Euribor.
+  - For major movers, provide `transmission_mechanism` explaining how the market movement transmits into the Cyprus/EU real economy (borrowing costs, inflation, energy bills).
+- **Real Economy & Regulatory Radar (`opportunities`)**: Track active Cyprus and EU grant schemes, corporate incentives, and regulatory rights.
+
+---
 
 ## 3. QUICK VALIDATE (0.5s)
-Run:
+Before pushing, run the lightweight offline validator:
 ```bash
 python scripts/v2/quick_validate.py <edition-id>
 ```
-Confirms that the edition JSON and all referenced article JSON files exist and have valid structure. No heavy image processing, Playwright browser suites, or live polling required inside the generation container.
+Confirms JSON syntax, required keys, and article path references.
+
+---
 
 ## 4. COMMIT & PUSH
-Commit the content files directly:
+Push directly to the `main` branch:
 ```bash
 git add content/editions/<edition-id>.json content/articles/<edition-id>/
 git commit -m "feat(edition): publish <edition-id>"
 git pull --rebase origin main
 git push origin main
 ```
-**Done!** Once pushed to `main`, GitHub Actions CI autonomously:
-- Refreshes sports cache and validates assets.
-- Prepares and optimizes images with soft placeholder fallbacks.
-- Compiles the static HTML newspaper and Daily Hub (`build.py`).
-- Runs deterministic integrity checks (`checks.py`).
-- Commits and pushes compiled `docs/` and synchronizes to `oracle-briefing`.
+**Publication Complete!**
+GitHub Actions CI autonomously:
+1. Prepares and optimizes images with soft-fail fallback placeholders.
+2. Compiles static HTML for the edition, articles, Daily Hub, and archive (`build.py`).
+3. Runs deterministic integrity gates (`checks.py`).
+4. Commits and deploys built assets to GitHub Pages.
+5. Synchronizes the portal release to `JoDemon9/oracle-briefing`.
+
+---
+
+## 5. POLICY & BOUNDARIES
+- **private Pages**: private Pages stays disabled; original source/quote times are preserved verbatim from original publishers without artificial shifts.
+- **morning, midday, evening**: Every morning, midday, and evening edition preserves image_review.version=2 and reading_review.
+- **Integrity**: No fuzzy automatic matching of headlines; keep unchanged historical editions, schemas, and contracts intact.
+- **Constraints**: No arbitrary quota/time limit inside generation; No PR merge operations in automated tasks.
+

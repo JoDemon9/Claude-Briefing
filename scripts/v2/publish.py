@@ -52,7 +52,7 @@ class GitPublisher:
     def publish(self, allowed, release_id):
         if self.git('branch','--show-current') != 'main':
             raise ValueError('Publication requires the reviewed main branch; use preparation on PR branches')
-        remote = self.git('remote','get-url','origin').removesuffix('.git').rstrip('/')
+        remote = self.git('remote','get-url','origin').replace('\\', '/').removesuffix('.git').rstrip('/')
         if not remote.endswith('/'+REPOS[self.role]) and not remote.endswith(':'+REPOS[self.role]):
             raise ValueError('Unexpected publication repository')
         self.git('fetch','origin','main')

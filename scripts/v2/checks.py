@@ -90,9 +90,9 @@ def run(root=ROOT,base=None,prebuilt=False,profile=None,execute=None):
         try:
             if execute:execute(name,command,fn)
             elif command:
-                with log.open('w') as stream:subprocess.run(command,cwd=root,stdout=stream,stderr=subprocess.STDOUT,check=True)
+                with log.open('w', encoding='utf-8') as stream:subprocess.run(command,cwd=root,stdout=stream,stderr=subprocess.STDOUT,check=True,env=dict(os.environ, PYTHONUTF8='1'))
             elif fn:
-                with log.open('w') as stream,redirect_stdout(stream):
+                with log.open('w', encoding='utf-8') as stream,redirect_stdout(stream):
                     value=fn()
                     if value is not None:print(json.dumps(value,ensure_ascii=False))
             record.update(status='passed',seconds=round(time.perf_counter()-start,3),log=str(log.relative_to(root)))
@@ -105,7 +105,7 @@ def run(root=ROOT,base=None,prebuilt=False,profile=None,execute=None):
         selected=selected_editions(root,selection['edition_ids'])
         selection['edition_ids']=[e['id'] for e in selected]
         for edition in selected:
-            articles=[json.loads((root/'content'/p).read_text()) for p in edition['articles']]
+            articles=[json.loads((root/'content'/p).read_text(encoding='utf-8')) for p in edition['articles']]
             rows.append(inventory.coverage(edition,articles))
         result['section_coverage']=rows
         prepare_candidate_images(root,selection['edition_ids'],verify_only=prebuilt)
@@ -118,12 +118,12 @@ def run(root=ROOT,base=None,prebuilt=False,profile=None,execute=None):
         return {'editions':selection['edition_ids'],'source_review_required':True,'section_coverage':rows}
     step('content',fn=content)
     receipt=module('release').manifest(root)
-    if prebuilt and receipt!=json.loads((root/'docs/data/release.json').read_text()):
+    if prebuilt and receipt!=json.loads((root/'docs/data/release.json').read_text(encoding='utf-8')):
         result.update(status='failed',failed_step='content');atomic.write_json(output,result)
         raise ValueError('Candidate release receipt is stale')
     if PROFILES[selection['profile']]>=PROFILES['maintenance']:
-        step('unit',command=[sys.executable,'-m','unittest','discover','-s','tests','-q'])
-    command=[sys.executable,'tests/edition_browser_checks.py','--root',str(root),'--screenshots',str(folder/'current-preview')]
+        step('unit',command=[sys.executable,'-X','utf8','-m','unittest','discover','-s','tests','-q'])
+    command=[sys.executable,'-X','utf8','tests/edition_browser_checks.py','--root',str(root),'--screenshots',str(folder/'current-preview')]
     for eid in selection['edition_ids']:command.extend(['--edition',eid])
     step('preview',command=command)
     if selection['profile']=='full':

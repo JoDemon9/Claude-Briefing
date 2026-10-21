@@ -141,3 +141,35 @@ figure.photo img[hidden],figure.photo .image-fallback[hidden]{display:none}
 @media(max-width:600px){[data-edition=daily] .edition-desk{gap:2px 12px;padding:8px 10px}[data-edition=daily] .edition-desk a{gap:0;font-size:12px}.day-summary>summary{font-size:20px}.day-summary{margin:16px 0}[data-edition=daily] .stickybar .wrap{gap:4px;padding:4px 0}[data-edition=daily] .tools{gap:4px}[data-edition=daily] .tools a,[data-edition=daily] .tools button{padding:8px}.day-lead .hero .story-content{padding:18px}}
 .tech-table{display:table;width:100%;table-layout:fixed;border-collapse:collapse;font:14px/1.5 Arial,sans-serif;margin:8px 0}.tech-table caption{text-align:left;font-size:13px;padding:8px}.tech-table th,.tech-table td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line);overflow-wrap:anywhere}.tech-table th:first-child{width:24%}.tech-table .quote-value{font-size:18px}.tech-table .quote-unit,.tech-table .quote-change,.tech-table .quote-status,.tech-table time{display:block;margin-top:4px}.tech-table .source-links{font-size:13px}
 @media(max-width:700px){.tech-table,.tech-table tbody{display:block}.tech-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.tech-table tr{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);border-bottom:1px solid var(--line);padding:8px 0}.tech-table th[scope=row]{grid-column:1/-1;width:auto;padding:8px 10px}.tech-table td{border:0;padding:6px 10px}.tech-table td[colspan]{grid-column:1/-1}.tech-table caption{display:block}.tech-table .quote-metadata{grid-template-columns:1fr}}
+
+/* v3.0 Sovereign Newspaper Components */
+.executive-scan { background: var(--card); border: 1.5px solid var(--forest); border-radius: 6px; padding: 22px 24px; margin: 20px 0 28px; box-shadow: 0 4px 18px rgba(0,0,0,0.04); }
+.scan-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-bottom: 18px; }
+.scan-col { background: var(--card2); border: 1px solid var(--line); border-radius: 4px; padding: 16px 18px; }
+.scan-col .scan-icon { font-size: 22px; margin-bottom: 6px; }
+.scan-col h4 { font: 700 14px/1.3 'Newsreader', Georgia, serif; color: var(--forest); margin: 0 0 8px; text-transform: uppercase; letter-spacing: 0.05em; }
+.scan-col p { font: 400 14.5px/1.5 'DM Sans', sans-serif; color: var(--ink); margin: 0; }
+.catalysts-box { border-top: 1px dashed var(--line); padding-top: 14px; }
+.catalysts-box h4 { font: 700 12px/1.4 'IBM Plex Mono', monospace; color: var(--amber); margin: 0 0 8px; text-transform: uppercase; letter-spacing: 0.08em; }
+.catalysts-box ul { margin: 0; padding-left: 20px; }
+.catalysts-box li { font: 500 13.5px/1.5 'DM Sans', sans-serif; color: var(--ink); margin-bottom: 4px; }
+
+.midday-delta-callout { background: color-mix(in srgb, var(--amber) 12%, var(--card)); border-left: 4px solid var(--amber); padding: 18px 22px; margin: 18px 0 24px; border-radius: 0 6px 6px 0; }
+.midday-delta-callout h3 { font: 700 16px/1.3 'Newsreader', Georgia, serif; color: var(--forest); margin: 0 0 10px; }
+.midday-delta-callout ul { margin: 0; padding-left: 20px; }
+.midday-delta-callout li { font: 500 14px/1.5 'DM Sans', sans-serif; color: var(--ink); margin-bottom: 5px; }
+
+.fast-wire-ticker { background: var(--deep); color: #fff; border-radius: 6px; padding: 14px 20px; margin: 18px 0 24px; }
+.ticker-header { font: 700 11px/1.4 'IBM Plex Mono', monospace; color: var(--amber2); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 10px; }
+.ticker-content { display: flex; flex-direction: column; gap: 8px; }
+.wire-item { font: 400 13.5px/1.5 'DM Sans', sans-serif; }
+.wire-badge { display: inline-block; background: var(--amber); color: #111d1b; font: 700 10px/1.4 'IBM Plex Mono', monospace; padding: 2px 7px; border-radius: 3px; text-transform: uppercase; margin-right: 6px; }
+.wire-item a { color: var(--amber2); text-decoration: underline; margin-left: 6px; font-size: 11px; }
+
+.quote-transmission { font: 500 11.5px/1.4 'DM Sans', sans-serif; color: var(--muted); border-top: 1px dashed var(--line); padding-top: 5px; margin-top: 4px; }
+.scoreboard-badge { display: inline-block; font: 700 10px 'IBM Plex Mono', monospace; padding: 2px 8px; border-radius: 3px; background: var(--card2); color: var(--forest); border: 1px solid var(--line); }
+.fixture-pill { display: inline-block; font: 600 11px 'DM Sans', sans-serif; color: var(--muted); margin-top: 4px; }
+
+@media(max-width: 800px) {
+  .scan-grid { grid-template-columns: 1fr; }
+}

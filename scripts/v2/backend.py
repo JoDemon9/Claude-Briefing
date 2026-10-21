@@ -18,7 +18,7 @@ def digest(value):
 
 
 def capabilities(root):
-    schema = json.loads((root/'templates/v2/content.schema.json').read_text())
+    schema = json.loads((root/'templates/v2/content.schema.json').read_text(encoding='utf-8'))
     return {'contract_version': 1, 'producer_protocol': PROTOCOL,
             'content_schema_sha256': digest((root/'templates/v2/content.schema.json').read_bytes()),
             'edition_schema_versions': [schema['properties']['schema_version']['const']],

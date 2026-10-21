@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "news_links": {
+    "omonoia": {
+      "source_url": "https://www.omonoiafc.com.cy/feed/",
+      "checked_at": "2026-10-18T12:00:00+00:00",
+      "status": "available",
+      "items": [
+        {
+          "url": "https://www.omonoiafc.com.cy/first-team-update-0/",
+          "headline": "Official first-team update 0",
+          "published_at": "2026-10-17T12:00:00+00:00",
+          "retrieved_at": "2026-10-18T12:00:00+00:00"
+        },
+        {
+          "url": "https://www.omonoiafc.com.cy/first-team-update-1/",
+          "headline": "Official first-team update 1",
+          "published_at": "2026-10-17T12:00:00+00:00",
+          "retrieved_at": "2026-10-18T12:00:00+00:00"
+        }
+      ],
+      "note": null
+    },
+    "manutd": {
+      "source_url": "https://www.manutd.com/en/news/listing/mens-news",
+      "checked_at": "2026-10-18T12:00:00+00:00",
+      "status": "available",
+      "items": [
+        {
+          "url": "https://www.manutd.com/en/news/official-first-team-update-0",
+          "headline": "Official first-team article headline",
+          "published_at": "2026-10-17T12:00:00+00:00",
+          "retrieved_at": "2026-10-18T12:00:00+00:00"
+        },
+        {
+          "url": "https://www.manutd.com/en/news/official-first-team-update-1",
+          "headline": "Official first-team article headline",
+          "published_at": "2026-10-17T12:00:00+00:00",
+          "retrieved_at": "2026-10-18T12:00:00+00:00"
+        }
+      ],
+      "note": null
+    },
+    "realmadrid": {
+      "source_url": "https://www.realmadrid.com/en-US/news/football/first-team",
+      "checked_at": "2026-10-18T12:00:00+00:00",
+      "status": "available",
+      "items": [
+        {
+          "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/official-first-team-update-0",
+          "headline": "Official first-team article headline",
+          "published_at": "2026-10-17T12:00:00+00:00",
+          "retrieved_at": "2026-10-18T12:00:00+00:00"
+        },
+        {
+          "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/official-first-team-update-1",
+          "headline": "Official first-team article headline",
+          "published_at": "2026-10-17T12:00:00+00:00",
+          "retrieved_at": "2026-10-18T12:00:00+00:00"
+        }
+      ],
+      "note": null
+    },
+    "formula1": {
+      "source_url": "https://www.formula1.com/en/latest",
+      "checked_at": "2026-10-18T12:00:00+00:00",
+      "status": "available",
+      "items": [
+        {
+          "url": "https://www.formula1.com/en/latest/article/official-first-team-update-0",
+          "headline": "Official first-team article headline",
+          "published_at": "2026-10-17T12:00:00+00:00",
+          "retrieved_at": "2026-10-18T12:00:00+00:00"
+        },
+        {
+          "url": "https://www.formula1.com/en/latest/article/official-first-team-update-1",
+          "headline": "Official first-team article headline",
+          "published_at": "2026-10-17T12:00:00+00:00",
+          "retrieved_at": "2026-10-18T12:00:00+00:00"
+        }
+      ],
+      "note": null
+    }
+  },
+  "http_attempts": 10,
+  "limits": {
+    "providers": 4,
+    "max_http_attempts": 10,
+    "attempts_per_url": 1,
+    "max_items_per_interest": 2,
+    "timeout_seconds": 12,
+    "max_response_bytes": 2000000
+  },
+  "scope": "Resilient RSS/Google News headline metadata for favorite teams and F1."
+}
