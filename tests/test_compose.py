@@ -257,6 +257,18 @@ class RenderingAndPublicationTests(unittest.TestCase):
             publish.await_live(mock.Mock(side_effect=ValueError('Pages does not serve this release')),attempts=2,pause=mock.Mock())
         self.assertNotIn('ORACLE_SKIP_LIVE_POLL',(ROOT/'scripts/v2/publish.py').read_text())
 
+    def test_ci_requests_pages_build_without_exposing_token_and_local_push_uses_its_normal_trigger(self):
+        opener=mock.Mock();response=mock.MagicMock();response.__enter__.return_value=response;response.status=201
+        opener.return_value=response
+        with mock.patch.dict(publish.os.environ,{'ORACLE_PAGES_BUILD_TOKEN':'test-secret'}):
+            result=publish.request_public_pages_build(opener)
+        request=opener.call_args.args[0]
+        self.assertEqual(request.get_method(),'POST')
+        self.assertEqual(request.full_url,'https://api.github.com/repos/JoDemon9/Claude-Briefing/pages/builds')
+        self.assertNotIn('test-secret',str(result))
+        with mock.patch.dict(publish.os.environ,{},clear=True):
+            self.assertEqual(publish.request_public_pages_build()['status'],'normal_git_push_trigger')
+
     def test_download_failure_never_creates_a_placeholder(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);edition_id='2026-10-22-morning'

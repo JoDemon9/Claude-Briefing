@@ -67,3 +67,5 @@ python -X utf8 scripts/v2/compose.py --input /tmp/payload.json --portal-root <Or
 Δεν ενεργοποιείται private Pages, δεν εξάγονται ιδιωτικές σημειώσεις/caches και δεν αλλάζει ο ανεξάρτητος Wire ή το πρόγραμμα παραγωγής. Main, PR, CI, Pages και πραγματικά Scheduled Tasks αναφέρονται χωριστά.
 
 Compatibility invariants: preserve original source/quote times and unchanged historical snapshots. No fuzzy automatic story matching. No arbitrary quota/time limit for editorial generation; I/O deadlines bound failed operations separately. No PR merge in scheduled runs. image_review.version=2 records actual reviewed photographs; the explicit partial-v1 unavailable-image path is permitted from 22 October.
+
+Το CI push με GITHUB_TOKEN δεν ενεργοποιεί αυτόματα Pages: ο publisher ζητά ρητά το source Pages build με pages:write και περιμένει έως 10 λεπτά για φυσιολογική διάδοση, πριν δηλώσει πραγματική αποτυχία. Το portal PAT push διατηρεί το κανονικό trigger. Δεν δημιουργείται νέος scheduler ή νέα εξωτερική ειδοποίηση.

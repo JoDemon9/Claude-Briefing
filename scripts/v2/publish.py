@@ -9,11 +9,14 @@ from datetime import datetime, timezone
 import hashlib
 import importlib.util
 import json
+import os
 from pathlib import Path
 import subprocess
 import shutil
 import tempfile
 import time
+import urllib.error
+import urllib.request
 
 ROOT = Path(__file__).resolve().parents[2]
 STAGES = ('generated','validated','built','checked','public_published','public_verified',
@@ -21,13 +24,31 @@ STAGES = ('generated','validated','built','checked','public_published','public_v
 REPOS = {'public':'JoDemon9/Claude-Briefing','portal':'JoDemon9/oracle-briefing'}
 
 
-def await_live(verify, attempts=6, pause=time.sleep):
+def request_public_pages_build(opener=None):
+    """CI-token pushes do not trigger Pages. Explicitly request the maintained branch build."""
+    token = os.environ.get('ORACLE_PAGES_BUILD_TOKEN')
+    if not token:
+        return {'status':'normal_git_push_trigger'}
+    request = urllib.request.Request('https://api.github.com/repos/'+REPOS['public']+'/pages/builds',
+        data=b'', method='POST', headers={'Authorization':'Bearer '+token,
+        'Accept':'application/vnd.github+json', 'User-Agent':'OracleBriefingPublisher/1.0',
+        'X-GitHub-Api-Version':'2026-03-10'})
+    try:
+        with (opener or urllib.request.urlopen)(request, timeout=30) as response:
+            if response.status != 201:
+                raise ValueError('GitHub Pages build request was not accepted')
+    except urllib.error.HTTPError as error:
+        raise ValueError('GitHub Pages build request failed (HTTP '+str(error.code)+'); check Pages write permission') from None
+    return {'status':'requested'}
+
+
+def await_live(verify, attempts=61, pause=time.sleep):
     """Allow bounded CDN propagation; exhaustion remains a recorded failure."""
     for attempt in range(attempts):
         try:
             return verify()
         except ValueError as error:
-            transient = any(text in str(error) for text in ('does not serve', 'could not be reached', 'deployed'))
+            transient = any(text in str(error) for text in ('does not serve', 'could not be reached'))
             if not transient or attempt == attempts - 1:
                 raise
             pause(10)
@@ -107,7 +128,7 @@ class GitPublisher:
                 git=lambda *args:subprocess.check_output(['git','-C',str(checkout),*args],text=True,timeout=120).strip()
                 if changed:git('add','--',*sorted(changed))
                 if git('diff','--cached','--name-only'):
-                    git('commit','-m','Publish validated newspaper '+release_id[:12]+' [skip ci]')
+                    git('commit','-m','Publish validated newspaper '+release_id[:12])
                 commit=git('rev-parse','HEAD')
                 # A concurrent push causes a normal rejection; retry starts from fresh main.
                 git('push','origin','HEAD:main')
@@ -236,6 +257,7 @@ def run(root=ROOT, portal=None, publish=False, handlers=None, checks_receipt=Non
         call('public_published',public_publish)
         # Live state may change between attempts; never promote the portal using an old check.
         def verify_public():
+            request_public_pages_build()
             return await_live(lambda: release.verify_live(root))
 
         state['stages'].pop('public_verified',None)
