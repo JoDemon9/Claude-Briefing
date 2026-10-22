@@ -162,6 +162,13 @@
       "type": "evening",
       "published_at": "2026-10-21T20:15:00+03:00",
       "url": "evening/2026-10-21.html"
+    },
+    {
+      "id": "2026-10-22-morning",
+      "date": "2026-10-22",
+      "type": "morning",
+      "published_at": "2026-10-22T08:04:01+03:00",
+      "url": "morning/2026-10-22.html"
     }
   ],
   "stories": [
@@ -6108,6 +6115,284 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-21-evening/sport-euroleague.webp"
+    },
+    {
+      "story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+      "identity": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+      "edition_id": "2026-10-22-morning",
+      "date": "2026-10-22",
+      "slot": "morning",
+      "published_at": "2026-10-22T08:04:01+03:00",
+      "available_at": "2026-10-22T08:04:01+03:00",
+      "headline": "Νέα πλήγματα Ρωσίας–Ουκρανίας μετά την αμερικανική μεσολάβηση",
+      "finding": "Πύραυλοι έπληξαν το Κίεβο τα ξημερώματα της 22ας Οκτωβρίου, ενώ η Ουκρανία έστειλε εκατοντάδες drones προς τη Μόσχα, σύμφωνα με αυτόπτη μάρτυρα και το ρεπορτάζ του Reuters. Η ανταλλαγή επιθέσεων συνεχίστηκε αφού ο Αμερικανός απεσταλμένος αποχώρησε από συνομιλίες, δείχνοντας ότι η διπλωματική επαφή δεν μετέφρασε ακόμη τη συμφωνία για νέες τριμερείς συνομιλίες σε επιχειρησιακή αποκλιμάκωση.",
+      "section": "world",
+      "priority": 10,
+      "article_path": "articles/2026-10-22-morning/lead.json",
+      "reader_url": "articles/2026-10-22-morning/lead.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/europe/missiles-strike-ukraines-kyiv-reuters-witness-says-2026-10-21/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-10-22T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-morning/lead.webp"
+    },
+    {
+      "story_id": "saudi-houthi-defensive-support-2026-10-21",
+      "identity": "saudi-houthi-defensive-support-2026-10-21",
+      "edition_id": "2026-10-22-morning",
+      "date": "2026-10-22",
+      "slot": "morning",
+      "published_at": "2026-10-22T08:04:01+03:00",
+      "available_at": "2026-10-22T08:04:01+03:00",
+      "headline": "Σαουδική Αραβία: αμυντική ασπίδα, όχι επιθετική συμμαχία",
+      "finding": "Η Βρετανία και η Γαλλία προσφέρουν κυρίως αμυντική υποστήριξη στη Σαουδική Αραβία, ενώ η αιγυπτιακή ψηφοφορία για ενδεχόμενη στρατιωτική βοήθεια μετατέθηκε για τις 26 Οκτωβρίου. Το Reuters κατέγραψε επίσης 73 νεκρούς, 14 αγνοούμενους και πάνω από 200 τραυματίες από πλήγμα των Χούθι σε στρατόπεδο στη Σάμπουα, βάσει της τοπικής αρχής. Το άμεσο ερώτημα είναι αν η προστασία πετρελαϊκών εγκαταστάσεων θα περιορίσει την κλιμάκωση.",
+      "section": "world",
+      "priority": 20,
+      "article_path": "articles/2026-10-22-morning/world-saudi.json",
+      "reader_url": "articles/2026-10-22-morning/world-saudi.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/middle-east/shield-not-sword-saudi-arabia-2026-10-21/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-10-22T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-morning/world-saudi.webp"
+    },
+    {
+      "story_id": "france-bond-yield-five-percent-2026-10-21",
+      "identity": "france-bond-yield-five-percent-2026-10-21",
+      "edition_id": "2026-10-22-morning",
+      "date": "2026-10-22",
+      "slot": "morning",
+      "published_at": "2026-10-22T08:04:01+03:00",
+      "available_at": "2026-10-22T08:04:01+03:00",
+      "headline": "Το γαλλικό δεκαετές άγγιξε το 5%, υψηλό 24 ετών",
+      "finding": "Η απόδοση του δεκαετούς γαλλικού ομολόγου έφθασε το 5,002% στις 21 Οκτωβρίου, υψηλότερο επίπεδο από το 2002, και το spread έναντι του γερμανικού Bund κινήθηκε κοντά στις 157 μονάδες βάσης. Το Reuters αποδίδει την πίεση στον δύσκολο προϋπολογισμό, το υψηλό έλλειμμα, την πολιτική αβεβαιότητα και τη διεθνή άνοδο των αποδόσεων λόγω ακριβότερης ενέργειας. Το επόμενο τεστ είναι η κοινοβουλευτική πορεία του προϋπολογισμού.",
+      "section": "world",
+      "priority": 30,
+      "article_path": "articles/2026-10-22-morning/world-france.json",
+      "reader_url": "articles/2026-10-22-morning/world-france.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/europe/french-10-year-bond-yields-hit-5-highest-since-2002-2026-10-21/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-10-22T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-morning/world-france.webp"
+    },
+    {
+      "story_id": "ebola-outbreak-nigeria-2026-10-21",
+      "identity": "ebola-outbreak-nigeria-2026-10-21",
+      "edition_id": "2026-10-22-morning",
+      "date": "2026-10-22",
+      "slot": "morning",
+      "published_at": "2026-10-22T08:04:01+03:00",
+      "available_at": "2026-10-22T08:04:01+03:00",
+      "headline": "Έμπολα: πρώτο κρούσμα στη Νιγηρία και 44 επαφές υπό ιχνηλάτηση",
+      "finding": "Η Νιγηρία επιβεβαίωσε κρούσμα Έμπολα στην Αμπούτζα σε γυναίκα που είχε ταξιδέψει από την Ουγκάντα και άρχισε να εμφανίζει συμπτώματα στις 7 Οκτωβρίου. Οι αρχές ιχνηλατούν 44 επαφές. Η AP αναφέρει ότι το στέλεχος Bundibugyo δεν διαθέτει εγκεκριμένο εμβόλιο ή θεραπεία και ότι ο ΠΟΥ χαρακτηρίζει την έξαρση την ταχύτερα αναπτυσσόμενη ιστορικά. Η επιτήρηση ταξιδιωτών και η απομόνωση γνωστών επαφών είναι το άμεσο μέτωπο.",
+      "section": "world",
+      "priority": 40,
+      "article_path": "articles/2026-10-22-morning/world-ebola.json",
+      "reader_url": "articles/2026-10-22-morning/world-ebola.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/africa-ebola-congo-nigeria-abuja-virus-03b6388f86e305fad711606f22c6577f",
+          "publisher": "Associated Press",
+          "reporting_group": "AP",
+          "published_at": null,
+          "retrieved_at": "2026-10-22T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-morning/world-ebola.webp"
+    },
+    {
+      "story_id": "canada-turkey-trade-cooperation-2026-10-22",
+      "identity": "canada-turkey-trade-cooperation-2026-10-22",
+      "edition_id": "2026-10-22-morning",
+      "date": "2026-10-22",
+      "slot": "morning",
+      "published_at": "2026-10-22T08:04:01+03:00",
+      "available_at": "2026-10-22T08:04:01+03:00",
+      "headline": "Καναδάς και Τουρκία ανοίγουν νέο δίαυλο εμπορικής συνεργασίας",
+      "finding": "Ο πρωθυπουργός Μαρκ Κάρνεϊ συναντά τον Ρετζέπ Ταγίπ Ερντογάν στην Άγκυρα στις 22 Οκτωβρίου, στην πρώτη διμερή επίσκεψη Καναδού ηγέτη στην Τουρκία. Σύμφωνα με το Reuters, οι δύο πλευρές αναμένεται να υπογράψουν συμφωνία συνεργασίας, ενώ η Οτάβα επιδιώκει βαθύτερες σχέσεις με «μεσαίες δυνάμεις» και μικρότερη εμπορική εξάρτηση από τις ΗΠΑ. Η ουσία θα κριθεί από τους συγκεκριμένους τομείς και τα χρονοδιαγράμματα της συμφωνίας.",
+      "section": "world",
+      "priority": 50,
+      "article_path": "articles/2026-10-22-morning/world-canada-turkey.json",
+      "reader_url": "articles/2026-10-22-morning/world-canada-turkey.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/americas/canadas-carney-visits-turkey-push-ease-us-trade-dependence-2026-10-22/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-10-22T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-morning/world-canada-turkey.webp"
+    },
+    {
+      "story_id": "eu-rejects-turkey-libya-deal-2026-10-21",
+      "identity": "eu-rejects-turkey-libya-deal-2026-10-21",
+      "edition_id": "2026-10-22-morning",
+      "date": "2026-10-22",
+      "slot": "morning",
+      "published_at": "2026-10-22T08:04:01+03:00",
+      "available_at": "2026-10-22T08:04:01+03:00",
+      "headline": "Οι 27 απορρίπτουν ως άκυρο το τουρκολιβυκό μνημόνιο",
+      "finding": "Και τα 27 κράτη μέλη της ΕΕ στήριξαν κοινή δήλωση που χαρακτηρίζει το τουρκολιβυκό μνημόνιο του 2019 άκυρο, χωρίς έννομες συνέπειες για τρίτα κράτη και ασύμβατο με το δίκαιο της θάλασσας. Η τοποθέτηση ακολούθησε την κύρωση του μνημονίου από τη λιβυκή Βουλή στις 20 Οκτωβρίου. Η Κύπρος και η Ελλάδα έλαβαν ρητή ευρωπαϊκή αλληλεγγύη· το επόμενο βήμα είναι η πρακτική στάση της ΕΕ έναντι τυχόν εφαρμογής.",
+      "section": "cyprus",
+      "priority": 60,
+      "article_path": "articles/2026-10-22-morning/cyprus-maritime.json",
+      "reader_url": "articles/2026-10-22-morning/cyprus-maritime.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/21/all-eu-member-states-condemn-turkey-libya-maritime-deal-as-null-and-void",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-21T20:44:00+03:00",
+          "retrieved_at": "2026-10-22T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-morning/cyprus-maritime.webp"
+    },
+    {
+      "story_id": "cyprus-parliament-data-leak-2026-10-21",
+      "identity": "cyprus-parliament-data-leak-2026-10-21",
+      "edition_id": "2026-10-22-morning",
+      "date": "2026-10-22",
+      "slot": "morning",
+      "published_at": "2026-10-22T08:04:01+03:00",
+      "available_at": "2026-10-22T08:04:01+03:00",
+      "headline": "Έρευνα στη Βουλή για διαρροή προσωπικών δεδομένων συγγενών βουλευτών",
+      "finding": "Η πρόεδρος της Βουλής Αννίτα Δημητρίου διέταξε έρευνα για τη δημοσίευση προσωπικών δεδομένων συγγενών βουλευτών μαζί με δηλώσεις περιουσιακών στοιχείων. Η Αρχή Προστασίας Δεδομένων ζήτησε την αφαίρεση του υλικού και αναμένει επίσημη γνωστοποίηση βάσει του άρθρου 33 του GDPR, το οποίο προβλέπει ενημέρωση χωρίς αδικαιολόγητη καθυστέρηση και, όπου είναι εφικτό, εντός 72 ωρών. Το πόρισμα θα καθορίσει ευθύνες και διορθωτικά μέτρα.",
+      "section": "cyprus",
+      "priority": 70,
+      "article_path": "articles/2026-10-22-morning/cyprus-data-leak.json",
+      "reader_url": "articles/2026-10-22-morning/cyprus-data-leak.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/21/annita-orders-investigation-after-parliament-data-leak",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-21T16:08:00+03:00",
+          "retrieved_at": "2026-10-22T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-morning/cyprus-data-leak.webp"
+    },
+    {
+      "story_id": "cyprus-villages-development-fund-2026-10-21",
+      "identity": "cyprus-villages-development-fund-2026-10-21",
+      "edition_id": "2026-10-22-morning",
+      "date": "2026-10-22",
+      "slot": "morning",
+      "published_at": "2026-10-22T08:04:01+03:00",
+      "available_at": "2026-10-22T08:04:01+03:00",
+      "headline": "Κοινότητες καλούνται να προτείνουν έργα από νέο πακέτο €3,5 δισ.",
+      "finding": "Ο Πρόεδρος Νίκος Χριστοδουλίδης κάλεσε κοινότητες να υποβάλουν ώριμες προτάσεις για νέο κύκλο αναπτυξιακών έργων συνολικής αξίας €3,5 δισ., μιλώντας στη Συκόπετρα της Λεμεσού. Είπε ότι οι αποφάσεις θα ληφθούν τον Σεπτέμβριο και ότι η συνεισφορά των κοινοτικών συμβουλίων έχει μειωθεί στο 5%. Πρόκειται για πολιτική πρόσκληση και όχι ακόμη ανοικτό σχέδιο αιτήσεων· απαιτούνται ώριμες μελέτες, άδειες και μεταγενέστερες επίσημες οδηγίες.",
+      "section": "cyprus",
+      "priority": 80,
+      "article_path": "articles/2026-10-22-morning/cyprus-villages.json",
+      "reader_url": "articles/2026-10-22-morning/cyprus-villages.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/21/president-invites-villages-to-bid-for-share-of-e3-5bn-development-funding",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-21T22:00:00+03:00",
+          "retrieved_at": "2026-10-22T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-morning/cyprus-villages.webp"
+    },
+    {
+      "story_id": "abbas-cyprus-visit-2026-10-29",
+      "identity": "abbas-cyprus-visit-2026-10-29",
+      "edition_id": "2026-10-22-morning",
+      "date": "2026-10-22",
+      "slot": "morning",
+      "published_at": "2026-10-22T08:04:01+03:00",
+      "available_at": "2026-10-22T08:04:01+03:00",
+      "headline": "Ο Μαχμούντ Αμπάς αναμένεται στην Κύπρο στις 29 Οκτωβρίου",
+      "finding": "Ο Παλαιστίνιος πρόεδρος Μαχμούντ Αμπάς αναμένεται να επισκεφθεί την Κύπρο στις 29 Οκτωβρίου, εφόσον δεν υπάρξει απρόοπτη αλλαγή. Σύμφωνα με το Cyprus Mail, η ατζέντα περιλαμβάνει διμερείς σχέσεις, την ανθρωπιστική κατάσταση στη Γάζα και τις εξελίξεις στη Δυτική Όχθη και την Ανατολική Ιερουσαλήμ. Η πληροφορία αποδόθηκε αρχικά στον Παλαιστίνιο πρέσβη· συνεπώς το κρίσιμο επόμενο βήμα είναι η τελική επίσημη επιβεβαίωση του προγράμματος.",
+      "section": "cyprus",
+      "priority": 90,
+      "article_path": "articles/2026-10-22-morning/cyprus-abbas.json",
+      "reader_url": "articles/2026-10-22-morning/cyprus-abbas.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/21/palestinian-president-abbas-due-in-cyprus-on-october-29",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-21T22:23:00+03:00",
+          "retrieved_at": "2026-10-22T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-morning/cyprus-abbas.webp"
+    },
+    {
+      "story_id": "cyprus-dust-forecast-2026-10-22",
+      "identity": "cyprus-dust-forecast-2026-10-22",
+      "edition_id": "2026-10-22-morning",
+      "date": "2026-10-22",
+      "slot": "morning",
+      "published_at": "2026-10-22T08:04:01+03:00",
+      "available_at": "2026-10-22T08:04:01+03:00",
+      "headline": "Αραιή σκόνη από ανατολικά, χωρίς υψηλή επιβάρυνση προς το παρόν",
+      "finding": "Σκόνη από τη Συρία και τον Λίβανο φθάνει στην Κύπρο, με νέα επεισόδια να αναμένονται από ανατολικά. Εκπρόσωπος της Μετεωρολογικής Υπηρεσίας είπε ότι οι συγκεντρώσεις αναμένεται να παραμείνουν χαμηλές, ενώ το επίσημο πρωινό δελτίο προβλέπει κυρίως αίθριο καιρό, αυξημένες ψηλές νεφώσεις και πιθανή αραιή σκόνη. Για τα παράλια η μέγιστη θερμοκρασία είναι γύρω στους 29°C· η πρόγνωση ισχύει έως τις 06:00 της 23ης Οκτωβρίου.",
+      "section": "cyprus",
+      "priority": 100,
+      "article_path": "articles/2026-10-22-morning/cyprus-dust.json",
+      "reader_url": "articles/2026-10-22-morning/cyprus-dust.html",
+      "sources": [
+        {
+          "url": "https://www.dom.org.cy/FORECAST/public_a.html",
+          "publisher": "Τμήμα Μετεωρολογίας Κύπρου",
+          "reporting_group": "Τμήμα Μετεωρολογίας",
+          "published_at": "2026-10-22T05:00:00+03:00",
+          "retrieved_at": "2026-10-22T07:39:24+03:00",
+          "kind": "primary"
+        },
+        {
+          "url": "https://cyprus-mail.com/2026/10/21/dust-from-lebanon-to-hit-cyprus-over-coming-days",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-21T19:09:00+03:00",
+          "retrieved_at": "2026-10-22T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
