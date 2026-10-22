@@ -538,6 +538,52 @@
       "coverage": "structured"
     },
     {
+      "edition_id": "2026-10-22-evening",
+      "as_of": "2026-10-22T19:38:11+03:00",
+      "records": [
+        {
+          "owner": "2026-10-22-evening",
+          "id": "weather-2026-10-22-evening",
+          "kind": "weather",
+          "label": "Πρόγνωση Λεμεσού και παραλίων",
+          "checked_at": "2026-10-22T19:29:57+03:00",
+          "valid_from": "2026-10-22T06:00:00+03:00",
+          "valid_until": "2026-10-23T06:00:00+03:00",
+          "recheck_at": "2026-10-23T05:00:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_a.html"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-22-evening",
+          "id": "warnings-2026-10-22-evening",
+          "kind": "recheck",
+          "label": "Κατάσταση προειδοποιήσεων Agromet",
+          "checked_at": "2026-10-22T19:38:11+03:00",
+          "recheck_at": "2026-10-23T05:00:00+03:00",
+          "sources": [
+            "https://agromet.dom.org.cy/"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-22-evening",
+          "id": "wall-street-close-2026-10-22",
+          "kind": "event",
+          "label": "Λήξη τακτικής συνεδρίασης ΗΠΑ",
+          "checked_at": "2026-10-22T19:38:11+03:00",
+          "starts_at": "2026-10-22T23:00:00+03:00",
+          "recheck_at": "2026-10-22T23:05:00+03:00",
+          "sources": [
+            "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&range=5d"
+          ],
+          "state": "upcoming"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
       "edition_id": "2026-10-22-midday",
       "as_of": "2026-10-22T14:07:43+03:00",
       "records": [

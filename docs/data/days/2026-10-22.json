@@ -16,54 +16,274 @@
       "type": "midday",
       "url": "midday/2026-10-22.html",
       "published_at": "2026-10-22T14:07:43+03:00"
+    },
+    {
+      "id": "2026-10-22-evening",
+      "type": "evening",
+      "url": "evening/2026-10-22.html",
+      "published_at": "2026-10-22T19:38:11+03:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
+  "missing_slots": [],
   "lead_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
   "stories": [
     {
       "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
       "first_seen_at": "2026-10-22T14:07:43+03:00",
-      "last_substantive_at": "2026-10-22T08:18:00+00:00",
+      "last_substantive_at": "2026-10-22T19:38:11+03:00",
       "references": [
         {
           "edition_id": "2026-10-22-midday",
           "article_id": "lead",
           "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
           "url": "articles/2026-10-22-midday/lead.html"
+        },
+        {
+          "edition_id": "2026-10-22-evening",
+          "article_id": "lead",
+          "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+          "url": "articles/2026-10-22-evening/lead.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-22-midday",
+        "edition_id": "2026-10-22-evening",
         "article_id": "lead",
         "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
-        "url": "articles/2026-10-22-midday/lead.html"
+        "url": "articles/2026-10-22-evening/lead.html"
       },
       "section": "world",
-      "priority": 5
+      "priority": 1
     },
     {
       "story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
       "first_seen_at": "2026-10-22T08:04:01+03:00",
-      "last_substantive_at": null,
+      "last_substantive_at": "2026-10-22T19:38:11+03:00",
       "references": [
         {
           "edition_id": "2026-10-22-morning",
           "article_id": "lead",
           "source_story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
           "url": "articles/2026-10-22-morning/lead.html"
+        },
+        {
+          "edition_id": "2026-10-22-evening",
+          "article_id": "world-ukraine",
+          "source_story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+          "url": "articles/2026-10-22-evening/world-ukraine.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-22-morning",
-        "article_id": "lead",
+        "edition_id": "2026-10-22-evening",
+        "article_id": "world-ukraine",
         "source_story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
-        "url": "articles/2026-10-22-morning/lead.html"
+        "url": "articles/2026-10-22-evening/world-ukraine.html"
       },
       "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-22T19:38:11+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "world-meta",
+          "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+          "url": "articles/2026-10-22-midday/world-meta.html"
+        },
+        {
+          "edition_id": "2026-10-22-evening",
+          "article_id": "world-meta",
+          "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+          "url": "articles/2026-10-22-evening/world-meta.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "world-meta",
+        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "url": "articles/2026-10-22-evening/world-meta.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+      "first_seen_at": "2026-10-22T19:38:11+03:00",
+      "last_substantive_at": "2026-10-22T19:38:11+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-evening",
+          "article_id": "world-greece-egypt-eez",
+          "source_story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+          "url": "articles/2026-10-22-evening/world-greece-egypt-eez.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "world-greece-egypt-eez",
+        "source_story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+        "url": "articles/2026-10-22-evening/world-greece-egypt-eez.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "starlink-ukraine-control-dispute-2026-10-22",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-22T00:00:00+00:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "world-starlink",
+          "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
+          "url": "articles/2026-10-22-midday/world-starlink.html"
+        },
+        {
+          "edition_id": "2026-10-22-evening",
+          "article_id": "world-starlink",
+          "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
+          "url": "articles/2026-10-22-evening/world-starlink.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "world-starlink",
+        "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
+        "url": "articles/2026-10-22-evening/world-starlink.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+      "first_seen_at": "2026-10-22T19:38:11+03:00",
+      "last_substantive_at": "2026-10-22T19:38:11+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-evening",
+          "article_id": "cyprus-abramovich",
+          "source_story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+          "url": "articles/2026-10-22-evening/cyprus-abramovich.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "cyprus-abramovich",
+        "source_story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+        "url": "articles/2026-10-22-evening/cyprus-abramovich.html"
+      },
+      "section": "cyprus",
       "priority": 10
+    },
+    {
+      "story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-22T12:55:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "cyprus-erhurman",
+          "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+          "url": "articles/2026-10-22-midday/cyprus-erhurman.html"
+        },
+        {
+          "edition_id": "2026-10-22-evening",
+          "article_id": "cyprus-erhurman",
+          "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+          "url": "articles/2026-10-22-evening/cyprus-erhurman.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "cyprus-erhurman",
+        "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+        "url": "articles/2026-10-22-evening/cyprus-erhurman.html"
+      },
+      "section": "cyprus",
+      "priority": 11
+    },
+    {
+      "story_id": "2026-10-13-cyprus-1",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-22T11:21:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "cyprus-pensions",
+          "source_story_id": "2026-10-13-cyprus-1",
+          "url": "articles/2026-10-22-midday/cyprus-pensions.html"
+        },
+        {
+          "edition_id": "2026-10-22-evening",
+          "article_id": "cyprus-pensions",
+          "source_story_id": "2026-10-13-cyprus-1",
+          "url": "articles/2026-10-22-evening/cyprus-pensions.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "cyprus-pensions",
+        "source_story_id": "2026-10-13-cyprus-1",
+        "url": "articles/2026-10-22-evening/cyprus-pensions.html"
+      },
+      "section": "cyprus",
+      "priority": 12
+    },
+    {
+      "story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-22T10:32:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "cyprus-court",
+          "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+          "url": "articles/2026-10-22-midday/cyprus-court.html"
+        },
+        {
+          "edition_id": "2026-10-22-evening",
+          "article_id": "cyprus-court",
+          "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+          "url": "articles/2026-10-22-evening/cyprus-court.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "cyprus-court",
+        "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+        "url": "articles/2026-10-22-evening/cyprus-court.html"
+      },
+      "section": "cyprus",
+      "priority": 13
+    },
+    {
+      "story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-21T09:00:00+02:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "cyprus-fiscal",
+          "source_story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
+          "url": "articles/2026-10-22-midday/cyprus-fiscal.html"
+        },
+        {
+          "edition_id": "2026-10-22-evening",
+          "article_id": "cyprus-fiscal",
+          "source_story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
+          "url": "articles/2026-10-22-evening/cyprus-fiscal.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "cyprus-fiscal",
+        "source_story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
+        "url": "articles/2026-10-22-evening/cyprus-fiscal.html"
+      },
+      "section": "cyprus",
+      "priority": 14
     },
     {
       "story_id": "nato-palantir-maven-control-2026-10-22",
@@ -85,27 +305,6 @@
       },
       "section": "world",
       "priority": 15
-    },
-    {
-      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
-      "first_seen_at": "2026-10-22T14:07:43+03:00",
-      "last_substantive_at": "2026-10-22T10:00:00+00:00",
-      "references": [
-        {
-          "edition_id": "2026-10-22-midday",
-          "article_id": "world-meta",
-          "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
-          "url": "articles/2026-10-22-midday/world-meta.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-22-midday",
-        "article_id": "world-meta",
-        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
-        "url": "articles/2026-10-22-midday/world-meta.html"
-      },
-      "section": "world",
-      "priority": 20
     },
     {
       "story_id": "saudi-houthi-defensive-support-2026-10-21",
@@ -171,48 +370,6 @@
       "priority": 30
     },
     {
-      "story_id": "starlink-ukraine-control-dispute-2026-10-22",
-      "first_seen_at": "2026-10-22T14:07:43+03:00",
-      "last_substantive_at": "2026-10-22T00:00:00+00:00",
-      "references": [
-        {
-          "edition_id": "2026-10-22-midday",
-          "article_id": "world-starlink",
-          "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
-          "url": "articles/2026-10-22-midday/world-starlink.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-22-midday",
-        "article_id": "world-starlink",
-        "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
-        "url": "articles/2026-10-22-midday/world-starlink.html"
-      },
-      "section": "world",
-      "priority": 30
-    },
-    {
-      "story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
-      "first_seen_at": "2026-10-22T14:07:43+03:00",
-      "last_substantive_at": "2026-10-22T12:55:00+03:00",
-      "references": [
-        {
-          "edition_id": "2026-10-22-midday",
-          "article_id": "cyprus-erhurman",
-          "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
-          "url": "articles/2026-10-22-midday/cyprus-erhurman.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-22-midday",
-        "article_id": "cyprus-erhurman",
-        "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
-        "url": "articles/2026-10-22-midday/cyprus-erhurman.html"
-      },
-      "section": "cyprus",
-      "priority": 40
-    },
-    {
       "story_id": "ebola-outbreak-nigeria-2026-10-21",
       "first_seen_at": "2026-10-22T08:04:01+03:00",
       "last_substantive_at": null,
@@ -234,27 +391,6 @@
       "priority": 40
     },
     {
-      "story_id": "2026-10-13-cyprus-1",
-      "first_seen_at": "2026-10-22T14:07:43+03:00",
-      "last_substantive_at": "2026-10-22T11:21:00+03:00",
-      "references": [
-        {
-          "edition_id": "2026-10-22-midday",
-          "article_id": "cyprus-pensions",
-          "source_story_id": "2026-10-13-cyprus-1",
-          "url": "articles/2026-10-22-midday/cyprus-pensions.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-22-midday",
-        "article_id": "cyprus-pensions",
-        "source_story_id": "2026-10-13-cyprus-1",
-        "url": "articles/2026-10-22-midday/cyprus-pensions.html"
-      },
-      "section": "cyprus",
-      "priority": 45
-    },
-    {
       "story_id": "canada-turkey-trade-cooperation-2026-10-22",
       "first_seen_at": "2026-10-22T08:04:01+03:00",
       "last_substantive_at": null,
@@ -274,48 +410,6 @@
       },
       "section": "world",
       "priority": 50
-    },
-    {
-      "story_id": "cyprus-iranian-detention-habeas-2026-10-21",
-      "first_seen_at": "2026-10-22T14:07:43+03:00",
-      "last_substantive_at": "2026-10-22T10:32:00+03:00",
-      "references": [
-        {
-          "edition_id": "2026-10-22-midday",
-          "article_id": "cyprus-court",
-          "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
-          "url": "articles/2026-10-22-midday/cyprus-court.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-22-midday",
-        "article_id": "cyprus-court",
-        "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
-        "url": "articles/2026-10-22-midday/cyprus-court.html"
-      },
-      "section": "cyprus",
-      "priority": 50
-    },
-    {
-      "story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
-      "first_seen_at": "2026-10-22T14:07:43+03:00",
-      "last_substantive_at": "2026-10-21T09:00:00+02:00",
-      "references": [
-        {
-          "edition_id": "2026-10-22-midday",
-          "article_id": "cyprus-fiscal",
-          "source_story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
-          "url": "articles/2026-10-22-midday/cyprus-fiscal.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-22-midday",
-        "article_id": "cyprus-fiscal",
-        "source_story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
-        "url": "articles/2026-10-22-midday/cyprus-fiscal.html"
-      },
-      "section": "cyprus",
-      "priority": 55
     },
     {
       "story_id": "eu-rejects-turkey-libya-deal-2026-10-21",
@@ -460,6 +554,22 @@
         "article_id": "cyprus-fiscal",
         "source_story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
         "url": "articles/2026-10-22-midday/cyprus-fiscal.html"
+      }
+    },
+    {
+      "id": "2026-10-22-evening-cyprus-abramovich-new",
+      "kind": "new",
+      "at": "2026-10-21T18:11:00+03:00",
+      "summary": "Η Αστυνομία επιβεβαίωσε έναρξη έρευνας, με εκτιμώμενη διάρκεια περίπου έξι μηνών.",
+      "source_urls": [
+        "https://www.cyprus-mail.com/2026/10/21/police-open-investigation-into-abramovich-assets"
+      ],
+      "story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "cyprus-abramovich",
+        "source_story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+        "url": "articles/2026-10-22-evening/cyprus-abramovich.html"
       }
     },
     {
@@ -885,6 +995,292 @@
         "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
         "url": "articles/2026-10-22-midday/world-meta.html"
       }
+    },
+    {
+      "id": "2026-10-22-evening-oil-aramco-evacuation",
+      "kind": "substantive_update",
+      "at": "2026-10-22T14:45:00+00:00",
+      "summary": "Η Aramco ζήτησε εκκένωση της έδρας της στο Νταχράν, ενώ το πετρέλαιο παρέμεινε κοντά σε υψηλό πέντε μηνών.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/oil-rises-us-orders-diplomats-leave-saudi-arabia-amid-escalating-tensions-2026-10-22/"
+      ],
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-22-evening/lead.html"
+      }
+    },
+    {
+      "id": "2026-10-22-evening-greece-egypt-eez-new",
+      "kind": "new",
+      "at": "2026-10-22T15:30:00+00:00",
+      "summary": "Η Αθήνα ανακοίνωσε συνομιλίες με το Κάιρο για ανατολικότερη επέκταση της οριοθέτησης προς την Κύπρο.",
+      "source_urls": [
+        "https://www.reuters.com/world/greece-egypt-talks-extend-maritime-zone-further-east-2026-10-22/"
+      ],
+      "story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "world-greece-egypt-eez",
+        "source_story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+        "url": "articles/2026-10-22-evening/world-greece-egypt-eez.html"
+      }
+    },
+    {
+      "id": "2026-10-22-evening-meta-regular-session",
+      "kind": "substantive_update",
+      "at": "2026-10-22T16:29:46+00:00",
+      "summary": "Η προσυνεδριακή πίεση μεταφέρθηκε στην τακτική συνεδρίαση, με τη Meta περίπου 6,7% χαμηλότερα από το προηγούμενο κλείσιμο.",
+      "source_urls": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-22/",
+        "https://query1.finance.yahoo.com/v8/finance/chart/META?interval=1d&range=5d"
+      ],
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "world-meta",
+        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "url": "articles/2026-10-22-evening/world-meta.html"
+      }
+    },
+    {
+      "id": "00923e1e534c7cccd80ed218e45506357e889c7247f4ac06a6ee62a2f831bae0",
+      "kind": "provenance",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "world-meta",
+        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "url": "articles/2026-10-22-evening/world-meta.html"
+      }
+    },
+    {
+      "id": "0966869dd12571c00160aad079adcb4b45bec49cedad1098981e6af19918b741",
+      "kind": "new",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Νέα συνομιλία Ελλάδας–Αιγύπτου για ανατολικότερη οριοθέτηση προς την Κύπρο.",
+      "source_urls": [
+        "https://www.reuters.com/world/greece-egypt-talks-extend-maritime-zone-further-east-2026-10-22/"
+      ],
+      "story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "world-greece-egypt-eez",
+        "source_story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+        "url": "articles/2026-10-22-evening/world-greece-egypt-eez.html"
+      }
+    },
+    {
+      "id": "0bba04106d8dd4b543b80bd2028729e8e9299e007e243ebb243c31fefeff3109",
+      "kind": "new",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Η Αστυνομία επιβεβαίωσε έρευνα για τη διαχείριση περιουσιακών στοιχείων μέσω κυπριακών εταιρειών.",
+      "source_urls": [
+        "https://www.cyprus-mail.com/2026/10/21/police-open-investigation-into-abramovich-assets"
+      ],
+      "story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "cyprus-abramovich",
+        "source_story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+        "url": "articles/2026-10-22-evening/cyprus-abramovich.html"
+      }
+    },
+    {
+      "id": "2026-10-22-evening-ukraine-casualty-update",
+      "kind": "substantive_update",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Η απογευματινή αποτίμηση αύξησε τον επιβεβαιωμένο απολογισμό και διατήρησε άγνωστη την ημερομηνία των νέων συνομιλιών.",
+      "source_urls": [
+        "https://apnews.com/article/russia-ukraine-war-kyiv-attacks-putin-5eef1c7dc4cc401dd8de85f718574877"
+      ],
+      "story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+        "url": "articles/2026-10-22-evening/world-ukraine.html"
+      }
+    },
+    {
+      "id": "2487946b3dc96957b4c74d46bc6ec439dd1e3d7b586ac8454d860ef95d400d99",
+      "kind": "provenance",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+        "url": "articles/2026-10-22-evening/world-ukraine.html"
+      }
+    },
+    {
+      "id": "2733cb0bc7015c067c112cd381cce9a7ded9cf86254ab06d97e73a8bf94a8068",
+      "kind": "provenance",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-cyprus-1",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "cyprus-pensions",
+        "source_story_id": "2026-10-13-cyprus-1",
+        "url": "articles/2026-10-22-evening/cyprus-pensions.html"
+      }
+    },
+    {
+      "id": "29007617e1c7164b115c015182c44533207798945082d38af7589e81919c1806",
+      "kind": "substantive_update",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Ο απογευματινός απολογισμός έφθασε τουλάχιστον τους τέσσερις νεκρούς, χωρίς ημερομηνία συνομιλιών.",
+      "source_urls": [
+        "https://apnews.com/article/russia-ukraine-war-kyiv-attacks-putin-5eef1c7dc4cc401dd8de85f718574877"
+      ],
+      "story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+        "url": "articles/2026-10-22-evening/world-ukraine.html"
+      }
+    },
+    {
+      "id": "30561d8d828a14b0815ffa4bb7287cfc5b24e18f5f031ec4ef2c652e332abd08",
+      "kind": "provenance",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-22-evening/lead.html"
+      }
+    },
+    {
+      "id": "3a0401cb4d6ca684de2e7311b6aa74511698e775a1159ee8285b2b633522ab72",
+      "kind": "provenance",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "cyprus-abramovich",
+        "source_story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+        "url": "articles/2026-10-22-evening/cyprus-abramovich.html"
+      }
+    },
+    {
+      "id": "7370ddffed46eb9b478ed9853d2de947a7747fb0b28b91d626855b64bb78ef43",
+      "kind": "provenance",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "cyprus-erhurman",
+        "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+        "url": "articles/2026-10-22-evening/cyprus-erhurman.html"
+      }
+    },
+    {
+      "id": "77f9577e93e91fa59c3b736cee73b0ccdc5e2c7f8d177f65698474f4fb371084",
+      "kind": "provenance",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "cyprus-court",
+        "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+        "url": "articles/2026-10-22-evening/cyprus-court.html"
+      }
+    },
+    {
+      "id": "9fbbe5266ee84adaf510c64788743eada0593054065e4144b7473c4af1c24416",
+      "kind": "provenance",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "cyprus-fiscal",
+        "source_story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
+        "url": "articles/2026-10-22-evening/cyprus-fiscal.html"
+      }
+    },
+    {
+      "id": "a8210982d6333a7a4ab1a034697babb3a08b28ca31e9e3607ad871d28d4c4ca8",
+      "kind": "provenance",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "world-greece-egypt-eez",
+        "source_story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+        "url": "articles/2026-10-22-evening/world-greece-egypt-eez.html"
+      }
+    },
+    {
+      "id": "ae0e582d9ccf43a2d3a1e3cf2fd3005bed1db6ddea6688f48cf46093463c38d7",
+      "kind": "provenance",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "starlink-ukraine-control-dispute-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "world-starlink",
+        "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
+        "url": "articles/2026-10-22-evening/world-starlink.html"
+      }
+    },
+    {
+      "id": "b5b1ea0c30f013b8e8854f9bcbe370aa05224592b01af26685711e232fb7b58d",
+      "kind": "substantive_update",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Η Aramco ζήτησε εκκένωση της έδρας της και το Brent παρέμεινε πάνω από τα $111.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/oil-rises-us-orders-diplomats-leave-saudi-arabia-amid-escalating-tensions-2026-10-22/"
+      ],
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-22-evening/lead.html"
+      }
+    },
+    {
+      "id": "c8ee028151b6db6f6c3631e14fe4127e41a3a4a30d3f02341e3cde7e566ae236",
+      "kind": "substantive_update",
+      "at": "2026-10-22T19:38:11+03:00",
+      "summary": "Η πίεση στη Meta επιβεβαιώθηκε στην ανοικτή τακτική συνεδρίαση.",
+      "source_urls": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-22/",
+        "https://query1.finance.yahoo.com/v8/finance/chart/META?interval=1d&range=5d"
+      ],
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-evening",
+        "article_id": "world-meta",
+        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "url": "articles/2026-10-22-evening/world-meta.html"
+      }
     }
   ],
   "opportunities": [
@@ -1090,55 +1486,60 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Οι πρωινές επιθέσεις Ρωσίας–Ουκρανίας δεν έδειξαν αποκλιμάκωση, ενώ το μεσημέρι νέα πλήγματα στη Σαουδική Αραβία ανέβασαν το Brent πάνω από τα $112 και αύξησαν το περιφερειακό ρίσκο.",
+        "text": "Η κλιμάκωση στη Σαουδική Αραβία κράτησε το Brent πάνω από τα $111 και οδήγησε την Aramco να απομακρύνει προσωπικό από τα κεντρικά της, χωρίς επιβεβαιωμένη γενικευμένη απώλεια εξαγωγών.",
         "story_ids": [
-          "ukraine-russia-strikes-after-us-talks-2026-10-22",
           "middle-east-oil-saudi-escalation-2026-10-22"
         ]
       },
       {
-        "text": "Η Palantir διαβεβαίωσε ότι το ΝΑΤΟ ελέγχει το Maven χωρίς εξωτερικό διακόπτη· παράλληλα, παραμένουν αντικρουόμενες οι εκδοχές για τον περιορισμό του ουκρανικού Starlink.",
+        "text": "Οι επιθέσεις Ρωσίας–Ουκρανίας άφησαν τουλάχιστον τέσσερις νεκρούς στην Ουκρανία· οι τριμερείς συνομιλίες συζητούνται για μετά τις 10 Νοεμβρίου, αλλά δεν έχουν ημερομηνία.",
         "story_ids": [
-          "nato-palantir-maven-control-2026-10-22",
-          "starlink-ukraine-control-dispute-2026-10-22"
+          "ukraine-russia-strikes-after-us-talks-2026-10-22"
         ]
       },
       {
-        "text": "Η Meta αντιμετωπίζει ταυτόχρονα ανησυχίες για κεφαλαιουχικές δαπάνες AI και δικαστική ποινή $25 δισ., ενώ η SAP βλέπει την προέλευση των μοντέλων να γίνεται όρος προμήθειας.",
+        "text": "Η Ευρώπη έκλεισε χαμηλότερα και στις 19:29 ώρα Κύπρου η Wall Street ήταν ακόμη ανοικτή: Nasdaq περίπου -2,0%, Meta -6,7%, Micron -5,2% και Nvidia -3,7% έναντι του προηγούμενου κλεισίματος.",
         "story_ids": [
-          "meta-new-mexico-penalty-ai-spending-2026-10-22",
-          "sap-ai-model-origin-sovereignty-2026-10-22"
+          "meta-new-mexico-penalty-ai-spending-2026-10-22"
         ]
       },
       {
-        "text": "Στο Κυπριακό, ο Ερχιουρμάν συνέδεσε την άμεση έναρξη επίσημων συνομιλιών με άνευ όρων αποδοχή της εκ περιτροπής προεδρίας· αναμένεται αντίδραση Λευκωσίας και ΟΗΕ.",
+        "text": "Ελλάδα και Αίγυπτος άνοιξαν συζήτηση για ανατολικότερη επέκταση της ΑΟΖ προς την Κύπρο, χωρίς ακόμη συμφωνία, συντεταγμένες ή χρονοδιάγραμμα.",
         "story_ids": [
-          "cyprus-erhurman-rotating-presidency-2026-10-22"
+          "greece-egypt-eez-eastward-cyprus-2026-10-22",
+          "eu-rejects-turkey-libya-deal-2026-10-21"
         ]
       },
       {
-        "text": "Η Eurostat επιβεβαίωσε πλεόνασμα 3,6% του ΑΕΠ για την Κύπρο το 2025 και τη μεγαλύτερη τριμηνιαία μείωση λόγου χρέους στην ΕΕ στο β΄ τρίμηνο του 2026.",
+        "text": "Στην Κύπρο άρχισε αστυνομική έρευνα για τη διαχείριση περιουσιακών στοιχείων του Roman Abramovich· η έναρξη έρευνας δεν αποτελεί διαπίστωση ενοχής.",
         "story_ids": [
-          "cyprus-fiscal-surplus-debt-2026-10-21"
+          "cyprus-abramovich-assets-investigation-2026-10-21"
         ]
       },
       {
-        "text": "Η συνταξιοδοτική μεταρρύθμιση οδεύει προς νομικό έλεγχο και Υπουργικό, ενώ η προκαταρκτική μελέτη τραμ Λεμεσού δεν αποτελεί ακόμη απόφαση κατασκευής.",
+        "text": "Στο Κυπριακό παραμένει ανοικτή η προϋπόθεση Ερχιουρμάν για εκ περιτροπής προεδρία, ενώ συντάξεις, κράτηση προς απέλαση και δημοσιονομικά στοιχεία κρατούν την προηγούμενη τεκμηριωμένη τους κατάσταση.",
         "story_ids": [
+          "cyprus-erhurman-rotating-presidency-2026-10-22",
           "2026-10-13-cyprus-1",
-          "limassol-tram-preliminary-study-2026-10-22"
+          "cyprus-iranian-detention-habeas-2026-10-21",
+          "cyprus-fiscal-surplus-debt-2026-10-21"
         ]
       }
     ]
   },
   "follow_ups": [
     {
+      "from_story_id": "eu-rejects-turkey-libya-deal-2026-10-21",
+      "to_story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+      "reviewed_in": "2026-10-22-evening"
+    },
+    {
       "from_story_id": "saudi-houthi-defensive-support-2026-10-21",
       "to_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
-      "reviewed_in": "2026-10-22-midday"
+      "reviewed_in": "2026-10-22-evening"
     }
   ],
   "created_at": "2026-10-22T05:14:20.680356+00:00",
-  "updated_at": "2026-10-22T11:09:36.014700+00:00",
-  "input_sha256": "2e24c8901585f35902d857ee2917fe500b7ec0d37e3a33e6017354a79b54db94"
+  "updated_at": "2026-10-22T16:40:58.335267+00:00",
+  "input_sha256": "ebb13602d144b4823b0350ee4a705965352fce5df6f17d0e2f1e35d265868c7e"
 }
