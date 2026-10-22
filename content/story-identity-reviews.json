@@ -6,5 +6,9 @@
   "2265f7acccab197f5699257d2418450a58edfd5ed4877b4c12d51cb7fe50e8d3": {
     "decision": "distinct_stories",
     "reason": "The Champions League roundup covers Inter–Brugge and Viking–Bayern; the Manchester United report covers Atletico–United. They share UEFA’s fixture/results index but cover different matches. Preserve both original story IDs and historical readers."
+  },
+  "d4496bf44500d734c49b409dc54afa950955f09cf79b6b474691b030a66c31b7": {
+    "decision": "distinct_stories",
+    "reason": "The 14 October orange warning and the 22 October dust forecast are separate dated weather events. They cite the same continuously updated Meteorology Department forecast URL, but have different validity windows, hazards and stable story identities."
   }
 }
