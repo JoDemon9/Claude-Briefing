@@ -15,15 +15,10 @@ HOSTS = {'upload.wikimedia.org', 'thumb.wikimedia.org'}
 MAX_BYTES = 60_000_000
 
 
-def make_placeholder(target):
-    target.parent.mkdir(parents=True, exist_ok=True)
-    img = Image.new('RGB', (800, 450), color=(26, 32, 44))
-    img.save(target, 'WEBP', quality=82)
-
-
 def prepare(root, edition_id, verify_only=False):
     root = Path(root)
     edition = json.loads((root/'content/editions'/f'{edition_id}.json').read_text())
+    partial = edition.get('availability_policy') == 'partial-v1' and edition.get('date','') >= '2026-10-22'
     count = 0
     for relative in edition['articles']:
         path = root/'content'/relative
@@ -50,13 +45,15 @@ def prepare(root, edition_id, verify_only=False):
             try:
                 url = im.get('download_url',im['original_url'])
                 parsed = urlsplit(url)
-                if parsed.scheme != 'https':
-                    raise ValueError('Unapproved image scheme')
+                if parsed.scheme != 'https' or parsed.hostname not in HOSTS:
+                    raise ValueError('Unapproved image origin')
                 raw = None
                 for attempt in range(2):
                     try:
                         request = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'})
                         with urllib.request.urlopen(request, timeout=20) as response:
+                            if urlsplit(response.geturl()).hostname not in HOSTS:
+                                raise ValueError('Unapproved image redirect')
                             if not response.headers.get_content_type().startswith('image/'):
                                 raise ValueError('Image response is not an image')
                             raw = response.read(MAX_BYTES+1)
@@ -76,18 +73,21 @@ def prepare(root, edition_id, verify_only=False):
                     target.parent.mkdir(parents=True, exist_ok=True)
                     image.save(target, 'WEBP', quality=82, method=6)
                     downloaded = True
-            except Exception as e:
-                print(f"::warning::Failed to download/prepare {local} ({e}); using placeholder fallback.")
-                make_placeholder(target)
-                downloaded = True
+            except Exception as error:
+                if partial:
+                    article['image'] = None
+                    article['image_unavailable_reason'] = 'Η ελεγμένη φωτογραφία δεν είναι προσωρινά διαθέσιμη.'
+                    path.write_text(json.dumps(article,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+                    target.unlink(missing_ok=True)
+                    continue
+                raise ValueError('Reviewed photograph could not be prepared: '+str(local)) from error
         try:
             with Image.open(target) as img_check:
                 if min(img_check.size) < 200:
-                    make_placeholder(target)
-                else:
-                    img_check.verify()
-        except Exception:
-            make_placeholder(target)
+                    raise ValueError('Editorial photograph is too small')
+                img_check.verify()
+        except Exception as error:
+            raise ValueError('Invalid reviewed photograph: '+str(local)) from error
         if reuse and hashlib.sha256(target.read_bytes()).hexdigest()!=reuse['sha256']:
             raise ValueError('Reused photo bytes do not match their reviewed source')
         if target.stat().st_size > 1_000_000:
@@ -96,7 +96,7 @@ def prepare(root, edition_id, verify_only=False):
         print('Verified image:', local)
         if downloaded:
             time.sleep(3)
-    if edition.get('image_review') and count == 0:
+    if edition.get('image_review') and count == 0 and not partial:
         raise ValueError('No photographs found for reviewed edition')
     print(f'{count} local editorial images verified for {edition_id}')
 

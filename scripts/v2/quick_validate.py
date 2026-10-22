@@ -7,6 +7,7 @@ without executing heavy builds, image downloads, Playwright, or network tests.
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -15,6 +16,9 @@ ROOT = Path(__file__).resolve().parents[2]
 
 def validate_edition(edition_slug: str, root: Path = ROOT) -> int:
     root = Path(root)
+    if not re.fullmatch(r'\d{4}-\d{2}-\d{2}-(morning|midday|evening)', edition_slug):
+        print('[ERROR] Invalid edition id')
+        return 1
     edition_path = root / "content" / "editions" / f"{edition_slug}.json"
     articles_dir = root / "content" / "articles" / edition_slug
 
@@ -46,6 +50,9 @@ def validate_edition(edition_slug: str, root: Path = ROOT) -> int:
 
     article_files = {p.stem: p for p in articles_dir.glob("*.json")}
     for rel_path in declared_articles:
+        if not re.fullmatch(r'articles/'+re.escape(edition_slug)+r'/[a-z0-9-]+\.json', rel_path):
+            print('[ERROR] Unsafe or cross-edition article path')
+            return 1
         stem = Path(rel_path).stem
         if stem not in article_files:
             print(f"[ERROR] Declared article '{rel_path}' not found in {articles_dir}")
@@ -64,7 +71,7 @@ def validate_edition(edition_slug: str, root: Path = ROOT) -> int:
             print(f"[ERROR] Invalid JSON in article {path}: {exc}")
             return 1
 
-    print(f"[OK] Edition {edition_slug} and {len(declared_articles)} articles are valid JSON and ready to push.")
+    print(f"[OK] JSON syntax/references only: {edition_slug}, {len(declared_articles)} articles. Editorial and release gates remain required.")
     return 0
 
 

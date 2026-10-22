@@ -1,5 +1,7 @@
 # Newspaper operations
 
+DEC-023 supersedes obsolete compiler/publishing claims: compose.py accepts one reviewed payload and never silently clones a previous edition or refreshes evidence times. Ordinary missing data is represented per item under availability_policy=partial-v1 from 22 October; it does not abort the entire edition. The actual contract and commands are in BRIEFING_RUNTIME.md; the three self-contained prompts are in prompts/. The existing CI and optional local --publish route share publish.py, exact receipts and actual source/central live verification. Repository edits do not update Scheduled Tasks.
+
 Routine production uses [BRIEFING_RUNTIME.md](BRIEFING_RUNTIME.md), the compact packet and fresh main capabilities. This consolidated policy supersedes the former repeated startup document list (DEC-014). Detailed recovery contracts remain in [BACKEND_OPERATIONS.md](BACKEND_OPERATIONS.md); the original instructions are preserved under maintenance/history/2026-10-15.
 
 The existing ChatGPT tasks at 07:30 / 13:30 / 19:30 Europe/Athens select, research, write and review. No second scheduler is introduced. The public repo holds reviewed structured content and deterministic static output; Private holds source notes and persistent research state; Oracle holds the saved full daily newspaper and independent RSS Wire.

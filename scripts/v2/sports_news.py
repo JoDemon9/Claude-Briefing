@@ -26,7 +26,7 @@ MAX_ITEMS = 2
 TIMEOUT = 12
 CACHE_MINUTES = 45
 MAX_CHECK_AGE_MINUTES = 720
-SKIP = re.compile(r'\b(women|academy|under-18|under-21|wsl|tickets|shop|sponsor|partnership)\b|εισιτήρ|προπώλη|κατάστημα|διαγωνισ', re.I)
+SKIP = re.compile(r'\b(women|academy|under-18|under-19|under-21|youth league|wsl|tickets|shop|sponsor|partnership|betting)\b|εισιτήρ|προπώλη|κατάστημα|διαγωνισ|προγνωστικ|αποδόσεις|live streaming', re.I)
 
 BROWSER_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -139,8 +139,8 @@ def not_future(value, at):
         if len(value) == 10:
             return date.fromisoformat(value) <= instant(at).astimezone(ZoneInfo('Asia/Nicosia')).date()
         return instant(value) <= instant(at)
-    except Exception:
-        return True
+    except (ValueError, TypeError):
+        return False
 
 
 def objects(value):
@@ -218,7 +218,7 @@ def fetch_rss_feed(url, opener=None, limit=2):
             data = resp.read(MAX_BYTES)
         tree = ElementTree.fromstring(data.lstrip())
         items = []
-        for n in tree.findall('.//item')[:limit]:
+        for n in tree.findall('.//item')[:20]:
             title = html.unescape((n.findtext('title') or '').strip())
             link = (n.findtext('link') or '').strip()
             pub_date = published(n.findtext('pubDate'))
@@ -226,7 +226,11 @@ def fetch_rss_feed(url, opener=None, limit=2):
                 if ' - ' in title and 'news.google.com' in url:
                     parts = title.rsplit(' - ', 1)
                     title = parts[0].strip()
+                if SKIP.search(title):
+                    continue
                 items.append({'url': link, 'headline': clean(title), 'published_at': pub_date})
+                if len(items) == limit:
+                    break
         return items
     except Exception:
         return []
@@ -307,8 +311,12 @@ def collect_one(key, cache, opener=None, now=None):
             requests += 1
             found = fetch_rss_feed(feed_url, opener, limit=MAX_ITEMS)
             for f in found:
-                if not_future(f.get('published_at'), at) and f['url'] not in {i['url'] for i in items}:
+                relevant = (key != 'realmadrid' or 'realmadrid.com' in urlsplit(f['url']).hostname or
+                            bool(re.search(r'real madrid|ρεάλ|real-madrid', f['headline'], re.I)))
+                if relevant and article_url(key, f['url']) and not SKIP.search(f['headline']) and not_future(f.get('published_at'), at) and f['url'] not in {i['url'] for i in items}:
                     items.append({**f, 'retrieved_at': at})
+                    if len(items) == MAX_ITEMS:
+                        break
             if len(items) >= MAX_ITEMS:
                 break
         if not items:
@@ -320,6 +328,7 @@ def collect_one(key, cache, opener=None, now=None):
         'status': 'unavailable' if failure else 'available',
         'items': items or old.get('items', []),
         'note': failure,
+        'attempted_at': at,
     }
     validate_record(key, row, row['checked_at'])
     if not failure and items:
@@ -348,17 +357,13 @@ def collect(cache, opener=None, now=None):
         },
         'scope': 'Resilient RSS/Google News headline metadata for favorite teams and F1.',
     }
-    try:
-        CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
-        CACHE_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    except Exception:
-        pass
     return payload
 
 
 def validate(edition, root=None):
     current = (root is None or edition.get('producer_contract', {}).get('content_schema_sha256') == hashlib.sha256((Path(root) / 'templates/v2/content.schema.json').read_bytes()).hexdigest())
-    required = current and edition.get('status') == 'published' and edition.get('date', '') >= '2026-10-19'
+    partial = edition.get('availability_policy') == 'partial-v1' and edition.get('date', '') >= '2026-10-22'
+    required = not partial and current and edition.get('status') == 'published' and edition.get('date', '') >= '2026-10-19'
     rows = edition.get('sports', {}).get('news_links')
     if rows is None:
         if required:
@@ -370,7 +375,10 @@ def validate(edition, root=None):
     for key, row in rows.items():
         if key in LISTINGS:
             validate_record(key, row, at)
-            if required and instant(at) - instant(row['checked_at']) > timedelta(minutes=MAX_CHECK_AGE_MINUTES):
+            checked = row.get('attempted_at') if row['status'] == 'unavailable' else row['checked_at']
+            if checked and instant(checked) > instant(at) + timedelta(minutes=5):
+                raise ValueError('Invalid sports attempt time in future')
+            if required and instant(at) - instant(checked or row['checked_at']) > timedelta(minutes=MAX_CHECK_AGE_MINUTES):
                 raise ValueError('Favourite headline source check is stale; refresh metadata without redoing reporting')
 
 

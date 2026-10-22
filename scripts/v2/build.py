@@ -82,7 +82,7 @@ def emblem(name):
 def image(a,depth=''):
     im = a.get('image')
     if not im:
-        return ''
+        return '<p class="image-unavailable">'+esc(a['image_unavailable_reason'])+'</p>' if a.get('image_unavailable_reason') else ''
     url=im['url'] if im['url'].startswith(('https://','data:')) else depth+im['url']
     return f'<figure class="photo" data-editorial-image><img src="{esc(url)}" alt="{esc(im["alt"])}" loading="lazy" decoding="async"><p class="image-fallback" data-image-fallback hidden>Η φωτογραφία δεν φορτώθηκε.</p></figure>'
 
@@ -125,16 +125,18 @@ def validate(e, articles):
     new_publication=e['status']=='published' and e.get('published_at') and datetime.fromisoformat(e['published_at'])>=policy_start
     review=e.get('reading_review',{}).get('version')
     strict=review in (1,2)
-    if new_publication and (not strict or e.get('image_review',{}).get('version')!=2):
+    partial = e.get('availability_policy') == 'partial-v1' and e['date'] >= '2026-10-22'
+    if new_publication and (not strict or not partial and e.get('image_review',{}).get('version')!=2):
         raise ValueError('New publications require image_review.version=2 and reading_review.version=1 or 2')
     if e['status']=='published' and e.get('published_at') and datetime.fromisoformat(e['published_at'])>=datetime.fromisoformat('2026-10-15T00:00:00+03:00') and review!=2:
         raise ValueError('New publications require reading_review.version=2 (DEC-005)')
     if strict:
-        if e.get('image_review',{}).get('version')!=2:
+        if not partial and e.get('image_review',{}).get('version')!=2:
             raise ValueError('Full reading review requires mandatory photographs')
         for a in articles:
             if not a.get('image'):
-                raise ValueError('Every article requires a licensed photograph: '+a['id'])
+                if not partial or not a.get('image_unavailable_reason'):
+                    raise ValueError('Every article requires a licensed photograph: '+a['id'])
             if review==2:
                 load_module('editorial').validate_reading(a)
             else:
@@ -144,12 +146,12 @@ def validate(e, articles):
                 if words(a)<450:
                     raise ValueError('Full reader requires at least 450 useful words: '+a['id'])
     if e.get('image_review'):
-        if not any(a.get('image') for a in articles):
+        if not partial and not any(a.get('image') for a in articles):
             raise ValueError('Reviewed edition contains no images; finish image research before publishing')
         for a in articles:
             im=a.get('image')
             if not im:
-                if e['image_review']['version']==2:
+                if e['image_review']['version']==2 and not partial:
                     raise ValueError('Every article requires a licensed photograph: '+a['id'])
                 if not a.get('image_unavailable_reason'):
                     raise ValueError('Missing image research outcome: '+a['id'])
@@ -249,6 +251,59 @@ def calculator(e):
         return ''
     return f'<section class="section" id="rates"><div class="sectionhead"><h2>Υπολογιστής δόσης.</h2></div><div class="calc" data-calculator><h3>Υποθετική σταθερή μηνιαία δόση</h3><p>Μαθηματικό παράδειγμα χωρίς έξοδα και ασφάλιση· δεν είναι τραπεζική προσφορά.</p><div class="field"><label for="principal">Κεφάλαιο · EUR</label><input id="principal" type="number" min="1" max="10000000" value="{c["principal"]}"></div><div class="field"><label for="years">Διάρκεια · έτη</label><input id="years" type="number" min="1" max="40" value="{c["years"]}"></div><div class="field"><label for="interest">Ετήσιο επιτόκιο · %</label><input id="interest" type="number" min="0" max="30" step="0.01" value="{c["annual_rate"]}"></div><output id="payment" aria-live="polite"></output></div></section>'
 
+def article_layers(a):
+    """Shared Greek analytical content for cards, independent readers and the day."""
+    out = []
+    for key, title in [('mechanics_and_incentives', 'Μηχανισμοί και κίνητρα'),
+                       ('second_order_effects', 'Δευτερογενείς συνέπειες')]:
+        value = a.get(key)
+        if value:
+            paragraphs = value if isinstance(value, list) else [value]
+            out.append('<section class="article-layer"><h3>'+title+'</h3>'+''.join('<p>'+esc(p)+'</p>' for p in paragraphs)+'</section>')
+    scenarios = a.get('scenarios', {})
+    if scenarios:
+        out.append('<section class="article-layer scenarios-layer"><h3>Σενάρια · συντακτική εκτίμηση</h3>')
+        for key, label in [('base_case','Βασικό σενάριο'), ('tail_risk','Ακραίος κίνδυνος'), ('watch_next','Τι παρακολουθούμε')]:
+            value = scenarios.get(key) or (scenarios.get('what_to_watch') if key == 'watch_next' else None)
+            if value:
+                out.append('<div class="scenario-card"><strong>'+label+'</strong><p>'+esc(value)+'</p></div>')
+        out.append('</section>')
+    return ''.join(out)
+
+
+def edition_scan(e):
+    """The same executive scan, delta and wire on the edition and central day."""
+    out = []
+    scan = e.get('executive_scan', {})
+    if scan:
+        out.append('<section class="executive-scan" aria-label="Επισκόπηση έκδοσης"><div class="scan-grid">')
+        axes = [('geopolitics_macro','Γεωπολιτική και μακροοικονομία'), ('cyprus_institutions','Κύπρος και θεσμοί'), ('markets_tech','Αγορές και τεχνολογία')]
+        # Render the published legacy names honestly, without inventing a mapping.
+        if not any(scan.get(key) for key, _ in axes):
+            axes = [('geopolitics_and_defense','Γεωπολιτική και άμυνα'), ('macro_and_markets','Μακροοικονομία και αγορές'), ('tech_and_energy','Τεχνολογία και ενέργεια')]
+        for key, title in axes:
+            value = scan.get(key)
+            if not value:
+                continue
+            text = '<p>'+esc(value)+'</p>' if isinstance(value, str) else '<p>'+esc(value.get('headline',''))+'</p><ul>'+''.join('<li>'+esc(p)+'</li>' for p in value.get('bullets', []))+'</ul>'
+            out.append('<div class="scan-col"><h3>'+title+'</h3>'+text+'</div>')
+        out.append('</div>')
+        if scan.get('day_catalysts'):
+            out.append('<div class="catalysts-box"><h3>Καταλύτες και επόμενοι έλεγχοι</h3><ul>'+''.join('<li>'+esc(p)+'</li>' for p in scan['day_catalysts'])+'</ul></div>')
+        out.append('</section>')
+    if e.get('delta_log'):
+        out.append('<section class="midday-delta-callout"><h3>Τι άλλαξε από την πρωινή έκδοση</h3><ul>'+''.join('<li>'+esc(p)+'</li>' for p in e['delta_log'])+'</ul></section>')
+    if e.get('fast_wire'):
+        out.append('<section class="fast-wire-ticker"><h3>Τηλεγραφικές εξελίξεις</h3><div class="ticker-content">')
+        for row in e['fast_wire']:
+            link = ' <a href="'+esc(row['source_url'])+'" rel="noopener noreferrer">'+esc(row.get('source_name') or 'Πηγή')+'</a>' if row.get('source_url') else ''
+            out.append('<div class="wire-item"><strong class="wire-badge">'+esc(row['category'])+'</strong> <span>'+esc(row['summary'])+'</span>'+link+'</div>')
+        out.append('</div></section>')
+    if e.get('availability_notes'):
+        out.append('<details class="availability-notes"><summary>Διαθεσιμότητα ενημέρωσης</summary><ul>'+''.join('<li>'+esc(note)+'</li>' for note in e['availability_notes'])+'</ul></details>')
+    return ''.join(out)
+
+
 def card(e, a, hero=False):
     cl = 'hero' if hero else 'newscard'
     layered=e.get('reading_review',{}).get('version')==2
@@ -265,6 +320,7 @@ def card(e, a, hero=False):
         if analysis:
             context+=f'<div class="card-context"><b>Συντακτική ανάλυση · {esc(analysis["heading"])}</b><p>{esc(analysis["paragraphs"][0])}</p></div>'
     more='' if a.get('newspaper_analysis') or layered else '<details class="story-more"><summary>Περισσότερα μέσα στην έκδοση</summary>'+blocks(a,shown)+'</details>'
+    context += article_layers(a)
     if context:
         if layered:
             context='<details class="card-analysis'+(' lead-analysis' if hero else '')+'"><summary>'+icon('book')+'Τι σημαίνει · ανάλυση</summary>'+context+'</details>'
@@ -275,7 +331,8 @@ def card(e, a, hero=False):
     if layered and a.get('reader_mode')=='source':
         source=next(s for s in a['sources'] if s.get('access')=='read' and s.get('used_for_claims'))
         reader='<a class="read-link original-report" href="'+esc(source['url'])+'" rel="noopener noreferrer">'+icon('book')+'Πλήρες ρεπορτάζ · '+esc(source['publisher'])+' ↗</a>'
-    copy=abstract+context+more+'<div class="story-actions">'+reader+'</div>'+sources
+    delta = '<p class="article-delta-callout"><strong>Τι άλλαξε:</strong> '+esc(a['delta_update'])+'</p>' if a.get('delta_update') else ''
+    copy=delta+abstract+context+more+'<div class="story-actions">'+reader+'</div>'+sources
     label='Πρώτο θέμα' if hero else 'Κύπρος' if a['category']=='Πρώτο θέμα' else a['category']
     heading=f'<div class="eyebrow">'+(emblem('lead') if hero else '')+f'{esc(label)}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}>'
     overview='<div class="lead-overview"><div class="lead-copy">'+heading+copy+'</div>'+image(a,'../')+'</div>' if hero else heading+copy
@@ -378,45 +435,7 @@ def _render(root=ROOT, affected=None):
         body += edition_desk(e,registry)+f'<div class="introbar"><b>{TYPES[e["type"]]} έκδοση{slot} · {e["date"]}</b><span>Δημοσίευση: {date}</span></div>'
         if e.get('analysis_revision_at'):
             body += '<p class="revision-note">'+icon('photo')+' Εμπλουτισμός εικόνων και ανάλυσης: '+stamp(e['analysis_revision_at'])+' · Οι αρχικοί χρόνοι ειδήσεων και τιμών διατηρούνται.</p>'
-        if e.get('executive_scan'):
-            scan = e['executive_scan']
-            catalysts = ''.join(f'<li>{esc(c)}</li>' for c in scan.get('day_catalysts', []))
-            catalysts_html = f'<div class="catalysts-box"><h4>⚡ Καταλύτες Ημέρας</h4><ul>{catalysts}</ul></div>' if catalysts else ''
-            body += f'''<section class="executive-scan">
-<div class="scan-grid">
-  <div class="scan-col">
-    <div class="scan-icon">🌍</div>
-    <h4>Γεωπολιτική &amp; Macro</h4>
-    <p>{esc(scan.get("geopolitics_macro", ""))}</p>
-  </div>
-  <div class="scan-col">
-    <div class="scan-icon">🏛️</div>
-    <h4>Κυπριακοί Θεσμοί &amp; Ρυθμίσεις</h4>
-    <p>{esc(scan.get("cyprus_institutions", ""))}</p>
-  </div>
-  <div class="scan-col">
-    <div class="scan-icon">📊</div>
-    <h4>Αγορές &amp; Τεχνολογία</h4>
-    <p>{esc(scan.get("markets_tech", ""))}</p>
-  </div>
-</div>
-{catalysts_html}
-</section>'''
-        if e.get('edition_mode') == 'midday_delta' or e.get('delta_log'):
-            delta_items = ''.join(f'<li>{esc(d)}</li>' for d in e.get('delta_log', []))
-            body += f'''<div class="midday-delta-callout">
-<h3>⚡ Μεσημεριανό Δέλτα: Τι Άλλαξε από τις 07:30</h3>
-<ul>{delta_items}</ul>
-</div>'''
-        if e.get('fast_wire'):
-            wire_items = []
-            for w in e['fast_wire']:
-                src = f' <a href="{esc(w["source_url"])}" target="_blank" rel="noopener noreferrer">[{esc(w.get("source_name", "Πηγή"))}]</a>' if w.get('source_url') else ''
-                wire_items.append(f'<div class="wire-item"><span class="wire-badge">{esc(w.get("category", "Εξέλιξη"))}</span> <span class="wire-summary">{esc(w.get("summary", ""))}</span>{src}</div>')
-            body += f'''<section class="fast-wire-ticker">
-<div class="ticker-header">⚡ Τηλεγραφικές Εξελίξεις (Fast Wire)</div>
-<div class="ticker-content">{"".join(wire_items)}</div>
-</section>'''
+        body += edition_scan(e)
         requested_lead=e.get('daily',{}).get('lead_story_id')
         lead=next((a for a in aa if a['story_id']==requested_lead),None) if requested_lead else aa[0] if aa and aa[0]['category']=='Πρώτο θέμα' else None
         ordered=sorted(aa,key=lambda a:a.get('daily',{}).get('priority',1000+aa.index(a)))
@@ -457,26 +476,7 @@ def _render(root=ROOT, affected=None):
             if a.get('revision_note'):
                 p+='<p class="revision-note">'+esc(a['revision_note'])+'</p>'
             toc='<div class="sidebox reader-toc"><h3>Σε αυτό το άρθρο</h3>'+''.join(f'<a href="#section-{i}">{esc(s["heading"])}</a>' for i,s in enumerate(a['sections'],1) if any(p.strip()!=a['summary'].strip() for p in s['paragraphs']))+'</div>'
-            article_layers = ''
-            if a.get('mechanics_and_incentives'):
-                mech = a['mechanics_and_incentives']
-                mech_p = ''.join(f'<p>{esc(x)}</p>' for x in (mech if isinstance(mech, list) else [mech]))
-                article_layers += f'<section class="article-layer mechanics-layer"><h3>⚙️ Μηχανισμοί &amp; Κίνητρα Παραγόντων</h3>{mech_p}</section>'
-            if a.get('second_order_effects'):
-                eff = a['second_order_effects']
-                eff_p = ''.join(f'<p>{esc(x)}</p>' for x in (eff if isinstance(eff, list) else [eff]))
-                article_layers += f'<section class="article-layer effects-layer"><h3>🌊 Δευτερογενείς Συνέπειες &amp; Αλυσιδωτές Αντιδράσεις</h3>{eff_p}</section>'
-            if a.get('scenarios'):
-                scen = a['scenarios']
-                article_layers += f'''<section class="article-layer scenarios-layer">
-<h3>🎯 Προβολή &amp; Σενάρια</h3>
-<div class="scenario-grid">
-  <div class="scenario-card base"><strong>Βασικό Σενάριο:</strong> <p>{esc(scen.get("base_case", ""))}</p></div>
-  <div class="scenario-card tail"><strong>Ακραίος Κίνδυνος (Tail Risk):</strong> <p>{esc(scen.get("tail_risk", ""))}</p></div>
-  <div class="scenario-card watch"><strong>Σημεία Επαλήθευσης (Watch Next):</strong> <p>{esc(scen.get("watch_next", ""))}</p></div>
-</div>
-</section>'''
-            p+='<div class="layout"><article class="prose">'+blocks(a)+article_layers+'<section class="section"><h2>Πηγές και χρόνοι αναφοράς</h2>'+source_links(a['sources'])+f'<p>{esc(a.get("evidence_note",""))}</p>'+'<p class="warning">Οι αλυσίδες αναφοράς δείχνουν την προέλευση των πληροφοριών. Αναδημοσιεύσεις του ίδιου πρακτορείου δεν αποτελούν ανεξάρτητη διασταύρωση.</p></section>'+f'<a class="read-link" href="../../{e["url"]}">← Επιστροφή στη συγκεκριμένη έκδοση</a></article><aside class="side">'+toc+f'<div class="sidebox"><h3>Σχετικές ιστορίες</h3><div class="sourcelinks">{related or "Δεν υπάρχουν επιπλέον σχετικές ιστορίες."}</div></div></aside></div></main></body></html>'
+            p+='<div class="layout"><article class="prose">'+blocks(a)+article_layers(a)+'<section class="section"><h2>Πηγές και χρόνοι αναφοράς</h2>'+source_links(a['sources'])+f'<p>{esc(a.get("evidence_note",""))}</p>'+'<p class="warning">Οι αλυσίδες αναφοράς δείχνουν την προέλευση των πληροφοριών. Αναδημοσιεύσεις του ίδιου πρακτορείου δεν αποτελούν ανεξάρτητη διασταύρωση.</p></section>'+f'<a class="read-link" href="../../{e["url"]}">← Επιστροφή στη συγκεκριμένη έκδοση</a></article><aside class="side">'+toc+f'<div class="sidebox"><h3>Σχετικές ιστορίες</h3><div class="sourcelinks">{related or "Δεν υπάρχουν επιπλέον σχετικές ιστορίες."}</div></div></aside></div></main></body></html>'
             p=p.replace('</main></body>', '<footer class="shell"><a href="'+BASE+'photo-credits.html">Συντελεστές εικόνων</a></footer></main></body>')
             write(ROOT/'docs'/url,p)
             write(ROOT/'docs/data/articles'/e['id']/(a['id']+'.json'),json.dumps(a,ensure_ascii=False,indent=2)+'\n')

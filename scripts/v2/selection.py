@@ -37,6 +37,7 @@ def section(article):
 
 def validate(edition, articles):
     current = edition['status'] == 'published' and edition['date'] >= '2026-10-16'
+    partial = edition.get('availability_policy') == 'partial-v1' and edition['date'] >= '2026-10-22'
     review = edition.get('selection_review')
     if current and coverage_required(edition):
         if not review or review.get('version') != 2:
@@ -53,6 +54,8 @@ def validate(edition, articles):
                 if exception:
                     raise ValueError(f'Remove stale {name} section shortfall after meeting its target')
                 continue
+            if partial:
+                continue  # Publish supported stories without padding or invented shortage research.
             if not exception or len(exception.get('reason', '').strip()) < 40:
                 raise ValueError(f'{name} section needs five distinct stories or an evidence-backed section shortfall')
             sources = exception.get('checked_sources', [])
@@ -74,10 +77,11 @@ def validate(edition, articles):
         if any('sports_interest' not in a for a in sports.values()):
             raise ValueError('Sports articles require explicit sports_interest (DEC-008)')
         extras = edition['sports']['major_stories']
-        if len(extras) > 2:
-            raise ValueError('Select at most two other sports stories')
+        modern = edition.get('date', '') >= '2026-10-21'
+        if len(extras) > (3 if modern else 2):
+            raise ValueError('Select at most three sports stories' if modern else 'Select at most two other sports stories')
         allowed_interests = {'other', 'omonoia', 'manutd', 'realmadrid', 'formula1', 'f1'}
-        if edition.get('edition_mode') or edition.get('date', '') >= '2026-10-21':
+        if modern:
             if any(sports.get(r['article_id'], {}).get('sports_interest') not in allowed_interests for r in extras):
                 raise ValueError('Sports major stories must match supported interests')
         else:

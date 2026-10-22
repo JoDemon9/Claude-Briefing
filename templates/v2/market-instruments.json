@@ -1,0 +1,344 @@
+[
+  {
+    "name": "S&P 500",
+    "instrument": "^GSPC",
+    "currency": "USD",
+    "unit": "μονάδες δείκτη",
+    "market_timezone": "America/New_York",
+    "asset_class": "index",
+    "precision": 2
+  },
+  {
+    "name": "Nasdaq Composite",
+    "instrument": "^IXIC",
+    "currency": "USD",
+    "unit": "μονάδες δείκτη",
+    "market_timezone": "America/New_York",
+    "asset_class": "index",
+    "precision": 2
+  },
+  {
+    "name": "Dow Jones",
+    "instrument": "^DJI",
+    "currency": "USD",
+    "unit": "μονάδες δείκτη",
+    "market_timezone": "America/New_York",
+    "asset_class": "index",
+    "precision": 2
+  },
+  {
+    "name": "STOXX Europe 600",
+    "instrument": "^STOXX",
+    "currency": "EUR",
+    "unit": "μονάδες δείκτη",
+    "market_timezone": "Europe/Zurich",
+    "asset_class": "index",
+    "precision": 2
+  },
+  {
+    "name": "FTSE 100",
+    "instrument": "^FTSE",
+    "currency": "GBP",
+    "unit": "μονάδες δείκτη",
+    "market_timezone": "Europe/London",
+    "asset_class": "index",
+    "precision": 2
+  },
+  {
+    "name": "DAX",
+    "instrument": "^GDAXI",
+    "currency": "EUR",
+    "unit": "μονάδες δείκτη",
+    "market_timezone": "Europe/Berlin",
+    "asset_class": "index",
+    "precision": 2
+  },
+  {
+    "name": "CAC 40",
+    "instrument": "^FCHI",
+    "currency": "EUR",
+    "unit": "μονάδες δείκτη",
+    "market_timezone": "Europe/Paris",
+    "asset_class": "index",
+    "precision": 2
+  },
+  {
+    "name": "Nikkei 225",
+    "instrument": "^N225",
+    "currency": "JPY",
+    "unit": "μονάδες δείκτη",
+    "market_timezone": "Asia/Tokyo",
+    "asset_class": "index",
+    "precision": 2
+  },
+  {
+    "name": "KOSPI",
+    "instrument": "^KS11",
+    "currency": "KRW",
+    "unit": "μονάδες δείκτη",
+    "market_timezone": "Asia/Seoul",
+    "asset_class": "index",
+    "precision": 2
+  },
+  {
+    "name": "S&P 500 futures",
+    "instrument": "ES=F",
+    "currency": "USD",
+    "unit": "μονάδες συμβολαίου",
+    "market_timezone": "America/New_York",
+    "asset_class": "futures_index",
+    "precision": 2
+  },
+  {
+    "name": "Nasdaq 100 futures",
+    "instrument": "NQ=F",
+    "currency": "USD",
+    "unit": "μονάδες συμβολαίου",
+    "market_timezone": "America/New_York",
+    "asset_class": "futures_index",
+    "precision": 2
+  },
+  {
+    "name": "EUR/USD",
+    "instrument": "eurusd",
+    "currency": "USD",
+    "unit": "EUR",
+    "market_timezone": "Europe/London",
+    "asset_class": "fx",
+    "precision": 4
+  },
+  {
+    "name": "Brent · futures",
+    "instrument": "brent",
+    "currency": "USD",
+    "unit": "βαρέλι",
+    "market_timezone": "America/New_York",
+    "asset_class": "futures",
+    "precision": 2
+  },
+  {
+    "name": "Bitcoin",
+    "instrument": "BTC-USD",
+    "currency": "USD",
+    "unit": "BTC",
+    "market_timezone": "UTC",
+    "asset_class": "crypto",
+    "precision": 2
+  },
+  {
+    "name": "TSMC · ADR Νέας Υόρκης",
+    "instrument": "TSM",
+    "currency": "USD",
+    "unit": "ADR",
+    "market_timezone": "America/New_York",
+    "asset_class": "equity",
+    "precision": 2
+  },
+  {
+    "name": "Nvidia",
+    "instrument": "NVDA",
+    "currency": "USD",
+    "unit": "μετοχή",
+    "market_timezone": "America/New_York",
+    "asset_class": "equity",
+    "precision": 2
+  },
+  {
+    "name": "Alphabet · Class A",
+    "instrument": "GOOGL",
+    "currency": "USD",
+    "unit": "μετοχή",
+    "market_timezone": "America/New_York",
+    "asset_class": "equity",
+    "precision": 2
+  },
+  {
+    "name": "Microsoft",
+    "instrument": "MSFT",
+    "currency": "USD",
+    "unit": "μετοχή",
+    "market_timezone": "America/New_York",
+    "asset_class": "equity",
+    "precision": 2
+  },
+  {
+    "name": "Apple",
+    "instrument": "AAPL",
+    "currency": "USD",
+    "unit": "μετοχή",
+    "market_timezone": "America/New_York",
+    "asset_class": "equity",
+    "precision": 2
+  },
+  {
+    "name": "Micron",
+    "instrument": "MU",
+    "currency": "USD",
+    "unit": "μετοχή",
+    "market_timezone": "America/New_York",
+    "asset_class": "equity",
+    "precision": 2
+  },
+  {
+    "name": "Meta",
+    "instrument": "META",
+    "currency": "USD",
+    "unit": "μετοχή",
+    "market_timezone": "America/New_York",
+    "asset_class": "equity",
+    "precision": 2
+  },
+  {
+    "name": "Johnson & Johnson",
+    "instrument": "JNJ",
+    "currency": "USD",
+    "unit": "μετοχή",
+    "market_timezone": "America/New_York",
+    "asset_class": "equity",
+    "precision": 2
+  },
+  {
+    "name": "Goldman Sachs",
+    "instrument": "GS",
+    "currency": "USD",
+    "unit": "μετοχή",
+    "market_timezone": "America/New_York",
+    "asset_class": "equity",
+    "precision": 2
+  },
+  {
+    "name": "ΧΑΚ Γενικός",
+    "currency": "EUR",
+    "unit": "μονάδες δείκτη",
+    "market_timezone": "Europe/Athens",
+    "asset_class": "index",
+    "precision": 2,
+    "instrument": "cse"
+  },
+  {
+    "name": "ΕΚΤ · καταθέσεις · ισχύς 16/09",
+    "instrument": "ecb-deposit",
+    "currency": "EUR",
+    "unit": "% ετησίως",
+    "market_timezone": "Europe/Brussels",
+    "asset_class": "rate",
+    "precision": 3
+  },
+  {
+    "name": "ΕΚΤ · MRO · ισχύς 16/09",
+    "instrument": "ecb-mro",
+    "currency": "EUR",
+    "unit": "% ετησίως",
+    "market_timezone": "Europe/Brussels",
+    "asset_class": "rate",
+    "precision": 3
+  },
+  {
+    "name": "ΕΚΤ · οριακή χρηματοδότηση · ισχύς 16/09",
+    "instrument": "ecb-mlf",
+    "currency": "EUR",
+    "unit": "% ετησίως",
+    "market_timezone": "Europe/Brussels",
+    "asset_class": "rate",
+    "precision": 3
+  },
+  {
+    "name": "Euribor 3 μηνών · fixing 16/10",
+    "instrument": "euribor-3m",
+    "currency": "EUR",
+    "unit": "% ετησίως",
+    "market_timezone": "Europe/Brussels",
+    "asset_class": "rate",
+    "precision": 3
+  },
+  {
+    "name": "Euribor 6 μηνών · fixing 16/10",
+    "instrument": "euribor-6m",
+    "currency": "EUR",
+    "unit": "% ετησίως",
+    "market_timezone": "Europe/Brussels",
+    "asset_class": "rate",
+    "precision": 3
+  },
+  {
+    "name": "Euribor 12 μηνών · fixing 16/10",
+    "instrument": "euribor-12m",
+    "currency": "EUR",
+    "unit": "% ετησίως",
+    "market_timezone": "Europe/Brussels",
+    "asset_class": "rate",
+    "precision": 3
+  },
+  {
+    "name": "Bank of America",
+    "instrument": "BAC",
+    "currency": "USD",
+    "unit": "μετοχή",
+    "market_timezone": "America/New_York",
+    "asset_class": "equity",
+    "precision": 2
+  },
+  {
+    "name": "BlackRock",
+    "instrument": "BLK",
+    "currency": "USD",
+    "unit": "μετοχή",
+    "market_timezone": "America/New_York",
+    "asset_class": "equity",
+    "precision": 2
+  },
+  {
+    "name": "State Street",
+    "instrument": "STT",
+    "currency": "USD",
+    "unit": "μετοχή",
+    "market_timezone": "America/New_York",
+    "asset_class": "equity",
+    "precision": 2
+  },
+  {
+    "name": "Χρυσός · futures",
+    "instrument": "GC=F",
+    "currency": "USD",
+    "unit": "ουγγιά troy",
+    "market_timezone": "America/New_York",
+    "asset_class": "commodity",
+    "precision": 2
+  },
+  {
+    "name": "Ethereum",
+    "instrument": "ETH-USD",
+    "currency": "USD",
+    "unit": "μονάδα",
+    "market_timezone": "UTC",
+    "asset_class": "crypto",
+    "precision": 2
+  },
+  {
+    "name": "Hang Seng",
+    "instrument": "^HSI",
+    "unit": "μονάδες δείκτη",
+    "asset_class": "index",
+    "precision": 2,
+    "currency": "HKD",
+    "market_timezone": "Asia/Hong_Kong"
+  },
+  {
+    "name": "Taiwan Weighted",
+    "instrument": "^TWII",
+    "unit": "μονάδες δείκτη",
+    "asset_class": "index",
+    "precision": 2,
+    "currency": "TWD",
+    "market_timezone": "Asia/Taipei"
+  },
+  {
+    "name": "TSMC · Ταϊβάν",
+    "instrument": "2330.TW",
+    "currency": "TWD",
+    "unit": "TWD/μετοχή",
+    "market_timezone": "Asia/Taipei",
+    "asset_class": "equity",
+    "precision": 2
+  }
+]

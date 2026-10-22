@@ -25,7 +25,9 @@ def record(root,packet_path,checks_path=None,private_root=None,manual_web_calls=
     observation={'before_percent':before,'after_percent':after,'same_window_confirmed':same_window,
         'window_delta_percent':after-before if same_window and before is not None and after is not None and after>=before else None,
         'attribution':'Observed account window only; other activity/rolling resets can prevent edition attribution.'}
-    prompt=root/'templates/v2/task-prompts'/(packet['edition_id'].rsplit('-',1)[-1]+'.txt')
+    slot=packet['edition_id'].rsplit('-',1)[-1]
+    prompt=root/'prompts'/(slot+'.md')
+    if not prompt.exists():prompt=root/'templates/v2/task-prompts'/(slot+'.txt')
     edition_path=root/'content/editions'/(packet['edition_id']+'.json')
     articles=[]
     if edition_path.exists():
