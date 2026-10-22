@@ -529,6 +529,9 @@
         },
         "change_note": {
           "type": "string"
+        },
+        "review_due": {
+          "type": "boolean"
         }
       }
     }
