@@ -1,0 +1,69 @@
+{
+  "headline": "Palantir: το ΝΑΤΟ ελέγχει το Maven χωρίς εξωτερικό «διακόπτη»",
+  "summary": "Η Palantir δήλωσε στο Reuters ότι ούτε η εταιρεία ούτε η αμερικανική κυβέρνηση μπορούν να απενεργοποιήσουν εξ αποστάσεως το Maven Smart System που χρησιμοποιούν το στρατηγείο του ΝΑΤΟ και ευρωπαϊκές ένοπλες δυνάμεις. Η διαβεβαίωση ακολουθεί τους περιορισμούς στο ουκρανικό Starshield, που αναζωπύρωσαν τον φόβο ευρωπαϊκής εξάρτησης από αμερικανική αμυντική τεχνολογία. Το πρακτικό ερώτημα παραμένει ποιοι χειρίζονται τα δεδομένα και με ποιους εθνικούς ελέγχους.",
+  "published_at": "2026-10-22T14:07:43+03:00",
+  "updated_at": "2026-10-22T14:07:43+03:00",
+  "reader_mode": "source",
+  "reader_value": "Η πρωτότυπη πηγή διατηρεί το πλήρες ρεπορτάζ, τα συμφραζόμενα και τις αποδόσεις δηλώσεων.",
+  "evidence_note": "Η πηγή διαβάστηκε στην έρευνα της μεσημεριανής έκδοσης· οι δηλώσεις και τα δεδομένα αποδίδονται ρητά στον φορέα ή το μέσο.",
+  "id": "world-palantir",
+  "story_id": "nato-palantir-maven-control-2026-10-22",
+  "story_identity": "nato-palantir-maven-control-2026-10-22",
+  "edition_id": "2026-10-22-midday",
+  "category": "Διεθνή",
+  "url": "articles/2026-10-22-midday/world-palantir.html",
+  "sources": [
+    {
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/media-telecom/palantir-says-it-cannot-shut-off-nato-ai-system-europeans-fear-us-tech-2026-10-22/",
+      "published_at": "2026-10-22T06:04:02+00:00",
+      "retrieved_at": "2026-10-22T13:40:00+03:00",
+      "reporting_group": "Reuters",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Δημοσιευμένα γεγονότα",
+      "paragraphs": [
+        "Η Palantir δήλωσε στο Reuters ότι ούτε η εταιρεία ούτε η αμερικανική κυβέρνηση μπορούν να απενεργοποιήσουν εξ αποστάσεως το Maven Smart System που χρησιμοποιούν το στρατηγείο του ΝΑΤΟ και ευρωπαϊκές ένοπλες δυνάμεις. Η διαβεβαίωση ακολουθεί τους περιορισμούς στο ουκρανικό Starshield, που αναζωπύρωσαν τον φόβο ευρωπαϊκής εξάρτησης από αμερικανική αμυντική τεχνολογία. Το πρακτικό ερώτημα παραμένει ποιοι χειρίζονται τα δεδομένα και με ποιους εθνικούς ελέγχους."
+      ]
+    }
+  ],
+  "daily": {
+    "priority": 15,
+    "section": "world",
+    "events": [
+      {
+        "id": "2026-10-22-midday-world-palantir-new",
+        "kind": "new",
+        "at": "2026-10-22T06:04:02+00:00",
+        "summary": "Η Palantir διαβεβαίωσε ότι ο πελάτης διατηρεί επιχειρησιακό έλεγχο του Maven χωρίς εξωτερικό διακόπτη.",
+        "source_urls": [
+          "https://www.reuters.com/business/media-telecom/palantir-says-it-cannot-shut-off-nato-ai-system-europeans-fear-us-tech-2026-10-22/"
+        ]
+      }
+    ]
+  },
+  "related_story_ids": [],
+  "image": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Server_Room_%2822397102849%29.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Server_Room_%2822397102849%29.jpg",
+    "caption": "Αίθουσα διακομιστών, 04/11/2015· θεματική φωτογραφία αρχείου για στρατιωτικά συστήματα δεδομένων, όχι το Maven του ΝΑΤΟ.",
+    "alt": "Σειρές διακομιστών σε κέντρο δεδομένων.",
+    "attribution": "Carl Lender",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "retrieved_at": "2026-10-14T13:46:48+03:00",
+    "url": "assets/editorial/2026-10-22-midday/world-palantir.webp",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-14-midday/world-data-centre.webp",
+      "sha256": "80f551bb339467e82e827e82d1d465ea66907fb6a7427249328f7093fe1e8245",
+      "reviewed_at": "2026-10-22T13:45:00+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  }
+}

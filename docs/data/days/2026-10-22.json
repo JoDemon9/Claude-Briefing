@@ -10,14 +10,40 @@
       "type": "morning",
       "url": "morning/2026-10-22.html",
       "published_at": "2026-10-22T08:04:01+03:00"
+    },
+    {
+      "id": "2026-10-22-midday",
+      "type": "midday",
+      "url": "midday/2026-10-22.html",
+      "published_at": "2026-10-22T14:07:43+03:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+  "lead_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
   "stories": [
+    {
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-22T08:18:00+00:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "lead",
+          "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+          "url": "articles/2026-10-22-midday/lead.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-22-midday/lead.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
     {
       "story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
       "first_seen_at": "2026-10-22T08:04:01+03:00",
@@ -38,6 +64,48 @@
       },
       "section": "world",
       "priority": 10
+    },
+    {
+      "story_id": "nato-palantir-maven-control-2026-10-22",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-22T06:04:02+00:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "world-palantir",
+          "source_story_id": "nato-palantir-maven-control-2026-10-22",
+          "url": "articles/2026-10-22-midday/world-palantir.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "world-palantir",
+        "source_story_id": "nato-palantir-maven-control-2026-10-22",
+        "url": "articles/2026-10-22-midday/world-palantir.html"
+      },
+      "section": "world",
+      "priority": 15
+    },
+    {
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-22T10:00:00+00:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "world-meta",
+          "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+          "url": "articles/2026-10-22-midday/world-meta.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "world-meta",
+        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "url": "articles/2026-10-22-midday/world-meta.html"
+      },
+      "section": "world",
+      "priority": 20
     },
     {
       "story_id": "saudi-houthi-defensive-support-2026-10-21",
@@ -61,6 +129,27 @@
       "priority": 20
     },
     {
+      "story_id": "sap-ai-model-origin-sovereignty-2026-10-22",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-22T09:39:00+00:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "world-sap",
+          "source_story_id": "sap-ai-model-origin-sovereignty-2026-10-22",
+          "url": "articles/2026-10-22-midday/world-sap.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "world-sap",
+        "source_story_id": "sap-ai-model-origin-sovereignty-2026-10-22",
+        "url": "articles/2026-10-22-midday/world-sap.html"
+      },
+      "section": "world",
+      "priority": 25
+    },
+    {
       "story_id": "france-bond-yield-five-percent-2026-10-21",
       "first_seen_at": "2026-10-22T08:04:01+03:00",
       "last_substantive_at": null,
@@ -80,6 +169,48 @@
       },
       "section": "world",
       "priority": 30
+    },
+    {
+      "story_id": "starlink-ukraine-control-dispute-2026-10-22",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-22T00:00:00+00:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "world-starlink",
+          "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
+          "url": "articles/2026-10-22-midday/world-starlink.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "world-starlink",
+        "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
+        "url": "articles/2026-10-22-midday/world-starlink.html"
+      },
+      "section": "world",
+      "priority": 30
+    },
+    {
+      "story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-22T12:55:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "cyprus-erhurman",
+          "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+          "url": "articles/2026-10-22-midday/cyprus-erhurman.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-erhurman",
+        "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+        "url": "articles/2026-10-22-midday/cyprus-erhurman.html"
+      },
+      "section": "cyprus",
+      "priority": 40
     },
     {
       "story_id": "ebola-outbreak-nigeria-2026-10-21",
@@ -103,6 +234,27 @@
       "priority": 40
     },
     {
+      "story_id": "2026-10-13-cyprus-1",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-22T11:21:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "cyprus-pensions",
+          "source_story_id": "2026-10-13-cyprus-1",
+          "url": "articles/2026-10-22-midday/cyprus-pensions.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-pensions",
+        "source_story_id": "2026-10-13-cyprus-1",
+        "url": "articles/2026-10-22-midday/cyprus-pensions.html"
+      },
+      "section": "cyprus",
+      "priority": 45
+    },
+    {
       "story_id": "canada-turkey-trade-cooperation-2026-10-22",
       "first_seen_at": "2026-10-22T08:04:01+03:00",
       "last_substantive_at": null,
@@ -124,6 +276,48 @@
       "priority": 50
     },
     {
+      "story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-22T10:32:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "cyprus-court",
+          "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+          "url": "articles/2026-10-22-midday/cyprus-court.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-court",
+        "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+        "url": "articles/2026-10-22-midday/cyprus-court.html"
+      },
+      "section": "cyprus",
+      "priority": 50
+    },
+    {
+      "story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-21T09:00:00+02:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "cyprus-fiscal",
+          "source_story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
+          "url": "articles/2026-10-22-midday/cyprus-fiscal.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-fiscal",
+        "source_story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
+        "url": "articles/2026-10-22-midday/cyprus-fiscal.html"
+      },
+      "section": "cyprus",
+      "priority": 55
+    },
+    {
       "story_id": "eu-rejects-turkey-libya-deal-2026-10-21",
       "first_seen_at": "2026-10-22T08:04:01+03:00",
       "last_substantive_at": null,
@@ -140,6 +334,27 @@
         "article_id": "cyprus-maritime",
         "source_story_id": "eu-rejects-turkey-libya-deal-2026-10-21",
         "url": "articles/2026-10-22-morning/cyprus-maritime.html"
+      },
+      "section": "cyprus",
+      "priority": 60
+    },
+    {
+      "story_id": "limassol-tram-preliminary-study-2026-10-22",
+      "first_seen_at": "2026-10-22T14:07:43+03:00",
+      "last_substantive_at": "2026-10-22T08:57:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-22-midday",
+          "article_id": "cyprus-tram",
+          "source_story_id": "limassol-tram-preliminary-study-2026-10-22",
+          "url": "articles/2026-10-22-midday/cyprus-tram.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-tram",
+        "source_story_id": "limassol-tram-preliminary-study-2026-10-22",
+        "url": "articles/2026-10-22-midday/cyprus-tram.html"
       },
       "section": "cyprus",
       "priority": 60
@@ -230,6 +445,39 @@
     }
   ],
   "updates": [
+    {
+      "id": "2026-10-22-midday-cyprus-fiscal-new",
+      "kind": "new",
+      "at": "2026-10-21T09:00:00+02:00",
+      "summary": "Η δεύτερη κοινοποίηση της Eurostat επιβεβαίωσε πλεόνασμα 3,6% και νέα προσωρινά τριμηνιαία στοιχεία χρέους.",
+      "source_urls": [
+        "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21102026-ap",
+        "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-21102026-bp"
+      ],
+      "story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-fiscal",
+        "source_story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
+        "url": "articles/2026-10-22-midday/cyprus-fiscal.html"
+      }
+    },
+    {
+      "id": "2026-10-22-midday-world-starlink-new",
+      "kind": "new",
+      "at": "2026-10-22T00:00:00+00:00",
+      "summary": "Ο Marco Rubio απέδωσε στη SpaceX τον έλεγχο της ουκρανικής πρόσβασης, ενώ οι δημόσιες εκδοχές παραμένουν αντικρουόμενες.",
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/10/22/ukraines-access-to-starlink-a-decision-for-elon-musk-rubio-says"
+      ],
+      "story_id": "starlink-ukraine-control-dispute-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "world-starlink",
+        "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
+        "url": "articles/2026-10-22-midday/world-starlink.html"
+      }
+    },
     {
       "id": "0b1a2b332fa549b3c47160cb873fda3239ef94792e18696c83ba90a1a56369aa",
       "kind": "provenance",
@@ -369,6 +617,274 @@
         "source_story_id": "abbas-cyprus-visit-2026-10-29",
         "url": "articles/2026-10-22-morning/cyprus-abbas.html"
       }
+    },
+    {
+      "id": "2026-10-22-midday-cyprus-tram-new",
+      "kind": "new",
+      "at": "2026-10-22T08:57:00+03:00",
+      "summary": "Παρουσιάστηκαν προκαταρκτικά εύρη κόστους και η εξέταση λεωφορειολωρίδων, χωρίς απόφαση κατασκευής.",
+      "source_urls": [
+        "https://www.sigmalive.com/news/local/1334431/paroysiastikan-ta-prwta-stoikhia-ghia-tram-sti-lemeso-skhediasmos-kai-kostos"
+      ],
+      "story_id": "limassol-tram-preliminary-study-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-tram",
+        "source_story_id": "limassol-tram-preliminary-study-2026-10-22",
+        "url": "articles/2026-10-22-midday/cyprus-tram.html"
+      }
+    },
+    {
+      "id": "2026-10-22-midday-world-palantir-new",
+      "kind": "new",
+      "at": "2026-10-22T06:04:02+00:00",
+      "summary": "Η Palantir διαβεβαίωσε ότι ο πελάτης διατηρεί επιχειρησιακό έλεγχο του Maven χωρίς εξωτερικό διακόπτη.",
+      "source_urls": [
+        "https://www.reuters.com/business/media-telecom/palantir-says-it-cannot-shut-off-nato-ai-system-europeans-fear-us-tech-2026-10-22/"
+      ],
+      "story_id": "nato-palantir-maven-control-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "world-palantir",
+        "source_story_id": "nato-palantir-maven-control-2026-10-22",
+        "url": "articles/2026-10-22-midday/world-palantir.html"
+      }
+    },
+    {
+      "id": "2026-10-22-midday-cyprus-court-new",
+      "kind": "new",
+      "at": "2026-10-22T10:32:00+03:00",
+      "summary": "Η απόφαση της 21ης Οκτωβρίου έγινε γνωστή στις 22 Οκτωβρίου και διέταξε άμεση αποφυλάκιση.",
+      "source_urls": [
+        "https://www.sigmalive.com/news/local/1334453/paranomi-krithike-i-kratisi-iranou-ghia-12-mines-ti-apofasise-to-anwtato"
+      ],
+      "story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-court",
+        "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+        "url": "articles/2026-10-22-midday/cyprus-court.html"
+      }
+    },
+    {
+      "id": "2026-10-22-midday-lead-new",
+      "kind": "new",
+      "at": "2026-10-22T08:18:00+00:00",
+      "summary": "Νέα πλήγματα στη Σαουδική Αραβία πέρασαν στην τιμή του πετρελαίου και στην αμερικανική διπλωματική παρουσία.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/oil-rises-us-orders-diplomats-leave-saudi-arabia-amid-escalating-tensions-2026-10-22/"
+      ],
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-22-midday/lead.html"
+      }
+    },
+    {
+      "id": "2026-10-22-midday-cyprus-pensions-new",
+      "kind": "substantive_update",
+      "at": "2026-10-22T11:21:00+03:00",
+      "summary": "Ο υπουργός Εργασίας τοποθέτησε τον νομικό έλεγχο έως τη Δευτέρα και το επόμενο Υπουργικό ως τα επόμενα βήματα.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/22/pension-reform-to-be-discussed-in-parliament"
+      ],
+      "story_id": "2026-10-13-cyprus-1",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-pensions",
+        "source_story_id": "2026-10-13-cyprus-1",
+        "url": "articles/2026-10-22-midday/cyprus-pensions.html"
+      }
+    },
+    {
+      "id": "2026-10-22-midday-world-sap-new",
+      "kind": "new",
+      "at": "2026-10-22T09:39:00+00:00",
+      "summary": "Η SAP κατέγραψε την προέλευση μοντέλων AI και τη διακυβέρνηση δεδομένων ως νέους όρους προμήθειας.",
+      "source_urls": [
+        "https://www.reuters.com/world/china/sap-clients-increasingly-worry-about-ai-models-origin-cfo-says-2026-10-22/"
+      ],
+      "story_id": "sap-ai-model-origin-sovereignty-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "world-sap",
+        "source_story_id": "sap-ai-model-origin-sovereignty-2026-10-22",
+        "url": "articles/2026-10-22-midday/world-sap.html"
+      }
+    },
+    {
+      "id": "2026-10-22-midday-cyprus-erhurman-new",
+      "kind": "new",
+      "at": "2026-10-22T12:55:00+03:00",
+      "summary": "Ο Τουφάν Ερχιουρμάν έθεσε δημόσια όρο εκ περιτροπής προεδρίας για άμεση έναρξη επίσημων συνομιλιών.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/22/erhurman-promises-to-start-negotiations-if-christodoulides-accepts-rotating-presidency"
+      ],
+      "story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-erhurman",
+        "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+        "url": "articles/2026-10-22-midday/cyprus-erhurman.html"
+      }
+    },
+    {
+      "id": "2026-10-22-midday-world-meta-new",
+      "kind": "new",
+      "at": "2026-10-22T10:00:00+00:00",
+      "summary": "Τα αποτελέσματα, η σχεδιαζόμενη έκδοση μετοχών χωρίς ψήφο και η δικαστική ποινή άλλαξαν την προσυνεδριακή εικόνα της Meta.",
+      "source_urls": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-22/"
+      ],
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "world-meta",
+        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "url": "articles/2026-10-22-midday/world-meta.html"
+      }
+    },
+    {
+      "id": "03979deada51437a243ee5ea117df8d33cdb2f3ddbdf535e54a30e8860b81651",
+      "kind": "provenance",
+      "at": "2026-10-22T14:07:43+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-22-midday/lead.html"
+      }
+    },
+    {
+      "id": "2e3f8c5f4ed5a004b6f1592b56e5814ca0b46339f8af1f3c2d65a49ea27bb2bc",
+      "kind": "provenance",
+      "at": "2026-10-22T14:07:43+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "starlink-ukraine-control-dispute-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "world-starlink",
+        "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
+        "url": "articles/2026-10-22-midday/world-starlink.html"
+      }
+    },
+    {
+      "id": "4d94e878599ddb6a0b17864fcf5e1f5c0eb09fbfd0f32e7b7854386cacf3f278",
+      "kind": "provenance",
+      "at": "2026-10-22T14:07:43+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-tram-preliminary-study-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-tram",
+        "source_story_id": "limassol-tram-preliminary-study-2026-10-22",
+        "url": "articles/2026-10-22-midday/cyprus-tram.html"
+      }
+    },
+    {
+      "id": "605c7a532c15ea976509dceed35b2d950cbb5682589cfd260e385bb47e6c9fb8",
+      "kind": "provenance",
+      "at": "2026-10-22T14:07:43+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-court",
+        "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+        "url": "articles/2026-10-22-midday/cyprus-court.html"
+      }
+    },
+    {
+      "id": "66ce60abcf56bbe276009ea869d8c944a85ae7e6d36e49870e860ed92719f031",
+      "kind": "provenance",
+      "at": "2026-10-22T14:07:43+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "sap-ai-model-origin-sovereignty-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "world-sap",
+        "source_story_id": "sap-ai-model-origin-sovereignty-2026-10-22",
+        "url": "articles/2026-10-22-midday/world-sap.html"
+      }
+    },
+    {
+      "id": "821364a681a20b0244db1d379e1cc269e986537cdafa41b569c86c95dceb82fb",
+      "kind": "provenance",
+      "at": "2026-10-22T14:07:43+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "nato-palantir-maven-control-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "world-palantir",
+        "source_story_id": "nato-palantir-maven-control-2026-10-22",
+        "url": "articles/2026-10-22-midday/world-palantir.html"
+      }
+    },
+    {
+      "id": "936025cadb578d3eebd493b9bc811f74963ee3392cf97f3014fc0f740eaa30c2",
+      "kind": "provenance",
+      "at": "2026-10-22T14:07:43+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-erhurman",
+        "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+        "url": "articles/2026-10-22-midday/cyprus-erhurman.html"
+      }
+    },
+    {
+      "id": "dcb4ed2921a15cc9020171de6692b88a6f79166f2dcc94a97c7523929eed6ac1",
+      "kind": "provenance",
+      "at": "2026-10-22T14:07:43+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-cyprus-1",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-pensions",
+        "source_story_id": "2026-10-13-cyprus-1",
+        "url": "articles/2026-10-22-midday/cyprus-pensions.html"
+      }
+    },
+    {
+      "id": "fcfc47e81af1c2c75b065a82ce9ee5eb0e3ea4e7d4c0a226617f96a476acdc93",
+      "kind": "provenance",
+      "at": "2026-10-22T14:07:43+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "cyprus-fiscal",
+        "source_story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
+        "url": "articles/2026-10-22-midday/cyprus-fiscal.html"
+      }
+    },
+    {
+      "id": "fff3d6deb05e94fda8a168c7127f472e82d7d87b16a8427b36594f28c84184f4",
+      "kind": "provenance",
+      "at": "2026-10-22T14:07:43+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-22-midday",
+        "article_id": "world-meta",
+        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "url": "articles/2026-10-22-midday/world-meta.html"
+      }
     }
   ],
   "opportunities": [
@@ -445,46 +961,36 @@
       "change_note": "Αναγνώστηκαν τα επίσημα κριτήρια και οι ημερομηνίες του τρέχοντος συλλεγμένου οδηγού: 4/11 17:00 Βρυξελλών, πλήρης πρόταση μετά από GO. Δεν διαπιστώθηκε αλλαγή όρων."
     },
     {
-      "verified_at": "2026-10-20T04:48:18.157Z",
-      "opens_at": "2026-10-20T09:00:00+03:00",
-      "deadline": "2026-12-30T23:59:00+02:00",
-      "deadline_type": "fixed",
-      "application_kind": "form",
       "id": "cy-home-energy-2026",
+      "review_due": true,
       "kind": "grant",
       "status": "needs_verification",
-      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
-      "title": "Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026",
-      "summary": "Ενεργειακή αναβάθμιση υφιστάμενων κατοικιών. Η προετοιμασία αρχίζει με Πιστοποιητικό Ενεργειακής Απόδοσης, πριν από τις επιλέξιμες εργασίες.",
-      "eligibility": "Φυσικά πρόσωπα, μία αίτηση. Κατοικία και οικιακός λογαριασμός ΑΗΚ σε φυσικό πρόσωπο· σύνδεση πριν από 1/1/2008 ή αίτηση άδειας πριν από 21/12/2007. Ισχύουν οι πλήρεις όροι του οδηγού.",
-      "support": "Έως €32.000 για τύπο Α (σχεδόν μηδενική κατανάλωση), έως €24.000 για τύπο Β· απαιτείται εξοικονόμηση ενέργειας τουλάχιστον 60%.",
-      "deadline_note": "Έως 30/12 23:59 Κύπρου ή νωρίτερα με εξάντληση προϋπολογισμού· σειρά υποβολής. Ο οδηγός επιτρέπει υπό όρους και παλαιότερο ΠΕΑ με επιβεβαιωτική επίσκεψη εμπειρογνώμονα μετά τις 15/5/2026. Δεν επιτρέπεται ολοκλήρωση όλων των εργασιών πριν από την αίτηση.",
-      "action": "Πριν από οποιαδήποτε αίτηση, επιβεβαίωσε στην επίσημη πύλη αν δέχεται υποβολές και αν παραμένει διαθέσιμος προϋπολογισμός.",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "deadline": "2026-12-30T23:59:00+02:00",
+      "deadline_type": "fixed",
+      "deadline_note": "Έως 30/12/2026 ή μέχρι εξαντλήσεως προϋπολογισμού.",
+      "application_kind": "form",
       "application_url": "https://fundingapps.meci.gov.cy",
+      "action": "Υποβολή ηλεκτρονικών αιτήσεων μέσω του ενιαίου κυβερνητικού portal.",
+      "verified_at": "2026-10-21T20:15:00+03:00",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "change_note": "Στον έλεγχο της 22/10 στις 13:34 η σελίδα αιτήσεων δεν ήταν προσβάσιμη και η κεντρική σελίδα δεν παρείχε αναγνώσιμη νέα επιβεβαίωση. Διατηρείται needs_verification και ο αρχικός χρόνος επαλήθευσης.",
       "sources": [
         {
-          "publisher": "ΥΕΕΒ · πρόσκληση",
-          "url": "https://www.industry.gov.cy/gr/%CE%B5%CE%BD%CE%B7%CE%BC%CE%AD%CF%81%CF%89%CF%83%CE%B7/%CE%B1%CE%BD%CE%B1%CE%BA%CE%BF%CE%B9%CE%BD%CF%8E%CF%83%CE%B5%CE%B9%CF%82/2-%CF%83%CF%87%CE%AD%CE%B4%CE%B9%CE%BF-%CF%87%CE%BF%CF%81%CE%B7%CE%B3%CE%B9%CF%8E%CE%BD-%CE%B5%CE%BE%CE%BF%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CF%8E-%E2%80%93-%CE%B1%CE%BD%CE%B1%CE%B2%CE%B1%CE%B8%CE%BC%CE%AF%CE%B6%CF%89-%CF%83%CF%84%CE%B9%CF%82-%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B5%CF%82-2026",
+          "publisher": "ΥΕΕΒ",
+          "url": "https://www.industry.gov.cy",
           "published_at": "2026-09-30",
-          "retrieved_at": "2026-10-19T13:12:38.158160+00:00",
-          "reporting_group": "ΥΕΕΒ · πρόσκληση",
-          "kind": "primary",
-          "access": "read",
-          "used_for_claims": true
-        },
-        {
-          "publisher": "ΥΕΕΒ · Οδηγός V4.0",
-          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202609/137/docs/odigosv2.pdf",
-          "published_at": null,
-          "retrieved_at": "2026-10-20T04:48:18.157Z",
-          "reporting_group": "ΥΕΕΒ · Οδηγός V4.0",
+          "retrieved_at": "2026-10-21T20:15:00+03:00",
+          "reporting_group": "ΥΕΕΒ",
           "kind": "primary",
           "access": "read",
           "used_for_claims": true
         }
-      ],
-      "change_note": "Διατηρούνται οι αναλυτικοί όροι του ελέγχου 20/10. Η σημερινή απόπειρα πρόσβασης στην πύλη απέτυχε· δεν επιβεβαιώνεται τρέχουσα αποδοχή αιτήσεων.",
-      "review_due": true
+      ]
     },
     {
       "verified_at": "2026-10-16T20:32:42+03:00",
@@ -544,15 +1050,16 @@
       "deadline_type": "rolling",
       "application_kind": "form",
       "id": "eu-erasmus-new-entrepreneurs",
+      "review_due": true,
       "kind": "benefit",
-      "status": "needs_verification",
+      "status": "open",
       "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
       "title": "Erasmus for Young Entrepreneurs",
       "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
       "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
       "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
       "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
-      "action": "Επιβεβαίωσε με τον επίσημο ενδιάμεσο οργανισμό τους τρέχοντες όρους πριν από αίτηση.",
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
       "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
       "sources": [
         {
@@ -576,44 +1083,62 @@
           "used_for_claims": true
         }
       ],
-      "change_note": "Η πύλη εγγραφής ανακτήθηκε σήμερα, αλλά οι αναλυτικές σελίδες κριτηρίων και προθεσμίας δεν απάντησαν. Οι όροι παραμένουν ως παλιότερο πλαίσιο με αρχικό verified_at.",
-      "review_due": true
+      "change_note": "Η ηλεκτρονική πύλη παρέμενε διαθέσιμη στις 22/10, αλλά οι αναλυτικές επίσημες σελίδες όρων δεν ήταν προσβάσιμες στον επανέλεγχο. Διατηρούνται οι όροι και ο αρχικός verified_at χωρίς τεχνητή ανανέωση."
     }
   ],
   "overview": {
     "kind": "reviewed",
     "points": [
       {
-        "text": "Ρωσία και Ουκρανία αντάλλαξαν νέα κύματα πληγμάτων μετά την τελευταία αμερικανική μεσολάβηση, χωρίς ένδειξη επιχειρησιακής αποκλιμάκωσης.",
+        "text": "Οι πρωινές επιθέσεις Ρωσίας–Ουκρανίας δεν έδειξαν αποκλιμάκωση, ενώ το μεσημέρι νέα πλήγματα στη Σαουδική Αραβία ανέβασαν το Brent πάνω από τα $112 και αύξησαν το περιφερειακό ρίσκο.",
         "story_ids": [
-          "ukraine-russia-strikes-after-us-talks-2026-10-22"
+          "ukraine-russia-strikes-after-us-talks-2026-10-22",
+          "middle-east-oil-saudi-escalation-2026-10-22"
         ]
       },
       {
-        "text": "Η κρίση γύρω από τη Σαουδική Αραβία βαθαίνει: η δυτική στήριξη παραμένει αμυντική, ενώ επίθεση των Χούθι στη Σάμπουα άφησε 73 νεκρούς σύμφωνα με τοπικές αρχές.",
+        "text": "Η Palantir διαβεβαίωσε ότι το ΝΑΤΟ ελέγχει το Maven χωρίς εξωτερικό διακόπτη· παράλληλα, παραμένουν αντικρουόμενες οι εκδοχές για τον περιορισμό του ουκρανικού Starlink.",
         "story_ids": [
-          "saudi-houthi-defensive-support-2026-10-21"
+          "nato-palantir-maven-control-2026-10-22",
+          "starlink-ukraine-control-dispute-2026-10-22"
         ]
       },
       {
-        "text": "Οι αποδόσεις του γαλλικού δεκαετούς άγγιξαν το 5%, ενώ η έξαρση Έμπολα επεκτάθηκε στη Νιγηρία και απαιτεί ενισχυμένη ιχνηλάτηση.",
+        "text": "Η Meta αντιμετωπίζει ταυτόχρονα ανησυχίες για κεφαλαιουχικές δαπάνες AI και δικαστική ποινή $25 δισ., ενώ η SAP βλέπει την προέλευση των μοντέλων να γίνεται όρος προμήθειας.",
         "story_ids": [
-          "france-bond-yield-five-percent-2026-10-21",
-          "ebola-outbreak-nigeria-2026-10-21"
+          "meta-new-mexico-penalty-ai-spending-2026-10-22",
+          "sap-ai-model-origin-sovereignty-2026-10-22"
         ]
       },
       {
-        "text": "Στην Κύπρο, οι 27 απέρριψαν το τουρκολιβυκό μνημόνιο, η Βουλή ερευνά διαρροή προσωπικών δεδομένων και η Μετεωρολογική Υπηρεσία προειδοποιεί για αραιή σκόνη.",
+        "text": "Στο Κυπριακό, ο Ερχιουρμάν συνέδεσε την άμεση έναρξη επίσημων συνομιλιών με άνευ όρων αποδοχή της εκ περιτροπής προεδρίας· αναμένεται αντίδραση Λευκωσίας και ΟΗΕ.",
         "story_ids": [
-          "eu-rejects-turkey-libya-deal-2026-10-21",
-          "cyprus-parliament-data-leak-2026-10-21",
-          "cyprus-dust-forecast-2026-10-22"
+          "cyprus-erhurman-rotating-presidency-2026-10-22"
+        ]
+      },
+      {
+        "text": "Η Eurostat επιβεβαίωσε πλεόνασμα 3,6% του ΑΕΠ για την Κύπρο το 2025 και τη μεγαλύτερη τριμηνιαία μείωση λόγου χρέους στην ΕΕ στο β΄ τρίμηνο του 2026.",
+        "story_ids": [
+          "cyprus-fiscal-surplus-debt-2026-10-21"
+        ]
+      },
+      {
+        "text": "Η συνταξιοδοτική μεταρρύθμιση οδεύει προς νομικό έλεγχο και Υπουργικό, ενώ η προκαταρκτική μελέτη τραμ Λεμεσού δεν αποτελεί ακόμη απόφαση κατασκευής.",
+        "story_ids": [
+          "2026-10-13-cyprus-1",
+          "limassol-tram-preliminary-study-2026-10-22"
         ]
       }
     ]
   },
-  "follow_ups": [],
+  "follow_ups": [
+    {
+      "from_story_id": "saudi-houthi-defensive-support-2026-10-21",
+      "to_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "reviewed_in": "2026-10-22-midday"
+    }
+  ],
   "created_at": "2026-10-22T05:14:20.680356+00:00",
-  "updated_at": "2026-10-22T05:14:20.680356+00:00",
-  "input_sha256": "48e8044335177518717207402da7e4aec6558337a6228d59a08bd3a94ba927be"
+  "updated_at": "2026-10-22T11:09:36.014700+00:00",
+  "input_sha256": "2e24c8901585f35902d857ee2917fe500b7ec0d37e3a33e6017354a79b54db94"
 }

@@ -538,6 +538,52 @@
       "coverage": "structured"
     },
     {
+      "edition_id": "2026-10-22-midday",
+      "as_of": "2026-10-22T14:07:43+03:00",
+      "records": [
+        {
+          "owner": "2026-10-22-midday",
+          "id": "weather-2026-10-22-midday",
+          "kind": "weather",
+          "label": "Πρόγνωση Λεμεσού και παραλίων",
+          "checked_at": "2026-10-22T13:34:15+03:00",
+          "valid_from": "2026-10-22T06:00:00+03:00",
+          "valid_until": "2026-10-23T06:00:00+03:00",
+          "recheck_at": "2026-10-22T19:00:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_a.html"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-22-midday",
+          "id": "warnings-2026-10-22-midday",
+          "kind": "recheck",
+          "label": "Κατάσταση προειδοποιήσεων Agromet",
+          "checked_at": "2026-10-22T13:40:00+03:00",
+          "recheck_at": "2026-10-22T19:00:00+03:00",
+          "sources": [
+            "https://agromet.dom.org.cy/"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-22-midday",
+          "id": "wall-street-open-2026-10-22",
+          "kind": "event",
+          "label": "Άνοιγμα τακτικής συνεδρίασης ΗΠΑ",
+          "checked_at": "2026-10-22T13:40:00+03:00",
+          "starts_at": "2026-10-22T16:30:00+03:00",
+          "recheck_at": "2026-10-22T16:35:00+03:00",
+          "sources": [
+            "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-22/"
+          ],
+          "state": "upcoming"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
       "edition_id": "2026-10-22-morning",
       "as_of": "2026-10-22T08:04:01+03:00",
       "records": [

@@ -164,6 +164,13 @@
       "url": "evening/2026-10-21.html"
     },
     {
+      "id": "2026-10-22-midday",
+      "date": "2026-10-22",
+      "type": "midday",
+      "published_at": "2026-10-22T14:07:43+03:00",
+      "url": "midday/2026-10-22.html"
+    },
+    {
       "id": "2026-10-22-morning",
       "date": "2026-10-22",
       "type": "morning",
@@ -6115,6 +6122,284 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-21-evening/sport-euroleague.webp"
+    },
+    {
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "identity": "middle-east-oil-saudi-escalation-2026-10-22",
+      "edition_id": "2026-10-22-midday",
+      "date": "2026-10-22",
+      "slot": "midday",
+      "published_at": "2026-10-22T14:07:43+03:00",
+      "available_at": "2026-10-22T14:07:43+03:00",
+      "headline": "Νέα πλήγματα στη Σαουδική Αραβία εκτοξεύουν το Brent πάνω από τα $112",
+      "finding": "Το Brent ενισχύθηκε κατά 3,08% στα 112,17 δολάρια το βαρέλι στις 11:18 ώρα Κύπρου, μετά από νέα πλήγματα των Χούθι στη Σαουδική Αραβία. Το Reuters κατέγραψε έναν νεκρό και οκτώ τραυματίες σε πολιτικό αεροδρόμιο στο Νταμάμ και δύο νεκρούς σε πετρελαϊκό πεδίο. Οι ΗΠΑ διέταξαν αποχώρηση μέρους του διπλωματικού προσωπικού και οικογενειών· το άμεσο ρίσκο είναι κλιμάκωση και διαταραχή των περιφερειακών εξαγωγών πετρελαίου.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-10-22-midday/lead.json",
+      "reader_url": "articles/2026-10-22-midday/lead.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/business/energy/oil-rises-us-orders-diplomats-leave-saudi-arabia-amid-escalating-tensions-2026-10-22/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-22T00:46:50+00:00",
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-midday/lead.webp"
+    },
+    {
+      "story_id": "nato-palantir-maven-control-2026-10-22",
+      "identity": "nato-palantir-maven-control-2026-10-22",
+      "edition_id": "2026-10-22-midday",
+      "date": "2026-10-22",
+      "slot": "midday",
+      "published_at": "2026-10-22T14:07:43+03:00",
+      "available_at": "2026-10-22T14:07:43+03:00",
+      "headline": "Palantir: το ΝΑΤΟ ελέγχει το Maven χωρίς εξωτερικό «διακόπτη»",
+      "finding": "Η Palantir δήλωσε στο Reuters ότι ούτε η εταιρεία ούτε η αμερικανική κυβέρνηση μπορούν να απενεργοποιήσουν εξ αποστάσεως το Maven Smart System που χρησιμοποιούν το στρατηγείο του ΝΑΤΟ και ευρωπαϊκές ένοπλες δυνάμεις. Η διαβεβαίωση ακολουθεί τους περιορισμούς στο ουκρανικό Starshield, που αναζωπύρωσαν τον φόβο ευρωπαϊκής εξάρτησης από αμερικανική αμυντική τεχνολογία. Το πρακτικό ερώτημα παραμένει ποιοι χειρίζονται τα δεδομένα και με ποιους εθνικούς ελέγχους.",
+      "section": "world",
+      "priority": 15,
+      "article_path": "articles/2026-10-22-midday/world-palantir.json",
+      "reader_url": "articles/2026-10-22-midday/world-palantir.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/business/media-telecom/palantir-says-it-cannot-shut-off-nato-ai-system-europeans-fear-us-tech-2026-10-22/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-22T06:04:02+00:00",
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-midday/world-palantir.webp"
+    },
+    {
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "identity": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "edition_id": "2026-10-22-midday",
+      "date": "2026-10-22",
+      "slot": "midday",
+      "published_at": "2026-10-22T14:07:43+03:00",
+      "available_at": "2026-10-22T14:07:43+03:00",
+      "headline": "Meta: ισχυρά έσοδα, αλλά πρόστιμο $25 δισ. και νέος φόβος για τις δαπάνες AI",
+      "finding": "Η Meta ξεπέρασε τις προσδοκίες εσόδων στο τρίτο τρίμηνο, όμως η ανακοίνωση σχεδίου έκδοσης μετοχών χωρίς δικαίωμα ψήφου αναζωπύρωσε την ανησυχία για τις κεφαλαιουχικές δαπάνες της. Παράλληλα, δικαστής στο Νέο Μεξικό διέταξε την εταιρεία να καταβάλει 25 δισ. δολάρια σε υπόθεση προστασίας δεδομένων. Στις 13:30 ώρα Κύπρου η μετοχή υποχωρούσε περίπου 0,8% πριν από το άνοιγμα της Wall Street, όχι σε ολοκληρωμένη συνεδρίαση.",
+      "section": "world",
+      "priority": 20,
+      "article_path": "articles/2026-10-22-midday/world-meta.json",
+      "reader_url": "articles/2026-10-22-midday/world-meta.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-22/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-22T10:00:00+00:00",
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-midday/world-meta.webp"
+    },
+    {
+      "story_id": "sap-ai-model-origin-sovereignty-2026-10-22",
+      "identity": "sap-ai-model-origin-sovereignty-2026-10-22",
+      "edition_id": "2026-10-22-midday",
+      "date": "2026-10-22",
+      "slot": "midday",
+      "published_at": "2026-10-22T14:07:43+03:00",
+      "available_at": "2026-10-22T14:07:43+03:00",
+      "headline": "SAP: η προέλευση των μοντέλων AI γίνεται όρος αγοράς για κυβερνήσεις και επιχειρήσεις",
+      "finding": "Πελάτες της SAP ζητούν πλέον να γνωρίζουν πού αναπτύχθηκε η τεχνητή νοημοσύνη που ενσωματώνεται στο επιχειρηματικό λογισμικό τους, δήλωσε ο οικονομικός διευθυντής Dominik Asam στο Reuters. Η SAP χρησιμοποιεί περισσότερα από 70 μοντέλα διαφορετικών παρόχων, ενώ εξαγωγικοί περιορισμοί και απαιτήσεις κυριαρχίας δεδομένων επηρεάζουν τις επιλογές. Για τους δημόσιους και αμυντικούς πελάτες, η καταγωγή του μοντέλου και η διαδρομή των δεδομένων γίνονται πλέον κριτήρια προμήθειας.",
+      "section": "world",
+      "priority": 25,
+      "article_path": "articles/2026-10-22-midday/world-sap.json",
+      "reader_url": "articles/2026-10-22-midday/world-sap.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/china/sap-clients-increasingly-worry-about-ai-models-origin-cfo-says-2026-10-22/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-22T09:39:00+00:00",
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-midday/world-sap.webp"
+    },
+    {
+      "story_id": "starlink-ukraine-control-dispute-2026-10-22",
+      "identity": "starlink-ukraine-control-dispute-2026-10-22",
+      "edition_id": "2026-10-22-midday",
+      "date": "2026-10-22",
+      "slot": "midday",
+      "published_at": "2026-10-22T14:07:43+03:00",
+      "available_at": "2026-10-22T14:07:43+03:00",
+      "headline": "Rubio: η πρόσβαση της Ουκρανίας στο Starlink είναι απόφαση της SpaceX",
+      "finding": "Ο Αμερικανός υπουργός Εξωτερικών Marco Rubio δήλωσε ότι οι αποφάσεις για την πρόσβαση της Ουκρανίας στο Starlink ανήκουν στη SpaceX και τον Elon Musk, αρνούμενος ευθύνη του Λευκού Οίκου. Η δήλωση ακολουθεί αναφορές ότι το στρατιωτικό Starshield περιορίστηκε σε ταχέως κινούμενες πλατφόρμες, δυσχεραίνοντας ουκρανικές αναχαιτίσεις. Οι εκδοχές Ουάσιγκτον, SpaceX και ουκρανικών αξιωματούχων παραμένουν αντικρουόμενες· δεν έχει δημοσιοποιηθεί ανεξάρτητη τεχνική τεκμηρίωση της εντολής.",
+      "section": "world",
+      "priority": 30,
+      "article_path": "articles/2026-10-22-midday/world-starlink.json",
+      "reader_url": "articles/2026-10-22-midday/world-starlink.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/22/ukraines-access-to-starlink-a-decision-for-elon-musk-rubio-says",
+          "publisher": "Al Jazeera · AP/Reuters",
+          "reporting_group": "Al Jazeera · AP/Reuters",
+          "published_at": "2026-10-22T00:00:00+00:00",
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-midday/world-starlink.webp"
+    },
+    {
+      "story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+      "identity": "cyprus-erhurman-rotating-presidency-2026-10-22",
+      "edition_id": "2026-10-22-midday",
+      "date": "2026-10-22",
+      "slot": "midday",
+      "published_at": "2026-10-22T14:07:43+03:00",
+      "available_at": "2026-10-22T14:07:43+03:00",
+      "headline": "Ερχιουρμάν: άμεσες συνομιλίες αν γίνει άνευ όρων αποδεκτή η εκ περιτροπής προεδρία",
+      "finding": "Ο Τουρκοκύπριος ηγέτης Τουφάν Ερχιουρμάν δήλωσε ότι θα δεχθεί αμέσως την έναρξη επίσημων διαπραγματεύσεων, εάν ο Πρόεδρος Νίκος Χριστοδουλίδης αποδεχθεί ρητά και άνευ όρων την εκ περιτροπής προεδρία σε ενδεχόμενη λύση. Είπε ότι το ζήτημα τέθηκε στη Νέα Υόρκη και ότι δεν έλαβε απάντηση. Πρόκειται για νέα δημόσια προϋπόθεση της τουρκοκυπριακής πλευράς· αναμένεται επίσημη αντίδραση της Λευκωσίας και του ΟΗΕ.",
+      "section": "cyprus",
+      "priority": 40,
+      "article_path": "articles/2026-10-22-midday/cyprus-erhurman.json",
+      "reader_url": "articles/2026-10-22-midday/cyprus-erhurman.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/22/erhurman-promises-to-start-negotiations-if-christodoulides-accepts-rotating-presidency",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-22T12:55:00+03:00",
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-midday/cyprus-erhurman.webp"
+    },
+    {
+      "story_id": "2026-10-13-cyprus-1",
+      "identity": "2026-10-13-cyprus-1",
+      "edition_id": "2026-10-22-midday",
+      "date": "2026-10-22",
+      "slot": "midday",
+      "published_at": "2026-10-22T14:07:43+03:00",
+      "available_at": "2026-10-22T14:07:43+03:00",
+      "headline": "Συνταξιοδοτική μεταρρύθμιση: στόχος το επόμενο Υπουργικό μετά τον νομικό έλεγχο",
+      "finding": "Ο υπουργός Εργασίας Μαρίνος Μουσιούττας δήλωσε ότι ο νομικός έλεγχος των νομοσχεδίων για τη συνταξιοδοτική μεταρρύθμιση αναμένεται να ολοκληρωθεί έως τη Δευτέρα. Στόχος είναι να ακολουθήσει εξέταση στο επόμενο Υπουργικό Συμβούλιο και μετά διαβίβαση στη Βουλή. Οι εργοδοτικές οργανώσεις έχουν ήδη υποβάλει θέσεις για τον δεύτερο πυλώνα, ενώ οι συντεχνίες ολοκληρώνουν τις δικές τους. Η μεταρρύθμιση δεν έχει ακόμη εγκριθεί ή ψηφιστεί.",
+      "section": "cyprus",
+      "priority": 45,
+      "article_path": "articles/2026-10-22-midday/cyprus-pensions.json",
+      "reader_url": "articles/2026-10-22-midday/cyprus-pensions.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/22/pension-reform-to-be-discussed-in-parliament",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-22T11:21:00+03:00",
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-midday/cyprus-pensions.webp"
+    },
+    {
+      "story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+      "identity": "cyprus-iranian-detention-habeas-2026-10-21",
+      "edition_id": "2026-10-22-midday",
+      "date": "2026-10-22",
+      "slot": "midday",
+      "published_at": "2026-10-22T14:07:43+03:00",
+      "available_at": "2026-10-22T14:07:43+03:00",
+      "headline": "Ανώτατο: άμεση αποφυλάκιση Ιρανού μετά από 12 μήνες κράτησης",
+      "finding": "Το Ανώτατο Δικαστήριο ενέκρινε αίτηση habeas corpus και διέταξε την άμεση απελευθέρωση Ιρανού υπηκόου που κρατείτο επί 12 μήνες ενόψει απέλασης. Έκρινε ότι οι αναφορές των αρχών για τις ενέργειες επιστροφής ήταν ασαφείς και δεν τεκμηρίωναν ούτε τη δέουσα επιμέλεια ούτε ρεαλιστική προοπτική απέλασης. Η απόφαση αφορά τη νομιμότητα της παρατεταμένης κράτησης στη συγκεκριμένη υπόθεση και όχι γενική ακύρωση της διαδικασίας επιστροφής.",
+      "section": "cyprus",
+      "priority": 50,
+      "article_path": "articles/2026-10-22-midday/cyprus-court.json",
+      "reader_url": "articles/2026-10-22-midday/cyprus-court.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1334453/paranomi-krithike-i-kratisi-iranou-ghia-12-mines-ti-apofasise-to-anwtato",
+          "publisher": "SigmaLive",
+          "reporting_group": "SigmaLive",
+          "published_at": "2026-10-22T10:32:00+03:00",
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-midday/cyprus-court.webp"
+    },
+    {
+      "story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
+      "identity": "cyprus-fiscal-surplus-debt-2026-10-21",
+      "edition_id": "2026-10-22-midday",
+      "date": "2026-10-22",
+      "slot": "midday",
+      "published_at": "2026-10-22T14:07:43+03:00",
+      "available_at": "2026-10-22T14:07:43+03:00",
+      "headline": "Eurostat: πλεόνασμα 3,6% το 2025 και η μεγαλύτερη τριμηνιαία πτώση χρέους στην ΕΕ",
+      "finding": "Η Eurostat κατέγραψε για την Κύπρο δημοσιονομικό πλεόνασμα 3,6% του ΑΕΠ το 2025, το υψηλότερο στην ΕΕ. Στο δεύτερο τρίμηνο του 2026, ο λόγος δημόσιου χρέους μειώθηκε κατά 3 ποσοστιαίες μονάδες έναντι του πρώτου τριμήνου και κατά 9,5 μονάδες σε ετήσια βάση, τις μεγαλύτερες μειώσεις στην Ένωση. Τα στοιχεία είναι ελεγμένα για το 2025 αλλά τα τριμηνιαία δεδομένα του 2026 παραμένουν προσωρινά.",
+      "section": "cyprus",
+      "priority": 55,
+      "article_path": "articles/2026-10-22-midday/cyprus-fiscal.json",
+      "reader_url": "articles/2026-10-22-midday/cyprus-fiscal.html",
+      "sources": [
+        {
+          "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-21102026-ap",
+          "publisher": "Eurostat",
+          "reporting_group": "Eurostat",
+          "published_at": null,
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "primary"
+        },
+        {
+          "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-21102026-bp",
+          "publisher": "Eurostat",
+          "reporting_group": "Eurostat",
+          "published_at": null,
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-midday/cyprus-fiscal.webp"
+    },
+    {
+      "story_id": "limassol-tram-preliminary-study-2026-10-22",
+      "identity": "limassol-tram-preliminary-study-2026-10-22",
+      "edition_id": "2026-10-22-midday",
+      "date": "2026-10-22",
+      "slot": "midday",
+      "published_at": "2026-10-22T14:07:43+03:00",
+      "available_at": "2026-10-22T14:07:43+03:00",
+      "headline": "Τραμ Λεμεσού: προκαταρκτική μελέτη με κόστος €25–95 εκατ. ανά χιλιόμετρο",
+      "finding": "Προκαταρκτική μελέτη εξετάζει αν δίκτυο τραμ μπορεί να μειώσει το κυκλοφοριακό στη Λεμεσό. Ο δήμαρχος Γιάννης Αρμεύτης είπε ότι τα πρώτα στοιχεία παρουσιάστηκαν στην υπουργό Μεταφορών στις 19 Οκτωβρίου και ότι μελετάται ακόμη και αξιοποίηση λεωφορειολωρίδων. Το εκτιμώμενο κόστος κυμαίνεται από 25 έως 95 εκατ. ευρώ ανά χιλιόμετρο, ανάλογα με την τεχνολογία. Δεν υπάρχει ακόμη απόφαση κατασκευής, διαδρομή, χρηματοδότηση ή τελικό χρονοδιάγραμμα.",
+      "section": "cyprus",
+      "priority": 60,
+      "article_path": "articles/2026-10-22-midday/cyprus-tram.json",
+      "reader_url": "articles/2026-10-22-midday/cyprus-tram.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1334431/paroysiastikan-ta-prwta-stoikhia-ghia-tram-sti-lemeso-skhediasmos-kai-kostos",
+          "publisher": "SigmaLive",
+          "reporting_group": "SigmaLive",
+          "published_at": "2026-10-22T08:57:00+03:00",
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-22-midday/cyprus-tram.webp"
     },
     {
       "story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
