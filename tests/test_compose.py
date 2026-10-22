@@ -7,6 +7,7 @@ import tempfile
 import unittest
 from unittest import mock
 from bs4 import BeautifulSoup
+from jsonschema import Draft202012Validator, FormatChecker, ValidationError
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -181,14 +182,27 @@ class ComposeTests(unittest.TestCase):
         self.assertEqual(next(a for a in docs if a['id']==raw['slug'])['sports_interest'],'formula1')
 
     def test_due_opportunities_are_archival_without_refreshing_verified_time(self):
-        edition, _, _=compose.compile_payload(current_slot(self.payload),ROOT)
+        edition, articles, _=compose.compile_payload(current_slot(self.payload),ROOT)
         original=self.payload['opportunities'][0]
         record=edition['opportunities'][0]
         self.assertEqual(record['verified_at'],original['verified_at'])
-        if record.get('review_due'):
-            doc=BeautifulSoup(load('opportunities').render(build,[record]),'html.parser')
-            self.assertFalse(doc.select('.opportunity-apply'))
-            self.assertIn('Παλιότερη ενημέρωση',doc.text)
+        self.assertTrue(record['review_due'])
+        daily=load('daily')
+        model=daily.compose(edition['date'],[(edition,articles)])
+        schema=json.loads((ROOT/'templates/v2/day.schema.json').read_text(encoding='utf-8'))
+        validator=Draft202012Validator(schema,format_checker=FormatChecker())
+        validator.validate(model)
+        self.assertEqual(model['opportunities'][0],record)
+        doc=BeautifulSoup(load('opportunities').render(build,model['opportunities']),'html.parser')
+        self.assertFalse(doc.select('.opportunity-apply'))
+        self.assertIn('Παλιότερη ενημέρωση',doc.text)
+        model['opportunities'][0]['review_due']='true'
+        with self.assertRaises(ValidationError):validator.validate(model)
+
+    def test_edition_and_day_share_the_complete_opportunity_contract(self):
+        schemas=[json.loads((ROOT/'templates/v2'/name).read_text(encoding='utf-8'))
+                 for name in ('content.schema.json','day.schema.json')]
+        self.assertEqual(schemas[0]['$defs']['opportunity'],schemas[1]['$defs']['opportunity'])
 
 
 class RenderingAndPublicationTests(unittest.TestCase):
