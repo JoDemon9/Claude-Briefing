@@ -1,10 +1,11 @@
 {
   "headline": "Αραιή σκόνη από ανατολικά, χωρίς υψηλή επιβάρυνση προς το παρόν",
   "summary": "Σκόνη από τη Συρία και τον Λίβανο φθάνει στην Κύπρο, με νέα επεισόδια να αναμένονται από ανατολικά. Εκπρόσωπος της Μετεωρολογικής Υπηρεσίας είπε ότι οι συγκεντρώσεις αναμένεται να παραμείνουν χαμηλές, ενώ το επίσημο πρωινό δελτίο προβλέπει κυρίως αίθριο καιρό, αυξημένες ψηλές νεφώσεις και πιθανή αραιή σκόνη. Για τα παράλια η μέγιστη θερμοκρασία είναι γύρω στους 29°C· η πρόγνωση ισχύει έως τις 06:00 της 23ης Οκτωβρίου.",
-  "published_at": "2026-10-22T07:42:38+03:00",
-  "updated_at": "2026-10-22T07:42:30+03:00",
+  "published_at": "2026-10-22T08:04:01+03:00",
+  "updated_at": "2026-10-22T08:04:01+03:00",
   "reader_mode": "source",
   "reader_value": "Η πρωτότυπη πηγή διατηρεί το πλήρες ρεπορτάζ και τις αποδόσεις δηλώσεων.",
+  "evidence_note": "Το πρωτότυπο ρεπορτάζ διαβάστηκε στην πρωινή έρευνα της 22/10· ο χρόνος της πηγής διατηρείται όπου έχει δημοσιευθεί.",
   "id": "cyprus-dust",
   "story_id": "cyprus-dust-forecast-2026-10-22",
   "story_identity": "cyprus-dust-forecast-2026-10-22",
@@ -19,6 +20,16 @@
       "retrieved_at": "2026-10-22T07:39:24+03:00",
       "reporting_group": "Τμήμα Μετεωρολογίας",
       "kind": "primary",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Cyprus Mail",
+      "url": "https://cyprus-mail.com/2026/10/21/dust-from-lebanon-to-hit-cyprus-over-coming-days",
+      "published_at": "2026-10-21T19:09:00+03:00",
+      "retrieved_at": "2026-10-22T07:40:00+03:00",
+      "reporting_group": "Cyprus Mail",
+      "kind": "reporting",
       "access": "read",
       "used_for_claims": true
     }
@@ -38,21 +49,6 @@
     "section": "cyprus"
   },
   "related_story_ids": [],
-  "image": {
-    "source_url": "https://commons.wikimedia.org/wiki/File:Lightning_over_Oradea_Romania_3.jpg",
-    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Lightning_over_Oradea_Romania_3.jpg",
-    "caption": "Αστραπές στην Oradea, 17/08/2005· θεματική φωτογραφία καιρού, όχι οι σημερινές συνθήκες στην Κύπρο.",
-    "alt": "Αρχειακή φωτογραφία νεφών και αστραπών ως γενικό πλαίσιο καιρού.",
-    "attribution": "Mircea Madau · επεξεργασία Diego pmc",
-    "license": "Public domain",
-    "license_url": "https://commons.wikimedia.org/wiki/File:Lightning_over_Oradea_Romania_3.jpg",
-    "retrieved_at": "2026-10-14T19:55:48+03:00",
-    "url": "assets/editorial/2026-10-22-morning/cyprus-dust.webp",
-    "reuse_review": {
-      "source_asset": "assets/editorial/2026-10-14-evening/lead.webp",
-      "sha256": "dea3e5a3d966f0545fa175ccc7210f331e61a589392a55b20f549f7a1531c9f6",
-      "reviewed_at": "2026-10-22T07:42:30+03:00",
-      "relevance_and_archive_date_checked": true
-    }
-  }
+  "image": null,
+  "image_unavailable_reason": "Δεν είναι διαθέσιμη ελεγμένη φωτογραφία για αυτό το άρθρο."
 }
