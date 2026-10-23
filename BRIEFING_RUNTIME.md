@@ -69,3 +69,16 @@ python -X utf8 scripts/v2/compose.py --input /tmp/payload.json --portal-root <Or
 Compatibility invariants: preserve original source/quote times and unchanged historical snapshots. No fuzzy automatic story matching. No arbitrary quota/time limit for editorial generation; I/O deadlines bound failed operations separately. No PR merge in scheduled runs. image_review.version=2 records actual reviewed photographs; the explicit partial-v1 unavailable-image path is permitted from 22 October.
 
 Το CI push με GITHUB_TOKEN δεν ενεργοποιεί αυτόματα Pages: ο publisher ζητά ρητά το source Pages build με pages:write και περιμένει έως 10 λεπτά για φυσιολογική διάδοση, πριν δηλώσει πραγματική αποτυχία. Το portal PAT push διατηρεί το κανονικό trigger. Δεν δημιουργείται νέος scheduler ή νέα εξωτερική ειδοποίηση.
+
+
+## DEC-024 — authoring and reading contract
+
+Fresh capabilities advertise authoring_formats=[json, oracle-markdown/1]. compose.py --input accepts one .json or .md file and emits the same validated canonical records. See MARKDOWN_AUTHORING.md. New candidates use intelligence_contract=1; shared validation enforces mode/slot and the complete instrument inventory across input routes.
+
+Use the bounded context_view/prepare_run baseline (edition_id, fingerprint). Explicit baseline plus carry_story_ids copies only selected unchanged stories with original times and rights. Baseline mismatch, unsafe identity and conflicting carry/write instructions block composition. No implicit inheritance of prices, weather, opportunities or sports checks. Planning digests are navigation; read real evidence for new/material/due claims.
+
+Driver tags are normalized ASCII labels. change_status is NEW, UPDATED, REVERSAL, CORRECTION, UNCHANGED or UNKNOWN. Changed statuses require a factual delta; UNCHANGED requires baseline provenance. Use facts, mechanisms, incentives, effects, supported scenarios and measurable watches where they add intelligence; do not force analysis into routine notices. analysis_sources must reference actual read article evidence. Scenarios add optional alternative_case/alternative_label; watch_next remains independent.
+
+Standard shows complete facts; Full opens depth; Executive uses existing synthesis and compact market data. Tabs, tags and filters are enhancements; no-JS and print retain the complete report. Delta identifies its comparison edition and reports unclassified material. Historic snapshots keep their accepted content contracts.
+
+Role-specific ORACLE_PUBLIC_PUSH_TOKEN / ORACLE_PORTAL_PUSH_TOKEN support temporary worktrees. Both routes are preflighted before promotion. The portal companion must support snapshot-objects before the new source sync is deployed. Verify actual Pages bytes on both sites; do not label PR CI as publication.

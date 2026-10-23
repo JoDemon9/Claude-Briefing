@@ -43,6 +43,8 @@ def prepare(root,day,slot,at,private_root,wire_root=None):
         'prepared_at':datetime.now(timezone.utc).isoformat(),
         'producer_contract':{k:capabilities[k] for k in ('producer_protocol','content_schema_sha256')},
         'paths':{**header['paths'],'capabilities':str(run/'capabilities.json'),'views':pages},
+        'baseline':packet.get('baseline'),
+        'authoring_formats':['json','oracle-markdown/1'],
         'inventory':{'planning_records':len(rows),'planning_pages':len(pages),
             'source_statuses':{status:sum(r['status']==status for r in collection['records'])
                                for status in sorted({r['status'] for r in collection['records']})},

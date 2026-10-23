@@ -83,8 +83,10 @@ def run(root,edition_ids=(),output=None):
                     assert page.locator('.hero h2').inner_text()==lead['headline'],relative
                     findings=page.locator('.hero .story-findings')
                     if findings.count():
-                        assert not findings.evaluate('(x)=>x.open')
+                        initially_open=bool(page.locator('html[data-intelligence="1"]').count())
+                        assert findings.evaluate('(x)=>x.open')==initially_open
                         toggle=findings.locator('summary');toggle.focus();page.keyboard.press('Enter')
+                        if initially_open:page.keyboard.press('Enter')
                         assert findings.locator('.abstract').is_visible()
                         assert findings.locator('.abstract').inner_text()==lead['summary']
                         assert toggle.bounding_box()['height']>=44

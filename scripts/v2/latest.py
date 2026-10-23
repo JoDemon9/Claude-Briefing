@@ -164,8 +164,11 @@ def portal_snapshot(public_root, descriptor, page="latest.html"):
         path = (public_root/'docs'/relative).resolve()
         if not path.is_relative_to(public_root/'docs') or not path.is_file():
             raise ValueError('Missing or unsafe snapshot asset: '+relative)
-        assets[relative] = path
-        node[attr] = 'assets/latest-snapshot/'+descriptor['version']+'/'+relative
+        # Each immutable object is stored once even across many saved releases.
+        digest = hashlib.sha256(path.read_bytes()).hexdigest()
+        target = 'assets/snapshot-objects/'+digest+path.suffix.lower()
+        assets[target] = path
+        node[attr] = target
     doc.head.append(doc.new_tag('meta', attrs={'name': 'oracle-snapshot-sha256', 'content': descriptor['html_sha256']}))
     doc.head.append(doc.new_tag('meta', attrs={'name': 'oracle-snapshot-version', 'content': descriptor['version']}))
     loader = doc.new_tag('script', src='assets/latest-briefing.js')

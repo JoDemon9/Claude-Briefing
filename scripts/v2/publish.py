@@ -5,6 +5,7 @@ No scheduler, generation, messages, force pushes or cross-repository atomicity.
 An unsuccessful live check stops before portal promotion. Retry the same command.
 """
 import argparse
+import base64
 from datetime import datetime, timezone
 import hashlib
 import importlib.util
@@ -19,7 +20,7 @@ import urllib.error
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[2]
-STAGES = ('generated','validated','built','checked','public_published','public_verified',
+STAGES = ('generated','validated','built','checked','credentials_checked','public_published','public_verified',
           'portal_synced','portal_published','portal_verified')
 REPOS = {'public':'JoDemon9/Claude-Briefing','portal':'JoDemon9/oracle-briefing'}
 
@@ -81,7 +82,33 @@ class GitPublisher:
         self.root, self.role = Path(root), role
 
     def git(self, *args):
-        return subprocess.check_output(['git','-C',str(self.root),*args],text=True,timeout=120).strip()
+        return subprocess.check_output(['git','-C',str(self.root),*args],text=True,timeout=120,env=self.environment()).strip()
+
+    def environment(self):
+        """Keep role-specific authentication in the environment across linked worktrees.
+
+        Checkout-scoped credential includes need not match a temporary gitdir.
+        Never put the credential in a URL, command argument, receipt or log.
+        """
+        env = os.environ.copy()
+        token = env.get('ORACLE_'+self.role.upper()+'_PUSH_TOKEN')
+        if token:
+            count = int(env.get('GIT_CONFIG_COUNT', '0'))
+            key = 'http.https://github.com/.extraheader'
+            encoded = base64.b64encode(('x-access-token:'+token).encode()).decode()
+            # An empty value clears inherited headers before this role's header.
+            for offset, value in enumerate(('', 'AUTHORIZATION: basic '+encoded)):
+                env['GIT_CONFIG_KEY_'+str(count+offset)] = key
+                env['GIT_CONFIG_VALUE_'+str(count+offset)] = value
+            env['GIT_CONFIG_COUNT'] = str(count+2)
+        return env
+
+    def preflight(self):
+        self.git('fetch','origin','main')
+        try:
+            self.git('push','--dry-run','origin','origin/main:refs/heads/main')
+        except subprocess.CalledProcessError:
+            raise ValueError('Cannot write '+REPOS[self.role]+'. Check this role token and Contents write access before publishing either site.') from None
 
     def publish(self, allowed, release_id):
         if self.git('branch','--show-current') != 'main':
@@ -125,7 +152,7 @@ class GitPublisher:
                     if source.exists():
                         target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,target)
                     else:target.unlink(missing_ok=True)
-                git=lambda *args:subprocess.check_output(['git','-C',str(checkout),*args],text=True,timeout=120).strip()
+                git=lambda *args:subprocess.check_output(['git','-C',str(checkout),*args],text=True,timeout=120,env=self.environment()).strip()
                 if changed:git('add','--',*sorted(changed))
                 if git('diff','--cached','--name-only'):
                     git('commit','-m','Publish validated newspaper '+release_id[:12])
@@ -247,6 +274,13 @@ def run(root=ROOT, portal=None, publish=False, handlers=None, checks_receipt=Non
         if not publish:
             state['mode']='prepared';persist();return state
         state['mode']='publication';persist()
+        def credentials():
+            # A known credential failure must be detected before a partial release.
+            GitPublisher(root,'public').preflight()
+            GitPublisher(portal,'portal').preflight()
+            return {'status':'both repository write routes checked'}
+        state['stages'].pop('credentials_checked',None)
+        call('credentials_checked', credentials)
         def public_publish():
             if source_identity(root)!=state['source_identity']:
                 raise ValueError('Publication inputs changed; prepare again before pushing')

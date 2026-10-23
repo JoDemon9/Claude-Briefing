@@ -16,12 +16,13 @@ def project(packet=None,collection=None,sports=None):
                     'broad_discovery_required':True}
     if packet:
         header.update(edition_id=packet['edition_id'],as_of=packet['as_of'],section_targets=packet.get('section_targets'),
-                      resume=packet.get('resume_research'),weather=packet.get('weather'))
+                      resume=packet.get('resume_research'),weather=packet.get('weather'),baseline=packet.get('baseline'))
         for index,story in enumerate(packet.get('stories',[])):
             notes=story.get('editorial_notes') or {}
             rows.append({'kind':'story','index':index,**{k:story.get(k) for k in ('story_id','headline','finding','section','published_at','article_path')},
                          'evidence_dates':sorted({s.get('retrieved_at') for s in story.get('sources',[]) if s.get('retrieved_at')}),
                          'unresolved':notes.get('unresolved',[]),'next_check_at':notes.get('next_check_at')})
+            rows[-1]['status'] = 'historical_context; review changes or explicitly carry'
         for index,item in enumerate(packet.get('opportunities',[])):
             record=item['record'];review=item['review']
             rows.append({'kind':'opportunity','index':index,'id':record['id'],'status':record['status'],

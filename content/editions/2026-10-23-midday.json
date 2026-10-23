@@ -934,6 +934,20 @@
       "asset_class": "rate",
       "precision": 3,
       "change_pct": null
+    },
+    {
+      "name": "ΕΚΤ · οριακή χρηματοδότηση · ισχύς 16/09",
+      "instrument": "ecb-mlf",
+      "currency": "EUR",
+      "unit": "% ετησίως",
+      "market_timezone": "Europe/Brussels",
+      "asset_class": "rate",
+      "precision": 3,
+      "value": null,
+      "change_pct": null,
+      "quoted_at": null,
+      "status": "unavailable",
+      "sources": []
     }
   ],
   "sports": {
@@ -1289,7 +1303,11 @@
     "brent"
   ],
   "fast_wire": [],
-  "delta_log": [],
+  "delta_log": [
+    "Προστέθηκαν μεσημεριανές ενδοσυνεδριακές τιμές, χωρίς να παρουσιαστούν ως κλείσιμο.",
+    "Η πίεση της τεχνολογίας αποτυπώθηκε στις ανοικτές ευρωπαϊκές αγορές.",
+    "Επιβεβαιώθηκε νέα συνάντηση των δύο ηγετών στις 27 Οκτωβρίου."
+  ],
   "schema_version": 2,
   "id": "2026-10-23-midday",
   "date": "2026-10-23",
@@ -1299,7 +1317,7 @@
   "status": "published",
   "title": "Μεσημεριανή Ενημέρωση",
   "url": "midday/2026-10-23.html",
-  "edition_mode": "evening_synthesis",
+  "edition_mode": "midday_delta",
   "scheduled_slot": "13:30",
   "articles": [
     "articles/2026-10-23-midday/lead.json",
@@ -1411,7 +1429,7 @@
   ],
   "producer_contract": {
     "producer_protocol": "oracle-briefing/3",
-    "content_schema_sha256": "763c44562b5d253242a40ad521114221d7c3d885cbabf758fd377c599e918135"
+    "content_schema_sha256": "f68809a1a951ab44a8db766b8a6049c94d5373101ac80aca251b50136a8a6be0"
   },
   "summary_60s": [
     "Το Brent παρέμεινε πολύ υψηλό και ευμετάβλητο, περίπου $110–114 ανάλογα με τον χρόνο της ένδειξης, χωρίς ακόμη επιβεβαιωμένη γενικευμένη απώλεια σαουδαραβικών εξαγωγών.",
@@ -1743,5 +1761,11 @@
         }
       ]
     }
-  ]
+  ],
+  "intelligence_contract": 1,
+  "metadata_revision_at": "2026-10-23T21:00:51.749281+00:00",
+  "baseline": {
+    "edition_id": "2026-10-23-morning",
+    "fingerprint": "73d9fcae35724b65acca79f1c79afca6d5aad71efd2c007376e12e77e85d0720"
+  }
 }

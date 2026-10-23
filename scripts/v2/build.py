@@ -2,6 +2,7 @@
 """Deterministic static publishing. No network, scheduler, AI generation or delivery."""
 import argparse
 import html
+import hashlib
 import json
 import re
 import os
@@ -108,6 +109,7 @@ def validate(e, articles):
     load_module('opportunities').validate(e.get('opportunities',[]))
     load_module('research').validate_opportunity_reviews(ROOT,e)
     load_module('backend').check_contract(ROOT,e,articles)
+    load_module('intelligence').validate(e, articles, ROOT)
     if e['id'] != f'{e["date"]}-{e["type"]}':
         raise ValueError('Edition ID/date/type mismatch')
     if e['published_at'] and datetime.fromisoformat(e['published_at']).astimezone(ZoneInfo(e['timezone'])).date().isoformat() != e['date']:
@@ -263,7 +265,25 @@ def article_layers(a):
     scenarios = a.get('scenarios', {})
     if scenarios:
         out.append('<section class="article-layer scenarios-layer"><h3>Σενάρια · συντακτική εκτίμηση</h3>')
-        for key, label in [('base_case','Βασικό σενάριο'), ('tail_risk','Ακραίος κίνδυνος'), ('watch_next','Τι παρακολουθούμε')]:
+        if 'change_status' not in a:
+            # Keep the accepted historical presentation; new records get tabs.
+            for key, label in [('base_case','Βασικό σενάριο'), ('tail_risk','Ακραίος κίνδυνος'), ('watch_next','Τι παρακολουθούμε')]:
+                value=scenarios.get(key) or (scenarios.get('what_to_watch') if key=='watch_next' else None)
+                if value:
+                    out.append('<div class="scenario-card"><strong>'+label+'</strong><p>'+esc(value)+'</p></div>')
+            out.append('</section>')
+            return ''.join(out)
+        prefix = 'scenario-' + hashlib.sha256((a.get('edition_id','')+'/'+a.get('id','')+'/'+a.get('story_id','')).encode()).hexdigest()[:12]
+        cases = [(key, label, scenarios[key]) for key, label in [('base_case','Βάση'), ('alternative_case', scenarios.get('alternative_label') or 'Εναλλακτικό'), ('tail_risk','Ακραίος κίνδυνος')] if scenarios.get(key)]
+        if cases:
+            out.append('<div class="scenario-switcher" data-scenarios><div class="scenario-buttons" data-scenario-buttons hidden role="tablist" aria-label="Σενάρια">')
+            for key, label, value in cases:
+                out.append('<button type="button" id="'+prefix+'-tab-'+key+'" data-scenario="'+key+'" aria-controls="'+prefix+'-'+key+'">'+esc(label)+'</button>')
+            out.append('</div>')
+            for key, label, value in cases:
+                out.append('<section class="scenario-panel" data-scenario-panel="'+key+'" id="'+prefix+'-'+key+'"><h4>'+esc(label)+'</h4><p>'+esc(value)+'</p></section>')
+            out.append('</div>')
+        for key, label in [('watch_next','Τι παρακολουθούμε')]:
             value = scenarios.get(key) or (scenarios.get('what_to_watch') if key == 'watch_next' else None)
             if value:
                 out.append('<div class="scenario-card"><strong>'+label+'</strong><p>'+esc(value)+'</p></div>')
@@ -331,12 +351,19 @@ def card(e, a, hero=False):
     if layered and a.get('reader_mode')=='source':
         source=next(s for s in a['sources'] if s.get('access')=='read' and s.get('used_for_claims'))
         reader='<a class="read-link original-report" href="'+esc(source['url'])+'" rel="noopener noreferrer">'+icon('book')+'Πλήρες ρεπορτάζ · '+esc(source['publisher'])+' ↗</a>'
-    delta = '<p class="article-delta-callout"><strong>Τι άλλαξε:</strong> '+esc(a['delta_update'])+'</p>' if a.get('delta_update') else ''
+    delta = '<p class="article-delta-callout"><strong>Τι άλλαξε:</strong> '+esc(a['delta_update'])+'</p>' if a.get('delta_update') and a['delta_update']!=a['summary'] else ''
     copy=delta+abstract+context+more+'<div class="story-actions">'+reader+'</div>'+sources
     label='Πρώτο θέμα' if hero else 'Κύπρος' if a['category']=='Πρώτο θέμα' else a['category']
     heading=f'<div class="eyebrow">'+(emblem('lead') if hero else '')+f'{esc(label)}</div><h{2 if hero else 3}>{esc(a["headline"])}</h{2 if hero else 3}>'
     overview='<div class="lead-overview"><div class="lead-copy">'+heading+copy+'</div>'+image(a,'../')+'</div>' if hero else heading+copy
-    return f'<article class="{cl}" id="{esc(a["id"])}">'+('' if hero else image(a,'../'))+'<div class="story-content">'+overview+'</div></article>'
+    attributes = ''
+    if e.get('intelligence_contract') == 1:
+        status = a.get('change_status', 'UNKNOWN')
+        times = [event['at'] for event in a.get('daily',{}).get('events',[]) if event['kind'] in ('new','substantive_update','correction')]
+        if status in ('NEW','UPDATED','REVERSAL','CORRECTION'):
+            times.append(e['published_at'])
+        attributes = ' data-intelligence-story data-change-status="'+esc(status)+'" data-driver-tags="'+esc(' '.join(a.get('driver_tags',[])))+'" data-change-times="'+esc(json.dumps(times))+'"'
+    return f'<article class="{cl}" id="{esc(a["id"])}"'+attributes+'>'+('' if hero else image(a,'../'))+'<div class="story-content">'+overview+'</div></article>'
 
 def edition_desk(e, registry):
     out = ['<nav class="edition-desk" aria-label="Εκδόσεις της ημέρας"><b>Γραφείο εκδόσεων</b>']
@@ -424,7 +451,7 @@ def _render(root=ROOT, affected=None):
     write(ROOT/'docs/data/photo-library.json',json.dumps(load_module('photo_library').catalog(ROOT),ensure_ascii=False,indent=2)+'\n')
     search = []
     for e, aa in bundles:
-        search.extend({'id':a['story_id'],'edition_id':e['id'],'date':e['date'],'headline':a['headline'],'summary':a['summary'],'body':' '.join(p for section in a['sections'] for p in section['paragraphs']),'url':article_url(e,a)} for a in aa)
+        search.extend({'id':a['story_id'],'edition_id':e['id'],'date':e['date'],'headline':a['headline'],'summary':a['summary'],'driver_tags':a.get('driver_tags',[]),'body':' '.join(p for section in a['sections'] for p in section['paragraphs'])+' '+re.sub('<[^>]+>', ' ', article_layers(a)),'url':article_url(e,a)} for a in aa)
         if affected is not None and e['id'] not in affected:
             continue
         date = stamp(e['published_at'],e['timezone'])

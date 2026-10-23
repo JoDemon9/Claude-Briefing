@@ -16,6 +16,14 @@ build=module('latest_builder_tests',ROOT/'scripts/v2/build.py')
 sync=module('latest_sync_tests',ROOT/'scripts/v2/sync_portal.py')
 
 class LatestTests(unittest.TestCase):
+    def test_unchanged_assets_reuse_objects_across_snapshot_versions(self):
+        descriptor=json.loads((ROOT/'docs/data/day-latest.json').read_text(encoding='utf-8'))
+        first,objects=latest.portal_snapshot(ROOT,descriptor,'today.html')
+        descriptor['version']='f'*64
+        second,other=latest.portal_snapshot(ROOT,descriptor,'today.html')
+        self.assertEqual(objects,other)
+        self.assertTrue(all(name.startswith('assets/snapshot-objects/') for name in objects))
+        self.assertTrue(all(name in first and name in second for name in objects))
     def test_latest_ignores_drafts_and_compares_publication_instants(self):
         records=[{'id':'old','date':'2026-10-13','status':'published','published_at':'2026-10-13T08:00:00+03:00'},
                  {'id':'new','date':'2026-10-13','status':'published','published_at':'2026-10-13T06:00:00+00:00'},
@@ -76,7 +84,7 @@ class LatestTests(unittest.TestCase):
             self.assertFalse(doc.select('iframe'))
             self.assertEqual((portal/'docs/portal-archive.html').read_text(),'original portal')
             for img in doc.select('img[src]'):
-                if img['src'].startswith('assets/latest-snapshot/'):
+                if img['src'].startswith(('assets/latest-snapshot/','assets/snapshot-objects/')):
                     self.assertTrue((portal/'docs'/img['src']).is_file())
             descriptor=json.loads((ROOT/'docs/data/latest.json').read_text(encoding='utf-8'))
             descriptor['html_sha256']='0'*64

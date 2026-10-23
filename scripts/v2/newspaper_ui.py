@@ -189,4 +189,5 @@ def decorate(b, text, edition, day=None):
     if footer and not footer.select_one('.image-credits-link'):
         link=doc.new_tag('a',href=b.BASE+'photo-credits.html',attrs={'class':'image-credits-link'})
         link.string='Συντελεστές εικόνων';footer.append(link)
+    b.load_module('intelligence_ui').decorate(b, doc, edition, day)
     return str(doc)

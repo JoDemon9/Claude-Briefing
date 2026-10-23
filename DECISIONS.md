@@ -61,3 +61,5 @@ Any proposed change to these rules must state the exact rule it revises and the 
 [The newspaper review](NEWSPAPER_REVIEW.md) contains recommendations, not approved work or a list of completed fixes. Add a decision record when a recommendation becomes an actual requested change.
 
 Use [the record template](decisions/TEMPLATE.md). The Oracle repository links here rather than maintaining a second conflicting decision history. Only short, publishable product requirements belong here; do not copy private conversations or personal information.
+
+[DEC-024 — Intelligence authoring and reading](decisions/DEC-024-intelligence-authoring-and-reading.md): user-approved implementation; source/portal review branches, checks and deployment tracked separately.
