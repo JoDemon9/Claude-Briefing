@@ -1798,11 +1798,9 @@
     },
     {
       "id": "wall-street-session-2026-10-23-evening",
-      "kind": "event",
-      "label": "Τακτική συνεδρίαση ΗΠΑ",
+      "kind": "recheck",
+      "label": "Έλεγχος ωραρίου τακτικής συνεδρίασης ΗΠΑ",
       "checked_at": "2026-10-23T19:43:00+03:00",
-      "starts_at": "2026-10-23T16:30:00+03:00",
-      "ends_at": "2026-10-23T23:00:00+03:00",
       "recheck_at": "2026-10-23T23:05:00+03:00",
       "sources": [
         "https://www.nyse.com/markets/hours-calendars",
