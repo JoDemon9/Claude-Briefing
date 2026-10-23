@@ -10,10 +10,15 @@
       "type": "morning",
       "url": "morning/2026-10-23.html",
       "published_at": "2026-10-23T07:36:00+03:00"
+    },
+    {
+      "id": "2026-10-23-midday",
+      "type": "midday",
+      "url": "midday/2026-10-23.html",
+      "published_at": "2026-10-23T13:36:00+03:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
   "lead_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
@@ -21,20 +26,26 @@
     {
       "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
       "first_seen_at": "2026-10-23T07:36:00+03:00",
-      "last_substantive_at": "2026-10-23T07:36:00+03:00",
+      "last_substantive_at": "2026-10-23T13:36:00+03:00",
       "references": [
         {
           "edition_id": "2026-10-23-morning",
           "article_id": "lead",
           "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
           "url": "articles/2026-10-23-morning/lead.html"
+        },
+        {
+          "edition_id": "2026-10-23-midday",
+          "article_id": "lead",
+          "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+          "url": "articles/2026-10-23-midday/lead.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-23-morning",
+        "edition_id": "2026-10-23-midday",
         "article_id": "lead",
         "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
-        "url": "articles/2026-10-23-morning/lead.html"
+        "url": "articles/2026-10-23-midday/lead.html"
       },
       "section": "world",
       "priority": 1
@@ -49,13 +60,19 @@
           "article_id": "world-ukraine",
           "source_story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
           "url": "articles/2026-10-23-morning/world-ukraine.html"
+        },
+        {
+          "edition_id": "2026-10-23-midday",
+          "article_id": "world-ukraine",
+          "source_story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+          "url": "articles/2026-10-23-midday/world-ukraine.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-23-morning",
+        "edition_id": "2026-10-23-midday",
         "article_id": "world-ukraine",
         "source_story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
-        "url": "articles/2026-10-23-morning/world-ukraine.html"
+        "url": "articles/2026-10-23-midday/world-ukraine.html"
       },
       "section": "world",
       "priority": 2
@@ -63,20 +80,26 @@
     {
       "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
       "first_seen_at": "2026-10-23T07:36:00+03:00",
-      "last_substantive_at": "2026-10-23T07:36:00+03:00",
+      "last_substantive_at": "2026-10-23T13:36:00+03:00",
       "references": [
         {
           "edition_id": "2026-10-23-morning",
           "article_id": "world-meta",
           "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
           "url": "articles/2026-10-23-morning/world-meta.html"
+        },
+        {
+          "edition_id": "2026-10-23-midday",
+          "article_id": "world-meta",
+          "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+          "url": "articles/2026-10-23-midday/world-meta.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-23-morning",
+        "edition_id": "2026-10-23-midday",
         "article_id": "world-meta",
         "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
-        "url": "articles/2026-10-23-morning/world-meta.html"
+        "url": "articles/2026-10-23-midday/world-meta.html"
       },
       "section": "world",
       "priority": 3
@@ -91,13 +114,19 @@
           "article_id": "world-greece-egypt-eez",
           "source_story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
           "url": "articles/2026-10-23-morning/world-greece-egypt-eez.html"
+        },
+        {
+          "edition_id": "2026-10-23-midday",
+          "article_id": "world-greece-egypt-eez",
+          "source_story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+          "url": "articles/2026-10-23-midday/world-greece-egypt-eez.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-23-morning",
+        "edition_id": "2026-10-23-midday",
         "article_id": "world-greece-egypt-eez",
         "source_story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
-        "url": "articles/2026-10-23-morning/world-greece-egypt-eez.html"
+        "url": "articles/2026-10-23-midday/world-greece-egypt-eez.html"
       },
       "section": "world",
       "priority": 4
@@ -112,13 +141,19 @@
           "article_id": "world-starlink",
           "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
           "url": "articles/2026-10-23-morning/world-starlink.html"
+        },
+        {
+          "edition_id": "2026-10-23-midday",
+          "article_id": "world-starlink",
+          "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
+          "url": "articles/2026-10-23-midday/world-starlink.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-23-morning",
+        "edition_id": "2026-10-23-midday",
         "article_id": "world-starlink",
         "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
-        "url": "articles/2026-10-23-morning/world-starlink.html"
+        "url": "articles/2026-10-23-midday/world-starlink.html"
       },
       "section": "world",
       "priority": 5
@@ -133,13 +168,19 @@
           "article_id": "cyprus-heating-oil",
           "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
           "url": "articles/2026-10-23-morning/cyprus-heating-oil.html"
+        },
+        {
+          "edition_id": "2026-10-23-midday",
+          "article_id": "cyprus-heating-oil",
+          "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+          "url": "articles/2026-10-23-midday/cyprus-heating-oil.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-23-morning",
+        "edition_id": "2026-10-23-midday",
         "article_id": "cyprus-heating-oil",
         "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
-        "url": "articles/2026-10-23-morning/cyprus-heating-oil.html"
+        "url": "articles/2026-10-23-midday/cyprus-heating-oil.html"
       },
       "section": "cyprus",
       "priority": 8
@@ -154,13 +195,19 @@
           "article_id": "cyprus-abramovich",
           "source_story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
           "url": "articles/2026-10-23-morning/cyprus-abramovich.html"
+        },
+        {
+          "edition_id": "2026-10-23-midday",
+          "article_id": "cyprus-abramovich",
+          "source_story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+          "url": "articles/2026-10-23-midday/cyprus-abramovich.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-23-morning",
+        "edition_id": "2026-10-23-midday",
         "article_id": "cyprus-abramovich",
         "source_story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
-        "url": "articles/2026-10-23-morning/cyprus-abramovich.html"
+        "url": "articles/2026-10-23-midday/cyprus-abramovich.html"
       },
       "section": "cyprus",
       "priority": 10
@@ -168,20 +215,26 @@
     {
       "story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
       "first_seen_at": "2026-10-23T07:36:00+03:00",
-      "last_substantive_at": null,
+      "last_substantive_at": "2026-10-23T13:36:00+03:00",
       "references": [
         {
           "edition_id": "2026-10-23-morning",
           "article_id": "cyprus-erhurman",
           "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
           "url": "articles/2026-10-23-morning/cyprus-erhurman.html"
+        },
+        {
+          "edition_id": "2026-10-23-midday",
+          "article_id": "cyprus-erhurman",
+          "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+          "url": "articles/2026-10-23-midday/cyprus-erhurman.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-23-morning",
+        "edition_id": "2026-10-23-midday",
         "article_id": "cyprus-erhurman",
         "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
-        "url": "articles/2026-10-23-morning/cyprus-erhurman.html"
+        "url": "articles/2026-10-23-midday/cyprus-erhurman.html"
       },
       "section": "cyprus",
       "priority": 11
@@ -196,13 +249,19 @@
           "article_id": "cyprus-pensions",
           "source_story_id": "2026-10-13-cyprus-1",
           "url": "articles/2026-10-23-morning/cyprus-pensions.html"
+        },
+        {
+          "edition_id": "2026-10-23-midday",
+          "article_id": "cyprus-pensions",
+          "source_story_id": "2026-10-13-cyprus-1",
+          "url": "articles/2026-10-23-midday/cyprus-pensions.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-23-morning",
+        "edition_id": "2026-10-23-midday",
         "article_id": "cyprus-pensions",
         "source_story_id": "2026-10-13-cyprus-1",
-        "url": "articles/2026-10-23-morning/cyprus-pensions.html"
+        "url": "articles/2026-10-23-midday/cyprus-pensions.html"
       },
       "section": "cyprus",
       "priority": 12
@@ -217,13 +276,19 @@
           "article_id": "cyprus-court",
           "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
           "url": "articles/2026-10-23-morning/cyprus-court.html"
+        },
+        {
+          "edition_id": "2026-10-23-midday",
+          "article_id": "cyprus-court",
+          "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+          "url": "articles/2026-10-23-midday/cyprus-court.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-23-morning",
+        "edition_id": "2026-10-23-midday",
         "article_id": "cyprus-court",
         "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
-        "url": "articles/2026-10-23-morning/cyprus-court.html"
+        "url": "articles/2026-10-23-midday/cyprus-court.html"
       },
       "section": "cyprus",
       "priority": 13
@@ -469,6 +534,261 @@
         "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
         "url": "articles/2026-10-23-morning/cyprus-erhurman.html"
       }
+    },
+    {
+      "id": "2026-10-23-midday-cyprus-leaders-meeting",
+      "kind": "substantive_update",
+      "at": "2026-10-23T10:41:00+03:00",
+      "summary": "Επιβεβαιώθηκε νέα συνάντηση των δύο ηγετών για τις 27 Οκτωβρίου.",
+      "source_urls": [
+        "https://www.cna.org.cy/en/article/11076380/leaders-to-meet-anew-next-tuesday-will-also-consult-with-techninal-committees"
+      ],
+      "story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "cyprus-erhurman",
+        "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+        "url": "articles/2026-10-23-midday/cyprus-erhurman.html"
+      }
+    },
+    {
+      "id": "2026-10-23-midday-europe-intraday-update",
+      "kind": "substantive_update",
+      "at": "2026-10-23T10:18:15+00:00",
+      "summary": "Προστέθηκαν οι πραγματικές μεσημεριανές ενδείξεις Ευρώπης και σαφής επισήμανση ότι η Wall Street δεν έχει ανοίξει.",
+      "source_urls": [
+        "https://apnews.com/article/stocks-markets-ai-oil-inflation-7b47ef3b037bfba4e34f685329b9b963"
+      ],
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "world-meta",
+        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "url": "articles/2026-10-23-midday/world-meta.html"
+      }
+    },
+    {
+      "id": "2026-10-23-midday-oil-intraday-update",
+      "kind": "substantive_update",
+      "at": "2026-10-23T10:33:20+00:00",
+      "summary": "Η μεσημεριανή έκδοση διακρίνει τις διαφορετικές ενδοσυνεδριακές ενδείξεις από το τελικό κλείσιμο.",
+      "source_urls": [
+        "https://apnews.com/article/stocks-markets-ai-oil-inflation-7b47ef3b037bfba4e34f685329b9b963",
+        "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=5d"
+      ],
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-23-midday/lead.html"
+      }
+    },
+    {
+      "id": "016d45f88648a9d5df84d29158c3ce72cbd389211719b7f8de5124d60fdb70d5",
+      "kind": "substantive_update",
+      "at": "2026-10-23T13:36:00+03:00",
+      "summary": "Επιβεβαιώθηκε νέα συνάντηση των δύο ηγετών στις 27 Οκτωβρίου.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/22/erhurman-promises-to-start-negotiations-if-christodoulides-accepts-rotating-presidency",
+        "https://www.cna.org.cy/en/article/11076380/leaders-to-meet-anew-next-tuesday-will-also-consult-with-techninal-committees"
+      ],
+      "story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "cyprus-erhurman",
+        "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+        "url": "articles/2026-10-23-midday/cyprus-erhurman.html"
+      }
+    },
+    {
+      "id": "0f3f5be65e21fde7e9a9fa93dc770e1dfa4e023de67209b97b449cb89fb4363a",
+      "kind": "provenance",
+      "at": "2026-10-23T13:36:00+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+        "url": "articles/2026-10-23-midday/world-ukraine.html"
+      }
+    },
+    {
+      "id": "3d38aa0708bb039a473eeb8409ce296dd75c86ba1517d49ee0e9ab269227ddc0",
+      "kind": "provenance",
+      "at": "2026-10-23T13:36:00+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "cyprus-erhurman",
+        "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+        "url": "articles/2026-10-23-midday/cyprus-erhurman.html"
+      }
+    },
+    {
+      "id": "8aa4407391a995ae6c0c3c3237a18025ca88e24e3c33cb7835b6ab9fb2f95325",
+      "kind": "provenance",
+      "at": "2026-10-23T13:36:00+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-23-midday/lead.html"
+      }
+    },
+    {
+      "id": "99d9bdbd60c36f4e1fd30562f7b115c8abbc3914f5b01f8a836355deeb33fc09",
+      "kind": "substantive_update",
+      "at": "2026-10-23T13:36:00+03:00",
+      "summary": "Η πίεση της τεχνολογίας αποτυπώθηκε στις ανοικτές ευρωπαϊκές αγορές.",
+      "source_urls": [
+        "https://apnews.com/article/stocks-markets-ai-oil-inflation-7b47ef3b037bfba4e34f685329b9b963"
+      ],
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "world-meta",
+        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "url": "articles/2026-10-23-midday/world-meta.html"
+      }
+    },
+    {
+      "id": "9b6d4d3b1221b56b19f49d8e1b1443930de551b0aa7e0034eada08e5184702c7",
+      "kind": "provenance",
+      "at": "2026-10-23T13:36:00+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-cyprus-1",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "cyprus-pensions",
+        "source_story_id": "2026-10-13-cyprus-1",
+        "url": "articles/2026-10-23-midday/cyprus-pensions.html"
+      }
+    },
+    {
+      "id": "b5a6039d4b0b1a2f03bdded14a198b0e951be39c28d6ae4716bc5d1dc3e0e4aa",
+      "kind": "provenance",
+      "at": "2026-10-23T13:36:00+03:00",
+      "summary": "Διατηρείται η χρήσιμη πρωινή κάλυψη για τον επιχειρησιακό έλεγχο του Starlink, χωρίς να παρουσιάζεται ως νέα εξέλιξη.",
+      "source_urls": [
+        "https://www.aljazeera.com/news/2026/10/22/ukraines-access-to-starlink-a-decision-for-elon-musk-rubio-says"
+      ],
+      "story_id": "starlink-ukraine-control-dispute-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "world-starlink",
+        "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
+        "url": "articles/2026-10-23-midday/world-starlink.html"
+      }
+    },
+    {
+      "id": "bb9f61a7b8c876e47d6291380813c1d8af4fcc696168d90bf302e6a6a3907b4f",
+      "kind": "provenance",
+      "at": "2026-10-23T13:36:00+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "starlink-ukraine-control-dispute-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "world-starlink",
+        "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
+        "url": "articles/2026-10-23-midday/world-starlink.html"
+      }
+    },
+    {
+      "id": "c3ec16e1100a08d42f024d786a9a019ea8b18602fb16c49e404a7a84ae917090",
+      "kind": "provenance",
+      "at": "2026-10-23T13:36:00+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "cyprus-heating-oil",
+        "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+        "url": "articles/2026-10-23-midday/cyprus-heating-oil.html"
+      }
+    },
+    {
+      "id": "d9158497d569027e7f69d1b99658ef05f31303a34fb97f6debc6c3d5e2ee913d",
+      "kind": "provenance",
+      "at": "2026-10-23T13:36:00+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "world-greece-egypt-eez",
+        "source_story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+        "url": "articles/2026-10-23-midday/world-greece-egypt-eez.html"
+      }
+    },
+    {
+      "id": "e41838c9ecf560b172a2c2148bebbac7935388c4284d33b1a78922f63a8406fe",
+      "kind": "substantive_update",
+      "at": "2026-10-23T13:36:00+03:00",
+      "summary": "Προστέθηκαν μεσημεριανές ενδοσυνεδριακές τιμές, χωρίς να παρουσιαστούν ως κλείσιμο.",
+      "source_urls": [
+        "https://apnews.com/article/stocks-markets-ai-oil-inflation-7b47ef3b037bfba4e34f685329b9b963",
+        "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=5d"
+      ],
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-23-midday/lead.html"
+      }
+    },
+    {
+      "id": "e782e4b25f73b9e0986c6484a20d47b2a0ad67c71d512dc6771dd22efe198b0d",
+      "kind": "provenance",
+      "at": "2026-10-23T13:36:00+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "cyprus-court",
+        "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+        "url": "articles/2026-10-23-midday/cyprus-court.html"
+      }
+    },
+    {
+      "id": "f84b3c1dcf63f4a22056fa917a5e2c2b6b5e6d9dc22c7077494875afd8b863b3",
+      "kind": "provenance",
+      "at": "2026-10-23T13:36:00+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "world-meta",
+        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "url": "articles/2026-10-23-midday/world-meta.html"
+      }
+    },
+    {
+      "id": "fd5d32ee0856e157a08aa2a9d4fe1bfb9ec6d14f07c0c9ececa9ed72e211979b",
+      "kind": "provenance",
+      "at": "2026-10-23T13:36:00+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+      "origin": {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "cyprus-abramovich",
+        "source_story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+        "url": "articles/2026-10-23-midday/cyprus-abramovich.html"
+      }
     }
   ],
   "opportunities": [
@@ -514,7 +834,7 @@
       "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση."
     },
     {
-      "verified_at": "2026-10-22T08:04:01+03:00",
+      "verified_at": "2026-10-23T13:33:11+03:00",
       "opens_at": null,
       "deadline": "2026-11-04T18:00:00+02:00",
       "deadline_type": "fixed",
@@ -535,40 +855,39 @@
           "publisher": "European Innovation Council",
           "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
           "published_at": null,
-          "retrieved_at": "2026-10-22T04:38:52.911469+00:00",
+          "retrieved_at": "2026-10-23T10:33:10.155243+00:00",
           "reporting_group": "European Innovation Council",
           "kind": "primary",
           "access": "read",
           "used_for_claims": true
         }
       ],
-      "change_note": "Αναγνώστηκαν τα επίσημα κριτήρια και οι ημερομηνίες του τρέχοντος συλλεγμένου οδηγού: 4/11 17:00 Βρυξελλών, πλήρης πρόταση μετά από GO. Δεν διαπιστώθηκε αλλαγή όρων."
+      "change_note": "Επανελέγχθηκαν τα επίσημα κριτήρια: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ. και επενδυτικό σκέλος €1–10 εκατ. Δεν διαπιστώθηκε αλλαγή."
     },
     {
       "id": "cy-home-energy-2026",
-      "review_due": true,
       "kind": "grant",
-      "status": "needs_verification",
+      "status": "closed",
       "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
       "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
       "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
       "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
       "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
-      "deadline": "2026-12-30T23:59:00+02:00",
-      "deadline_type": "fixed",
-      "deadline_note": "Έως 30/12/2026 ή μέχρι εξαντλήσεως προϋπολογισμού.",
-      "application_kind": "form",
-      "application_url": "https://fundingapps.meci.gov.cy",
-      "action": "Υποβολή ηλεκτρονικών αιτήσεων μέσω του ενιαίου κυβερνητικού portal.",
-      "verified_at": "2026-10-21T20:15:00+03:00",
+      "deadline": null,
+      "deadline_type": "unknown",
+      "deadline_note": "Η υποβολή ολοκληρώθηκε στις 21/10 λόγω υπερκάλυψης του διαθέσιμου προϋπολογισμού.",
+      "application_kind": "none",
+      "application_url": null,
+      "action": "Μην υποβάλεις νέα αίτηση. Παρακολούθησε μόνο επίσημη επαναπροκήρυξη ή ανακοίνωση για επιλαχόντες.",
+      "verified_at": "2026-10-23T13:33:46+03:00",
       "opens_at": "2026-10-20T09:00:00+03:00",
-      "change_note": "Στον έλεγχο της 22/10 στις 13:34 η σελίδα αιτήσεων δεν ήταν προσβάσιμη και η κεντρική σελίδα δεν παρείχε αναγνώσιμη νέα επιβεβαίωση. Διατηρείται needs_verification και ο αρχικός χρόνος επαλήθευσης.",
+      "change_note": "Το ΥΕΕΒ ανακοίνωσε ολοκλήρωση υποβολής προτάσεων λόγω υπερκάλυψης προϋπολογισμού. Η προηγούμενη ένδειξη ανοικτής πρόσκλησης διορθώθηκε.",
       "sources": [
         {
           "publisher": "ΥΕΕΒ",
           "url": "https://www.industry.gov.cy",
-          "published_at": "2026-09-30",
-          "retrieved_at": "2026-10-21T20:15:00+03:00",
+          "published_at": "2026-10-21",
+          "retrieved_at": "2026-10-23T10:33:45.530855+00:00",
           "reporting_group": "ΥΕΕΒ",
           "kind": "primary",
           "access": "read",
@@ -634,7 +953,6 @@
       "deadline_type": "rolling",
       "application_kind": "form",
       "id": "eu-erasmus-new-entrepreneurs",
-      "review_due": true,
       "kind": "benefit",
       "status": "open",
       "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
@@ -667,36 +985,38 @@
           "used_for_claims": true
         }
       ],
-      "change_note": "Η ηλεκτρονική πύλη παρέμενε διαθέσιμη στις 22/10, αλλά οι αναλυτικές επίσημες σελίδες όρων δεν ήταν προσβάσιμες στον επανέλεγχο. Διατηρούνται οι όροι και ο αρχικός verified_at χωρίς τεχνητή ανανέωση."
+      "change_note": "Η σελίδα εισόδου ήταν διαθέσιμη, αλλά οι επίσημες αναλυτικές FAQ δεν ανακτήθηκαν. Διατηρείται η παλαιότερη επαλήθευση και η αίτηση δεν προβάλλεται ως ενεργή μέχρι νέο πλήρη έλεγχο.",
+      "review_due": true
     }
   ],
   "overview": {
     "kind": "reviewed",
     "points": [
       {
-        "text": "Το Brent παρέμεινε κοντά στα $113 μετά το άλμα 4%, με κινδύνους από Σαουδική Αραβία και Λιβύη αλλά χωρίς επιβεβαιωμένη γενικευμένη απώλεια σαουδαραβικών εξαγωγών.",
+        "text": "Το Brent διατήρησε μεγάλο γεωπολιτικό ασφάλιστρο, ενώ οι τιμές της ημέρας παραμένουν ενδοσυνεδριακές και όχι κλείσιμο.",
         "story_ids": [
           "middle-east-oil-saudi-escalation-2026-10-22"
         ]
       },
       {
-        "text": "Η τεχνολογική πίεση έκλεισε με Nasdaq -2,6% και S&P 500 -1,2% στις 22/10· οι ασιατικές αγορές συνέχισαν χαμηλότερα το πρωί.",
+        "text": "Η πίεση στις μετοχές AI πέρασε στην Ευρώπη· τα αμερικανικά στοιχεία της 23/10 παραμένουν futures μέχρι το άνοιγμα στις 16:30 ώρα Κύπρου.",
         "story_ids": [
           "meta-new-mexico-penalty-ai-spending-2026-10-22"
         ]
       },
       {
-        "text": "Στην Κύπρο ισχύει από σήμερα μείωση 6,39 σεντ ανά λίτρο με ΦΠΑ στο πετρέλαιο θέρμανσης· η πλήρης κατάργηση του φόρου παραμένει ευρωπαϊκό αίτημα.",
+        "text": "Η μείωση φόρου στο πετρέλαιο θέρμανσης ισχύει και η επόμενη συνάντηση των δύο Κυπρίων ηγετών ορίστηκε για τις 27/10.",
         "story_ids": [
-          "cyprus-heating-oil-excise-cut-2026-10-23"
+          "cyprus-heating-oil-excise-cut-2026-10-23",
+          "cyprus-erhurman-rotating-presidency-2026-10-22"
         ]
       },
       {
-        "text": "Ουκρανία, συνομιλίες για ΑΟΖ Ελλάδας–Αιγύπτου, Starlink και τα κυπριακά θεσμικά μέτωπα διατηρούνται με τις πραγματικές ημερομηνίες και τις εκκρεμότητές τους.",
+        "text": "Ο έλεγχος του Starlink στην Ουκρανία, οι ρωσικές επιθέσεις, η ΑΟΖ Ελλάδας–Αιγύπτου, η έρευνα Abramovich και οι συντάξεις παραμένουν ανοικτά μέτωπα.",
         "story_ids": [
+          "starlink-ukraine-control-dispute-2026-10-22",
           "ukraine-russia-strikes-after-us-talks-2026-10-22",
           "greece-egypt-eez-eastward-cyprus-2026-10-22",
-          "starlink-ukraine-control-dispute-2026-10-22",
           "cyprus-abramovich-assets-investigation-2026-10-21"
         ]
       }
@@ -704,6 +1024,6 @@
   },
   "follow_ups": [],
   "created_at": "2026-10-23T04:45:33.130498+00:00",
-  "updated_at": "2026-10-23T04:45:33.130498+00:00",
-  "input_sha256": "d1953ff0a81bf7a65393b2ca6d6bdb2b02d0dcd73de9b1b19b94e7f149eff85b"
+  "updated_at": "2026-10-23T10:44:39.706817+00:00",
+  "input_sha256": "6ef2b987f648506ac0fa615ebfaca66ed5e93cbb1bc2899b4d513404fea9a28c"
 }

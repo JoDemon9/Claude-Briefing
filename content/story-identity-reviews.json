@@ -10,5 +10,9 @@
   "d4496bf44500d734c49b409dc54afa950955f09cf79b6b474691b030a66c31b7": {
     "decision": "distinct_stories",
     "reason": "The 14 October orange warning and the 22 October dust forecast are separate dated weather events. They cite the same continuously updated Meteorology Department forecast URL, but have different validity windows, hazards and stable story identities."
+  },
+  "bf8c6eb8faaf6377f67097aef0ce3132cad7c55b4b8f79f1ffeb3400e81c2c77": {
+    "decision": "distinct_stories",
+    "reason": "The oil story tracks the geopolitical energy-price shock, while the Meta story tracks the separate technology valuation sell-off. The same AP market report supports different, independently maintained subjects and stable story IDs."
   }
 }

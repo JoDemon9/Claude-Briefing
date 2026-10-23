@@ -185,6 +185,13 @@
       "url": "morning/2026-10-22.html"
     },
     {
+      "id": "2026-10-23-midday",
+      "date": "2026-10-23",
+      "type": "midday",
+      "published_at": "2026-10-23T13:36:00+03:00",
+      "url": "midday/2026-10-23.html"
+    },
+    {
       "id": "2026-10-23-morning",
       "date": "2026-10-23",
       "type": "morning",
@@ -6978,6 +6985,300 @@
       ],
       "freshness": [],
       "image_asset": null
+    },
+    {
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "identity": "middle-east-oil-saudi-escalation-2026-10-22",
+      "edition_id": "2026-10-23-midday",
+      "date": "2026-10-23",
+      "slot": "midday",
+      "published_at": "2026-10-23T13:36:00+03:00",
+      "available_at": "2026-10-23T13:36:00+03:00",
+      "headline": "Το Brent γύρω στα $110–114, με το γεωπολιτικό ασφάλιστρο να παραμένει υψηλό",
+      "finding": "Το Brent βρισκόταν μεταξύ περίπου 110 και 114 δολαρίων το μεσημέρι, ανάλογα με τον χρόνο και τον πάροχο της ένδειξης, μετά το άλμα 4% της Πέμπτης. Οι επιθέσεις στη Σαουδική Αραβία και ο πόλεμος με το Ιράν διατηρούν υψηλό ασφάλιστρο κινδύνου, χωρίς επιβεβαιωμένη γενικευμένη απώλεια σαουδαραβικών εξαγωγών. Η τιμή είναι ενδοσυνεδριακή και όχι κλείσιμο.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-23-midday/lead.json",
+      "reader_url": "articles/2026-10-23-midday/lead.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/stocks-markets-ai-oil-inflation-7b47ef3b037bfba4e34f685329b9b963",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-23T10:00:00+00:00",
+          "retrieved_at": "2026-10-23T13:36:00+03:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=5d",
+          "publisher": "Yahoo Finance · δεδομένα αγοράς",
+          "reporting_group": "Yahoo Finance · δεδομένα αγοράς",
+          "published_at": null,
+          "retrieved_at": "2026-10-23T10:33:20+00:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-midday/lead.webp"
+    },
+    {
+      "story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+      "identity": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+      "edition_id": "2026-10-23-midday",
+      "date": "2026-10-23",
+      "slot": "midday",
+      "published_at": "2026-10-23T13:36:00+03:00",
+      "available_at": "2026-10-23T13:36:00+03:00",
+      "headline": "Τέσσερις νεκροί στην Ουκρανία, ενώ οι συνομιλίες δεν έχουν ακόμη ημερομηνία",
+      "finding": "Η AP κατέγραψε τουλάχιστον τέσσερις νεκρούς και δεκάδες τραυματίες από τα ρωσικά πλήγματα της νύχτας, ενώ η Μόσχα ισχυρίστηκε ότι αναχαίτισε 808 ουκρανικά drones. Ο Πούτιν συμφώνησε κατ’ αρχήν στην επανάληψη τριμερών συνομιλιών μετά τις 10 Νοεμβρίου, αλλά δεν ορίστηκε ημερομηνία ούτε ρωσική διαπραγματευτική ομάδα. Η διπλωματική κίνηση επομένως δεν έχει ακόμη μετατραπεί σε επιχειρησιακή αποκλιμάκωση.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-23-midday/world-ukraine.json",
+      "reader_url": "articles/2026-10-23-midday/world-ukraine.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/russia-ukraine-war-kyiv-attacks-putin-5eef1c7dc4cc401dd8de85f718574877",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": null,
+          "retrieved_at": "2026-10-22T19:38:11+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-midday/world-ukraine.webp"
+    },
+    {
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "identity": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "edition_id": "2026-10-23-midday",
+      "date": "2026-10-23",
+      "slot": "midday",
+      "published_at": "2026-10-23T13:36:00+03:00",
+      "available_at": "2026-10-23T13:36:00+03:00",
+      "headline": "Ευρώπη χαμηλότερα μετά το sell-off της AI· η Wall Street δεν έχει ακόμη ανοίξει",
+      "finding": "Στις 13:18 ώρα Κύπρου, ο DAX ήταν περίπου στις 25.175 μονάδες, ο CAC 40 στις 7.760 και ο STOXX 600 στις 634,39, όλες ενδοσυνεδριακές ενδείξεις. Η Ευρώπη ακολούθησε την πίεση της Wall Street, όπου την Πέμπτη ο Nasdaq έκλεισε -2,6%. Τα αμερικανικά futures ήταν διαθέσιμα, αλλά η τακτική συνεδρίαση της Νέας Υόρκης ανοίγει στις 16:30 ώρα Κύπρου και δεν υπάρχει σημερινό κλείσιμο.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-10-23-midday/world-meta.json",
+      "reader_url": "articles/2026-10-23-midday/world-meta.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/stocks-markets-ai-oil-inflation-7b47ef3b037bfba4e34f685329b9b963",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-10-23T10:00:00+00:00",
+          "retrieved_at": "2026-10-23T13:36:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-midday/world-meta.webp"
+    },
+    {
+      "story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+      "identity": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+      "edition_id": "2026-10-23-midday",
+      "date": "2026-10-23",
+      "slot": "midday",
+      "published_at": "2026-10-23T13:36:00+03:00",
+      "available_at": "2026-10-23T13:36:00+03:00",
+      "headline": "Ελλάδα και Αίγυπτος συζητούν επέκταση της ΑΟΖ προς την Κύπρο",
+      "finding": "Η Ελλάδα και η Αίγυπτος συζητούν επέκταση της συμφωνίας οριοθέτησης ΑΟΖ του 2020 ανατολικότερα, προς την Κύπρο, δήλωσε ο Γιώργος Γεραπετρίτης. Η κίνηση ακολουθεί την κύρωση του τουρκολιβυκού μνημονίου από το κοινοβούλιο της ανατολικής Λιβύης. Αθήνα, Κάιρο και Λευκωσία το θεωρούν ότι θίγει δικαιώματα τρίτων κρατών. Δεν έχει ανακοινωθεί νέα συμφωνία, συντεταγμένες ή χρονοδιάγραμμα υπογραφής.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-10-23-midday/world-greece-egypt-eez.json",
+      "reader_url": "articles/2026-10-23-midday/world-greece-egypt-eez.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/greece-egypt-talks-extend-maritime-zone-further-east-2026-10-22/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-22T15:30:00+00:00",
+          "retrieved_at": "2026-10-22T19:38:11+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-midday/world-greece-egypt-eez.webp"
+    },
+    {
+      "story_id": "starlink-ukraine-control-dispute-2026-10-22",
+      "identity": "starlink-ukraine-control-dispute-2026-10-22",
+      "edition_id": "2026-10-23-midday",
+      "date": "2026-10-23",
+      "slot": "midday",
+      "published_at": "2026-10-23T13:36:00+03:00",
+      "available_at": "2026-10-23T13:36:00+03:00",
+      "headline": "Rubio: η πρόσβαση της Ουκρανίας στο Starlink είναι απόφαση της SpaceX",
+      "finding": "Ο Αμερικανός υπουργός Εξωτερικών Marco Rubio δήλωσε ότι οι αποφάσεις για την πρόσβαση της Ουκρανίας στο Starlink ανήκουν στη SpaceX και τον Elon Musk, αρνούμενος ευθύνη του Λευκού Οίκου. Η δήλωση ακολουθεί αναφορές ότι το στρατιωτικό Starshield περιορίστηκε σε ταχέως κινούμενες πλατφόρμες, δυσχεραίνοντας ουκρανικές αναχαιτίσεις. Οι εκδοχές Ουάσιγκτον, SpaceX και ουκρανικών αξιωματούχων παραμένουν αντικρουόμενες· δεν έχει δημοσιοποιηθεί ανεξάρτητη τεχνική τεκμηρίωση της εντολής.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-10-23-midday/world-starlink.json",
+      "reader_url": "articles/2026-10-23-midday/world-starlink.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/22/ukraines-access-to-starlink-a-decision-for-elon-musk-rubio-says",
+          "publisher": "Al Jazeera · AP/Reuters",
+          "reporting_group": "Al Jazeera · AP/Reuters",
+          "published_at": "2026-10-22T00:00:00+00:00",
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-midday/world-starlink.webp"
+    },
+    {
+      "story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+      "identity": "cyprus-abramovich-assets-investigation-2026-10-21",
+      "edition_id": "2026-10-23-midday",
+      "date": "2026-10-23",
+      "slot": "midday",
+      "published_at": "2026-10-23T13:36:00+03:00",
+      "available_at": "2026-10-23T13:36:00+03:00",
+      "headline": "Αστυνομική έρευνα για τη διαχείριση περιουσιακών στοιχείων του Abramovich στην Κύπρο",
+      "finding": "Η Αστυνομία άρχισε έρευνα για τη διαχείριση περιουσιακών στοιχείων του Roman Abramovich μέσω κυπριακών εταιρειών, δήλωσε εκπρόσωπός της στη Βουλή. Η έρευνα αναμένεται να διαρκέσει περίπου έξι μήνες και αφορά καταγγελίες για παλαιότερη οπισθοχρονολόγηση εγγράφων. Η Deloitte Cyprus δηλώνει ότι συμμορφώνεται με τη νομοθεσία. Η έναρξη έρευνας δεν αποτελεί διαπίστωση παρανομίας ή απόδοση ποινικής ευθύνης.",
+      "section": "cyprus",
+      "priority": 10,
+      "article_path": "articles/2026-10-23-midday/cyprus-abramovich.json",
+      "reader_url": "articles/2026-10-23-midday/cyprus-abramovich.html",
+      "sources": [
+        {
+          "url": "https://www.cyprus-mail.com/2026/10/21/police-open-investigation-into-abramovich-assets",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-21T18:11:00+03:00",
+          "retrieved_at": "2026-10-22T19:38:11+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-midday/cyprus-abramovich.webp"
+    },
+    {
+      "story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+      "identity": "cyprus-erhurman-rotating-presidency-2026-10-22",
+      "edition_id": "2026-10-23-midday",
+      "date": "2026-10-23",
+      "slot": "midday",
+      "published_at": "2026-10-23T13:36:00+03:00",
+      "available_at": "2026-10-23T13:36:00+03:00",
+      "headline": "Χριστοδουλίδης–Ερχιουρμάν ξανά στο τραπέζι στις 27 Οκτωβρίου",
+      "finding": "Ο Πρόεδρος Νίκος Χριστοδουλίδης και ο Τουρκοκύπριος ηγέτης Τουφάν Ερχιουρμάν θα συναντηθούν ξανά την Τρίτη 27 Οκτωβρίου, ανακοίνωσε ο κυβερνητικός εκπρόσωπος Κωνσταντίνος Λετυμπιώτης. Η επιβεβαιωμένη ημερομηνία είναι το νέο στοιχείο μετά τη δημόσια συζήτηση για την εκ περιτροπής προεδρία. Δεν ανακοινώθηκε συμφωνία επί της ουσίας· η συνάντηση παραμένει το επόμενο συγκεκριμένο τεστ για το αν οι θέσεις μπορούν να μετατραπούν σε διαπραγμάτευση.",
+      "section": "cyprus",
+      "priority": 11,
+      "article_path": "articles/2026-10-23-midday/cyprus-erhurman.json",
+      "reader_url": "articles/2026-10-23-midday/cyprus-erhurman.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/22/erhurman-promises-to-start-negotiations-if-christodoulides-accepts-rotating-presidency",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-22T12:55:00+03:00",
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.cna.org.cy/en/article/11076380/leaders-to-meet-anew-next-tuesday-will-also-consult-with-techninal-committees",
+          "publisher": "Κυπριακό Πρακτορείο Ειδήσεων",
+          "reporting_group": "ΚΥΠΕ",
+          "published_at": "2026-10-23T10:41:00+03:00",
+          "retrieved_at": "2026-10-23T13:36:00+03:00",
+          "kind": "wire"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-midday/cyprus-erhurman.webp"
+    },
+    {
+      "story_id": "2026-10-13-cyprus-1",
+      "identity": "2026-10-13-cyprus-1",
+      "edition_id": "2026-10-23-midday",
+      "date": "2026-10-23",
+      "slot": "midday",
+      "published_at": "2026-10-23T13:36:00+03:00",
+      "available_at": "2026-10-23T13:36:00+03:00",
+      "headline": "Συνταξιοδοτική μεταρρύθμιση: στόχος το επόμενο Υπουργικό μετά τον νομικό έλεγχο",
+      "finding": "Ο υπουργός Εργασίας Μαρίνος Μουσιούττας δήλωσε ότι ο νομικός έλεγχος των νομοσχεδίων για τη συνταξιοδοτική μεταρρύθμιση αναμένεται να ολοκληρωθεί έως τη Δευτέρα. Στόχος είναι να ακολουθήσει εξέταση στο επόμενο Υπουργικό Συμβούλιο και μετά διαβίβαση στη Βουλή. Οι εργοδοτικές οργανώσεις έχουν ήδη υποβάλει θέσεις για τον δεύτερο πυλώνα, ενώ οι συντεχνίες ολοκληρώνουν τις δικές τους. Η μεταρρύθμιση δεν έχει ακόμη εγκριθεί ή ψηφιστεί.",
+      "section": "cyprus",
+      "priority": 12,
+      "article_path": "articles/2026-10-23-midday/cyprus-pensions.json",
+      "reader_url": "articles/2026-10-23-midday/cyprus-pensions.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/22/pension-reform-to-be-discussed-in-parliament",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-22T11:21:00+03:00",
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-midday/cyprus-pensions.webp"
+    },
+    {
+      "story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+      "identity": "cyprus-iranian-detention-habeas-2026-10-21",
+      "edition_id": "2026-10-23-midday",
+      "date": "2026-10-23",
+      "slot": "midday",
+      "published_at": "2026-10-23T13:36:00+03:00",
+      "available_at": "2026-10-23T13:36:00+03:00",
+      "headline": "Ανώτατο: άμεση αποφυλάκιση Ιρανού μετά από 12 μήνες κράτησης",
+      "finding": "Το Ανώτατο Δικαστήριο ενέκρινε αίτηση habeas corpus και διέταξε την άμεση απελευθέρωση Ιρανού υπηκόου που κρατείτο επί 12 μήνες ενόψει απέλασης. Έκρινε ότι οι αναφορές των αρχών για τις ενέργειες επιστροφής ήταν ασαφείς και δεν τεκμηρίωναν ούτε τη δέουσα επιμέλεια ούτε ρεαλιστική προοπτική απέλασης. Η απόφαση αφορά τη νομιμότητα της παρατεταμένης κράτησης στη συγκεκριμένη υπόθεση και όχι γενική ακύρωση της διαδικασίας επιστροφής.",
+      "section": "cyprus",
+      "priority": 13,
+      "article_path": "articles/2026-10-23-midday/cyprus-court.json",
+      "reader_url": "articles/2026-10-23-midday/cyprus-court.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1334453/paranomi-krithike-i-kratisi-iranou-ghia-12-mines-ti-apofasise-to-anwtato",
+          "publisher": "SigmaLive",
+          "reporting_group": "SigmaLive",
+          "published_at": "2026-10-22T10:32:00+03:00",
+          "retrieved_at": "2026-10-22T13:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-midday/cyprus-court.webp"
+    },
+    {
+      "story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+      "identity": "cyprus-heating-oil-excise-cut-2026-10-23",
+      "edition_id": "2026-10-23-midday",
+      "date": "2026-10-23",
+      "slot": "midday",
+      "published_at": "2026-10-23T13:36:00+03:00",
+      "available_at": "2026-10-23T13:36:00+03:00",
+      "headline": "Από σήμερα χαμηλότερος φόρος στο πετρέλαιο θέρμανσης κατά 6,39 σεντ με ΦΠΑ",
+      "finding": "Η Βουλή ενέκρινε τη μείωση του ειδικού φόρου κατανάλωσης στο πετρέλαιο θέρμανσης, με ισχύ από σήμερα 23 Οκτωβρίου. Η επιβάρυνση μειώνεται από 7,5 σε 2,1 σεντ ανά λίτρο, δηλαδή κατά 5,37 σεντ προ ΦΠΑ ή 6,39 σεντ με ΦΠΑ. Η Κύπρος έχει ζητήσει από την Ευρωπαϊκή Επιτροπή άδεια για πλήρη κατάργηση, αλλά αυτή η πρόσθετη αλλαγή δεν έχει ακόμη εγκριθεί.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-10-23-midday/cyprus-heating-oil.json",
+      "reader_url": "articles/2026-10-23-midday/cyprus-heating-oil.html",
+      "sources": [
+        {
+          "url": "https://www.cna.org.cy/en/article/11072120/cyprus-parliament-approves-bill-reducing-excise-duty-on-heating-fuels",
+          "publisher": "Κυπριακό Πρακτορείο Ειδήσεων",
+          "reporting_group": "ΚΥΠΕ",
+          "published_at": "2026-10-22T19:35:00+03:00",
+          "retrieved_at": "2026-10-23T07:36:00+03:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://en.philenews.com/insider/heating-oil-excise-duty-cut-friday-cyprus-eu-derogation/",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-20T10:00:00+03:00",
+          "retrieved_at": "2026-10-23T07:36:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-midday/cyprus-heating-oil.webp"
     },
     {
       "story_id": "middle-east-oil-saudi-escalation-2026-10-22",

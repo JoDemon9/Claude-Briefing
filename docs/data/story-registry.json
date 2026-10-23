@@ -27,6 +27,12 @@
         "url": "articles/2026-10-22-midday/cyprus-pensions.html"
       },
       {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "cyprus-pensions",
+        "date": "2026-10-23",
+        "url": "articles/2026-10-23-midday/cyprus-pensions.html"
+      },
+      {
         "edition_id": "2026-10-23-morning",
         "article_id": "cyprus-pensions",
         "date": "2026-10-23",
@@ -405,6 +411,12 @@
         "url": "articles/2026-10-22-evening/cyprus-abramovich.html"
       },
       {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "cyprus-abramovich",
+        "date": "2026-10-23",
+        "url": "articles/2026-10-23-midday/cyprus-abramovich.html"
+      },
+      {
         "edition_id": "2026-10-23-morning",
         "article_id": "cyprus-abramovich",
         "date": "2026-10-23",
@@ -509,6 +521,12 @@
         "article_id": "cyprus-erhurman",
         "date": "2026-10-22",
         "url": "articles/2026-10-22-midday/cyprus-erhurman.html"
+      },
+      {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "cyprus-erhurman",
+        "date": "2026-10-23",
+        "url": "articles/2026-10-23-midday/cyprus-erhurman.html"
       },
       {
         "edition_id": "2026-10-23-morning",
@@ -617,6 +635,12 @@
     ],
     "cyprus-heating-oil-excise-cut-2026-10-23": [
       {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "cyprus-heating-oil",
+        "date": "2026-10-23",
+        "url": "articles/2026-10-23-midday/cyprus-heating-oil.html"
+      },
+      {
         "edition_id": "2026-10-23-morning",
         "article_id": "cyprus-heating-oil",
         "date": "2026-10-23",
@@ -667,6 +691,12 @@
         "article_id": "cyprus-court",
         "date": "2026-10-22",
         "url": "articles/2026-10-22-midday/cyprus-court.html"
+      },
+      {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "cyprus-court",
+        "date": "2026-10-23",
+        "url": "articles/2026-10-23-midday/cyprus-court.html"
       },
       {
         "edition_id": "2026-10-23-morning",
@@ -1229,6 +1259,12 @@
         "url": "articles/2026-10-22-evening/world-greece-egypt-eez.html"
       },
       {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "world-greece-egypt-eez",
+        "date": "2026-10-23",
+        "url": "articles/2026-10-23-midday/world-greece-egypt-eez.html"
+      },
+      {
         "edition_id": "2026-10-23-morning",
         "article_id": "world-greece-egypt-eez",
         "date": "2026-10-23",
@@ -1375,6 +1411,12 @@
         "url": "articles/2026-10-22-midday/world-meta.html"
       },
       {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "world-meta",
+        "date": "2026-10-23",
+        "url": "articles/2026-10-23-midday/world-meta.html"
+      },
+      {
         "edition_id": "2026-10-23-morning",
         "article_id": "world-meta",
         "date": "2026-10-23",
@@ -1409,6 +1451,12 @@
         "article_id": "lead",
         "date": "2026-10-22",
         "url": "articles/2026-10-22-midday/lead.html"
+      },
+      {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "lead",
+        "date": "2026-10-23",
+        "url": "articles/2026-10-23-midday/lead.html"
       },
       {
         "edition_id": "2026-10-23-morning",
@@ -1629,6 +1677,12 @@
         "url": "articles/2026-10-22-midday/world-starlink.html"
       },
       {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "world-starlink",
+        "date": "2026-10-23",
+        "url": "articles/2026-10-23-midday/world-starlink.html"
+      },
+      {
         "edition_id": "2026-10-23-morning",
         "article_id": "world-starlink",
         "date": "2026-10-23",
@@ -1751,6 +1805,12 @@
         "article_id": "lead",
         "date": "2026-10-22",
         "url": "articles/2026-10-22-morning/lead.html"
+      },
+      {
+        "edition_id": "2026-10-23-midday",
+        "article_id": "world-ukraine",
+        "date": "2026-10-23",
+        "url": "articles/2026-10-23-midday/world-ukraine.html"
       },
       {
         "edition_id": "2026-10-23-morning",
@@ -1935,6 +1995,20 @@
     "yemen-shabwa-training-camp-attack-october-19-2026": "yemen-shabwa-training-camp-attack-october-19-2026"
   },
   "issues": [
+    {
+      "id": "bf8c6eb8faaf6377f67097aef0ce3132cad7c55b4b8f79f1ffeb3400e81c2c77",
+      "kind": "shared_reporting_url",
+      "story_ids": [
+        "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "middle-east-oil-saudi-escalation-2026-10-22"
+      ],
+      "evidence": "https://apnews.com/article/stocks-markets-ai-oil-inflation-7b47ef3b037bfba4e34f685329b9b963",
+      "review": {
+        "decision": "distinct_stories",
+        "reason": "The oil story tracks the geopolitical energy-price shock, while the Meta story tracks the separate technology valuation sell-off. The same AP market report supports different, independently maintained subjects and stable story IDs."
+      },
+      "status": "reviewed"
+    },
     {
       "id": "7e998be67444b511f5e7f99e446baf3ed6e23df92a7d6c7bfb177691745da853",
       "kind": "shared_reporting_url",
