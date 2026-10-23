@@ -15,7 +15,7 @@ const applyFont=()=>doc.style.setProperty('--reader-font-size',fontSize+'px');ap
 document.querySelectorAll('[data-font-step]').forEach(b=>b.addEventListener('click',()=>{fontSize=Math.max(16,Math.min(24,fontSize+Number(b.dataset.fontStep)));applyFont();set('oracle:reader-font-size',String(fontSize))}));
 const links=[...document.querySelectorAll('.navs a[href^="#"]')];
 if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting)links.forEach(a=>a.classList.toggle('is-active',a.hash==='#'+entry.target.id))},{rootMargin:'-15% 0px -65% 0px'});links.forEach(a=>{const target=document.querySelector(a.hash);if(target)observer.observe(target)})}
-const menus=[...document.querySelectorAll('.section-menu,.utility-menu,.edition-status')];
+const menus=[...document.querySelectorAll('.section-menu,.utility-menu,.edition-status,.intelligence-filters')];
 document.addEventListener('click',event=>menus.forEach(menu=>{if(menu.open&&(!menu.contains(event.target)||event.target.closest('a')))menu.open=false}));
 document.addEventListener('keydown',event=>{if(event.key==='Escape')menus.forEach(menu=>{if(menu.open){menu.open=false;menu.querySelector('summary').focus()}})});
 let printClosed=[];

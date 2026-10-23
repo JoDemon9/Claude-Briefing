@@ -30,9 +30,11 @@ def decorate(b, doc, edition, day=None):
                 row.append(link)
             heading.insert_after(row)
     controls = BeautifulSoup('''<div class="intelligence-controls" hidden data-intelligence-controls>
-      <div role="group" aria-label="Τρόπος ανάγνωσης"><button type="button" data-reading-mode="executive" aria-pressed="false">30″ Επισκόπηση</button><button type="button" data-reading-mode="standard" aria-pressed="true">Σάρωση</button><button type="button" data-reading-mode="full" aria-pressed="false">Πλήρης ανάλυση</button></div>
+      <div role="group" aria-label="Τρόπος ανάγνωσης"><button type="button" data-reading-mode="executive" aria-label="Σύντομη επισκόπηση" aria-pressed="false">30″</button><button type="button" data-reading-mode="standard" aria-pressed="true">Σάρωση</button><button type="button" data-reading-mode="full" aria-label="Πλήρης ανάλυση" aria-pressed="false">Ανάλυση</button></div>
+      <details class="intelligence-filters"><summary>Φίλτρα</summary><div class="intelligence-filter-panel">
       <label><input type="checkbox" data-delta-only> Μόνο μεταβολές</label><label>Σύγκριση με <select data-delta-baseline></select></label>
       <button type="button" data-clear-filters>Όλα τα θέματα</button><a data-tag-archive hidden>Σχετικά στο αρχείο ↗</a><span role="status" data-filter-status></span>
+      </div></details>
     </div>''', 'html.parser').div
     select = controls.select_one('select')
     options = []

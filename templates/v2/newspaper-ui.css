@@ -207,6 +207,14 @@ figure.photo figcaption{padding:10px 14px 4px;font:12px/1.5 Arial,sans-serif}.ph
 [data-intelligence] .stickybar>.wrap{flex-wrap:wrap}
 .intelligence-controls{flex-basis:100%;display:flex;align-items:center;flex-wrap:wrap;gap:6px 12px;padding:4px 0 8px;font:12px/1.4 Arial,sans-serif}
 .intelligence-controls [role=group]{display:flex;flex-wrap:wrap;gap:4px}
+.intelligence-controls{justify-content:space-between;gap:4px;padding:0 0 4px}
+.intelligence-controls [role=group]{flex:1}
+.intelligence-filters{position:static;margin:0;border:0}
+.intelligence-filters>summary{display:flex;align-items:center;min-height:44px;padding:7px 10px;box-sizing:border-box;border:1px solid var(--line);border-radius:4px;font:600 12px Arial,sans-serif;list-style:none}
+.intelligence-filters>summary::-webkit-details-marker{display:none}
+.intelligence-filters[open]>summary{margin:0}
+.stickybar>.wrap{position:relative}
+.intelligence-filter-panel{position:absolute;top:100%;left:0;right:0;z-index:60;display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;padding:12px;background:var(--paper);border:1px solid var(--line);box-sizing:border-box}
 .intelligence-controls button,.intelligence-controls select{min-height:44px;border:1px solid var(--line);border-radius:4px;padding:7px 9px;background:var(--card);color:var(--ink);font:inherit}
 .intelligence-controls label{display:inline-flex;align-items:center;gap:6px;min-height:44px}
 .intelligence-controls [aria-pressed=true],.scenario-buttons [aria-selected=true]{background:var(--forest);color:var(--paper)}
