@@ -1637,7 +1637,22 @@
     "brent"
   ],
   "market_notes": [
-    "Οι αμερικανικοί ταμειακοί δείκτες είναι προηγούμενο κλείσιμο· τα futures και οι ασιατικές τιμές σημειώνονται χωριστά."
+    {
+      "kind": "μεθοδολογία",
+      "text": "Οι αμερικανικοί ταμειακοί δείκτες είναι προηγούμενο κλείσιμο· τα futures και οι ασιατικές τιμές σημειώνονται χωριστά.",
+      "sources": [
+        {
+          "publisher": "Yahoo Finance · δεδομένα αγοράς",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&range=5d",
+          "published_at": null,
+          "retrieved_at": "2026-10-23T04:30:12.913080+00:00",
+          "reporting_group": "Yahoo Finance · δεδομένα αγοράς",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    }
   ],
   "fast_wire": [],
   "delta_log": [],
