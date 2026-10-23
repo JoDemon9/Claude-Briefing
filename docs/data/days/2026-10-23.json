@@ -1,0 +1,709 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-23",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-10-23.html",
+  "editions": [
+    {
+      "id": "2026-10-23-morning",
+      "type": "morning",
+      "url": "morning/2026-10-23.html",
+      "published_at": "2026-10-23T07:36:00+03:00"
+    }
+  ],
+  "missing_slots": [
+    "midday",
+    "evening"
+  ],
+  "lead_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+  "stories": [
+    {
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "first_seen_at": "2026-10-23T07:36:00+03:00",
+      "last_substantive_at": "2026-10-23T07:36:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-23-morning",
+          "article_id": "lead",
+          "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+          "url": "articles/2026-10-23-morning/lead.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-23-morning/lead.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+      "first_seen_at": "2026-10-23T07:36:00+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-23-morning",
+          "article_id": "world-ukraine",
+          "source_story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+          "url": "articles/2026-10-23-morning/world-ukraine.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+        "url": "articles/2026-10-23-morning/world-ukraine.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "first_seen_at": "2026-10-23T07:36:00+03:00",
+      "last_substantive_at": "2026-10-23T07:36:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-23-morning",
+          "article_id": "world-meta",
+          "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+          "url": "articles/2026-10-23-morning/world-meta.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "world-meta",
+        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "url": "articles/2026-10-23-morning/world-meta.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+      "first_seen_at": "2026-10-23T07:36:00+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-23-morning",
+          "article_id": "world-greece-egypt-eez",
+          "source_story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+          "url": "articles/2026-10-23-morning/world-greece-egypt-eez.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "world-greece-egypt-eez",
+        "source_story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+        "url": "articles/2026-10-23-morning/world-greece-egypt-eez.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "starlink-ukraine-control-dispute-2026-10-22",
+      "first_seen_at": "2026-10-23T07:36:00+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-23-morning",
+          "article_id": "world-starlink",
+          "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
+          "url": "articles/2026-10-23-morning/world-starlink.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "world-starlink",
+        "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
+        "url": "articles/2026-10-23-morning/world-starlink.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+      "first_seen_at": "2026-10-23T07:36:00+03:00",
+      "last_substantive_at": "2026-10-23T07:36:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-23-morning",
+          "article_id": "cyprus-heating-oil",
+          "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+          "url": "articles/2026-10-23-morning/cyprus-heating-oil.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "cyprus-heating-oil",
+        "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+        "url": "articles/2026-10-23-morning/cyprus-heating-oil.html"
+      },
+      "section": "cyprus",
+      "priority": 8
+    },
+    {
+      "story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+      "first_seen_at": "2026-10-23T07:36:00+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-23-morning",
+          "article_id": "cyprus-abramovich",
+          "source_story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+          "url": "articles/2026-10-23-morning/cyprus-abramovich.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "cyprus-abramovich",
+        "source_story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+        "url": "articles/2026-10-23-morning/cyprus-abramovich.html"
+      },
+      "section": "cyprus",
+      "priority": 10
+    },
+    {
+      "story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+      "first_seen_at": "2026-10-23T07:36:00+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-23-morning",
+          "article_id": "cyprus-erhurman",
+          "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+          "url": "articles/2026-10-23-morning/cyprus-erhurman.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "cyprus-erhurman",
+        "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+        "url": "articles/2026-10-23-morning/cyprus-erhurman.html"
+      },
+      "section": "cyprus",
+      "priority": 11
+    },
+    {
+      "story_id": "2026-10-13-cyprus-1",
+      "first_seen_at": "2026-10-23T07:36:00+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-23-morning",
+          "article_id": "cyprus-pensions",
+          "source_story_id": "2026-10-13-cyprus-1",
+          "url": "articles/2026-10-23-morning/cyprus-pensions.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "cyprus-pensions",
+        "source_story_id": "2026-10-13-cyprus-1",
+        "url": "articles/2026-10-23-morning/cyprus-pensions.html"
+      },
+      "section": "cyprus",
+      "priority": 12
+    },
+    {
+      "story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+      "first_seen_at": "2026-10-23T07:36:00+03:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-23-morning",
+          "article_id": "cyprus-court",
+          "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+          "url": "articles/2026-10-23-morning/cyprus-court.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "cyprus-court",
+        "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+        "url": "articles/2026-10-23-morning/cyprus-court.html"
+      },
+      "section": "cyprus",
+      "priority": 13
+    }
+  ],
+  "updates": [
+    {
+      "id": "2026-10-23-morning-heating-oil-effective",
+      "kind": "new",
+      "at": "2026-10-23T00:00:00+03:00",
+      "summary": "Τέθηκε σε ισχύ η μείωση του φόρου πετρελαίου θέρμανσης που ψήφισε η Βουλή.",
+      "source_urls": [
+        "https://www.cna.org.cy/en/article/11072120/cyprus-parliament-approves-bill-reducing-excise-duty-on-heating-fuels",
+        "https://en.philenews.com/insider/heating-oil-excise-duty-cut-friday-cyprus-eu-derogation/"
+      ],
+      "story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "cyprus-heating-oil",
+        "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+        "url": "articles/2026-10-23-morning/cyprus-heating-oil.html"
+      }
+    },
+    {
+      "id": "2026-10-23-morning-us-tech-close",
+      "kind": "substantive_update",
+      "at": "2026-10-22T20:00:00-04:00",
+      "summary": "Η πτώση τεχνολογίας οριστικοποιήθηκε με Nasdaq -2,6% και S&P 500 -1,2% στο κλείσιμο.",
+      "source_urls": [
+        "https://apnews.com/article/1970e79d013cbddcae89c53b4b98f384",
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-23/"
+      ],
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "world-meta",
+        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "url": "articles/2026-10-23-morning/world-meta.html"
+      }
+    },
+    {
+      "id": "2026-10-23-morning-oil-asia-update",
+      "kind": "substantive_update",
+      "at": "2026-10-23T01:20:00+00:00",
+      "summary": "Το Brent σταθεροποιήθηκε κοντά στα $113 μετά το άλμα 4%, με πρόσθετο κίνδυνο προσφοράς από τη Λιβύη.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/"
+      ],
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-23-morning/lead.html"
+      }
+    },
+    {
+      "id": "01689b051b91e14428a06257efb41dfa5f1de20fe80b19cb104486ef8750dc14",
+      "kind": "provenance",
+      "at": "2026-10-23T07:36:00+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "cyprus-heating-oil",
+        "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+        "url": "articles/2026-10-23-morning/cyprus-heating-oil.html"
+      }
+    },
+    {
+      "id": "01733bb1ff26d571a6943c05c63ee18368002023823e0a25f1478ed83d1de340",
+      "kind": "substantive_update",
+      "at": "2026-10-23T07:36:00+03:00",
+      "summary": "Νεότερη ασιατική τιμή πετρελαίου και πρόσθετος κίνδυνος προσφοράς από τη Λιβύη.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/"
+      ],
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-23-morning/lead.html"
+      }
+    },
+    {
+      "id": "08c3c146cb325d92fe11e3fd5383ed7e6bc1a33479779ab0fd062b65dacd9aab",
+      "kind": "provenance",
+      "at": "2026-10-23T07:36:00+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "starlink-ukraine-control-dispute-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "world-starlink",
+        "source_story_id": "starlink-ukraine-control-dispute-2026-10-22",
+        "url": "articles/2026-10-23-morning/world-starlink.html"
+      }
+    },
+    {
+      "id": "0fffeed27ddb83561b116e822a28a9930ab6919710570faf576adebdd628c459",
+      "kind": "provenance",
+      "at": "2026-10-23T07:36:00+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "cyprus-abramovich",
+        "source_story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
+        "url": "articles/2026-10-23-morning/cyprus-abramovich.html"
+      }
+    },
+    {
+      "id": "1822a5d23611f550558cc55ff5252d1c877104877a53d01bec917848e9c210f3",
+      "kind": "new",
+      "at": "2026-10-23T07:36:00+03:00",
+      "summary": "Η μείωση του φόρου πετρελαίου θέρμανσης τέθηκε σε ισχύ.",
+      "source_urls": [
+        "https://www.cna.org.cy/en/article/11072120/cyprus-parliament-approves-bill-reducing-excise-duty-on-heating-fuels",
+        "https://en.philenews.com/insider/heating-oil-excise-duty-cut-friday-cyprus-eu-derogation/"
+      ],
+      "story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "cyprus-heating-oil",
+        "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+        "url": "articles/2026-10-23-morning/cyprus-heating-oil.html"
+      }
+    },
+    {
+      "id": "26eec31bb150540d1add9cda432aa76ce3233078b5c7333478711f3e1f2412a4",
+      "kind": "provenance",
+      "at": "2026-10-23T07:36:00+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "2026-10-13-cyprus-1",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "cyprus-pensions",
+        "source_story_id": "2026-10-13-cyprus-1",
+        "url": "articles/2026-10-23-morning/cyprus-pensions.html"
+      }
+    },
+    {
+      "id": "276b5e474438cd1bb85270baa3cf3be39daa240775ed784260912682b501d625",
+      "kind": "substantive_update",
+      "at": "2026-10-23T07:36:00+03:00",
+      "summary": "Οι ενδοσυνεδριακές ενδείξεις αντικαταστάθηκαν από τα πραγματικά κλεισίματα της Wall Street.",
+      "source_urls": [
+        "https://apnews.com/article/1970e79d013cbddcae89c53b4b98f384",
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-23/"
+      ],
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "world-meta",
+        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "url": "articles/2026-10-23-morning/world-meta.html"
+      }
+    },
+    {
+      "id": "4c61eea425be7c5f5a83856b01e51ffb66b8bda2f4ba88b64fbde3545858349d",
+      "kind": "provenance",
+      "at": "2026-10-23T07:36:00+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "world-meta",
+        "source_story_id": "meta-new-mexico-penalty-ai-spending-2026-10-22",
+        "url": "articles/2026-10-23-morning/world-meta.html"
+      }
+    },
+    {
+      "id": "5d62afd0dd662aac4f0c19998cce33ae65af7da098daf3b2a3d6bb843914db06",
+      "kind": "provenance",
+      "at": "2026-10-23T07:36:00+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "world-greece-egypt-eez",
+        "source_story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
+        "url": "articles/2026-10-23-morning/world-greece-egypt-eez.html"
+      }
+    },
+    {
+      "id": "5fa679eaf8c5a3736eed94befca84e27576e85b26cbb3e088014fd9cd64ba84e",
+      "kind": "provenance",
+      "at": "2026-10-23T07:36:00+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
+        "url": "articles/2026-10-23-morning/world-ukraine.html"
+      }
+    },
+    {
+      "id": "7560fc75ae589313c94e93b8be8b218d85267057faceaf21832d5e71bf31018a",
+      "kind": "provenance",
+      "at": "2026-10-23T07:36:00+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-23-morning/lead.html"
+      }
+    },
+    {
+      "id": "d0851494c37ca37b50270da5e0b972846eb77a9f1905645cd5211e79b77007ac",
+      "kind": "provenance",
+      "at": "2026-10-23T07:36:00+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "cyprus-court",
+        "source_story_id": "cyprus-iranian-detention-habeas-2026-10-21",
+        "url": "articles/2026-10-23-morning/cyprus-court.html"
+      }
+    },
+    {
+      "id": "d7c66062c3ff41241162dee5b56d9d095558870f68d89bed456b1ac5cba96ec5",
+      "kind": "provenance",
+      "at": "2026-10-23T07:36:00+03:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-morning",
+        "article_id": "cyprus-erhurman",
+        "source_story_id": "cyprus-erhurman-rotating-presidency-2026-10-22",
+        "url": "articles/2026-10-23-morning/cyprus-erhurman.html"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "verified_at": "2026-10-23T07:36:00+03:00",
+      "opens_at": null,
+      "deadline": "2024-07-31T23:59:00+03:00",
+      "deadline_type": "fixed",
+      "application_kind": "instructions",
+      "id": "cy-new-entrepreneurship-2024-call2",
+      "kind": "grant",
+      "status": "closed",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "title": "Νέα Επιχειρηματική Δραστηριότητα · παλιά 2η προκήρυξη",
+      "summary": "Ιστορική πρόσκληση του 2024 που έχει λήξει. Παραμένει μόνο στην παρακολούθηση για τυχόν νέα επίσημη προκήρυξη, όχι στις ενεργές αιτήσεις.",
+      "eligibility": "Η προκήρυξη του 2024 όριζε νέους 18–29, άνδρες 30–50 και γυναίκες 30–55. Νέα πρόσκληση μπορεί να αλλάξει τους όρους· δεν έχει κριθεί προσωπική επιλεξιμότητα.",
+      "support": "Παλιοί όροι: 70% επιλέξιμης δαπάνης για 18–29, 60% για τις άλλες ομάδες, με μέγιστο επιλέξιμο προϋπολογισμό €120.000.",
+      "deadline_note": "Ιστορική προθεσμία της 2ης πρόσκλησης, όχι ημερομηνία νέας αίτησης. Νέα ενεργή πρόσκληση δεν επιβεβαιώθηκε στον παρόντα έλεγχο.",
+      "action": "Δες την επίσημη ανακοίνωση ως ιστορικό πλαίσιο. Αναμένουμε επαληθευμένη νέα προκήρυξη πριν εμφανίσουμε ενεργή αίτηση.",
+      "application_url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+      "sources": [
+        {
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+          "published_at": null,
+          "retrieved_at": "2026-10-23T04:30:48.639313+00:00",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
+          "published_at": null,
+          "retrieved_at": "2026-10-15T16:39:24.850175+00:00",
+          "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση."
+    },
+    {
+      "verified_at": "2026-10-22T08:04:01+03:00",
+      "opens_at": null,
+      "deadline": "2026-11-04T18:00:00+02:00",
+      "deadline_type": "fixed",
+      "application_kind": "form",
+      "id": "eu-eic-accelerator-2026",
+      "kind": "grant",
+      "status": "open",
+      "jurisdiction": "ΕΕ · περιλαμβάνει την Κύπρο",
+      "title": "EIC Accelerator: επόμενη πλήρης πρόταση 4 Νοεμβρίου",
+      "summary": "Στήριξη νεοφυών και μικρομεσαίων επιχειρήσεων με ανατρεπτική καινοτομία σε στάδιο ανάπτυξης και κλιμάκωσης. Δεν είναι γενική επιδότηση ίδρυσης επιχείρησης.",
+      "eligibility": "Μία startup/ΜμΕ στην ΕΕ ή συνδεδεμένη χώρα, με καινοτομία TRL 6–8. Για πλήρη πρόταση προηγείται θετική αξιολόγηση (GO) της σύντομης πρότασης ή επιλέξιμη ειδική διαδρομή.",
+      "support": "Επιχορήγηση κάτω από €2,5 εκατ.· χωριστά επενδυτικό σκέλος €1–10 εκατ., που δεν αποτελεί επιχορήγηση.",
+      "deadline_note": "4/11 στις 17:00 Βρυξελλών = 18:00 Κύπρου. Αφορά πλήρη πρόταση μετά το GO. Οι σύντομες προτάσεις υποβάλλονται συνεχώς· αξιολόγηση συνήθως 4–6 εβδομάδες.",
+      "action": "Αν έχεις GO, προετοίμασε πλήρη πρόταση. Διαφορετικά ξεκίνα τη σύντομη αίτηση χωρίς να θεωρείς εξασφαλισμένη συμμετοχή στον γύρο Νοεμβρίου.",
+      "application_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+      "sources": [
+        {
+          "publisher": "European Innovation Council",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "published_at": null,
+          "retrieved_at": "2026-10-22T04:38:52.911469+00:00",
+          "reporting_group": "European Innovation Council",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "change_note": "Αναγνώστηκαν τα επίσημα κριτήρια και οι ημερομηνίες του τρέχοντος συλλεγμένου οδηγού: 4/11 17:00 Βρυξελλών, πλήρης πρόταση μετά από GO. Δεν διαπιστώθηκε αλλαγή όρων."
+    },
+    {
+      "id": "cy-home-energy-2026",
+      "review_due": true,
+      "kind": "grant",
+      "status": "needs_verification",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "deadline": "2026-12-30T23:59:00+02:00",
+      "deadline_type": "fixed",
+      "deadline_note": "Έως 30/12/2026 ή μέχρι εξαντλήσεως προϋπολογισμού.",
+      "application_kind": "form",
+      "application_url": "https://fundingapps.meci.gov.cy",
+      "action": "Υποβολή ηλεκτρονικών αιτήσεων μέσω του ενιαίου κυβερνητικού portal.",
+      "verified_at": "2026-10-21T20:15:00+03:00",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "change_note": "Στον έλεγχο της 22/10 στις 13:34 η σελίδα αιτήσεων δεν ήταν προσβάσιμη και η κεντρική σελίδα δεν παρείχε αναγνώσιμη νέα επιβεβαίωση. Διατηρείται needs_verification και ο αρχικός χρόνος επαλήθευσης.",
+      "sources": [
+        {
+          "publisher": "ΥΕΕΒ",
+          "url": "https://www.industry.gov.cy",
+          "published_at": "2026-09-30",
+          "retrieved_at": "2026-10-21T20:15:00+03:00",
+          "reporting_group": "ΥΕΕΒ",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ]
+    },
+    {
+      "verified_at": "2026-10-16T20:32:42+03:00",
+      "opens_at": null,
+      "deadline": null,
+      "deadline_type": "unknown",
+      "application_kind": "instructions",
+      "id": "eu-cross-border-sme-vat",
+      "kind": "legal_right",
+      "status": "open",
+      "jurisdiction": "ΕΕ / Κύπρος · διασυνοριακές πωλήσεις",
+      "title": "Προαιρετική απαλλαγή ΦΠΑ για μικρές επιχειρήσεις",
+      "summary": "Το ευρωπαϊκό καθεστώς μικρών επιχειρήσεων επιτρέπει απαλλαγή ΦΠΑ σε επιλέξιμες διασυνοριακές πωλήσεις. Απαιτεί προηγούμενη κοινοποίηση· δεν εφαρμόζεται αυτόματα.",
+      "eligibility": "Επιχείρηση εγκατεστημένη στην ΕΕ: ενωσιακός τζίρος έως €100.000 στο τρέχον και προηγούμενο έτος, καθώς και το εθνικό/κλαδικό όριο κάθε χώρας απαλλαγής.",
+      "support": "Πιθανή απλούστευση υποχρεώσεων ΦΠΑ, με απώλεια δικαιώματος έκπτωσης ΦΠΑ για τις απαλλασσόμενες πράξεις. Αξιολόγησε το καθαρό όφελος πριν επιλέξεις.",
+      "deadline_note": "Δεν πρόκειται για γύρο χορηγιών. Η απαλλαγή ξεκινά μετά την έγκριση/επιβεβαίωση EX· ισχύουν ξεχωριστές υποχρεώσεις τριμηνιαίας αναφοράς.",
+      "action": "Έλεγξε τα όρια και τη διαδικασία προηγούμενης κοινοποίησης στο κράτος εγκατάστασης. Ο σύνδεσμος δίνει οδηγίες, όχι κυπριακό έντυπο.",
+      "application_url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+      "sources": [
+        {
+          "publisher": "European Commission · DG TAXUD",
+          "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+          "published_at": null,
+          "retrieved_at": "2026-10-16T17:27:51.153783+00:00",
+          "reporting_group": "European Commission · DG TAXUD",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "European Commission · SME VAT",
+          "url": "https://sme-vat-rules.ec.europa.eu/index_en",
+          "published_at": null,
+          "retrieved_at": "2026-10-16T17:27:48.647295+00:00",
+          "reporting_group": "European Commission · SME VAT",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
+          "published_at": null,
+          "retrieved_at": "2026-10-16T17:27:50.540845+00:00",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "change_note": "Διατήρηση του πλήρους ελεγμένου στιγμιοτύπου της 15/10 με τον αρχικό χρόνο επαλήθευσης. Δεν παρουσιάζεται ως νέα πρόσκληση ή νέα μεταβολή όρων."
+    },
+    {
+      "verified_at": "2026-10-20T04:48:18.157Z",
+      "opens_at": null,
+      "deadline": null,
+      "deadline_type": "rolling",
+      "application_kind": "form",
+      "id": "eu-erasmus-new-entrepreneurs",
+      "review_due": true,
+      "kind": "benefit",
+      "status": "open",
+      "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
+      "title": "Erasmus for Young Entrepreneurs",
+      "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
+      "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
+      "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
+      "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
+      "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "sources": [
+        {
+          "publisher": "Erasmus for Young Entrepreneurs",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=16",
+          "published_at": null,
+          "retrieved_at": "2026-10-20T04:48:18.157Z",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        },
+        {
+          "publisher": "Erasmus · FAQ προθεσμίας",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
+          "published_at": null,
+          "retrieved_at": "2026-10-20T04:48:18.157Z",
+          "reporting_group": "Erasmus · FAQ προθεσμίας",
+          "kind": "primary",
+          "access": "read",
+          "used_for_claims": true
+        }
+      ],
+      "change_note": "Η ηλεκτρονική πύλη παρέμενε διαθέσιμη στις 22/10, αλλά οι αναλυτικές επίσημες σελίδες όρων δεν ήταν προσβάσιμες στον επανέλεγχο. Διατηρούνται οι όροι και ο αρχικός verified_at χωρίς τεχνητή ανανέωση."
+    }
+  ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Το Brent παρέμεινε κοντά στα $113 μετά το άλμα 4%, με κινδύνους από Σαουδική Αραβία και Λιβύη αλλά χωρίς επιβεβαιωμένη γενικευμένη απώλεια σαουδαραβικών εξαγωγών.",
+        "story_ids": [
+          "middle-east-oil-saudi-escalation-2026-10-22"
+        ]
+      },
+      {
+        "text": "Η τεχνολογική πίεση έκλεισε με Nasdaq -2,6% και S&P 500 -1,2% στις 22/10· οι ασιατικές αγορές συνέχισαν χαμηλότερα το πρωί.",
+        "story_ids": [
+          "meta-new-mexico-penalty-ai-spending-2026-10-22"
+        ]
+      },
+      {
+        "text": "Στην Κύπρο ισχύει από σήμερα μείωση 6,39 σεντ ανά λίτρο με ΦΠΑ στο πετρέλαιο θέρμανσης· η πλήρης κατάργηση του φόρου παραμένει ευρωπαϊκό αίτημα.",
+        "story_ids": [
+          "cyprus-heating-oil-excise-cut-2026-10-23"
+        ]
+      },
+      {
+        "text": "Ουκρανία, συνομιλίες για ΑΟΖ Ελλάδας–Αιγύπτου, Starlink και τα κυπριακά θεσμικά μέτωπα διατηρούνται με τις πραγματικές ημερομηνίες και τις εκκρεμότητές τους.",
+        "story_ids": [
+          "ukraine-russia-strikes-after-us-talks-2026-10-22",
+          "greece-egypt-eez-eastward-cyprus-2026-10-22",
+          "starlink-ukraine-control-dispute-2026-10-22",
+          "cyprus-abramovich-assets-investigation-2026-10-21"
+        ]
+      }
+    ]
+  },
+  "follow_ups": [],
+  "created_at": "2026-10-23T04:45:33.130498+00:00",
+  "updated_at": "2026-10-23T04:45:33.130498+00:00",
+  "input_sha256": "d1953ff0a81bf7a65393b2ca6d6bdb2b02d0dcd73de9b1b19b94e7f149eff85b"
+}
