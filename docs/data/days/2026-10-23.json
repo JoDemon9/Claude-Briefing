@@ -16,17 +16,21 @@
       "type": "midday",
       "url": "midday/2026-10-23.html",
       "published_at": "2026-10-23T13:36:00+03:00"
+    },
+    {
+      "id": "2026-10-23-evening",
+      "type": "evening",
+      "url": "evening/2026-10-23.html",
+      "published_at": "2026-10-23T19:48:38+03:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
+  "missing_slots": [],
   "lead_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
   "stories": [
     {
       "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
       "first_seen_at": "2026-10-23T07:36:00+03:00",
-      "last_substantive_at": "2026-10-23T13:36:00+03:00",
+      "last_substantive_at": "2026-10-23T19:48:38+03:00",
       "references": [
         {
           "edition_id": "2026-10-23-morning",
@@ -39,16 +43,43 @@
           "article_id": "lead",
           "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
           "url": "articles/2026-10-23-midday/lead.html"
+        },
+        {
+          "edition_id": "2026-10-23-evening",
+          "article_id": "lead",
+          "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+          "url": "articles/2026-10-23-evening/lead.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-23-midday",
+        "edition_id": "2026-10-23-evening",
         "article_id": "lead",
         "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
-        "url": "articles/2026-10-23-midday/lead.html"
+        "url": "articles/2026-10-23-evening/lead.html"
       },
       "section": "world",
       "priority": 1
+    },
+    {
+      "story_id": "oleshky-local-ceasefire-2026-10-29",
+      "first_seen_at": "2026-10-23T19:48:38+03:00",
+      "last_substantive_at": "2026-10-23T19:48:38+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-23-evening",
+          "article_id": "world-oleshky",
+          "source_story_id": "oleshky-local-ceasefire-2026-10-29",
+          "url": "articles/2026-10-23-evening/world-oleshky.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "world-oleshky",
+        "source_story_id": "oleshky-local-ceasefire-2026-10-29",
+        "url": "articles/2026-10-23-evening/world-oleshky.html"
+      },
+      "section": "world",
+      "priority": 2
     },
     {
       "story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
@@ -105,6 +136,27 @@
       "priority": 3
     },
     {
+      "story_id": "russia-ukraine-prisoner-swap-270-2026-10-23",
+      "first_seen_at": "2026-10-23T19:48:38+03:00",
+      "last_substantive_at": "2026-10-23T19:48:38+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-23-evening",
+          "article_id": "world-prisoners",
+          "source_story_id": "russia-ukraine-prisoner-swap-270-2026-10-23",
+          "url": "articles/2026-10-23-evening/world-prisoners.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "world-prisoners",
+        "source_story_id": "russia-ukraine-prisoner-swap-270-2026-10-23",
+        "url": "articles/2026-10-23-evening/world-prisoners.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
       "story_id": "greece-egypt-eez-eastward-cyprus-2026-10-22",
       "first_seen_at": "2026-10-23T07:36:00+03:00",
       "last_substantive_at": null,
@@ -130,6 +182,48 @@
       },
       "section": "world",
       "priority": 4
+    },
+    {
+      "story_id": "tibet-nagqu-earthquake-2026-10-22",
+      "first_seen_at": "2026-10-23T19:48:38+03:00",
+      "last_substantive_at": "2026-10-23T19:36:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-23-evening",
+          "article_id": "world-tibet",
+          "source_story_id": "tibet-nagqu-earthquake-2026-10-22",
+          "url": "articles/2026-10-23-evening/world-tibet.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "world-tibet",
+        "source_story_id": "tibet-nagqu-earthquake-2026-10-22",
+        "url": "articles/2026-10-23-evening/world-tibet.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "iran-us-talks-strategy-october-20-2026",
+      "first_seen_at": "2026-10-23T19:48:38+03:00",
+      "last_substantive_at": "2026-10-23T19:36:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-23-evening",
+          "article_id": "world-iran",
+          "source_story_id": "iran-us-talks-strategy-october-20-2026",
+          "url": "articles/2026-10-23-evening/world-iran.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "world-iran",
+        "source_story_id": "iran-us-talks-strategy-october-20-2026",
+        "url": "articles/2026-10-23-evening/world-iran.html"
+      },
+      "section": "world",
+      "priority": 5
     },
     {
       "story_id": "starlink-ukraine-control-dispute-2026-10-22",
@@ -161,7 +255,7 @@
     {
       "story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
       "first_seen_at": "2026-10-23T07:36:00+03:00",
-      "last_substantive_at": "2026-10-23T07:36:00+03:00",
+      "last_substantive_at": "2026-10-23T19:48:38+03:00",
       "references": [
         {
           "edition_id": "2026-10-23-morning",
@@ -174,16 +268,85 @@
           "article_id": "cyprus-heating-oil",
           "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
           "url": "articles/2026-10-23-midday/cyprus-heating-oil.html"
+        },
+        {
+          "edition_id": "2026-10-23-evening",
+          "article_id": "cyprus-heating-oil",
+          "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+          "url": "articles/2026-10-23-evening/cyprus-heating-oil.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-23-midday",
+        "edition_id": "2026-10-23-evening",
         "article_id": "cyprus-heating-oil",
         "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
-        "url": "articles/2026-10-23-midday/cyprus-heating-oil.html"
+        "url": "articles/2026-10-23-evening/cyprus-heating-oil.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+      "first_seen_at": "2026-10-23T19:48:38+03:00",
+      "last_substantive_at": "2026-10-23T19:48:38+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-23-evening",
+          "article_id": "cyprus-naval",
+          "source_story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+          "url": "articles/2026-10-23-evening/cyprus-naval.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-naval",
+        "source_story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+        "url": "articles/2026-10-23-evening/cyprus-naval.html"
+      },
+      "section": "cyprus",
+      "priority": 7
+    },
+    {
+      "story_id": "cyprus-ev-fast-charging-network-2026-2028",
+      "first_seen_at": "2026-10-23T19:48:38+03:00",
+      "last_substantive_at": "2026-10-23T19:36:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-23-evening",
+          "article_id": "cyprus-ev",
+          "source_story_id": "cyprus-ev-fast-charging-network-2026-2028",
+          "url": "articles/2026-10-23-evening/cyprus-ev.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-ev",
+        "source_story_id": "cyprus-ev-fast-charging-network-2026-2028",
+        "url": "articles/2026-10-23-evening/cyprus-ev.html"
       },
       "section": "cyprus",
       "priority": 8
+    },
+    {
+      "story_id": "kalogeropoulos-murder-life-sentences-2026-10-23",
+      "first_seen_at": "2026-10-23T19:48:38+03:00",
+      "last_substantive_at": "2026-10-23T19:36:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-23-evening",
+          "article_id": "cyprus-kalogeropoulos",
+          "source_story_id": "kalogeropoulos-murder-life-sentences-2026-10-23",
+          "url": "articles/2026-10-23-evening/cyprus-kalogeropoulos.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-kalogeropoulos",
+        "source_story_id": "kalogeropoulos-murder-life-sentences-2026-10-23",
+        "url": "articles/2026-10-23-evening/cyprus-kalogeropoulos.html"
+      },
+      "section": "cyprus",
+      "priority": 9
     },
     {
       "story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
@@ -208,6 +371,27 @@
         "article_id": "cyprus-abramovich",
         "source_story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
         "url": "articles/2026-10-23-midday/cyprus-abramovich.html"
+      },
+      "section": "cyprus",
+      "priority": 10
+    },
+    {
+      "story_id": "limassol-sykaminou-reservoir-2026-10-23",
+      "first_seen_at": "2026-10-23T19:48:38+03:00",
+      "last_substantive_at": "2026-10-23T19:36:00+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-23-evening",
+          "article_id": "cyprus-reservoir",
+          "source_story_id": "limassol-sykaminou-reservoir-2026-10-23",
+          "url": "articles/2026-10-23-evening/cyprus-reservoir.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-reservoir",
+        "source_story_id": "limassol-sykaminou-reservoir-2026-10-23",
+        "url": "articles/2026-10-23-evening/cyprus-reservoir.html"
       },
       "section": "cyprus",
       "priority": 10
@@ -789,6 +973,390 @@
         "source_story_id": "cyprus-abramovich-assets-investigation-2026-10-21",
         "url": "articles/2026-10-23-midday/cyprus-abramovich.html"
       }
+    },
+    {
+      "id": "2026-10-23-evening-cyprus-ev-new",
+      "kind": "new",
+      "at": "2026-10-23T19:36:00+03:00",
+      "summary": "Καταγράφηκε το σχέδιο εγκατάστασης 94 ταχυφορτιστών έως το 2028.",
+      "source_urls": [
+        "https://en.philenews.com/local/cyprus-94-fast-ev-charging-points-2028-transport-ministry/"
+      ],
+      "story_id": "cyprus-ev-fast-charging-network-2026-2028",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-ev",
+        "source_story_id": "cyprus-ev-fast-charging-network-2026-2028",
+        "url": "articles/2026-10-23-evening/cyprus-ev.html"
+      }
+    },
+    {
+      "id": "2026-10-23-evening-cyprus-heating-oil-substantive_update",
+      "kind": "substantive_update",
+      "at": "2026-10-23T19:36:00+03:00",
+      "summary": "Προστέθηκε ο μεσημβρινός έλεγχος 290 πρατηρίων και οι 22 αποκλίσεις.",
+      "source_urls": [
+        "https://en.philenews.com/insider/heating-oil-tax-cut-not-passed-on-22-petrol-stations/"
+      ],
+      "story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-heating-oil",
+        "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+        "url": "articles/2026-10-23-evening/cyprus-heating-oil.html"
+      }
+    },
+    {
+      "id": "2026-10-23-evening-cyprus-kalogeropoulos-new",
+      "kind": "new",
+      "at": "2026-10-23T19:36:00+03:00",
+      "summary": "Καταγράφηκε η δικαστική απόφαση επιβολής τεσσάρων ισόβιων ποινών.",
+      "source_urls": [
+        "https://en.philenews.com/local/kalogeropoulos-murder-four-jailed-for-life-limassol/"
+      ],
+      "story_id": "kalogeropoulos-murder-life-sentences-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-kalogeropoulos",
+        "source_story_id": "kalogeropoulos-murder-life-sentences-2026-10-23",
+        "url": "articles/2026-10-23-evening/cyprus-kalogeropoulos.html"
+      }
+    },
+    {
+      "id": "2026-10-23-evening-cyprus-naval-substantive_update",
+      "kind": "substantive_update",
+      "at": "2026-10-23T19:36:00+03:00",
+      "summary": "Το προηγούμενο δημοσίευμα προμήθειας ενημερώθηκε με επίσημη υπουργική επιβεβαίωση.",
+      "source_urls": [
+        "https://en.philenews.com/local/cyprus-second-offshore-patrol-vessel-israel-palmas-naval-base/"
+      ],
+      "story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-naval",
+        "source_story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+        "url": "articles/2026-10-23-evening/cyprus-naval.html"
+      }
+    },
+    {
+      "id": "2026-10-23-evening-cyprus-reservoir-new",
+      "kind": "new",
+      "at": "2026-10-23T19:36:00+03:00",
+      "summary": "Καταγράφηκαν τα εγκαίνια και τα τεχνικά στοιχεία της νέας δεξαμενής Συκαμινού.",
+      "source_urls": [
+        "https://cyprus-mail.com/2026/10/23/limassol-inaugurates-new-water-reservoir-to-serve-17000-residents"
+      ],
+      "story_id": "limassol-sykaminou-reservoir-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-reservoir",
+        "source_story_id": "limassol-sykaminou-reservoir-2026-10-23",
+        "url": "articles/2026-10-23-evening/cyprus-reservoir.html"
+      }
+    },
+    {
+      "id": "2026-10-23-evening-lead-provenance",
+      "kind": "provenance",
+      "at": "2026-10-23T19:36:00+03:00",
+      "summary": "Η βραδινή έκδοση προσθέτει το ενδοσυνεδριακό υψηλό και τη νεότερη χρηματιστηριακή ένδειξη.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/",
+        "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=5d"
+      ],
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-23-evening/lead.html"
+      }
+    },
+    {
+      "id": "2026-10-23-evening-world-iran-substantive_update",
+      "kind": "substantive_update",
+      "at": "2026-10-23T19:36:00+03:00",
+      "summary": "Καταγράφηκε η νέα δημόσια τοποθέτηση του Αμερικανού προέδρου χωρίς ανακοινωμένη απόφαση.",
+      "source_urls": [
+        "https://www.reuters.com/world/trump-weighs-quick-end-iran-war-against-letting-conflict-wither-2026-10-23/"
+      ],
+      "story_id": "iran-us-talks-strategy-october-20-2026",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "world-iran",
+        "source_story_id": "iran-us-talks-strategy-october-20-2026",
+        "url": "articles/2026-10-23-evening/world-iran.html"
+      }
+    },
+    {
+      "id": "2026-10-23-evening-world-oleshky-new",
+      "kind": "new",
+      "at": "2026-10-23T19:36:00+03:00",
+      "summary": "Καταγράφηκε η επιβεβαιωμένη τοπική ανθρωπιστική εκεχειρία στην Ολέσκι.",
+      "source_urls": [
+        "https://www.reuters.com/world/europe/melania-trump-secures-oleshky-ceasefire-between-russia-ukraine-white-house-says-2026-10-23/",
+        "https://www.reuters.com/world/europe/kremlin-confirms-oleshky-ceasefire-says-working-with-ukraine-evacuation-timing-2026-10-23/"
+      ],
+      "story_id": "oleshky-local-ceasefire-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "world-oleshky",
+        "source_story_id": "oleshky-local-ceasefire-2026-10-29",
+        "url": "articles/2026-10-23-evening/world-oleshky.html"
+      }
+    },
+    {
+      "id": "2026-10-23-evening-world-prisoners-new",
+      "kind": "new",
+      "at": "2026-10-23T19:36:00+03:00",
+      "summary": "Καταγράφηκε η ολοκληρωμένη ανταλλαγή 270 αιχμαλώτων ανά πλευρά.",
+      "source_urls": [
+        "https://www.reuters.com/world/europe/russia-ukraine-have-swapped-270-prisoners-war-each-russian-state-media-reports-2026-10-23/"
+      ],
+      "story_id": "russia-ukraine-prisoner-swap-270-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "world-prisoners",
+        "source_story_id": "russia-ukraine-prisoner-swap-270-2026-10-23",
+        "url": "articles/2026-10-23-evening/world-prisoners.html"
+      }
+    },
+    {
+      "id": "2026-10-23-evening-world-tibet-new",
+      "kind": "new",
+      "at": "2026-10-23T19:36:00+03:00",
+      "summary": "Καταγράφηκαν οι επιβεβαιωμένες απώλειες και η συνεχιζόμενη επιχείρηση διάσωσης.",
+      "source_urls": [
+        "https://apnews.com/article/tibet-earthquake-china-nagqu-0358c57cfcbc0de48d2486df15ded4ef"
+      ],
+      "story_id": "tibet-nagqu-earthquake-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "world-tibet",
+        "source_story_id": "tibet-nagqu-earthquake-2026-10-22",
+        "url": "articles/2026-10-23-evening/world-tibet.html"
+      }
+    },
+    {
+      "id": "013fbfcf175fd81ada08222f55107ad49776e7429f5c62a6f904ac3a4a49a1bc",
+      "kind": "provenance",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-heating-oil",
+        "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+        "url": "articles/2026-10-23-evening/cyprus-heating-oil.html"
+      }
+    },
+    {
+      "id": "0ae364262fd6b6fdbc5f4a760b001c2952dba350d455ac9bebf935243abcedca",
+      "kind": "provenance",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-23-evening/lead.html"
+      }
+    },
+    {
+      "id": "17b19933eea95419d20596decd9bd16dc8f64678fe14aab9c8d028c66ab74bc5",
+      "kind": "provenance",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "kalogeropoulos-murder-life-sentences-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-kalogeropoulos",
+        "source_story_id": "kalogeropoulos-murder-life-sentences-2026-10-23",
+        "url": "articles/2026-10-23-evening/cyprus-kalogeropoulos.html"
+      }
+    },
+    {
+      "id": "2d8678dcd3572195d47fb63b84afd8048e6ca221b7a1f0da5f0c37c47e9ef188",
+      "kind": "substantive_update",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Το Brent άγγιξε τα $115,16 και προστέθηκε η μεταγενέστερη καθυστερημένη ένδειξη futures.",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/",
+        "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=5d"
+      ],
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "lead",
+        "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+        "url": "articles/2026-10-23-evening/lead.html"
+      }
+    },
+    {
+      "id": "57198ca5e564437a78282a9b89318d4b415b0f0b93fb9eae9b94bfa8406e4754",
+      "kind": "provenance",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-ev-fast-charging-network-2026-2028",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-ev",
+        "source_story_id": "cyprus-ev-fast-charging-network-2026-2028",
+        "url": "articles/2026-10-23-evening/cyprus-ev.html"
+      }
+    },
+    {
+      "id": "5b7bb7dd4ab044f72e8de1bfed6e8ec7e1168f2e39b14527649a99c4c1dab958",
+      "kind": "provenance",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-naval",
+        "source_story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+        "url": "articles/2026-10-23-evening/cyprus-naval.html"
+      }
+    },
+    {
+      "id": "86eeb73a18e70d5e2898a088aef4c208ea712a71d136a2ab4fb67f7e8bcf947e",
+      "kind": "provenance",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "iran-us-talks-strategy-october-20-2026",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "world-iran",
+        "source_story_id": "iran-us-talks-strategy-october-20-2026",
+        "url": "articles/2026-10-23-evening/world-iran.html"
+      }
+    },
+    {
+      "id": "88bb6c2c5a3e698954e13bc8056a33914e470b27734abdedcd6d881cd411c802",
+      "kind": "provenance",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "russia-ukraine-prisoner-swap-270-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "world-prisoners",
+        "source_story_id": "russia-ukraine-prisoner-swap-270-2026-10-23",
+        "url": "articles/2026-10-23-evening/world-prisoners.html"
+      }
+    },
+    {
+      "id": "a084b1a0a868e07e854eca8f1875eee49e8896cdaa5ca2e9dd19ef5ad3644fcf",
+      "kind": "provenance",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "tibet-nagqu-earthquake-2026-10-22",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "world-tibet",
+        "source_story_id": "tibet-nagqu-earthquake-2026-10-22",
+        "url": "articles/2026-10-23-evening/world-tibet.html"
+      }
+    },
+    {
+      "id": "a62595a0a4fdd434d38cd7f3e7835c741c2c304a6e294c5e766290d5a1f9a190",
+      "kind": "provenance",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "oleshky-local-ceasefire-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "world-oleshky",
+        "source_story_id": "oleshky-local-ceasefire-2026-10-29",
+        "url": "articles/2026-10-23-evening/world-oleshky.html"
+      }
+    },
+    {
+      "id": "aea630190e06f6b39ef6bed9d7109b533ec27aef89999ab7e3e857722d5f4f59",
+      "kind": "substantive_update",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Ο έλεγχος βρήκε 22 πρατήρια χωρίς πλήρη μετακύλιση της φορολογικής μείωσης.",
+      "source_urls": [
+        "https://en.philenews.com/insider/heating-oil-tax-cut-not-passed-on-22-petrol-stations/"
+      ],
+      "story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-heating-oil",
+        "source_story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+        "url": "articles/2026-10-23-evening/cyprus-heating-oil.html"
+      }
+    },
+    {
+      "id": "d69f86fd6dfcb5a27a3002de880b5dc83d974035fd84ac486dec9f66b8506df4",
+      "kind": "provenance",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-sykaminou-reservoir-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-reservoir",
+        "source_story_id": "limassol-sykaminou-reservoir-2026-10-23",
+        "url": "articles/2026-10-23-evening/cyprus-reservoir.html"
+      }
+    },
+    {
+      "id": "e709e7a808ebdf93cf7041b62f459905982d0274c5a0516e62f9cc8b3ebd2793",
+      "kind": "substantive_update",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Η κυβέρνηση επιβεβαίωσε επίσημα το δεύτερο περιπολικό και ανέφερε υπογραφή την επόμενη εβδομάδα.",
+      "source_urls": [
+        "https://en.philenews.com/local/cyprus-second-offshore-patrol-vessel-israel-palmas-naval-base/"
+      ],
+      "story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "cyprus-naval",
+        "source_story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+        "url": "articles/2026-10-23-evening/cyprus-naval.html"
+      }
+    },
+    {
+      "id": "e74146bcc5edb8fbf27d404b492f20f80514760b223a37c839b97279eee65859",
+      "kind": "new",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Επιβεβαιώθηκε τοπική ανθρωπιστική εκεχειρία με προβλεπόμενη έναρξη 29/10.",
+      "source_urls": [
+        "https://www.reuters.com/world/europe/melania-trump-secures-oleshky-ceasefire-between-russia-ukraine-white-house-says-2026-10-23/",
+        "https://www.reuters.com/world/europe/kremlin-confirms-oleshky-ceasefire-says-working-with-ukraine-evacuation-timing-2026-10-23/"
+      ],
+      "story_id": "oleshky-local-ceasefire-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "world-oleshky",
+        "source_story_id": "oleshky-local-ceasefire-2026-10-29",
+        "url": "articles/2026-10-23-evening/world-oleshky.html"
+      }
+    },
+    {
+      "id": "e93864f8cd07cbfa2b837f5e62fa81a64b4f2a4b6f9930cc92cc49089694afb9",
+      "kind": "new",
+      "at": "2026-10-23T19:48:38+03:00",
+      "summary": "Ολοκληρώθηκε ανταλλαγή 270 αιχμαλώτων ανά πλευρά.",
+      "source_urls": [
+        "https://www.reuters.com/world/europe/russia-ukraine-have-swapped-270-prisoners-war-each-russian-state-media-reports-2026-10-23/"
+      ],
+      "story_id": "russia-ukraine-prisoner-swap-270-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-23-evening",
+        "article_id": "world-prisoners",
+        "source_story_id": "russia-ukraine-prisoner-swap-270-2026-10-23",
+        "url": "articles/2026-10-23-evening/world-prisoners.html"
+      }
     }
   ],
   "opportunities": [
@@ -963,6 +1531,7 @@
       "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
       "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
       "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "review_due": true,
       "sources": [
         {
           "publisher": "Erasmus for Young Entrepreneurs",
@@ -985,45 +1554,56 @@
           "used_for_claims": true
         }
       ],
-      "change_note": "Η σελίδα εισόδου ήταν διαθέσιμη, αλλά οι επίσημες αναλυτικές FAQ δεν ανακτήθηκαν. Διατηρείται η παλαιότερη επαλήθευση και η αίτηση δεν προβάλλεται ως ενεργή μέχρι νέο πλήρη έλεγχο.",
-      "review_due": true
+      "change_note": "Επανέλεγχος 20/10 των επίσημων κριτηρίων και της δυνατότητας υποβολής. Δεν διαπιστώθηκε αλλαγή όρων· δεν υπονοείται προσωπική επιλεξιμότητα."
     }
   ],
   "overview": {
     "kind": "reviewed",
     "points": [
       {
-        "text": "Το Brent διατήρησε μεγάλο γεωπολιτικό ασφάλιστρο, ενώ οι τιμές της ημέρας παραμένουν ενδοσυνεδριακές και όχι κλείσιμο.",
+        "text": "Το πετρέλαιο κυριάρχησε στην ημέρα: το Brent άγγιξε τα $115,16, με έντονη ενδοσυνεδριακή μεταβλητότητα και επίμονο κίνδυνο προσφοράς.",
         "story_ids": [
           "middle-east-oil-saudi-escalation-2026-10-22"
         ]
       },
       {
-        "text": "Η πίεση στις μετοχές AI πέρασε στην Ευρώπη· τα αμερικανικά στοιχεία της 23/10 παραμένουν futures μέχρι το άνοιγμα στις 16:30 ώρα Κύπρου.",
+        "text": "Στην Ουκρανία, οι πρωινές επιθέσεις ακολούθησαν δύο περιορισμένα ανθρωπιστικά αποτελέσματα: ανταλλαγή 270 αιχμαλώτων ανά πλευρά και τοπική εκεχειρία στην Ολέσκι από 29/10.",
         "story_ids": [
-          "meta-new-mexico-penalty-ai-spending-2026-10-22"
+          "ukraine-russia-strikes-after-us-talks-2026-10-22",
+          "russia-ukraine-prisoner-swap-270-2026-10-23",
+          "oleshky-local-ceasefire-2026-10-29"
         ]
       },
       {
-        "text": "Η μείωση φόρου στο πετρέλαιο θέρμανσης ισχύει και η επόμενη συνάντηση των δύο Κυπρίων ηγετών ορίστηκε για τις 27/10.",
+        "text": "Στο Θιβέτ, σεισμός 7,0 προκάλεσε τουλάχιστον 16 θανάτους, 54 τραυματισμούς και εκατοντάδες κατεστραμμένα σπίτια.",
         "story_ids": [
-          "cyprus-heating-oil-excise-cut-2026-10-23",
+          "tibet-nagqu-earthquake-2026-10-22"
+        ]
+      },
+      {
+        "text": "Η κυπριακή φορολογική μείωση στη θέρμανση εφαρμόστηκε πλήρως στα 268 από 290 ελεγχθέντα πρατήρια· 22 παρέμειναν εκτός πλήρους μετακύλισης.",
+        "story_ids": [
+          "cyprus-heating-oil-excise-cut-2026-10-23"
+        ]
+      },
+      {
+        "text": "Η Λευκωσία επιβεβαίωσε δεύτερο περιπολικό από το Ισραήλ και διατήρησε για 27/10 τη νέα συνάντηση Χριστοδουλίδη–Ερχιουρμάν.",
+        "story_ids": [
+          "cyprus-israel-naval-procurement-report-october-20-2026",
           "cyprus-erhurman-rotating-presidency-2026-10-22"
         ]
       },
       {
-        "text": "Ο έλεγχος του Starlink στην Ουκρανία, οι ρωσικές επιθέσεις, η ΑΟΖ Ελλάδας–Αιγύπτου, η έρευνα Abramovich και οι συντάξεις παραμένουν ανοικτά μέτωπα.",
+        "text": "Νέα έργα υποδομής: 94 ταχυφορτιστές έως το 2028 και δεξαμενή 2.000 κ.μ. στον Άγιο Αθανάσιο.",
         "story_ids": [
-          "starlink-ukraine-control-dispute-2026-10-22",
-          "ukraine-russia-strikes-after-us-talks-2026-10-22",
-          "greece-egypt-eez-eastward-cyprus-2026-10-22",
-          "cyprus-abramovich-assets-investigation-2026-10-21"
+          "cyprus-ev-fast-charging-network-2026-2028",
+          "limassol-sykaminou-reservoir-2026-10-23"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-10-23T04:45:33.130498+00:00",
-  "updated_at": "2026-10-23T10:44:39.706817+00:00",
-  "input_sha256": "6ef2b987f648506ac0fa615ebfaca66ed5e93cbb1bc2899b4d513404fea9a28c"
+  "updated_at": "2026-10-23T17:16:47.784156+00:00",
+  "input_sha256": "a85b1cb1a38af9927b32c41acce45d41514ae7290474210d5528ecdba6b2e8a7"
 }

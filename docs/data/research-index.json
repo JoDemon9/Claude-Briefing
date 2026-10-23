@@ -185,6 +185,13 @@
       "url": "morning/2026-10-22.html"
     },
     {
+      "id": "2026-10-23-evening",
+      "date": "2026-10-23",
+      "type": "evening",
+      "published_at": "2026-10-23T19:48:38+03:00",
+      "url": "evening/2026-10-23.html"
+    },
+    {
       "id": "2026-10-23-midday",
       "date": "2026-10-23",
       "type": "midday",
@@ -6985,6 +6992,292 @@
       ],
       "freshness": [],
       "image_asset": null
+    },
+    {
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "identity": "middle-east-oil-saudi-escalation-2026-10-22",
+      "edition_id": "2026-10-23-evening",
+      "date": "2026-10-23",
+      "slot": "evening",
+      "published_at": "2026-10-23T19:48:38+03:00",
+      "available_at": "2026-10-23T19:48:38+03:00",
+      "headline": "Το Brent άγγιξε τα $115,16 καθώς διευρύνεται ο κίνδυνος για την προσφορά",
+      "finding": "Το Brent ανέβηκε έως τα 115,16 δολάρια, υψηλό άνω των πέντε μηνών, και βρισκόταν στα 114,99 δολάρια στο ρεπορτάζ του Reuters, με εβδομαδιαία άνοδο 4,4%. Οι επιθέσεις των Χούθι στη Σαουδική Αραβία, η πετρελαιοκηλίδα στα ΗΑΕ και η διακοπή λιβυκού αγωγού ενίσχυσαν τον φόβο για την προσφορά. Η δική μας καθυστερημένη ένδειξη futures ήταν 111,90 δολάρια στις 19:22 Κύπρου, όχι τελικό ημερήσιο κλείσιμο.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-23-evening/lead.json",
+      "reader_url": "articles/2026-10-23-evening/lead.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-10-23T19:36:00+03:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=5d",
+          "publisher": "Yahoo Finance · δεδομένα αγοράς",
+          "reporting_group": "Yahoo Finance · δεδομένα αγοράς",
+          "published_at": null,
+          "retrieved_at": "2026-10-23T19:36:00+03:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-evening/lead.webp"
+    },
+    {
+      "story_id": "oleshky-local-ceasefire-2026-10-29",
+      "identity": "oleshky-local-ceasefire-2026-10-29",
+      "edition_id": "2026-10-23-evening",
+      "date": "2026-10-23",
+      "slot": "evening",
+      "published_at": "2026-10-23T19:48:38+03:00",
+      "available_at": "2026-10-23T19:48:38+03:00",
+      "headline": "Τοπική εκεχειρία στην Ολέσκι από 29 Οκτωβρίου για βοήθεια και εκκενώσεις",
+      "finding": "Η Ουκρανία και η Ρωσία συμφώνησαν σε προσωρινή τοπική εκεχειρία στην κατεχόμενη Ολέσκι, με έναρξη στις 29 Οκτωβρίου, ώστε να εισέλθει ανθρωπιστική βοήθεια και να λειτουργήσει ασφαλής διάδρομος εκκένωσης. Το Κρεμλίνο επιβεβαίωσε τη συμφωνία και είπε ότι οι δύο στρατοί καθορίζουν τις ημερομηνίες εφαρμογής. Στην πόλη παραμένουν περίπου 1.700–2.000 άνθρωποι, ανάμεσά τους περίπου 50 παιδιά, σύμφωνα με τον Λευκό Οίκο.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-23-evening/world-oleshky.json",
+      "reader_url": "articles/2026-10-23-evening/world-oleshky.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/europe/melania-trump-secures-oleshky-ceasefire-between-russia-ukraine-white-house-says-2026-10-23/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-10-23T19:36:00+03:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.reuters.com/world/europe/kremlin-confirms-oleshky-ceasefire-says-working-with-ukraine-evacuation-timing-2026-10-23/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-10-23T19:36:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-evening/world-oleshky.webp"
+    },
+    {
+      "story_id": "russia-ukraine-prisoner-swap-270-2026-10-23",
+      "identity": "russia-ukraine-prisoner-swap-270-2026-10-23",
+      "edition_id": "2026-10-23-evening",
+      "date": "2026-10-23",
+      "slot": "evening",
+      "published_at": "2026-10-23T19:48:38+03:00",
+      "available_at": "2026-10-23T19:48:38+03:00",
+      "headline": "Ρωσία και Ουκρανία αντάλλαξαν από 270 αιχμαλώτους",
+      "finding": "Ρωσία και Ουκρανία αντάλλαξαν από 270 ανθρώπους η καθεμία στη νεότερη ανταλλαγή αιχμαλώτων, μετά τις επαφές με Αμερικανούς διαπραγματευτές νωρίτερα αυτή την εβδομάδα, μετέδωσε το Reuters. Η ανταλλαγή αποτελεί συγκεκριμένο ανθρωπιστικό αποτέλεσμα, αλλά δεν συνοδεύτηκε από ανακοίνωση ευρύτερης συμφωνίας για τερματισμό των επιθέσεων. Οι επιστρέφοντες μεταφέρθηκαν για ιατρικούς ελέγχους και επανένωση με τις οικογένειές τους. Δεν ανακοινώθηκε ακόμη επόμενος γύρος ανταλλαγής.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-10-23-evening/world-prisoners.json",
+      "reader_url": "articles/2026-10-23-evening/world-prisoners.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/europe/russia-ukraine-have-swapped-270-prisoners-war-each-russian-state-media-reports-2026-10-23/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-10-23T19:36:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-evening/world-prisoners.webp"
+    },
+    {
+      "story_id": "tibet-nagqu-earthquake-2026-10-22",
+      "identity": "tibet-nagqu-earthquake-2026-10-22",
+      "edition_id": "2026-10-23-evening",
+      "date": "2026-10-23",
+      "slot": "evening",
+      "published_at": "2026-10-23T19:48:38+03:00",
+      "available_at": "2026-10-23T19:48:38+03:00",
+      "headline": "Σεισμός 7,0 στο Θιβέτ: τουλάχιστον 16 νεκροί και εκατοντάδες σπίτια κατεστραμμένα",
+      "finding": "Σεισμός μεγέθους 7,0 έπληξε τη Νάγκτσου στο Θιβέτ το βράδυ της Πέμπτης, σκοτώνοντας τουλάχιστον 16 ανθρώπους και τραυματίζοντας 54, σύμφωνα με κινεζικά κρατικά μέσα που επικαλείται το AP. Τουλάχιστον 339 σπίτια κατέρρευσαν και ακολούθησαν επτά μετασεισμοί 4,3–5,2. Περισσότεροι από 5.000 διασώστες επιχειρούσαν την Παρασκευή, ενώ χιόνι, παγετός, κατολισθήσεις και διακοπές επικοινωνιών δυσκολεύουν τις έρευνες. Οι αρχές διέκοψαν σιδηροδρομικά δρομολόγια και έκλεισαν τμήμα εθνικής οδού.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-10-23-evening/world-tibet.json",
+      "reader_url": "articles/2026-10-23-evening/world-tibet.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/tibet-earthquake-china-nagqu-0358c57cfcbc0de48d2486df15ded4ef",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": null,
+          "retrieved_at": "2026-10-23T19:36:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-evening/world-tibet.webp"
+    },
+    {
+      "story_id": "iran-us-talks-strategy-october-20-2026",
+      "identity": "iran-us-talks-strategy-october-20-2026",
+      "edition_id": "2026-10-23-evening",
+      "date": "2026-10-23",
+      "slot": "evening",
+      "published_at": "2026-10-23T19:48:38+03:00",
+      "available_at": "2026-10-23T19:48:38+03:00",
+      "headline": "Ο Trump αφήνει ανοικτό είτε γρήγορο τέλος είτε σταδιακή φθορά του πολέμου με το Ιράν",
+      "finding": "Ο Donald Trump δήλωσε ότι οι ΗΠΑ μπορούν να τερματίσουν γρήγορα τον πόλεμο με το Ιράν, αλλά παρουσίασε δημόσια το δίλημμα ανάμεσα σε άμεση λήξη και σταδιακή «φθορά» της σύγκρουσης. Είπε επίσης ότι το πετρέλαιο συνεχίζει να διέρχεται από τα Στενά του Ορμούζ. Δεν ανακοίνωσε απόφαση, όρους συμφωνίας ή νέο χρονοδιάγραμμα· συνεπώς, το βασικό βραδινό δεδομένο είναι η αβεβαιότητα της αμερικανικής στρατηγικής.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-10-23-evening/world-iran.json",
+      "reader_url": "articles/2026-10-23-evening/world-iran.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/trump-weighs-quick-end-iran-war-against-letting-conflict-wither-2026-10-23/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-10-23T19:36:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-evening/world-iran.webp"
+    },
+    {
+      "story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+      "identity": "cyprus-heating-oil-excise-cut-2026-10-23",
+      "edition_id": "2026-10-23-evening",
+      "date": "2026-10-23",
+      "slot": "evening",
+      "published_at": "2026-10-23T19:48:38+03:00",
+      "available_at": "2026-10-23T19:48:38+03:00",
+      "headline": "Σε 22 πρατήρια δεν πέρασε ολόκληρη η μείωση φόρου στο πετρέλαιο θέρμανσης",
+      "finding": "Ο έλεγχος της Υπηρεσίας Προστασίας Καταναλωτή σε 290 πρατήρια έδειξε ότι 268, ποσοστό 92,4%, μείωσαν την τιμή του πετρελαίου θέρμανσης κατά τουλάχιστον 6,39 σεντ το λίτρο. Στα υπόλοιπα 22 η μείωση ήταν μικρότερη, μηδενική ή η τιμή αυξήθηκε. Η φορολογική μείωση ισχύει έως 30 Απριλίου 2027 και η υπηρεσία ανακοίνωσε συνεχή παρακολούθηση, καλώντας τους καταναλωτές να συγκρίνουν τιμές πριν από κάθε αγορά.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-10-23-evening/cyprus-heating-oil.json",
+      "reader_url": "articles/2026-10-23-evening/cyprus-heating-oil.html",
+      "sources": [
+        {
+          "url": "https://en.philenews.com/insider/heating-oil-tax-cut-not-passed-on-22-petrol-stations/",
+          "publisher": "Philenews / ΚΥΠΕ",
+          "reporting_group": "Philenews / ΚΥΠΕ",
+          "published_at": null,
+          "retrieved_at": "2026-10-23T19:36:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-evening/cyprus-heating-oil.webp"
+    },
+    {
+      "story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+      "identity": "cyprus-israel-naval-procurement-report-october-20-2026",
+      "edition_id": "2026-10-23-evening",
+      "date": "2026-10-23",
+      "slot": "evening",
+      "published_at": "2026-10-23T19:48:38+03:00",
+      "available_at": "2026-10-23T19:48:38+03:00",
+      "headline": "Επίσημη επιβεβαίωση για δεύτερο περιπολικό από το Ισραήλ — υπογραφή την επόμενη εβδομάδα",
+      "finding": "Ο υπουργός Άμυνας Βασίλης Πάλμας επιβεβαίωσε ότι η Κύπρος θα αγοράσει δεύτερο υπεράκτιο περιπολικό από το Ισραήλ, παρόμοιο με το «Ιωαννίδης», και ότι η σύμβαση αναμένεται να υπογραφεί την επόμενη εβδομάδα. Δήλωσε επίσης ότι έχει υπογραφεί συμφωνία με ελληνική εταιρεία για τη μελέτη αναβάθμισης της ναυτικής βάσης και ότι έργα στις βάσεις αναμένονται προς το τέλος της άνοιξης του 2027.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-10-23-evening/cyprus-naval.json",
+      "reader_url": "articles/2026-10-23-evening/cyprus-naval.html",
+      "sources": [
+        {
+          "url": "https://en.philenews.com/local/cyprus-second-offshore-patrol-vessel-israel-palmas-naval-base/",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": null,
+          "retrieved_at": "2026-10-23T19:36:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-evening/cyprus-naval.webp"
+    },
+    {
+      "story_id": "cyprus-ev-fast-charging-network-2026-2028",
+      "identity": "cyprus-ev-fast-charging-network-2026-2028",
+      "edition_id": "2026-10-23-evening",
+      "date": "2026-10-23",
+      "slot": "evening",
+      "published_at": "2026-10-23T19:48:38+03:00",
+      "available_at": "2026-10-23T19:48:38+03:00",
+      "headline": "Σχέδιο €10 εκατ. για 94 ταχυφορτιστές ηλεκτρικών οχημάτων έως το 2028",
+      "finding": "Το υπουργείο Μεταφορών σχεδιάζει δίκτυο 94 σημείων ταχείας φόρτισης έως το 2028, εκτιμώμενου κόστους €10 εκατ.: 76 σημεία 150 kW για ελαφρά οχήματα και 18 σημεία 200–350 kW για βαρέα. Οι εγκαταστάσεις θα αναπτυχθούν σε 13 τοποθεσίες, μεταξύ άλλων Λευκωσία, Λάρνακα και Λεμεσό. Για το 2026 προβλέπονται 16 σημεία· η χρηματοδότηση των φάσεων 2026–2027 έχει ενταχθεί στον προϋπολογισμό των Ηλεκτρομηχανολογικών Υπηρεσιών.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-10-23-evening/cyprus-ev.json",
+      "reader_url": "articles/2026-10-23-evening/cyprus-ev.html",
+      "sources": [
+        {
+          "url": "https://en.philenews.com/local/cyprus-94-fast-ev-charging-points-2028-transport-ministry/",
+          "publisher": "Philenews / ΚΥΠΕ",
+          "reporting_group": "Philenews / ΚΥΠΕ",
+          "published_at": null,
+          "retrieved_at": "2026-10-23T19:36:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-evening/cyprus-ev.webp"
+    },
+    {
+      "story_id": "kalogeropoulos-murder-life-sentences-2026-10-23",
+      "identity": "kalogeropoulos-murder-life-sentences-2026-10-23",
+      "edition_id": "2026-10-23-evening",
+      "date": "2026-10-23",
+      "slot": "evening",
+      "published_at": "2026-10-23T19:48:38+03:00",
+      "available_at": "2026-10-23T19:48:38+03:00",
+      "headline": "Τέσσερις ισόβιες καταδίκες για τη δολοφονία Καλογερόπουλου στη Λεμεσό",
+      "finding": "Το Μόνιμο Κακουργιοδικείο Λεμεσού επέβαλε ισόβια κάθειρξη σε τέσσερις άνδρες για την εκ προμελέτης δολοφονία του Θανάση Καλογερόπουλου, που έγινε στις 30 Οκτωβρίου 2023 σε παραλιακό χώρο στάθμευσης. Σε καθέναν επιβλήθηκαν επίσης εννέα χρόνια για συνωμοσία προς διάπραξη φόνου. Η ετυμηγορία, άνω των 600 σελίδων, βασίστηκε μεταξύ άλλων σε μαρτυρίες, υλικό κλειστού κυκλώματος και τηλεπικοινωνιακά δεδομένα. Είχαν προηγηθεί περισσότερες από 75 μαρτυρίες κατηγορίας.",
+      "section": "cyprus",
+      "priority": 9,
+      "article_path": "articles/2026-10-23-evening/cyprus-kalogeropoulos.json",
+      "reader_url": "articles/2026-10-23-evening/cyprus-kalogeropoulos.html",
+      "sources": [
+        {
+          "url": "https://en.philenews.com/local/kalogeropoulos-murder-four-jailed-for-life-limassol/",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-23T14:38:00+03:00",
+          "retrieved_at": "2026-10-23T19:36:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-evening/cyprus-kalogeropoulos.webp"
+    },
+    {
+      "story_id": "limassol-sykaminou-reservoir-2026-10-23",
+      "identity": "limassol-sykaminou-reservoir-2026-10-23",
+      "edition_id": "2026-10-23-evening",
+      "date": "2026-10-23",
+      "slot": "evening",
+      "published_at": "2026-10-23T19:48:38+03:00",
+      "available_at": "2026-10-23T19:48:38+03:00",
+      "headline": "Νέα δεξαμενή 2.000 κ.μ. στον Άγιο Αθανάσιο για 17.000 κατοίκους",
+      "finding": "Εγκαινιάστηκε η νέα δεξαμενή Συκαμινού στον Άγιο Αθανάσιο, χωρητικότητας 2.000 κυβικών μέτρων και κόστους €840.000. Αντικαθιστά παλαιά δεξαμενή 500 κ.μ. και προορίζεται να εξυπηρετεί περίπου 17.000 μόνιμους κατοίκους. Ο ΕΟΑ Λεμεσού έχει ολοκληρώσει τρεις ακόμη δεξαμενές και υλοποιεί αντικατάσταση 100 χιλιομέτρων παλαιών αγωγών, εγκατάσταση 80.000 έξυπνων μετρητών και πρόσθετη αποθηκευτική ικανότητα. Τα έργα συνδέονται με μείωση απωλειών και μεγαλύτερη αντοχή στη λειψυδρία.",
+      "section": "cyprus",
+      "priority": 10,
+      "article_path": "articles/2026-10-23-evening/cyprus-reservoir.json",
+      "reader_url": "articles/2026-10-23-evening/cyprus-reservoir.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/23/limassol-inaugurates-new-water-reservoir-to-serve-17000-residents",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-23T14:29:00+03:00",
+          "retrieved_at": "2026-10-23T19:36:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-23-evening/cyprus-reservoir.webp"
     },
     {
       "story_id": "middle-east-oil-saudi-escalation-2026-10-22",

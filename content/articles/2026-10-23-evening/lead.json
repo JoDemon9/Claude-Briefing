@@ -1,0 +1,87 @@
+{
+  "headline": "Το Brent άγγιξε τα $115,16 καθώς διευρύνεται ο κίνδυνος για την προσφορά",
+  "summary": "Το Brent ανέβηκε έως τα 115,16 δολάρια, υψηλό άνω των πέντε μηνών, και βρισκόταν στα 114,99 δολάρια στο ρεπορτάζ του Reuters, με εβδομαδιαία άνοδο 4,4%. Οι επιθέσεις των Χούθι στη Σαουδική Αραβία, η πετρελαιοκηλίδα στα ΗΑΕ και η διακοπή λιβυκού αγωγού ενίσχυσαν τον φόβο για την προσφορά. Η δική μας καθυστερημένη ένδειξη futures ήταν 111,90 δολάρια στις 19:22 Κύπρου, όχι τελικό ημερήσιο κλείσιμο.",
+  "reader_mode": "source",
+  "reader_value": "Η πρωτότυπη πηγή διατηρεί το πλήρες ρεπορτάζ και το τεκμηριωμένο πλαίσιο.",
+  "evidence_note": "Οι ουσιώδεις προτάσεις ελέγχθηκαν στις αναφερόμενες αναγνώσιμες πηγές.",
+  "related_story_ids": [],
+  "published_at": "2026-10-23T19:48:38+03:00",
+  "updated_at": "2026-10-23T19:48:38+03:00",
+  "id": "lead",
+  "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+  "story_identity": "middle-east-oil-saudi-escalation-2026-10-22",
+  "edition_id": "2026-10-23-evening",
+  "category": "Πρώτο θέμα",
+  "url": "articles/2026-10-23-evening/lead.html",
+  "sources": [
+    {
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/",
+      "published_at": null,
+      "retrieved_at": "2026-10-23T19:36:00+03:00",
+      "reporting_group": "Reuters",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Yahoo Finance · δεδομένα αγοράς",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=5d",
+      "published_at": null,
+      "retrieved_at": "2026-10-23T19:36:00+03:00",
+      "reporting_group": "Yahoo Finance · δεδομένα αγοράς",
+      "kind": "primary",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Δημοσιευμένα γεγονότα",
+      "paragraphs": [
+        "Το Brent ανέβηκε έως τα 115,16 δολάρια, υψηλό άνω των πέντε μηνών, και βρισκόταν στα 114,99 δολάρια στο ρεπορτάζ του Reuters, με εβδομαδιαία άνοδο 4,4%. Οι επιθέσεις των Χούθι στη Σαουδική Αραβία, η πετρελαιοκηλίδα στα ΗΑΕ και η διακοπή λιβυκού αγωγού ενίσχυσαν τον φόβο για την προσφορά. Η δική μας καθυστερημένη ένδειξη futures ήταν 111,90 δολάρια στις 19:22 Κύπρου, όχι τελικό ημερήσιο κλείσιμο."
+      ]
+    }
+  ],
+  "daily": {
+    "priority": 1,
+    "events": [
+      {
+        "id": "2026-10-23-evening-lead-provenance",
+        "kind": "provenance",
+        "at": "2026-10-23T19:36:00+03:00",
+        "summary": "Η βραδινή έκδοση προσθέτει το ενδοσυνεδριακό υψηλό και τη νεότερη χρηματιστηριακή ένδειξη.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/",
+          "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=5d"
+        ]
+      }
+    ],
+    "section": "world"
+  },
+  "image": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sanaa_Yemen_2013_old_city_001.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Sanaa_Yemen_2013_old_city_001.jpg",
+    "caption": "Παλιά πόλη της Σαναά, 15/08/2013· αρχειακή εικόνα της Υεμένης, όχι οι σημερινές επιθέσεις ή ενεργειακές εγκαταστάσεις.",
+    "alt": "Αρχειακή άποψη της παλιάς πόλης της Σαναά στην Υεμένη.",
+    "attribution": "Rod Waddington",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "retrieved_at": "2026-10-14T07:57:30+03:00",
+    "url": "assets/editorial/2026-10-23-evening/lead.webp",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-14-midday/world-aramco.webp",
+      "sha256": "6d5cb7ce9615d006c0eda535b815d2b9e3c5e07704e540412ba29389663572e1",
+      "reviewed_at": "2026-10-23T19:42:00+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "newspaper_analysis": [
+    "Η απόκλιση ανάμεσα στην τιμή του ρεπορτάζ και στη μεταγενέστερη χρηματιστηριακή ένδειξη δείχνει ενδοσυνεδριακή μεταβλητότητα, όχι σφάλμα μέτρησης. Το ουσιώδες είναι ότι οι αγορές τιμολογούν ταυτόχρονα πραγματικές διακοπές και τον κίνδυνο νέων επιθέσεων σε δύο κρίσιμους θαλάσσιους διαδρόμους."
+  ],
+  "analysis_sources": [
+    "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/",
+    "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=5d"
+  ]
+}

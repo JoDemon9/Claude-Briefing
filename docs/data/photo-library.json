@@ -2,6 +2,32 @@
   "schema_version": 1,
   "photos": [
     {
+      "id": "0388fcdc10e10480eb849bd90d0f333b121762f4c00933ecb69648543d08719d",
+      "asset": "assets/editorial/2026-10-23-evening/cyprus-reservoir.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sotira_Dam_Limassol_Cyprus.png",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Sotira_Dam_Limassol_Cyprus.png",
+        "caption": "Ταμιευτήρας Σωτήρας στην επαρχία Λεμεσού, 21/12/2018· αρχειακή εικόνα κυπριακής αποθήκευσης νερού, όχι η νέα δεξαμενή Συκαμινού.",
+        "alt": "Αρχειακή άποψη ταμιευτήρα νερού στην επαρχία Λεμεσού.",
+        "attribution": "Peter in s / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "retrieved_at": "2026-10-23T19:36:00+03:00",
+        "url": "assets/editorial/2026-10-23-evening/cyprus-reservoir.webp"
+      },
+      "dimensions": [
+        1280,
+        960
+      ],
+      "references": [
+        {
+          "story_id": "limassol-sykaminou-reservoir-2026-10-23",
+          "article_path": "articles/2026-10-23-evening/cyprus-reservoir.json",
+          "edition_id": "2026-10-23-evening"
+        }
+      ]
+    },
+    {
       "id": "0948b2f4da479c914a93560eca95bdc4c353c1d1b027e3d37518f870dd5dd9ac",
       "asset": "assets/editorial/2026-10-13-evening/cyprus-1.webp",
       "image": {
@@ -133,6 +159,32 @@
           "story_id": "coventry-home-win-2026",
           "article_path": "articles/2026-10-13-morning/sport-coventry.json",
           "edition_id": "2026-10-13-morning"
+        }
+      ]
+    },
+    {
+      "id": "2522d8ab8c6dd3ce23facb945e9ebad1381364cd66c46065ae271694a9835db9",
+      "asset": "assets/editorial/2026-10-23-evening/cyprus-ev.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:EV_Charging_Station_Detail.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/EV_Charging_Station_Detail.jpg",
+        "caption": "Σταθμός φόρτισης ηλεκτρικού οχήματος στο Ηνωμένο Βασίλειο, 17/06/2025· θεματική φωτογραφία αρχείου, όχι εγκατάσταση του κυπριακού σχεδίου.",
+        "alt": "Κοντινή άποψη σταθμού φόρτισης ηλεκτρικού οχήματος.",
+        "attribution": "Pamsimhaho / Wikimedia Commons",
+        "license": "CC0 1.0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "retrieved_at": "2026-10-23T19:36:00+03:00",
+        "url": "assets/editorial/2026-10-23-evening/cyprus-ev.webp"
+      },
+      "dimensions": [
+        1280,
+        719
+      ],
+      "references": [
+        {
+          "story_id": "cyprus-ev-fast-charging-network-2026-2028",
+          "article_path": "articles/2026-10-23-evening/cyprus-ev.json",
+          "edition_id": "2026-10-23-evening"
         }
       ]
     },
@@ -434,6 +486,37 @@
           "story_id": "limassol-tram-preliminary-study-2026-10-22",
           "article_path": "articles/2026-10-22-midday/cyprus-tram.json",
           "edition_id": "2026-10-22-midday"
+        },
+        {
+          "story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
+          "article_path": "articles/2026-10-23-evening/cyprus-naval.json",
+          "edition_id": "2026-10-23-evening"
+        }
+      ]
+    },
+    {
+      "id": "550752a943fad35c9fcc18e512a7cf5c494b49d385cbb966f7b09d13b7c56489",
+      "asset": "assets/editorial/2026-10-23-evening/world-tibet.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:2022_Luding_earthquake_rescue_workers.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/2022_Luding_earthquake_rescue_workers.jpg",
+        "caption": "Διασώστες μεταφέρουν τραυματίες μετά τον σεισμό του Luding στην Κίνα, 05/09/2022· αρχειακή εικόνα επιχειρήσεων διάσωσης, όχι ο σεισμός της Νάγκτσου.",
+        "alt": "Αρχειακή εικόνα διασωστών που μεταφέρουν τραυματία μετά από σεισμό στην Κίνα.",
+        "attribution": "China News Service / Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "retrieved_at": "2026-10-23T19:36:00+03:00",
+        "url": "assets/editorial/2026-10-23-evening/world-tibet.webp"
+      },
+      "dimensions": [
+        1280,
+        627
+      ],
+      "references": [
+        {
+          "story_id": "tibet-nagqu-earthquake-2026-10-22",
+          "article_path": "articles/2026-10-23-evening/world-tibet.json",
+          "edition_id": "2026-10-23-evening"
         }
       ]
     },
@@ -532,6 +615,11 @@
           "story_id": "iran-us-talks-strategy-october-20-2026",
           "article_path": "articles/2026-10-20-midday/world-iran.json",
           "edition_id": "2026-10-20-midday"
+        },
+        {
+          "story_id": "iran-us-talks-strategy-october-20-2026",
+          "article_path": "articles/2026-10-23-evening/world-iran.json",
+          "edition_id": "2026-10-23-evening"
         }
       ]
     },
@@ -614,6 +702,11 @@
           "story_id": "saudi-houthi-defensive-support-2026-10-21",
           "article_path": "articles/2026-10-22-morning/world-saudi.json",
           "edition_id": "2026-10-22-morning"
+        },
+        {
+          "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+          "article_path": "articles/2026-10-23-evening/lead.json",
+          "edition_id": "2026-10-23-evening"
         },
         {
           "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
@@ -777,6 +870,16 @@
           "story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
           "article_path": "articles/2026-10-22-morning/lead.json",
           "edition_id": "2026-10-22-morning"
+        },
+        {
+          "story_id": "oleshky-local-ceasefire-2026-10-29",
+          "article_path": "articles/2026-10-23-evening/world-oleshky.json",
+          "edition_id": "2026-10-23-evening"
+        },
+        {
+          "story_id": "russia-ukraine-prisoner-swap-270-2026-10-23",
+          "article_path": "articles/2026-10-23-evening/world-prisoners.json",
+          "edition_id": "2026-10-23-evening"
         },
         {
           "story_id": "ukraine-russia-strikes-after-us-talks-2026-10-22",
@@ -1326,6 +1429,11 @@
           "story_id": "cyprus-parliament-data-leak-2026-10-21",
           "article_path": "articles/2026-10-22-morning/cyprus-data-leak.json",
           "edition_id": "2026-10-22-morning"
+        },
+        {
+          "story_id": "cyprus-heating-oil-excise-cut-2026-10-23",
+          "article_path": "articles/2026-10-23-evening/cyprus-heating-oil.json",
+          "edition_id": "2026-10-23-evening"
         },
         {
           "story_id": "2026-10-13-cyprus-1",
@@ -2012,6 +2120,11 @@
           "story_id": "cyprus-iranian-detention-habeas-2026-10-21",
           "article_path": "articles/2026-10-22-midday/cyprus-court.json",
           "edition_id": "2026-10-22-midday"
+        },
+        {
+          "story_id": "kalogeropoulos-murder-life-sentences-2026-10-23",
+          "article_path": "articles/2026-10-23-evening/cyprus-kalogeropoulos.json",
+          "edition_id": "2026-10-23-evening"
         },
         {
           "story_id": "cyprus-iranian-detention-habeas-2026-10-21",

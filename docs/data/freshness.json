@@ -663,6 +663,52 @@
       "coverage": "structured"
     },
     {
+      "edition_id": "2026-10-23-evening",
+      "as_of": "2026-10-23T19:48:38+03:00",
+      "records": [
+        {
+          "owner": "2026-10-23-evening",
+          "id": "weather-2026-10-23-evening",
+          "kind": "weather",
+          "label": "Πρόγνωση Λεμεσού για 24/10",
+          "checked_at": "2026-10-23T19:32:33+03:00",
+          "valid_from": "2026-10-23T18:00:00+03:00",
+          "valid_until": "2026-10-25T00:00:00+03:00",
+          "recheck_at": "2026-10-24T07:00:00+03:00",
+          "sources": [
+            "https://www.dom.org.cy/FORECAST/public_c.html"
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-23-evening",
+          "id": "warnings-2026-10-23-evening",
+          "kind": "recheck",
+          "label": "Έλεγχος ενεργών μετεωρολογικών προειδοποιήσεων",
+          "checked_at": "2026-10-23T19:43:00+03:00",
+          "recheck_at": "2026-10-24T07:00:00+03:00",
+          "sources": [
+            "https://www.moa.gov.cy/moa/dm/dm.nsf/home_en/home_en?openform="
+          ],
+          "state": "current"
+        },
+        {
+          "owner": "2026-10-23-evening",
+          "id": "wall-street-session-2026-10-23-evening",
+          "kind": "recheck",
+          "label": "Έλεγχος ωραρίου τακτικής συνεδρίασης ΗΠΑ",
+          "checked_at": "2026-10-23T19:43:00+03:00",
+          "recheck_at": "2026-10-23T23:05:00+03:00",
+          "sources": [
+            "https://www.nyse.com/markets/hours-calendars",
+            "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+          ],
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
       "edition_id": "2026-10-23-midday",
       "as_of": "2026-10-23T13:36:00+03:00",
       "records": [
