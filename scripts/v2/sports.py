@@ -2,6 +2,15 @@
 from datetime import datetime, timezone
 from pathlib import Path
 
+
+def prefetch(client, at):
+    """Preparation entry point; rendering stays independent of network collection."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location('structured_sports', Path(__file__).with_name('sports_data.py'))
+    value = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(value)
+    return value.collect(client, at)
+
 NEWS = {
     'omonoia': 'https://www.omonoiafc.com.cy/category-news/',
     'manutd': 'https://www.manutd.com/en/news',

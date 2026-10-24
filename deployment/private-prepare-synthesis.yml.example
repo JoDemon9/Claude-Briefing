@@ -1,0 +1,75 @@
+# INACTIVE REVIEW TEMPLATE. Activation in the private repository requires approval.
+name: Prepare private synthesis pack (Python only)
+on:
+  schedule:
+    # Three Athens pre-runs at :10; unused DST hour is skipped by Python.
+    - cron: '10 4,5,10,11,16,17 * * *'
+  workflow_dispatch:
+    inputs:
+      slot:
+        type: choice
+        options: [morning, midday, evening]
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: private-research-packs
+  cancel-in-progress: false
+jobs:
+  prepare:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: private
+      - uses: actions/checkout@v4
+        with:
+          repository: JoDemon9/Claude-Briefing
+          ref: main
+          path: source
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: JoDemon9/oracle-briefing
+          ref: main
+          path: portal
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install beautifulsoup4
+      - uses: actions/cache@v4
+        with:
+          path: |
+            private/research/source-cache
+            private/research/news-state.json
+          key: prefetch-${{ github.run_id }}
+          restore-keys: prefetch-
+      - name: Collect without invoking AI
+        id: prepare
+        env:
+          EVENT: ${{ github.event_name }}
+          SLOT: ${{ inputs.slot }}
+          ORACLE_SUBMISSION_READY: ${{ secrets.PUBLIC_BRIEFING_TOKEN != '' }}
+        run: |
+          if [ "$EVENT" = schedule ]; then
+            python source/scripts/v2/pre_run.py --root source --private-root private --wire-root portal --scheduled --github-output "$GITHUB_OUTPUT"
+          else
+            python source/scripts/v2/pre_run.py --root source --private-root private --wire-root portal --slot "$SLOT" --github-output "$GITHUB_OUTPUT"
+          fi
+      - name: Save only the private pack and digest
+        if: steps.prepare.outputs.edition_id != ''
+        working-directory: private
+        env:
+          EDITION: ${{ steps.prepare.outputs.edition_id }}
+        run: |
+          git config user.name 'Oracle Python Prefetch'
+          git config user.email 'actions@github.com'
+          git add -- "research/runs/$EDITION/research_pack.json" "research/runs/$EDITION/digest.md"
+          if ! git diff --cached --quiet; then
+            git commit -m "Prepare $EDITION synthesis pack (no AI)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

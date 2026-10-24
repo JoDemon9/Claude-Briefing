@@ -216,7 +216,7 @@
     "instrument": "cse"
   },
   {
-    "name": "ΕΚΤ · καταθέσεις · ισχύς 16/09",
+    "name": "ΕΚΤ · καταθέσεις",
     "instrument": "ecb-deposit",
     "currency": "EUR",
     "unit": "% ετησίως",
@@ -225,7 +225,7 @@
     "precision": 3
   },
   {
-    "name": "ΕΚΤ · MRO · ισχύς 16/09",
+    "name": "ΕΚΤ · MRO",
     "instrument": "ecb-mro",
     "currency": "EUR",
     "unit": "% ετησίως",
@@ -234,7 +234,7 @@
     "precision": 3
   },
   {
-    "name": "ΕΚΤ · οριακή χρηματοδότηση · ισχύς 16/09",
+    "name": "ΕΚΤ · οριακή χρηματοδότηση",
     "instrument": "ecb-mlf",
     "currency": "EUR",
     "unit": "% ετησίως",
@@ -243,7 +243,7 @@
     "precision": 3
   },
   {
-    "name": "Euribor 3 μηνών · fixing 16/10",
+    "name": "Euribor 3 μηνών",
     "instrument": "euribor-3m",
     "currency": "EUR",
     "unit": "% ετησίως",
@@ -252,7 +252,7 @@
     "precision": 3
   },
   {
-    "name": "Euribor 6 μηνών · fixing 16/10",
+    "name": "Euribor 6 μηνών",
     "instrument": "euribor-6m",
     "currency": "EUR",
     "unit": "% ετησίως",
@@ -261,7 +261,7 @@
     "precision": 3
   },
   {
-    "name": "Euribor 12 μηνών · fixing 16/10",
+    "name": "Euribor 12 μηνών",
     "instrument": "euribor-12m",
     "currency": "EUR",
     "unit": "% ετησίως",

@@ -90,3 +90,16 @@ Code/schema/template/test/workflow/runtime changes require maintenance: the same
 Central CI verifies the exact saved daily receipt and previews the current portal at the same two configurations. Its code changes add units; historical portal/Wire suites are explicit full audits only. Source live verification still precedes central promotion, with bounded current-release hash verification on both sites. Wire remains independent; no new scheduler is added.
 
 usage.py writes private work/gate metrics and optional explicitly observed Pro-window percentages. It never estimates account quota from bytes/calls/time. research.py --replay <3–5 saved IDs> measures input/due-check proxies, not fresh editorial quality or real Pro savings. Historical maintenance can make earlier evidence unavailable at a replay cutoff; the packet withholds it rather than guessing the old version. The real 3–5-edition pilot starts when the helpers are on maintained main; compact prompt policy can apply meanwhile using supported main fields.
+
+
+## DEC-024 — authoring and reading contract
+
+Fresh capabilities advertise authoring_formats=[json, oracle-markdown/1]. compose.py --input accepts one .json or .md file and emits the same validated canonical records. See MARKDOWN_AUTHORING.md. New candidates use intelligence_contract=1; shared validation enforces mode/slot and the complete instrument inventory across input routes.
+
+Use the bounded context_view/prepare_run baseline (edition_id, fingerprint). Explicit baseline plus carry_story_ids copies only selected unchanged stories with original times and rights. Baseline mismatch, unsafe identity and conflicting carry/write instructions block composition. No implicit inheritance of prices, weather, opportunities or sports checks. Planning digests are navigation; read real evidence for new/material/due claims.
+
+Driver tags are normalized ASCII labels. change_status is NEW, UPDATED, REVERSAL, CORRECTION, UNCHANGED or UNKNOWN. Changed statuses require a factual delta; UNCHANGED requires baseline provenance. Use facts, mechanisms, incentives, effects, supported scenarios and measurable watches where they add intelligence; do not force analysis into routine notices. analysis_sources must reference actual read article evidence. Scenarios add optional alternative_case/alternative_label; watch_next remains independent.
+
+Standard shows complete facts; Full opens depth; Executive uses existing synthesis and compact market data. Tabs, tags and filters are enhancements; no-JS and print retain the complete report. Delta identifies its comparison edition and reports unclassified material. Historic snapshots keep their accepted content contracts.
+
+Role-specific ORACLE_PUBLIC_PUSH_TOKEN / ORACLE_PORTAL_PUSH_TOKEN support temporary worktrees. Both routes are preflighted before promotion. The portal companion must support snapshot-objects before the new source sync is deployed. Verify actual Pages bytes on both sites; do not label PR CI as publication.
