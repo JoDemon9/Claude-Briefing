@@ -14,5 +14,9 @@
   "bf8c6eb8faaf6377f67097aef0ce3132cad7c55b4b8f79f1ffeb3400e81c2c77": {
     "decision": "distinct_stories",
     "reason": "The oil story tracks the geopolitical energy-price shock, while the Meta story tracks the separate technology valuation sell-off. The same AP market report supports different, independently maintained subjects and stable story IDs."
+  },
+  "5d27771c1a45c1eae5462b3cf63d68b8e21023034ccaa56decb5e05141dabd63": {
+    "decision": "distinct_stories",
+    "reason": "The oil story tracks the geopolitical energy-price shock and final cross-asset market close. The Meta story tracks the separate technology valuation and AI spending event. The same Reuters market roundup supports different subjects, so both stable IDs remain distinct."
   }
 }
