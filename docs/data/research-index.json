@@ -204,6 +204,13 @@
       "type": "morning",
       "published_at": "2026-10-23T07:36:00+03:00",
       "url": "morning/2026-10-23.html"
+    },
+    {
+      "id": "2026-10-24-morning",
+      "date": "2026-10-24",
+      "type": "morning",
+      "published_at": "2026-10-24T07:48:00+03:00",
+      "url": "morning/2026-10-24.html"
     }
   ],
   "stories": [
@@ -7858,6 +7865,276 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-23-morning/cyprus-heating-oil.webp"
+    },
+    {
+      "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+      "identity": "middle-east-oil-saudi-escalation-2026-10-22",
+      "edition_id": "2026-10-24-morning",
+      "date": "2026-10-24",
+      "slot": "morning",
+      "published_at": "2026-10-24T07:48:00+03:00",
+      "available_at": "2026-10-24T07:48:00+03:00",
+      "headline": "Πετρέλαιο στα $116,72 και πτώση στη Wall Street στο κλείσιμο της Παρασκευής",
+      "finding": "Το Brent έκλεισε την Παρασκευή στα 116,72 δολάρια το βαρέλι, με άνοδο 3,14%, καθώς οι επιθέσεις των Χούθι στη Σαουδική Αραβία αύξησαν τον κίνδυνο για την προσφορά. Ο Dow υποχώρησε 1,23%, ο S&P 500 0,52% και ο Nasdaq 0,21%. Οι τιμές είναι τα πραγματικά κλεισίματα της 23ης Οκτωβρίου· το επόμενο πλήρες χρηματιστηριακό άνοιγμα είναι τη Δευτέρα.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-24-morning/lead.json",
+      "reader_url": "articles/2026-10-24-morning/lead.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-23/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-10-24T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-24-morning/lead.webp"
+    },
+    {
+      "story_id": "oleshky-local-ceasefire-2026-10-29",
+      "identity": "oleshky-local-ceasefire-2026-10-29",
+      "edition_id": "2026-10-24-morning",
+      "date": "2026-10-24",
+      "slot": "morning",
+      "published_at": "2026-10-24T07:48:00+03:00",
+      "available_at": "2026-10-24T07:48:00+03:00",
+      "headline": "Ολέσκι: η τοπική εκεχειρία συμφωνήθηκε για τις 27 Οκτωβρίου",
+      "finding": "Ρωσία και Ουκρανία συμφώνησαν τοπική εκεχειρία στην κατεχόμενη Ολέσκι, με έναρξη στις 27 Οκτωβρίου, ώστε να περάσει ανθρωπιστική βοήθεια και να απομακρυνθούν κάτοικοι μέσω διαδρόμων. Ο Volodymyr Zelenskiy είπε επίσης ότι οι διαπραγματευτές θα συναντηθούν τον Νοέμβριο. Η ημερομηνία διορθώνει την προηγούμενη αναφορά της Oracle για 29 Οκτωβρίου, βάσει του νεότερου πλήρους ρεπορτάζ του Reuters.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-24-morning/world-oleshky.json",
+      "reader_url": "articles/2026-10-24-morning/world-oleshky.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/europe/russia-ukraine-agree-ceasefire-embattled-town-hold-peace-talks-next-month-2026-10-23/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-23T13:23:00+00:00",
+          "retrieved_at": "2026-10-24T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-24-morning/world-oleshky.webp"
+    },
+    {
+      "story_id": "sudan-drought-famine-risk-2026-10-23",
+      "identity": "sudan-drought-famine-risk-2026-10-23",
+      "edition_id": "2026-10-24-morning",
+      "date": "2026-10-24",
+      "slot": "morning",
+      "published_at": "2026-10-24T07:48:00+03:00",
+      "available_at": "2026-10-24T07:48:00+03:00",
+      "headline": "Σουδάν: η χειρότερη βροχόπτωση τριών δεκαετιών αυξάνει τον κίνδυνο λιμού",
+      "finding": "Η βροχόπτωση Ιουλίου–Σεπτεμβρίου στο Σουδάν ήταν η χαμηλότερη εδώ και πάνω από 30 χρόνια, σύμφωνα με στοιχεία USGS που επικαλείται το Reuters. Το IPC προειδοποιεί ότι η ξηρασία El Niño επιβαρύνει τον πόλεμο και τον υποσιτισμό: 5,1 εκατ. άνθρωποι αντιμετώπιζαν ήδη σοβαρή πείνα τον Ιούνιο. Το WFP προβλέπει 350.000 επιπλέον περιπτώσεις έως το τέλος του 2026.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-10-24-morning/world-sudan.json",
+      "reader_url": "articles/2026-10-24-morning/world-sudan.html",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/new-famine-risk-haunts-war-torn-sudan-with-el-nio-driven-drought-2026-10-23/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-10-24T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-24-morning/world-sudan.webp"
+    },
+    {
+      "story_id": "jordan-church-west-bank-attacks-2026-10-23",
+      "identity": "jordan-church-west-bank-attacks-2026-10-23",
+      "edition_id": "2026-10-24-morning",
+      "date": "2026-10-24",
+      "slot": "morning",
+      "published_at": "2026-10-24T07:48:00+03:00",
+      "available_at": "2026-10-24T07:48:00+03:00",
+      "headline": "Επιθέσεις σε Δυτική Όχθη και Ιορδανία αφήνουν εννέα νεκρούς",
+      "finding": "Δύο Ισραηλινοί στρατιώτες σκοτώθηκαν και τρεις τραυματίστηκαν σε επίθεση κοντά στη Χεβρώνα· ο ισραηλινός στρατός ανακοίνωσε ότι σκότωσε τους δύο δράστες και ετοιμάζει ευρύτερο κλείσιμο της Δυτικής Όχθης. Στην Ιορδανία, άγνωστοι άνοιξαν πυρ σε κηδεία σε ελληνορθόδοξη εκκλησία στο Καράκ, σκοτώνοντας επτά και τραυματίζοντας 40. Δεν υπήρξε άμεση ανάληψη ευθύνης.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-10-24-morning/world-mideast.json",
+      "reader_url": "articles/2026-10-24-morning/world-mideast.html",
+      "sources": [
+        {
+          "url": "https://apnews.com/article/mideast-news-october-23-2026-6424dff433a4f99f00cac2328de0f7a4",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": null,
+          "retrieved_at": "2026-10-24T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-24-morning/world-mideast.webp"
+    },
+    {
+      "story_id": "ebola-outbreak-kenya-2026-10",
+      "identity": "ebola-outbreak-kenya-2026-10",
+      "edition_id": "2026-10-24-morning",
+      "date": "2026-10-24",
+      "slot": "morning",
+      "published_at": "2026-10-24T07:48:00+03:00",
+      "available_at": "2026-10-24T07:48:00+03:00",
+      "headline": "Δεύτερος θάνατος από Έμπολα στην Κένυα, χωρίς ένδειξη κοινοτικής μετάδοσης",
+      "finding": "Η Κένυα κατέγραψε δεύτερο θάνατο από Έμπολα: μια 65χρονη, στενή συγγενής του πρώτου θύματος, εμφάνισε συμπτώματα ενώ βρισκόταν σε καραντίνα. Οι αρχές έχουν επιβεβαιώσει εννέα κρούσματα και παρακολουθούν 135 επαφές· οι άλλοι επτά ασθενείς νοσηλεύονται. Το υπουργείο Υγείας δήλωσε ότι δεν υπάρχουν ενδείξεις κοινοτικής διασποράς, ενώ η επιδημία έχει φτάσει σε τέσσερις αφρικανικές χώρες.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-10-24-morning/world-ebola.json",
+      "reader_url": "articles/2026-10-24-morning/world-ebola.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/23/kenya-reports-second-death-from-ebola",
+          "publisher": "Reuters μέσω Cyprus Mail",
+          "reporting_group": "Reuters μέσω Cyprus Mail",
+          "published_at": "2026-10-23T23:09:00+03:00",
+          "retrieved_at": "2026-10-24T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-24-morning/world-ebola.webp"
+    },
+    {
+      "story_id": "cyprus-whistleblower-oversight-gap-2026-10-24",
+      "identity": "cyprus-whistleblower-oversight-gap-2026-10-24",
+      "edition_id": "2026-10-24-morning",
+      "date": "2026-10-24",
+      "slot": "morning",
+      "published_at": "2026-10-24T07:48:00+03:00",
+      "available_at": "2026-10-24T07:48:00+03:00",
+      "headline": "Χωρίς κεντρική εποπτεία οι δίαυλοι προστασίας πληροφοριοδοτών στο Δημόσιο",
+      "finding": "Δεν υπάρχει κεντρική αρχή που να εποπτεύει τους εσωτερικούς διαύλους καταγγελιών στον κυπριακό δημόσιο τομέα και το Υπουργείο Δικαιοσύνης δεν συλλέγει στοιχεία για αντίποινα κατά πληροφοριοδοτών, επιβεβαίωσε ο υπουργός Κώστας Φυτιρής. Η διαπίστωση αφορά το πρακτικό κενό παρακολούθησης της εφαρμογής της νομοθεσίας· επόμενο ζητούμενο είναι ποιος φορέας θα αναλάβει συγκεντρωτικό έλεγχο και καταγραφή.",
+      "section": "cyprus",
+      "priority": 10,
+      "article_path": "articles/2026-10-24-morning/cyprus-whistleblowers.json",
+      "reader_url": "articles/2026-10-24-morning/cyprus-whistleblowers.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/24/no-central-oversight-of-whistleblower-protections-in-public-sector",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-24T04:24:00+03:00",
+          "retrieved_at": "2026-10-24T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-24-morning/cyprus-whistleblowers.webp"
+    },
+    {
+      "story_id": "cyprus-school-support-strike-2026-10-23",
+      "identity": "cyprus-school-support-strike-2026-10-23",
+      "edition_id": "2026-10-24-morning",
+      "date": "2026-10-24",
+      "slot": "morning",
+      "published_at": "2026-10-24T07:48:00+03:00",
+      "available_at": "2026-10-24T07:48:00+03:00",
+      "headline": "Συντεχνίες προειδοποιούν με απεργία διαρκείας στα σχολικά υποστηρικτικά προγράμματα",
+      "finding": "Οι συντεχνίες ΠΣΕΜ-ΠΕΟ και ΟΕΚΔΥ-ΣΕΚ δήλωσαν ότι δεν υπάρχει συμφωνία με το Υπουργείο Παιδείας για εργαζομένους στα υποστηρικτικά προγράμματα και προειδοποίησαν με απεργία διαρκείας. Προηγήθηκε 24ωρη απεργία την Παρασκευή για εισοδηματική στήριξη τους θερινούς μήνες και εκκρεμή εργασιακά ζητήματα. Το επόμενο κρίσιμο βήμα είναι αν οι συνομιλίες αποδώσουν συγκεκριμένη γραπτή διευθέτηση πριν από νέα κινητοποίηση.",
+      "section": "cyprus",
+      "priority": 11,
+      "article_path": "articles/2026-10-24-morning/cyprus-education.json",
+      "reader_url": "articles/2026-10-24-morning/cyprus-education.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/23/unions-warn-of-indefinite-strike-over-disagreements-with-education-ministry",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-23T21:06:00+03:00",
+          "retrieved_at": "2026-10-24T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-24-morning/cyprus-education.webp"
+    },
+    {
+      "story_id": "cyprus-ev-fast-charging-network-2026-2028",
+      "identity": "cyprus-ev-fast-charging-network-2026-2028",
+      "edition_id": "2026-10-24-morning",
+      "date": "2026-10-24",
+      "slot": "morning",
+      "published_at": "2026-10-24T07:48:00+03:00",
+      "available_at": "2026-10-24T07:48:00+03:00",
+      "headline": "Δίκτυο 94 ταχυφορτιστών ηλεκτρικών οχημάτων με προϋπολογισμό €10 εκατ.",
+      "finding": "Το Υπουργείο Μεταφορών σχεδιάζει 94 νέες θέσεις ταχείας φόρτισης έως το 2028, με συνολικό κόστος €10 εκατ., σύμφωνα με επιστολή της υπουργού Εύης Τσολάκη που δημοσιοποιήθηκε την Παρασκευή. Οι 76 προορίζονται για ελαφρά οχήματα και οι 18 για βαρέα. Η ανακοίνωση προσδιορίζει κλίμακα και κατανομή· εκκρεμούν οι ακριβείς τοποθεσίες, οι διαγωνισμοί και το χρονοδιάγραμμα λειτουργίας.",
+      "section": "cyprus",
+      "priority": 12,
+      "article_path": "articles/2026-10-24-morning/cyprus-ev.json",
+      "reader_url": "articles/2026-10-24-morning/cyprus-ev.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/23/ministry-to-install-94-new-ev-charging-ports-at-e10m-cost",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-23T20:47:00+03:00",
+          "retrieved_at": "2026-10-24T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
+    },
+    {
+      "story_id": "cyprus-tourism-2026-recovery-2026-10-23",
+      "identity": "cyprus-tourism-2026-recovery-2026-10-23",
+      "edition_id": "2026-10-24-morning",
+      "date": "2026-10-24",
+      "slot": "morning",
+      "published_at": "2026-10-24T07:48:00+03:00",
+      "available_at": "2026-10-24T07:48:00+03:00",
+      "headline": "Τουρισμός: οι αφίξεις εννεαμήνου μειώθηκαν 5,6%, μετά την πτώση 17,9% της άνοιξης",
+      "finding": "Οι τουριστικές αφίξεις στην Κύπρο μειώθηκαν 5,6% στο πρώτο εννεάμηνο του 2026 σε ετήσια βάση, βελτίωση από την πτώση 17,9% των πρώτων τεσσάρων μηνών. Ο υφυπουργός Τουρισμού παρουσίασε προϋπολογισμό €59,4 εκατ. για το 2027, με περίπου 62% για προβολή και εμπλουτισμό προϊόντος. Τα έσοδα επταμήνου παρέμεναν 7% χαμηλότερα από το 2025.",
+      "section": "cyprus",
+      "priority": 13,
+      "article_path": "articles/2026-10-24-morning/cyprus-tourism.json",
+      "reader_url": "articles/2026-10-24-morning/cyprus-tourism.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/23/cyprus-to-use-big-chunk-of-e59-4m-tourism-budget-on-promotion-and-product-enrichment",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-23T14:48:00+03:00",
+          "retrieved_at": "2026-10-24T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-24-morning/cyprus-tourism.webp"
+    },
+    {
+      "story_id": "cyprus-un-turkey-libya-memorandum-2026-10-23",
+      "identity": "cyprus-un-turkey-libya-memorandum-2026-10-23",
+      "edition_id": "2026-10-24-morning",
+      "date": "2026-10-24",
+      "slot": "morning",
+      "published_at": "2026-10-24T07:48:00+03:00",
+      "available_at": "2026-10-24T07:48:00+03:00",
+      "headline": "Η Κύπρος προσέφυγε στον ΟΗΕ κατά του τουρκολιβυκού μνημονίου",
+      "finding": "Η Κυπριακή Δημοκρατία έστειλε επιστολή στον Γενικό Γραμματέα του ΟΗΕ, υποστηρίζοντας ότι το τουρκολιβυκό μνημόνιο του 2019 δεν παράγει έννομα αποτελέσματα για τρίτα κράτη και αγνοεί τα θαλάσσια δικαιώματα ελληνικών νησιών. Η επιστολή, ημερομηνίας 23 Οκτωβρίου, ζητεί να κυκλοφορήσει ως έγγραφο Γενικής Συνέλευσης και Συμβουλίου Ασφαλείας. Η κίνηση ακολουθεί την απόφαση της λιβυκής Βουλής της 20ής Οκτωβρίου.",
+      "section": "cyprus",
+      "priority": 14,
+      "article_path": "articles/2026-10-24-morning/cyprus-eez.json",
+      "reader_url": "articles/2026-10-24-morning/cyprus-eez.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1786221/epistoli-kiprou-pros-oie-to-tourkoliviko-mnimonio-den-paragi-ennoma-apotelesmata-gia-trita-krati/",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-23T21:57:00+03:00",
+          "retrieved_at": "2026-10-24T07:40:00+03:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
