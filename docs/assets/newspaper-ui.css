@@ -202,3 +202,35 @@ figure.photo figcaption{padding:10px 14px 4px;font:12px/1.5 Arial,sans-serif}.ph
 .story-findings .abstract{padding:4px 0 10px}
 @media(max-width:699px){.lead-copy>.story-findings{order:5;width:100%;margin:0}}
 @media print{.story-findings>summary{display:none}.story-findings>.abstract{display:block!important}}
+
+/* DEC-024: reading controls and evidence-led analytical layers. */
+[data-intelligence] .stickybar>.wrap{flex-wrap:wrap}
+.intelligence-controls{flex-basis:100%;display:flex;align-items:center;flex-wrap:wrap;gap:6px 12px;padding:4px 0 8px;font:12px/1.4 Arial,sans-serif}
+.intelligence-controls [role=group]{display:flex;flex-wrap:wrap;gap:4px}
+.intelligence-controls{justify-content:space-between;gap:4px;padding:0 0 4px}
+.intelligence-controls [role=group]{flex:1}
+.intelligence-filters{position:static;margin:0;border:0}
+.intelligence-filters>summary{display:flex;align-items:center;min-height:44px;padding:7px 10px;box-sizing:border-box;border:1px solid var(--line);border-radius:4px;font:600 12px Arial,sans-serif;list-style:none}
+.intelligence-filters>summary::-webkit-details-marker{display:none}
+.intelligence-filters[open]>summary{margin:0}
+.stickybar>.wrap{position:relative}
+.intelligence-filter-panel{position:absolute;top:100%;left:0;right:0;z-index:60;display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;padding:12px;background:var(--paper);border:1px solid var(--line);box-sizing:border-box}
+.intelligence-controls button,.intelligence-controls select{min-height:44px;border:1px solid var(--line);border-radius:4px;padding:7px 9px;background:var(--card);color:var(--ink);font:inherit}
+.intelligence-controls label{display:inline-flex;align-items:center;gap:6px;min-height:44px}
+.intelligence-controls [aria-pressed=true],.scenario-buttons [aria-selected=true]{background:var(--forest);color:var(--paper)}
+.intelligence-status{display:inline-block;font:600 11px/1.5 Arial,sans-serif;color:var(--forest);margin-bottom:8px}
+.driver-tags{display:flex;flex-wrap:wrap;gap:4px 12px;margin:8px 0 12px;font:12px/1.4 Arial,sans-serif}
+.driver-tags a{display:inline-flex;align-items:center;min-height:44px;color:var(--forest)}
+.driver-tags a[aria-pressed=true]{font-weight:bold;text-decoration:underline}
+.scenario-buttons{display:flex;flex-wrap:wrap;gap:4px;margin:12px 0}
+.scenario-buttons button{min-height:44px;max-width:100%;border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:8px 12px;font:600 13px Arial,sans-serif}
+.scenario-panel{padding:8px 0}.scenario-panel h4{font:600 17px Georgia,serif;margin:0 0 8px}
+[data-intelligence] [data-reading-mode=executive]{scroll-margin-top:var(--sticky-height)}
+html[data-reading-mode=executive] [data-intelligence-story],html[data-reading-mode=executive] .hero-side,
+html[data-reading-mode=executive] .edition-changes,html[data-reading-mode=executive] .day-changes,
+html[data-reading-mode=executive] .market-details,html[data-reading-mode=executive] .sports,
+html[data-reading-mode=executive] .panel-items,html[data-reading-mode=executive] .article-actions{display:none}
+html[data-reading-mode=executive] .hero-grid{display:block}
+html[data-reading-mode=executive] main>.section:not(.compact-markets),html[data-reading-mode=executive] .quote-groups,html[data-reading-mode=executive] .market-evidence,html[data-reading-mode=executive] .market-movers{display:none}
+@media(max-width:699px){.intelligence-controls{gap:2px 6px}.intelligence-controls button{padding:5px 7px}.intelligence-controls [data-filter-status]{width:100%}.lead-copy>.driver-tags{order:2}.lead-copy>.intelligence-status{order:1}.intelligence-controls select{max-width:170px}}
+@media print{.intelligence-controls,.scenario-buttons{display:none!important}[data-intelligence-story][hidden],html[data-reading-mode=executive] [data-intelligence-story],.scenario-panel[hidden]{display:block!important}.scenario-panel{break-inside:avoid}.card-analysis>.article-layer,.card-analysis>.card-context{display:block!important}}
