@@ -1,0 +1,78 @@
+{
+  "id": "world-yemen",
+  "story_id": "yemen-shabwa-training-camp-attack-october-19-2026",
+  "story_identity": "yemen-shabwa-training-camp-attack-october-19-2026",
+  "edition_id": "2026-10-21-midday",
+  "headline": "Υεμένη: στους 73 οι νεκροί στη Σάμπουα, 14 άνθρωποι ακόμη αγνοούνται",
+  "category": "Διεθνή",
+  "summary": "Οι τοπικές αρχές της Σάμπουα αύξησαν στις 20/10 τον απολογισμό της πυραυλικής επίθεσης των Χούθι σε κέντρο εκπαίδευσης κυβερνητικών δυνάμεων σε 73 νεκρούς, σύμφωνα με Reuters και AP. Ο κυβερνήτης δήλωσε στο AP ότι οι νεοσύλλεκτοι ήταν 18–20 ετών, ενώ 14 άνθρωποι παρέμεναν αγνοούμενοι. Η αναθεώρηση αντικαθιστά τον προηγούμενο απολογισμό των 60· οι έρευνες συνεχίζονται και ο αριθμός δεν θεωρείται οριστικός.",
+  "published_at": "2026-10-21T13:39:24+03:00",
+  "updated_at": "2026-10-21T13:39:24+03:00",
+  "sources": [
+    {
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/death-toll-houthi-attack-yemen-training-camp-rises-73-2026-10-20/",
+      "published_at": "2026-10-20T12:52:12Z",
+      "retrieved_at": "2026-10-21T04:38:00Z",
+      "reporting_group": "Reuters",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/6f69abd6470c9b43b75de7b223011486",
+      "published_at": "2026-10-20T09:51:48Z",
+      "retrieved_at": "2026-10-21T04:38:00Z",
+      "reporting_group": "Associated Press",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Αβέβαιος απολογισμός",
+      "paragraphs": [
+        "Οι 14 αγνοούμενοι σημαίνουν ότι ο απολογισμός μπορεί να αλλάξει. Η πληροφορία προέρχεται από το επαρχιακό γραφείο ενημέρωσης και αποδίδεται ρητά σε αυτό, καθώς η ανεξάρτητη επιβεβαίωση από το σημείο παραμένει περιορισμένη."
+      ]
+    }
+  ],
+  "image": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sanaa_Yemen_2013_old_city_001.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Sanaa_Yemen_2013_old_city_001.jpg",
+    "caption": "Παλιά πόλη της Σαναά, 15/08/2013. Γεωγραφική φωτογραφία αρχείου της Υεμένης· όχι το στρατόπεδο αλ-Αλάμ ή η επίθεση του 2026.",
+    "alt": "Παλιά πόλη της Σαναά, 15/08/2013. Γεωγραφική φωτογραφία αρχείου της Υεμένης· όχι το στρατόπεδο αλ-Αλάμ ή η επίθεση του 2026.",
+    "attribution": "Rod Waddington",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "retrieved_at": "2026-10-14T07:57:30+03:00",
+    "url": "assets/editorial/2026-10-21-midday/world-yemen.webp",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-14-midday/world-aramco.webp",
+      "sha256": "6d5cb7ce9615d006c0eda535b815d2b9e3c5e07704e540412ba29389663572e1",
+      "reviewed_at": "2026-10-21T13:39:24+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-21-midday/world-yemen.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 20,
+    "events": [
+      {
+        "id": "2026-10-21-midday-world-yemen-editorial-review",
+        "kind": "substantive_update",
+        "at": "2026-10-21T13:39:24+03:00",
+        "summary": "Συντακτικός έλεγχος της μεσημεριανής έκδοσης με τις αναφερόμενες πηγές και τους αρχικούς χρόνους τους.",
+        "source_urls": [
+          "https://www.reuters.com/world/middle-east/death-toll-houthi-attack-yemen-training-camp-rises-73-2026-10-20/",
+          "https://apnews.com/article/6f69abd6470c9b43b75de7b223011486"
+        ]
+      }
+    ]
+  }
+}
