@@ -51,7 +51,7 @@ def parse_quote(item,row,at):
             return result
         if instrument in ECB:
             rows=list(csv.DictReader(io.StringIO(row['text'])))
-            point=rows[-1]; value=float(point['OBS_VALUE']); stamp=point['TIME_PERIOD']+'T00:00:00+00:00'
+            point=rows[-1]; value=float(point['OBS_VALUE']); stamp=point['TIME_PERIOD']
             publisher='ECB Data Portal'; status='reference'
         elif instrument == 'cse' and row['url']==CSE_FALLBACK:
             text=BeautifulSoup(row['text'],'html.parser').get_text(' ',strip=True)
@@ -80,7 +80,7 @@ def parse_quote(item,row,at):
                     numbers=re.findall(r'(?<![\d-])(\d+[.,]\d+)(?![\d-])',' '.join(cells[1:]))
                     if numbers:
                         found.append((dates[0],float(numbers[0].replace(',','.'))))
-            day,value=sorted(found)[-1]; stamp=day+'T00:00:00+00:00'
+            day,value=sorted(found)[-1]; stamp=day
             publisher='Euribor Rates' if instrument in EURIBOR else 'Cyprus Stock Exchange'; status='reference'
         else:
             meta=HTTP.data(row)['chart']['result'][0]['meta']
@@ -96,6 +96,8 @@ def parse_quote(item,row,at):
         if not finite(value) or (item['asset_class']!='rate' and value<=0):
             return {**result,'change_pct':None}
         observed=datetime.fromisoformat(stamp)
+        if observed.tzinfo is None:
+            observed=observed.replace(tzinfo=timezone.utc)  # Ordering anchor only; public value stays date-only.
         retrieved=datetime.fromisoformat(row['retrieved_at'])
         # Missing/stale providers never trigger an AI price search. Historical snapshots stay dated.
         max_age=timedelta(days=10 if instrument in ECB else 5)

@@ -24,9 +24,10 @@ class HandoffTests(unittest.TestCase):
         before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'content').rglob('*.json')}
         with tempfile.TemporaryDirectory() as private:
             result=handoff.prepare(ROOT,'2026-10-20','evening','2026-10-20T18:00:00+03:00',private,client=Offline())
-            record=json.loads(Path(result['handoff']).read_text())
-            pack=json.loads(Path(result['research_pack']).read_text())
+            record=json.loads(Path(result['handoff']).read_text(encoding='utf-8'))
+            pack=json.loads(Path(result['research_pack']).read_text(encoding='utf-8'))
             self.assertEqual(record['version'],2)
+            self.assertFalse(pack['submission_ready'])
             self.assertEqual(pack['metrics']['ai_collection_calls'],0)
             records=handoff.module('baseline').load(ROOT,pack['baseline'])[1]
             self.assertEqual({a['story_id'] for a in records},{a['story_id'] for a in pack['baseline_stories']})

@@ -70,12 +70,13 @@ class PrefetchTests(unittest.TestCase):
         self.assertEqual(len(client.urls),39)
 
     def test_ecb_and_euribor_keep_observation_dates_and_negative_rates(self):
-        items=json.loads((ROOT/'templates/v2/market-instruments.json').read_text())
+        items=json.loads((ROOT/'templates/v2/market-instruments.json').read_text(encoding='utf-8'))
         for key,text,value in [('ecb-deposit','TIME_PERIOD,OBS_VALUE\n2026-10-23,2.5\n',2.5),
                                ('euribor-3m','<table><tr><td>10/23/2026</td><td>-0.150 %</td></tr></table>',-0.15)]:
             item=next(q for q in items if q['instrument']==key)
             q=prefetch.parse_quote(item,row(text,prefetch.endpoint(key)),AT)
             self.assertEqual(q['value'],value);self.assertTrue(q['quoted_at'].startswith('2026-10-23'))
+            self.assertEqual(len(q['quoted_at']),10)  # A date-only feed must not invent a midnight fixing time.
 
     def test_weather_units_and_fallback_validity(self):
         data={'properties':{'timeseries':[{'time':AT.isoformat(),'data':{'instant':{'details':{'air_temperature':23,'wind_speed':4}}}}]}}
@@ -87,7 +88,7 @@ class PrefetchTests(unittest.TestCase):
         self.assertEqual(prefetch.met_weather(row(json.dumps(data)),AT)['status'],'unavailable')
 
     def test_cse_requires_the_index_label_and_provider_timestamp(self):
-        item=next(q for q in json.loads((ROOT/'templates/v2/market-instruments.json').read_text()) if q['instrument']=='cse')
+        item=next(q for q in json.loads((ROOT/'templates/v2/market-instruments.json').read_text(encoding='utf-8')) if q['instrument']=='cse')
         text='<main>GENERAL INDEX CSE: 304.11 (-0.870%) Last Update: 23/10/2026 17:25 15 min. delay</main>'
         result=prefetch.parse_quote(item,row(text,prefetch.CSE_FALLBACK),AT)
         self.assertEqual(result['value'],304.11);self.assertEqual(result['change_pct'],-0.87)

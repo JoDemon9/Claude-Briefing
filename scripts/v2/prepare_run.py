@@ -4,6 +4,7 @@ import argparse
 from datetime import datetime, timezone
 import importlib.util
 import json
+import os
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[2]
@@ -35,6 +36,7 @@ def prepare(root,day,slot,at,private_root,wire_root=None,client=None):
     baseline_records=module('baseline').load(root,packet['baseline'])[1] if packet.get('baseline') else []
     pack=module('research_pack').seal(dict(version=1,protocol='oracle-synthesis/1',edition_id=packet['edition_id'],
         submission_workflow_installed=(Path(private_root)/'.github/workflows/submit-synthesis.yml').is_file(),
+        submission_ready=(Path(private_root)/'.github/workflows/submit-synthesis.yml').is_file() and os.environ.get('ORACLE_SUBMISSION_READY')=='true',
         prepared_at=transport.now(),baseline=packet.get('baseline'),
         baseline_stories=[dict(story_id=a['story_id'],identity=a['story_identity'],headline=a['headline'],finding=a['summary'],
                               section=a['daily']['section'],published_at=a['published_at']) for a in baseline_records],

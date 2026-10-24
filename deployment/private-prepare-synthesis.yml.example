@@ -52,6 +52,7 @@ jobs:
         env:
           EVENT: ${{ github.event_name }}
           SLOT: ${{ inputs.slot }}
+          ORACLE_SUBMISSION_READY: ${{ secrets.PUBLIC_BRIEFING_TOKEN != '' }}
         run: |
           if [ "$EVENT" = schedule ]; then
             python source/scripts/v2/pre_run.py --root source --private-root private --wire-root portal --scheduled --github-output "$GITHUB_OUTPUT"
