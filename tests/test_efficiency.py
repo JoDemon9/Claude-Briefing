@@ -281,7 +281,7 @@ class EfficiencyTests(unittest.TestCase):
 
     def test_compact_runtime_keeps_critical_contracts_and_avoids_old_startup(self):
         runtime=(ROOT/'BRIEFING_RUNTIME.md').read_text()
-        for phrase in ('private Pages','source/quote times','morning','image_review.version=2','No fuzzy automatic','No arbitrary quota/time limit','unchanged historical','No PR merge'):
+        for phrase in ('private Pages','source/quote times','morning','image_review.version=2','No fuzzy automatic','DEC-025','unchanged historical','No PR merge'):
             self.assertIn(phrase,runtime)
         for path in (ROOT/'templates/v2/task-prompts').glob('*.txt'):
             text=path.read_text();self.assertLess(len(text),5500)

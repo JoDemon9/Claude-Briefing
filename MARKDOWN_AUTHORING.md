@@ -1,3 +1,5 @@
+For the single-turn-v1 production profile, use [SINGLE_TURN_RUNBOOK.md](SINGLE_TURN_RUNBOOK.md): @Pack, @Tools, @Executive, @Evidence, and one @CarryOver id=... per unchanged story. compose.py --research-pack inserts routine data; never re-emit @Data or routine typed blocks. The older standalone authoring syntax below remains supported for explicit/manual legacy inputs.
+
 # Oracle Markdown authoring v1
 
 This optional prose authoring adapter feeds the existing compose/build/validation pipeline. JSON remains the public contract. Supply one .md to `python -X utf8 scripts/v2/compose.py --input work/briefing.md`. Do not commit private authoring files. Both formats remain supported while real usage is measured.

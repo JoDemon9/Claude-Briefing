@@ -13,6 +13,11 @@ ROOT=Path(__file__).resolve().parents[2]
 SLOTS=('morning','midday','evening')
 
 
+def ingest(root, packet, client, at, private_folder):
+    """Deterministically ingest RSS/Wire and article excerpts before model invocation."""
+    return module('news_digest').collect(root, packet, client, at, private_folder)
+
+
 def module(name):
     spec=importlib.util.spec_from_file_location('research_'+name,Path(__file__).with_name(name+'.py'))
     result=importlib.util.module_from_spec(spec);spec.loader.exec_module(result);return result

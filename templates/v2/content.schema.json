@@ -1864,6 +1864,15 @@
         "additionalProperties": true
       }
     },
+    "synthesis_profile": {"const": "single-turn-v1"},
+    "prefetch_provenance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["sha256", "prepared_at"],
+      "properties": {
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "prepared_at": {"type": "string", "format": "date-time"}
+      }
+    },
     "availability_policy": {
       "const": "partial-v1"
     },

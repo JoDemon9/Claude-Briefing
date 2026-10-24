@@ -19,7 +19,7 @@ REQUIRED = ('published_at', 'editorial_completed_at', 'reading_review', 'article
 OPTIONAL = ('executive_scan', 'daily', 'markets', 'sports', 'panels', 'opportunities',
             'freshness', 'selection_review', 'image_review', 'changes', 'market_summary',
             'market_next_event', 'market_movers', 'market_core', 'market_notes',
-            'calculator', 'fast_wire', 'delta_log', 'baseline')
+            'calculator', 'fast_wire', 'delta_log', 'baseline', 'synthesis_profile', 'prefetch_provenance')
 
 
 def module(name):
@@ -153,6 +153,8 @@ def compile_payload(payload, root=ROOT):
     root = Path(root)
     if not isinstance(payload, dict):
         raise ValueError('Payload must be an object')
+    if payload.get('research_pack_sha256') and not payload.get('synthesis_profile'):
+        raise ValueError('A research-pack synthesis requires --research-pack hydration')
     payload, carried = module('baseline').expand(payload, root)
     missing = [key for key in REQUIRED if key not in payload]
     if missing:
@@ -267,7 +269,7 @@ def compile_payload(payload, root=ROOT):
         raise ValueError('No supported article remains; an empty or unverified edition cannot be published')
     counts = module('selection').inventory(docs)
     for key, label in (('cyprus','Κύπρος'),('world','Διεθνή')):
-        if counts[key] < 5:
+        if counts[key] < 5 and not edition.get('synthesis_profile'):
             notes.append(label+': περιορισμένη επαληθευμένη κάλυψη σε αυτή την έκδοση.')
         else:
             edition['selection_review'].get('section_shortfalls',{}).pop(key,None)
@@ -356,13 +358,17 @@ def scaffold(edition_id, root=ROOT):
             'reading_review':{'version':2,'completed_at':None}, 'image_review':{'version':2,'completed_at':None}, 'articles':[]}
 
 
-def compose_edition(payload_path, publish=False, portal_root=None, root=ROOT):
+def compose_edition(payload_path, publish=False, portal_root=None, root=ROOT, research_pack=None):
     root = Path(root).resolve()
     if publish and (portal_root is None or not (Path(portal_root)/'.git').exists()):
         raise ValueError('--publish requires an explicit --portal-root Git checkout')
     path = Path(payload_path)
     text = path.read_text(encoding='utf-8')
-    payload = module('markdown_input').parse(text, root) if path.suffix.lower() == '.md' else json.loads(text)
+    pack = module('research_pack').load(research_pack) if research_pack else None
+    payload = module('markdown_input').parse(text, root, pack=pack) if path.suffix.lower() == '.md' else json.loads(text)
+    if pack:
+        module('research_pack').output_budget(text,payload['edition_id'].rsplit('-',1)[1])
+        payload = module('research_pack').hydrate(payload, pack, root)
     with module('atomic').lock(root/'.work/compose.lock'):
         edition, docs, files = compile_payload(payload, root)
         # Validate target paths before recording or writing any bytes.
@@ -400,6 +406,7 @@ def main():
     source.add_argument('--input', '-i', type=Path)
     source.add_argument('--scaffold', type=Path, help='Write an incomplete one-file draft; does not research or publish')
     parser.add_argument('--edition-id')
+    parser.add_argument('--research-pack',type=Path,help='Sealed private pre-run pack; inserts routine data mechanically')
     parser.add_argument('--publish', action='store_true')
     parser.add_argument('--portal-root', type=Path)
     args = parser.parse_args()
@@ -413,7 +420,7 @@ def main():
                 stream.write(json_bytes(draft))
             print('[COMPOSE] Incomplete draft; actual evidence/reviews still required: '+str(args.scaffold))
             return 0
-        return compose_edition(args.input, args.publish, args.portal_root)
+        return compose_edition(args.input, args.publish, args.portal_root, research_pack=args.research_pack)
     except (ValueError, KeyError, OSError) as error:
         print('[COMPOSE] Blocked: ' + str(error), file=sys.stderr)
         return 1

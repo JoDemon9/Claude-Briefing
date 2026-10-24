@@ -1,0 +1,53 @@
+# INACTIVE REVIEW TEMPLATE. Activation in the private repository requires approval.
+name: Compile reviewed single-turn synthesis
+on:
+  push:
+    branches: [main]
+    paths: ['sources/synthesis/*.md']
+permissions:
+  contents: read
+concurrency:
+  group: synthesis-to-public
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: private
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Require the cross-repository publication credential
+        env:
+          TOKEN: ${{ secrets.PUBLIC_BRIEFING_TOKEN }}
+        run: test -n "$TOKEN" || { echo 'Set PUBLIC_BRIEFING_TOKEN in this private repository (Claude-Briefing, Contents read/write).'; exit 1; }
+      - uses: actions/checkout@v4
+        with:
+          repository: JoDemon9/Claude-Briefing
+          ref: main
+          path: source
+          token: ${{ secrets.PUBLIC_BRIEFING_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r source/requirements-v2.txt
+      - name: Compile once; no network research
+        id: compile
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: python source/scripts/v2/submit_synthesis.py --root source --private-root private --before "$BEFORE" --after "$AFTER" --github-output "$GITHUB_OUTPUT"
+      - name: Submit composed source candidate to existing public checks
+        working-directory: source
+        env:
+          EDITION: ${{ steps.compile.outputs.edition_id }}
+        run: |
+          git config user.name 'Oracle Synthesis Compiler'
+          git config user.email 'actions@github.com'
+          git add -- "content/editions/$EDITION.json" "content/articles/$EDITION/"
+          if ! git diff --cached --quiet; then
+            git commit -m "Submit $EDITION reviewed synthesis"
+            git push origin HEAD:main
+          fi

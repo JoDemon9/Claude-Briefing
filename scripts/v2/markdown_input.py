@@ -53,7 +53,7 @@ def boolean(value):
     return value == 'true'
 
 
-def parse(text, root):
+def parse(text, root, pack=None):
     if len(text.encode('utf-8')) > 2_000_000 or re.search(r'<\s*(?:/?[A-Za-z]|!)', text):
         raise ValueError('Raw HTML and oversized Markdown are not supported')
     payload = {'articles':[]}
@@ -146,6 +146,31 @@ def parse(text, root):
                 payload['reading_review'] = {'version':2, 'completed_at':meta['completed']}
             elif name == '@Carry':
                 payload.setdefault('carry_story_ids', []).extend(value.split(','))
+            elif name == '@CarryOver':
+                finish()
+                meta = attributes(value)
+                fields(meta, ('id',), ('id',))
+                payload.setdefault('carry_story_ids', []).append(meta['id'])
+            elif name == '@Pack':
+                if 'research_pack_sha256' in payload:
+                    raise ValueError('Duplicate pack')
+                meta = attributes(value)
+                fields(meta, ('sha256',), ('sha256',))
+                payload['research_pack_sha256'] = meta['sha256']
+            elif name == '@Tools':
+                if 'tool_usage' in payload:
+                    raise ValueError('Duplicate tool budget')
+                meta = attributes(value)
+                fields(meta, ('searches','reads'), ('searches','reads'))
+                payload['tool_usage'] = {k:int(v) for k,v in meta.items()}
+            elif name == '@Executive':
+                finish()
+                head, sep, body = value.partition(' | ')
+                meta = attributes(head)
+                fields(meta, ('axis','stories'), ('axis','stories'))
+                if not sep or not body.strip():
+                    raise ValueError('Executive needs text and story references')
+                payload.setdefault('synthesis_points', []).append({'axis':meta['axis'],'stories':meta['stories'].split(','),'text':body})
             elif name == '@Block':
                 if value != 'article':
                     finish()
@@ -191,6 +216,15 @@ def parse(text, root):
                     analysis_ids = value.split(',')
                     if len(set(analysis_ids)) != len(analysis_ids):
                         raise ValueError('Duplicate analysis source')
+                elif name == '@Evidence':
+                    if pack is None:
+                        raise ValueError('@Evidence requires --research-pack')
+                    for alias in value.split(','):
+                        evidence = pack['evidence'].get(alias)
+                        if alias in sources or not evidence or evidence.get('access') != 'article_excerpt' or not evidence.get('source'):
+                            raise ValueError('Unknown, duplicate or discovery-only pack evidence')
+                        sources[alias] = dict(evidence['source'])
+                    article['evidence_note'] = 'Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.'
                 elif name == '@Source':
                     alias, sep, rest = value.partition(' | ')
                     if not sep or not re.fullmatch(r'[a-z][a-z0-9-]*', alias) or alias in sources:

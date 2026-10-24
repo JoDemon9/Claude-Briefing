@@ -1,3 +1,5 @@
+DEC-025 (24 October): Python collects routine markets/weather/RSS/Wire and structured sports BEFORE the cloud AI task. Use only the sealed oracle-synthesis/1 digest; missing/stale packs stop briefly without AI collection. Morning is at most six authored stories/5 searches/2 opens/6500 reference output tokens; later slots at most four changed stories/3 searches/1 open/4000 tokens. One synthesis pass; unchanged stories are @CarryOver id=... and Python copies their exact baseline records. This supersedes old five-per-desk targets, full-payload emission and uncapped editorial research for single-turn-v1. See decisions/DEC-025-deterministic-prefetch-and-single-turn.md and SINGLE_TURN_RUNBOOK.md. Cloud workflows are inactive review templates; actual activation needs approval after automatic review rejected scheduled main pushes. Do not claim prompts/PRs are deployed.
+
 # Oracle Briefing — Runtime v3.1
 
 Το ενιαίο payload παραμένει η είσοδος. Η έρευνα δημιουργεί γεγονότα και συντακτική κρίση· ο compiler αναλαμβάνει διάσπαση, hashes, ακριβή αντιγραφή ελεγμένων WebP και rendering. Ο compiler δεν ανανεώνει timestamps, δεν κατασκευάζει πηγές και δεν εγκρίνει αυτόματα έρευνα. DEC-023 περιλαμβάνει τη διευκρίνιση του χρήστη στις 22/10: μια συνηθισμένη έλλειψη στοιχείου δεν σταματά ολόκληρη την έκδοση.
@@ -66,7 +68,7 @@ python -X utf8 scripts/v2/compose.py --input /tmp/payload.json --portal-root <Or
 
 Δεν ενεργοποιείται private Pages, δεν εξάγονται ιδιωτικές σημειώσεις/caches και δεν αλλάζει ο ανεξάρτητος Wire ή το πρόγραμμα παραγωγής. Main, PR, CI, Pages και πραγματικά Scheduled Tasks αναφέρονται χωριστά.
 
-Compatibility invariants: preserve original source/quote times and unchanged historical snapshots. No fuzzy automatic story matching. No arbitrary quota/time limit for editorial generation; I/O deadlines bound failed operations separately. No PR merge in scheduled runs. image_review.version=2 records actual reviewed photographs; the explicit partial-v1 unavailable-image path is permitted from 22 October.
+Compatibility invariants: preserve original source/quote times and unchanged historical snapshots. No fuzzy automatic story matching. DEC-025 applies strict search/turn/output budgets to single-turn-v1; I/O deadlines also bound failed operations. No PR merge in scheduled runs. image_review.version=2 records actual reviewed photographs; the explicit partial-v1 unavailable-image path is permitted from 22 October.
 
 Το CI push με GITHUB_TOKEN δεν ενεργοποιεί αυτόματα Pages: ο publisher ζητά ρητά το source Pages build με pages:write και περιμένει έως 10 λεπτά για φυσιολογική διάδοση, πριν δηλώσει πραγματική αποτυχία. Το portal PAT push διατηρεί το κανονικό trigger. Δεν δημιουργείται νέος scheduler ή νέα εξωτερική ειδοποίηση.
 

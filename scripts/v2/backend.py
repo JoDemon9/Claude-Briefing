@@ -28,6 +28,8 @@ def capabilities(root):
                          'story_registry', 'freshness', 'resumable_publication', 'research_packets', 'photo_reuse', 'change_aware_checks', 'section_coverage_v2', 'ci_built_candidate', 'favourite_news_links', 'bounded_context_views', 'producer_handoff', 'collapsible_findings', 'minimum_daily_checks', 'single_payload_compiler', 'partial_availability', 'shared_v3_rendering'],
             'daily_quality_checks':['content','preview','integrity'],
             'authoring_formats':['json','oracle-markdown/1'],
+            'synthesis_protocol':'oracle-synthesis/1',
+            'prefetch_before_model':True,
             'intelligence_contract':1,
             'explicit_baseline_reuse':True,
             'archive_browser_audit':'Explicit full profile only; not a daily publication requirement.',

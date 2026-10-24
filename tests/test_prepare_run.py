@@ -14,44 +14,26 @@ handoff=importlib.util.module_from_spec(spec);spec.loader.exec_module(handoff)
 
 
 class HandoffTests(unittest.TestCase):
-    def test_full_private_packet_is_paged_without_losing_attention_or_approving_content(self):
-        original=handoff.module
+    def test_private_pack_has_one_bounded_digest_and_does_not_approve_or_publish(self):
+        class Offline:
+            def __init__(self):self.records=[]
+            def get(self,url):
+                row={'url':url,'status':'unavailable','reason':'offline fixture'}
+                self.records.append(row);return row
+            def many(self,urls):return {u:self.get(u) for u in sorted(set(urls))}
         before={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'content').rglob('*.json')}
-        raw='PRIVATE ACTUAL SOURCE BODY '*1000
-        def collected(root,packet_path,private_root):
-            packet=json.loads(packet_path.read_text())
-            report={'edition_id':packet['edition_id'],'records':[
-                {'url':'https://example.org/evidence/'+str(i),'status':'unavailable' if i==0 else 'changed',
-                 'text':raw,'owners':[{'kind':'weather','id':'weather'}]} for i in range(55)],'manual_quotes':[]}
-            target=packet_path.parent/'collection.json';original('atomic').write_json(target,report)
-            return {'report':str(target)}
-        sports={'http_attempts':4,'news_links':{key:{'source_url':url,'checked_at':'2026-10-20T18:00:00+03:00',
-            'status':'unavailable','items':[],'note':'source_unavailable'} for key,url in original('sports_news').LISTINGS.items()}}
-        def modules(name):
-            if name=='collect':return SimpleNamespace(collect=collected)
-            if name=='sports_news':return SimpleNamespace(collect=lambda cache:sports)
-            return original(name)
-        with tempfile.TemporaryDirectory() as private, mock.patch.object(handoff,'module',side_effect=modules):
-            result=handoff.prepare(ROOT,'2026-10-20','evening','2026-10-20T18:00:00+03:00',private)
+        with tempfile.TemporaryDirectory() as private:
+            result=handoff.prepare(ROOT,'2026-10-20','evening','2026-10-20T18:00:00+03:00',private,client=Offline())
             record=json.loads(Path(result['handoff']).read_text())
-            self.assertIn('editorial evidence review required',result['status'])
-            self.assertGreater(len(result['views']),1)
-            rows=[]
-            for index,path in enumerate(result['views']):
-                path=Path(path)
-                self.assertTrue(path.resolve().is_relative_to(Path(private).resolve()))
-                self.assertLessEqual(path.stat().st_size,12000)
-                text=path.read_text();view=json.loads(text)
-                self.assertNotIn(raw,text);rows.extend(view['rows'])
-                self.assertEqual(view['page'],index)
-                self.assertEqual(view['next_page'],index+1 if index+1<len(result['views']) else None)
-            sources=[r for r in rows if r['kind']=='source']
-            self.assertEqual(len(sources),55)
-            self.assertEqual(sources[0]['status'],'unavailable')
-            self.assertEqual(sum(r['kind']=='sports' for r in rows),4)
-            self.assertEqual(len(rows),record['inventory']['planning_records'])
-            self.assertIn(raw,Path(record['paths']['collection']).read_text())
-            self.assertEqual(record['producer_contract']['content_schema_sha256'],hashlib.sha256((ROOT/'templates/v2/content.schema.json').read_bytes()).hexdigest())
+            pack=json.loads(Path(result['research_pack']).read_text())
+            self.assertEqual(record['version'],2)
+            self.assertEqual(pack['metrics']['ai_collection_calls'],0)
+            records=handoff.module('baseline').load(ROOT,pack['baseline'])[1]
+            self.assertEqual({a['story_id'] for a in records},{a['story_id'] for a in pack['baseline_stories']})
+            self.assertEqual(len(pack['data']['markets']),38)
+            self.assertEqual(len(pack['data']['sports']['coverage']),4)
+            self.assertLessEqual(Path(result['digest']).stat().st_size,48000)
+            self.assertTrue(Path(result['digest']).resolve().is_relative_to(Path(private).resolve()))
             self.assertNotIn('reading_review',record)
         after={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'content').rglob('*.json')}
         self.assertEqual(before,after)
