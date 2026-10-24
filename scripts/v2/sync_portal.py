@@ -35,8 +35,10 @@ def _sync(public_root, portal_root):
     if (docs/'index.html').exists() and not archive.exists():
         shutil.copyfile(docs/'index.html',archive)
     for relative,source in assets.items():
-        destination=docs/'assets/latest-snapshot'/descriptor['version']/relative
+        destination=docs/relative
         destination.parent.mkdir(parents=True,exist_ok=True)
+        if destination.exists() and destination.read_bytes()!=source.read_bytes():
+            raise ValueError('Immutable snapshot object was modified')
         shutil.copyfile(source,destination)
     shutil.copyfile(public_root/'docs/assets/latest-briefing.js',docs/'assets/latest-briefing.js')
     shutil.copyfile(public_root/'docs/latest.html',docs/'data/latest-snapshot.html')

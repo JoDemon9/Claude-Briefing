@@ -13,6 +13,11 @@ ROOT=Path(__file__).resolve().parents[2]
 SLOTS=('morning','midday','evening')
 
 
+def ingest(root, packet, client, at, private_folder):
+    """Deterministically ingest RSS/Wire and article excerpts before model invocation."""
+    return module('news_digest').collect(root, packet, client, at, private_folder)
+
+
 def module(name):
     spec=importlib.util.spec_from_file_location('research_'+name,Path(__file__).with_name(name+'.py'))
     result=importlib.util.module_from_spec(spec);spec.loader.exec_module(result);return result
@@ -50,7 +55,7 @@ def index(root=ROOT):
     root=Path(root)
     editions=[];stories=[]
     for edition,articles in bundles(root):
-        editions.append({k:edition[k] for k in ('id','date','type','published_at','url')})
+        editions.append({**{k:edition[k] for k in ('id','date','type','published_at','url')}, 'fingerprint':module('baseline').fingerprint(edition,articles)})
         for article in articles:
             sources=[s for s in article['sources'] if s.get('access')=='read' and s.get('used_for_claims')]
             dates=[edition['published_at'],article.get('updated_at'),edition.get('analysis_revision_at'),edition.get('image_revision_at')]
@@ -233,6 +238,7 @@ def prepare(root,day,slot,at,private_root=None,wire_root=None):
             'action':'machine_refresh_then_analyse_core_and_material_movers; preserve quote timestamps'},
         'due_checks':[{'owner':previous['id'],**r} for r in previous.get('freshness',[]) if r.get('recheck_at') and instant(r['recheck_at'])<=at] if previous else [],
         'weather':{'check_every_edition':True,'sources':[s['url'] for p in previous.get('panels',[]) if p['id']=='weather' for s in p['sources']]} if previous else {'check_every_edition':True,'sources':[]},
+        'baseline': next(({'edition_id':record['id'],'fingerprint':record['fingerprint']} for record in public['editions'] if previous and record['id']==previous['id']),None),
         'discovery':{'status':'not_loaded','items':[]},
         'stop_rule':'Preserve unpublished drafts and report the exact gate; do not debug renderer/tests during generation.'}
     if wire_root:

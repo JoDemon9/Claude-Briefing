@@ -1,3 +1,5 @@
+DEC-024: The user approved the Phase 1 architectural assessment and its Phase 2 checklist. Extend the existing compiler instead of replacing the renderer/publisher. Keep JSON as the canonical public model; pilot versioned Markdown as an authoring adapter. No HTML/CSS is written by the producer. Do not claim a 75% saving or treat byte counts as tokens or account quota. See decisions/DEC-024-intelligence-authoring-and-reading.md and MARKDOWN_AUTHORING.md. Actual live task installation and publication are separate.
+
 # Newspaper operations
 
 DEC-023 supersedes obsolete compiler/publishing claims: compose.py accepts one reviewed payload and never silently clones a previous edition or refreshes evidence times. Ordinary missing data is represented per item under availability_policy=partial-v1 from 22 October; it does not abort the entire edition. The actual contract and commands are in BRIEFING_RUNTIME.md; the three self-contained prompts are in prompts/. The existing CI and optional local --publish route share publish.py, exact receipts and actual source/central live verification. Repository edits do not update Scheduled Tasks.

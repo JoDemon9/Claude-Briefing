@@ -197,6 +197,8 @@ def render(b, model, bundles):
         node = doc.article
         node['id'] = 'story-' + digest(story['story_id'])[:12]
         node['data-story-id'] = story['story_id']
+        if 'data-intelligence-story' in node.attrs:
+            node['data-change-times'] = json.dumps([event['at'] for event in model['updates'] if event['story_id']==story['story_id'] and event['kind'] in ('new','substantive_update','correction')])
         eyebrow=node.select_one('.eyebrow')
         eyebrow.clear()
         if hero:eyebrow.append(BeautifulSoup(b.emblem('lead'),'html.parser'))

@@ -6,6 +6,7 @@ This is the canonical record of user needs that future changes must respect. Rea
 
 | ID | User need | Current status | Record |
 | --- | --- | --- | --- |
+| DEC-025 | Stop five-hour quota exhaustion: Python collection before the AI, hard budgets and later delta-only output. | Implementation under review; cloud workflow templates inactive pending activation approval; live task/credential status separate. | [Deterministic prefetch and single-turn synthesis](decisions/DEC-025-deterministic-prefetch-and-single-turn.md) |
 | DEC-023 | Audit the v3 compiler/rendering/runtime and deliver three prompts; ordinary missing items must not stop an edition. | Implementation and regression checks in audit branch; main, CI, Pages and actual task settings tracked separately. | [Compiler audit and partial availability](decisions/DEC-023-compiler-audit-and-partial-availability.md) |
 | DEC-022 | Sports section renaissance (rich team cards, restore favorite major stories), and autonomous CI publishing with zero-friction LLM push. | Implemented: sports_news, sports renderer, relaxed schema, quick_validate, and GitHub Actions autonomous pipeline. | [Sports renaissance & autonomous CI](decisions/DEC-022-sports-renaissance-and-autonomous-ci.md) |
 | DEC-021 | Reduce daily checks to the minimum and make instructions clear for lower models, preserving good quality. | Three-gate implementation and six-step prompts under review; code/main/Pages/tasks tracked separately. | [Minimum daily checks](decisions/DEC-021-minimum-daily-checks.md) |
@@ -61,3 +62,5 @@ Any proposed change to these rules must state the exact rule it revises and the 
 [The newspaper review](NEWSPAPER_REVIEW.md) contains recommendations, not approved work or a list of completed fixes. Add a decision record when a recommendation becomes an actual requested change.
 
 Use [the record template](decisions/TEMPLATE.md). The Oracle repository links here rather than maintaining a second conflicting decision history. Only short, publishable product requirements belong here; do not copy private conversations or personal information.
+
+[DEC-024 — Intelligence authoring and reading](decisions/DEC-024-intelligence-authoring-and-reading.md): user-approved implementation; source/portal review branches, checks and deployment tracked separately.

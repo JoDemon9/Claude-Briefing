@@ -75,6 +75,8 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         env:
           ORACLE_PAGES_BUILD_TOKEN: ${{ github.token }}
+          ORACLE_PUBLIC_PUSH_TOKEN: ${{ github.token }}
+          ORACLE_PORTAL_PUSH_TOKEN: ${{ secrets.PORTAL_DEPLOY_TOKEN }}
         run: |
           git config user.name "Oracle Briefing CI"
           git config user.email "actions@github.com"

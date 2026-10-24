@@ -95,7 +95,7 @@ def markets(b, e):
             row=BeautifulSoup(quote(q),'html.parser')
             row.article['class']=['quote-card','rate-card']
             row.select_one('.quote-change').decompose()
-            row.select_one('.quote-status').string='Μη διαθέσιμη' if q['status']=='unavailable' else 'Fixing' if 'euribor' in q['name'].casefold() else 'Ημερομηνία ισχύος'
+            row.select_one('.quote-status').string='Μη διαθέσιμη' if q['status']=='unavailable' else 'Fixing' if 'euribor' in q['name'].casefold() else 'Ημερομηνία παρατήρησης' if e.get('synthesis_profile')=='single-turn-v1' else 'Ημερομηνία ισχύος'
             return str(row.article)
         html += '<div class="rate-summary"><div class="support-heading"><h3>'+b.emblem('rates')+'Επιτόκια · ΕΚΤ & Euribor</h3><p>Κάθε διάρκεια και ημερομηνία αναφοράς διαβάζονται χωριστά.</p></div><details class="rate-disclosure"><summary>Επιτόκια ανά διάρκεια και πηγές <span class="disclosure-count">'+str(len(rates))+'</span></summary><div class="quote-grid">'+''.join(rate(q) for q in rates)+'</div></details></div>'
     movers = e.get('market_movers', [])

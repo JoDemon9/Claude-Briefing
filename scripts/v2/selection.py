@@ -39,6 +39,9 @@ def validate(edition, articles):
     current = edition['status'] == 'published' and edition['date'] >= '2026-10-16'
     partial = edition.get('availability_policy') == 'partial-v1' and edition['date'] >= '2026-10-22'
     review = edition.get('selection_review')
+    if edition.get('synthesis_profile') == 'single-turn-v1':
+        validate_synthesis(edition, articles)
+        return
     if current and coverage_required(edition):
         if not review or review.get('version') != 2:
             raise ValueError('Every edition requires selection_review.version=2 and separate world/Cyprus coverage')
@@ -87,3 +90,31 @@ def validate(edition, articles):
         else:
             if any(sports.get(r['article_id'], {}).get('sports_interest') != 'other' for r in extras):
                 raise ValueError('Other sports stories must be separate from the four favourites')
+
+
+def validate_synthesis(edition, articles):
+    inventory(articles)
+    review=edition.get('selection_review',{})
+    if review.get('version')!=2 or not edition.get('prefetch_provenance'):
+        raise ValueError('Synthesis requires a selection review and prepared data provenance')
+    changed=[a for a in articles if a.get('change_status')!='UNCHANGED']
+    if len(changed)>(6 if edition['type']=='morning' else 4):
+        raise ValueError('At most six morning stories or four delta stories may be written')
+    if edition['type']=='morning' and len(articles)>6:
+        raise ValueError('Morning has at most six core stories')
+    if edition['type']!='morning' and not edition.get('baseline'):
+        raise ValueError('Delta synthesis requires an exact baseline')
+    leads={}
+    for article in changed:
+        desk=section(article)
+        leads.setdefault(desk,article['story_id'])
+        deep=any(article.get(k) for k in ('mechanics_and_incentives','second_order_effects','scenarios','newspaper_analysis'))
+        mover=bool(set(article.get('driver_tags',[])) & {'market-mover','tactical-mover'})
+        if deep and article['story_id']!=leads[desk] and not mover:
+            raise ValueError('Deep analysis is reserved for desk leads and major market/tactical movers')
+        if not deep and len(article['summary'].split())>70:
+            raise ValueError('Secondary dispatches must be concise (at most 70 words)')
+        if desk=='sports' and article.get('sports_interest') not in {'omonoia','manutd','realmadrid','formula1','other'}:
+            raise ValueError('Sports dispatch requires an explicit priority interest')
+    if len(edition['sports'].get('major_stories',[]))>3:
+        raise ValueError('At most three major sports stories')

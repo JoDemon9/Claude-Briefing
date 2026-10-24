@@ -46,8 +46,9 @@ def payload_fixture():
 
 
 def current_slot(payload):
-    payload.update(edition_id='2026-10-22-evening',published_at='2026-10-22T20:15:00+03:00',
-                   editorial_completed_at='2026-10-22T20:15:00+03:00')
+    # Use an unpublished slot: the old fixture collided with a real saved edition.
+    payload.update(edition_id='2026-10-24-evening',published_at='2026-10-24T20:15:00+03:00',
+                   editorial_completed_at='2026-10-24T20:15:00+03:00')
     return payload
 
 
