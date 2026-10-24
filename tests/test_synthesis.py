@@ -69,6 +69,16 @@ class PrefetchTests(unittest.TestCase):
         self.assertTrue(all(q['value'] is None and q['quoted_at'] is None for q in result['markets']))
         self.assertEqual(len(client.urls),39)
 
+    def test_provider_reported_change_is_kept_without_using_the_chart_window_baseline(self):
+        meta=dict(symbol='^GSPC',currency='USD',regularMarketPrice=7623.68,
+                  regularMarketTime=int((AT-timedelta(minutes=5)).timestamp()),
+                  regularMarketChangePercent=-0.519,chartPreviousClose=7659.44)
+        q=prefetch.parse_quote(market(),row(json.dumps({'chart':{'result':[{'meta':meta}]}}),prefetch.endpoint('^GSPC')),AT)
+        self.assertEqual(q['change_pct'],-0.519)
+        meta.pop('regularMarketChangePercent')
+        q=prefetch.parse_quote(market(),row(json.dumps({'chart':{'result':[{'meta':meta}]}}),prefetch.endpoint('^GSPC')),AT)
+        self.assertIsNone(q['change_pct'])
+
     def test_ecb_and_euribor_keep_observation_dates_and_negative_rates(self):
         items=json.loads((ROOT/'templates/v2/market-instruments.json').read_text(encoding='utf-8'))
         for key,text,value in [('ecb-deposit','TIME_PERIOD,OBS_VALUE\n2026-10-23,2.5\n',2.5),
