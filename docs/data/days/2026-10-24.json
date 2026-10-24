@@ -10,14 +10,46 @@
       "type": "morning",
       "url": "morning/2026-10-24.html",
       "published_at": "2026-10-24T07:48:00+03:00"
+    },
+    {
+      "id": "2026-10-24-midday",
+      "type": "midday",
+      "url": "midday/2026-10-24.html",
+      "published_at": "2026-10-24T13:43:13+03:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
+  "lead_story_id": "jordan-church-west-bank-attacks-2026-10-23",
   "stories": [
+    {
+      "story_id": "jordan-church-west-bank-attacks-2026-10-23",
+      "first_seen_at": "2026-10-24T07:48:00+03:00",
+      "last_substantive_at": "2026-10-24T13:43:13+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-24-morning",
+          "article_id": "world-mideast",
+          "source_story_id": "jordan-church-west-bank-attacks-2026-10-23",
+          "url": "articles/2026-10-24-morning/world-mideast.html"
+        },
+        {
+          "edition_id": "2026-10-24-midday",
+          "article_id": "lead",
+          "source_story_id": "jordan-church-west-bank-attacks-2026-10-23",
+          "url": "articles/2026-10-24-midday/lead.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "lead",
+        "source_story_id": "jordan-church-west-bank-attacks-2026-10-23",
+        "url": "articles/2026-10-24-midday/lead.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "middle-east-oil-saudi-escalation-2026-10-22",
       "first_seen_at": "2026-10-24T07:48:00+03:00",
@@ -61,6 +93,48 @@
       "priority": 2
     },
     {
+      "story_id": "saudi-missile-interceptions-2026-10-24",
+      "first_seen_at": "2026-10-24T13:43:13+03:00",
+      "last_substantive_at": "2026-10-24T13:43:13+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-24-midday",
+          "article_id": "world-saudi",
+          "source_story_id": "saudi-missile-interceptions-2026-10-24",
+          "url": "articles/2026-10-24-midday/world-saudi.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "world-saudi",
+        "source_story_id": "saudi-missile-interceptions-2026-10-24",
+        "url": "articles/2026-10-24-midday/world-saudi.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "france-cost-of-living-protests-security-2026-10-24",
+      "first_seen_at": "2026-10-24T13:43:13+03:00",
+      "last_substantive_at": "2026-10-24T13:43:13+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-24-midday",
+          "article_id": "world-france",
+          "source_story_id": "france-cost-of-living-protests-security-2026-10-24",
+          "url": "articles/2026-10-24-midday/world-france.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "world-france",
+        "source_story_id": "france-cost-of-living-protests-security-2026-10-24",
+        "url": "articles/2026-10-24-midday/world-france.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
       "story_id": "sudan-drought-famine-risk-2026-10-23",
       "first_seen_at": "2026-10-24T07:48:00+03:00",
       "last_substantive_at": "2026-10-24T07:48:00+03:00",
@@ -82,22 +156,22 @@
       "priority": 3
     },
     {
-      "story_id": "jordan-church-west-bank-attacks-2026-10-23",
-      "first_seen_at": "2026-10-24T07:48:00+03:00",
-      "last_substantive_at": "2026-10-24T07:48:00+03:00",
+      "story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+      "first_seen_at": "2026-10-24T13:43:13+03:00",
+      "last_substantive_at": "2026-10-24T13:43:13+03:00",
       "references": [
         {
-          "edition_id": "2026-10-24-morning",
-          "article_id": "world-mideast",
-          "source_story_id": "jordan-church-west-bank-attacks-2026-10-23",
-          "url": "articles/2026-10-24-morning/world-mideast.html"
+          "edition_id": "2026-10-24-midday",
+          "article_id": "world-ukraine",
+          "source_story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+          "url": "articles/2026-10-24-midday/world-ukraine.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-24-morning",
-        "article_id": "world-mideast",
-        "source_story_id": "jordan-church-west-bank-attacks-2026-10-23",
-        "url": "articles/2026-10-24-morning/world-mideast.html"
+        "edition_id": "2026-10-24-midday",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+        "url": "articles/2026-10-24-midday/world-ukraine.html"
       },
       "section": "world",
       "priority": 4
@@ -124,6 +198,111 @@
       "priority": 5
     },
     {
+      "story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+      "first_seen_at": "2026-10-24T13:43:13+03:00",
+      "last_substantive_at": "2026-10-24T13:43:13+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-24-midday",
+          "article_id": "world-us",
+          "source_story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+          "url": "articles/2026-10-24-midday/world-us.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "world-us",
+        "source_story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+        "url": "articles/2026-10-24-midday/world-us.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-income-inequality-eurostat-2025",
+      "first_seen_at": "2026-10-24T13:43:13+03:00",
+      "last_substantive_at": "2026-10-24T13:43:13+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-24-midday",
+          "article_id": "cyprus-inequality",
+          "source_story_id": "cyprus-income-inequality-eurostat-2025",
+          "url": "articles/2026-10-24-midday/cyprus-inequality.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-inequality",
+        "source_story_id": "cyprus-income-inequality-eurostat-2025",
+        "url": "articles/2026-10-24-midday/cyprus-inequality.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "eunomia-7-2026-exercise-completed",
+      "first_seen_at": "2026-10-24T13:43:13+03:00",
+      "last_substantive_at": "2026-10-24T13:43:13+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-24-midday",
+          "article_id": "cyprus-eunomia",
+          "source_story_id": "eunomia-7-2026-exercise-completed",
+          "url": "articles/2026-10-24-midday/cyprus-eunomia.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-eunomia",
+        "source_story_id": "eunomia-7-2026-exercise-completed",
+        "url": "articles/2026-10-24-midday/cyprus-eunomia.html"
+      },
+      "section": "cyprus",
+      "priority": 7
+    },
+    {
+      "story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+      "first_seen_at": "2026-10-24T13:43:13+03:00",
+      "last_substantive_at": "2026-10-24T13:43:13+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-24-midday",
+          "article_id": "cyprus-waste",
+          "source_story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+          "url": "articles/2026-10-24-midday/cyprus-waste.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-waste",
+        "source_story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+        "url": "articles/2026-10-24-midday/cyprus-waste.html"
+      },
+      "section": "cyprus",
+      "priority": 8
+    },
+    {
+      "story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+      "first_seen_at": "2026-10-24T13:43:13+03:00",
+      "last_substantive_at": "2026-10-24T13:43:13+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-24-midday",
+          "article_id": "cyprus-missing",
+          "source_story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+          "url": "articles/2026-10-24-midday/cyprus-missing.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-missing",
+        "source_story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+        "url": "articles/2026-10-24-midday/cyprus-missing.html"
+      },
+      "section": "cyprus",
+      "priority": 9
+    },
+    {
       "story_id": "cyprus-whistleblower-oversight-gap-2026-10-24",
       "first_seen_at": "2026-10-24T07:48:00+03:00",
       "last_substantive_at": "2026-10-24T07:48:00+03:00",
@@ -140,6 +319,27 @@
         "article_id": "cyprus-whistleblowers",
         "source_story_id": "cyprus-whistleblower-oversight-gap-2026-10-24",
         "url": "articles/2026-10-24-morning/cyprus-whistleblowers.html"
+      },
+      "section": "cyprus",
+      "priority": 10
+    },
+    {
+      "story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+      "first_seen_at": "2026-10-24T13:43:13+03:00",
+      "last_substantive_at": "2026-10-24T13:43:13+03:00",
+      "references": [
+        {
+          "edition_id": "2026-10-24-midday",
+          "article_id": "cyprus-larnaca",
+          "source_story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+          "url": "articles/2026-10-24-midday/cyprus-larnaca.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-larnaca",
+        "source_story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+        "url": "articles/2026-10-24-midday/cyprus-larnaca.html"
       },
       "section": "cyprus",
       "priority": 10
@@ -689,6 +889,307 @@
         "source_story_id": "middle-east-oil-saudi-escalation-2026-10-22",
         "url": "articles/2026-10-24-morning/lead.html"
       }
+    },
+    {
+      "id": "144b397be3ffb8dee7f206bf628d88494d0180a0d46a85b9cc1dc696e8e5f3b2",
+      "kind": "new",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Νέα τεκμηριωμένη μεσημεριανή κάλυψη.",
+      "source_urls": [
+        "https://www.philenews.com/ellada/article/1786309/nea-prospathia-taftopiisis-agnooumenou-sintagmatarchi-tis-eldik-o-chartsiotis-episkefthike-tin-ikogenia-ke-sillechthike-dna/"
+      ],
+      "story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-missing",
+        "source_story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+        "url": "articles/2026-10-24-midday/cyprus-missing.html"
+      }
+    },
+    {
+      "id": "1c93d82244f2d0708ea885189205922f556b1c19349f0f8a6ed7cb8a11ce29a4",
+      "kind": "provenance",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-larnaca",
+        "source_story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+        "url": "articles/2026-10-24-midday/cyprus-larnaca.html"
+      }
+    },
+    {
+      "id": "3055abad7c47e7f43e44e243e3f03302f3d02fb5b599412aa64e9cc925416d1e",
+      "kind": "provenance",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+        "url": "articles/2026-10-24-midday/world-ukraine.html"
+      }
+    },
+    {
+      "id": "44d05b818172ead1111d0f6327dafedbf59bf70330855c5aca3d38bee1251a51",
+      "kind": "new",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Νέα τεκμηριωμένη μεσημεριανή κάλυψη.",
+      "source_urls": [
+        "https://www.philenews.com/kipros/koinonia/article/1786321/oloklirothike-i-megali-aeronaftiki-askisi-eunomia-7-2026-simmetichan-kipros-ellada-gallia-ke-italia-ikones-vinteo/"
+      ],
+      "story_id": "eunomia-7-2026-exercise-completed",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-eunomia",
+        "source_story_id": "eunomia-7-2026-exercise-completed",
+        "url": "articles/2026-10-24-midday/cyprus-eunomia.html"
+      }
+    },
+    {
+      "id": "587d5e3301bc906e35599de9fd5b33f0428490af4645a6f2f0ff272ce3908d8b",
+      "kind": "new",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Νέα τεκμηριωμένη μεσημεριανή κάλυψη.",
+      "source_urls": [
+        "https://www.philenews.com/kipros/koinonia/article/1785982/sto-skamni-tou-dikastiriou-tis-ee-i-kipros-gia-ta-apovlita-kindinos-anadromikon-prostimon-ke-mploko-tis-nomikis-ipiresias-sti-metakilisi-tous-se-ergolavous-i-topikes-arches/"
+      ],
+      "story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-waste",
+        "source_story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+        "url": "articles/2026-10-24-midday/cyprus-waste.html"
+      }
+    },
+    {
+      "id": "661167c68dc2fef01188479048d44e35b96ce78a81129a1567ba16675f56a768",
+      "kind": "new",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Νέα τεκμηριωμένη μεσημεριανή κάλυψη.",
+      "source_urls": [
+        "https://www.reuters.com/world/europe/france-mounts-huge-security-operation-protesters-prepare-march-2026-10-24/"
+      ],
+      "story_id": "france-cost-of-living-protests-security-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "world-france",
+        "source_story_id": "france-cost-of-living-protests-security-2026-10-24",
+        "url": "articles/2026-10-24-midday/world-france.html"
+      }
+    },
+    {
+      "id": "6faf76021d55c076b87dfd818f60acd641fa3449889194f203d28306dd3ca7e4",
+      "kind": "provenance",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "jordan-church-west-bank-attacks-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "lead",
+        "source_story_id": "jordan-church-west-bank-attacks-2026-10-23",
+        "url": "articles/2026-10-24-midday/lead.html"
+      }
+    },
+    {
+      "id": "86cbbaf2370b6d7840dffc4c38e0be4d8971fa75d21a256056fe3647966716d8",
+      "kind": "new",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Νέα τεκμηριωμένη μεσημεριανή κάλυψη.",
+      "source_urls": [
+        "https://www.philenews.com/oikonomia/kypros/article/1786115/kipros-chani-kata-kratos-apo-tin-anisotita-chirotera-apotelesmata-apo-to-24-thliveri-i-sigkrisi-me-ton-vorra-tis-ee/"
+      ],
+      "story_id": "cyprus-income-inequality-eurostat-2025",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-inequality",
+        "source_story_id": "cyprus-income-inequality-eurostat-2025",
+        "url": "articles/2026-10-24-midday/cyprus-inequality.html"
+      }
+    },
+    {
+      "id": "891ac2ab794e3bf968abb78ee992be146116512425872a398f81fa459015e5a7",
+      "kind": "new",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Νέα τεκμηριωμένη μεσημεριανή κάλυψη.",
+      "source_urls": [
+        "https://www.reuters.com/world/europe/ukraine-says-starlink-starshield-operating-at-400-kph-after-week-throttling-2026-10-24/"
+      ],
+      "story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+        "url": "articles/2026-10-24-midday/world-ukraine.html"
+      }
+    },
+    {
+      "id": "8ec26b9d2849d225fed10dbcf29444d7e1a45642357ed094680f1c44c7acabe7",
+      "kind": "provenance",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "france-cost-of-living-protests-security-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "world-france",
+        "source_story_id": "france-cost-of-living-protests-security-2026-10-24",
+        "url": "articles/2026-10-24-midday/world-france.html"
+      }
+    },
+    {
+      "id": "973a743d77161eba0e188a2d4041800f25dbcd293b320371a6814fa05b549c0c",
+      "kind": "new",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Νέα τεκμηριωμένη μεσημεριανή κάλυψη.",
+      "source_urls": [
+        "https://www.reuters.com/world/us/trump-foreign-policy-hits-voters-pocketbook-imperiling-republicans-midterms-2026-10-24/"
+      ],
+      "story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "world-us",
+        "source_story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+        "url": "articles/2026-10-24-midday/world-us.html"
+      }
+    },
+    {
+      "id": "9e1ebbda873b5d3e705f43f21c2ca41575b8c86e42c474de372d37e23494b636",
+      "kind": "provenance",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-missing",
+        "source_story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+        "url": "articles/2026-10-24-midday/cyprus-missing.html"
+      }
+    },
+    {
+      "id": "aa3bcfd4ff14903140d96cb37304f80734d50377e68b6c362afa23311d74d60f",
+      "kind": "provenance",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "world-us",
+        "source_story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+        "url": "articles/2026-10-24-midday/world-us.html"
+      }
+    },
+    {
+      "id": "c88fca26efa1cd8153bf352804210ea75a9e31679f191c2f0ad20b6f356cede5",
+      "kind": "provenance",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "saudi-missile-interceptions-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "world-saudi",
+        "source_story_id": "saudi-missile-interceptions-2026-10-24",
+        "url": "articles/2026-10-24-midday/world-saudi.html"
+      }
+    },
+    {
+      "id": "ca87d957d2a1ff89776eb08eb6a12f102e2dead2c0fd8a81869f9499255ab54e",
+      "kind": "substantive_update",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Ο απολογισμός και οι περιορισμοί ενημερώθηκαν από νεότερο ρεπορτάζ.",
+      "source_urls": [
+        "https://apnews.com/article/mideast-news-october-24-2026-707ad41a79d384ff4715902ce3d60df5"
+      ],
+      "story_id": "jordan-church-west-bank-attacks-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "lead",
+        "source_story_id": "jordan-church-west-bank-attacks-2026-10-23",
+        "url": "articles/2026-10-24-midday/lead.html"
+      }
+    },
+    {
+      "id": "cbf9c4f5eccc27a03961d7f454f4fe6c88ffefc0545ff323bf5ddee090d80fc0",
+      "kind": "provenance",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-income-inequality-eurostat-2025",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-inequality",
+        "source_story_id": "cyprus-income-inequality-eurostat-2025",
+        "url": "articles/2026-10-24-midday/cyprus-inequality.html"
+      }
+    },
+    {
+      "id": "e18f87482dcefa082f068e9c09737eb850dc881c38186c7329205b3bb65d85eb",
+      "kind": "new",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Νέα τεκμηριωμένη μεσημεριανή κάλυψη.",
+      "source_urls": [
+        "https://www.reuters.com/world/middle-east/saudi-civil-defense-says-danger-passed-after-brief-alerts-mecca-jeddah-taif-2026-10-24/"
+      ],
+      "story_id": "saudi-missile-interceptions-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "world-saudi",
+        "source_story_id": "saudi-missile-interceptions-2026-10-24",
+        "url": "articles/2026-10-24-midday/world-saudi.html"
+      }
+    },
+    {
+      "id": "e6e5649e572a11268981bd4920f3059528e21c0ced6826233cfaee82d83d8b20",
+      "kind": "provenance",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-waste",
+        "source_story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+        "url": "articles/2026-10-24-midday/cyprus-waste.html"
+      }
+    },
+    {
+      "id": "ea8b69913823198320150cb7a6c92c8d49d54b1516151d4fe38c3a301ed2bfb3",
+      "kind": "new",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Νέα τεκμηριωμένη μεσημεριανή κάλυψη.",
+      "source_urls": [
+        "https://www.philenews.com/politiki/article/1786314/alma-gia-marina-larnakas-katatheti-protasi-nomou-11-lexeon-gia-na-dothi-lisi-sto-adiexodo-katigori-tin-kivernisi-gia-empegmo/",
+        "https://cyprus-mail.com/2026/10/22/legal-hurdle-threatens-larnaca-marina-redevelopment"
+      ],
+      "story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-larnaca",
+        "source_story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+        "url": "articles/2026-10-24-midday/cyprus-larnaca.html"
+      }
+    },
+    {
+      "id": "ead2c05e7ba47c060fe82f77b1efe7c9c900934aa51dcae8f25f304476a477cb",
+      "kind": "provenance",
+      "at": "2026-10-24T13:43:13+03:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "eunomia-7-2026-exercise-completed",
+      "origin": {
+        "edition_id": "2026-10-24-midday",
+        "article_id": "cyprus-eunomia",
+        "source_story_id": "eunomia-7-2026-exercise-completed",
+        "url": "articles/2026-10-24-midday/cyprus-eunomia.html"
+      }
     }
   ],
   "opportunities": [
@@ -734,7 +1235,7 @@
       "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση."
     },
     {
-      "verified_at": "2026-10-23T13:33:11+03:00",
+      "verified_at": "2026-10-24T13:43:13+03:00",
       "opens_at": null,
       "deadline": "2026-11-04T18:00:00+02:00",
       "deadline_type": "fixed",
@@ -755,14 +1256,14 @@
           "publisher": "European Innovation Council",
           "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
           "published_at": null,
-          "retrieved_at": "2026-10-23T10:33:10.155243+00:00",
+          "retrieved_at": "2026-10-24T13:43:13+03:00",
           "reporting_group": "European Innovation Council",
           "kind": "primary",
           "access": "read",
           "used_for_claims": true
         }
       ],
-      "change_note": "Επανελέγχθηκαν τα επίσημα κριτήρια: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ. και επενδυτικό σκέλος €1–10 εκατ. Δεν διαπιστώθηκε αλλαγή."
+      "change_note": "Επανελέγχθηκε η επίσημη σελίδα EIC: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ., επενδυτικό σκέλος €1–10 εκατ. και επόμενη πλήρης πρόταση στις 4/11, 17:00 Βρυξελλών, μόνο μετά από GO."
     },
     {
       "id": "cy-home-energy-2026",
@@ -892,36 +1393,43 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Το Brent έκλεισε στα $116,72 και η Wall Street χαμηλότερα την Παρασκευή, με την ενέργεια να ξεχωρίζει θετικά.",
+        "text": "Η περιφερειακή ένταση παραμένει το κύριο θέμα: περιορισμοί στη Χεβρώνα, οκτώ νεκροί στην Ιορδανία και σαουδαραβική ανακοίνωση για δύο αναχαιτισμένους πυραύλους.",
+        "story_ids": [
+          "jordan-church-west-bank-attacks-2026-10-23",
+          "saudi-missile-interceptions-2026-10-24"
+        ]
+      },
+      {
+        "text": "Η Wall Street και οι ευρωπαϊκές αγορές είναι κλειστές το Σάββατο· διατηρούνται τα πραγματικά κλεισίματα της Παρασκευής και οι συνεχείς τιμές κρυπτονομισμάτων με ώρα παρόχου.",
         "story_ids": [
           "middle-east-oil-saudi-escalation-2026-10-22"
         ]
       },
       {
-        "text": "Στην Ολέσκι συμφωνήθηκε ανθρωπιστική εκεχειρία από 27 Οκτωβρίου· η ημερομηνία διορθώνεται από την προηγούμενη αναφορά.",
+        "text": "Η Γαλλία ανέπτυξε 70.000 αστυνομικούς για τις διαδηλώσεις, ενώ η Ουκρανία ανακοίνωσε αποκατάσταση Starlink/Starshield σε υψηλές ταχύτητες.",
         "story_ids": [
-          "oleshky-local-ceasefire-2026-10-29"
+          "france-cost-of-living-protests-security-2026-10-24",
+          "ukraine-starlink-starshield-speed-restoration-2026-10-24"
         ]
       },
       {
-        "text": "Η ξηρασία αυξάνει τον κίνδυνο λιμού στο Σουδάν, ενώ η Κένυα ανακοίνωσε δεύτερο θάνατο από Έμπολα χωρίς ένδειξη κοινοτικής διασποράς.",
+        "text": "Στην Κύπρο, η ανισότητα αυξήθηκε πάνω από τον μέσο όρο της ΕΕ και η παραπομπή για τα απόβλητα αναδεικνύει κενά υποδομών.",
         "story_ids": [
-          "sudan-drought-famine-risk-2026-10-23",
-          "ebola-outbreak-kenya-2026-10"
+          "cyprus-income-inequality-eurostat-2025",
+          "cyprus-eu-court-waste-referral-2026-10-01"
         ]
       },
       {
-        "text": "Στην Κύπρο καταγράφονται κενό εποπτείας για πληροφοριοδότες, απειλή απεργίας στα σχολικά προγράμματα και σχέδιο 94 ταχυφορτιστών.",
+        "text": "Ολοκληρώθηκε η EUNOMIA-7, συλλέχθηκε νέο DNA για αγνοούμενο της ΕΛΔΥΚ και τη Δευτέρα αναμένεται νομοθετική πρόταση για τη μαρίνα Λάρνακας.",
         "story_ids": [
-          "cyprus-whistleblower-oversight-gap-2026-10-24",
-          "cyprus-school-support-strike-2026-10-23",
-          "cyprus-ev-fast-charging-network-2026-2028"
+          "eunomia-7-2026-exercise-completed",
+          "eldyk-colonel-kentras-dna-identification-2026-10-24",
+          "larnaca-marina-law-amendment-proposal-2026-10-26"
         ]
       },
       {
-        "text": "Η Λευκωσία προσέφυγε στον ΟΗΕ κατά του τουρκολιβυκού μνημονίου· ο τουρισμός περιορίζει την ετήσια πτώση αφίξεων στο 5,6%.",
+        "text": "Για τη Λεμεσό ισχύει κυρίως αίθριος καιρός έως τα μεσάνυχτα, με αραιή σκόνη και χωρίς ενεργή επίσημη προειδοποίηση στον μεσημεριανό έλεγχο.",
         "story_ids": [
-          "cyprus-un-turkey-libya-memorandum-2026-10-23",
           "cyprus-tourism-2026-recovery-2026-10-23"
         ]
       }
@@ -929,6 +1437,6 @@
   },
   "follow_ups": [],
   "created_at": "2026-10-24T04:50:22.599366+00:00",
-  "updated_at": "2026-10-24T04:54:40.883253+00:00",
-  "input_sha256": "c670073ae31d86e4f94dfe8825c850d857d1cc32e2e57cac4b7f6fd5b3255ed1"
+  "updated_at": "2026-10-24T10:45:10.242732+00:00",
+  "input_sha256": "ea497cd80398a8ffcaf622710aea03cd11bf6bcbdfc759ef1374a11061e2f82a"
 }
