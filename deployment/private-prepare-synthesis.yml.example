@@ -1,4 +1,4 @@
-# INACTIVE REVIEW TEMPLATE. Activation in the private repository requires approval.
+# Reference template for the deployed private workflow; copying it does not activate a schedule.
 name: Prepare private synthesis pack (Python only)
 on:
   schedule:
@@ -39,6 +39,24 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Verify submission credential without changing any refs
+        id: credential
+        continue-on-error: true
+        env:
+          ORACLE_PUBLIC_PUSH_TOKEN: ${{ secrets.PUBLIC_BRIEFING_TOKEN }}
+        run: |
+          python - <<'PY'
+          import importlib.util
+          import os
+          from pathlib import Path
+          if not os.environ.get('ORACLE_PUBLIC_PUSH_TOKEN'):
+              raise SystemExit('PUBLIC_BRIEFING_TOKEN is missing; submission_ready will be false.')
+          spec = importlib.util.spec_from_file_location('publisher', 'source/scripts/v2/publish.py')
+          publisher = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(publisher)
+          publisher.GitPublisher(Path('source'), 'public').preflight()
+          print('PUBLIC_BRIEFING_TOKEN: Contents write preflight passed; no refs changed.')
+          PY
       - run: pip install beautifulsoup4
       - uses: actions/cache@v4
         with:
@@ -52,7 +70,7 @@ jobs:
         env:
           EVENT: ${{ github.event_name }}
           SLOT: ${{ inputs.slot }}
-          ORACLE_SUBMISSION_READY: ${{ secrets.PUBLIC_BRIEFING_TOKEN != '' }}
+          ORACLE_SUBMISSION_READY: ${{ steps.credential.outcome == 'success' }}
         run: |
           if [ "$EVENT" = schedule ]; then
             python source/scripts/v2/pre_run.py --root source --private-root private --wire-root portal --scheduled --github-output "$GITHUB_OUTPUT"
