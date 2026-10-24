@@ -70,6 +70,6 @@ jobs:
           git add -- "research/runs/$EDITION/research_pack.json" "research/runs/$EDITION/digest.md"
           if ! git diff --cached --quiet; then
             git commit -m "Prepare $EDITION synthesis pack (no AI)"
-            git pull --rebase origin main
+            git pull --rebase --autostash origin main
             git push origin HEAD:main
           fi

@@ -91,7 +91,10 @@ def parse_quote(item,row,at):
                 return result
             stamp=datetime.fromtimestamp(timestamp,timezone.utc).isoformat(); publisher='Yahoo Finance'; status='delayed'
             previous=meta.get('previousClose')
-            if finite(previous) and previous>0 and finite(value):
+            reported_change=meta.get('regularMarketChangePercent')
+            if finite(reported_change):
+                result['change_pct']=reported_change
+            elif finite(previous) and previous>0 and finite(value):
                 result['change_pct']=round((value/previous-1)*100,4)
         if not finite(value) or (item['asset_class']!='rate' and value<=0):
             return {**result,'change_pct':None}
