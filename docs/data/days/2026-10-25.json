@@ -1,0 +1,665 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-10-25.html",
+  "editions": [
+    {
+      "id": "2026-10-25-midday",
+      "type": "midday",
+      "url": "midday/2026-10-25.html",
+      "published_at": "2026-10-25T12:11:14.029857+00:00"
+    }
+  ],
+  "missing_slots": [
+    "morning",
+    "evening"
+  ],
+  "lead_story_id": "france-cost-of-living-protests-security-2026-10-24",
+  "stories": [
+    {
+      "story_id": "france-cost-of-living-protests-security-2026-10-24",
+      "first_seen_at": "2026-10-25T12:11:14.029857+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-midday",
+          "article_id": "france-protests-outcome",
+          "source_story_id": "france-cost-of-living-protests-security-2026-10-24",
+          "url": "articles/2026-10-25-midday/france-protests-outcome.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "france-protests-outcome",
+        "source_story_id": "france-cost-of-living-protests-security-2026-10-24",
+        "url": "articles/2026-10-25-midday/france-protests-outcome.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "jordan-church-west-bank-attacks-2026-10-23",
+      "first_seen_at": "2026-10-25T12:11:14.029857+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-midday",
+          "article_id": "lead",
+          "source_story_id": "jordan-church-west-bank-attacks-2026-10-23",
+          "url": "articles/2026-10-25-midday/lead.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "lead",
+        "source_story_id": "jordan-church-west-bank-attacks-2026-10-23",
+        "url": "articles/2026-10-25-midday/lead.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "brazil-presidential-runoff-voting-2026-10-25",
+      "first_seen_at": "2026-10-25T12:11:14.029857+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-midday",
+          "article_id": "brazil-runoff-voting",
+          "source_story_id": "brazil-presidential-runoff-voting-2026-10-25",
+          "url": "articles/2026-10-25-midday/brazil-runoff-voting.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "brazil-runoff-voting",
+        "source_story_id": "brazil-presidential-runoff-voting-2026-10-25",
+        "url": "articles/2026-10-25-midday/brazil-runoff-voting.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "saudi-missile-interceptions-2026-10-24",
+      "first_seen_at": "2026-10-25T12:11:14.029857+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-midday",
+          "article_id": "world-saudi",
+          "source_story_id": "saudi-missile-interceptions-2026-10-24",
+          "url": "articles/2026-10-25-midday/world-saudi.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "world-saudi",
+        "source_story_id": "saudi-missile-interceptions-2026-10-24",
+        "url": "articles/2026-10-25-midday/world-saudi.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "cyprus-konstantinidis-fra-chair-2026-10-25",
+      "first_seen_at": "2026-10-25T12:11:14.029857+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-midday",
+          "article_id": "konstantinidis-fra-chair",
+          "source_story_id": "cyprus-konstantinidis-fra-chair-2026-10-25",
+          "url": "articles/2026-10-25-midday/konstantinidis-fra-chair.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "konstantinidis-fra-chair",
+        "source_story_id": "cyprus-konstantinidis-fra-chair-2026-10-25",
+        "url": "articles/2026-10-25-midday/konstantinidis-fra-chair.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
+      "story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+      "first_seen_at": "2026-10-25T12:11:14.029857+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-midday",
+          "article_id": "world-ukraine",
+          "source_story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+          "url": "articles/2026-10-25-midday/world-ukraine.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+        "url": "articles/2026-10-25-midday/world-ukraine.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+      "first_seen_at": "2026-10-25T12:11:14.029857+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-midday",
+          "article_id": "world-us",
+          "source_story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+          "url": "articles/2026-10-25-midday/world-us.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "world-us",
+        "source_story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+        "url": "articles/2026-10-25-midday/world-us.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-income-inequality-eurostat-2025",
+      "first_seen_at": "2026-10-25T12:11:14.029857+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-midday",
+          "article_id": "cyprus-inequality",
+          "source_story_id": "cyprus-income-inequality-eurostat-2025",
+          "url": "articles/2026-10-25-midday/cyprus-inequality.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "cyprus-inequality",
+        "source_story_id": "cyprus-income-inequality-eurostat-2025",
+        "url": "articles/2026-10-25-midday/cyprus-inequality.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "eunomia-7-2026-exercise-completed",
+      "first_seen_at": "2026-10-25T12:11:14.029857+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-midday",
+          "article_id": "cyprus-eunomia",
+          "source_story_id": "eunomia-7-2026-exercise-completed",
+          "url": "articles/2026-10-25-midday/cyprus-eunomia.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "cyprus-eunomia",
+        "source_story_id": "eunomia-7-2026-exercise-completed",
+        "url": "articles/2026-10-25-midday/cyprus-eunomia.html"
+      },
+      "section": "cyprus",
+      "priority": 7
+    },
+    {
+      "story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+      "first_seen_at": "2026-10-25T12:11:14.029857+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-midday",
+          "article_id": "cyprus-waste",
+          "source_story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+          "url": "articles/2026-10-25-midday/cyprus-waste.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "cyprus-waste",
+        "source_story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+        "url": "articles/2026-10-25-midday/cyprus-waste.html"
+      },
+      "section": "cyprus",
+      "priority": 8
+    },
+    {
+      "story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+      "first_seen_at": "2026-10-25T12:11:14.029857+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-midday",
+          "article_id": "cyprus-missing",
+          "source_story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+          "url": "articles/2026-10-25-midday/cyprus-missing.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "cyprus-missing",
+        "source_story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+        "url": "articles/2026-10-25-midday/cyprus-missing.html"
+      },
+      "section": "cyprus",
+      "priority": 9
+    },
+    {
+      "story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+      "first_seen_at": "2026-10-25T12:11:14.029857+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-midday",
+          "article_id": "cyprus-larnaca",
+          "source_story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+          "url": "articles/2026-10-25-midday/cyprus-larnaca.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "cyprus-larnaca",
+        "source_story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+        "url": "articles/2026-10-25-midday/cyprus-larnaca.html"
+      },
+      "section": "cyprus",
+      "priority": 10
+    }
+  ],
+  "updates": [
+    {
+      "id": "07b7a467b123c91d2401e5e33edf7f94199c243660c5c1cd21066f6ba27a7c86",
+      "kind": "provenance",
+      "at": "2026-10-25T12:11:14.029857+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-income-inequality-eurostat-2025",
+      "origin": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "cyprus-inequality",
+        "source_story_id": "cyprus-income-inequality-eurostat-2025",
+        "url": "articles/2026-10-25-midday/cyprus-inequality.html"
+      }
+    },
+    {
+      "id": "08df509a1c21e734f18c9d600cb2915b5752136611fb3305926ccebdcf639406",
+      "kind": "provenance",
+      "at": "2026-10-25T12:11:14.029857+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+        "url": "articles/2026-10-25-midday/world-ukraine.html"
+      }
+    },
+    {
+      "id": "10ddc718439fd73402d94394de2d5ab4c475777ae8c386c1c4477f5a43fdd1e6",
+      "kind": "provenance",
+      "at": "2026-10-25T12:11:14.029857+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "brazil-presidential-runoff-voting-2026-10-25",
+      "origin": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "brazil-runoff-voting",
+        "source_story_id": "brazil-presidential-runoff-voting-2026-10-25",
+        "url": "articles/2026-10-25-midday/brazil-runoff-voting.html"
+      }
+    },
+    {
+      "id": "1ada63563dd4dae994284eb52ec6733700ba99a8ed8fe1e87f4940c6640c0b21",
+      "kind": "provenance",
+      "at": "2026-10-25T12:11:14.029857+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "france-cost-of-living-protests-security-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "france-protests-outcome",
+        "source_story_id": "france-cost-of-living-protests-security-2026-10-24",
+        "url": "articles/2026-10-25-midday/france-protests-outcome.html"
+      }
+    },
+    {
+      "id": "2dc13ac22842d9cf041bd4dd5bfe5d0ff2eb94c206c417768ebeb45d30fc4bd5",
+      "kind": "provenance",
+      "at": "2026-10-25T12:11:14.029857+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "cyprus-missing",
+        "source_story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+        "url": "articles/2026-10-25-midday/cyprus-missing.html"
+      }
+    },
+    {
+      "id": "3f7ea9177d57ec4de6332d44eaef70c2d048d810d6ba824587859229ca402072",
+      "kind": "provenance",
+      "at": "2026-10-25T12:11:14.029857+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+      "origin": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "cyprus-waste",
+        "source_story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+        "url": "articles/2026-10-25-midday/cyprus-waste.html"
+      }
+    },
+    {
+      "id": "4c3d8294e6368345439a12f372bdbb441939e23e7b50ca11a298f8a41a5f6723",
+      "kind": "provenance",
+      "at": "2026-10-25T12:11:14.029857+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "cyprus-larnaca",
+        "source_story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+        "url": "articles/2026-10-25-midday/cyprus-larnaca.html"
+      }
+    },
+    {
+      "id": "b4687b7c056a3cd43d66f792855cc1662a5f427ad6c5cd431ca9f14f61007eca",
+      "kind": "provenance",
+      "at": "2026-10-25T12:11:14.029857+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "world-us",
+        "source_story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+        "url": "articles/2026-10-25-midday/world-us.html"
+      }
+    },
+    {
+      "id": "e14fa48aff0d67550db5a09606826997cc5dd8d7dec256641c5326a9d02fd6b9",
+      "kind": "provenance",
+      "at": "2026-10-25T12:11:14.029857+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "saudi-missile-interceptions-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "world-saudi",
+        "source_story_id": "saudi-missile-interceptions-2026-10-24",
+        "url": "articles/2026-10-25-midday/world-saudi.html"
+      }
+    },
+    {
+      "id": "f5803e42c9d743fbc8169ed1e5c968908eac74090b9f51265a2e599b1f6d19f8",
+      "kind": "provenance",
+      "at": "2026-10-25T12:11:14.029857+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "jordan-church-west-bank-attacks-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "lead",
+        "source_story_id": "jordan-church-west-bank-attacks-2026-10-23",
+        "url": "articles/2026-10-25-midday/lead.html"
+      }
+    },
+    {
+      "id": "fbc86ad2945cbf40d7edac96d819ae838b8aa5a7d2b8afca39aa4e1cab84b30f",
+      "kind": "provenance",
+      "at": "2026-10-25T12:11:14.029857+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-konstantinidis-fra-chair-2026-10-25",
+      "origin": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "konstantinidis-fra-chair",
+        "source_story_id": "cyprus-konstantinidis-fra-chair-2026-10-25",
+        "url": "articles/2026-10-25-midday/konstantinidis-fra-chair.html"
+      }
+    },
+    {
+      "id": "fe1e1f5dc54f12456c9a2708d90b832755737da4ea6564666d1c2776b17a0059",
+      "kind": "provenance",
+      "at": "2026-10-25T12:11:14.029857+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "eunomia-7-2026-exercise-completed",
+      "origin": {
+        "edition_id": "2026-10-25-midday",
+        "article_id": "cyprus-eunomia",
+        "source_story_id": "eunomia-7-2026-exercise-completed",
+        "url": "articles/2026-10-25-midday/cyprus-eunomia.html"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "action": "Δες την επίσημη ανακοίνωση ως ιστορικό πλαίσιο. Αναμένουμε επαληθευμένη νέα προκήρυξη πριν εμφανίσουμε ενεργή αίτηση.",
+      "application_kind": "instructions",
+      "application_url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+      "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση.",
+      "deadline": "2024-07-31T23:59:00+03:00",
+      "deadline_note": "Ιστορική προθεσμία της 2ης πρόσκλησης, όχι ημερομηνία νέας αίτησης. Νέα ενεργή πρόσκληση δεν επιβεβαιώθηκε στον παρόντα έλεγχο.",
+      "deadline_type": "fixed",
+      "eligibility": "Η προκήρυξη του 2024 όριζε νέους 18–29, άνδρες 30–50 και γυναίκες 30–55. Νέα πρόσκληση μπορεί να αλλάξει τους όρους· δεν έχει κριθεί προσωπική επιλεξιμότητα.",
+      "id": "cy-new-entrepreneurship-2024-call2",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "kind": "grant",
+      "opens_at": null,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-23T04:30:48.639313+00:00",
+          "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "retrieved_at": "2026-10-15T16:39:24.850175+00:00",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Ιστορική πρόσκληση του 2024 που έχει λήξει. Παραμένει μόνο στην παρακολούθηση για τυχόν νέα επίσημη προκήρυξη, όχι στις ενεργές αιτήσεις.",
+      "support": "Παλιοί όροι: 70% επιλέξιμης δαπάνης για 18–29, 60% για τις άλλες ομάδες, με μέγιστο επιλέξιμο προϋπολογισμό €120.000.",
+      "title": "Νέα Επιχειρηματική Δραστηριότητα · παλιά 2η προκήρυξη",
+      "verified_at": "2026-10-23T07:36:00+03:00"
+    },
+    {
+      "action": "Αν έχεις GO, προετοίμασε πλήρη πρόταση. Διαφορετικά ξεκίνα τη σύντομη αίτηση χωρίς να θεωρείς εξασφαλισμένη συμμετοχή στον γύρο Νοεμβρίου.",
+      "application_kind": "form",
+      "application_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+      "change_note": "Επανελέγχθηκε η επίσημη σελίδα EIC: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ., επενδυτικό σκέλος €1–10 εκατ. και επόμενη πλήρης πρόταση στις 4/11, 17:00 Βρυξελλών, μόνο μετά από GO.",
+      "deadline": "2026-11-04T18:00:00+02:00",
+      "deadline_note": "4/11 στις 17:00 Βρυξελλών = 18:00 Κύπρου. Αφορά πλήρη πρόταση μετά το GO. Οι σύντομες προτάσεις υποβάλλονται συνεχώς· αξιολόγηση συνήθως 4–6 εβδομάδες.",
+      "deadline_type": "fixed",
+      "eligibility": "Μία startup/ΜμΕ στην ΕΕ ή συνδεδεμένη χώρα, με καινοτομία TRL 6–8. Για πλήρη πρόταση προηγείται θετική αξιολόγηση (GO) της σύντομης πρότασης ή επιλέξιμη ειδική διαδρομή.",
+      "id": "eu-eic-accelerator-2026",
+      "jurisdiction": "ΕΕ · περιλαμβάνει την Κύπρο",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Innovation Council",
+          "reporting_group": "European Innovation Council",
+          "retrieved_at": "2026-10-24T13:43:13+03:00",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Στήριξη νεοφυών και μικρομεσαίων επιχειρήσεων με ανατρεπτική καινοτομία σε στάδιο ανάπτυξης και κλιμάκωσης. Δεν είναι γενική επιδότηση ίδρυσης επιχείρησης.",
+      "support": "Επιχορήγηση κάτω από €2,5 εκατ.· χωριστά επενδυτικό σκέλος €1–10 εκατ., που δεν αποτελεί επιχορήγηση.",
+      "title": "EIC Accelerator: επόμενη πλήρης πρόταση 4 Νοεμβρίου",
+      "verified_at": "2026-10-24T13:43:13+03:00"
+    },
+    {
+      "action": "Μην υποβάλεις νέα αίτηση. Παρακολούθησε μόνο επίσημη επαναπροκήρυξη ή ανακοίνωση για επιλαχόντες.",
+      "application_kind": "none",
+      "application_url": null,
+      "change_note": "Το ΥΕΕΒ ανακοίνωσε ολοκλήρωση υποβολής προτάσεων λόγω υπερκάλυψης προϋπολογισμού. Η προηγούμενη ένδειξη ανοικτής πρόσκλησης διορθώθηκε.",
+      "deadline": null,
+      "deadline_note": "Η υποβολή ολοκληρώθηκε στις 21/10 λόγω υπερκάλυψης του διαθέσιμου προϋπολογισμού.",
+      "deadline_type": "unknown",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "id": "cy-home-energy-2026",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "kind": "grant",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": "2026-10-21",
+          "publisher": "ΥΕΕΒ",
+          "reporting_group": "ΥΕΕΒ",
+          "retrieved_at": "2026-10-23T10:33:45.530855+00:00",
+          "url": "https://www.industry.gov.cy",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "verified_at": "2026-10-23T13:33:46+03:00"
+    },
+    {
+      "action": "Έλεγξε τα όρια και τη διαδικασία προηγούμενης κοινοποίησης στο κράτος εγκατάστασης. Ο σύνδεσμος δίνει οδηγίες, όχι κυπριακό έντυπο.",
+      "application_kind": "instructions",
+      "application_url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+      "change_note": "Επανελέγχθηκαν στις 24/10 η επίσημη ευρωπαϊκή σελίδα και η διαδικασία διασυνοριακής απαλλαγής. Το καθεστώς παραμένει προαιρετικό και ανοικτό, με ενωσιακό όριο €100.000 και προηγούμενη κοινοποίηση.",
+      "deadline": null,
+      "deadline_note": "Δεν πρόκειται για γύρο χορηγιών. Η απαλλαγή ξεκινά μετά την έγκριση/επιβεβαίωση EX· ισχύουν ξεχωριστές υποχρεώσεις τριμηνιαίας αναφοράς.",
+      "deadline_type": "rolling",
+      "eligibility": "Επιχείρηση εγκατεστημένη στην ΕΕ: ενωσιακός τζίρος έως €100.000 στο τρέχον και προηγούμενο έτος, καθώς και το εθνικό/κλαδικό όριο κάθε χώρας απαλλαγής.",
+      "id": "eu-cross-border-sme-vat",
+      "jurisdiction": "ΕΕ / Κύπρος · διασυνοριακές πωλήσεις",
+      "kind": "legal_right",
+      "opens_at": null,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · DG TAXUD",
+          "reporting_group": "European Commission · DG TAXUD",
+          "retrieved_at": "2026-10-24T07:33:51+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · SME VAT",
+          "reporting_group": "European Commission · SME VAT",
+          "retrieved_at": "2026-10-24T07:33:47+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/index_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-24T07:33:52+03:00",
+          "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Το ευρωπαϊκό καθεστώς μικρών επιχειρήσεων επιτρέπει απαλλαγή ΦΠΑ σε επιλέξιμες διασυνοριακές πωλήσεις. Απαιτεί προηγούμενη κοινοποίηση· δεν εφαρμόζεται αυτόματα.",
+      "support": "Πιθανή απλούστευση υποχρεώσεων ΦΠΑ, με απώλεια δικαιώματος έκπτωσης ΦΠΑ για τις απαλλασσόμενες πράξεις. Αξιολόγησε το καθαρό όφελος πριν επιλέξεις.",
+      "title": "Προαιρετική απαλλαγή ΦΠΑ για μικρές επιχειρήσεις",
+      "verified_at": "2026-10-24T07:44:30+03:00"
+    },
+    {
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
+      "application_kind": "form",
+      "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "change_note": "Επανελέγχθηκαν η επίσημη δυνατότητα αίτησης, τα κριτήρια και η FAQ προθεσμίας στις 24/10. Η εγγραφή παραμένει ανοικτή χωρίς καταληκτική ημερομηνία· δεν υπονοείται προσωπική επιλεξιμότητα.",
+      "deadline": null,
+      "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
+      "deadline_type": "rolling",
+      "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
+      "id": "eu-erasmus-new-entrepreneurs",
+      "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
+      "kind": "benefit",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs · FAQ",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
+      "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
+      "title": "Erasmus for Young Entrepreneurs",
+      "verified_at": "2026-10-24T07:43:00+03:00"
+    }
+  ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Στη Γαλλία υπάρχουν πλέον στοιχεία για τις συνέπειες των σαββατιάτικων διαδηλώσεων: το υπουργείο Εσωτερικών ανακοίνωσε 1.314 συλλήψεις. Στη Βραζιλία άνοιξαν οι κάλπες για τον δεύτερο γύρο μεταξύ Λούλα και Φλάβιο Μπολσονάρου· η ενημέρωση αφορά την έναρξη της ψηφοφορίας, όχι αποτέλεσμα.",
+        "story_ids": [
+          "france-cost-of-living-protests-security-2026-10-24",
+          "brazil-presidential-runoff-voting-2026-10-25"
+        ]
+      },
+      {
+        "text": "Ο Αριστοτέλης Κωνσταντινίδης αναλαμβάνει την προεδρία του Διοικητικού Συμβουλίου του FRA. Πρόκειται για θητεία δυόμισι ετών, σύμφωνα με το δημοσίευμα που επικαλείται ανακοίνωση του ευρωπαϊκού οργανισμού.",
+        "story_ids": [
+          "cyprus-konstantinidis-fra-chair-2026-10-25"
+        ]
+      }
+    ]
+  },
+  "follow_ups": [],
+  "created_at": "2026-10-25T12:12:18.859302+00:00",
+  "updated_at": "2026-10-25T12:12:18.859302+00:00",
+  "input_sha256": "dcb736f0c64928aa9b1807973bad7b2174b238db63a47b3ec13fba37be624db7"
+}
