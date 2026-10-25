@@ -76,3 +76,10 @@ This is a host clock for the existing private Python workflow, with no AI task o
 ## Quality within the same budget — DEC-026
 
 The digest now carries focused lead and Executive instructions, so existing one-read tasks receive the quality rules with each fresh pack. News selection uses explicit RSS categories and transparent priority hints; the model still checks geography and significance. Article downloads are capped at fourteen. Unicode/sentence-aware excerpts preserve more Greek evidence; repeated sports source references are deduplicated and non-priority UEFA lists compacted, with omission counts and full data retained in the private pack. All existing AI/search/output/carry limits remain unchanged. Maintained prompt files contain the same guidance. Their installation into live task settings is separate; a Windows security block prevented the previous UI helper from editing those settings during this run.
+
+
+## Production timer activated, 25 October
+
+The dedicated encrypted GITHUB_PREFETCH_TOKEN was verified by name only. A real scheduled event at 15:15:31 UTC exposed Cloudflare's unsupported redirect=error setting; the Worker now uses manual redirects and rejects every non-success status without following or disclosing the response body. Twelve control/timing/redirect tests passed. A subsequent real event at 15:20:31 UTC returned github_read_access_verified with collector_active=true and ai_calls=0.
+
+Production version 78454a71-a114-4b27-89dd-9ce3b30030fd was deployed with cron */5 3-5,9-11,15-17 * * *, no public route and no diagnostic variable. This keeps all three existing 07:30/13:30/19:30 Cyprus AI tasks unchanged and checks the preparation windows in Cyprus local time across DST. Next eligible evening check today is 18:20 local. The successful read check proves token authentication and private Contents/Actions read access; Actions write and a resulting fresh pack are only proven by an actual due dispatch and successful collector. Do not call that future observation completed.

@@ -1,10 +1,10 @@
-# Independent cloud prefetch backup — Worker uploaded, activation pending
+# Independent cloud prefetch backup — production timer active
 
 25 October 2026. The GitHub timer created no collector runs in today's 12:22–13:07 Cyprus window. Its workflow is active on main and its actor is active. The exact reason GitHub omitted those events is not exposed. The Python-only manual recovery [40190745480](https://github.com/JoDemon9/Claude-Briefing-Private/actions/runs/40190745480) passed and saved a ready Midday pack at 13:53:48 Cyprus time, valid until 15:23:48.
 
 This optional Cloudflare Worker supplies an independent clock. It does not create an AI automation, change the three ChatGPT schedules, or gather briefing data. It checks the private committed digest/files and dispatches the existing private Python workflow only when needed. Existing GitHub cron remains a first path. GitHub runner/API availability is still required; no provider is an absolute delivery guarantee.
 
-The user created a Cloudflare account and approved restricted Wrangler authorization on 25 October. Worker version 6aeca0c4-1d12-40df-863f-3227a9cc4dbd was uploaded at 12:18:25 UTC with no cron triggers or public route. Eleven control/timing tests passed; the provider accepted the 6.06 KiB bundle with a 1 ms startup. The dedicated GitHub secret, activation and actual scheduled validation are still pending. No credentials are included here or copied from the user's existing Git/Actions tokens.
+The user created a Cloudflare account and approved restricted Wrangler authorization on 25 October. Worker version 6aeca0c4-1d12-40df-863f-3227a9cc4dbd was uploaded at 12:18:25 UTC with no cron triggers or public route. Eleven control/timing tests passed; the provider accepted the 6.06 KiB bundle with a 1 ms startup. That was the initial staging state; see the production activation evidence below. No credentials are included here or copied from the user's existing Git/Actions tokens.
 
 ## Behavior
 
@@ -42,3 +42,10 @@ node --test worker.test.mjs
 ```
 
 Primary references: [GitHub timer limitations](https://docs.github.com/en/actions/how-tos/troubleshoot-workflows#scheduled-workflows-running-at-unexpected-times), [workflow dispatch permissions](https://docs.github.com/en/rest/actions/workflows#create-a-workflow-dispatch-event), [Cloudflare Cron Triggers](https://developers.cloudflare.com/workers/configuration/cron-triggers/), [Workers pricing and limits](https://developers.cloudflare.com/workers/platform/pricing/).
+
+
+## Production timer activated, 25 October
+
+The dedicated encrypted GITHUB_PREFETCH_TOKEN was verified by name only. A real scheduled event at 15:15:31 UTC exposed Cloudflare's unsupported redirect=error setting; the Worker now uses manual redirects and rejects every non-success status without following or disclosing the response body. Twelve control/timing/redirect tests passed. A subsequent real event at 15:20:31 UTC returned github_read_access_verified with collector_active=true and ai_calls=0.
+
+Production version 78454a71-a114-4b27-89dd-9ce3b30030fd was deployed with cron */5 3-5,9-11,15-17 * * *, no public route and no diagnostic variable. This keeps all three existing 07:30/13:30/19:30 Cyprus AI tasks unchanged and checks the preparation windows in Cyprus local time across DST. Next eligible evening check today is 18:20 local. The successful read check proves token authentication and private Contents/Actions read access; Actions write and a resulting fresh pack are only proven by an actual due dispatch and successful collector. Do not call that future observation completed.
