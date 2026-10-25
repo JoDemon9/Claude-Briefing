@@ -1,9 +1,9 @@
-# Reference template for the deployed private workflow; copying it does not activate a schedule.
+# Reference template for the deployed private workflow. Also copy private-prefetch-window.py.example to private .github/prefetch_window.py.
 name: Prepare private synthesis pack (Python only)
 on:
   schedule:
-    # Three Athens pre-runs at :10; unused DST hour is skipped by Python.
-    - cron: '10 4,5,10,11,16,17 * * *'
+    # Four preparation attempts per edition; Python selects Athens time across DST.
+    - cron: '7,22,37,52 3-5,9-11,15-17 * * *'
   workflow_dispatch:
     inputs:
       slot:
@@ -24,22 +24,32 @@ jobs:
       - uses: actions/checkout@v4
         with:
           path: private
+      - name: Select the preparation window before expensive work
+        id: window
+        env:
+          EVENT: ${{ github.event_name }}
+          SLOT: ${{ inputs.slot }}
+        run: python private/.github/prefetch_window.py --event "$EVENT" --slot "$SLOT" --github-output "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
+        if: steps.window.outputs.slot != ''
         with:
           repository: JoDemon9/Claude-Briefing
           ref: main
           path: source
           persist-credentials: false
       - uses: actions/checkout@v4
+        if: steps.window.outputs.slot != ''
         with:
           repository: JoDemon9/oracle-briefing
           ref: main
           path: portal
           persist-credentials: false
       - uses: actions/setup-python@v5
+        if: steps.window.outputs.slot != ''
         with:
           python-version: '3.12'
       - name: Verify submission credential without changing any refs
+        if: steps.window.outputs.slot != ''
         id: credential
         continue-on-error: true
         env:
@@ -58,7 +68,9 @@ jobs:
           print('PUBLIC_BRIEFING_TOKEN: Contents write preflight passed; no refs changed.')
           PY
       - run: pip install beautifulsoup4
+        if: steps.window.outputs.slot != ''
       - uses: actions/cache@v4
+        if: steps.window.outputs.slot != ''
         with:
           path: |
             private/research/source-cache
@@ -66,17 +78,19 @@ jobs:
           key: prefetch-${{ github.run_id }}
           restore-keys: prefetch-
       - name: Collect without invoking AI
+        if: steps.window.outputs.slot != ''
         id: prepare
         env:
           EVENT: ${{ github.event_name }}
           SLOT: ${{ inputs.slot }}
           ORACLE_SUBMISSION_READY: ${{ steps.credential.outcome == 'success' }}
         run: |
-          if [ "$EVENT" = schedule ]; then
-            python source/scripts/v2/pre_run.py --root source --private-root private --wire-root portal --scheduled --github-output "$GITHUB_OUTPUT"
-          else
-            python source/scripts/v2/pre_run.py --root source --private-root private --wire-root portal --slot "$SLOT" --github-output "$GITHUB_OUTPUT"
+          PREP_SLOT="$(python private/.github/prefetch_window.py --event "$EVENT" --slot "$SLOT" --print-slot)"
+          if [ -z "$PREP_SLOT" ]; then
+            echo 'Preparation window closed during setup; no collection or AI invocation.'
+            exit 0
           fi
+          python source/scripts/v2/pre_run.py --root source --private-root private --wire-root portal --slot "$PREP_SLOT" --github-output "$GITHUB_OUTPUT"
       - name: Save only the private pack and digest
         if: steps.prepare.outputs.edition_id != ''
         working-directory: private

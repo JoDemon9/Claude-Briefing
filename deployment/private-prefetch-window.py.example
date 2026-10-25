@@ -1,0 +1,56 @@
+#!/usr/bin/env python3
+"""Private workflow clock. This host-only script never renders, collects or invokes AI."""
+import argparse
+from datetime import datetime, timedelta, timezone
+import json
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+ZONE = ZoneInfo('Europe/Athens')
+EDITIONS = {7: 'morning', 13: 'midday', 19: 'evening'}
+
+
+def scheduled_slot(at):
+    if at.tzinfo is None:
+        raise ValueError('An aware clock is required')
+    local = at.astimezone(ZONE)
+    for hour, slot in EDITIONS.items():
+        task_at = local.replace(hour=hour, minute=30, second=0, microsecond=0)
+        lead = task_at - local
+        # A pack lasts 90 minutes: keep at least 20 minutes after the AI starts.
+        # Stop new collectors ten minutes before the task; the job timeout is eight.
+        if timedelta(minutes=10) < lead <= timedelta(minutes=70):
+            return slot
+    return None
+
+
+def select_slot(event, requested, at):
+    if event == 'schedule':
+        return scheduled_slot(at)
+    if event != 'workflow_dispatch' or requested not in EDITIONS.values():
+        raise ValueError('Manual preparation requires a valid edition slot')
+    return requested
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--event', choices=('schedule', 'workflow_dispatch'), required=True)
+    parser.add_argument('--slot', default='')
+    parser.add_argument('--github-output', type=Path)
+    parser.add_argument('--print-slot', action='store_true')
+    args = parser.parse_args()
+    now = datetime.now(timezone.utc)
+    slot = select_slot(args.event, args.slot, now)
+    if args.github_output:
+        with args.github_output.open('a', encoding='utf-8') as stream:
+            stream.write('slot=' + (slot or '') + '\n')
+    if args.print_slot:
+        print(slot or '')
+    else:
+        print(json.dumps({'slot': slot, 'local_time': now.astimezone(ZONE).isoformat(),
+                          'status': 'eligible' if slot else 'outside_preparation_window',
+                          'ai_collection_calls': 0}))
+
+
+if __name__ == '__main__':
+    main()
