@@ -55,3 +55,12 @@ Official settings: [fine-grained PATs](https://docs.github.com/en/authentication
 ## Audit and validation
 
 `python scripts/v2/quota_audit.py` reconstructs saved full authoring payloads and counts reference tokens. It does not reconstruct actual searches/opens/retries/account quota. Legacy prompts had no finite ceiling. The old collector depended on previous Yahoo URLs, explicitly left manual quotes/weather and did not pull news article bodies. Sports.py rendered cards; sports_news.py collected headlines. Those were preparation aids, not a collection boundary before the AI. Run the new tests, maintenance build/browser/integrity gates and retain actual provider availability separately from successful parsing fixtures. A 90% reduction in collection work is the architecture target, not a measured reduction in the five-hour allowance.
+
+
+## 25 October: Midday timer delivery failure and manual recovery
+
+The four configured 12:22/12:37/12:52/13:07 Cyprus timer events produced no workflow runs. The workflow was active on default main; its latest scheduled run was 40179200485 at 11:05 local, before that window. No Python failure or rejected PAT was observed for Midday because Python never started. GitHub does not expose the internal reason for these absent events. Configured retry times and passing workflow CI are not proof of scheduled delivery.
+
+Manual Python-only recovery [40190745480](https://github.com/JoDemon9/Claude-Briefing-Private/actions/runs/40190745480) passed credential preflight and saved both Midday files in commit 2ec4ff703be63af32c99f3c0ca427162ffb858cc. Prepared at 2026-10-25T11:53:48.429092Z (13:53:48 Cyprus), valid until 15:23:48 local: 38/38 market rows, 10 feeds, 13 article fetches, 90 HTTP requests, zero AI collection calls, submission_ready=true. The pack seal and matching digest header were independently verified. This recovered preparation, not an editorial submission or publication.
+
+The user requires collection to stay fully in the cloud. An independent Cloudflare clock is prepared and locally tested (nine checks), but is NOT deployed: account setup/authorization and a dedicated private-repository Actions-write/Contents-read credential remain required. Existing GitHub retries and all three AI schedules/prompts remain unchanged. GitHub cron alone remains best-effort; do not report future delivery as fixed until actual scheduled events and fresh committed outputs are observed. Missing packs must still stop briefly without AI collection.
