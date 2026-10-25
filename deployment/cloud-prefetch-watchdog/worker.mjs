@@ -42,7 +42,7 @@ export function githubClient(token, fetcher = fetch) {
   if (!token) throw new Error('GITHUB_PREFETCH_TOKEN is not configured');
   return async (path, options = {}) => {
     const response = await fetcher(`https://api.github.com/repos/${REPO}${path}`, {
-      ...options, redirect: 'error', signal: AbortSignal.timeout(12000),
+      ...options, redirect: 'manual', signal: AbortSignal.timeout(12000),
       headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json',
         'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': 'Oracle-cloud-prefetch-watchdog',
         ...(options.body ? { 'Content-Type': 'application/json' } : {}) },

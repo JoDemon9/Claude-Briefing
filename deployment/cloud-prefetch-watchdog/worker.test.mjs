@@ -14,7 +14,7 @@ function mock(entries) {
     calls.push({ url, ...init });
     assert.equal(new URL(url).host, 'api.github.com');
     assert.equal(init.headers.Authorization, `Bearer ${token}`);
-    assert.equal(init.redirect, 'error');
+    assert.equal(init.redirect, 'manual');
     const next = entries.shift();
     assert.ok(next, 'Unexpected extra HTTP request');
     if (next.match) assert.match(url, next.match);
@@ -122,4 +122,15 @@ test('deployment diagnostic rejects a disabled collector', async () => {
   const api = mock([{ value: { type: 'file' } }, { value: { state: 'disabled_manually' } }]);
   await assert.rejects(verifyGithubReadAccess({ GITHUB_PREFETCH_TOKEN: token }, api.fetcher), /not active/);
   assert.equal(api.calls.length, 2);
+});
+
+test('Cloudflare-compatible manual redirects never follow a credential-bearing request', async () => {
+  let calls = 0;
+  const api = githubClient(token, async (url, init) => {
+    calls++;
+    assert.equal(init.redirect, 'manual');
+    return new Response('do not disclose this body', { status: 302, headers: { Location: 'https://other.example/' } });
+  });
+  await assert.rejects(api('/contents/README.md'), /GitHub GET failed: HTTP 302/);
+  assert.equal(calls, 1);
 });
