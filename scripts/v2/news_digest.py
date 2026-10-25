@@ -6,6 +6,7 @@ import importlib.util
 import json
 from pathlib import Path
 import re
+import unicodedata
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 from xml.etree import ElementTree as ET
 from bs4 import BeautifulSoup
@@ -17,6 +18,47 @@ def module(name):
 
 
 HTTP=module('prefetch_http')
+MAX_ARTICLE_REQUESTS=14
+
+
+def normalized(value):
+    return ''.join(c for c in unicodedata.normalize('NFD',value.casefold()) if not unicodedata.combining(c))
+
+
+def feed_section(item,feed):
+    """A Cyprus publisher can carry world news; explicit RSS categories take precedence."""
+    categories={normalized(e.text.strip()) for e in item if e.tag.rsplit('}',1)[-1]=='category' and e.text}
+    if categories & {normalized(c) for c in ('world','world news','world-news','international','διεθνη','κοσμος','europe','middle east')}:
+        return 'world'
+    if categories & {normalized(c) for c in ('cyprus','κυπρος')}:
+        return 'cyprus'
+    return feed['section']
+
+
+def priority(group,stories):
+    """Transparent discovery hints, never a claim of importance, independence or identity."""
+    title=normalized(group[0]['title'])
+    tokens=words(title)
+    reasons=[]
+    score=0
+    if any(len(tokens & words(normalized(s.get('headline',''))))>=3 and
+           len(tokens & words(normalized(s.get('headline',''))))/max(1,len(tokens | words(normalized(s.get('headline','')))))>=.30 for s in stories):
+        score+=4;reasons.append('possible_baseline_followup')
+    if re.search(r'\b(?:elect|runoff|ceasefire|missile|strike|war|inflation|interest rate|budget|court|sanction|energy|evacuat|flood|earthquake|εκλογ|πολεμ|πυραυλ|εκεχειρ|πληθωρισ|επιτοκι|προυπολογ|δικαστ|κυρωσ|ενεργεια|πλημμυρ|σεισμ)\w*',title):
+        score+=3;reasons.append('policy_security_economy')
+    if re.search(r'\b(?:omonoia|ομονοια|manchester united|man utd|real madrid|ρεαλ|formula 1|formula one|f1|grand prix|gp|uefa)\b',title):
+        score+=2;reasons.append('priority_sport')
+    if len({i['publisher'] for i in group})>1:
+        score+=1;reasons.append('multiple_publishers_not_yet_independent')
+    return score,reasons
+
+
+def excerpt(text,limit):
+    """Unicode characters, preferably complete sentences; no Greek byte penalty."""
+    if len(text)<=limit:return text
+    bounded=text[:limit]
+    stops=[m.end() for m in re.finditer(r'[.!;?·](?:\s|$)',bounded)]
+    return bounded[:stops[-1]].rstrip() if stops and stops[-1]>=limit*.65 else bounded.rsplit(' ',1)[0]+'…'
 
 
 def canonical(url):
@@ -63,7 +105,7 @@ def feed_items(row,feed,at):
         title=clean(field(('title',)))[:240]
         if len(title)<12:
             continue
-        items.append(dict(title=title,url=canonical(link),published_at=published,section=feed['section'],publisher=feed['publisher'],
+        items.append(dict(title=title,url=canonical(link),published_at=published,section=feed_section(item,feed),publisher=feed['publisher'],
                           feed_excerpt=clean(field(('description','summary','encoded')))[:700],feed_retrieved_at=row['retrieved_at']))
     return items[:30]
 
@@ -115,7 +157,7 @@ def evidence(item,row):
             group=wire
     src=HTTP.source(item['publisher'],row['url'],row['retrieved_at'],published,kind='reporting')
     src['reporting_group']=group
-    result.update(access='article_excerpt',excerpt=text[:1600],excerpt_truncated=len(text)>1600,
+    result.update(access='article_excerpt',excerpt=excerpt(text,3200),excerpt_truncated=len(text)>3200,
                   source=src,published_at=published,modified_at=modified_at,
                   content_sha256=hashlib.sha256(text.encode()).hexdigest())
     return result
@@ -136,18 +178,16 @@ def collect(root,packet,client,at,private_folder):
     for item in sorted(items,key=lambda i:(i.get('published_at') or '',i['url']),reverse=True):
         unique.setdefault(item['url'],item)
     groups=cluster(list(unique.values()))
+    groups.sort(key=lambda g:(priority(g,packet.get('stories',[]))[0],g[0].get('published_at') or '',g[0]['url']),reverse=True)
     # Independent desk quotas bound selection before article downloads, not after model browsing.
     selected=[]
     for desk,limit in [('cyprus',5),('world',6),('sports',2)]:
         selected.extend([g for g in groups if g[0]['section']==desk][:limit])
-    chosen=[]
+    # Reserve one article per cluster before spending the remaining request on corroboration.
+    chosen=[group[0] for group in selected][:MAX_ARTICLE_REQUESTS]
     for group in selected:
-        publishers=set()
-        for item in group:
-            if item['publisher'] not in publishers:
-                chosen.append(item);publishers.add(item['publisher'])
-            if len(publishers)==2:
-                break
+        extra=next((i for i in group[1:] if i['publisher']!=group[0]['publisher']),None)
+        if extra and len(chosen)<MAX_ARTICLE_REQUESTS:chosen.append(extra)
     pages=client.many(item['url'] for item in chosen)
     seen_path=Path(private_folder)/'news-state.json'
     try:
@@ -173,6 +213,7 @@ def collect(root,packet,client,at,private_folder):
     clustered=[]
     for i,group in enumerate(cluster(candidates),1):
         clustered.append(dict(id='c'+str(i),section=group[0]['section'],title=group[0]['title'],
+                              priority_hint=priority(group,packet.get('stories',[]))[1],
                               evidence=group,baseline_matches=[s['story_id'] for s in packet.get('stories',[]) if any(canonical(src['url']) in {e['url'] for e in group} for src in s['sources'])]))
     return dict(candidates=clustered,metrics=dict(feed_requests=len(feeds),feed_items=len(items),unique_urls=len(unique),
         article_requests=len(pages),unchanged_baseline_urls=len(unchanged),clusters=len(clustered)),

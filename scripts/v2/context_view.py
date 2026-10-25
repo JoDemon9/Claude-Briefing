@@ -3,6 +3,7 @@
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 
 MAX_BYTES=12000
@@ -11,11 +12,20 @@ MAX_BYTES=12000
 def synthesis(pack,max_bytes=48000):
     """One bounded model input. No paging/research loop in the scheduled task."""
     def short(value,limit):
-        return str(value).encode('utf-8')[:limit].decode('utf-8',errors='ignore')
+        value=str(value)
+        if len(value)<=limit:return value
+        bounded=value[:limit]
+        stops=[m.end() for m in re.finditer(r'[.!;?·](?:\s|$)',bounded)]
+        return bounded[:stops[-1]].rstrip() if stops and stops[-1]>=limit*.65 else bounded.rsplit(' ',1)[0]+'…'
+    routine_sources={}
+    def source_ref(source):
+        key=(source['url'],source.get('retrieved_at'))
+        if key not in routine_sources:routine_sources[key]='r'+str(len(routine_sources)+1)
+        return routine_sources[key]
     def compact(value):
         if isinstance(value,list):return [compact(v) for v in value]
         if isinstance(value,dict):
-            return {k:([{'url':s['url'],'retrieved_at':s.get('retrieved_at')} for s in v] if k=='sources' else compact(v)) for k,v in value.items()}
+            return {k:([source_ref(s) for s in v] if k=='sources' else compact(v)) for k,v in value.items()}
         return value
     baseline=pack.get('baseline')
     ref=baseline['edition_id']+'@'+baseline['fingerprint'] if baseline else 'none'
@@ -29,12 +39,15 @@ def synthesis(pack,max_bytes=48000):
         'Grammar: @Executive axis=geopolitics_macro|cyprus_institutions|markets_tech stories=id1,id2 | Greek synthesis (choose one axis).',
         '## world|cyprus|sports (choose one); ### slug | story=stable-id identity=stable-id status=NEW|UPDATED|REVERSAL|CORRECTION lead=true|false [interest=omonoia|manutd|realmadrid|formula1|other]',
         '@Headline Greek; @Fact two factual sentences [e1]; @Evidence e1,e2; @Delta the material change; @Tags comma-separated-ascii.',
-        'Only desk leads/major movers: @AnalysisSources e1,e2; @Mechanism text; @Effects text; @Scenarios base="text" alternative="text" tail="text"; @Watch text.',
+        'For each desk lead/major mover: @AnalysisSources e1,e2; @Mechanism causal chain; @Effects who is affected/how; @Scenarios base="conditional path" alternative="what would change it" (tail optional); @Watch observable test. Explain uncertainty instead of inventing a scenario.',
         'A new web source uses @Source s1 | publisher="..." url=https://... published=null retrieved=<actual ISO> group="..." kind=reporting access=read claims=true. Unknown publication is null.',
         'After articles: one @CarryOver id=story-id per selected unchanged baseline record. No routine tables, typed blocks, full readers or photo research.',
+        'Editorial focus within the existing task caps: choose consequence and material change over newest/easiest headlines; verify geography. Prefer two important, well-supported deltas to four thin updates. Put analytical leads first within each desk. Aim for 120–170 Greek words per analytical lead across fact, delta, mechanism, effects and watch: what changed, causal chain/incentive, who is affected/how, and an observable next test. State uncertainty; scenarios are conditional, never invented. A routine item can remain a two-sentence dispatch.',
+        'Executive: 1–3 points, ideally 90–120 words total, connecting concrete developments to practical implications and a next test. Use baseline findings as dated context only. Avoid headline repetition and invented links between unrelated stories. Use the existing single factual review to check substance, support, novelty, geography and token budget; no extra turn or research loop.',
         '\n## Baseline records (historical context, no new verification)']
     for story in pack.get('baseline_stories',[]):
-        lines.append(json.dumps(story,ensure_ascii=False,separators=(',',':')))
+        view={**story,'finding':short(story.get('finding',''),480)}
+        lines.append(json.dumps(view,ensure_ascii=False,separators=(',',':')))
     lines.append('\n## Python market table: instrument | value | change_pct | quoted_at | status')
     for q in pack['data']['markets']:
         lines.append(' | '.join(str(q.get(k)) for k in ('instrument','value','change_pct','quoted_at','status')))
@@ -46,8 +59,17 @@ def synthesis(pack,max_bytes=48000):
         view={k:card.get(k) for k in ('last_match','next_fixture','league_position','standings_season','standings_status','just_played','latest_session','standings','next_grand_prix','sessions') if card.get(k) is not None}
         lines.append(key+': '+json.dumps(compact(view),ensure_ascii=False,separators=(',',':')))
     for key,comp in pack['data']['sports'].get('competitions',{}).items():
-        lines.append(key+': '+json.dumps(compact(comp),ensure_ascii=False,separators=(',',':')))
+        view=dict(comp)
+        for field in ('scores','fixtures'):
+            rows=comp.get(field,[])
+            selected=[row for i,row in enumerate(rows) if i<3 or any(team in row.get('name','').casefold() for team in ('omonoia','omonia','manchester united','real madrid'))]
+            view[field]=selected
+            if len(selected)<len(rows):view[field+'_omitted']=len(rows)-len(selected)
+        lines.append(key+': '+json.dumps(compact(view),ensure_ascii=False,separators=(',',':')))
+    lines.append('Routine source refs (provider provenance, not article @Evidence): '+json.dumps(
+        {alias:{'url':url,'retrieved_at':at} for (url,at),alias in routine_sources.items()},ensure_ascii=False,separators=(',',':')))
     lines.append('\n## Candidate excerpts (only @Evidence article_excerpt can support claims)')
+    lines.append('Priority hints are deterministic discovery aids, not editorial verdicts or story identity. Choose consequence over recency; verify geography. Excerpts are character-bounded, not full articles. Use a targeted search only for a decisive missing fact or an independent check.')
     # Interleave desks so the byte ceiling cannot silently eliminate Cyprus or world.
     queues=[[c for c in pack['candidates'] if c['section']==s] for s in ('cyprus','world','sports')]
     ordered=[]
@@ -55,10 +77,15 @@ def synthesis(pack,max_bytes=48000):
         for queue in queues:
             if queue:ordered.append(queue.pop(0))
     omitted=0
+    desk_seen=set()
     for candidate in ordered:
+        excerpt_limit=2400 if candidate['section'] not in desk_seen else 1600
+        desk_seen.add(candidate['section'])
         block=[json.dumps({k:v for k,v in candidate.items() if k!='evidence'},ensure_ascii=False,separators=(',',':'))]
         for evidence in candidate['evidence']:
-            block.append(json.dumps(dict(id=evidence['id'],access=evidence['access'],source=evidence.get('source'),url=evidence['url'],excerpt=short(evidence['excerpt'],1000),excerpt_scope='bounded excerpt, not the whole article'),ensure_ascii=False,separators=(',',':')))
+            view=dict(id=evidence['id'],access=evidence['access'],source=evidence.get('source'),excerpt=short(evidence['excerpt'],excerpt_limit),excerpt_scope='bounded excerpt, not the whole article')
+            if not evidence.get('source'):view['url']=evidence['url']
+            block.append(json.dumps(view,ensure_ascii=False,separators=(',',':')))
         proposed='\n'.join(lines+block)+'\n'
         if len(proposed.encode('utf-8'))>max_bytes-250:
             omitted+=1
