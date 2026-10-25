@@ -10,13 +10,18 @@
       "type": "midday",
       "url": "midday/2026-10-25.html",
       "published_at": "2026-10-25T12:11:14.029857+00:00"
+    },
+    {
+      "id": "2026-10-25-evening",
+      "type": "evening",
+      "url": "evening/2026-10-25.html",
+      "published_at": "2026-10-25T17:40:50.134162+00:00"
     }
   ],
   "missing_slots": [
-    "morning",
-    "evening"
+    "morning"
   ],
-  "lead_story_id": "france-cost-of-living-protests-security-2026-10-24",
+  "lead_story_id": "serbia-parliamentary-election-turnout-2026-10-25",
   "stories": [
     {
       "story_id": "france-cost-of-living-protests-security-2026-10-24",
@@ -28,13 +33,19 @@
           "article_id": "france-protests-outcome",
           "source_story_id": "france-cost-of-living-protests-security-2026-10-24",
           "url": "articles/2026-10-25-midday/france-protests-outcome.html"
+        },
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "france-protests-outcome",
+          "source_story_id": "france-cost-of-living-protests-security-2026-10-24",
+          "url": "articles/2026-10-25-evening/france-protests-outcome.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-25-midday",
+        "edition_id": "2026-10-25-evening",
         "article_id": "france-protests-outcome",
         "source_story_id": "france-cost-of-living-protests-security-2026-10-24",
-        "url": "articles/2026-10-25-midday/france-protests-outcome.html"
+        "url": "articles/2026-10-25-evening/france-protests-outcome.html"
       },
       "section": "world",
       "priority": 1
@@ -49,13 +60,40 @@
           "article_id": "lead",
           "source_story_id": "jordan-church-west-bank-attacks-2026-10-23",
           "url": "articles/2026-10-25-midday/lead.html"
+        },
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "lead",
+          "source_story_id": "jordan-church-west-bank-attacks-2026-10-23",
+          "url": "articles/2026-10-25-evening/lead.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-25-midday",
+        "edition_id": "2026-10-25-evening",
         "article_id": "lead",
         "source_story_id": "jordan-church-west-bank-attacks-2026-10-23",
-        "url": "articles/2026-10-25-midday/lead.html"
+        "url": "articles/2026-10-25-evening/lead.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "serbia-parliamentary-election-turnout-2026-10-25",
+      "first_seen_at": "2026-10-25T17:40:50.134162+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "serbia-election-turnout",
+          "source_story_id": "serbia-parliamentary-election-turnout-2026-10-25",
+          "url": "articles/2026-10-25-evening/serbia-election-turnout.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "serbia-election-turnout",
+        "source_story_id": "serbia-parliamentary-election-turnout-2026-10-25",
+        "url": "articles/2026-10-25-evening/serbia-election-turnout.html"
       },
       "section": "world",
       "priority": 1
@@ -70,15 +108,42 @@
           "article_id": "brazil-runoff-voting",
           "source_story_id": "brazil-presidential-runoff-voting-2026-10-25",
           "url": "articles/2026-10-25-midday/brazil-runoff-voting.html"
+        },
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "brazil-runoff-voting",
+          "source_story_id": "brazil-presidential-runoff-voting-2026-10-25",
+          "url": "articles/2026-10-25-evening/brazil-runoff-voting.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-25-midday",
+        "edition_id": "2026-10-25-evening",
         "article_id": "brazil-runoff-voting",
         "source_story_id": "brazil-presidential-runoff-voting-2026-10-25",
-        "url": "articles/2026-10-25-midday/brazil-runoff-voting.html"
+        "url": "articles/2026-10-25-evening/brazil-runoff-voting.html"
       },
       "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "cyprus-fiscal-surplus-policy-space-2026-10-25",
+      "first_seen_at": "2026-10-25T17:40:50.134162+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "cyprus-fiscal-surplus",
+          "source_story_id": "cyprus-fiscal-surplus-policy-space-2026-10-25",
+          "url": "articles/2026-10-25-evening/cyprus-fiscal-surplus.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "cyprus-fiscal-surplus",
+        "source_story_id": "cyprus-fiscal-surplus-policy-space-2026-10-25",
+        "url": "articles/2026-10-25-evening/cyprus-fiscal-surplus.html"
+      },
+      "section": "cyprus",
       "priority": 2
     },
     {
@@ -91,13 +156,19 @@
           "article_id": "world-saudi",
           "source_story_id": "saudi-missile-interceptions-2026-10-24",
           "url": "articles/2026-10-25-midday/world-saudi.html"
+        },
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "world-saudi",
+          "source_story_id": "saudi-missile-interceptions-2026-10-24",
+          "url": "articles/2026-10-25-evening/world-saudi.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-25-midday",
+        "edition_id": "2026-10-25-evening",
         "article_id": "world-saudi",
         "source_story_id": "saudi-missile-interceptions-2026-10-24",
-        "url": "articles/2026-10-25-midday/world-saudi.html"
+        "url": "articles/2026-10-25-evening/world-saudi.html"
       },
       "section": "world",
       "priority": 2
@@ -112,15 +183,42 @@
           "article_id": "konstantinidis-fra-chair",
           "source_story_id": "cyprus-konstantinidis-fra-chair-2026-10-25",
           "url": "articles/2026-10-25-midday/konstantinidis-fra-chair.html"
+        },
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "konstantinidis-fra-chair",
+          "source_story_id": "cyprus-konstantinidis-fra-chair-2026-10-25",
+          "url": "articles/2026-10-25-evening/konstantinidis-fra-chair.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-25-midday",
+        "edition_id": "2026-10-25-evening",
         "article_id": "konstantinidis-fra-chair",
         "source_story_id": "cyprus-konstantinidis-fra-chair-2026-10-25",
-        "url": "articles/2026-10-25-midday/konstantinidis-fra-chair.html"
+        "url": "articles/2026-10-25-evening/konstantinidis-fra-chair.html"
       },
       "section": "cyprus",
+      "priority": 3
+    },
+    {
+      "story_id": "manutd-bournemouth-defeat-2026-10-25",
+      "first_seen_at": "2026-10-25T17:40:50.134162+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "manutd-bournemouth-defeat",
+          "source_story_id": "manutd-bournemouth-defeat-2026-10-25",
+          "url": "articles/2026-10-25-evening/manutd-bournemouth-defeat.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "manutd-bournemouth-defeat",
+        "source_story_id": "manutd-bournemouth-defeat-2026-10-25",
+        "url": "articles/2026-10-25-evening/manutd-bournemouth-defeat.html"
+      },
+      "section": "sports",
       "priority": 3
     },
     {
@@ -133,13 +231,19 @@
           "article_id": "world-ukraine",
           "source_story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
           "url": "articles/2026-10-25-midday/world-ukraine.html"
+        },
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "world-ukraine",
+          "source_story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+          "url": "articles/2026-10-25-evening/world-ukraine.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-25-midday",
+        "edition_id": "2026-10-25-evening",
         "article_id": "world-ukraine",
         "source_story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
-        "url": "articles/2026-10-25-midday/world-ukraine.html"
+        "url": "articles/2026-10-25-evening/world-ukraine.html"
       },
       "section": "world",
       "priority": 4
@@ -154,13 +258,19 @@
           "article_id": "world-us",
           "source_story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
           "url": "articles/2026-10-25-midday/world-us.html"
+        },
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "world-us",
+          "source_story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+          "url": "articles/2026-10-25-evening/world-us.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-25-midday",
+        "edition_id": "2026-10-25-evening",
         "article_id": "world-us",
         "source_story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
-        "url": "articles/2026-10-25-midday/world-us.html"
+        "url": "articles/2026-10-25-evening/world-us.html"
       },
       "section": "world",
       "priority": 5
@@ -175,13 +285,19 @@
           "article_id": "cyprus-inequality",
           "source_story_id": "cyprus-income-inequality-eurostat-2025",
           "url": "articles/2026-10-25-midday/cyprus-inequality.html"
+        },
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "cyprus-inequality",
+          "source_story_id": "cyprus-income-inequality-eurostat-2025",
+          "url": "articles/2026-10-25-evening/cyprus-inequality.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-25-midday",
+        "edition_id": "2026-10-25-evening",
         "article_id": "cyprus-inequality",
         "source_story_id": "cyprus-income-inequality-eurostat-2025",
-        "url": "articles/2026-10-25-midday/cyprus-inequality.html"
+        "url": "articles/2026-10-25-evening/cyprus-inequality.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -196,13 +312,19 @@
           "article_id": "cyprus-eunomia",
           "source_story_id": "eunomia-7-2026-exercise-completed",
           "url": "articles/2026-10-25-midday/cyprus-eunomia.html"
+        },
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "cyprus-eunomia",
+          "source_story_id": "eunomia-7-2026-exercise-completed",
+          "url": "articles/2026-10-25-evening/cyprus-eunomia.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-25-midday",
+        "edition_id": "2026-10-25-evening",
         "article_id": "cyprus-eunomia",
         "source_story_id": "eunomia-7-2026-exercise-completed",
-        "url": "articles/2026-10-25-midday/cyprus-eunomia.html"
+        "url": "articles/2026-10-25-evening/cyprus-eunomia.html"
       },
       "section": "cyprus",
       "priority": 7
@@ -217,13 +339,19 @@
           "article_id": "cyprus-waste",
           "source_story_id": "cyprus-eu-court-waste-referral-2026-10-01",
           "url": "articles/2026-10-25-midday/cyprus-waste.html"
+        },
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "cyprus-waste",
+          "source_story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+          "url": "articles/2026-10-25-evening/cyprus-waste.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-25-midday",
+        "edition_id": "2026-10-25-evening",
         "article_id": "cyprus-waste",
         "source_story_id": "cyprus-eu-court-waste-referral-2026-10-01",
-        "url": "articles/2026-10-25-midday/cyprus-waste.html"
+        "url": "articles/2026-10-25-evening/cyprus-waste.html"
       },
       "section": "cyprus",
       "priority": 8
@@ -238,13 +366,19 @@
           "article_id": "cyprus-missing",
           "source_story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
           "url": "articles/2026-10-25-midday/cyprus-missing.html"
+        },
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "cyprus-missing",
+          "source_story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+          "url": "articles/2026-10-25-evening/cyprus-missing.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-25-midday",
+        "edition_id": "2026-10-25-evening",
         "article_id": "cyprus-missing",
         "source_story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
-        "url": "articles/2026-10-25-midday/cyprus-missing.html"
+        "url": "articles/2026-10-25-evening/cyprus-missing.html"
       },
       "section": "cyprus",
       "priority": 9
@@ -259,13 +393,19 @@
           "article_id": "cyprus-larnaca",
           "source_story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
           "url": "articles/2026-10-25-midday/cyprus-larnaca.html"
+        },
+        {
+          "edition_id": "2026-10-25-evening",
+          "article_id": "cyprus-larnaca",
+          "source_story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+          "url": "articles/2026-10-25-evening/cyprus-larnaca.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-25-midday",
+        "edition_id": "2026-10-25-evening",
         "article_id": "cyprus-larnaca",
         "source_story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
-        "url": "articles/2026-10-25-midday/cyprus-larnaca.html"
+        "url": "articles/2026-10-25-evening/cyprus-larnaca.html"
       },
       "section": "cyprus",
       "priority": 10
@@ -438,6 +578,216 @@
         "article_id": "cyprus-eunomia",
         "source_story_id": "eunomia-7-2026-exercise-completed",
         "url": "articles/2026-10-25-midday/cyprus-eunomia.html"
+      }
+    },
+    {
+      "id": "03613928b140911cb5cb15088c3a4b66763dee0d92e74bc67655d6981e13ff66",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-fiscal-surplus-policy-space-2026-10-25",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "cyprus-fiscal-surplus",
+        "source_story_id": "cyprus-fiscal-surplus-policy-space-2026-10-25",
+        "url": "articles/2026-10-25-evening/cyprus-fiscal-surplus.html"
+      }
+    },
+    {
+      "id": "03f4e29b30f48f8ef0baf2d78dea0feacb7b228ea47f757cd443ef5348722ad8",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "manutd-bournemouth-defeat-2026-10-25",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "manutd-bournemouth-defeat",
+        "source_story_id": "manutd-bournemouth-defeat-2026-10-25",
+        "url": "articles/2026-10-25-evening/manutd-bournemouth-defeat.html"
+      }
+    },
+    {
+      "id": "0f9621e10ce47535237fa8186b7ce03b27d454028ef59a64896b74fd041cc1ae",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "cyprus-missing",
+        "source_story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+        "url": "articles/2026-10-25-evening/cyprus-missing.html"
+      }
+    },
+    {
+      "id": "48ce10cab1a040389ed8e8c9d7a002893ad821f4a255a1064acda62b912385a5",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "serbia-parliamentary-election-turnout-2026-10-25",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "serbia-election-turnout",
+        "source_story_id": "serbia-parliamentary-election-turnout-2026-10-25",
+        "url": "articles/2026-10-25-evening/serbia-election-turnout.html"
+      }
+    },
+    {
+      "id": "534406bbc168f0ee4fc9a704e5c95c7e57e784298d9e64715ea97f63f5453ac0",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-konstantinidis-fra-chair-2026-10-25",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "konstantinidis-fra-chair",
+        "source_story_id": "cyprus-konstantinidis-fra-chair-2026-10-25",
+        "url": "articles/2026-10-25-evening/konstantinidis-fra-chair.html"
+      }
+    },
+    {
+      "id": "54a5a6950dabc25501666b8f92515668182bb22ed86a73fc82bf296de7cfd3f7",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "eunomia-7-2026-exercise-completed",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "cyprus-eunomia",
+        "source_story_id": "eunomia-7-2026-exercise-completed",
+        "url": "articles/2026-10-25-evening/cyprus-eunomia.html"
+      }
+    },
+    {
+      "id": "5a503456981b1247c34f03de0ef7f84610b24aa0d10e807f6b18785bbae4cb24",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-income-inequality-eurostat-2025",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "cyprus-inequality",
+        "source_story_id": "cyprus-income-inequality-eurostat-2025",
+        "url": "articles/2026-10-25-evening/cyprus-inequality.html"
+      }
+    },
+    {
+      "id": "5b8a393a11d59f823dc35044c1f2b7f9b83a38c70f548208f66a283a167acf61",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "saudi-missile-interceptions-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "world-saudi",
+        "source_story_id": "saudi-missile-interceptions-2026-10-24",
+        "url": "articles/2026-10-25-evening/world-saudi.html"
+      }
+    },
+    {
+      "id": "9cee661aa922505e7b1999c9f4c2d7ef8d7cdb4551c9218c021acbb84dcb6f70",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "france-cost-of-living-protests-security-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "france-protests-outcome",
+        "source_story_id": "france-cost-of-living-protests-security-2026-10-24",
+        "url": "articles/2026-10-25-evening/france-protests-outcome.html"
+      }
+    },
+    {
+      "id": "9d92a752a859f66be3f5ac31ce655f0033babc4b872e34ca4956f789cb912aea",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "cyprus-larnaca",
+        "source_story_id": "larnaca-marina-law-amendment-proposal-2026-10-26",
+        "url": "articles/2026-10-25-evening/cyprus-larnaca.html"
+      }
+    },
+    {
+      "id": "a925594fb8139bd04619edb159f5b7e05d863ccf5164f8629b70ec999c273115",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "world-us",
+        "source_story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+        "url": "articles/2026-10-25-evening/world-us.html"
+      }
+    },
+    {
+      "id": "bd37305662fe061f2b12d9132b1b6452356db1333cc096d5d65a49934c6558ef",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "brazil-presidential-runoff-voting-2026-10-25",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "brazil-runoff-voting",
+        "source_story_id": "brazil-presidential-runoff-voting-2026-10-25",
+        "url": "articles/2026-10-25-evening/brazil-runoff-voting.html"
+      }
+    },
+    {
+      "id": "dfe8edc544b070b85c78136c852a193de3301270a124afdaeec8be1486bdcbfd",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "jordan-church-west-bank-attacks-2026-10-23",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "lead",
+        "source_story_id": "jordan-church-west-bank-attacks-2026-10-23",
+        "url": "articles/2026-10-25-evening/lead.html"
+      }
+    },
+    {
+      "id": "e5966cd807ec9e8940327785282b3226a1e3c24bbfe43d21be09e34ccd75e11a",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "cyprus-waste",
+        "source_story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+        "url": "articles/2026-10-25-evening/cyprus-waste.html"
+      }
+    },
+    {
+      "id": "eadff33b146ffb82e38e0ac28ee4946c04fef312d006de712962bc728140a4e9",
+      "kind": "provenance",
+      "at": "2026-10-25T17:40:50.134162+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+      "origin": {
+        "edition_id": "2026-10-25-evening",
+        "article_id": "world-ukraine",
+        "source_story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
+        "url": "articles/2026-10-25-evening/world-ukraine.html"
       }
     }
   ],
@@ -644,22 +994,21 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Στη Γαλλία υπάρχουν πλέον στοιχεία για τις συνέπειες των σαββατιάτικων διαδηλώσεων: το υπουργείο Εσωτερικών ανακοίνωσε 1.314 συλλήψεις. Στη Βραζιλία άνοιξαν οι κάλπες για τον δεύτερο γύρο μεταξύ Λούλα και Φλάβιο Μπολσονάρου· η ενημέρωση αφορά την έναρξη της ψηφοφορίας, όχι αποτέλεσμα.",
+        "text": "Η υψηλή συμμετοχή στη Σερβία μετέτρεψε την εκλογική ημέρα σε ουσιαστική δοκιμασία για τη μακρόχρονη κυριαρχία του SNS. Οι πρώτες ενδείξεις αποτελέσματος αναμένονται μετά το κλείσιμο των καλπών· έως τότε δεν τεκμηριώνεται νικητής.",
         "story_ids": [
-          "france-cost-of-living-protests-security-2026-10-24",
-          "brazil-presidential-runoff-voting-2026-10-25"
+          "serbia-parliamentary-election-turnout-2026-10-25"
         ]
       },
       {
-        "text": "Ο Αριστοτέλης Κωνσταντινίδης αναλαμβάνει την προεδρία του Διοικητικού Συμβουλίου του FRA. Πρόκειται για θητεία δυόμισι ετών, σύμφωνα με το δημοσίευμα που επικαλείται ανακοίνωση του ευρωπαϊκού οργανισμού.",
+        "text": "Τα δημοσιονομικά στοιχεία του 2025 δείχνουν πλεόνασμα και αυξημένα έσοδα, άρα διαθέσιμο χώρο πολιτικής. Η επίδραση στα νοικοκυριά εξαρτάται από τις αποφάσεις κατανομής και δεν προκύπτει αυτομάτως από το συνολικό πλεόνασμα.",
         "story_ids": [
-          "cyprus-konstantinidis-fra-chair-2026-10-25"
+          "cyprus-fiscal-surplus-policy-space-2026-10-25"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-10-25T12:12:18.859302+00:00",
-  "updated_at": "2026-10-25T12:12:18.859302+00:00",
-  "input_sha256": "dcb736f0c64928aa9b1807973bad7b2174b238db63a47b3ec13fba37be624db7"
+  "updated_at": "2026-10-25T17:41:33.998120+00:00",
+  "input_sha256": "5294082e91464190b2224ce1e1afa356e6437d62bdc0ce6101efa024cd25b772"
 }
