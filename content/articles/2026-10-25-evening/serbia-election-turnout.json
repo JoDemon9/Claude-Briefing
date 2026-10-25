@@ -1,0 +1,71 @@
+{
+  "analysis_sources": [
+    "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss",
+    "https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25/"
+  ],
+  "category": "Πρώτο θέμα",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "delta_update": "Η βραδινή εικόνα προσθέτει ισχυρή συμμετοχή της ημέρας, χωρίς ακόμη να προσθέτει εκλογικό αποτέλεσμα.",
+  "driver_tags": [
+    "serbia",
+    "election",
+    "governance"
+  ],
+  "edition_id": "2026-10-25-evening",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Σερβία: αυξημένη συμμετοχή στην κρίσιμη κοινοβουλευτική κάλπη",
+  "id": "serbia-election-turnout",
+  "image": null,
+  "image_unavailable_reason": "Δεν είναι διαθέσιμη ελεγμένη φωτογραφία για αυτό το άρθρο.",
+  "mechanics_and_incentives": "Η αυξημένη συμμετοχή διευρύνει το πραγματικό εκλογικό σώμα και μειώνει την αξία προβλέψεων που βασίζονταν σε χαμηλότερη κινητοποίηση. Δεν αποδεικνύει από μόνη της ποια πλευρά ωφελήθηκε.",
+  "published_at": "2026-10-25T17:40:50.134162+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "alternative_case": "Αν η διαφορά είναι οριακή ή υπάρξουν σοβαρές καταγγελίες για τη διαδικασία, η πολιτική αβεβαιότητα θα παραταθεί.",
+    "base_case": "Αν η υψηλή συμμετοχή συνοδευτεί από καθαρό αποτέλεσμα, η μετάβαση ή η ανανέωση εντολής θα έχει ισχυρότερη νομιμοποίηση.",
+    "watch_next": "Τα πρώτα αποτελέσματα και οι εκθέσεις των παρατηρητών μετά το κλείσιμο των καλπών."
+  },
+  "second_order_effects": "Η καταμέτρηση θα κρίνει αν το φοιτητικό ψηφοδέλτιο μπορεί να μετατρέψει τη διετή αντικυβερνητική κινητοποίηση σε κοινοβουλευτική αλλαγή ή αν το SNS διατηρεί την εξουσία.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Το BBC κατέγραψε συμμετοχή 46% έως τις 14:00, σχεδόν ένα εκατομμύριο περισσότερους ψηφοφόρους από το αντίστοιχο σημείο των εκλογών του 2023. Το Reuters είχε καταγράψει 27,3% έως τις 11:00, έναντι 15,1% το 2023, ενώ οι πρώτες ενδείξεις αποτελέσματος αναμένονται περίπου δύο ώρες μετά το κλείσιμο των καλπών στις 20:00. [e4,s1]"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-10-25T16:05:15+00:00",
+      "publisher": "BBC",
+      "reporting_group": "BBC",
+      "retrieved_at": "2026-10-25T16:20:50.266122+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-10-25T01:03:00+00:00",
+      "publisher": "Reuters",
+      "reporting_group": "Reuters",
+      "retrieved_at": "2026-10-25T17:31:22.624Z",
+      "url": "https://www.reuters.com/world/europe/serbia-votes-students-seek-unseat-vucic-snap-election-2026-10-25/",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "serbia-parliamentary-election-turnout-2026-10-25",
+  "story_identity": "serbia-parliamentary-election-turnout-2026-10-25",
+  "summary": "Το BBC κατέγραψε συμμετοχή 46% έως τις 14:00, σχεδόν ένα εκατομμύριο περισσότερους ψηφοφόρους από το αντίστοιχο σημείο των εκλογών του 2023. Το Reuters είχε καταγράψει 27,3% έως τις 11:00, έναντι 15,1% το 2023, ενώ οι πρώτες ενδείξεις αποτελέσματος αναμένονται περίπου δύο ώρες μετά το κλείσιμο των καλπών στις 20:00. [e4,s1]",
+  "updated_at": "2026-10-25T17:40:50.134162+00:00",
+  "url": "articles/2026-10-25-evening/serbia-election-turnout.html"
+}

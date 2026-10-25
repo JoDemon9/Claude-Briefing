@@ -1,0 +1,70 @@
+{
+  "analysis_sources": [
+    "https://www.reuters.com/world/middle-east/saudi-civil-defense-says-danger-passed-after-brief-alerts-mecca-jeddah-taif-2026-10-24/"
+  ],
+  "baseline_origin": {
+    "edition_id": "2026-10-25-midday",
+    "fingerprint": "efbb22b0219e57e3e393099be7d9bd733f6dd13d2cd5b0d1d1925e32c74a7094"
+  },
+  "category": "Διεθνή",
+  "change_status": "UNCHANGED",
+  "daily": {
+    "events": [],
+    "priority": 2,
+    "section": "world"
+  },
+  "edition_id": "2026-10-25-evening",
+  "evidence_note": "Οι ουσιώδεις προτάσεις ελέγχθηκαν στις αναφερόμενες αναγνώσιμες πηγές· αριθμοί, ημερομηνίες και επιφυλάξεις διατηρούνται.",
+  "headline": "Η Σαουδική Αραβία ανακοίνωσε αναχαίτιση δύο πυραύλων",
+  "id": "world-saudi",
+  "image": {
+    "alt": "Terminal 3 του King Khalid International Airport στο Ριάντ, 28/10/2008. Φωτογραφία αρχείου, πριν από τις επιθέσεις.",
+    "attribution": "DearEdward",
+    "caption": "Terminal 3 του King Khalid International Airport στο Ριάντ, 28/10/2008. Φωτογραφία αρχείου, πριν από τις επιθέσεις. Μείωση μεγέθους και μετατροπή σε WebP.",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Terminal_Architecture_%283003341245%29.jpg",
+    "retrieved_at": "2026-10-13T13:50:24+03:00",
+    "reuse_review": {
+      "relevance_and_archive_date_checked": true,
+      "reviewed_at": "2026-10-24T13:43:13+03:00",
+      "sha256": "af191ba5242af27e71193aa0393c1f1f9265720b9aa582b503ec4e012e0a4dbd",
+      "source_asset": "assets/editorial/2026-10-13-midday/world-2.webp"
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Terminal_Architecture_(3003341245).jpg",
+    "url": "assets/editorial/2026-10-24-midday/world-saudi.webp"
+  },
+  "newspaper_analysis": [
+    "Η ανακοίνωση δείχνει ότι ο κίνδυνος επεκτείνεται πέρα από τα σύνορα της Υεμένης προς κατοικημένα και ενεργειακά κέντρα. Απαιτείται χωριστή επιβεβαίωση για κάθε δηλωμένο στόχο· η αναχαίτιση δεν αποδεικνύει πλήγμα ούτε ζημιά."
+  ],
+  "published_at": "2026-10-24T13:43:13+03:00",
+  "reader_mode": "source",
+  "reader_value": "Η πρωτότυπη πηγή διατηρεί το πλήρες ρεπορτάζ, τις αποδόσεις και τα συμφραζόμενα.",
+  "related_story_ids": [],
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Ο υπό σαουδαραβική ηγεσία συνασπισμός ανακοίνωσε ότι κατέστρεψε δύο βαλλιστικούς πυραύλους των Χούθι που, σύμφωνα με τον ίδιο, κατευθύνονταν προς την Ταΐφ και τη βιομηχανική πόλη Γιανμπού. Προηγήθηκαν σύντομες ειδοποιήσεις πολιτικής άμυνας σε Μέκκα, Τζέντα και Ταΐφ. Οι αρχές δεν είχαν επιβεβαιώσει χωριστούς ισχυρισμούς για επιθέσεις στο Ριάντ και στη Γιανμπού."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-10-24T11:34:00+03:00",
+      "publisher": "Reuters",
+      "reporting_group": "Reuters",
+      "retrieved_at": "2026-10-24T13:32:00+03:00",
+      "url": "https://www.reuters.com/world/middle-east/saudi-civil-defense-says-danger-passed-after-brief-alerts-mecca-jeddah-taif-2026-10-24/",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "saudi-missile-interceptions-2026-10-24",
+  "story_identity": "saudi-missile-interceptions-2026-10-24",
+  "summary": "Ο υπό σαουδαραβική ηγεσία συνασπισμός ανακοίνωσε ότι κατέστρεψε δύο βαλλιστικούς πυραύλους των Χούθι που, σύμφωνα με τον ίδιο, κατευθύνονταν προς την Ταΐφ και τη βιομηχανική πόλη Γιανμπού. Προηγήθηκαν σύντομες ειδοποιήσεις πολιτικής άμυνας σε Μέκκα, Τζέντα και Ταΐφ. Οι αρχές δεν είχαν επιβεβαιώσει χωριστούς ισχυρισμούς για επιθέσεις στο Ριάντ και στη Γιανμπού.",
+  "updated_at": "2026-10-24T13:43:13+03:00",
+  "url": "articles/2026-10-25-evening/world-saudi.html"
+}
