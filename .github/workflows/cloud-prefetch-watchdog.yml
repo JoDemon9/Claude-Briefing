@@ -1,0 +1,19 @@
+name: Cloud prefetch watchdog checks
+on:
+  pull_request:
+    paths: ['deployment/cloud-prefetch-watchdog/**', '.github/workflows/cloud-prefetch-watchdog.yml']
+  push:
+    branches: [main]
+    paths: ['deployment/cloud-prefetch-watchdog/**', '.github/workflows/cloud-prefetch-watchdog.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node --test deployment/cloud-prefetch-watchdog/worker.test.mjs
