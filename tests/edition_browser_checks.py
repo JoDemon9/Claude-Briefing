@@ -84,7 +84,8 @@ def run(root,edition_ids=(),output=None):
                     response=page.goto(urljoin(base,relative),wait_until='load')
                     assert response and response.status==200,relative
                     assert page.locator('main').is_visible(),relative
-                    assert page.locator('.hero h2').inner_text()==lead['headline'],relative
+                    # Legacy full reports can contain further h2 headings inside the lead.
+                    assert page.locator('.hero h2').first.inner_text()==lead['headline'],relative
                     findings=page.locator('.hero .story-findings')
                     if findings.count():
                         initially_open=bool(page.locator('html[data-intelligence="1"]').count())

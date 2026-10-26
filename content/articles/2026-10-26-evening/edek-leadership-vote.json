@@ -2,7 +2,7 @@
   "analysis_sources": [],
   "baseline_origin": {
     "edition_id": "2026-10-26-midday",
-    "fingerprint": "3feccc46139366e452e5b1da0f32b6016541cfc18aa4c6547b72765fd2c043bf"
+    "fingerprint": "0bbb235fddaa3a637703f0624461f0417b2340d54e846769a21bc38c96a562d5"
   },
   "category": "Κύπρος",
   "change_status": "UNCHANGED",
@@ -20,8 +20,23 @@
   "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
   "headline": "ΕΔΕΚ: συνέδριο στις 12 Δεκεμβρίου και εκλογές ηγεσίας στις 13",
   "id": "edek-leadership-vote",
-  "image": null,
-  "image_unavailable_reason": "Δεν είναι διαθέσιμη ελεγμένη φωτογραφία για αυτό το άρθρο.",
+  "image": {
+    "url": "assets/editorial/2026-10-26-morning/edek-leadership-vote.webp",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Cyprus_House_of_Representantives_Nicosia_Republic_of_Cyprus.jpg",
+    "alt": "Η Βουλή των Αντιπροσώπων στη Λευκωσία, 9 Μαΐου 2014",
+    "caption": "Φωτογραφία αρχείου · Η Βουλή των Αντιπροσώπων στη Λευκωσία, 9 Μαΐου 2014. Θεματικό φωτογραφικό πλαίσιο.",
+    "attribution": "NicosiaRepublicCyprus",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cyprus_House_of_Representantives_Nicosia_Republic_of_Cyprus.jpg",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "retrieved_at": "2026-10-13T15:54:24+03:00",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-13-morning/cyprus-1.webp",
+      "sha256": "9fa19bf42d3a22ff0e686d863366cb910aba144aca296b2fba55c94437ac34b3",
+      "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
   "published_at": "2026-10-26T05:31:55.356033+00:00",
   "reader_mode": "source",
   "related_story_ids": [],

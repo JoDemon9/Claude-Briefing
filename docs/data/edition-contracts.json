@@ -154,40 +154,41 @@
   "2026-10-25-evening": {
     "contract": {
       "producer_protocol": "oracle-briefing/3",
-      "content_schema_sha256": "8f8e4ba32bb76116d35f8ea09c328053c8e038838f8ad1aca1a4b8db3b1bc7dc"
+      "content_schema_sha256": "a234cd1e6708f5d559a865c2e33ce5e6ee0a74ae0f8799ad3c93cecb07c4f896"
     },
-    "source_sha256": "920deceb2b14b4ced5022edc9ed7ef69573726abc9affe8da9f159ccd5be9456",
-    "reporting_sha256": "89d914eb42c3f6ba8935f74b8805f7f69203a3503ce0c161ecddde771a5d4a66"
+    "source_sha256": "9d7d4d7e1ff9e41e3affc54c87c1fc10beb71d43886ba171fb17c7a301c47099",
+    "reporting_sha256": "ea5f3ff8cc5952f9f6b899cd00345a1ae5617271ac577fc91540c98938edae13"
   },
   "2026-10-25-midday": {
     "contract": {
       "producer_protocol": "oracle-briefing/3",
-      "content_schema_sha256": "8f8e4ba32bb76116d35f8ea09c328053c8e038838f8ad1aca1a4b8db3b1bc7dc"
+      "content_schema_sha256": "a234cd1e6708f5d559a865c2e33ce5e6ee0a74ae0f8799ad3c93cecb07c4f896"
     },
-    "source_sha256": "e14551cdbd5c28909660ef04fed675faa70ab63ef65edadaed146d4edf82c70b",
-    "reporting_sha256": "51c7ed0d96d2ca8245b14feefd78baa8021fa2cdd2b1e248bf229b70b9e8699b"
+    "source_sha256": "e6ee9202b6aa3a8c3adeac3ea580b48b7574272aab4104555e4bb98854542719",
+    "reporting_sha256": "0af1a0ed21f18c268b647a08831c9c9550ec4238ee897e65860772a5e538b842"
   },
   "2026-10-26-evening": {
     "contract": {
-      "content_schema_sha256": "c62a74a18294a7911a19672cbc9d1e810b390c2cceebf2776180f464c4e639da",
-      "producer_protocol": "oracle-briefing/3"
+      "producer_protocol": "oracle-briefing/3",
+      "content_schema_sha256": "a234cd1e6708f5d559a865c2e33ce5e6ee0a74ae0f8799ad3c93cecb07c4f896"
     },
-    "source_sha256": "f9769bcdf727a2024b0bde5bbbb9fa4fffc810da0c9fbe83bab0adb44a345b52"
+    "source_sha256": "2772e6f3f53d9368d3ef4f098cc726fb2f00d6a636b7fc8b8d7f6428f2d38873",
+    "reporting_sha256": "beba716fc198437895588305333a8b857639a2a4356eed26f8d4e25762513de5"
   },
   "2026-10-26-midday": {
     "contract": {
       "producer_protocol": "oracle-briefing/3",
-      "content_schema_sha256": "8f8e4ba32bb76116d35f8ea09c328053c8e038838f8ad1aca1a4b8db3b1bc7dc"
+      "content_schema_sha256": "a234cd1e6708f5d559a865c2e33ce5e6ee0a74ae0f8799ad3c93cecb07c4f896"
     },
-    "source_sha256": "3f1bdfe0a8413ef60c255a3947d2a0eeadd6f9705a335788ab80be23fef58245",
-    "reporting_sha256": "63ec6ec38ce6062a43b50be20dc709aada26961373481b1ab788cbce2a72e23e"
+    "source_sha256": "0bbb235fddaa3a637703f0624461f0417b2340d54e846769a21bc38c96a562d5",
+    "reporting_sha256": "874cb80bff6ce64dd6da8c3c0da6532eda0a7328ac0aad5639477a36615ae1b3"
   },
   "2026-10-26-morning": {
     "contract": {
       "producer_protocol": "oracle-briefing/3",
-      "content_schema_sha256": "8f8e4ba32bb76116d35f8ea09c328053c8e038838f8ad1aca1a4b8db3b1bc7dc"
+      "content_schema_sha256": "a234cd1e6708f5d559a865c2e33ce5e6ee0a74ae0f8799ad3c93cecb07c4f896"
     },
-    "source_sha256": "9f2c7269896cb8d9d0c64eeea43b30646e312a613c3959cbff4f20dea2063def",
-    "reporting_sha256": "fce1d7e8a2cbfc809d3ef52de9718d1f1e86b6b2614d4fe7b5f11a03c57b6c0d"
+    "source_sha256": "da4eac18e729d781ee5a8172a8a575effcd93d1e351e240471e99c64b0e1b220",
+    "reporting_sha256": "e0e45481b8b3b8cb7677c19620838989827edc9670a2d2ea23af9fc17ffc71bd"
   }
 }
