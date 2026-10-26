@@ -267,6 +267,14 @@
       "fingerprint": "efbb22b0219e57e3e393099be7d9bd733f6dd13d2cd5b0d1d1925e32c74a7094"
     },
     {
+      "id": "2026-10-26-evening",
+      "date": "2026-10-26",
+      "type": "evening",
+      "published_at": "2026-10-26T17:38:01.196595+00:00",
+      "url": "evening/2026-10-26.html",
+      "fingerprint": "f9769bcdf727a2024b0bde5bbbb9fa4fffc810da0c9fbe83bab0adb44a345b52"
+    },
+    {
       "id": "2026-10-26-midday",
       "date": "2026-10-26",
       "type": "midday",
@@ -9244,6 +9252,284 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-24-midday/cyprus-larnaca.webp"
+    },
+    {
+      "story_id": "brazil-presidential-runoff-voting-2026-10-25",
+      "identity": "brazil-presidential-runoff-voting-2026-10-25",
+      "edition_id": "2026-10-26-evening",
+      "date": "2026-10-26",
+      "slot": "evening",
+      "published_at": "2026-10-25T12:11:14.029857+00:00",
+      "available_at": "2026-10-26T17:38:01.196595+00:00",
+      "headline": "Βραζιλία: το WhatsApp στην κινητοποίηση υπέρ Λούλα, χωρίς μέτρηση της εκλογικής του επίδρασης",
+      "finding": "Το BBC περιγράφει τη δημιουργία του καναλιού WhatsApp «Lula’s Army», υπό τον βουλευτή Αντρέ Ζανόνες, το οποίο έφθασε τους 10,8 εκατομμύρια ακολούθους και προέτρεπε υποστηρικτές να διαδίδουν βίντεο, hashtags και έτοιμα μηνύματα σε φίλους και οικογένεια. Σύμμαχοι του Λούλα πιστώνουν στην πρωτοβουλία συμβολή στην ανατροπή του πρώτου γύρου, αλλά το διαθέσιμο ρεπορτάζ δεν ποσοτικοποιεί πόσες ψήφους επηρέασε.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-26-evening/brazil-digital-mobilisation.json",
+      "reader_url": "articles/2026-10-26-evening/brazil-digital-mobilisation.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cwz0vg4v3ndeo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-26T15:37:33+00:00",
+          "retrieved_at": "2026-10-26T16:20:54.560237+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
+    },
+    {
+      "story_id": "tc-property-rent-reference-dispute-2026-10-26",
+      "identity": "tc-property-rent-reference-dispute-2026-10-26",
+      "edition_id": "2026-10-26-evening",
+      "date": "2026-10-26",
+      "slot": "evening",
+      "published_at": "2026-10-26T17:38:01.196595+00:00",
+      "available_at": "2026-10-26T17:38:01.196595+00:00",
+      "headline": "Τουρκοκυπριακά ακίνητα: κοινοβουλευτική παρέμβαση για τον υπολογισμό των ενοικίων",
+      "finding": "Ο πρόεδρος της κοινοβουλευτικής Επιτροπής Προσφύγων Νίκος Κέττηρος κατήγγειλε στρεβλώσεις στον υπολογισμό ενοικίων τουρκοκυπριακών ακινήτων, αναφέροντας περιπτώσεις κοντά στη μαρίνα Λεμεσού, στο κάστρο Πάφου και στο κέντρο Λάρνακας, σύμφωνα με το Cyprus Mail. Δήλωσε ότι τα ενοίκια ορίζονται στο 25%–60% της αγοραίας τιμής και ότι υψηλότερα γειτονικά μισθώματα αυξάνουν την τιμή αναφοράς, ενώ η υπηρεσία αναμένεται να απαντήσει γραπτώς στην επόμενη συνεδρίαση.",
+      "section": "cyprus",
+      "priority": 2,
+      "article_path": "articles/2026-10-26-evening/tc-property-rents.json",
+      "reader_url": "articles/2026-10-26-evening/tc-property-rents.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/26/refugee-committee-warns-of-distorted-rents-on-turkish-cypriot-properties",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-26T15:34:22+00:00",
+          "retrieved_at": "2026-10-26T16:20:55.247658+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
+    },
+    {
+      "story_id": "digital-citizen-expiry-alerts-2026-10-26",
+      "identity": "digital-citizen-expiry-alerts-2026-10-26",
+      "edition_id": "2026-10-26-evening",
+      "date": "2026-10-26",
+      "slot": "evening",
+      "published_at": "2026-10-26T17:38:01.196595+00:00",
+      "available_at": "2026-10-26T17:38:01.196595+00:00",
+      "headline": "«Ψηφιακός Πολίτης»: ειδοποιήσεις πριν από τη λήξη εγγράφων",
+      "finding": "Το αρμόδιο υπουργείο ανακοίνωσε λειτουργία στην εφαρμογή «Ψηφιακός Πολίτης» που προβλέπει ειδοποιήσεις 30 και 15 ημέρες πριν από τη λήξη εγγράφου, καθώς και την ημέρα λήξης, σύμφωνα με το Cyprus Mail. Τα ληγμένα έγγραφα παραμένουν ορατά μέχρι να αντικατασταθούν ή διαγραφούν, ενώ τα ψηφιακά έγγραφα δεν ισχύουν για διεθνή ταξίδια.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-10-26-evening/digital-citizen-expiry.json",
+      "reader_url": "articles/2026-10-26-evening/digital-citizen-expiry.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/26/digital-citizen-app-to-notify-users-of-expiring-documents",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-26T16:18:59+00:00",
+          "retrieved_at": "2026-10-26T16:20:55.842588+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
+    },
+    {
+      "story_id": "serbia-parliamentary-election-turnout-2026-10-25",
+      "identity": "serbia-parliamentary-election-turnout-2026-10-25",
+      "edition_id": "2026-10-26-evening",
+      "date": "2026-10-26",
+      "slot": "evening",
+      "published_at": "2026-10-26T12:31:38.132381+00:00",
+      "available_at": "2026-10-26T17:38:01.196595+00:00",
+      "headline": "Σερβία: ο Βούτσιτς παραδέχθηκε ήττα από το φοιτητικό ψηφοδέλτιο",
+      "finding": "Ο Αλεξάνταρ Βούτσιτς παραδέχθηκε την ήττα του στις κοινοβουλευτικές εκλογές της 25ης Οκτωβρίου από το ψηφοδέλτιο που υποστηρίχθηκε από το φοιτητικό κίνημα, σύμφωνα με Cyprus Mail και Le Monde. Οι πανηγυρισμοί στο Βελιγράδι ακολούθησαν δύο χρόνια κινητοποιήσεων που ξεκίνησαν μετά την κατάρρευση στεγάστρου στον σταθμό του Νόβι Σαντ, όπου σκοτώθηκαν 16 άνθρωποι.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-26-evening/serbia-election-outcome.json",
+      "reader_url": "articles/2026-10-26-evening/serbia-election-outcome.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/26/serbias-students-celebrate-election-victory-after-two-years-of-protests",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-26T09:21:42+00:00",
+          "retrieved_at": "2026-10-26T10:20:50.413054+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.lemonde.fr/en/international/article/2026/10/26/serbia-s-student-movement-wins-parliamentary-elections-against-populist-leader-aleksandar-vucic_6764419_4.html",
+          "publisher": "Le Monde",
+          "reporting_group": "Le Monde",
+          "published_at": "2026-10-26T09:45:00+00:00",
+          "retrieved_at": "2026-10-26T11:28:34.524Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
+    },
+    {
+      "story_id": "varosha-un-eu-proposal-2026-10-26",
+      "identity": "varosha-un-eu-proposal-2026-10-26",
+      "edition_id": "2026-10-26-evening",
+      "date": "2026-10-26",
+      "slot": "evening",
+      "published_at": "2026-10-26T12:31:38.132381+00:00",
+      "available_at": "2026-10-26T17:38:01.196595+00:00",
+      "headline": "Βαρώσια: ο Χριστοδουλίδης επιμένει στην πρόταση, παρά την αρχική απόρριψη",
+      "finding": "Ο Νίκος Χριστοδουλίδης δήλωσε στις 26 Οκτωβρίου ότι παραμένει στο τραπέζι η πρότασή του προς τον Τουφάν Έρχιουρμαν για άνοιγμα και επανεγκατάσταση στην περίκλειστη περιοχή υπό διοίκηση ΟΗΕ και λειτουργία του λιμανιού Αμμοχώστου υπό έλεγχο ΕΕ. Σύμφωνα με το Cyprus Mail, αναγνώρισε την αρχική απόρριψη και ζήτησε συζήτηση με το δημοτικό συμβούλιο Αμμοχώστου για βελτίωση και τροποποίηση της πρότασης.",
+      "section": "cyprus",
+      "priority": 2,
+      "article_path": "articles/2026-10-26-evening/varosha-proposal.json",
+      "reader_url": "articles/2026-10-26-evening/varosha-proposal.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/26/varosha-proposal-not-the-same-as-2005-christodoulides-says",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-26T10:11:13+00:00",
+          "retrieved_at": "2026-10-26T10:20:50.978394+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
+    },
+    {
+      "story_id": "cysec-impersonation-recovery-scam-2026-10-26",
+      "identity": "cysec-impersonation-recovery-scam-2026-10-26",
+      "edition_id": "2026-10-26-evening",
+      "date": "2026-10-26",
+      "slot": "evening",
+      "published_at": "2026-10-26T12:31:38.132381+00:00",
+      "available_at": "2026-10-26T17:38:01.196595+00:00",
+      "headline": "CySEC: προειδοποίηση για πλαστή ιστοσελίδα και χρεώσεις «ανάκτησης» επενδύσεων",
+      "finding": "Η Επιτροπή Κεφαλαιαγοράς Κύπρου προειδοποίησε για ιστοσελίδα που την υποδύεται και πρόσωπα που ζητούν χρήματα ως δήθεν λειτουργοί της, με πρόσχημα την ανάκτηση επενδυτικών ζημιών, σύμφωνα με ανακοίνωση που παραθέτει το Cyprus Mail. Η Επιτροπή διευκρινίζει ότι δεν εισπράττει τέτοιες αμοιβές ούτε διορίζει τρίτους για να συλλέγουν χρήματα για λογαριασμό της.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-10-26-evening/cysec-recovery-fraud.json",
+      "reader_url": "articles/2026-10-26-evening/cysec-recovery-fraud.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/26/cysec-warns-investors-over-fake-website-and-recovery-fee-scam",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-26T10:13:47+00:00",
+          "retrieved_at": "2026-10-26T10:20:51.045253+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
+    },
+    {
+      "story_id": "eu-green-energy-imports-2025",
+      "identity": "eu-green-energy-imports-2025",
+      "edition_id": "2026-10-26-evening",
+      "date": "2026-10-26",
+      "slot": "evening",
+      "published_at": "2026-10-26T05:31:55.356033+00:00",
+      "available_at": "2026-10-26T17:38:01.196595+00:00",
+      "headline": "ΕΕ: €11,4 δισ. εισαγωγές πράσινης ενέργειας, με κυριαρχία της Κίνας στα φωτοβολταϊκά",
+      "finding": "Η ΕΕ εισήγαγε το 2025 φωτοβολταϊκά, βιοκαύσιμα και ανεμογεννήτριες αξίας €11,4 δισ. και εξήγαγε €4,6 δισ., σύμφωνα με στοιχεία Eurostat που παραθέτει το Cyprus Mail. Η αξία των εισαγωγών φωτοβολταϊκών μειώθηκε 27,7%, ενώ ο όγκος μόλις 4%, και η Κίνα κάλυψε το 98,6% των εισαγωγών αυτής της κατηγορίας. ",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-26-evening/eu-green-imports.json",
+      "reader_url": "articles/2026-10-26-evening/eu-green-imports.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/26/eu-imports-e11-4bn-in-green-energy-products-as-solar-panel-trade-falls",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-26T04:00:00+00:00",
+          "retrieved_at": "2026-10-26T04:20:50.263709+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
+    },
+    {
+      "story_id": "turkey-libya-maritime-precedent-cyprus-2026-10-25",
+      "identity": "turkey-libya-maritime-precedent-cyprus-2026-10-25",
+      "edition_id": "2026-10-26-evening",
+      "date": "2026-10-26",
+      "slot": "evening",
+      "published_at": "2026-10-26T05:31:55.356033+00:00",
+      "available_at": "2026-10-26T17:38:01.196595+00:00",
+      "headline": "Τουρκολιβυκό μνημόνιο: προειδοποίηση για πιθανό προηγούμενο εις βάρος της Κύπρου",
+      "finding": "Η καθηγήτρια διεθνούς δικαίου Μαρία Γαβουνέλη δήλωσε στο Cyprus Mail ότι η κύρωση του μνημονίου του 2019 από το κοινοβούλιο της ανατολικής Λιβύης μπορεί να αξιοποιηθεί ως προηγούμενο για νέες τουρκικές διεκδικήσεις. Διευκρίνισε ότι η συμφωνία δεν επηρεάζει άμεσα γεωγραφικά την κυπριακή ΑΟΖ, αλλά υποτιμά τα δικαιώματα ελληνικών νησιών και αποκτά ευρύτερη διπλωματική σημασία. ",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-10-26-evening/turkey-libya-cyprus.json",
+      "reader_url": "articles/2026-10-26-evening/turkey-libya-cyprus.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/25/turkey-could-use-libya-maritime-deal-as-precedent-against-cyprus-expert-warns",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-25T15:15:00+00:00",
+          "retrieved_at": "2026-10-26T04:20:49.706432+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
+    },
+    {
+      "story_id": "edek-leadership-elections-2026-12",
+      "identity": "edek-leadership-elections-2026-12",
+      "edition_id": "2026-10-26-evening",
+      "date": "2026-10-26",
+      "slot": "evening",
+      "published_at": "2026-10-26T05:31:55.356033+00:00",
+      "available_at": "2026-10-26T17:38:01.196595+00:00",
+      "headline": "ΕΔΕΚ: συνέδριο στις 12 Δεκεμβρίου και εκλογές ηγεσίας στις 13",
+      "finding": "Η ΕΔΕΚ ανακοίνωσε Παγκύπριο Συνέδριο στις 12 Δεκεμβρίου και εκλογή νέας ηγεσίας και Κεντρικής Επιτροπής στις 13 Δεκεμβρίου. Το Καταστατικό Συνέδριο ενέκρινε αλλαγές που περιλαμβάνουν επιτροπή δεοντολογίας, ενίσχυση οικονομικής λογοδοσίας, περισσότερη συμμετοχή νέων και κατάργηση της θέσης γενικού διευθυντή. ",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-10-26-evening/edek-leadership-vote.json",
+      "reader_url": "articles/2026-10-26-evening/edek-leadership-vote.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1334869/edek-stis-13-dekemvrioy-oi-ekloghes-ghia-ti-nea-ighesia",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-10-25T16:54:08+00:00",
+          "retrieved_at": "2026-10-26T04:20:50.169372+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
+    },
+    {
+      "story_id": "antonelli-us-gp-title-chance-2026-10-25",
+      "identity": "antonelli-us-gp-title-chance-2026-10-25",
+      "edition_id": "2026-10-26-evening",
+      "date": "2026-10-26",
+      "slot": "evening",
+      "published_at": "2026-10-26T05:31:55.356033+00:00",
+      "available_at": "2026-10-26T17:38:01.196595+00:00",
+      "headline": "Formula 1: ο Αντονέλι κέρδισε στο Όστιν και πλησίασε στον τίτλο",
+      "finding": "Ο Κίμι Αντονέλι της Mercedes κέρδισε το Grand Prix ΗΠΑ, μπροστά από Σαρλ Λεκλέρ και Μαξ Φερστάπεν. Ο 20χρονος χρειάζεται τουλάχιστον δύο βαθμούς, δηλαδή ένατη θέση, στο επόμενο Grand Prix του Μεξικού για να εξασφαλίσει τον τίτλο και να γίνει ο νεότερος παγκόσμιος πρωταθλητής της Formula 1. ",
+      "section": "sports",
+      "priority": 5,
+      "article_path": "articles/2026-10-26-evening/antonelli-us-gp.json",
+      "reader_url": "articles/2026-10-26-evening/antonelli-us-gp.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/25/antonelli-on-brink-of-title-after-winning-us-grand-prix",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-25T21:50:32+00:00",
+          "retrieved_at": "2026-10-26T04:20:50.865795+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
     },
     {
       "story_id": "serbia-parliamentary-election-turnout-2026-10-25",
