@@ -484,7 +484,7 @@ def _render(root=ROOT, affected=None):
         body += load_module('opportunities').render(SimpleNamespace(**globals()),e.get('opportunities',[]))+sports(e,aa)+markets(e)+calculator(e)+edition_panels(e)
         body += '<p class="warning">Η προσβασιμότητα συνδέσμων και η πραγματολογική διασταύρωση είναι διαφορετικοί έλεγχοι. Οι σελίδες διατηρούν την εικόνα της δικής τους έκδοσης.</p></main><footer class="footer"><div class="wrap">THE ORACLE SOVEREIGN · '+date+'</div></footer></body></html>'
         body=load_module('newspaper_ui').decorate(SimpleNamespace(**globals()),body,e)
-        if not e.get('preserve_legacy_html') or not (ROOT/'docs'/e['url']).is_file():
+        if not e.get('preserve_legacy_html') or e.get('photo_policy')=='real-photos-v1' or not (ROOT/'docs'/e['url']).is_file():
             write(ROOT/'docs'/e['url'],body)
         elif e.get('image_review'):
             write(ROOT/'docs'/e['url'],latest.compact_document((ROOT/'docs'/e['url']).read_text(encoding='utf-8'),edition_desk(e,registry)))

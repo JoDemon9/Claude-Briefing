@@ -80,6 +80,7 @@ def run(root,edition_ids=(),output=None):
                 context.route('**/*',route);page=context.new_page();errors=[]
                 page.on('pageerror',lambda error:errors.append(str(error)))
                 for relative,lead in sorted(pages.items()):
+                    print(json.dumps({'preview':relative,'width':width,'javascript':js}),flush=True)
                     response=page.goto(urljoin(base,relative),wait_until='load')
                     assert response and response.status==200,relative
                     assert page.locator('main').is_visible(),relative
