@@ -61,6 +61,42 @@ FEEDS = {
 }
 
 
+def prefetch(client, at):
+    """Eight bounded feed reads before synthesis; headline metadata, never full-text review."""
+    rows = client.many([url for feeds in FEEDS.values() for url in feeds])
+    result = {}
+    moment = at.isoformat()
+    for key, feeds in FEEDS.items():
+        items, checks = [], []
+        for url in feeds:
+            row = rows[url]
+            if row.get('status') != 'available':
+                continue
+            try:
+                tree = ElementTree.fromstring(row['text'].lstrip())
+            except (ValueError, ElementTree.ParseError):
+                continue
+            checks.append(row.get('checked_at') or row['retrieved_at'])
+            for node in tree.findall('.//item')[:30]:
+                title = clean(node.findtext('title'))
+                link = (node.findtext('link') or '').strip()
+                pub = published(node.findtext('pubDate'))
+                relevant = key != 'realmadrid' or bool(re.search(r'real madrid|ρεάλ|real-madrid', title, re.I))
+                if not relevant or not pub or not not_future(pub, moment) or SKIP.search(title) or not article_url(key, link):
+                    continue
+                if instant(moment).date() - date.fromisoformat(pub[:10]) > timedelta(days=3):
+                    continue
+                if link in {item['url'] for item in items} or not 12 <= len(title) <= 280:
+                    continue
+                items.append(dict(url=link, headline=title, published_at=pub, retrieved_at=row['retrieved_at']))
+        items.sort(key=lambda item: item['published_at'], reverse=True)
+        result[key] = dict(source_url=feeds[0], checked_at=max(checks) if checks else moment,
+                           attempted_at=moment, status='available' if items else 'unavailable',
+                           items=items[:MAX_ITEMS], note=None if items else 'source_unavailable')
+        validate_record(key, result[key], max(checks+[moment]))
+    return result
+
+
 class OfficialRedirect(urllib.request.HTTPRedirectHandler):
     def __init__(self, key):
         self.key = key

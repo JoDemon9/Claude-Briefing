@@ -4,7 +4,7 @@
   ],
   "baseline_origin": {
     "edition_id": "2026-10-24-midday",
-    "fingerprint": "44e1f3e0dbd07c3b5deb141045896317f62635a5f0349b8169ca62bcefefdf54"
+    "fingerprint": "3c1bd517c2f2b8cb5ff739f7706ea7dcf32bd1c633f5237304278b0624b921ae"
   },
   "category": "Διεθνή",
   "change_status": "UNCHANGED",
@@ -17,8 +17,23 @@
   "evidence_note": "Οι ουσιώδεις προτάσεις ελέγχθηκαν στις αναφερόμενες αναγνώσιμες πηγές· αριθμοί, ημερομηνίες και επιφυλάξεις διατηρούνται.",
   "headline": "Το κόστος ζωής βαραίνει τις αμερικανικές ενδιάμεσες εκλογές",
   "id": "world-us",
-  "image": null,
-  "image_unavailable_reason": "Δεν βρέθηκε εγκαίρως σχετική, αδειοδοτημένη και τεχνικά επαληθευμένη φωτογραφία.",
+  "image": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:White_House_North_Side_20240627.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/White_House_North_Side_20240627.jpg",
+    "caption": "Φωτογραφία αρχείου · Ο Λευκός Οίκος στην Ουάσιγκτον, 27 Ιουνίου 2024. Θεματικό φωτογραφικό πλαίσιο.",
+    "alt": "Ο Λευκός Οίκος στην Ουάσιγκτον, 27 Ιουνίου 2024",
+    "attribution": "VynedJ",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "retrieved_at": "2026-10-14T07:57:30+03:00",
+    "url": "assets/editorial/2026-10-24-midday/world-us.webp",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-14-morning/world-5.webp",
+      "sha256": "a3c59d8fc227a100b42c97916fc562a5ed6804b9d7206832ffe66fb351802d9b",
+      "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
   "newspaper_analysis": [
     "Η μέτρηση αποτυπώνει αντίληψη ευθύνης και όχι αιτιώδη οικονομική εκτίμηση. Πολιτικά, συνδέει την εξωτερική πολιτική με τις τιμές και την αγοραστική δύναμη, άρα το κρίσιμο επόμενο στοιχείο είναι αν αυτή η δυσαρέσκεια μεταφραστεί σε συμμετοχή και ψήφο."
   ],

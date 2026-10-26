@@ -98,10 +98,10 @@ def validate_synthesis(edition, articles):
     if review.get('version')!=2 or not edition.get('prefetch_provenance'):
         raise ValueError('Synthesis requires a selection review and prepared data provenance')
     changed=[a for a in articles if a.get('change_status')!='UNCHANGED']
-    if len(changed)>(6 if edition['type']=='morning' else 4):
-        raise ValueError('At most six morning stories or four delta stories may be written')
-    if edition['type']=='morning' and len(articles)>6:
-        raise ValueError('Morning has at most six core stories')
+    if len(changed)>(10 if edition['type']=='morning' else 6):
+        raise ValueError('At most ten morning stories or six delta stories may be written')
+    if edition['type']=='morning' and len(articles)>10:
+        raise ValueError('Morning has at most ten selected stories')
     if edition['type']!='morning' and not edition.get('baseline'):
         raise ValueError('Delta synthesis requires an exact baseline')
     leads={}

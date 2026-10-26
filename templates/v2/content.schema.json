@@ -1288,6 +1288,399 @@
             }
           },
           "additionalProperties": false
+        },
+        "competitions": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "uefa.champions": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "scores",
+                "fixtures",
+                "standings",
+                "status"
+              ],
+              "properties": {
+                "status": {
+                  "enum": [
+                    "available",
+                    "unavailable"
+                  ]
+                },
+                "scores": {
+                  "type": "array",
+                  "maxItems": 6,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name",
+                      "starts_at",
+                      "sources",
+                      "score"
+                    ],
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "maxLength": 250
+                      },
+                      "starts_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "sources": {
+                        "type": "array",
+                        "minItems": 1,
+                        "maxItems": 2,
+                        "items": {
+                          "$ref": "#/$defs/source"
+                        }
+                      },
+                      "score": {
+                        "type": "string",
+                        "pattern": "^\\d+[–-]\\d+$"
+                      }
+                    }
+                  }
+                },
+                "fixtures": {
+                  "type": "array",
+                  "maxItems": 6,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name",
+                      "starts_at",
+                      "sources"
+                    ],
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "maxLength": 250
+                      },
+                      "starts_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "sources": {
+                        "type": "array",
+                        "minItems": 1,
+                        "maxItems": 2,
+                        "items": {
+                          "$ref": "#/$defs/source"
+                        }
+                      },
+                      "score": {
+                        "type": "string",
+                        "pattern": "^\\d+[–-]\\d+$"
+                      }
+                    }
+                  }
+                },
+                "standings": {
+                  "type": "array",
+                  "maxItems": 5,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "team",
+                      "rank",
+                      "points",
+                      "sources"
+                    ],
+                    "properties": {
+                      "team": {
+                        "type": "string",
+                        "maxLength": 120
+                      },
+                      "rank": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "points": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "sources": {
+                        "type": "array",
+                        "minItems": 1,
+                        "maxItems": 2,
+                        "items": {
+                          "$ref": "#/$defs/source"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "uefa.europa": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "scores",
+                "fixtures",
+                "standings",
+                "status"
+              ],
+              "properties": {
+                "status": {
+                  "enum": [
+                    "available",
+                    "unavailable"
+                  ]
+                },
+                "scores": {
+                  "type": "array",
+                  "maxItems": 6,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name",
+                      "starts_at",
+                      "sources",
+                      "score"
+                    ],
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "maxLength": 250
+                      },
+                      "starts_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "sources": {
+                        "type": "array",
+                        "minItems": 1,
+                        "maxItems": 2,
+                        "items": {
+                          "$ref": "#/$defs/source"
+                        }
+                      },
+                      "score": {
+                        "type": "string",
+                        "pattern": "^\\d+[–-]\\d+$"
+                      }
+                    }
+                  }
+                },
+                "fixtures": {
+                  "type": "array",
+                  "maxItems": 6,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name",
+                      "starts_at",
+                      "sources"
+                    ],
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "maxLength": 250
+                      },
+                      "starts_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "sources": {
+                        "type": "array",
+                        "minItems": 1,
+                        "maxItems": 2,
+                        "items": {
+                          "$ref": "#/$defs/source"
+                        }
+                      },
+                      "score": {
+                        "type": "string",
+                        "pattern": "^\\d+[–-]\\d+$"
+                      }
+                    }
+                  }
+                },
+                "standings": {
+                  "type": "array",
+                  "maxItems": 5,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "team",
+                      "rank",
+                      "points",
+                      "sources"
+                    ],
+                    "properties": {
+                      "team": {
+                        "type": "string",
+                        "maxLength": 120
+                      },
+                      "rank": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "points": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "sources": {
+                        "type": "array",
+                        "minItems": 1,
+                        "maxItems": 2,
+                        "items": {
+                          "$ref": "#/$defs/source"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "uefa.europa.conf": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "scores",
+                "fixtures",
+                "standings",
+                "status"
+              ],
+              "properties": {
+                "status": {
+                  "enum": [
+                    "available",
+                    "unavailable"
+                  ]
+                },
+                "scores": {
+                  "type": "array",
+                  "maxItems": 6,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name",
+                      "starts_at",
+                      "sources",
+                      "score"
+                    ],
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "maxLength": 250
+                      },
+                      "starts_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "sources": {
+                        "type": "array",
+                        "minItems": 1,
+                        "maxItems": 2,
+                        "items": {
+                          "$ref": "#/$defs/source"
+                        }
+                      },
+                      "score": {
+                        "type": "string",
+                        "pattern": "^\\d+[–-]\\d+$"
+                      }
+                    }
+                  }
+                },
+                "fixtures": {
+                  "type": "array",
+                  "maxItems": 6,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name",
+                      "starts_at",
+                      "sources"
+                    ],
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "maxLength": 250
+                      },
+                      "starts_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "sources": {
+                        "type": "array",
+                        "minItems": 1,
+                        "maxItems": 2,
+                        "items": {
+                          "$ref": "#/$defs/source"
+                        }
+                      },
+                      "score": {
+                        "type": "string",
+                        "pattern": "^\\d+[–-]\\d+$"
+                      }
+                    }
+                  }
+                },
+                "standings": {
+                  "type": "array",
+                  "maxItems": 5,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "team",
+                      "rank",
+                      "points",
+                      "sources"
+                    ],
+                    "properties": {
+                      "team": {
+                        "type": "string",
+                        "maxLength": 120
+                      },
+                      "rank": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "points": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "sources": {
+                        "type": "array",
+                        "minItems": 1,
+                        "maxItems": 2,
+                        "items": {
+                          "$ref": "#/$defs/source"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       },
       "additionalProperties": false
@@ -1864,13 +2257,25 @@
         "additionalProperties": true
       }
     },
-    "synthesis_profile": {"const": "single-turn-v1"},
+    "synthesis_profile": {
+      "const": "single-turn-v1"
+    },
     "prefetch_provenance": {
-      "type": "object", "additionalProperties": false,
-      "required": ["sha256", "prepared_at"],
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sha256",
+        "prepared_at"
+      ],
       "properties": {
-        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
-        "prepared_at": {"type": "string", "format": "date-time"}
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "prepared_at": {
+          "type": "string",
+          "format": "date-time"
+        }
       }
     },
     "availability_policy": {
@@ -1904,6 +2309,13 @@
       }
     },
     "metadata_revision_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "photo_policy": {
+      "const": "real-photos-v1"
+    },
+    "sports_revision_at": {
       "type": "string",
       "format": "date-time"
     }

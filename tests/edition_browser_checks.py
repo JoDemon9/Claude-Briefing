@@ -32,7 +32,10 @@ def preview_plan(root,edition_ids=()):
         articles=[json.loads((root/'content'/p).read_text()) for p in e['articles']]
         lead=next((a for a in articles if a['story_id']==e.get('daily',{}).get('lead_story_id')),articles[0])
         pages[e['url']]=lead
-        day=json.loads((root/'docs/data/days'/(e['date']+'.json')).read_text())
+        day_path=root/'docs/data/days'/(e['date']+'.json')
+        if not day_path.exists() and e.get('preserve_legacy_html') and not e.get('published_at'):
+            continue  # Unknown original publication time: preview its repaired edition only.
+        day=json.loads(day_path.read_text())
         selected=next(s['selected'] for s in day['stories'] if s['story_id']==day['lead_story_id'])
         pages[day['url']]=article(selected['edition_id'],selected['article_id'])
     return editions,pages
@@ -77,10 +80,12 @@ def run(root,edition_ids=(),output=None):
                 context.route('**/*',route);page=context.new_page();errors=[]
                 page.on('pageerror',lambda error:errors.append(str(error)))
                 for relative,lead in sorted(pages.items()):
+                    print(json.dumps({'preview':relative,'width':width,'javascript':js}),flush=True)
                     response=page.goto(urljoin(base,relative),wait_until='load')
                     assert response and response.status==200,relative
                     assert page.locator('main').is_visible(),relative
-                    assert page.locator('.hero h2').inner_text()==lead['headline'],relative
+                    # Legacy full reports can contain further h2 headings inside the lead.
+                    assert page.locator('.hero h2').first.inner_text()==lead['headline'],relative
                     findings=page.locator('.hero .story-findings')
                     if findings.count():
                         initially_open=bool(page.locator('html[data-intelligence="1"]').count())

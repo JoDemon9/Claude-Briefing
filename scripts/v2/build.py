@@ -85,7 +85,8 @@ def image(a,depth=''):
     if not im:
         return '<p class="image-unavailable">'+esc(a['image_unavailable_reason'])+'</p>' if a.get('image_unavailable_reason') else ''
     url=im['url'] if im['url'].startswith(('https://','data:')) else depth+im['url']
-    return f'<figure class="photo" data-editorial-image><img src="{esc(url)}" alt="{esc(im["alt"])}" loading="lazy" decoding="async"><p class="image-fallback" data-image-fallback hidden>Η φωτογραφία δεν φορτώθηκε.</p></figure>'
+    archive = '<span class="photo-archive" title="'+esc(im.get('caption',''))+'">Φωτογραφία αρχείου</span>' if im.get('caption','').startswith('Φωτογραφία αρχείου ·') else ''
+    return f'<figure class="photo" data-editorial-image><img src="{esc(url)}" alt="{esc(im["alt"])}" loading="lazy" decoding="async">{archive}<p class="image-fallback" data-image-fallback hidden>Η φωτογραφία δεν φορτώθηκε.</p></figure>'
 
 def photo_credits(bundles):
     """One public attribution record, without repeated article captions/panels."""
@@ -128,6 +129,8 @@ def validate(e, articles):
     review=e.get('reading_review',{}).get('version')
     strict=review in (1,2)
     partial = e.get('availability_policy') == 'partial-v1' and e['date'] >= '2026-10-22'
+    if e.get('photo_policy') == 'real-photos-v1' and any(not a.get('image') for a in articles):
+        raise ValueError('Every article requires a licensed real photograph')
     if new_publication and (not strict or not partial and e.get('image_review',{}).get('version')!=2):
         raise ValueError('New publications require image_review.version=2 and reading_review.version=1 or 2')
     if e['status']=='published' and e.get('published_at') and datetime.fromisoformat(e['published_at'])>=datetime.fromisoformat('2026-10-15T00:00:00+03:00') and review!=2:
@@ -175,7 +178,8 @@ def validate(e, articles):
                 if not reuse.get('relevance_and_archive_date_checked') or library.sha(source)!=reuse['sha256'] or library.sha(ROOT/'docs'/path)!=reuse['sha256']:
                     raise ValueError('Reused photograph no longer matches its reviewed source')
                 reviewed=load_module('backend').instant(reuse['reviewed_at'])
-                if e.get('editorial_completed_at') and reviewed>load_module('backend').instant(e['editorial_completed_at']):
+                review_limit = e.get('image_revision_at') or e.get('editorial_completed_at')
+                if review_limit and reviewed>load_module('backend').instant(review_limit):
                     raise ValueError('Reuse review cannot follow edition completion')
             from PIL import Image
             with Image.open(ROOT/'docs'/path) as decoded:
@@ -444,7 +448,7 @@ def _render(root=ROOT, affected=None):
     reviews_path = ROOT/'content/story-identity-reviews.json'
     identity = backend.story_registry(bundles,read(aliases_path) if aliases_path.exists() else {},read(reviews_path) if reviews_path.exists() else {})
     write(ROOT/'docs/data/capabilities.json',json.dumps(backend.capabilities(ROOT),ensure_ascii=False,indent=2)+'\n')
-    write(ROOT/'docs/data/edition-contracts.json',json.dumps({e['id']:{'contract':e['producer_contract'],'source_sha256':backend.edition_fingerprint(e,aa)} for e,aa in bundles if e.get('producer_contract')},ensure_ascii=False,indent=2)+'\n')
+    write(ROOT/'docs/data/edition-contracts.json',json.dumps({e['id']:{'contract':e['producer_contract'],'source_sha256':backend.edition_fingerprint(e,aa),'reporting_sha256':backend.reporting_fingerprint(e,aa)} for e,aa in bundles if e.get('producer_contract')},ensure_ascii=False,indent=2)+'\n')
     write(ROOT/'docs/data/story-registry.json',json.dumps(identity,ensure_ascii=False,indent=2)+'\n')
     write(ROOT/'docs/data/freshness.json',json.dumps({'schema_version':1,'editions':[backend.freshness(e,aa) for e,aa in bundles]},ensure_ascii=False,indent=2)+'\n')
     write(ROOT/'docs/data/research-index.json',json.dumps(load_module('research').index(ROOT),ensure_ascii=False,indent=2)+'\n')
@@ -480,7 +484,7 @@ def _render(root=ROOT, affected=None):
         body += load_module('opportunities').render(SimpleNamespace(**globals()),e.get('opportunities',[]))+sports(e,aa)+markets(e)+calculator(e)+edition_panels(e)
         body += '<p class="warning">Η προσβασιμότητα συνδέσμων και η πραγματολογική διασταύρωση είναι διαφορετικοί έλεγχοι. Οι σελίδες διατηρούν την εικόνα της δικής τους έκδοσης.</p></main><footer class="footer"><div class="wrap">THE ORACLE SOVEREIGN · '+date+'</div></footer></body></html>'
         body=load_module('newspaper_ui').decorate(SimpleNamespace(**globals()),body,e)
-        if not e.get('preserve_legacy_html') or not (ROOT/'docs'/e['url']).is_file():
+        if not e.get('preserve_legacy_html') or e.get('photo_policy')=='real-photos-v1' or not (ROOT/'docs'/e['url']).is_file():
             write(ROOT/'docs'/e['url'],body)
         elif e.get('image_review'):
             write(ROOT/'docs'/e['url'],latest.compact_document((ROOT/'docs'/e['url']).read_text(encoding='utf-8'),edition_desk(e,registry)))

@@ -20,7 +20,7 @@ def load(name):
 
 prefetch,http,news,sports,packmod,md,compose,baseline,selection,pre_run=[load(n) for n in
     ('prefetch','prefetch_http','news_digest','sports_data','research_pack','markdown_input','compose','baseline','selection','pre_run')]
-AT=datetime(2026,10,24,17,tzinfo=timezone.utc)
+AT=datetime(2026,10,26,17,tzinfo=timezone.utc)
 
 
 def market():
@@ -32,7 +32,7 @@ def row(text,url='https://example.com/story'):
 
 
 def fixture(slot='evening'):
-    eid='2026-10-24-'+slot
+    eid='2026-10-26-'+slot
     old=json.loads((ROOT/'content/editions/2026-10-24-midday.json').read_text(encoding='utf-8'))
     articles=[json.loads((ROOT/'content'/p).read_text(encoding='utf-8')) for p in old['articles']]
     ref={'edition_id':old['id'],'fingerprint':baseline.fingerprint(old,articles)}
@@ -171,11 +171,11 @@ class SynthesisTests(unittest.TestCase):
         self.assertEqual(edition['synthesis_profile'],'single-turn-v1')
         self.assertEqual(edition['daily']['summary_60s'],[payload['synthesis_points'][0]['text']])
 
-    def test_private_uefa_context_does_not_escape_into_the_public_sports_contract(self):
-        pack,payload,_=fixture();pack['data']['sports']['competitions']={'uefa.champions':{'scores':[]}}
+    def test_structured_uefa_facts_survive_hydration_without_ai_reemission(self):
+        pack,payload,_=fixture();pack['data']['sports']['competitions']={'uefa.champions':{'scores':[],'fixtures':[],'standings':[],'status':'unavailable'}}
         pack=packmod.seal(pack);payload['research_pack_sha256']=pack['sha256']
         hydrated=packmod.hydrate(payload,pack,ROOT,AT.isoformat());edition,_,_=compose.compile_payload(hydrated,ROOT)
-        self.assertNotIn('competitions',edition['sports']);self.assertIn('competitions',pack['data']['sports'])
+        self.assertEqual(edition['sports']['competitions'],pack['data']['sports']['competitions'])
 
     def test_bad_pack_stale_pack_future_pack_and_wrong_baseline_fail(self):
         pack,payload,_=fixture()
@@ -206,13 +206,13 @@ class SynthesisTests(unittest.TestCase):
     def test_hard_declared_search_budget_and_story_limit(self):
         pack,payload,_=fixture();payload['tool_usage']['searches']=4
         with self.assertRaisesRegex(ValueError,'tool budget'):packmod.hydrate(payload,pack,ROOT,AT.isoformat())
-        payload['tool_usage']['searches']=0;payload['articles']=[{}]*5
+        payload['tool_usage']['searches']=0;payload['articles']=[{}]*7
         with self.assertRaisesRegex(ValueError,'story budget'):packmod.hydrate(payload,pack,ROOT,AT.isoformat())
 
     def test_carryover_markdown_and_pack_aliases_need_exact_read_evidence(self):
         pack,payload,old=fixture();evidence=dict(access='article_excerpt',source=old[0]['sources'][0])
         pack['evidence']={'e1':evidence};pack=packmod.seal(pack)
-        text=f'@Edition v=1 id=2026-10-24-evening published=auto completed=auto baseline={pack["baseline"]["edition_id"]}@{pack["baseline"]["fingerprint"]}\n@Review version=2 completed=auto\n@Pack sha256={pack["sha256"]}\n@Tools searches=0 reads=0\n@Executive axis=geopolitics_macro stories=new-story | Δοκιμαστικό κείμενο σύνθεσης με επαρκές μήκος.\n## world\n### new-story | story=new-story identity=new-story status=NEW lead=true\n@Headline Δοκιμαστική είδηση\n@Fact Δύο προτάσεις με τεκμηρίωση. Χωρίς νέο ισχυρισμό. [e1]\n@Evidence e1\n'
+        text=f'@Edition v=1 id=2026-10-26-evening published=auto completed=auto baseline={pack["baseline"]["edition_id"]}@{pack["baseline"]["fingerprint"]}\n@Review version=2 completed=auto\n@Pack sha256={pack["sha256"]}\n@Tools searches=0 reads=0\n@Executive axis=geopolitics_macro stories=new-story | Δοκιμαστικό κείμενο σύνθεσης με επαρκές μήκος.\n## world\n### new-story | story=new-story identity=new-story status=NEW lead=true\n@Headline Δοκιμαστική είδηση\n@Fact Δύο προτάσεις με τεκμηρίωση. Χωρίς νέο ισχυρισμό. [e1]\n@Evidence e1\n'
         for a in old:text+='@CarryOver id='+a['story_id']+'\n'
         parsed=md.parse(text,ROOT,pack=pack);self.assertEqual(parsed['articles'][0]['sources'],[evidence['source']])
         hydrated=packmod.hydrate(parsed,pack,ROOT,AT.isoformat());edition,docs,_=compose.compile_payload(hydrated,ROOT)

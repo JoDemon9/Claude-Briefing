@@ -60,13 +60,12 @@ def hydrate(payload,pack,root,at=None):
         payload['reading_review']['completed_at']=at
     for key in routine:
         payload[key]=copy.deepcopy(pack['data'][key])
-    # UEFA competition tables are private research context; the public sports schema is four cards.
-    payload['sports'].pop('competitions',None)
-    limit=6 if slot=='morning' else 4
+    # Structured UEFA facts are rendered by Python, without AI re-emission.
+    limit=10 if slot=='morning' else 6
     if len(payload['articles'])>limit:
         raise ValueError('Single-turn story budget exceeded')
     if slot=='morning' and payload.get('carry_story_ids'):
-        raise ValueError('Morning selects at most six core stories; carries belong to delta editions')
+        raise ValueError('Morning selects at most ten stories; carries belong to delta editions')
     if slot!='morning':
         baseline_ids={s['story_id'] for s in pack['baseline_stories']}
         emitted={a['story_id'] for a in payload['articles']}

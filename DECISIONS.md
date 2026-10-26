@@ -6,6 +6,7 @@ This is the canonical record of user needs that future changes must respect. Rea
 
 | ID | User need | Current status | Record |
 | --- | --- | --- | --- |
+| DEC-027 | Real photographs on every article and a larger, more useful Sports desk without more AI collection. | Implementation and local validation; CI/main/live verification tracked separately. | [Real photos and expanded Sports](decisions/DEC-027-real-photos-and-expanded-sports.md) |
 | DEC-026 | Better analytical quality while retaining low usage. | Implementation and bounded-input regression checks; deployment and future editorial results tracked separately. | [Quality within synthesis budget](decisions/DEC-026-quality-within-synthesis-budget.md) |
 | DEC-025 | Stop five-hour quota exhaustion: Python collection before the AI, hard budgets and later delta-only output. | Deployed; live prompts, PATs and exact site releases verified; Python preparation has bounded retry windows before each AI task. | [Deterministic prefetch and single-turn synthesis](decisions/DEC-025-deterministic-prefetch-and-single-turn.md) |
 | DEC-023 | Audit the v3 compiler/rendering/runtime and deliver three prompts; ordinary missing items must not stop an edition. | Implementation and regression checks in audit branch; main, CI, Pages and actual task settings tracked separately. | [Compiler audit and partial availability](decisions/DEC-023-compiler-audit-and-partial-availability.md) |
