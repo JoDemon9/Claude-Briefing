@@ -1,0 +1,82 @@
+{
+  "analysis_sources": [
+    "https://www.aljazeera.com/news/2026/10/26/world-reacts-to-lulas-victory-in-brazilian-presidential-race?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win?traffic_source=rss",
+    "https://www.reuters.com/world/americas/brazils-lula-reelected-president-runoff-vote-2026-10-26/"
+  ],
+  "category": "Πρώτο θέμα",
+  "change_status": "UPDATED",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "delta_update": "Η ψηφοφορία της μεσημεριανής έκδοσης ολοκληρώθηκε με επιβεβαιωμένη νίκη Λούλα και δηλωμένη αμφισβήτηση από τον αντίπαλό του.",
+  "driver_tags": [
+    "brazil",
+    "election",
+    "governance"
+  ],
+  "edition_id": "2026-10-26-morning",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Βραζιλία: ο Λούλα κέρδισε τέταρτη θητεία, ο Μπολσονάρου ζητεί ακύρωση",
+  "id": "brazil-runoff-result",
+  "image": null,
+  "image_unavailable_reason": "Δεν είναι διαθέσιμη ελεγμένη φωτογραφία για αυτό το άρθρο.",
+  "mechanics_and_incentives": "Η επίσημη ανακήρυξη παράγει εκλογικό αποτέλεσμα, αλλά η προσφυγή που προαναγγέλλει ο Μπολσονάρου μεταφέρει μέρος της σύγκρουσης από την κάλπη στους θεσμούς. Η παράταση είχε ζητηθεί και από τις δύο εκστρατείες, σύμφωνα με το Al Jazeera, στοιχείο που θα βαρύνει στην αξιολόγηση της ένστασης.",
+  "published_at": "2026-10-25T12:11:14.029857+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "alternative_case": "Αν παρουσιαστούν ουσιαστικά αποδεικτικά στοιχεία και γίνει δεκτή προσφυγή, η θεσμική αβεβαιότητα παρατείνεται.",
+    "base_case": "Αν η εκλογική αρχή και τα δικαστήρια απορρίψουν γρήγορα την ένσταση, η μετάβαση επικεντρώνεται στη συγκρότηση της νέας κυβέρνησης.",
+    "watch_next": "Την επίσημη κατάθεση της προσφυγής, το σκεπτικό της και την πρώτη απόφαση της αρμόδιας εκλογικής αρχής."
+  },
+  "second_order_effects": "Ο Λούλα αποκτά νέα εντολή, αλλά ξεκινά με βαθιά πολιτική πόλωση και πιθανή δικαστική αντιπαράθεση. Η αβεβαιότητα αφορά τη διαδικασία αποδοχής του αποτελέσματος, όχι την ήδη ανακοινωμένη νίκη.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Η εκλογική αρχή της Βραζιλίας ανακήρυξε νικητή τον Λουίς Ινάσιο Λούλα ντα Σίλβα στον δεύτερο γύρο απέναντι στον Φλάβιο Μπολσονάρου, επιβεβαιώνουν Reuters και Al Jazeera. Με καταμετρημένο το 98,76% στο δημοσίευμα του Al Jazeera, ο Λούλα είχε πάνω από 51% έναντι 48%, ενώ ο Μπολσονάρου ανακοίνωσε ότι θα επιδιώξει ακύρωση λόγω της δίωρης παράτασης της ψηφοφορίας."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-10-26T03:50:12+00:00",
+      "publisher": "Al Jazeera",
+      "reporting_group": "Al Jazeera",
+      "retrieved_at": "2026-10-26T04:20:49.354858+00:00",
+      "url": "https://www.aljazeera.com/news/2026/10/26/world-reacts-to-lulas-victory-in-brazilian-presidential-race?traffic_source=rss",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-10-26T02:59:50+00:00",
+      "publisher": "Al Jazeera",
+      "reporting_group": "Al Jazeera",
+      "retrieved_at": "2026-10-26T04:20:49.346061+00:00",
+      "url": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win?traffic_source=rss",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-10-26T00:13:00+00:00",
+      "publisher": "Reuters",
+      "reporting_group": "Reuters",
+      "retrieved_at": "2026-10-26T05:31:35.621Z",
+      "url": "https://www.reuters.com/world/americas/brazils-lula-reelected-president-runoff-vote-2026-10-26/",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "brazil-presidential-runoff-voting-2026-10-25",
+  "story_identity": "brazil-presidential-runoff-voting-2026-10-25",
+  "summary": "Η εκλογική αρχή της Βραζιλίας ανακήρυξε νικητή τον Λουίς Ινάσιο Λούλα ντα Σίλβα στον δεύτερο γύρο απέναντι στον Φλάβιο Μπολσονάρου, επιβεβαιώνουν Reuters και Al Jazeera. Με καταμετρημένο το 98,76% στο δημοσίευμα του Al Jazeera, ο Λούλα είχε πάνω από 51% έναντι 48%, ενώ ο Μπολσονάρου ανακοίνωσε ότι θα επιδιώξει ακύρωση λόγω της δίωρης παράτασης της ψηφοφορίας.",
+  "updated_at": "2026-10-26T05:31:55.356033+00:00",
+  "url": "articles/2026-10-26-morning/brazil-runoff-result.html"
+}

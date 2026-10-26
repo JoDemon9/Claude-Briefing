@@ -265,6 +265,14 @@
       "published_at": "2026-10-25T12:11:14.029857+00:00",
       "url": "midday/2026-10-25.html",
       "fingerprint": "efbb22b0219e57e3e393099be7d9bd733f6dd13d2cd5b0d1d1925e32c74a7094"
+    },
+    {
+      "id": "2026-10-26-morning",
+      "date": "2026-10-26",
+      "type": "morning",
+      "published_at": "2026-10-26T05:31:55.356033+00:00",
+      "url": "morning/2026-10-26.html",
+      "fingerprint": "a048086ac99f0ef876f408e886959c6604b299b5df6666d50c7d5efcb6cd918c"
     }
   ],
   "stories": [
@@ -9228,6 +9236,157 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-24-midday/cyprus-larnaca.webp"
+    },
+    {
+      "story_id": "brazil-presidential-runoff-voting-2026-10-25",
+      "identity": "brazil-presidential-runoff-voting-2026-10-25",
+      "edition_id": "2026-10-26-morning",
+      "date": "2026-10-26",
+      "slot": "morning",
+      "published_at": "2026-10-25T12:11:14.029857+00:00",
+      "available_at": "2026-10-26T05:31:55.356033+00:00",
+      "headline": "Βραζιλία: ο Λούλα κέρδισε τέταρτη θητεία, ο Μπολσονάρου ζητεί ακύρωση",
+      "finding": "Η εκλογική αρχή της Βραζιλίας ανακήρυξε νικητή τον Λουίς Ινάσιο Λούλα ντα Σίλβα στον δεύτερο γύρο απέναντι στον Φλάβιο Μπολσονάρου, επιβεβαιώνουν Reuters και Al Jazeera. Με καταμετρημένο το 98,76% στο δημοσίευμα του Al Jazeera, ο Λούλα είχε πάνω από 51% έναντι 48%, ενώ ο Μπολσονάρου ανακοίνωσε ότι θα επιδιώξει ακύρωση λόγω της δίωρης παράτασης της ψηφοφορίας.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-26-morning/brazil-runoff-result.json",
+      "reader_url": "articles/2026-10-26-morning/brazil-runoff-result.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/26/world-reacts-to-lulas-victory-in-brazilian-presidential-race?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-10-26T03:50:12+00:00",
+          "retrieved_at": "2026-10-26T04:20:49.354858+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-10-26T02:59:50+00:00",
+          "retrieved_at": "2026-10-26T04:20:49.346061+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.reuters.com/world/americas/brazils-lula-reelected-president-runoff-vote-2026-10-26/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-26T00:13:00+00:00",
+          "retrieved_at": "2026-10-26T05:31:35.621Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
+    },
+    {
+      "story_id": "eu-green-energy-imports-2025",
+      "identity": "eu-green-energy-imports-2025",
+      "edition_id": "2026-10-26-morning",
+      "date": "2026-10-26",
+      "slot": "morning",
+      "published_at": "2026-10-26T05:31:55.356033+00:00",
+      "available_at": "2026-10-26T05:31:55.356033+00:00",
+      "headline": "ΕΕ: €11,4 δισ. εισαγωγές πράσινης ενέργειας, με κυριαρχία της Κίνας στα φωτοβολταϊκά",
+      "finding": "Η ΕΕ εισήγαγε το 2025 φωτοβολταϊκά, βιοκαύσιμα και ανεμογεννήτριες αξίας €11,4 δισ. και εξήγαγε €4,6 δισ., σύμφωνα με στοιχεία Eurostat που παραθέτει το Cyprus Mail. Η αξία των εισαγωγών φωτοβολταϊκών μειώθηκε 27,7%, ενώ ο όγκος μόλις 4%, και η Κίνα κάλυψε το 98,6% των εισαγωγών αυτής της κατηγορίας. ",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-26-morning/eu-green-imports.json",
+      "reader_url": "articles/2026-10-26-morning/eu-green-imports.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/26/eu-imports-e11-4bn-in-green-energy-products-as-solar-panel-trade-falls",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-26T04:00:00+00:00",
+          "retrieved_at": "2026-10-26T04:20:50.263709+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
+    },
+    {
+      "story_id": "turkey-libya-maritime-precedent-cyprus-2026-10-25",
+      "identity": "turkey-libya-maritime-precedent-cyprus-2026-10-25",
+      "edition_id": "2026-10-26-morning",
+      "date": "2026-10-26",
+      "slot": "morning",
+      "published_at": "2026-10-26T05:31:55.356033+00:00",
+      "available_at": "2026-10-26T05:31:55.356033+00:00",
+      "headline": "Τουρκολιβυκό μνημόνιο: προειδοποίηση για πιθανό προηγούμενο εις βάρος της Κύπρου",
+      "finding": "Η καθηγήτρια διεθνούς δικαίου Μαρία Γαβουνέλη δήλωσε στο Cyprus Mail ότι η κύρωση του μνημονίου του 2019 από το κοινοβούλιο της ανατολικής Λιβύης μπορεί να αξιοποιηθεί ως προηγούμενο για νέες τουρκικές διεκδικήσεις. Διευκρίνισε ότι η συμφωνία δεν επηρεάζει άμεσα γεωγραφικά την κυπριακή ΑΟΖ, αλλά υποτιμά τα δικαιώματα ελληνικών νησιών και αποκτά ευρύτερη διπλωματική σημασία. ",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-10-26-morning/turkey-libya-cyprus.json",
+      "reader_url": "articles/2026-10-26-morning/turkey-libya-cyprus.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/25/turkey-could-use-libya-maritime-deal-as-precedent-against-cyprus-expert-warns",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-25T15:15:00+00:00",
+          "retrieved_at": "2026-10-26T04:20:49.706432+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
+    },
+    {
+      "story_id": "edek-leadership-elections-2026-12",
+      "identity": "edek-leadership-elections-2026-12",
+      "edition_id": "2026-10-26-morning",
+      "date": "2026-10-26",
+      "slot": "morning",
+      "published_at": "2026-10-26T05:31:55.356033+00:00",
+      "available_at": "2026-10-26T05:31:55.356033+00:00",
+      "headline": "ΕΔΕΚ: συνέδριο στις 12 Δεκεμβρίου και εκλογές ηγεσίας στις 13",
+      "finding": "Η ΕΔΕΚ ανακοίνωσε Παγκύπριο Συνέδριο στις 12 Δεκεμβρίου και εκλογή νέας ηγεσίας και Κεντρικής Επιτροπής στις 13 Δεκεμβρίου. Το Καταστατικό Συνέδριο ενέκρινε αλλαγές που περιλαμβάνουν επιτροπή δεοντολογίας, ενίσχυση οικονομικής λογοδοσίας, περισσότερη συμμετοχή νέων και κατάργηση της θέσης γενικού διευθυντή. ",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-10-26-morning/edek-leadership-vote.json",
+      "reader_url": "articles/2026-10-26-morning/edek-leadership-vote.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1334869/edek-stis-13-dekemvrioy-oi-ekloghes-ghia-ti-nea-ighesia",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-10-25T16:54:08+00:00",
+          "retrieved_at": "2026-10-26T04:20:50.169372+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
+    },
+    {
+      "story_id": "antonelli-us-gp-title-chance-2026-10-25",
+      "identity": "antonelli-us-gp-title-chance-2026-10-25",
+      "edition_id": "2026-10-26-morning",
+      "date": "2026-10-26",
+      "slot": "morning",
+      "published_at": "2026-10-26T05:31:55.356033+00:00",
+      "available_at": "2026-10-26T05:31:55.356033+00:00",
+      "headline": "Formula 1: ο Αντονέλι κέρδισε στο Όστιν και πλησίασε στον τίτλο",
+      "finding": "Ο Κίμι Αντονέλι της Mercedes κέρδισε το Grand Prix ΗΠΑ, μπροστά από Σαρλ Λεκλέρ και Μαξ Φερστάπεν. Ο 20χρονος χρειάζεται τουλάχιστον δύο βαθμούς, δηλαδή ένατη θέση, στο επόμενο Grand Prix του Μεξικού για να εξασφαλίσει τον τίτλο και να γίνει ο νεότερος παγκόσμιος πρωταθλητής της Formula 1. ",
+      "section": "sports",
+      "priority": 5,
+      "article_path": "articles/2026-10-26-morning/antonelli-us-gp.json",
+      "reader_url": "articles/2026-10-26-morning/antonelli-us-gp.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/25/antonelli-on-brink-of-title-after-winning-us-grand-prix",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-25T21:50:32+00:00",
+          "retrieved_at": "2026-10-26T04:20:50.865795+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": null
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
