@@ -2,7 +2,7 @@
   "analysis_sources": [],
   "baseline_origin": {
     "edition_id": "2026-10-26-midday",
-    "fingerprint": "3feccc46139366e452e5b1da0f32b6016541cfc18aa4c6547b72765fd2c043bf"
+    "fingerprint": "0bbb235fddaa3a637703f0624461f0417b2340d54e846769a21bc38c96a562d5"
   },
   "category": "Αθλητικά",
   "change_status": "UNCHANGED",
@@ -19,8 +19,23 @@
   "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
   "headline": "Formula 1: ο Αντονέλι κέρδισε στο Όστιν και πλησίασε στον τίτλο",
   "id": "antonelli-us-gp",
-  "image": null,
-  "image_unavailable_reason": "Δεν είναι διαθέσιμη ελεγμένη φωτογραφία για αυτό το άρθρο.",
+  "image": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Formula_One_Grand_Prix_Singapore_2013_-_Ferrari_1.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Formula_One_Grand_Prix_Singapore_2013_-_Ferrari_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Benjamin Goetzinger",
+    "retrieved_at": "2026-10-25T22:23:00.548937+00:00",
+    "url": "assets/editorial/2026-10-26-morning/antonelli-us-gp.webp",
+    "alt": "Μονοθέσιο Ferrari στο Grand Prix της Σιγκαπούρης, 2013",
+    "caption": "Φωτογραφία αρχείου · Μονοθέσιο Ferrari στο Grand Prix της Σιγκαπούρης, 2013. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "reuse_review": {
+      "source_asset": "assets/editorial/library/formula1.webp",
+      "sha256": "e60b6a96aa48f029c3f646147dfa6225d43755fcaa05f53056035923f91bd680",
+      "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
   "published_at": "2026-10-26T05:31:55.356033+00:00",
   "reader_mode": "source",
   "related_story_ids": [],

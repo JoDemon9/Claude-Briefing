@@ -2,6 +2,38 @@
   "schema_version": 1,
   "photos": [
     {
+      "id": "037ab10155437d295f41ea85d4d54727a02345bbf4ec5b250fc9558a60e411b6",
+      "asset": "assets/editorial/2026-10-12-morning/world-3.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:Djibouti_Coast_Guard,_Cutlass_Express_2016_160204-F-IJ878-250_(24816283395).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Djibouti_Coast_Guard%2C_Cutlass_Express_2016_160204-F-IJ878-250_%2824816283395%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military",
+        "attribution": "Barry Loo via Commander, U.S. Naval Forces Europe-Africa/U.S. 6th Fleet",
+        "retrieved_at": "2026-10-25T22:20:53.158952+00:00",
+        "url": "assets/editorial/2026-10-12-morning/world-3.webp",
+        "alt": "Σκάφη της ακτοφυλακής του Τζιμπουτί στην άσκηση Cutlass Express, 4 Φεβρουαρίου 2016",
+        "caption": "Φωτογραφία αρχείου · Σκάφη της ακτοφυλακής του Τζιμπουτί στην άσκηση Cutlass Express, 4 Φεβρουαρίου 2016. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+        "reuse_review": {
+          "source_asset": "assets/editorial/library/djibouti.webp",
+          "sha256": "037ab10155437d295f41ea85d4d54727a02345bbf4ec5b250fc9558a60e411b6",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
+      },
+      "dimensions": [
+        1200,
+        811
+      ],
+      "references": [
+        {
+          "story_id": "djibouti-migrant-shipwreck",
+          "article_path": "articles/2026-10-12-morning/world-3.json",
+          "edition_id": "2026-10-12-morning"
+        }
+      ]
+    },
+    {
       "id": "0388fcdc10e10480eb849bd90d0f333b121762f4c00933ecb69648543d08719d",
       "asset": "assets/editorial/2026-10-23-evening/cyprus-reservoir.webp",
       "image": {
@@ -29,17 +61,23 @@
     },
     {
       "id": "0948b2f4da479c914a93560eca95bdc4c353c1d1b027e3d37518f870dd5dd9ac",
-      "asset": "assets/editorial/2026-10-13-evening/cyprus-1.webp",
+      "asset": "assets/editorial/2026-10-12-morning/cyprus-2.webp",
       "image": {
-        "url": "assets/editorial/2026-10-13-evening/cyprus-1.webp",
+        "url": "assets/editorial/2026-10-12-morning/cyprus-2.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Halloumi.jpg",
         "source_url": "https://commons.wikimedia.org/wiki/File:Halloumi.jpg",
-        "caption": "Χαλλούμι, 22/03/2018. Φωτογραφία αρχείου για το προϊόν· δεν απεικονίζει τη σημερινή συνεδρίαση ή παραγωγή του 2026. Μείωση μεγέθους και μετατροπή σε WebP.",
-        "alt": "Χαλλούμι, 22/03/2018. Φωτογραφία αρχείου για το προϊόν· δεν απεικονίζει τη σημερινή συνεδρίαση ή παραγωγή του 2026.",
+        "caption": "Φωτογραφία αρχείου · Χαλούμι, φωτογραφία της 22ας Μαρτίου 2018. Θεματικό φωτογραφικό πλαίσιο.",
+        "alt": "Χαλούμι, φωτογραφία της 22ας Μαρτίου 2018",
         "attribution": "이동원 lee / Wikimedia Commons",
         "license": "CC0",
         "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "retrieved_at": "2026-10-13T19:59:23+03:00"
+        "retrieved_at": "2026-10-13T19:59:23+03:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-13-evening/cyprus-1.webp",
+          "sha256": "0948b2f4da479c914a93560eca95bdc4c353c1d1b027e3d37518f870dd5dd9ac",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         853,
@@ -47,9 +85,56 @@
       ],
       "references": [
         {
+          "story_id": "cyprus-foot-mouth-reporting",
+          "article_path": "articles/2026-10-12-morning/cyprus-2.json",
+          "edition_id": "2026-10-12-morning"
+        },
+        {
           "story_id": "halloumi-pdo-transition-2029",
           "article_path": "articles/2026-10-13-evening/cyprus-1.json",
           "edition_id": "2026-10-13-evening"
+        }
+      ]
+    },
+    {
+      "id": "0aabd69743b9013f6b6684394b711aacb89319dab8b945de411aa6a4c3b31ca5",
+      "asset": "assets/editorial/2026-10-25-evening/serbia-election-turnout.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:Serbian_National_Assembly_building_in_Belgrade.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Serbian_National_Assembly_building_in_Belgrade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attribution": "Filip Maljković",
+        "retrieved_at": "2026-10-25T22:20:43.729162+00:00",
+        "url": "assets/editorial/2026-10-25-evening/serbia-election-turnout.webp",
+        "alt": "Το κτήριο της Εθνοσυνέλευσης της Σερβίας στο Βελιγράδι, 24 Σεπτεμβρίου 2006",
+        "caption": "Φωτογραφία αρχείου · Το κτήριο της Εθνοσυνέλευσης της Σερβίας στο Βελιγράδι, 24 Σεπτεμβρίου 2006. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+        "reuse_review": {
+          "source_asset": "assets/editorial/library/serbia.webp",
+          "sha256": "0aabd69743b9013f6b6684394b711aacb89319dab8b945de411aa6a4c3b31ca5",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
+      },
+      "dimensions": [
+        1024,
+        766
+      ],
+      "references": [
+        {
+          "story_id": "serbia-parliamentary-election-turnout-2026-10-25",
+          "article_path": "articles/2026-10-25-evening/serbia-election-turnout.json",
+          "edition_id": "2026-10-25-evening"
+        },
+        {
+          "story_id": "serbia-parliamentary-election-turnout-2026-10-25",
+          "article_path": "articles/2026-10-26-evening/serbia-election-outcome.json",
+          "edition_id": "2026-10-26-evening"
+        },
+        {
+          "story_id": "serbia-parliamentary-election-turnout-2026-10-25",
+          "article_path": "articles/2026-10-26-midday/serbia-election-outcome.json",
+          "edition_id": "2026-10-26-midday"
         }
       ]
     },
@@ -163,6 +248,80 @@
       ]
     },
     {
+      "id": "1ab4881b20e993ee0dbbccdd6351bde199425f2cd2fc309afbdc26199a23bf4b",
+      "asset": "assets/editorial/2026-10-24-midday/cyprus-missing.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:%CE%95%CF%80%CE%AF%CF%83%CE%BA%CE%B5%CF%88%CE%B7_%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%BF%CF%8D_%CE%95%CE%BE%CF%89%CF%84%CE%B5%CF%81%CE%B9%CE%BA%CF%8E%CE%BD_%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CF%81%CE%B7_%CE%91%CE%B2%CF%81%CE%B1%CE%BC%CF%8C%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%85_%CF%83%CF%84%CE%B7%CE%BD_%CE%9A%CF%85%CF%80%CF%81%CE%B9%CE%B1%CE%BA%CE%AE_%CE%94%CE%B7%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%84%CE%AF%CE%B1_(%CE%9B%CE%B5%CF%85%CE%BA%CF%89%CF%83%CE%AF%CE%B1,_1-2.7.2012)_(7480735696).jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/%CE%95%CF%80%CE%AF%CF%83%CE%BA%CE%B5%CF%88%CE%B7_%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%BF%CF%8D_%CE%95%CE%BE%CF%89%CF%84%CE%B5%CF%81%CE%B9%CE%BA%CF%8E%CE%BD_%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CF%81%CE%B7_%CE%91%CE%B2%CF%81%CE%B1%CE%BC%CF%8C%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%85_%CF%83%CF%84%CE%B7%CE%BD_%CE%9A%CF%85%CF%80%CF%81%CE%B9%CE%B1%CE%BA%CE%AE_%CE%94%CE%B7%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%84%CE%AF%CE%B1_%28%CE%9B%CE%B5%CF%85%CE%BA%CF%89%CF%83%CE%AF%CE%B1%2C_1-2.7.2012%29_%287480735696%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "attribution": "Υπουργείο Εξωτερικών",
+        "retrieved_at": "2026-10-25T22:20:56.955833+00:00",
+        "url": "assets/editorial/2026-10-24-midday/cyprus-missing.webp",
+        "alt": "Κατάθεση στεφάνου από τον Δημήτρη Αβραμόπουλο στον Τύμβο Μακεδονίτισσας, Ιούλιος 2012",
+        "caption": "Φωτογραφία αρχείου · Κατάθεση στεφάνου από τον Δημήτρη Αβραμόπουλο στον Τύμβο Μακεδονίτισσας, Ιούλιος 2012. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+        "reuse_review": {
+          "source_asset": "assets/editorial/library/memorial.webp",
+          "sha256": "1ab4881b20e993ee0dbbccdd6351bde199425f2cd2fc309afbdc26199a23bf4b",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
+      },
+      "dimensions": [
+        1200,
+        800
+      ],
+      "references": [
+        {
+          "story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+          "article_path": "articles/2026-10-24-midday/cyprus-missing.json",
+          "edition_id": "2026-10-24-midday"
+        },
+        {
+          "story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+          "article_path": "articles/2026-10-25-evening/cyprus-missing.json",
+          "edition_id": "2026-10-25-evening"
+        },
+        {
+          "story_id": "eldyk-colonel-kentras-dna-identification-2026-10-24",
+          "article_path": "articles/2026-10-25-midday/cyprus-missing.json",
+          "edition_id": "2026-10-25-midday"
+        }
+      ]
+    },
+    {
+      "id": "244997ff3b992dab167c053767ca043699401a3c8393d93d55ac6fb1d11927cc",
+      "asset": "assets/editorial/2026-10-12-morning/golf-open-espana.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:Club_de_campo_Villa_de_Madrid.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Club_de_campo_Villa_de_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Msolgiz",
+        "retrieved_at": "2026-10-25T22:20:45.650571+00:00",
+        "url": "assets/editorial/2026-10-12-morning/golf-open-espana.webp",
+        "alt": "Το γήπεδο γκολφ Club de Campo Villa de Madrid, φωτογραφία αρχείου",
+        "caption": "Φωτογραφία αρχείου · Το γήπεδο γκολφ Club de Campo Villa de Madrid, φωτογραφία αρχείου. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+        "reuse_review": {
+          "source_asset": "assets/editorial/library/golf.webp",
+          "sha256": "244997ff3b992dab167c053767ca043699401a3c8393d93d55ac6fb1d11927cc",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
+      },
+      "dimensions": [
+        900,
+        1200
+      ],
+      "references": [
+        {
+          "story_id": "golf-open-espana-2026",
+          "article_path": "articles/2026-10-12-morning/golf-open-espana.json",
+          "edition_id": "2026-10-12-morning"
+        }
+      ]
+    },
+    {
       "id": "2522d8ab8c6dd3ce23facb945e9ebad1381364cd66c46065ae271694a9835db9",
       "asset": "assets/editorial/2026-10-23-evening/cyprus-ev.webp",
       "image": {
@@ -185,6 +344,11 @@
           "story_id": "cyprus-ev-fast-charging-network-2026-2028",
           "article_path": "articles/2026-10-23-evening/cyprus-ev.json",
           "edition_id": "2026-10-23-evening"
+        },
+        {
+          "story_id": "cyprus-ev-fast-charging-network-2026-2028",
+          "article_path": "articles/2026-10-24-morning/cyprus-ev.json",
+          "edition_id": "2026-10-24-morning"
         }
       ]
     },
@@ -217,23 +381,34 @@
     },
     {
       "id": "2834077fdc60d3adc55eb33378e8972ba480e04b420aa9e037db464ad5a70192",
-      "asset": "assets/editorial/2026-10-13-midday/cyprus-3.webp",
+      "asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp",
       "image": {
-        "url": "assets/editorial/2026-10-13-midday/cyprus-3.webp",
+        "url": "assets/editorial/2026-10-11-evening/cyprus-1.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Nicosia_Town_Hall.jpg",
         "source_url": "https://commons.wikimedia.org/wiki/File:Nicosia_Town_Hall.jpg",
-        "caption": "Δημαρχείο Λευκωσίας στην πλατεία Ελευθερίας, 13/05/2021. Φωτογραφία αρχείου για το πλαίσιο του θέματος· δεν απεικονίζει το σημερινό γεγονός. Μείωση μεγέθους/μετατροπή WebP.",
-        "alt": "Δημαρχείο Λευκωσίας στην πλατεία Ελευθερίας, 13/05/2021. Φωτογραφία αρχείου.",
+        "caption": "Φωτογραφία αρχείου · Το Δημαρχείο Λευκωσίας και η πλατεία Ελευθερίας, 13 Μαΐου 2021. Θεματικό φωτογραφικό πλαίσιο.",
+        "alt": "Το Δημαρχείο Λευκωσίας και η πλατεία Ελευθερίας, 13 Μαΐου 2021",
         "attribution": "© European Union 2021 · Iakovos Hatzistavrou / European Commission / Wikimedia Commons",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "retrieved_at": "2026-10-13T15:54:24+03:00"
+        "retrieved_at": "2026-10-13T15:54:24+03:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-13-midday/cyprus-3.webp",
+          "sha256": "2834077fdc60d3adc55eb33378e8972ba480e04b420aa9e037db464ad5a70192",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1280,
         795
       ],
       "references": [
+        {
+          "story_id": "archive-2026-10-11-cyprus-1",
+          "article_path": "articles/2026-10-11-evening/cyprus-1.json",
+          "edition_id": "2026-10-11-evening"
+        },
         {
           "story_id": "cyprus-greco-local-integrity",
           "article_path": "articles/2026-10-13-midday/cyprus-3.json",
@@ -255,6 +430,11 @@
           "edition_id": "2026-10-15-morning"
         },
         {
+          "story_id": "cyprus-dust-forecast-2026-10-22",
+          "article_path": "articles/2026-10-22-morning/cyprus-dust.json",
+          "edition_id": "2026-10-22-morning"
+        },
+        {
           "story_id": "cyprus-income-inequality-eurostat-2025",
           "article_path": "articles/2026-10-24-midday/cyprus-inequality.json",
           "edition_id": "2026-10-24-midday"
@@ -268,6 +448,21 @@
           "story_id": "cyprus-income-inequality-eurostat-2025",
           "article_path": "articles/2026-10-25-midday/cyprus-inequality.json",
           "edition_id": "2026-10-25-midday"
+        },
+        {
+          "story_id": "digital-citizen-expiry-alerts-2026-10-26",
+          "article_path": "articles/2026-10-26-evening/digital-citizen-expiry.json",
+          "edition_id": "2026-10-26-evening"
+        },
+        {
+          "story_id": "varosha-un-eu-proposal-2026-10-26",
+          "article_path": "articles/2026-10-26-evening/varosha-proposal.json",
+          "edition_id": "2026-10-26-evening"
+        },
+        {
+          "story_id": "varosha-un-eu-proposal-2026-10-26",
+          "article_path": "articles/2026-10-26-midday/varosha-proposal.json",
+          "edition_id": "2026-10-26-midday"
         }
       ]
     },
@@ -340,6 +535,48 @@
           "story_id": "france-cost-of-living-protests-security-2026-10-24",
           "article_path": "articles/2026-10-24-midday/world-france.json",
           "edition_id": "2026-10-24-midday"
+        },
+        {
+          "story_id": "france-cost-of-living-protests-security-2026-10-24",
+          "article_path": "articles/2026-10-25-evening/france-protests-outcome.json",
+          "edition_id": "2026-10-25-evening"
+        },
+        {
+          "story_id": "france-cost-of-living-protests-security-2026-10-24",
+          "article_path": "articles/2026-10-25-midday/france-protests-outcome.json",
+          "edition_id": "2026-10-25-midday"
+        }
+      ]
+    },
+    {
+      "id": "3497c68f56928a6319e4f75e01d2b89afd88878f2987c3d3dba00ca6d57c831d",
+      "asset": "assets/editorial/2026-10-12-morning/nfl-jaguars-london.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:Wembley_Stadium_2007-06-01.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Wembley_Stadium_2007-06-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "attribution": "Stephen Gidley",
+        "retrieved_at": "2026-10-25T22:21:36.431976+00:00",
+        "url": "assets/editorial/2026-10-12-morning/nfl-jaguars-london.webp",
+        "alt": "Το στάδιο Γουέμπλεϊ στο Λονδίνο, 1 Ιουνίου 2007",
+        "caption": "Φωτογραφία αρχείου · Το στάδιο Γουέμπλεϊ στο Λονδίνο, 1 Ιουνίου 2007. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+        "reuse_review": {
+          "source_asset": "assets/editorial/library/wembley.webp",
+          "sha256": "3497c68f56928a6319e4f75e01d2b89afd88878f2987c3d3dba00ca6d57c831d",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
+      },
+      "dimensions": [
+        1200,
+        900
+      ],
+      "references": [
+        {
+          "story_id": "nfl-jaguars-london-2026",
+          "article_path": "articles/2026-10-12-morning/nfl-jaguars-london.json",
+          "edition_id": "2026-10-12-morning"
         }
       ]
     },
@@ -371,23 +608,39 @@
     },
     {
       "id": "381b615b35b871e714f5b0da9f5c995a7d6e825a23f2e640112c5be7a7722693",
-      "asset": "assets/editorial/2026-10-17-morning/cyprus-larnaca.webp",
+      "asset": "assets/editorial/2026-10-11-evening/cyprus-6.webp",
       "image": {
-        "url": "assets/editorial/2026-10-17-morning/cyprus-larnaca.webp",
+        "url": "assets/editorial/2026-10-11-evening/cyprus-6.webp",
         "source_url": "https://commons.wikimedia.org/wiki/File:Larnaca_Promenade_4.jpg",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Larnaca_Promenade_4.jpg",
         "attribution": "Héctor Ochoa «Robot8A» / Wikimedia Commons",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "retrieved_at": "2026-10-17T04:31:58.641779+00:00",
-        "alt": "Παραλιακό μέτωπο Λάρνακας, 31/03/2018. Αστικό τοπίο αρχείου· όχι κτήριο του ΕΟΑ ή έργο που αδειοδοτήθηκε το 2026.",
-        "caption": "Παραλιακό μέτωπο Λάρνακας, 31/03/2018. Αστικό τοπίο αρχείου· όχι κτήριο του ΕΟΑ ή έργο που αδειοδοτήθηκε το 2026. Σμίκρυνση και μετατροπή WebP."
+        "alt": "Κτήρια στην παραλία της Λάρνακας, 31 Μαρτίου 2018",
+        "caption": "Φωτογραφία αρχείου · Κτήρια στην παραλία της Λάρνακας, 31 Μαρτίου 2018. Θεματικό φωτογραφικό πλαίσιο.",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-17-morning/cyprus-larnaca.webp",
+          "sha256": "381b615b35b871e714f5b0da9f5c995a7d6e825a23f2e640112c5be7a7722693",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1280,
         960
       ],
       "references": [
+        {
+          "story_id": "archive-2026-10-11-cyprus-6",
+          "article_path": "articles/2026-10-11-evening/cyprus-6.json",
+          "edition_id": "2026-10-11-evening"
+        },
+        {
+          "story_id": "cyprus-housing-permits-composition",
+          "article_path": "articles/2026-10-12-evening/cyprus-2.json",
+          "edition_id": "2026-10-12-evening"
+        },
         {
           "story_id": "larnaca-eoa-permit-backlog-review-october-16-2026",
           "article_path": "articles/2026-10-17-morning/cyprus-larnaca.json",
@@ -431,6 +684,38 @@
       ]
     },
     {
+      "id": "4052e972a527ca69cc3eae9c51e53f76188b07bbf6051b34ab0983ed85990922",
+      "asset": "assets/editorial/2026-10-12-morning/world-2.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster,_London_-_Feb_2007.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Palace_of_Westminster%2C_London_-_Feb_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 2.5",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Diliff",
+        "retrieved_at": "2026-10-25T22:20:50.092112+00:00",
+        "url": "assets/editorial/2026-10-12-morning/world-2.webp",
+        "alt": "Το Παλάτι του Ουέστμινστερ στο Λονδίνο, Φεβρουάριος 2007",
+        "caption": "Φωτογραφία αρχείου · Το Παλάτι του Ουέστμινστερ στο Λονδίνο, Φεβρουάριος 2007. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+        "reuse_review": {
+          "source_asset": "assets/editorial/library/uk.webp",
+          "sha256": "4052e972a527ca69cc3eae9c51e53f76188b07bbf6051b34ab0983ed85990922",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
+      },
+      "dimensions": [
+        1200,
+        473
+      ],
+      "references": [
+        {
+          "story_id": "brexit-interference-evidence",
+          "article_path": "articles/2026-10-12-morning/world-2.json",
+          "edition_id": "2026-10-12-morning"
+        }
+      ]
+    },
+    {
       "id": "4c2854a4f3105f00c680b963a8fe355739197bb122e3c99adb8ed00ce627f5b6",
       "asset": "assets/editorial/2026-10-14-morning/sport-united.webp",
       "image": {
@@ -453,6 +738,11 @@
           "story_id": "manutd-atletico-october-2026-result",
           "article_path": "articles/2026-10-14-morning/sport-united.json",
           "edition_id": "2026-10-14-morning"
+        },
+        {
+          "story_id": "manutd-bournemouth-defeat-2026-10-25",
+          "article_path": "articles/2026-10-25-evening/manutd-bournemouth-defeat.json",
+          "edition_id": "2026-10-25-evening"
         }
       ]
     },
@@ -484,24 +774,45 @@
     },
     {
       "id": "4eb05f52868c9f4859f1d347c166036b76f47eb596c6a52441d0e06eadfa2e9e",
-      "asset": "assets/editorial/2026-10-13-morning/cyprus-2.webp",
+      "asset": "assets/editorial/2026-10-12-midday/cyprus-2.webp",
       "image": {
-        "url": "assets/editorial/2026-10-13-morning/cyprus-2.webp",
+        "url": "assets/editorial/2026-10-12-midday/cyprus-2.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Limassol_01-2017_img09_sea_port.jpg",
-        "alt": "Άποψη του εμπορικού λιμανιού Λεμεσού, 05/01/2017. Φωτογραφία αρχείου.",
-        "caption": "Άποψη του εμπορικού λιμανιού Λεμεσού, 05/01/2017. Φωτογραφία αρχείου.",
+        "alt": "Το εμπορικό λιμάνι της Λεμεσού, 5 Ιανουαρίου 2017",
+        "caption": "Φωτογραφία αρχείου · Το εμπορικό λιμάνι της Λεμεσού, 5 Ιανουαρίου 2017. Θεματικό φωτογραφικό πλαίσιο.",
         "attribution": "A.Savin, Wikipedia",
         "source_url": "https://commons.wikimedia.org/wiki/File:Limassol_01-2017_img09_sea_port.jpg",
         "license": "Free Art License 1.3",
         "license_url": "https://artlibre.org/licence/lal/en/",
         "retrieved_at": "2026-10-13T10:31:13+03:00",
-        "download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Limassol_01-2017_img09_sea_port.jpg/1280px-Limassol_01-2017_img09_sea_port.jpg"
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Limassol_01-2017_img09_sea_port.jpg/1280px-Limassol_01-2017_img09_sea_port.jpg",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-13-morning/cyprus-2.webp",
+          "sha256": "4eb05f52868c9f4859f1d347c166036b76f47eb596c6a52441d0e06eadfa2e9e",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1280,
         800
       ],
       "references": [
+        {
+          "story_id": "cyprus-greece-customs-cooperation",
+          "article_path": "articles/2026-10-12-midday/cyprus-2.json",
+          "edition_id": "2026-10-12-midday"
+        },
+        {
+          "story_id": "limassol-customs-supplements",
+          "article_path": "articles/2026-10-12-morning/cyprus-3.json",
+          "edition_id": "2026-10-12-morning"
+        },
+        {
+          "story_id": "mari-naval-base-planning",
+          "article_path": "articles/2026-10-12-morning/cyprus-4.json",
+          "edition_id": "2026-10-12-morning"
+        },
         {
           "story_id": "2026-10-13-cyprus-2",
           "article_path": "articles/2026-10-13-morning/cyprus-2.json",
@@ -526,6 +837,38 @@
           "story_id": "cyprus-israel-naval-procurement-report-october-20-2026",
           "article_path": "articles/2026-10-23-evening/cyprus-naval.json",
           "edition_id": "2026-10-23-evening"
+        }
+      ]
+    },
+    {
+      "id": "51d58bf596904f4846d0b301a47ea587a3f4fdf7e98e4ff02404c67d84b63b2f",
+      "asset": "assets/editorial/2026-10-12-morning/world-5.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_de_S%C3%A3o_Bento_Lissabon_September_2014.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Pal%C3%A1cio_de_S%C3%A3o_Bento_Lissabon_September_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "attribution": "Felix König",
+        "retrieved_at": "2026-10-25T22:21:37.837212+00:00",
+        "url": "assets/editorial/2026-10-12-morning/world-5.webp",
+        "alt": "Το κοινοβούλιο της Πορτογαλίας στη Λισαβόνα, Σεπτέμβριος 2014",
+        "caption": "Φωτογραφία αρχείου · Το κοινοβούλιο της Πορτογαλίας στη Λισαβόνα, Σεπτέμβριος 2014. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+        "reuse_review": {
+          "source_asset": "assets/editorial/library/portugal.webp",
+          "sha256": "51d58bf596904f4846d0b301a47ea587a3f4fdf7e98e4ff02404c67d84b63b2f",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
+      },
+      "dimensions": [
+        788,
+        1200
+      ],
+      "references": [
+        {
+          "story_id": "portugal-housing-protests",
+          "article_path": "articles/2026-10-12-morning/world-5.json",
+          "edition_id": "2026-10-12-morning"
         }
       ]
     },
@@ -557,23 +900,34 @@
     },
     {
       "id": "58930d817107fea3a876a51e91a6a5bed6374666070a6e6930cd09d0bfebbe0c",
-      "asset": "assets/editorial/2026-10-14-morning/world-2.webp",
+      "asset": "assets/editorial/2026-10-11-evening/world-3.webp",
       "image": {
         "source_url": "https://commons.wikimedia.org/wiki/File:Yangshan_Deepwater_Port.jpg",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Yangshan_Deepwater_Port.jpg",
-        "caption": "Λιμάνι Yangshan στην Κίνα, 2007. Φωτογραφία αρχείου· δεν απεικονίζει τη σημερινή εμπορική δραστηριότητα. Τεχνική προσαρμογή: σμίκρυνση και WebP.",
-        "alt": "Λιμάνι Yangshan στην Κίνα, 2007. Φωτογραφία αρχείου· δεν απεικονίζει τη σημερινή εμπορική δραστηριότητα.",
+        "caption": "Φωτογραφία αρχείου · Το λιμάνι Γιανγκσάν στην Κίνα, 2007. Θεματικό φωτογραφικό πλαίσιο.",
+        "alt": "Το λιμάνι Γιανγκσάν στην Κίνα, 2007",
         "attribution": "YHBEST1",
         "license": "Public domain",
         "license_url": "https://commons.wikimedia.org/wiki/File:Yangshan_Deepwater_Port.jpg",
         "retrieved_at": "2026-10-14T07:57:30+03:00",
-        "url": "assets/editorial/2026-10-14-morning/world-2.webp"
+        "url": "assets/editorial/2026-10-11-evening/world-3.webp",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-14-morning/world-2.webp",
+          "sha256": "58930d817107fea3a876a51e91a6a5bed6374666070a6e6930cd09d0bfebbe0c",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1280,
         820
       ],
       "references": [
+        {
+          "story_id": "archive-2026-10-11-world-3",
+          "article_path": "articles/2026-10-11-evening/world-3.json",
+          "edition_id": "2026-10-11-evening"
+        },
         {
           "story_id": "china-september-2026-trade",
           "article_path": "articles/2026-10-14-morning/world-2.json",
@@ -588,6 +942,11 @@
           "story_id": "china-lpr-decision-october-20-2026",
           "article_path": "articles/2026-10-20-morning/world-china.json",
           "edition_id": "2026-10-20-morning"
+        },
+        {
+          "story_id": "tc-property-rent-reference-dispute-2026-10-26",
+          "article_path": "articles/2026-10-26-evening/tc-property-rents.json",
+          "edition_id": "2026-10-26-evening"
         }
       ]
     },
@@ -619,28 +978,54 @@
           "story_id": "west-bank-diplomats-attack-october-17-2026",
           "article_path": "articles/2026-10-18-morning/world-diplomats.json",
           "edition_id": "2026-10-18-morning"
+        },
+        {
+          "story_id": "jordan-church-west-bank-attacks-2026-10-23",
+          "article_path": "articles/2026-10-24-midday/lead.json",
+          "edition_id": "2026-10-24-midday"
+        },
+        {
+          "story_id": "jordan-church-west-bank-attacks-2026-10-23",
+          "article_path": "articles/2026-10-25-evening/lead.json",
+          "edition_id": "2026-10-25-evening"
+        },
+        {
+          "story_id": "jordan-church-west-bank-attacks-2026-10-23",
+          "article_path": "articles/2026-10-25-midday/lead.json",
+          "edition_id": "2026-10-25-midday"
         }
       ]
     },
     {
       "id": "62685d855cbd7f6e18175e45035e814560d96bb774cb2ccf23310d6d323d7ffb",
-      "asset": "assets/editorial/2026-10-15-morning/world-hormuz.webp",
+      "asset": "assets/editorial/2026-10-12-midday/cyprus-1.webp",
       "image": {
-        "url": "assets/editorial/2026-10-15-morning/world-hormuz.webp",
-        "alt": "Δορυφορική φωτογραφία του Ορμούζ και της χερσονήσου Musandam, 06/12/2018, σύμφωνα με τη μεταδεδομένη ημερομηνία της NASA. Γεωγραφικό αρχείο· δεν απεικονίζει τις επιθέσεις ή τα πλοία.",
-        "caption": "Δορυφορική φωτογραφία του Ορμούζ και της χερσονήσου Musandam, 06/12/2018, σύμφωνα με τη μεταδεδομένη ημερομηνία της NASA. Γεωγραφικό αρχείο· δεν απεικονίζει τις επιθέσεις ή τα πλοία. Τεχνική προσαρμογή: σμίκρυνση και μετατροπή WebP.",
+        "url": "assets/editorial/2026-10-12-midday/cyprus-1.webp",
+        "alt": "Το Στενό του Ορμούζ από το διάστημα, φωτογραφία NASA του Δεκεμβρίου 2018",
+        "caption": "Φωτογραφία αρχείου · Το Στενό του Ορμούζ από το διάστημα, φωτογραφία NASA του Δεκεμβρίου 2018. Θεματικό φωτογραφικό πλαίσιο.",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Strait_of_Hormuz_and_Musandam_Peninsula_%28MODIS_2018-12-10%29.jpg",
         "source_url": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_and_Musandam_Peninsula_(MODIS_2018-12-10).jpg",
         "attribution": "MODIS Land Rapid Response Team, NASA GSFC / Wikimedia Commons",
         "license": "Public domain",
         "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA",
-        "retrieved_at": "2026-10-15T07:44:20+03:00"
+        "retrieved_at": "2026-10-15T07:44:20+03:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-15-morning/world-hormuz.webp",
+          "sha256": "62685d855cbd7f6e18175e45035e814560d96bb774cb2ccf23310d6d323d7ffb",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1280,
         1026
       ],
       "references": [
+        {
+          "story_id": "turkey-cyprus-gas-pipeline",
+          "article_path": "articles/2026-10-12-midday/cyprus-1.json",
+          "edition_id": "2026-10-12-midday"
+        },
         {
           "story_id": "hormuz-gfs-pride-giselle-october-2026",
           "article_path": "articles/2026-10-15-morning/world-hormuz.json",
@@ -655,6 +1040,26 @@
           "story_id": "iran-us-talks-strategy-october-20-2026",
           "article_path": "articles/2026-10-23-evening/world-iran.json",
           "edition_id": "2026-10-23-evening"
+        },
+        {
+          "story_id": "cyprus-un-turkey-libya-memorandum-2026-10-23",
+          "article_path": "articles/2026-10-24-morning/cyprus-eez.json",
+          "edition_id": "2026-10-24-morning"
+        },
+        {
+          "story_id": "turkey-libya-maritime-precedent-cyprus-2026-10-25",
+          "article_path": "articles/2026-10-26-evening/turkey-libya-cyprus.json",
+          "edition_id": "2026-10-26-evening"
+        },
+        {
+          "story_id": "turkey-libya-maritime-precedent-cyprus-2026-10-25",
+          "article_path": "articles/2026-10-26-midday/turkey-libya-cyprus.json",
+          "edition_id": "2026-10-26-midday"
+        },
+        {
+          "story_id": "turkey-libya-maritime-precedent-cyprus-2026-10-25",
+          "article_path": "articles/2026-10-26-morning/turkey-libya-cyprus.json",
+          "edition_id": "2026-10-26-morning"
         }
       ]
     },
@@ -818,23 +1223,34 @@
     },
     {
       "id": "7333d8a8700039a1da25500cbf959ac076aa9b21c15734aa7e51e6dc26ef020f",
-      "asset": "assets/editorial/2026-10-15-evening/world-gaza.webp",
+      "asset": "assets/editorial/2026-10-11-evening/world-4.webp",
       "image": {
-        "url": "assets/editorial/2026-10-15-evening/world-gaza.webp",
+        "url": "assets/editorial/2026-10-11-evening/world-4.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Humanitarian_Aid_at_the_Zikim_Crossing_%289417298%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "source_url": "https://commons.wikimedia.org/wiki/File:Humanitarian_Aid_at_the_Zikim_Crossing_(9417298).jpg",
-        "caption": "Φορτηγά ανθρωπιστικής βοήθειας στη διάβαση Zikim, Νοέμβριος 2025. Φωτογραφία αρχείου, όχι της σημερινής ροής. Η πηγή δίνει λήψη 24/11 και στην περιγραφή 25/11. Τεχνική προσαρμογή: σμίκρυνση και μετατροπή WebP.",
-        "alt": "Φορτηγά ανθρωπιστικής βοήθειας στη διάβαση Zikim, Νοέμβριος 2025. Φωτογραφία αρχείου, όχι της σημερινής ροής. Η πηγή δίνει λήψη 24/11 και στην περιγραφή 25/11.",
+        "caption": "Φωτογραφία αρχείου · Φορτηγά ανθρωπιστικής βοήθειας στη δίοδο Ζικίμ προς τη Γάζα, Νοέμβριος 2025. Θεματικό φωτογραφικό πλαίσιο.",
+        "alt": "Φορτηγά ανθρωπιστικής βοήθειας στη δίοδο Ζικίμ προς τη Γάζα, Νοέμβριος 2025",
         "attribution": "U.S. Army photo by Staff Sgt. Michael Ito / Wikimedia Commons",
         "license": "Public domain",
         "license_url": "https://www.dvidshub.net/about/copyright",
-        "retrieved_at": "2026-10-15T16:46:44.653360+00:00"
+        "retrieved_at": "2026-10-15T16:46:44.653360+00:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-15-evening/world-gaza.webp",
+          "sha256": "7333d8a8700039a1da25500cbf959ac076aa9b21c15734aa7e51e6dc26ef020f",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1280,
         853
       ],
       "references": [
+        {
+          "story_id": "archive-2026-10-11-world-4",
+          "article_path": "articles/2026-10-11-evening/world-4.json",
+          "edition_id": "2026-10-11-evening"
+        },
         {
           "story_id": "gaza-commercial-truck-coordination-october-15-2026",
           "article_path": "articles/2026-10-15-evening/world-gaza.json",
@@ -849,23 +1265,44 @@
     },
     {
       "id": "74e70536c975934300273a9c7895e4f37467506aeacddf64f685f05475e609e1",
-      "asset": "assets/editorial/2026-10-13-morning/world-4.webp",
+      "asset": "assets/editorial/2026-10-11-evening/world-2.webp",
       "image": {
-        "url": "assets/editorial/2026-10-13-morning/world-4.webp",
+        "url": "assets/editorial/2026-10-11-evening/world-2.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Darnytska_Combined_Heat_and_Power_Plant_in_Kyiv_after_Russian_attack_on_2026-02-03_%2819%29.jpg",
         "source_url": "https://commons.wikimedia.org/wiki/File:Darnytska_Combined_Heat_and_Power_Plant_in_Kyiv_after_Russian_attack_on_2026-02-03_%2819%29.jpg",
-        "caption": "Επίσκεψη στη μονάδα Darnytska του Κιέβου μετά την επίθεση της 03/02/2026. Φωτογραφία αρχείου για το πλαίσιο του θέματος· δεν απεικονίζει το σημερινό γεγονός. Μείωση μεγέθους/μετατροπή WebP.",
-        "alt": "Επίσκεψη στη μονάδα Darnytska του Κιέβου μετά την επίθεση της 03/02/2026. Φωτογραφία αρχείου.",
+        "caption": "Φωτογραφία αρχείου · Ο σταθμός Νταρνίτσκα στο Κίεβο μετά από επίθεση, 3 Φεβρουαρίου 2026. Θεματικό φωτογραφικό πλαίσιο.",
+        "alt": "Ο σταθμός Νταρνίτσκα στο Κίεβο μετά από επίθεση, 3 Φεβρουαρίου 2026",
         "attribution": "Ministry of Energy of Ukraine · Mev.gov.ua / Wikimedia Commons",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "retrieved_at": "2026-10-13T15:54:24+03:00"
+        "retrieved_at": "2026-10-13T15:54:24+03:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-13-morning/world-4.webp",
+          "sha256": "74e70536c975934300273a9c7895e4f37467506aeacddf64f685f05475e609e1",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1280,
         853
       ],
       "references": [
+        {
+          "story_id": "archive-2026-10-11-world-2",
+          "article_path": "articles/2026-10-11-evening/world-2.json",
+          "edition_id": "2026-10-11-evening"
+        },
+        {
+          "story_id": "ukraine-ceasefire-elections",
+          "article_path": "articles/2026-10-12-midday/world-2.json",
+          "edition_id": "2026-10-12-midday"
+        },
+        {
+          "story_id": "ukraine-ceasefire-elections",
+          "article_path": "articles/2026-10-12-morning/world-1.json",
+          "edition_id": "2026-10-12-morning"
+        },
         {
           "story_id": "2026-10-13-world-4",
           "article_path": "articles/2026-10-13-morning/world-4.json",
@@ -1463,23 +1900,54 @@
     },
     {
       "id": "9fa19bf42d3a22ff0e686d863366cb910aba144aca296b2fba55c94437ac34b3",
-      "asset": "assets/editorial/2026-10-13-morning/cyprus-1.webp",
+      "asset": "assets/editorial/2026-10-11-evening/cyprus-2.webp",
       "image": {
-        "url": "assets/editorial/2026-10-13-morning/cyprus-1.webp",
+        "url": "assets/editorial/2026-10-11-evening/cyprus-2.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Cyprus_House_of_Representantives_Nicosia_Republic_of_Cyprus.jpg",
-        "alt": "Βουλή των Αντιπροσώπων, Λευκωσία, 09/05/2014. Φωτογραφία αρχείου.",
-        "caption": "Βουλή των Αντιπροσώπων, Λευκωσία, 09/05/2014. Φωτογραφία αρχείου.",
+        "alt": "Η Βουλή των Αντιπροσώπων στη Λευκωσία, 9 Μαΐου 2014",
+        "caption": "Φωτογραφία αρχείου · Η Βουλή των Αντιπροσώπων στη Λευκωσία, 9 Μαΐου 2014. Θεματικό φωτογραφικό πλαίσιο.",
         "attribution": "NicosiaRepublicCyprus",
         "source_url": "https://commons.wikimedia.org/wiki/File:Cyprus_House_of_Representantives_Nicosia_Republic_of_Cyprus.jpg",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "retrieved_at": "2026-10-13T15:54:24+03:00"
+        "retrieved_at": "2026-10-13T15:54:24+03:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-13-morning/cyprus-1.webp",
+          "sha256": "9fa19bf42d3a22ff0e686d863366cb910aba144aca296b2fba55c94437ac34b3",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         785,
         565
       ],
       "references": [
+        {
+          "story_id": "archive-2026-10-11-cyprus-2",
+          "article_path": "articles/2026-10-11-evening/cyprus-2.json",
+          "edition_id": "2026-10-11-evening"
+        },
+        {
+          "story_id": "archive-2026-10-11-cyprus-3",
+          "article_path": "articles/2026-10-11-evening/cyprus-3.json",
+          "edition_id": "2026-10-11-evening"
+        },
+        {
+          "story_id": "cyprus-budget-2027",
+          "article_path": "articles/2026-10-12-evening/lead.json",
+          "edition_id": "2026-10-12-evening"
+        },
+        {
+          "story_id": "cyprus-budget-2027",
+          "article_path": "articles/2026-10-12-morning/cyprus-1.json",
+          "edition_id": "2026-10-12-morning"
+        },
+        {
+          "story_id": "cyprus-public-service-exams",
+          "article_path": "articles/2026-10-12-morning/cyprus-5.json",
+          "edition_id": "2026-10-12-morning"
+        },
         {
           "story_id": "2026-10-13-cyprus-1",
           "article_path": "articles/2026-10-13-morning/cyprus-1.json",
@@ -1559,6 +2027,58 @@
           "story_id": "cyprus-school-support-strike-2026-10-23",
           "article_path": "articles/2026-10-24-morning/cyprus-education.json",
           "edition_id": "2026-10-24-morning"
+        },
+        {
+          "story_id": "cyprus-fiscal-surplus-policy-space-2026-10-25",
+          "article_path": "articles/2026-10-25-evening/cyprus-fiscal-surplus.json",
+          "edition_id": "2026-10-25-evening"
+        },
+        {
+          "story_id": "edek-leadership-elections-2026-12",
+          "article_path": "articles/2026-10-26-evening/edek-leadership-vote.json",
+          "edition_id": "2026-10-26-evening"
+        },
+        {
+          "story_id": "edek-leadership-elections-2026-12",
+          "article_path": "articles/2026-10-26-midday/edek-leadership-vote.json",
+          "edition_id": "2026-10-26-midday"
+        },
+        {
+          "story_id": "edek-leadership-elections-2026-12",
+          "article_path": "articles/2026-10-26-morning/edek-leadership-vote.json",
+          "edition_id": "2026-10-26-morning"
+        }
+      ]
+    },
+    {
+      "id": "9ff864027bdf4bad25637874fc4816c472da6c47530389bdd861fa3b17f25d2d",
+      "asset": "assets/editorial/2026-10-12-midday/aek-aradippou-preview.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:The_AEK_Arena_in_Larnaca_in_summer_2021.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/The_AEK_Arena_in_Larnaca_in_summer_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Vincenzo.togni",
+        "retrieved_at": "2026-10-25T22:20:46.778240+00:00",
+        "url": "assets/editorial/2026-10-12-midday/aek-aradippou-preview.webp",
+        "alt": "Το AEK Arena στη Λάρνακα, καλοκαίρι 2021",
+        "caption": "Φωτογραφία αρχείου · Το AEK Arena στη Λάρνακα, καλοκαίρι 2021. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+        "reuse_review": {
+          "source_asset": "assets/editorial/library/aek.webp",
+          "sha256": "9ff864027bdf4bad25637874fc4816c472da6c47530389bdd861fa3b17f25d2d",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
+      },
+      "dimensions": [
+        1200,
+        900
+      ],
+      "references": [
+        {
+          "story_id": "aek-aradippou-preview-2026",
+          "article_path": "articles/2026-10-12-midday/aek-aradippou-preview.json",
+          "edition_id": "2026-10-12-midday"
         }
       ]
     },
@@ -1647,6 +2167,53 @@
           "story_id": "us-graham-russia-sanctions-waiver-october-16-2026",
           "article_path": "articles/2026-10-18-midday/world-sanctions.json",
           "edition_id": "2026-10-18-midday"
+        },
+        {
+          "story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+          "article_path": "articles/2026-10-24-midday/world-us.json",
+          "edition_id": "2026-10-24-midday"
+        },
+        {
+          "story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+          "article_path": "articles/2026-10-25-evening/world-us.json",
+          "edition_id": "2026-10-25-evening"
+        },
+        {
+          "story_id": "us-midterms-economy-foreign-policy-poll-2026-10-24",
+          "article_path": "articles/2026-10-25-midday/world-us.json",
+          "edition_id": "2026-10-25-midday"
+        }
+      ]
+    },
+    {
+      "id": "a3e2c4dbfa131ea46ee74ccd7c7d196bbf1738cf4564e0509e8df62b413844bc",
+      "asset": "assets/editorial/2026-10-12-midday/liverpool-city-match.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:Anfield_stadium_in_May_2024.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Anfield_stadium_in_May_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "attribution": "FYI2023",
+        "retrieved_at": "2026-10-25T22:21:37.667520+00:00",
+        "url": "assets/editorial/2026-10-12-midday/liverpool-city-match.webp",
+        "alt": "Το Άνφιλντ στο Λίβερπουλ, Μάιος 2024",
+        "caption": "Φωτογραφία αρχείου · Το Άνφιλντ στο Λίβερπουλ, Μάιος 2024. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+        "reuse_review": {
+          "source_asset": "assets/editorial/library/liverpool.webp",
+          "sha256": "a3e2c4dbfa131ea46ee74ccd7c7d196bbf1738cf4564e0509e8df62b413844bc",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
+      },
+      "dimensions": [
+        1200,
+        900
+      ],
+      "references": [
+        {
+          "story_id": "liverpool-city-match-2026",
+          "article_path": "articles/2026-10-12-midday/liverpool-city-match.json",
+          "edition_id": "2026-10-12-midday"
         }
       ]
     },
@@ -1797,23 +2364,34 @@
     },
     {
       "id": "ac5f398e37f7ec1e59081a7806b2e3a496c641d6870c9e7a7f7d019f94a4527b",
-      "asset": "assets/editorial/2026-10-13-morning/cyprus-3.webp",
+      "asset": "assets/editorial/2026-10-12-morning/cyprus-6.webp",
       "image": {
-        "url": "assets/editorial/2026-10-13-morning/cyprus-3.webp",
+        "url": "assets/editorial/2026-10-12-morning/cyprus-6.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Central_Bank_of_Cyprus_%288132810514%29.jpg",
         "source_url": "https://commons.wikimedia.org/wiki/File:Central_Bank_of_Cyprus_%288132810514%29.jpg",
-        "caption": "Κεντρική Τράπεζα Κύπρου, 18/09/2012. Φωτογραφία αρχείου για το πλαίσιο του θέματος· δεν απεικονίζει το σημερινό γεγονός. Μείωση μεγέθους/μετατροπή WebP.",
-        "alt": "Κεντρική Τράπεζα Κύπρου, 18/09/2012. Φωτογραφία αρχείου.",
+        "caption": "Φωτογραφία αρχείου · Η Κεντρική Τράπεζα της Κύπρου, 18 Σεπτεμβρίου 2012. Θεματικό φωτογραφικό πλαίσιο.",
+        "alt": "Η Κεντρική Τράπεζα της Κύπρου, 18 Σεπτεμβρίου 2012",
         "attribution": "Michal Osmenda / Wikimedia Commons",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0/",
-        "retrieved_at": "2026-10-13T15:54:24+03:00"
+        "retrieved_at": "2026-10-13T15:54:24+03:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-13-morning/cyprus-3.webp",
+          "sha256": "ac5f398e37f7ec1e59081a7806b2e3a496c641d6870c9e7a7f7d019f94a4527b",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1280,
         850
       ],
       "references": [
+        {
+          "story_id": "cyprus-mortgage-rates",
+          "article_path": "articles/2026-10-12-morning/cyprus-6.json",
+          "edition_id": "2026-10-12-morning"
+        },
         {
           "story_id": "2026-10-13-cyprus-3",
           "article_path": "articles/2026-10-13-morning/cyprus-3.json",
@@ -1833,28 +2411,54 @@
           "story_id": "cyprus-fiscal-surplus-debt-2026-10-21",
           "article_path": "articles/2026-10-22-midday/cyprus-fiscal.json",
           "edition_id": "2026-10-22-midday"
+        },
+        {
+          "story_id": "cysec-impersonation-recovery-scam-2026-10-26",
+          "article_path": "articles/2026-10-26-evening/cysec-recovery-fraud.json",
+          "edition_id": "2026-10-26-evening"
+        },
+        {
+          "story_id": "cysec-impersonation-recovery-scam-2026-10-26",
+          "article_path": "articles/2026-10-26-midday/cysec-recovery-fraud.json",
+          "edition_id": "2026-10-26-midday"
         }
       ]
     },
     {
       "id": "af191ba5242af27e71193aa0393c1f1f9265720b9aa582b503ec4e012e0a4dbd",
-      "asset": "assets/editorial/2026-10-13-midday/world-2.webp",
+      "asset": "assets/editorial/2026-10-11-evening/lead.webp",
       "image": {
-        "url": "assets/editorial/2026-10-13-midday/world-2.webp",
+        "url": "assets/editorial/2026-10-11-evening/lead.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Terminal_Architecture_%283003341245%29.jpg",
-        "alt": "Terminal 3 του King Khalid International Airport στο Ριάντ, 28/10/2008. Φωτογραφία αρχείου, πριν από τις επιθέσεις.",
-        "caption": "Terminal 3 του King Khalid International Airport στο Ριάντ, 28/10/2008. Φωτογραφία αρχείου, πριν από τις επιθέσεις. Μείωση μεγέθους και μετατροπή σε WebP.",
+        "alt": "Ο τερματικός σταθμός 3 του αεροδρομίου King Khalid στο Ριάντ, 28 Οκτωβρίου 2008",
+        "caption": "Φωτογραφία αρχείου · Ο τερματικός σταθμός 3 του αεροδρομίου King Khalid στο Ριάντ, 28 Οκτωβρίου 2008. Θεματικό φωτογραφικό πλαίσιο.",
         "attribution": "DearEdward",
         "source_url": "https://commons.wikimedia.org/wiki/File:Terminal_Architecture_(3003341245).jpg",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0/",
-        "retrieved_at": "2026-10-13T13:50:24+03:00"
+        "retrieved_at": "2026-10-13T13:50:24+03:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-13-midday/world-2.webp",
+          "sha256": "af191ba5242af27e71193aa0393c1f1f9265720b9aa582b503ec4e012e0a4dbd",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         600,
         800
       ],
       "references": [
+        {
+          "story_id": "riyadh-airport-attacks",
+          "article_path": "articles/2026-10-11-evening/lead.json",
+          "edition_id": "2026-10-11-evening"
+        },
+        {
+          "story_id": "riyadh-airport-attacks",
+          "article_path": "articles/2026-10-12-morning/lead.json",
+          "edition_id": "2026-10-12-morning"
+        },
         {
           "story_id": "riyadh-airport-disruption",
           "article_path": "articles/2026-10-13-midday/world-2.json",
@@ -1936,23 +2540,39 @@
     },
     {
       "id": "b422e5700b2f0036736cad7ce4144141948b0e02d14f8537e848476ea18bb78f",
-      "asset": "assets/editorial/2026-10-15-evening/sport-zverev.webp",
+      "asset": "assets/editorial/2026-10-12-evening/shanghai-bergs-alcaraz.webp",
       "image": {
-        "url": "assets/editorial/2026-10-15-evening/sport-zverev.webp",
+        "url": "assets/editorial/2026-10-12-evening/shanghai-bergs-alcaraz.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Qizhong_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "source_url": "https://commons.wikimedia.org/wiki/File:Qizhong_Stadium.jpg",
-        "caption": "Το Qizhong Forest Sports City Arena της Σαγκάης, 11/11/2008. Πραγματική φωτογραφία αρχείου του τόπου διεξαγωγής· όχι ο σημερινός αγώνας ή ο Alexander Zverev. Τεχνική προσαρμογή: σμίκρυνση και μετατροπή WebP.",
-        "alt": "Το Qizhong Forest Sports City Arena της Σαγκάης, 11/11/2008. Πραγματική φωτογραφία αρχείου του τόπου διεξαγωγής· όχι ο σημερινός αγώνας ή ο Alexander Zverev.",
+        "caption": "Φωτογραφία αρχείου · Το στάδιο τένις Qizhong στη Σαγκάη, 11 Νοεμβρίου 2008. Θεματικό φωτογραφικό πλαίσιο.",
+        "alt": "Το στάδιο τένις Qizhong στη Σαγκάη, 11 Νοεμβρίου 2008",
         "attribution": "Curt Smith from  Bellevue, WA, USA / Wikimedia Commons",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "retrieved_at": "2026-10-15T17:44:09.714290+00:00"
+        "retrieved_at": "2026-10-15T17:44:09.714290+00:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-15-evening/sport-zverev.webp",
+          "sha256": "b422e5700b2f0036736cad7ce4144141948b0e02d14f8537e848476ea18bb78f",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1280,
         854
       ],
       "references": [
+        {
+          "story_id": "shanghai-bergs-alcaraz-2026",
+          "article_path": "articles/2026-10-12-evening/shanghai-bergs-alcaraz.json",
+          "edition_id": "2026-10-12-evening"
+        },
+        {
+          "story_id": "shanghai-tsitsipas-fritz-2026",
+          "article_path": "articles/2026-10-12-evening/shanghai-tsitsipas-fritz.json",
+          "edition_id": "2026-10-12-evening"
+        },
         {
           "story_id": "shanghai-zverev-davidovich-semifinal-2026",
           "article_path": "articles/2026-10-15-evening/sport-zverev.json",
@@ -2091,23 +2711,34 @@
     },
     {
       "id": "bb57511c6bc1c2203564c518700ccb03066a3ae5d0c3862ff6b10197d3c237f8",
-      "asset": "assets/editorial/2026-10-13-morning/cyprus-4.webp",
+      "asset": "assets/editorial/2026-10-11-evening/cyprus-5.webp",
       "image": {
-        "url": "assets/editorial/2026-10-13-morning/cyprus-4.webp",
+        "url": "assets/editorial/2026-10-11-evening/cyprus-5.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Larnaca_Police_Station.jpg",
         "source_url": "https://commons.wikimedia.org/wiki/File:Larnaca_Police_Station.jpg",
-        "caption": "Αστυνομική διεύθυνση Λάρνακας, 11/08/2020. Φωτογραφία αρχείου για το πλαίσιο του θέματος· δεν απεικονίζει το σημερινό γεγονός. Μείωση μεγέθους/μετατροπή WebP.",
-        "alt": "Αστυνομική διεύθυνση Λάρνακας, 11/08/2020. Φωτογραφία αρχείου.",
+        "caption": "Φωτογραφία αρχείου · Η Αστυνομική Διεύθυνση Λάρνακας, 11 Αυγούστου 2020. Θεματικό φωτογραφικό πλαίσιο.",
+        "alt": "Η Αστυνομική Διεύθυνση Λάρνακας, 11 Αυγούστου 2020",
         "attribution": "Eidikes Dynameis Kyprou / Wikimedia Commons",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "retrieved_at": "2026-10-13T15:54:24+03:00"
+        "retrieved_at": "2026-10-13T15:54:24+03:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-13-morning/cyprus-4.webp",
+          "sha256": "bb57511c6bc1c2203564c518700ccb03066a3ae5d0c3862ff6b10197d3c237f8",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1216,
         912
       ],
       "references": [
+        {
+          "story_id": "archive-2026-10-11-cyprus-5",
+          "article_path": "articles/2026-10-11-evening/cyprus-5.json",
+          "edition_id": "2026-10-11-evening"
+        },
         {
           "story_id": "2026-10-13-cyprus-4",
           "article_path": "articles/2026-10-13-morning/cyprus-4.json",
@@ -2204,23 +2835,34 @@
     },
     {
       "id": "c08ad51d292c5eb918a337fe2eff12d4c5ea6feae547e652d96de7db443a11f8",
-      "asset": "assets/editorial/2026-10-16-midday/cyprus-court.webp",
+      "asset": "assets/editorial/2026-10-12-evening/cyprus-1.webp",
       "image": {
-        "url": "assets/editorial/2026-10-16-midday/cyprus-court.webp",
+        "url": "assets/editorial/2026-10-12-evening/cyprus-1.webp",
         "source_url": "https://commons.wikimedia.org/wiki/File:Supreme_Court_building_in_Cyprus,_Nicosia.jpg",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Supreme_Court_building_in_Cyprus%2C_Nicosia.jpg",
-        "alt": "Ανώτατο Δικαστήριο στη Λευκωσία, 27 Αυγούστου 2020. Αρχειακό πλαίσιο κυπριακής δικαιοσύνης· δεν είναι το Επαρχιακό Δικαστήριο Πάφου ή φωτογραφία της δίκης.",
-        "caption": "Ανώτατο Δικαστήριο στη Λευκωσία, 27/08/2020. Φωτογραφία αρχείου του Eidikes Dynameis Kyprou ως θεσμικό πλαίσιο· δεν απεικονίζει το δικαστήριο Πάφου ή τη συγκεκριμένη δίκη. Σμίκρυνση και μετατροπή WebP.",
+        "alt": "Το Ανώτατο Δικαστήριο στη Λευκωσία, 27 Αυγούστου 2020",
+        "caption": "Φωτογραφία αρχείου · Το Ανώτατο Δικαστήριο στη Λευκωσία, 27 Αυγούστου 2020. Θεματικό φωτογραφικό πλαίσιο.",
         "attribution": "Eidikes Dynameis Kyprou / Wikimedia Commons",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "retrieved_at": "2026-10-16T11:45:13.259517+00:00"
+        "retrieved_at": "2026-10-16T11:45:13.259517+00:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-16-midday/cyprus-court.webp",
+          "sha256": "c08ad51d292c5eb918a337fe2eff12d4c5ea6feae547e652d96de7db443a11f8",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1216,
         912
       ],
       "references": [
+        {
+          "story_id": "deloitte-cyprus-abramovich-investigation",
+          "article_path": "articles/2026-10-12-evening/cyprus-1.json",
+          "edition_id": "2026-10-12-evening"
+        },
         {
           "story_id": "paphos-child-hotel-fall-sentencing-october-16-2026",
           "article_path": "articles/2026-10-16-midday/cyprus-court.json",
@@ -2415,23 +3057,39 @@
     },
     {
       "id": "cebf4ca9b6e401e2e63980bd851c4415987e909719360ddf27f0a51bbdfa3d00",
-      "asset": "assets/editorial/2026-10-15-evening/cyprus-rebates.webp",
+      "asset": "assets/editorial/2026-10-12-evening/world-1.webp",
       "image": {
-        "url": "assets/editorial/2026-10-15-evening/cyprus-rebates.webp",
+        "url": "assets/editorial/2026-10-12-evening/world-1.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/EU2024BE_240103_Decoration_of_the_Council_Building_JNZT_0014_%2853440297450%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "source_url": "https://commons.wikimedia.org/wiki/File:EU2024BE_240103_Decoration_of_the_Council_Building_JNZT_0014_(53440297450).jpg",
-        "caption": "Κτίριο του Συμβουλίου της ΕΕ στις Βρυξέλλες κατά τη βελγική προεδρία, 03/01/2024. Φωτογραφία αρχείου· όχι η σημερινή συνάντηση των ηγετών. Τεχνική προσαρμογή: σμίκρυνση και μετατροπή WebP.",
-        "alt": "Κτίριο του Συμβουλίου της ΕΕ στις Βρυξέλλες κατά τη βελγική προεδρία, 03/01/2024. Φωτογραφία αρχείου· όχι η σημερινή συνάντηση των ηγετών.",
+        "caption": "Φωτογραφία αρχείου · Το εσωτερικό του Ευρωπαϊκού Συμβουλίου στις Βρυξέλλες, 3 Ιανουαρίου 2024. Θεματικό φωτογραφικό πλαίσιο.",
+        "alt": "Το εσωτερικό του Ευρωπαϊκού Συμβουλίου στις Βρυξέλλες, 3 Ιανουαρίου 2024",
         "attribution": "Belgian Presidency of the Council of the EU 2024 from Belgium / Wikimedia Commons",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "retrieved_at": "2026-10-15T16:46:44.648105+00:00"
+        "retrieved_at": "2026-10-15T16:46:44.648105+00:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-15-evening/cyprus-rebates.webp",
+          "sha256": "cebf4ca9b6e401e2e63980bd851c4415987e909719360ddf27f0a51bbdfa3d00",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1280,
         853
       ],
       "references": [
+        {
+          "story_id": "eu-russian-military-supply-sanctions",
+          "article_path": "articles/2026-10-12-evening/world-1.json",
+          "edition_id": "2026-10-12-evening"
+        },
+        {
+          "story_id": "eusm-lebanon-mission",
+          "article_path": "articles/2026-10-12-evening/world-2.json",
+          "edition_id": "2026-10-12-evening"
+        },
         {
           "story_id": "cyprus-eu-budget-rebates-letter-october-2026",
           "article_path": "articles/2026-10-15-evening/cyprus-rebates.json",
@@ -2446,29 +3104,65 @@
           "story_id": "cyprus-fiscal-surplus-borrowing-costs-radar-october-2026",
           "article_path": "articles/2026-10-21-evening/cyprus-economy.json",
           "edition_id": "2026-10-21-evening"
+        },
+        {
+          "story_id": "cyprus-konstantinidis-fra-chair-2026-10-25",
+          "article_path": "articles/2026-10-25-evening/konstantinidis-fra-chair.json",
+          "edition_id": "2026-10-25-evening"
+        },
+        {
+          "story_id": "cyprus-konstantinidis-fra-chair-2026-10-25",
+          "article_path": "articles/2026-10-25-midday/konstantinidis-fra-chair.json",
+          "edition_id": "2026-10-25-midday"
+        },
+        {
+          "story_id": "eu-green-energy-imports-2025",
+          "article_path": "articles/2026-10-26-evening/eu-green-imports.json",
+          "edition_id": "2026-10-26-evening"
+        },
+        {
+          "story_id": "eu-green-energy-imports-2025",
+          "article_path": "articles/2026-10-26-midday/eu-green-imports.json",
+          "edition_id": "2026-10-26-midday"
+        },
+        {
+          "story_id": "eu-green-energy-imports-2025",
+          "article_path": "articles/2026-10-26-morning/eu-green-imports.json",
+          "edition_id": "2026-10-26-morning"
         }
       ]
     },
     {
       "id": "d14f8540e10878e498b9ec4a39a4c14940ebc96be572d1c98cc9befb86919cb2",
-      "asset": "assets/editorial/2026-10-13-morning/world-5.webp",
+      "asset": "assets/editorial/2026-10-12-morning/world-4.webp",
       "image": {
-        "url": "assets/editorial/2026-10-13-morning/world-5.webp",
+        "url": "assets/editorial/2026-10-12-morning/world-4.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Pope_Leo_XIV.png",
-        "alt": "Ο Πάπας Λέων ΙΔ΄ σε συνάντηση με δημοσιογράφους, 12/05/2025. Φωτογραφία αρχείου.",
-        "caption": "Ο Πάπας Λέων ΙΔ΄ σε συνάντηση με δημοσιογράφους, 12/05/2025. Φωτογραφία αρχείου.",
+        "alt": "Ο Πάπας Λέων ΙΔ΄, 12 Μαΐου 2025",
+        "caption": "Φωτογραφία αρχείου · Ο Πάπας Λέων ΙΔ΄, 12 Μαΐου 2025. Θεματικό φωτογραφικό πλαίσιο.",
         "attribution": "Edgar Beltrán, The Pillar",
         "source_url": "https://commons.wikimedia.org/wiki/File:Pope_Leo_XIV.png",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "retrieved_at": "2026-10-13T10:31:13+03:00",
-        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Pope_Leo_XIV.png/1280px-Pope_Leo_XIV.png"
+        "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Pope_Leo_XIV.png/1280px-Pope_Leo_XIV.png",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-13-morning/world-5.webp",
+          "sha256": "d14f8540e10878e498b9ec4a39a4c14940ebc96be572d1c98cc9befb86919cb2",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1280,
         853
       ],
       "references": [
+        {
+          "story_id": "pope-lung-surgery",
+          "article_path": "articles/2026-10-12-morning/world-4.json",
+          "edition_id": "2026-10-12-morning"
+        },
         {
           "story_id": "2026-10-13-world-5",
           "article_path": "articles/2026-10-13-morning/world-5.json",
@@ -2504,23 +3198,34 @@
     },
     {
       "id": "d67e5736fdcd94f9ec65dd4a7a3791a9108d2f75e2d05a22c9c59666542671ff",
-      "asset": "assets/editorial/2026-10-13-midday/lead.webp",
+      "asset": "assets/editorial/2026-10-12-midday/lead.webp",
       "image": {
-        "url": "assets/editorial/2026-10-13-midday/lead.webp",
+        "url": "assets/editorial/2026-10-12-midday/lead.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Supermarket_shelves.jpg",
-        "alt": "Ράφια τροφίμων σε κατάστημα στη Στοκχόλμη, 17 Ιουλίου 2021. Φωτογραφία πλαισίου, όχι κυπριακής υπεραγοράς.",
-        "caption": "Στοκχόλμη, 17/07/2021 · φωτογραφία αρχείου για το θέμα των τιμών, όχι σημερινή λήψη στην Κύπρο. Μείωση μεγέθους και μετατροπή σε WebP.",
+        "alt": "Σούπερ μάρκετ στη Στοκχόλμη, 17 Ιουλίου 2021",
+        "caption": "Φωτογραφία αρχείου · Σούπερ μάρκετ στη Στοκχόλμη, 17 Ιουλίου 2021. Θεματικό φωτογραφικό πλαίσιο.",
         "attribution": "Frankie Fouganthin / Wikimedia Commons",
         "source_url": "https://commons.wikimedia.org/wiki/File:Supermarket_shelves.jpg",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "retrieved_at": "2026-10-13T13:50:24+03:00"
+        "retrieved_at": "2026-10-13T13:50:24+03:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-13-midday/lead.webp",
+          "sha256": "d67e5736fdcd94f9ec65dd4a7a3791a9108d2f75e2d05a22c9c59666542671ff",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1280,
         920
       ],
       "references": [
+        {
+          "story_id": "cyprus-zero-vat-2026",
+          "article_path": "articles/2026-10-12-midday/lead.json",
+          "edition_id": "2026-10-12-midday"
+        },
         {
           "story_id": "cyprus-supermarket-price-spread",
           "article_path": "articles/2026-10-13-midday/lead.json",
@@ -2576,23 +3281,39 @@
     },
     {
       "id": "d7c9f990ca5a40142cda3c11b956a7e64610f4d59fcf9126f1867f91f6ff7f33",
-      "asset": "assets/editorial/2026-10-13-morning/world-1.webp",
+      "asset": "assets/editorial/2026-10-11-evening/world-1.webp",
       "image": {
-        "url": "assets/editorial/2026-10-13-morning/world-1.webp",
+        "url": "assets/editorial/2026-10-11-evening/world-1.webp",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/IMF_building_HR.jpg",
-        "alt": "Η έδρα του ΔΝΤ στην Ουάσιγκτον. Φωτογραφία αναφοράς· δεν απεικονίζει τη σημερινή παρουσίαση.",
-        "caption": "Η έδρα του ΔΝΤ στην Ουάσιγκτον. Φωτογραφία αναφοράς· δεν απεικονίζει τη σημερινή παρουσίαση.",
+        "alt": "Το κτήριο του Διεθνούς Νομισματικού Ταμείου στην Ουάσιγκτον, φωτογραφία αρχείου",
+        "caption": "Φωτογραφία αρχείου · Το κτήριο του Διεθνούς Νομισματικού Ταμείου στην Ουάσιγκτον, φωτογραφία αρχείου. Θεματικό φωτογραφικό πλαίσιο.",
         "attribution": "International Monetary Fund",
         "source_url": "https://commons.wikimedia.org/wiki/File:IMF_building_HR.jpg",
         "license": "Public domain",
         "license_url": "https://commons.wikimedia.org/wiki/File:IMF_building_HR.jpg",
-        "retrieved_at": "2026-10-13T10:31:13+03:00"
+        "retrieved_at": "2026-10-13T10:31:13+03:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-13-morning/world-1.webp",
+          "sha256": "d7c9f990ca5a40142cda3c11b956a7e64610f4d59fcf9126f1867f91f6ff7f33",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1280,
         1011
       ],
       "references": [
+        {
+          "story_id": "archive-2026-10-11-world-1",
+          "article_path": "articles/2026-10-11-evening/world-1.json",
+          "edition_id": "2026-10-11-evening"
+        },
+        {
+          "story_id": "ai-investment-imf-growth",
+          "article_path": "articles/2026-10-12-midday/world-1.json",
+          "edition_id": "2026-10-12-midday"
+        },
         {
           "story_id": "2026-10-13-world-1",
           "article_path": "articles/2026-10-13-morning/world-1.json",
@@ -2623,28 +3344,54 @@
           "story_id": "cyprus-eurostat-ewaste-2024-release-2026",
           "article_path": "articles/2026-10-15-morning/cyprus-waste.json",
           "edition_id": "2026-10-15-morning"
+        },
+        {
+          "story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+          "article_path": "articles/2026-10-24-midday/cyprus-waste.json",
+          "edition_id": "2026-10-24-midday"
+        },
+        {
+          "story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+          "article_path": "articles/2026-10-25-evening/cyprus-waste.json",
+          "edition_id": "2026-10-25-evening"
+        },
+        {
+          "story_id": "cyprus-eu-court-waste-referral-2026-10-01",
+          "article_path": "articles/2026-10-25-midday/cyprus-waste.json",
+          "edition_id": "2026-10-25-midday"
         }
       ]
     },
     {
       "id": "d9422b16b6091aff72187816a5a08aebdb0eb02f5d7c9b75b62d68983fd4a936",
-      "asset": "assets/editorial/2026-10-16-evening/cyprus-road.webp",
+      "asset": "assets/editorial/2026-10-11-evening/cyprus-4.webp",
       "image": {
-        "url": "assets/editorial/2026-10-16-evening/cyprus-road.webp",
+        "url": "assets/editorial/2026-10-11-evening/cyprus-4.webp",
         "source_url": "https://commons.wikimedia.org/wiki/File:A6_Motorway_Cyprus_towrds_Paphos.JPG",
         "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/A6_Motorway_Cyprus_towrds_Paphos.JPG",
-        "alt": "Ο αυτοκινητόδρομος Α6 στη Λεμεσό προς Πάφο, Ιούλιος 2007 (EXIF 17/07). Αρχειακό πλαίσιο κυπριακών οδικών υποδομών· δεν απεικονίζει τον δρόμο Πάφου–Πόλης ή το σημερινό εργοτάξιο.",
-        "caption": "Α6 στη Λεμεσό προς Πάφο, Ιούλιος 2007· EXIF 17/07/2007. Φωτογραφία αρχείου του TomasNY, όχι του έργου Πάφου–Πόλης. Σμίκρυνση και μετατροπή WebP.",
+        "alt": "Ο αυτοκινητόδρομος Α6 Λεμεσού–Πάφου, Ιούλιος 2007",
+        "caption": "Φωτογραφία αρχείου · Ο αυτοκινητόδρομος Α6 Λεμεσού–Πάφου, Ιούλιος 2007. Θεματικό φωτογραφικό πλαίσιο.",
         "attribution": "TomasNY από την αγγλική Wikipedia / Wikimedia Commons",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "retrieved_at": "2026-10-16T10:44:34.548092+00:00"
+        "retrieved_at": "2026-10-16T10:44:34.548092+00:00",
+        "reuse_review": {
+          "source_asset": "assets/editorial/2026-10-16-evening/cyprus-road.webp",
+          "sha256": "d9422b16b6091aff72187816a5a08aebdb0eb02f5d7c9b75b62d68983fd4a936",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
       },
       "dimensions": [
         1105,
         829
       ],
       "references": [
+        {
+          "story_id": "archive-2026-10-11-cyprus-4",
+          "article_path": "articles/2026-10-11-evening/cyprus-4.json",
+          "edition_id": "2026-10-11-evening"
+        },
         {
           "story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
           "article_path": "articles/2026-10-16-evening/cyprus-road.json",
@@ -2654,6 +3401,38 @@
           "story_id": "paphos-polis-road-retender-cancellation-october-16-2026",
           "article_path": "articles/2026-10-16-midday/cyprus-road.json",
           "edition_id": "2026-10-16-midday"
+        }
+      ]
+    },
+    {
+      "id": "da73c9d067379250aa08c344167fa6070b70e01b72c37012b2e9e1f9e3945f7a",
+      "asset": "assets/editorial/2026-10-11-evening/world-5.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:Supreme_Court_of_India,_inside_buildings_02.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Supreme_Court_of_India%2C_inside_buildings_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Pinakpani",
+        "retrieved_at": "2026-10-25T22:20:49.250151+00:00",
+        "url": "assets/editorial/2026-10-11-evening/world-5.webp",
+        "alt": "Το Ανώτατο Δικαστήριο της Ινδίας, φωτογραφία αρχείου",
+        "caption": "Φωτογραφία αρχείου · Το Ανώτατο Δικαστήριο της Ινδίας, φωτογραφία αρχείου. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+        "reuse_review": {
+          "source_asset": "assets/editorial/library/india.webp",
+          "sha256": "da73c9d067379250aa08c344167fa6070b70e01b72c37012b2e9e1f9e3945f7a",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
+      },
+      "dimensions": [
+        1200,
+        900
+      ],
+      "references": [
+        {
+          "story_id": "archive-2026-10-11-world-5",
+          "article_path": "articles/2026-10-11-evening/world-5.json",
+          "edition_id": "2026-10-11-evening"
         }
       ]
     },
@@ -2736,6 +3515,100 @@
           "story_id": "cyprus-orange-warning-october-14-2026",
           "article_path": "articles/2026-10-15-morning/cyprus-storm.json",
           "edition_id": "2026-10-15-morning"
+        }
+      ]
+    },
+    {
+      "id": "e1d2b912d0f25f7d3f3a7678d83155f54aea5eef53a816191006d1d5bff4e5f0",
+      "asset": "assets/editorial/2026-10-25-midday/brazil-runoff-voting.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:Brazilian_National_Congress.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Brazilian_National_Congress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 2.5",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+        "attribution": "Eurico Zimbres",
+        "retrieved_at": "2026-10-25T22:20:43.729162+00:00",
+        "url": "assets/editorial/2026-10-25-midday/brazil-runoff-voting.webp",
+        "alt": "Το Εθνικό Κογκρέσο της Βραζιλίας στην Μπραζίλια, 19 Ιανουαρίου 2006",
+        "caption": "Φωτογραφία αρχείου · Το Εθνικό Κογκρέσο της Βραζιλίας στην Μπραζίλια, 19 Ιανουαρίου 2006. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+        "reuse_review": {
+          "source_asset": "assets/editorial/library/brazil.webp",
+          "sha256": "e1d2b912d0f25f7d3f3a7678d83155f54aea5eef53a816191006d1d5bff4e5f0",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
+      },
+      "dimensions": [
+        1200,
+        757
+      ],
+      "references": [
+        {
+          "story_id": "brazil-presidential-runoff-voting-2026-10-25",
+          "article_path": "articles/2026-10-25-evening/brazil-runoff-voting.json",
+          "edition_id": "2026-10-25-evening"
+        },
+        {
+          "story_id": "brazil-presidential-runoff-voting-2026-10-25",
+          "article_path": "articles/2026-10-25-midday/brazil-runoff-voting.json",
+          "edition_id": "2026-10-25-midday"
+        },
+        {
+          "story_id": "brazil-presidential-runoff-voting-2026-10-25",
+          "article_path": "articles/2026-10-26-evening/brazil-digital-mobilisation.json",
+          "edition_id": "2026-10-26-evening"
+        },
+        {
+          "story_id": "brazil-presidential-runoff-voting-2026-10-25",
+          "article_path": "articles/2026-10-26-midday/brazil-runoff-result.json",
+          "edition_id": "2026-10-26-midday"
+        },
+        {
+          "story_id": "brazil-presidential-runoff-voting-2026-10-25",
+          "article_path": "articles/2026-10-26-morning/brazil-runoff-result.json",
+          "edition_id": "2026-10-26-morning"
+        }
+      ]
+    },
+    {
+      "id": "e60b6a96aa48f029c3f646147dfa6225d43755fcaa05f53056035923f91bd680",
+      "asset": "assets/editorial/2026-10-26-morning/antonelli-us-gp.webp",
+      "image": {
+        "source_url": "https://commons.wikimedia.org/wiki/File:Formula_One_Grand_Prix_Singapore_2013_-_Ferrari_1.jpg",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Formula_One_Grand_Prix_Singapore_2013_-_Ferrari_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "attribution": "Benjamin Goetzinger",
+        "retrieved_at": "2026-10-25T22:23:00.548937+00:00",
+        "url": "assets/editorial/2026-10-26-morning/antonelli-us-gp.webp",
+        "alt": "Μονοθέσιο Ferrari στο Grand Prix της Σιγκαπούρης, 2013",
+        "caption": "Φωτογραφία αρχείου · Μονοθέσιο Ferrari στο Grand Prix της Σιγκαπούρης, 2013. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+        "reuse_review": {
+          "source_asset": "assets/editorial/library/formula1.webp",
+          "sha256": "e60b6a96aa48f029c3f646147dfa6225d43755fcaa05f53056035923f91bd680",
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "relevance_and_archive_date_checked": true
+        }
+      },
+      "dimensions": [
+        1200,
+        768
+      ],
+      "references": [
+        {
+          "story_id": "antonelli-us-gp-title-chance-2026-10-25",
+          "article_path": "articles/2026-10-26-evening/antonelli-us-gp.json",
+          "edition_id": "2026-10-26-evening"
+        },
+        {
+          "story_id": "antonelli-us-gp-title-chance-2026-10-25",
+          "article_path": "articles/2026-10-26-midday/antonelli-us-gp.json",
+          "edition_id": "2026-10-26-midday"
+        },
+        {
+          "story_id": "antonelli-us-gp-title-chance-2026-10-25",
+          "article_path": "articles/2026-10-26-morning/antonelli-us-gp.json",
+          "edition_id": "2026-10-26-morning"
         }
       ]
     },

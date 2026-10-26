@@ -4,7 +4,7 @@
   ],
   "baseline_origin": {
     "edition_id": "2026-10-26-morning",
-    "fingerprint": "a048086ac99f0ef876f408e886959c6604b299b5df6666d50c7d5efcb6cd918c"
+    "fingerprint": "da4eac18e729d781ee5a8172a8a575effcd93d1e351e240471e99c64b0e1b220"
   },
   "category": "Κύπρος",
   "change_status": "UNCHANGED",
@@ -23,8 +23,23 @@
   "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
   "headline": "Τουρκολιβυκό μνημόνιο: προειδοποίηση για πιθανό προηγούμενο εις βάρος της Κύπρου",
   "id": "turkey-libya-cyprus",
-  "image": null,
-  "image_unavailable_reason": "Δεν είναι διαθέσιμη ελεγμένη φωτογραφία για αυτό το άρθρο.",
+  "image": {
+    "url": "assets/editorial/2026-10-26-morning/turkey-libya-cyprus.webp",
+    "alt": "Το Στενό του Ορμούζ από το διάστημα, φωτογραφία NASA του Δεκεμβρίου 2018",
+    "caption": "Φωτογραφία αρχείου · Το Στενό του Ορμούζ από το διάστημα, φωτογραφία NASA του Δεκεμβρίου 2018. Θεματικό φωτογραφικό πλαίσιο.",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Strait_of_Hormuz_and_Musandam_Peninsula_%28MODIS_2018-12-10%29.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_and_Musandam_Peninsula_(MODIS_2018-12-10).jpg",
+    "attribution": "MODIS Land Rapid Response Team, NASA GSFC / Wikimedia Commons",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA",
+    "retrieved_at": "2026-10-15T07:44:20+03:00",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-15-morning/world-hormuz.webp",
+      "sha256": "62685d855cbd7f6e18175e45035e814560d96bb774cb2ccf23310d6d323d7ffb",
+      "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
   "mechanics_and_incentives": "Η ανησυχία δεν είναι άμεση αλλαγή ορίων της κυπριακής ΑΟΖ. Είναι ότι η επανάληψη διμερών συμφωνιών που παρακάμπτουν ενδιάμεσες ακτές μπορεί να χρησιμοποιηθεί πολιτικά για να κανονικοποιήσει ευρύτερες αξιώσεις στην Ανατολική Μεσόγειο.",
   "published_at": "2026-10-26T05:31:55.356033+00:00",
   "reader_mode": "source",

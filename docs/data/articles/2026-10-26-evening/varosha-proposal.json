@@ -4,7 +4,7 @@
   ],
   "baseline_origin": {
     "edition_id": "2026-10-26-midday",
-    "fingerprint": "3feccc46139366e452e5b1da0f32b6016541cfc18aa4c6547b72765fd2c043bf"
+    "fingerprint": "0bbb235fddaa3a637703f0624461f0417b2340d54e846769a21bc38c96a562d5"
   },
   "category": "Κύπρος",
   "change_status": "UNCHANGED",
@@ -21,8 +21,23 @@
   "edition_id": "2026-10-26-evening",
   "headline": "Βαρώσια: ο Χριστοδουλίδης επιμένει στην πρόταση, παρά την αρχική απόρριψη",
   "id": "varosha-proposal",
-  "image": null,
-  "image_unavailable_reason": "Δεν είναι διαθέσιμη ελεγμένη φωτογραφία για αυτό το άρθρο.",
+  "image": {
+    "url": "assets/editorial/2026-10-26-midday/varosha-proposal.webp",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Nicosia_Town_Hall.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nicosia_Town_Hall.jpg",
+    "caption": "Φωτογραφία αρχείου · Το Δημαρχείο Λευκωσίας και η πλατεία Ελευθερίας, 13 Μαΐου 2021. Θεματικό φωτογραφικό πλαίσιο.",
+    "alt": "Το Δημαρχείο Λευκωσίας και η πλατεία Ελευθερίας, 13 Μαΐου 2021",
+    "attribution": "© European Union 2021 · Iakovos Hatzistavrou / European Commission / Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "retrieved_at": "2026-10-13T15:54:24+03:00",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-13-midday/cyprus-3.webp",
+      "sha256": "2834077fdc60d3adc55eb33378e8972ba480e04b420aa9e037db464ad5a70192",
+      "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
   "mechanics_and_incentives": "Ερμηνεία: η σύνδεση επιστροφής κατοίκων με διεθνή διοίκηση και ευρωπαϊκό έλεγχο του λιμανιού συγκεντρώνει διαφορετικά ανταλλάγματα σε μία διαπραγμάτευση. Η δυνατότητα τροποποίησης αφήνει χώρο για ανταπόκριση, αλλά η αρχική απόρριψη δείχνει ότι δεν υπάρχει ακόμη κοινό πλαίσιο.",
   "published_at": "2026-10-26T12:31:38.132381+00:00",
   "reader_mode": "source",

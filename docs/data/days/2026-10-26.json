@@ -500,6 +500,30 @@
       }
     },
     {
+      "id": "769ae5a2fe21ae8762a1a1b86f77946d1d3cb3617665604e987bb36fe94fa3d6",
+      "story_id": null,
+      "kind": "enrichment",
+      "at": "2026-10-26T12:42:27.297857+00:00",
+      "summary": "Εμπλουτισμός εικόνων.",
+      "source_urls": [],
+      "origin": {
+        "edition_id": "2026-10-26-morning",
+        "url": "morning/2026-10-26.html"
+      }
+    },
+    {
+      "id": "d647322c98b2ecd9606647c853b32ee07ab8acf6c7009cc3e4505db61c7013d1",
+      "story_id": null,
+      "kind": "enrichment",
+      "at": "2026-10-26T12:42:27.297857+00:00",
+      "summary": "Εμπλουτισμός εικόνων.",
+      "source_urls": [],
+      "origin": {
+        "edition_id": "2026-10-26-midday",
+        "url": "midday/2026-10-26.html"
+      }
+    },
+    {
       "id": "02b4b05afde480c328af8c9f04c96110737ceda710182316fb3ba6306b5cb7ea",
       "kind": "provenance",
       "at": "2026-10-26T17:38:01.196595+00:00",
@@ -637,6 +661,18 @@
         "article_id": "eu-green-imports",
         "source_story_id": "eu-green-energy-imports-2025",
         "url": "articles/2026-10-26-evening/eu-green-imports.html"
+      }
+    },
+    {
+      "id": "be74592a567db23e2dd5795a3c17c056ef50ec25119555f54094b05bfacd9dda",
+      "story_id": null,
+      "kind": "enrichment",
+      "at": "2026-10-26T19:04:51.889958+00:00",
+      "summary": "Εμπλουτισμός εικόνων.",
+      "source_urls": [],
+      "origin": {
+        "edition_id": "2026-10-26-evening",
+        "url": "evening/2026-10-26.html"
       }
     }
   ],
@@ -859,6 +895,6 @@
   },
   "follow_ups": [],
   "created_at": "2026-10-26T07:05:04.893295+00:00",
-  "updated_at": "2026-10-26T17:40:24.414379+00:00",
-  "input_sha256": "c75abf712cae9caaa7661a88663f5a768a8bd3058242bbcb7f8e1beb8039ba5d"
+  "updated_at": "2026-10-26T19:19:37.637440+00:00",
+  "input_sha256": "c03c3941b1a9e518dbc43b36473edeb2869e1267f9c2732ba2d7f7480d98bf40"
 }

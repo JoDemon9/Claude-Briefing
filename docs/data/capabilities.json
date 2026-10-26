@@ -1,7 +1,7 @@
 {
   "contract_version": 1,
   "producer_protocol": "oracle-briefing/3",
-  "content_schema_sha256": "c62a74a18294a7911a19672cbc9d1e810b390c2cceebf2776180f464c4e639da",
+  "content_schema_sha256": "a234cd1e6708f5d559a865c2e33ce5e6ee0a74ae0f8799ad3c93cecb07c4f896",
   "edition_schema_versions": [
     2
   ],
@@ -35,6 +35,7 @@
     "metadata_revision_at",
     "opportunities",
     "panels",
+    "photo_policy",
     "prefetch_provenance",
     "preserve_legacy_html",
     "producer_contract",
@@ -45,6 +46,7 @@
     "schema_version",
     "selection_review",
     "sports",
+    "sports_revision_at",
     "status",
     "summary_60s",
     "synthesis_profile",
@@ -132,7 +134,7 @@
   "favourite_news_required_from": "2026-10-19",
   "favourite_news_max_age_minutes": 720,
   "editorial_protocol": "oracle-editorial/1",
-  "runtime_policy_sha256": "4e0c5f7f9c091e53eb76aec8b2f5b0aa2173778e589a9f1e519469ef0a7c6596",
+  "runtime_policy_sha256": "5a495e230ba9ce5defe7c672ee129e83e31a6ad80bc353af682b2310f158f9b2",
   "required_from_local_date": "2026-10-16",
   "reading_review_version": 2,
   "image_review_version": 2,
