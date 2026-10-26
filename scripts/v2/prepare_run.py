@@ -6,6 +6,7 @@ import importlib.util
 import json
 import os
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT=Path(__file__).resolve().parents[2]
 
@@ -22,11 +23,13 @@ def prepare(root,day,slot,at,private_root,wire_root=None,client=None):
     folder=research.private_folder(root,private_root)
     packet,packet_path=research.prepare(root,day,slot,at,private_root,wire_root)
     feeds=json.loads((root/'templates/v2/prefetch-feeds.json').read_text(encoding='utf-8'))
-    hosts=module('prefetch').HOSTS | module('sports_data').HOSTS | {h for f in feeds for h in f['hosts']}
+    sports_news=module('sports_news')
+    hosts=module('prefetch').HOSTS | module('sports_data').HOSTS | {h for f in feeds for h in f['hosts']} | {urlsplit(u).hostname for urls in sports_news.FEEDS.values() for u in urls}
     client=client or transport.Client(folder/'source-cache',hosts)
     cutoff=research.instant(at)
     routine=module('prefetch').collect(root,client,cutoff)
     sports=module('sports').prefetch(client,cutoff)
+    sports['news_links']=sports_news.prefetch(client,cutoff)
     news=research.ingest(root,packet,client,cutoff,folder)
     evidence={}; count=0
     for candidate in news['candidates']:

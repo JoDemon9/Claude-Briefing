@@ -18,13 +18,15 @@ MAX_BYTES = 60_000_000
 def prepare(root, edition_id, verify_only=False):
     root = Path(root)
     edition = json.loads((root/'content/editions'/f'{edition_id}.json').read_text())
-    partial = edition.get('availability_policy') == 'partial-v1' and edition.get('date','') >= '2026-10-22'
+    partial = edition.get('availability_policy') == 'partial-v1' and edition.get('date','') >= '2026-10-22' and edition.get('photo_policy') != 'real-photos-v1'
     count = 0
     for relative in edition['articles']:
         path = root/'content'/relative
         article = json.loads(path.read_text())
         im = article.get('image')
         if not im:
+            if edition.get('photo_policy') == 'real-photos-v1':
+                raise ValueError('Mandatory real photograph missing: ' + article['id'])
             continue
         local = Path(im['url'])
         if local.is_absolute() or '..' in local.parts or not im['url'].startswith('assets/editorial/'):

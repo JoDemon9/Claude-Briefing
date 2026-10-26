@@ -6,6 +6,7 @@ from datetime import datetime,timezone
 import importlib.util
 import json
 import os
+import re
 from pathlib import Path
 import subprocess
 import sys
@@ -37,20 +38,20 @@ def classify(root,base=None):
         parts=Path(path).parts
         if len(parts)==3 and parts[:2]==('content','editions'):editions.add(Path(path).stem)
         if len(parts)>=4 and parts[:2]==('content','articles'):editions.add(parts[2])
-        if len(parts)>=5 and parts[:3]==('docs','assets','editorial'):editions.add(parts[3])
+        if len(parts)>=5 and parts[:3]==('docs','assets','editorial') and re.fullmatch(r'\d{4}-\d{2}-\d{2}-(morning|midday|evening)',parts[3]):editions.add(parts[3])
     return {'profile':profile,'changed_files':sorted(set(files)),'edition_ids':sorted(editions),
             'reason':'Code/policy change: daily gates plus unit regressions.' if profile=='maintenance' else 'Daily content: three quality gates only.'}
 
 
 def selected_editions(root,edition_ids=()):
     editions=[json.loads(path.read_text()) for path in (Path(root)/'content/editions').glob('*.json')]
-    published=[e for e in editions if e['status']=='published' and e.get('published_at')]
+    published=[e for e in editions if e['status']=='published' and (e.get('published_at') or e.get('preserve_legacy_html'))]
     if not published:raise ValueError('No published candidate to check')
     if edition_ids:
         missing=set(edition_ids)-{e['id'] for e in published}
         if missing:raise ValueError('Requested candidate is missing or unpublished: '+', '.join(sorted(missing)))
         return [e for e in published if e['id'] in edition_ids]
-    return [max(published,key=lambda e:datetime.fromisoformat(e['published_at'].replace('Z','+00:00')))]
+    return [max((e for e in published if e.get('published_at')),key=lambda e:datetime.fromisoformat(e['published_at'].replace('Z','+00:00')))]
 
 
 def prepare_candidate_images(root, edition_ids=(), verify_only=False):

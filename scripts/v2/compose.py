@@ -96,7 +96,7 @@ def reviewed_image(raw, edition_id, slug, root, catalog):
     return image, source.read_bytes()
 
 
-def article(raw, edition_id, index, root, catalog, published_at=None, completed_at=None):
+def article(raw, edition_id, index, root, catalog, published_at=None, completed_at=None, require_photo=False):
     slug = safe_id(raw.get('slug') or raw.get('id'))
     section = raw.get('section')
     if section not in ('cyprus', 'world', 'sports'):
@@ -138,8 +138,12 @@ def article(raw, edition_id, index, root, catalog, published_at=None, completed_
     if section == 'sports' and doc.get('sports_interest') not in (*TEAMS, 'other'):
         raise ValueError('Explicit sports_interest required')
     try:
+        if require_photo and 'image_selection' not in raw:
+            raw = {**raw, 'image_selection': module('photo_policy').selection(raw, root)}
         doc['image'], asset = reviewed_image(raw, edition_id, slug, root, catalog)
     except (ValueError, KeyError, OSError) as error:
+        if require_photo:
+            raise ValueError('Required real photograph failed validation: ' + slug) from error
         doc['image'] = None
         doc['image_unavailable_reason'] = 'Δεν είναι διαθέσιμη ελεγμένη φωτογραφία για αυτό το άρθρο.'
         asset = None
@@ -244,6 +248,10 @@ def compile_payload(payload, root=ROOT):
         raise ValueError('Articles need a single unambiguous lead')
     library_path = root/'docs/data/photo-library.json'
     catalog = json.loads(library_path.read_text(encoding='utf-8')) if library_path.exists() else {'photos':[]}
+    require_photo = date >= '2026-10-26'
+    if require_photo:
+        catalog = module('photo_policy').extend_catalog(catalog, root)
+        edition['photo_policy'] = 'real-photos-v1'
     docs, files = [], {}
     for index, raw in enumerate(raw_articles):
         try:
@@ -256,7 +264,9 @@ def compile_payload(payload, root=ROOT):
         if raw.get('slug') in carried:
             doc, asset = carried[raw['slug']], None
         else:
-            doc, asset = article(raw, edition_id, index, root, catalog, edition['published_at'], edition['editorial_completed_at'])
+            doc, asset = article(raw, edition_id, index, root, catalog, edition['published_at'], edition['editorial_completed_at'], require_photo)
+        if require_photo and not doc.get('image'):
+            raise ValueError('Carried article requires a maintained real photograph: ' + doc['id'])
         if doc['id'] in {a['id'] for a in docs}:
             raise ValueError('Duplicate article slug')
         docs.append(doc)
@@ -285,10 +295,10 @@ def compile_payload(payload, root=ROOT):
             raw = next(r for r in raw_articles if (r.get('slug') or r.get('id')) == doc['id'])
             if doc['daily']['section'] != 'sports':
                 continue
-            if not raw.get('why_it_matters'):
-                continue
             sports['major_stories'].append({key:doc[key] for key in ('headline','published_at','summary','sources')})
-            sports['major_stories'][-1].update(article_id=doc['id'], why_it_matters=raw['why_it_matters'])
+            sports['major_stories'][-1].update(article_id=doc['id'], why_it_matters=raw.get('why_it_matters') or doc['summary'])
+            if len(sports['major_stories']) == 3:
+                break
         sports.setdefault('major_stories_reason', 'Τα αθλητικά άρθρα που επέλεξε ο συντάκτης για αυτή την έκδοση.')
     known = {a['story_id'] for a in docs}
     for path in (root/'content/editions').glob(date + '-*.json'):

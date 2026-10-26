@@ -93,6 +93,8 @@ def team_card(key,schedule,table,at,fixtures=None):
             return card
         row=next(e for e in entries(standings) if str(e['team']['id'])==tid)
         rank=next(s for s in row['stats'] if s['name']=='rank')
+        stats={s['name']:s.get('displayValue',str(s.get('value',''))) for s in row['stats']}
+        card['league_stats']={k:stats[k] for k in ('gamesPlayed','wins','ties','losses','points','pointDifferential') if stats.get(k) is not None}
         card['league_position']=str(rank.get('displayValue',rank.get('value')))
         card['standings_status']='available'
         card['standings_sources']=[HTTP.source('ESPN',table['url'],table['retrieved_at'],kind='reporting')]
@@ -148,6 +150,11 @@ def collect(client,at):
     rows=client.many([u for pair in [*team_urls.values(),*uefa.values()] for u in pair]+list(f1.values()))
     cards={k:team_card(k,rows[urls[0]],rows[urls[1]],at,rows[urls[2]]) for k,urls in team_urls.items()}
     cards['formula1']=f1_card(rows,f1,at)
+    for key, card in cards.items():
+        urls = list(f1.values()) if key == 'formula1' else team_urls[key]
+        stamps = [rows[u]['retrieved_at'] for u in urls if rows[u].get('status') == 'available']
+        if stamps:
+            card['updated_at'] = max(stamps)
     competitions={}
     for league,urls in uefa.items():
         result={'scores':[],'fixtures':[],'standings':[],'status':'unavailable'}
@@ -156,10 +163,11 @@ def collect(client,at):
                 row=rows[url]; evidence=HTTP.source('ESPN',row['url'],row['retrieved_at'],kind='reporting')
                 for event in HTTP.data(row).get('events',[]):
                     comp=event['competitions'][0]; when=instant(event['date']); status=comp['status']['type']
-                    item=dict(name=event['name'],starts_at=when.isoformat(),sources=[evidence])
+                    teams=sorted(comp['competitors'],key=lambda t:0 if t.get('homeAway')=='home' else 1)
+                    item=dict(name=' — '.join(t['team']['displayName'] for t in teams),starts_at=when.isoformat(),sources=[evidence])
                     if when<=at and status.get('completed') is True:
-                        item['score']='–'.join(score(t['score']) for t in comp['competitors']); result['scores'].append(item)
-                    elif when>at and status.get('state')=='pre':
+                        item['score']='–'.join(score(t['score']) for t in teams); result['scores'].append(item)
+                    elif when>at and status.get('state')=='pre' and event.get('timeValid',comp.get('timeValid')) is True:
                         result['fixtures'].append(item)
                 result['status']='available'
             except (ValueError,KeyError,IndexError,TypeError):
@@ -169,7 +177,11 @@ def collect(client,at):
         try:
             row=rows[urls[-1]]
             evidence=HTTP.source('ESPN',row['url'],row['retrieved_at'],kind='reporting')
-            for entry in list(entries(HTTP.data(row)))[:5]:
+            table=HTTP.data(row)
+            season=table.get('season',{})
+            if not season.get('startDate') or not season.get('endDate') or not instant(season['startDate'])<=at<instant(season['endDate']):
+                raise ValueError('Current UEFA standings season unavailable')
+            for entry in list(entries(table))[:5]:
                 stats={s['name']:s.get('displayValue') for s in entry['stats']}
                 result['standings'].append(dict(team=entry['team']['displayName'],rank=stats.get('rank'),points=stats.get('points'),sources=[evidence]))
         except (ValueError,KeyError,TypeError):

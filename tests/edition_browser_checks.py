@@ -32,7 +32,10 @@ def preview_plan(root,edition_ids=()):
         articles=[json.loads((root/'content'/p).read_text()) for p in e['articles']]
         lead=next((a for a in articles if a['story_id']==e.get('daily',{}).get('lead_story_id')),articles[0])
         pages[e['url']]=lead
-        day=json.loads((root/'docs/data/days'/(e['date']+'.json')).read_text())
+        day_path=root/'docs/data/days'/(e['date']+'.json')
+        if not day_path.exists() and e.get('preserve_legacy_html') and not e.get('published_at'):
+            continue  # Unknown original publication time: preview its repaired edition only.
+        day=json.loads(day_path.read_text())
         selected=next(s['selected'] for s in day['stories'] if s['story_id']==day['lead_story_id'])
         pages[day['url']]=article(selected['edition_id'],selected['article_id'])
     return editions,pages

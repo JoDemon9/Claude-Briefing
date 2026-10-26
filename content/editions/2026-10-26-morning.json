@@ -18,7 +18,7 @@
   "availability_policy": "partial-v1",
   "baseline": {
     "edition_id": "2026-10-25-evening",
-    "fingerprint": "1bc2d48f49a4be229dad878e956dbfb16d254f4573d3c771ead669a31478bb30"
+    "fingerprint": "9d7d4d7e1ff9e41e3affc54c87c1fc10beb71d43886ba171fb17c7a301c47099"
   },
   "changes": [],
   "daily": {
@@ -904,8 +904,8 @@
     "sha256": "c1bddae729fa77af12d06e4ff3aae54775df5fa9a28dce50165ffc88c3415090"
   },
   "producer_contract": {
-    "content_schema_sha256": "c62a74a18294a7911a19672cbc9d1e810b390c2cceebf2776180f464c4e639da",
-    "producer_protocol": "oracle-briefing/3"
+    "producer_protocol": "oracle-briefing/3",
+    "content_schema_sha256": "a234cd1e6708f5d559a865c2e33ce5e6ee0a74ae0f8799ad3c93cecb07c4f896"
   },
   "published_at": "2026-10-26T05:31:55.356033+00:00",
   "reading_review": {
@@ -1289,7 +1289,885 @@
       }
     },
     "major_stories": [],
-    "major_stories_reason": "Επιλέγονται μόνο ουσιώδεις νέες αθλητικές εξελίξεις."
+    "major_stories_reason": "Επιλέγονται μόνο ουσιώδεις νέες αθλητικές εξελίξεις.",
+    "competitions": {
+      "uefa.champions": {
+        "scores": [
+          {
+            "name": "Viking FK at Aston Villa",
+            "starts_at": "2026-10-21T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261021",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.935246+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "3–1"
+          },
+          {
+            "name": "Arsenal at Bayern Munich",
+            "starts_at": "2026-10-21T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261021",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.935246+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "2–2"
+          },
+          {
+            "name": "Lens at Club Brugge",
+            "starts_at": "2026-10-21T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261021",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.935246+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "3–0"
+          },
+          {
+            "name": "Shakhtar Donetsk at Internazionale",
+            "starts_at": "2026-10-21T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261021",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.935246+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "1–0"
+          },
+          {
+            "name": "Feyenoord Rotterdam at Real Betis",
+            "starts_at": "2026-10-21T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261021",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.935246+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "1–0"
+          },
+          {
+            "name": "RB Leipzig at Real Madrid",
+            "starts_at": "2026-10-21T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261021",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.935246+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "4–1"
+          }
+        ],
+        "fixtures": [
+          {
+            "name": "VfB Stuttgart at Galatasaray",
+            "starts_at": "2026-11-03T17:45:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261103",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.987451+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Sporting CP at Shakhtar Donetsk",
+            "starts_at": "2026-11-03T17:45:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261103",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.987451+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Bayern Munich at Atlético Madrid",
+            "starts_at": "2026-11-03T20:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261103",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.987451+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Aston Villa at Barcelona",
+            "starts_at": "2026-11-03T20:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261103",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.987451+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Lille at Bodo/Glimt",
+            "starts_at": "2026-11-03T20:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261103",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.987451+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Internazionale at Feyenoord Rotterdam",
+            "starts_at": "2026-11-03T20:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261103",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.987451+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          }
+        ],
+        "standings": [
+          {
+            "team": "Paris Saint-Germain",
+            "rank": "1",
+            "points": "9",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.champions/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.203526+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "team": "Aston Villa",
+            "rank": "2",
+            "points": "9",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.champions/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.203526+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "team": "Liverpool",
+            "rank": "3",
+            "points": "9",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.champions/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.203526+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "team": "Real Madrid",
+            "rank": "4",
+            "points": "9",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.champions/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.203526+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "team": "Real Betis",
+            "rank": "5",
+            "points": "9",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.champions/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.203526+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          }
+        ],
+        "status": "available"
+      },
+      "uefa.europa": {
+        "scores": [
+          {
+            "name": "AC Milan at AFC Bournemouth",
+            "starts_at": "2026-10-22T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.082037+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "3–0"
+          },
+          {
+            "name": "Crystal Palace at Besiktas",
+            "starts_at": "2026-10-22T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.082037+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "2–2"
+          },
+          {
+            "name": "Celta Vigo at Celtic",
+            "starts_at": "2026-10-22T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.082037+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "1–2"
+          },
+          {
+            "name": "Anderlecht at Jagiellonia Bialystok",
+            "starts_at": "2026-10-22T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.082037+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "0–3"
+          },
+          {
+            "name": "Real Sociedad at Lillestrom",
+            "starts_at": "2026-10-22T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.082037+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "0–6"
+          },
+          {
+            "name": "RB Salzburg at NK Celje",
+            "starts_at": "2026-10-22T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261022",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.082037+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "2–2"
+          }
+        ],
+        "fixtures": [
+          {
+            "name": "Ferencvaros at AC Milan",
+            "starts_at": "2026-11-05T17:45:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261105",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.116459+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "RB Salzburg at Anderlecht",
+            "starts_at": "2026-11-05T17:45:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261105",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.116459+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "TSG Hoffenheim at Crystal Palace",
+            "starts_at": "2026-11-05T17:45:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261105",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.116459+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Jagiellonia Bialystok at Levski Sofia",
+            "starts_at": "2026-11-05T17:45:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261105",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.116459+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Viktoria Plzen at Lillestrom",
+            "starts_at": "2026-11-05T17:45:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261105",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.116459+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Omonia Nicosia at NEC Nijmegen",
+            "starts_at": "2026-11-05T17:45:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261105",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.116459+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          }
+        ],
+        "standings": [
+          {
+            "team": "Benfica",
+            "rank": "1",
+            "points": "9",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.274000+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "team": "Bayer Leverkusen",
+            "rank": "2",
+            "points": "9",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.274000+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "team": "AFC Bournemouth",
+            "rank": "3",
+            "points": "9",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.274000+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "team": "Ferencvaros",
+            "rank": "4",
+            "points": "9",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.274000+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "team": "Olympiacos",
+            "rank": "5",
+            "points": "9",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.274000+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          }
+        ],
+        "status": "available"
+      },
+      "uefa.europa.conf": {
+        "scores": [
+          {
+            "name": "Egnatia at AGF",
+            "starts_at": "2026-10-22T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261022",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.995569+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "1–1"
+          },
+          {
+            "name": "Atalanta at Ajax Amsterdam",
+            "starts_at": "2026-10-22T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261022",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.995569+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "2–0"
+          },
+          {
+            "name": "SC Freiburg at AS Monaco",
+            "starts_at": "2026-10-22T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261022",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.995569+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "3–0"
+          },
+          {
+            "name": "KuPS Kuopio at Borac Banja Luka",
+            "starts_at": "2026-10-22T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261022",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.995569+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "2–0"
+          },
+          {
+            "name": "KAA Gent at Braga",
+            "starts_at": "2026-10-22T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261022",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.995569+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "2–0"
+          },
+          {
+            "name": "Sint-Truidense at FC Midtjylland",
+            "starts_at": "2026-10-22T19:00:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261022",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:46.995569+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ],
+            "score": "0–1"
+          }
+        ],
+        "fixtures": [
+          {
+            "name": "Braga at AGF",
+            "starts_at": "2026-11-05T17:45:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.025559+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Kairat Almaty at Atalanta",
+            "starts_at": "2026-11-05T17:45:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.025559+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Ajax Amsterdam at FC Midtjylland",
+            "starts_at": "2026-11-05T17:45:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.025559+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Heart of Midlothian at FC Thun",
+            "starts_at": "2026-11-05T17:45:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.025559+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "KAA Gent at KuPS Kuopio",
+            "starts_at": "2026-11-05T17:45:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.025559+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "name": "Hajduk Split at Lincoln Red Imps",
+            "starts_at": "2026-11-05T17:45:00+00:00",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.025559+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          }
+        ],
+        "standings": [
+          {
+            "team": "Panathinaikos",
+            "rank": "1",
+            "points": "6",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa.conf/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.178386+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "team": "FC Lugano",
+            "rank": "2",
+            "points": "6",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa.conf/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.178386+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "team": "SK Brann",
+            "rank": "3",
+            "points": "6",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa.conf/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.178386+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "team": "Trabzonspor",
+            "rank": "4",
+            "points": "6",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa.conf/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.178386+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          },
+          {
+            "team": "FC Twente",
+            "rank": "5",
+            "points": "6",
+            "sources": [
+              {
+                "publisher": "ESPN",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa.conf/standings",
+                "published_at": null,
+                "retrieved_at": "2026-10-26T04:20:47.178386+00:00",
+                "reporting_group": "ESPN",
+                "kind": "reporting",
+                "access": "read",
+                "used_for_claims": true
+              }
+            ]
+          }
+        ],
+        "status": "available"
+      }
+    }
   },
   "status": "published",
   "summary_60s": [
@@ -1300,5 +2178,12 @@
   "timezone": "Europe/Athens",
   "title": "Πρωινή σάρωση · 2026-10-26",
   "type": "morning",
-  "url": "morning/2026-10-26.html"
+  "url": "morning/2026-10-26.html",
+  "image_revision_at": "2026-10-26T12:42:27.297857+00:00",
+  "photo_policy": "real-photos-v1",
+  "image_review": {
+    "version": 2,
+    "completed_at": "2026-10-26T05:31:55.356033+00:00"
+  },
+  "sports_revision_at": "2026-10-26T12:49:31.820277+00:00"
 }

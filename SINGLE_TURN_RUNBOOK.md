@@ -31,9 +31,9 @@ The first command runs **before** the model is invoked. The second consumes its 
 
 | Edition | Searches | URL reads | All tool calls | Authored stories | Output reference tokens |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Morning | 5 | 2 | 10 | ≤6 | 6,500 |
-| Midday | 3 | 1 | 7 | ≤4 deltas | 4,000 |
-| Evening | 3 | 1 | 7 | ≤4 deltas | 4,000 |
+| Morning | 5 | 2 | 10 | ≤10 | 6,500 |
+| Midday | 3 | 1 | 7 | ≤6 deltas | 4,000 |
+| Evening | 3 | 1 | 7 | ≤6 deltas | 4,000 |
 
 The pack digest has a 48,000 UTF-8 byte ceiling; new excerpts are interleaved across desks and labelled. It is one read, not a paging loop. Model generation is one writing pass plus one review. The compiler actually enforces story counts, reference tokens, declared search/read budgets and exact carries. Prompt instructions govern live tool counts/turns; the cloud task interface here exposes no server-enforced tool/max-output parameter or run transcript. o200k_base is a reproducible reference tokenizer, not a claim about a chosen model's billable usage.
 
@@ -83,3 +83,5 @@ The digest now carries focused lead and Executive instructions, so existing one-
 The dedicated encrypted GITHUB_PREFETCH_TOKEN was verified by name only. A real scheduled event at 15:15:31 UTC exposed Cloudflare's unsupported redirect=error setting; the Worker now uses manual redirects and rejects every non-success status without following or disclosing the response body. Twelve control/timing/redirect tests passed. A subsequent real event at 15:20:31 UTC returned github_read_access_verified with collector_active=true and ai_calls=0.
 
 Production version 78454a71-a114-4b27-89dd-9ce3b30030fd was deployed with cron */5 3-5,9-11,15-17 * * *, no public route and no diagnostic variable. This keeps all three existing 07:30/13:30/19:30 Cyprus AI tasks unchanged and checks the preparation windows in Cyprus local time across DST. Next eligible evening check today is 18:20 local. The successful read check proves token authentication and private Contents/Actions read access; Actions write and a resulting fresh pack are only proven by an actual due dispatch and successful collector. Do not call that future observation completed.
+
+DEC-027 coverage clarification: target 4–5 supported Cyprus stories and 4–5 international stories. Morning has at most 10 authored stories including any Sports lead; later editions have at most 6 material updates plus exact carries. Preserve all search/open/tool/token/turn caps. Every article receives a local licensed real photograph from the reviewed Python policy; no AI photo search.

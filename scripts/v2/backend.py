@@ -50,6 +50,13 @@ def edition_fingerprint(edition, articles):
     return digest(json.dumps([edition,articles],sort_keys=True,ensure_ascii=False).encode())
 
 
+def reporting_fingerprint(edition, articles):
+    """Allow image-only archive maintenance without rewriting an old editorial contract."""
+    e = {k:v for k,v in edition.items() if k not in ('image_review','image_revision_at','photo_policy')}
+    aa = [{k:v for k,v in a.items() if k not in ('image','image_unavailable_reason')} for a in articles]
+    return edition_fingerprint(e, aa)
+
+
 def check_contract(root, edition, articles=()):
     declared = edition.get('producer_contract')
     if not declared:
@@ -64,6 +71,9 @@ def check_contract(root, edition, articles=()):
         saved=json.loads(history.read_text()).get(edition['id'],{}) if history.exists() else {}
         if saved.get('contract')==declared and saved.get('source_sha256')==edition_fingerprint(edition,articles):
             return  # An unchanged historical edition keeps its accepted contract.
+        if (edition.get('image_revision_at') and saved.get('contract')==declared
+                and saved.get('reporting_sha256')==reporting_fingerprint(edition,articles)):
+            return  # Only image metadata/bytes changed; all reporting remains exact.
         raise ValueError('Producer/renderer contract mismatch; fetch current main capabilities')
 
 
