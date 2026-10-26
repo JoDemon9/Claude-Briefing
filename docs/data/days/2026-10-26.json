@@ -16,12 +16,16 @@
       "type": "midday",
       "url": "midday/2026-10-26.html",
       "published_at": "2026-10-26T12:31:38.132381+00:00"
+    },
+    {
+      "id": "2026-10-26-evening",
+      "type": "evening",
+      "url": "evening/2026-10-26.html",
+      "published_at": "2026-10-26T17:38:01.196595+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "serbia-parliamentary-election-turnout-2026-10-25",
+  "missing_slots": [],
+  "lead_story_id": "brazil-presidential-runoff-voting-2026-10-25",
   "stories": [
     {
       "story_id": "brazil-presidential-runoff-voting-2026-10-25",
@@ -39,13 +43,19 @@
           "article_id": "brazil-runoff-result",
           "source_story_id": "brazil-presidential-runoff-voting-2026-10-25",
           "url": "articles/2026-10-26-midday/brazil-runoff-result.html"
+        },
+        {
+          "edition_id": "2026-10-26-evening",
+          "article_id": "brazil-digital-mobilisation",
+          "source_story_id": "brazil-presidential-runoff-voting-2026-10-25",
+          "url": "articles/2026-10-26-evening/brazil-digital-mobilisation.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-26-midday",
-        "article_id": "brazil-runoff-result",
+        "edition_id": "2026-10-26-evening",
+        "article_id": "brazil-digital-mobilisation",
         "source_story_id": "brazil-presidential-runoff-voting-2026-10-25",
-        "url": "articles/2026-10-26-midday/brazil-runoff-result.html"
+        "url": "articles/2026-10-26-evening/brazil-digital-mobilisation.html"
       },
       "section": "world",
       "priority": 1
@@ -60,13 +70,19 @@
           "article_id": "serbia-election-outcome",
           "source_story_id": "serbia-parliamentary-election-turnout-2026-10-25",
           "url": "articles/2026-10-26-midday/serbia-election-outcome.html"
+        },
+        {
+          "edition_id": "2026-10-26-evening",
+          "article_id": "serbia-election-outcome",
+          "source_story_id": "serbia-parliamentary-election-turnout-2026-10-25",
+          "url": "articles/2026-10-26-evening/serbia-election-outcome.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-26-midday",
+        "edition_id": "2026-10-26-evening",
         "article_id": "serbia-election-outcome",
         "source_story_id": "serbia-parliamentary-election-turnout-2026-10-25",
-        "url": "articles/2026-10-26-midday/serbia-election-outcome.html"
+        "url": "articles/2026-10-26-evening/serbia-election-outcome.html"
       },
       "section": "world",
       "priority": 1
@@ -87,15 +103,42 @@
           "article_id": "eu-green-imports",
           "source_story_id": "eu-green-energy-imports-2025",
           "url": "articles/2026-10-26-midday/eu-green-imports.html"
+        },
+        {
+          "edition_id": "2026-10-26-evening",
+          "article_id": "eu-green-imports",
+          "source_story_id": "eu-green-energy-imports-2025",
+          "url": "articles/2026-10-26-evening/eu-green-imports.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-26-midday",
+        "edition_id": "2026-10-26-evening",
         "article_id": "eu-green-imports",
         "source_story_id": "eu-green-energy-imports-2025",
-        "url": "articles/2026-10-26-midday/eu-green-imports.html"
+        "url": "articles/2026-10-26-evening/eu-green-imports.html"
       },
       "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "tc-property-rent-reference-dispute-2026-10-26",
+      "first_seen_at": "2026-10-26T17:38:01.196595+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-26-evening",
+          "article_id": "tc-property-rents",
+          "source_story_id": "tc-property-rent-reference-dispute-2026-10-26",
+          "url": "articles/2026-10-26-evening/tc-property-rents.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-26-evening",
+        "article_id": "tc-property-rents",
+        "source_story_id": "tc-property-rent-reference-dispute-2026-10-26",
+        "url": "articles/2026-10-26-evening/tc-property-rents.html"
+      },
+      "section": "cyprus",
       "priority": 2
     },
     {
@@ -108,13 +151,19 @@
           "article_id": "varosha-proposal",
           "source_story_id": "varosha-un-eu-proposal-2026-10-26",
           "url": "articles/2026-10-26-midday/varosha-proposal.html"
+        },
+        {
+          "edition_id": "2026-10-26-evening",
+          "article_id": "varosha-proposal",
+          "source_story_id": "varosha-un-eu-proposal-2026-10-26",
+          "url": "articles/2026-10-26-evening/varosha-proposal.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-26-midday",
+        "edition_id": "2026-10-26-evening",
         "article_id": "varosha-proposal",
         "source_story_id": "varosha-un-eu-proposal-2026-10-26",
-        "url": "articles/2026-10-26-midday/varosha-proposal.html"
+        "url": "articles/2026-10-26-evening/varosha-proposal.html"
       },
       "section": "cyprus",
       "priority": 2
@@ -129,13 +178,40 @@
           "article_id": "cysec-recovery-fraud",
           "source_story_id": "cysec-impersonation-recovery-scam-2026-10-26",
           "url": "articles/2026-10-26-midday/cysec-recovery-fraud.html"
+        },
+        {
+          "edition_id": "2026-10-26-evening",
+          "article_id": "cysec-recovery-fraud",
+          "source_story_id": "cysec-impersonation-recovery-scam-2026-10-26",
+          "url": "articles/2026-10-26-evening/cysec-recovery-fraud.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-26-midday",
+        "edition_id": "2026-10-26-evening",
         "article_id": "cysec-recovery-fraud",
         "source_story_id": "cysec-impersonation-recovery-scam-2026-10-26",
-        "url": "articles/2026-10-26-midday/cysec-recovery-fraud.html"
+        "url": "articles/2026-10-26-evening/cysec-recovery-fraud.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
+      "story_id": "digital-citizen-expiry-alerts-2026-10-26",
+      "first_seen_at": "2026-10-26T17:38:01.196595+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-26-evening",
+          "article_id": "digital-citizen-expiry",
+          "source_story_id": "digital-citizen-expiry-alerts-2026-10-26",
+          "url": "articles/2026-10-26-evening/digital-citizen-expiry.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-26-evening",
+        "article_id": "digital-citizen-expiry",
+        "source_story_id": "digital-citizen-expiry-alerts-2026-10-26",
+        "url": "articles/2026-10-26-evening/digital-citizen-expiry.html"
       },
       "section": "cyprus",
       "priority": 3
@@ -156,13 +232,19 @@
           "article_id": "turkey-libya-cyprus",
           "source_story_id": "turkey-libya-maritime-precedent-cyprus-2026-10-25",
           "url": "articles/2026-10-26-midday/turkey-libya-cyprus.html"
+        },
+        {
+          "edition_id": "2026-10-26-evening",
+          "article_id": "turkey-libya-cyprus",
+          "source_story_id": "turkey-libya-maritime-precedent-cyprus-2026-10-25",
+          "url": "articles/2026-10-26-evening/turkey-libya-cyprus.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-26-midday",
+        "edition_id": "2026-10-26-evening",
         "article_id": "turkey-libya-cyprus",
         "source_story_id": "turkey-libya-maritime-precedent-cyprus-2026-10-25",
-        "url": "articles/2026-10-26-midday/turkey-libya-cyprus.html"
+        "url": "articles/2026-10-26-evening/turkey-libya-cyprus.html"
       },
       "section": "cyprus",
       "priority": 3
@@ -183,13 +265,19 @@
           "article_id": "edek-leadership-vote",
           "source_story_id": "edek-leadership-elections-2026-12",
           "url": "articles/2026-10-26-midday/edek-leadership-vote.html"
+        },
+        {
+          "edition_id": "2026-10-26-evening",
+          "article_id": "edek-leadership-vote",
+          "source_story_id": "edek-leadership-elections-2026-12",
+          "url": "articles/2026-10-26-evening/edek-leadership-vote.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-26-midday",
+        "edition_id": "2026-10-26-evening",
         "article_id": "edek-leadership-vote",
         "source_story_id": "edek-leadership-elections-2026-12",
-        "url": "articles/2026-10-26-midday/edek-leadership-vote.html"
+        "url": "articles/2026-10-26-evening/edek-leadership-vote.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -210,13 +298,19 @@
           "article_id": "antonelli-us-gp",
           "source_story_id": "antonelli-us-gp-title-chance-2026-10-25",
           "url": "articles/2026-10-26-midday/antonelli-us-gp.html"
+        },
+        {
+          "edition_id": "2026-10-26-evening",
+          "article_id": "antonelli-us-gp",
+          "source_story_id": "antonelli-us-gp-title-chance-2026-10-25",
+          "url": "articles/2026-10-26-evening/antonelli-us-gp.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-26-midday",
+        "edition_id": "2026-10-26-evening",
         "article_id": "antonelli-us-gp",
         "source_story_id": "antonelli-us-gp-title-chance-2026-10-25",
-        "url": "articles/2026-10-26-midday/antonelli-us-gp.html"
+        "url": "articles/2026-10-26-evening/antonelli-us-gp.html"
       },
       "section": "sports",
       "priority": 5
@@ -403,6 +497,146 @@
         "article_id": "varosha-proposal",
         "source_story_id": "varosha-un-eu-proposal-2026-10-26",
         "url": "articles/2026-10-26-midday/varosha-proposal.html"
+      }
+    },
+    {
+      "id": "02b4b05afde480c328af8c9f04c96110737ceda710182316fb3ba6306b5cb7ea",
+      "kind": "provenance",
+      "at": "2026-10-26T17:38:01.196595+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "edek-leadership-elections-2026-12",
+      "origin": {
+        "edition_id": "2026-10-26-evening",
+        "article_id": "edek-leadership-vote",
+        "source_story_id": "edek-leadership-elections-2026-12",
+        "url": "articles/2026-10-26-evening/edek-leadership-vote.html"
+      }
+    },
+    {
+      "id": "06ce208b7f640e5e94e5fce3095df636639b0a472b0015fd19df9686d0093690",
+      "kind": "provenance",
+      "at": "2026-10-26T17:38:01.196595+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "brazil-presidential-runoff-voting-2026-10-25",
+      "origin": {
+        "edition_id": "2026-10-26-evening",
+        "article_id": "brazil-digital-mobilisation",
+        "source_story_id": "brazil-presidential-runoff-voting-2026-10-25",
+        "url": "articles/2026-10-26-evening/brazil-digital-mobilisation.html"
+      }
+    },
+    {
+      "id": "1e7e79aa3e36cb7f219aa34b9698db3dd3aea6bab403cdef03c2bce650348e66",
+      "kind": "provenance",
+      "at": "2026-10-26T17:38:01.196595+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "serbia-parliamentary-election-turnout-2026-10-25",
+      "origin": {
+        "edition_id": "2026-10-26-evening",
+        "article_id": "serbia-election-outcome",
+        "source_story_id": "serbia-parliamentary-election-turnout-2026-10-25",
+        "url": "articles/2026-10-26-evening/serbia-election-outcome.html"
+      }
+    },
+    {
+      "id": "36e8f620eca7959ec94e5e89dc88801a0985c220f57a7b0637a83e135161600d",
+      "kind": "provenance",
+      "at": "2026-10-26T17:38:01.196595+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "antonelli-us-gp-title-chance-2026-10-25",
+      "origin": {
+        "edition_id": "2026-10-26-evening",
+        "article_id": "antonelli-us-gp",
+        "source_story_id": "antonelli-us-gp-title-chance-2026-10-25",
+        "url": "articles/2026-10-26-evening/antonelli-us-gp.html"
+      }
+    },
+    {
+      "id": "5f29667c235dfd801e46793122b2112a22c59d41627049daa6aa6ca5767b5027",
+      "kind": "provenance",
+      "at": "2026-10-26T17:38:01.196595+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "tc-property-rent-reference-dispute-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-26-evening",
+        "article_id": "tc-property-rents",
+        "source_story_id": "tc-property-rent-reference-dispute-2026-10-26",
+        "url": "articles/2026-10-26-evening/tc-property-rents.html"
+      }
+    },
+    {
+      "id": "67044cc7cf359063e9beb25269b3126359ef147bffb5c3e565456ec1509f994e",
+      "kind": "provenance",
+      "at": "2026-10-26T17:38:01.196595+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "turkey-libya-maritime-precedent-cyprus-2026-10-25",
+      "origin": {
+        "edition_id": "2026-10-26-evening",
+        "article_id": "turkey-libya-cyprus",
+        "source_story_id": "turkey-libya-maritime-precedent-cyprus-2026-10-25",
+        "url": "articles/2026-10-26-evening/turkey-libya-cyprus.html"
+      }
+    },
+    {
+      "id": "90ae70519ad929930456380bb21deb18bc1e0f56e1ea3205887437989a3272d2",
+      "kind": "provenance",
+      "at": "2026-10-26T17:38:01.196595+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cysec-impersonation-recovery-scam-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-26-evening",
+        "article_id": "cysec-recovery-fraud",
+        "source_story_id": "cysec-impersonation-recovery-scam-2026-10-26",
+        "url": "articles/2026-10-26-evening/cysec-recovery-fraud.html"
+      }
+    },
+    {
+      "id": "bf82e914e87d73df253c98bf8c7fb3b706ee152a647ad78420807b39b9e6837d",
+      "kind": "provenance",
+      "at": "2026-10-26T17:38:01.196595+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "varosha-un-eu-proposal-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-26-evening",
+        "article_id": "varosha-proposal",
+        "source_story_id": "varosha-un-eu-proposal-2026-10-26",
+        "url": "articles/2026-10-26-evening/varosha-proposal.html"
+      }
+    },
+    {
+      "id": "cae09f35b1402d4c158b8e1ff60edff576873681e07cc68f6126b3d6352fe403",
+      "kind": "provenance",
+      "at": "2026-10-26T17:38:01.196595+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "digital-citizen-expiry-alerts-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-26-evening",
+        "article_id": "digital-citizen-expiry",
+        "source_story_id": "digital-citizen-expiry-alerts-2026-10-26",
+        "url": "articles/2026-10-26-evening/digital-citizen-expiry.html"
+      }
+    },
+    {
+      "id": "d735798425e5070a785b64583cf060d5ccdf26fa6e24bdf68f98fe158469c489",
+      "kind": "provenance",
+      "at": "2026-10-26T17:38:01.196595+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "eu-green-energy-imports-2025",
+      "origin": {
+        "edition_id": "2026-10-26-evening",
+        "article_id": "eu-green-imports",
+        "source_story_id": "eu-green-energy-imports-2025",
+        "url": "articles/2026-10-26-evening/eu-green-imports.html"
       }
     }
   ],
@@ -609,22 +843,22 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η παραδοχή ήττας του Βούτσιτς στις 25 Οκτωβρίου μεταφέρει το σερβικό πολιτικό τεστ από την κινητοποίηση στην ανάληψη κυβερνητικής ευθύνης. Το επόμενο κρίσιμο βήμα είναι η οριστικοποίηση των εδρών και η συγκρότηση κυβέρνησης από το φοιτητικό ψηφοδέλτιο· η εκλογική αλλαγή δεν αποδεικνύει από μόνη της αλλαγή όλων των κρατικών πολιτικών.",
+        "text": "Η μετεκλογική αποτίμηση στη Βραζιλία προσθέτει τον μηχανισμό κινητοποίησης μέσω WhatsApp: οργανωμένα μηνύματα και στρατολόγηση υποστηρικτών περιγράφονται από το BBC, ενώ την καθοριστική συμβολή στη νίκη υποστηρίζουν σύμμαχοι του Λούλα. Το μέγεθος ενός καναλιού δείχνει δυνητική διάδοση, όχι πόσες ψήφους άλλαξαν ή αν υπήρχε αυτοματοποιημένη δραστηριότητα.",
         "story_ids": [
-          "serbia-parliamentary-election-turnout-2026-10-25"
+          "brazil-presidential-runoff-voting-2026-10-25"
         ]
       },
       {
-        "text": "Η πρόταση για τα Βαρώσια παραμένει διαθέσιμη για διαπραγμάτευση, χωρίς συμφωνία εφαρμογής: ζητούμενο είναι αν θα υπάρξει ανταπόκριση στις τροποποιήσεις. Παράλληλα, η προειδοποίηση της CySEC αφορά άμεσο κίνδυνο για επενδυτές: απαίτηση προκαταβολικής αμοιβής με πρόσχημα ανάκτηση ζημιών και εκπροσώπηση της Επιτροπής χρειάζεται ανεξάρτητη επαλήθευση πριν από οποιαδήποτε πληρωμή.",
+        "text": "Στην Κύπρο, ο τρόπος υπολογισμού ενοικίων τουρκοκυπριακών ακινήτων φέρνει σύγκρουση ανάμεσα στην εμπορική αξία μιας περιοχής και στην οικονομική αντοχή προσφύγων ενοικιαστών. Οι γραπτές απαντήσεις της αρμόδιας υπηρεσίας θα δείξουν τι μπορεί να αλλάξει. Οι ειδοποιήσεις λήξης του «Ψηφιακού Πολίτη» προσθέτουν πρακτική υπενθύμιση, χωρίς να αποτελούν αυτόματη ανανέωση εγγράφων.",
         "story_ids": [
-          "varosha-un-eu-proposal-2026-10-26",
-          "cysec-impersonation-recovery-scam-2026-10-26"
+          "tc-property-rent-reference-dispute-2026-10-26",
+          "digital-citizen-expiry-alerts-2026-10-26"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-10-26T07:05:04.893295+00:00",
-  "updated_at": "2026-10-26T12:32:32.266592+00:00",
-  "input_sha256": "4031620f7009cfd95db2afd1b682c30da6262479fbf105fd2d388fbbf1701b8a"
+  "updated_at": "2026-10-26T17:40:24.414379+00:00",
+  "input_sha256": "c75abf712cae9caaa7661a88663f5a768a8bd3058242bbcb7f8e1beb8039ba5d"
 }
