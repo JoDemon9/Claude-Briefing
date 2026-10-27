@@ -18,6 +18,6 @@ Extend reviewed photo subject aliases for Kyiv/Κίεβο and USA/ΗΠΑ so futu
 
 ## Verification and limits
 
-Exact sealed Morning pack replay: original 47,448 UTF-8 bytes / 12,431 o200k_base reference tokens; revised 46,049 bytes / 12,185 tokens. All 11 article-backed candidates fit instead of six. The replay retains the old pack's already-collected cartoon, so meaningful news coverage is four Cyprus and four world stories. Future collection excludes that cartoon slot. Reference tokens are not measured account quota savings.
+Exact sealed Morning pack replay: original 47,448 UTF-8 bytes / 12,431 o200k_base reference tokens; revised 46,049 bytes / 12,185 tokens. All 11 article-backed candidates fit instead of seven. The replay retains the old pack's already-collected cartoon, so meaningful news coverage is four Cyprus and four world stories. Future collection excludes that cartoon slot. Reference tokens are not measured account quota savings.
 
 Eight news-quality and 22 synthesis regressions pass, including dense Sports data, Greek excerpts, corroboration copies, feed-only exclusion, immutable packs, carries and hard budgets. CI, merge, live publication and the next scheduled editorial result are tracked separately. Do not rewrite today's published reporting or manufacture a new AI run to claim an editorial result. Existing saved tasks receive the new Python digest through their usual handoff; no manual prompt installation is required.
