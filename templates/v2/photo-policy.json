@@ -1914,7 +1914,7 @@
       "photo": "gaza"
     },
     {
-      "pattern": "ukraine|ουκραν",
+      "pattern": "ukraine|ουκραν|kyiv|kiev|κίεβ|κιεβ",
       "photo": "ukraine"
     },
     {
@@ -1938,7 +1938,7 @@
       "photo": "ecb"
     },
     {
-      "pattern": "midterms|white.house|λευκ. οίκ|τραμπ|trump",
+      "pattern": "midterms|white.house|λευκ. οίκ|τραμπ|trump|\\busa?\\b|united.states|\\bηπα\\b|ηνωμέν. πολιτ",
       "photo": "us"
     },
     {

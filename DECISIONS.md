@@ -6,6 +6,7 @@ This is the canonical record of user needs that future changes must respect. Rea
 
 | ID | User need | Current status | Record |
 | --- | --- | --- | --- |
+| DEC-028 | Retain balanced Cyprus and international evidence inside the same AI budgets. | Exact-pack replay and 30 targeted regressions pass; CI/main/live tracked separately. | [Balanced evidence digest](decisions/DEC-028-balanced-evidence-digest.md) |
 | DEC-027 | Real photographs on every article and a larger, more useful Sports desk without more AI collection. | Implementation and local validation; CI/main/live verification tracked separately. | [Real photos and expanded Sports](decisions/DEC-027-real-photos-and-expanded-sports.md) |
 | DEC-026 | Better analytical quality while retaining low usage. | Implementation and bounded-input regression checks; deployment and future editorial results tracked separately. | [Quality within synthesis budget](decisions/DEC-026-quality-within-synthesis-budget.md) |
 | DEC-025 | Stop five-hour quota exhaustion: Python collection before the AI, hard budgets and later delta-only output. | Deployed; live prompts, PATs and exact site releases verified; Python preparation has bounded retry windows before each AI task. | [Deterministic prefetch and single-turn synthesis](decisions/DEC-025-deterministic-prefetch-and-single-turn.md) |
