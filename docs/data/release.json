@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "release_id": "1fb01d288b4e6bcc7db0726062b338c6d9b262df2f523b7b3bc7e924a86194d8",
+  "release_id": "368a75789a944c27c98f7ed710e24802e50cac4997ab38615005a72d517c8f4d",
   "edition_ids": [
     "2026-10-27-morning",
     "2026-10-26-evening",
@@ -454,7 +454,7 @@
     "scripts/v2/intelligence_ui.py": "254157a80949297bc0bf74645571be6f75c4ca34da22f0afd0630d130468a1c0",
     "scripts/v2/latest.py": "e57d978357477e84416eea1bd6f319d8cedb27449c8feb206f306a81683a205c",
     "scripts/v2/markdown_input.py": "dab86dc391c6125071144d4c7f425463a3e5c861ec1703b9c30c66fe73b2aa36",
-    "scripts/v2/news_digest.py": "f6d8b49caaa59609239b8231b34d4d2ea7d5662daf565f290e1dccdf5fb17051",
+    "scripts/v2/news_digest.py": "b4a79648554eb9ae096d01d21170706f98383b942372faac232fa78d47dbb5e0",
     "scripts/v2/newspaper_ui.py": "38f09ead718b2123beafac331daf7d2ef9f7d74379065d75e609974f863dc649",
     "scripts/v2/opportunities.py": "a3204d0675dfa76174b2dfd8e1220779b2740a273c81f588e0478a66d6191aec",
     "scripts/v2/photo_library.py": "923a85c9ed8c76a8208df1462f8144e054c7ac77a85ad6e2daa39e38d3ed8cff",
@@ -496,7 +496,7 @@
     "tests/test_intelligence.py": "467fbe8cda640a72c41e9cb57462e15b3df6c5a60f0cc5984f0d8b88cd87d821",
     "tests/test_intelligence_browser.py": "b4422120036089ef474c34c8139f9247c3b3fe218b51ba69904153aa3389b771",
     "tests/test_latest.py": "d265f8c565a9c0a85a3f1b495c58a3daf2c941779f646bd461e1734841f86324",
-    "tests/test_news_quality.py": "e900239d8c46660c7a77c05855d50a773ac71496f3b70490cc86f4de72ff44e9",
+    "tests/test_news_quality.py": "64db5ce7a4d07ef67291e95fa29c0e1832c4e6030b16589b6fe47ff47f4c9e58",
     "tests/test_opportunities.py": "5fa779ce501fbcf67bfcf2676a4f295ff568ef2ce17ebd6b3cdff0d5596fb1e0",
     "tests/test_photos_and_sports.py": "db9216f6a0fe9a81abcddfbe85e556cc054d04560ed44e94f723bd65666a399b",
     "tests/test_prepare_run.py": "26a41c0b17907744ce3a6aa8a6d85bddc244feb10bf9945b042de3c4fe6919c8",
