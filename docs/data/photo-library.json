@@ -465,6 +465,21 @@
           "edition_id": "2026-10-26-midday"
         },
         {
+          "story_id": "cyprus-gdp-q2-2026-eurobank",
+          "article_path": "articles/2026-10-27-midday/cyprus-eurobank-growth.json",
+          "edition_id": "2026-10-27-midday"
+        },
+        {
+          "story_id": "disy-georgiades-campaign-refusal-2026-10-27",
+          "article_path": "articles/2026-10-27-midday/disy-georgiades-campaign.json",
+          "edition_id": "2026-10-27-midday"
+        },
+        {
+          "story_id": "eoa-development-planning-request-2028-2034",
+          "article_path": "articles/2026-10-27-midday/eoa-development-planning.json",
+          "edition_id": "2026-10-27-midday"
+        },
+        {
           "story_id": "eoa-development-planning-request-2028-2034",
           "article_path": "articles/2026-10-27-morning/eoa-development-planning.json",
           "edition_id": "2026-10-27-morning"
@@ -748,6 +763,11 @@
           "story_id": "manutd-bournemouth-defeat-2026-10-25",
           "article_path": "articles/2026-10-25-evening/manutd-bournemouth-defeat.json",
           "edition_id": "2026-10-25-evening"
+        },
+        {
+          "story_id": "manutd-carrick-manager-review-2026-10-26",
+          "article_path": "articles/2026-10-27-midday/united-manager-uncertainty.json",
+          "edition_id": "2026-10-27-midday"
         },
         {
           "story_id": "manutd-carrick-manager-review-2026-10-26",
@@ -1422,6 +1442,11 @@
           "story_id": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
           "article_path": "articles/2026-10-25-midday/world-ukraine.json",
           "edition_id": "2026-10-25-midday"
+        },
+        {
+          "story_id": "stubb-store-putin-call-2026-10-27",
+          "article_path": "articles/2026-10-27-midday/stubb-store-putin-call.json",
+          "edition_id": "2026-10-27-midday"
         }
       ]
     },
@@ -2060,6 +2085,11 @@
         },
         {
           "story_id": "edek-leadership-elections-2026-12",
+          "article_path": "articles/2026-10-27-midday/edek-election-deadlines.json",
+          "edition_id": "2026-10-27-midday"
+        },
+        {
+          "story_id": "edek-leadership-elections-2026-12",
           "article_path": "articles/2026-10-27-morning/edek-election-deadlines.json",
           "edition_id": "2026-10-27-morning"
         }
@@ -2260,7 +2290,7 @@
     },
     {
       "id": "a5006f0e3b79f189db76dd7b4288efc835ec2d1c25b0cd775b2f9c2153827a61",
-      "asset": "assets/editorial/2026-10-27-morning/kyiv-university-strike.webp",
+      "asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp",
       "image": {
         "alt": "Η Γη από το Apollo 17, πραγματική φωτογραφία NASA της 7ης Δεκεμβρίου 1972 · γενικό διεθνές πλαίσιο",
         "attribution": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
@@ -2273,16 +2303,31 @@
           "relevance_and_archive_date_checked": true,
           "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
           "sha256": "a5006f0e3b79f189db76dd7b4288efc835ec2d1c25b0cd775b2f9c2153827a61",
-          "source_asset": "assets/editorial/library/earth.webp"
+          "source_asset": "assets/editorial/2026-10-27-morning/kyiv-university-strike.webp"
         },
         "source_url": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
-        "url": "assets/editorial/2026-10-27-morning/kyiv-university-strike.webp"
+        "url": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
       },
       "dimensions": [
         1199,
         1200
       ],
       "references": [
+        {
+          "story_id": "israel-election-2026-10-27",
+          "article_path": "articles/2026-10-27-midday/israel-election-voting.json",
+          "edition_id": "2026-10-27-midday"
+        },
+        {
+          "story_id": "kyiv-university-missile-strike-2026-10-26",
+          "article_path": "articles/2026-10-27-midday/kyiv-university-strike.json",
+          "edition_id": "2026-10-27-midday"
+        },
+        {
+          "story_id": "maurene-comey-removal-ruling-2026-10-26",
+          "article_path": "articles/2026-10-27-midday/comey-removal-ruling.json",
+          "edition_id": "2026-10-27-midday"
+        },
         {
           "story_id": "kyiv-university-missile-strike-2026-10-26",
           "article_path": "articles/2026-10-27-morning/kyiv-university-strike.json",

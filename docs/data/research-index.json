@@ -291,6 +291,14 @@
       "fingerprint": "da4eac18e729d781ee5a8172a8a575effcd93d1e351e240471e99c64b0e1b220"
     },
     {
+      "id": "2026-10-27-midday",
+      "date": "2026-10-27",
+      "type": "midday",
+      "published_at": "2026-10-27T11:32:58.215892+00:00",
+      "url": "midday/2026-10-27.html",
+      "fingerprint": "5478d69363dc27c2740a74e718ca66c214157a6aa3955e2f8c113f34221d7306"
+    },
+    {
       "id": "2026-10-27-morning",
       "date": "2026-10-27",
       "type": "morning",
@@ -9929,6 +9937,289 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-26-morning/antonelli-us-gp.webp"
+    },
+    {
+      "story_id": "stubb-store-putin-call-2026-10-27",
+      "identity": "stubb-store-putin-call-2026-10-27",
+      "edition_id": "2026-10-27-midday",
+      "date": "2026-10-27",
+      "slot": "midday",
+      "published_at": "2026-10-27T11:32:58.215892+00:00",
+      "available_at": "2026-10-27T11:32:58.215892+00:00",
+      "headline": "Στουμπ–Στέρε: απευθείας επαφή με Πούτιν, σε συνεννόηση με την Ουκρανία",
+      "finding": "Ο Φινλανδός πρόεδρος Αλεξάντρ Στουμπ και ο Νορβηγός πρωθυπουργός Γιόνας Γκαρ Στέρε συνομίλησαν στις 27 Οκτωβρίου με τον Βλαντίμιρ Πούτιν, σε συνέχεια της συνάντησης του Όσλο και σε συνεννόηση με την Ουκρανία, ανακοίνωσε η φινλανδική προεδρία. Στόχος ήταν η απευθείας μεταφορά μηνυμάτων για μελλοντικές διαπραγματεύσεις, με τους δύο ηγέτες να ενεργούν για τις χώρες τους και όχι εξ ονόματος ολόκληρης της Ευρώπης.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-27-midday/stubb-store-putin-call.json",
+      "reader_url": "articles/2026-10-27-midday/stubb-store-putin-call.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/international/1335119/zelenski-poutin-sinomilisan-me-stemp-kai-stere-ghia-termatismo-toy-polemoy",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-10-27T10:34:04+00:00",
+          "retrieved_at": "2026-10-27T10:53:23.565227+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.presidentti.fi/en/president-stubb-and-prime-minister-store-held-a-phone-call-with-president-putin/",
+          "publisher": "Office of the President of Finland",
+          "reporting_group": "Finnish Presidency",
+          "published_at": null,
+          "retrieved_at": "2026-10-27T11:31:28.950Z",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/stubb-store-putin-call.webp"
+    },
+    {
+      "story_id": "israel-election-2026-10-27",
+      "identity": "israel-election-2026-10-27",
+      "edition_id": "2026-10-27-midday",
+      "date": "2026-10-27",
+      "slot": "midday",
+      "published_at": "2026-10-27T11:32:58.215892+00:00",
+      "available_at": "2026-10-27T11:32:58.215892+00:00",
+      "headline": "Ισραήλ: ψηφοφορία χωρίς ακόμη εκλογικό αποτέλεσμα",
+      "finding": "Οι Ισραηλινοί ψηφίζουν στις 27 Οκτωβρίου, ενώ το BBC περιγράφει σχεδόν ισόπαλη προεκλογική αναμέτρηση Νετανιάχου–Άιζενκοτ βάσει δημοσκοπήσεων που δημοσιεύθηκαν την Παρασκευή. Για την Κύπρο και την Ελλάδα, ο διεθνολόγος Χαράλαμπος Χρυσοστόμου εκτιμά σε συνέντευξη στο ΚΥΠΕ ότι οι στρατηγικές σχέσεις με το Ισραήλ έχουν διακομματική βάση· πρόκειται για εκτίμηση και όχι επιβεβαιωμένη μετεκλογική πολιτική.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-27-midday/israel-election-voting.json",
+      "reader_url": "articles/2026-10-27-midday/israel-election-voting.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/videos/ck240dg5n4gjo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-27T10:17:36+00:00",
+          "retrieved_at": "2026-10-27T10:53:23.356301+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.sigmalive.com/news/politics/1335107/kypros-kai-israil-pws-tha-diamorfothoun-oi-skheseis-toys-meta-tis-ekloghes",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-10-27T09:22:00+00:00",
+          "retrieved_at": "2026-10-27T10:53:23.633713+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "cyprus-gdp-q2-2026-eurobank",
+      "identity": "cyprus-gdp-q2-2026-eurobank",
+      "edition_id": "2026-10-27-midday",
+      "date": "2026-10-27",
+      "slot": "midday",
+      "published_at": "2026-10-27T11:32:58.215892+00:00",
+      "available_at": "2026-10-27T11:32:58.215892+00:00",
+      "headline": "Eurobank Research: ανάπτυξη 3,3% στο δεύτερο τρίμηνο, με ανομοιόμορφη επενδυτική άνοδο",
+      "finding": "Η Eurobank Research καταγράφει ετήσια ανάπτυξη 3,3% για την Κύπρο στο δεύτερο τρίμηνο του 2026, από 3% στο πρώτο, σύμφωνα με ανάλυση που παρουσιάζει το Philenews στις 27 Οκτωβρίου. Η ιδιωτική κατανάλωση αυξήθηκε 5,4% και οι πάγιες επενδύσεις 9,4%, με ισχυρή άνοδο στον εξοπλισμό μεταφορών, ενώ οι επενδύσεις σε κατοικίες αυξήθηκαν 4,3%.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-10-27-midday/cyprus-eurobank-growth.json",
+      "reader_url": "articles/2026-10-27-midday/cyprus-eurobank-growth.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1787348/eurobank-research-anaptixi-33-gia-tin-kipriaki-ikonomia-para-ton-polemo",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-27T10:39:36+00:00",
+          "retrieved_at": "2026-10-27T10:53:23.870106+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/cyprus-eurobank-growth.webp"
+    },
+    {
+      "story_id": "disy-georgiades-campaign-refusal-2026-10-27",
+      "identity": "disy-georgiades-campaign-refusal-2026-10-27",
+      "edition_id": "2026-10-27-midday",
+      "date": "2026-10-27",
+      "slot": "midday",
+      "published_at": "2026-10-27T11:32:58.215892+00:00",
+      "available_at": "2026-10-27T11:32:58.215892+00:00",
+      "headline": "Γεωργιάδης: εκτός εκστρατείας με υποψήφιο Νεοφύτου, χωρίς πρόθεση αποχώρησης από τον ΔΗΣΥ",
+      "finding": "Ο Χάρης Γεωργιάδης δήλωσε στο πολιτικό vidcast του Philenews ότι, μετά την απόσυρση της Αννίτας Δημητρίου από την εσωκομματική κούρσα, αποφάσισε να μη συμμετάσχει σε προεκλογική εκστρατεία του ΔΗΣΥ με υποψήφιο τον Αβέρωφ Νεοφύτου. Διευκρίνισε ότι δεν προτίθεται να αποχωρήσει από το κόμμα και έθεσε στη διάθεση της προέδρου την παραίτησή του από την προεδρία του Ινστιτούτου «Γλαύκος Κληρίδης».",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-10-27-midday/disy-georgiades-campaign.json",
+      "reader_url": "articles/2026-10-27-midday/disy-georgiades-campaign.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/podcast/article/1787333/vidcast-philenews-den-bori-mia-parataxi-na-ipokipti-se-politikous-ekviasmous-lei-o-charis-georgiadis-pos-apanta-se-osous-tha-ton-poun-diaspasti",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-27T10:49:10+00:00",
+          "retrieved_at": "2026-10-27T10:53:26.486642+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/disy-georgiades-campaign.webp"
+    },
+    {
+      "story_id": "kyiv-university-missile-strike-2026-10-26",
+      "identity": "kyiv-university-missile-strike-2026-10-26",
+      "edition_id": "2026-10-27-midday",
+      "date": "2026-10-27",
+      "slot": "midday",
+      "published_at": "2026-10-27T07:31:36.998399+00:00",
+      "available_at": "2026-10-27T11:32:58.215892+00:00",
+      "headline": "Κίεβο: νεκρός και τραυματίες σε πλήγματα κοντά σε πανεπιστήμιο και υποδομές",
+      "finding": "Ρωσική πυραυλική επίθεση το βράδυ της 26ης Οκτωβρίου στο Κίεβο άφησε τουλάχιστον έναν νεκρό και δέκα τραυματίες, σύμφωνα με τις ουκρανικές αρχές που επικαλούνται Reuters και Philenews. Αναφέρθηκαν ζημιές σε πανεπιστημιακές εγκαταστάσεις, κατοικίες, σταθμό μετρό και ιατρικές δομές, ενώ ο ακριβής απολογισμός δεν είχε οριστικοποιηθεί στο διαθέσιμο ρεπορτάζ.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-27-midday/kyiv-university-strike.json",
+      "reader_url": "articles/2026-10-27-midday/kyiv-university-strike.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kosmos/article/1787186/sfirokopima-sto-kievo-me-enan-nekro-ke-deka-travmaties-rosiki-piravli-eplixan-panepistimio-katikies-ke-ipodomes-fovi-gia-egklovismenous",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-27T04:17:51+00:00",
+          "retrieved_at": "2026-10-27T04:20:45.624724+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.reuters.com/world/kyiv-under-attack-mayor-says-strike-near-underground-station-2026-10-26/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-10-26T20:16:46+00:00",
+          "retrieved_at": "2026-10-27T05:29:03+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-morning/kyiv-university-strike.webp"
+    },
+    {
+      "story_id": "maurene-comey-removal-ruling-2026-10-26",
+      "identity": "maurene-comey-removal-ruling-2026-10-26",
+      "edition_id": "2026-10-27-midday",
+      "date": "2026-10-27",
+      "slot": "midday",
+      "published_at": "2026-10-27T07:31:36.998399+00:00",
+      "available_at": "2026-10-27T11:32:58.215892+00:00",
+      "headline": "ΗΠΑ: παράνομη κρίθηκε η απόλυση της εισαγγελέως Μορίν Κόμεϊ",
+      "finding": "Ο δικαστής Τζέσι Φέρμαν έκρινε στις 26 Οκτωβρίου παράνομη την απόλυση της ομοσπονδιακής εισαγγελέως Μορίν Κόμεϊ, απορρίπτοντας τον ισχυρισμό ότι η προεδρική εξουσία παρακάμπτει τις νομοθετικές εγγυήσεις απομάκρυνσης. Η απόφαση αναγνωρίζει παραβιάσεις της διάκρισης των εξουσιών και διαδικαστικών δικαιωμάτων, αφήνοντας για μεταγενέστερη κρίση το ποσό των αναδρομικών αποδοχών.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-27-midday/comey-removal-ruling.json",
+      "reader_url": "articles/2026-10-27-midday/comey-removal-ruling.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/26/us-court-rules-daughter-of-trump-critic-james-comey-was-illegally-fired?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-10-26T20:55:37+00:00",
+          "retrieved_at": "2026-10-27T04:20:45.183870+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.nysd.uscourts.gov/sites/default/files/2026-10/25cv7625%20%5B96%5D%20Opinion%2010.26.2026.pdf",
+          "publisher": "US District Court, Southern District of New York",
+          "reporting_group": "US District Court SDNY",
+          "published_at": null,
+          "retrieved_at": "2026-10-27T05:29:03+00:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-morning/comey-removal-ruling.webp"
+    },
+    {
+      "story_id": "eoa-development-planning-request-2028-2034",
+      "identity": "eoa-development-planning-request-2028-2034",
+      "edition_id": "2026-10-27-midday",
+      "date": "2026-10-27",
+      "slot": "midday",
+      "published_at": "2026-10-27T07:31:36.998399+00:00",
+      "available_at": "2026-10-27T11:32:58.215892+00:00",
+      "headline": "Οι πέντε ΕΟΑ ζητούν θέση στον αναπτυξιακό σχεδιασμό του 2028–2034",
+      "finding": "Οι πέντε Επαρχιακοί Οργανισμοί Αυτοδιοίκησης ανακοίνωσαν στις 26 Οκτωβρίου κοινή επιστολή προς τον Πρόεδρο, ζητώντας συμμετοχή στον σχεδιασμό αναπτυξιακών έργων του 2028–2034 και ευρεία σύσκεψη με τους αρμοδίους. Σύμφωνα με το Cyprus Mail, επικαλούνται τις ανακοινώσεις για σχεδιασμό €3,5 δισ. από ευρωπαϊκούς και εθνικούς πόρους και προτάσσουν ύδρευση, αποχέτευση, αντιπλημμυρικά, ψηφιοποίηση και ενεργειακή αναβάθμιση.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-10-27-midday/eoa-development-planning.json",
+      "reader_url": "articles/2026-10-27-midday/eoa-development-planning.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/26/eoas-call-to-be-included-in-governments-next-planning-budget",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-26T17:45:14+00:00",
+          "retrieved_at": "2026-10-27T04:20:45.794951+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-morning/eoa-development-planning.webp"
+    },
+    {
+      "story_id": "edek-leadership-elections-2026-12",
+      "identity": "edek-leadership-elections-2026-12",
+      "edition_id": "2026-10-27-midday",
+      "date": "2026-10-27",
+      "slot": "midday",
+      "published_at": "2026-10-26T05:31:55.356033+00:00",
+      "available_at": "2026-10-27T11:32:58.215892+00:00",
+      "headline": "ΕΔΕΚ: έως 30 Νοεμβρίου στις 13:00 οι υποψηφιότητες για τη νέα ηγεσία",
+      "finding": "Η ΕΔΕΚ ανακοίνωσε ότι η προθεσμία υποβολής υποψηφιοτήτων λήγει στις 30 Νοεμβρίου 2026, στις 13:00, ενόψει του συνεδρίου της 12ης Δεκεμβρίου και της ψηφοφορίας της 13ης Δεκεμβρίου. Προηγούνται επαρχιακές εκλογικές συνδιασκέψεις στις 14–29 Νοεμβρίου, με τη Λεμεσό στις 21 Νοεμβρίου, από τις οποίες εκλέγονται συνολικά 50 μέλη της Κεντρικής Επιτροπής.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-10-27-midday/edek-election-deadlines.json",
+      "reader_url": "articles/2026-10-27-midday/edek-election-deadlines.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1335043/edek-anakoinwthike-to-khronodiaghramma-ghia-tin-ekloghi-neon-aksiomatoukhon",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-10-26T19:13:27+00:00",
+          "retrieved_at": "2026-10-27T04:20:45.435862+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-morning/edek-election-deadlines.webp"
+    },
+    {
+      "story_id": "manutd-carrick-manager-review-2026-10-26",
+      "identity": "manutd-carrick-manager-review-2026-10-26",
+      "edition_id": "2026-10-27-midday",
+      "date": "2026-10-27",
+      "slot": "midday",
+      "published_at": "2026-10-27T07:31:36.998399+00:00",
+      "available_at": "2026-10-27T11:32:58.215892+00:00",
+      "headline": "Μάντσεστερ Γιουνάιτεντ: υπό πίεση ο Κάρικ, χωρίς επιβεβαιωμένη αλλαγή προπονητή",
+      "finding": "Το BBC ανέφερε στις 26 Οκτωβρίου ότι ο Μάικλ Κάρικ αποχώρησε από το προπονητικό κέντρο μετά από συζητήσεις για το μέλλον του, με τη Γιουνάιτεντ να μετρά οκτώ αγώνες χωρίς νίκη και τους Έντι Χάου και Γιούλιαν Νάγκελσμαν μεταξύ πιθανών αντικαταστατών. Η απόλυση ή πρόσληψη δεν επιβεβαιώνεται στα διαθέσιμα αποσπάσματα, ενώ το ρεπορτάζ καταγράφει αποδοκιμασίες και προς τον διευθυντή ποδοσφαίρου Τζέισον Γουίλκοξ.",
+      "section": "sports",
+      "priority": 5,
+      "article_path": "articles/2026-10-27-midday/united-manager-uncertainty.json",
+      "reader_url": "articles/2026-10-27-midday/united-manager-uncertainty.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/cqdr8zv5dg42o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-26T15:34:23+00:00",
+          "retrieved_at": "2026-10-27T04:20:45.167413+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/ck5yn5j37en0o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-26T15:24:12+00:00",
+          "retrieved_at": "2026-10-27T04:20:45.386688+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-morning/united-manager-uncertainty.webp"
     },
     {
       "story_id": "kyiv-university-missile-strike-2026-10-26",

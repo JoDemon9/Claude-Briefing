@@ -10,13 +10,18 @@
       "type": "morning",
       "url": "morning/2026-10-27.html",
       "published_at": "2026-10-27T07:31:36.998399+00:00"
+    },
+    {
+      "id": "2026-10-27-midday",
+      "type": "midday",
+      "url": "midday/2026-10-27.html",
+      "published_at": "2026-10-27T11:32:58.215892+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "kyiv-university-missile-strike-2026-10-26",
+  "lead_story_id": "stubb-store-putin-call-2026-10-27",
   "stories": [
     {
       "story_id": "kyiv-university-missile-strike-2026-10-26",
@@ -28,16 +33,64 @@
           "article_id": "kyiv-university-strike",
           "source_story_id": "kyiv-university-missile-strike-2026-10-26",
           "url": "articles/2026-10-27-morning/kyiv-university-strike.html"
+        },
+        {
+          "edition_id": "2026-10-27-midday",
+          "article_id": "kyiv-university-strike",
+          "source_story_id": "kyiv-university-missile-strike-2026-10-26",
+          "url": "articles/2026-10-27-midday/kyiv-university-strike.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-27-morning",
+        "edition_id": "2026-10-27-midday",
         "article_id": "kyiv-university-strike",
         "source_story_id": "kyiv-university-missile-strike-2026-10-26",
-        "url": "articles/2026-10-27-morning/kyiv-university-strike.html"
+        "url": "articles/2026-10-27-midday/kyiv-university-strike.html"
       },
       "section": "world",
       "priority": 1
+    },
+    {
+      "story_id": "stubb-store-putin-call-2026-10-27",
+      "first_seen_at": "2026-10-27T11:32:58.215892+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-27-midday",
+          "article_id": "stubb-store-putin-call",
+          "source_story_id": "stubb-store-putin-call-2026-10-27",
+          "url": "articles/2026-10-27-midday/stubb-store-putin-call.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-27-midday",
+        "article_id": "stubb-store-putin-call",
+        "source_story_id": "stubb-store-putin-call-2026-10-27",
+        "url": "articles/2026-10-27-midday/stubb-store-putin-call.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "israel-election-2026-10-27",
+      "first_seen_at": "2026-10-27T11:32:58.215892+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-27-midday",
+          "article_id": "israel-election-voting",
+          "source_story_id": "israel-election-2026-10-27",
+          "url": "articles/2026-10-27-midday/israel-election-voting.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-27-midday",
+        "article_id": "israel-election-voting",
+        "source_story_id": "israel-election-2026-10-27",
+        "url": "articles/2026-10-27-midday/israel-election-voting.html"
+      },
+      "section": "world",
+      "priority": 2
     },
     {
       "story_id": "maurene-comey-removal-ruling-2026-10-26",
@@ -49,16 +102,43 @@
           "article_id": "comey-removal-ruling",
           "source_story_id": "maurene-comey-removal-ruling-2026-10-26",
           "url": "articles/2026-10-27-morning/comey-removal-ruling.html"
+        },
+        {
+          "edition_id": "2026-10-27-midday",
+          "article_id": "comey-removal-ruling",
+          "source_story_id": "maurene-comey-removal-ruling-2026-10-26",
+          "url": "articles/2026-10-27-midday/comey-removal-ruling.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-27-morning",
+        "edition_id": "2026-10-27-midday",
         "article_id": "comey-removal-ruling",
         "source_story_id": "maurene-comey-removal-ruling-2026-10-26",
-        "url": "articles/2026-10-27-morning/comey-removal-ruling.html"
+        "url": "articles/2026-10-27-midday/comey-removal-ruling.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "cyprus-gdp-q2-2026-eurobank",
+      "first_seen_at": "2026-10-27T11:32:58.215892+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-27-midday",
+          "article_id": "cyprus-eurobank-growth",
+          "source_story_id": "cyprus-gdp-q2-2026-eurobank",
+          "url": "articles/2026-10-27-midday/cyprus-eurobank-growth.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-27-midday",
+        "article_id": "cyprus-eurobank-growth",
+        "source_story_id": "cyprus-gdp-q2-2026-eurobank",
+        "url": "articles/2026-10-27-midday/cyprus-eurobank-growth.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "eoa-development-planning-request-2028-2034",
@@ -70,16 +150,43 @@
           "article_id": "eoa-development-planning",
           "source_story_id": "eoa-development-planning-request-2028-2034",
           "url": "articles/2026-10-27-morning/eoa-development-planning.html"
+        },
+        {
+          "edition_id": "2026-10-27-midday",
+          "article_id": "eoa-development-planning",
+          "source_story_id": "eoa-development-planning-request-2028-2034",
+          "url": "articles/2026-10-27-midday/eoa-development-planning.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-27-morning",
+        "edition_id": "2026-10-27-midday",
         "article_id": "eoa-development-planning",
         "source_story_id": "eoa-development-planning-request-2028-2034",
-        "url": "articles/2026-10-27-morning/eoa-development-planning.html"
+        "url": "articles/2026-10-27-midday/eoa-development-planning.html"
       },
       "section": "cyprus",
       "priority": 3
+    },
+    {
+      "story_id": "disy-georgiades-campaign-refusal-2026-10-27",
+      "first_seen_at": "2026-10-27T11:32:58.215892+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-27-midday",
+          "article_id": "disy-georgiades-campaign",
+          "source_story_id": "disy-georgiades-campaign-refusal-2026-10-27",
+          "url": "articles/2026-10-27-midday/disy-georgiades-campaign.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-27-midday",
+        "article_id": "disy-georgiades-campaign",
+        "source_story_id": "disy-georgiades-campaign-refusal-2026-10-27",
+        "url": "articles/2026-10-27-midday/disy-georgiades-campaign.html"
+      },
+      "section": "cyprus",
+      "priority": 4
     },
     {
       "story_id": "edek-leadership-elections-2026-12",
@@ -91,13 +198,19 @@
           "article_id": "edek-election-deadlines",
           "source_story_id": "edek-leadership-elections-2026-12",
           "url": "articles/2026-10-27-morning/edek-election-deadlines.html"
+        },
+        {
+          "edition_id": "2026-10-27-midday",
+          "article_id": "edek-election-deadlines",
+          "source_story_id": "edek-leadership-elections-2026-12",
+          "url": "articles/2026-10-27-midday/edek-election-deadlines.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-27-morning",
+        "edition_id": "2026-10-27-midday",
         "article_id": "edek-election-deadlines",
         "source_story_id": "edek-leadership-elections-2026-12",
-        "url": "articles/2026-10-27-morning/edek-election-deadlines.html"
+        "url": "articles/2026-10-27-midday/edek-election-deadlines.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -112,13 +225,19 @@
           "article_id": "united-manager-uncertainty",
           "source_story_id": "manutd-carrick-manager-review-2026-10-26",
           "url": "articles/2026-10-27-morning/united-manager-uncertainty.html"
+        },
+        {
+          "edition_id": "2026-10-27-midday",
+          "article_id": "united-manager-uncertainty",
+          "source_story_id": "manutd-carrick-manager-review-2026-10-26",
+          "url": "articles/2026-10-27-midday/united-manager-uncertainty.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-27-morning",
+        "edition_id": "2026-10-27-midday",
         "article_id": "united-manager-uncertainty",
         "source_story_id": "manutd-carrick-manager-review-2026-10-26",
-        "url": "articles/2026-10-27-morning/united-manager-uncertainty.html"
+        "url": "articles/2026-10-27-midday/united-manager-uncertainty.html"
       },
       "section": "sports",
       "priority": 5
@@ -193,6 +312,132 @@
         "article_id": "united-manager-uncertainty",
         "source_story_id": "manutd-carrick-manager-review-2026-10-26",
         "url": "articles/2026-10-27-morning/united-manager-uncertainty.html"
+      }
+    },
+    {
+      "id": "08219aef13c9a48a812ec209be87641595812991f123c251494cb720f2802f74",
+      "kind": "provenance",
+      "at": "2026-10-27T11:32:58.215892+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-gdp-q2-2026-eurobank",
+      "origin": {
+        "edition_id": "2026-10-27-midday",
+        "article_id": "cyprus-eurobank-growth",
+        "source_story_id": "cyprus-gdp-q2-2026-eurobank",
+        "url": "articles/2026-10-27-midday/cyprus-eurobank-growth.html"
+      }
+    },
+    {
+      "id": "60c74569ac0dec54ed13774fdca42634e784d0f2a976f75f3750aed296c3ffb2",
+      "kind": "provenance",
+      "at": "2026-10-27T11:32:58.215892+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "eoa-development-planning-request-2028-2034",
+      "origin": {
+        "edition_id": "2026-10-27-midday",
+        "article_id": "eoa-development-planning",
+        "source_story_id": "eoa-development-planning-request-2028-2034",
+        "url": "articles/2026-10-27-midday/eoa-development-planning.html"
+      }
+    },
+    {
+      "id": "7a32a1788f3cb7fea666a329cff20eeb8946a3a4d6b24e412e3633330a617336",
+      "kind": "provenance",
+      "at": "2026-10-27T11:32:58.215892+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "stubb-store-putin-call-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-27-midday",
+        "article_id": "stubb-store-putin-call",
+        "source_story_id": "stubb-store-putin-call-2026-10-27",
+        "url": "articles/2026-10-27-midday/stubb-store-putin-call.html"
+      }
+    },
+    {
+      "id": "820bc154313d808c535eecfff9ac291b20edeac250238765f9f4c29f009c3a28",
+      "kind": "provenance",
+      "at": "2026-10-27T11:32:58.215892+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "disy-georgiades-campaign-refusal-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-27-midday",
+        "article_id": "disy-georgiades-campaign",
+        "source_story_id": "disy-georgiades-campaign-refusal-2026-10-27",
+        "url": "articles/2026-10-27-midday/disy-georgiades-campaign.html"
+      }
+    },
+    {
+      "id": "98bedefbd1caad1372db2cea6046294623ef7e134d7846b36d78583186d13d6b",
+      "kind": "provenance",
+      "at": "2026-10-27T11:32:58.215892+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "manutd-carrick-manager-review-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-27-midday",
+        "article_id": "united-manager-uncertainty",
+        "source_story_id": "manutd-carrick-manager-review-2026-10-26",
+        "url": "articles/2026-10-27-midday/united-manager-uncertainty.html"
+      }
+    },
+    {
+      "id": "b05f9209e468acd322b33c5a505cedf8523d5a39a1d89fe70c0cb3bab124383f",
+      "kind": "provenance",
+      "at": "2026-10-27T11:32:58.215892+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "edek-leadership-elections-2026-12",
+      "origin": {
+        "edition_id": "2026-10-27-midday",
+        "article_id": "edek-election-deadlines",
+        "source_story_id": "edek-leadership-elections-2026-12",
+        "url": "articles/2026-10-27-midday/edek-election-deadlines.html"
+      }
+    },
+    {
+      "id": "dc5f1b1e66d2562e833c646d085a0d728ea67f89b8649801d93c30a7026d4fb7",
+      "kind": "provenance",
+      "at": "2026-10-27T11:32:58.215892+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "kyiv-university-missile-strike-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-27-midday",
+        "article_id": "kyiv-university-strike",
+        "source_story_id": "kyiv-university-missile-strike-2026-10-26",
+        "url": "articles/2026-10-27-midday/kyiv-university-strike.html"
+      }
+    },
+    {
+      "id": "deb32da080cea6d99be6b8128bb71918f8d2e205d7706aee84263ebb1e88deff",
+      "kind": "provenance",
+      "at": "2026-10-27T11:32:58.215892+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "israel-election-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-27-midday",
+        "article_id": "israel-election-voting",
+        "source_story_id": "israel-election-2026-10-27",
+        "url": "articles/2026-10-27-midday/israel-election-voting.html"
+      }
+    },
+    {
+      "id": "ef4ccba12c3a0714935db32843dc8f45cc39b232d0fd30c85ce9b3cfc1de5e18",
+      "kind": "provenance",
+      "at": "2026-10-27T11:32:58.215892+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "maurene-comey-removal-ruling-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-27-midday",
+        "article_id": "comey-removal-ruling",
+        "source_story_id": "maurene-comey-removal-ruling-2026-10-26",
+        "url": "articles/2026-10-27-midday/comey-removal-ruling.html"
       }
     }
   ],
@@ -399,23 +644,23 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Στο Κίεβο, ο απολογισμός της επίθεσης της 26ης Οκτωβρίου παραμένει προσωρινός και οι ζημιές αγγίζουν εκπαίδευση, μετακινήσεις και περίθαλψη. Στις ΗΠΑ, η απόφαση για τη Μορίν Κόμεϊ διαχωρίζει την πολιτική εποπτεία από την παράκαμψη των νόμιμων εγγυήσεων απόλυσης· δεν αποδεικνύει από μόνη της το καταγγελλόμενο πολιτικό κίνητρο.",
+        "text": "Η απευθείας επικοινωνία Φινλανδίας και Νορβηγίας με τη Μόσχα προσθέτει διπλωματικό δίαυλο, σε συνεννόηση με την Ουκρανία· δεν τεκμηριώνει συμφωνία κατάπαυσης πυρός ούτε κοινή ευρωπαϊκή εκπροσώπηση. Στο Ισραήλ η ψηφοφορία βρίσκεται σε εξέλιξη σύμφωνα με το BBC: οι προεκλογικές δημοσκοπήσεις δεν αποτελούν αποτέλεσμα.",
         "story_ids": [
-          "kyiv-university-missile-strike-2026-10-26",
-          "maurene-comey-removal-ruling-2026-10-26"
+          "stubb-store-putin-call-2026-10-27",
+          "israel-election-2026-10-27"
         ]
       },
       {
-        "text": "Οι ΕΟΑ ζητούν συμμετοχή στον σχεδιασμό του 2028–2034, χωρίς ακόμη κατανομή χρηματοδότησης στα έργα τους. Το ουσιαστικό επόμενο βήμα είναι συγκεκριμένος κατάλογος, προϋπολογισμοί και χρονοδιάγραμμα. Στην ΕΔΕΚ, η νέα πρακτική προθεσμία είναι η 30ή Νοεμβρίου στις 13:00 για υποψηφιότητες.",
+        "text": "Η ανάλυση της Eurobank ξεχωρίζει την αύξηση επενδύσεων και κατανάλωσης από τις πιέσεις σε πληθωρισμό και τουρισμό· επόμενο τεστ είναι η σύνθεση της ανάπτυξης του τρίτου τριμήνου. Στον ΔΗΣΥ, η άρνηση Γεωργιάδη να συμμετάσχει σε εκστρατεία με υποψήφιο τον Νεοφύτου δημιουργεί ζήτημα κομματικής συνοχής, χωρίς ανακοίνωση αποχώρησής του.",
         "story_ids": [
-          "eoa-development-planning-request-2028-2034",
-          "edek-leadership-elections-2026-12"
+          "cyprus-gdp-q2-2026-eurobank",
+          "disy-georgiades-campaign-refusal-2026-10-27"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-10-27T07:33:42.769573+00:00",
-  "updated_at": "2026-10-27T07:33:42.769573+00:00",
-  "input_sha256": "5013caf70da70c9804f44e7518db68133604553090a60e4563df49873ac83c52"
+  "updated_at": "2026-10-27T11:34:05.889163+00:00",
+  "input_sha256": "350732f51a3ce28c6937abb90b3c1be4cdd310b51b4721c854fcd095b73350a7"
 }
