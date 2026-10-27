@@ -41,6 +41,11 @@ def prepare(root, edition_id, verify_only=False):
             original=root/'docs'/source
             if not reuse.get('relevance_and_archive_date_checked') or hashlib.sha256(original.read_bytes()).hexdigest()!=reuse['sha256']:
                 raise ValueError('Reused photo source no longer matches its review')
+            if not target.exists() and not verify_only:
+                # A reused photo is already optimized and reviewed byte-for-byte.
+                # Downloading/re-encoding its remote original changes that identity.
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes(original.read_bytes())
         if not target.exists():
             if verify_only:
                 raise ValueError('Missing image asset: '+str(local))

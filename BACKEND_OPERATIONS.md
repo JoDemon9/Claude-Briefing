@@ -4,6 +4,8 @@ This is the maintained producer/publisher path after the review branches reach m
 
 ## Prepare, publish, resume, inspect
 
+Maintenance recovery, 27 October 2026 (DEC-027): a fresh source-only candidate may omit its edition-specific reused photo assets. `prepare_images.py` restores these from the checksum-verified local library, preserving exact reviewed bytes and provenance instead of downloading and re-encoding the remote original. Verification-only mode remains read-only; altered sources or existing mismatched targets still block publication. Regression coverage: `tests/test_reused_photo_preparation.py`. This repairs preparation without changing reporting, photo policy, or publication gates; CI and live deployment results are recorded separately.
+
 Start with fresh public and portal main checkouts and the maintained Python dependencies. Keep unrelated work in separate checkouts. Preparation does not perform a remote write:
 
 ```sh
