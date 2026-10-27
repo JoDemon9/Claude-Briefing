@@ -61,7 +61,23 @@ class CoverageTests(unittest.TestCase):
         e=edition(); e.update(date='2026-10-27'); e.pop('selection_policy')
         selection.validate_balanced(e,[article(0)])
         e['date']='2026-10-28'
-        with self.assertRaisesRegex(ValueError,'selection_policy'): selection.validate_balanced(e,[article(0)])
+        selection.validate_balanced(e,[article(0)])  # Contract gate decides historical acceptance.
+
+    def test_current_contract_requires_policy_but_a_delayed_merge_preserves_accepted_history(self):
+        backend=load('backend');e=edition();aa=[article(0)];e.pop('selection_policy')
+        caps=backend.capabilities(ROOT)
+        e['producer_contract']={k:caps[k] for k in ('producer_protocol','content_schema_sha256')}
+        with self.assertRaisesRegex(ValueError,'selection_policy'):backend.check_contract(ROOT,e,aa)
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);(root/'templates/v2').mkdir(parents=True);(root/'docs/data').mkdir(parents=True)
+            (root/'templates/v2/content.schema.json').write_bytes((ROOT/'templates/v2/content.schema.json').read_bytes())
+            e['producer_contract']['content_schema_sha256']='0'*64
+            receipt={e['id']:{'contract':e['producer_contract'],'source_sha256':backend.edition_fingerprint(e,aa)}}
+            (root/'docs/data/edition-contracts.json').write_text(json.dumps(receipt),encoding='utf-8')
+            backend.check_contract(root,e,aa)
+            continuity.validate(e,aa,root)
+            aa[0]['summary']+=' Unreviewed change.'
+            with self.assertRaisesRegex(ValueError,'mismatch'):backend.check_contract(root,e,aa)
 
     def test_prompt_and_policy_changes_select_maintenance(self):
         for path in ('AGENTS.md','CLAUDE.md','BRIEFING_SPEC.md','CHATGPT_TASK_INSTRUCTIONS.md','prompts/morning.md'):

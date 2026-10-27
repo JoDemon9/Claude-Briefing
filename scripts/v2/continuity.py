@@ -12,7 +12,7 @@ def reporting(article):
 
 
 def validate(edition, articles, root):
-    if edition.get('selection_policy') != 'balanced-v1' and edition.get('date', '') < '2026-10-28':
+    if edition.get('selection_policy') != 'balanced-v1':
         return
     selected = {a['story_id'] for a in articles}
     omitted = edition.get('selection_review', {}).get('omitted_stories', {})

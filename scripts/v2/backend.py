@@ -78,6 +78,9 @@ def check_contract(root, edition, articles=()):
                 and saved.get('reporting_sha256')==reporting_fingerprint(edition,articles)):
             return  # Only image metadata/bytes changed; all reporting remains exact.
         raise ValueError('Producer/renderer contract mismatch; fetch current main capabilities')
+    if (edition['status'] == 'published' and edition['date'] >= supported['selection_policy_required_from']
+            and edition.get('selection_policy') != supported['selection_policy']):
+        raise ValueError('New current-contract editions require selection_policy=balanced-v1')
 
 
 def instant(value):

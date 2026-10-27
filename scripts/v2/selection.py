@@ -7,7 +7,9 @@ BALANCED_START = '2026-10-28'
 
 
 def balanced_required(edition):
-    return edition.get('selection_policy') == 'balanced-v1' or edition.get('date', '') >= BALANCED_START
+    # backend.check_contract requires the marker on new current-contract inputs.
+    # Accepted historical fingerprints remain valid even after a delayed merge.
+    return edition.get('selection_policy') == 'balanced-v1'
 
 
 def coverage_required(edition):
