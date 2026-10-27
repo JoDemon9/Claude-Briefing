@@ -14,6 +14,8 @@ Reserve one article-backed excerpt per candidate, interleaving Cyprus and world 
 
 Filter explicitly labelled recurring cartoon columns before article downloads, without filtering news reporting about cartoons. Keep collection at 14 article requests. Digest guidance asks the model to inspect every candidate and meet each desk's supported coverage target with concise dispatches. Candidate counts do not establish importance, novelty or corroboration. Analytical leads retain substantive guidance. No padding or blanket minimum-count publication blocker is introduced.
 
+Extend reviewed photo subject aliases for Kyiv/Κίεβο and USA/ΗΠΑ so future matching articles use existing country photographs instead of the generic world fallback. No new image, licence or event photograph is asserted; archive labels remain explicit. Previously published article records are not rewritten by this rule change.
+
 ## Verification and limits
 
 Exact sealed Morning pack replay: original 47,448 UTF-8 bytes / 12,431 o200k_base reference tokens; revised 46,049 bytes / 12,185 tokens. All 11 article-backed candidates fit instead of six. The replay retains the old pack's already-collected cartoon, so meaningful news coverage is four Cyprus and four world stories. Future collection excludes that cartoon slot. Reference tokens are not measured account quota savings.

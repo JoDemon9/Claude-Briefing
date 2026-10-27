@@ -46,6 +46,8 @@ class RealPhotoTests(unittest.TestCase):
         p=load('photo_policy');policy=p.load(ROOT)
         for raw,key in [({'story_id':'brazil-presidential-runoff-voting-2026-10-25','section':'world'},'brazil'),
                         ({'headline':'Manchester United injury update','section':'sports'},'manutd'),
+                        ({'story_id':'kyiv-university-missile-strike-2026-10-26','headline':'Κίεβο: πλήγματα κοντά σε πανεπιστήμιο','section':'world'},'ukraine'),
+                        ({'headline':'ΗΠΑ: παράνομη κρίθηκε η απόλυση εισαγγελέως','section':'world'},'us'),
                         ({'headline':'Unmatched subject','section':'world'},'earth')]:
             self.assertEqual(p.selection(raw,ROOT)['photo_id'],policy['photos'][key]['id'])
         self.assertTrue(all(v['media_type']=='photograph' and v['visually_reviewed'] for v in policy['photos'].values()))
