@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-10-27.html",
+  "editions": [
+    {
+      "id": "2026-10-27-morning",
+      "type": "morning",
+      "url": "morning/2026-10-27.html",
+      "published_at": "2026-10-27T07:31:36.998399+00:00"
+    }
+  ],
+  "missing_slots": [
+    "midday",
+    "evening"
+  ],
+  "lead_story_id": "kyiv-university-missile-strike-2026-10-26",
+  "stories": [
+    {
+      "story_id": "kyiv-university-missile-strike-2026-10-26",
+      "first_seen_at": "2026-10-27T07:31:36.998399+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-27-morning",
+          "article_id": "kyiv-university-strike",
+          "source_story_id": "kyiv-university-missile-strike-2026-10-26",
+          "url": "articles/2026-10-27-morning/kyiv-university-strike.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-27-morning",
+        "article_id": "kyiv-university-strike",
+        "source_story_id": "kyiv-university-missile-strike-2026-10-26",
+        "url": "articles/2026-10-27-morning/kyiv-university-strike.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "maurene-comey-removal-ruling-2026-10-26",
+      "first_seen_at": "2026-10-27T07:31:36.998399+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-27-morning",
+          "article_id": "comey-removal-ruling",
+          "source_story_id": "maurene-comey-removal-ruling-2026-10-26",
+          "url": "articles/2026-10-27-morning/comey-removal-ruling.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-27-morning",
+        "article_id": "comey-removal-ruling",
+        "source_story_id": "maurene-comey-removal-ruling-2026-10-26",
+        "url": "articles/2026-10-27-morning/comey-removal-ruling.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "eoa-development-planning-request-2028-2034",
+      "first_seen_at": "2026-10-27T07:31:36.998399+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-27-morning",
+          "article_id": "eoa-development-planning",
+          "source_story_id": "eoa-development-planning-request-2028-2034",
+          "url": "articles/2026-10-27-morning/eoa-development-planning.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-27-morning",
+        "article_id": "eoa-development-planning",
+        "source_story_id": "eoa-development-planning-request-2028-2034",
+        "url": "articles/2026-10-27-morning/eoa-development-planning.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
+      "story_id": "edek-leadership-elections-2026-12",
+      "first_seen_at": "2026-10-27T07:31:36.998399+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-27-morning",
+          "article_id": "edek-election-deadlines",
+          "source_story_id": "edek-leadership-elections-2026-12",
+          "url": "articles/2026-10-27-morning/edek-election-deadlines.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-27-morning",
+        "article_id": "edek-election-deadlines",
+        "source_story_id": "edek-leadership-elections-2026-12",
+        "url": "articles/2026-10-27-morning/edek-election-deadlines.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "manutd-carrick-manager-review-2026-10-26",
+      "first_seen_at": "2026-10-27T07:31:36.998399+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-27-morning",
+          "article_id": "united-manager-uncertainty",
+          "source_story_id": "manutd-carrick-manager-review-2026-10-26",
+          "url": "articles/2026-10-27-morning/united-manager-uncertainty.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-27-morning",
+        "article_id": "united-manager-uncertainty",
+        "source_story_id": "manutd-carrick-manager-review-2026-10-26",
+        "url": "articles/2026-10-27-morning/united-manager-uncertainty.html"
+      },
+      "section": "sports",
+      "priority": 5
+    }
+  ],
+  "updates": [
+    {
+      "id": "046fb1382e726a27e57499304d3fcc24f6255d443662ab0f2e55eef946483d50",
+      "kind": "provenance",
+      "at": "2026-10-27T07:31:36.998399+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "edek-leadership-elections-2026-12",
+      "origin": {
+        "edition_id": "2026-10-27-morning",
+        "article_id": "edek-election-deadlines",
+        "source_story_id": "edek-leadership-elections-2026-12",
+        "url": "articles/2026-10-27-morning/edek-election-deadlines.html"
+      }
+    },
+    {
+      "id": "0ed3a46da4961e76f992e30035240883311574dcdf35a645362af51075d4039e",
+      "kind": "provenance",
+      "at": "2026-10-27T07:31:36.998399+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "kyiv-university-missile-strike-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-27-morning",
+        "article_id": "kyiv-university-strike",
+        "source_story_id": "kyiv-university-missile-strike-2026-10-26",
+        "url": "articles/2026-10-27-morning/kyiv-university-strike.html"
+      }
+    },
+    {
+      "id": "6c56fff19b132969d265c06a0d95630d9db9b2100c0ee93ea347f9f0b5aa72ca",
+      "kind": "provenance",
+      "at": "2026-10-27T07:31:36.998399+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "maurene-comey-removal-ruling-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-27-morning",
+        "article_id": "comey-removal-ruling",
+        "source_story_id": "maurene-comey-removal-ruling-2026-10-26",
+        "url": "articles/2026-10-27-morning/comey-removal-ruling.html"
+      }
+    },
+    {
+      "id": "72e7d7e879722261cd3e266a3ca8c6d0d0526f60208e87afb42178bda7d4a54d",
+      "kind": "provenance",
+      "at": "2026-10-27T07:31:36.998399+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "eoa-development-planning-request-2028-2034",
+      "origin": {
+        "edition_id": "2026-10-27-morning",
+        "article_id": "eoa-development-planning",
+        "source_story_id": "eoa-development-planning-request-2028-2034",
+        "url": "articles/2026-10-27-morning/eoa-development-planning.html"
+      }
+    },
+    {
+      "id": "a89aef57e808ff5f0bbb4fefc056a760d46c835191546aabe2201cf4c45cc304",
+      "kind": "provenance",
+      "at": "2026-10-27T07:31:36.998399+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "manutd-carrick-manager-review-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-27-morning",
+        "article_id": "united-manager-uncertainty",
+        "source_story_id": "manutd-carrick-manager-review-2026-10-26",
+        "url": "articles/2026-10-27-morning/united-manager-uncertainty.html"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "action": "Δες την επίσημη ανακοίνωση ως ιστορικό πλαίσιο. Αναμένουμε επαληθευμένη νέα προκήρυξη πριν εμφανίσουμε ενεργή αίτηση.",
+      "application_kind": "instructions",
+      "application_url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+      "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση.",
+      "deadline": "2024-07-31T23:59:00+03:00",
+      "deadline_note": "Ιστορική προθεσμία της 2ης πρόσκλησης, όχι ημερομηνία νέας αίτησης. Νέα ενεργή πρόσκληση δεν επιβεβαιώθηκε στον παρόντα έλεγχο.",
+      "deadline_type": "fixed",
+      "eligibility": "Η προκήρυξη του 2024 όριζε νέους 18–29, άνδρες 30–50 και γυναίκες 30–55. Νέα πρόσκληση μπορεί να αλλάξει τους όρους· δεν έχει κριθεί προσωπική επιλεξιμότητα.",
+      "id": "cy-new-entrepreneurship-2024-call2",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "kind": "grant",
+      "opens_at": null,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-23T04:30:48.639313+00:00",
+          "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "retrieved_at": "2026-10-15T16:39:24.850175+00:00",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Ιστορική πρόσκληση του 2024 που έχει λήξει. Παραμένει μόνο στην παρακολούθηση για τυχόν νέα επίσημη προκήρυξη, όχι στις ενεργές αιτήσεις.",
+      "support": "Παλιοί όροι: 70% επιλέξιμης δαπάνης για 18–29, 60% για τις άλλες ομάδες, με μέγιστο επιλέξιμο προϋπολογισμό €120.000.",
+      "title": "Νέα Επιχειρηματική Δραστηριότητα · παλιά 2η προκήρυξη",
+      "verified_at": "2026-10-23T07:36:00+03:00"
+    },
+    {
+      "action": "Αν έχεις GO, προετοίμασε πλήρη πρόταση. Διαφορετικά ξεκίνα τη σύντομη αίτηση χωρίς να θεωρείς εξασφαλισμένη συμμετοχή στον γύρο Νοεμβρίου.",
+      "application_kind": "form",
+      "application_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+      "change_note": "Επανελέγχθηκε η επίσημη σελίδα EIC: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ., επενδυτικό σκέλος €1–10 εκατ. και επόμενη πλήρης πρόταση στις 4/11, 17:00 Βρυξελλών, μόνο μετά από GO.",
+      "deadline": "2026-11-04T18:00:00+02:00",
+      "deadline_note": "4/11 στις 17:00 Βρυξελλών = 18:00 Κύπρου. Αφορά πλήρη πρόταση μετά το GO. Οι σύντομες προτάσεις υποβάλλονται συνεχώς· αξιολόγηση συνήθως 4–6 εβδομάδες.",
+      "deadline_type": "fixed",
+      "eligibility": "Μία startup/ΜμΕ στην ΕΕ ή συνδεδεμένη χώρα, με καινοτομία TRL 6–8. Για πλήρη πρόταση προηγείται θετική αξιολόγηση (GO) της σύντομης πρότασης ή επιλέξιμη ειδική διαδρομή.",
+      "id": "eu-eic-accelerator-2026",
+      "jurisdiction": "ΕΕ · περιλαμβάνει την Κύπρο",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Innovation Council",
+          "reporting_group": "European Innovation Council",
+          "retrieved_at": "2026-10-24T13:43:13+03:00",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Στήριξη νεοφυών και μικρομεσαίων επιχειρήσεων με ανατρεπτική καινοτομία σε στάδιο ανάπτυξης και κλιμάκωσης. Δεν είναι γενική επιδότηση ίδρυσης επιχείρησης.",
+      "support": "Επιχορήγηση κάτω από €2,5 εκατ.· χωριστά επενδυτικό σκέλος €1–10 εκατ., που δεν αποτελεί επιχορήγηση.",
+      "title": "EIC Accelerator: επόμενη πλήρης πρόταση 4 Νοεμβρίου",
+      "verified_at": "2026-10-24T13:43:13+03:00"
+    },
+    {
+      "action": "Μην υποβάλεις νέα αίτηση. Παρακολούθησε μόνο επίσημη επαναπροκήρυξη ή ανακοίνωση για επιλαχόντες.",
+      "application_kind": "none",
+      "application_url": null,
+      "change_note": "Το ΥΕΕΒ ανακοίνωσε ολοκλήρωση υποβολής προτάσεων λόγω υπερκάλυψης προϋπολογισμού. Η προηγούμενη ένδειξη ανοικτής πρόσκλησης διορθώθηκε.",
+      "deadline": null,
+      "deadline_note": "Η υποβολή ολοκληρώθηκε στις 21/10 λόγω υπερκάλυψης του διαθέσιμου προϋπολογισμού.",
+      "deadline_type": "unknown",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "id": "cy-home-energy-2026",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "kind": "grant",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": "2026-10-21",
+          "publisher": "ΥΕΕΒ",
+          "reporting_group": "ΥΕΕΒ",
+          "retrieved_at": "2026-10-23T10:33:45.530855+00:00",
+          "url": "https://www.industry.gov.cy",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "verified_at": "2026-10-23T13:33:46+03:00"
+    },
+    {
+      "action": "Έλεγξε τα όρια και τη διαδικασία προηγούμενης κοινοποίησης στο κράτος εγκατάστασης. Ο σύνδεσμος δίνει οδηγίες, όχι κυπριακό έντυπο.",
+      "application_kind": "instructions",
+      "application_url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+      "change_note": "Επανελέγχθηκαν στις 24/10 η επίσημη ευρωπαϊκή σελίδα και η διαδικασία διασυνοριακής απαλλαγής. Το καθεστώς παραμένει προαιρετικό και ανοικτό, με ενωσιακό όριο €100.000 και προηγούμενη κοινοποίηση.",
+      "deadline": null,
+      "deadline_note": "Δεν πρόκειται για γύρο χορηγιών. Η απαλλαγή ξεκινά μετά την έγκριση/επιβεβαίωση EX· ισχύουν ξεχωριστές υποχρεώσεις τριμηνιαίας αναφοράς.",
+      "deadline_type": "rolling",
+      "eligibility": "Επιχείρηση εγκατεστημένη στην ΕΕ: ενωσιακός τζίρος έως €100.000 στο τρέχον και προηγούμενο έτος, καθώς και το εθνικό/κλαδικό όριο κάθε χώρας απαλλαγής.",
+      "id": "eu-cross-border-sme-vat",
+      "jurisdiction": "ΕΕ / Κύπρος · διασυνοριακές πωλήσεις",
+      "kind": "legal_right",
+      "opens_at": null,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · DG TAXUD",
+          "reporting_group": "European Commission · DG TAXUD",
+          "retrieved_at": "2026-10-24T07:33:51+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · SME VAT",
+          "reporting_group": "European Commission · SME VAT",
+          "retrieved_at": "2026-10-24T07:33:47+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/index_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-24T07:33:52+03:00",
+          "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Το ευρωπαϊκό καθεστώς μικρών επιχειρήσεων επιτρέπει απαλλαγή ΦΠΑ σε επιλέξιμες διασυνοριακές πωλήσεις. Απαιτεί προηγούμενη κοινοποίηση· δεν εφαρμόζεται αυτόματα.",
+      "support": "Πιθανή απλούστευση υποχρεώσεων ΦΠΑ, με απώλεια δικαιώματος έκπτωσης ΦΠΑ για τις απαλλασσόμενες πράξεις. Αξιολόγησε το καθαρό όφελος πριν επιλέξεις.",
+      "title": "Προαιρετική απαλλαγή ΦΠΑ για μικρές επιχειρήσεις",
+      "verified_at": "2026-10-24T07:44:30+03:00"
+    },
+    {
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
+      "application_kind": "form",
+      "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "change_note": "Επανελέγχθηκαν η επίσημη δυνατότητα αίτησης, τα κριτήρια και η FAQ προθεσμίας στις 24/10. Η εγγραφή παραμένει ανοικτή χωρίς καταληκτική ημερομηνία· δεν υπονοείται προσωπική επιλεξιμότητα.",
+      "deadline": null,
+      "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
+      "deadline_type": "rolling",
+      "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
+      "id": "eu-erasmus-new-entrepreneurs",
+      "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
+      "kind": "benefit",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs · FAQ",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
+      "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
+      "title": "Erasmus for Young Entrepreneurs",
+      "verified_at": "2026-10-24T07:43:00+03:00"
+    }
+  ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Στο Κίεβο, ο απολογισμός της επίθεσης της 26ης Οκτωβρίου παραμένει προσωρινός και οι ζημιές αγγίζουν εκπαίδευση, μετακινήσεις και περίθαλψη. Στις ΗΠΑ, η απόφαση για τη Μορίν Κόμεϊ διαχωρίζει την πολιτική εποπτεία από την παράκαμψη των νόμιμων εγγυήσεων απόλυσης· δεν αποδεικνύει από μόνη της το καταγγελλόμενο πολιτικό κίνητρο.",
+        "story_ids": [
+          "kyiv-university-missile-strike-2026-10-26",
+          "maurene-comey-removal-ruling-2026-10-26"
+        ]
+      },
+      {
+        "text": "Οι ΕΟΑ ζητούν συμμετοχή στον σχεδιασμό του 2028–2034, χωρίς ακόμη κατανομή χρηματοδότησης στα έργα τους. Το ουσιαστικό επόμενο βήμα είναι συγκεκριμένος κατάλογος, προϋπολογισμοί και χρονοδιάγραμμα. Στην ΕΔΕΚ, η νέα πρακτική προθεσμία είναι η 30ή Νοεμβρίου στις 13:00 για υποψηφιότητες.",
+        "story_ids": [
+          "eoa-development-planning-request-2028-2034",
+          "edek-leadership-elections-2026-12"
+        ]
+      }
+    ]
+  },
+  "follow_ups": [],
+  "created_at": "2026-10-27T07:33:42.769573+00:00",
+  "updated_at": "2026-10-27T07:33:42.769573+00:00",
+  "input_sha256": "5013caf70da70c9804f44e7518db68133604553090a60e4563df49873ac83c52"
+}

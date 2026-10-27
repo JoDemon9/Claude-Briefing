@@ -463,6 +463,11 @@
           "story_id": "varosha-un-eu-proposal-2026-10-26",
           "article_path": "articles/2026-10-26-midday/varosha-proposal.json",
           "edition_id": "2026-10-26-midday"
+        },
+        {
+          "story_id": "eoa-development-planning-request-2028-2034",
+          "article_path": "articles/2026-10-27-morning/eoa-development-planning.json",
+          "edition_id": "2026-10-27-morning"
         }
       ]
     },
@@ -743,6 +748,11 @@
           "story_id": "manutd-bournemouth-defeat-2026-10-25",
           "article_path": "articles/2026-10-25-evening/manutd-bournemouth-defeat.json",
           "edition_id": "2026-10-25-evening"
+        },
+        {
+          "story_id": "manutd-carrick-manager-review-2026-10-26",
+          "article_path": "articles/2026-10-27-morning/united-manager-uncertainty.json",
+          "edition_id": "2026-10-27-morning"
         }
       ]
     },
@@ -2047,6 +2057,11 @@
           "story_id": "edek-leadership-elections-2026-12",
           "article_path": "articles/2026-10-26-morning/edek-leadership-vote.json",
           "edition_id": "2026-10-26-morning"
+        },
+        {
+          "story_id": "edek-leadership-elections-2026-12",
+          "article_path": "articles/2026-10-27-morning/edek-election-deadlines.json",
+          "edition_id": "2026-10-27-morning"
         }
       ]
     },
@@ -2240,6 +2255,43 @@
           "story_id": "cyprus-nicosia-bus-audit-2026",
           "article_path": "articles/2026-10-14-midday/cyprus-buses.json",
           "edition_id": "2026-10-14-midday"
+        }
+      ]
+    },
+    {
+      "id": "a5006f0e3b79f189db76dd7b4288efc835ec2d1c25b0cd775b2f9c2153827a61",
+      "asset": "assets/editorial/2026-10-27-morning/kyiv-university-strike.webp",
+      "image": {
+        "alt": "Η Γη από το Apollo 17, πραγματική φωτογραφία NASA της 7ης Δεκεμβρίου 1972 · γενικό διεθνές πλαίσιο",
+        "attribution": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+        "caption": "Φωτογραφία αρχείου · Η Γη από το Apollo 17, πραγματική φωτογραφία NASA της 7ης Δεκεμβρίου 1972 · γενικό διεθνές πλαίσιο. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "retrieved_at": "2026-10-25T22:21:39.242726+00:00",
+        "reuse_review": {
+          "relevance_and_archive_date_checked": true,
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "sha256": "a5006f0e3b79f189db76dd7b4288efc835ec2d1c25b0cd775b2f9c2153827a61",
+          "source_asset": "assets/editorial/library/earth.webp"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+        "url": "assets/editorial/2026-10-27-morning/kyiv-university-strike.webp"
+      },
+      "dimensions": [
+        1199,
+        1200
+      ],
+      "references": [
+        {
+          "story_id": "kyiv-university-missile-strike-2026-10-26",
+          "article_path": "articles/2026-10-27-morning/kyiv-university-strike.json",
+          "edition_id": "2026-10-27-morning"
+        },
+        {
+          "story_id": "maurene-comey-removal-ruling-2026-10-26",
+          "article_path": "articles/2026-10-27-morning/comey-removal-ruling.json",
+          "edition_id": "2026-10-27-morning"
         }
       ]
     },
