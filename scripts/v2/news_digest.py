@@ -26,8 +26,32 @@ def normalized(value):
 
 
 def news_report(title):
-    """Exclude explicitly labelled recurring cartoons, not reporting about cartoons."""
-    return not re.match(r'^(?:(?:το )?σκιτσο (?:του|της|της ημερας)|(?:daily |today.s )?cartoon(?: of the day)?(?:\s*[:–—-]|$))',normalized(title).strip())
+    """Exclude cartoon columns and forthcoming-show promos, not completed reporting."""
+    text=normalized(title).strip()
+    return not (re.match(r'^(?:(?:το )?σκιτσο (?:του|της|της ημερας)|(?:daily |today.s )?cartoon(?: of the day)?(?:\s*[:–—-]|$))',text)
+                or ('σε λιγο' in text and re.search(r'vidcast|podcast',text)))
+
+
+def geography(title,url,fallback):
+    """Conservative routing for general Cyprus feeds and Wire category fallbacks."""
+    text=normalized(title);path=urlsplit(url).path.lower()
+    if fallback=='sports':return fallback
+    if re.search(r'κυπρ|cyprus|nicosia|limassol|λευκωσ|λεμεσ|λαρνακ|αμμοχωστ',text):return 'cyprus'
+    host=(urlsplit(url).hostname or '').removeprefix('www.')
+    if host=='philenews.com':
+        if path.startswith('/kipros/'):return 'cyprus'
+        if path.startswith('/kosmos/') or '/kosmos-ikonomia/' in path:return 'world'
+    if host=='sigmalive.com' and path.startswith('/news/international/'):return 'world'
+    if fallback=='cyprus' and re.search(r'\b(?:nato|νατο|ηπα|usa|ισραηλ\w*|israel\w*|ukraine|ουκραν\w*|ρωσι\w*|russia\w*)\b',text):return 'world'
+    return fallback
+
+
+def event_hint(title):
+    """One explicit national election can have many discovery headlines; no story-ID merge."""
+    text=normalized(title)
+    if re.search(r'\b(?:israel\w*|ισραηλ\w*)\b',text) and re.search(r'\b(?:election\w*|polls|εκλογ\w*|ψηφοφορ\w*)\b',text):
+        return 'israel-election'
+    return None
 
 
 def feed_section(item,feed):
@@ -110,7 +134,7 @@ def feed_items(row,feed,at):
         title=clean(field(('title',)))[:240]
         if len(title)<12 or not news_report(title):
             continue
-        items.append(dict(title=title,url=canonical(link),published_at=published,section=feed_section(item,feed),publisher=feed['publisher'],
+        items.append(dict(title=title,url=canonical(link),published_at=published,section=geography(title,link,feed_section(item,feed)),publisher=feed['publisher'],
                           feed_excerpt=clean(field(('description','summary','encoded')))[:700],feed_retrieved_at=row['retrieved_at']))
     return items[:30]
 
@@ -124,9 +148,11 @@ def cluster(items):
     groups=[]
     for item in items:
         tokens=words(item['title'])
+        hint=event_hint(item['title'])
         group=next((g for g in groups if item['section']==g[0]['section'] and
-                    len(tokens & words(g[0]['title']))>=3 and
-                    len(tokens & words(g[0]['title']))/max(1,len(tokens | words(g[0]['title'])))>=0.60),None)
+                    ((hint and hint==event_hint(g[0]['title'])) or
+                     (len(tokens & words(g[0]['title']))>=3 and
+                      len(tokens & words(g[0]['title']))/max(1,len(tokens | words(g[0]['title'])))>=0.60))),None)
         if group is None:
             groups.append([item])
         else:
@@ -177,7 +203,7 @@ def collect(root,packet,client,at,private_folder):
         url=row.get('link') or ''
         if HTTP.safe(url,hosts):
             items.append(dict(title=clean(row.get('title',''))[:240],url=canonical(url),published_at=row.get('published_at'),
-                section='cyprus' if row.get('category')=='cyprus' else 'world',publisher=row.get('source') or urlsplit(url).hostname,
+                section=geography(row.get('title',''),url,'cyprus' if row.get('category')=='cyprus' else 'world'),publisher=row.get('source') or urlsplit(url).hostname,
                 feed_excerpt='',feed_retrieved_at=packet['as_of']))
     unique={}
     for item in sorted(items,key=lambda i:(i.get('published_at') or '',i['url']),reverse=True):
@@ -186,14 +212,30 @@ def collect(root,packet,client,at,private_folder):
     groups.sort(key=lambda g:(priority(g,packet.get('stories',[]))[0],g[0].get('published_at') or '',g[0]['url']),reverse=True)
     # Independent desk quotas bound selection before article downloads, not after model browsing.
     selected=[]
-    for desk,limit in [('cyprus',5),('world',6),('sports',2)]:
+    for desk,limit in [('cyprus',4),('world',4),('sports',2)]:
         selected.extend([g for g in groups if g[0]['section']==desk][:limit])
-    # Reserve one article per cluster before spending the remaining request on corroboration.
-    chosen=[group[0] for group in selected][:MAX_ARTICLE_REQUESTS]
-    for group in selected:
-        extra=next((i for i in group[1:] if i['publisher']!=group[0]['publisher']),None)
-        if extra and len(chosen)<MAX_ARTICLE_REQUESTS:chosen.append(extra)
+    # Reserve retry capacity for blocked/future-dated primary articles. Refill
+    # under-covered desks before optional breadth or an extra reporting chain.
+    chosen=[group[0] for group in selected]
     pages=client.many(item['url'] for item in chosen)
+    fetched={item['url']:evidence(item,pages[item['url']]) for item in chosen}
+    def usable(item):
+        ev=fetched.get(item['url'],{})
+        return ev.get('access')=='article_excerpt' and (not ev.get('published_at') or datetime.fromisoformat(ev['published_at'])<=at)
+    while len(chosen)<MAX_ARTICLE_REQUESTS:
+        counts={desk:sum(g[0]['section']==desk and any(usable(i) for i in g) for g in selected) for desk in ('cyprus','world')}
+        group=None
+        for desk in sorted(counts,key=lambda d:(counts[d]>=4,counts[d],d)):
+            if counts[desk]<(5 if desk=='cyprus' else 6):
+                group=next((g for g in groups if g not in selected and g[0]['section']==desk),None)
+                if group:break
+        if group:
+            selected.append(group);item=group[0]
+        else:
+            item=next((i for g in selected for i in g[1:] if i['publisher']!=g[0]['publisher'] and i['url'] not in fetched),None)
+            if item is None:break
+        chosen.append(item);pages.update(client.many([item['url']]))
+        fetched[item['url']]=evidence(item,pages[item['url']])
     seen_path=Path(private_folder)/'news-state.json'
     try:
         seen=json.loads(seen_path.read_text(encoding='utf-8'))
@@ -202,7 +244,7 @@ def collect(root,packet,client,at,private_folder):
     baseline_urls={canonical(s['url']) for story in packet.get('stories',[]) for s in story['sources']}
     candidates=[]; unchanged=[]
     for item in chosen:
-        ev=evidence(item,pages[item['url']]); old=seen.get(item['url'],{})
+        ev=fetched[item['url']]; old=seen.get(item['url'],{})
         if ev.get('source'):
             baseline_dates=[datetime.fromisoformat(s['retrieved_at'].replace('Z','+00:00')) for story in packet.get('stories',[]) for s in story['sources'] if canonical(s['url'])==item['url'] and s.get('retrieved_at')]
             old_at=datetime.fromisoformat(old['retrieved_at'].replace('Z','+00:00')) if old.get('retrieved_at') else None
