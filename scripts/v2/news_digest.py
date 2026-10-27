@@ -177,7 +177,14 @@ def evidence(item,row):
     published=item.get('published_at')
     meta=soup.find('meta',attrs={'property':'article:published_time'})
     if meta and stamp(meta.get('content')):
-        published=stamp(meta['content'])
+        metadata_at=stamp(meta['content'])
+        retrieved=datetime.fromisoformat(row['retrieved_at'].replace('Z','+00:00'))
+        if published and datetime.fromisoformat(published)<=retrieved<datetime.fromisoformat(metadata_at):
+            # Keep the actual feed timestamp. Never guess a timezone correction
+            # for malformed article metadata or silently promote undated evidence.
+            result['publication_conflict']={'retained_feed_at':published,'future_article_metadata_at':metadata_at}
+        else:
+            published=metadata_at
     modified=soup.find('meta',attrs={'property':'article:modified_time'})
     modified_at=stamp(modified.get('content')) if modified else None
     group=item['publisher']

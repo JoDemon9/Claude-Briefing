@@ -21,6 +21,19 @@ AT=datetime(2026,10,25,12,tzinfo=timezone.utc)
 
 
 class NewsQualityTests(unittest.TestCase):
+    def test_future_article_metadata_does_not_discard_valid_feed_publication(self):
+        item={'title':'A reported policy decision','url':'https://example.com/article','publisher':'Paper','section':'cyprus',
+              'published_at':'2026-10-25T11:00:00+00:00','feed_excerpt':'Discovery'}
+        html='<meta property="article:published_time" content="2026-10-25T14:00:00Z"><article><p>'+'Reported facts and consequences. '*20+'</p></article>'
+        row={'status':'available','url':item['url'],'retrieved_at':AT.isoformat(),'text':html}
+        ev=news.evidence(item,row)
+        self.assertEqual(ev['source']['published_at'],item['published_at'])
+        self.assertEqual(ev['publication_conflict']['future_article_metadata_at'],'2026-10-25T14:00:00+00:00')
+        unknown=news.evidence(dict(item,published_at=None),row)
+        self.assertEqual(unknown['published_at'],'2026-10-25T14:00:00+00:00')  # Still rejected by collect; no invented past date.
+        row['text']=html.replace('14:00:00Z','11:30:00Z')
+        self.assertEqual(news.evidence(item,row)['published_at'],'2026-10-25T11:30:00+00:00')
+
     def test_general_feed_and_wire_geography_and_preview_filter(self):
         title='ΝΑΤΟ: Τα ρωσικά drones αναδεικνύουν κενά στην προστασία υποδομών'
         self.assertEqual(news.geography(title,'https://www.philenews.com/oikonomia/capital/forbes/article/1/x','cyprus'),'world')
