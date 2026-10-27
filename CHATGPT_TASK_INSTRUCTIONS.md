@@ -1,17 +1,21 @@
-DEC-024: The user approved the Phase 1 architectural assessment and its Phase 2 checklist. Extend the existing compiler instead of replacing the renderer/publisher. Keep JSON as the canonical public model; pilot versioned Markdown as an authoring adapter. No HTML/CSS is written by the producer. Do not claim a 75% saving or treat byte counts as tokens or account quota. See decisions/DEC-024-intelligence-authoring-and-reading.md and MARKDOWN_AUTHORING.md. Actual live task installation and publication are separate.
+# Single-turn production
 
-# Oracle — Οδηγίες Scheduled Tasks v3.1
+The [specification](BRIEFING_SPEC.md) owns editorial/data rules. This file owns execution. Installable slot prompts are generated from this common contract by `scripts/v2/task_prompts.py`; do not edit their copies independently.
 
-Τα τρία αυτοτελή prompts προς αντιγραφή στα υπάρχοντα ChatGPT Scheduled Tasks είναι:
+Existing tasks remain 07:30 Morning, 13:30 Midday and 19:30 Evening in Europe/Athens. Keep titles, schedules, model, destination, enabled state and fourth historical task. The user's selected model, including Luna, follows identical quality rules. Repository prompt changes do not install saved tasks.
 
-- [Morning 07:30](prompts/morning.md), mode morning_scan.
-- [Midday 13:30](prompts/midday.md), mode midday_delta.
-- [Evening 19:30](prompts/evening.md), mode evening_synthesis.
+1. Python collects before the model, in the private cloud repository, and seals `research/runs/<edition>/research_pack.json` plus one `digest.md`. The model reads only that digest once. It must match `oracle-synthesis/1`, today's slot, a valid seal on submission and a preparation age of at most 90 minutes. Missing/stale/wrong packs or `submission_ready=false` stop briefly before drafting; never start collection inside the AI task.
+2. Read every visible candidate and baseline context. Use optional targeted research only for a decisive evidence gap or independent check. No routine market/rate/weather/RSS/standings/fixture lookup, photo search, subagents, deep research or paging loop. Sports may consume at most two allowed searches, only for a flagged just-played priority club's missing tactical context. Count each query, open and retry separately.
+3. Write one compact synthesis using the digest grammar. Morning selects supported news afresh; later slots update, carry same-day coverage or omit with a reason. Include explicit desk shortfall reasons below four stories. Python inserts routine data and photographs. Do not emit routine tables, typed JSON blocks, full readers, HTML or source payloads.
+4. Do one factual/editorial review within the same pass: support, source independence, chronology, geography, novelty, breadth, useful depth, Greek clarity and budget. Omit unsupported claims at the cap. No draft/research loop or continuation turn.
+5. Create one new private file `sources/synthesis/<edition>.md` with GitHub `create_file`. Never overwrite a submission. The existing private workflow compiles with the exact sealed pack and submits a public candidate. The existing public CI owns validation, preview, integrity and publication.
+6. Stop after submission with at most 60 words: submitted or precise blocker. No CI polling, repair run or PR merge. Submission is not verified publication. Failures preserve the candidate for maintenance.
 
-Η ζώνη παραμένει Europe/Athens. Διατηρούνται τίτλοι/ώρες/enabled states/προορισμοί/μοντέλο και η τέταρτη ιστορική εργασία. Αλλαγή στο Git δεν ενημερώνει την πραγματική ρύθμιση task· χρειάζεται ξεχωριστή αποθήκευση και ανάγνωση της αποθηκευμένης ρύθμισης. Το παρόν audit παραδίδει τα prompts, δεν ισχυρίζεται ότι τα εγκατέστησε.
+| Slot | Searches | URL opens | Total tool calls | Authored stories | Output reference tokens |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Morning | 5 | 2 | 10 | 10 | 6,500 |
+| Midday / Evening | 3 | 1 | 7 | 6 changed | 4,000 |
 
-Οι έξι κινήσεις είναι: προετοιμασία πραγματικού main, πραγματική έρευνα, ένα payload, μία συντακτική ανασκόπηση, σύνθεση/υποβολή συγκεκριμένου candidate, παρακολούθηση πραγματικού αποτελέσματος και συγκεκριμένων κενών. Δεν απαιτείται χειροκίνητη γραφή hashes ή δώδεκα JSON. Ο compiler δεν ανακυκλώνει τιμές/προγνώσεις/ελέγχους από προηγούμενη έκδοση.
+One synthesis pass and one review. The digest ceiling is 48,000 UTF-8 bytes; Python article collection is capped at 14 requests. Reserve balanced primary news excerpts before optional sports or corroboration; report visible inventory and omissions. Full routine tables remain in the sealed pack/public output. Byte counts and `o200k_base` reference tokens do not measure a chosen model's account quota. The compiler enforces counts, declared search/read budgets, reference tokens and provenance; prompts govern actual tool/turn use.
 
-Η διευκρίνιση του χρήστη στις 22/10 υπερισχύει της καθολικής διακοπής για ελλείψεις: η προσωρινή απουσία μιας πηγής, τιμής, φωτογραφίας ή επαρκών νέων ειδήσεων περιορίζει μόνο το στοιχείο. Η έκδοση συνεχίζει με το αξιόπιστο υλικό. Δεν κατασκευάζονται υποκατάστατα. Πραγματικό stop παραμένουν η ασφάλεια/συνέπεια των αρχείων, η απουσία οποιουδήποτε τεκμηριωμένου άρθρου και η αποτυχία πραγματικών ελέγχων ή δημοσίευσης.
-
-Το αναλυτικό συμβόλαιο δεδομένων, η μερική διαθεσιμότητα και οι δύο εναλλακτικές διαδρομές δημοσίευσης περιγράφονται στο [BRIEFING_RUNTIME.md](BRIEFING_RUNTIME.md). Η συνήθης παραγωγή δεν κάνει maintenance ή merge PR για να περάσει μια έκδοση.
+Maintenance/cloud wiring, role-specific credentials, publication recovery and manual adapter syntax are targeted references in [maintenance/OPERATIONS.md](maintenance/OPERATIONS.md) and [maintenance/AUTHORING.md](maintenance/AUTHORING.md). Do not read them during ordinary synthesis.

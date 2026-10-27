@@ -49,7 +49,8 @@ class EfficiencyTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             packet,path=research.prepare(ROOT,'2026-10-15','midday','2026-10-15T22:00:00+03:00',directory)
             self.assertTrue(path.is_file());self.assertTrue(packet['broad_news_scan_required'])
-            self.assertEqual(packet['section_targets'],{'world':5,'cyprus':5})
+            self.assertEqual(packet['section_targets'],{'world':4,'cyprus':4})
+            self.assertEqual(packet['section_preferred_range'],[4,5])
             self.assertEqual(packet['market_reference']['edition_id'],'2026-10-15-morning')
             self.assertTrue(all(r['slot']=='morning' for r in packet['stories']))
             self.assertTrue(all(r['record']['verified_at']==r['review']['verified_at'] for r in packet['opportunities']))
@@ -280,12 +281,17 @@ class EfficiencyTests(unittest.TestCase):
             self.assertEqual(result['pro_usage_observation']['window_delta_percent'],10)
 
     def test_compact_runtime_keeps_critical_contracts_and_avoids_old_startup(self):
-        runtime=(ROOT/'BRIEFING_RUNTIME.md').read_text()
-        for phrase in ('private Pages','source/quote times','morning','image_review.version=2','No fuzzy automatic','DEC-025','unchanged historical','No PR merge'):
+        runtime=(ROOT/'BRIEFING_SPEC.md').read_text(encoding='utf-8')
+        for phrase in ('source/quote times','image_review.version=2','unchanged historical',
+                       '4–5 supported Cyprus','real-photos-v1','same-day'):
             self.assertIn(phrase,runtime)
+        self.assertFalse((ROOT/'BRIEFING_RUNTIME.md').exists())
+        spec=importlib.util.spec_from_file_location('generated_prompts',ROOT/'scripts/v2/task_prompts.py')
+        prompts=importlib.util.module_from_spec(spec);spec.loader.exec_module(prompts)
+        prompts.generate(ROOT,check=True)
         for path in (ROOT/'templates/v2/task-prompts').glob('*.txt'):
-            text=path.read_text();self.assertLess(len(text),5500)
-            self.assertIn('BRIEFING_RUNTIME.md',text);self.assertIn('never emit unsupported fields',text)
+            text=path.read_text(encoding='utf-8');self.assertLess(len(text),5500)
+            self.assertIn('BRIEFING_SPEC.md',text);self.assertIn('never emit unsupported fields',text)
 
 
 if __name__=='__main__':unittest.main()

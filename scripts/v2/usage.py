@@ -43,7 +43,7 @@ def record(root,packet_path,checks_path=None,private_root=None,manual_web_calls=
     value={'schema_version':1,'edition_id':packet['edition_id'],'recorded_at':datetime.now(timezone.utc).isoformat(),
         'packet_sha256':packet['input_sha256'],
         'work':{'context_stories':len(packet['stories']),'packet_bytes':Path(packet_path).stat().st_size,
-            'runtime_policy_bytes':(root/'BRIEFING_RUNTIME.md').stat().st_size,
+            'runtime_policy_bytes':(root/'BRIEFING_SPEC.md').stat().st_size,
             'prompt_characters':len(prompt.read_text()) if prompt.exists() else None,
             'manual_web_calls':manual_web_calls,'collection':collection.get('metrics'),
             'article_count':len(articles),'reused_photos':sum(bool(a.get('image',{}).get('reuse_review')) for a in articles if a.get('image'))},

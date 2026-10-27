@@ -1,13 +1,11 @@
-## Change and user reason
+## Change and reason
 
-Describe the concrete problem, the resulting behavior, and the user's request or need supporting it.
+Describe the concrete problem, resulting behavior and supporting user need.
 
-## Decisions preserved or intentionally revised
+## Contract and verification
 
-- Relevant DEC IDs and links:
-- Behavior preserved:
-- Any intentional revision and its new/superseding record:
+Name the canonical spec/workflow sections preserved or intentionally changed. Record meaningful checks actually run and remaining gaps. Historical rationale is reference only; update active rules in place rather than adding override bulletins.
 
-## Verification and publication
+## Delivery state
 
-State the meaningful checks actually run, remaining gaps, and the separate status of code, CI, Pages and external tasks. Add/update the decision record for a meaningful behavior change; recommendations alone are not approved requirements.
+Distinguish branch/PR CI, main, source Pages, portal Pages and actual saved tasks. A passing check or repository prompt edit is not a deployment claim.

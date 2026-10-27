@@ -226,11 +226,11 @@ def prepare(root,day,slot,at,private_root=None,wire_root=None):
                 if digest([e,aa])==checkpoint['source_sha256']:resume={'snapshot':str(snapshot),'source_sha256':checkpoint['source_sha256'],'status':'reuse draft research; complete all due/evidence/publication gates'}
     opportunities=[{'record':copy.deepcopy(r),'review':opportunity_due(r,at,policy)} for r in old_opportunities.values()]
     packet={'schema_version':1,'protocol':policy['protocol'],'edition_id':edition_id,'as_of':at.isoformat(),
-        'runtime_policy':'BRIEFING_RUNTIME.md','broad_news_scan_required':True,'context_date':selected_day,
-        'section_targets':module('selection').TARGETS.copy(),
+        'runtime_policy':'BRIEFING_SPEC.md','broad_news_scan_required':True,'context_date':selected_day,
+        'section_targets':{'world':4,'cyprus':4}, 'section_preferred_range':[4,5],
         'section_selection':{'lead_counts_in_actual_section':True,
             'review_version':2 if module('selection').coverage_required({'date':day,'type':slot}) else 1,
-            'action':'Select world and Cyprus separately; investigate shortages before an evidence-backed exception. Later slots retain useful dated context without claiming new reporting.'},
+            'action':'Select 4–5 supported world and Cyprus stories separately; explain actual evidence shortfalls without padding or invented research. Later slots explicitly update, carry useful same-day context, or omit baseline stories with a reason.'},
         'resume_research':resume,
         'stories':[{**r,'editorial_notes':notes.get(sid), 'use':'historical_context; research material changes'} for sid,r in sorted(selected.items(),key=lambda p:(p[1]['priority'],p[0]))],
         'opportunities':opportunities,'market_reference':{'edition_id':previous['id'] if previous else None,
@@ -270,7 +270,7 @@ def replay(root,editions):
         # Legacy instruction size is stored as an honest measured baseline, not Pro tokens.
         history=root/'maintenance/history/2026-10-15'
         instruction_bytes=sum((history/p).stat().st_size if (history/p).exists() else (root/p).stat().st_size for p in docs if (history/p).exists() or (root/p).exists())
-        payload_bytes=len(json.dumps(packet,ensure_ascii=False).encode())+(root/'BRIEFING_RUNTIME.md').stat().st_size
+        payload_bytes=len(json.dumps(packet,ensure_ascii=False).encode())+(root/'BRIEFING_SPEC.md').stat().st_size
         rows.append({'edition_id':edition_id,'prior_stories':len(packet['stories']), 'opportunities_due':sum(o['review']['due'] for o in packet['opportunities']),
             'opportunities_carried':sum(not o['review']['due'] for o in packet['opportunities']),
             'legacy_startup_instruction_bytes':instruction_bytes,'runtime_plus_packet_bytes':payload_bytes,

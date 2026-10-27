@@ -34,13 +34,16 @@ def capabilities(root):
             'explicit_baseline_reuse':True,
             'archive_browser_audit':'Explicit full profile only; not a daily publication requirement.',
             'producer_model_policy':'User-selected ChatGPT model, including Luna; identical editorial and release requirements. No external model API.',
-            'section_targets': {'world': 5, 'cyprus': 5},
+            'section_targets': {'world': 4, 'cyprus': 4},
+            'section_preferred_range': [4, 5],
+            'selection_policy': 'balanced-v1',
+            'selection_policy_required_from': '2026-10-28',
             'selection_review_version': 2,
             'section_coverage_required_from': '2026-10-18-evening',
             'favourite_news_required_from':'2026-10-19',
             'favourite_news_max_age_minutes':720,
             'editorial_protocol':'oracle-editorial/1',
-            'runtime_policy_sha256':digest((root/'BRIEFING_RUNTIME.md').read_bytes()) if (root/'BRIEFING_RUNTIME.md').exists() else None,
+            'runtime_policy_sha256':digest((root/'BRIEFING_SPEC.md').read_bytes()) if (root/'BRIEFING_SPEC.md').exists() else None,
             'required_from_local_date': POLICY_START,
             'reading_review_version': 2, 'image_review_version': 2,
             'schedules': 'Existing ChatGPT tasks; this contract creates no schedule.'}
@@ -75,6 +78,9 @@ def check_contract(root, edition, articles=()):
                 and saved.get('reporting_sha256')==reporting_fingerprint(edition,articles)):
             return  # Only image metadata/bytes changed; all reporting remains exact.
         raise ValueError('Producer/renderer contract mismatch; fetch current main capabilities')
+    if (edition['status'] == 'published' and edition['date'] >= supported['selection_policy_required_from']
+            and edition.get('selection_policy') != supported['selection_policy']):
+        raise ValueError('New current-contract editions require selection_policy=balanced-v1')
 
 
 def instant(value):

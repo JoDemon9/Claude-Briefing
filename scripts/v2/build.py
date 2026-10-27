@@ -571,8 +571,8 @@ def build(root=ROOT, incremental=False):
             for name in ['content', 'templates', 'docs']:
                 if (actual/name).exists():
                     shutil.copytree(actual/name, candidate/name)
-            if (actual/'BRIEFING_RUNTIME.md').is_file():
-                shutil.copyfile(actual/'BRIEFING_RUNTIME.md',candidate/'BRIEFING_RUNTIME.md')
+            if (actual/'BRIEFING_SPEC.md').is_file():
+                shutil.copyfile(actual/'BRIEFING_SPEC.md',candidate/'BRIEFING_SPEC.md')
             _render(candidate,affected)
             if cache.inputs(actual,Path(__file__).parent) != input_state:
                 raise ValueError('Publication inputs changed during build; retry from validation')

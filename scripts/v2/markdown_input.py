@@ -151,6 +151,27 @@ def parse(text, root, pack=None):
                 meta = attributes(value)
                 fields(meta, ('id',), ('id',))
                 payload.setdefault('carry_story_ids', []).append(meta['id'])
+            elif name in ('@Coverage', '@Omit', '@WorldException'):
+                finish()
+                meta = attributes(value)
+                key = 'section' if name == '@Coverage' else 'id'
+                required = ('reason',) if name == '@WorldException' else (key, 'reason')
+                fields(meta, required, required)
+                if len(meta['reason'].strip()) < 20:
+                    raise ValueError('Selection decisions require a specific reason of at least 20 characters')
+                review = payload.setdefault('selection_review', {'version':2, 'completed_at':None,
+                    'global_exception_reason':None, 'section_shortfalls':{}})
+                if name == '@WorldException':
+                    if review['global_exception_reason']:
+                        raise ValueError('Duplicate world exception')
+                    review['global_exception_reason'] = meta['reason']
+                else:
+                    if name == '@Coverage' and meta[key] not in ('world', 'cyprus'):
+                        raise ValueError('Coverage reason needs a news desk')
+                    mapping = review.setdefault('coverage_notes' if name == '@Coverage' else 'omitted_stories', {})
+                    if meta[key] in mapping:
+                        raise ValueError('Duplicate selection decision')
+                    mapping[meta[key]] = meta['reason']
             elif name == '@Pack':
                 if 'research_pack_sha256' in payload:
                     raise ValueError('Duplicate pack')

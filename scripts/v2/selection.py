@@ -3,6 +3,13 @@
 from urllib.parse import urlsplit
 
 TARGETS = {'world': 5, 'cyprus': 5}
+BALANCED_START = '2026-10-28'
+
+
+def balanced_required(edition):
+    # backend.check_contract requires the marker on new current-contract inputs.
+    # Accepted historical fingerprints remain valid even after a delayed merge.
+    return edition.get('selection_policy') == 'balanced-v1'
 
 
 def coverage_required(edition):
@@ -26,9 +33,37 @@ def inventory(articles):
 
 def coverage(edition, articles):
     counts = inventory(articles)
-    return {'edition_id': edition['id'], 'counts': counts, 'targets': TARGETS.copy(),
+    targets = {'world': 4, 'cyprus': 4} if balanced_required(edition) else TARGETS.copy()
+    return {'edition_id': edition['id'], 'counts': counts, 'targets': targets,
+            'preferred_range': [4, 5],
+            'carried_counts': inventory([a for a in articles if a.get('change_status') == 'UNCHANGED']),
+            'coverage_notes': edition.get('selection_review', {}).get('coverage_notes', {}),
             'required': coverage_required(edition),
-            'shortfalls': {name: target-counts[name] for name, target in TARGETS.items() if counts[name] < target}}
+            'shortfalls': {name: target-counts[name] for name, target in targets.items() if counts[name] < target}}
+
+
+def validate_balanced(edition, articles):
+    if not balanced_required(edition):
+        return
+    if edition.get('selection_policy') != 'balanced-v1':
+        raise ValueError('New editions require selection_policy=balanced-v1')
+    counts = inventory(articles)
+    review = edition.get('selection_review', {})
+    notes = review.get('coverage_notes', {})
+    if review.get('version') != 2 or not isinstance(notes, dict) or set(notes) - set(TARGETS):
+        raise ValueError('Balanced selection requires a version-2 review and valid coverage_notes')
+    for desk in TARGETS:
+        reason = notes.get(desk, '')
+        if counts[desk] < 4 and (not isinstance(reason, str) or len(reason.strip()) < 20):
+            raise ValueError(f'{desk} coverage below four requires a specific @Coverage reason; do not pad')
+        if counts[desk] >= 4 and reason:
+            raise ValueError(f'Remove stale {desk} coverage note after meeting the target')
+    if counts['cyprus'] > 5 or counts['world'] > 7:
+        raise ValueError('Balanced selection allows at most five Cyprus and seven world stories')
+    if counts['world'] > 5 and len((review.get('global_exception_reason') or '').strip()) < 20:
+        raise ValueError('Six or seven world stories need an explicit editorial reason')
+    if edition.get('daily', {}).get('lead_story_id') not in {a['story_id'] for a in articles}:
+        raise ValueError('Edition lead must identify a selected story; filenames do not define the lead')
 
 
 def section(article):
@@ -36,6 +71,7 @@ def section(article):
 
 
 def validate(edition, articles):
+    validate_balanced(edition, articles)
     current = edition['status'] == 'published' and edition['date'] >= '2026-10-16'
     partial = edition.get('availability_policy') == 'partial-v1' and edition['date'] >= '2026-10-22'
     review = edition.get('selection_review')
