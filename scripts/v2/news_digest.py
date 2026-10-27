@@ -25,6 +25,11 @@ def normalized(value):
     return ''.join(c for c in unicodedata.normalize('NFD',value.casefold()) if not unicodedata.combining(c))
 
 
+def news_report(title):
+    """Exclude explicitly labelled recurring cartoons, not reporting about cartoons."""
+    return not re.match(r'^(?:(?:το )?σκιτσο (?:του|της|της ημερας)|(?:daily |today.s )?cartoon(?: of the day)?(?:\s*[:–—-]|$))',normalized(title).strip())
+
+
 def feed_section(item,feed):
     """A Cyprus publisher can carry world news; explicit RSS categories take precedence."""
     categories={normalized(e.text.strip()) for e in item if e.tag.rsplit('}',1)[-1]=='category' and e.text}
@@ -103,7 +108,7 @@ def feed_items(row,feed,at):
         if not HTTP.safe(link,feed['hosts']):
             continue
         title=clean(field(('title',)))[:240]
-        if len(title)<12:
+        if len(title)<12 or not news_report(title):
             continue
         items.append(dict(title=title,url=canonical(link),published_at=published,section=feed_section(item,feed),publisher=feed['publisher'],
                           feed_excerpt=clean(field(('description','summary','encoded')))[:700],feed_retrieved_at=row['retrieved_at']))
@@ -177,7 +182,7 @@ def collect(root,packet,client,at,private_folder):
     unique={}
     for item in sorted(items,key=lambda i:(i.get('published_at') or '',i['url']),reverse=True):
         unique.setdefault(item['url'],item)
-    groups=cluster(list(unique.values()))
+    groups=cluster([item for item in unique.values() if news_report(item['title'])])
     groups.sort(key=lambda g:(priority(g,packet.get('stories',[]))[0],g[0].get('published_at') or '',g[0]['url']),reverse=True)
     # Independent desk quotas bound selection before article downloads, not after model browsing.
     selected=[]

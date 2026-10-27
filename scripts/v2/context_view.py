@@ -44,11 +44,12 @@ def synthesis(pack,max_bytes=48000):
         'After articles: one @CarryOver id=story-id per selected unchanged baseline record. No routine tables, typed blocks, full readers or photo research.',
         'USER-APPROVED COVERAGE UPDATE · DEC-027: the former 6/4 story limits are superseded. Aim for 4–5 supported Cyprus and 4–5 international stories in the complete edition. Morning: at most 10 authored stories including any sports story. Later: at most 6 materially new/updated stories, plus exact carries to retain useful coverage in BOTH desks. Keep the same 6500/4000 output-token ceilings, 5/3 searches, 2/1 URL opens, one synthesis pass and one review. Give each news desk a substantive analytical lead; secondary reports remain two clear factual sentences. Do not pad weak evidence or rewrite unchanged articles.',
         'Photos and the expanded Sports desk are assembled by Python. Use no image searches. When a priority club just played or an F1 session materially changes the championship, consider one evidence-backed sports lead within the existing story/word cap. Explain the sporting consequence and next test; tactical claims require article evidence, never a scoreline. Routine results, standings, UEFA and favourite headlines need no AI re-emission.',
-        'Editorial focus within the existing task caps: choose consequence and material change over newest/easiest headlines; verify geography. Prefer two important, well-supported deltas to four thin updates. Put analytical leads first within each desk. Aim for 120–170 Greek words per analytical lead across fact, delta, mechanism, effects and watch: what changed, causal chain/incentive, who is affected/how, and an observable next test. State uncertainty; scenarios are conditional, never invented. A routine item can remain a two-sentence dispatch.',
+        'Editorial focus within the existing task caps: read the full candidate inventory before choosing; choose consequence and material change over newest/easiest headlines and verify geography. Cover 4–5 supported stories in EACH news desk when evidence allows, using concise secondary dispatches and exact carries in later editions. Do not stop after the first two candidates per desk. News breadth takes precedence over an optional authored sports item; the full Python Sports desk remains visible. Put the most consequential analytical lead first within each desk. Aim for 120–170 Greek words per analytical lead across fact, delta, mechanism, effects and watch: what changed, causal chain/incentive, who is affected/how, and an observable next test. State uncertainty; scenarios are conditional, never invented.',
         'Executive: 1–3 points, ideally 90–120 words total, connecting concrete developments to practical implications and a next test. Use baseline findings as dated context only. Avoid headline repetition and invented links between unrelated stories. Use the existing single factual review to check substance, support, novelty, geography and token budget; no extra turn or research loop.',
         '\n## Baseline records (historical context, no new verification)']
     for story in pack.get('baseline_stories',[]):
-        view={**story,'finding':short(story.get('finding',''),480)}
+        view={k:v for k,v in story.items() if k!='identity' or v!=story.get('story_id')}
+        view['finding']=short(story.get('finding',''),240)
         lines.append(json.dumps(view,ensure_ascii=False,separators=(',',':')))
     lines.append('\n## Python market table: instrument | value | change_pct | quoted_at | status')
     for q in pack['data']['markets']:
@@ -56,12 +57,16 @@ def synthesis(pack,max_bytes=48000):
     lines.append('Weather: '+pack['weather_status'])
     for panel in pack['data']['panels']:
         lines.extend(panel['paragraphs'])
-    lines.append('\n## Structured sports (no tactical inference)')
+    lines.append('\n## Structured sports overview (full tables render from Python; no tactical inference)')
     for key,card in pack['data']['sports']['coverage'].items():
-        view={k:card.get(k) for k in ('last_match','next_fixture','league_position','standings_season','standings_status','just_played','latest_session','standings','next_grand_prix','sessions') if card.get(k) is not None}
+        view={k:card.get(k) for k in ('last_match','next_fixture','league_position','standings_season','standings_status','just_played','latest_session','standings','next_grand_prix') if card.get(k) is not None}
+        if 'standings' in view:view['standings']=view['standings'][:3]
         lines.append(key+': '+json.dumps(compact(view),ensure_ascii=False,separators=(',',':')))
     for key,comp in pack['data']['sports'].get('competitions',{}).items():
         view=dict(comp)
+        if 'standings' in view:
+            view['standings']=comp['standings'][:3]
+            view['standings_omitted']=len(comp['standings'])-len(view['standings'])
         for field in ('scores','fixtures'):
             rows=comp.get(field,[])
             selected=[row for i,row in enumerate(rows) if i<3 or any(team in row.get('name','').casefold() for team in ('omonoia','omonia','manchester united','real madrid'))]
@@ -72,28 +77,46 @@ def synthesis(pack,max_bytes=48000):
         {alias:{'url':url,'retrieved_at':at} for (url,at),alias in routine_sources.items()},ensure_ascii=False,separators=(',',':')))
     lines.append('\n## Candidate excerpts (only @Evidence article_excerpt can support claims)')
     lines.append('Priority hints are deterministic discovery aids, not editorial verdicts or story identity. Choose consequence over recency; verify geography. Excerpts are character-bounded, not full articles. Use a targeted search only for a decisive missing fact or an independent check.')
-    # Interleave desks so the byte ceiling cannot silently eliminate Cyprus or world.
-    queues=[[c for c in pack['candidates'] if c['section']==s] for s in ('cyprus','world','sports')]
+    # Reserve one usable excerpt for every news candidate BEFORE optional sports,
+    # feed-only discovery or corroborating copies. Greedy per-cluster expansion
+    # previously discarded whole Cyprus/world stories while repeating evidence.
+    usable=lambda c:[e for e in c['evidence'] if e.get('access')=='article_excerpt' and e.get('source') and e.get('excerpt')]
+    queues=[[c for c in pack['candidates'] if c['section']==s and usable(c)] for s in ('cyprus','world')]
     ordered=[]
     while any(queues):
         for queue in queues:
             if queue:ordered.append(queue.pop(0))
-    omitted=0
-    desk_seen=set()
-    for candidate in ordered:
-        excerpt_limit=2400 if candidate['section'] not in desk_seen else 1600
-        desk_seen.add(candidate['section'])
-        block=[json.dumps({k:v for k,v in candidate.items() if k!='evidence'},ensure_ascii=False,separators=(',',':'))]
-        for evidence in candidate['evidence']:
-            view=dict(id=evidence['id'],access=evidence['access'],source=evidence.get('source'),excerpt=short(evidence['excerpt'],excerpt_limit),excerpt_scope='bounded excerpt, not the whole article')
-            if not evidence.get('source'):view['url']=evidence['url']
-            block.append(json.dumps(view,ensure_ascii=False,separators=(',',':')))
-        proposed='\n'.join(lines+block)+'\n'
-        if len(proposed.encode('utf-8'))>max_bytes-250:
-            omitted+=1
-        else:
-            lines.extend(block)
-    lines.append(f'Omitted candidate clusters due to input byte cap: {omitted}. Missing evidence is unavailable; never launch a broad collection loop.')
+    ordered.extend(c for c in pack['candidates'] if c['section']=='sports' and usable(c))
+    def evidence_line(e,limit):
+        return encoded(dict(id=e['id'],access=e['access'],source=e['source'],excerpt=short(e['excerpt'],limit),
+                            excerpt_scope='bounded excerpt, not the whole article'))
+    def primary_blocks(lead_limit,secondary_limit):
+        seen=set();blocks=[]
+        for c in ordered:
+            limit=secondary_limit if c['section'] in seen else lead_limit
+            seen.add(c['section'])
+            blocks.append([encoded({k:v for k,v in c.items() if k!='evidence'}),evidence_line(usable(c)[0],limit)])
+        return blocks
+    # Keep an explicit inventory even when a genuinely oversized pack needs omissions.
+    inventory=[{'id':c['id'],'section':c['section'],'usable_evidence':len(usable(c))} for c in pack['candidates']]
+    lines.append('Candidate inventory: '+encoded(inventory))
+    def fits(extra):return len(('\n'.join(lines+extra)+'\n').encode('utf-8'))<=max_bytes-1200
+    for lead_limit,secondary_limit in ((2400,1600),(1800,1200),(1400,1000),(1000,700)):
+        blocks=primary_blocks(lead_limit,secondary_limit)
+        if fits([line for block in blocks for line in block]):break
+    included=[]
+    for candidate,block in zip(ordered,blocks):
+        if fits(block):
+            lines.extend(block);included.append(candidate)
+    # Only now spend spare space on additional publishers for an included story.
+    for c in included:
+        for e in usable(c)[1:]:
+            extra=[f'Additional evidence for {c["id"]}:',evidence_line(e,secondary_limit)]
+            if fits(extra):lines.extend(extra)
+    coverage={desk:sum(c['section']==desk for c in included) for desk in ('cyprus','world','sports')}
+    lines.append('Visible article-backed candidates by desk: '+encoded(coverage)+'. Review every visible news candidate; these counts describe evidence, not an editorial verdict. A shortfall must reflect weak/redundant evidence, never a hidden input truncation. No padding or extra research loop.')
+    omitted=len(ordered)-len(included)
+    lines.append(f'Omitted candidate clusters due to input byte cap: {omitted}. Feed-only candidates listed in the inventory are discovery, unavailable for claims; never launch a broad collection loop.')
     text='\n'.join(lines)+'\n'
     if len(text.encode('utf-8'))>max_bytes:
         raise ValueError('Baseline/routine digest exceeds single-read budget')

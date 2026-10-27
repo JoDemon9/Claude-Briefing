@@ -21,6 +21,46 @@ AT=datetime(2026,10,25,12,tzinfo=timezone.utc)
 
 
 class NewsQualityTests(unittest.TestCase):
+    def test_cartoon_column_does_not_take_a_news_slot(self):
+        self.assertFalse(news.news_report('Το σκίτσο του Νίκου Πογιατζή'))
+        self.assertFalse(news.news_report('Cartoon of the day: elections'))
+        self.assertTrue(news.news_report('Court rules on cartoon publication dispute'))
+        self.assertTrue(news.news_report('Σκιτσογράφος κέρδισε δικαστική προσφυγή'))
+        feed={'publisher':'Paper','section':'cyprus','hosts':['example.com']}
+        row={'status':'available','retrieved_at':AT.isoformat(),'text':'<rss><channel><item><title>Το σκίτσο του Νίκου Πογιατζή</title><link>https://example.com/cartoon</link></item></channel></rss>'}
+        self.assertEqual(news.feed_items(row,feed,AT),[])
+
+    def test_full_news_inventory_survives_rich_sports_and_duplicate_evidence(self):
+        source={'publisher':'Paper','url':'https://example.com/report','retrieved_at':AT.isoformat(),
+                'published_at':AT.isoformat(),'reporting_group':'Paper','kind':'reporting','access':'read','used_for_claims':True}
+        greek='Η αλλαγή αφορά συγκεκριμένες υπηρεσίες και επηρεάζει τους κατοίκους. '*50
+        candidates=[]
+        for desk,count in [('cyprus',5),('world',6),('sports',2)]:
+            for i in range(count):
+                cid=f'{desk}-{i}'
+                candidates.append({'id':cid,'section':desk,'title':cid,'baseline_matches':[],
+                    'evidence':[{'id':f'{cid}-e{j}','access':'article_excerpt','source':dict(source,url=f'https://example.com/{cid}/{j}'),
+                                 'excerpt':greek} for j in range(2)]})
+        # Feed-only discovery is not counted as usable evidence or given a full excerpt budget.
+        candidates[6]['evidence']=[{'id':'blocked','access':'feed_only','source':None,'excerpt':'RSS headline only'}]
+        event={'name':'Real Madrid vs Opponent','starts_at':AT.isoformat(),'sources':[source]}
+        pack={'edition_id':'2026-10-27-morning','prepared_at':AT.isoformat(),'sha256':'a'*64,'baseline':None,
+              'baseline_stories':[{'story_id':f'old-{i}','identity':f'old-{i}','headline':'Προηγούμενη είδηση',
+                'finding':greek,'section':'world','published_at':AT.isoformat()} for i in range(10)],'weather_status':'unavailable',
+              'data':{'markets':[{'instrument':f'quote-{n}','value':n,'status':'delayed'} for n in range(38)],'panels':[],
+                      'sports':{'coverage':{},'competitions':{f'uefa-{i}':{'scores':[event]*6,'fixtures':[event]*6,
+                        'standings':[{'name':f'Team {n}','sources':[source]} for n in range(5)]} for i in range(3)}}},'candidates':candidates}
+        before=copy.deepcopy(pack);digest=view.synthesis(pack)
+        headers=[json.loads(line) for line in digest.splitlines() if line.startswith('{"id":') and '"section":' in line]
+        for desk in ('cyprus','world'):
+            self.assertEqual(sum(h['section']==desk for h in headers),5)
+        self.assertNotIn('"id":"blocked","access"',digest)
+        self.assertIn('"usable_evidence":0',digest)
+        self.assertIn('Omitted candidate clusters due to input byte cap: 0',digest)
+        self.assertIn('quote-37',digest)
+        self.assertLessEqual(len(digest.encode()),48000)
+        self.assertEqual(pack,before)  # Full sports tables and exact carry records stay intact.
+
     def test_foreign_rss_category_overrides_cyprus_publisher(self):
         item=ET.fromstring('<item><category>World</category></item>')
         self.assertEqual(news.feed_section(item,{'section':'cyprus'}),'world')
