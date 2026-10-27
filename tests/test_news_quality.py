@@ -21,6 +21,36 @@ AT=datetime(2026,10,25,12,tzinfo=timezone.utc)
 
 
 class NewsQualityTests(unittest.TestCase):
+    def test_future_article_metadata_does_not_discard_valid_feed_publication(self):
+        item={'title':'A reported policy decision','url':'https://example.com/article','publisher':'Paper','section':'cyprus',
+              'published_at':'2026-10-25T11:00:00+00:00','feed_excerpt':'Discovery'}
+        html='<meta property="article:published_time" content="2026-10-25T14:00:00Z"><article><p>'+'Reported facts and consequences. '*20+'</p></article>'
+        row={'status':'available','url':item['url'],'retrieved_at':AT.isoformat(),'text':html}
+        ev=news.evidence(item,row)
+        self.assertEqual(ev['source']['published_at'],item['published_at'])
+        self.assertEqual(ev['publication_conflict']['future_article_metadata_at'],'2026-10-25T14:00:00+00:00')
+        unknown=news.evidence(dict(item,published_at=None),row)
+        self.assertEqual(unknown['published_at'],'2026-10-25T14:00:00+00:00')  # Still rejected by collect; no invented past date.
+        row['text']=html.replace('14:00:00Z','11:30:00Z')
+        self.assertEqual(news.evidence(item,row)['published_at'],'2026-10-25T11:30:00+00:00')
+
+    def test_general_feed_and_wire_geography_and_preview_filter(self):
+        title='ΝΑΤΟ: Τα ρωσικά drones αναδεικνύουν κενά στην προστασία υποδομών'
+        self.assertEqual(news.geography(title,'https://www.philenews.com/oikonomia/capital/forbes/article/1/x','cyprus'),'world')
+        self.assertEqual(news.geography('Η Κύπρος συζητά συνεργασία με το ΝΑΤΟ','https://example.com/a','cyprus'),'cyprus')
+        self.assertEqual(news.geography('Δικαστική απόφαση','https://www.philenews.com/kosmos/article/1/x','cyprus'),'world')
+        self.assertFalse(news.news_report('Ο Χάρης Γεωργιάδης σε λίγο στο vidcast του philenews'))
+        self.assertTrue(news.news_report('Ο Χάρης Γεωργιάδης εξήγησε τις θέσεις του στο vidcast'))
+
+    def test_same_election_discovery_cluster_keeps_all_sources_and_ids(self):
+        titles=["What does Israel's election mean for Gaza?",'Israel heads to polls for pivotal election','Israeli elections: voters turnout reaches 16.7%']
+        rows=[{'title':title,'section':'world','story_id':str(i)} for i,title in enumerate(titles)]
+        rows.extend([{'title':'US Senate election campaign spending','section':'world','story_id':'us'},
+                     {'title':titles[0],'section':'cyprus','story_id':'local'}])
+        groups=news.cluster(rows)
+        self.assertEqual([len(g) for g in groups],[3,1,1])
+        self.assertEqual([i['story_id'] for i in groups[0]],['0','1','2'])
+
     def test_cartoon_column_does_not_take_a_news_slot(self):
         self.assertFalse(news.news_report('Το σκίτσο του Νίκου Πογιατζή'))
         self.assertFalse(news.news_report('Cartoon of the day: elections'))
@@ -109,6 +139,18 @@ class NewsQualityTests(unittest.TestCase):
             self.assertLessEqual(result['metrics']['article_requests'],14)
             self.assertEqual({c['section'] for c in result['candidates']},{'world','cyprus','sports'})
             self.assertEqual(result['metrics']['article_requests'],14)
+            # A provider failure consumes a request, not a scarce usable news slot.
+            class Blocked(Client):
+                def many(self,urls):
+                    rows=super().many(urls)
+                    for url,row in rows.items():
+                        if '/cyprus/lima' in url or '/cyprus/kilo' in url:row['status']='unavailable'
+                    return rows
+            retry=Blocked();retried=news.collect(root,{'stories':[]},retry,AT,root/'retry-private')
+            usable=[c for c in retried['candidates'] if any(e['access']=='article_excerpt' for e in c['evidence'])]
+            self.assertGreaterEqual(sum(c['section']=='cyprus' for c in usable),4)
+            self.assertGreaterEqual(sum(c['section']=='world' for c in usable),4)
+            self.assertLessEqual(retried['metrics']['article_requests'],14)
 
     def test_digest_retains_provenance_and_greek_evidence_without_mutating_pack(self):
         source={'url':'https://example.com/table','retrieved_at':AT.isoformat()}
