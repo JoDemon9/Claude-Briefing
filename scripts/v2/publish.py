@@ -70,7 +70,8 @@ def source_identity(root):
     files = []
     for name in ('content','templates/v2','scripts/v2','docs/assets','tests','.github/workflows'):
         files += [p for p in (root/name).rglob('*') if p.is_file() and '__pycache__' not in p.parts]
-    if (root/'BRIEFING_RUNTIME.md').is_file():files.append(root/'BRIEFING_RUNTIME.md')
+    files += [root/name for name in ('AGENTS.md','BRIEFING_SPEC.md','CHATGPT_TASK_INSTRUCTIONS.md') if (root/name).is_file()]
+    files += sorted((root/'prompts').glob('*.md'))
     if (root/'requirements-v2.txt').is_file():files.append(root/'requirements-v2.txt')
     return hashlib.sha256(json.dumps({p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
                                      for p in sorted(files)},sort_keys=True).encode()).hexdigest()

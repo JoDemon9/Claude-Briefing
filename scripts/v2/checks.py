@@ -13,7 +13,8 @@ import sys
 import time
 
 ROOT=Path(__file__).resolve().parents[2]
-CODE=('scripts/','templates/','tests/','.github/','requirements','BRIEFING_RUNTIME.md')
+CODE=('scripts/','templates/','tests/','.github/','requirements','BRIEFING_SPEC.md',
+      'AGENTS.md','CLAUDE.md','CHATGPT_TASK_INSTRUCTIONS.md','prompts/','maintenance/OPERATIONS.md','maintenance/AUTHORING.md')
 PROFILES={'content':0,'maintenance':1,'full':2}
 DAILY_GATES=('content','preview','integrity')
 

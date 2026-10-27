@@ -37,7 +37,7 @@ def prepare(root,day,slot,at,private_root,wire_root=None,client=None):
             count+=1; row['id']='e'+str(count); evidence[row['id']]=row
     opportunities=[{**o['record'],'review_due':True} for o in packet['opportunities']]
     baseline_records=module('baseline').load(root,packet['baseline'])[1] if packet.get('baseline') else []
-    pack=module('research_pack').seal(dict(version=1,protocol='oracle-synthesis/1',edition_id=packet['edition_id'],
+    pack=module('research_pack').seal(dict(version=1,protocol='oracle-synthesis/1',selection_policy='balanced-v1',edition_id=packet['edition_id'],
         submission_workflow_installed=(Path(private_root)/'.github/workflows/submit-synthesis.yml').is_file(),
         submission_ready=(Path(private_root)/'.github/workflows/submit-synthesis.yml').is_file() and os.environ.get('ORACLE_SUBMISSION_READY')=='true',
         prepared_at=transport.now(),baseline=packet.get('baseline'),

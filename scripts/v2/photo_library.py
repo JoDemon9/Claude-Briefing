@@ -6,7 +6,6 @@ import importlib.util
 import json
 from pathlib import Path
 import re
-import shutil
 from datetime import datetime
 from PIL import Image
 
@@ -39,12 +38,14 @@ def catalog(root=ROOT):
             if not photo or any(not photo.get(k) for k in ('source_url','original_url','license','license_url','attribution','retrieved_at','caption','alt')):continue
             local=asset(root,photo['url'])
             if not local.is_file():continue
-            with Image.open(local) as decoded:
-                decoded.load()
-                if min(decoded.size)<200:continue
-                dimensions=list(decoded.size)
             key=sha(local)
-            record=records.setdefault(key,{'id':key,'asset':photo['url'],'image':photo,'dimensions':dimensions,'references':[]})
+            if key not in records:
+                with Image.open(local) as decoded:
+                    decoded.load()
+                    if min(decoded.size)<200:continue
+                    dimensions=list(decoded.size)
+                records[key]={'id':key,'asset':photo['url'],'image':photo,'dimensions':dimensions,'references':[]}
+            record=records[key]
             record['references'].append({'story_id':article['story_id'],'article_path':relative,'edition_id':edition['id']})
     return {'schema_version':1,'photos':[records[k] for k in sorted(records)],
             'policy':'Suggestions only. Check relevance, date, archive wording and rights before explicit reuse. Logos are excluded.'}
@@ -70,10 +71,8 @@ def reuse(root,edition_id,article_id,photo_id,caption,alt,at,confirmed=False):
     if not photo:raise ValueError('Photograph is not in the verified library')
     source=asset(root,photo['asset'])
     if sha(source)!=photo_id:raise ValueError('Library image changed after review')
-    target_relative=f'assets/editorial/{edition_id}/{article_id}.webp';target=asset(root,target_relative)
-    if target==source:raise ValueError('Reuse target must have its own dated path')
+    target_relative=photo['asset']
     if min(len(caption.strip()),len(alt.strip()))<15:raise ValueError('A factual caption and accessible description are required')
-    target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,target)
     # Retain original rights/retrieval provenance. reviewed_at records only the new editorial use.
     article['image']={**photo['image'],'url':target_relative,'caption':caption,'alt':alt,
         'reuse_review':{'source_asset':photo['asset'],'sha256':photo_id,'reviewed_at':at,'relevance_and_archive_date_checked':True}}

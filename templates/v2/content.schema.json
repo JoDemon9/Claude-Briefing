@@ -2157,6 +2157,30 @@
               }
             }
           }
+        },
+        "coverage_notes": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "world": {
+              "type": "string",
+              "minLength": 20
+            },
+            "cyprus": {
+              "type": "string",
+              "minLength": 20
+            }
+          }
+        },
+        "omitted_stories": {
+          "type": "object",
+          "propertyNames": {
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 20
+          }
         }
       },
       "allOf": [
@@ -2318,6 +2342,9 @@
     "sports_revision_at": {
       "type": "string",
       "format": "date-time"
+    },
+    "selection_policy": {
+      "const": "balanced-v1"
     }
   },
   "additionalProperties": false

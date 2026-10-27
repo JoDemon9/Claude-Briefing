@@ -42,6 +42,8 @@ def hydrate(payload,pack,root,at=None):
     if payload['edition_id']!=pack['edition_id'] or not timedelta(0)<=moment-prepared<=timedelta(minutes=90):
         raise ValueError('Missing, stale, future or mismatched pre-run pack; never collect inside the AI task')
     slot=payload['edition_id'].rsplit('-',1)[1]
+    if pack.get('selection_policy') == 'balanced-v1' or payload['edition_id'][:10] >= '2026-10-28':
+        payload['selection_policy'] = 'balanced-v1'
     if payload.get('baseline')!=pack['baseline']:
         raise ValueError('Synthesis baseline differs from the pre-run baseline')
     if slot!='morning' and not pack['baseline']:
@@ -69,8 +71,14 @@ def hydrate(payload,pack,root,at=None):
     if slot!='morning':
         baseline_ids={s['story_id'] for s in pack['baseline_stories']}
         emitted={a['story_id'] for a in payload['articles']}
-        if baseline_ids - emitted - set(payload.get('carry_story_ids',[])):
-            raise ValueError('Each unchanged baseline story needs @CarryOver id=...')
+        omitted=payload.get('selection_review',{}).get('omitted_stories',{})
+        carries=set(payload.get('carry_story_ids',[]))
+        if not isinstance(omitted,dict) or any(not isinstance(v,str) or len(v.strip())<20 for v in omitted.values()):
+            raise ValueError('Each omitted baseline story needs a specific reason')
+        if set(omitted)-baseline_ids or set(omitted)&(emitted|carries):
+            raise ValueError('Omitted stories must belong only to the unselected baseline')
+        if baseline_ids - emitted - carries - set(omitted):
+            raise ValueError('Each baseline story needs an update, @CarryOver id=... or @Omit id=... reason="..."')
     for article in payload['articles']:
         if article.get('change_status') not in ('NEW','UPDATED','REVERSAL','CORRECTION'):
             raise ValueError('Only new/materially changed articles may be emitted; use @CarryOver for unchanged')

@@ -3,7 +3,7 @@ on:
   pull_request:
   push:
     branches: [main]
-    paths: ['content/**', 'templates/v2/**', 'scripts/v2/**', 'tests/**', 'docs/**', 'BRIEFING_RUNTIME.md', '.github/workflows/content-checks.yml']
+    paths: ['content/**', 'templates/v2/**', 'scripts/v2/**', 'tests/**', 'docs/**', 'requirements-v2.txt', 'AGENTS.md', 'CLAUDE.md', 'BRIEFING_SPEC.md', 'CHATGPT_TASK_INSTRUCTIONS.md', 'prompts/**', 'maintenance/OPERATIONS.md', 'maintenance/AUTHORING.md', '.github/workflows/content-checks.yml']
   workflow_dispatch:
     inputs:
       full_regression:

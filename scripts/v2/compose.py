@@ -19,7 +19,7 @@ REQUIRED = ('published_at', 'editorial_completed_at', 'reading_review', 'article
 OPTIONAL = ('executive_scan', 'daily', 'markets', 'sports', 'panels', 'opportunities',
             'freshness', 'selection_review', 'image_review', 'changes', 'market_summary',
             'market_next_event', 'market_movers', 'market_core', 'market_notes',
-            'calculator', 'fast_wire', 'delta_log', 'baseline', 'synthesis_profile', 'prefetch_provenance')
+            'calculator', 'fast_wire', 'delta_log', 'baseline', 'synthesis_profile', 'prefetch_provenance', 'selection_policy')
 
 
 def module(name):
@@ -90,7 +90,7 @@ def reviewed_image(raw, edition_id, slug, root, catalog):
         if not isinstance(review.get(key), str) or len(review[key].strip()) < 15:
             raise ValueError('Reviewed factual caption and alt text required')
     image = copy.deepcopy(photo['image'])
-    image.update(url=f'assets/editorial/{edition_id}/{slug}.webp', caption=review['caption'], alt=review['alt'])
+    image.update(url=photo['asset'], caption=review['caption'], alt=review['alt'])
     image['reuse_review'] = {'source_asset': photo['asset'], 'sha256': photo['id'],
                              'reviewed_at': review['reviewed_at'], 'relevance_and_archive_date_checked': True}
     return image, source.read_bytes()
@@ -200,6 +200,8 @@ def compile_payload(payload, root=ROOT):
                    url=f'{slot}/{date}.html', edition_mode=MODES[slot], scheduled_slot={'morning':'07:30','midday':'13:30','evening':'19:30'}[slot],
                    producer_contract={key:capabilities[key] for key in ('producer_protocol','content_schema_sha256')})
     edition.setdefault('changes', [])
+    if date >= module('selection').BALANCED_START:
+        edition['selection_policy'] = 'balanced-v1'
     edition['daily']['summary_60s'] = ensure_str_list(edition['daily'].get('summary_60s', []))
     # Coerce singleton groups only; never guess which story supports a summary.
     edition['daily'].setdefault('summary_story_ids', [])
@@ -279,6 +281,10 @@ def compile_payload(payload, root=ROOT):
         raise ValueError('No supported article remains; an empty or unverified edition cannot be published')
     counts = module('selection').inventory(docs)
     for key, label in (('cyprus','Κύπρος'),('world','Διεθνή')):
+        if module('selection').balanced_required(edition) and counts[key] < 4:
+            reason = edition['selection_review'].get('coverage_notes', {}).get(key)
+            if reason:
+                notes.append(label + ': ' + reason)
         if counts[key] < 5 and not edition.get('synthesis_profile'):
             notes.append(label+': περιορισμένη επαληθευμένη κάλυψη σε αυτή την έκδοση.')
         else:
