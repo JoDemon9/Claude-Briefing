@@ -1,12 +1,149 @@
 [
-  {"publisher":"BBC","section":"world","url":"https://feeds.bbci.co.uk/news/world/rss.xml","hosts":["feeds.bbci.co.uk","www.bbc.com","www.bbc.co.uk"]},
-  {"publisher":"France 24","section":"world","url":"https://www.france24.com/en/rss","hosts":["www.france24.com"]},
-  {"publisher":"Al Jazeera","section":"world","url":"https://www.aljazeera.com/xml/rss/all.xml","hosts":["www.aljazeera.com"]},
-  {"publisher":"CNBC","section":"world","url":"https://www.cnbc.com/id/100003114/device/rss/rss.html","hosts":["www.cnbc.com"]},
-  {"publisher":"Philenews","section":"cyprus","url":"https://www.philenews.com/feed/","hosts":["www.philenews.com"]},
-  {"publisher":"Cyprus Mail","section":"cyprus","url":"https://cyprus-mail.com/feed/","hosts":["cyprus-mail.com"]},
-  {"publisher":"Sigmalive","section":"cyprus","url":"https://www.sigmalive.com/rss","hosts":["www.sigmalive.com"]},
-  {"publisher":"Omonoia FC","section":"sports","url":"https://www.omonoiafc.com.cy/feed/","hosts":["www.omonoiafc.com.cy"]},
-  {"publisher":"BBC","section":"sports","url":"https://feeds.bbci.co.uk/sport/football/teams/manchester-united/rss.xml","hosts":["feeds.bbci.co.uk","www.bbc.com","www.bbc.co.uk"]},
-  {"publisher":"BBC","section":"sports","url":"https://feeds.bbci.co.uk/sport/formula1/rss.xml","hosts":["feeds.bbci.co.uk","www.bbc.com","www.bbc.co.uk"]}
+  {
+    "publisher": "BBC",
+    "section": "world",
+    "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "hosts": [
+      "feeds.bbci.co.uk",
+      "www.bbc.com",
+      "www.bbc.co.uk"
+    ]
+  },
+  {
+    "publisher": "France 24",
+    "section": "world",
+    "url": "https://www.france24.com/en/rss",
+    "hosts": [
+      "www.france24.com"
+    ]
+  },
+  {
+    "publisher": "Al Jazeera",
+    "section": "world",
+    "url": "https://www.aljazeera.com/xml/rss/all.xml",
+    "hosts": [
+      "www.aljazeera.com"
+    ]
+  },
+  {
+    "publisher": "CNBC",
+    "section": "world",
+    "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+    "hosts": [
+      "www.cnbc.com"
+    ]
+  },
+  {
+    "publisher": "Philenews",
+    "section": "cyprus",
+    "url": "https://www.philenews.com/feed/",
+    "hosts": [
+      "www.philenews.com"
+    ]
+  },
+  {
+    "publisher": "Cyprus Mail",
+    "section": "cyprus",
+    "url": "https://cyprus-mail.com/feed/",
+    "hosts": [
+      "cyprus-mail.com"
+    ]
+  },
+  {
+    "publisher": "Sigmalive",
+    "section": "cyprus",
+    "url": "https://www.sigmalive.com/rss",
+    "hosts": [
+      "www.sigmalive.com"
+    ]
+  },
+  {
+    "publisher": "Omonoia FC",
+    "section": "sports",
+    "url": "https://www.omonoiafc.com.cy/feed/",
+    "hosts": [
+      "www.omonoiafc.com.cy"
+    ],
+    "sports_lane": "omonoia"
+  },
+  {
+    "publisher": "BBC",
+    "section": "sports",
+    "url": "https://feeds.bbci.co.uk/sport/football/teams/manchester-united/rss.xml",
+    "hosts": [
+      "feeds.bbci.co.uk",
+      "www.bbc.com",
+      "www.bbc.co.uk"
+    ],
+    "sports_lane": "manutd"
+  },
+  {
+    "publisher": "BBC",
+    "section": "sports",
+    "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
+    "hosts": [
+      "feeds.bbci.co.uk",
+      "www.bbc.com",
+      "www.bbc.co.uk"
+    ],
+    "sports_lane": "formula1"
+  },
+  {
+    "publisher": "The Guardian",
+    "section": "world",
+    "url": "https://www.theguardian.com/world/rss",
+    "hosts": [
+      "www.theguardian.com"
+    ]
+  },
+  {
+    "publisher": "The Guardian",
+    "section": "sports",
+    "sports_lane": "realmadrid",
+    "url": "https://www.theguardian.com/football/realmadrid/rss",
+    "hosts": [
+      "www.theguardian.com"
+    ]
+  },
+  {
+    "publisher": "FIP",
+    "section": "sports",
+    "sports_lane": "padel",
+    "url": "https://www.padelfip.com/feed/",
+    "hosts": [
+      "www.padelfip.com",
+      "padelfip.com"
+    ]
+  },
+  {
+    "publisher": "Padel Addict",
+    "section": "sports",
+    "sports_lane": "padel",
+    "url": "https://www.padeladdict.com/feed/",
+    "hosts": [
+      "www.padeladdict.com"
+    ]
+  },
+  {
+    "publisher": "BBC",
+    "section": "sports",
+    "sports_lane": "football",
+    "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+    "hosts": [
+      "feeds.bbci.co.uk",
+      "www.bbc.com",
+      "www.bbc.co.uk"
+    ]
+  },
+  {
+    "publisher": "BBC",
+    "section": "sports",
+    "sports_lane": "other",
+    "url": "https://feeds.bbci.co.uk/sport/rss.xml",
+    "hosts": [
+      "feeds.bbci.co.uk",
+      "www.bbc.com",
+      "www.bbc.co.uk"
+    ]
+  }
 ]

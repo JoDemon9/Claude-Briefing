@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import json
 import re
+import importlib.util
 from pathlib import Path
 
 MAX_BYTES=12000
@@ -17,6 +18,9 @@ def synthesis(pack,max_bytes=48000):
         bounded=value[:limit]
         stops=[m.end() for m in re.finditer(r'[.!;?·](?:\s|$)',bounded)]
         return bounded[:stops[-1]].rstrip() if stops and stops[-1]>=limit*.65 else bounded.rsplit(' ',1)[0]+'…'
+    spec=importlib.util.spec_from_file_location('view_news_digest',Path(__file__).with_name('news_digest.py'))
+    news=importlib.util.module_from_spec(spec);spec.loader.exec_module(news)
+    modern=pack['data']['sports'].get('briefing_policy')=='intelligence-v1'
     routine_sources={}
     def source_ref(source):
         key=(source['url'],source.get('retrieved_at'))
@@ -48,6 +52,13 @@ def synthesis(pack,max_bytes=48000):
         'Editorial focus within the existing task caps: read the full candidate inventory before choosing; choose consequence and material change over newest/easiest headlines and verify geography. Cover 4–5 supported stories in EACH news desk when evidence allows, using concise secondary dispatches and exact carries in later editions. Do not stop after the first two candidates per desk. News breadth takes precedence over an optional authored sports item; the full Python Sports desk remains visible. Put the most consequential analytical lead first within each desk. Aim for 120–170 Greek words per analytical lead across fact, delta, mechanism, effects and watch: what changed, causal chain/incentive, who is affected/how, and an observable next test. State uncertainty; scenarios are conditional, never invented.',
         'Executive: 1–3 points, ideally 90–120 words total, connecting concrete developments to practical implications and a next test. Use baseline findings as dated context only. Avoid headline repetition and invented links between unrelated stories. Use the existing single factual review to check substance, support, novelty, geography and token budget; no extra turn or research loop.',
         '\n## Baseline records (historical context, no new verification)']
+    if modern:
+        lines=[line for line in lines if not line.startswith('Photos and the expanded Sports desk')]
+        lines=[line.replace('10 authored stories including any sports story','10 authored NEWS stories plus up to 3 wider-sports briefs')
+               .replace('6 materially new/updated stories','6 materially new/updated NEWS stories plus up to 3 wider-sports briefs')
+               for line in lines]
+        lines.insert(-1,'Sports contract intelligence-v1: write @SportBrief interest=omonoia|manutd|realmadrid|formula1 evidence=e1,e2 changed="reported change" meaning="sporting consequence" watch="observable next test" for favourites with article evidence (40–60 words; 70 maximum each). Use only evidence assigned to that interest. No score-based tactics or injuries. Without evidence leave the card unavailable; do not claim no news. These annotations have a separate allowance from news articles, within the unchanged output-token budget.')
+        lines.insert(-1,'Beyond my four: select 2–3 sports articles, interest=other, one each tagged padel, football, or other-sport. Exclude the four favourites. Include @Fact plus @Effects and @AnalysisSources; 35–50 words preferred, 70 maximum across fact/effects. No long sports essay. If fewer than two, add @SportsReason followed by the actual evidence limitation. Aim for 300–400 sports words overall; maximum 450. Keep Greek prose, source independence and verified dates; feed-only headlines cannot support a briefing.')
     for story in pack.get('baseline_stories',[]):
         view={k:v for k,v in story.items() if k!='identity' or v!=story.get('story_id')}
         view['finding']=short(story.get('finding',''),240)
@@ -63,7 +74,7 @@ def synthesis(pack,max_bytes=48000):
         view={k:card.get(k) for k in ('last_match','next_fixture','league_position','standings_season','standings_status','just_played','latest_session','standings','next_grand_prix') if card.get(k) is not None}
         if 'standings' in view:view['standings']=view['standings'][:3]
         lines.append(key+': '+json.dumps(compact(view),ensure_ascii=False,separators=(',',':')))
-    for key,comp in pack['data']['sports'].get('competitions',{}).items():
+    for key,comp in ({} if modern else pack['data']['sports'].get('competitions',{})).items():
         view=dict(comp)
         if 'standings' in view:
             view['standings']=comp['standings'][:3]
@@ -89,8 +100,9 @@ def synthesis(pack,max_bytes=48000):
             if queue:ordered.append(queue.pop(0))
     ordered.extend(c for c in pack['candidates'] if c['section']=='sports' and usable(c))
     def evidence_line(e,limit):
-        return encoded(dict(id=e['id'],access=e['access'],source=e['source'],excerpt=short(e['excerpt'],limit),
-                            excerpt_scope='bounded excerpt, not the whole article'))
+        return encoded(dict(id=e['id'],access=e['access'],source=e['source'],sports_lane=e.get('sports_lane'),
+                             excerpt=news.focused_excerpt(e['excerpt'],e.get('title',''),limit),
+                             excerpt_scope='selected source passages in original order; […] marks omissions; not the whole article'))
     def primary_blocks(lead_limit,secondary_limit):
         seen=set();blocks=[]
         for c in ordered:
@@ -101,6 +113,8 @@ def synthesis(pack,max_bytes=48000):
     # Keep an explicit inventory even when a genuinely oversized pack needs omissions.
     inventory=[{'id':c['id'],'section':c['section'],'usable_evidence':len(usable(c))} for c in pack['candidates']]
     lines.append('Candidate inventory: '+encoded(inventory))
+    lines.append('Collection pipeline: '+encoded({k:{name:v[name] for name in ('discovered','fetched','readable')}
+                 for k,v in pack.get('metrics',{}).get('pipeline',{}).items()}))
     def fits(extra):return len(('\n'.join(lines+extra)+'\n').encode('utf-8'))<=max_bytes-1200
     for lead_limit,secondary_limit in ((2400,1600),(1800,1200),(1400,1000),(1000,700)):
         blocks=primary_blocks(lead_limit,secondary_limit)

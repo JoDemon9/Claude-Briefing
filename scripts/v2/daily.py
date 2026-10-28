@@ -305,19 +305,24 @@ def render(b, model, bundles):
             continue
         _, article = selected(story)
         interest = sports_module.interest(article)
-        if interest in b.TEAMS and latest['date'] < '2026-10-21':
+        if interest in b.TEAMS and (latest['date'] < '2026-10-21' or latest['date'] >= '2026-10-28'):
             anchors.setdefault(interest, []).append((story['story_id'], digest(story['story_id'])[:12]))
         else:
             sport_stories.append(story)
-    html += b.sports(latest, anchors=anchors, include_major=False)
+    sports_articles=[selected(story)[1] for story in model['stories'] if story['section']=='sports']
+    html += b.sports(latest, articles=sports_articles, anchors=anchors, include_major=False)
     if sport_stories:
         # Latest participating reporting first; preserve older independent readers.
         sport_stories.sort(key=lambda story: (-SLOTS.index(lookup[story['selected']['edition_id']][0]['type']), story['priority'], story['story_id']))
-        title = 'Κύρια αθλητικά θέματα και ανάλυση.' if latest['date'] >= '2026-10-21' else 'Από τον υπόλοιπο αθλητισμό.'
-        html += '<section class="section sports-other" id="other-sports"><div class="sectionhead"><h2>' + title + '</h2></div><div class="g3">' + ''.join(card(story) for story in sport_stories[:2]) + '</div>'
-        if len(sport_stories) > 2:
-            html += '<details class="sports-archive"><summary>Περισσότερες αθλητικές ιστορίες της ημέρας</summary><div class="g3">' + ''.join(card(story) for story in sport_stories[2:]) + '</div></details>'
+        compact=latest['date'] >= '2026-10-28'
+        title = 'Πέρα από τις τέσσερις προτιμήσεις μου' if compact else 'Κύρια αθλητικά θέματα και ανάλυση.' if latest['date'] >= '2026-10-21' else 'Από τον υπόλοιπο αθλητισμό.'
+        sports_card=(lambda story:sports_module.brief_card(b,*selected(story))) if compact else card
+        count=3 if compact else 2
+        html += '<section class="section sports-other" id="other-sports"><div class="sectionhead"><h2>' + title + '</h2></div><div class="'+('sports-brief-list' if compact else 'g3')+'">' + ''.join(sports_card(story) for story in sport_stories[:count]) + '</div>'
+        if len(sport_stories) > count:
+            html += '<details class="sports-archive"><summary>Περισσότερες αθλητικές ιστορίες της ημέρας</summary><div class="g3">' + ''.join(sports_card(story) for story in sport_stories[count:]) + '</div></details>'
         html += '</section>'
+    if latest['date'] >= '2026-10-28':html += sports_module.compact_tables(b,latest)
     quotes = {}
     panels = {}
     for e, _ in bundles:

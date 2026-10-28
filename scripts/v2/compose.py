@@ -302,7 +302,7 @@ def compile_payload(payload, root=ROOT):
             if doc['daily']['section'] != 'sports':
                 continue
             sports['major_stories'].append({key:doc[key] for key in ('headline','published_at','summary','sources')})
-            sports['major_stories'][-1].update(article_id=doc['id'], why_it_matters=raw.get('why_it_matters') or doc['summary'])
+            sports['major_stories'][-1].update(article_id=doc['id'], why_it_matters=raw.get('why_it_matters') or doc.get('second_order_effects') or doc['summary'])
             if len(sports['major_stories']) == 3:
                 break
         sports.setdefault('major_stories_reason', 'Τα αθλητικά άρθρα που επέλεξε ο συντάκτης για αυτή την έκδοση.')

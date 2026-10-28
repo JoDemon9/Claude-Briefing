@@ -30,6 +30,8 @@ def prepare(root,day,slot,at,private_root,wire_root=None,client=None):
     routine=module('prefetch').collect(root,client,cutoff)
     sports=module('sports').prefetch(client,cutoff)
     sports['news_links']=sports_news.prefetch(client,cutoff)
+    sports['briefing_policy']='intelligence-v1'
+    sports['briefings']={}
     news=research.ingest(root,packet,client,cutoff,folder)
     evidence={}; count=0
     for candidate in news['candidates']:

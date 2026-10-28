@@ -136,9 +136,10 @@ class NewsQualityTests(unittest.TestCase):
                     return rows
             client=Client()
             result=news.collect(root,{'stories':[]},client,AT,root/'private')
-            self.assertLessEqual(result['metrics']['article_requests'],14)
+            self.assertLessEqual(result['metrics']['article_requests'],24)
             self.assertEqual({c['section'] for c in result['candidates']},{'world','cyprus','sports'})
-            self.assertEqual(result['metrics']['article_requests'],14)
+            self.assertGreaterEqual(result['metrics']['pipeline']['cyprus']['readable'],6)
+            self.assertGreaterEqual(result['metrics']['pipeline']['world']['readable'],6)
             # A provider failure consumes a request, not a scarce usable news slot.
             class Blocked(Client):
                 def many(self,urls):
@@ -150,7 +151,7 @@ class NewsQualityTests(unittest.TestCase):
             usable=[c for c in retried['candidates'] if any(e['access']=='article_excerpt' for e in c['evidence'])]
             self.assertGreaterEqual(sum(c['section']=='cyprus' for c in usable),4)
             self.assertGreaterEqual(sum(c['section']=='world' for c in usable),4)
-            self.assertLessEqual(retried['metrics']['article_requests'],14)
+            self.assertLessEqual(retried['metrics']['article_requests'],24)
 
     def test_digest_retains_provenance_and_greek_evidence_without_mutating_pack(self):
         source={'url':'https://example.com/table','retrieved_at':AT.isoformat()}

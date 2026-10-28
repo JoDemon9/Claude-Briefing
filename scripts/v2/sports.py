@@ -44,9 +44,9 @@ def table(b, title, headings, rows):
     return '<div class="sport-table"><table><caption>'+b.esc(title)+'</caption><thead><tr>'+''.join('<th scope="col">'+b.esc(h)+'</th>' for h in headings)+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+b.esc(str(v if v is not None else '—'))+'</td>' for v in row)+'</tr>' for row in rows)+'</tbody></table></div>'
 
 
-def evidence(b, sources):
+def evidence(b, sources, limit=2):
     unique = {s['url']:s for s in sources if s.get('access') == 'read'}
-    return '<div class="sport-evidence">'+'<br>'.join('<a href="'+b.esc(url)+'" rel="noopener noreferrer">'+b.esc(s['publisher'])+'</a> · '+b.esc(b.stamp(s['retrieved_at'])) for url,s in list(unique.items())[:2])+'</div>' if unique else ''
+    return '<div class="sport-evidence">'+'<br>'.join('<a href="'+b.esc(url)+'" rel="noopener noreferrer">'+b.esc(s['publisher'])+'</a> · '+b.esc(b.stamp(s['retrieved_at'])) for url,s in list(unique.items())[:limit])+'</div>' if unique else ''
 
 
 def competitions(b, edition):
@@ -121,7 +121,7 @@ def headlines(b, edition, key):
     return ''.join(out)
 
 
-def render(b, edition, articles=(), anchors=None, include_major=True):
+def render_legacy(b, edition, articles=(), anchors=None, include_major=True):
     out = ['<section class="section" id="sports"><div class="sectionhead"><h2>' + b.emblem('sports') + 'Τα αθλητικά μου.</h2></div><p class="sports-intro">Αποτελέσματα, βαθμολογία, επόμενοι αγώνες και ειδήσεις για τις ομάδες σου, τη Formula 1 και τις ευρωπαϊκές διοργανώσεις.</p><div class="sports sports-links">']
     logos = {r['id']: r for r in b.read(b.ROOT/'templates/v2/sports-logos.json')}
     photos = b.read(b.ROOT/'templates/v2/photo-policy.json')['photos']
@@ -225,5 +225,82 @@ def render(b, edition, articles=(), anchors=None, include_major=True):
         if len(records) > (3 if allow_all else 2):
             out.append('<details class="sports-archive"><summary>Περισσότερες αθλητικές αναφορές</summary><ul>' + ''.join('<li><a href="../articles/' + edition['id'] + '/' + r['article_id'] + '.html">' + b.esc(r['headline']) + '</a></li>' for r in records[(3 if allow_all else 2):]) + '</ul></details>')
         out.append('</div>')
+    out.append('</section>')
+    return ''.join(out)
+
+
+def compact_tables(b, edition):
+    return '<details class="sports-data"><summary>UEFA · αποτελέσματα, πρόγραμμα και βαθμολογίες</summary>'+competitions(b,edition)+'</details>'
+
+
+def brief_card(b, edition, article):
+    """Short wider-sports reporting with the existing licensed article photograph."""
+    meaning=article.get('second_order_effects') or ''
+    photo=article.get('image') or {}
+    img=('<figure><img src="../'+b.esc(photo['url'])+'" alt="'+b.esc(photo['alt'])+'" loading="lazy"><figcaption>Φωτογραφία αρχείου</figcaption></figure>') if photo else ''
+    return ('<article class="sport-brief">'+img+'<div><h4><a href="../'+b.esc(article['url'])+'">'+b.esc(article['headline'])+'</a></h4>'
+            '<p>'+b.esc(article['summary'])+'</p>'+('<p class="sport-meaning"><strong>Σημασία:</strong> '+b.esc(meaning)+'</p>' if meaning else '')+
+            '<details><summary>Πηγές και χρόνος αναφοράς</summary>'+evidence(b,article['sources'],None)+'</details></div></article>')
+
+
+def render(b, edition, articles=(), anchors=None, include_major=True):
+    if edition.get('date','') < '2026-10-28':
+        return render_legacy(b,edition,articles,anchors,include_major)
+    sports=edition.get('sports',{})
+    out=['<section class="section sports-compact" id="sports"><div class="sectionhead"><h2>'+b.emblem('sports')+
+         'Τα αθλητικά μου.</h2></div><p class="sports-intro">Τι άλλαξε, τι σημαίνει και τι παρακολουθούμε.</p><div class="sports sports-links">']
+    logos={r['id']:r for r in b.read(b.ROOT/'templates/v2/sports-logos.json')}
+    for key,url in NEWS.items():
+        card=sports.get('coverage',{}).get(key,{})
+        logo=BRAND_LOGOS.get(key)
+        if not logo or not (b.ROOT/'docs'/logo).exists():logo=logos.get(key,{}).get('asset','')
+        out.append('<article class="sport team-'+key+'"><span class="teamicon" aria-hidden="true"><img class="sport-logo" src="../'+b.esc(logo)+'" alt="" width="32" height="32"></span><h3>'+b.TEAMS[key]+'</h3>')
+        for sid,hashed in (anchors or {}).get(key,[]):
+            out.append('<span id="story-'+hashed+'" data-story-id="'+b.esc(sid)+'"></span>')
+        note=sports.get('briefings',{}).get(key)
+        related=[a for a in articles if interest(a)==key]
+        if note:
+            out.append('<div class="sport-intelligence"><p>'+b.esc(note['changed'])+'</p><p><strong>Σημασία:</strong> '+b.esc(note['meaning'])+'</p><p><strong>Επόμενο τεστ:</strong> '+b.esc(note['watch'])+'</p></div>')
+        elif related:
+            # Existing reviewed reporting can be displayed, never invented analysis.
+            a=related[-1]
+            out.append('<div class="sport-intelligence"><p>'+b.esc(a['summary'])+'</p><a href="../'+b.esc(a['url'])+'">Η αναφορά ↗</a></div>')
+        else:
+            out.append('<p class="sport-quiet">Δεν υπάρχει διαθέσιμη τεκμηριωμένη σύνθεση για αυτή την έκδοση.</p>')
+        nxt=card.get('next_fixture')
+        if isinstance(nxt,dict):
+            out.append('<p class="sport-next"><strong>Επόμενο:</strong> '+b.esc(nxt.get('opponent',''))+' · '+b.esc(nxt.get('competition',''))+' · '+(b.stamp(nxt['kickoff_at']) if nxt.get('kickoff_at') else b.esc(nxt.get('date','')))+' <small>ώρα Κύπρου</small></p>')
+        elif card.get('next_grand_prix'):
+            sessions=sorted(card.get('sessions',[]),key=lambda s:s['starts_at'])
+            upcoming=next((s for s in sessions if datetime.fromisoformat(s['starts_at'].replace('Z','+00:00'))>datetime.fromisoformat(edition['published_at'].replace('Z','+00:00'))),None)
+            out.append('<p class="sport-next"><strong>Επόμενο:</strong> '+b.esc(card['next_grand_prix'])+(' · '+b.stamp(upcoming['starts_at']) if upcoming else '')+'</p>')
+        out.append('<details class="sport-details"><summary>Αποτελέσματα, στοιχεία και πηγές</summary>')
+        last=card.get('last_match')
+        if isinstance(last,dict):
+            out.append('<p>Τελευταίο καταγεγραμμένο: '+b.esc(last.get('opponent',''))+' '+b.esc(last.get('result',''))+' · '+b.esc(last.get('competition',''))+' · '+b.esc(last.get('date',''))+'</p>')
+        if card.get('league_position'):out.append('<p>Θέση πρωταθλήματος: '+b.esc(str(card['league_position']))+'</p>')
+        if card.get('standings_status')=='unavailable':out.append('<p class="muted">Η τρέχουσα βαθμολογία δεν είναι διαθέσιμη.</p>')
+        if key=='omonoia':out.append('<p class="muted">Το πρόγραμμα καλύπτει τις διοργανώσεις που διαθέτει η πηγή· ενδέχεται να λείπουν εγχώριοι αγώνες. <a href="https://www.cfa.com.cy/Gr/competitions">Κυπριακή Ομοσπονδία Ποδοσφαίρου ↗</a></p>')
+        stats=card.get('league_stats',{})
+        labels={'gamesPlayed':'Αγώνες','wins':'Νίκες','ties':'Ισοπαλίες','losses':'Ήττες','points':'Βαθμοί','pointDifferential':'Διαφορά τερμάτων'}
+        out.append(table(b,'Πρωτάθλημα',('Στοιχείο','Τιμή'),[(labels[k],v) for k,v in stats.items() if k in labels]))
+        results=(card.get('latest_session') or {}).get('results',[])
+        out.append(table(b,'Πρόσφατος αγώνας · πρώτοι 5',('Θέση','Οδηγός','Κατάσταση'),[(r['position'],r['driver'],r['status']) for r in results[:5]]))
+        out.append(table(b,'Βαθμολογία οδηγών · πρώτοι 5',('Θέση','Οδηγός','Βαθμοί'),[(r['position'],r['driver'],r['points']) for r in card.get('standings',[])[:5]]))
+        session_names={'Race':'Αγώνας','Qualifying':'Κατατακτήριες','FirstPractice':'Ελεύθερα 1','SecondPractice':'Ελεύθερα 2','ThirdPractice':'Ελεύθερα 3','Sprint':'Σπριντ','SprintQualifying':'Κατατακτήριες σπριντ'}
+        for s in sorted(card.get('sessions',[]),key=lambda s:s['starts_at']):out.append('<p>'+b.esc(session_names.get(s['name'],s['name']))+' · '+b.stamp(s['starts_at'])+'</p>')
+        refs=list(card.get('standings_sources',[]))+list(card.get('next_gp_sources',[]))
+        for field in ('last_match','next_fixture','latest_session'):
+            if isinstance(card.get(field),dict):refs+=card[field].get('sources',[])
+        if note:refs+=note['sources']
+        out.append(evidence(b,refs,None)+headlines(b,edition,key)+'<a class="sport-news-link" href="'+url+'">Όλα τα νέα ↗</a></details></article>')
+    out.append('</div>')
+    if include_major:
+        extra=[a for a in articles if a.get('daily',{}).get('section')=='sports' and interest(a)=='other']
+        out.append('<div class="sports-other"><h3>Πέρα από τις τέσσερις προτιμήσεις μου</h3><div class="sports-brief-list">')
+        out.extend(brief_card(b,edition,a) for a in extra[:3])
+        out.append('</div>')
+        if not extra:out.append('<p class="muted">'+b.esc(sports.get('major_stories_reason') or 'Δεν έχουν επιλεγεί άλλες τεκμηριωμένες αθλητικές ειδήσεις.')+'</p>')
+        out.append('</div>'+compact_tables(b,edition))
     out.append('</section>')
     return ''.join(out)

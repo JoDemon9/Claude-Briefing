@@ -1,6 +1,11 @@
 """Editorial selection gates; existing snapshots retain their original inventory."""
 
 from urllib.parse import urlsplit
+import importlib.util
+from pathlib import Path
+
+_spec=importlib.util.spec_from_file_location('selection_sports_briefing',Path(__file__).with_name('sports_briefing.py'))
+sports_briefing=importlib.util.module_from_spec(_spec);_spec.loader.exec_module(sports_briefing)
 
 TARGETS = {'world': 5, 'cyprus': 5}
 BALANCED_START = '2026-10-28'
@@ -71,6 +76,7 @@ def section(article):
 
 
 def validate(edition, articles):
+    sports_briefing.validate(edition['sports'], articles)
     validate_balanced(edition, articles)
     current = edition['status'] == 'published' and edition['date'] >= '2026-10-16'
     partial = edition.get('availability_policy') == 'partial-v1' and edition['date'] >= '2026-10-22'
@@ -134,9 +140,8 @@ def validate_synthesis(edition, articles):
     if review.get('version')!=2 or not edition.get('prefetch_provenance'):
         raise ValueError('Synthesis requires a selection review and prepared data provenance')
     changed=[a for a in articles if a.get('change_status')!='UNCHANGED']
-    if len(changed)>(10 if edition['type']=='morning' else 6):
-        raise ValueError('At most ten morning stories or six delta stories may be written')
-    if edition['type']=='morning' and len(articles)>10:
+    sports_briefing.article_budget(articles,edition['type'],edition['sports'])
+    if not sports_briefing.active(edition['sports']) and edition['type']=='morning' and len(articles)>10:
         raise ValueError('Morning has at most ten selected stories')
     if edition['type']!='morning' and not edition.get('baseline'):
         raise ValueError('Delta synthesis requires an exact baseline')
@@ -146,7 +151,8 @@ def validate_synthesis(edition, articles):
         leads.setdefault(desk,article['story_id'])
         deep=any(article.get(k) for k in ('mechanics_and_incentives','second_order_effects','scenarios','newspaper_analysis'))
         mover=bool(set(article.get('driver_tags',[])) & {'market-mover','tactical-mover'})
-        if deep and article['story_id']!=leads[desk] and not mover:
+        brief=desk=='sports' and sports_briefing.active(edition['sports'])
+        if deep and article['story_id']!=leads[desk] and not mover and not brief:
             raise ValueError('Deep analysis is reserved for desk leads and major market/tactical movers')
         if not deep and len(article['summary'].split())>70:
             raise ValueError('Secondary dispatches must be concise (at most 70 words)')
