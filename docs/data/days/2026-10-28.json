@@ -10,14 +10,40 @@
       "type": "morning",
       "url": "morning/2026-10-28.html",
       "published_at": "2026-10-28T05:38:25.874411+00:00"
+    },
+    {
+      "id": "2026-10-28-midday",
+      "type": "midday",
+      "url": "midday/2026-10-28.html",
+      "published_at": "2026-10-28T11:29:25.843054+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "israel-election-2026-10-27",
+  "lead_story_id": "iran-qatar-draft-deal-2026-10-28",
   "stories": [
+    {
+      "story_id": "iran-qatar-draft-deal-2026-10-28",
+      "first_seen_at": "2026-10-28T11:29:25.843054+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-28-midday",
+          "article_id": "iran-qatar-draft",
+          "source_story_id": "iran-qatar-draft-deal-2026-10-28",
+          "url": "articles/2026-10-28-midday/iran-qatar-draft.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-28-midday",
+        "article_id": "iran-qatar-draft",
+        "source_story_id": "iran-qatar-draft-deal-2026-10-28",
+        "url": "articles/2026-10-28-midday/iran-qatar-draft.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "israel-election-2026-10-27",
       "first_seen_at": "2026-10-28T05:38:25.874411+00:00",
@@ -28,13 +54,19 @@
           "article_id": "israel-count-coalitions",
           "source_story_id": "israel-election-2026-10-27",
           "url": "articles/2026-10-28-morning/israel-count-coalitions.html"
+        },
+        {
+          "edition_id": "2026-10-28-midday",
+          "article_id": "israel-count-coalitions",
+          "source_story_id": "israel-election-2026-10-27",
+          "url": "articles/2026-10-28-midday/israel-count-coalitions.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-28-morning",
+        "edition_id": "2026-10-28-midday",
         "article_id": "israel-count-coalitions",
         "source_story_id": "israel-election-2026-10-27",
-        "url": "articles/2026-10-28-morning/israel-count-coalitions.html"
+        "url": "articles/2026-10-28-midday/israel-count-coalitions.html"
       },
       "section": "world",
       "priority": 1
@@ -49,16 +81,64 @@
           "article_id": "kherson-humanitarian-truce",
           "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
           "url": "articles/2026-10-28-morning/kherson-humanitarian-truce.html"
+        },
+        {
+          "edition_id": "2026-10-28-midday",
+          "article_id": "kherson-humanitarian-truce",
+          "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+          "url": "articles/2026-10-28-midday/kherson-humanitarian-truce.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-28-morning",
+        "edition_id": "2026-10-28-midday",
         "article_id": "kherson-humanitarian-truce",
         "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
-        "url": "articles/2026-10-28-morning/kherson-humanitarian-truce.html"
+        "url": "articles/2026-10-28-midday/kherson-humanitarian-truce.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "uk-budget-preview-2026-10-28",
+      "first_seen_at": "2026-10-28T11:29:25.843054+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-28-midday",
+          "article_id": "uk-budget-preview",
+          "source_story_id": "uk-budget-preview-2026-10-28",
+          "url": "articles/2026-10-28-midday/uk-budget-preview.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-28-midday",
+        "article_id": "uk-budget-preview",
+        "source_story_id": "uk-budget-preview-2026-10-28",
+        "url": "articles/2026-10-28-midday/uk-budget-preview.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "palmas-greece-israel-defence-2026-10-27",
+      "first_seen_at": "2026-10-28T11:29:25.843054+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-28-midday",
+          "article_id": "palmas-defence-cooperation",
+          "source_story_id": "palmas-greece-israel-defence-2026-10-27",
+          "url": "articles/2026-10-28-midday/palmas-defence-cooperation.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-28-midday",
+        "article_id": "palmas-defence-cooperation",
+        "source_story_id": "palmas-greece-israel-defence-2026-10-27",
+        "url": "articles/2026-10-28-midday/palmas-defence-cooperation.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "syria-jordan-nassib-reopening-2026-10-28",
@@ -82,6 +162,27 @@
       "priority": 3
     },
     {
+      "story_id": "corfu-philharmonic-nicosia-parade-2026-10-28",
+      "first_seen_at": "2026-10-28T11:29:25.843054+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-28-midday",
+          "article_id": "corfu-philharmonic-parade",
+          "source_story_id": "corfu-philharmonic-nicosia-parade-2026-10-28",
+          "url": "articles/2026-10-28-midday/corfu-philharmonic-parade.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-28-midday",
+        "article_id": "corfu-philharmonic-parade",
+        "source_story_id": "corfu-philharmonic-nicosia-parade-2026-10-28",
+        "url": "articles/2026-10-28-midday/corfu-philharmonic-parade.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
       "story_id": "holguin-cyprus-visit-2026-10-29",
       "first_seen_at": "2026-10-28T05:38:25.874411+00:00",
       "last_substantive_at": null,
@@ -91,13 +192,19 @@
           "article_id": "holguin-visit-agenda",
           "source_story_id": "holguin-cyprus-visit-2026-10-29",
           "url": "articles/2026-10-28-morning/holguin-visit-agenda.html"
+        },
+        {
+          "edition_id": "2026-10-28-midday",
+          "article_id": "holguin-visit-agenda",
+          "source_story_id": "holguin-cyprus-visit-2026-10-29",
+          "url": "articles/2026-10-28-midday/holguin-visit-agenda.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-28-morning",
+        "edition_id": "2026-10-28-midday",
         "article_id": "holguin-visit-agenda",
         "source_story_id": "holguin-cyprus-visit-2026-10-29",
-        "url": "articles/2026-10-28-morning/holguin-visit-agenda.html"
+        "url": "articles/2026-10-28-midday/holguin-visit-agenda.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -112,13 +219,19 @@
           "article_id": "cyprus-storm-warning",
           "source_story_id": "cyprus-storm-warning-2026-10-28",
           "url": "articles/2026-10-28-morning/cyprus-storm-warning.html"
+        },
+        {
+          "edition_id": "2026-10-28-midday",
+          "article_id": "cyprus-storm-warning",
+          "source_story_id": "cyprus-storm-warning-2026-10-28",
+          "url": "articles/2026-10-28-midday/cyprus-storm-warning.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-28-morning",
+        "edition_id": "2026-10-28-midday",
         "article_id": "cyprus-storm-warning",
         "source_story_id": "cyprus-storm-warning-2026-10-28",
-        "url": "articles/2026-10-28-morning/cyprus-storm-warning.html"
+        "url": "articles/2026-10-28-midday/cyprus-storm-warning.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -133,13 +246,19 @@
           "article_id": "united-carrick-stays",
           "source_story_id": "manutd-carrick-manager-review-2026-10-26",
           "url": "articles/2026-10-28-morning/united-carrick-stays.html"
+        },
+        {
+          "edition_id": "2026-10-28-midday",
+          "article_id": "united-carrick-stays",
+          "source_story_id": "manutd-carrick-manager-review-2026-10-26",
+          "url": "articles/2026-10-28-midday/united-carrick-stays.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-28-morning",
+        "edition_id": "2026-10-28-midday",
         "article_id": "united-carrick-stays",
         "source_story_id": "manutd-carrick-manager-review-2026-10-26",
-        "url": "articles/2026-10-28-morning/united-carrick-stays.html"
+        "url": "articles/2026-10-28-midday/united-carrick-stays.html"
       },
       "section": "sports",
       "priority": 6
@@ -154,13 +273,19 @@
           "article_id": "f1-v8-proposal",
           "source_story_id": "f1-v8-hybrid-rules-proposal-2030-2031",
           "url": "articles/2026-10-28-morning/f1-v8-proposal.html"
+        },
+        {
+          "edition_id": "2026-10-28-midday",
+          "article_id": "f1-v8-proposal",
+          "source_story_id": "f1-v8-hybrid-rules-proposal-2030-2031",
+          "url": "articles/2026-10-28-midday/f1-v8-proposal.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-28-morning",
+        "edition_id": "2026-10-28-midday",
         "article_id": "f1-v8-proposal",
         "source_story_id": "f1-v8-hybrid-rules-proposal-2030-2031",
-        "url": "articles/2026-10-28-morning/f1-v8-proposal.html"
+        "url": "articles/2026-10-28-midday/f1-v8-proposal.html"
       },
       "section": "sports",
       "priority": 7
@@ -263,6 +388,146 @@
         "article_id": "cyprus-storm-warning",
         "source_story_id": "cyprus-storm-warning-2026-10-28",
         "url": "articles/2026-10-28-morning/cyprus-storm-warning.html"
+      }
+    },
+    {
+      "id": "2db14be97c686ef697db15f8e3a0c05d9a98b7233853086faeeb61f222583357",
+      "kind": "provenance",
+      "at": "2026-10-28T11:29:25.843054+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "manutd-carrick-manager-review-2026-10-26",
+      "origin": {
+        "edition_id": "2026-10-28-midday",
+        "article_id": "united-carrick-stays",
+        "source_story_id": "manutd-carrick-manager-review-2026-10-26",
+        "url": "articles/2026-10-28-midday/united-carrick-stays.html"
+      }
+    },
+    {
+      "id": "2f98576883e24027c4cd48ae4e6688d1f537c28459b27aa93e155ea33328671d",
+      "kind": "provenance",
+      "at": "2026-10-28T11:29:25.843054+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "palmas-greece-israel-defence-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-28-midday",
+        "article_id": "palmas-defence-cooperation",
+        "source_story_id": "palmas-greece-israel-defence-2026-10-27",
+        "url": "articles/2026-10-28-midday/palmas-defence-cooperation.html"
+      }
+    },
+    {
+      "id": "3e416abd7273400fb33cd0f2160d53b0377ce5edf3f53a3b545fcb69108a2bf4",
+      "kind": "provenance",
+      "at": "2026-10-28T11:29:25.843054+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "iran-qatar-draft-deal-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-28-midday",
+        "article_id": "iran-qatar-draft",
+        "source_story_id": "iran-qatar-draft-deal-2026-10-28",
+        "url": "articles/2026-10-28-midday/iran-qatar-draft.html"
+      }
+    },
+    {
+      "id": "461c4354f93637affc8d357c7df466a37fd258d54c0ed400ebc57ad52f8adc41",
+      "kind": "provenance",
+      "at": "2026-10-28T11:29:25.843054+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-28-midday",
+        "article_id": "kherson-humanitarian-truce",
+        "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+        "url": "articles/2026-10-28-midday/kherson-humanitarian-truce.html"
+      }
+    },
+    {
+      "id": "5194b9ae86b6f91a0dc5ba29b56d0b0b64d1c392e9c8f9e4ff238eee33f0bc72",
+      "kind": "provenance",
+      "at": "2026-10-28T11:29:25.843054+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "f1-v8-hybrid-rules-proposal-2030-2031",
+      "origin": {
+        "edition_id": "2026-10-28-midday",
+        "article_id": "f1-v8-proposal",
+        "source_story_id": "f1-v8-hybrid-rules-proposal-2030-2031",
+        "url": "articles/2026-10-28-midday/f1-v8-proposal.html"
+      }
+    },
+    {
+      "id": "650427d45428a8ccc9eece35985da6d1f95970f319860be1a384ba0ebc3467b6",
+      "kind": "provenance",
+      "at": "2026-10-28T11:29:25.843054+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-storm-warning-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-28-midday",
+        "article_id": "cyprus-storm-warning",
+        "source_story_id": "cyprus-storm-warning-2026-10-28",
+        "url": "articles/2026-10-28-midday/cyprus-storm-warning.html"
+      }
+    },
+    {
+      "id": "7b11a177e5be2f85a2f9af248104fcef53c4dc1ef8f3afd549d4c031a05be2fb",
+      "kind": "provenance",
+      "at": "2026-10-28T11:29:25.843054+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "corfu-philharmonic-nicosia-parade-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-28-midday",
+        "article_id": "corfu-philharmonic-parade",
+        "source_story_id": "corfu-philharmonic-nicosia-parade-2026-10-28",
+        "url": "articles/2026-10-28-midday/corfu-philharmonic-parade.html"
+      }
+    },
+    {
+      "id": "be8b159482a4c2714da55513c849ace5b799527478caad4663fef5b3ef4db08d",
+      "kind": "provenance",
+      "at": "2026-10-28T11:29:25.843054+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "holguin-cyprus-visit-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-28-midday",
+        "article_id": "holguin-visit-agenda",
+        "source_story_id": "holguin-cyprus-visit-2026-10-29",
+        "url": "articles/2026-10-28-midday/holguin-visit-agenda.html"
+      }
+    },
+    {
+      "id": "c585309bcc3f5158a4063149eddc51b064a82df7b20497ef3787b52a0ff22808",
+      "kind": "provenance",
+      "at": "2026-10-28T11:29:25.843054+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-budget-preview-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-28-midday",
+        "article_id": "uk-budget-preview",
+        "source_story_id": "uk-budget-preview-2026-10-28",
+        "url": "articles/2026-10-28-midday/uk-budget-preview.html"
+      }
+    },
+    {
+      "id": "f48bc16a79d4c8102ace477a55e903045981d73f0dab0b0cde10bbc15c63b271",
+      "kind": "provenance",
+      "at": "2026-10-28T11:29:25.843054+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "israel-election-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-28-midday",
+        "article_id": "israel-count-coalitions",
+        "source_story_id": "israel-election-2026-10-27",
+        "url": "articles/2026-10-28-midday/israel-count-coalitions.html"
       }
     }
   ],
@@ -469,23 +734,23 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η ισραηλινή κάλπη μεταφέρει το ενδιαφέρον από την πρωτιά κόμματος στην εξασφάλιση κοινοβουλευτικής στήριξης: οι διαθέσιμες μετρήσεις δεν τεκμηριώνουν οριστική πλειοψηφία. Στη Χερσώνα αναφέρεται επέκταση της ανθρωπιστικής εκεχειρίας· το πρακτικό τεστ είναι η διέλευση βοήθειας και η διατήρηση της παύσης πυρών, όχι μόνο η ανακοίνωσή της.",
+        "text": "Η αναφερόμενη καταριανή πρόταση για το Ιράν αφορά διαδοχικά βήματα οικοδόμησης εμπιστοσύνης, όχι συμφωνημένη έναρξη εφαρμογής. Το κρίσιμο τεστ είναι η απάντηση της Τεχεράνης και οι δεσμεύσεις των πλευρών. Στη Βρετανία, η επικείμενη παρουσίαση του προϋπολογισμού θα ξεχωρίσει τα αναμενόμενα μέτρα από τις τελικές αποφάσεις.",
         "story_ids": [
-          "israel-election-2026-10-27",
-          "kherson-humanitarian-truce-extension-2026-10-27"
+          "iran-qatar-draft-deal-2026-10-28",
+          "uk-budget-preview-2026-10-28"
         ]
       },
       {
-        "text": "Στο Κυπριακό, οι προγραμματισμένες επαφές Ολγκίν δεν ισοδυναμούν με επανέναρξη διαπραγματεύσεων. Παρακολουθούμε την ατζέντα και την κοινή συνάντηση της 9ης Νοεμβρίου. Για σήμερα, το δημοσίευμα της 27ης Οκτωβρίου μεταφέρει κίτρινη προειδοποίηση καταιγίδων έως τις 18:00, με αρχική εκδήλωση στα δυτικά.",
+        "text": "Ο Πάλμας συνδέει την ελληνική στρατιωτική παρουσία με τις αμυντικές συνεργασίες και αναφέρει σύμβαση για πλοίο ανοικτής θαλάσσης. Η υπογραφή δεν αποδεικνύει παράδοση ή επιχειρησιακή ένταξη. Στη Λευκωσία, η συμμετοχή της Παλαιάς Φιλαρμονικής Κέρκυρας στη μαθητική παρέλαση αποτελεί ολοκληρωμένο πολιτιστικό γεγονός της επετείου.",
         "story_ids": [
-          "holguin-cyprus-visit-2026-10-29",
-          "cyprus-storm-warning-2026-10-28"
+          "palmas-greece-israel-defence-2026-10-27",
+          "corfu-philharmonic-nicosia-parade-2026-10-28"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-10-28T05:39:14.442314+00:00",
-  "updated_at": "2026-10-28T05:39:14.442314+00:00",
-  "input_sha256": "cdac46627175abb0bc3e9acb37f4805b96d50962c748dff2c26a05a41b321805"
+  "updated_at": "2026-10-28T11:30:26.964184+00:00",
+  "input_sha256": "aa2bf7e48e9c8941387a2f7fbf0cfb57a73a31b14dfda126f139371439f7ea19"
 }
