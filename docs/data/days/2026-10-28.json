@@ -16,34 +16,17 @@
       "type": "midday",
       "url": "midday/2026-10-28.html",
       "published_at": "2026-10-28T11:29:25.843054+00:00"
+    },
+    {
+      "id": "2026-10-28-evening",
+      "type": "evening",
+      "url": "evening/2026-10-28.html",
+      "published_at": "2026-10-28T18:14:36.855981+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "iran-qatar-draft-deal-2026-10-28",
+  "missing_slots": [],
+  "lead_story_id": "uk-budget-preview-2026-10-28",
   "stories": [
-    {
-      "story_id": "iran-qatar-draft-deal-2026-10-28",
-      "first_seen_at": "2026-10-28T11:29:25.843054+00:00",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-10-28-midday",
-          "article_id": "iran-qatar-draft",
-          "source_story_id": "iran-qatar-draft-deal-2026-10-28",
-          "url": "articles/2026-10-28-midday/iran-qatar-draft.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-10-28-midday",
-        "article_id": "iran-qatar-draft",
-        "source_story_id": "iran-qatar-draft-deal-2026-10-28",
-        "url": "articles/2026-10-28-midday/iran-qatar-draft.html"
-      },
-      "section": "world",
-      "priority": 1
-    },
     {
       "story_id": "israel-election-2026-10-27",
       "first_seen_at": "2026-10-28T05:38:25.874411+00:00",
@@ -60,16 +43,76 @@
           "article_id": "israel-count-coalitions",
           "source_story_id": "israel-election-2026-10-27",
           "url": "articles/2026-10-28-midday/israel-count-coalitions.html"
+        },
+        {
+          "edition_id": "2026-10-28-evening",
+          "article_id": "israel-count-coalitions",
+          "source_story_id": "israel-election-2026-10-27",
+          "url": "articles/2026-10-28-evening/israel-count-coalitions.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-28-midday",
+        "edition_id": "2026-10-28-evening",
         "article_id": "israel-count-coalitions",
         "source_story_id": "israel-election-2026-10-27",
-        "url": "articles/2026-10-28-midday/israel-count-coalitions.html"
+        "url": "articles/2026-10-28-evening/israel-count-coalitions.html"
       },
       "section": "world",
       "priority": 1
+    },
+    {
+      "story_id": "uk-budget-preview-2026-10-28",
+      "first_seen_at": "2026-10-28T11:29:25.843054+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-28-midday",
+          "article_id": "uk-budget-preview",
+          "source_story_id": "uk-budget-preview-2026-10-28",
+          "url": "articles/2026-10-28-midday/uk-budget-preview.html"
+        },
+        {
+          "edition_id": "2026-10-28-evening",
+          "article_id": "uk-budget-announcement",
+          "source_story_id": "uk-budget-preview-2026-10-28",
+          "url": "articles/2026-10-28-evening/uk-budget-announcement.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-28-evening",
+        "article_id": "uk-budget-announcement",
+        "source_story_id": "uk-budget-preview-2026-10-28",
+        "url": "articles/2026-10-28-evening/uk-budget-announcement.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "iran-qatar-draft-deal-2026-10-28",
+      "first_seen_at": "2026-10-28T11:29:25.843054+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-28-midday",
+          "article_id": "iran-qatar-draft",
+          "source_story_id": "iran-qatar-draft-deal-2026-10-28",
+          "url": "articles/2026-10-28-midday/iran-qatar-draft.html"
+        },
+        {
+          "edition_id": "2026-10-28-evening",
+          "article_id": "iran-mediation-response",
+          "source_story_id": "iran-qatar-draft-deal-2026-10-28",
+          "url": "articles/2026-10-28-evening/iran-mediation-response.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-28-evening",
+        "article_id": "iran-mediation-response",
+        "source_story_id": "iran-qatar-draft-deal-2026-10-28",
+        "url": "articles/2026-10-28-evening/iran-mediation-response.html"
+      },
+      "section": "world",
+      "priority": 2
     },
     {
       "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
@@ -87,37 +130,43 @@
           "article_id": "kherson-humanitarian-truce",
           "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
           "url": "articles/2026-10-28-midday/kherson-humanitarian-truce.html"
+        },
+        {
+          "edition_id": "2026-10-28-evening",
+          "article_id": "kherson-humanitarian-truce",
+          "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+          "url": "articles/2026-10-28-evening/kherson-humanitarian-truce.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-28-midday",
+        "edition_id": "2026-10-28-evening",
         "article_id": "kherson-humanitarian-truce",
         "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
-        "url": "articles/2026-10-28-midday/kherson-humanitarian-truce.html"
+        "url": "articles/2026-10-28-evening/kherson-humanitarian-truce.html"
       },
       "section": "world",
       "priority": 2
     },
     {
-      "story_id": "uk-budget-preview-2026-10-28",
-      "first_seen_at": "2026-10-28T11:29:25.843054+00:00",
+      "story_id": "greece-pelion-skiathos-floods-2026-10-28",
+      "first_seen_at": "2026-10-28T18:14:36.855981+00:00",
       "last_substantive_at": null,
       "references": [
         {
-          "edition_id": "2026-10-28-midday",
-          "article_id": "uk-budget-preview",
-          "source_story_id": "uk-budget-preview-2026-10-28",
-          "url": "articles/2026-10-28-midday/uk-budget-preview.html"
+          "edition_id": "2026-10-28-evening",
+          "article_id": "pelion-skiathos-floods",
+          "source_story_id": "greece-pelion-skiathos-floods-2026-10-28",
+          "url": "articles/2026-10-28-evening/pelion-skiathos-floods.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-28-midday",
-        "article_id": "uk-budget-preview",
-        "source_story_id": "uk-budget-preview-2026-10-28",
-        "url": "articles/2026-10-28-midday/uk-budget-preview.html"
+        "edition_id": "2026-10-28-evening",
+        "article_id": "pelion-skiathos-floods",
+        "source_story_id": "greece-pelion-skiathos-floods-2026-10-28",
+        "url": "articles/2026-10-28-evening/pelion-skiathos-floods.html"
       },
       "section": "world",
-      "priority": 2
+      "priority": 3
     },
     {
       "story_id": "palmas-greece-israel-defence-2026-10-27",
@@ -129,13 +178,19 @@
           "article_id": "palmas-defence-cooperation",
           "source_story_id": "palmas-greece-israel-defence-2026-10-27",
           "url": "articles/2026-10-28-midday/palmas-defence-cooperation.html"
+        },
+        {
+          "edition_id": "2026-10-28-evening",
+          "article_id": "palmas-defence-cooperation",
+          "source_story_id": "palmas-greece-israel-defence-2026-10-27",
+          "url": "articles/2026-10-28-evening/palmas-defence-cooperation.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-28-midday",
+        "edition_id": "2026-10-28-evening",
         "article_id": "palmas-defence-cooperation",
         "source_story_id": "palmas-greece-israel-defence-2026-10-27",
-        "url": "articles/2026-10-28-midday/palmas-defence-cooperation.html"
+        "url": "articles/2026-10-28-evening/palmas-defence-cooperation.html"
       },
       "section": "cyprus",
       "priority": 3
@@ -198,13 +253,40 @@
           "article_id": "holguin-visit-agenda",
           "source_story_id": "holguin-cyprus-visit-2026-10-29",
           "url": "articles/2026-10-28-midday/holguin-visit-agenda.html"
+        },
+        {
+          "edition_id": "2026-10-28-evening",
+          "article_id": "holguin-visit-agenda",
+          "source_story_id": "holguin-cyprus-visit-2026-10-29",
+          "url": "articles/2026-10-28-evening/holguin-visit-agenda.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-28-midday",
+        "edition_id": "2026-10-28-evening",
         "article_id": "holguin-visit-agenda",
         "source_story_id": "holguin-cyprus-visit-2026-10-29",
-        "url": "articles/2026-10-28-midday/holguin-visit-agenda.html"
+        "url": "articles/2026-10-28-evening/holguin-visit-agenda.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "limassol-bus-stop-access-study-2026-10-28",
+      "first_seen_at": "2026-10-28T18:14:36.855981+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-28-evening",
+          "article_id": "limassol-bus-access",
+          "source_story_id": "limassol-bus-stop-access-study-2026-10-28",
+          "url": "articles/2026-10-28-evening/limassol-bus-access.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-28-evening",
+        "article_id": "limassol-bus-access",
+        "source_story_id": "limassol-bus-stop-access-study-2026-10-28",
+        "url": "articles/2026-10-28-evening/limassol-bus-access.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -225,16 +307,43 @@
           "article_id": "cyprus-storm-warning",
           "source_story_id": "cyprus-storm-warning-2026-10-28",
           "url": "articles/2026-10-28-midday/cyprus-storm-warning.html"
+        },
+        {
+          "edition_id": "2026-10-28-evening",
+          "article_id": "cyprus-night-weather",
+          "source_story_id": "cyprus-storm-warning-2026-10-28",
+          "url": "articles/2026-10-28-evening/cyprus-night-weather.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-28-midday",
-        "article_id": "cyprus-storm-warning",
+        "edition_id": "2026-10-28-evening",
+        "article_id": "cyprus-night-weather",
         "source_story_id": "cyprus-storm-warning-2026-10-28",
-        "url": "articles/2026-10-28-midday/cyprus-storm-warning.html"
+        "url": "articles/2026-10-28-evening/cyprus-night-weather.html"
       },
       "section": "cyprus",
       "priority": 5
+    },
+    {
+      "story_id": "cyprus-overseas-patient-support-2026-10-28",
+      "first_seen_at": "2026-10-28T18:14:36.855981+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-28-evening",
+          "article_id": "overseas-patient-costs",
+          "source_story_id": "cyprus-overseas-patient-support-2026-10-28",
+          "url": "articles/2026-10-28-evening/overseas-patient-costs.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-28-evening",
+        "article_id": "overseas-patient-costs",
+        "source_story_id": "cyprus-overseas-patient-support-2026-10-28",
+        "url": "articles/2026-10-28-evening/overseas-patient-costs.html"
+      },
+      "section": "cyprus",
+      "priority": 6
     },
     {
       "story_id": "manutd-carrick-manager-review-2026-10-26",
@@ -529,6 +638,146 @@
         "source_story_id": "israel-election-2026-10-27",
         "url": "articles/2026-10-28-midday/israel-count-coalitions.html"
       }
+    },
+    {
+      "id": "2594b885a069026cb23460f32f471dc9674022b00a9ae575aa5e103f8d0afb21",
+      "kind": "provenance",
+      "at": "2026-10-28T18:14:36.855981+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-budget-preview-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-28-evening",
+        "article_id": "uk-budget-announcement",
+        "source_story_id": "uk-budget-preview-2026-10-28",
+        "url": "articles/2026-10-28-evening/uk-budget-announcement.html"
+      }
+    },
+    {
+      "id": "2cff2b1c67b551411f25569bb58ddcbd6c071b0b4979b5298f38d60dfe141727",
+      "kind": "provenance",
+      "at": "2026-10-28T18:14:36.855981+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "holguin-cyprus-visit-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-28-evening",
+        "article_id": "holguin-visit-agenda",
+        "source_story_id": "holguin-cyprus-visit-2026-10-29",
+        "url": "articles/2026-10-28-evening/holguin-visit-agenda.html"
+      }
+    },
+    {
+      "id": "5bb41dbae46c2a9a8cdae16dd84b0307681791220119e81892fbd2b166ffa1b0",
+      "kind": "provenance",
+      "at": "2026-10-28T18:14:36.855981+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "greece-pelion-skiathos-floods-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-28-evening",
+        "article_id": "pelion-skiathos-floods",
+        "source_story_id": "greece-pelion-skiathos-floods-2026-10-28",
+        "url": "articles/2026-10-28-evening/pelion-skiathos-floods.html"
+      }
+    },
+    {
+      "id": "737329766f02868e94f8c5392ec9050b626bd0be5be2ac94dc1037fea363c5d2",
+      "kind": "provenance",
+      "at": "2026-10-28T18:14:36.855981+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "iran-qatar-draft-deal-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-28-evening",
+        "article_id": "iran-mediation-response",
+        "source_story_id": "iran-qatar-draft-deal-2026-10-28",
+        "url": "articles/2026-10-28-evening/iran-mediation-response.html"
+      }
+    },
+    {
+      "id": "a129b710b65985955d19f0fb8750e86fc9cbf3e788f73a463fc54129b172aa76",
+      "kind": "provenance",
+      "at": "2026-10-28T18:14:36.855981+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-storm-warning-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-28-evening",
+        "article_id": "cyprus-night-weather",
+        "source_story_id": "cyprus-storm-warning-2026-10-28",
+        "url": "articles/2026-10-28-evening/cyprus-night-weather.html"
+      }
+    },
+    {
+      "id": "b23f2c07ddd7290be06716b60b6fab37f95dd42d246b9232d7280645029d7b7e",
+      "kind": "provenance",
+      "at": "2026-10-28T18:14:36.855981+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-bus-stop-access-study-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-28-evening",
+        "article_id": "limassol-bus-access",
+        "source_story_id": "limassol-bus-stop-access-study-2026-10-28",
+        "url": "articles/2026-10-28-evening/limassol-bus-access.html"
+      }
+    },
+    {
+      "id": "b3161496d536a761149fbaee791dcd5f0d0915567dfc60d7df4a66c57af4a9a6",
+      "kind": "provenance",
+      "at": "2026-10-28T18:14:36.855981+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "palmas-greece-israel-defence-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-28-evening",
+        "article_id": "palmas-defence-cooperation",
+        "source_story_id": "palmas-greece-israel-defence-2026-10-27",
+        "url": "articles/2026-10-28-evening/palmas-defence-cooperation.html"
+      }
+    },
+    {
+      "id": "bbfcea4684d7752d6037b2aca53e68edc324273021f5b1dae4aef07b76541cc2",
+      "kind": "provenance",
+      "at": "2026-10-28T18:14:36.855981+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-28-evening",
+        "article_id": "kherson-humanitarian-truce",
+        "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+        "url": "articles/2026-10-28-evening/kherson-humanitarian-truce.html"
+      }
+    },
+    {
+      "id": "c158ab569da5be869f7887d84f404a2418a80b7bee580191e0ff4a2a5086f6f6",
+      "kind": "provenance",
+      "at": "2026-10-28T18:14:36.855981+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "israel-election-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-28-evening",
+        "article_id": "israel-count-coalitions",
+        "source_story_id": "israel-election-2026-10-27",
+        "url": "articles/2026-10-28-evening/israel-count-coalitions.html"
+      }
+    },
+    {
+      "id": "e8d5b512ce4598408de5961c6cb32773c707f600fc6ff778be071a60827737b5",
+      "kind": "provenance",
+      "at": "2026-10-28T18:14:36.855981+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-overseas-patient-support-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-28-evening",
+        "article_id": "overseas-patient-costs",
+        "source_story_id": "cyprus-overseas-patient-support-2026-10-28",
+        "url": "articles/2026-10-28-evening/overseas-patient-costs.html"
+      }
     }
   ],
   "opportunities": [
@@ -734,23 +983,25 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η αναφερόμενη καταριανή πρόταση για το Ιράν αφορά διαδοχικά βήματα οικοδόμησης εμπιστοσύνης, όχι συμφωνημένη έναρξη εφαρμογής. Το κρίσιμο τεστ είναι η απάντηση της Τεχεράνης και οι δεσμεύσεις των πλευρών. Στη Βρετανία, η επικείμενη παρουσίαση του προϋπολογισμού θα ξεχωρίσει τα αναμενόμενα μέτρα από τις τελικές αποφάσεις.",
+        "text": "Ο βρετανικός προϋπολογισμός πέρασε από την προαναγγελία σε συγκεκριμένες ενεργειακές παρεμβάσεις, ενώ η προοπτική των πραγματικών εισοδημάτων παραμένει ασθενής. Στο Ιράν, η νεότερη δήλωση περί απαράδεκτων ιδεών δείχνει απόσταση από συμφωνία, χωρίς να αποτελεί δημοσιευμένη κοινή θέση των διαπραγματευτών. Στην Ελλάδα, οι πλημμύρες σε Πήλιο και Σκιάθο έχουν ήδη προκαλέσει προβλήματα και μήνυμα του 112.",
         "story_ids": [
+          "uk-budget-preview-2026-10-28",
           "iran-qatar-draft-deal-2026-10-28",
-          "uk-budget-preview-2026-10-28"
+          "greece-pelion-skiathos-floods-2026-10-28"
         ]
       },
       {
-        "text": "Ο Πάλμας συνδέει την ελληνική στρατιωτική παρουσία με τις αμυντικές συνεργασίες και αναφέρει σύμβαση για πλοίο ανοικτής θαλάσσης. Η υπογραφή δεν αποδεικνύει παράδοση ή επιχειρησιακή ένταξη. Στη Λευκωσία, η συμμετοχή της Παλαιάς Φιλαρμονικής Κέρκυρας στη μαθητική παρέλαση αποτελεί ολοκληρωμένο πολιτιστικό γεγονός της επετείου.",
+        "text": "Η εγγύτητα σε στάση λεωφορείου στη Λεμεσό δεν μετρά από μόνη της συχνότητα ή αξιοπιστία δρομολογίων. Οι αναφορές συνδέσμων για έξοδα ασθενών στο εξωτερικό αναδεικνύουν ανάγκη συγκεκριμένης θεσμικής απάντησης. Η παλαιά καιρική προειδοποίηση έληξε· το νεότερο δημοσίευμα αφορά νυχτερινά φαινόμενα και νέα προειδοποίηση για αύριο.",
         "story_ids": [
-          "palmas-greece-israel-defence-2026-10-27",
-          "corfu-philharmonic-nicosia-parade-2026-10-28"
+          "limassol-bus-stop-access-study-2026-10-28",
+          "cyprus-storm-warning-2026-10-28",
+          "cyprus-overseas-patient-support-2026-10-28"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-10-28T05:39:14.442314+00:00",
-  "updated_at": "2026-10-28T11:30:26.964184+00:00",
-  "input_sha256": "aa2bf7e48e9c8941387a2f7fbf0cfb57a73a31b14dfda126f139371439f7ea19"
+  "updated_at": "2026-10-28T18:15:25.272178+00:00",
+  "input_sha256": "463ea9d1cf728de09f61f6495ad6d2b29f67a66d41a0719317be710c6e8abc9a"
 }

@@ -307,6 +307,14 @@
       "fingerprint": "02c355ff10427bf4619415c78a9c22bb508ff885fc8602fbf60962ed9e22ae77"
     },
     {
+      "id": "2026-10-28-evening",
+      "date": "2026-10-28",
+      "type": "evening",
+      "published_at": "2026-10-28T18:14:36.855981+00:00",
+      "url": "evening/2026-10-28.html",
+      "fingerprint": "552eb95202a3895fab7759da8a45883dca2314590d436d03b0a9ae49dc311eb1"
+    },
+    {
       "id": "2026-10-28-midday",
       "date": "2026-10-28",
       "type": "midday",
@@ -10395,6 +10403,300 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-27-morning/united-manager-uncertainty.webp"
+    },
+    {
+      "story_id": "uk-budget-preview-2026-10-28",
+      "identity": "uk-budget-preview-2026-10-28",
+      "edition_id": "2026-10-28-evening",
+      "date": "2026-10-28",
+      "slot": "evening",
+      "published_at": "2026-10-28T11:29:25.843054+00:00",
+      "available_at": "2026-10-28T18:14:36.855981+00:00",
+      "headline": "Βρετανία: ανακοινώθηκαν ενεργειακές παρεμβάσεις στον προϋπολογισμό",
+      "finding": "Ο Τζον Χίλι παρουσίασε στις 28 Οκτωβρίου τον προϋπολογισμό, ανακοινώνοντας κατάργηση πάγιων χρεώσεων στους οικιακούς λογαριασμούς θέρμανσης με αέριο, παράταση φορολογικής ελάφρυνσης στο ηλεκτρικό έως τον Ιούλιο 2027 και £100 για κατοίκους των τεσσάρων χαμηλότερων κατηγοριών τοπικού φόρου κατοικίας, σύμφωνα με το CNBC. Παράλληλα, η Guardian παραθέτει πρόβλεψη του OBR για περαιτέρω επιβράδυνση της αύξησης του πραγματικού διαθέσιμου εισοδήματος ανά άτομο.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-28-evening/uk-budget-announcement.json",
+      "reader_url": "articles/2026-10-28-evening/uk-budget-announcement.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/28/uk-autumn-budget-cost-living-defense-ai.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-10-28T14:55:13+00:00",
+          "retrieved_at": "2026-10-28T16:20:58.626388+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.theguardian.com/uk-news/live/2026/oct/28/budget-2026-latest-updates-john-healey-andy-burnham-labour-uk-politics",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-10-28T18:05:06+00:00",
+          "retrieved_at": "2026-10-28T18:11:34.927530+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-morning/world-2.webp"
+    },
+    {
+      "story_id": "iran-qatar-draft-deal-2026-10-28",
+      "identity": "iran-qatar-draft-deal-2026-10-28",
+      "edition_id": "2026-10-28-evening",
+      "date": "2026-10-28",
+      "slot": "evening",
+      "published_at": "2026-10-28T11:29:25.843054+00:00",
+      "available_at": "2026-10-28T18:14:36.855981+00:00",
+      "headline": "Ιράν: αξιωματούχος απορρίπτει τις καταριανές ιδέες ως απαράδεκτες",
+      "finding": "Ανώτερος Ιρανός αξιωματούχος που συμμετέχει στις συνομιλίες δήλωσε ότι το Κατάρ παρουσίασε απαράδεκτες ιδέες και όχι προσφορά, σύμφωνα με νεότερο ρεπορτάζ του Cyprus Mail. Η δήλωση ακολούθησε διαφορετική ενημέρωση αξιωματούχου περί νέου προσχεδίου και συνοδεύτηκε από θέση περί αμετάβλητης ιρανικής πολιτικής στο πυρηνικό ζήτημα.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-28-evening/iran-mediation-response.json",
+      "reader_url": "articles/2026-10-28-evening/iran-mediation-response.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/28/iran-sees-only-unacceptable-ideas-in-latest-mediation-to-end-war",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-28T13:01:46+00:00",
+          "retrieved_at": "2026-10-28T16:21:13.760079+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "greece-pelion-skiathos-floods-2026-10-28",
+      "identity": "greece-pelion-skiathos-floods-2026-10-28",
+      "edition_id": "2026-10-28-evening",
+      "date": "2026-10-28",
+      "slot": "evening",
+      "published_at": "2026-10-28T18:14:36.855981+00:00",
+      "available_at": "2026-10-28T18:14:36.855981+00:00",
+      "headline": "Πλημμύρες σε Πήλιο και Σκιάθο — μήνυμα 112 για τον Πλατανιά",
+      "finding": "Σφοδρές βροχοπτώσεις προκάλεσαν πλημμυρικά προβλήματα σε κεντρικούς δρόμους της Σκιάθου και υπερχείλιση ρέματος στον Πλατανιά Νοτίου Πηλίου, σύμφωνα με το Philenews. Το δημοσίευμα παραθέτει μήνυμα του 112 που καλεί όσους βρίσκονται στην περιοχή Πλατανιά Μαγνησίας να μεταβούν σε υψηλότερους ορόφους και να ακολουθούν τις οδηγίες των Αρχών.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-10-28-evening/pelion-skiathos-floods.json",
+      "reader_url": "articles/2026-10-28-evening/pelion-skiathos-floods.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/ellada/article/1788008/pnigonte-perioches-stin-ellada-plimmires-se-pilio-ke-skiatho-apo-tin-ischiri-kakokeria-minima-apo-112-metavite-se-ipsiloterous-orofous",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-28T13:33:25+00:00",
+          "retrieved_at": "2026-10-28T18:11:35.277680+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "limassol-bus-stop-access-study-2026-10-28",
+      "identity": "limassol-bus-stop-access-study-2026-10-28",
+      "edition_id": "2026-10-28-evening",
+      "date": "2026-10-28",
+      "slot": "evening",
+      "published_at": "2026-10-28T18:14:36.855981+00:00",
+      "available_at": "2026-10-28T18:14:36.855981+00:00",
+      "headline": "Λεμεσός: κοντά σε στάση το παραλιακό μέτωπο, σύμφωνα με μελέτη",
+      "finding": "Μελέτη της Walkably υπολογίζει ότι όλοι οι κάτοικοι του παραλιακού τμήματος από το Παλιό Λιμάνι έως το Δασούδι βρίσκονται σε απόσταση έως πέντε λεπτών πεζή από στάση, σύμφωνα με το Cyprus Mail. Για την πόλη όπως την ορίζει η μελέτη, τα αντίστοιχα ποσοστά είναι 87,2% στα πέντε λεπτά και 97,8% στα δέκα.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-10-28-evening/limassol-bus-access.json",
+      "reader_url": "articles/2026-10-28-evening/limassol-bus-access.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/28/limassol-seafront-residents-live-within-five-minutes-of-a-bus-stop-study-finds",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-28T14:30:57+00:00",
+          "retrieved_at": "2026-10-28T16:20:59.062614+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp"
+    },
+    {
+      "story_id": "cyprus-storm-warning-2026-10-28",
+      "identity": "cyprus-storm-warning-2026-10-28",
+      "edition_id": "2026-10-28-evening",
+      "date": "2026-10-28",
+      "slot": "evening",
+      "published_at": "2026-10-28T05:38:25.874411+00:00",
+      "available_at": "2026-10-28T18:14:36.855981+00:00",
+      "headline": "Κύπρος: νυχτερινές καταιγίδες και νεότερη προειδοποίηση για τις 29 Οκτωβρίου",
+      "finding": "Το Sigmalive μεταφέρει πρόγνωση για τοπικές βροχές και μεμονωμένες καταιγίδες απόψε, κυρίως σε παράλιες περιοχές, με πιθανότητα χαλαζιού. Παραθέτει επίσης κίτρινη προειδοποίηση αριθμού 69 με έναρξη στις 09:00 της 29ης Οκτωβρίου, αλλά το διαθέσιμο απόσπασμα δεν περιλαμβάνει πλήρη ημερομηνία λήξης.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-10-28-evening/cyprus-night-weather.json",
+      "reader_url": "articles/2026-10-28-evening/cyprus-night-weather.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1335287/kataighides-khalazi-kai-iskhiri-anemoi-apopse-analitika-i-proghnosi-toy-kairou",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-10-28T15:59:27+00:00",
+          "retrieved_at": "2026-10-28T16:20:58.642612+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp"
+    },
+    {
+      "story_id": "cyprus-overseas-patient-support-2026-10-28",
+      "identity": "cyprus-overseas-patient-support-2026-10-28",
+      "edition_id": "2026-10-28-evening",
+      "date": "2026-10-28",
+      "slot": "evening",
+      "published_at": "2026-10-28T18:14:36.855981+00:00",
+      "available_at": "2026-10-28T18:14:36.855981+00:00",
+      "headline": "Σύνδεσμοι ασθενών αναδεικνύουν το κόστος παραμονής για θεραπεία στο εξωτερικό",
+      "finding": "Ρεπορτάζ του Philenews καταγράφει παρεμβάσεις συνδέσμων ασθενών ότι καλύπτουν μέσω δωρεών και εράνων οικονομικές ανάγκες οικογενειών που μεταβαίνουν στο εξωτερικό για θεραπεία. Οι παρεμβάσεις αναφέρονται σε παρατεταμένη παραμονή και ενοίκια κατοικιών, ζητώντας κρατική ανταπόκριση χωρίς εξάρτηση των οικογενειών από φιλανθρωπική βοήθεια.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-10-28-evening/overseas-patient-costs.json",
+      "reader_url": "articles/2026-10-28-evening/overseas-patient-costs.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1788033/i-sindesmi-antikathistoun-to-kratos-kravgi-agonias-gia-tous-asthenis-pou-metavenoun-sto-exoteriko",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-28T16:00:00+00:00",
+          "retrieved_at": "2026-10-28T16:21:11.554984+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-midday/cyprus-2.webp"
+    },
+    {
+      "story_id": "palmas-greece-israel-defence-2026-10-27",
+      "identity": "palmas-greece-israel-defence-2026-10-27",
+      "edition_id": "2026-10-28-evening",
+      "date": "2026-10-28",
+      "slot": "evening",
+      "published_at": "2026-10-28T11:29:25.843054+00:00",
+      "available_at": "2026-10-28T18:14:36.855981+00:00",
+      "headline": "Πάλμας: δηλώσεις για ελληνική παρουσία και σύμβαση πλοίου από το Ισραήλ",
+      "finding": "Ο Βασίλης Πάλμας δήλωσε στο DEFENCE ReDEFiNED ότι υπάρχει μόνιμη παρουσία ελληνικών F-16 και πολεμικού πλοίου στην Κύπρο, αναφερόμενος στην αμυντική συνεργασία Αθήνας και Λευκωσίας. Στη συνέντευξη, δημοσιευμένη στις 27 Οκτωβρίου, ανέφερε επίσης υπογραφή σύμβασης την προηγούμενη ημέρα για πλοίο ανοικτής θαλάσσης από το Ισραήλ, χωρίς στο διαθέσιμο κείμενο χρονοδιάγραμμα παράδοσης.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-10-28-evening/palmas-defence-cooperation.json",
+      "reader_url": "articles/2026-10-28-evening/palmas-defence-cooperation.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1787778/palmas-monimi-parousia-ton-f-16-ke-tou-ellinikou-polemikou-pliou-stin-kipro-ti-dilose-gia-nees-simvasis-me-to-israil",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-28T07:38:41+00:00",
+          "retrieved_at": "2026-10-28T10:20:53.995700+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://defenceredefined.com.cy/vasilis-palmas-sto-defence-redefined-apo-ta-synthimata-stin-praxi-i-amyntiki-sympleysi-elladas-kyproy-kai-to-neo-exoplistiko-programma-me-to-israil/",
+          "publisher": "DEFENCE ReDEFiNED",
+          "reporting_group": "DEFENCE ReDEFiNED",
+          "published_at": null,
+          "retrieved_at": "2026-10-28T11:27:55.993Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp"
+    },
+    {
+      "story_id": "israel-election-2026-10-27",
+      "identity": "israel-election-2026-10-27",
+      "edition_id": "2026-10-28-evening",
+      "date": "2026-10-28",
+      "slot": "evening",
+      "published_at": "2026-10-27T11:32:58.215892+00:00",
+      "available_at": "2026-10-28T18:14:36.855981+00:00",
+      "headline": "Ισραήλ: από την ψηφοφορία στην καταμέτρηση και στα παζάρια της πλειοψηφίας",
+      "finding": "Το Philenews παρουσιάζει προσωρινή αναγωγή 59 εδρών για το μπλοκ Νετανιάχου, με καταμετρημένο το 31,1% των ψήφων, ενώ το Reuters μεταφέρει διαφορετικές εκτιμήσεις exit polls, όλες κάτω από τις 61 έδρες για καθένα από τα δύο βασικά στρατόπεδα. Τα στοιχεία αυτά αφορούν διαφορετικές μετρήσεις και στάδια, χωρίς οριστικό αποτέλεσμα ή επιβεβαιωμένη κυβερνητική πλειοψηφία.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-28-evening/israel-count-coalitions.json",
+      "reader_url": "articles/2026-10-28-evening/israel-count-coalitions.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kosmos/article/1787633/israil-eklogiko-thriler-choris-nikiti-afta-ine-ta-senaria-gia-ton-schimatismo-kivernisis",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-28T03:17:22+00:00",
+          "retrieved_at": "2026-10-28T04:20:51.856832+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.investing.com/news/world-news/netanyahu-eisenkot-stake-rival-claims-to-lead-israel-after-deadlocked-vote-4977403",
+          "publisher": "Reuters via Investing.com",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-10-28T05:36:17.354Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+      "identity": "kherson-humanitarian-truce-extension-2026-10-27",
+      "edition_id": "2026-10-28-evening",
+      "date": "2026-10-28",
+      "slot": "evening",
+      "published_at": "2026-10-28T05:38:25.874411+00:00",
+      "available_at": "2026-10-28T18:14:36.855981+00:00",
+      "headline": "Χερσώνα: αναφερόμενη επέκταση της ανθρωπιστικής εκεχειρίας πέρα από το Ολέσκι",
+      "finding": "Το BBC μετέδωσε στις 27 Οκτωβρίου ότι η εκεχειρία για πρόσβαση ανθρωπιστικής βοήθειας στο κατεχόμενο Ολέσκι επεκτάθηκε στην ευρύτερη περιφέρεια Χερσώνας, επικαλούμενο τη Μελάνια Τραμπ και επιβεβαιώσεις από ουκρανούς αξιωματούχους. Ο αναπληρωτής επικεφαλής της περιφέρειας ανέφερε παύση ρωσικών βομβαρδισμών στην πόλη και την περιοχή, χωρίς το διαθέσιμο απόσπασμα να επιβεβαιώνει ήδη ολοκληρωμένη παράδοση βοήθειας.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-28-evening/kherson-humanitarian-truce.json",
+      "reader_url": "articles/2026-10-28-evening/kherson-humanitarian-truce.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-27T22:11:08+00:00",
+          "retrieved_at": "2026-10-28T04:20:53.821085+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "holguin-cyprus-visit-2026-10-29",
+      "identity": "holguin-cyprus-visit-2026-10-29",
+      "edition_id": "2026-10-28-evening",
+      "date": "2026-10-28",
+      "slot": "evening",
+      "published_at": "2026-10-28T05:38:25.874411+00:00",
+      "available_at": "2026-10-28T18:14:36.855981+00:00",
+      "headline": "Ολγκίν: αναμενόμενη άφιξη στις 29 Οκτωβρίου και κοινή συνάντηση στις 9 Νοεμβρίου",
+      "finding": "Η Μαρία Άνχελα Ολγκίν αναμένεται στην Κύπρο στις 29 Οκτωβρίου και προγραμματίζεται να συναντήσει τον Νίκο Χριστοδουλίδη την Παρασκευή 30 Οκτωβρίου, σύμφωνα με το Philenews. Το ίδιο δημοσίευμα τοποθετεί τη χωριστή επαφή με τον Τουφάν Έρχιουρμαν στις αρχές της επόμενης εβδομάδας και την κοινή συνάντηση των τριών στις 9 Νοεμβρίου.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-10-28-evening/holguin-visit-agenda.json",
+      "reader_url": "articles/2026-10-28-evening/holguin-visit-agenda.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1787615/olgkin-christodoulidis-trimeri-prin-9-noemvriou",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-28T04:15:00+00:00",
+          "retrieved_at": "2026-10-28T04:20:52.100868+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp"
     },
     {
       "story_id": "iran-qatar-draft-deal-2026-10-28",
