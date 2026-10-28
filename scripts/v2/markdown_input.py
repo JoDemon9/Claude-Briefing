@@ -192,6 +192,21 @@ def parse(text, root, pack=None):
                 if not sep or not body.strip():
                     raise ValueError('Executive needs text and story references')
                 payload.setdefault('synthesis_points', []).append({'axis':meta['axis'],'stories':meta['stories'].split(','),'text':body})
+            elif name == '@SportBrief':
+                finish()
+                meta = attributes(value)
+                fields(meta, ('interest','evidence','changed','meaning','watch'), ('interest','evidence','changed','meaning','watch'))
+                notes = payload.setdefault('sport_briefs', {})
+                key = meta.pop('interest')
+                if key in notes:
+                    raise ValueError('Duplicate favourite briefing')
+                meta['evidence'] = meta['evidence'].split(',')
+                notes[key] = meta
+            elif name == '@SportsReason':
+                finish()
+                if 'sports_shortfall_reason' in payload or len(value.strip()) < 20:
+                    raise ValueError('Supply one specific sports shortfall reason')
+                payload['sports_shortfall_reason'] = value
             elif name == '@Block':
                 if value != 'article':
                     finish()

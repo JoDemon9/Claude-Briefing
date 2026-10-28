@@ -23,6 +23,7 @@ CACHE_PATH = ROOT / "content" / "sports_headlines_cache.json"
 
 MAX_BYTES = 2000000
 MAX_ITEMS = 2
+GENERIC = re.compile(r'^(?:web oficial|official (?:web)?site|home\s*[-|]|real madrid cf\s*\|\s*web)',re.I)
 TIMEOUT = 12
 CACHE_MINUTES = 45
 MAX_CHECK_AGE_MINUTES = 720
@@ -82,7 +83,7 @@ def prefetch(client, at):
                 link = (node.findtext('link') or '').strip()
                 pub = published(node.findtext('pubDate'))
                 relevant = key != 'realmadrid' or bool(re.search(r'real madrid|ρεάλ|real-madrid', title, re.I))
-                if not relevant or not pub or not not_future(pub, moment) or SKIP.search(title) or not article_url(key, link):
+                if not relevant or not pub or not not_future(pub, moment) or SKIP.search(title) or GENERIC.search(title) or not article_url(key, link):
                     continue
                 if instant(moment).date() - date.fromisoformat(pub[:10]) > timedelta(days=3):
                     continue

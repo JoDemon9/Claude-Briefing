@@ -256,3 +256,29 @@ html[data-reading-mode=executive] main>.section:not(.compact-markets),html[data-
 @media(max-width:599px){.sports.sports-links{grid-template-columns:1fr;gap:20px}.sports.sports-links>.sport{padding:16px;flex-wrap:wrap;border-radius:8px}.sports.sports-links h3{font-size:21px}.sport-photo{width:calc(100% + 32px);flex-basis:calc(100% + 32px);margin:-16px -16px 8px}.sport-photo img{height:185px}.sports-links .sport-news-link{width:100%}.sport-table td,.sport-table th{padding:7px 4px}}
 
 .sports.sports-links{align-items:start}
+
+/* Compact briefing: interpretation first, complete data in native disclosures. */
+.sports-compact .sports.sports-links{gap:14px}
+.sports-compact .sports.sports-links>.sport{padding:16px;gap:8px;align-items:start}
+.sports-compact .sports.sports-links h3{font:700 18px/1.5 Arial,sans-serif;margin:5px 0}
+.sport-intelligence,.sport-next,.sport-quiet,.sport-details{width:100%;min-width:0}
+.sport-intelligence p{font:15px/1.6 Arial,sans-serif;margin:6px 0}
+.sport-next{font:13px/1.6 Arial,sans-serif;border-top:1px solid var(--line);padding-top:8px;margin:4px 0}
+.sport-quiet{font:14px/1.6 Arial,sans-serif;color:var(--muted);margin:6px 0}
+.sport-details>summary,.sports-data>summary,.sport-brief summary{cursor:pointer;min-height:44px;padding:12px 0;font:600 13px/1.5 Arial,sans-serif}
+.sport-details{border-top:1px solid var(--line)}
+.sport-details p{font:14px/1.6 Arial,sans-serif}
+.sports-data{border-block:1px solid var(--line);margin-top:18px}
+.sports-data .sports-europe{margin-top:0}
+.sports-brief-list{display:grid;gap:12px}
+.sport-brief{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+.sport-brief>figure img{width:88px;height:72px;object-fit:cover;border-radius:5px;flex-shrink:0}
+.sport-brief>div{min-width:0;flex:1}
+.sport-brief h4{font:600 18px/1.4 Georgia,serif;margin:0 0 6px}
+.sport-brief p{font:15px/1.6 Arial,sans-serif;margin:5px 0}
+.sport-brief a{color:inherit;text-underline-offset:3px}
+@media(max-width:599px){.sports-compact .sports.sports-links{grid-template-columns:1fr}.sport-brief>figure img{width:60px;height:60px}.sport-brief{gap:10px}}
+@media print{.sport-details>*,.sports-data>*{display:block!important}.sports-compact .sports.sports-links{grid-template-columns:1fr 1fr}}
+
+.sport-brief>figure{width:88px;flex-shrink:0;margin:0}.sport-brief figcaption{font:10px/1.4 Arial,sans-serif;color:var(--muted);margin-top:4px}
+@media(max-width:599px){.sport-brief>figure{width:60px}}

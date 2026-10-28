@@ -1083,6 +1083,41 @@
         }
       },
       "additionalProperties": false
+    },
+    "sports_briefing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "changed",
+        "meaning",
+        "watch",
+        "sources"
+      ],
+      "properties": {
+        "changed": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 600
+        },
+        "meaning": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 600
+        },
+        "watch": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 600
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        }
+      }
     }
   },
   "type": "object",
@@ -1679,6 +1714,27 @@
                   }
                 }
               }
+            }
+          }
+        },
+        "briefing_policy": {
+          "const": "intelligence-v1"
+        },
+        "briefings": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "omonoia": {
+              "$ref": "#/$defs/sports_briefing"
+            },
+            "manutd": {
+              "$ref": "#/$defs/sports_briefing"
+            },
+            "realmadrid": {
+              "$ref": "#/$defs/sports_briefing"
+            },
+            "formula1": {
+              "$ref": "#/$defs/sports_briefing"
             }
           }
         }

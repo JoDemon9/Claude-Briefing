@@ -62,10 +62,11 @@ def hydrate(payload,pack,root,at=None):
         payload['reading_review']['completed_at']=at
     for key in routine:
         payload[key]=copy.deepcopy(pack['data'][key])
+    module('sports_briefing').hydrate(payload,pack)
+    if module('sports_briefing').active(payload['sports']):
+        payload['sports']['major_stories_reason']=payload.pop('sports_shortfall_reason','')
     # Structured UEFA facts are rendered by Python, without AI re-emission.
-    limit=10 if slot=='morning' else 6
-    if len(payload['articles'])>limit:
-        raise ValueError('Single-turn story budget exceeded')
+    module('sports_briefing').article_budget(payload['articles'],slot,payload['sports'])
     if slot=='morning' and payload.get('carry_story_ids'):
         raise ValueError('Morning selects at most ten stories; carries belong to delta editions')
     if slot!='morning':
