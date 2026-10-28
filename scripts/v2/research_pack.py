@@ -113,6 +113,7 @@ def hydrate(payload,pack,root,at=None):
     payload['delta_log']=[a.get('delta_update') or a['summary'] for a in payload['articles']] if slot!='morning' else []
     payload['synthesis_profile']='single-turn-v1'
     payload['prefetch_provenance']={'sha256':pack['sha256'],'prepared_at':pack['prepared_at']}
+    module('source_photos').attach(payload,pack)
     return payload
 
 

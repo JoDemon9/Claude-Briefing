@@ -238,6 +238,40 @@
                   "const": true
                 }
               }
+            },
+            "source_review": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "method",
+                "sha256",
+                "perceptual_hash",
+                "rights_basis",
+                "checked_at"
+              ],
+              "properties": {
+                "method": {
+                  "const": "publisher-metadata-v1"
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                },
+                "perceptual_hash": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{16}$"
+                },
+                "rights_basis": {
+                  "enum": [
+                    "image-license",
+                    "reviewed-image"
+                  ]
+                },
+                "checked_at": {
+                  "type": "string",
+                  "format": "date-time"
+                }
+              }
             }
           }
         },

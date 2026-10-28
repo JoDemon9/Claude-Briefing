@@ -251,6 +251,7 @@ def evidence(item,row):
     result.update(access='article_excerpt',excerpt=focused_excerpt(text,item['title'],6500),excerpt_truncated=len(text)>6500,
                   source=src,published_at=published,modified_at=modified_at,
                   content_sha256=hashlib.sha256(text.encode()).hexdigest())
+    result['image_candidates'] = module('source_photos').extract(soup, row['url'])
     return result
 
 

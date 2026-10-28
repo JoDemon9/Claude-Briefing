@@ -15,6 +15,8 @@ python scripts/v2/compose.py --input <private>/sources/synthesis/<edition>.md --
 
 Compilation is offline and does not publish. `auto` is compiler acceptance after author review, never a synthetic source/quote/check time. Do not replace a pack during synthesis. New grammar is delivered by the Python digest; generated prompt files still need separate installation if saved task text is changed.
 
+Source photos: install the private workflow updates from `deployment/private-prepare-synthesis.yml.example` (Pillow) and `deployment/private-submit-synthesis.yml.example` (stage `docs/assets/editorial/source/`) before deploying the public collector. Existing schedules/settings stay unchanged. Python extracts image candidates from already-read article HTML; `templates/v2/source-photo-policy.json` separates allowed image hosts from exact reviewed image rights. The private sealed pack holds optimized assets and coverage metrics outside the model digest. Only selected, validated images and public credit metadata cross into the public candidate. Unknown rights, failed downloads and duplicate candidates use the existing licensed fallback; the compiler and public CI never fetch publisher images. Do not add blanket publisher licences or promote automated source photos into the visually reviewed archive library.
+
 ## Checks and publication
 
 `python scripts/v2/backend.py` derives fresh capabilities from code/schema. `checks.py --base <sha>` chooses content or maintenance; `--profile full` explicitly includes historical browser audits. Daily publication has content, preview and integrity only; maintenance adds unit regressions. `quick_validate.py` is not a release gate replacement.

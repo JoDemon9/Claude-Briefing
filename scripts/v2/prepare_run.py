@@ -39,13 +39,14 @@ def prepare(root,day,slot,at,private_root,wire_root=None,client=None):
             count+=1; row['id']='e'+str(count); evidence[row['id']]=row
     opportunities=[{**o['record'],'review_due':True} for o in packet['opportunities']]
     baseline_records=module('baseline').load(root,packet['baseline'])[1] if packet.get('baseline') else []
+    photos=module('source_photos').prepare(evidence,root,folder/'source-cache/images')
     pack=module('research_pack').seal(dict(version=1,protocol='oracle-synthesis/1',selection_policy='balanced-v1',edition_id=packet['edition_id'],
         submission_workflow_installed=(Path(private_root)/'.github/workflows/submit-synthesis.yml').is_file(),
         submission_ready=(Path(private_root)/'.github/workflows/submit-synthesis.yml').is_file() and os.environ.get('ORACLE_SUBMISSION_READY')=='true',
         prepared_at=transport.now(),baseline=packet.get('baseline'),
         baseline_stories=[dict(story_id=a['story_id'],identity=a['story_identity'],headline=a['headline'],finding=a['summary'],
                               section=a['daily']['section'],published_at=a['published_at']) for a in baseline_records],
-        candidates=news['candidates'],evidence=evidence,
+        candidates=news['candidates'],evidence=evidence,source_photos=photos,
         data=dict(markets=routine['markets'],sports=sports,panels=routine['weather']['panels'],freshness=routine['weather']['freshness'],opportunities=opportunities),
         weather_status=routine['weather']['status'],
         metrics={**news['metrics'],'http_requests':len(client.records),'market_rows':len(routine['markets']),
