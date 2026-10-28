@@ -1,7 +1,7 @@
 {
   "contract_version": 1,
   "producer_protocol": "oracle-briefing/3",
-  "content_schema_sha256": "a2e66d29764b9cfc0903502d3c985a14c8a8b45bdc6ff10ea657b52d8be7a66a",
+  "content_schema_sha256": "0c8fdc798768c5be5b89813cee58fcbbec762783f787483036ec9a6d4dbc60e1",
   "edition_schema_versions": [
     2
   ],
@@ -141,7 +141,7 @@
   "favourite_news_required_from": "2026-10-19",
   "favourite_news_max_age_minutes": 720,
   "editorial_protocol": "oracle-editorial/1",
-  "runtime_policy_sha256": "0797c2d59b746d8274d0d62fb880c64cad53a671046eb5b63f78dcf129ff719e",
+  "runtime_policy_sha256": "5c992c1baaa7d87dcd6f972173060351bf5ec5fd355beaf70a08f3c5c18c1509",
   "required_from_local_date": "2026-10-16",
   "reading_review_version": 2,
   "image_review_version": 2,
