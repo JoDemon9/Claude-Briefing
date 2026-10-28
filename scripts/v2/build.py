@@ -172,6 +172,13 @@ def validate(e, articles):
                 raise ValueError('Reviewed images must be local editorial assets')
             if not (ROOT/'docs'/path).is_file():
                 raise ValueError('Image asset missing; run prepare_images.py: '+im['url'])
+            if im.get('source_review'):
+                load_module('source_photos').validate_image(im, (ROOT/'docs'/path).read_bytes())
+                if im['source_url'] not in {s['url'] for s in a['sources'] if s.get('access') == 'read' and s.get('used_for_claims')}:
+                    raise ValueError('Source photo must belong to cited article evidence')
+                limit = e.get('image_revision_at') or e.get('editorial_completed_at')
+                if limit and load_module('backend').instant(im['source_review']['checked_at']) > load_module('backend').instant(limit):
+                    raise ValueError('Source image check cannot follow edition completion')
             if im.get('reuse_review'):
                 library=load_module('photo_library');reuse=im['reuse_review']
                 source=library.asset(ROOT,reuse['source_asset'])

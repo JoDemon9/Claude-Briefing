@@ -35,6 +35,7 @@ def catalog(root=ROOT):
             source=root/'content'/relative
             if not source.resolve().is_relative_to((root/'content/articles').resolve()):raise ValueError('Unsafe photo source')
             article=read(source);photo=article.get('image')
+            if photo and photo.get('source_review'):continue  # Source-bound automation is not a reusable visual-review grant.
             if not photo or any(not photo.get(k) for k in ('source_url','original_url','license','license_url','attribution','retrieved_at','caption','alt')):continue
             local=asset(root,photo['url'])
             if not local.is_file():continue

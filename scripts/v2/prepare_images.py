@@ -32,6 +32,13 @@ def prepare(root, edition_id, verify_only=False):
         if local.is_absolute() or '..' in local.parts or not im['url'].startswith('assets/editorial/'):
             raise ValueError('Unsafe editorial asset path')
         target = root/'docs'/local
+        if im.get('source_review'):
+            # Sealed source images are submitted with the candidate; never refetch
+            # mutable publisher bytes during CI or pretend a missing asset passed.
+            import importlib.util
+            spec = importlib.util.spec_from_file_location('prepared_source_photos', Path(__file__).with_name('source_photos.py'))
+            module = importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+            module.validate_image(im, target.read_bytes())
         downloaded = False
         reuse=im.get('reuse_review')
         if reuse:

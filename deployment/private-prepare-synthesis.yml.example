@@ -67,7 +67,7 @@ jobs:
           publisher.GitPublisher(Path('source'), 'public').preflight()
           print('PUBLIC_BRIEFING_TOKEN: Contents write preflight passed; no refs changed.')
           PY
-      - run: pip install beautifulsoup4
+      - run: pip install beautifulsoup4 'Pillow>=11,<13'
         if: steps.window.outputs.slot != ''
       - uses: actions/cache@v4
         if: steps.window.outputs.slot != ''

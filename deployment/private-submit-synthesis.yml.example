@@ -47,6 +47,9 @@ jobs:
           git config user.name 'Oracle Synthesis Compiler'
           git config user.email 'actions@github.com'
           git add -- "content/editions/$EDITION.json" "content/articles/$EDITION/"
+          if [ -d docs/assets/editorial/source ]; then
+            git add -- docs/assets/editorial/source/
+          fi
           if ! git diff --cached --quiet; then
             git commit -m "Submit $EDITION reviewed synthesis"
             git push origin HEAD:main
