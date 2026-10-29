@@ -21,6 +21,37 @@ AT=datetime(2026,10,25,12,tzinfo=timezone.utc)
 
 
 class NewsQualityTests(unittest.TestCase):
+    def test_greek_news_cannot_starve_any_readable_sports_lane(self):
+        source={'publisher':'Paper','url':'https://example.com/'+'reported-development-'*8,
+                'retrieved_at':AT.isoformat(),'published_at':AT.isoformat(),
+                'reporting_group':'Paper','kind':'reporting','access':'read','used_for_claims':True}
+        greek='Η απόφαση αλλάζει τη χρηματοδότηση των υπηρεσιών και την πρόσβαση των κατοίκων. '
+        candidates=[]
+        lanes=['omonoia','manutd','realmadrid','formula1','padel','football','other']
+        for desk,keys in [('cyprus',range(8)),('world',range(8)),('sports',lanes)]:
+            for key in keys:
+                cid=f'{desk}-{key}'
+                candidates.append({'id':cid,'section':desk,'title':greek,
+                    'sports_lane':key if desk=='sports' else None,'baseline_matches':[],
+                    'evidence':[{'id':cid+'-e','access':'article_excerpt','source':source,
+                                 'sports_lane':key if desk=='sports' else None,'excerpt':greek*60}]})
+        pack={'edition_id':'2026-10-29-morning','prepared_at':AT.isoformat(),'sha256':'a'*64,
+              'baseline':None,'baseline_stories':[{'story_id':f'old-{i}','headline':greek,
+                'finding':greek*10,'section':'world','published_at':AT.isoformat()} for i in range(10)],
+              'weather_status':'unavailable','data':{'markets':[],'panels':[],
+                'sports':{'briefing_policy':'intelligence-v1','coverage':{}}},'candidates':candidates}
+        before=copy.deepcopy(pack)
+        digest=view.synthesis(pack)
+        headers=[json.loads(line) for line in digest.splitlines() if line.startswith('{"id":') and '"section":' in line]
+        for desk in ('cyprus','world'):
+            self.assertGreaterEqual(sum(h['section']==desk for h in headers),5)
+        for lane in lanes:
+            self.assertIn('"id":"sports-'+lane+'-e"',digest)
+        self.assertLessEqual(len(digest.encode()),48000)
+        self.assertEqual(pack,before)
+        with self.assertRaisesRegex(ValueError,'Reserved news/sports evidence'):
+            view.synthesis(pack,max_bytes=20000)
+
     def test_future_article_metadata_does_not_discard_valid_feed_publication(self):
         item={'title':'A reported policy decision','url':'https://example.com/article','publisher':'Paper','section':'cyprus',
               'published_at':'2026-10-25T11:00:00+00:00','feed_excerpt':'Discovery'}

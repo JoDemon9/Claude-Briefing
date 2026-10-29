@@ -8,17 +8,27 @@
     "articles/2026-10-29-morning/ageing-care.json",
     "articles/2026-10-29-morning/dali-waste.json",
     "articles/2026-10-29-morning/youth-participation.json",
-    "articles/2026-10-29-morning/fuel-households.json"
+    "articles/2026-10-29-morning/fuel-households.json",
+    "articles/2026-10-29-morning/kuwait-padel-quarterfinals.json",
+    "articles/2026-10-29-morning/cup-penalty-risk.json",
+    "articles/2026-10-29-morning/chiefs-tucker-practice-squad.json"
   ],
   "availability_notes": [
-    "Χορηγίες και δικαιώματα: διατηρούνται παλιότερα στοιχεία με σαφή ένδειξη επανελέγχου."
+    "Χορηγίες και δικαιώματα: διατηρούνται παλιότερα στοιχεία με σαφή ένδειξη επανελέγχου.",
+    "Αποκατάσταση αθλητικής ενότητας: προστέθηκαν τρεις συνθέσεις αγαπημένων και τρία ευρύτερα θέματα από την πρωινή συλλογή. Για την Ομόνοια δεν είχε ανακτηθεί αναγνώσιμο άρθρο. Οι αρχικοί χρόνοι πηγών διατηρούνται."
   ],
   "availability_policy": "partial-v1",
   "baseline": {
     "edition_id": "2026-10-28-evening",
     "fingerprint": "552eb95202a3895fab7759da8a45883dca2314590d436d03b0a9ae49dc311eb1"
   },
-  "changes": [],
+  "changes": [
+    {
+      "kind": "Διόρθωση",
+      "story_id": null,
+      "text": "Αποκαταστάθηκε η αθλητική σύνθεση που έλειπε λόγω αποκοπής των πηγών από την είσοδο του συντάκτη. Έλεγχος: 2026-10-29T07:34:58.916635+00:00"
+    }
+  ],
   "daily": {
     "follow_ups": [],
     "lead_story_id": "israel-election-2026-10-27",
@@ -41,7 +51,7 @@
   "date": "2026-10-29",
   "delta_log": [],
   "edition_mode": "morning_scan",
-  "editorial_completed_at": "2026-10-29T05:46:45.664705+00:00",
+  "editorial_completed_at": "2026-10-29T07:34:58.916635+00:00",
   "executive_scan": {
     "cyprus_institutions": "Στην Κύπρο, η προγραμματισμένη επίσκεψη Αμπάς προσφέρει πεδίο διπλωματικών επαφών, χωρίς ακόμη ανακοινωμένο αποτέλεσμα. Παράλληλα, η καταγραφή κενών στη φροντίδα ηλικιωμένων και η περιβαλλοντική έγκριση στο Δάλι αναδεικνύουν διαφορετικά στάδια δημόσιας πολιτικής: η στρατηγική και η αδειοδοτική πρόοδος χρειάζονται χωριστή επαλήθευση εφαρμογής.",
     "day_catalysts": [],
@@ -52,6 +62,7 @@
   "freshness": [
     {
       "checked_at": "2026-10-29T04:20:42.286655+00:00",
+      "historical_context": true,
       "id": "weather-limassol",
       "kind": "weather",
       "label": "Μοντέλο καιρού · Λεμεσός",
@@ -65,7 +76,7 @@
   ],
   "id": "2026-10-29-morning",
   "image_review": {
-    "completed_at": "2026-10-29T05:46:45.664705+00:00",
+    "completed_at": "2026-10-29T07:34:58.916635+00:00",
     "version": 2
   },
   "intelligence_contract": 1,
@@ -1254,7 +1265,7 @@
   },
   "published_at": "2026-10-29T05:46:45.664705+00:00",
   "reading_review": {
-    "completed_at": "2026-10-29T05:46:45.664705+00:00",
+    "completed_at": "2026-10-29T07:34:58.916635+00:00",
     "version": 2
   },
   "scheduled_slot": "07:30",
@@ -1268,7 +1279,59 @@
   },
   "sports": {
     "briefing_policy": "intelligence-v1",
-    "briefings": {},
+    "briefings": {
+      "formula1": {
+        "changed": "Το BBC της 27ης Οκτωβρίου περιγράφει πρόταση της FIA για απλούστερους υβριδικούς V8 το 2030 ή 2031, με χαμηλότερο κόστος και βάρος.",
+        "meaning": "Η επιλογή μεταξύ κοινής βασικής μονάδας και κινητήρων σχεδιασμένων από κάθε κατασκευαστή επηρεάζει κόστος και τεχνολογικό ανταγωνισμό. Πρόκειται για διαπραγμάτευση, όχι εγκεκριμένο κανονισμό.",
+        "sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": "2026-10-27T15:17:53+00:00",
+            "publisher": "BBC",
+            "reporting_group": "BBC",
+            "retrieved_at": "2026-10-29T04:20:52.635211+00:00",
+            "url": "https://www.bbc.co.uk/sport/formula1/articles/cw4g186011rdo?at_medium=RSS&at_campaign=rss",
+            "used_for_claims": true
+          }
+        ],
+        "watch": "Η οριστικοποίηση πρότασης προς το Παγκόσμιο Συμβούλιο τον Δεκέμβριο και η συμφωνία για το έτος εφαρμογής."
+      },
+      "manutd": {
+        "changed": "Η Γιουνάιτεντ διατηρεί τον Κάρικ για την Τσέλσι, σύμφωνα με το BBC της 27ης Οκτωβρίου, μετά τις ήττες από Κόμο και Μπόρνμουθ.",
+        "meaning": "Η παραμονή του δίνει χρόνο αντίδρασης, αλλά δεν ισοδυναμεί με μακροπρόθεσμη δέσμευση. Η δημόσια αμφισβήτηση από παίκτες προσθέτει ζήτημα συνοχής στην αγωνιστική πίεση.",
+        "sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": "2026-10-27T18:56:36+00:00",
+            "publisher": "BBC",
+            "reporting_group": "BBC",
+            "retrieved_at": "2026-10-29T04:20:51.866373+00:00",
+            "url": "https://www.bbc.co.uk/sport/football/articles/cwz0vgj35k7mo?at_medium=RSS&at_campaign=rss",
+            "used_for_claims": true
+          }
+        ],
+        "watch": "Η αντίδραση απέναντι στην Τσέλσι και κατόπιν στη Ρόμα· δεν έχει ανακοινωθεί προθεσμία απόφασης."
+      },
+      "realmadrid": {
+        "changed": "Ο Guardian της 28ης Οκτωβρίου αναφέρει αποχώρηση χορηγών του Μπαπέ και αναστολή μεταδόσεων της La Liga στην κινεζική κρατική τηλεόραση, μετά τα σχόλιά του για τον Μάο.",
+        "meaning": "Η υπόθεση επεκτείνεται από την εικόνα ενός παίκτη στην εμπορική έκθεση του πρωταθλήματος. Οι απολογίες δεν αποδεικνύουν αποκατάσταση των σχέσεων.",
+        "sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": "2026-10-28T10:00:04+00:00",
+            "publisher": "The Guardian",
+            "reporting_group": "The Guardian",
+            "retrieved_at": "2026-10-29T04:20:52.185478+00:00",
+            "url": "https://www.theguardian.com/football/2026/oct/28/kylian-mbappe-china-crisis-shows-how-sensitive-maos-legacy-remains",
+            "used_for_claims": true
+          }
+        ],
+        "watch": "Επίσημη επανέναρξη μεταδόσεων ή νέες ανακοινώσεις χορηγών· καμία αγωνιστική κύρωση δεν τεκμηριώνεται εδώ."
+      }
+    },
     "competitions": {
       "uefa.champions": {
         "fixtures": [
@@ -2225,8 +2288,66 @@
         "updates": []
       }
     },
-    "major_stories": [],
-    "major_stories_reason": "Ανακαλύφθηκαν 60 αθλητικά υποψήφια, ανακτήθηκαν και κρίθηκαν αναγνώσιμα 6, αλλά κανένα από τα έξι αποσπάσματα δεν είναι ορατό λόγω του ορίου μεγέθους του digest. Δεν υπάρχουν αναγνώσιμα άρθρα για τεκμηριωμένες σημειώσεις αγαπημένων ή δύο ευρύτερα αθλητικά θέματα· οι αυτόματοι πίνακες δεν υποκαθιστούν αυτή την τεκμηρίωση.",
+    "major_stories": [
+      {
+        "article_id": "kuwait-padel-quarterfinals",
+        "headline": "Padel: οι Λίμπαακ–Αλφόνσο ανατρέπουν το ταμπλό στο Κουβέιτ",
+        "published_at": "2026-10-29T07:34:58.916635+00:00",
+        "sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": "2026-10-28T22:48:54+00:00",
+            "publisher": "Padel Addict",
+            "reporting_group": "Padel Addict",
+            "retrieved_at": "2026-10-29T04:20:55.146282+00:00",
+            "url": "https://www.padeladdict.com/partidos-horarios-donde-ver-cuartos-kuwait-major-premier-padel-2026",
+            "used_for_claims": true
+          }
+        ],
+        "summary": "Το Padel Addict αναφέρει ότι οι Τίνο Λίμπαακ–Γκόνσα Αλφόνσο απέκλεισαν τους Λεμπρόν–Αουγκσμπούργκερ με 4–6, 7–5, 6–1 και προκρίθηκαν στα προημιτελικά του Kuwait Major. Στις γυναίκες ξεχωρίζει το ζευγάρι Σάντσεθ–Ουστέρο απέναντι στις Ικάρδο–Γένσεν.",
+        "why_it_matters": "Η ανατροπή αφαιρεί ένα ισχυρό ζευγάρι από τη διεκδίκηση. Επόμενο αγωνιστικό τεστ για τους νικητές είναι οι Ντι Νένο–Ναβάρο· οι αντιφατικές ημερομηνίες του άρθρου δεν επιτρέπουν ασφαλές ωράριο."
+      },
+      {
+        "article_id": "cup-penalty-risk",
+        "headline": "Ποδόσφαιρο: αποκλεισμοί και το ρίσκο της διακεκομμένης εκτέλεσης πέναλτι",
+        "published_at": "2026-10-29T07:34:58.916635+00:00",
+        "sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": "2026-10-29T00:17:48+00:00",
+            "publisher": "BBC",
+            "reporting_group": "BBC",
+            "retrieved_at": "2026-10-29T04:20:55.393290+00:00",
+            "url": "https://www.bbc.co.uk/sport/football/articles/cmp3g8vxd258o?at_medium=RSS&at_campaign=rss",
+            "used_for_claims": true
+          }
+        ],
+        "summary": "Το BBC αναφέρει αποκλεισμό της Τσέλσι από τη Λίβερπουλ στα πέναλτι, με αστοχίες Μπάρκο και Φοφανά, μετά τον αποκλεισμό της Άρσεναλ από τη Φλίτγουντ. Η διακεκομμένη φορά των Μπάρκο και Γκιμαράες άνοιξε συζήτηση για την τεχνική.",
+        "why_it_matters": "Το όφελος εξαρτάται από την πρόωρη αντίδραση του τερματοφύλακα, αλλά η εκτέλεση παραμένει κρίσιμη. Δύο αστοχίες δεν αποδεικνύουν ότι η τεχνική είναι συνολικά λιγότερο αποτελεσματική."
+      },
+      {
+        "article_id": "chiefs-tucker-practice-squad",
+        "headline": "NFL: ο Τάκερ στους Chiefs, επιλογή στα λακτίσματα και ζήτημα εμπιστοσύνης",
+        "published_at": "2026-10-29T07:34:58.916635+00:00",
+        "sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": "2026-10-28T20:55:11+00:00",
+            "publisher": "BBC",
+            "reporting_group": "BBC",
+            "retrieved_at": "2026-10-29T04:20:57.007782+00:00",
+            "url": "https://www.bbc.co.uk/sport/american-football/articles/c9e8l47grpz4o?at_medium=RSS&at_campaign=rss",
+            "used_for_claims": true
+          }
+        ],
+        "summary": "Οι Chiefs ενέταξαν τον Τζάστιν Τάκερ στο practice squad μετά την έκτιση δέκα αγώνων ποινής του NFL για παραβίαση του κώδικα συμπεριφοράς, σύμφωνα με το BBC. Ο ίδιος αρνείται τις καταγγελίες σεξουαλικής ανάρμοστης συμπεριφοράς και δεν αντιμετώπισε ποινικές κατηγορίες.",
+        "why_it_matters": "Η κίνηση προσθέτει επιλογή πίσω από τον Μπάτκερ, που έχει χάσει πέντε από 16 field goals. Η δυνατότητα συμμετοχής δεν αποτελεί επιβεβαιωμένη επιλογή σε αγώνα."
+      }
+    ],
+    "major_stories_reason": "",
     "news_links": {
       "formula1": {
         "attempted_at": "2026-10-29T04:20:41.502833+00:00",
