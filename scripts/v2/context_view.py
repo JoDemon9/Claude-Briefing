@@ -63,7 +63,7 @@ def synthesis(pack,max_bytes=48000):
         lines.insert(-1,'Beyond my four: select 2–3 sports articles, interest=other, one each tagged padel, football, or other-sport. Exclude the four favourites. Include @Fact plus @Effects and @AnalysisSources; 35–50 words preferred, 70 maximum across fact/effects. No long sports essay. If fewer than two, add @SportsReason followed by the actual evidence limitation. Aim for 300–400 sports words overall; maximum 450. Keep Greek prose, source independence and verified dates; feed-only headlines cannot support a briefing.')
     for story in pack.get('baseline_stories',[]):
         view={k:v for k,v in story.items() if k!='identity' or v!=story.get('story_id')}
-        view['finding']=short(story.get('finding',''),240)
+        view['finding']=short(story.get('finding',''),160 if modern else 240)
         lines.append(json.dumps(view,ensure_ascii=False,separators=(',',':')))
     lines.append('\n## Python market table: instrument | value | change_pct | quoted_at | status')
     for q in pack['data']['markets']:
@@ -87,8 +87,12 @@ def synthesis(pack,max_bytes=48000):
             view[field]=selected
             if len(selected)<len(rows):view[field+'_omitted']=len(rows)-len(selected)
         lines.append(key+': '+json.dumps(compact(view),ensure_ascii=False,separators=(',',':')))
-    lines.append('Routine source refs (provider provenance, not article @Evidence): '+json.dumps(
-        {alias:{'url':url,'retrieved_at':at} for (url,at),alias in routine_sources.items()},ensure_ascii=False,separators=(',',':')))
+    if modern:
+        lines.append('Routine source refs (check times only; full provider URLs remain in the sealed pack, not article @Evidence): '+encoded(
+            {alias:{'retrieved_at':at} for (url,at),alias in routine_sources.items()}))
+    else:
+        lines.append('Routine source refs (provider provenance, not article @Evidence): '+json.dumps(
+            {alias:{'url':url,'retrieved_at':at} for (url,at),alias in routine_sources.items()},ensure_ascii=False,separators=(',',':')))
     lines.append('\n## Candidate excerpts (only @Evidence article_excerpt can support claims)')
     lines.append('Priority hints are deterministic discovery aids, not editorial verdicts or story identity. Choose consequence over recency; verify geography. Excerpts are character-bounded, not full articles. Use a targeted search only for a decisive missing fact or an independent check.')
     # Reserve news breadth AND one article per sports lane before alternatives.
@@ -128,6 +132,7 @@ def synthesis(pack,max_bytes=48000):
                  for k,v in pack.get('metrics',{}).get('pipeline',{}).items()}))
     def fits(extra):return len(('\n'.join(lines+extra)+'\n').encode('utf-8'))<=max_bytes-1200
     sizes=((2400,1600),(1800,1200),(1400,1000),(1000,700))
+    if modern:sizes+=((800,600),)
     for lead_limit,secondary_limit in sizes:
         blocks=primary_blocks(lead_limit,secondary_limit)
         if fits([line for block in blocks for line in block]):break

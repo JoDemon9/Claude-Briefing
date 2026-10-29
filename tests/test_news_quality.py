@@ -38,8 +38,11 @@ class NewsQualityTests(unittest.TestCase):
         pack={'edition_id':'2026-10-29-morning','prepared_at':AT.isoformat(),'sha256':'a'*64,
               'baseline':None,'baseline_stories':[{'story_id':f'old-{i}','headline':greek,
                 'finding':greek*10,'section':'world','published_at':AT.isoformat()} for i in range(10)],
-              'weather_status':'unavailable','data':{'markets':[],'panels':[],
-                'sports':{'briefing_policy':'intelligence-v1','coverage':{}}},'candidates':candidates}
+              'weather_status':'unavailable','data':{'markets':[{'instrument':f'quote-{i}','value':i,
+                'quoted_at':AT.isoformat(),'status':'delayed'} for i in range(38)],'panels':[],
+                'sports':{'briefing_policy':'intelligence-v1','coverage':{key:{'next_fixture':{
+                    'opponent':'Opponent','kickoff_at':AT.isoformat(),'sources':[dict(source,url=source['url']+key)]}}
+                    for key in lanes[:4]}}},'candidates':candidates}
         before=copy.deepcopy(pack)
         digest=view.synthesis(pack)
         headers=[json.loads(line) for line in digest.splitlines() if line.startswith('{"id":') and '"section":' in line]
@@ -49,6 +52,8 @@ class NewsQualityTests(unittest.TestCase):
             self.assertIn('"id":"sports-'+lane+'-e"',digest)
         self.assertLessEqual(len(digest.encode()),48000)
         self.assertEqual(pack,before)
+        self.assertNotIn(source['url']+'omonoia',digest)  # Full routine URLs stay in the sealed pack.
+        self.assertIn(source['url'],digest)  # Article provenance remains visible.
         with self.assertRaisesRegex(ValueError,'Reserved news/sports evidence'):
             view.synthesis(pack,max_bytes=20000)
 

@@ -58,6 +58,30 @@
     ]
   },
   {
+    "publisher": "Kerkida",
+    "section": "sports",
+    "sports_lane": "omonoia",
+    "format": "kerkida-listing",
+    "url": "https://www.kerkida.net/eidiseis/a-katigoria/omonoia",
+    "hosts": ["www.kerkida.net", "kerkida.net"]
+  },
+  {
+    "publisher": "Goal/Philenews",
+    "reporting_group": "Philenews",
+    "article_path_prefix": "/podosfero/kypros/a-katigoria/omonoia/",
+    "section": "sports",
+    "sports_lane": "omonoia",
+    "url": "https://goal.philenews.com/category/podosfero/kypros/a-katigoria/omonoia/feed/",
+    "hosts": ["goal.philenews.com"]
+  },
+  {
+    "publisher": "OmonoiaNews",
+    "section": "sports",
+    "sports_lane": "omonoia",
+    "url": "https://omonoianews.com/category/podosfairo/feed/",
+    "hosts": ["omonoianews.com", "www.omonoianews.com"]
+  },
+  {
     "publisher": "Omonoia FC",
     "section": "sports",
     "url": "https://www.omonoiafc.com.cy/feed/",
