@@ -1078,11 +1078,12 @@
     },
     {
       "edition_id": "2026-10-29-morning",
-      "as_of": "2026-10-29T05:46:45.664705+00:00",
+      "as_of": "2026-10-29T07:34:58.916635+00:00",
       "records": [
         {
           "owner": "2026-10-29-morning",
           "checked_at": "2026-10-29T04:20:42.286655+00:00",
+          "historical_context": true,
           "id": "weather-limassol",
           "kind": "weather",
           "label": "Μοντέλο καιρού · Λεμεσός",
@@ -1092,7 +1093,7 @@
           ],
           "valid_from": "2026-10-29T04:15:00+00:00",
           "valid_until": "2026-10-29T06:15:00+00:00",
-          "state": "current"
+          "state": "expired"
         }
       ],
       "coverage": "structured"

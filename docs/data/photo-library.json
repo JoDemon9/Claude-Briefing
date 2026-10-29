@@ -662,6 +662,11 @@
           "story_id": "nfl-jaguars-london-2026",
           "article_path": "articles/2026-10-12-morning/nfl-jaguars-london.json",
           "edition_id": "2026-10-12-morning"
+        },
+        {
+          "story_id": "chiefs-tucker-practice-squad-2026-10-29",
+          "article_path": "articles/2026-10-29-morning/chiefs-tucker-practice-squad.json",
+          "edition_id": "2026-10-29-morning"
         }
       ]
     },
@@ -1642,6 +1647,38 @@
       ]
     },
     {
+      "id": "7b697f11d9e6095b5c01430ed3781c902f85178f199c137679d82382b72a69ad",
+      "asset": "assets/editorial/library/sports.webp",
+      "image": {
+        "alt": "Το Παναθηναϊκό Στάδιο στην Αθήνα, 19 Ιουλίου 2019 · γενικό αθλητικό πλαίσιο",
+        "attribution": "George E. Koronaios",
+        "caption": "Φωτογραφία αρχείου · Το Παναθηναϊκό Στάδιο στην Αθήνα, 19 Ιουλίου 2019 · γενικό αθλητικό πλαίσιο. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Inside_the_Panathenaic_Stadium_on_July_19%2C_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "retrieved_at": "2026-10-25T22:23:02.687670+00:00",
+        "reuse_review": {
+          "relevance_and_archive_date_checked": true,
+          "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+          "sha256": "7b697f11d9e6095b5c01430ed3781c902f85178f199c137679d82382b72a69ad",
+          "source_asset": "assets/editorial/library/sports.webp"
+        },
+        "source_url": "https://commons.wikimedia.org/wiki/File:Inside_the_Panathenaic_Stadium_on_July_19,_2019.jpg",
+        "url": "assets/editorial/library/sports.webp"
+      },
+      "dimensions": [
+        1200,
+        800
+      ],
+      "references": [
+        {
+          "story_id": "kuwait-padel-quarterfinals-2026-10-29",
+          "article_path": "articles/2026-10-29-morning/kuwait-padel-quarterfinals.json",
+          "edition_id": "2026-10-29-morning"
+        }
+      ]
+    },
+    {
       "id": "7bfb105cdf837cb9c97891793a9bfa0ebcbeb9fbc75f9a7b5559395d2270aa76",
       "asset": "assets/editorial/2026-10-15-midday/sport-mekies.webp",
       "image": {
@@ -2359,6 +2396,11 @@
           "story_id": "liverpool-city-match-2026",
           "article_path": "articles/2026-10-12-midday/liverpool-city-match.json",
           "edition_id": "2026-10-12-midday"
+        },
+        {
+          "story_id": "cup-penalty-risk-2026-10-29",
+          "article_path": "articles/2026-10-29-morning/cup-penalty-risk.json",
+          "edition_id": "2026-10-29-morning"
         }
       ]
     },

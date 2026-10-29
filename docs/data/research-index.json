@@ -336,7 +336,7 @@
       "type": "morning",
       "published_at": "2026-10-29T05:46:45.664705+00:00",
       "url": "morning/2026-10-29.html",
-      "fingerprint": "c7115408773509225bd645fb807164689d3791952706e3bdfc5d4d272a37b7f1"
+      "fingerprint": "0eccf85dd924042482a51b0bdccf3ddc3ae2d00562de1a3c4fef21e8f06ab56d"
     }
   ],
   "stories": [
@@ -11431,6 +11431,87 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-11-evening/world-3.webp"
+    },
+    {
+      "story_id": "kuwait-padel-quarterfinals-2026-10-29",
+      "identity": "kuwait-padel-quarterfinals-2026-10-29",
+      "edition_id": "2026-10-29-morning",
+      "date": "2026-10-29",
+      "slot": "morning",
+      "published_at": "2026-10-29T07:34:58.916635+00:00",
+      "available_at": "2026-10-29T07:34:58.916635+00:00",
+      "headline": "Padel: οι Λίμπαακ–Αλφόνσο ανατρέπουν το ταμπλό στο Κουβέιτ",
+      "finding": "Το Padel Addict αναφέρει ότι οι Τίνο Λίμπαακ–Γκόνσα Αλφόνσο απέκλεισαν τους Λεμπρόν–Αουγκσμπούργκερ με 4–6, 7–5, 6–1 και προκρίθηκαν στα προημιτελικά του Kuwait Major. Στις γυναίκες ξεχωρίζει το ζευγάρι Σάντσεθ–Ουστέρο απέναντι στις Ικάρδο–Γένσεν.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-10-29-morning/kuwait-padel-quarterfinals.json",
+      "reader_url": "articles/2026-10-29-morning/kuwait-padel-quarterfinals.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/partidos-horarios-donde-ver-cuartos-kuwait-major-premier-padel-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-10-28T22:48:54+00:00",
+          "retrieved_at": "2026-10-29T04:20:55.146282+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/library/sports.webp"
+    },
+    {
+      "story_id": "cup-penalty-risk-2026-10-29",
+      "identity": "cup-penalty-risk-2026-10-29",
+      "edition_id": "2026-10-29-morning",
+      "date": "2026-10-29",
+      "slot": "morning",
+      "published_at": "2026-10-29T07:34:58.916635+00:00",
+      "available_at": "2026-10-29T07:34:58.916635+00:00",
+      "headline": "Ποδόσφαιρο: αποκλεισμοί και το ρίσκο της διακεκομμένης εκτέλεσης πέναλτι",
+      "finding": "Το BBC αναφέρει αποκλεισμό της Τσέλσι από τη Λίβερπουλ στα πέναλτι, με αστοχίες Μπάρκο και Φοφανά, μετά τον αποκλεισμό της Άρσεναλ από τη Φλίτγουντ. Η διακεκομμένη φορά των Μπάρκο και Γκιμαράες άνοιξε συζήτηση για την τεχνική.",
+      "section": "sports",
+      "priority": 11,
+      "article_path": "articles/2026-10-29-morning/cup-penalty-risk.json",
+      "reader_url": "articles/2026-10-29-morning/cup-penalty-risk.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/cmp3g8vxd258o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-29T00:17:48+00:00",
+          "retrieved_at": "2026-10-29T04:20:55.393290+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-midday/liverpool-city-match.webp"
+    },
+    {
+      "story_id": "chiefs-tucker-practice-squad-2026-10-29",
+      "identity": "chiefs-tucker-practice-squad-2026-10-29",
+      "edition_id": "2026-10-29-morning",
+      "date": "2026-10-29",
+      "slot": "morning",
+      "published_at": "2026-10-29T07:34:58.916635+00:00",
+      "available_at": "2026-10-29T07:34:58.916635+00:00",
+      "headline": "NFL: ο Τάκερ στους Chiefs, επιλογή στα λακτίσματα και ζήτημα εμπιστοσύνης",
+      "finding": "Οι Chiefs ενέταξαν τον Τζάστιν Τάκερ στο practice squad μετά την έκτιση δέκα αγώνων ποινής του NFL για παραβίαση του κώδικα συμπεριφοράς, σύμφωνα με το BBC. Ο ίδιος αρνείται τις καταγγελίες σεξουαλικής ανάρμοστης συμπεριφοράς και δεν αντιμετώπισε ποινικές κατηγορίες.",
+      "section": "sports",
+      "priority": 12,
+      "article_path": "articles/2026-10-29-morning/chiefs-tucker-practice-squad.json",
+      "reader_url": "articles/2026-10-29-morning/chiefs-tucker-practice-squad.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/american-football/articles/c9e8l47grpz4o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-28T20:55:11+00:00",
+          "retrieved_at": "2026-10-29T04:20:57.007782+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-morning/nfl-jaguars-london.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
