@@ -1,0 +1,562 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-29",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-10-29.html",
+  "editions": [
+    {
+      "id": "2026-10-29-morning",
+      "type": "morning",
+      "url": "morning/2026-10-29.html",
+      "published_at": "2026-10-29T05:46:45.664705+00:00"
+    }
+  ],
+  "missing_slots": [
+    "midday",
+    "evening"
+  ],
+  "lead_story_id": "israel-election-2026-10-27",
+  "stories": [
+    {
+      "story_id": "israel-election-2026-10-27",
+      "first_seen_at": "2026-10-29T05:46:45.664705+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-morning",
+          "article_id": "israel-count",
+          "source_story_id": "israel-election-2026-10-27",
+          "url": "articles/2026-10-29-morning/israel-count.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "israel-count",
+        "source_story_id": "israel-election-2026-10-27",
+        "url": "articles/2026-10-29-morning/israel-count.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "fed-rate-hold-2026-10-28",
+      "first_seen_at": "2026-10-29T05:46:45.664705+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-morning",
+          "article_id": "fed-hold",
+          "source_story_id": "fed-rate-hold-2026-10-28",
+          "url": "articles/2026-10-29-morning/fed-hold.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "fed-hold",
+        "source_story_id": "fed-rate-hold-2026-10-28",
+        "url": "articles/2026-10-29-morning/fed-hold.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "uk-budget-preview-2026-10-28",
+      "first_seen_at": "2026-10-29T05:46:45.664705+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-morning",
+          "article_id": "uk-budget",
+          "source_story_id": "uk-budget-preview-2026-10-28",
+          "url": "articles/2026-10-29-morning/uk-budget.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "uk-budget",
+        "source_story_id": "uk-budget-preview-2026-10-28",
+        "url": "articles/2026-10-29-morning/uk-budget.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "menindee-water-restrictions-2026-10-28",
+      "first_seen_at": "2026-10-29T05:46:45.664705+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-morning",
+          "article_id": "menindee-water",
+          "source_story_id": "menindee-water-restrictions-2026-10-28",
+          "url": "articles/2026-10-29-morning/menindee-water.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "menindee-water",
+        "source_story_id": "menindee-water-restrictions-2026-10-28",
+        "url": "articles/2026-10-29-morning/menindee-water.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "abbas-cyprus-working-visit-2026-10-29",
+      "first_seen_at": "2026-10-29T05:46:45.664705+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-morning",
+          "article_id": "abbas-working-visit",
+          "source_story_id": "abbas-cyprus-working-visit-2026-10-29",
+          "url": "articles/2026-10-29-morning/abbas-working-visit.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "abbas-working-visit",
+        "source_story_id": "abbas-cyprus-working-visit-2026-10-29",
+        "url": "articles/2026-10-29-morning/abbas-working-visit.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-ageing-care-who-2026-10-29",
+      "first_seen_at": "2026-10-29T05:46:45.664705+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-morning",
+          "article_id": "ageing-care",
+          "source_story_id": "cyprus-ageing-care-who-2026-10-29",
+          "url": "articles/2026-10-29-morning/ageing-care.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "ageing-care",
+        "source_story_id": "cyprus-ageing-care-who-2026-10-29",
+        "url": "articles/2026-10-29-morning/ageing-care.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "dali-special-waste-approval-2026-10-29",
+      "first_seen_at": "2026-10-29T05:46:45.664705+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-morning",
+          "article_id": "dali-waste",
+          "source_story_id": "dali-special-waste-approval-2026-10-29",
+          "url": "articles/2026-10-29-morning/dali-waste.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "dali-waste",
+        "source_story_id": "dali-special-waste-approval-2026-10-29",
+        "url": "articles/2026-10-29-morning/dali-waste.html"
+      },
+      "section": "cyprus",
+      "priority": 7
+    },
+    {
+      "story_id": "cyprus-youth-social-participation-2026-10-29",
+      "first_seen_at": "2026-10-29T05:46:45.664705+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-morning",
+          "article_id": "youth-participation",
+          "source_story_id": "cyprus-youth-social-participation-2026-10-29",
+          "url": "articles/2026-10-29-morning/youth-participation.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "youth-participation",
+        "source_story_id": "cyprus-youth-social-participation-2026-10-29",
+        "url": "articles/2026-10-29-morning/youth-participation.html"
+      },
+      "section": "cyprus",
+      "priority": 8
+    },
+    {
+      "story_id": "cyprus-fuel-household-pressure-2026-10-28",
+      "first_seen_at": "2026-10-29T05:46:45.664705+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-morning",
+          "article_id": "fuel-households",
+          "source_story_id": "cyprus-fuel-household-pressure-2026-10-28",
+          "url": "articles/2026-10-29-morning/fuel-households.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "fuel-households",
+        "source_story_id": "cyprus-fuel-household-pressure-2026-10-28",
+        "url": "articles/2026-10-29-morning/fuel-households.html"
+      },
+      "section": "cyprus",
+      "priority": 9
+    }
+  ],
+  "updates": [
+    {
+      "id": "040093acb73bc0df5c1ec264af164c057c2cee30cb4957d2fa17f8148243f84a",
+      "kind": "provenance",
+      "at": "2026-10-29T05:46:45.664705+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "fed-rate-hold-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "fed-hold",
+        "source_story_id": "fed-rate-hold-2026-10-28",
+        "url": "articles/2026-10-29-morning/fed-hold.html"
+      }
+    },
+    {
+      "id": "0871016eac7a2d645d089cbcb22936fd56fb49953621ef30c59d91602ccfbf9d",
+      "kind": "provenance",
+      "at": "2026-10-29T05:46:45.664705+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "abbas-cyprus-working-visit-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "abbas-working-visit",
+        "source_story_id": "abbas-cyprus-working-visit-2026-10-29",
+        "url": "articles/2026-10-29-morning/abbas-working-visit.html"
+      }
+    },
+    {
+      "id": "2122019ca03a792390880a1554a158d10d984d166402b6ab0ca89787ca94d68e",
+      "kind": "provenance",
+      "at": "2026-10-29T05:46:45.664705+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-ageing-care-who-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "ageing-care",
+        "source_story_id": "cyprus-ageing-care-who-2026-10-29",
+        "url": "articles/2026-10-29-morning/ageing-care.html"
+      }
+    },
+    {
+      "id": "4bc83cfd504d9b84518db828db3bc95b1a1190a17201511be5794e7aecaa54e2",
+      "kind": "provenance",
+      "at": "2026-10-29T05:46:45.664705+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "israel-election-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "israel-count",
+        "source_story_id": "israel-election-2026-10-27",
+        "url": "articles/2026-10-29-morning/israel-count.html"
+      }
+    },
+    {
+      "id": "5fcea6162a6b51aee83c1950d69f3d89d66606811635c143d48e4566d247569d",
+      "kind": "provenance",
+      "at": "2026-10-29T05:46:45.664705+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-youth-social-participation-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "youth-participation",
+        "source_story_id": "cyprus-youth-social-participation-2026-10-29",
+        "url": "articles/2026-10-29-morning/youth-participation.html"
+      }
+    },
+    {
+      "id": "73be1fc2485923d7e3752bbad3f7d6fc0956f864ae0feb16af51b5ed6f1a4631",
+      "kind": "provenance",
+      "at": "2026-10-29T05:46:45.664705+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-budget-preview-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "uk-budget",
+        "source_story_id": "uk-budget-preview-2026-10-28",
+        "url": "articles/2026-10-29-morning/uk-budget.html"
+      }
+    },
+    {
+      "id": "a770f455a567b6ba174831ecadbe81be09cc61ac7ebccf553d47c0fc878b1b52",
+      "kind": "provenance",
+      "at": "2026-10-29T05:46:45.664705+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-fuel-household-pressure-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "fuel-households",
+        "source_story_id": "cyprus-fuel-household-pressure-2026-10-28",
+        "url": "articles/2026-10-29-morning/fuel-households.html"
+      }
+    },
+    {
+      "id": "aa36aaf6280004d7a2a5fe16023b1c58d53a28f14395bbb9c265ecde3fec5811",
+      "kind": "provenance",
+      "at": "2026-10-29T05:46:45.664705+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "menindee-water-restrictions-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "menindee-water",
+        "source_story_id": "menindee-water-restrictions-2026-10-28",
+        "url": "articles/2026-10-29-morning/menindee-water.html"
+      }
+    },
+    {
+      "id": "d48eaf8cd622f9dc5bd7cb23d5e109b33beb345bfb27d71764e350fa5afbee65",
+      "kind": "provenance",
+      "at": "2026-10-29T05:46:45.664705+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "dali-special-waste-approval-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-morning",
+        "article_id": "dali-waste",
+        "source_story_id": "dali-special-waste-approval-2026-10-29",
+        "url": "articles/2026-10-29-morning/dali-waste.html"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "action": "Δες την επίσημη ανακοίνωση ως ιστορικό πλαίσιο. Αναμένουμε επαληθευμένη νέα προκήρυξη πριν εμφανίσουμε ενεργή αίτηση.",
+      "application_kind": "instructions",
+      "application_url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+      "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση.",
+      "deadline": "2024-07-31T23:59:00+03:00",
+      "deadline_note": "Ιστορική προθεσμία της 2ης πρόσκλησης, όχι ημερομηνία νέας αίτησης. Νέα ενεργή πρόσκληση δεν επιβεβαιώθηκε στον παρόντα έλεγχο.",
+      "deadline_type": "fixed",
+      "eligibility": "Η προκήρυξη του 2024 όριζε νέους 18–29, άνδρες 30–50 και γυναίκες 30–55. Νέα πρόσκληση μπορεί να αλλάξει τους όρους· δεν έχει κριθεί προσωπική επιλεξιμότητα.",
+      "id": "cy-new-entrepreneurship-2024-call2",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "kind": "grant",
+      "opens_at": null,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-23T04:30:48.639313+00:00",
+          "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "retrieved_at": "2026-10-15T16:39:24.850175+00:00",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Ιστορική πρόσκληση του 2024 που έχει λήξει. Παραμένει μόνο στην παρακολούθηση για τυχόν νέα επίσημη προκήρυξη, όχι στις ενεργές αιτήσεις.",
+      "support": "Παλιοί όροι: 70% επιλέξιμης δαπάνης για 18–29, 60% για τις άλλες ομάδες, με μέγιστο επιλέξιμο προϋπολογισμό €120.000.",
+      "title": "Νέα Επιχειρηματική Δραστηριότητα · παλιά 2η προκήρυξη",
+      "verified_at": "2026-10-23T07:36:00+03:00"
+    },
+    {
+      "action": "Αν έχεις GO, προετοίμασε πλήρη πρόταση. Διαφορετικά ξεκίνα τη σύντομη αίτηση χωρίς να θεωρείς εξασφαλισμένη συμμετοχή στον γύρο Νοεμβρίου.",
+      "application_kind": "form",
+      "application_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+      "change_note": "Επανελέγχθηκε η επίσημη σελίδα EIC: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ., επενδυτικό σκέλος €1–10 εκατ. και επόμενη πλήρης πρόταση στις 4/11, 17:00 Βρυξελλών, μόνο μετά από GO.",
+      "deadline": "2026-11-04T18:00:00+02:00",
+      "deadline_note": "4/11 στις 17:00 Βρυξελλών = 18:00 Κύπρου. Αφορά πλήρη πρόταση μετά το GO. Οι σύντομες προτάσεις υποβάλλονται συνεχώς· αξιολόγηση συνήθως 4–6 εβδομάδες.",
+      "deadline_type": "fixed",
+      "eligibility": "Μία startup/ΜμΕ στην ΕΕ ή συνδεδεμένη χώρα, με καινοτομία TRL 6–8. Για πλήρη πρόταση προηγείται θετική αξιολόγηση (GO) της σύντομης πρότασης ή επιλέξιμη ειδική διαδρομή.",
+      "id": "eu-eic-accelerator-2026",
+      "jurisdiction": "ΕΕ · περιλαμβάνει την Κύπρο",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Innovation Council",
+          "reporting_group": "European Innovation Council",
+          "retrieved_at": "2026-10-24T13:43:13+03:00",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Στήριξη νεοφυών και μικρομεσαίων επιχειρήσεων με ανατρεπτική καινοτομία σε στάδιο ανάπτυξης και κλιμάκωσης. Δεν είναι γενική επιδότηση ίδρυσης επιχείρησης.",
+      "support": "Επιχορήγηση κάτω από €2,5 εκατ.· χωριστά επενδυτικό σκέλος €1–10 εκατ., που δεν αποτελεί επιχορήγηση.",
+      "title": "EIC Accelerator: επόμενη πλήρης πρόταση 4 Νοεμβρίου",
+      "verified_at": "2026-10-24T13:43:13+03:00"
+    },
+    {
+      "action": "Μην υποβάλεις νέα αίτηση. Παρακολούθησε μόνο επίσημη επαναπροκήρυξη ή ανακοίνωση για επιλαχόντες.",
+      "application_kind": "none",
+      "application_url": null,
+      "change_note": "Το ΥΕΕΒ ανακοίνωσε ολοκλήρωση υποβολής προτάσεων λόγω υπερκάλυψης προϋπολογισμού. Η προηγούμενη ένδειξη ανοικτής πρόσκλησης διορθώθηκε.",
+      "deadline": null,
+      "deadline_note": "Η υποβολή ολοκληρώθηκε στις 21/10 λόγω υπερκάλυψης του διαθέσιμου προϋπολογισμού.",
+      "deadline_type": "unknown",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "id": "cy-home-energy-2026",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "kind": "grant",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": "2026-10-21",
+          "publisher": "ΥΕΕΒ",
+          "reporting_group": "ΥΕΕΒ",
+          "retrieved_at": "2026-10-23T10:33:45.530855+00:00",
+          "url": "https://www.industry.gov.cy",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "verified_at": "2026-10-23T13:33:46+03:00"
+    },
+    {
+      "action": "Έλεγξε τα όρια και τη διαδικασία προηγούμενης κοινοποίησης στο κράτος εγκατάστασης. Ο σύνδεσμος δίνει οδηγίες, όχι κυπριακό έντυπο.",
+      "application_kind": "instructions",
+      "application_url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+      "change_note": "Επανελέγχθηκαν στις 24/10 η επίσημη ευρωπαϊκή σελίδα και η διαδικασία διασυνοριακής απαλλαγής. Το καθεστώς παραμένει προαιρετικό και ανοικτό, με ενωσιακό όριο €100.000 και προηγούμενη κοινοποίηση.",
+      "deadline": null,
+      "deadline_note": "Δεν πρόκειται για γύρο χορηγιών. Η απαλλαγή ξεκινά μετά την έγκριση/επιβεβαίωση EX· ισχύουν ξεχωριστές υποχρεώσεις τριμηνιαίας αναφοράς.",
+      "deadline_type": "rolling",
+      "eligibility": "Επιχείρηση εγκατεστημένη στην ΕΕ: ενωσιακός τζίρος έως €100.000 στο τρέχον και προηγούμενο έτος, καθώς και το εθνικό/κλαδικό όριο κάθε χώρας απαλλαγής.",
+      "id": "eu-cross-border-sme-vat",
+      "jurisdiction": "ΕΕ / Κύπρος · διασυνοριακές πωλήσεις",
+      "kind": "legal_right",
+      "opens_at": null,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · DG TAXUD",
+          "reporting_group": "European Commission · DG TAXUD",
+          "retrieved_at": "2026-10-24T07:33:51+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · SME VAT",
+          "reporting_group": "European Commission · SME VAT",
+          "retrieved_at": "2026-10-24T07:33:47+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/index_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-24T07:33:52+03:00",
+          "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Το ευρωπαϊκό καθεστώς μικρών επιχειρήσεων επιτρέπει απαλλαγή ΦΠΑ σε επιλέξιμες διασυνοριακές πωλήσεις. Απαιτεί προηγούμενη κοινοποίηση· δεν εφαρμόζεται αυτόματα.",
+      "support": "Πιθανή απλούστευση υποχρεώσεων ΦΠΑ, με απώλεια δικαιώματος έκπτωσης ΦΠΑ για τις απαλλασσόμενες πράξεις. Αξιολόγησε το καθαρό όφελος πριν επιλέξεις.",
+      "title": "Προαιρετική απαλλαγή ΦΠΑ για μικρές επιχειρήσεις",
+      "verified_at": "2026-10-24T07:44:30+03:00"
+    },
+    {
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
+      "application_kind": "form",
+      "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "change_note": "Επανελέγχθηκαν η επίσημη δυνατότητα αίτησης, τα κριτήρια και η FAQ προθεσμίας στις 24/10. Η εγγραφή παραμένει ανοικτή χωρίς καταληκτική ημερομηνία· δεν υπονοείται προσωπική επιλεξιμότητα.",
+      "deadline": null,
+      "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
+      "deadline_type": "rolling",
+      "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
+      "id": "eu-erasmus-new-entrepreneurs",
+      "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
+      "kind": "benefit",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs · FAQ",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
+      "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
+      "title": "Erasmus for Young Entrepreneurs",
+      "verified_at": "2026-10-24T07:43:00+03:00"
+    }
+  ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Στο Ισραήλ, η καταμέτρηση πλησιάζει στην ολοκλήρωση χωρίς διαφαινόμενη αυτοδύναμη πλειοψηφία: οι εκκρεμείς ειδικές ψήφοι προηγούνται οποιουδήποτε συμπεράσματος για κυβέρνηση. Στη Βρετανία, η ενίσχυση £100 συνοδεύεται από φορολογικές επιβαρύνσεις και προειδοποίηση του OBR για δυνητική μετακύλιση στα ενοίκια· η άμεση στήριξη δεν αποδεικνύει μόνιμη μείωση του κόστους διαβίωσης.",
+        "story_ids": [
+          "israel-election-2026-10-27",
+          "uk-budget-preview-2026-10-28"
+        ]
+      },
+      {
+        "text": "Στην Κύπρο, η προγραμματισμένη επίσκεψη Αμπάς προσφέρει πεδίο διπλωματικών επαφών, χωρίς ακόμη ανακοινωμένο αποτέλεσμα. Παράλληλα, η καταγραφή κενών στη φροντίδα ηλικιωμένων και η περιβαλλοντική έγκριση στο Δάλι αναδεικνύουν διαφορετικά στάδια δημόσιας πολιτικής: η στρατηγική και η αδειοδοτική πρόοδος χρειάζονται χωριστή επαλήθευση εφαρμογής.",
+        "story_ids": [
+          "abbas-cyprus-working-visit-2026-10-29",
+          "cyprus-ageing-care-who-2026-10-29",
+          "dali-special-waste-approval-2026-10-29"
+        ]
+      }
+    ]
+  },
+  "follow_ups": [],
+  "created_at": "2026-10-29T05:47:44.683467+00:00",
+  "updated_at": "2026-10-29T05:47:44.683467+00:00",
+  "input_sha256": "7045dc07e0dd16337e0d5b76f3c1f16a028f4011977816d961b281271f83925b"
+}

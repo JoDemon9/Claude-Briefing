@@ -230,5 +230,13 @@
     },
     "source_sha256": "ce024d0145db7b59134649af148359a1b0cdc0b4531318cc37c32596ec1f1b29",
     "reporting_sha256": "a61da7bf4473da920802186bd3f5acf7498735adba2685ef4c7e73e198475268"
+  },
+  "2026-10-29-morning": {
+    "contract": {
+      "content_schema_sha256": "4140db265758216629e8c15cd35a360ca47378f700d8d9484e3504ef1603b989",
+      "producer_protocol": "oracle-briefing/3"
+    },
+    "source_sha256": "c7115408773509225bd645fb807164689d3791952706e3bdfc5d4d272a37b7f1",
+    "reporting_sha256": "9fc39db1728e58e9b20425024b2309d36d479536bb63bd2df548dd2fee0f650e"
   }
 }
