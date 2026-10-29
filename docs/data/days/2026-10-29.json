@@ -16,12 +16,16 @@
       "type": "midday",
       "url": "midday/2026-10-29.html",
       "published_at": "2026-10-29T11:29:38.627882+00:00"
+    },
+    {
+      "id": "2026-10-29-evening",
+      "type": "evening",
+      "url": "evening/2026-10-29.html",
+      "published_at": "2026-10-29T17:28:20.248361+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "israel-election-2026-10-27",
+  "missing_slots": [],
+  "lead_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
   "stories": [
     {
       "story_id": "israel-election-2026-10-27",
@@ -39,13 +43,46 @@
           "article_id": "israel-election-inquiry",
           "source_story_id": "israel-election-2026-10-27",
           "url": "articles/2026-10-29-midday/israel-election-inquiry.html"
+        },
+        {
+          "edition_id": "2026-10-29-evening",
+          "article_id": "israel-election-inquiry",
+          "source_story_id": "israel-election-2026-10-27",
+          "url": "articles/2026-10-29-evening/israel-election-inquiry.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-midday",
+        "edition_id": "2026-10-29-evening",
         "article_id": "israel-election-inquiry",
         "source_story_id": "israel-election-2026-10-27",
-        "url": "articles/2026-10-29-midday/israel-election-inquiry.html"
+        "url": "articles/2026-10-29-evening/israel-election-inquiry.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+      "first_seen_at": "2026-10-29T11:29:38.627882+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-midday",
+          "article_id": "oleshky-access",
+          "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+          "url": "articles/2026-10-29-midday/oleshky-access.html"
+        },
+        {
+          "edition_id": "2026-10-29-evening",
+          "article_id": "oleshky-aid",
+          "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+          "url": "articles/2026-10-29-evening/oleshky-aid.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "oleshky-aid",
+        "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+        "url": "articles/2026-10-29-evening/oleshky-aid.html"
       },
       "section": "world",
       "priority": 1
@@ -66,37 +103,64 @@
           "article_id": "fed-hold",
           "source_story_id": "fed-rate-hold-2026-10-28",
           "url": "articles/2026-10-29-midday/fed-hold.html"
+        },
+        {
+          "edition_id": "2026-10-29-evening",
+          "article_id": "fed-hold",
+          "source_story_id": "fed-rate-hold-2026-10-28",
+          "url": "articles/2026-10-29-evening/fed-hold.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-midday",
+        "edition_id": "2026-10-29-evening",
         "article_id": "fed-hold",
         "source_story_id": "fed-rate-hold-2026-10-28",
-        "url": "articles/2026-10-29-midday/fed-hold.html"
+        "url": "articles/2026-10-29-evening/fed-hold.html"
       },
       "section": "world",
       "priority": 2
     },
     {
-      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
-      "first_seen_at": "2026-10-29T11:29:38.627882+00:00",
+      "story_id": "flavio-bolsonaro-election-challenge-2026-10-29",
+      "first_seen_at": "2026-10-29T17:28:20.248361+00:00",
       "last_substantive_at": null,
       "references": [
         {
-          "edition_id": "2026-10-29-midday",
-          "article_id": "oleshky-access",
-          "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
-          "url": "articles/2026-10-29-midday/oleshky-access.html"
+          "edition_id": "2026-10-29-evening",
+          "article_id": "brazil-election-dispute",
+          "source_story_id": "flavio-bolsonaro-election-challenge-2026-10-29",
+          "url": "articles/2026-10-29-evening/brazil-election-dispute.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-midday",
-        "article_id": "oleshky-access",
-        "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
-        "url": "articles/2026-10-29-midday/oleshky-access.html"
+        "edition_id": "2026-10-29-evening",
+        "article_id": "brazil-election-dispute",
+        "source_story_id": "flavio-bolsonaro-election-challenge-2026-10-29",
+        "url": "articles/2026-10-29-evening/brazil-election-dispute.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "cyprus-administrative-courts-judges-2026-10-29",
+      "first_seen_at": "2026-10-29T17:28:20.248361+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-evening",
+          "article_id": "administrative-judges",
+          "source_story_id": "cyprus-administrative-courts-judges-2026-10-29",
+          "url": "articles/2026-10-29-evening/administrative-judges.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "administrative-judges",
+        "source_story_id": "cyprus-administrative-courts-judges-2026-10-29",
+        "url": "articles/2026-10-29-evening/administrative-judges.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "gesy-artificial-skin-reimbursement-2026-10-29",
@@ -108,13 +172,19 @@
           "article_id": "gesy-skin",
           "source_story_id": "gesy-artificial-skin-reimbursement-2026-10-29",
           "url": "articles/2026-10-29-midday/gesy-skin.html"
+        },
+        {
+          "edition_id": "2026-10-29-evening",
+          "article_id": "gesy-skin",
+          "source_story_id": "gesy-artificial-skin-reimbursement-2026-10-29",
+          "url": "articles/2026-10-29-evening/gesy-skin.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-midday",
+        "edition_id": "2026-10-29-evening",
         "article_id": "gesy-skin",
         "source_story_id": "gesy-artificial-skin-reimbursement-2026-10-29",
-        "url": "articles/2026-10-29-midday/gesy-skin.html"
+        "url": "articles/2026-10-29-evening/gesy-skin.html"
       },
       "section": "cyprus",
       "priority": 3
@@ -135,16 +205,43 @@
           "article_id": "uk-budget",
           "source_story_id": "uk-budget-preview-2026-10-28",
           "url": "articles/2026-10-29-midday/uk-budget.html"
+        },
+        {
+          "edition_id": "2026-10-29-evening",
+          "article_id": "uk-budget",
+          "source_story_id": "uk-budget-preview-2026-10-28",
+          "url": "articles/2026-10-29-evening/uk-budget.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-midday",
+        "edition_id": "2026-10-29-evening",
         "article_id": "uk-budget",
         "source_story_id": "uk-budget-preview-2026-10-28",
-        "url": "articles/2026-10-29-midday/uk-budget.html"
+        "url": "articles/2026-10-29-evening/uk-budget.html"
       },
       "section": "world",
       "priority": 3
+    },
+    {
+      "story_id": "cyprus-solidarity-fund-budget-2026-10-29",
+      "first_seen_at": "2026-10-29T17:28:20.248361+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-evening",
+          "article_id": "solidarity-budget",
+          "source_story_id": "cyprus-solidarity-fund-budget-2026-10-29",
+          "url": "articles/2026-10-29-evening/solidarity-budget.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "solidarity-budget",
+        "source_story_id": "cyprus-solidarity-fund-budget-2026-10-29",
+        "url": "articles/2026-10-29-evening/solidarity-budget.html"
+      },
+      "section": "cyprus",
+      "priority": 4
     },
     {
       "story_id": "dundee-united-midfield-assessment-2026-10-29",
@@ -210,15 +307,42 @@
           "article_id": "abbas-working-visit",
           "source_story_id": "abbas-cyprus-working-visit-2026-10-29",
           "url": "articles/2026-10-29-midday/abbas-working-visit.html"
+        },
+        {
+          "edition_id": "2026-10-29-evening",
+          "article_id": "abbas-working-visit",
+          "source_story_id": "abbas-cyprus-working-visit-2026-10-29",
+          "url": "articles/2026-10-29-evening/abbas-working-visit.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-midday",
+        "edition_id": "2026-10-29-evening",
         "article_id": "abbas-working-visit",
         "source_story_id": "abbas-cyprus-working-visit-2026-10-29",
-        "url": "articles/2026-10-29-midday/abbas-working-visit.html"
+        "url": "articles/2026-10-29-evening/abbas-working-visit.html"
       },
       "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "rangers-fernandez-mcinnes-2026-10-29",
+      "first_seen_at": "2026-10-29T17:28:20.248361+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-evening",
+          "article_id": "rangers-fernandez",
+          "source_story_id": "rangers-fernandez-mcinnes-2026-10-29",
+          "url": "articles/2026-10-29-evening/rangers-fernandez.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "rangers-fernandez",
+        "source_story_id": "rangers-fernandez-mcinnes-2026-10-29",
+        "url": "articles/2026-10-29-evening/rangers-fernandez.html"
+      },
+      "section": "sports",
       "priority": 5
     },
     {
@@ -258,15 +382,42 @@
           "article_id": "ageing-care",
           "source_story_id": "cyprus-ageing-care-who-2026-10-29",
           "url": "articles/2026-10-29-midday/ageing-care.html"
+        },
+        {
+          "edition_id": "2026-10-29-evening",
+          "article_id": "ageing-care",
+          "source_story_id": "cyprus-ageing-care-who-2026-10-29",
+          "url": "articles/2026-10-29-evening/ageing-care.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-midday",
+        "edition_id": "2026-10-29-evening",
         "article_id": "ageing-care",
         "source_story_id": "cyprus-ageing-care-who-2026-10-29",
-        "url": "articles/2026-10-29-midday/ageing-care.html"
+        "url": "articles/2026-10-29-evening/ageing-care.html"
       },
       "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "maccabi-euroleague-limassol-2026-10-29",
+      "first_seen_at": "2026-10-29T17:28:20.248361+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-evening",
+          "article_id": "maccabi-limassol",
+          "source_story_id": "maccabi-euroleague-limassol-2026-10-29",
+          "url": "articles/2026-10-29-evening/maccabi-limassol.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "maccabi-limassol",
+        "source_story_id": "maccabi-euroleague-limassol-2026-10-29",
+        "url": "articles/2026-10-29-evening/maccabi-limassol.html"
+      },
+      "section": "sports",
       "priority": 6
     },
     {
@@ -360,13 +511,19 @@
           "article_id": "kuwait-padel-quarterfinals",
           "source_story_id": "kuwait-padel-quarterfinals-2026-10-29",
           "url": "articles/2026-10-29-midday/kuwait-padel-quarterfinals.html"
+        },
+        {
+          "edition_id": "2026-10-29-evening",
+          "article_id": "kuwait-padel-quarterfinals",
+          "source_story_id": "kuwait-padel-quarterfinals-2026-10-29",
+          "url": "articles/2026-10-29-evening/kuwait-padel-quarterfinals.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-midday",
+        "edition_id": "2026-10-29-evening",
         "article_id": "kuwait-padel-quarterfinals",
         "source_story_id": "kuwait-padel-quarterfinals-2026-10-29",
-        "url": "articles/2026-10-29-midday/kuwait-padel-quarterfinals.html"
+        "url": "articles/2026-10-29-evening/kuwait-padel-quarterfinals.html"
       },
       "section": "sports",
       "priority": 10
@@ -764,6 +921,188 @@
         "source_story_id": "israel-election-2026-10-27",
         "url": "articles/2026-10-29-midday/israel-election-inquiry.html"
       }
+    },
+    {
+      "id": "3b57a8877661c9a6c93d73130d9e6ebedc41e228063a3dd7ef04dd9dc79fd03b",
+      "kind": "provenance",
+      "at": "2026-10-29T17:28:20.248361+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "israel-election-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "israel-election-inquiry",
+        "source_story_id": "israel-election-2026-10-27",
+        "url": "articles/2026-10-29-evening/israel-election-inquiry.html"
+      }
+    },
+    {
+      "id": "3ebaccbe195c6dcb87e3cd4053e0f15f4c9b6e65d7003236151920e40ec16522",
+      "kind": "provenance",
+      "at": "2026-10-29T17:28:20.248361+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-budget-preview-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "uk-budget",
+        "source_story_id": "uk-budget-preview-2026-10-28",
+        "url": "articles/2026-10-29-evening/uk-budget.html"
+      }
+    },
+    {
+      "id": "48b14f361b6e9d07f6915ded6e43598665e70779ba4ebefc3673f7cd468e0635",
+      "kind": "provenance",
+      "at": "2026-10-29T17:28:20.248361+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-ageing-care-who-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "ageing-care",
+        "source_story_id": "cyprus-ageing-care-who-2026-10-29",
+        "url": "articles/2026-10-29-evening/ageing-care.html"
+      }
+    },
+    {
+      "id": "51e37da229edbbe69298f83bf4cb067bfc71666a2ab0169e66dc7a6b1ffe3c7d",
+      "kind": "provenance",
+      "at": "2026-10-29T17:28:20.248361+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "oleshky-aid",
+        "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+        "url": "articles/2026-10-29-evening/oleshky-aid.html"
+      }
+    },
+    {
+      "id": "55a90543a3b1c5e1bb5df4d0e2c4d4921dcb76e99a7bc8a810c63608b93884de",
+      "kind": "provenance",
+      "at": "2026-10-29T17:28:20.248361+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-solidarity-fund-budget-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "solidarity-budget",
+        "source_story_id": "cyprus-solidarity-fund-budget-2026-10-29",
+        "url": "articles/2026-10-29-evening/solidarity-budget.html"
+      }
+    },
+    {
+      "id": "826cc37ea8f9e54fbbbd3318128aec1a00a9f8a16ba43472fda0849bb84a5b89",
+      "kind": "provenance",
+      "at": "2026-10-29T17:28:20.248361+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "maccabi-euroleague-limassol-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "maccabi-limassol",
+        "source_story_id": "maccabi-euroleague-limassol-2026-10-29",
+        "url": "articles/2026-10-29-evening/maccabi-limassol.html"
+      }
+    },
+    {
+      "id": "85531000107e9e67ab5d2b0fa82ff02a88833dd31c5fa82b1aa1cd02c287745a",
+      "kind": "provenance",
+      "at": "2026-10-29T17:28:20.248361+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "rangers-fernandez-mcinnes-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "rangers-fernandez",
+        "source_story_id": "rangers-fernandez-mcinnes-2026-10-29",
+        "url": "articles/2026-10-29-evening/rangers-fernandez.html"
+      }
+    },
+    {
+      "id": "a4aba097f25be78c4b1ad60c50e6695611f01da8efa6f4809edbfea163952085",
+      "kind": "provenance",
+      "at": "2026-10-29T17:28:20.248361+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "abbas-cyprus-working-visit-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "abbas-working-visit",
+        "source_story_id": "abbas-cyprus-working-visit-2026-10-29",
+        "url": "articles/2026-10-29-evening/abbas-working-visit.html"
+      }
+    },
+    {
+      "id": "a91352906096eb06e43bd2d43b3e2c935cfc76ec1b60284a0489b711e1f8fc0b",
+      "kind": "provenance",
+      "at": "2026-10-29T17:28:20.248361+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "kuwait-padel-quarterfinals-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "kuwait-padel-quarterfinals",
+        "source_story_id": "kuwait-padel-quarterfinals-2026-10-29",
+        "url": "articles/2026-10-29-evening/kuwait-padel-quarterfinals.html"
+      }
+    },
+    {
+      "id": "b60697e31e79e01baa84c7f028a157fd56712d1dece8a3d02c0e238340905193",
+      "kind": "provenance",
+      "at": "2026-10-29T17:28:20.248361+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "fed-rate-hold-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "fed-hold",
+        "source_story_id": "fed-rate-hold-2026-10-28",
+        "url": "articles/2026-10-29-evening/fed-hold.html"
+      }
+    },
+    {
+      "id": "cf956d249abbc2cb99e658434c91c79f947abec6439dc3edc8a5408125d0df43",
+      "kind": "provenance",
+      "at": "2026-10-29T17:28:20.248361+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-administrative-courts-judges-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "administrative-judges",
+        "source_story_id": "cyprus-administrative-courts-judges-2026-10-29",
+        "url": "articles/2026-10-29-evening/administrative-judges.html"
+      }
+    },
+    {
+      "id": "d66e4c2c3fe657cb2c743e038f11f29a36e12629a6b9941e4d3097e63405b082",
+      "kind": "provenance",
+      "at": "2026-10-29T17:28:20.248361+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "gesy-artificial-skin-reimbursement-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "gesy-skin",
+        "source_story_id": "gesy-artificial-skin-reimbursement-2026-10-29",
+        "url": "articles/2026-10-29-evening/gesy-skin.html"
+      }
+    },
+    {
+      "id": "ffa8f35ea2b58ad0fd4dcd2d9186891426025fee8a5e60a2f2b5f8592aa60280",
+      "kind": "provenance",
+      "at": "2026-10-29T17:28:20.248361+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "flavio-bolsonaro-election-challenge-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-evening",
+        "article_id": "brazil-election-dispute",
+        "source_story_id": "flavio-bolsonaro-election-challenge-2026-10-29",
+        "url": "articles/2026-10-29-evening/brazil-election-dispute.html"
+      }
     }
   ],
   "opportunities": [
@@ -969,23 +1308,23 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Στο Ισραήλ, η πολιτική αντιπαράθεση γύρω από την καταμέτρηση συνοδεύεται από αναφερόμενο αίτημα διερεύνησης πιθανής ξένης παρέμβασης· δεν υπάρχει στο απόσπασμα επιβεβαίωση παρέμβασης ή τελικό αποτέλεσμα. Στο Ολέσκι, οι αναφερόμενες μετακινήσεις αξιωματούχων υπό εκεχειρία δεν ισοδυναμούν ακόμη με επιβεβαιωμένη παράδοση βοήθειας. Το επόμενο ουσιαστικό τεστ είναι τα ευρήματα και οι πραγματοποιημένες επιχειρήσεις, αντίστοιχα.",
+        "text": "Η Βουλή αλλάζει τον μηχανισμό καθορισμού των δικαστών στα διοικητικά δικαστήρια, διατηρώντας ως όριο τις εγκεκριμένες δημοσιονομικές θέσεις. Παράλληλα εγκρίνει προϋπολογισμό του Ταμείου Αλληλεγγύης με κρατική χορηγία €50 εκατ.· η έγκριση δεν αποδεικνύει ότι πραγματοποιήθηκαν πληρωμές ούτε ανοίγει αυτομάτως νέα πρόσκληση.",
         "story_ids": [
-          "israel-election-2026-10-27",
-          "kherson-humanitarian-truce-extension-2026-10-27"
+          "cyprus-administrative-courts-judges-2026-10-29",
+          "cyprus-solidarity-fund-budget-2026-10-29"
         ]
       },
       {
-        "text": "Στο ΓεΣΥ, αλλάζει η διοικητική διαδικασία για συγκεκριμένα προϊόντα τεχνητού δέρματος, αλλά η φωτοτεκμηρίωση παραμένει απαίτηση: απλούστευση δεν σημαίνει γενική κάλυψη χωρίς όρους. Η προγραμματισμένη επίσκεψη Αμπάς και οι υπόλοιπες χρήσιμες πρωινές εγγραφές διατηρούνται με τις αρχικές τους επαληθεύσεις, χωρίς να παρουσιάζονται ως ολοκληρωμένα γεγονότα.",
+        "text": "Στο Ολέσκι αναφέρεται προετοιμασία ανθρωπιστικής εισόδου, όχι επιβεβαιωμένη ολοκλήρωση παράδοσης. Στη Βραζιλία, ο Φλάβιο Μπολσονάρο αμφισβητεί πολιτικά την ήττα του, αλλά η ανάλυση εκλογικών δεδομένων του BBC δεν στηρίζει ότι οι ψήφοι της παρατεταμένης ψηφοφορίας εξηγούν τη διαφορά. Παραμένουν κρίσιμα τα τεκμηριωμένα αποτελέσματα, όχι οι αυτοανακηρύξεις.",
         "story_ids": [
-          "gesy-artificial-skin-reimbursement-2026-10-29",
-          "abbas-cyprus-working-visit-2026-10-29"
+          "kherson-humanitarian-truce-extension-2026-10-27",
+          "flavio-bolsonaro-election-challenge-2026-10-29"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-10-29T05:47:44.683467+00:00",
-  "updated_at": "2026-10-29T11:30:25.523928+00:00",
-  "input_sha256": "9fd7bfcb73f81fbd31dec1611a504c421bec18aa6c8b3a9f375789990884ffeb"
+  "updated_at": "2026-10-29T17:29:10.481476+00:00",
+  "input_sha256": "f782f89354a377cdc1eaef056f16e0289b657a2b2f5dea66bd69d141136b92e2"
 }

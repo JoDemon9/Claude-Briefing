@@ -331,6 +331,14 @@
       "fingerprint": "ce024d0145db7b59134649af148359a1b0cdc0b4531318cc37c32596ec1f1b29"
     },
     {
+      "id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "type": "evening",
+      "published_at": "2026-10-29T17:28:20.248361+00:00",
+      "url": "evening/2026-10-29.html",
+      "fingerprint": "d82a8e37d98a2190db02b950009bd6beb163643cfd8fd0e325625534203e4fcb"
+    },
+    {
       "id": "2026-10-29-midday",
       "date": "2026-10-29",
       "type": "midday",
@@ -11196,6 +11204,357 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-26-morning/antonelli-us-gp.webp"
+    },
+    {
+      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+      "identity": "kherson-humanitarian-truce-extension-2026-10-27",
+      "edition_id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "slot": "evening",
+      "published_at": "2026-10-29T11:29:38.627882+00:00",
+      "available_at": "2026-10-29T17:28:20.248361+00:00",
+      "headline": "Ολέσκι: προετοιμάζεται ανθρωπιστική είσοδος υπό την τοπική εκεχειρία",
+      "finding": "Το France 24 μεταφέρει δήλωση Ουκρανού αξιωματούχου ότι ανθρωπιστική αποστολή ετοιμάζεται να εισέλθει στο Ολέσκι, ενώ στρατιωτικές μονάδες απομάκρυναν νάρκες. Το δημοσίευμα αναφέρει τρίτη ημέρα της προγραμματισμένης εξαήμερης τοπικής εκεχειρίας, χωρίς να πιστοποιεί ολοκληρωμένη παράδοση βοήθειας.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-29-evening/oleshky-aid.json",
+      "reader_url": "articles/2026-10-29-evening/oleshky-aid.html",
+      "sources": [
+        {
+          "url": "https://www.france24.com/en/europe/20261029-aid-mission-set-to-enter-ukraine-s-oleshky-as-localised-ceasefire-holds-for-third-day",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-10-29T16:19:14+00:00",
+          "retrieved_at": "2026-10-29T16:20:56.349088+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/world-2.webp"
+    },
+    {
+      "story_id": "flavio-bolsonaro-election-challenge-2026-10-29",
+      "identity": "flavio-bolsonaro-election-challenge-2026-10-29",
+      "edition_id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "slot": "evening",
+      "published_at": "2026-10-29T17:28:20.248361+00:00",
+      "available_at": "2026-10-29T17:28:20.248361+00:00",
+      "headline": "Βραζιλία: αυτοχαρακτηρισμός Μπολσονάρο ως ηγέτη μετά την ήττα",
+      "finding": "Το BBC αναφέρει ότι ο ηττημένος υποψήφιος Φλάβιο Μπολσονάρο αυτοχαρακτηρίστηκε ως ηγέτης της Βραζιλίας σε επιστολή μετά την αναχώρησή του για τις ΗΠΑ. Ανάλυση των BBC Brazil και BBC Verify υπολογίζει περίπου 34.000 ψήφους στις παρατεταμένες ώρες ψηφοφορίας, έναντι διαφοράς 4,4 εκατ. ψήφων· η δήλωσή του δεν αποτελεί θεσμική αναγνώριση εκλογής.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-29-evening/brazil-election-dispute.json",
+      "reader_url": "articles/2026-10-29-evening/brazil-election-dispute.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-29T14:58:28+00:00",
+          "retrieved_at": "2026-10-29T16:27:38.880370+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-25-midday/brazil-runoff-voting.webp"
+    },
+    {
+      "story_id": "cyprus-administrative-courts-judges-2026-10-29",
+      "identity": "cyprus-administrative-courts-judges-2026-10-29",
+      "edition_id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "slot": "evening",
+      "published_at": "2026-10-29T17:28:20.248361+00:00",
+      "available_at": "2026-10-29T17:28:20.248361+00:00",
+      "headline": "Διοικητικά δικαστήρια: ο αριθμός δικαστών περνά στο Ανώτατο Συνταγματικό",
+      "finding": "Η Βουλή ψήφισε ομόφωνα τροποποιήσεις που αφαιρούν τους σταθερούς αριθμούς έξι και δέκα δικαστών για το Διοικητικό Δικαστήριο και το Δικαστήριο Διεθνούς Προστασίας αντίστοιχα, σύμφωνα με το Sigmalive. Ο αριθμός θα καθορίζεται από το Ανώτατο Συνταγματικό Δικαστήριο με γνώμονα το συμφέρον της δικαιοσύνης και τις εγκεκριμένες θέσεις του ετήσιου προϋπολογισμού.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-10-29-evening/administrative-judges.json",
+      "reader_url": "articles/2026-10-29-evening/administrative-judges.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1335423/boyli-allazei-o-tropos-kathorismou-ton-dikastwn-sta-dioikitika-dikastiria",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-10-29T15:25:25+00:00",
+          "retrieved_at": "2026-10-29T16:27:39.314753+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-evening/cyprus-1.webp"
+    },
+    {
+      "story_id": "cyprus-solidarity-fund-budget-2026-10-29",
+      "identity": "cyprus-solidarity-fund-budget-2026-10-29",
+      "edition_id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "slot": "evening",
+      "published_at": "2026-10-29T17:28:20.248361+00:00",
+      "available_at": "2026-10-29T17:28:20.248361+00:00",
+      "headline": "Ταμείο Αλληλεγγύης: εγκρίθηκε προϋπολογισμός με χορηγία €50 εκατ.",
+      "finding": "Η Βουλή ενέκρινε ομόφωνα τον προϋπολογισμό του Εθνικού Ταμείου Αλληλεγγύης, με έσοδα €50 εκατ. από κυβερνητική χορηγία, σύμφωνα με το Sigmalive. Περίπου €10 εκατ. δαπανών αφορούν υπολειπόμενα ποσά του εγκεκριμένου Σχεδίου Μερικής Αναπλήρωσης για το 2025, χωρίς το απόσπασμα να επιβεβαιώνει ήδη πραγματοποιημένες πληρωμές ή νέα ανοικτή διαδικασία αιτήσεων.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-10-29-evening/solidarity-budget.json",
+      "reader_url": "articles/2026-10-29-evening/solidarity-budget.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1335421/tamio-allileghghyis-eghkrithike-o-proypologhismos-kivernitiki-khorighia-eur50-ekat",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-10-29T15:14:35+00:00",
+          "retrieved_at": "2026-10-29T16:27:39.269510+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-2.webp"
+    },
+    {
+      "story_id": "rangers-fernandez-mcinnes-2026-10-29",
+      "identity": "rangers-fernandez-mcinnes-2026-10-29",
+      "edition_id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "slot": "evening",
+      "published_at": "2026-10-29T17:28:20.248361+00:00",
+      "available_at": "2026-10-29T17:28:20.248361+00:00",
+      "headline": "Ρέιντζερς: στήριξη ΜακΊνες στον Φερνάντες πριν τον ημιτελικό",
+      "finding": "Ο Ντέρεκ ΜακΊνες υπερασπίστηκε τον Εμάνουελ Φερνάντες πριν τον ημιτελικό με την Αμπερντίν, σύμφωνα με το BBC. Επικαλέστηκε τη συμβολή του στις καλές εμφανίσεις και χαρακτήρισε εξαιρετική την παρουσία του απέναντι στη Σεντ Τζόνστοουν.",
+      "section": "sports",
+      "priority": 5,
+      "article_path": "articles/2026-10-29-evening/rangers-fernandez.json",
+      "reader_url": "articles/2026-10-29-evening/rangers-fernandez.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6e3x50p3v1eo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-29T15:36:21+00:00",
+          "retrieved_at": "2026-10-29T16:27:47.590512+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/library/sports.webp"
+    },
+    {
+      "story_id": "maccabi-euroleague-limassol-2026-10-29",
+      "identity": "maccabi-euroleague-limassol-2026-10-29",
+      "edition_id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "slot": "evening",
+      "published_at": "2026-10-29T17:28:20.248361+00:00",
+      "available_at": "2026-10-29T17:28:20.248361+00:00",
+      "headline": "Μακάμπι: αναφερόμενος προγραμματισμός αγώνων EuroLeague στη Λεμεσό",
+      "finding": "Το Cyprus Mail αναφέρει προγραμματισμό εντός έδρας αγώνων της Μακάμπι στο «Σπύρος Κυπριανού», αρχίζοντας με τη Χάποελ στις 12 Νοεμβρίου. Η ομάδα εξακολουθεί να ζητά επιστροφή στο Ισραήλ, άρα η αναφορά για Παναθηναϊκό στις 7 Ιανουαρίου παραμένει υπό όρο.",
+      "section": "sports",
+      "priority": 6,
+      "article_path": "articles/2026-10-29-evening/maccabi-limassol.json",
+      "reader_url": "articles/2026-10-29-evening/maccabi-limassol.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/29/maccabi-tel-aviv-set-to-play-euroleague-home-games-in-limassol",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-29T16:09:15+00:00",
+          "retrieved_at": "2026-10-29T16:27:39.466157+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/library/sports.webp"
+    },
+    {
+      "story_id": "israel-election-2026-10-27",
+      "identity": "israel-election-2026-10-27",
+      "edition_id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "slot": "evening",
+      "published_at": "2026-10-27T11:32:58.215892+00:00",
+      "available_at": "2026-10-29T17:28:20.248361+00:00",
+      "headline": "Ισραήλ: αίτημα έρευνας καταγγελιών, χωρίς επιβεβαιωμένη παρέμβαση",
+      "finding": "Ο Guardian μεταφέρει ρεπορτάζ του Associated Press ότι η κεντρική εκλογική επιτροπή ζήτησε από τη Shin Bet να διερευνήσει καταγγελίες ξένης παρέμβασης, χωρίς να δίνονται λεπτομέρειες ή αξιολόγηση της βασιμότητάς τους. Στο ίδιο ζωντανό ρεπορτάζ, ο Γιαΐρ Γκολάν κατηγορεί τον Νετανιάχου για εκστρατεία απονομιμοποίησης εις βάρος Αράβων ψηφοφόρων· πρόκειται για πολιτική καταγγελία.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-29-evening/israel-election-inquiry.json",
+      "reader_url": "articles/2026-10-29-evening/israel-election-inquiry.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-10-29T10:04:39+00:00",
+          "retrieved_at": "2026-10-29T10:20:48.660463+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "fed-rate-hold-2026-10-28",
+      "identity": "fed-rate-hold-2026-10-28",
+      "edition_id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "slot": "evening",
+      "published_at": "2026-10-29T05:46:45.664705+00:00",
+      "available_at": "2026-10-29T17:28:20.248361+00:00",
+      "headline": "Fed: αμετάβλητο επιτόκιο, διαφορετικές αναγνώσεις για τη συνέχεια",
+      "finding": "Η Federal Reserve διατήρησε αμετάβλητο το βασικό επιτόκιο στις 28 Οκτωβρίου, σύμφωνα με το CNBC. Το δημοσίευμα παραθέτει πρόβλεψη της Seema Shah για αυξήσεις τον Δεκέμβριο και στις αρχές του 2027, η οποία αποτελεί εκτίμηση αναλύτριας και όχι προαναγγελία απόφασης της Fed.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-29-evening/fed-hold.json",
+      "reader_url": "articles/2026-10-29-evening/fed-hold.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-10-28T21:31:46+00:00",
+          "retrieved_at": "2026-10-29T04:20:49.655731+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "uk-budget-preview-2026-10-28",
+      "identity": "uk-budget-preview-2026-10-28",
+      "edition_id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "slot": "evening",
+      "published_at": "2026-10-28T11:29:25.843054+00:00",
+      "available_at": "2026-10-29T17:28:20.248361+00:00",
+      "headline": "Βρετανικός προϋπολογισμός: φόροι και προειδοποίηση για τα ενοίκια",
+      "finding": "Ο Guardian αναφέρει αυξήσεις φόρων σε τράπεζες και εκμισθωτές για τη χρηματοδότηση χειμερινής ενίσχυσης £100, η οποία προβλέπεται για τα αγγλικά νοικοκυριά των κατηγοριών council tax A–D. Μεταφέρει επίσης προειδοποίηση του OBR για κίνδυνο σταδιακής ανόδου ενοικίων μέσω περιορισμού της προσφοράς και μετακύλισης κόστους, χωρίς αυτό να αποτελεί ήδη καταγεγραμμένη αύξηση.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-10-29-evening/uk-budget.json",
+      "reader_url": "articles/2026-10-29-evening/uk-budget.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-healey-hikes-taxes-on-banks-and-landlords-to-fund-100-handouts-to-20m-households",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-10-28T20:09:34+00:00",
+          "retrieved_at": "2026-10-29T04:20:59.994466+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-morning/world-2.webp"
+    },
+    {
+      "story_id": "gesy-artificial-skin-reimbursement-2026-10-29",
+      "identity": "gesy-artificial-skin-reimbursement-2026-10-29",
+      "edition_id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "slot": "evening",
+      "published_at": "2026-10-29T11:29:38.627882+00:00",
+      "available_at": "2026-10-29T17:28:20.248361+00:00",
+      "headline": "ΓεΣΥ: αλλαγή προέγκρισης για συγκεκριμένα προϊόντα τεχνητού δέρματος",
+      "finding": "Σύμφωνα με το Philenews, ο ΟΑΥ τροποποίησε τη διαδικασία αποζημίωσης συγκεκριμένων προϊόντων τεχνητού δέρματος, καταργώντας την προηγούμενη ξεχωριστή διαδικασία εξασφάλισης προέγκρισης. Το ερωτηματολόγιο αυτόματης προέγκρισης εξακολουθεί να απαιτεί φωτοτεκμηρίωση της περιοχής χρήσης σε κάθε απαίτηση αποζημίωσης.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-10-29-evening/gesy-skin.json",
+      "reader_url": "articles/2026-10-29-evening/gesy-skin.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/igia-news/gia-epangelmaties-igias/article/1787711/gesi-katargite-i-xechoristi-proegkrisi-gia-technito-derma-se-pies-periptosis-kaliptete",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-29T10:03:06+00:00",
+          "retrieved_at": "2026-10-29T10:20:49.279802+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp"
+    },
+    {
+      "story_id": "abbas-cyprus-working-visit-2026-10-29",
+      "identity": "abbas-cyprus-working-visit-2026-10-29",
+      "edition_id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "slot": "evening",
+      "published_at": "2026-10-29T05:46:45.664705+00:00",
+      "available_at": "2026-10-29T17:28:20.248361+00:00",
+      "headline": "Επίσκεψη εργασίας Αμπάς στην Κύπρο στις 29–30 Οκτωβρίου",
+      "finding": "Ο Μαχμούντ Αμπάς προγραμματίζεται να πραγματοποιήσει επίσκεψη εργασίας στην Κύπρο στις 29–30 Οκτωβρίου και συνάντηση με τον Νίκο Χριστοδουλίδη, σύμφωνα με ανακοίνωση του Κυβερνητικού Εκπροσώπου που παραθέτει το Philenews. Στο πρόγραμμα αναφέρονται κατ’ ιδίαν συνάντηση και γεύμα εργασίας στο Προεδρικό, χωρίς το πρωινό απόσπασμα να τεκμηριώνει ολοκλήρωση ή συμφωνία.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-10-29-evening/abbas-working-visit.json",
+      "reader_url": "articles/2026-10-29-evening/abbas-working-visit.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1788134/triti-episkepsi-abbas-kypros-dyo-minymata",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-29T04:15:00+00:00",
+          "retrieved_at": "2026-10-29T04:20:50.788481+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp"
+    },
+    {
+      "story_id": "cyprus-ageing-care-who-2026-10-29",
+      "identity": "cyprus-ageing-care-who-2026-10-29",
+      "edition_id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "slot": "evening",
+      "published_at": "2026-10-29T05:46:45.664705+00:00",
+      "available_at": "2026-10-29T17:28:20.248361+00:00",
+      "headline": "Φροντίδα ηλικιωμένων: κενά παρά την ύπαρξη εθνικής στρατηγικής",
+      "finding": "Το Philenews, παρουσιάζοντας ευρήματα του ΠΟΥ για την Κύπρο, αναφέρει προβλήματα υγείας που περιορίζουν την καθημερινότητα ηλικιωμένων, κενά φροντίδας και κίνδυνο φτώχειας στις μεγαλύτερες ηλικίες. Καταγράφει παράλληλα υπάρχουσα εθνική στρατηγική και πολιτικές πρωτοβάθμιας φροντίδας, χωρίς το διαθέσιμο απόσπασμα να δίνει ποσοστά ή νέα χρηματοδοτική απόφαση.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-10-29-evening/ageing-care.json",
+      "reader_url": "articles/2026-10-29-evening/ageing-care.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1788002/provlimata-igias-kena-sti-frontida-ke-ftochia-katagrafi-gia-tin-kipro-o-pou",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-29T04:10:00+00:00",
+          "retrieved_at": "2026-10-29T04:20:59.470646+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp"
+    },
+    {
+      "story_id": "kuwait-padel-quarterfinals-2026-10-29",
+      "identity": "kuwait-padel-quarterfinals-2026-10-29",
+      "edition_id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "slot": "evening",
+      "published_at": "2026-10-29T07:34:58.916635+00:00",
+      "available_at": "2026-10-29T17:28:20.248361+00:00",
+      "headline": "Padel: οι Λίμπαακ–Αλφόνσο ανατρέπουν το ταμπλό στο Κουβέιτ",
+      "finding": "Το Padel Addict αναφέρει ότι οι Τίνο Λίμπαακ–Γκόνσα Αλφόνσο απέκλεισαν τους Λεμπρόν–Αουγκσμπούργκερ με 4–6, 7–5, 6–1 και προκρίθηκαν στα προημιτελικά του Kuwait Major. Στις γυναίκες ξεχωρίζει το ζευγάρι Σάντσεθ–Ουστέρο απέναντι στις Ικάρδο–Γένσεν.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-10-29-evening/kuwait-padel-quarterfinals.json",
+      "reader_url": "articles/2026-10-29-evening/kuwait-padel-quarterfinals.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/partidos-horarios-donde-ver-cuartos-kuwait-major-premier-padel-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-10-28T22:48:54+00:00",
+          "retrieved_at": "2026-10-29T04:20:55.146282+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/library/sports.webp"
     },
     {
       "story_id": "israel-election-2026-10-27",
