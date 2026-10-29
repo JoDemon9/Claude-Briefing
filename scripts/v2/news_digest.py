@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 import re
 import unicodedata
-from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
+from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode, urljoin
 from xml.etree import ElementTree as ET
 from bs4 import BeautifulSoup
 
@@ -23,6 +23,8 @@ MAX_ARTICLE_REQUESTS=24
 
 def sports_lane(title, fallback='other'):
     text=normalized(title)
+    if re.search(r'ομονοια(?:ς)?\s+(?:αραδιππου|29)|omonoia[- ](?:aradipp|29)',text):
+        return 'football'
     for key,pattern in [('omonoia',r'omonoia|omonia|ομονοια'),('manutd',r'manchester united|man utd|γιουναιτεντ'),
                         ('realmadrid',r'real madrid|ρεαλ μαδρι'),('formula1',r'formula [1o]|formula one|\bf1\b|grand prix')]:
         if re.search(pattern,text):return key
@@ -148,6 +150,8 @@ def stamp(value):
 def feed_items(row,feed,at):
     if row.get('status')!='available':
         return []
+    if feed.get('format')=='kerkida-listing':
+        return kerkida_items(row,feed,at)
     try:
         doc=ET.fromstring(row['text'])
     except ET.ParseError:
@@ -157,6 +161,8 @@ def feed_items(row,feed,at):
         def field(names):
             return next((e.text for e in item if e.tag.rsplit('}',1)[-1] in names and e.text),'')
         link=field(('link',)) or next((e.get('href') for e in item if e.tag.endswith('link') and e.get('href')),'')
+        if feed.get('article_path_prefix') and not urlsplit(link).path.startswith(feed['article_path_prefix']):
+            continue
         if re.search(r'/(?:sounds|programmes|video|liveblog)/',urlsplit(link).path):
             continue  # Discovery shells cannot substitute for article reporting.
         published=stamp(field(('pubDate','published','updated','date')))
@@ -169,8 +175,31 @@ def feed_items(row,feed,at):
             continue
         section=geography(title,link,feed_section(item,feed))
         items.append(dict(title=title,url=canonical(link),published_at=published,section=section,publisher=feed['publisher'],
+                          reporting_group=feed.get('reporting_group',feed['publisher']),
                           sports_lane=sports_lane(title,'football' if '/sport/football/' in link else feed.get('sports_lane','other')) if section=='sports' else None,
                           feed_excerpt=clean(field(('description','summary','encoded')))[:700],feed_retrieved_at=row['retrieved_at']))
+    return items[:30]
+
+
+def kerkida_items(row,feed,at):
+    """One club listing, no paging. Headline/date discovery is never article evidence."""
+    soup=BeautifulSoup(row['text'],'html.parser');items=[];seen=set()
+    for anchor in soup.select('.article-item a[href]'):
+        link=canonical(urljoin(feed['url'],anchor['href']))
+        path=urlsplit(link).path
+        if (not HTTP.safe(link,feed['hosts']) or
+                not re.match(r'^/(?:eidiseis/a-katigoria|eyropaikoi-agones)/omonoia/[^/]+$',path) or link in seen):
+            continue
+        title_node=anchor.select_one('.title');time_node=anchor.select_one('time[datetime]')
+        title=clean(str(title_node))[:240] if title_node else ''
+        published=stamp(time_node.get('datetime')) if time_node else None
+        if not published or not at-timedelta(hours=48)<=datetime.fromisoformat(published)<=at:
+            continue
+        if len(title)<12 or not news_report(title):continue
+        seen.add(link)
+        items.append(dict(title=title,url=link,published_at=published,section='sports',
+                          publisher=feed['publisher'],reporting_group=feed.get('reporting_group',feed['publisher']),
+                          sports_lane='omonoia',feed_excerpt='',feed_retrieved_at=row['retrieved_at']))
     return items[:30]
 
 
@@ -205,7 +234,8 @@ def evidence(item,row):
     region=(soup.select_one('[itemprop="articleBody"], .ArticleBody-articleBody, .article-body, .entry-content')
             or soup.find('article') or soup.find('main'))
     paragraphs=[clean(str(p)) for p in region.find_all('p')] if region else []
-    text='\n'.join(p for p in paragraphs if len(p)>45 and not p.startswith('Δες περισσότερα άρθρα'))
+    text='\n'.join(p for p in paragraphs if len(p)>45 and not p.startswith('Δες περισσότερα άρθρα')
+                   and not re.search(r'πληρωμενη διαφημιση|μπονους εγγραφης|freebet',normalized(p)))
     if len(text)<160:
         # Only explicit Article bodies, never arbitrary page JSON or navigation.
         def bodies(node):
@@ -240,7 +270,7 @@ def evidence(item,row):
             published=metadata_at
     modified=soup.find('meta',attrs={'property':'article:modified_time'})
     modified_at=stamp(modified.get('content')) if modified else None
-    group=item['publisher']
+    group=item.get('reporting_group') or item['publisher']
     # Wire attribution is a reporting chain, not another independent corroboration.
     byline=clean(' '.join(e.get('content','') for e in soup.select('meta[name=author]')))
     for wire in ('Reuters','AFP','Associated Press'):
