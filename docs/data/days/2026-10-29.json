@@ -10,10 +10,15 @@
       "type": "morning",
       "url": "morning/2026-10-29.html",
       "published_at": "2026-10-29T05:46:45.664705+00:00"
+    },
+    {
+      "id": "2026-10-29-midday",
+      "type": "midday",
+      "url": "midday/2026-10-29.html",
+      "published_at": "2026-10-29T11:29:38.627882+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
   "lead_story_id": "israel-election-2026-10-27",
@@ -28,13 +33,19 @@
           "article_id": "israel-count",
           "source_story_id": "israel-election-2026-10-27",
           "url": "articles/2026-10-29-morning/israel-count.html"
+        },
+        {
+          "edition_id": "2026-10-29-midday",
+          "article_id": "israel-election-inquiry",
+          "source_story_id": "israel-election-2026-10-27",
+          "url": "articles/2026-10-29-midday/israel-election-inquiry.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-morning",
-        "article_id": "israel-count",
+        "edition_id": "2026-10-29-midday",
+        "article_id": "israel-election-inquiry",
         "source_story_id": "israel-election-2026-10-27",
-        "url": "articles/2026-10-29-morning/israel-count.html"
+        "url": "articles/2026-10-29-midday/israel-election-inquiry.html"
       },
       "section": "world",
       "priority": 1
@@ -49,16 +60,64 @@
           "article_id": "fed-hold",
           "source_story_id": "fed-rate-hold-2026-10-28",
           "url": "articles/2026-10-29-morning/fed-hold.html"
+        },
+        {
+          "edition_id": "2026-10-29-midday",
+          "article_id": "fed-hold",
+          "source_story_id": "fed-rate-hold-2026-10-28",
+          "url": "articles/2026-10-29-midday/fed-hold.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-morning",
+        "edition_id": "2026-10-29-midday",
         "article_id": "fed-hold",
         "source_story_id": "fed-rate-hold-2026-10-28",
-        "url": "articles/2026-10-29-morning/fed-hold.html"
+        "url": "articles/2026-10-29-midday/fed-hold.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+      "first_seen_at": "2026-10-29T11:29:38.627882+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-midday",
+          "article_id": "oleshky-access",
+          "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+          "url": "articles/2026-10-29-midday/oleshky-access.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "oleshky-access",
+        "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+        "url": "articles/2026-10-29-midday/oleshky-access.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "gesy-artificial-skin-reimbursement-2026-10-29",
+      "first_seen_at": "2026-10-29T11:29:38.627882+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-midday",
+          "article_id": "gesy-skin",
+          "source_story_id": "gesy-artificial-skin-reimbursement-2026-10-29",
+          "url": "articles/2026-10-29-midday/gesy-skin.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "gesy-skin",
+        "source_story_id": "gesy-artificial-skin-reimbursement-2026-10-29",
+        "url": "articles/2026-10-29-midday/gesy-skin.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "uk-budget-preview-2026-10-28",
@@ -70,16 +129,43 @@
           "article_id": "uk-budget",
           "source_story_id": "uk-budget-preview-2026-10-28",
           "url": "articles/2026-10-29-morning/uk-budget.html"
+        },
+        {
+          "edition_id": "2026-10-29-midday",
+          "article_id": "uk-budget",
+          "source_story_id": "uk-budget-preview-2026-10-28",
+          "url": "articles/2026-10-29-midday/uk-budget.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-morning",
+        "edition_id": "2026-10-29-midday",
         "article_id": "uk-budget",
         "source_story_id": "uk-budget-preview-2026-10-28",
-        "url": "articles/2026-10-29-morning/uk-budget.html"
+        "url": "articles/2026-10-29-midday/uk-budget.html"
       },
       "section": "world",
       "priority": 3
+    },
+    {
+      "story_id": "dundee-united-midfield-assessment-2026-10-29",
+      "first_seen_at": "2026-10-29T11:29:38.627882+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-midday",
+          "article_id": "dundee-midfield",
+          "source_story_id": "dundee-united-midfield-assessment-2026-10-29",
+          "url": "articles/2026-10-29-midday/dundee-midfield.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "dundee-midfield",
+        "source_story_id": "dundee-united-midfield-assessment-2026-10-29",
+        "url": "articles/2026-10-29-midday/dundee-midfield.html"
+      },
+      "section": "sports",
+      "priority": 4
     },
     {
       "story_id": "menindee-water-restrictions-2026-10-28",
@@ -91,13 +177,19 @@
           "article_id": "menindee-water",
           "source_story_id": "menindee-water-restrictions-2026-10-28",
           "url": "articles/2026-10-29-morning/menindee-water.html"
+        },
+        {
+          "edition_id": "2026-10-29-midday",
+          "article_id": "menindee-water",
+          "source_story_id": "menindee-water-restrictions-2026-10-28",
+          "url": "articles/2026-10-29-midday/menindee-water.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-morning",
+        "edition_id": "2026-10-29-midday",
         "article_id": "menindee-water",
         "source_story_id": "menindee-water-restrictions-2026-10-28",
-        "url": "articles/2026-10-29-morning/menindee-water.html"
+        "url": "articles/2026-10-29-midday/menindee-water.html"
       },
       "section": "world",
       "priority": 4
@@ -112,15 +204,42 @@
           "article_id": "abbas-working-visit",
           "source_story_id": "abbas-cyprus-working-visit-2026-10-29",
           "url": "articles/2026-10-29-morning/abbas-working-visit.html"
+        },
+        {
+          "edition_id": "2026-10-29-midday",
+          "article_id": "abbas-working-visit",
+          "source_story_id": "abbas-cyprus-working-visit-2026-10-29",
+          "url": "articles/2026-10-29-midday/abbas-working-visit.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-morning",
+        "edition_id": "2026-10-29-midday",
         "article_id": "abbas-working-visit",
         "source_story_id": "abbas-cyprus-working-visit-2026-10-29",
-        "url": "articles/2026-10-29-morning/abbas-working-visit.html"
+        "url": "articles/2026-10-29-midday/abbas-working-visit.html"
       },
       "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "wales-japan-wxv-selection-2026-10-29",
+      "first_seen_at": "2026-10-29T11:29:38.627882+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-29-midday",
+          "article_id": "wales-japan-selection",
+          "source_story_id": "wales-japan-wxv-selection-2026-10-29",
+          "url": "articles/2026-10-29-midday/wales-japan-selection.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "wales-japan-selection",
+        "source_story_id": "wales-japan-wxv-selection-2026-10-29",
+        "url": "articles/2026-10-29-midday/wales-japan-selection.html"
+      },
+      "section": "sports",
       "priority": 5
     },
     {
@@ -133,13 +252,19 @@
           "article_id": "ageing-care",
           "source_story_id": "cyprus-ageing-care-who-2026-10-29",
           "url": "articles/2026-10-29-morning/ageing-care.html"
+        },
+        {
+          "edition_id": "2026-10-29-midday",
+          "article_id": "ageing-care",
+          "source_story_id": "cyprus-ageing-care-who-2026-10-29",
+          "url": "articles/2026-10-29-midday/ageing-care.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-morning",
+        "edition_id": "2026-10-29-midday",
         "article_id": "ageing-care",
         "source_story_id": "cyprus-ageing-care-who-2026-10-29",
-        "url": "articles/2026-10-29-morning/ageing-care.html"
+        "url": "articles/2026-10-29-midday/ageing-care.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -154,13 +279,19 @@
           "article_id": "dali-waste",
           "source_story_id": "dali-special-waste-approval-2026-10-29",
           "url": "articles/2026-10-29-morning/dali-waste.html"
+        },
+        {
+          "edition_id": "2026-10-29-midday",
+          "article_id": "dali-waste",
+          "source_story_id": "dali-special-waste-approval-2026-10-29",
+          "url": "articles/2026-10-29-midday/dali-waste.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-morning",
+        "edition_id": "2026-10-29-midday",
         "article_id": "dali-waste",
         "source_story_id": "dali-special-waste-approval-2026-10-29",
-        "url": "articles/2026-10-29-morning/dali-waste.html"
+        "url": "articles/2026-10-29-midday/dali-waste.html"
       },
       "section": "cyprus",
       "priority": 7
@@ -175,13 +306,19 @@
           "article_id": "youth-participation",
           "source_story_id": "cyprus-youth-social-participation-2026-10-29",
           "url": "articles/2026-10-29-morning/youth-participation.html"
+        },
+        {
+          "edition_id": "2026-10-29-midday",
+          "article_id": "youth-participation",
+          "source_story_id": "cyprus-youth-social-participation-2026-10-29",
+          "url": "articles/2026-10-29-midday/youth-participation.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-morning",
+        "edition_id": "2026-10-29-midday",
         "article_id": "youth-participation",
         "source_story_id": "cyprus-youth-social-participation-2026-10-29",
-        "url": "articles/2026-10-29-morning/youth-participation.html"
+        "url": "articles/2026-10-29-midday/youth-participation.html"
       },
       "section": "cyprus",
       "priority": 8
@@ -217,13 +354,19 @@
           "article_id": "kuwait-padel-quarterfinals",
           "source_story_id": "kuwait-padel-quarterfinals-2026-10-29",
           "url": "articles/2026-10-29-morning/kuwait-padel-quarterfinals.html"
+        },
+        {
+          "edition_id": "2026-10-29-midday",
+          "article_id": "kuwait-padel-quarterfinals",
+          "source_story_id": "kuwait-padel-quarterfinals-2026-10-29",
+          "url": "articles/2026-10-29-midday/kuwait-padel-quarterfinals.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-29-morning",
+        "edition_id": "2026-10-29-midday",
         "article_id": "kuwait-padel-quarterfinals",
         "source_story_id": "kuwait-padel-quarterfinals-2026-10-29",
-        "url": "articles/2026-10-29-morning/kuwait-padel-quarterfinals.html"
+        "url": "articles/2026-10-29-midday/kuwait-padel-quarterfinals.html"
       },
       "section": "sports",
       "priority": 10
@@ -439,6 +582,188 @@
         "source_story_id": "dali-special-waste-approval-2026-10-29",
         "url": "articles/2026-10-29-morning/dali-waste.html"
       }
+    },
+    {
+      "id": "3672363efb6c74c465299a4dee3d7493887f785edead8b623781bdfeff0b1395",
+      "kind": "provenance",
+      "at": "2026-10-29T11:29:38.627882+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "kuwait-padel-quarterfinals-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "kuwait-padel-quarterfinals",
+        "source_story_id": "kuwait-padel-quarterfinals-2026-10-29",
+        "url": "articles/2026-10-29-midday/kuwait-padel-quarterfinals.html"
+      }
+    },
+    {
+      "id": "4cebc8a72e3954e0bb91ab4416383a540eafad609d92230670e370ee0c123b7a",
+      "kind": "provenance",
+      "at": "2026-10-29T11:29:38.627882+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "abbas-cyprus-working-visit-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "abbas-working-visit",
+        "source_story_id": "abbas-cyprus-working-visit-2026-10-29",
+        "url": "articles/2026-10-29-midday/abbas-working-visit.html"
+      }
+    },
+    {
+      "id": "7ab5025cb529e0ef4630061749821a2473c38fea3657fa341e2d6ae2d9781b7a",
+      "kind": "provenance",
+      "at": "2026-10-29T11:29:38.627882+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "wales-japan-wxv-selection-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "wales-japan-selection",
+        "source_story_id": "wales-japan-wxv-selection-2026-10-29",
+        "url": "articles/2026-10-29-midday/wales-japan-selection.html"
+      }
+    },
+    {
+      "id": "84c20350e668981f0af8fb740949a6d4a67c33f100763db4ee1229615857e683",
+      "kind": "provenance",
+      "at": "2026-10-29T11:29:38.627882+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "dali-special-waste-approval-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "dali-waste",
+        "source_story_id": "dali-special-waste-approval-2026-10-29",
+        "url": "articles/2026-10-29-midday/dali-waste.html"
+      }
+    },
+    {
+      "id": "8d37c1379418ea9d915df43d9919d2425ce8f5f09d8951d2845205968ded3601",
+      "kind": "provenance",
+      "at": "2026-10-29T11:29:38.627882+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-ageing-care-who-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "ageing-care",
+        "source_story_id": "cyprus-ageing-care-who-2026-10-29",
+        "url": "articles/2026-10-29-midday/ageing-care.html"
+      }
+    },
+    {
+      "id": "90770ffee3a1cc4b7a47b0bb4046a0a398dcccd37bc872daecb1630991b079f5",
+      "kind": "provenance",
+      "at": "2026-10-29T11:29:38.627882+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "oleshky-access",
+        "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+        "url": "articles/2026-10-29-midday/oleshky-access.html"
+      }
+    },
+    {
+      "id": "90bdf0264ca94b25b732e27d28fd3caa3e74b0a4c407b464758b42bf51e61d85",
+      "kind": "provenance",
+      "at": "2026-10-29T11:29:38.627882+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-budget-preview-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "uk-budget",
+        "source_story_id": "uk-budget-preview-2026-10-28",
+        "url": "articles/2026-10-29-midday/uk-budget.html"
+      }
+    },
+    {
+      "id": "a649ee09ca9fc4a33b5c82a89c55809c8b1eac111238faa37e38292655178ebe",
+      "kind": "provenance",
+      "at": "2026-10-29T11:29:38.627882+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "dundee-united-midfield-assessment-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "dundee-midfield",
+        "source_story_id": "dundee-united-midfield-assessment-2026-10-29",
+        "url": "articles/2026-10-29-midday/dundee-midfield.html"
+      }
+    },
+    {
+      "id": "aee1784b7aa757779e10841a4e8c08ba6e93ad2e05427ec1f7fe68a2b3981124",
+      "kind": "provenance",
+      "at": "2026-10-29T11:29:38.627882+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-youth-social-participation-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "youth-participation",
+        "source_story_id": "cyprus-youth-social-participation-2026-10-29",
+        "url": "articles/2026-10-29-midday/youth-participation.html"
+      }
+    },
+    {
+      "id": "b984792c282c82d3ba1b83f2c5bc2711377ebefe690f9ec796ef801ab9b9a30d",
+      "kind": "provenance",
+      "at": "2026-10-29T11:29:38.627882+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "gesy-artificial-skin-reimbursement-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "gesy-skin",
+        "source_story_id": "gesy-artificial-skin-reimbursement-2026-10-29",
+        "url": "articles/2026-10-29-midday/gesy-skin.html"
+      }
+    },
+    {
+      "id": "e2df3f6762592b3d96490c023d73f0f356ac75ebbab538a6b3fd729bd0e74410",
+      "kind": "provenance",
+      "at": "2026-10-29T11:29:38.627882+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "fed-rate-hold-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "fed-hold",
+        "source_story_id": "fed-rate-hold-2026-10-28",
+        "url": "articles/2026-10-29-midday/fed-hold.html"
+      }
+    },
+    {
+      "id": "e5b27ed7b8e637a0cbb9b0c20428b8cdbbf5a7f900c44178ef34d1f68ca2d623",
+      "kind": "provenance",
+      "at": "2026-10-29T11:29:38.627882+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "menindee-water-restrictions-2026-10-28",
+      "origin": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "menindee-water",
+        "source_story_id": "menindee-water-restrictions-2026-10-28",
+        "url": "articles/2026-10-29-midday/menindee-water.html"
+      }
+    },
+    {
+      "id": "f0ebc24804ecde6d7d373446bd89d1afec44e13144353391b33cc7af17b93fc2",
+      "kind": "provenance",
+      "at": "2026-10-29T11:29:38.627882+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "israel-election-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-29-midday",
+        "article_id": "israel-election-inquiry",
+        "source_story_id": "israel-election-2026-10-27",
+        "url": "articles/2026-10-29-midday/israel-election-inquiry.html"
+      }
     }
   ],
   "opportunities": [
@@ -644,24 +969,23 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Στο Ισραήλ, η καταμέτρηση πλησιάζει στην ολοκλήρωση χωρίς διαφαινόμενη αυτοδύναμη πλειοψηφία: οι εκκρεμείς ειδικές ψήφοι προηγούνται οποιουδήποτε συμπεράσματος για κυβέρνηση. Στη Βρετανία, η ενίσχυση £100 συνοδεύεται από φορολογικές επιβαρύνσεις και προειδοποίηση του OBR για δυνητική μετακύλιση στα ενοίκια· η άμεση στήριξη δεν αποδεικνύει μόνιμη μείωση του κόστους διαβίωσης.",
+        "text": "Στο Ισραήλ, η πολιτική αντιπαράθεση γύρω από την καταμέτρηση συνοδεύεται από αναφερόμενο αίτημα διερεύνησης πιθανής ξένης παρέμβασης· δεν υπάρχει στο απόσπασμα επιβεβαίωση παρέμβασης ή τελικό αποτέλεσμα. Στο Ολέσκι, οι αναφερόμενες μετακινήσεις αξιωματούχων υπό εκεχειρία δεν ισοδυναμούν ακόμη με επιβεβαιωμένη παράδοση βοήθειας. Το επόμενο ουσιαστικό τεστ είναι τα ευρήματα και οι πραγματοποιημένες επιχειρήσεις, αντίστοιχα.",
         "story_ids": [
           "israel-election-2026-10-27",
-          "uk-budget-preview-2026-10-28"
+          "kherson-humanitarian-truce-extension-2026-10-27"
         ]
       },
       {
-        "text": "Στην Κύπρο, η προγραμματισμένη επίσκεψη Αμπάς προσφέρει πεδίο διπλωματικών επαφών, χωρίς ακόμη ανακοινωμένο αποτέλεσμα. Παράλληλα, η καταγραφή κενών στη φροντίδα ηλικιωμένων και η περιβαλλοντική έγκριση στο Δάλι αναδεικνύουν διαφορετικά στάδια δημόσιας πολιτικής: η στρατηγική και η αδειοδοτική πρόοδος χρειάζονται χωριστή επαλήθευση εφαρμογής.",
+        "text": "Στο ΓεΣΥ, αλλάζει η διοικητική διαδικασία για συγκεκριμένα προϊόντα τεχνητού δέρματος, αλλά η φωτοτεκμηρίωση παραμένει απαίτηση: απλούστευση δεν σημαίνει γενική κάλυψη χωρίς όρους. Η προγραμματισμένη επίσκεψη Αμπάς και οι υπόλοιπες χρήσιμες πρωινές εγγραφές διατηρούνται με τις αρχικές τους επαληθεύσεις, χωρίς να παρουσιάζονται ως ολοκληρωμένα γεγονότα.",
         "story_ids": [
-          "abbas-cyprus-working-visit-2026-10-29",
-          "cyprus-ageing-care-who-2026-10-29",
-          "dali-special-waste-approval-2026-10-29"
+          "gesy-artificial-skin-reimbursement-2026-10-29",
+          "abbas-cyprus-working-visit-2026-10-29"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-10-29T05:47:44.683467+00:00",
-  "updated_at": "2026-10-29T07:48:08.302212+00:00",
-  "input_sha256": "ba4099e92ade46bdf80b1f22062d9f4757b3da561ce2380605e7aa28207ddffe"
+  "updated_at": "2026-10-29T11:30:25.523928+00:00",
+  "input_sha256": "9fd7bfcb73f81fbd31dec1611a504c421bec18aa6c8b3a9f375789990884ffeb"
 }

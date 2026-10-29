@@ -331,6 +331,14 @@
       "fingerprint": "ce024d0145db7b59134649af148359a1b0cdc0b4531318cc37c32596ec1f1b29"
     },
     {
+      "id": "2026-10-29-midday",
+      "date": "2026-10-29",
+      "type": "midday",
+      "published_at": "2026-10-29T11:29:38.627882+00:00",
+      "url": "midday/2026-10-29.html",
+      "fingerprint": "980e3c89f2e82cb95e886ac97b14b0c5727a2c799d66b31705b0f898c27a18e3"
+    },
+    {
       "id": "2026-10-29-morning",
       "date": "2026-10-29",
       "type": "morning",
@@ -11188,6 +11196,357 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-26-morning/antonelli-us-gp.webp"
+    },
+    {
+      "story_id": "israel-election-2026-10-27",
+      "identity": "israel-election-2026-10-27",
+      "edition_id": "2026-10-29-midday",
+      "date": "2026-10-29",
+      "slot": "midday",
+      "published_at": "2026-10-27T11:32:58.215892+00:00",
+      "available_at": "2026-10-29T11:29:38.627882+00:00",
+      "headline": "Ισραήλ: αίτημα έρευνας καταγγελιών, χωρίς επιβεβαιωμένη παρέμβαση",
+      "finding": "Ο Guardian μεταφέρει ρεπορτάζ του Associated Press ότι η κεντρική εκλογική επιτροπή ζήτησε από τη Shin Bet να διερευνήσει καταγγελίες ξένης παρέμβασης, χωρίς να δίνονται λεπτομέρειες ή αξιολόγηση της βασιμότητάς τους. Στο ίδιο ζωντανό ρεπορτάζ, ο Γιαΐρ Γκολάν κατηγορεί τον Νετανιάχου για εκστρατεία απονομιμοποίησης εις βάρος Αράβων ψηφοφόρων· πρόκειται για πολιτική καταγγελία.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-29-midday/israel-election-inquiry.json",
+      "reader_url": "articles/2026-10-29-midday/israel-election-inquiry.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-10-29T10:04:39+00:00",
+          "retrieved_at": "2026-10-29T10:20:48.660463+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+      "identity": "kherson-humanitarian-truce-extension-2026-10-27",
+      "edition_id": "2026-10-29-midday",
+      "date": "2026-10-29",
+      "slot": "midday",
+      "published_at": "2026-10-29T11:29:38.627882+00:00",
+      "available_at": "2026-10-29T11:29:38.627882+00:00",
+      "headline": "Ολέσκι: αναφερόμενες μετακινήσεις αξιωματούχων υπό την εκεχειρία",
+      "finding": "Το Cyprus Mail αναφέρει ότι η Ρωσίδα επίτροπος ανθρωπίνων δικαιωμάτων κατευθυνόταν στο ρωσοκρατούμενο Ολέσκι με δημοσιογράφους του Newsmax, ενώ προς την περιοχή κινούνταν και ο Ουκρανός ομόλογός της. Το δημοσίευμα σημειώνει ότι καμία πλευρά δεν είχε αναφέρει παραβίαση της εξαήμερης εκεχειρίας, χωρίς να επιβεβαιώνει ολοκληρωμένη εκκένωση ή παράδοση βοήθειας.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-29-midday/oleshky-access.json",
+      "reader_url": "articles/2026-10-29-midday/oleshky-access.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/29/top-russian-official-takes-us-journalists-into-besieged-ukrainian-city-ahead-of-evacuation",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-29T09:11:49+00:00",
+          "retrieved_at": "2026-10-29T10:20:49.401415+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/world-2.webp"
+    },
+    {
+      "story_id": "gesy-artificial-skin-reimbursement-2026-10-29",
+      "identity": "gesy-artificial-skin-reimbursement-2026-10-29",
+      "edition_id": "2026-10-29-midday",
+      "date": "2026-10-29",
+      "slot": "midday",
+      "published_at": "2026-10-29T11:29:38.627882+00:00",
+      "available_at": "2026-10-29T11:29:38.627882+00:00",
+      "headline": "ΓεΣΥ: αλλαγή προέγκρισης για συγκεκριμένα προϊόντα τεχνητού δέρματος",
+      "finding": "Σύμφωνα με το Philenews, ο ΟΑΥ τροποποίησε τη διαδικασία αποζημίωσης συγκεκριμένων προϊόντων τεχνητού δέρματος, καταργώντας την προηγούμενη ξεχωριστή διαδικασία εξασφάλισης προέγκρισης. Το ερωτηματολόγιο αυτόματης προέγκρισης εξακολουθεί να απαιτεί φωτοτεκμηρίωση της περιοχής χρήσης σε κάθε απαίτηση αποζημίωσης.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-10-29-midday/gesy-skin.json",
+      "reader_url": "articles/2026-10-29-midday/gesy-skin.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/igia-news/gia-epangelmaties-igias/article/1787711/gesi-katargite-i-xechoristi-proegkrisi-gia-technito-derma-se-pies-periptosis-kaliptete",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-29T10:03:06+00:00",
+          "retrieved_at": "2026-10-29T10:20:49.279802+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp"
+    },
+    {
+      "story_id": "dundee-united-midfield-assessment-2026-10-29",
+      "identity": "dundee-united-midfield-assessment-2026-10-29",
+      "edition_id": "2026-10-29-midday",
+      "date": "2026-10-29",
+      "slot": "midday",
+      "published_at": "2026-10-29T11:29:38.627882+00:00",
+      "available_at": "2026-10-29T11:29:38.627882+00:00",
+      "headline": "Dundee United: συζήτηση για το κέντρο, χωρίς απόδειξη υπεροχής",
+      "finding": "Το BBC περιγράφει τον ρόλο του Ζιντάν Ικμπάλ στον έλεγχο του πρώτου ημιχρόνου της Dundee United στο Celtic Park. Παραθέτει ερώτημα του Tom English για την ποιότητα της τριάδας του κέντρου, όχι αποδεδειγμένη κατάταξη.",
+      "section": "sports",
+      "priority": 4,
+      "article_path": "articles/2026-10-29-midday/dundee-midfield.json",
+      "reader_url": "articles/2026-10-29-midday/dundee-midfield.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/cwn738elr6nvo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-29T08:21:35+00:00",
+          "retrieved_at": "2026-10-29T10:20:55.076597+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/library/sports.webp"
+    },
+    {
+      "story_id": "wales-japan-wxv-selection-2026-10-29",
+      "identity": "wales-japan-wxv-selection-2026-10-29",
+      "edition_id": "2026-10-29-midday",
+      "date": "2026-10-29",
+      "slot": "midday",
+      "published_at": "2026-10-29T11:29:38.627882+00:00",
+      "available_at": "2026-10-29T11:29:38.627882+00:00",
+      "headline": "Ράγκμπι: πέντε αλλαγές στην Ουαλία ενόψει Ιαπωνίας",
+      "finding": "Η Ουαλία έκανε πέντε αλλαγές βασικών για το δεύτερο WXV Test με την Ιαπωνία, σύμφωνα με το BBC. Η Bethan Lewis ξεκινά και η Alex Callender μετακινείται στο οκτώ, ενώ ο Sean Lynn αποδίδει τις αλλαγές στην επιβράβευση παικτριών του προηγούμενου αγώνα.",
+      "section": "sports",
+      "priority": 5,
+      "article_path": "articles/2026-10-29-midday/wales-japan-selection.json",
+      "reader_url": "articles/2026-10-29-midday/wales-japan-selection.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c804032de6yyo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-29T07:59:38+00:00",
+          "retrieved_at": "2026-10-29T10:20:55.215752+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/library/sports.webp"
+    },
+    {
+      "story_id": "fed-rate-hold-2026-10-28",
+      "identity": "fed-rate-hold-2026-10-28",
+      "edition_id": "2026-10-29-midday",
+      "date": "2026-10-29",
+      "slot": "midday",
+      "published_at": "2026-10-29T05:46:45.664705+00:00",
+      "available_at": "2026-10-29T11:29:38.627882+00:00",
+      "headline": "Fed: αμετάβλητο επιτόκιο, διαφορετικές αναγνώσεις για τη συνέχεια",
+      "finding": "Η Federal Reserve διατήρησε αμετάβλητο το βασικό επιτόκιο στις 28 Οκτωβρίου, σύμφωνα με το CNBC. Το δημοσίευμα παραθέτει πρόβλεψη της Seema Shah για αυξήσεις τον Δεκέμβριο και στις αρχές του 2027, η οποία αποτελεί εκτίμηση αναλύτριας και όχι προαναγγελία απόφασης της Fed.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-29-midday/fed-hold.json",
+      "reader_url": "articles/2026-10-29-midday/fed-hold.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-10-28T21:31:46+00:00",
+          "retrieved_at": "2026-10-29T04:20:49.655731+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "uk-budget-preview-2026-10-28",
+      "identity": "uk-budget-preview-2026-10-28",
+      "edition_id": "2026-10-29-midday",
+      "date": "2026-10-29",
+      "slot": "midday",
+      "published_at": "2026-10-28T11:29:25.843054+00:00",
+      "available_at": "2026-10-29T11:29:38.627882+00:00",
+      "headline": "Βρετανικός προϋπολογισμός: φόροι και προειδοποίηση για τα ενοίκια",
+      "finding": "Ο Guardian αναφέρει αυξήσεις φόρων σε τράπεζες και εκμισθωτές για τη χρηματοδότηση χειμερινής ενίσχυσης £100, η οποία προβλέπεται για τα αγγλικά νοικοκυριά των κατηγοριών council tax A–D. Μεταφέρει επίσης προειδοποίηση του OBR για κίνδυνο σταδιακής ανόδου ενοικίων μέσω περιορισμού της προσφοράς και μετακύλισης κόστους, χωρίς αυτό να αποτελεί ήδη καταγεγραμμένη αύξηση.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-10-29-midday/uk-budget.json",
+      "reader_url": "articles/2026-10-29-midday/uk-budget.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-healey-hikes-taxes-on-banks-and-landlords-to-fund-100-handouts-to-20m-households",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-10-28T20:09:34+00:00",
+          "retrieved_at": "2026-10-29T04:20:59.994466+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-morning/world-2.webp"
+    },
+    {
+      "story_id": "menindee-water-restrictions-2026-10-28",
+      "identity": "menindee-water-restrictions-2026-10-28",
+      "edition_id": "2026-10-29-midday",
+      "date": "2026-10-29",
+      "slot": "midday",
+      "published_at": "2026-10-29T05:46:45.664705+00:00",
+      "available_at": "2026-10-29T11:29:38.627882+00:00",
+      "headline": "Αυστραλία: περιορισμοί νερού καθώς υποχωρούν οι λίμνες Menindee",
+      "finding": "Η Νέα Νότια Ουαλία επέβαλε περιορισμούς χρήσης νερού ανάντη, αφού ο όγκος στις άνω λίμνες Menindee έπεσε κάτω από τα 250 γιγαλίτρα, σύμφωνα με τον Guardian. Ειδικοί προειδοποιούν για αυξημένο κίνδυνο μαζικών θανάτων ψαριών το αυστραλιανό καλοκαίρι εάν δεν βελτιωθούν οι εισροές μέσω του Darling–Baaka, όχι για νέο επιβεβαιωμένο περιστατικό.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-10-29-midday/menindee-water.json",
+      "reader_url": "articles/2026-10-29-midday/menindee-water.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/australia-news/2026/oct/28/menindee-lakes-water-levels-drop-mass-fish-death-fears",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-10-28T23:15:36+00:00",
+          "retrieved_at": "2026-10-29T04:20:50.045223+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "abbas-cyprus-working-visit-2026-10-29",
+      "identity": "abbas-cyprus-working-visit-2026-10-29",
+      "edition_id": "2026-10-29-midday",
+      "date": "2026-10-29",
+      "slot": "midday",
+      "published_at": "2026-10-29T05:46:45.664705+00:00",
+      "available_at": "2026-10-29T11:29:38.627882+00:00",
+      "headline": "Επίσκεψη εργασίας Αμπάς στην Κύπρο στις 29–30 Οκτωβρίου",
+      "finding": "Ο Μαχμούντ Αμπάς προγραμματίζεται να πραγματοποιήσει επίσκεψη εργασίας στην Κύπρο στις 29–30 Οκτωβρίου και συνάντηση με τον Νίκο Χριστοδουλίδη, σύμφωνα με ανακοίνωση του Κυβερνητικού Εκπροσώπου που παραθέτει το Philenews. Στο πρόγραμμα αναφέρονται κατ’ ιδίαν συνάντηση και γεύμα εργασίας στο Προεδρικό, χωρίς το πρωινό απόσπασμα να τεκμηριώνει ολοκλήρωση ή συμφωνία.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-10-29-midday/abbas-working-visit.json",
+      "reader_url": "articles/2026-10-29-midday/abbas-working-visit.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1788134/triti-episkepsi-abbas-kypros-dyo-minymata",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-29T04:15:00+00:00",
+          "retrieved_at": "2026-10-29T04:20:50.788481+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp"
+    },
+    {
+      "story_id": "cyprus-ageing-care-who-2026-10-29",
+      "identity": "cyprus-ageing-care-who-2026-10-29",
+      "edition_id": "2026-10-29-midday",
+      "date": "2026-10-29",
+      "slot": "midday",
+      "published_at": "2026-10-29T05:46:45.664705+00:00",
+      "available_at": "2026-10-29T11:29:38.627882+00:00",
+      "headline": "Φροντίδα ηλικιωμένων: κενά παρά την ύπαρξη εθνικής στρατηγικής",
+      "finding": "Το Philenews, παρουσιάζοντας ευρήματα του ΠΟΥ για την Κύπρο, αναφέρει προβλήματα υγείας που περιορίζουν την καθημερινότητα ηλικιωμένων, κενά φροντίδας και κίνδυνο φτώχειας στις μεγαλύτερες ηλικίες. Καταγράφει παράλληλα υπάρχουσα εθνική στρατηγική και πολιτικές πρωτοβάθμιας φροντίδας, χωρίς το διαθέσιμο απόσπασμα να δίνει ποσοστά ή νέα χρηματοδοτική απόφαση.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-10-29-midday/ageing-care.json",
+      "reader_url": "articles/2026-10-29-midday/ageing-care.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1788002/provlimata-igias-kena-sti-frontida-ke-ftochia-katagrafi-gia-tin-kipro-o-pou",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-29T04:10:00+00:00",
+          "retrieved_at": "2026-10-29T04:20:59.470646+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp"
+    },
+    {
+      "story_id": "dali-special-waste-approval-2026-10-29",
+      "identity": "dali-special-waste-approval-2026-10-29",
+      "edition_id": "2026-10-29-midday",
+      "date": "2026-10-29",
+      "slot": "midday",
+      "published_at": "2026-10-29T05:46:45.664705+00:00",
+      "available_at": "2026-10-29T11:29:38.627882+00:00",
+      "headline": "Δάλι: περιβαλλοντική έγκριση αλλαγής χρήσης για μονάδα αποβλήτων",
+      "finding": "Η Περιβαλλοντική Αρχή ενέκρινε αλλαγή χρήσης υφιστάμενου υποστατικού στο Ιδάλιο, ανοίγοντας τον δρόμο για μονάδα ειδικών ρευμάτων αποβλήτων, σύμφωνα με το Philenews. Προβλέπεται διαχείριση ηλεκτρικού και ηλεκτρονικού εξοπλισμού, μπαταριών και ληγμένων οικιακών φαρμάκων, χωρίς το απόσπασμα να επιβεβαιώνει έναρξη λειτουργίας.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-10-29-midday/dali-waste.json",
+      "reader_url": "articles/2026-10-29-midday/dali-waste.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1788055/nea-monada-diachirisis-apovliton-sto-dali-dinamikotitas-5-000-toni-etisios-gia-anakiklosi-ilektrikon-siskevon-batarion-ke-farmakon",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-29T04:12:00+00:00",
+          "retrieved_at": "2026-10-29T04:20:57.804471+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp"
+    },
+    {
+      "story_id": "cyprus-youth-social-participation-2026-10-29",
+      "identity": "cyprus-youth-social-participation-2026-10-29",
+      "edition_id": "2026-10-29-midday",
+      "date": "2026-10-29",
+      "slot": "midday",
+      "published_at": "2026-10-29T05:46:45.664705+00:00",
+      "available_at": "2026-10-29T11:29:38.627882+00:00",
+      "headline": "Έρευνα: 26% των νέων στην Κύπρο δηλώνει κοινωνική συμμετοχή",
+      "finding": "Στο τελευταίο Ευρωβαρόμετρο για νέους 15–30 ετών, το 26% των Κυπρίων δήλωσε συμμετοχή σε τουλάχιστον μία πρωτοβουλία κοινωνικής αλλαγής κατά το προηγούμενο έτος, σύμφωνα με το Cyprus Mail. Το δημοσίευμα κατατάσσει την Κύπρο τελευταία στην ΕΕ, έναντι ευρωπαϊκού μέσου 55%, χωρίς να τεκμηριώνει αιτία της διαφοράς.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-10-29-midday/youth-participation.json",
+      "reader_url": "articles/2026-10-29-midday/youth-participation.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/29/young-cypriots-rank-lowest-across-the-eu-for-social-activism",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-29T02:24:00+00:00",
+          "retrieved_at": "2026-10-29T04:20:50.211527+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-13-evening/world-1.webp"
+    },
+    {
+      "story_id": "kuwait-padel-quarterfinals-2026-10-29",
+      "identity": "kuwait-padel-quarterfinals-2026-10-29",
+      "edition_id": "2026-10-29-midday",
+      "date": "2026-10-29",
+      "slot": "midday",
+      "published_at": "2026-10-29T07:34:58.916635+00:00",
+      "available_at": "2026-10-29T11:29:38.627882+00:00",
+      "headline": "Padel: οι Λίμπαακ–Αλφόνσο ανατρέπουν το ταμπλό στο Κουβέιτ",
+      "finding": "Το Padel Addict αναφέρει ότι οι Τίνο Λίμπαακ–Γκόνσα Αλφόνσο απέκλεισαν τους Λεμπρόν–Αουγκσμπούργκερ με 4–6, 7–5, 6–1 και προκρίθηκαν στα προημιτελικά του Kuwait Major. Στις γυναίκες ξεχωρίζει το ζευγάρι Σάντσεθ–Ουστέρο απέναντι στις Ικάρδο–Γένσεν.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-10-29-midday/kuwait-padel-quarterfinals.json",
+      "reader_url": "articles/2026-10-29-midday/kuwait-padel-quarterfinals.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/partidos-horarios-donde-ver-cuartos-kuwait-major-premier-padel-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-10-28T22:48:54+00:00",
+          "retrieved_at": "2026-10-29T04:20:55.146282+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/library/sports.webp"
     },
     {
       "story_id": "israel-election-2026-10-27",
