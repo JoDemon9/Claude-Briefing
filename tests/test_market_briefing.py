@@ -177,6 +177,18 @@ class MarketBriefingTests(unittest.TestCase):
                            market.discovery_score('Election report'))
         self.assertNotIn('story_id',tech)
 
+    def test_legal_breach_and_physical_theft_are_not_cybersecurity(self):
+        for title in ('Court finds breach of contract','Ceasefire breach reported overnight','Stolen paintings recovered',
+                      'Παραβίαση κατάπαυσης του πυρός','Κλοπή αυτοκινήτου στη Λευκωσία'):
+            self.assertNotEqual(market.topic(title),'security')
+        for title in ('Binance investigates security breach','Crypto protocol exploit drains wallets','Ransomware attack hits hospital',
+                      'Παραβίαση δεδομένων σε εταιρεία'):
+            self.assertEqual(market.topic(title),'security')
+        groups=[[{'title':str(i),'topic':'security','market_priority':6}] for i in range(8)]
+        general=[[{'title':'general-'+str(i)}] for i in range(4)]
+        queue=market.reserve(groups+general)
+        self.assertEqual(queue[2:6],general)
+
     def test_enriched_digest_keeps_required_evidence_and_original_budget(self):
         pack,_,_=prepared()
         ev=pack['evidence']['e1'];ev['excerpt']=('Alphabet reported revenue and changed its guidance. '*80)

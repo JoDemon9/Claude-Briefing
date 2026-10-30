@@ -18,7 +18,8 @@ COMPANIES = {
     'JNJ': r'\bjohnson\s*(?:&|and)\s*johnson\b|\bjnj\b',
     'BTC-USD': r'\bbitcoin\b|\bbtc\b', 'ETH-USD': r'\bethereum\b|\beth\b',
 }
-SECURITY = r'\b(?:hack\w*|breach\w*|ransomware|cyberattack\w*|exploit\w*|stolen|theft)\b|κυβερνοεπιθεσ|παραβιασ|κλοπη'
+SECURITY = (r'\b(?:hack\w*|ransomware|cyberattack\w*|malware|phishing|cyber attack\w*|data breach\w*|security breach\w*)\b'
+            r'|κυβερνοεπιθεσ|χακαρ|παραβιασ\w*\s+(?:δεδομεν|συστηματ|ασφαλει|λογαριασμ)|κλοπη\w*\s+(?:δεδομεν|κρυπτο|ψηφιακ)')
 BUSINESS = r'\b(?:earnings|guidance|revenue|profit\w*|shares?|stocks?|antitrust|chips?|semiconductors?|outage\w*|cloud|artificial intelligence)\b|κερδ|μετοχ|εσοδ|τεχνητη νοημοσυνη'
 
 
@@ -28,7 +29,9 @@ def normalized(value):
 
 def topic(title, lane=None):
     text = normalized(title)
-    if re.search(SECURITY, text): return 'security'
+    digital_incident=(re.search(r'\b(?:breach\w*|exploit\w*|stolen|theft)\b',text) and
+                      re.search(r'\b(?:wallet\w*|exchange\w*|protocol\w*|blockchain|software|vulnerabilit\w*|defi|binance|crypto\w*|account\w*)\b',text))
+    if re.search(SECURITY, text) or digital_incident: return 'security'
     if re.search(BUSINESS, text) or any(re.search(p, text) for p in COMPANIES.values()): return 'markets-tech'
     return lane if lane in ('finance', 'technology', 'security') else None
 
@@ -76,7 +79,9 @@ def reserve(groups, count=2):
     """Reserve within an existing queue, never add article requests or assign identity."""
     picked = sorted([g for g in groups if g[0].get('topic')],
                     key=lambda g:g[0].get('market_priority', 0), reverse=True)[:count]
-    return picked + [g for g in groups if g not in picked]
+    # Keep four general-news primary places when available. Extra topic
+    # candidates remain in the queue for genuine shortages and repairs.
+    return picked + [g for g in groups if not g[0].get('topic')] + [g for g in groups if g[0].get('topic') and g not in picked]
 
 
 def quote_note(alert):
