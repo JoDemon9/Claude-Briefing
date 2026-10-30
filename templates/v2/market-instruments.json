@@ -162,6 +162,15 @@
     "precision": 2
   },
   {
+    "name": "Amazon",
+    "instrument": "AMZN",
+    "currency": "USD",
+    "unit": "μετοχή",
+    "market_timezone": "America/New_York",
+    "asset_class": "equity",
+    "precision": 2
+  },
+  {
     "name": "Apple",
     "instrument": "AAPL",
     "currency": "USD",

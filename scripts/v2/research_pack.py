@@ -62,6 +62,7 @@ def hydrate(payload,pack,root,at=None):
         payload['reading_review']['completed_at']=at
     for key in routine:
         payload[key]=copy.deepcopy(pack['data'][key])
+    module('market_briefing').hydrate(payload,pack,old_records)
     module('sports_briefing').hydrate(payload,pack)
     if module('sports_briefing').active(payload['sports']):
         payload['sports']['major_stories_reason']=payload.pop('sports_shortfall_reason','')
@@ -110,6 +111,9 @@ def hydrate(payload,pack,root,at=None):
             raise ValueError('Unknown synthesis axis')
         scan[p['axis']].append(p['text'])
     payload['executive_scan']={k:' '.join(v) for k,v in scan.items()} | {'day_catalysts':[]}
+    market_scan=payload.pop('_market_scan','')
+    if not payload['executive_scan']['markets_tech'] and market_scan:
+        payload['executive_scan']['markets_tech']=market_scan
     payload['delta_log']=[a.get('delta_update') or a['summary'] for a in payload['articles']] if slot!='morning' else []
     payload['synthesis_profile']='single-turn-v1'
     payload['prefetch_provenance']={'sha256':pack['sha256'],'prepared_at':pack['prepared_at']}

@@ -4,6 +4,8 @@ Daily synthesis uses only the grammar printed in its digest and the [task contra
 
 New compact directives: `@Coverage section=cyprus reason="Specific evidence limitation"` (or world) explains a desk below four stories. `@Omit id=story-id reason="No longer useful in this snapshot"` accounts for a baseline story without carrying stale copy. Same-day-only carries preserve exact records; omitted earlier stories remain in the cumulative day/archive. A sixth/seventh world story uses `@WorldException reason="Specific editorial reason"`.
 
+New depth-markets-v1 digests also allow `@Meaning` inside a news article for a short consequence with `@AnalysisSources`. After articles, `@Market instrument=GOOGL evidence=e1,e2 | Greek explanation` resolves the quote and reviewed article sources from the sealed pack; never repeat quote tables or submit a typed market block. Required priority candidates must use their evidence in a selected/carried story or have `@SkipPriority candidate=c1 reason="Specific editorial or evidence limitation"`. These directives use the same synthesis pass and token ceilings; their word limits and evidence rules are owned by the specification and printed in the digest. Prior packs retain their original contract.
+
 # Oracle Markdown authoring v1
 
 This optional prose authoring adapter feeds the existing compose/build/validation pipeline. JSON remains the public contract. Supply one .md to `python -X utf8 scripts/v2/compose.py --input work/briefing.md`. Do not commit private authoring files. Both formats remain supported while real usage is measured.

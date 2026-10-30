@@ -1842,6 +1842,9 @@
               "null"
             ]
           },
+          "session": {
+            "enum": ["regular", "pre", "post"]
+          },
           "instrument": {
             "type": "string"
           },
@@ -2272,6 +2275,17 @@
             "type": "string",
             "minLength": 20
           }
+        },
+        "priority_candidates": {
+          "type": "object",
+          "maxProperties": 2,
+          "propertyNames": {
+            "pattern": "^c[0-9]+$"
+          },
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 9
+          }
         }
       },
       "allOf": [
@@ -2436,6 +2450,36 @@
     },
     "selection_policy": {
       "const": "balanced-v1"
+    },
+    "briefing_policy": {
+      "const": "depth-markets-v1"
+    },
+    "technology_briefing": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "story_id",
+          "headline",
+          "url"
+        ],
+        "properties": {
+          "story_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "headline": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^articles/\\d{4}-\\d{2}-\\d{2}-(morning|midday|evening)/[a-z0-9-]+\\.html$"
+          }
+        }
+      }
     }
   },
   "additionalProperties": false

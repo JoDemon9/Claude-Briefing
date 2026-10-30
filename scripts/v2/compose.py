@@ -19,7 +19,7 @@ REQUIRED = ('published_at', 'editorial_completed_at', 'reading_review', 'article
 OPTIONAL = ('executive_scan', 'daily', 'markets', 'sports', 'panels', 'opportunities',
             'freshness', 'selection_review', 'image_review', 'changes', 'market_summary',
             'market_next_event', 'market_movers', 'market_core', 'market_notes',
-            'calculator', 'fast_wire', 'delta_log', 'baseline', 'synthesis_profile', 'prefetch_provenance', 'selection_policy')
+            'calculator', 'fast_wire', 'delta_log', 'baseline', 'synthesis_profile', 'prefetch_provenance', 'selection_policy', 'briefing_policy', 'technology_briefing')
 
 
 def module(name):
@@ -180,6 +180,8 @@ def compile_payload(payload, root=ROOT):
     payload = copy.deepcopy(payload)
     notes = []
     draft = scaffold(edition_id, root)
+    if payload.get('briefing_policy') != 'depth-markets-v1':
+        draft['markets']=[q for q in draft['markets'] if q['instrument']!='AMZN']
     for key in OPTIONAL:
         if key not in payload and key in draft:
             payload[key] = copy.deepcopy(draft[key])

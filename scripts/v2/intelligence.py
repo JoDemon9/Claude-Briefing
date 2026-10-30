@@ -42,6 +42,8 @@ def validate(edition, articles, root):
         baseline.load(root, edition['baseline'], edition['published_at'])
     inventory = json.loads((Path(root)/'templates/v2/market-instruments.json').read_text(encoding='utf-8'))
     expected = {q['instrument'] for q in inventory}
+    if edition.get('briefing_policy') != 'depth-markets-v1':
+        expected.discard('AMZN')  # Accepted editions retain the original 38-instrument inventory.
     actual = [q.get('instrument') for q in edition['markets']]
     if len(actual) != len(set(actual)) or not expected <= set(actual):
         raise ValueError('Keep every market instrument exactly once; absent quotes are unavailable')

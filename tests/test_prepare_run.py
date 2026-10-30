@@ -31,7 +31,7 @@ class HandoffTests(unittest.TestCase):
             self.assertEqual(pack['metrics']['ai_collection_calls'],0)
             records=handoff.module('baseline').load(ROOT,pack['baseline'])[1]
             self.assertEqual({a['story_id'] for a in records},{a['story_id'] for a in pack['baseline_stories']})
-            self.assertEqual(len(pack['data']['markets']),38)
+            self.assertEqual(len(pack['data']['markets']),39)
             self.assertEqual(len(pack['data']['sports']['coverage']),4)
             self.assertLessEqual(Path(result['digest']).stat().st_size,48000)
             self.assertTrue(Path(result['digest']).resolve().is_relative_to(Path(private).resolve()))

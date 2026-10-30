@@ -63,7 +63,10 @@
     "sports_lane": "omonoia",
     "format": "kerkida-listing",
     "url": "https://www.kerkida.net/eidiseis/a-katigoria/omonoia",
-    "hosts": ["www.kerkida.net", "kerkida.net"]
+    "hosts": [
+      "www.kerkida.net",
+      "kerkida.net"
+    ]
   },
   {
     "publisher": "Goal/Philenews",
@@ -72,14 +75,19 @@
     "section": "sports",
     "sports_lane": "omonoia",
     "url": "https://goal.philenews.com/category/podosfero/kypros/a-katigoria/omonoia/feed/",
-    "hosts": ["goal.philenews.com"]
+    "hosts": [
+      "goal.philenews.com"
+    ]
   },
   {
     "publisher": "OmonoiaNews",
     "section": "sports",
     "sports_lane": "omonoia",
     "url": "https://omonoianews.com/category/podosfairo/feed/",
-    "hosts": ["omonoianews.com", "www.omonoianews.com"]
+    "hosts": [
+      "omonoianews.com",
+      "www.omonoianews.com"
+    ]
   },
   {
     "publisher": "Omonoia FC",
@@ -168,6 +176,46 @@
       "feeds.bbci.co.uk",
       "www.bbc.com",
       "www.bbc.co.uk"
+    ]
+  },
+  {
+    "publisher": "BBC",
+    "section": "world",
+    "topic": "finance",
+    "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+    "hosts": [
+      "feeds.bbci.co.uk",
+      "www.bbc.com",
+      "www.bbc.co.uk"
+    ]
+  },
+  {
+    "publisher": "BBC",
+    "section": "world",
+    "topic": "technology",
+    "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    "hosts": [
+      "feeds.bbci.co.uk",
+      "www.bbc.com",
+      "www.bbc.co.uk"
+    ]
+  },
+  {
+    "publisher": "CNBC",
+    "section": "world",
+    "topic": "technology",
+    "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+    "hosts": [
+      "www.cnbc.com"
+    ]
+  },
+  {
+    "publisher": "BleepingComputer",
+    "section": "world",
+    "topic": "security",
+    "url": "https://www.bleepingcomputer.com/feed/",
+    "hosts": [
+      "www.bleepingcomputer.com"
     ]
   }
 ]

@@ -77,7 +77,7 @@ def parse(text, root, pack=None):
             raise ValueError('Unresolved source reference')
         article['sources'] = list(sources.values())
         article['analysis_sources'] = [sources[key]['url'] for key in analysis_ids]
-        for key in ('summary', 'mechanics_and_incentives', 'second_order_effects', 'delta_update'):
+        for key in ('summary', 'mechanics_and_incentives', 'second_order_effects', 'delta_update', 'newspaper_analysis'):
             if key in article:
                 clean = lambda value:re.sub(r'\[[a-z][a-z0-9-]*\]\s*', '', value)
                 article[key] = [clean(value) for value in article[key]] if isinstance(article[key],list) else clean(article[key])
@@ -202,6 +202,23 @@ def parse(text, root, pack=None):
                     raise ValueError('Duplicate favourite briefing')
                 meta['evidence'] = meta['evidence'].split(',')
                 notes[key] = meta
+            elif name == '@Market':
+                finish()
+                head, sep, body = value.partition(' | ')
+                meta = attributes(head)
+                fields(meta, ('instrument','evidence'), ('instrument','evidence'))
+                if not sep or not body.strip():
+                    raise ValueError('Market explanation requires text')
+                payload.setdefault('market_briefs', []).append({'instrument':meta['instrument'],
+                    'evidence':meta['evidence'].split(','),'text':body})
+            elif name == '@SkipPriority':
+                finish()
+                meta = attributes(value)
+                fields(meta, ('candidate','reason'), ('candidate','reason'))
+                skips = payload.setdefault('priority_skips', {})
+                if meta['candidate'] in skips or len(meta['reason'].strip()) < 20:
+                    raise ValueError('Priority omission needs one specific reason')
+                skips[meta['candidate']] = meta['reason']
             elif name == '@SportsReason':
                 finish()
                 if 'sports_shortfall_reason' in payload or len(value.strip()) < 20:
@@ -240,6 +257,8 @@ def parse(text, root, pack=None):
                          '@Mechanism':'mechanics_and_incentives','@Effects':'second_order_effects'}
                 if name in names:
                     article[names[name]] = value
+                elif name == '@Meaning':
+                    article['newspaper_analysis'] = [value]
                 elif name == '@Scenarios':
                     meta = attributes(value)
                     fields(meta, ('base','alternative','tail','label'))

@@ -1,4 +1,4 @@
-"""All 38 inventory rows and Limassol weather, collected without model inference."""
+"""Full instrument inventory and Limassol weather, without model inference."""
 import csv
 from datetime import datetime, timedelta, timezone
 import importlib.util
@@ -83,19 +83,48 @@ def parse_quote(item,row,at):
             day,value=sorted(found)[-1]; stamp=day
             publisher='Euribor Rates' if instrument in EURIBOR else 'Cyprus Stock Exchange'; status='reference'
         else:
-            meta=HTTP.data(row)['chart']['result'][0]['meta']
+            chart=HTTP.data(row)['chart']['result'][0]
+            meta=chart['meta']
             if meta['symbol'] != ALIASES.get(instrument,instrument) or meta['currency'] != item['currency']:
                 return result
             value=meta['regularMarketPrice']; timestamp=meta['regularMarketTime']
             if not finite(timestamp):
                 return result
             stamp=datetime.fromtimestamp(timestamp,timezone.utc).isoformat(); publisher='Yahoo Finance'; status='delayed'
-            previous=meta.get('previousClose')
+            previous=meta.get('regularMarketPreviousClose',meta.get('previousClose'))
             reported_change=meta.get('regularMarketChangePercent')
             if finite(reported_change):
                 result['change_pct']=reported_change
             elif finite(previous) and previous>0 and finite(value):
                 result['change_pct']=round((value/previous-1)*100,4)
+            if item['asset_class']=='equity':
+                result['session']='regular'
+                # Compare like-for-like. A chart-window baseline or an unadjusted
+                # split cannot establish a large daily move.
+                if finite(previous) and previous>0 and finite(reported_change) and finite(value):
+                    calculated=(value/previous-1)*100
+                    if abs(calculated-reported_change)>.1:
+                        result['change_pct']=None
+                splits=chart.get('events',{}).get('splits',{})
+                if not finite(reported_change) and any(finite(s.get('date')) and abs(timestamp-s['date'])<86400 for s in splits.values()):
+                    result['change_pct']=None
+                period=meta.get('currentTradingPeriod',{}).get('regular',{})
+                if (finite(period.get('start')) and finite(period.get('end')) and
+                        period['start']<=timestamp<=period['end']+900 and at.timestamp()>period['end']+900):
+                    status='previous_close'
+                # Some providers return extended-session fields in the same response.
+                # Prefer only a real newer, non-future observation; never infer one.
+                extended=[]
+                for key in ('pre','post'):
+                    price,when=meta.get(key+'MarketPrice'),meta.get(key+'MarketTime')
+                    if (finite(price) and price>0 and finite(when) and timestamp<when<=at.timestamp()
+                            and when<=datetime.fromisoformat(row['retrieved_at']).timestamp()):
+                        extended.append((when,price,key))
+                if extended and finite(value) and value>0:
+                    when,price,session=max(extended)
+                    result['change_pct']=round((price/value-1)*100,4)
+                    result['session']=session
+                    value=price;stamp=datetime.fromtimestamp(when,timezone.utc).isoformat();status='delayed'
         if not finite(value) or (item['asset_class']!='rate' and value<=0):
             return {**result,'change_pct':None}
         observed=datetime.fromisoformat(stamp)
@@ -107,8 +136,8 @@ def parse_quote(item,row,at):
         if observed>at or observed>retrieved or at-observed>max_age:
             return {**result,'change_pct':None}
         # Public schema calls rate/index observations 'delayed'; date is the observation, never retrieval.
-        result.update(value=value,quoted_at=stamp,status='delayed',sources=[HTTP.source(publisher,row['url'],row['retrieved_at'],kind='reporting' if instrument in EURIBOR or row['url']==CSE_FALLBACK else 'primary')])
-    except (ValueError,KeyError,IndexError,TypeError,OverflowError):
+        result.update(value=value,quoted_at=stamp,status='delayed' if status=='reference' else status,sources=[HTTP.source(publisher,row['url'],row['retrieved_at'],kind='reporting' if instrument in EURIBOR or row['url']==CSE_FALLBACK else 'primary')])
+    except (ValueError,KeyError,IndexError,TypeError,OverflowError,AttributeError):
         result.update(value=None,change_pct=None,quoted_at=None,status='unavailable',sources=[])
     return result
 

@@ -28,6 +28,7 @@ def prepare(root,day,slot,at,private_root,wire_root=None,client=None):
     client=client or transport.Client(folder/'source-cache',hosts)
     cutoff=research.instant(at)
     routine=module('prefetch').collect(root,client,cutoff)
+    packet['market_alerts']=module('market_briefing').alerts(routine['markets'],at)
     sports=module('sports').prefetch(client,cutoff)
     sports['news_links']=sports_news.prefetch(client,cutoff)
     sports['briefing_policy']='intelligence-v1'
@@ -40,7 +41,7 @@ def prepare(root,day,slot,at,private_root,wire_root=None,client=None):
     opportunities=[{**o['record'],'review_due':True} for o in packet['opportunities']]
     baseline_records=module('baseline').load(root,packet['baseline'])[1] if packet.get('baseline') else []
     photos=module('source_photos').prepare(evidence,root,folder/'source-cache/images')
-    pack=module('research_pack').seal(dict(version=1,protocol='oracle-synthesis/1',selection_policy='balanced-v1',edition_id=packet['edition_id'],
+    pack=module('research_pack').seal(dict(version=1,protocol='oracle-synthesis/1',selection_policy='balanced-v1',briefing_policy='depth-markets-v1',edition_id=packet['edition_id'],
         submission_workflow_installed=(Path(private_root)/'.github/workflows/submit-synthesis.yml').is_file(),
         submission_ready=(Path(private_root)/'.github/workflows/submit-synthesis.yml').is_file() and os.environ.get('ORACLE_SUBMISSION_READY')=='true',
         prepared_at=transport.now(),baseline=packet.get('baseline'),

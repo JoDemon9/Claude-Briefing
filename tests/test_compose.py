@@ -138,7 +138,7 @@ class ComposeTests(unittest.TestCase):
 
     def test_scaffold_contains_only_unknown_quotes_and_no_invented_reviews(self):
         draft=compose.scaffold('2026-10-22-morning',ROOT)
-        self.assertEqual(len(draft['markets']),38)
+        self.assertEqual(len(draft['markets']),39)
         self.assertTrue(all(q['value'] is None and q['status']=='unavailable' for q in draft['markets']))
         self.assertIsNone(draft['image_review']['completed_at'])
         self.assertEqual(draft['freshness'],[])
