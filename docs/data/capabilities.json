@@ -1,7 +1,7 @@
 {
   "contract_version": 1,
   "producer_protocol": "oracle-briefing/3",
-  "content_schema_sha256": "77d1811db96f04c2465e01afa5d8972c4fcdf16b75e6f211a2e801467cea2ead",
+  "content_schema_sha256": "b4d8ca4074f114f8c81169fd9e0224739370bf100112e249f32c7645975318fe",
   "edition_schema_versions": [
     2
   ],
@@ -12,6 +12,7 @@
     "availability_notes",
     "availability_policy",
     "baseline",
+    "briefing_policy",
     "calculator",
     "changes",
     "daily",
@@ -51,6 +52,7 @@
     "status",
     "summary_60s",
     "synthesis_profile",
+    "technology_briefing",
     "timezone",
     "title",
     "type",
@@ -121,6 +123,7 @@
     "oracle-markdown/1"
   ],
   "synthesis_protocol": "oracle-synthesis/1",
+  "briefing_policy": "depth-markets-v1",
   "prefetch_before_model": true,
   "intelligence_contract": 1,
   "explicit_baseline_reuse": true,
@@ -141,7 +144,7 @@
   "favourite_news_required_from": "2026-10-19",
   "favourite_news_max_age_minutes": 720,
   "editorial_protocol": "oracle-editorial/1",
-  "runtime_policy_sha256": "dbba1d71e32b1f0d0ef2e5bc4bc23b484a9c0975056c08ea867ff7844bf1dc21",
+  "runtime_policy_sha256": "4758cc0fc28820df8b72c110bb8debaddbb041930b592ea7703c90443f825a99",
   "required_from_local_date": "2026-10-16",
   "reading_review_version": 2,
   "image_review_version": 2,
