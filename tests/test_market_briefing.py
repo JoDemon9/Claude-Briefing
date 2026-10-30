@@ -98,6 +98,20 @@ class MarketBriefingTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'article evidence'):
             packmod.hydrate(payload,pack,ROOT,AT.isoformat())
 
+    def test_financial_company_explanation_cannot_use_unrelated_earnings_evidence(self):
+        pack,payload,_=prepared()
+        q=next(q for q in pack['data']['markets'] if q['instrument']=='GS')
+        q.update(value=200,change_pct=-6,quoted_at=AT.isoformat(),status='delayed',sources=[pack['evidence']['e1']['source']])
+        payload['market_briefs']=[{'instrument':'GS','evidence':['e1'],
+            'text':'Συγκεκριμένη εξήγηση με τεκμηρίωση και διακριτή συνέπεια για τους ενδιαφερόμενους αναγνώστες της έκδοσης.'}]
+        pack=packmod.seal(pack);payload['research_pack_sha256']=pack['sha256']
+        with self.assertRaisesRegex(ValueError,'identify the explained instrument'):
+            packmod.hydrate(payload,pack,ROOT,AT.isoformat())
+        pack['evidence']['e1']['title']='Goldman Sachs earnings and guidance'
+        pack=packmod.seal(pack);payload['research_pack_sha256']=pack['sha256']
+        result=packmod.hydrate(payload,pack,ROOT,AT.isoformat())
+        self.assertIn('GS',result['market_movers'][0]['text'])
+
     def test_priority_is_covered_or_explicitly_omitted_without_fabricated_shortage(self):
         pack,payload,_=prepared()
         ev=copy.deepcopy(pack['evidence']['e1']);ev['source']['url']='https://example.com/binance-security'

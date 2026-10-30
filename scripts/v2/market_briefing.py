@@ -13,6 +13,9 @@ COMPANIES = {
     'NVDA': r'\bnvidia\b|\bnvda\b', 'MSFT': r'\bmicrosoft\b|\bmsft\b',
     'AAPL': r'\bapple\b|\baapl\b', 'META': r'\bmeta\b|\bfacebook\b',
     'TSM': r'\btsmc\b|\btsm\b', 'MU': r'\bmicron\b',
+    'GS': r'\bgoldman sachs\b|\bgs\b', 'BAC': r'\bbank of america\b|\bbac\b',
+    'BLK': r'\bblackrock\b|\bblk\b', 'STT': r'\bstate street\b|\bstt\b',
+    'JNJ': r'\bjohnson\s*(?:&|and)\s*johnson\b|\bjnj\b',
     'BTC-USD': r'\bbitcoin\b|\bbtc\b', 'ETH-USD': r'\bethereum\b|\beth\b',
 }
 SECURITY = r'\b(?:hack\w*|breach\w*|ransomware|cyberattack\w*|exploit\w*|stolen|theft)\b|κυβερνοεπιθεσ|παραβιασ|κλοπη'
@@ -140,7 +143,7 @@ def hydrate(payload, pack, old_records):
                                or e['source'].get('access')!='read' or not e['source'].get('used_for_claims') for e in evidence):
             raise ValueError('Market explanations require article evidence, never feed-only or quote evidence')
         # Relate the explanation to its instrument without asserting that a keyword proves causation.
-        if not any(re.search(COMPANIES.get(instrument, re.escape(instrument.casefold())),
+        if not any(re.search(COMPANIES.get(instrument, r'(?<!\w)'+re.escape(instrument.casefold())+r'(?!\w)'),
                              normalized(e.get('title', '')+' '+e.get('excerpt', ''))) for e in evidence):
             raise ValueError('Market evidence must identify the explained instrument')
         quote = quotes[instrument]
