@@ -61,6 +61,77 @@ def record():
 
 
 class SourcePhotoTests(unittest.TestCase):
+    def test_realistic_social_metadata_reaches_prepared_photo_and_schema(self):
+        from jsonschema import Draft202012Validator, FormatChecker
+        cases = [
+            ('https://www.bbc.co.uk/news/story', 'https://ichef.bbci.co.uk/news/photo.jpg'),
+            ('https://www.theguardian.com/world/story', 'https://i.guim.co.uk/img/photo.jpg'),
+            ('https://cyprus-mail.com/story', 'https://i0.wp.com/press.example/event.jpg'),
+            ('https://www.cna.org.cy/story', 'https://d123.cloudfront.net/event.jpg'),
+            ('https://omonoianews.com/story', 'https://publisher-cdn.example/event.jpg'),
+            ('https://www.padeladdict.com/story', 'https://images.padeladdict.com/event.jpg'),
+        ]
+        schema = json.loads((ROOT/'templates/v2/content.schema.json').read_text())['$defs']['article']['properties']['image']
+        for page, image_url in cases:
+            with self.subTest(page=page), tempfile.TemporaryDirectory() as cache:
+                markup = f'<meta property="og:title" content="Latest news from the match"><meta property="og:site_name" content="Original Publisher"><meta property="og:image" content="{image_url}">'
+                rows = photos.extract(BeautifulSoup(markup,'html.parser'),page)
+                opener = mock.Mock(side_effect=lambda *a, **kw:Response(fixture_bytes(), image_url))
+                prepared = photos.prepare({'e1':dict(access='article_excerpt',source={'url':page},image_candidates=rows)},ROOT,cache,opener)
+                self.assertEqual(prepared['metrics']['prepared'],1)
+                selected, raw = photos.validate(prepared['photos']['e1'])
+                self.assertEqual(selected['source_review']['rights_basis'],'publisher-attribution')
+                self.assertEqual(selected['license_url'],page)
+                self.assertEqual(selected['attribution'],'Original Publisher')
+                Draft202012Validator(schema,format_checker=FormatChecker()).validate(selected)
+                self.assertIsNotNone(photos.select({'sources':[dict(url=page,access='read',used_for_claims=True)],'_source_photos':[prepared['photos']['e1']]},set()))
+                self.assertIsNone(photos.select({'sources':[dict(url=page,access='read',used_for_claims=True)],'_source_photos':[prepared['photos']['e1']]},{selected['source_review']['perceptual_hash']}))
+
+    def test_caption_priority_short_titles_jsonld_publisher_and_item_credits(self):
+        for selector in ('property="og:image:alt"','name="twitter:image:alt"','property="og:title"'):
+            markup = f'<meta {selector} content="Preferred detailed caption"><h1>Different headline</h1><meta name="twitter:image" content="{URL}">'
+            row = photos.extract(BeautifulSoup(markup,'html.parser'),PAGE)[0]
+            self.assertEqual(row['caption'],'Preferred detailed caption')
+            self.assertEqual(row['attribution'],'www.philenews.com')
+        for title in ('<h1>News</h1>', '<title>News</title>'):
+            markup = title + f'<meta property="og:image" content="{URL}">'
+            row = photos.extract(BeautifulSoup(markup,'html.parser'),PAGE)[0]
+            self.assertGreaterEqual(len(row['caption']),15)
+            self.assertTrue(row['caption'].startswith('News'))
+        markup = html(caption='',creditText='',license='').replace('"image":', '"publisher":{"name":"JSON Publisher"},"image":')
+        row = photos.extract(BeautifulSoup('<h1>Specific article headline</h1>'+markup,'html.parser'),PAGE)[0]
+        self.assertEqual(row['attribution'],'JSON Publisher')
+        self.assertEqual(row['caption'],'Specific article headline')
+        row = photos.extract(BeautifulSoup(html()+'<meta property="og:site_name" content="Fallback">','html.parser'),PAGE)[0]
+        self.assertEqual(row['attribution'],'Fixture Photographer')
+
+    def test_figure_without_photo_word_and_all_configured_feed_hosts(self):
+        markup = '<h1>Opening of the new public building</h1><article><figure><img src="https://media.example/event.jpg"><figcaption>Ministers outside the building</figcaption></figure></article>'
+        rules = photos.policy(ROOT)
+        feeds = json.loads((ROOT/'templates/v2/prefetch-feeds.json').read_text())
+        for host in {host for feed in feeds for host in feed['hosts']}:
+            page = f'https://{host}/news/story'
+            row = photos.extract(BeautifulSoup(markup,'html.parser'),page)[0]
+            self.assertTrue(row['photograph'])
+            self.assertIsNotNone(photos.eligible(row,page,rules))
+
+    def test_fallback_bad_images_unbound_external_hosts_and_private_dns_are_rejected(self):
+        for word in ('logo','icon','avatar','infographic'):
+            markup = f'<meta property="og:image:alt" content="Publisher {word} for sharing"><meta property="og:image" content="{URL}">'
+            self.assertEqual(photos.extract(BeautifulSoup(markup,'html.parser'),PAGE),[])
+        c = dict(candidate(),url='https://external.example/image.jpg')
+        c.pop('article_url')
+        self.assertIsNone(photos.eligible(c,PAGE,photos.policy(ROOT)))
+        for url in ('https://localhost/image.jpg','https://169.254.169.254/image.jpg','https://10.0.0.1/image.jpg','https://[::1]/image.jpg'):
+            self.assertFalse(photos.public_image_url(url))
+        with mock.patch.object(photos.socket,'getaddrinfo',return_value=[(2,1,6,'',('127.0.0.1',443))]):
+            self.assertFalse(photos.public_image_url(URL,resolve=True))
+        with tempfile.TemporaryDirectory() as cache:
+            photo = record(); photo['image']['source_review']['rights_basis']='publisher-attribution'
+            photo['image']['license']='CC BY 4.0'
+            photo['image']['license_url']=PAGE
+            with self.assertRaises(ValueError):photos.validate(photo)
+
     def test_article_metadata_and_figure_are_merged_without_network(self):
         markup = html()+'<article><figure><img src="/photos/event.jpg"><figcaption>'+CAPTION+'</figcaption></figure></article><meta property="og:image" content="'+URL+'">'
         with mock.patch('urllib.request.urlopen', side_effect=AssertionError('network')):
@@ -69,11 +140,14 @@ class SourcePhotoTests(unittest.TestCase):
         self.assertEqual(rows[0]['license_url'], LICENCE)
         self.assertEqual(rows[0]['attribution'], 'Fixture Photographer')
 
-    def test_footer_article_licence_social_image_and_credit_are_not_image_permission(self):
+    def test_footer_licence_is_not_misrepresented_as_image_cc(self):
         markup = html(license='').replace('"url":', '"license":"'+LICENCE+'", "url":', 1)
         markup += '<footer><a rel="license" href="'+LICENCE+'">licence</a></footer>'
         row = photos.extract(BeautifulSoup(markup, 'html.parser'), PAGE)[0]
-        self.assertIsNone(photos.eligible(row, PAGE, photos.policy(ROOT)))
+        selected = photos.eligible(row, PAGE, photos.policy(ROOT))
+        self.assertEqual(selected['rights_basis'], 'publisher-attribution')
+        self.assertEqual(selected['license'], 'Publisher editorial attribution')
+        self.assertEqual(selected['license_url'], PAGE)
         for licence in ('https://creativecommons.org/licenses/by-nc/4.0/', 'https://creativecommons.org/licenses/by-nd/4.0/', LICENCE+'?fake=1'):
             self.assertIsNone(photos.eligible(dict(row, license_url=licence), PAGE, photos.policy(ROOT)))
 
@@ -82,8 +156,7 @@ class SourcePhotoTests(unittest.TestCase):
         self.assertEqual(photos.extract(BeautifulSoup(markup, 'html.parser'), PAGE), [])
         for values in ({'contentUrl':'/logo.png'}, {'caption':'AI generated illustration of a building'}):
             self.assertEqual(photos.extract(BeautifulSoup(html(**values), 'html.parser'), PAGE), [])
-        row = photos.extract(BeautifulSoup(html(caption='A chart of the economy'), 'html.parser'), PAGE)[0]
-        self.assertIsNone(photos.eligible(row, PAGE, photos.policy(ROOT)))
+        self.assertEqual(photos.extract(BeautifulSoup(html(caption='A chart of the economy'), 'html.parser'), PAGE), [])
 
     def test_image_rights_do_not_enable_arbitrary_hosts_or_redirects(self):
         rules = photos.policy(ROOT)
@@ -113,12 +186,13 @@ class SourcePhotoTests(unittest.TestCase):
         bad = copy.deepcopy(photo); bad['image']['source_review']['perceptual_hash'] = 'f'*16
         with self.assertRaises(ValueError): photos.validate(bad)
 
-    def test_download_failures_and_unknown_rights_leave_fallback_available(self):
+    def test_download_failures_and_unbound_images_leave_fallback_available(self):
         row = dict(access='article_excerpt', source={'url':PAGE}, image_candidates=[candidate()])
         with tempfile.TemporaryDirectory() as cache:
             result = photos.prepare({'e1':row}, ROOT, cache, mock.Mock(side_effect=TimeoutError))
             self.assertEqual(result['photos'], {}); self.assertEqual(result['metrics']['failed'], 1)
             row['image_candidates'][0]['license_url'] = ''
+            row['image_candidates'][0].pop('article_url', None)
             opener = mock.Mock(side_effect=AssertionError('must not fetch'))
             result = photos.prepare({'e1':row}, ROOT, cache, opener)
             self.assertEqual(result['metrics']['no_eligible_image'], 1); opener.assert_not_called()

@@ -264,7 +264,8 @@
                 "rights_basis": {
                   "enum": [
                     "image-license",
-                    "reviewed-image"
+                    "reviewed-image",
+                    "publisher-attribution"
                   ]
                 },
                 "checked_at": {

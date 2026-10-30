@@ -1,20 +1,68 @@
 {
-  "version": 1,
-  "policy": "Image-level CC BY, CC BY-SA, CC0 or public-domain declarations only, with photo caption and attribution. Host approval permits transport, not republication. Unknown rights use the reviewed archive library. Exact reviewed_images grants must name article_url, image_url, license_url, attribution, caption and photograph=true; no blanket publisher grants.",
+  "version": 2,
+  "policy": "Preserve explicit supported image-level licences and original credits. For images extracted directly from fetched articles of configured feed publishers, use publisher-attribution with Publisher editorial attribution and a source-article link when no image licence is declared. This attribution policy is not a Creative Commons licence or a claim of publisher permission. Reject logos/icons/avatars/infographics and unsafe network destinations; retain existing decoding, deduplication and fallback behavior.",
   "publishers": {
-    "www.bbc.com": ["www.bbc.com", "ichef.bbci.co.uk"],
-    "www.bbc.co.uk": ["www.bbc.co.uk", "ichef.bbci.co.uk"],
-    "www.philenews.com": ["www.philenews.com"],
-    "cyprus-mail.com": ["cyprus-mail.com"],
-    "www.aljazeera.com": ["www.aljazeera.com"],
-    "www.theguardian.com": ["i.guim.co.uk", "media.guim.co.uk"],
-    "www.france24.com": ["www.france24.com", "s.france24.com"],
-    "www.cnbc.com": ["image.cnbcfm.com"],
-    "www.sigmalive.com": ["www.sigmalive.com"],
-    "www.omonoiafc.com.cy": ["www.omonoiafc.com.cy"],
-    "www.padelfip.com": ["www.padelfip.com", "padelfip.com"],
-    "padelfip.com": ["www.padelfip.com", "padelfip.com"],
-    "www.padeladdict.com": ["www.padeladdict.com"]
+    "www.bbc.com": [
+      "www.bbc.com",
+      "ichef.bbci.co.uk"
+    ],
+    "www.bbc.co.uk": [
+      "www.bbc.co.uk",
+      "ichef.bbci.co.uk"
+    ],
+    "www.philenews.com": [
+      "www.philenews.com"
+    ],
+    "cyprus-mail.com": [
+      "cyprus-mail.com"
+    ],
+    "www.aljazeera.com": [
+      "www.aljazeera.com"
+    ],
+    "www.theguardian.com": [
+      "i.guim.co.uk",
+      "media.guim.co.uk"
+    ],
+    "www.france24.com": [
+      "www.france24.com",
+      "s.france24.com"
+    ],
+    "www.cnbc.com": [
+      "image.cnbcfm.com"
+    ],
+    "www.sigmalive.com": [
+      "www.sigmalive.com"
+    ],
+    "www.omonoiafc.com.cy": [
+      "www.omonoiafc.com.cy"
+    ],
+    "www.padelfip.com": [
+      "www.padelfip.com",
+      "padelfip.com"
+    ],
+    "padelfip.com": [
+      "www.padelfip.com",
+      "padelfip.com"
+    ],
+    "www.padeladdict.com": [
+      "www.padeladdict.com"
+    ],
+    "www.cna.org.cy": [
+      "www.cna.org.cy",
+      "cna.org.cy"
+    ],
+    "cna.org.cy": [
+      "www.cna.org.cy",
+      "cna.org.cy"
+    ]
   },
-  "reviewed_images": []
+  "reviewed_images": [],
+  "publisher_attribution": true,
+  "allow_article_referenced_hosts": true,
+  "image_cdn_hosts": [
+    "ichef.bbci.co.uk",
+    "i.guim.co.uk",
+    "*.wp.com",
+    "*.cloudfront.net"
+  ]
 }
