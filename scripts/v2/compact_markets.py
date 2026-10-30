@@ -70,7 +70,7 @@ def markets(b, e):
     evidence=''.join('<h4>Σημείο '+str(i)+'</h4>'+b.source_links(n['sources']) for i,n in enumerate(overview,1))
     if evidence:summary+='<details class="sources-disclosure overview-sources"><summary>Πηγές σύνοψης</summary><div class="disclosure-body">'+evidence+'</div></details>'
     html = '<section class="section compact-markets" id="markets"><div class="sectionhead"><h2>'+b.emblem('markets')+'Αγορές.</h2><a class="read-link" href="../markets.html">Ιστορικά γραφήματα ↗</a></div><div class="market-overview"><h3>Η εικόνα των αγορών σε 30 δευτερόλεπτα</h3>'+summary+'</div><div class="core-quotes">'+''.join(quote(q) for q in core)+'</div>'
-    tech_keys = {key for _,key in TECH}
+    tech_keys = {key for _,key in companies}
     rates = []
     groups = {}
     tech = {}

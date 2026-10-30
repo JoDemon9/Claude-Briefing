@@ -45,6 +45,15 @@ class MarketBriefingTests(unittest.TestCase):
         self.assertIn('Amazon',page.select_one('.tech-table').get_text())
         self.assertEqual(len(edition['markets']),39)
 
+    def test_legacy_presentation_keeps_every_quote_even_with_an_extra_instrument(self):
+        pack,payload,_=prepared()
+        result=packmod.hydrate(payload,pack,ROOT,AT.isoformat())
+        edition,_,_=compose.compile_payload(result,ROOT)
+        edition.pop('briefing_policy')
+        page=BeautifulSoup(build.markets(edition),'html.parser')
+        self.assertEqual(len(page.select('[data-quote-key]')),len(edition['markets']))
+        self.assertEqual(len(page.select('[data-quote-key="AMZN"]')),1)
+
     def test_stale_future_nan_and_unavailable_quotes_do_not_generate_alerts(self):
         pack,_,_=prepared();quote=next(q for q in pack['data']['markets'] if q['instrument']=='GOOGL')
         for changes in ({'status':'unavailable'},{'change_pct':float('nan')},
