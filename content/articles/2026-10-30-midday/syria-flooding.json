@@ -1,0 +1,69 @@
+{
+  "analysis_sources": [],
+  "baseline_origin": {
+    "edition_id": "2026-10-30-morning",
+    "fingerprint": "e20ac4292fc63294e92ed335fae228fd7f80edde2d4dcc5ab098d576c03271f1"
+  },
+  "category": "Διεθνή",
+  "change_status": "UNCHANGED",
+  "daily": {
+    "events": [],
+    "priority": 3,
+    "section": "world"
+  },
+  "driver_tags": [
+    "syria",
+    "floods",
+    "humanitarian"
+  ],
+  "edition_id": "2026-10-30-midday",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Συρία: αναφορές για θανάτους και αγνοουμένους από πλημμύρες",
+  "id": "syria-flooding",
+  "image": {
+    "alt": "Η Γη από το Apollo 17, πραγματική φωτογραφία NASA της 7ης Δεκεμβρίου 1972 · γενικό διεθνές πλαίσιο",
+    "attribution": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+    "caption": "Φωτογραφία αρχείου · Η Γη από το Apollo 17, πραγματική φωτογραφία NASA της 7ης Δεκεμβρίου 1972 · γενικό διεθνές πλαίσιο. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "retrieved_at": "2026-10-25T22:21:39.242726+00:00",
+    "reuse_review": {
+      "relevance_and_archive_date_checked": true,
+      "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+      "sha256": "a5006f0e3b79f189db76dd7b4288efc835ec2d1c25b0cd775b2f9c2153827a61",
+      "source_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+    "url": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+  },
+  "published_at": "2026-10-30T05:29:45.355122+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Το Al Jazeera αναφέρει ότι σφοδρές βροχές προκάλεσαν τουλάχιστον πέντε θανάτους, ανάμεσά τους τέσσερα παιδιά, σε βόρειες και ανατολικές περιοχές της Συρίας. Σύμφωνα με το ίδιο ρεπορτάζ, άλλοι πέντε άνθρωποι αγνοούνται και συνεργεία διέσωσαν 15 πολίτες από οχήματα παγιδευμένα στα νερά."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-10-30T03:11:55+00:00",
+      "publisher": "Al Jazeera",
+      "reporting_group": "Al Jazeera",
+      "retrieved_at": "2026-10-30T04:20:52.549529+00:00",
+      "url": "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria?traffic_source=rss",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "syria-floods-2026-10-30",
+  "story_identity": "syria-floods-2026-10-30",
+  "summary": "Το Al Jazeera αναφέρει ότι σφοδρές βροχές προκάλεσαν τουλάχιστον πέντε θανάτους, ανάμεσά τους τέσσερα παιδιά, σε βόρειες και ανατολικές περιοχές της Συρίας. Σύμφωνα με το ίδιο ρεπορτάζ, άλλοι πέντε άνθρωποι αγνοούνται και συνεργεία διέσωσαν 15 πολίτες από οχήματα παγιδευμένα στα νερά.",
+  "updated_at": "2026-10-30T05:29:45.355122+00:00",
+  "url": "articles/2026-10-30-midday/syria-flooding.html"
+}
