@@ -355,6 +355,14 @@
       "fingerprint": "0eccf85dd924042482a51b0bdccf3ddc3ae2d00562de1a3c4fef21e8f06ab56d"
     },
     {
+      "id": "2026-10-30-midday",
+      "date": "2026-10-30",
+      "type": "midday",
+      "published_at": "2026-10-30T11:35:07.973388+00:00",
+      "url": "midday/2026-10-30.html",
+      "fingerprint": "2b4157bcaca346266926a1dbcd8a22681dfbc2c1d6202766f7f7c54a8b5efe06"
+    },
+    {
       "id": "2026-10-30-morning",
       "date": "2026-10-30",
       "type": "morning",
@@ -12238,6 +12246,330 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-12-morning/nfl-jaguars-london.webp"
+    },
+    {
+      "story_id": "dockworkers-gaza-strike-2026-10-30",
+      "identity": "dockworkers-gaza-strike-2026-10-30",
+      "edition_id": "2026-10-30-midday",
+      "date": "2026-10-30",
+      "slot": "midday",
+      "published_at": "2026-10-30T11:35:07.973388+00:00",
+      "available_at": "2026-10-30T11:35:07.973388+00:00",
+      "headline": "Λιμενεργάτες: αναφερόμενη διεθνής κινητοποίηση για τη Γάζα",
+      "finding": "Το Al Jazeera αναφέρει ότι περισσότερα από 25 συνδικάτα λιμενεργατών, σε πάνω από 110 λιμάνια 22 χωρών, προχωρούν σε απεργία στις 30 Οκτωβρίου για τη Γάζα. Το απόσπασμα δεν δίνει επιβεβαιωμένο απολογισμό πραγματικής συμμετοχής, διάρκειας διακοπών ή φορτίων που επηρεάστηκαν.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-30-midday/dockworkers-strike.json",
+      "reader_url": "articles/2026-10-30-midday/dockworkers-strike.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/features/2026/10/30/what-can-a-global-strike-of-dockworkers-achieve-for-gaza?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-10-30T10:04:35+00:00",
+          "retrieved_at": "2026-10-30T10:20:52.615231+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/world-4.webp"
+    },
+    {
+      "story_id": "cyprus-support-programmes-strike-2026-10-30",
+      "identity": "cyprus-support-programmes-strike-2026-10-30",
+      "edition_id": "2026-10-30-midday",
+      "date": "2026-10-30",
+      "slot": "midday",
+      "published_at": "2026-10-30T11:35:07.973388+00:00",
+      "available_at": "2026-10-30T11:35:07.973388+00:00",
+      "headline": "Εκπαιδευτικά προγράμματα: ανακοινώθηκε απεργία από τη Δευτέρα",
+      "finding": "Οι ΣΕΚ και ΠΕΟ ανακοίνωσαν απεργία αορίστου χρόνου από τη Δευτέρα για εργαζομένους σε υποστηρικτικά προγράμματα του Υπουργείου Παιδείας, σύμφωνα με το Cyprus Mail. Οι συντεχνίες καταγγέλλουν ότι πολλοί παραμένουν απλήρωτοι επί πέντε μήνες και ότι η σχετική νομοθεσία δεν εφαρμόστηκε πλήρως· το απόσπασμα δεν περιλαμβάνει απάντηση του υπουργείου.",
+      "section": "cyprus",
+      "priority": 2,
+      "article_path": "articles/2026-10-30-midday/support-workers.json",
+      "reader_url": "articles/2026-10-30-midday/support-workers.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/30/support-programmes-staff-to-strike-indefinitely-over-unpaid-wages",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-30T10:20:03+00:00",
+          "retrieved_at": "2026-10-30T10:20:53.853647+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-midday/cyprus-2.webp"
+    },
+    {
+      "story_id": "cyprus-usury-reference-2026-10-30",
+      "identity": "cyprus-usury-reference-2026-10-30",
+      "edition_id": "2026-10-30-midday",
+      "date": "2026-10-30",
+      "slot": "midday",
+      "published_at": "2026-10-30T11:35:07.973388+00:00",
+      "available_at": "2026-10-30T11:35:07.973388+00:00",
+      "headline": "Κεντρική Τράπεζα: 11,60% η αναφορά για το πλαίσιο τοκογλυφίας",
+      "finding": "Το Philenews αναφέρει ότι η Κεντρική Τράπεζα καθόρισε στο 11,60% το επιτόκιο αναφοράς που προβλέπεται στο άρθρο 314Α του Ποινικού Κώδικα για την αντιμετώπιση της τοκογλυφίας. Πρόκειται για παράμετρο εφαρμογής του συγκεκριμένου ποινικού πλαισίου και όχι ανακοίνωση νέου επιτοκίου της ΕΚΤ ή ενιαίας τιμολόγησης δανείων.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-10-30-midday/usury-reference.json",
+      "reader_url": "articles/2026-10-30-midday/usury-reference.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1788832/kentriki-trapeza-sto-1160-to-epitokio-anaforas-filakisi-eos-pente-chronia-gia-paravates",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-30T10:15:16+00:00",
+          "retrieved_at": "2026-10-30T10:20:53.192308+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-13-midday/world-1.webp"
+    },
+    {
+      "story_id": "spain-padel-leal-selection-2026-10-30",
+      "identity": "spain-padel-leal-selection-2026-10-30",
+      "edition_id": "2026-10-30-midday",
+      "date": "2026-10-30",
+      "slot": "midday",
+      "published_at": "2026-10-30T11:35:07.973388+00:00",
+      "available_at": "2026-10-30T11:35:07.973388+00:00",
+      "headline": "Padel: ο Χάβι Λεάλ στην ισπανική αποστολή αντί του Γκαλάν",
+      "finding": "Το Padel Addict αναφέρει ότι η ισπανική ομοσπονδία επιβεβαίωσε την ένταξη του Χάβι Λεάλ στην αποστολή για το Παγκόσμιο στο Κατάρ αντί του Γκαλάν. Η διοργάνωση έχει προγραμματιστεί στη Ντόχα στις 2–7 Νοεμβρίου.",
+      "section": "sports",
+      "priority": 4,
+      "article_path": "articles/2026-10-30-midday/spain-padel.json",
+      "reader_url": "articles/2026-10-30-midday/spain-padel.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/javi-leal-sustituto-galan-mundial-padel",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-10-30T10:00:22+00:00",
+          "retrieved_at": "2026-10-30T10:21:00.697912+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/library/sports.webp"
+    },
+    {
+      "story_id": "dart-guangzhou-semifinal-2026-10-30",
+      "identity": "dart-guangzhou-semifinal-2026-10-30",
+      "edition_id": "2026-10-30-midday",
+      "date": "2026-10-30",
+      "slot": "midday",
+      "published_at": "2026-10-30T11:35:07.973388+00:00",
+      "available_at": "2026-10-30T11:35:07.973388+00:00",
+      "headline": "Τένις: η Νταρτ στα ημιτελικά της Γκουανγκζού",
+      "finding": "Η Χάριετ Νταρτ ανέτρεψε προβάδισμα ενός σετ της Πάουλα Μπαντόσα και προκρίθηκε στα ημιτελικά της Γκουανγκζού, σύμφωνα με το BBC. Είναι ο δεύτερος ημιτελικός της καριέρας της στο WTA Tour.",
+      "section": "sports",
+      "priority": 5,
+      "article_path": "articles/2026-10-30-midday/dart-guangzhou.json",
+      "reader_url": "articles/2026-10-30-midday/dart-guangzhou.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cq5ynegm2p53o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-30T09:48:36+00:00",
+          "retrieved_at": "2026-10-30T10:21:01.341525+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-evening/shanghai-bergs-alcaraz.webp"
+    },
+    {
+      "story_id": "israel-election-2026-10-27",
+      "identity": "israel-election-2026-10-27",
+      "edition_id": "2026-10-30-midday",
+      "date": "2026-10-30",
+      "slot": "midday",
+      "published_at": "2026-10-27T11:32:58.215892+00:00",
+      "available_at": "2026-10-30T11:35:07.973388+00:00",
+      "headline": "Ισραήλ: το μπλοκ Νετανιάχου κάτω από την πλειοψηφία",
+      "finding": "Το CNBC αναφέρει ότι η τελική καταμέτρηση αφήνει και τα δύο βασικά μπλοκ κάτω από τις 61 έδρες που απαιτούνται για πλειοψηφία. Επικαλούμενο την Κεντρική Εκλογική Επιτροπή, αποδίδει 53 έδρες στο μπλοκ Νετανιάχου και μεταφέρει ισχυρισμούς του κόμματός του περί κλοπής των εκλογών, χωρίς το απόσπασμα να τους τεκμηριώνει.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-30-midday/israel-election.json",
+      "reader_url": "articles/2026-10-30-midday/israel-election.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-10-30T03:28:10+00:00",
+          "retrieved_at": "2026-10-30T04:20:52.543555+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "boj-rate-inflation-2026-10-30",
+      "identity": "boj-rate-inflation-2026-10-30",
+      "edition_id": "2026-10-30-midday",
+      "date": "2026-10-30",
+      "slot": "midday",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T11:35:07.973388+00:00",
+      "headline": "Ιαπωνία: αμετάβλητο επιτόκιο και νέα εκτίμηση για τον πληθωρισμό",
+      "finding": "Η Τράπεζα της Ιαπωνίας διατήρησε το επιτόκιο στο 1,25% και έκρινε τον υποκείμενο πληθωρισμό γενικά συμβατό με τον στόχο 2%, σύμφωνα με το CNBC. Η τράπεζα επισήμανε επίσης κίνδυνο ανοδικής απόκλισης, επικαλούμενη μεταβολή στη συμπεριφορά των επιχειρήσεων ως προς μισθούς και τιμές.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-30-midday/boj-decision.json",
+      "reader_url": "articles/2026-10-30-midday/boj-decision.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-10-30T03:16:28+00:00",
+          "retrieved_at": "2026-10-30T04:20:52.528437+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-morning/nfl-jaguars-london.webp"
+    },
+    {
+      "story_id": "syria-floods-2026-10-30",
+      "identity": "syria-floods-2026-10-30",
+      "edition_id": "2026-10-30-midday",
+      "date": "2026-10-30",
+      "slot": "midday",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T11:35:07.973388+00:00",
+      "headline": "Συρία: αναφορές για θανάτους και αγνοουμένους από πλημμύρες",
+      "finding": "Το Al Jazeera αναφέρει ότι σφοδρές βροχές προκάλεσαν τουλάχιστον πέντε θανάτους, ανάμεσά τους τέσσερα παιδιά, σε βόρειες και ανατολικές περιοχές της Συρίας. Σύμφωνα με το ίδιο ρεπορτάζ, άλλοι πέντε άνθρωποι αγνοούνται και συνεργεία διέσωσαν 15 πολίτες από οχήματα παγιδευμένα στα νερά.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-10-30-midday/syria-flooding.json",
+      "reader_url": "articles/2026-10-30-midday/syria-flooding.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-10-30T03:11:55+00:00",
+          "retrieved_at": "2026-10-30T04:20:52.549529+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "australia-feral-deer-report-2026-10-30",
+      "identity": "australia-feral-deer-report-2026-10-30",
+      "edition_id": "2026-10-30-midday",
+      "date": "2026-10-30",
+      "slot": "midday",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T11:35:07.973388+00:00",
+      "headline": "Αυστραλία: έκθεση επισημαίνει κενά στον έλεγχο άγριων ελαφιών",
+      "finding": "Ο Guardian παρουσιάζει αδημοσίευτη κυβερνητική αξιολόγηση που καταγράφει δυσκολίες στον έλεγχο της εξάπλωσης άγριων ελαφιών στις περισσότερες αυστραλιανές πολιτείες και επικράτειες. Ως εξαίρεση αναφέρει τη Νότια Αυστραλία, η οποία ξεκίνησε πολιτειακό σχέδιο εξάλειψης το 2022 και έλαβε θετική αξιολόγηση στις τέσσερις κατηγορίες.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-10-30-midday/australia-deer.json",
+      "reader_url": "articles/2026-10-30-midday/australia-deer.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/environment/2026/oct/30/australia-feral-deer-problem-report-national-action-plan",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-10-30T03:30:42+00:00",
+          "retrieved_at": "2026-10-30T04:20:53.064001+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/world-3.webp"
+    },
+    {
+      "story_id": "gsi-eu-cyprus-greece-2026-10-29",
+      "identity": "gsi-eu-cyprus-greece-2026-10-29",
+      "edition_id": "2026-10-30-midday",
+      "date": "2026-10-30",
+      "slot": "midday",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T11:35:07.973388+00:00",
+      "headline": "Διασύνδεση Ελλάδας–Κύπρου: ο Επίτροπος δηλώνει ότι το έργο προχωρά",
+      "finding": "Ο Επίτροπος Ενέργειας Νταν Γιόργκενσεν δήλωσε μετά από τριμερή επαφή με τους υπουργούς Ελλάδας και Κύπρου ότι ενημερώθηκε πως ο Great Sea Interconnector προχωρά, σύμφωνα με το Sigmalive. Ο ίδιος συνέδεσε το έργο με τον τερματισμό της ενεργειακής απομόνωσης και τη μείωση τιμών, ως επιδιωκόμενα οφέλη και όχι ήδη μετρημένα αποτελέσματα.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-10-30-midday/gsi-interconnection.json",
+      "reader_url": "articles/2026-10-30-midday/gsi-interconnection.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/energia/1335444/giorghkensen-o-gsi-prokhora-tha-termatisei-tin-energheiaki-apomonosi-tis-kyproy",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-10-29T20:36:42+00:00",
+          "retrieved_at": "2026-10-30T04:20:52.928633+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-midday/cyprus-1.webp"
+    },
+    {
+      "story_id": "cyta-solar-budget-2027-2026-10-30",
+      "identity": "cyta-solar-budget-2027-2026-10-30",
+      "edition_id": "2026-10-30-midday",
+      "date": "2026-10-30",
+      "slot": "midday",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T11:35:07.973388+00:00",
+      "headline": "Cyta: πρόβλεψη δαπανών για φωτοβολταϊκά το 2027",
+      "finding": "Το Philenews αναφέρει ότι η Cyta έχει προϋπολογίσει δεκάδες εκατομμύρια ευρώ για τα πρώτα της βήματα στα φωτοβολταϊκά το 2027. Το δημοσίευμα σημειώνει ότι η σχετική νομοθετική αλλαγή επιτρέπει δραστηριοποίηση στην ενέργεια μέσω ανανεώσιμων πηγών και μεταφέρει προγενέστερο στόχο της Cyta για καταναλωτές χωρίς εύκολη πρόσβαση σε αυτές.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-10-30-midday/cyta-solar.json",
+      "reader_url": "articles/2026-10-30-midday/cyta-solar.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1788616/proipologise-chrima-gia-fotovoltaika-i-cyta-mesa-sto-27",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-30T04:17:00+00:00",
+          "retrieved_at": "2026-10-30T04:20:53.573304+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-midday/cyprus-1.webp"
+    },
+    {
+      "story_id": "cyprus-election-messaging-proposal-2026-10-29",
+      "identity": "cyprus-election-messaging-proposal-2026-10-29",
+      "edition_id": "2026-10-30-midday",
+      "date": "2026-10-30",
+      "slot": "midday",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T11:35:07.973388+00:00",
+      "headline": "Κύπρος: κυβερνητική αντίθεση σε πρόταση για εκλογικά μηνύματα",
+      "finding": "Το Cyprus Mail αναφέρει ότι η κυβέρνηση αντιτάχθηκε σε πρόταση αποποινικοποίησης δημοσίευσης ή αναπαραγωγής πολιτικού περιεχομένου την παραμονή και την ημέρα των εκλογών. Το δημοσίευμα περιγράφει ισχύουσα απαγόρευση και προβλεπόμενες κυρώσεις· η πρόταση δεν παρουσιάζεται ως ψηφισμένη αλλαγή.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-10-30-midday/election-messaging.json",
+      "reader_url": "articles/2026-10-30-midday/election-messaging.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/29/government-opposes-easing-election-day-political-messaging-ban",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-29T17:17:12+00:00",
+          "retrieved_at": "2026-10-30T04:20:53.215734+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp"
     },
     {
       "story_id": "israel-election-2026-10-27",

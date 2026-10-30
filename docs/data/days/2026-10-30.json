@@ -10,14 +10,40 @@
       "type": "morning",
       "url": "morning/2026-10-30.html",
       "published_at": "2026-10-30T05:29:45.355122+00:00"
+    },
+    {
+      "id": "2026-10-30-midday",
+      "type": "midday",
+      "url": "midday/2026-10-30.html",
+      "published_at": "2026-10-30T11:35:07.973388+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "israel-election-2026-10-27",
+  "lead_story_id": "dockworkers-gaza-strike-2026-10-30",
   "stories": [
+    {
+      "story_id": "dockworkers-gaza-strike-2026-10-30",
+      "first_seen_at": "2026-10-30T11:35:07.973388+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-30-midday",
+          "article_id": "dockworkers-strike",
+          "source_story_id": "dockworkers-gaza-strike-2026-10-30",
+          "url": "articles/2026-10-30-midday/dockworkers-strike.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "dockworkers-strike",
+        "source_story_id": "dockworkers-gaza-strike-2026-10-30",
+        "url": "articles/2026-10-30-midday/dockworkers-strike.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "israel-election-2026-10-27",
       "first_seen_at": "2026-10-30T05:29:45.355122+00:00",
@@ -28,13 +54,19 @@
           "article_id": "israel-election",
           "source_story_id": "israel-election-2026-10-27",
           "url": "articles/2026-10-30-morning/israel-election.html"
+        },
+        {
+          "edition_id": "2026-10-30-midday",
+          "article_id": "israel-election",
+          "source_story_id": "israel-election-2026-10-27",
+          "url": "articles/2026-10-30-midday/israel-election.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-30-morning",
+        "edition_id": "2026-10-30-midday",
         "article_id": "israel-election",
         "source_story_id": "israel-election-2026-10-27",
-        "url": "articles/2026-10-30-morning/israel-election.html"
+        "url": "articles/2026-10-30-midday/israel-election.html"
       },
       "section": "world",
       "priority": 1
@@ -49,16 +81,64 @@
           "article_id": "boj-decision",
           "source_story_id": "boj-rate-inflation-2026-10-30",
           "url": "articles/2026-10-30-morning/boj-decision.html"
+        },
+        {
+          "edition_id": "2026-10-30-midday",
+          "article_id": "boj-decision",
+          "source_story_id": "boj-rate-inflation-2026-10-30",
+          "url": "articles/2026-10-30-midday/boj-decision.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-30-morning",
+        "edition_id": "2026-10-30-midday",
         "article_id": "boj-decision",
         "source_story_id": "boj-rate-inflation-2026-10-30",
-        "url": "articles/2026-10-30-morning/boj-decision.html"
+        "url": "articles/2026-10-30-midday/boj-decision.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "cyprus-support-programmes-strike-2026-10-30",
+      "first_seen_at": "2026-10-30T11:35:07.973388+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-30-midday",
+          "article_id": "support-workers",
+          "source_story_id": "cyprus-support-programmes-strike-2026-10-30",
+          "url": "articles/2026-10-30-midday/support-workers.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "support-workers",
+        "source_story_id": "cyprus-support-programmes-strike-2026-10-30",
+        "url": "articles/2026-10-30-midday/support-workers.html"
+      },
+      "section": "cyprus",
+      "priority": 2
+    },
+    {
+      "story_id": "cyprus-usury-reference-2026-10-30",
+      "first_seen_at": "2026-10-30T11:35:07.973388+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-30-midday",
+          "article_id": "usury-reference",
+          "source_story_id": "cyprus-usury-reference-2026-10-30",
+          "url": "articles/2026-10-30-midday/usury-reference.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "usury-reference",
+        "source_story_id": "cyprus-usury-reference-2026-10-30",
+        "url": "articles/2026-10-30-midday/usury-reference.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "syria-floods-2026-10-30",
@@ -70,13 +150,19 @@
           "article_id": "syria-flooding",
           "source_story_id": "syria-floods-2026-10-30",
           "url": "articles/2026-10-30-morning/syria-flooding.html"
+        },
+        {
+          "edition_id": "2026-10-30-midday",
+          "article_id": "syria-flooding",
+          "source_story_id": "syria-floods-2026-10-30",
+          "url": "articles/2026-10-30-midday/syria-flooding.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-30-morning",
+        "edition_id": "2026-10-30-midday",
         "article_id": "syria-flooding",
         "source_story_id": "syria-floods-2026-10-30",
-        "url": "articles/2026-10-30-morning/syria-flooding.html"
+        "url": "articles/2026-10-30-midday/syria-flooding.html"
       },
       "section": "world",
       "priority": 3
@@ -91,16 +177,64 @@
           "article_id": "australia-deer",
           "source_story_id": "australia-feral-deer-report-2026-10-30",
           "url": "articles/2026-10-30-morning/australia-deer.html"
+        },
+        {
+          "edition_id": "2026-10-30-midday",
+          "article_id": "australia-deer",
+          "source_story_id": "australia-feral-deer-report-2026-10-30",
+          "url": "articles/2026-10-30-midday/australia-deer.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-30-morning",
+        "edition_id": "2026-10-30-midday",
         "article_id": "australia-deer",
         "source_story_id": "australia-feral-deer-report-2026-10-30",
-        "url": "articles/2026-10-30-morning/australia-deer.html"
+        "url": "articles/2026-10-30-midday/australia-deer.html"
       },
       "section": "world",
       "priority": 4
+    },
+    {
+      "story_id": "spain-padel-leal-selection-2026-10-30",
+      "first_seen_at": "2026-10-30T11:35:07.973388+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-30-midday",
+          "article_id": "spain-padel",
+          "source_story_id": "spain-padel-leal-selection-2026-10-30",
+          "url": "articles/2026-10-30-midday/spain-padel.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "spain-padel",
+        "source_story_id": "spain-padel-leal-selection-2026-10-30",
+        "url": "articles/2026-10-30-midday/spain-padel.html"
+      },
+      "section": "sports",
+      "priority": 4
+    },
+    {
+      "story_id": "dart-guangzhou-semifinal-2026-10-30",
+      "first_seen_at": "2026-10-30T11:35:07.973388+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-30-midday",
+          "article_id": "dart-guangzhou",
+          "source_story_id": "dart-guangzhou-semifinal-2026-10-30",
+          "url": "articles/2026-10-30-midday/dart-guangzhou.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "dart-guangzhou",
+        "source_story_id": "dart-guangzhou-semifinal-2026-10-30",
+        "url": "articles/2026-10-30-midday/dart-guangzhou.html"
+      },
+      "section": "sports",
+      "priority": 5
     },
     {
       "story_id": "gsi-eu-cyprus-greece-2026-10-29",
@@ -112,13 +246,19 @@
           "article_id": "gsi-interconnection",
           "source_story_id": "gsi-eu-cyprus-greece-2026-10-29",
           "url": "articles/2026-10-30-morning/gsi-interconnection.html"
+        },
+        {
+          "edition_id": "2026-10-30-midday",
+          "article_id": "gsi-interconnection",
+          "source_story_id": "gsi-eu-cyprus-greece-2026-10-29",
+          "url": "articles/2026-10-30-midday/gsi-interconnection.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-30-morning",
+        "edition_id": "2026-10-30-midday",
         "article_id": "gsi-interconnection",
         "source_story_id": "gsi-eu-cyprus-greece-2026-10-29",
-        "url": "articles/2026-10-30-morning/gsi-interconnection.html"
+        "url": "articles/2026-10-30-midday/gsi-interconnection.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -133,13 +273,19 @@
           "article_id": "cyta-solar",
           "source_story_id": "cyta-solar-budget-2027-2026-10-30",
           "url": "articles/2026-10-30-morning/cyta-solar.html"
+        },
+        {
+          "edition_id": "2026-10-30-midday",
+          "article_id": "cyta-solar",
+          "source_story_id": "cyta-solar-budget-2027-2026-10-30",
+          "url": "articles/2026-10-30-midday/cyta-solar.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-30-morning",
+        "edition_id": "2026-10-30-midday",
         "article_id": "cyta-solar",
         "source_story_id": "cyta-solar-budget-2027-2026-10-30",
-        "url": "articles/2026-10-30-morning/cyta-solar.html"
+        "url": "articles/2026-10-30-midday/cyta-solar.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -175,13 +321,19 @@
           "article_id": "election-messaging",
           "source_story_id": "cyprus-election-messaging-proposal-2026-10-29",
           "url": "articles/2026-10-30-morning/election-messaging.html"
+        },
+        {
+          "edition_id": "2026-10-30-midday",
+          "article_id": "election-messaging",
+          "source_story_id": "cyprus-election-messaging-proposal-2026-10-29",
+          "url": "articles/2026-10-30-midday/election-messaging.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-30-morning",
+        "edition_id": "2026-10-30-midday",
         "article_id": "election-messaging",
         "source_story_id": "cyprus-election-messaging-proposal-2026-10-29",
-        "url": "articles/2026-10-30-morning/election-messaging.html"
+        "url": "articles/2026-10-30-midday/election-messaging.html"
       },
       "section": "cyprus",
       "priority": 8
@@ -369,6 +521,174 @@
         "source_story_id": "israel-election-2026-10-27",
         "url": "articles/2026-10-30-morning/israel-election.html"
       }
+    },
+    {
+      "id": "0867532ec5fdd6ce0d629c1050829c0c985a92679b9212a43f51522c6b37dfc2",
+      "kind": "provenance",
+      "at": "2026-10-30T11:35:07.973388+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "spain-padel-leal-selection-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "spain-padel",
+        "source_story_id": "spain-padel-leal-selection-2026-10-30",
+        "url": "articles/2026-10-30-midday/spain-padel.html"
+      }
+    },
+    {
+      "id": "1744fb97c8edb7749ad4cb747af3fe683e561cd0ec1e3f774809ae1bb4097ea3",
+      "kind": "provenance",
+      "at": "2026-10-30T11:35:07.973388+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "israel-election-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "israel-election",
+        "source_story_id": "israel-election-2026-10-27",
+        "url": "articles/2026-10-30-midday/israel-election.html"
+      }
+    },
+    {
+      "id": "2949a4db0dd833aa3dd1c176969b9a6072db6a81ca576e3346226959c0848e47",
+      "kind": "provenance",
+      "at": "2026-10-30T11:35:07.973388+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-support-programmes-strike-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "support-workers",
+        "source_story_id": "cyprus-support-programmes-strike-2026-10-30",
+        "url": "articles/2026-10-30-midday/support-workers.html"
+      }
+    },
+    {
+      "id": "424e07ce5e72f73e3fdba93a9fb3bb6d64afddcea67a35f9f1aadbbb86767bce",
+      "kind": "provenance",
+      "at": "2026-10-30T11:35:07.973388+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "dart-guangzhou-semifinal-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "dart-guangzhou",
+        "source_story_id": "dart-guangzhou-semifinal-2026-10-30",
+        "url": "articles/2026-10-30-midday/dart-guangzhou.html"
+      }
+    },
+    {
+      "id": "73c72f878ca0273970adf4395b7cb0fd44328f8b21ef4f14b1bfe8f68a51ae40",
+      "kind": "provenance",
+      "at": "2026-10-30T11:35:07.973388+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "dockworkers-gaza-strike-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "dockworkers-strike",
+        "source_story_id": "dockworkers-gaza-strike-2026-10-30",
+        "url": "articles/2026-10-30-midday/dockworkers-strike.html"
+      }
+    },
+    {
+      "id": "84943595b4272107d84ebccb1c284d64d94f2a3aaf5613f429f9acfcaa308a2c",
+      "kind": "provenance",
+      "at": "2026-10-30T11:35:07.973388+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "australia-feral-deer-report-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "australia-deer",
+        "source_story_id": "australia-feral-deer-report-2026-10-30",
+        "url": "articles/2026-10-30-midday/australia-deer.html"
+      }
+    },
+    {
+      "id": "930998b0a20125df55ce1602627ca37c1dfc3fbff940f5c2e2e7d17f18cec86c",
+      "kind": "provenance",
+      "at": "2026-10-30T11:35:07.973388+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-election-messaging-proposal-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "election-messaging",
+        "source_story_id": "cyprus-election-messaging-proposal-2026-10-29",
+        "url": "articles/2026-10-30-midday/election-messaging.html"
+      }
+    },
+    {
+      "id": "93737991232e73f89fced278d7da37cdd1de15db95de936338301f548c997a92",
+      "kind": "provenance",
+      "at": "2026-10-30T11:35:07.973388+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "syria-floods-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "syria-flooding",
+        "source_story_id": "syria-floods-2026-10-30",
+        "url": "articles/2026-10-30-midday/syria-flooding.html"
+      }
+    },
+    {
+      "id": "cbfbf97417846d2efa25cfc873afe7281d662b565b877d400d5075ef00f315c6",
+      "kind": "provenance",
+      "at": "2026-10-30T11:35:07.973388+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "boj-rate-inflation-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "boj-decision",
+        "source_story_id": "boj-rate-inflation-2026-10-30",
+        "url": "articles/2026-10-30-midday/boj-decision.html"
+      }
+    },
+    {
+      "id": "d05f74ae21db6de7eda74e2754ba9f7ef3a9ab03582630be3012b21fd9047e23",
+      "kind": "provenance",
+      "at": "2026-10-30T11:35:07.973388+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyta-solar-budget-2027-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "cyta-solar",
+        "source_story_id": "cyta-solar-budget-2027-2026-10-30",
+        "url": "articles/2026-10-30-midday/cyta-solar.html"
+      }
+    },
+    {
+      "id": "df323cabf0f3d4ae6f8eebf32b826c03ecfd56aae41ff64582c78145289feccc",
+      "kind": "provenance",
+      "at": "2026-10-30T11:35:07.973388+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "gsi-eu-cyprus-greece-2026-10-29",
+      "origin": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "gsi-interconnection",
+        "source_story_id": "gsi-eu-cyprus-greece-2026-10-29",
+        "url": "articles/2026-10-30-midday/gsi-interconnection.html"
+      }
+    },
+    {
+      "id": "e69656524a553fb07dca19205b65da161e19d5f08f2809162d408dfb5cfddd37",
+      "kind": "provenance",
+      "at": "2026-10-30T11:35:07.973388+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-usury-reference-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-30-midday",
+        "article_id": "usury-reference",
+        "source_story_id": "cyprus-usury-reference-2026-10-30",
+        "url": "articles/2026-10-30-midday/usury-reference.html"
+      }
     }
   ],
   "opportunities": [
@@ -459,6 +779,7 @@
       "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
       "kind": "grant",
       "opens_at": "2026-10-20T09:00:00+03:00",
+      "review_due": true,
       "sources": [
         {
           "access": "read",
@@ -575,23 +896,23 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Στο Ισραήλ, η καταμέτρηση που παρουσιάζει το CNBC αφήνει το μπλοκ Νετανιάχου κάτω από την πλειοψηφία, οπότε η κυβερνητική διαπραγμάτευση παραμένει ανοιχτή. Στην Ιαπωνία, η κεντρική τράπεζα διατηρεί το επιτόκιο και περιγράφει τον υποκείμενο πληθωρισμό ως γενικά συμβατό με τον στόχο 2%· η εκτίμηση αυτή δεν προδικάζει την επόμενη απόφαση.",
+        "text": "Οι συντεχνίες ανακοινώνουν απεργία αορίστου χρόνου στα υποστηρικτικά προγράμματα του Υπουργείου Παιδείας, επικαλούμενες απλήρωτους εργαζομένους. Η ημερομηνία έναρξης και η πραγματική λειτουργία των προγραμμάτων χρειάζονται παρακολούθηση· δεν πρόκειται για ήδη πραγματοποιημένη διακοπή. Παράλληλα, το αναφερόμενο 11,60% της Κεντρικής Τράπεζας αφορά το ποινικό πλαίσιο τοκογλυφίας, όχι γενικό επιτόκιο τραπεζικού δανεισμού.",
         "story_ids": [
-          "israel-election-2026-10-27",
-          "boj-rate-inflation-2026-10-30"
+          "cyprus-support-programmes-strike-2026-10-30",
+          "cyprus-usury-reference-2026-10-30"
         ]
       },
       {
-        "text": "Η ενεργειακή ατζέντα της Κύπρου περιλαμβάνει τη δηλωμένη πρόοδο της διασύνδεσης Ελλάδας–Κύπρου και τον προϋπολογισμό της Cyta για φωτοβολταϊκά το 2027. Και στις δύο περιπτώσεις χρειάζεται να ξεχωρίσουν οι κυβερνητικές ή επιχειρηματικές προθέσεις από τα έργα που πράγματι θα υλοποιηθούν και το τελικό τους κόστος.",
+        "text": "Το Al Jazeera αναφέρει διεθνή απεργιακή κινητοποίηση λιμενεργατών για τη Γάζα. Η ανακοινωμένη συμμετοχή δεν αποδεικνύει καθολική διακοπή φορτοεκφορτώσεων ή συγκεκριμένο οικονομικό αποτέλεσμα. Η πρωινή εικόνα για το Ισραήλ παραμένει με τις αρχικές της πηγές, χωρίς να αποδίδεται νέα εξέλιξη στις κυβερνητικές διαπραγματεύσεις.",
         "story_ids": [
-          "gsi-eu-cyprus-greece-2026-10-29",
-          "cyta-solar-budget-2027-2026-10-30"
+          "dockworkers-gaza-strike-2026-10-30",
+          "israel-election-2026-10-27"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-10-30T05:30:38.863672+00:00",
-  "updated_at": "2026-10-30T05:30:38.863672+00:00",
-  "input_sha256": "c9eb610aff9f22b0e5f9a3f28bb02a869125b58b7a5b32a1b862cb560144329e"
+  "updated_at": "2026-10-30T11:36:00.296756+00:00",
+  "input_sha256": "8f239bbb9c18ee59d319ff923227a691a46af51a4068e694a12a4598f37f5ff6"
 }
