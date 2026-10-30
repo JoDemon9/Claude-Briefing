@@ -353,6 +353,14 @@
       "published_at": "2026-10-29T05:46:45.664705+00:00",
       "url": "morning/2026-10-29.html",
       "fingerprint": "0eccf85dd924042482a51b0bdccf3ddc3ae2d00562de1a3c4fef21e8f06ab56d"
+    },
+    {
+      "id": "2026-10-30-morning",
+      "date": "2026-10-30",
+      "type": "morning",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "url": "morning/2026-10-30.html",
+      "fingerprint": "e20ac4292fc63294e92ed335fae228fd7f80edde2d4dcc5ab098d576c03271f1"
     }
   ],
   "stories": [
@@ -12230,6 +12238,276 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-12-morning/nfl-jaguars-london.webp"
+    },
+    {
+      "story_id": "israel-election-2026-10-27",
+      "identity": "israel-election-2026-10-27",
+      "edition_id": "2026-10-30-morning",
+      "date": "2026-10-30",
+      "slot": "morning",
+      "published_at": "2026-10-27T11:32:58.215892+00:00",
+      "available_at": "2026-10-30T05:29:45.355122+00:00",
+      "headline": "Ισραήλ: το μπλοκ Νετανιάχου κάτω από την πλειοψηφία",
+      "finding": "Το CNBC αναφέρει ότι η τελική καταμέτρηση αφήνει και τα δύο βασικά μπλοκ κάτω από τις 61 έδρες που απαιτούνται για πλειοψηφία. Επικαλούμενο την Κεντρική Εκλογική Επιτροπή, αποδίδει 53 έδρες στο μπλοκ Νετανιάχου και μεταφέρει ισχυρισμούς του κόμματός του περί κλοπής των εκλογών, χωρίς το απόσπασμα να τους τεκμηριώνει.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-30-morning/israel-election.json",
+      "reader_url": "articles/2026-10-30-morning/israel-election.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-10-30T03:28:10+00:00",
+          "retrieved_at": "2026-10-30T04:20:52.543555+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "boj-rate-inflation-2026-10-30",
+      "identity": "boj-rate-inflation-2026-10-30",
+      "edition_id": "2026-10-30-morning",
+      "date": "2026-10-30",
+      "slot": "morning",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T05:29:45.355122+00:00",
+      "headline": "Ιαπωνία: αμετάβλητο επιτόκιο και νέα εκτίμηση για τον πληθωρισμό",
+      "finding": "Η Τράπεζα της Ιαπωνίας διατήρησε το επιτόκιο στο 1,25% και έκρινε τον υποκείμενο πληθωρισμό γενικά συμβατό με τον στόχο 2%, σύμφωνα με το CNBC. Η τράπεζα επισήμανε επίσης κίνδυνο ανοδικής απόκλισης, επικαλούμενη μεταβολή στη συμπεριφορά των επιχειρήσεων ως προς μισθούς και τιμές.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-30-morning/boj-decision.json",
+      "reader_url": "articles/2026-10-30-morning/boj-decision.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-10-30T03:16:28+00:00",
+          "retrieved_at": "2026-10-30T04:20:52.528437+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-morning/nfl-jaguars-london.webp"
+    },
+    {
+      "story_id": "syria-floods-2026-10-30",
+      "identity": "syria-floods-2026-10-30",
+      "edition_id": "2026-10-30-morning",
+      "date": "2026-10-30",
+      "slot": "morning",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T05:29:45.355122+00:00",
+      "headline": "Συρία: αναφορές για θανάτους και αγνοουμένους από πλημμύρες",
+      "finding": "Το Al Jazeera αναφέρει ότι σφοδρές βροχές προκάλεσαν τουλάχιστον πέντε θανάτους, ανάμεσά τους τέσσερα παιδιά, σε βόρειες και ανατολικές περιοχές της Συρίας. Σύμφωνα με το ίδιο ρεπορτάζ, άλλοι πέντε άνθρωποι αγνοούνται και συνεργεία διέσωσαν 15 πολίτες από οχήματα παγιδευμένα στα νερά.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-10-30-morning/syria-flooding.json",
+      "reader_url": "articles/2026-10-30-morning/syria-flooding.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-10-30T03:11:55+00:00",
+          "retrieved_at": "2026-10-30T04:20:52.549529+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "australia-feral-deer-report-2026-10-30",
+      "identity": "australia-feral-deer-report-2026-10-30",
+      "edition_id": "2026-10-30-morning",
+      "date": "2026-10-30",
+      "slot": "morning",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T05:29:45.355122+00:00",
+      "headline": "Αυστραλία: έκθεση επισημαίνει κενά στον έλεγχο άγριων ελαφιών",
+      "finding": "Ο Guardian παρουσιάζει αδημοσίευτη κυβερνητική αξιολόγηση που καταγράφει δυσκολίες στον έλεγχο της εξάπλωσης άγριων ελαφιών στις περισσότερες αυστραλιανές πολιτείες και επικράτειες. Ως εξαίρεση αναφέρει τη Νότια Αυστραλία, η οποία ξεκίνησε πολιτειακό σχέδιο εξάλειψης το 2022 και έλαβε θετική αξιολόγηση στις τέσσερις κατηγορίες.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-10-30-morning/australia-deer.json",
+      "reader_url": "articles/2026-10-30-morning/australia-deer.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/environment/2026/oct/30/australia-feral-deer-problem-report-national-action-plan",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-10-30T03:30:42+00:00",
+          "retrieved_at": "2026-10-30T04:20:53.064001+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/world-3.webp"
+    },
+    {
+      "story_id": "gsi-eu-cyprus-greece-2026-10-29",
+      "identity": "gsi-eu-cyprus-greece-2026-10-29",
+      "edition_id": "2026-10-30-morning",
+      "date": "2026-10-30",
+      "slot": "morning",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T05:29:45.355122+00:00",
+      "headline": "Διασύνδεση Ελλάδας–Κύπρου: ο Επίτροπος δηλώνει ότι το έργο προχωρά",
+      "finding": "Ο Επίτροπος Ενέργειας Νταν Γιόργκενσεν δήλωσε μετά από τριμερή επαφή με τους υπουργούς Ελλάδας και Κύπρου ότι ενημερώθηκε πως ο Great Sea Interconnector προχωρά, σύμφωνα με το Sigmalive. Ο ίδιος συνέδεσε το έργο με τον τερματισμό της ενεργειακής απομόνωσης και τη μείωση τιμών, ως επιδιωκόμενα οφέλη και όχι ήδη μετρημένα αποτελέσματα.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-10-30-morning/gsi-interconnection.json",
+      "reader_url": "articles/2026-10-30-morning/gsi-interconnection.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/energia/1335444/giorghkensen-o-gsi-prokhora-tha-termatisei-tin-energheiaki-apomonosi-tis-kyproy",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-10-29T20:36:42+00:00",
+          "retrieved_at": "2026-10-30T04:20:52.928633+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-midday/cyprus-1.webp"
+    },
+    {
+      "story_id": "cyta-solar-budget-2027-2026-10-30",
+      "identity": "cyta-solar-budget-2027-2026-10-30",
+      "edition_id": "2026-10-30-morning",
+      "date": "2026-10-30",
+      "slot": "morning",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T05:29:45.355122+00:00",
+      "headline": "Cyta: πρόβλεψη δαπανών για φωτοβολταϊκά το 2027",
+      "finding": "Το Philenews αναφέρει ότι η Cyta έχει προϋπολογίσει δεκάδες εκατομμύρια ευρώ για τα πρώτα της βήματα στα φωτοβολταϊκά το 2027. Το δημοσίευμα σημειώνει ότι η σχετική νομοθετική αλλαγή επιτρέπει δραστηριοποίηση στην ενέργεια μέσω ανανεώσιμων πηγών και μεταφέρει προγενέστερο στόχο της Cyta για καταναλωτές χωρίς εύκολη πρόσβαση σε αυτές.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-10-30-morning/cyta-solar.json",
+      "reader_url": "articles/2026-10-30-morning/cyta-solar.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1788616/proipologise-chrima-gia-fotovoltaika-i-cyta-mesa-sto-27",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-30T04:17:00+00:00",
+          "retrieved_at": "2026-10-30T04:20:53.573304+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-midday/cyprus-1.webp"
+    },
+    {
+      "story_id": "theofanous-retrial-ruling-2026-10-29",
+      "identity": "theofanous-retrial-ruling-2026-10-29",
+      "edition_id": "2026-10-30-morning",
+      "date": "2026-10-30",
+      "slot": "morning",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T05:29:45.355122+00:00",
+      "headline": "Ανώτατο: απορρίφθηκε αίτημα επανεκδίκασης Θεοφάνους",
+      "finding": "Το Cyprus Mail αναφέρει ότι το Ανώτατο Δικαστήριο απέρριψε την αίτηση επανεκδίκασης του καταδικασθέντος Θεόδωρου Θεοφάνους. Σύμφωνα με το ρεπορτάζ, η αίτηση επικαλούνταν νεότερους ισχυρισμούς για αναίρεση προηγούμενης κατάθεσης μάρτυρα, χωρίς το διαθέσιμο απόσπασμα να παραθέτει πλήρες σκεπτικό της απόφασης.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-10-30-morning/retrial-decision.json",
+      "reader_url": "articles/2026-10-30-morning/retrial-decision.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/29/supreme-court-rejects-theofanous-retrial-bid",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-29T19:15:49+00:00",
+          "retrieved_at": "2026-10-30T04:20:53.190468+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-evening/cyprus-1.webp"
+    },
+    {
+      "story_id": "cyprus-election-messaging-proposal-2026-10-29",
+      "identity": "cyprus-election-messaging-proposal-2026-10-29",
+      "edition_id": "2026-10-30-morning",
+      "date": "2026-10-30",
+      "slot": "morning",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T05:29:45.355122+00:00",
+      "headline": "Κύπρος: κυβερνητική αντίθεση σε πρόταση για εκλογικά μηνύματα",
+      "finding": "Το Cyprus Mail αναφέρει ότι η κυβέρνηση αντιτάχθηκε σε πρόταση αποποινικοποίησης δημοσίευσης ή αναπαραγωγής πολιτικού περιεχομένου την παραμονή και την ημέρα των εκλογών. Το δημοσίευμα περιγράφει ισχύουσα απαγόρευση και προβλεπόμενες κυρώσεις· η πρόταση δεν παρουσιάζεται ως ψηφισμένη αλλαγή.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-10-30-morning/election-messaging.json",
+      "reader_url": "articles/2026-10-30-morning/election-messaging.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/29/government-opposes-easing-election-day-political-messaging-ban",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-29T17:17:12+00:00",
+          "retrieved_at": "2026-10-30T04:20:53.215734+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp"
+    },
+    {
+      "story_id": "kuwait-padel-semifinals-2026-10-30",
+      "identity": "kuwait-padel-semifinals-2026-10-30",
+      "edition_id": "2026-10-30-morning",
+      "date": "2026-10-30",
+      "slot": "morning",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T05:29:45.355122+00:00",
+      "headline": "Padel: προγραμματισμένοι ημιτελικοί στο Kuwait Major",
+      "finding": "Το Padel Addict αναφέρει ότι οι ημιτελικοί του Kuwait Major έχουν προγραμματιστεί για την Παρασκευή 30 Οκτωβρίου. Το διαθέσιμο απόσπασμα δίνει αντιφατικές ώρες έναρξης, επομένως δεν αναπαράγεται συγκεκριμένη ώρα.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-10-30-morning/kuwait-padel.json",
+      "reader_url": "articles/2026-10-30-morning/kuwait-padel.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/partidos-horarios-donde-ver-semifinales-kuwait-major-premier-padel-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-10-29T22:14:21+00:00",
+          "retrieved_at": "2026-10-30T04:20:59.569027+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/library/sports.webp"
+    },
+    {
+      "story_id": "ireland-furlong-disciplinary-2026-10-29",
+      "identity": "ireland-furlong-disciplinary-2026-10-29",
+      "edition_id": "2026-10-30-morning",
+      "date": "2026-10-30",
+      "slot": "morning",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T05:29:45.355122+00:00",
+      "headline": "Ράγκμπι: η πειθαρχική επιτροπή απάλλαξε τον Φέρλονγκ",
+      "finding": "Πειθαρχική επιτροπή απέρριψε καταγγελία σε βάρος του Ιρλανδού Ταντγκ Φέρλονγκ για περιστατικό με τον Γκάβιν Κουμς, σύμφωνα με το BBC. Η επιτροπή αναγνώρισε ως ειλικρινή την ανάμνηση γεγονότων του Κουμς· ο Φέρλονγκ είναι διαθέσιμος για επιλογή από την Ιρλανδία.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-10-30-morning/furlong-decision.json",
+      "reader_url": "articles/2026-10-30-morning/furlong-decision.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm9wzqen751ko?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-29T22:19:17+00:00",
+          "retrieved_at": "2026-10-30T04:21:00.657290+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/library/sports.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
