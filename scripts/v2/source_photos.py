@@ -4,9 +4,11 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 import hashlib
 import io
+import ipaddress
 import json
 from pathlib import Path
 import re
+import socket
 from urllib.parse import urljoin, urlsplit, urlunsplit
 import urllib.request
 
@@ -16,8 +18,7 @@ MAX_DOWNLOADS = 24
 MAX_BYTES = 5_000_000
 MAX_ASSET = 300_000
 ARTICLE_TYPES = {'Article', 'NewsArticle', 'ReportageNewsArticle'}
-BAD_IMAGE = re.compile(r'\b(logo|avatar|icon|advertisement|illustration|rendering|infographic|AI.generated|computer.generated|γράφημα|εικονογράφηση)\b', re.I)
-PHOTO = re.compile(r'\b(photo(?:graph)?s?|φωτογραφία|φωτογραφίες|φωτογραφια|φωτο)\b', re.I)
+BAD_IMAGE = re.compile(r'\b(logo|avatar|icon|advertisement|illustration|rendering|infographic|chart|AI.generated|computer.generated|γράφημα|εικονογράφηση)\b', re.I)
 
 
 def clean(value):
@@ -40,28 +41,41 @@ def identity(url):
     return urlunsplit((p.scheme, p.netloc, p.path.rstrip('/'), '', ''))
 
 
-def license_name(url):
-    # Only an image-level licence is accepted, never the article/footer licence.
+def license_name(url, rights_basis=None):
+    # Attribution is a distinct editorial policy, not an inferred CC licence.
     match = re.fullmatch(r'https://creativecommons.org/(licenses/(by|by-sa)/(2.0|2.5|3.0|4.0)|publicdomain/(zero|mark)/1.0)/?', url or '')
     if not match:
-        return None
+        return 'Publisher editorial attribution' if rights_basis == 'publisher-attribution' else None
     return ('CC '+match[2].upper()+' '+match[3]) if match[2] else ('CC0 1.0' if match[4] == 'zero' else 'Public domain')
 
 
 def extract(soup, page_url):
     """Capture candidates from this article's existing HTML, without fetching anything."""
     result = {}
+    fallback_caption = ''
+    for selector in ('meta[property="og:image:alt"]', 'meta[name="twitter:image:alt"]',
+                     'meta[property="og:title"]', 'h1', 'title'):
+        node = soup.select_one(selector)
+        value = clean(node.get('content') if node and node.name == 'meta' else node.get_text(' ', strip=True) if node else '')
+        if value:
+            fallback_caption = value
+            break
+    fallback_caption = fallback_caption or (urlsplit(page_url).hostname or '')
+    if len(fallback_caption) < 15:
+        fallback_caption += ' · Εικόνα από το άρθρο της πηγής'
+    site = soup.select_one('meta[property="og:site_name"]')
+    fallback_credit = clean(site.get('content')) if site else ''
     def add(url, method, caption='', credit='', license_url='', photograph=False):
         if not isinstance(url, str):
             return
         url = urljoin(page_url, url)
         if not https(url) or BAD_IMAGE.search(urlsplit(url).path+' '+caption):
             return
-        row = result.setdefault(url, dict(url=url, method=method, caption='', attribution='', license_url='', photograph=False))
+        row = result.setdefault(url, dict(url=url, article_url=page_url, method=method, caption='', attribution='', license_url='', photograph=False))
         for key, value in (('caption', caption), ('attribution', credit), ('license_url', license_url)):
             if value and not row[key]:
                 row[key] = clean(value)
-        row['photograph'] |= photograph or bool(PHOTO.search(caption))
+        row['photograph'] |= photograph or method in ('article-jsonld', 'article-figure', 'social-metadata')
 
     nodes = []
     def graph(value):
@@ -83,6 +97,13 @@ def extract(soup, page_url):
             continue
         if not declared and len(articles) != 1:
             continue
+        publisher = article.get('publisher', {})
+        if isinstance(publisher, dict):
+            ref = publisher.get('@id')
+            publisher = {**(references.get(ref, {}) if isinstance(ref, str) else {}), **publisher}
+            fallback_credit = fallback_credit or clean(publisher.get('name'))
+        elif isinstance(publisher, str):
+            fallback_credit = fallback_credit or clean(references.get(publisher, {}).get('name'))
         images = article.get('image', [])
         for obj in images if isinstance(images, list) else [images]:
             if isinstance(obj, str): obj = references.get(obj, {'url':obj})
@@ -108,28 +129,77 @@ def extract(soup, page_url):
                 urljoin(page_url, rights.get('href', '')) if rights else '')
     for selector in ('meta[property="og:image"]', 'meta[name="twitter:image"]'):
         for node in soup.select(selector): add(node.get('content'), 'social-metadata')
+    for row in result.values():
+        row['caption'] = row['caption'] or fallback_caption
+        if len(row['caption']) < 15:
+            row['caption'] += ' · Εικόνα από το άρθρο της πηγής'
+        row['attribution'] = row['attribution'] or fallback_credit or urlsplit(page_url).hostname
+    result = {url:row for url,row in result.items() if not BAD_IMAGE.search(urlsplit(url).path+' '+row['caption'])}
     return list(result.values())[:8]
 
 
 def policy(root):
-    return json.loads((Path(root)/'templates/v2/source-photo-policy.json').read_text(encoding='utf-8'))
+    rules = json.loads((Path(root)/'templates/v2/source-photo-policy.json').read_text(encoding='utf-8'))
+    feeds = json.loads((Path(root)/'templates/v2/prefetch-feeds.json').read_text(encoding='utf-8'))
+    for feed in feeds:
+        for host in feed['hosts']:
+            rules['publishers'].setdefault(host, [host])
+    return rules
+
+
+def public_image_url(url, resolve=False):
+    if not https(url): return False
+    host = urlsplit(url).hostname.lower().rstrip('.')
+    if '.' not in host or host.endswith(('.localhost', '.local', '.internal', '.test', '.invalid')):
+        return False
+    try:
+        if not ipaddress.ip_address(host).is_global: return False
+    except ValueError: pass
+    if resolve:
+        addresses = socket.getaddrinfo(host, 443, type=socket.SOCK_STREAM)
+        if not addresses or any(not ipaddress.ip_address(a[4][0]).is_global for a in addresses): return False
+    return True
+
+
+def image_allowed(url, candidate, rules):
+    if not public_image_url(url): return False
+    source = urlsplit(candidate['source_url']).hostname
+    host = urlsplit(url).hostname
+    publishers = [(p.removeprefix('www.'), hosts) for p,hosts in rules['publishers'].items()
+                  if source == p or source == p.removeprefix('www.') or source.endswith('.'+p.removeprefix('www.'))]
+    if not publishers: return False
+    allowed = rules.get('image_cdn_hosts', []) + [h for _,hosts in publishers for h in hosts]
+    if any(host == p or host.endswith('.'+p) for p,_ in publishers): return True
+    if any(host == h or (h.startswith('*.') and host.endswith(h[1:])) for h in allowed): return True
+    return (rules.get('allow_article_referenced_hosts', False)
+            and candidate.get('article_url') == candidate['source_url']
+            and candidate.get('method') in ('article-jsonld', 'article-figure', 'social-metadata')
+            and host == urlsplit(candidate['url']).hostname)
 
 
 def eligible(candidate, source_url, rules):
-    """An allowed CDN is transport permission, never a copyright grant."""
+    """Keep explicit licences; otherwise apply the configured attribution policy."""
     row = dict(candidate)
     if not https(source_url) or not https(row.get('url')): return None
-    hosts = rules['publishers'].get(urlsplit(source_url).hostname, [])
-    if urlsplit(row['url']).hostname not in hosts: return None
+    row['source_url'] = source_url
+    if not image_allowed(row['url'], row, rules): return None
     grant = next((g for g in rules.get('reviewed_images', [])
                   if g['article_url'] == source_url and g['image_url'] == row['url']), None)
     if grant:
         row.update({k:grant[k] for k in ('license_url','attribution','caption','photograph')})
     licence = license_name(row.get('license_url'))
+    basis = 'reviewed-image' if grant else 'image-license'
+    declared_license = row.get('license_url') or ''
+    if not licence and rules.get('publisher_attribution', False) and (not declared_license or
+            https(declared_license) and urlsplit(declared_license).hostname != 'creativecommons.org'):
+        if row.get('article_url') == source_url and row.get('method') in ('article-jsonld', 'article-figure', 'social-metadata'):
+            basis = 'publisher-attribution'
+            licence = license_name(None, basis)
+            row['license_url'] = declared_license or source_url
     if not licence or not row.get('photograph') or len(row.get('caption', '')) < 15 or len(row.get('attribution', '')) < 3:
         return None
-    if BAD_IMAGE.search(row['caption']): return None
-    row.update(license=licence, rights_basis='reviewed-image' if grant else 'image-license', source_url=source_url)
+    if BAD_IMAGE.search(urlsplit(row['url']).path+' '+row['caption']): return None
+    row.update(license=licence, rights_basis=basis, source_url=source_url)
     return row
 
 
@@ -158,10 +228,10 @@ def dhash(image):
 
 
 def fetch(candidate, rules, cache, opener=None):
-    hosts = set(rules['publishers'][urlsplit(candidate['source_url']).hostname])
+    if not image_allowed(candidate['url'], candidate, rules): raise ValueError('Unapproved image origin')
     class Redirect(urllib.request.HTTPRedirectHandler):
         def redirect_request(self, req, fp, code, msg, headers, newurl):
-            if not https(newurl) or urlsplit(newurl).hostname not in hosts:
+            if not image_allowed(newurl, candidate, rules) or not public_image_url(newurl, resolve=opener is None):
                 raise ValueError('Off-provider image redirect')
             return super().redirect_request(req, fp, code, msg, headers, newurl)
     cache = Path(cache); cache.mkdir(parents=True, exist_ok=True)
@@ -175,9 +245,10 @@ def fetch(candidate, rules, cache, opener=None):
             return old
     except (OSError, ValueError, KeyError, TypeError): pass
     open_url = opener or urllib.request.build_opener(Redirect()).open
+    if not public_image_url(candidate['url'], resolve=opener is None): raise ValueError('Private image origin')
     request = urllib.request.Request(candidate['url'], headers={'User-Agent':'OraclePrefetch/1.0','Accept':'image/jpeg,image/png,image/webp'})
     with open_url(request, timeout=5) as response:
-        if response.status != 200 or not https(response.geturl()) or urlsplit(response.geturl()).hostname not in hosts:
+        if response.status != 200 or not image_allowed(response.geturl(), candidate, rules):
             raise ValueError('Invalid image response')
         if response.headers.get_content_type() not in ('image/jpeg', 'image/png', 'image/webp'):
             raise ValueError('Not an image response')
@@ -231,11 +302,14 @@ def validate_image(image, raw):
     sha = hashlib.sha256(raw).hexdigest()
     if review['method'] != 'publisher-metadata-v1' or image['url'] != f'assets/editorial/source/{sha}.webp' or review['sha256'] != sha:
         raise ValueError('Source photo integrity mismatch')
-    if not license_name(image['license_url']) or image['license'] != license_name(image['license_url']):
+    basis = review['rights_basis']
+    if not license_name(image['license_url'], basis) or image['license'] != license_name(image['license_url'], basis):
         raise ValueError('Source photo lacks a supported image licence')
+    if basis == 'publisher-attribution' and not https(image['license_url']):
+        raise ValueError('Publisher attribution requires an HTTPS source link')
     if not all(https(image[k]) for k in ('source_url','original_url')):
         raise ValueError('Unsafe source photo provenance')
-    if review['rights_basis'] not in ('image-license', 'reviewed-image') or min(len(image[k]) for k in ('caption','alt','attribution')) < 3:
+    if basis not in ('image-license', 'reviewed-image', 'publisher-attribution') or min(len(image[k]) for k in ('caption','alt','attribution')) < 3:
         raise ValueError('Missing source photo credits')
     for field in (image['retrieved_at'], review['checked_at']):
         if datetime.fromisoformat(field).tzinfo is None: raise ValueError('Photo times need a timezone')
