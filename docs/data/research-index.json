@@ -355,6 +355,14 @@
       "fingerprint": "0eccf85dd924042482a51b0bdccf3ddc3ae2d00562de1a3c4fef21e8f06ab56d"
     },
     {
+      "id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "type": "evening",
+      "published_at": "2026-10-30T17:32:41.596933+00:00",
+      "url": "evening/2026-10-30.html",
+      "fingerprint": "93e0f563319ee79c7cb31485da90d70fbb157ba44e29f91be9fcf61ff55143ae"
+    },
+    {
       "id": "2026-10-30-midday",
       "date": "2026-10-30",
       "type": "midday",
@@ -12246,6 +12254,365 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/2026-10-12-morning/nfl-jaguars-london.webp"
+    },
+    {
+      "story_id": "nvidia-espionage-allegations-response-2026-10-30",
+      "identity": "nvidia-espionage-allegations-response-2026-10-30",
+      "edition_id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "slot": "evening",
+      "published_at": "2026-10-30T17:32:41.596933+00:00",
+      "available_at": "2026-10-30T17:32:41.596933+00:00",
+      "headline": "Nvidia: διαψεύσεις σε αναφορές για πιθανή κατασκοπεία και εκτροπή chips",
+      "finding": "[e7,e8] Το BBC αναφέρει ότι η Κίνα απέρριψε ισχυρισμούς για κατασκοπευτική επιχείρηση με στόχο τον Τζένσεν Χουάνγκ, ενώ η Nvidia χαρακτήρισε τις επαφές του συνήθεις επιχειρηματικές συναλλαγές. Το CNBC μεταφέρει επίσης δήλωση της εταιρείας ότι οι καταγγελίες εκτροπής chips είχαν διερευνηθεί και διαψευστεί πέρυσι. Οι αναφορές παραπέμπουν σε δημοσίευμα των New York Times· δεν αποτελούν δύο ανεξάρτητες επιβεβαιώσεις της καταγγελίας.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-30-evening/nvidia-responses.json",
+      "reader_url": "articles/2026-10-30-evening/nvidia-responses.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/ckgj9plnlxdeo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-30T12:20:04+00:00",
+          "retrieved_at": "2026-10-30T16:40:13.129669+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-10-29T15:59:26+00:00",
+          "retrieved_at": "2026-10-30T16:40:13.143792+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0c4c8a1544185c9c81242d4a94904dfe3b55bce87e8af3992d27c009b823df36.webp"
+    },
+    {
+      "story_id": "us-midterm-federal-legal-actions-2026-10-30",
+      "identity": "us-midterm-federal-legal-actions-2026-10-30",
+      "edition_id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "slot": "evening",
+      "published_at": "2026-10-30T17:32:41.596933+00:00",
+      "available_at": "2026-10-30T17:32:41.596933+00:00",
+      "headline": "ΗΠΑ: εντείνονται ομοσπονδιακές νομικές κινήσεις πριν τις ενδιάμεσες εκλογές",
+      "finding": "Το Cyprus Mail, παραπέμποντας σε έγγραφα που είδε το Reuters, αναφέρει κλιμάκωση νομικών ενεργειών της κυβέρνησης Τραμπ προς πολιτείες πριν τις εκλογές της 3ης Νοεμβρίου. Στην Καλιφόρνια περιγράφει κλητεύσεις στο πλαίσιο έρευνας για φερόμενη ψήφο μη πολιτών. Η ύπαρξη έρευνας δεν τεκμηριώνει ότι συνέβη παράνομη ψηφοφορία ούτε το απόσπασμα παρουσιάζει δικαστικό αποτέλεσμα που να επιβεβαιώνει την καταγγελία.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-30-evening/us-election-litigation.json",
+      "reader_url": "articles/2026-10-30-evening/us-election-litigation.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/30/trump-escalates-legal-challenges-against-states-as-election-day-nears",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-30T15:42:56+00:00",
+          "retrieved_at": "2026-10-30T16:40:14.432827+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/68e148c9078e17537462e7c288bdd3e44cd960050afbe0a0083594b4709c23d1.webp"
+    },
+    {
+      "story_id": "cyprus-education-budget-2027-2026-10-30",
+      "identity": "cyprus-education-budget-2027-2026-10-30",
+      "edition_id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "slot": "evening",
+      "published_at": "2026-10-30T17:32:41.596933+00:00",
+      "available_at": "2026-10-30T17:32:41.596933+00:00",
+      "headline": "Παιδεία: παρουσιάστηκε προϋπολογισμός €1,699 δισ. για το 2027",
+      "finding": "Η υπουργός Αθηνά Μιχαηλίδου παρουσίασε προϋπολογισμό Παιδείας, Αθλητισμού και Νεολαίας €1,699 δισ. για το 2027, αναφέροντας αύξηση 5%, σύμφωνα με το Sigmalive. Ο πρόεδρος της κοινοβουλευτικής Επιτροπής Παιδείας Χρύσανθος Σαββίδης εξέφρασε επιφυλάξεις για τα αποτελέσματα και υποστήριξε ότι σχεδόν 90% κατευθύνεται σε μισθοδοσίες εκπαιδευτικών. Το απόσπασμα καταγράφει παρουσίαση και δηλώσεις, χωρίς να επιβεβαιώνει τελική υπερψήφιση του προϋπολογισμού.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-10-30-evening/education-budget.json",
+      "reader_url": "articles/2026-10-30-evening/education-budget.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1335597/mikhailidoy-auksisi-5-ston-proypologhismo-paidias-ghia-to-2027",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-10-30T15:17:22+00:00",
+          "retrieved_at": "2026-10-30T16:40:13.302754+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/978ec3ef92466d7bec614f14bbbd806645f9354f3f71f5709aa8c8a6ed8f90ba.webp"
+    },
+    {
+      "story_id": "cyprus-antiquities-budget-2027-2026-10-30",
+      "identity": "cyprus-antiquities-budget-2027-2026-10-30",
+      "edition_id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "slot": "evening",
+      "published_at": "2026-10-30T17:32:41.596933+00:00",
+      "available_at": "2026-10-30T17:32:41.596933+00:00",
+      "headline": "Αρχαιότητες: προειδοποίηση της διεύθυνσης για συμπίεση δαπανών",
+      "finding": "Ο διευθυντής του Τμήματος Αρχαιοτήτων Γιώργος Γεωργίου προειδοποίησε ενώπιον της Επιτροπής Οικονομικών ότι οι συνεχιζόμενες περικοπές θα έχουν συνέπειες στην προστασία της πολιτιστικής κληρονομιάς, σύμφωνα με το Cyprus Mail. Το δημοσίευμα αναφέρει κατανομή €23,6 εκατ. στο Τμήμα. Η προειδοποίηση αποτελεί αξιολόγηση του διευθυντή και δεν τεκμηριώνει από μόνη της ήδη προκληθείσα ζημιά ή τελική κοινοβουλευτική έγκριση.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-10-30-evening/antiquities-budget.json",
+      "reader_url": "articles/2026-10-30-evening/antiquities-budget.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/30/antiquities-chief-warns-cuts-to-department-budget-will-come-at-a-price",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-30T15:06:15+00:00",
+          "retrieved_at": "2026-10-30T16:40:13.527059+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/14832f1455911eb48341a1965ebf0dff569f0a1782b29f36c3459afb5b7d3f34.webp"
+    },
+    {
+      "story_id": "arsenal-dowman-arteta-discipline-2026-10-30",
+      "identity": "arsenal-dowman-arteta-discipline-2026-10-30",
+      "edition_id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "slot": "evening",
+      "published_at": "2026-10-30T17:32:41.596933+00:00",
+      "available_at": "2026-10-30T17:32:41.596933+00:00",
+      "headline": "Άρσεναλ: ο Αρτέτα ζητά ίδια πρότυπα συμπεριφοράς από τον Ντάουμαν",
+      "finding": "Ο Μικέλ Αρτέτα δήλωσε ότι θα αντιμετωπίζει τον Μαξ Ντάουμαν με τα ίδια πρότυπα που ισχύουν για την πρώτη ομάδα, σύμφωνα με το BBC. Η FA διατήρησε την αποβολή του, απορρίπτοντας την έφεση της Άρσεναλ.",
+      "section": "sports",
+      "priority": 5,
+      "article_path": "articles/2026-10-30-evening/arsenal-dowman.json",
+      "reader_url": "articles/2026-10-30-evening/arsenal-dowman.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/c875p940g5v2o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-30T15:41:43+00:00",
+          "retrieved_at": "2026-10-30T16:40:20.794155+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/b36bf04d16964cc5876dfcd8ae9141b6896e500e4d0310e57c5c1c276fa75fd3.webp"
+    },
+    {
+      "story_id": "adames-warburton-non-title-2026-11-14",
+      "identity": "adames-warburton-non-title-2026-11-14",
+      "edition_id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "slot": "evening",
+      "published_at": "2026-10-30T17:32:41.596933+00:00",
+      "available_at": "2026-10-30T17:32:41.596933+00:00",
+      "headline": "Πυγμαχία: Αντάμες–Γουόρμπερτον χωρίς διακύβευμα τον τίτλο WBC",
+      "finding": "Ο Κάρλος Αντάμες προγραμματίζεται να αντιμετωπίσει τον Γερόμ Γουόρμπερτον στις 14 Νοεμβρίου στο Ριάντ, σύμφωνα με το BBC. Ο αγώνας προβλέπεται στα 165 pounds και ο τίτλος μεσαίων βαρών WBC του Αντάμες δεν θα διακυβεύεται.",
+      "section": "sports",
+      "priority": 6,
+      "article_path": "articles/2026-10-30-evening/adames-warburton.json",
+      "reader_url": "articles/2026-10-30-evening/adames-warburton.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/boxing/articles/c9146278y762o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-30T15:05:39+00:00",
+          "retrieved_at": "2026-10-30T16:40:20.934668+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c75d4ef6fa13d4508fccbe6c579896cd5a6ddc92f41799528bde2c8aa2af18fc.webp"
+    },
+    {
+      "story_id": "dockworkers-gaza-strike-2026-10-30",
+      "identity": "dockworkers-gaza-strike-2026-10-30",
+      "edition_id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "slot": "evening",
+      "published_at": "2026-10-30T11:35:07.973388+00:00",
+      "available_at": "2026-10-30T17:32:41.596933+00:00",
+      "headline": "Λιμενεργάτες: αναφερόμενη διεθνής κινητοποίηση για τη Γάζα",
+      "finding": "Το Al Jazeera αναφέρει ότι περισσότερα από 25 συνδικάτα λιμενεργατών, σε πάνω από 110 λιμάνια 22 χωρών, προχωρούν σε απεργία στις 30 Οκτωβρίου για τη Γάζα. Το απόσπασμα δεν δίνει επιβεβαιωμένο απολογισμό πραγματικής συμμετοχής, διάρκειας διακοπών ή φορτίων που επηρεάστηκαν.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-30-evening/dockworkers-strike.json",
+      "reader_url": "articles/2026-10-30-evening/dockworkers-strike.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/features/2026/10/30/what-can-a-global-strike-of-dockworkers-achieve-for-gaza?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-10-30T10:04:35+00:00",
+          "retrieved_at": "2026-10-30T10:20:52.615231+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/world-4.webp"
+    },
+    {
+      "story_id": "israel-election-2026-10-27",
+      "identity": "israel-election-2026-10-27",
+      "edition_id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "slot": "evening",
+      "published_at": "2026-10-27T11:32:58.215892+00:00",
+      "available_at": "2026-10-30T17:32:41.596933+00:00",
+      "headline": "Ισραήλ: το μπλοκ Νετανιάχου κάτω από την πλειοψηφία",
+      "finding": "Το CNBC αναφέρει ότι η τελική καταμέτρηση αφήνει και τα δύο βασικά μπλοκ κάτω από τις 61 έδρες που απαιτούνται για πλειοψηφία. Επικαλούμενο την Κεντρική Εκλογική Επιτροπή, αποδίδει 53 έδρες στο μπλοκ Νετανιάχου και μεταφέρει ισχυρισμούς του κόμματός του περί κλοπής των εκλογών, χωρίς το απόσπασμα να τους τεκμηριώνει.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-30-evening/israel-election.json",
+      "reader_url": "articles/2026-10-30-evening/israel-election.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-10-30T03:28:10+00:00",
+          "retrieved_at": "2026-10-30T04:20:52.543555+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "boj-rate-inflation-2026-10-30",
+      "identity": "boj-rate-inflation-2026-10-30",
+      "edition_id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "slot": "evening",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T17:32:41.596933+00:00",
+      "headline": "Ιαπωνία: αμετάβλητο επιτόκιο και νέα εκτίμηση για τον πληθωρισμό",
+      "finding": "Η Τράπεζα της Ιαπωνίας διατήρησε το επιτόκιο στο 1,25% και έκρινε τον υποκείμενο πληθωρισμό γενικά συμβατό με τον στόχο 2%, σύμφωνα με το CNBC. Η τράπεζα επισήμανε επίσης κίνδυνο ανοδικής απόκλισης, επικαλούμενη μεταβολή στη συμπεριφορά των επιχειρήσεων ως προς μισθούς και τιμές.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-30-evening/boj-decision.json",
+      "reader_url": "articles/2026-10-30-evening/boj-decision.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-10-30T03:16:28+00:00",
+          "retrieved_at": "2026-10-30T04:20:52.528437+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-morning/nfl-jaguars-london.webp"
+    },
+    {
+      "story_id": "cyprus-support-programmes-strike-2026-10-30",
+      "identity": "cyprus-support-programmes-strike-2026-10-30",
+      "edition_id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "slot": "evening",
+      "published_at": "2026-10-30T11:35:07.973388+00:00",
+      "available_at": "2026-10-30T17:32:41.596933+00:00",
+      "headline": "Εκπαιδευτικά προγράμματα: ανακοινώθηκε απεργία από τη Δευτέρα",
+      "finding": "Οι ΣΕΚ και ΠΕΟ ανακοίνωσαν απεργία αορίστου χρόνου από τη Δευτέρα για εργαζομένους σε υποστηρικτικά προγράμματα του Υπουργείου Παιδείας, σύμφωνα με το Cyprus Mail. Οι συντεχνίες καταγγέλλουν ότι πολλοί παραμένουν απλήρωτοι επί πέντε μήνες και ότι η σχετική νομοθεσία δεν εφαρμόστηκε πλήρως· το απόσπασμα δεν περιλαμβάνει απάντηση του υπουργείου.",
+      "section": "cyprus",
+      "priority": 2,
+      "article_path": "articles/2026-10-30-evening/support-workers.json",
+      "reader_url": "articles/2026-10-30-evening/support-workers.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/30/support-programmes-staff-to-strike-indefinitely-over-unpaid-wages",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-30T10:20:03+00:00",
+          "retrieved_at": "2026-10-30T10:20:53.853647+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-midday/cyprus-2.webp"
+    },
+    {
+      "story_id": "gsi-eu-cyprus-greece-2026-10-29",
+      "identity": "gsi-eu-cyprus-greece-2026-10-29",
+      "edition_id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "slot": "evening",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T17:32:41.596933+00:00",
+      "headline": "Διασύνδεση Ελλάδας–Κύπρου: ο Επίτροπος δηλώνει ότι το έργο προχωρά",
+      "finding": "Ο Επίτροπος Ενέργειας Νταν Γιόργκενσεν δήλωσε μετά από τριμερή επαφή με τους υπουργούς Ελλάδας και Κύπρου ότι ενημερώθηκε πως ο Great Sea Interconnector προχωρά, σύμφωνα με το Sigmalive. Ο ίδιος συνέδεσε το έργο με τον τερματισμό της ενεργειακής απομόνωσης και τη μείωση τιμών, ως επιδιωκόμενα οφέλη και όχι ήδη μετρημένα αποτελέσματα.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-10-30-evening/gsi-interconnection.json",
+      "reader_url": "articles/2026-10-30-evening/gsi-interconnection.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/energia/1335444/giorghkensen-o-gsi-prokhora-tha-termatisei-tin-energheiaki-apomonosi-tis-kyproy",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-10-29T20:36:42+00:00",
+          "retrieved_at": "2026-10-30T04:20:52.928633+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-midday/cyprus-1.webp"
+    },
+    {
+      "story_id": "cyta-solar-budget-2027-2026-10-30",
+      "identity": "cyta-solar-budget-2027-2026-10-30",
+      "edition_id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "slot": "evening",
+      "published_at": "2026-10-30T05:29:45.355122+00:00",
+      "available_at": "2026-10-30T17:32:41.596933+00:00",
+      "headline": "Cyta: πρόβλεψη δαπανών για φωτοβολταϊκά το 2027",
+      "finding": "Το Philenews αναφέρει ότι η Cyta έχει προϋπολογίσει δεκάδες εκατομμύρια ευρώ για τα πρώτα της βήματα στα φωτοβολταϊκά το 2027. Το δημοσίευμα σημειώνει ότι η σχετική νομοθετική αλλαγή επιτρέπει δραστηριοποίηση στην ενέργεια μέσω ανανεώσιμων πηγών και μεταφέρει προγενέστερο στόχο της Cyta για καταναλωτές χωρίς εύκολη πρόσβαση σε αυτές.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-10-30-evening/cyta-solar.json",
+      "reader_url": "articles/2026-10-30-evening/cyta-solar.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1788616/proipologise-chrima-gia-fotovoltaika-i-cyta-mesa-sto-27",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-30T04:17:00+00:00",
+          "retrieved_at": "2026-10-30T04:20:53.573304+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-midday/cyprus-1.webp"
+    },
+    {
+      "story_id": "spain-padel-leal-selection-2026-10-30",
+      "identity": "spain-padel-leal-selection-2026-10-30",
+      "edition_id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "slot": "evening",
+      "published_at": "2026-10-30T11:35:07.973388+00:00",
+      "available_at": "2026-10-30T17:32:41.596933+00:00",
+      "headline": "Padel: ο Χάβι Λεάλ στην ισπανική αποστολή αντί του Γκαλάν",
+      "finding": "Το Padel Addict αναφέρει ότι η ισπανική ομοσπονδία επιβεβαίωσε την ένταξη του Χάβι Λεάλ στην αποστολή για το Παγκόσμιο στο Κατάρ αντί του Γκαλάν. Η διοργάνωση έχει προγραμματιστεί στη Ντόχα στις 2–7 Νοεμβρίου.",
+      "section": "sports",
+      "priority": 4,
+      "article_path": "articles/2026-10-30-evening/spain-padel.json",
+      "reader_url": "articles/2026-10-30-evening/spain-padel.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/javi-leal-sustituto-galan-mundial-padel",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-10-30T10:00:22+00:00",
+          "retrieved_at": "2026-10-30T10:21:00.697912+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/library/sports.webp"
     },
     {
       "story_id": "dockworkers-gaza-strike-2026-10-30",
