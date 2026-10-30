@@ -4,7 +4,7 @@ from datetime import datetime
 from decimal import Decimal, ROUND_HALF_UP
 
 CORE = [('S&P 500', ('^GSPC', 'sp500')), ('Nasdaq', ('^IXIC', 'nasdaq')), ('STOXX Europe 600', ('^STOXX', 'stoxx')), ('ΧΑΚ', ('cse',)), ('EUR/USD', ('eurusd',)), ('Brent', ('brent',))]
-TECH = [('TSMC ADR','TSM'), ('Nvidia','NVDA'), ('Alphabet','GOOGL'), ('Microsoft','MSFT'), ('Apple','AAPL'), ('Micron','MU'), ('Meta','META')]
+TECH = [('TSMC ADR','TSM'), ('Nvidia','NVDA'), ('Alphabet','GOOGL'), ('Microsoft','MSFT'), ('Apple','AAPL'), ('Micron','MU'), ('Meta','META'), ('Amazon','AMZN')]
 
 def quote_key(q):
     if q.get('instrument'):
@@ -27,7 +27,10 @@ def quote_key(q):
     return re.sub(r'\s+', ' ', name).strip()
 
 def markets(b, e):
+    enriched=e.get('briefing_policy')=='depth-markets-v1'
+    companies=TECH if enriched else [item for item in TECH if item[1]!='AMZN']
     labels = {'live':'Ενδοσυνεδριακή', 'delayed':'Με καθυστέρηση · ενδοσυνεδριακή', 'previous_close':'Κλείσιμο', 'unavailable':'Μη διαθέσιμη'}
+    if enriched:labels['delayed']='Με καθυστέρηση'
     quotes = e['markets']
     used = set()
     def details(q):
@@ -42,7 +45,8 @@ def markets(b, e):
         unit = q['unit'] if q.get('asset_class') == 'rate' else q['unit'] + ' · ' + q['currency'] if q.get('asset_class') in ('index','futures_index') else q['currency'] + ' / ' + q['unit']
         direction='unknown' if change is None else 'positive' if change>0 else 'negative' if change<0 else 'neutral'
         transmission = f'<div class="quote-transmission"><span>Μετάδοση:</span> {b.esc(q["transmission_mechanism"])}</div>' if q.get('transmission_mechanism') else ''
-        return '<article class="quote-card" data-quote-key="'+b.esc(quote_key(q))+'"><h4>'+b.esc(q['name'])+'</h4><strong class="quote-value">'+b.esc(value if value is not None else '—')+'</strong><span class="quote-unit">'+b.esc(unit)+'</span><b class="quote-change change-'+direction+'">'+b.esc(delta)+'</b><span class="quote-status">'+labels[q['status']]+'</span><time>'+b.stamp(q.get('quoted_at'))+'</time>'+transmission+details(q)+'</article>'
+        session={'regular':' · Κανονική συνεδρίαση','pre':' · Πριν από το άνοιγμα','post':' · Μετά το κλείσιμο'}.get(q.get('session'),'') if enriched else ''
+        return '<article class="quote-card" data-quote-key="'+b.esc(quote_key(q))+'"><h4>'+b.esc(q['name'])+'</h4><strong class="quote-value">'+b.esc(value if value is not None else '—')+'</strong><span class="quote-unit">'+b.esc(unit)+'</span><b class="quote-change change-'+direction+'">'+b.esc(delta)+'</b><span class="quote-status">'+labels[q['status']]+session+'</span><time>'+b.stamp(q.get('quoted_at'))+'</time>'+transmission+details(q)+'</article>'
     core = []
     configured = e.get('market_core')
     targets = [(key,(key,)) for key in configured] if configured else CORE
@@ -53,7 +57,11 @@ def markets(b, e):
             if i not in used: core.append(q); used.add(i)
     overview = e.get('market_summary', [])
     if not overview:
-        overview = [{'text':q['name']+' · '+f'{q["change_pct"]:+.2f}%'.replace('.',',')+' ('+labels[q['status']]+'). Χρόνος τιμής: '+b.stamp(q['quoted_at'])+'. Δεν έχει τεκμηριωθεί μοναδική αιτία.', 'sources':q['sources']} for q in core if q.get('change_pct') is not None][:2]
+        if enriched:
+            market_briefing=b.load_module('market_briefing')
+            overview=[market_briefing.quote_note(a) for a in market_briefing.alerts(quotes,e['published_at'])[:3]]
+        if not overview:
+            overview = [{'text':q['name']+' · '+f'{q["change_pct"]:+.2f}%'.replace('.',',')+' ('+labels[q['status']]+'). Χρόνος τιμής: '+b.stamp(q['quoted_at'])+'. Δεν έχει τεκμηριωθεί μοναδική αιτία.', 'sources':q['sources']} for q in core if q.get('change_pct') is not None][:2]
         if e.get('market_next_event'): overview.append(e['market_next_event'])
     def note(n):
         return '<article class="market-note"><p>'+b.esc(n['text'])+'</p>'+b.source_disclosure(n['sources'],'Τεκμηρίωση')+'</article>'
@@ -80,9 +88,13 @@ def markets(b, e):
     for category, items in groups.items():
         html += '<h3>'+category+'</h3><div class="quote-grid">'+''.join(quote(q) for q in items)+'</div>'
     if not groups: html += '<p>Οι διαθέσιμες τιμές βρίσκονται στις βασικές κάρτες, στο Tech watch ή στα επιτόκια.</p>'
-    html += '</details><details class="tech-quotes"><summary>'+b.emblem('tech')+'Tech watch · επτά εταιρείες</summary><table class="tech-table"><caption>Ελεγμένα στιγμιότυπα τεχνολογικών εταιρειών</caption><thead><tr><th scope="col">Εταιρεία</th><th scope="col">Τιμή · μονάδα · μεταβολή</th><th scope="col">Κατάσταση · χρόνος · πηγή</th></tr></thead><tbody>'
+    html += '</details>'
+    if enriched and e.get('technology_briefing'):
+        html+='<div class="technology-briefing"><h3>Τεχνολογία και κυβερνοασφάλεια</h3><ul>'+''.join(
+            '<li><a href="../'+b.esc(item['url'])+'">'+b.esc(item['headline'])+'</a></li>' for item in e['technology_briefing'])+'</ul></div>'
+    html += '<details class="tech-quotes"><summary>'+b.emblem('tech')+'Tech watch · '+('οκτώ' if enriched else 'επτά')+' εταιρείες</summary><table class="tech-table"><caption>Ελεγμένα στιγμιότυπα τεχνολογικών εταιρειών</caption><thead><tr><th scope="col">Εταιρεία</th><th scope="col">Τιμή · μονάδα · μεταβολή</th><th scope="col">Κατάσταση · χρόνος · πηγή</th></tr></thead><tbody>'
     from bs4 import BeautifulSoup
-    for name,key in TECH:
+    for name,key in companies:
         if key not in tech:
             html += '<tr><th scope="row">'+name+'</th><td colspan="2">Τιμή μη διαθέσιμη</td></tr>'
             continue

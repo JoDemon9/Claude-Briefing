@@ -149,13 +149,21 @@ def validate_synthesis(edition, articles):
     for article in changed:
         desk=section(article)
         leads.setdefault(desk,article['story_id'])
-        deep=any(article.get(k) for k in ('mechanics_and_incentives','second_order_effects','scenarios','newspaper_analysis'))
+        enriched=edition.get('briefing_policy')=='depth-markets-v1' and desk!='sports'
+        deep=any(article.get(k) for k in ('mechanics_and_incentives','second_order_effects','scenarios')) or (bool(article.get('newspaper_analysis')) and not enriched)
         mover=bool(set(article.get('driver_tags',[])) & {'market-mover','tactical-mover'})
         brief=desk=='sports' and sports_briefing.active(edition['sports'])
         if deep and article['story_id']!=leads[desk] and not mover and not brief:
             raise ValueError('Deep analysis is reserved for desk leads and major market/tactical movers')
         if not deep and len(article['summary'].split())>70:
-            raise ValueError('Secondary dispatches must be concise (at most 70 words)')
+            if not enriched or len(article['summary'].split())>75:
+                raise ValueError('Secondary dispatch exceeds its factual-summary word cap')
+        if enriched and article['story_id']!=leads[desk] and not mover:
+            meaning=' '.join(article.get('newspaper_analysis',[]))
+            if len(meaning.split())>25 or len((article['summary']+' '+meaning).split())>90:
+                raise ValueError('Secondary summary and meaning must fit 90 words; meaning at most 25')
+            if meaning and not article.get('analysis_sources'):
+                raise ValueError('Short meaning needs reviewed analysis sources')
         if desk=='sports' and article.get('sports_interest') not in {'omonoia','manutd','realmadrid','formula1','other'}:
             raise ValueError('Sports dispatch requires an explicit priority interest')
     if len(edition['sports'].get('major_stories',[]))>3:

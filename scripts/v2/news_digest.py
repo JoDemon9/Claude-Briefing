@@ -103,6 +103,8 @@ def priority(group,stories):
     tokens=words(title)
     reasons=[]
     score=0
+    if group[0].get('market_priority'):
+        score+=group[0]['market_priority'];reasons.append('finance_technology_security')
     if any(len(tokens & words(normalized(s.get('headline',''))))>=3 and
            len(tokens & words(normalized(s.get('headline',''))))/max(1,len(tokens | words(normalized(s.get('headline','')))))>=.30 for s in stories):
         score+=4;reasons.append('possible_baseline_followup')
@@ -176,6 +178,7 @@ def feed_items(row,feed,at):
         section=geography(title,link,feed_section(item,feed))
         items.append(dict(title=title,url=canonical(link),published_at=published,section=section,publisher=feed['publisher'],
                           reporting_group=feed.get('reporting_group',feed['publisher']),
+                          topic=module('market_briefing').topic(title,feed.get('topic')),
                           sports_lane=sports_lane(title,'football' if '/sport/football/' in link else feed.get('sports_lane','other')) if section=='sports' else None,
                           feed_excerpt=clean(field(('description','summary','encoded')))[:700],feed_retrieved_at=row['retrieved_at']))
     return items[:30]
@@ -299,7 +302,14 @@ def collect(root,packet,client,at,private_folder):
     unique={}
     for item in sorted(items,key=lambda i:(i.get('published_at') or '',i['url']),reverse=True):
         unique.setdefault(item['url'],item)
+    markets=module('market_briefing')
+    for item in unique.values():
+        if item['section']=='sports':continue
+        item['topic']=markets.topic(item['title'],item.get('topic'))
+        item['market_priority']=markets.discovery_score(item['title'],item.get('topic'),packet.get('market_alerts',[]))
     groups=cluster([item for item in unique.values() if news_report(item['title'])])
+    for group in groups:
+        group.sort(key=lambda item:item.get('market_priority',0),reverse=True)
     groups.sort(key=lambda g:(priority(g,packet.get('stories',[]))[0],g[0].get('published_at') or '',g[0]['url']),reverse=True)
     # Diversify before spending scarce article requests; soft cap never blocks a desk.
     def diverse(rows):
@@ -309,6 +319,7 @@ def collect(root,packet,client,at,private_folder):
             (first if counts[publisher]<=2 else rest).append(g)
         return first+rest
     queues={desk:diverse([g for g in groups if g[0]['section']==desk]) for desk in ('cyprus','world')}
+    queues['world']=markets.reserve(queues['world'])
     selected=[g for desk in queues for g in queues[desk][:6]]
     chosen=[g[0] for g in selected]
     pages=client.many(item['url'] for item in chosen)
@@ -323,7 +334,11 @@ def collect(root,packet,client,at,private_folder):
     # Repair news first, reserving seven distinct sports lanes where available.
     while len(chosen)<17:
         counts={desk:sum(g[0]['section']==desk and any(usable(i) for i in g) for g in selected) for desk in ('cyprus','world')}
-        group=next((g for desk in sorted(counts,key=counts.get) if counts[desk]<6 for g in queues[desk] if g not in selected),None)
+        # Repair a failed reserved topic before spending its slot on general news.
+        topic_count=sum(bool(g[0].get('topic')) and g[0]['section']=='world' and any(usable(i) for i in g) for g in selected)
+        group=next((g for g in queues['world'] if topic_count<2 and g[0].get('topic') and g not in selected),None)
+        if group is None:
+            group=next((g for desk in sorted(counts,key=counts.get) if counts[desk]<6 for g in queues[desk] if g not in selected),None)
         if group is None:break
         fetch_group(group)
     sports_groups=[g for g in groups if g[0]['section']=='sports']
@@ -364,8 +379,12 @@ def collect(root,packet,client,at,private_folder):
     clustered=[]
     for i,group in enumerate(cluster(candidates),1):
         clustered.append(dict(id='c'+str(i),section=group[0]['section'],title=group[0]['title'],sports_lane=group[0].get('sports_lane'),
+                              topic=group[0].get('topic'),market_priority=group[0].get('market_priority',0),
                               priority_hint=priority(group,packet.get('stories',[]))[1],
                               evidence=group,baseline_matches=[s['story_id'] for s in packet.get('stories',[]) if any(canonical(src['url']) in {e['url'] for e in group} for src in s['sources'])]))
+    required=sorted([c for c in clustered if c['section']!='sports' and c['market_priority']>=6
+                     and any(e['access']=='article_excerpt' for e in c['evidence'])],key=lambda c:c['market_priority'],reverse=True)[:2]
+    for c in required:c['priority_required']=True
     pipeline={desk:dict(discovered=sum(i['section']==desk for i in unique.values()),
         fetched=sum(i['section']==desk for i in chosen),readable=sum(c['section']==desk and any(e['access']=='article_excerpt' for e in c['evidence']) for c in clustered),
         rejected=[{'url':e['url'],'reason':e.get('rejection_reason','unavailable')} for e in fetched.values() if e['section']==desk and e['access']!='article_excerpt']) for desk in ('cyprus','world','sports')}

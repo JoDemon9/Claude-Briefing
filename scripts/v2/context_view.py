@@ -21,6 +21,7 @@ def synthesis(pack,max_bytes=48000):
     spec=importlib.util.spec_from_file_location('view_news_digest',Path(__file__).with_name('news_digest.py'))
     news=importlib.util.module_from_spec(spec);spec.loader.exec_module(news)
     modern=pack['data']['sports'].get('briefing_policy')=='intelligence-v1'
+    enriched=pack.get('briefing_policy')=='depth-markets-v1'
     routine_sources={}
     def source_ref(source):
         key=(source['url'],source.get('retrieved_at'))
@@ -61,13 +62,25 @@ def synthesis(pack,max_bytes=48000):
                for line in lines]
         lines.insert(-1,'Sports contract intelligence-v1: write @SportBrief interest=omonoia|manutd|realmadrid|formula1 evidence=e1,e2 changed="reported change" meaning="sporting consequence" watch="observable next test" for favourites with article evidence (40–60 words; 70 maximum each). Use only evidence assigned to that interest. No score-based tactics or injuries. Without evidence leave the card unavailable; do not claim no news. These annotations have a separate allowance from news articles, within the unchanged output-token budget.')
         lines.insert(-1,'Beyond my four: select 2–3 sports articles, interest=other, one each tagged padel, football, or other-sport. Exclude the four favourites. Include @Fact plus @Effects and @AnalysisSources; 35–50 words preferred, 70 maximum across fact/effects. No long sports essay. If fewer than two, add @SportsReason followed by the actual evidence limitation. Aim for 300–400 sports words overall; maximum 450. Keep Greek prose, source independence and verified dates; feed-only headlines cannot support a briefing.')
+    if enriched:
+        lines=[line.replace('@Fact two factual sentences [e1]', '@Fact usually three factual sentences, 55–75 Greek words [e1]')
+               .replace('secondary reports remain two clear factual sentences.',
+                        'secondary news summaries explain the event, key figure/decision, affected people and timing in up to 75 words.') for line in lines]
+        lines.insert(-1,'News depth: optional @Meaning one distinct supported consequence (15–25 words), with @AnalysisSources e1. Summary plus meaning maximum 90 words for ordinary secondary news. No minimum for weak evidence. Leads retain 120–170 words overall. Add finance, technology or cybersecurity tags to relevant stories; do not duplicate their prose in markets.')
+        lines.insert(-1,'After articles, optionally @Market instrument=GOOGL evidence=e1,e2 | 10–65 Greek words: reported catalyst, practical consequence, uncertainty and next observable test where supported. At most 3; Python inserts the exact move/time. Quote evidence establishes movement, never cause. Unexplained large moves receive a Python highlight. Distinguish regular session, extended hours and crypto reference intervals; do not invent a cause, loss amount or breach victim.')
+        lines.insert(-1,'At most two candidates marked priority_required must be covered using their article evidence, or explicitly @SkipPriority candidate=c1 reason="specific evidence or editorial reason, at least 20 characters". A security headline is a report to assess, not proof of a confirmed breach. Distinguish exchange, blockchain, supplier and individual-account incidents.')
     for story in pack.get('baseline_stories',[]):
         view={k:v for k,v in story.items() if k!='identity' or v!=story.get('story_id')}
         view['finding']=short(story.get('finding',''),160 if modern else 240)
         lines.append(json.dumps(view,ensure_ascii=False,separators=(',',':')))
-    lines.append('\n## Python market table: instrument | value | change_pct | quoted_at | status')
+    lines.append('\n## Python market table: instrument | value | change_pct | quoted_at | status'+(' | session' if enriched else ''))
     for q in pack['data']['markets']:
-        lines.append(' | '.join(str(q.get(k)) for k in ('instrument','value','change_pct','quoted_at','status')))
+        keys=('instrument','value','change_pct','quoted_at','status')+(('session',) if enriched else ())
+        lines.append(' | '.join(str(q.get(k)) for k in keys))
+    if enriched:
+        alerts=news.module('market_briefing').alerts(pack['data']['markets'],pack['prepared_at'])
+        lines.append('Market alerts (provider observations, no inferred cause): '+encoded([
+            {k:a[k] for k in ('instrument','change_pct','quoted_at','status','session','priority')} for a in alerts[:3]]))
     lines.append('Weather: '+pack['weather_status'])
     for panel in pack['data']['panels']:
         lines.extend(panel['paragraphs'])
@@ -99,6 +112,8 @@ def synthesis(pack,max_bytes=48000):
     # News-first greedy packing can otherwise discard every sports excerpt.
     usable=lambda c:[e for e in c['evidence'] if e.get('access')=='article_excerpt' and e.get('source') and e.get('excerpt')]
     queues=[[c for c in pack['candidates'] if c['section']==s and usable(c)] for s in ('cyprus','world')]
+    if enriched:
+        queues=[sorted(queue,key=lambda c:not c.get('priority_required',False)) for queue in queues]
     ordered=[]
     while any(queues):
         for queue in queues:

@@ -64,10 +64,10 @@ class PrefetchTests(unittest.TestCase):
                 self.urls=list(urls);return {u:{'url':u,'status':'unavailable'} for u in self.urls}
             def get(self,url):return {'url':url,'status':'unavailable'}
         client=Offline();result=prefetch.collect(ROOT,client,AT)
-        self.assertEqual(len(result['markets']),38)
-        self.assertEqual(len(set(q['instrument'] for q in result['markets'])),38)
+        self.assertEqual(len(result['markets']),39)
+        self.assertEqual(len(set(q['instrument'] for q in result['markets'])),39)
         self.assertTrue(all(q['value'] is None and q['quoted_at'] is None for q in result['markets']))
-        self.assertEqual(len(client.urls),39)
+        self.assertEqual(len(client.urls),40)
 
     def test_provider_reported_change_is_kept_without_using_the_chart_window_baseline(self):
         meta=dict(symbol='^GSPC',currency='USD',regularMarketPrice=7623.68,
@@ -164,7 +164,7 @@ class SynthesisTests(unittest.TestCase):
     def test_carry_only_delta_compiles_full_records_without_rewriting_evidence(self):
         pack,payload,old=fixture();hydrated=packmod.hydrate(payload,pack,ROOT,AT.isoformat())
         edition,articles,_=compose.compile_payload(hydrated,ROOT)
-        self.assertEqual(len(articles),len(old));self.assertEqual(len(edition['markets']),38)
+        self.assertEqual(len(articles),len(old));self.assertEqual(len(edition['markets']),39)
         for previous,current in zip(old,articles):
             for field in ('summary','sources','published_at','updated_at','image'):
                 self.assertEqual(current.get(field),previous.get(field))
