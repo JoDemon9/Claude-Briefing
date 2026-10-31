@@ -215,7 +215,8 @@ class FinancialInsightTests(unittest.TestCase):
                 def route(request):
                     path=request.request.url.removeprefix('http://oracle.test/')
                     if path=='preview':return request.fulfill(body=html,content_type='text/html')
-                    asset=ROOT/'docs'/path
+                    asset=ROOT/'templates/v2'/Path(path).name
+                    if not asset.is_file():asset=ROOT/'docs'/path
                     if path.startswith('assets/') and asset.is_file():return request.fulfill(path=str(asset))
                     return request.abort()
                 context.route('**/*',route)
