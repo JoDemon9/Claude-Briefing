@@ -29,6 +29,9 @@ def validate(edition, articles, root):
     spec = importlib.util.spec_from_file_location('intelligence_continuity', Path(__file__).with_name('continuity.py'))
     continuity = importlib.util.module_from_spec(spec); spec.loader.exec_module(continuity)
     continuity.validate(edition, articles, root)
+    spec=importlib.util.spec_from_file_location('intelligence_financial',Path(__file__).with_name('financial_insights.py'))
+    financial=importlib.util.module_from_spec(spec);spec.loader.exec_module(financial)
+    financial.validate(edition)
     if edition.get('intelligence_contract') != 1:
         current = hashlib.sha256((Path(root)/'templates/v2/content.schema.json').read_bytes()).hexdigest()
         if edition.get('status') == 'published' and edition.get('producer_contract',{}).get('content_schema_sha256') == current:

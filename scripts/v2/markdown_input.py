@@ -202,6 +202,27 @@ def parse(text, root, pack=None):
                     raise ValueError('Duplicate favourite briefing')
                 meta['evidence'] = meta['evidence'].split(',')
                 notes[key] = meta
+            elif name == '@Insight':
+                finish()
+                head, sep, body = value.partition(' | ')
+                meta = attributes(head)
+                fields(meta, ('instruments','evidence','stats','reported','meaning','watch'), ('instruments','evidence','reported','meaning','watch'))
+                if not sep or not body.strip(): raise ValueError('Financial insight needs a headline')
+                meta['headline'] = body
+                meta['instruments'] = [] if meta['instruments']=='none' else meta['instruments'].split(',')
+                meta['evidence'] = meta['evidence'].split(',')
+                meta['statistics'] = [] if meta.get('stats','none')=='none' else meta['stats'].split(',')
+                meta.pop('stats',None)
+                payload.setdefault('financial_briefs',[]).append(meta)
+            elif name == '@FinanceReason':
+                finish()
+                if 'financial_shortfall_reason' in payload or len(value.strip())<20:
+                    raise ValueError('Supply one specific financial evidence limitation')
+                payload['financial_shortfall_reason']=value
+            elif name == '@CarryInsight':
+                finish()
+                meta=attributes(value);fields(meta,('index',),('index',))
+                payload.setdefault('carry_financial_insights',[]).append(int(meta['index']))
             elif name == '@Market':
                 finish()
                 head, sep, body = value.partition(' | ')

@@ -1153,6 +1153,98 @@
           }
         }
       }
+    },
+    "financial_statistic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "instrument",
+        "benchmark",
+        "start",
+        "end",
+        "basis",
+        "return_pct",
+        "benchmark_return_pct",
+        "excess_pp",
+        "points",
+        "sources"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^m[1-9][0-9]*$"
+        },
+        "instrument": {
+          "type": "string",
+          "minLength": 1
+        },
+        "benchmark": {
+          "enum": [
+            "^IXIC",
+            "^GSPC"
+          ]
+        },
+        "start": {
+          "type": "string",
+          "format": "date"
+        },
+        "end": {
+          "type": "string",
+          "format": "date"
+        },
+        "basis": {
+          "enum": [
+            "close",
+            "adjusted_close"
+          ]
+        },
+        "return_pct": {
+          "type": "number"
+        },
+        "benchmark_return_pct": {
+          "type": "number"
+        },
+        "excess_pp": {
+          "type": "number"
+        },
+        "points": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "date",
+              "value",
+              "benchmark"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "value": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "benchmark": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            }
+          }
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        }
+      }
     }
   },
   "type": "object",
@@ -1843,7 +1935,11 @@
             ]
           },
           "session": {
-            "enum": ["regular", "pre", "post"]
+            "enum": [
+              "regular",
+              "pre",
+              "post"
+            ]
           },
           "instrument": {
             "type": "string"
@@ -2480,7 +2576,92 @@
           }
         }
       }
+    },
+    "financial_policy": {
+      "const": "news-insights-v1"
+    },
+    "financial_review": {
+      "type": "string"
+    },
+    "financial_insights": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "headline",
+          "reported",
+          "meaning",
+          "watch",
+          "as_of",
+          "instruments",
+          "statistics",
+          "sources"
+        ],
+        "properties": {
+          "headline": {
+            "type": "string",
+            "minLength": 3
+          },
+          "reported": {
+            "type": "string",
+            "minLength": 3
+          },
+          "meaning": {
+            "type": "string",
+            "minLength": 3
+          },
+          "watch": {
+            "type": "string",
+            "minLength": 3
+          },
+          "as_of": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "instruments": {
+            "type": "array",
+            "maxItems": 3,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "statistics": {
+            "type": "array",
+            "maxItems": 1,
+            "items": {
+              "$ref": "#/$defs/financial_statistic"
+            }
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/source"
+            }
+          }
+        }
+      }
     }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "required": [
+          "financial_policy"
+        ]
+      },
+      "then": {
+        "required": [
+          "financial_insights",
+          "financial_review",
+          "briefing_policy"
+        ]
+      }
+    }
+  ]
 }
