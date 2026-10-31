@@ -178,7 +178,9 @@ def collect(root,client,at):
     forecast=weather(rows[WEATHER],max(at,datetime.fromisoformat(rows[WEATHER].get('retrieved_at',at.isoformat()))))
     if forecast['status']=='unavailable':
         forecast=met_weather(client.get(WEATHER_FALLBACK),at)
+    context_at=max([at]+[datetime.fromisoformat(r['retrieved_at']) for r in rows.values() if r.get('retrieved_at')])
     return {'markets':quotes,'weather':forecast,
+            'market_context':module('financial_insights').context(inventory,rows,context_at,endpoint),
             'availability':{q['instrument']:q['status'] for q in quotes}}
 
 

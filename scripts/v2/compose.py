@@ -19,7 +19,8 @@ REQUIRED = ('published_at', 'editorial_completed_at', 'reading_review', 'article
 OPTIONAL = ('executive_scan', 'daily', 'markets', 'sports', 'panels', 'opportunities',
             'freshness', 'selection_review', 'image_review', 'changes', 'market_summary',
             'market_next_event', 'market_movers', 'market_core', 'market_notes',
-            'calculator', 'fast_wire', 'delta_log', 'baseline', 'synthesis_profile', 'prefetch_provenance', 'selection_policy', 'briefing_policy', 'technology_briefing')
+            'calculator', 'fast_wire', 'delta_log', 'baseline', 'synthesis_profile', 'prefetch_provenance', 'selection_policy', 'briefing_policy', 'technology_briefing',
+            'financial_policy', 'financial_insights', 'financial_review')
 
 
 def module(name):
