@@ -379,6 +379,14 @@
       "fingerprint": "e20ac4292fc63294e92ed335fae228fd7f80edde2d4dcc5ab098d576c03271f1"
     },
     {
+      "id": "2026-10-31-midday",
+      "date": "2026-10-31",
+      "type": "midday",
+      "published_at": "2026-10-31T11:31:43.195285+00:00",
+      "url": "midday/2026-10-31.html",
+      "fingerprint": "2fee71ba42247eba45749ac8bca59faf31bc08a853bf0b4112e0181fa8e1f1e2"
+    },
+    {
       "id": "2026-10-31-morning",
       "date": "2026-10-31",
       "type": "morning",
@@ -13215,6 +13223,338 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/library/sports.webp"
+    },
+    {
+      "story_id": "nvidia-espionage-allegations-response-2026-10-30",
+      "identity": "nvidia-espionage-allegations-response-2026-10-30",
+      "edition_id": "2026-10-31-midday",
+      "date": "2026-10-31",
+      "slot": "midday",
+      "published_at": "2026-10-31T11:31:43.195285+00:00",
+      "available_at": "2026-10-31T11:31:43.195285+00:00",
+      "headline": "Nvidia: καταγγελίες και διαψεύσεις, χωρίς επιβεβαιωμένη παραβίαση",
+      "finding": "Το BBC αναφέρει ότι η Κίνα απέρριψε ισχυρισμούς για κατασκοπευτική προσέγγιση του Τζένσεν Χουάνγκ και ότι η Nvidia χαρακτήρισε τις επαφές του συνήθεις επιχειρηματικές συναλλαγές. Το CNBC μεταφέρει εταιρική δήλωση ότι καταγγελίες εκτροπής chips είχαν ήδη διερευνηθεί και διαψευστεί. Και τα δύο παραπέμπουν στην ίδια αρχική δημοσιογραφική έρευνα, συνεπώς δεν αποτελούν ανεξάρτητες επιβεβαιώσεις της καταγγελίας.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-31-midday/nvidia-allegations.json",
+      "reader_url": "articles/2026-10-31-midday/nvidia-allegations.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/ckgj9plnlxdeo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-30T12:20:04+00:00",
+          "retrieved_at": "2026-10-31T10:20:59.371000+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-10-29T15:59:26+00:00",
+          "retrieved_at": "2026-10-31T10:20:59.501577+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0c4c8a1544185c9c81242d4a94904dfe3b55bce87e8af3992d27c009b823df36.webp"
+    },
+    {
+      "story_id": "poland-constitutional-court-2026-10-30",
+      "identity": "poland-constitutional-court-2026-10-30",
+      "edition_id": "2026-10-31-midday",
+      "date": "2026-10-31",
+      "slot": "midday",
+      "published_at": "2026-10-31T05:35:50.458247+00:00",
+      "available_at": "2026-10-31T11:31:43.195285+00:00",
+      "headline": "Πολωνία: ενισχύθηκε η ασφάλεια γύρω από το Συνταγματικό Δικαστήριο",
+      "finding": "Το France 24 αναφέρει ενίσχυση της αστυνομικής ασφάλειας γύρω από το Συνταγματικό Δικαστήριο μετά τη συγκέντρωση δεκάδων διαδηλωτών την Παρασκευή. Κατά την αστυνομία, έγιναν κρατήσεις όταν κάποιοι παραβίασαν την περίφραξη. Οι διαδηλωτές χαρακτήριζαν παράνομη την αναστολή καθηκόντων του προέδρου του δικαστηρίου· η θέση τους δεν αποτελεί δικαστική κρίση.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-10-31-midday/poland-protests.json",
+      "reader_url": "articles/2026-10-31-midday/poland-protests.html",
+      "sources": [
+        {
+          "url": "https://www.france24.com/en/protesters-gather-at-poland-s-top-court",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-10-31T09:31:23+00:00",
+          "retrieved_at": "2026-10-31T10:20:59.262212+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/57fb8b19de9f24bf4ab9c54d5eb5627ad25d26f4886431cfbdf23656631168c5.webp"
+    },
+    {
+      "story_id": "cyprus-nine-month-budget-execution-2026-10-31",
+      "identity": "cyprus-nine-month-budget-execution-2026-10-31",
+      "edition_id": "2026-10-31-midday",
+      "date": "2026-10-31",
+      "slot": "midday",
+      "published_at": "2026-10-31T11:31:43.195285+00:00",
+      "available_at": "2026-10-31T11:31:43.195285+00:00",
+      "headline": "Κυπριακό εννεάμηνο: €7,51 δισ. έσοδα και €7,01 δισ. δαπάνες",
+      "finding": "Το Cyprus Mail, παρουσιάζοντας έκθεση του Γενικού Λογιστηρίου, αναφέρει έσοδα €7,51 δισ. και πραγματικές δαπάνες €7,01 δισ. για Ιανουάριο–Σεπτέμβριο 2026. Τα ποσά αντιστοιχούν σε 70% των προϋπολογισμένων εσόδων και 61% των ετήσιων πιστώσεων δαπανών. Από αναπτυξιακή πρόβλεψη €1,62 δισ. είχαν δαπανηθεί €711,6 εκατ. έως το τέλος Σεπτεμβρίου.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-10-31-midday/treasury-nine-month.json",
+      "reader_url": "articles/2026-10-31-midday/treasury-nine-month.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/31/cyprus-government-collects-e7-51-billion-in-revenue-by-end-of-september",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-31T10:00:13+00:00",
+          "retrieved_at": "2026-10-31T10:21:00.320263+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f8152eceea9b80ef7b7330ad50e62bba79509e6051b0ed3ca9f534a604b0d24a.webp"
+    },
+    {
+      "story_id": "cyprus-small-jobs-work-safety-2026-10-31",
+      "identity": "cyprus-small-jobs-work-safety-2026-10-31",
+      "edition_id": "2026-10-31-midday",
+      "date": "2026-10-31",
+      "slot": "midday",
+      "published_at": "2026-10-31T11:31:43.195285+00:00",
+      "available_at": "2026-10-31T11:31:43.195285+00:00",
+      "headline": "Επιθεώρηση Εργασίας: κίνδυνοι και σε εργασίες μικρής κλίμακας",
+      "finding": "Η Επιθεώρηση Εργασίας προειδοποιεί ότι οι εργασίες σε ύψος παραμένουν η συχνότερη αιτία εργατικών ατυχημάτων, σύμφωνα με το Cyprus Mail. Η αναπληρώτρια διευθύντρια δήλωσε στο ΚΥΠΕ ότι συχνά παραλείπονται προφυλάξεις σε μικρές εργασίες. Διερευνάται εάν ελλείψεις ασφαλείας συνέβαλαν σε περιστατικό εργοστασίου στη Λάρνακα που άφησε 31χρονο κρίσιμα τραυματισμένο, χωρίς ακόμη πόρισμα στο απόσπασμα.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-10-31-midday/small-jobs-safety.json",
+      "reader_url": "articles/2026-10-31-midday/small-jobs-safety.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/31/safety-measures-overlooked-in-smaller-construction-jobs-warns-cyprus-official",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-31T09:55:18+00:00",
+          "retrieved_at": "2026-10-31T10:20:59.890825+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-1.webp"
+    },
+    {
+      "story_id": "wales-japan-wxv-result-2026-10-31",
+      "identity": "wales-japan-wxv-result-2026-10-31",
+      "edition_id": "2026-10-31-midday",
+      "date": "2026-10-31",
+      "slot": "midday",
+      "published_at": "2026-10-31T11:31:43.195285+00:00",
+      "available_at": "2026-10-31T11:31:43.195285+00:00",
+      "headline": "Ράγκμπι: η Ουαλία νίκησε ξανά την Ιαπωνία",
+      "finding": "Η Ουαλία επικράτησε 29–5 της Ιαπωνίας στην Kumagaya City, σύμφωνα με το BBC. Ολοκλήρωσε τη σειρά WXV με τρεις νίκες και μοναδική ήττα από τις ΗΠΑ.",
+      "section": "sports",
+      "priority": 5,
+      "article_path": "articles/2026-10-31-midday/wales-japan.json",
+      "reader_url": "articles/2026-10-31-midday/wales-japan.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm75p91x04x5o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-10-31T09:34:21+00:00",
+          "retrieved_at": "2026-10-31T10:21:05.764943+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/95c60dd478b142b71f36b9608d0ba736980e6adae19b248f627ee3d428480a44.webp"
+    },
+    {
+      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+      "identity": "kherson-humanitarian-truce-extension-2026-10-27",
+      "edition_id": "2026-10-31-midday",
+      "date": "2026-10-31",
+      "slot": "midday",
+      "published_at": "2026-10-31T05:35:50.458247+00:00",
+      "available_at": "2026-10-31T11:31:43.195285+00:00",
+      "headline": "Ολέσκι: αναφερόμενη αναχώρηση κατοίκων προς τη Ρωσία",
+      "finding": "Το France 24 μεταφέρει δήλωση του Ουκρανού διαπραγματευτή Νταβίντ Αραχάμια ότι κάτοικοι απομακρύνθηκαν από το ρωσοκρατούμενο Ολέσκι και αναχώρησαν μαζί με ουκρανική αντιπροσωπεία προς την Ανάπα στη Ρωσία. Η κίνηση αναφέρεται ότι έγινε την Παρασκευή 30 Οκτωβρίου κατά την τοπική εκεχειρία. Το απόσπασμα δεν προσδιορίζει τον αριθμό των κατοίκων ή τον τελικό τους προορισμό.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-10-31-midday/oleshky-evacuation.json",
+      "reader_url": "articles/2026-10-31-midday/oleshky-evacuation.html",
+      "sources": [
+        {
+          "url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-10-30T21:46:29+00:00",
+          "retrieved_at": "2026-10-31T04:20:47.240069+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a1b3fa27a84429e631dbedcee27a5ce353bf31eb810cc5b10bd8df637e5beca8.webp"
+    },
+    {
+      "story_id": "pope-us-midterm-ballot-2026-10-30",
+      "identity": "pope-us-midterm-ballot-2026-10-30",
+      "edition_id": "2026-10-31-midday",
+      "date": "2026-10-31",
+      "slot": "midday",
+      "published_at": "2026-10-31T05:35:50.458247+00:00",
+      "available_at": "2026-10-31T11:31:43.195285+00:00",
+      "headline": "Ο Πάπας Λέων ΙΔ΄ ψήφισε επιστολικά στις αμερικανικές εκλογές",
+      "finding": "Το Al Jazeera μεταδίδει ότι το Βατικανό επιβεβαίωσε την επιστολική ψήφο του αμερικανικής καταγωγής Πάπα Λέοντα ΙΔ΄ στο Σικάγο ενόψει των ενδιάμεσων εκλογών της 3ης Νοεμβρίου. Το Βατικανό ανέφερε ότι άσκησε το δικαίωμά του ως Αμερικανός πολίτης. Η αναφορά δεν προσδιορίζει την επιλογή ψήφου του.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-10-31-midday/pope-vote.json",
+      "reader_url": "articles/2026-10-31-midday/pope-vote.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/31/pope-leo-becomes-first-pontiff-to-vote-in-us-general-election?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-10-31T01:31:44+00:00",
+          "retrieved_at": "2026-10-31T04:20:47.289190+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/3f15057ba7db408cb4d30200073428707b97c434317f8662a9d1f46622ba556d.webp"
+    },
+    {
+      "story_id": "us-midterms-fabricated-polls-2026-10-31",
+      "identity": "us-midterms-fabricated-polls-2026-10-31",
+      "edition_id": "2026-10-31-midday",
+      "date": "2026-10-31",
+      "slot": "midday",
+      "published_at": "2026-10-31T05:35:50.458247+00:00",
+      "available_at": "2026-10-31T11:31:43.195285+00:00",
+      "headline": "ΗΠΑ: ανησυχίες για κατασκευασμένες δημοσκοπήσεις πριν τις ενδιάμεσες",
+      "finding": "Το Al Jazeera περιγράφει ζήτημα κατασκευασμένων δημοσκοπήσεων στην αμερικανική προεκλογική περίοδο. Το δημοσίευμα αναφέρει δήλωση της Wedgewood Polls που παραδέχεται κατασκευασμένα στατιστικά και μεταφέρει προειδοποίηση του επικεφαλής της FCC για αύξηση ψευδών δημοσκοπήσεων. Το διαθέσιμο απόσπασμα δεν μετρά επίδραση στο εκλογικό αποτέλεσμα.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-10-31-midday/fake-polls.json",
+      "reader_url": "articles/2026-10-31-midday/fake-polls.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news-analysis/2026/10/31/fake-polls-expose-vulnerabilities-in-us-elections-ahead-of-midterms?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-10-31T01:26:34+00:00",
+          "retrieved_at": "2026-10-31T04:20:47.237457+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/1db8da22beb3cbece613befc490dca9ccd8d5b43f54ff7d825a3ec0801ee75f4.webp"
+    },
+    {
+      "story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+      "identity": "cyprus-motorcycle-ambulance-2026-10-31",
+      "edition_id": "2026-10-31-midday",
+      "date": "2026-10-31",
+      "slot": "midday",
+      "published_at": "2026-10-31T05:35:50.458247+00:00",
+      "available_at": "2026-10-31T11:31:43.195285+00:00",
+      "headline": "Δίκυκλα ασθενοφόρα: 350 αναφερόμενες ανταποκρίσεις και ζήτημα στελέχωσης",
+      "finding": "Το Philenews αναφέρει ότι η υπηρεσία δικύκλων ασθενοφόρων έχει καταγράψει 350 ανταποκρίσεις σε επείγοντα περιστατικά στην Κύπρο. Σύμφωνα με το ρεπορτάζ, λειτουργούν δύο βάσεις, στις επαρχίες Λευκωσίας και Λεμεσού, ενώ η μόνιμη στελέχωσή τους εξακολουθεί να αποτελεί πρόβλημα. Δεν δίνονται στο απόσπασμα περίοδος καταμέτρησης ή μετρημένοι χρόνοι απόκρισης.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-10-31-midday/motorcycle-ambulance.json",
+      "reader_url": "articles/2026-10-31-midday/motorcycle-ambulance.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1788860/dikikla-asthenofora-trechoun-gia-na-sosoun-zoes-eftasan-idi-se-350-epigonta-peristatika-i-ipiresia-pou-kerdizi-politima-lepta-ke-to-provlima-pou-frenari-tin-anaptixi-tis",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-31T04:12:00+00:00",
+          "retrieved_at": "2026-10-31T04:20:47.617951+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/83be7871a7e0517b3a3cfd3daa8346209a152b3ee456ba0287b183f11b642665.webp"
+    },
+    {
+      "story_id": "cyprus-education-budget-2027-2026-10-30",
+      "identity": "cyprus-education-budget-2027-2026-10-30",
+      "edition_id": "2026-10-31-midday",
+      "date": "2026-10-31",
+      "slot": "midday",
+      "published_at": "2026-10-30T17:32:41.596933+00:00",
+      "available_at": "2026-10-31T11:31:43.195285+00:00",
+      "headline": "Παιδεία: €53 εκατ. για σχολικές υποδομές στην πρόταση προϋπολογισμού",
+      "finding": "Το Cyprus Mail αναφέρει ότι η υπουργός Παιδείας ζήτησε από την Επιτροπή Οικονομικών έγκριση προϋπολογισμού αυξημένου κατά 5%, ο οποίος θα προσεγγίσει τα €1,7 δισ. εφόσον εγκριθεί. Κατά την υπουργό, προβλέπονται €53 εκατ. για σχολικές υποδομές, €10 εκατ. περισσότερα από φέτος, με σχεδιασμό αναβαθμίσεων και 23 μεγάλων έργων. Ο σχεδιασμός δεν ισοδυναμεί με ολοκλήρωση ή τελική ψήφιση.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-10-31-midday/education-facilities.json",
+      "reader_url": "articles/2026-10-31-midday/education-facilities.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/30/michaelidou-asks-for-5-increase-to-education-ministrys-budget",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-30T17:21:12+00:00",
+          "retrieved_at": "2026-10-31T04:20:47.685943+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5d8d5709660d8388fd63565395bbcedd504635b7ab4b79a868218b137759d850.webp"
+    },
+    {
+      "story_id": "paphos-kindergarten-welfare-complaint-2026-10-31",
+      "identity": "paphos-kindergarten-welfare-complaint-2026-10-31",
+      "edition_id": "2026-10-31-midday",
+      "date": "2026-10-31",
+      "slot": "midday",
+      "published_at": "2026-10-31T05:35:50.458247+00:00",
+      "available_at": "2026-10-31T11:31:43.195285+00:00",
+      "headline": "Πάφος: καταγγελία γονέων για διαδικασία παραλαβής παιδιού",
+      "finding": "Το Philenews περιγράφει επίσημη καταγγελία συνδέσμου γονέων για περιστατικό σε νηπιαγωγείο της επαρχίας Πάφου, όταν λειτουργοί κοινωνικής ευημερίας προσήλθαν να παραλάβουν παιδί. Κατά την καταγγελία, δεν επέδειξαν κατά την άφιξη υπηρεσιακές ταυτότητες και το σχετικό δικαστικό έγγραφο ούτε είχε προηγηθεί ενημέρωση της διεύθυνσης. Το διαθέσιμο απόσπασμα δεν περιλαμβάνει απάντηση των υπηρεσιών ή ανεξάρτητο πόρισμα.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-10-31-midday/paphos-school-complaint.json",
+      "reader_url": "articles/2026-10-31-midday/paphos-school-complaint.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1789158/anastatosi-se-nipiagogio-litourgi-ton-ike-pigan-na-paralavoun-pedaki-choris-epangelmatiki-taftotita-ke-choris-to-dikastiko-diatagma-episimi-katangelia-apo-ton-sindesmo-goneon",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-10-31T04:16:00+00:00",
+          "retrieved_at": "2026-10-31T04:20:47.680400+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ef359c00c5448f7aa959a5bd3927e34b35cf1858ab24106c094e549a9996f407.webp"
+    },
+    {
+      "story_id": "kuwait-major-finals-2026-10-31",
+      "identity": "kuwait-major-finals-2026-10-31",
+      "edition_id": "2026-10-31-midday",
+      "date": "2026-10-31",
+      "slot": "midday",
+      "published_at": "2026-10-31T05:35:50.458247+00:00",
+      "available_at": "2026-10-31T11:31:43.195285+00:00",
+      "headline": "Padel: τελικοί του Kuwait Major προγραμματισμένοι για το Σάββατο",
+      "finding": "Το Padel Addict αναφέρει ότι οι τελικοί του Kuwait Major είναι προγραμματισμένοι για τις 31 Οκτωβρίου. Το απόσπασμα δίνει αντιφατικές ώρες έναρξης για τον γυναικείο τελικό, γι’ αυτό δεν παρατίθεται συγκεκριμένη ώρα.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-10-31-midday/kuwait-final.json",
+      "reader_url": "articles/2026-10-31-midday/kuwait-final.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/partidos-horarios-donde-ver-finales-kuwait-major-premier-padel-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-10-30T23:42:14+00:00",
+          "retrieved_at": "2026-10-31T04:20:52.557012+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/9aec63e0cc80bf21300c3c1f390aa6027d921426a79d72d03e9c1157646a6d12.webp"
     },
     {
       "story_id": "kherson-humanitarian-truce-extension-2026-10-27",

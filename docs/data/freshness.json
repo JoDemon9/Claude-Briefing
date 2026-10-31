@@ -1204,6 +1204,27 @@
       "coverage": "structured"
     },
     {
+      "edition_id": "2026-10-31-midday",
+      "as_of": "2026-10-31T11:31:43.195285+00:00",
+      "records": [
+        {
+          "owner": "2026-10-31-midday",
+          "checked_at": "2026-10-31T10:20:52.430707+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-10-31T12:15:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-10-31T10:15:00+00:00",
+          "valid_until": "2026-10-31T12:15:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
       "edition_id": "2026-10-31-morning",
       "as_of": "2026-10-31T05:35:50.458247+00:00",
       "records": [
