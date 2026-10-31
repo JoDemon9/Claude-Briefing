@@ -1,0 +1,599 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-10-31.html",
+  "editions": [
+    {
+      "id": "2026-10-31-morning",
+      "type": "morning",
+      "url": "morning/2026-10-31.html",
+      "published_at": "2026-10-31T05:35:50.458247+00:00"
+    }
+  ],
+  "missing_slots": [
+    "midday",
+    "evening"
+  ],
+  "lead_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+  "stories": [
+    {
+      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+      "first_seen_at": "2026-10-31T05:35:50.458247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-morning",
+          "article_id": "oleshky-evacuation",
+          "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+          "url": "articles/2026-10-31-morning/oleshky-evacuation.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "oleshky-evacuation",
+        "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+        "url": "articles/2026-10-31-morning/oleshky-evacuation.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "poland-constitutional-court-2026-10-30",
+      "first_seen_at": "2026-10-31T05:35:50.458247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-morning",
+          "article_id": "poland-court",
+          "source_story_id": "poland-constitutional-court-2026-10-30",
+          "url": "articles/2026-10-31-morning/poland-court.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "poland-court",
+        "source_story_id": "poland-constitutional-court-2026-10-30",
+        "url": "articles/2026-10-31-morning/poland-court.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "pope-us-midterm-ballot-2026-10-30",
+      "first_seen_at": "2026-10-31T05:35:50.458247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-morning",
+          "article_id": "pope-vote",
+          "source_story_id": "pope-us-midterm-ballot-2026-10-30",
+          "url": "articles/2026-10-31-morning/pope-vote.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "pope-vote",
+        "source_story_id": "pope-us-midterm-ballot-2026-10-30",
+        "url": "articles/2026-10-31-morning/pope-vote.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "us-midterms-fabricated-polls-2026-10-31",
+      "first_seen_at": "2026-10-31T05:35:50.458247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-morning",
+          "article_id": "fake-polls",
+          "source_story_id": "us-midterms-fabricated-polls-2026-10-31",
+          "url": "articles/2026-10-31-morning/fake-polls.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "fake-polls",
+        "source_story_id": "us-midterms-fabricated-polls-2026-10-31",
+        "url": "articles/2026-10-31-morning/fake-polls.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+      "first_seen_at": "2026-10-31T05:35:50.458247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-morning",
+          "article_id": "motorcycle-ambulance",
+          "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+          "url": "articles/2026-10-31-morning/motorcycle-ambulance.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "motorcycle-ambulance",
+        "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+        "url": "articles/2026-10-31-morning/motorcycle-ambulance.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-education-budget-2027-2026-10-30",
+      "first_seen_at": "2026-10-31T05:35:50.458247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-morning",
+          "article_id": "education-facilities",
+          "source_story_id": "cyprus-education-budget-2027-2026-10-30",
+          "url": "articles/2026-10-31-morning/education-facilities.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "education-facilities",
+        "source_story_id": "cyprus-education-budget-2027-2026-10-30",
+        "url": "articles/2026-10-31-morning/education-facilities.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "larnaca-belgium-european-warrant-2026-10-30",
+      "first_seen_at": "2026-10-31T05:35:50.458247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-morning",
+          "article_id": "belgian-warrant",
+          "source_story_id": "larnaca-belgium-european-warrant-2026-10-30",
+          "url": "articles/2026-10-31-morning/belgian-warrant.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "belgian-warrant",
+        "source_story_id": "larnaca-belgium-european-warrant-2026-10-30",
+        "url": "articles/2026-10-31-morning/belgian-warrant.html"
+      },
+      "section": "cyprus",
+      "priority": 7
+    },
+    {
+      "story_id": "paphos-kindergarten-welfare-complaint-2026-10-31",
+      "first_seen_at": "2026-10-31T05:35:50.458247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-morning",
+          "article_id": "paphos-school-complaint",
+          "source_story_id": "paphos-kindergarten-welfare-complaint-2026-10-31",
+          "url": "articles/2026-10-31-morning/paphos-school-complaint.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "paphos-school-complaint",
+        "source_story_id": "paphos-kindergarten-welfare-complaint-2026-10-31",
+        "url": "articles/2026-10-31-morning/paphos-school-complaint.html"
+      },
+      "section": "cyprus",
+      "priority": 8
+    },
+    {
+      "story_id": "kuwait-major-finals-2026-10-31",
+      "first_seen_at": "2026-10-31T05:35:50.458247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-morning",
+          "article_id": "kuwait-final",
+          "source_story_id": "kuwait-major-finals-2026-10-31",
+          "url": "articles/2026-10-31-morning/kuwait-final.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "kuwait-final",
+        "source_story_id": "kuwait-major-finals-2026-10-31",
+        "url": "articles/2026-10-31-morning/kuwait-final.html"
+      },
+      "section": "sports",
+      "priority": 9
+    },
+    {
+      "story_id": "england-usa-wxv-2026-10-30",
+      "first_seen_at": "2026-10-31T05:35:50.458247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-morning",
+          "article_id": "england-rugby",
+          "source_story_id": "england-usa-wxv-2026-10-30",
+          "url": "articles/2026-10-31-morning/england-rugby.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "england-rugby",
+        "source_story_id": "england-usa-wxv-2026-10-30",
+        "url": "articles/2026-10-31-morning/england-rugby.html"
+      },
+      "section": "sports",
+      "priority": 10
+    }
+  ],
+  "updates": [
+    {
+      "id": "0bf9bd604266259dce27cf44575a9549144837574175e2f1ebf3fa07cfd6f091",
+      "kind": "provenance",
+      "at": "2026-10-31T05:35:50.458247+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "england-usa-wxv-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "england-rugby",
+        "source_story_id": "england-usa-wxv-2026-10-30",
+        "url": "articles/2026-10-31-morning/england-rugby.html"
+      }
+    },
+    {
+      "id": "2668796bcdac2fbf329630cca56a47b9a8af1450d0dc15b78b19164129dbf2eb",
+      "kind": "provenance",
+      "at": "2026-10-31T05:35:50.458247+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-education-budget-2027-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "education-facilities",
+        "source_story_id": "cyprus-education-budget-2027-2026-10-30",
+        "url": "articles/2026-10-31-morning/education-facilities.html"
+      }
+    },
+    {
+      "id": "56719e737b8f981a5b0b570ba10e96a76be037ffb63ab9ce793545546839699b",
+      "kind": "provenance",
+      "at": "2026-10-31T05:35:50.458247+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "kuwait-major-finals-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "kuwait-final",
+        "source_story_id": "kuwait-major-finals-2026-10-31",
+        "url": "articles/2026-10-31-morning/kuwait-final.html"
+      }
+    },
+    {
+      "id": "8aec52939f4090c268a28c04d778f4b6d50d4e885d31dda2fa20ed88f7f22c0d",
+      "kind": "provenance",
+      "at": "2026-10-31T05:35:50.458247+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "motorcycle-ambulance",
+        "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+        "url": "articles/2026-10-31-morning/motorcycle-ambulance.html"
+      }
+    },
+    {
+      "id": "a1a1353233d7fe2047318a88296dfb8eaf71aae28ccd4579637ee1bddef82596",
+      "kind": "provenance",
+      "at": "2026-10-31T05:35:50.458247+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "pope-us-midterm-ballot-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "pope-vote",
+        "source_story_id": "pope-us-midterm-ballot-2026-10-30",
+        "url": "articles/2026-10-31-morning/pope-vote.html"
+      }
+    },
+    {
+      "id": "a51222531f4dca568f8ed6aad8723721bd1e607c3233b9bdef80bc768fb140d5",
+      "kind": "provenance",
+      "at": "2026-10-31T05:35:50.458247+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "oleshky-evacuation",
+        "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+        "url": "articles/2026-10-31-morning/oleshky-evacuation.html"
+      }
+    },
+    {
+      "id": "b2bc440be02efca2a7a5fa769a51031d6604f350fc4c41d482b8e3973725a65d",
+      "kind": "provenance",
+      "at": "2026-10-31T05:35:50.458247+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterms-fabricated-polls-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "fake-polls",
+        "source_story_id": "us-midterms-fabricated-polls-2026-10-31",
+        "url": "articles/2026-10-31-morning/fake-polls.html"
+      }
+    },
+    {
+      "id": "bbf4a199774ce3bd44562301517e4f7a9b18f1c9335edf73a01c79f89da43701",
+      "kind": "provenance",
+      "at": "2026-10-31T05:35:50.458247+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "paphos-kindergarten-welfare-complaint-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "paphos-school-complaint",
+        "source_story_id": "paphos-kindergarten-welfare-complaint-2026-10-31",
+        "url": "articles/2026-10-31-morning/paphos-school-complaint.html"
+      }
+    },
+    {
+      "id": "c4b9391b581e7e91ec8c746579313706fad1179bf3d7308f5c179ad009e0a216",
+      "kind": "provenance",
+      "at": "2026-10-31T05:35:50.458247+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "larnaca-belgium-european-warrant-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "belgian-warrant",
+        "source_story_id": "larnaca-belgium-european-warrant-2026-10-30",
+        "url": "articles/2026-10-31-morning/belgian-warrant.html"
+      }
+    },
+    {
+      "id": "f043a532d6158172fbc1fd7999c66df81acdf53bb2cd32e703f9c786208ebefa",
+      "kind": "provenance",
+      "at": "2026-10-31T05:35:50.458247+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "poland-constitutional-court-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-31-morning",
+        "article_id": "poland-court",
+        "source_story_id": "poland-constitutional-court-2026-10-30",
+        "url": "articles/2026-10-31-morning/poland-court.html"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "action": "Δες την επίσημη ανακοίνωση ως ιστορικό πλαίσιο. Αναμένουμε επαληθευμένη νέα προκήρυξη πριν εμφανίσουμε ενεργή αίτηση.",
+      "application_kind": "instructions",
+      "application_url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+      "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση.",
+      "deadline": "2024-07-31T23:59:00+03:00",
+      "deadline_note": "Ιστορική προθεσμία της 2ης πρόσκλησης, όχι ημερομηνία νέας αίτησης. Νέα ενεργή πρόσκληση δεν επιβεβαιώθηκε στον παρόντα έλεγχο.",
+      "deadline_type": "fixed",
+      "eligibility": "Η προκήρυξη του 2024 όριζε νέους 18–29, άνδρες 30–50 και γυναίκες 30–55. Νέα πρόσκληση μπορεί να αλλάξει τους όρους· δεν έχει κριθεί προσωπική επιλεξιμότητα.",
+      "id": "cy-new-entrepreneurship-2024-call2",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-23T04:30:48.639313+00:00",
+          "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "retrieved_at": "2026-10-15T16:39:24.850175+00:00",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Ιστορική πρόσκληση του 2024 που έχει λήξει. Παραμένει μόνο στην παρακολούθηση για τυχόν νέα επίσημη προκήρυξη, όχι στις ενεργές αιτήσεις.",
+      "support": "Παλιοί όροι: 70% επιλέξιμης δαπάνης για 18–29, 60% για τις άλλες ομάδες, με μέγιστο επιλέξιμο προϋπολογισμό €120.000.",
+      "title": "Νέα Επιχειρηματική Δραστηριότητα · παλιά 2η προκήρυξη",
+      "verified_at": "2026-10-23T07:36:00+03:00"
+    },
+    {
+      "action": "Αν έχεις GO, προετοίμασε πλήρη πρόταση. Διαφορετικά ξεκίνα τη σύντομη αίτηση χωρίς να θεωρείς εξασφαλισμένη συμμετοχή στον γύρο Νοεμβρίου.",
+      "application_kind": "form",
+      "application_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+      "change_note": "Επανελέγχθηκε η επίσημη σελίδα EIC: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ., επενδυτικό σκέλος €1–10 εκατ. και επόμενη πλήρης πρόταση στις 4/11, 17:00 Βρυξελλών, μόνο μετά από GO.",
+      "deadline": "2026-11-04T18:00:00+02:00",
+      "deadline_note": "4/11 στις 17:00 Βρυξελλών = 18:00 Κύπρου. Αφορά πλήρη πρόταση μετά το GO. Οι σύντομες προτάσεις υποβάλλονται συνεχώς· αξιολόγηση συνήθως 4–6 εβδομάδες.",
+      "deadline_type": "fixed",
+      "eligibility": "Μία startup/ΜμΕ στην ΕΕ ή συνδεδεμένη χώρα, με καινοτομία TRL 6–8. Για πλήρη πρόταση προηγείται θετική αξιολόγηση (GO) της σύντομης πρότασης ή επιλέξιμη ειδική διαδρομή.",
+      "id": "eu-eic-accelerator-2026",
+      "jurisdiction": "ΕΕ · περιλαμβάνει την Κύπρο",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Innovation Council",
+          "reporting_group": "European Innovation Council",
+          "retrieved_at": "2026-10-24T13:43:13+03:00",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Στήριξη νεοφυών και μικρομεσαίων επιχειρήσεων με ανατρεπτική καινοτομία σε στάδιο ανάπτυξης και κλιμάκωσης. Δεν είναι γενική επιδότηση ίδρυσης επιχείρησης.",
+      "support": "Επιχορήγηση κάτω από €2,5 εκατ.· χωριστά επενδυτικό σκέλος €1–10 εκατ., που δεν αποτελεί επιχορήγηση.",
+      "title": "EIC Accelerator: επόμενη πλήρης πρόταση 4 Νοεμβρίου",
+      "verified_at": "2026-10-24T13:43:13+03:00"
+    },
+    {
+      "action": "Μην υποβάλεις νέα αίτηση. Παρακολούθησε μόνο επίσημη επαναπροκήρυξη ή ανακοίνωση για επιλαχόντες.",
+      "application_kind": "none",
+      "application_url": null,
+      "change_note": "Το ΥΕΕΒ ανακοίνωσε ολοκλήρωση υποβολής προτάσεων λόγω υπερκάλυψης προϋπολογισμού. Η προηγούμενη ένδειξη ανοικτής πρόσκλησης διορθώθηκε.",
+      "deadline": null,
+      "deadline_note": "Η υποβολή ολοκληρώθηκε στις 21/10 λόγω υπερκάλυψης του διαθέσιμου προϋπολογισμού.",
+      "deadline_type": "unknown",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "id": "cy-home-energy-2026",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "kind": "grant",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": "2026-10-21",
+          "publisher": "ΥΕΕΒ",
+          "reporting_group": "ΥΕΕΒ",
+          "retrieved_at": "2026-10-23T10:33:45.530855+00:00",
+          "url": "https://www.industry.gov.cy",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "verified_at": "2026-10-23T13:33:46+03:00"
+    },
+    {
+      "action": "Έλεγξε τα όρια και τη διαδικασία προηγούμενης κοινοποίησης στο κράτος εγκατάστασης. Ο σύνδεσμος δίνει οδηγίες, όχι κυπριακό έντυπο.",
+      "application_kind": "instructions",
+      "application_url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+      "change_note": "Επανελέγχθηκαν στις 24/10 η επίσημη ευρωπαϊκή σελίδα και η διαδικασία διασυνοριακής απαλλαγής. Το καθεστώς παραμένει προαιρετικό και ανοικτό, με ενωσιακό όριο €100.000 και προηγούμενη κοινοποίηση.",
+      "deadline": null,
+      "deadline_note": "Δεν πρόκειται για γύρο χορηγιών. Η απαλλαγή ξεκινά μετά την έγκριση/επιβεβαίωση EX· ισχύουν ξεχωριστές υποχρεώσεις τριμηνιαίας αναφοράς.",
+      "deadline_type": "rolling",
+      "eligibility": "Επιχείρηση εγκατεστημένη στην ΕΕ: ενωσιακός τζίρος έως €100.000 στο τρέχον και προηγούμενο έτος, καθώς και το εθνικό/κλαδικό όριο κάθε χώρας απαλλαγής.",
+      "id": "eu-cross-border-sme-vat",
+      "jurisdiction": "ΕΕ / Κύπρος · διασυνοριακές πωλήσεις",
+      "kind": "legal_right",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · DG TAXUD",
+          "reporting_group": "European Commission · DG TAXUD",
+          "retrieved_at": "2026-10-24T07:33:51+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · SME VAT",
+          "reporting_group": "European Commission · SME VAT",
+          "retrieved_at": "2026-10-24T07:33:47+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/index_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-24T07:33:52+03:00",
+          "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Το ευρωπαϊκό καθεστώς μικρών επιχειρήσεων επιτρέπει απαλλαγή ΦΠΑ σε επιλέξιμες διασυνοριακές πωλήσεις. Απαιτεί προηγούμενη κοινοποίηση· δεν εφαρμόζεται αυτόματα.",
+      "support": "Πιθανή απλούστευση υποχρεώσεων ΦΠΑ, με απώλεια δικαιώματος έκπτωσης ΦΠΑ για τις απαλλασσόμενες πράξεις. Αξιολόγησε το καθαρό όφελος πριν επιλέξεις.",
+      "title": "Προαιρετική απαλλαγή ΦΠΑ για μικρές επιχειρήσεις",
+      "verified_at": "2026-10-24T07:44:30+03:00"
+    },
+    {
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
+      "application_kind": "form",
+      "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "change_note": "Επανελέγχθηκαν η επίσημη δυνατότητα αίτησης, τα κριτήρια και η FAQ προθεσμίας στις 24/10. Η εγγραφή παραμένει ανοικτή χωρίς καταληκτική ημερομηνία· δεν υπονοείται προσωπική επιλεξιμότητα.",
+      "deadline": null,
+      "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
+      "deadline_type": "rolling",
+      "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
+      "id": "eu-erasmus-new-entrepreneurs",
+      "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
+      "kind": "benefit",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs · FAQ",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
+      "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
+      "title": "Erasmus for Young Entrepreneurs",
+      "verified_at": "2026-10-24T07:43:00+03:00"
+    }
+  ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Στο Ολέσκι, Ουκρανός αξιωματούχος αναφέρει ότι κάτοικοι αναχώρησαν μαζί με ουκρανική αντιπροσωπεία προς την Ανάπα της Ρωσίας. Στην Πολωνία, η αναστολή καθηκόντων του προέδρου του Συνταγματικού Δικαστηρίου και η επιστροφή του προέδρου της χώρας δείχνουν θεσμική ένταση. Ο αριθμός και η μετέπειτα πορεία των εκτοπισμένων, όπως και οι επόμενες δικαστικές εξελίξεις στην Πολωνία, παραμένουν προς επιβεβαίωση.",
+        "story_ids": [
+          "kherson-humanitarian-truce-extension-2026-10-27",
+          "poland-constitutional-court-2026-10-30"
+        ]
+      },
+      {
+        "text": "Στην Κύπρο, δημοσίευμα καταγράφει 350 ανταποκρίσεις δικύκλων ασθενοφόρων και βάσεις σε Λευκωσία και Λεμεσό, με εκκρεμότητες στελέχωσης. Για την Παιδεία παρουσιάζεται πρόβλεψη €53 εκατ. για σχολικές υποδομές το 2027, υπό την προϋπόθεση έγκρισης του προϋπολογισμού. Τα διαθέσιμα στοιχεία δεν τεκμηριώνουν ακριβή χρόνο απόκρισης ούτε ολοκλήρωση των σχεδιαζόμενων έργων.",
+        "story_ids": [
+          "cyprus-motorcycle-ambulance-2026-10-31",
+          "cyprus-education-budget-2027-2026-10-30"
+        ]
+      }
+    ]
+  },
+  "follow_ups": [],
+  "created_at": "2026-10-31T05:37:15.689775+00:00",
+  "updated_at": "2026-10-31T05:37:15.689775+00:00",
+  "input_sha256": "a17041a78402c2579b31883ee2e17bd8ee95bed0c4cd2480c80510129df7afc5"
+}
