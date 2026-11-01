@@ -401,6 +401,14 @@
       "published_at": "2026-10-31T05:35:50.458247+00:00",
       "url": "morning/2026-10-31.html",
       "fingerprint": "5f41a85f22d4ff46976a6ba969829d1c0b5fd35c2511cc8174cac851ac8020df"
+    },
+    {
+      "id": "2026-11-01-morning",
+      "date": "2026-11-01",
+      "type": "morning",
+      "published_at": "2026-11-01T05:30:56.550056+00:00",
+      "url": "morning/2026-11-01.html",
+      "fingerprint": "233d783d3a2b0efebf23b49979d04abc91cd7d52e9a0c73d5470cb556f051ab1"
     }
   ],
   "stories": [
@@ -14165,6 +14173,195 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/752293c98625ae557e9fb1ca011ec74a6ed3a9779b2509d97d01c33c1fa9f06f.webp"
+    },
+    {
+      "story_id": "poland-constitutional-court-2026-10-30",
+      "identity": "poland-constitutional-court-2026-10-30",
+      "edition_id": "2026-11-01-morning",
+      "date": "2026-11-01",
+      "slot": "morning",
+      "published_at": "2026-10-31T05:35:50.458247+00:00",
+      "available_at": "2026-11-01T05:30:56.550056+00:00",
+      "headline": "Πολωνία: επαφές υπό τον πρόεδρο για τη δικαστική διαμάχη",
+      "finding": "Ο πρόεδρος Κάρολ Ναβρότσκι πραγματοποίησε συνομιλίες με πολιτικούς ηγέτες για τη διαμάχη γύρω από το Συνταγματικό Δικαστήριο, σύμφωνα με το Al Jazeera. Στις σαββατιάτικες επαφές συμμετείχαν εκπρόσωποι εθνικιστικών, ακροδεξιών και ορισμένων κυβερνητικών κομμάτων. Η κεντρώα Πολιτική Συμμαχία του πρωθυπουργού Ντόναλντ Τουσκ απουσίασε, ενώ το απόσπασμα δεν αναφέρει συμφωνημένη λύση.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-01-morning/poland-crisis-talks.json",
+      "reader_url": "articles/2026-11-01-morning/poland-crisis-talks.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-01T00:30:59+00:00",
+          "retrieved_at": "2026-11-01T04:20:48.885781+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f304b78737a933fc0ab81de8b081205085d56b1ae64003ac49ce6fd2b8c01a40.webp"
+    },
+    {
+      "story_id": "us-midterm-cost-of-living-2026-11-01",
+      "identity": "us-midterm-cost-of-living-2026-11-01",
+      "edition_id": "2026-11-01-morning",
+      "date": "2026-11-01",
+      "slot": "morning",
+      "published_at": "2026-11-01T05:30:56.550056+00:00",
+      "available_at": "2026-11-01T05:30:56.550056+00:00",
+      "headline": "ΗΠΑ: το κόστος ζωής στο επίκεντρο των ενδιάμεσων εκλογών",
+      "finding": "Το Philenews περιγράφει τις ενδιάμεσες εκλογές ως αναμέτρηση που περιλαμβάνει μέλη του Κογκρέσου αλλά και πολιτειακούς και τοπικούς αξιωματούχους. Αναφέρει το κόστος τροφίμων, στέγασης, ενέργειας και υγειονομικής περίθαλψης ως κεντρικό ζήτημα για νοικοκυριά. Το απόσπασμα δεν τεκμηριώνει αποτέλεσμα ή συγκεκριμένη εκλογική μετατόπιση.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-01-morning/us-midterm-costs.json",
+      "reader_url": "articles/2026-11-01-morning/us-midterm-costs.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kosmos/article/1788870/to-alfavitari-ton-endiameson-eklogon-ipa",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-01T04:05:00+00:00",
+          "retrieved_at": "2026-11-01T04:20:49.298752+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7ce0bd134954f2695e1d7db64aec3dd06941538cc5355eeb2705a2dfc281d4d8.webp"
+    },
+    {
+      "story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+      "identity": "cyprus-motorcycle-ambulance-2026-10-31",
+      "edition_id": "2026-11-01-morning",
+      "date": "2026-11-01",
+      "slot": "morning",
+      "published_at": "2026-10-31T05:35:50.458247+00:00",
+      "available_at": "2026-11-01T05:30:56.550056+00:00",
+      "headline": "Κύπρος: 13 διασωστικές μοτοσικλέτες και 350 επεμβάσεις σε δύο χρόνια",
+      "finding": "Το Sigmalive αναφέρει 350 περιστατικά στα οποία κλήθηκαν διασωστικές μοτοσικλέτες σε δύο χρόνια. Επικαλούμενο την προϊσταμένη της Υπηρεσίας Ασθενοφόρων, καταγράφει 13 μοτοσικλέτες και 22 εξειδικευμένα εκπαιδευμένα άτομα. Το ρεπορτάζ παραπέμπει και σε προηγούμενη δημοσίευση του «Φιλελευθέρου», επομένως δεν υπολογίζεται ως ανεξάρτητη επιβεβαίωση κάθε στοιχείου.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-01-morning/rescue-motorcycles.json",
+      "reader_url": "articles/2026-11-01-morning/rescue-motorcycles.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1335683/stoys-dromoys-13-diasostikes-motosikletes-pou-epikheiroun-kai-pote",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-10-31T21:33:40+00:00",
+          "retrieved_at": "2026-11-01T04:20:49.476296+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/e7240f2b00a9d244fb0d333373ab0fe5ef2f1aeee9fb76e48e56810e41ff41de.webp"
+    },
+    {
+      "story_id": "cyprus-ai-employment-concerns-2026-11-01",
+      "identity": "cyprus-ai-employment-concerns-2026-11-01",
+      "edition_id": "2026-11-01-morning",
+      "date": "2026-11-01",
+      "slot": "morning",
+      "published_at": "2026-11-01T05:30:56.550056+00:00",
+      "available_at": "2026-11-01T05:30:56.550056+00:00",
+      "headline": "Τεχνητή νοημοσύνη και εργασία: επιφύλαξη για συμπεράσματα περί απολύσεων",
+      "finding": "Το Cyprus Mail παρουσιάζει ανησυχίες για πιθανές επιπτώσεις της χρήσης τεχνητής νοημοσύνης στην απασχόληση. Ο αναπληρωτής γενικός γραμματέας της ΠΕΟ Χρίστος Τομπάζος χαρακτηρίζει λογικούς τους φόβους εργαζομένων, αλλά λέει ότι είναι πρόωρο να αποδοθούν απολύσεις στην Κύπρο στην τεχνητή νοημοσύνη. Το απόσπασμα δεν παρέχει αριθμό τέτοιων απολύσεων.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-01-morning/ai-employment.json",
+      "reader_url": "articles/2026-11-01-morning/ai-employment.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/01/ai-raises-fears-of-job-losses-in-cyprus",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-01T02:24:00+00:00",
+          "retrieved_at": "2026-11-01T04:20:49.498289+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5013b2f73be98db7e710db724602264b7a72aba764d0b22444f81c43c9dfd66a.webp"
+    },
+    {
+      "story_id": "akel-presidential-strategy-2028-2026-10-31",
+      "identity": "akel-presidential-strategy-2028-2026-10-31",
+      "edition_id": "2026-11-01-morning",
+      "date": "2026-11-01",
+      "slot": "morning",
+      "published_at": "2026-10-31T17:35:47.619116+00:00",
+      "available_at": "2026-11-01T05:30:56.550056+00:00",
+      "headline": "ΑΚΕΛ: το Κυπριακό στις προτεραιότητες για τις προεδρικές του 2028",
+      "finding": "Το Cyprus Mail αναφέρει ότι ο Στέφανος Στεφάνου παρουσίασε τις προτεραιότητες του ΑΚΕΛ για τις προεδρικές του 2028. Σύμφωνα με το δημοσίευμα, έθεσε πρώτα τη λύση του Κυπριακού, ζητώντας πρόεδρο που θα αναλάβει συγκεκριμένα βήματα προς επανένωση και τερματισμό της τουρκικής κατοχής. Πρόκειται για πολιτική θέση του κόμματος, χωρίς οριστικοποιημένο υποψήφιο στο απόσπασμα.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-01-morning/akel-priorities.json",
+      "reader_url": "articles/2026-11-01-morning/akel-priorities.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/10/31/akel-outlines-priorities-for-2028-presidential-election",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-10-31T16:19:40+00:00",
+          "retrieved_at": "2026-11-01T04:20:49.645084+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/88304bcf27cb59e3ce57b179da9a6c317cbf02395ee5bb7665beb5d92f004ad7.webp"
+    },
+    {
+      "story_id": "limassol-well-homicide-investigation-2026-10-31",
+      "identity": "limassol-well-homicide-investigation-2026-10-31",
+      "edition_id": "2026-11-01-morning",
+      "date": "2026-11-01",
+      "slot": "morning",
+      "published_at": "2026-11-01T05:30:56.550056+00:00",
+      "available_at": "2026-11-01T05:30:56.550056+00:00",
+      "headline": "Λεμεσός: εντοπίστηκε σορός στο πλαίσιο έρευνας φόνου",
+      "finding": "Το Sigmalive αναφέρει ότι εντοπίστηκε σορός 61χρονης σε πηγάδι στο πλαίσιο αστυνομικής έρευνας για απαγωγή και φόνο εκ προμελέτης. Σύμφωνα με την αστυνομική ενημέρωση που μεταφέρει, ύποπτος προέβη σε παραδοχή και υπέδειξε σημείο στους ανακριτές. Η υπόθεση παραμένει υπό διερεύνηση και η αναφερόμενη παραδοχή δεν αποτελεί δικαστική καταδίκη.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-01-morning/limassol-investigation.json",
+      "reader_url": "articles/2026-11-01-morning/limassol-investigation.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1335684/lemesos-entopistike-i-soros-tis-61khronis-sto-pighadi-speudei-iatrodikastis",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-10-31T21:38:52+00:00",
+          "retrieved_at": "2026-11-01T04:20:49.563895+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a0bbd3d3cc0330bb2ee4a44c5121964b4577c15464cf625b2d8bed28d5b8b34e.webp"
+    },
+    {
+      "story_id": "kuwait-major-tapia-title-2026-10-31",
+      "identity": "kuwait-major-tapia-title-2026-10-31",
+      "edition_id": "2026-11-01-morning",
+      "date": "2026-11-01",
+      "slot": "morning",
+      "published_at": "2026-11-01T05:30:56.550056+00:00",
+      "available_at": "2026-11-01T05:30:56.550056+00:00",
+      "headline": "Padel: ο Τάπια έφτασε τους 66 τίτλους σύμφωνα με το Padel Addict",
+      "finding": "Το Padel Addict αναφέρει ότι ο Αγκουστίν Τάπια έφτασε τους 66 επαγγελματικούς τίτλους μετά τη νίκη στο Kuwait Major. Η καταμέτρηση του δημοσιεύματος περιλαμβάνει τα κυκλώματα Premier Padel, World Padel Tour και Padel Pro Tour.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-01-morning/padel-tapia.json",
+      "reader_url": "articles/2026-11-01-morning/padel-tapia.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/cuales-son-los-jugadores-en-activo-que-han-ganado-mas-titulos-en-el-padel-profesional",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-10-31T21:30:04+00:00",
+          "retrieved_at": "2026-11-01T04:20:53.611032+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f6bdd8146abb15eb6d0e49ce1e89e7f260740390b8e7b08213f8087c17d59746.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."

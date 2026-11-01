@@ -302,5 +302,13 @@
     },
     "source_sha256": "5f41a85f22d4ff46976a6ba969829d1c0b5fd35c2511cc8174cac851ac8020df",
     "reporting_sha256": "6e913e89dea5d0a57b723d8f5573a1903d7a21e0760928791b3387bd1b8a09bc"
+  },
+  "2026-11-01-morning": {
+    "contract": {
+      "content_schema_sha256": "b4d8ca4074f114f8c81169fd9e0224739370bf100112e249f32c7645975318fe",
+      "producer_protocol": "oracle-briefing/3"
+    },
+    "source_sha256": "233d783d3a2b0efebf23b49979d04abc91cd7d52e9a0c73d5470cb556f051ab1",
+    "reporting_sha256": "1917d29f4c3e8c085a0efb91a839d8bc3dc7dd7de59962dd048f1b993ed2cc28"
   }
 }
