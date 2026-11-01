@@ -10,14 +10,40 @@
       "type": "morning",
       "url": "morning/2026-11-01.html",
       "published_at": "2026-11-01T05:30:56.550056+00:00"
+    },
+    {
+      "id": "2026-11-01-midday",
+      "type": "midday",
+      "url": "midday/2026-11-01.html",
+      "published_at": "2026-11-01T11:30:09.844015+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "poland-constitutional-court-2026-10-30",
+  "lead_story_id": "binance-loss-coverage-2026-11-01",
   "stories": [
+    {
+      "story_id": "binance-loss-coverage-2026-11-01",
+      "first_seen_at": "2026-11-01T11:30:09.844015+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "binance-recovery",
+          "source_story_id": "binance-loss-coverage-2026-11-01",
+          "url": "articles/2026-11-01-midday/binance-recovery.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "binance-recovery",
+        "source_story_id": "binance-loss-coverage-2026-11-01",
+        "url": "articles/2026-11-01-midday/binance-recovery.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "poland-constitutional-court-2026-10-30",
       "first_seen_at": "2026-11-01T05:30:56.550056+00:00",
@@ -28,16 +54,22 @@
           "article_id": "poland-crisis-talks",
           "source_story_id": "poland-constitutional-court-2026-10-30",
           "url": "articles/2026-11-01-morning/poland-crisis-talks.html"
+        },
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "poland-eu-call",
+          "source_story_id": "poland-constitutional-court-2026-10-30",
+          "url": "articles/2026-11-01-midday/poland-eu-call.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-01-morning",
-        "article_id": "poland-crisis-talks",
+        "edition_id": "2026-11-01-midday",
+        "article_id": "poland-eu-call",
         "source_story_id": "poland-constitutional-court-2026-10-30",
-        "url": "articles/2026-11-01-morning/poland-crisis-talks.html"
+        "url": "articles/2026-11-01-midday/poland-eu-call.html"
       },
       "section": "world",
-      "priority": 1
+      "priority": 2
     },
     {
       "story_id": "us-midterm-cost-of-living-2026-11-01",
@@ -49,13 +81,19 @@
           "article_id": "us-midterm-costs",
           "source_story_id": "us-midterm-cost-of-living-2026-11-01",
           "url": "articles/2026-11-01-morning/us-midterm-costs.html"
+        },
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "us-midterm-costs",
+          "source_story_id": "us-midterm-cost-of-living-2026-11-01",
+          "url": "articles/2026-11-01-midday/us-midterm-costs.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-01-morning",
+        "edition_id": "2026-11-01-midday",
         "article_id": "us-midterm-costs",
         "source_story_id": "us-midterm-cost-of-living-2026-11-01",
-        "url": "articles/2026-11-01-morning/us-midterm-costs.html"
+        "url": "articles/2026-11-01-midday/us-midterm-costs.html"
       },
       "section": "world",
       "priority": 2
@@ -70,15 +108,42 @@
           "article_id": "rescue-motorcycles",
           "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
           "url": "articles/2026-11-01-morning/rescue-motorcycles.html"
+        },
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "rescue-motorcycles",
+          "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+          "url": "articles/2026-11-01-midday/rescue-motorcycles.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-01-morning",
+        "edition_id": "2026-11-01-midday",
         "article_id": "rescue-motorcycles",
         "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
-        "url": "articles/2026-11-01-morning/rescue-motorcycles.html"
+        "url": "articles/2026-11-01-midday/rescue-motorcycles.html"
       },
       "section": "cyprus",
+      "priority": 3
+    },
+    {
+      "story_id": "gaza-medical-workers-strain-2026-11-01",
+      "first_seen_at": "2026-11-01T11:30:09.844015+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "gaza-medical-workers",
+          "source_story_id": "gaza-medical-workers-strain-2026-11-01",
+          "url": "articles/2026-11-01-midday/gaza-medical-workers.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "gaza-medical-workers",
+        "source_story_id": "gaza-medical-workers-strain-2026-11-01",
+        "url": "articles/2026-11-01-midday/gaza-medical-workers.html"
+      },
+      "section": "world",
       "priority": 3
     },
     {
@@ -91,15 +156,42 @@
           "article_id": "ai-employment",
           "source_story_id": "cyprus-ai-employment-concerns-2026-11-01",
           "url": "articles/2026-11-01-morning/ai-employment.html"
+        },
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "ai-employment",
+          "source_story_id": "cyprus-ai-employment-concerns-2026-11-01",
+          "url": "articles/2026-11-01-midday/ai-employment.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-01-morning",
+        "edition_id": "2026-11-01-midday",
         "article_id": "ai-employment",
         "source_story_id": "cyprus-ai-employment-concerns-2026-11-01",
-        "url": "articles/2026-11-01-morning/ai-employment.html"
+        "url": "articles/2026-11-01-midday/ai-employment.html"
       },
       "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "eu-food-innovation-survey-2026-11-01",
+      "first_seen_at": "2026-11-01T11:30:09.844015+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "eu-food-survey",
+          "source_story_id": "eu-food-innovation-survey-2026-11-01",
+          "url": "articles/2026-11-01-midday/eu-food-survey.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "eu-food-survey",
+        "source_story_id": "eu-food-innovation-survey-2026-11-01",
+        "url": "articles/2026-11-01-midday/eu-food-survey.html"
+      },
+      "section": "world",
       "priority": 4
     },
     {
@@ -112,15 +204,48 @@
           "article_id": "akel-priorities",
           "source_story_id": "akel-presidential-strategy-2028-2026-10-31",
           "url": "articles/2026-11-01-morning/akel-priorities.html"
+        },
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "akel-priorities",
+          "source_story_id": "akel-presidential-strategy-2028-2026-10-31",
+          "url": "articles/2026-11-01-midday/akel-priorities.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-01-morning",
+        "edition_id": "2026-11-01-midday",
         "article_id": "akel-priorities",
         "source_story_id": "akel-presidential-strategy-2028-2026-10-31",
-        "url": "articles/2026-11-01-morning/akel-priorities.html"
+        "url": "articles/2026-11-01-midday/akel-priorities.html"
       },
       "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "kuwait-major-tapia-title-2026-10-31",
+      "first_seen_at": "2026-11-01T05:30:56.550056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-morning",
+          "article_id": "padel-tapia",
+          "source_story_id": "kuwait-major-tapia-title-2026-10-31",
+          "url": "articles/2026-11-01-morning/padel-tapia.html"
+        },
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "kuwait-season-ranking",
+          "source_story_id": "kuwait-major-tapia-title-2026-10-31",
+          "url": "articles/2026-11-01-midday/kuwait-season-ranking.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "kuwait-season-ranking",
+        "source_story_id": "kuwait-major-tapia-title-2026-10-31",
+        "url": "articles/2026-11-01-midday/kuwait-season-ranking.html"
+      },
+      "section": "sports",
       "priority": 5
     },
     {
@@ -133,37 +258,43 @@
           "article_id": "limassol-investigation",
           "source_story_id": "limassol-well-homicide-investigation-2026-10-31",
           "url": "articles/2026-11-01-morning/limassol-investigation.html"
+        },
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "limassol-investigation",
+          "source_story_id": "limassol-well-homicide-investigation-2026-10-31",
+          "url": "articles/2026-11-01-midday/limassol-investigation.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-01-morning",
+        "edition_id": "2026-11-01-midday",
         "article_id": "limassol-investigation",
         "source_story_id": "limassol-well-homicide-investigation-2026-10-31",
-        "url": "articles/2026-11-01-morning/limassol-investigation.html"
+        "url": "articles/2026-11-01-midday/limassol-investigation.html"
       },
       "section": "cyprus",
       "priority": 6
     },
     {
-      "story_id": "kuwait-major-tapia-title-2026-10-31",
-      "first_seen_at": "2026-11-01T05:30:56.550056+00:00",
+      "story_id": "marquez-malaysia-motogp-2026-11-01",
+      "first_seen_at": "2026-11-01T11:30:09.844015+00:00",
       "last_substantive_at": null,
       "references": [
         {
-          "edition_id": "2026-11-01-morning",
-          "article_id": "padel-tapia",
-          "source_story_id": "kuwait-major-tapia-title-2026-10-31",
-          "url": "articles/2026-11-01-morning/padel-tapia.html"
+          "edition_id": "2026-11-01-midday",
+          "article_id": "marquez-malaysia",
+          "source_story_id": "marquez-malaysia-motogp-2026-11-01",
+          "url": "articles/2026-11-01-midday/marquez-malaysia.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-01-morning",
-        "article_id": "padel-tapia",
-        "source_story_id": "kuwait-major-tapia-title-2026-10-31",
-        "url": "articles/2026-11-01-morning/padel-tapia.html"
+        "edition_id": "2026-11-01-midday",
+        "article_id": "marquez-malaysia",
+        "source_story_id": "marquez-malaysia-motogp-2026-11-01",
+        "url": "articles/2026-11-01-midday/marquez-malaysia.html"
       },
       "section": "sports",
-      "priority": 7
+      "priority": 6
     }
   ],
   "updates": [
@@ -263,6 +394,160 @@
         "article_id": "ai-employment",
         "source_story_id": "cyprus-ai-employment-concerns-2026-11-01",
         "url": "articles/2026-11-01-morning/ai-employment.html"
+      }
+    },
+    {
+      "id": "0ee63372a63d2ed75af7b1acaa61b4fd96ec8ff120882d14332ce36fffcadc63",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-well-homicide-investigation-2026-10-31",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "limassol-investigation",
+        "source_story_id": "limassol-well-homicide-investigation-2026-10-31",
+        "url": "articles/2026-11-01-midday/limassol-investigation.html"
+      }
+    },
+    {
+      "id": "2284300f216f911cee37d64e87e5b5bfe705f0e5229ff4a162e060306c450baa",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-ai-employment-concerns-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "ai-employment",
+        "source_story_id": "cyprus-ai-employment-concerns-2026-11-01",
+        "url": "articles/2026-11-01-midday/ai-employment.html"
+      }
+    },
+    {
+      "id": "3e6add1835ffe9efea102c52c5eb4376428ef909782d7b9b2cdc6ef4695bf990",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "binance-loss-coverage-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "binance-recovery",
+        "source_story_id": "binance-loss-coverage-2026-11-01",
+        "url": "articles/2026-11-01-midday/binance-recovery.html"
+      }
+    },
+    {
+      "id": "501f8961dad7faa07a13de6c7ce2018be2954e37161dfa336b3d72ba0f99434c",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "gaza-medical-workers-strain-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "gaza-medical-workers",
+        "source_story_id": "gaza-medical-workers-strain-2026-11-01",
+        "url": "articles/2026-11-01-midday/gaza-medical-workers.html"
+      }
+    },
+    {
+      "id": "7037b420710d4ec08239513310fa607572d058160dbc3dcf69c461b34e162224",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterm-cost-of-living-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "us-midterm-costs",
+        "source_story_id": "us-midterm-cost-of-living-2026-11-01",
+        "url": "articles/2026-11-01-midday/us-midterm-costs.html"
+      }
+    },
+    {
+      "id": "7649d04a69ae1d897af3d525283ececdbfdb0ce95394359e5693688a4134729d",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "eu-food-innovation-survey-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "eu-food-survey",
+        "source_story_id": "eu-food-innovation-survey-2026-11-01",
+        "url": "articles/2026-11-01-midday/eu-food-survey.html"
+      }
+    },
+    {
+      "id": "90cb1743f7d2e6345c5c7c0da98819b259cc92aade576afe93a94d1c1b91bce8",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "marquez-malaysia-motogp-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "marquez-malaysia",
+        "source_story_id": "marquez-malaysia-motogp-2026-11-01",
+        "url": "articles/2026-11-01-midday/marquez-malaysia.html"
+      }
+    },
+    {
+      "id": "a950734c271f2407cd25501433ad7e0a075ba133b1c7b6005c5115c771fc6cb4",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "poland-constitutional-court-2026-10-30",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "poland-eu-call",
+        "source_story_id": "poland-constitutional-court-2026-10-30",
+        "url": "articles/2026-11-01-midday/poland-eu-call.html"
+      }
+    },
+    {
+      "id": "b67947a21b6bae5cb063065363b0d550ec118910c43ee1806f30450498819517",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "akel-presidential-strategy-2028-2026-10-31",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "akel-priorities",
+        "source_story_id": "akel-presidential-strategy-2028-2026-10-31",
+        "url": "articles/2026-11-01-midday/akel-priorities.html"
+      }
+    },
+    {
+      "id": "c6fa81bd73105b356845ccb4b2763f195d2c35afddb42f673bb0c5d1742da90b",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "rescue-motorcycles",
+        "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+        "url": "articles/2026-11-01-midday/rescue-motorcycles.html"
+      }
+    },
+    {
+      "id": "fde4c50e48e08964f1c0f92dea30c26bac8a32c774c716fd191c665ae96f4ae5",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "kuwait-major-tapia-title-2026-10-31",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "kuwait-season-ranking",
+        "source_story_id": "kuwait-major-tapia-title-2026-10-31",
+        "url": "articles/2026-11-01-midday/kuwait-season-ranking.html"
       }
     }
   ],
@@ -472,23 +757,23 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Ο Πολωνός πρόεδρος πραγματοποίησε επαφές για τη δικαστική διαμάχη, με απουσία του κεντρώου κόμματος του πρωθυπουργού. Στις ΗΠΑ, οι ενδιάμεσες πλησιάζουν με την ακρίβεια στο επίκεντρο της προεκλογικής συζήτησης. Οι επαφές δεν αποδεικνύουν επίλυση της πολωνικής διαφοράς και οι εκλογές δεν έχουν ακόμη κριθεί.",
+        "text": "Η Binance δηλώνει ότι έχει καλύψει το 90% των απωλειών από επίθεση και επανέφερε αναλήψεις σε αρκετά δίκτυα. Πρόκειται για εταιρική ενημέρωση, όχι ανεξάρτητη επιβεβαίωση αποζημίωσης κάθε πελάτη ή πλήρους αποκατάστασης. Η επόμενη ουσιαστική ένδειξη είναι η τεκμηριωμένη ολοκλήρωση κάλυψης και λειτουργίας.",
         "story_ids": [
-          "poland-constitutional-court-2026-10-30",
-          "us-midterm-cost-of-living-2026-11-01"
+          "binance-loss-coverage-2026-11-01"
         ]
       },
       {
-        "text": "Για τις διασωστικές μοτοσικλέτες αναφέρονται 350 επεμβάσεις σε δύο χρόνια και 22 εκπαιδευμένα άτομα, χωρίς συγκριτικούς χρόνους απόκρισης. Στην εργασία, εκπρόσωπος της ΠΕΟ θεωρεί λογικές τις ανησυχίες για την τεχνητή νοημοσύνη, αλλά λέει πως είναι νωρίς να αποδοθούν σε αυτήν απολύσεις στην Κύπρο. Οι αριθμοί και οι εκτιμήσεις απαιτούν διαφορετική ανάγνωση.",
+        "text": "Η Κομισιόν παρεμβαίνει στη διαμάχη για τους Πολωνούς συνταγματικούς δικαστές, χωρίς να τεκμηριώνεται λύση. Στη Γάζα, το ρεπορτάζ για το προσωπικό υγείας προσθέτει την ανθρώπινη διάσταση της πίεσης στις υπηρεσίες. Η ευρωπαϊκή έρευνα τροφίμων καταγράφει στάσεις εμπιστοσύνης, όχι επιστημονική αξιολόγηση ασφάλειας. Η χρήσιμη κυπριακή πρωινή κάλυψη διατηρείται με τις αρχικές επαληθεύσεις της.",
         "story_ids": [
-          "cyprus-motorcycle-ambulance-2026-10-31",
-          "cyprus-ai-employment-concerns-2026-11-01"
+          "poland-constitutional-court-2026-10-30",
+          "gaza-medical-workers-strain-2026-11-01",
+          "eu-food-innovation-survey-2026-11-01"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-01T05:32:25.111232+00:00",
-  "updated_at": "2026-11-01T05:32:25.111232+00:00",
-  "input_sha256": "d093450d12612b7d28fe3075361a1c3d06c5c5b83244d87f07a7c4147b1b5f54"
+  "updated_at": "2026-11-01T11:31:58.076356+00:00",
+  "input_sha256": "1caa3670035af2d8ecf55d9247c619a35ca0f4aebcb188e334b23ac4fa9f8cee"
 }
