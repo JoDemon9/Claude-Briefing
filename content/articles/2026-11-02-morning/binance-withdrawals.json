@@ -1,0 +1,74 @@
+{
+  "analysis_sources": [
+    "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss"
+  ],
+  "category": "Πρώτο θέμα",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "delta_update": "Πελάτες της Binance απέσυραν περιουσιακά στοιχεία αξίας $3,64 δισ. μετά την επαναλειτουργία της την Κυριακή, σύμφωνα με το BBC. Η εταιρεία δηλώνει ότι έχει καλύψει περίπου το 95% των στοιχείων που εκλάπησαν και πως σκοπεύει να καλύψει το σύνολο. Η επίθεση αφορούσε το διεθνές ανταλλακτήριο Binance.com· η αμερικανική πλατφόρμα δήλωσε ότι δεν επηρεάστηκε.",
+  "driver_tags": [
+    "finance",
+    "technology",
+    "cybersecurity",
+    "market-mover"
+  ],
+  "edition_id": "2026-11-02-morning",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Binance: αναλήψεις $3,64 δισ. μετά την επαναλειτουργία",
+  "id": "binance-withdrawals",
+  "image": {
+    "alt": "Η Γη από το Apollo 17, πραγματική φωτογραφία NASA της 7ης Δεκεμβρίου 1972 · γενικό διεθνές πλαίσιο",
+    "attribution": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+    "caption": "Φωτογραφία αρχείου · Η Γη από το Apollo 17, πραγματική φωτογραφία NASA της 7ης Δεκεμβρίου 1972 · γενικό διεθνές πλαίσιο. Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "retrieved_at": "2026-10-25T22:21:39.242726+00:00",
+    "reuse_review": {
+      "relevance_and_archive_date_checked": true,
+      "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+      "sha256": "a5006f0e3b79f189db76dd7b4288efc835ec2d1c25b0cd775b2f9c2153827a61",
+      "source_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+    "url": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+  },
+  "mechanics_and_incentives": "Η εταιρική κάλυψη των απωλειών και οι αναλήψεις πελατών μετρούν διαφορετικά πράγματα: η πρώτη αφορά την αναπλήρωση περιουσιακών στοιχείων, ενώ οι δεύτερες δείχνουν μετακινήσεις χρημάτων μετά την επαναλειτουργία. Το απόσπασμα δεν αποδεικνύει ότι κάθε πελάτης αποζημιώθηκε ούτε εξηγεί τα κίνητρα κάθε ανάληψης.",
+  "published_at": "2026-11-02T05:27:05.529749+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "watch_next": "Ανακοινώσεις για το υπόλοιπο περίπου 5%, τους περιορισμούς ανάληψης και την ολοκλήρωση της κάλυψης."
+  },
+  "second_order_effects": "Οι πελάτες εξαρτώνται από τη διαθεσιμότητα των συγκεκριμένων περιουσιακών τους στοιχείων και από την ολοκλήρωση της αναπλήρωσης. Η αναφορά αφορά το ανταλλακτήριο, χωρίς τεκμηρίωση ότι παραβιάστηκε το ίδιο το blockchain.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Πελάτες της Binance απέσυραν περιουσιακά στοιχεία αξίας $3,64 δισ. μετά την επαναλειτουργία της την Κυριακή, σύμφωνα με το BBC. Η εταιρεία δηλώνει ότι έχει καλύψει περίπου το 95% των στοιχείων που εκλάπησαν και πως σκοπεύει να καλύψει το σύνολο. Η επίθεση αφορούσε το διεθνές ανταλλακτήριο Binance.com· η αμερικανική πλατφόρμα δήλωσε ότι δεν επηρεάστηκε."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-02T03:32:14+00:00",
+      "publisher": "BBC",
+      "reporting_group": "BBC",
+      "retrieved_at": "2026-11-02T04:20:49.008613+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "binance-withdrawals-2026-11-02",
+  "story_identity": "binance-loss-coverage-2026-11-01",
+  "summary": "Πελάτες της Binance απέσυραν περιουσιακά στοιχεία αξίας $3,64 δισ. μετά την επαναλειτουργία της την Κυριακή, σύμφωνα με το BBC. Η εταιρεία δηλώνει ότι έχει καλύψει περίπου το 95% των στοιχείων που εκλάπησαν και πως σκοπεύει να καλύψει το σύνολο. Η επίθεση αφορούσε το διεθνές ανταλλακτήριο Binance.com· η αμερικανική πλατφόρμα δήλωσε ότι δεν επηρεάστηκε.",
+  "updated_at": "2026-11-02T05:27:05.529749+00:00",
+  "url": "articles/2026-11-02-morning/binance-withdrawals.html"
+}
