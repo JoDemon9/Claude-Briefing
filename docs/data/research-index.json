@@ -419,6 +419,14 @@
       "fingerprint": "233d783d3a2b0efebf23b49979d04abc91cd7d52e9a0c73d5470cb556f051ab1"
     },
     {
+      "id": "2026-11-02-evening",
+      "date": "2026-11-02",
+      "type": "evening",
+      "published_at": "2026-11-02T17:30:22.982715+00:00",
+      "url": "evening/2026-11-02.html",
+      "fingerprint": "7a5b9bfa0dfa5b1fe4021eb078375762c347dd0e509c95610a111f642c75f9d6"
+    },
+    {
       "id": "2026-11-02-midday",
       "date": "2026-11-02",
       "type": "midday",
@@ -14683,6 +14691,330 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/f6bdd8146abb15eb6d0e49ce1e89e7f260740390b8e7b08213f8087c17d59746.webp"
+    },
+    {
+      "story_id": "ai-personal-agents-access-2026-11-02",
+      "identity": "ai-personal-agents-access-2026-11-02",
+      "edition_id": "2026-11-02-evening",
+      "date": "2026-11-02",
+      "slot": "evening",
+      "published_at": "2026-11-02T17:30:22.982715+00:00",
+      "available_at": "2026-11-02T17:30:22.982715+00:00",
+      "headline": "Τράπεζες και καταστήματα περιορίζουν προσωπικούς βοηθούς τεχνητής νοημοσύνης",
+      "finding": "Το CNBC αναφέρει ότι JPMorgan Chase, Charles Schwab, Amazon και άλλες επιχειρήσεις έχουν κινηθεί για να αποκλείσουν προσωπικούς βοηθούς όπως το Meta Muse. Οι χρήστες αρχίζουν να τους αναθέτουν αναζήτηση καλύτερων επιτοκίων, αγορές και ακύρωση συνδρομών. Εκπρόσωπος της Amazon δήλωσε ότι ζήτησαν από τη Meta να αφαιρέσει την Amazon από τη συγκεκριμένη εμπειρία.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-02-evening/ai-personal-agents.json",
+      "reader_url": "articles/2026-11-02-evening/ai-personal-agents.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-01T14:00:02+00:00",
+          "retrieved_at": "2026-11-02T16:20:51.603431+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8950ad017ed5e8e93f8ffc845a6d4e8b30f853c213cf9b30c41aac3bab884960.webp"
+    },
+    {
+      "story_id": "israel-opposition-meeting-2026-11-03",
+      "identity": "israel-opposition-meeting-2026-11-03",
+      "edition_id": "2026-11-02-evening",
+      "date": "2026-11-02",
+      "slot": "evening",
+      "published_at": "2026-11-02T17:30:22.982715+00:00",
+      "available_at": "2026-11-02T17:30:22.982715+00:00",
+      "headline": "Ισραήλ: συνάντηση της αντιπολίτευσης την Τρίτη για τα επόμενα βήματα",
+      "finding": "Οι ηγέτες του κύριου μπλοκ της αντιπολίτευσης θα συναντηθούν στις 3 Νοεμβρίου στη Χερτσλιγιά, σύμφωνα με το Sigmalive. Στόχος είναι ο συντονισμός μετά τις εκλογές της 27ης Οκτωβρίου, οι οποίες δεν έδωσαν πλειοψηφία ούτε στον συνασπισμό Νετανιάχου ούτε στην αντιπολίτευση με επικεφαλής τον Άιζενκοτ. Η προγραμματισμένη συνάντηση δεν τεκμηριώνει συμφωνία σχηματισμού κυβέρνησης.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-02-evening/israel-opposition-meeting.json",
+      "reader_url": "articles/2026-11-02-evening/israel-opposition-meeting.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/international/1335911/israil-prwti-sinantisi-meta-tis-ekloghes-ton-kommaton-tis-antipolitefsis",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-02T16:17:47+00:00",
+          "retrieved_at": "2026-11-02T16:20:51.998347+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c60b78c6e56f02e3b98688bd801fff7d13c2a1f0331bce6d461637249be6da94.webp"
+    },
+    {
+      "story_id": "cyprus-education-labour-dialogue-2026-11-02",
+      "identity": "cyprus-education-labour-dialogue-2026-11-02",
+      "edition_id": "2026-11-02-evening",
+      "date": "2026-11-02",
+      "slot": "evening",
+      "published_at": "2026-11-02T17:30:22.982715+00:00",
+      "available_at": "2026-11-02T17:30:22.982715+00:00",
+      "headline": "Παιδεία: έκκληση για διάλογο σε διαφορά περίπου 950 εργαζομένων",
+      "finding": "Η υπουργός Παιδείας Αθηνά Μιχαηλίδου ζήτησε τη Δευτέρα διάλογο αντί απεργιακής δράσης για διαφορά που αφορά περίπου 950 εργαζομένους, μεταξύ τους υποστηρικτικό προσωπικό και άτομα με σύντομες συμβάσεις, σύμφωνα με το Cyprus Mail. Ξεχωριστά, υπερασπίστηκε προτεινόμενες αλλαγές στους διορισμούς εκπαιδευτικών, λέγοντας ότι η κυβέρνηση αποδέχθηκε τα περισσότερα συνδικαλιστικά αιτήματα. Το απόσπασμα δεν αναφέρει συμφωνία ή ακύρωση κινητοποίησης.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-02-evening/education-labour-dialogue.json",
+      "reader_url": "articles/2026-11-02-evening/education-labour-dialogue.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/02/education-minister-urges-dialogue-over-strike-defends-teacher-appointment-reforms",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-02T15:03:11+00:00",
+          "retrieved_at": "2026-11-02T16:20:51.960892+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7c8812350b4cf07717c1a73c8f2ea17030ba2a18c2b6e8ee47e0f9e0b3503845.webp"
+    },
+    {
+      "story_id": "cyprus-hubs4build-materials-2026-11-02",
+      "identity": "cyprus-hubs4build-materials-2026-11-02",
+      "edition_id": "2026-11-02-evening",
+      "date": "2026-11-02",
+      "slot": "evening",
+      "published_at": "2026-11-02T17:30:22.982715+00:00",
+      "available_at": "2026-11-02T17:30:22.982715+00:00",
+      "headline": "HUBS4BUILD: κυπριακή συμμετοχή σε δοκιμές νέων δομικών υλικών",
+      "finding": "Η ΑΚΤΗ συμμετέχει στο ευρωπαϊκό έργο HUBS4BUILD για αξιοποίηση υπολειμμάτων σε δομικά υλικά, σύμφωνα με το Sigmalive που επικαλείται δελτίο Τύπου της οργάνωσης. Μεταξύ των λύσεων που θα δοκιμαστούν περιλαμβάνονται θερμομόνωση από θαλάσσια φυτά και μονωτικές πλάκες από απόβλητα τροφίμων. Πρόκειται για δοκιμές με στόχο τη μείωση αποβλήτων, όχι επιβεβαιωμένη εμπορική διάθεση ή αποδεδειγμένη απόδοση προϊόντων.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-02-evening/hubs4build-materials.json",
+      "reader_url": "articles/2026-11-02-evening/hubs4build-materials.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/environment/1335891/kypros-simmetokhi-se-efropaiko-ergho-ghia-domika-ilika-apo-thalassia-fita",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-02T14:26:21+00:00",
+          "retrieved_at": "2026-11-02T16:20:52.771358+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/21663f17bc6a42d718c53a932cf121ef66c4e337129e4b3ad28f1111edca79f6.webp"
+    },
+    {
+      "story_id": "cyprus-shipping-registrations-2026-11-02",
+      "identity": "cyprus-shipping-registrations-2026-11-02",
+      "edition_id": "2026-11-02-evening",
+      "date": "2026-11-02",
+      "slot": "evening",
+      "published_at": "2026-11-02T17:30:22.982715+00:00",
+      "available_at": "2026-11-02T17:30:22.982715+00:00",
+      "headline": "Κυπριακό νηολόγιο: 119 εγγραφές πλοίων από την αρχή του έτους",
+      "finding": "Στο κυπριακό νηολόγιο εγγράφηκαν 119 πλοία από τις αρχές του 2026, συνολικής ολικής χωρητικότητας άνω των 2,4 εκατομμυρίων τόνων, σύμφωνα με στοιχεία του Υφυπουργείου Ναυτιλίας που μεταδίδει το Philenews. Το Υφυπουργείο χαρακτηρίζει πλεονασματικό τον προϋπολογισμό του 2027. Οι νέες εγγραφές δεν αποτυπώνουν από μόνες τους καθαρή αύξηση στόλου, αφού το απόσπασμα δεν δίνει διαγραφές.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-02-evening/shipping-registrations.json",
+      "reader_url": "articles/2026-11-02-evening/shipping-registrations.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1790000/naftilia-119-nees-engrafes-plion-to-2026-pleonasmatikos-o-proipologismos-tou-2027",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-02T14:02:07+00:00",
+          "retrieved_at": "2026-11-02T16:20:51.671122+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/250d403a5af7c867bbf0d19f76d1fc8a79ba248bd94b5c9d24c6ced26df40124.webp"
+    },
+    {
+      "story_id": "edwards-argentina-coaching-2026-11-02",
+      "identity": "edwards-argentina-coaching-2026-11-02",
+      "edition_id": "2026-11-02-evening",
+      "date": "2026-11-02",
+      "slot": "evening",
+      "published_at": "2026-11-02T17:30:22.982715+00:00",
+      "available_at": "2026-11-02T17:30:22.982715+00:00",
+      "headline": "Ράγκμπι: ο Έντουαρντς στην Αργεντινή έως το Παγκόσμιο του 2027",
+      "finding": "Ο Σον Έντουαρντς δήλωσε ότι ο Στιβ Μπόρθγουικ απέρριψε προσφορά του να εργαστεί με την Αγγλία, σύμφωνα με το BBC. Ο Έντουαρντς έχει πλέον συμφωνήσει με την Αργεντινή έως το τέλος της διοργάνωσης του 2027.",
+      "section": "sports",
+      "priority": 6,
+      "article_path": "articles/2026-11-02-evening/edwards-argentina.json",
+      "reader_url": "articles/2026-11-02-evening/edwards-argentina.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmp3g0j2dvklo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-02T15:47:55+00:00",
+          "retrieved_at": "2026-11-02T16:20:57.844113+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/535844d0e32ab3a8521dbf727deec5d3fd15645776536fe483a342b6a0dd3136.webp"
+    },
+    {
+      "story_id": "us-senate-midterms-2026-11-02",
+      "identity": "us-senate-midterms-2026-11-02",
+      "edition_id": "2026-11-02-evening",
+      "date": "2026-11-02",
+      "slot": "evening",
+      "published_at": "2026-11-02T11:36:32.056134+00:00",
+      "available_at": "2026-11-02T17:30:22.982715+00:00",
+      "headline": "ΗΠΑ: τέσσερις έδρες χρειάζονται οι Δημοκρατικοί για τη Γερουσία",
+      "finding": "Στις εκλογές της 3ης Νοεμβρίου κρίνονται 35 από τις 100 έδρες της Γερουσίας, σύμφωνα με το Sigmalive. Οι Δημοκρατικοί χρειάζονται να κερδίσουν τέσσερις έδρες από τους Ρεπουμπλικάνους για να ανακτήσουν τον έλεγχο. Η αναφορά ότι εννέα πολιτείες θεωρούνται αμφίρροπες αποδίδεται σε αναλυτές· δεν αποτελεί πρόβλεψη αποτελέσματος ή ένδειξη ότι όλες οι υπόλοιπες αναμετρήσεις έχουν ήδη κριθεί.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-02-evening/us-senate-midterms.json",
+      "reader_url": "articles/2026-11-02-evening/us-senate-midterms.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/international/1335836/ekloghes-stis-hpa-oi-9-krisimes-polities-ghia-ton-eleghkho-tis-geroysias",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-02T10:41:47+00:00",
+          "retrieved_at": "2026-11-02T10:53:48.005403+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/65271df763811c4e75474a802d7a8f8249e4f28fe1f72db95b0fe24efbb3cd8a.webp"
+    },
+    {
+      "story_id": "binance-withdrawals-2026-11-02",
+      "identity": "binance-loss-coverage-2026-11-01",
+      "edition_id": "2026-11-02-evening",
+      "date": "2026-11-02",
+      "slot": "evening",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-02T17:30:22.982715+00:00",
+      "headline": "Binance: αναλήψεις $3,64 δισ. μετά την επαναλειτουργία",
+      "finding": "Πελάτες της Binance απέσυραν περιουσιακά στοιχεία αξίας $3,64 δισ. μετά την επαναλειτουργία της την Κυριακή, σύμφωνα με το BBC. Η εταιρεία δηλώνει ότι έχει καλύψει περίπου το 95% των στοιχείων που εκλάπησαν και πως σκοπεύει να καλύψει το σύνολο. Η επίθεση αφορούσε το διεθνές ανταλλακτήριο Binance.com· η αμερικανική πλατφόρμα δήλωσε ότι δεν επηρεάστηκε.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-02-evening/binance-withdrawals.json",
+      "reader_url": "articles/2026-11-02-evening/binance-withdrawals.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-02T03:32:14+00:00",
+          "retrieved_at": "2026-11-02T04:20:49.008613+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "ukraine-russia-alert-apps-2026-11-02",
+      "identity": "ukraine-russia-alert-apps-2026-11-02",
+      "edition_id": "2026-11-02-evening",
+      "date": "2026-11-02",
+      "slot": "evening",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-02T17:30:22.982715+00:00",
+      "headline": "Ουκρανία και Ρωσία αναφέρουν κυβερνοεπιθέσεις σε εφαρμογές προειδοποίησης",
+      "finding": "Το Al Jazeera μεταδίδει ότι χρήστες στην Ουκρανία έλαβαν ψευδείς προειδοποιήσεις πυρηνικής απειλής και ότι η Ρωσία ανακοίνωσε επίσης επίθεση στη δική της εφαρμογή έκτακτης ενημέρωσης. Η ουκρανική εφαρμογή χρησιμοποιείται για ειδοποιήσεις αεροπορικών επιδρομών. Οι αρχές του Κιέβου ανέφεραν ότι ξεχωριστή εφαρμογή για την πρωτεύουσα λειτουργούσε κανονικά. Οι ανακοινώσεις δεν αποτελούν από μόνες τους ανεξάρτητη απόδειξη του δράστη.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-02-evening/alert-apps.json",
+      "reader_url": "articles/2026-11-02-evening/alert-apps.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-02T01:40:50+00:00",
+          "retrieved_at": "2026-11-02T04:20:48.983731+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/2cddf87b31219283ebda070526cc51141a8b9c350e1532e63061c22642834400.webp"
+    },
+    {
+      "story_id": "eurobank-cyprus-nine-months-2026-11-02",
+      "identity": "eurobank-cyprus-nine-months-2026-11-02",
+      "edition_id": "2026-11-02-evening",
+      "date": "2026-11-02",
+      "slot": "evening",
+      "published_at": "2026-11-02T11:36:32.056134+00:00",
+      "available_at": "2026-11-02T17:30:22.982715+00:00",
+      "headline": "Eurobank: €367 εκατ. κέρδη προ φόρων στην Κύπρο στο εννεάμηνο",
+      "finding": "Η Eurobank ανακοίνωσε €367 εκατ. κέρδη προ φόρων από τις κυπριακές δραστηριότητές της για τους πρώτους εννέα μήνες του 2026, σύμφωνα με το Cyprus Mail. Τα καθαρά κέρδη του ομίλου που αναλογούν στους μετόχους ανήλθαν σε €1,16 δισ. Το δημοσίευμα αναφέρει €10 εκατ. κόστους αναδιοργάνωσης και ενοποίησης στην Κύπρο, έναντι €11 εκατ. την αντίστοιχη περίοδο του 2025.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-02-evening/eurobank-cyprus-results.json",
+      "reader_url": "articles/2026-11-02-evening/eurobank-cyprus-results.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/02/eurobank-builds-on-its-cyprus-presence-as-group-earnings-climb",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-02T10:26:36+00:00",
+          "retrieved_at": "2026-11-02T10:53:48.476466+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ebcbdf61c2b8ca47c3997a05dcf49f14c4f2ac2e672248b0eda78a2726e1e75b.webp"
+    },
+    {
+      "story_id": "cyprus-war-prisoner-benefit-review-2026-11-02",
+      "identity": "cyprus-war-prisoner-benefit-review-2026-11-02",
+      "edition_id": "2026-11-02-evening",
+      "date": "2026-11-02",
+      "slot": "evening",
+      "published_at": "2026-11-02T11:36:32.056134+00:00",
+      "available_at": "2026-11-02T17:30:22.982715+00:00",
+      "headline": "Επιδόματα αιχμαλώτων: ο Σύνδεσμος ζητά ονόματα για αστυνομική έρευνα",
+      "finding": "Ο Παγκύπριος Σύνδεσμος Αιχμαλώτων Πολέμου 1974 διέγραψε περίπου 15 μέλη επειδή δεν ήταν εγγεγραμμένα στο μητρώο του Ερυθρού Σταυρού, σύμφωνα με το Philenews. Ο πρόεδρός του Βάσος Χρίστου δήλωσε ότι θα ζητήσει ονόματα προσώπων που κρίθηκαν μη δικαιούχα επιδόματος για διαβίβαση στην Αστυνομία. Το απόσπασμα δεν αποδεικνύει ότι όλοι οι διαγραφέντες εισέπραξαν επίδομα ή διέπραξαν αδίκημα.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-02-evening/prisoner-benefit-review.json",
+      "reader_url": "articles/2026-11-02-evening/prisoner-benefit-review.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1789824/epidomata-echmaloton-polemou-zita-onomata-o-sindesmos-gia-na-provi-se-katangelia-stin-astinomia-epivallete-anaktisi-chrimaton-lei-o-vasos-christou",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-02T09:26:36+00:00",
+          "retrieved_at": "2026-11-02T10:53:48.828712+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/92902e49c8075a84e6cdff4197b3c7030430a324f2f50f039285c051069bd57b.webp"
+    },
+    {
+      "story_id": "doha-world-padel-2026-11-02",
+      "identity": "doha-world-padel-2026-11-02",
+      "edition_id": "2026-11-02-evening",
+      "date": "2026-11-02",
+      "slot": "evening",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-02T17:30:22.982715+00:00",
+      "headline": "Padel: 16 ομάδες ανά κατηγορία και όμιλοι των τεσσάρων στη Ντόχα",
+      "finding": "Ο νέος οδηγός του Padel Addict περιγράφει 16 εθνικές ομάδες ανδρών και 16 γυναικών, χωρισμένες σε τέσσερις ομίλους ανά κατηγορία. Κάθε αναμέτρηση κρίνεται σε δύο νικηφόρους αγώνες ζευγαριών.",
+      "section": "sports",
+      "priority": 6,
+      "article_path": "articles/2026-11-02-evening/doha-padel-format.json",
+      "reader_url": "articles/2026-11-02-evening/doha-padel-format.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/todo-sobre-mundial-padel-2026-doha",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-02T08:00:43+00:00",
+          "retrieved_at": "2026-11-02T10:20:59.347510+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/4006e56aa13aad8da4cfc61589b34c7a9f3f0a91042df06bd48587e513fe71f4.webp"
     },
     {
       "story_id": "belgium-budget-resignation-2026-11-02",
