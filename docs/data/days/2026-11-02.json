@@ -10,14 +10,40 @@
       "type": "morning",
       "url": "morning/2026-11-02.html",
       "published_at": "2026-11-02T05:27:05.529749+00:00"
+    },
+    {
+      "id": "2026-11-02-midday",
+      "type": "midday",
+      "url": "midday/2026-11-02.html",
+      "published_at": "2026-11-02T11:36:32.056134+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "binance-loss-coverage-2026-11-01",
+  "lead_story_id": "belgium-budget-resignation-2026-11-02",
   "stories": [
+    {
+      "story_id": "belgium-budget-resignation-2026-11-02",
+      "first_seen_at": "2026-11-02T11:36:32.056134+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-02-midday",
+          "article_id": "belgium-budget-resignation",
+          "source_story_id": "belgium-budget-resignation-2026-11-02",
+          "url": "articles/2026-11-02-midday/belgium-budget-resignation.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "belgium-budget-resignation",
+        "source_story_id": "belgium-budget-resignation-2026-11-02",
+        "url": "articles/2026-11-02-midday/belgium-budget-resignation.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "binance-loss-coverage-2026-11-01",
       "first_seen_at": "2026-11-02T05:27:05.529749+00:00",
@@ -28,13 +54,19 @@
           "article_id": "binance-withdrawals",
           "source_story_id": "binance-withdrawals-2026-11-02",
           "url": "articles/2026-11-02-morning/binance-withdrawals.html"
+        },
+        {
+          "edition_id": "2026-11-02-midday",
+          "article_id": "binance-withdrawals",
+          "source_story_id": "binance-withdrawals-2026-11-02",
+          "url": "articles/2026-11-02-midday/binance-withdrawals.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-02-morning",
+        "edition_id": "2026-11-02-midday",
         "article_id": "binance-withdrawals",
         "source_story_id": "binance-withdrawals-2026-11-02",
-        "url": "articles/2026-11-02-morning/binance-withdrawals.html"
+        "url": "articles/2026-11-02-midday/binance-withdrawals.html"
       },
       "section": "world",
       "priority": 1
@@ -49,13 +81,40 @@
           "article_id": "alert-apps",
           "source_story_id": "ukraine-russia-alert-apps-2026-11-02",
           "url": "articles/2026-11-02-morning/alert-apps.html"
+        },
+        {
+          "edition_id": "2026-11-02-midday",
+          "article_id": "alert-apps",
+          "source_story_id": "ukraine-russia-alert-apps-2026-11-02",
+          "url": "articles/2026-11-02-midday/alert-apps.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-02-morning",
+        "edition_id": "2026-11-02-midday",
         "article_id": "alert-apps",
         "source_story_id": "ukraine-russia-alert-apps-2026-11-02",
-        "url": "articles/2026-11-02-morning/alert-apps.html"
+        "url": "articles/2026-11-02-midday/alert-apps.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "us-senate-midterms-2026-11-02",
+      "first_seen_at": "2026-11-02T11:36:32.056134+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-02-midday",
+          "article_id": "us-senate-midterms",
+          "source_story_id": "us-senate-midterms-2026-11-02",
+          "url": "articles/2026-11-02-midday/us-senate-midterms.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "us-senate-midterms",
+        "source_story_id": "us-senate-midterms-2026-11-02",
+        "url": "articles/2026-11-02-midday/us-senate-midterms.html"
       },
       "section": "world",
       "priority": 2
@@ -80,6 +139,48 @@
       },
       "section": "world",
       "priority": 3
+    },
+    {
+      "story_id": "sudan-food-assistance-cuts-2026-11-02",
+      "first_seen_at": "2026-11-02T11:36:32.056134+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-02-midday",
+          "article_id": "sudan-food-assistance",
+          "source_story_id": "sudan-food-assistance-cuts-2026-11-02",
+          "url": "articles/2026-11-02-midday/sudan-food-assistance.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "sudan-food-assistance",
+        "source_story_id": "sudan-food-assistance-cuts-2026-11-02",
+        "url": "articles/2026-11-02-midday/sudan-food-assistance.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "eurobank-cyprus-nine-months-2026-11-02",
+      "first_seen_at": "2026-11-02T11:36:32.056134+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-02-midday",
+          "article_id": "eurobank-cyprus-results",
+          "source_story_id": "eurobank-cyprus-nine-months-2026-11-02",
+          "url": "articles/2026-11-02-midday/eurobank-cyprus-results.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "eurobank-cyprus-results",
+        "source_story_id": "eurobank-cyprus-nine-months-2026-11-02",
+        "url": "articles/2026-11-02-midday/eurobank-cyprus-results.html"
+      },
+      "section": "cyprus",
+      "priority": 4
     },
     {
       "story_id": "iran-us-war-warning-2026-11-02",
@@ -112,58 +213,43 @@
           "article_id": "agriculture-budget",
           "source_story_id": "cyprus-agriculture-budget-2027",
           "url": "articles/2026-11-02-morning/agriculture-budget.html"
+        },
+        {
+          "edition_id": "2026-11-02-midday",
+          "article_id": "agriculture-budget",
+          "source_story_id": "cyprus-agriculture-budget-2027",
+          "url": "articles/2026-11-02-midday/agriculture-budget.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-02-morning",
+        "edition_id": "2026-11-02-midday",
         "article_id": "agriculture-budget",
         "source_story_id": "cyprus-agriculture-budget-2027",
-        "url": "articles/2026-11-02-morning/agriculture-budget.html"
+        "url": "articles/2026-11-02-midday/agriculture-budget.html"
       },
       "section": "cyprus",
       "priority": 5
     },
     {
-      "story_id": "okypy-strike-negotiations-2026-11-01",
-      "first_seen_at": "2026-11-02T05:27:05.529749+00:00",
+      "story_id": "cyprus-war-prisoner-benefit-review-2026-11-02",
+      "first_seen_at": "2026-11-02T11:36:32.056134+00:00",
       "last_substantive_at": null,
       "references": [
         {
-          "edition_id": "2026-11-02-morning",
-          "article_id": "okypy-strike",
-          "source_story_id": "okypy-strike-negotiations-2026-11-01",
-          "url": "articles/2026-11-02-morning/okypy-strike.html"
+          "edition_id": "2026-11-02-midday",
+          "article_id": "prisoner-benefit-review",
+          "source_story_id": "cyprus-war-prisoner-benefit-review-2026-11-02",
+          "url": "articles/2026-11-02-midday/prisoner-benefit-review.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-02-morning",
-        "article_id": "okypy-strike",
-        "source_story_id": "okypy-strike-negotiations-2026-11-01",
-        "url": "articles/2026-11-02-morning/okypy-strike.html"
+        "edition_id": "2026-11-02-midday",
+        "article_id": "prisoner-benefit-review",
+        "source_story_id": "cyprus-war-prisoner-benefit-review-2026-11-02",
+        "url": "articles/2026-11-02-midday/prisoner-benefit-review.html"
       },
       "section": "cyprus",
-      "priority": 6
-    },
-    {
-      "story_id": "halloumi-milk-quota-2026-11-02",
-      "first_seen_at": "2026-11-02T05:27:05.529749+00:00",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-11-02-morning",
-          "article_id": "halloumi-quota",
-          "source_story_id": "halloumi-milk-quota-2026-11-02",
-          "url": "articles/2026-11-02-morning/halloumi-quota.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-11-02-morning",
-        "article_id": "halloumi-quota",
-        "source_story_id": "halloumi-milk-quota-2026-11-02",
-        "url": "articles/2026-11-02-morning/halloumi-quota.html"
-      },
-      "section": "cyprus",
-      "priority": 7
+      "priority": 5
     },
     {
       "story_id": "doha-world-padel-2026-11-02",
@@ -175,16 +261,97 @@
           "article_id": "doha-padel",
           "source_story_id": "doha-world-padel-2026-11-02",
           "url": "articles/2026-11-02-morning/doha-padel.html"
+        },
+        {
+          "edition_id": "2026-11-02-midday",
+          "article_id": "doha-padel-format",
+          "source_story_id": "doha-world-padel-2026-11-02",
+          "url": "articles/2026-11-02-midday/doha-padel-format.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-02-morning",
-        "article_id": "doha-padel",
+        "edition_id": "2026-11-02-midday",
+        "article_id": "doha-padel-format",
         "source_story_id": "doha-world-padel-2026-11-02",
-        "url": "articles/2026-11-02-morning/doha-padel.html"
+        "url": "articles/2026-11-02-midday/doha-padel-format.html"
       },
       "section": "sports",
-      "priority": 8
+      "priority": 6
+    },
+    {
+      "story_id": "okypy-strike-negotiations-2026-11-01",
+      "first_seen_at": "2026-11-02T05:27:05.529749+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-02-morning",
+          "article_id": "okypy-strike",
+          "source_story_id": "okypy-strike-negotiations-2026-11-01",
+          "url": "articles/2026-11-02-morning/okypy-strike.html"
+        },
+        {
+          "edition_id": "2026-11-02-midday",
+          "article_id": "okypy-strike",
+          "source_story_id": "okypy-strike-negotiations-2026-11-01",
+          "url": "articles/2026-11-02-midday/okypy-strike.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "okypy-strike",
+        "source_story_id": "okypy-strike-negotiations-2026-11-01",
+        "url": "articles/2026-11-02-midday/okypy-strike.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+      "first_seen_at": "2026-11-02T11:36:32.056134+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-02-midday",
+          "article_id": "england-wheelchair-rugby",
+          "source_story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+          "url": "articles/2026-11-02-midday/england-wheelchair-rugby.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "england-wheelchair-rugby",
+        "source_story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+        "url": "articles/2026-11-02-midday/england-wheelchair-rugby.html"
+      },
+      "section": "sports",
+      "priority": 7
+    },
+    {
+      "story_id": "halloumi-milk-quota-2026-11-02",
+      "first_seen_at": "2026-11-02T05:27:05.529749+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-02-morning",
+          "article_id": "halloumi-quota",
+          "source_story_id": "halloumi-milk-quota-2026-11-02",
+          "url": "articles/2026-11-02-morning/halloumi-quota.html"
+        },
+        {
+          "edition_id": "2026-11-02-midday",
+          "article_id": "halloumi-quota",
+          "source_story_id": "halloumi-milk-quota-2026-11-02",
+          "url": "articles/2026-11-02-midday/halloumi-quota.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "halloumi-quota",
+        "source_story_id": "halloumi-milk-quota-2026-11-02",
+        "url": "articles/2026-11-02-midday/halloumi-quota.html"
+      },
+      "section": "cyprus",
+      "priority": 7
     },
     {
       "story_id": "warnock-seizures-liverpool-2026-11-02",
@@ -368,6 +535,174 @@
         "article_id": "warnock-seizures",
         "source_story_id": "warnock-seizures-liverpool-2026-11-02",
         "url": "articles/2026-11-02-morning/warnock-seizures.html"
+      }
+    },
+    {
+      "id": "15b7d95a7611a4f2ed6357a0f6fc0a5c70ce5bb928b925d13e1cee763c46fd4a",
+      "kind": "provenance",
+      "at": "2026-11-02T11:36:32.056134+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-agriculture-budget-2027",
+      "origin": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "agriculture-budget",
+        "source_story_id": "cyprus-agriculture-budget-2027",
+        "url": "articles/2026-11-02-midday/agriculture-budget.html"
+      }
+    },
+    {
+      "id": "2508464c5e949c48c2a6d2035fdf0013fbf6d92d5e94e467f914dd7b26d2ccfa",
+      "kind": "provenance",
+      "at": "2026-11-02T11:36:32.056134+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-senate-midterms-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "us-senate-midterms",
+        "source_story_id": "us-senate-midterms-2026-11-02",
+        "url": "articles/2026-11-02-midday/us-senate-midterms.html"
+      }
+    },
+    {
+      "id": "3b9148cd6949ea3c571f8696e04df6c964b77b06d01ac767ca465304a581c95c",
+      "kind": "provenance",
+      "at": "2026-11-02T11:36:32.056134+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "belgium-budget-resignation-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "belgium-budget-resignation",
+        "source_story_id": "belgium-budget-resignation-2026-11-02",
+        "url": "articles/2026-11-02-midday/belgium-budget-resignation.html"
+      }
+    },
+    {
+      "id": "4d4bd371e4a9c322cf36be36dd182425d8fa64bfa3172e06520cc37d36bbc647",
+      "kind": "provenance",
+      "at": "2026-11-02T11:36:32.056134+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "eurobank-cyprus-nine-months-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "eurobank-cyprus-results",
+        "source_story_id": "eurobank-cyprus-nine-months-2026-11-02",
+        "url": "articles/2026-11-02-midday/eurobank-cyprus-results.html"
+      }
+    },
+    {
+      "id": "4f613f350f7138d61a5a4f229ddc6f71ef06160f6a657155ab0f6f877c6e784e",
+      "kind": "provenance",
+      "at": "2026-11-02T11:36:32.056134+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "binance-loss-coverage-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "binance-withdrawals",
+        "source_story_id": "binance-withdrawals-2026-11-02",
+        "url": "articles/2026-11-02-midday/binance-withdrawals.html"
+      }
+    },
+    {
+      "id": "53209c675fa67bef59b599149372995aced420e4187e995cf0545e2330d6c6d5",
+      "kind": "provenance",
+      "at": "2026-11-02T11:36:32.056134+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-war-prisoner-benefit-review-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "prisoner-benefit-review",
+        "source_story_id": "cyprus-war-prisoner-benefit-review-2026-11-02",
+        "url": "articles/2026-11-02-midday/prisoner-benefit-review.html"
+      }
+    },
+    {
+      "id": "5ccddc4047f9a46c9b8afbfaac8e0901f4120d37cf8fb1ae1923b285842bc4f9",
+      "kind": "provenance",
+      "at": "2026-11-02T11:36:32.056134+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-russia-alert-apps-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "alert-apps",
+        "source_story_id": "ukraine-russia-alert-apps-2026-11-02",
+        "url": "articles/2026-11-02-midday/alert-apps.html"
+      }
+    },
+    {
+      "id": "9e0965c60f044e8ce926564b14095175365c88ef1f07fd0514f831f49aba7e28",
+      "kind": "provenance",
+      "at": "2026-11-02T11:36:32.056134+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "halloumi-milk-quota-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "halloumi-quota",
+        "source_story_id": "halloumi-milk-quota-2026-11-02",
+        "url": "articles/2026-11-02-midday/halloumi-quota.html"
+      }
+    },
+    {
+      "id": "b545b82d5208227072ed8d0f9b912a00737b1860c4dcbc0d2e2b937cd8fe4739",
+      "kind": "provenance",
+      "at": "2026-11-02T11:36:32.056134+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "okypy-strike-negotiations-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "okypy-strike",
+        "source_story_id": "okypy-strike-negotiations-2026-11-01",
+        "url": "articles/2026-11-02-midday/okypy-strike.html"
+      }
+    },
+    {
+      "id": "b6112474d175786243b66ca7ba1fddf3a19e39bdb14bb41cc171c20fde0ff2c0",
+      "kind": "provenance",
+      "at": "2026-11-02T11:36:32.056134+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "doha-world-padel-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "doha-padel-format",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-02-midday/doha-padel-format.html"
+      }
+    },
+    {
+      "id": "c9bbdf30f331c6c24e52ab213cafecdb109d819e7dc029f1ac3ddc19a296871b",
+      "kind": "provenance",
+      "at": "2026-11-02T11:36:32.056134+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "england-wheelchair-rugby",
+        "source_story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+        "url": "articles/2026-11-02-midday/england-wheelchair-rugby.html"
+      }
+    },
+    {
+      "id": "e356ba422e760634bc78ffff44f5fffae269ac3c48ca60d20460af365a02978f",
+      "kind": "provenance",
+      "at": "2026-11-02T11:36:32.056134+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "sudan-food-assistance-cuts-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-02-midday",
+        "article_id": "sudan-food-assistance",
+        "source_story_id": "sudan-food-assistance-cuts-2026-11-02",
+        "url": "articles/2026-11-02-midday/sudan-food-assistance.html"
       }
     }
   ],
@@ -577,24 +912,24 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η Binance αναφέρει κάλυψη περίπου 95% των κλεμμένων περιουσιακών στοιχείων, ενώ το BBC καταγράφει αναλήψεις $3,64 δισ. Μεμονωμένα συστήματα προειδοποίησης σε Ουκρανία και Ρωσία αναφέρθηκαν επίσης ως στόχοι κυβερνοεπιθέσεων· οι ευθύνες δεν τεκμηριώνονται πλήρως στα διαθέσιμα αποσπάσματα.",
+        "text": "Η βελγική δημοσιονομική διαφωνία οδήγησε σε προσφορά παραίτησης, χωρίς ακόμη ανακοινωμένη αποδοχή της. Στις ΗΠΑ, οι αυριανές εκλογές κρίνουν τον έλεγχο της Γερουσίας. Στο Σουδάν, η αναφορά για περικοπές βοήθειας της 22ας Οκτωβρίου εξηγεί τη συνεχιζόμενη πίεση στους εκτοπισμένους, χωρίς να παρουσιάζεται ως σημερινή ανακοίνωση.",
         "story_ids": [
-          "binance-loss-coverage-2026-11-01",
-          "ukraine-russia-alert-apps-2026-11-02"
+          "belgium-budget-resignation-2026-11-02",
+          "us-senate-midterms-2026-11-02",
+          "sudan-food-assistance-cuts-2026-11-02"
         ]
       },
       {
-        "text": "Ο προτεινόμενος προϋπολογισμός Γεωργίας φτάνει τα €532 εκατ., ενώ η διαφωνία στα κρατικά νοσηλευτήρια παραμένει ανοιχτή ενόψει της προγραμματισμένης απεργίας. Στο χαλλούμι, κτηνοτρόφοι δηλώνουν ότι θα αντιταχθούν σε ενδεχόμενη αλλαγή του ποσοστού γάλακτος.",
+        "text": "Τα €367 εκατ. κερδών προ φόρων της Eurobank στην Κύπρο διαφέρουν από τα καθαρά κέρδη του ομίλου. Για τα επιδόματα αιχμαλώτων, ο Σύνδεσμος ζητά ονόματα και αστυνομική έρευνα· αυτό δεν ισοδυναμεί με καταδίκες ή επιβεβαιωμένη ανάκτηση χρημάτων.",
         "story_ids": [
-          "cyprus-agriculture-budget-2027",
-          "okypy-strike-negotiations-2026-11-01",
-          "halloumi-milk-quota-2026-11-02"
+          "eurobank-cyprus-nine-months-2026-11-02",
+          "cyprus-war-prisoner-benefit-review-2026-11-02"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-02T08:18:34.793771+00:00",
-  "updated_at": "2026-11-02T08:18:34.793771+00:00",
-  "input_sha256": "b6cf37fad771e298e83bfcdf72b66617cf1a82d4742987f2a131cb7b92f582f5"
+  "updated_at": "2026-11-02T11:38:13.395525+00:00",
+  "input_sha256": "96e52ae4c45be7370421b1d29ff83efdd204dbd70dd2443bb1e56d84fc61fce6"
 }
