@@ -417,6 +417,14 @@
       "published_at": "2026-11-01T05:30:56.550056+00:00",
       "url": "morning/2026-11-01.html",
       "fingerprint": "233d783d3a2b0efebf23b49979d04abc91cd7d52e9a0c73d5470cb556f051ab1"
+    },
+    {
+      "id": "2026-11-02-morning",
+      "date": "2026-11-02",
+      "type": "morning",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "url": "morning/2026-11-02.html",
+      "fingerprint": "c9d326acf0e7649acb9ec30b27557cb9318c83e6a5111a8081c42b3b828e3fb8"
     }
   ],
   "stories": [
@@ -14667,6 +14675,276 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/f6bdd8146abb15eb6d0e49ce1e89e7f260740390b8e7b08213f8087c17d59746.webp"
+    },
+    {
+      "story_id": "binance-withdrawals-2026-11-02",
+      "identity": "binance-loss-coverage-2026-11-01",
+      "edition_id": "2026-11-02-morning",
+      "date": "2026-11-02",
+      "slot": "morning",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-02T05:27:05.529749+00:00",
+      "headline": "Binance: αναλήψεις $3,64 δισ. μετά την επαναλειτουργία",
+      "finding": "Πελάτες της Binance απέσυραν περιουσιακά στοιχεία αξίας $3,64 δισ. μετά την επαναλειτουργία της την Κυριακή, σύμφωνα με το BBC. Η εταιρεία δηλώνει ότι έχει καλύψει περίπου το 95% των στοιχείων που εκλάπησαν και πως σκοπεύει να καλύψει το σύνολο. Η επίθεση αφορούσε το διεθνές ανταλλακτήριο Binance.com· η αμερικανική πλατφόρμα δήλωσε ότι δεν επηρεάστηκε.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-02-morning/binance-withdrawals.json",
+      "reader_url": "articles/2026-11-02-morning/binance-withdrawals.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-02T03:32:14+00:00",
+          "retrieved_at": "2026-11-02T04:20:49.008613+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "ukraine-russia-alert-apps-2026-11-02",
+      "identity": "ukraine-russia-alert-apps-2026-11-02",
+      "edition_id": "2026-11-02-morning",
+      "date": "2026-11-02",
+      "slot": "morning",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-02T05:27:05.529749+00:00",
+      "headline": "Ουκρανία και Ρωσία αναφέρουν κυβερνοεπιθέσεις σε εφαρμογές προειδοποίησης",
+      "finding": "Το Al Jazeera μεταδίδει ότι χρήστες στην Ουκρανία έλαβαν ψευδείς προειδοποιήσεις πυρηνικής απειλής και ότι η Ρωσία ανακοίνωσε επίσης επίθεση στη δική της εφαρμογή έκτακτης ενημέρωσης. Η ουκρανική εφαρμογή χρησιμοποιείται για ειδοποιήσεις αεροπορικών επιδρομών. Οι αρχές του Κιέβου ανέφεραν ότι ξεχωριστή εφαρμογή για την πρωτεύουσα λειτουργούσε κανονικά. Οι ανακοινώσεις δεν αποτελούν από μόνες τους ανεξάρτητη απόδειξη του δράστη.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-02-morning/alert-apps.json",
+      "reader_url": "articles/2026-11-02-morning/alert-apps.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-02T01:40:50+00:00",
+          "retrieved_at": "2026-11-02T04:20:48.983731+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/2cddf87b31219283ebda070526cc51141a8b9c350e1532e63061c22642834400.webp"
+    },
+    {
+      "story_id": "israel-election-commission-2026-11-02",
+      "identity": "israel-election-commission-2026-11-02",
+      "edition_id": "2026-11-02-morning",
+      "date": "2026-11-02",
+      "slot": "morning",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-02T05:27:05.529749+00:00",
+      "headline": "Ισραήλ: η εκλογική επιτροπή υπερασπίζεται το αποτέλεσμα",
+      "finding": "Ο επικεφαλής της εκλογικής επιτροπής Νόαμ Σόλμπεργκ δήλωσε ότι το συνολικό αποτέλεσμα δεν θα ανατρεπόταν ακόμη και αν επιβεβαιώνονταν υποψίες ξένης παρέμβασης, σύμφωνα με το Al Jazeera. Η δήλωσή του δημοσιεύτηκε έπειτα από ισχυρισμούς του Νετανιάχου για αλλοίωση. Η θέση της επιτροπής αφορά την επίδραση στο αποτέλεσμα· το απόσπασμα δεν αποδεικνύει ότι υπήρξε ξένη παρέμβαση.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-02-morning/israel-election-commission.json",
+      "reader_url": "articles/2026-11-02-morning/israel-election-commission.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-02T00:29:16+00:00",
+          "retrieved_at": "2026-11-02T04:20:48.936456+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/46cd94e662c801ea800beaf60c476c7d1bdc9803cbb9bd03e599871c9f529ee2.webp"
+    },
+    {
+      "story_id": "iran-us-war-warning-2026-11-02",
+      "identity": "iran-us-war-warning-2026-11-02",
+      "edition_id": "2026-11-02-morning",
+      "date": "2026-11-02",
+      "slot": "morning",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-02T05:27:05.529749+00:00",
+      "headline": "Ιράν: προειδοποίηση για πιθανή νέα σύγκρουση με τις ΗΠΑ",
+      "finding": "Η France 24 αναφέρει ότι ο εκπρόσωπος των ιρανικών ενόπλων δυνάμεων Μοχάμαντ Ακραμίνια προειδοποίησε πως ένας νέος πόλεμος με τις ΗΠΑ θα μπορούσε να διαρκέσει περισσότερο από τον προηγούμενο. Η δήλωση, όπως μεταδόθηκε από την ιρανική κρατική τηλεόραση, ακολούθησε αναφορά του προέδρου Τραμπ σε περισσότερους στόχους. Πρόκειται για προειδοποιήσεις, όχι επιβεβαίωση έναρξης νέων επιχειρήσεων.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-02-morning/iran-us-warning.json",
+      "reader_url": "articles/2026-11-02-morning/iran-us-warning.html",
+      "sources": [
+        {
+          "url": "https://www.france24.com/en/middle-east/20261102-iran-warns-renewed-war-with-us-could-outlast-previous-conflict",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-11-02T00:23:23+00:00",
+          "retrieved_at": "2026-11-02T04:20:48.929861+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ed74d4c9b809c9d23c1ece6a26e23606ed1ca70012c299601cbdc9618cdc2044.webp"
+    },
+    {
+      "story_id": "cyprus-agriculture-budget-2027",
+      "identity": "cyprus-agriculture-budget-2027",
+      "edition_id": "2026-11-02-morning",
+      "date": "2026-11-02",
+      "slot": "morning",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-02T05:27:05.529749+00:00",
+      "headline": "Προτεινόμενος προϋπολογισμός Γεωργίας €532 εκατ. για το 2027",
+      "finding": "Το Philenews αναφέρει προτεινόμενο προϋπολογισμό €532 εκατ. για το Υπουργείο Γεωργίας το 2027, αυξημένο κατά €18,7 εκατ. Με πρόσθετες προβλέψεις συγχρηματοδοτούμενων έργων, το δημοσίευμα ανεβάζει το συνολικό ποσό στα €580 εκατ. Τα προϋπολογιζόμενα έσοδα εκτιμώνται σε €275,8 εκατ., μεταξύ άλλων από δικαιώματα εκπομπών και πωλήσεις νερού.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-02-morning/agriculture-budget.json",
+      "reader_url": "articles/2026-11-02-morning/agriculture-budget.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1789024/proipologismos-ipourgiou-georgias-to-miso-kondili-ton-e532-ekat-gia-to-nero-9-pilones-gia-to-2027",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-02T04:10:00+00:00",
+          "retrieved_at": "2026-11-02T04:20:49.446880+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/85bc21a3de0a352a2a9890c806c32f66720552db636384c4d3fb621b85a76c66.webp"
+    },
+    {
+      "story_id": "okypy-strike-negotiations-2026-11-01",
+      "identity": "okypy-strike-negotiations-2026-11-01",
+      "edition_id": "2026-11-02-morning",
+      "date": "2026-11-02",
+      "slot": "morning",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-02T05:27:05.529749+00:00",
+      "headline": "ΟΚΥπΥ: ανοιχτή η διαφορά πριν από την απεργία 10–11 Νοεμβρίου",
+      "finding": "Ο ΟΚΥπΥ κάλεσε τις συντεχνίες να μην προχωρήσουν στην προγραμματισμένη 48ωρη απεργία και δήλωσε ότι υπάρχει περιθώριο διαλόγου. Οι ΣΕΚ, ΠΕΟ, ΔΕΟΚ, ΠΑΣΥΝΟ και ΠΑΣΥΚΙ έχουν θέσει ζητήματα αυξήσεων και στελέχωσης, σύμφωνα με το Cyprus Mail. Η ανακοίνωση της 1ης Νοεμβρίου δεν επιβεβαιώνει συμφωνία ή ακύρωση της κινητοποίησης.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-02-morning/okypy-strike.json",
+      "reader_url": "articles/2026-11-02-morning/okypy-strike.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/01/okypy-urges-unions-to-call-off-48-hour-strike",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-01T11:32:50+00:00",
+          "retrieved_at": "2026-11-02T04:20:49.549627+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/992684358232649316370d048b3749794e9b20bd4fd2b4261416c88fc3701d50.webp"
+    },
+    {
+      "story_id": "halloumi-milk-quota-2026-11-02",
+      "identity": "halloumi-milk-quota-2026-11-02",
+      "edition_id": "2026-11-02-morning",
+      "date": "2026-11-02",
+      "slot": "morning",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-02T05:27:05.529749+00:00",
+      "headline": "Χαλλούμι ΠΟΠ: κτηνοτρόφοι υπερασπίζονται το ποσοστό 51%",
+      "finding": "Αιγοπροβατοτρόφοι δηλώνουν ότι θα υποβάλουν ενστάσεις σε οποιαδήποτε προσπάθεια αλλαγής του ελάχιστου ποσοστού 51% αιγοπρόβειου γάλακτος στο χαλλούμι ΠΟΠ, σύμφωνα με το Cyprus Mail. Η μεταβατική περίοδος λήγει τον Ιούλιο του 2029. Η αναμενόμενη στάση της ΕΕ είναι εκτίμηση των κτηνοτρόφων, όχι ανακοινωμένη απόφαση.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-02-morning/halloumi-quota.json",
+      "reader_url": "articles/2026-11-02-morning/halloumi-quota.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/02/farmers-expect-halloumi-milk-quota-to-stay-at-51-per-cent",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-02T02:20:00+00:00",
+          "retrieved_at": "2026-11-02T04:20:49.553236+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/59153947c0a385f7988bebdf6aafea618a1b0a530464efe2d1056d447f2999ef.webp"
+    },
+    {
+      "story_id": "doha-world-padel-2026-11-02",
+      "identity": "doha-world-padel-2026-11-02",
+      "edition_id": "2026-11-02-morning",
+      "date": "2026-11-02",
+      "slot": "morning",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-02T05:27:05.529749+00:00",
+      "headline": "Padel: αρχίζει το Παγκόσμιο Πρωτάθλημα στη Ντόχα",
+      "finding": "Το Παγκόσμιο Πρωτάθλημα εθνικών ομάδων αρχίζει τη Δευτέρα 2 Νοεμβρίου στη Ντόχα, σύμφωνα με το Padel Addict. Ισπανία και Αργεντινή συμμετέχουν στις κατηγορίες ανδρών και γυναικών.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-02-morning/doha-padel.json",
+      "reader_url": "articles/2026-11-02-morning/doha-padel.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/primera-jornada-mundial-padel-2026-partidos-horarios-retransmision",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-01T23:42:30+00:00",
+          "retrieved_at": "2026-11-02T04:20:54.136613+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/e6c57e9a289f280cd39821e54f549f47be0b40fdd0b904929d8d2cb0288fc788.webp"
+    },
+    {
+      "story_id": "warnock-seizures-liverpool-2026-11-02",
+      "identity": "warnock-seizures-liverpool-2026-11-02",
+      "edition_id": "2026-11-02-morning",
+      "date": "2026-11-02",
+      "slot": "morning",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-02T05:27:05.529749+00:00",
+      "headline": "Γουόρνοκ: έκρυβε κρίσεις ως νεαρός στη Λίβερπουλ",
+      "finding": "Ο πρώην ποδοσφαιριστής Στίβεν Γουόρνοκ είπε στο BBC ότι απέκρυπτε κρίσεις όταν ήταν νεαρός στη Λίβερπουλ επειδή φοβόταν ότι θα τον αποδέσμευαν.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-02-morning/warnock-seizures.json",
+      "reader_url": "articles/2026-11-02-morning/warnock-seizures.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6rry8pxwkdpo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-01T20:32:44+00:00",
+          "retrieved_at": "2026-11-02T04:20:54.465331+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/2715e2e57c4c4e3a7cc1b69747d24d483ca0fcfa1c56971bd2a027316086c9b8.webp"
+    },
+    {
+      "story_id": "jack-campbell-neck-injury-2026-11-02",
+      "identity": "jack-campbell-neck-injury-2026-11-02",
+      "edition_id": "2026-11-02-morning",
+      "date": "2026-11-02",
+      "slot": "morning",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-02T05:27:05.529749+00:00",
+      "headline": "NFL: ο Τζακ Κάμπελ μεταφέρθηκε στο νοσοκομείο",
+      "finding": "Ο αμυντικός των Detroit Lions μεταφέρθηκε στο νοσοκομείο με τραυματισμό στον αυχένα μετά τον αγώνα με τους Minnesota Vikings, σύμφωνα με το BBC. Ο προπονητής είπε ότι δεν είχε νεότερες πληροφορίες.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-11-02-morning/campbell-hospital.json",
+      "reader_url": "articles/2026-11-02-morning/campbell-hospital.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/american-football/articles/ck9qz29w2p90o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-01T23:04:23+00:00",
+          "retrieved_at": "2026-11-02T04:20:55.198503+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/04f5d76679eaea31ac9bebfeb624bf3242ae0d8dcdfa0f3e870dc70686a952a4.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."

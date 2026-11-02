@@ -389,6 +389,12 @@
         "article_id": "binance-recovery",
         "date": "2026-11-01",
         "url": "articles/2026-11-01-midday/binance-recovery.html"
+      },
+      {
+        "edition_id": "2026-11-02-morning",
+        "article_id": "binance-withdrawals",
+        "date": "2026-11-02",
+        "url": "articles/2026-11-02-morning/binance-withdrawals.html"
       }
     ],
     "black-sea-bulgaria-shipping-drone-attacks-2026": [
@@ -623,6 +629,14 @@
         "article_id": "ageing-care",
         "date": "2026-10-29",
         "url": "articles/2026-10-29-morning/ageing-care.html"
+      }
+    ],
+    "cyprus-agriculture-budget-2027": [
+      {
+        "edition_id": "2026-11-02-morning",
+        "article_id": "agriculture-budget",
+        "date": "2026-11-02",
+        "url": "articles/2026-11-02-morning/agriculture-budget.html"
       }
     ],
     "cyprus-ai-employment-concerns-2026-11-01": [
@@ -1611,6 +1625,14 @@
         "url": "articles/2026-10-30-midday/dockworkers-strike.html"
       }
     ],
+    "doha-world-padel-2026-11-02": [
+      {
+        "edition_id": "2026-11-02-morning",
+        "article_id": "doha-padel",
+        "date": "2026-11-02",
+        "url": "articles/2026-11-02-morning/doha-padel.html"
+      }
+    ],
     "drc-ebola-north-ubangi-october-15-2026": [
       {
         "edition_id": "2026-10-16-morning",
@@ -2133,6 +2155,14 @@
         "url": "articles/2026-10-30-morning/gsi-interconnection.html"
       }
     ],
+    "halloumi-milk-quota-2026-11-02": [
+      {
+        "edition_id": "2026-11-02-morning",
+        "article_id": "halloumi-quota",
+        "date": "2026-11-02",
+        "url": "articles/2026-11-02-morning/halloumi-quota.html"
+      }
+    ],
     "halloumi-pdo-transition-2029": [
       {
         "edition_id": "2026-10-13-evening",
@@ -2205,6 +2235,14 @@
         "url": "articles/2026-10-23-evening/world-iran.html"
       }
     ],
+    "iran-us-war-warning-2026-11-02": [
+      {
+        "edition_id": "2026-11-02-morning",
+        "article_id": "iran-us-warning",
+        "date": "2026-11-02",
+        "url": "articles/2026-11-02-morning/iran-us-warning.html"
+      }
+    ],
     "ireland-furlong-disciplinary-2026-10-29": [
       {
         "edition_id": "2026-10-30-morning",
@@ -2273,6 +2311,22 @@
         "article_id": "israel-election",
         "date": "2026-10-30",
         "url": "articles/2026-10-30-morning/israel-election.html"
+      }
+    ],
+    "israel-election-commission-2026-11-02": [
+      {
+        "edition_id": "2026-11-02-morning",
+        "article_id": "israel-election-commission",
+        "date": "2026-11-02",
+        "url": "articles/2026-11-02-morning/israel-election-commission.html"
+      }
+    ],
+    "jack-campbell-neck-injury-2026-11-02": [
+      {
+        "edition_id": "2026-11-02-morning",
+        "article_id": "campbell-hospital",
+        "date": "2026-11-02",
+        "url": "articles/2026-11-02-morning/campbell-hospital.html"
       }
     ],
     "japan-mmx-launch-october-20-2026": [
@@ -2803,6 +2857,14 @@
         "article_id": "nvidia-allegations",
         "date": "2026-10-31",
         "url": "articles/2026-10-31-midday/nvidia-allegations.html"
+      }
+    ],
+    "okypy-strike-negotiations-2026-11-01": [
+      {
+        "edition_id": "2026-11-02-morning",
+        "article_id": "okypy-strike",
+        "date": "2026-11-02",
+        "url": "articles/2026-11-02-morning/okypy-strike.html"
       }
     ],
     "oleshky-local-ceasefire-2026-10-29": [
@@ -3369,6 +3431,14 @@
         "url": "articles/2026-10-20-midday/world-ukraine.html"
       }
     ],
+    "ukraine-russia-alert-apps-2026-11-02": [
+      {
+        "edition_id": "2026-11-02-morning",
+        "article_id": "alert-apps",
+        "date": "2026-11-02",
+        "url": "articles/2026-11-02-morning/alert-apps.html"
+      }
+    ],
     "ukraine-russia-energy-strikes-october-18-2026": [
       {
         "edition_id": "2026-10-18-midday",
@@ -3565,6 +3635,14 @@
         "url": "articles/2026-10-29-midday/wales-japan-selection.html"
       }
     ],
+    "warnock-seizures-liverpool-2026-11-02": [
+      {
+        "edition_id": "2026-11-02-morning",
+        "article_id": "warnock-seizures",
+        "date": "2026-11-02",
+        "url": "articles/2026-11-02-morning/warnock-seizures.html"
+      }
+    ],
     "west-bank-diplomats-attack-october-17-2026": [
       {
         "edition_id": "2026-10-18-morning",
@@ -3612,7 +3690,8 @@
   },
   "aliases": {
     "2026-10-13-world-3": "riyadh-airport-disruption",
-    "cyprus-leaders-oct13": "2026-10-13-lead"
+    "cyprus-leaders-oct13": "2026-10-13-lead",
+    "binance-withdrawals-2026-11-02": "binance-loss-coverage-2026-11-01"
   },
   "identities": {
     "2026-10-13-cyprus-1": "2026-10-13-cyprus-1",
@@ -3643,6 +3722,7 @@
     "cyprus-abramovich-assets-investigation-2026-10-21": "cyprus-abramovich-assets-investigation-2026-10-21",
     "cyprus-administrative-courts-judges-2026-10-29": "cyprus-administrative-courts-judges-2026-10-29",
     "cyprus-ageing-care-who-2026-10-29": "cyprus-ageing-care-who-2026-10-29",
+    "cyprus-agriculture-budget-2027": "cyprus-agriculture-budget-2027",
     "cyprus-ai-employment-concerns-2026-11-01": "cyprus-ai-employment-concerns-2026-11-01",
     "cyprus-antiquities-budget-2027-2026-10-30": "cyprus-antiquities-budget-2027-2026-10-30",
     "cyprus-concession-receipts-october-16-2026": "cyprus-concession-receipts-october-16-2026",
@@ -3700,6 +3780,7 @@
     "digital-citizen-expiry-alerts-2026-10-26": "digital-citizen-expiry-alerts-2026-10-26",
     "disy-georgiades-campaign-refusal-2026-10-27": "disy-georgiades-campaign-refusal-2026-10-27",
     "dockworkers-gaza-strike-2026-10-30": "dockworkers-gaza-strike-2026-10-30",
+    "doha-world-padel-2026-11-02": "doha-world-padel-2026-11-02",
     "drc-ebola-north-ubangi-october-15-2026": "drc-ebola-north-ubangi-october-15-2026",
     "dundee-united-midfield-assessment-2026-10-29": "dundee-united-midfield-assessment-2026-10-29",
     "ebola-outbreak-kenya-2026-10": "ebola-outbreak-kenya-2026-10",
@@ -3734,12 +3815,16 @@
     "greece-egypt-eez-eastward-cyprus-2026-10-22": "greece-egypt-eez-eastward-cyprus-2026-10-22",
     "greece-pelion-skiathos-floods-2026-10-28": "greece-pelion-skiathos-floods-2026-10-28",
     "gsi-eu-cyprus-greece-2026-10-29": "gsi-eu-cyprus-greece-2026-10-29",
+    "halloumi-milk-quota-2026-11-02": "halloumi-milk-quota-2026-11-02",
     "holguin-cyprus-visit-2026-10-29": "holguin-cyprus-visit-2026-10-29",
     "iran-npt-withdrawal-calls-2026-10-31": "iran-npt-withdrawal-calls-2026-10-31",
     "iran-qatar-draft-deal-2026-10-28": "iran-qatar-draft-deal-2026-10-28",
     "iran-us-talks-strategy-october-20-2026": "iran-us-talks-strategy-october-20-2026",
+    "iran-us-war-warning-2026-11-02": "iran-us-war-warning-2026-11-02",
     "ireland-furlong-disciplinary-2026-10-29": "ireland-furlong-disciplinary-2026-10-29",
     "israel-election-2026-10-27": "israel-election-2026-10-27",
+    "israel-election-commission-2026-11-02": "israel-election-commission-2026-11-02",
+    "jack-campbell-neck-injury-2026-11-02": "jack-campbell-neck-injury-2026-11-02",
     "japan-mmx-launch-october-20-2026": "japan-mmx-launch-october-20-2026",
     "jordan-church-west-bank-attacks-2026-10-23": "jordan-church-west-bank-attacks-2026-10-23",
     "kalogeropoulos-murder-life-sentences-2026-10-23": "kalogeropoulos-murder-life-sentences-2026-10-23",
@@ -3772,6 +3857,7 @@
     "middle-east-oil-saudi-escalation-2026-10-22": "middle-east-oil-saudi-escalation-2026-10-22",
     "nato-palantir-maven-control-2026-10-22": "nato-palantir-maven-control-2026-10-22",
     "nvidia-espionage-allegations-response-2026-10-30": "nvidia-espionage-allegations-response-2026-10-30",
+    "okypy-strike-negotiations-2026-11-01": "okypy-strike-negotiations-2026-11-01",
     "oleshky-local-ceasefire-2026-10-29": "oleshky-local-ceasefire-2026-10-29",
     "palmas-greece-israel-defence-2026-10-27": "palmas-greece-israel-defence-2026-10-27",
     "paphos-child-hotel-fall-sentencing-october-16-2026": "paphos-child-hotel-fall-sentencing-october-16-2026",
@@ -3803,6 +3889,7 @@
     "ukraine-civilian-strikes-october-16-2026": "ukraine-civilian-strikes-october-16-2026",
     "ukraine-eu-loan-frozen-assets-energy-grid-october-2026": "ukraine-eu-loan-frozen-assets-energy-grid-october-2026",
     "ukraine-october-20-strikes-oslo-diplomacy": "ukraine-october-20-strikes-oslo-diplomacy",
+    "ukraine-russia-alert-apps-2026-11-02": "ukraine-russia-alert-apps-2026-11-02",
     "ukraine-russia-energy-strikes-october-18-2026": "ukraine-russia-energy-strikes-october-18-2026",
     "ukraine-russia-strikes-after-us-talks-2026-10-22": "ukraine-russia-strikes-after-us-talks-2026-10-22",
     "ukraine-starlink-starshield-speed-restoration-2026-10-24": "ukraine-starlink-starshield-speed-restoration-2026-10-24",
@@ -3814,6 +3901,7 @@
     "varosha-un-eu-proposal-2026-10-26": "varosha-un-eu-proposal-2026-10-26",
     "wales-japan-wxv-result-2026-10-31": "wales-japan-wxv-result-2026-10-31",
     "wales-japan-wxv-selection-2026-10-29": "wales-japan-wxv-selection-2026-10-29",
+    "warnock-seizures-liverpool-2026-11-02": "warnock-seizures-liverpool-2026-11-02",
     "west-bank-diplomats-attack-october-17-2026": "west-bank-diplomats-attack-october-17-2026",
     "west-bank-olive-harvest-attacks-october-16-2026": "west-bank-olive-harvest-attacks-october-16-2026",
     "yemen-shabwa-training-camp-attack-october-19-2026": "yemen-shabwa-training-camp-attack-october-19-2026"
