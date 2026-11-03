@@ -441,6 +441,14 @@
       "published_at": "2026-11-02T05:27:05.529749+00:00",
       "url": "morning/2026-11-02.html",
       "fingerprint": "c9d326acf0e7649acb9ec30b27557cb9318c83e6a5111a8081c42b3b828e3fb8"
+    },
+    {
+      "id": "2026-11-03-morning",
+      "date": "2026-11-03",
+      "type": "morning",
+      "published_at": "2026-11-03T05:36:26.687782+00:00",
+      "url": "morning/2026-11-03.html",
+      "fingerprint": "1333eab01f326fd6c4e7f81ce7f70015e0885d25407a672a1208246f1d4c0b98"
     }
   ],
   "stories": [
@@ -15609,6 +15617,311 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/04f5d76679eaea31ac9bebfeb624bf3242ae0d8dcdfa0f3e870dc70686a952a4.webp"
+    },
+    {
+      "story_id": "qeshm-explosions-2026-11-03",
+      "identity": "qeshm-explosions-2026-11-03",
+      "edition_id": "2026-11-03-morning",
+      "date": "2026-11-03",
+      "slot": "morning",
+      "published_at": "2026-11-03T05:36:26.687782+00:00",
+      "available_at": "2026-11-03T05:36:26.687782+00:00",
+      "headline": "Αναφορές για εκρήξεις στην Κεσμ, ενώ η Τεχεράνη μιλά για συνεχιζόμενες επαφές",
+      "finding": "Το Al Jazeera μεταδίδει αναφορές ιρανικών μέσων για διαδοχικές εκρήξεις αργά τη Δευτέρα στην Κεσμ και στο Μπαντάρ Λενγκέχ. Αμερικανικά μέσα αποδίδουν τα πλήγματα στον αμερικανικό στρατό, επικαλούμενα αξιωματούχους που τα χαρακτήρισαν αμυντικά. Ξεχωριστά, το Cyprus Mail ανέφερε τη Δευτέρα ότι η Τεχεράνη δήλωνε συνέχιση των επαφών με τις ΗΠΑ μέσω μεσολαβητών, χωρίς ανακοινωμένη διπλωματική διέξοδο.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-03-morning/qeshm-explosions.json",
+      "reader_url": "articles/2026-11-03-morning/qeshm-explosions.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-03T02:25:02+00:00",
+          "retrieved_at": "2026-11-03T04:21:08.835822+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://cyprus-mail.com/2026/11/02/iran-contacts-over-ending-war-continue-after-talks-finish-with-no-breakthrough",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-02T20:37:40+00:00",
+          "retrieved_at": "2026-11-03T04:21:09.774080+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/1f40b7e2f5fb28904dbafafaf1b30f67803af920e83409c391e96286f8087cdd.webp"
+    },
+    {
+      "story_id": "ukraine-russia-alert-apps-2026-11-02",
+      "identity": "ukraine-russia-alert-apps-2026-11-02",
+      "edition_id": "2026-11-03-morning",
+      "date": "2026-11-03",
+      "slot": "morning",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-03T05:36:26.687782+00:00",
+      "headline": "Ουκρανία: το BBC καταγράφει την αναστάτωση από τις ψευδείς ειδοποιήσεις",
+      "finding": "Το BBC περιγράφει τις ψευδείς ειδοποιήσεις της Κυριακής το βράδυ για πυρηνικά πλήγματα, χημικές επιθέσεις και μάχες στους δρόμους. Αναφέρει ότι η ουκρανική αεροπορία διευκρίνισε μέσα σε 15 λεπτά πως η εφαρμογή είχε παραβιαστεί και δεν υπήρχε απειλή ακτινοβολίας, αλλά τα μηνύματα λήξης συναγερμού χρειάστηκαν περισσότερο από μία ώρα. Πρόκειται για το ήδη γνωστό περιστατικό, όχι νέα επίθεση σήμερα.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-03-morning/ukraine-alert-app.json",
+      "reader_url": "articles/2026-11-03-morning/ukraine-alert-app.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-02T18:34:24+00:00",
+          "retrieved_at": "2026-11-03T04:21:09.217706+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/500842ffcf693eca142793cd4af614ac998bcf91bc465058788a83afcaaaf5d4.webp"
+    },
+    {
+      "story_id": "us-midterms-asia-pacific-2026-11-03",
+      "identity": "us-midterms-asia-pacific-2026-11-03",
+      "edition_id": "2026-11-03-morning",
+      "date": "2026-11-03",
+      "slot": "morning",
+      "published_at": "2026-11-03T05:36:26.687782+00:00",
+      "available_at": "2026-11-03T05:36:26.687782+00:00",
+      "headline": "Ασία–Ειρηνικός: οι αμερικανικές εκλογές υπό το βάρος δασμών και ενεργειακού κόστους",
+      "finding": "Ρεπορτάζ του Al Jazeera από την Κουάλα Λουμπούρ περιγράφει κυβερνήσεις και επιχειρήσεις της περιοχής να παρακολουθούν τις ενδιάμεσες αμερικανικές εκλογές της Τρίτης. Το ενδιαφέρον συνδέεται με τους δασμούς και την ενεργειακή πίεση από τον πόλεμο με το Ιράν. Το απόσπασμα δεν παρέχει ποσοτικές προβλέψεις ούτε τεκμηριώνει ότι κάποιο εκλογικό αποτέλεσμα θα μεταβάλει αυτόματα την αμερικανική εξωτερική πολιτική.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-03-morning/us-midterms-asia-pacific.json",
+      "reader_url": "articles/2026-11-03-morning/us-midterms-asia-pacific.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-02T23:41:18+00:00",
+          "retrieved_at": "2026-11-03T04:21:08.850354+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/948edf2a247d426b5b5b3c440aa11ede96134684de101863deee2ffb162e2ec4.webp"
+    },
+    {
+      "story_id": "plaka-explosion-remand-2026-11-02",
+      "identity": "plaka-explosion-remand-2026-11-02",
+      "edition_id": "2026-11-03-morning",
+      "date": "2026-11-03",
+      "slot": "morning",
+      "published_at": "2026-11-03T05:36:26.687782+00:00",
+      "available_at": "2026-11-03T05:36:26.687782+00:00",
+      "headline": "Αθήνα: προφυλάκιση τριών κατηγορουμένων για την έκρηξη στην Πλάκα",
+      "finding": "Το Sigmalive αναφέρει ότι προφυλακίζονται τρεις κατηγορούμενοι για την έκρηξη της 25ης Σεπτεμβρίου στην οδό Λυσικράτους, με έξι νεκρούς. Κατά πληροφορίες του δημοσιεύματος, αποδέχονται διάρρηξη για κλοπή χάλκινων σωλήνων, αλλά επιχειρούν να αποσυνδέσουν την πράξη από το θανατηφόρο αποτέλεσμα. Η προφυλάκιση αποτελεί δικονομική εξέλιξη, όχι καταδίκη· η υπόθεση αφορά την Ελλάδα, όχι την Κύπρο.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-03-morning/plaka-remand.json",
+      "reader_url": "articles/2026-11-03-morning/plaka-remand.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/greece/1335928/profilakisteoi-oi-katighoroumenoi-ghia-tin-ekriksi-stin-plaka",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-02T20:54:40+00:00",
+          "retrieved_at": "2026-11-03T04:21:09.265178+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f0352a00118602a3d5280becbe064d65930b55522acdee41689a72ba7593c0e8.webp"
+    },
+    {
+      "story_id": "cyprus-contributions-refund-2026-11-03",
+      "identity": "cyprus-contributions-refund-2026-11-03",
+      "edition_id": "2026-11-03-morning",
+      "date": "2026-11-03",
+      "slot": "morning",
+      "published_at": "2026-11-03T05:36:26.687782+00:00",
+      "available_at": "2026-11-03T05:36:26.687782+00:00",
+      "headline": "Εισφορές υπαλλήλων: επιστροφές μετά από δικαστική απόφαση",
+      "finding": "Το Philenews αναφέρει επιστροφές περιοδικών εισφορών σε άγαμους και άτεκνους υπαλλήλους μετά από δικαστική απόφαση. Εκπρόσωπος του Γενικού Λογιστηρίου δήλωσε ότι οι 25 που κέρδισαν τη δικαστική μάχη έλαβαν εισφορές και τόκους. Άλλοι 200, που διεκδίκησαν έγκαιρα τις εισφορές τους μετά την απόφαση, αναμένεται να λάβουν συνολικά περίπου €5 εκατ., σύμφωνα με το δημοσίευμα.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-03-morning/contributions-refund.json",
+      "reader_url": "articles/2026-11-03-morning/contributions-refund.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1790133/to-kratos-epistrefi-e5-ekat-se-agamous-ke-ateknous-ipallilous-dikastiki-apofasi-allazi-ta-dedomena",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-03T04:11:00+00:00",
+          "retrieved_at": "2026-11-03T04:21:09.620368+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/2bb3959a35537f77fb3e128f376a8a7f60f0543066aeb13ff9614eb93709162c.webp"
+    },
+    {
+      "story_id": "cyprus-fuel-receipts-proposal-2026-11-03",
+      "identity": "cyprus-fuel-receipts-proposal-2026-11-03",
+      "edition_id": "2026-11-03-morning",
+      "date": "2026-11-03",
+      "slot": "morning",
+      "published_at": "2026-11-03T05:36:26.687782+00:00",
+      "available_at": "2026-11-03T05:36:26.687782+00:00",
+      "headline": "Καύσιμα: πρόταση για περισσότερη διαφάνεια στις αποδείξεις",
+      "finding": "Ο βουλευτής Νίκος Γεωργίου εισηγείται αλλαγή της νομοθεσίας για τις αποδείξεις λιανικής καυσίμων, σύμφωνα με το Philenews. Επαγγελματίες του κλάδου ζητούν να εμφανίζονται και τα ποσά που αναλογούν σε εταιρείες και πρατήρια, πέρα από τη φορολογία. Πρόκειται για πρόταση και θέσεις του κλάδου· το απόσπασμα δεν τεκμηριώνει ψήφιση, ημερομηνία εφαρμογής ή υποχρεωτική νέα μορφή απόδειξης.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-03-morning/fuel-receipts.json",
+      "reader_url": "articles/2026-11-03-morning/fuel-receipts.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1790114/diafania-alla-posi-stis-apodixis-kafsimon-i-pratiriouchi-zitoun-na-fenonte-ke-ta-esoda-eterion-ke-pratirion",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-03T04:07:00+00:00",
+          "retrieved_at": "2026-11-03T04:21:09.556357+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/d4087b1151ed0c86f68f40d7dc5fd7f26789ac96a2db5b88c452638b44f99ce8.webp"
+    },
+    {
+      "story_id": "limassol-child-abuse-appeal-2026-11-02",
+      "identity": "limassol-child-abuse-appeal-2026-11-02",
+      "edition_id": "2026-11-03-morning",
+      "date": "2026-11-03",
+      "slot": "morning",
+      "published_at": "2026-11-03T05:36:26.687782+00:00",
+      "available_at": "2026-11-03T05:36:26.687782+00:00",
+      "headline": "Εφετείο: διατήρηση ποινών σε υπόθεση σεξουαλικής κακοποίησης παιδιού",
+      "finding": "Το Εφετείο διατήρησε ποινές επτά και τεσσάρων ετών που επιβλήθηκαν σε άνδρα για σεξουαλική κακοποίηση δεκάχρονου παιδιού στη Λεμεσό, σύμφωνα με το Cyprus Mail. Αν και χαρακτήρισε την ποινή ιδιαίτερα επιεική, έκρινε ότι παρέμενε εντός του επιτρεπόμενου πλαισίου και δεν δικαιολογούσε παρέμβαση. Το απόσπασμα δεν διευκρινίζει αν οι ποινές εκτίονται ταυτόχρονα, επομένως δεν αθροίζονται.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-03-morning/appeal-sentence.json",
+      "reader_url": "articles/2026-11-03-morning/appeal-sentence.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/02/appeal-court-upholds-lenient-sentence-for-sexual-abuse-of-10-year-old",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-02T19:34:31+00:00",
+          "retrieved_at": "2026-11-03T04:21:09.756997+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/99e11f0d486b2db52ad33f5f3bd1a91f3cf3ebbe8fa793433913f5088ff20902.webp"
+    },
+    {
+      "story_id": "cyprus-tourism-eight-month-revenue-2026-11-03",
+      "identity": "cyprus-tourism-eight-month-revenue-2026-11-03",
+      "edition_id": "2026-11-03-morning",
+      "date": "2026-11-03",
+      "slot": "morning",
+      "published_at": "2026-11-03T05:36:26.687782+00:00",
+      "available_at": "2026-11-03T05:36:26.687782+00:00",
+      "headline": "Τουρισμός: έσοδα €2,32 δισ. στο οκτάμηνο, μειωμένα κατά 6,2%",
+      "finding": "Το Cyprus Mail αναφέρει τουριστικά έσοδα €2,32 δισ. για την Κύπρο στους πρώτους οκτώ μήνες του 2026, μειωμένα κατά 6,2% από €2,47 δισ. Το δημοσίευμα σημειώνει ότι η ανάκαμψη των αφίξεων δεν έχει ακόμη αντιστρέψει τη μείωση εσόδων. Η σύγκριση αφορά συγκεκριμένη περίοδο και δεν αποτελεί τελικό ετήσιο αποτέλεσμα ή απόδειξη ότι όλη η μεταβολή προήλθε από έναν παράγοντα.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-11-03-morning/tourism-revenue.json",
+      "reader_url": "articles/2026-11-03-morning/tourism-revenue.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/03/geopolitical-turmoil-highlights-contrasting-fates-of-cyprus-and-greece-tourism-sectors",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-03T04:00:00+00:00",
+          "retrieved_at": "2026-11-03T04:21:10.380038+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/44b581d456fca1c3097d9cc6c47b051d651221ca965cedeb1d84adbd10256dbe.webp"
+    },
+    {
+      "story_id": "doha-world-padel-2026-11-02",
+      "identity": "doha-world-padel-2026-11-02",
+      "edition_id": "2026-11-03-morning",
+      "date": "2026-11-03",
+      "slot": "morning",
+      "published_at": "2026-11-02T05:27:05.529749+00:00",
+      "available_at": "2026-11-03T05:36:26.687782+00:00",
+      "headline": "Padel: δεύτερη ημέρα ομίλων στη Ντόχα",
+      "finding": "Το Παγκόσμιο Πρωτάθλημα συνεχίζεται την Τρίτη 3 Νοεμβρίου με τη δεύτερη αγωνιστική ομίλων, σύμφωνα με το Padel Addict. Ισπανία και Αργεντινή επιστρέφουν στη δράση μετά την πρεμιέρα.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-03-morning/padel-second-day.json",
+      "reader_url": "articles/2026-11-03-morning/padel-second-day.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/segunda-jornada-mundial-padel-2026-partidos-horarios-retransmision",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-02T23:44:04+00:00",
+          "retrieved_at": "2026-11-03T04:21:16.323526+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0d005b3acb5cf79fbcee9c0935909d82347f55468b3407244f02511c20d714c3.webp"
+    },
+    {
+      "story_id": "newcastle-home-form-2026-11-03",
+      "identity": "newcastle-home-form-2026-11-03",
+      "edition_id": "2026-11-03-morning",
+      "date": "2026-11-03",
+      "slot": "morning",
+      "published_at": "2026-11-03T05:36:26.687782+00:00",
+      "available_at": "2026-11-03T05:36:26.687782+00:00",
+      "headline": "Νιούκαστλ: επίμονη δυσκολία εντός έδρας",
+      "finding": "Το BBC αναφέρει επτά εντός έδρας ήττες πρωταθλήματος για τη Νιούκαστλ μέσα στο 2026 και 16 ήττες στα τελευταία 18 παιχνίδια όπου δέχθηκε πρώτη γκολ.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-11-03-morning/newcastle-home-form.json",
+      "reader_url": "articles/2026-11-03-morning/newcastle-home-form.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/cmly05n114gjo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-02T23:53:46+00:00",
+          "retrieved_at": "2026-11-03T04:21:18.050897+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5b6bc21e50fcc38eb1762f0585df35bf58cd7b3a60b506a29cd2164ccfcbf30f.webp"
+    },
+    {
+      "story_id": "jack-campbell-neck-injury-2026-11-02",
+      "identity": "jack-campbell-neck-injury-2026-11-02",
+      "edition_id": "2026-11-03-morning",
+      "date": "2026-11-03",
+      "slot": "morning",
+      "published_at": "2026-11-03T05:36:26.687782+00:00",
+      "available_at": "2026-11-03T05:36:26.687782+00:00",
+      "headline": "NFL: θετικές πρώτες ενδείξεις για τον Κάμπελ, παραμένει στο νοσοκομείο",
+      "finding": "Ο Τζακ Κάμπελ συνεχίζει να νοσηλεύεται μετά τον τραυματισμό στον αυχένα, σύμφωνα με το BBC που μεταφέρει ανακοίνωση των Lions. Οι πρώτες ενδείξεις για την ανάρρωσή του χαρακτηρίζονται θετικές.",
+      "section": "sports",
+      "priority": 11,
+      "article_path": "articles/2026-11-03-morning/campbell-recovery.json",
+      "reader_url": "articles/2026-11-03-morning/campbell-recovery.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/american-football/articles/ck9qz90z951po?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-02T21:45:33+00:00",
+          "retrieved_at": "2026-11-03T04:21:18.705596+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/73704abb9d0148bfa66c311923d1efc09305629b6867ed37638a97c021bf9836.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
