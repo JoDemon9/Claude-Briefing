@@ -443,6 +443,14 @@
       "fingerprint": "c9d326acf0e7649acb9ec30b27557cb9318c83e6a5111a8081c42b3b828e3fb8"
     },
     {
+      "id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "type": "evening",
+      "published_at": "2026-11-03T17:36:28.934079+00:00",
+      "url": "evening/2026-11-03.html",
+      "fingerprint": "479bcc4aa4e0d62197e75ab3121b1d07ad31f02cb26195f0e35d8b5ae55fef3b"
+    },
+    {
       "id": "2026-11-03-midday",
       "date": "2026-11-03",
       "type": "midday",
@@ -15625,6 +15633,373 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/04f5d76679eaea31ac9bebfeb624bf3242ae0d8dcdfa0f3e870dc70686a952a4.webp"
+    },
+    {
+      "story_id": "us-midterms-congress-voting-2026-11-03",
+      "identity": "us-midterms-congress-voting-2026-11-03",
+      "edition_id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "slot": "evening",
+      "published_at": "2026-11-03T17:36:28.934079+00:00",
+      "available_at": "2026-11-03T17:36:28.934079+00:00",
+      "headline": "ΗΠΑ: η ψηφοφορία κρίνει τον έλεγχο του Κογκρέσου",
+      "finding": "Οι ενδιάμεσες εκλογές της Τρίτης καθορίζουν ποιο κόμμα θα ελέγχει το Κογκρέσο για τα δύο τελευταία χρόνια της δεύτερης θητείας Τραμπ, σύμφωνα με τον Guardian. Η κάλυψη του Al Jazeera καταγράφει επίσης την προσέλευση στις κάλπες. Τα διαθέσιμα αποσπάσματα δεν δίνουν αποτελέσματα ή νικητή. Οι αναμετρήσεις κυβερνητών και πολιτειακών σωμάτων αφορούν ξεχωριστά την άσκηση πολιτικής στις πολιτείες.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-03-evening/us-congress-voting.json",
+      "reader_url": "articles/2026-11-03-evening/us-congress-voting.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-03T16:18:00+00:00",
+          "retrieved_at": "2026-11-03T16:21:00.573750+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.aljazeera.com/gallery/2026/11/3/in-pictures-us-midterm-elections-in-20-photos?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-03T15:46:57+00:00",
+          "retrieved_at": "2026-11-03T16:20:59.809328+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/54164400ec3675b2d99b375c5ff44a1f565cb23b9a0e659c603a495f16b0dd51.webp"
+    },
+    {
+      "story_id": "europe-supermarket-refrigeration-cyberattack-2026-11-03",
+      "identity": "europe-supermarket-refrigeration-cyberattack-2026-11-03",
+      "edition_id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "slot": "evening",
+      "published_at": "2026-11-03T17:36:28.934079+00:00",
+      "available_at": "2026-11-03T17:36:28.934079+00:00",
+      "headline": "Ευρώπη: αναφορά για κυβερνοεπίθεση σε συνδεδεμένα ψυγεία καταστημάτων",
+      "finding": "Το Al Jazeera αναφέρει ότι κυβερνοεπίθεση αύξησε τη θερμοκρασία συνδεδεμένων ψυγείων και καταψυκτών σε ευρωπαϊκά σουπερμάρκετ. Σύμφωνα με το δημοσίευμα, επηρεάστηκαν πάνω από 100 καταστήματα τη Δευτέρα, με αλλοίωση τροφίμων, ενώ παρόμοια περιστατικά είχαν καταγραφεί τον προηγούμενο μήνα στη Γαλλία. Η πηγή δηλώνει ότι δεν είναι σαφής ο δράστης· το απόσπασμα δεν δίνει ανεξάρτητο τεχνικό έλεγχο ή συγκεκριμένο ευάλωτο προϊόν.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-03-evening/supermarket-refrigeration.json",
+      "reader_url": "articles/2026-11-03-evening/supermarket-refrigeration.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/3/very-cold-war-whos-attacking-europes-supermarket-freezers?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-03T14:17:29+00:00",
+          "retrieved_at": "2026-11-03T16:20:59.834973+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5d4061332544976678a7647cf23dd49653d0a68824cb977d6c61803aeca0b7da.webp"
+    },
+    {
+      "story_id": "christodoulides-holguin-meeting-2026-11-03",
+      "identity": "christodoulides-holguin-meeting-2026-11-03",
+      "edition_id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "slot": "evening",
+      "published_at": "2026-11-03T17:36:28.934079+00:00",
+      "available_at": "2026-11-03T17:36:28.934079+00:00",
+      "headline": "Χριστοδουλίδης–Ολγκίν: δυσαρέσκεια και επαφές ενόψει 9 Νοεμβρίου",
+      "finding": "Ο Πρόεδρος Νίκος Χριστοδουλίδης εξέφρασε στην απεσταλμένη του ΟΗΕ Μαρία Άνχελα Ολγκίν έντονη δυσαρέσκεια για τη συνάντησή της με τον Τούρκο πρέσβη στα κατεχόμενα, σύμφωνα με το Cyprus Mail. Ο Κωνσταντίνος Λετυμπιώτης δήλωσε ότι οι επαφές της συνεχίζονται και οι πλευρές κινούνται προς κοινή συνάντηση στις 9 Νοεμβρίου. Η σημερινή συνάντηση διήρκεσε περίπου μισή ώρα και έγινε κατόπιν αιτήματός της.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-03-evening/holguin-meeting.json",
+      "reader_url": "articles/2026-11-03-evening/holguin-meeting.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/03/christodoulides-strongly-dissatisfied-with-holguin-over-meeting-with-turkish-envoy",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-03T16:15:54+00:00",
+          "retrieved_at": "2026-11-03T16:21:02.322892+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/4b18aaf07f98e4e45bdb14fe89cc079882cb7b73f43b7afc1ce422d6425916cc.webp"
+    },
+    {
+      "story_id": "cyprus-ai-framework-2026-11-03",
+      "identity": "cyprus-ai-framework-2026-11-03",
+      "edition_id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "slot": "evening",
+      "published_at": "2026-11-03T17:36:28.934079+00:00",
+      "available_at": "2026-11-03T17:36:28.934079+00:00",
+      "headline": "Κεραυνός: κοντά στην ολοκλήρωση το εθνικό πλαίσιο για την ΤΝ",
+      "finding": "Ο υπουργός Οικονομικών δήλωσε ότι ολοκληρώνεται το εθνικό νομοθετικό πλαίσιο εφαρμογής του ευρωπαϊκού Κανονισμού Τεχνητής Νοημοσύνης και αναμένεται σχετική τεχνοοικονομική μελέτη εντός ημερών, σύμφωνα με το Philenews. Μίλησε στις 3 Νοεμβρίου στο Πανεπιστήμιο Κύπρου για την ΤΝ στην οικονομική πολιτική. Το ορατό απόσπασμα δεν τεκμηριώνει ψήφιση, ημερομηνία ισχύος ή ήδη ενεργό σύστημα φορολογικών ελέγχων.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-03-evening/ai-framework.json",
+      "reader_url": "articles/2026-11-03-evening/ai-framework.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1790481/keravnos-oloklironete-to-plesio-gia-tin-techniti-noimosini-forologiki-elegchi-dapanes-ke-dimosio-sto-epikentro",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-03T16:07:00+00:00",
+          "retrieved_at": "2026-11-03T16:21:01.346285+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a50748160a7fd1a86dc4766c30d8cf4dde4e9461a070d4d1aaf817eee1ac2059.webp"
+    },
+    {
+      "story_id": "uae-padel-nationalised-players-2026-11-03",
+      "identity": "uae-padel-nationalised-players-2026-11-03",
+      "edition_id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "slot": "evening",
+      "published_at": "2026-11-03T17:36:28.934079+00:00",
+      "available_at": "2026-11-03T17:36:28.934079+00:00",
+      "headline": "Padel: πέντε απουσίες πολιτογραφημένων παικτών για τα Εμιράτα",
+      "finding": "Το Padel Addict αναφέρει πέντε απουσίες Ισπανών παικτών που πολιτογραφήθηκαν στα Εμιράτα, διευκρινίζοντας ότι δεν οφείλονται σε τραυματισμούς.",
+      "section": "sports",
+      "priority": 5,
+      "article_path": "articles/2026-11-03-evening/uae-padel-eligibility.json",
+      "reader_url": "articles/2026-11-03-evening/uae-padel-eligibility.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/nacionalizados-emiratos-mundial-padel-norma-fip",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-03T09:47:52+00:00",
+          "retrieved_at": "2026-11-03T16:21:07.425876+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/fdf5d27261c1adcc3c05fc34ce8e5ddb7306145d163e6dc6a6e0aa71b960c58e.webp"
+    },
+    {
+      "story_id": "lebanon-public-institutions-power-2026-11-03",
+      "identity": "lebanon-public-institutions-power-2026-11-03",
+      "edition_id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "slot": "evening",
+      "published_at": "2026-11-03T11:32:51.655692+00:00",
+      "available_at": "2026-11-03T17:36:28.934079+00:00",
+      "headline": "Λίβανος: διακοπές ηλεκτροδότησης σε δημόσιους φορείς με οφειλές",
+      "finding": "Το Al Jazeera αναφέρει, επικαλούμενο τοπικά μέσα, ότι το Υπουργείο Ενέργειας και Υδάτων άρχισε να διακόπτει την ηλεκτροδότηση περίπου 100 δημόσιων οργανισμών με ανεξόφλητους λογαριασμούς. Το ρεπορτάζ τοποθετεί την εξέλιξη στη μακροχρόνια κρίση του ηλεκτρικού συστήματος, με έντονη υποχώρηση κρατικής παροχής μετά την οικονομική και τραπεζική κρίση του 2019. Δεν παρατίθεται πλήρης κατάλογος των επηρεαζόμενων υπηρεσιών.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-03-evening/lebanon-power-cuts.json",
+      "reader_url": "articles/2026-11-03-evening/lebanon-power-cuts.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/3/lebanon-cuts-power-to-public-bodies-as-electricity-crisis-deepens?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-03T10:17:27+00:00",
+          "retrieved_at": "2026-11-03T10:43:49.526267+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/54de2586fd97937d271d6a54ae9e867ec93fb931b9a3f8befc666b16efb27bc3.webp"
+    },
+    {
+      "story_id": "czech-public-media-strike-2026-11-03",
+      "identity": "czech-public-media-strike-2026-11-03",
+      "edition_id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "slot": "evening",
+      "published_at": "2026-11-03T11:32:51.655692+00:00",
+      "available_at": "2026-11-03T17:36:28.934079+00:00",
+      "headline": "Τσεχία: μονοήμερη απεργία στα δημόσια μέσα για τη χρηματοδότηση",
+      "finding": "Εργαζόμενοι της δημόσιας τηλεόρασης και ραδιοφωνίας άρχισαν την Τρίτη μονοήμερη απεργία κατά κυβερνητικού σχεδίου μείωσης χρηματοδότησης και μεταφοράς της στον κρατικό προϋπολογισμό, σύμφωνα με το Cyprus Mail. Η απεργιακή επιτροπή υποστηρίζει ότι το σχέδιο θα επέτρεπε πολιτική επιρροή στο περιεχόμενο. Πρόκειται για εκτίμηση των εργαζομένων σχετικά με προτεινόμενο μέτρο, όχι διαπίστωση ότι έχει ήδη εφαρμοστεί.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-03-evening/czech-public-media.json",
+      "reader_url": "articles/2026-11-03-evening/czech-public-media.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/03/czech-public-media-launch-strike-accusing-government-of-political-meddling",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-03T09:52:32+00:00",
+          "retrieved_at": "2026-11-03T10:43:51.207683+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "qeshm-explosions-2026-11-03",
+      "identity": "qeshm-explosions-2026-11-03",
+      "edition_id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "slot": "evening",
+      "published_at": "2026-11-03T05:36:26.687782+00:00",
+      "available_at": "2026-11-03T17:36:28.934079+00:00",
+      "headline": "Αναφορές για εκρήξεις στην Κεσμ, ενώ η Τεχεράνη μιλά για συνεχιζόμενες επαφές",
+      "finding": "Το Al Jazeera μεταδίδει αναφορές ιρανικών μέσων για διαδοχικές εκρήξεις αργά τη Δευτέρα στην Κεσμ και στο Μπαντάρ Λενγκέχ. Αμερικανικά μέσα αποδίδουν τα πλήγματα στον αμερικανικό στρατό, επικαλούμενα αξιωματούχους που τα χαρακτήρισαν αμυντικά. Ξεχωριστά, το Cyprus Mail ανέφερε τη Δευτέρα ότι η Τεχεράνη δήλωνε συνέχιση των επαφών με τις ΗΠΑ μέσω μεσολαβητών, χωρίς ανακοινωμένη διπλωματική διέξοδο.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-03-evening/qeshm-explosions.json",
+      "reader_url": "articles/2026-11-03-evening/qeshm-explosions.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-03T02:25:02+00:00",
+          "retrieved_at": "2026-11-03T04:21:08.835822+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://cyprus-mail.com/2026/11/02/iran-contacts-over-ending-war-continue-after-talks-finish-with-no-breakthrough",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-02T20:37:40+00:00",
+          "retrieved_at": "2026-11-03T04:21:09.774080+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/1f40b7e2f5fb28904dbafafaf1b30f67803af920e83409c391e96286f8087cdd.webp"
+    },
+    {
+      "story_id": "cyprus-general-government-surplus-nine-months-2026-11-03",
+      "identity": "cyprus-general-government-surplus-nine-months-2026-11-03",
+      "edition_id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "slot": "evening",
+      "published_at": "2026-11-03T11:32:51.655692+00:00",
+      "available_at": "2026-11-03T17:36:28.934079+00:00",
+      "headline": "Προκαταρκτικό πλεόνασμα €1,61 δισ. στο εννεάμηνο",
+      "finding": "Το πλεόνασμα της Γενικής Κυβέρνησης έφτασε τα €1.609,7 εκατ., ή 4% του ΑΕΠ, τον Ιανουάριο–Σεπτέμβριο 2026, σύμφωνα με προκαταρκτικά στοιχεία της Στατιστικής Υπηρεσίας που μεταδίδει το Philenews. Ήταν αυξημένο κατά €442,1 εκατ. από την αντίστοιχη περίοδο του 2025. Τα έσοδα αυξήθηκαν 6,5%, στα €12.091,8 εκατ., ενώ οι δαπάνες αυξήθηκαν 2,9%, στα €10.482,1 εκατ.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-03-evening/government-surplus.json",
+      "reader_url": "articles/2026-11-03-evening/government-surplus.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1790348/pleonasma-e161-dis-sto-enneamino-afxanonte-ta-forologika-esoda-miononte-i-kratikes-ependisis",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-03T10:43:13+00:00",
+          "retrieved_at": "2026-11-03T10:43:50.071177+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a618d887f9925d679fd03029a8fe77f93d7638d711ac29fbfcbf46fa8dde932d.webp"
+    },
+    {
+      "story_id": "cse-epilektos-warning-2026-11-04",
+      "identity": "cse-epilektos-warning-2026-11-04",
+      "edition_id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "slot": "evening",
+      "published_at": "2026-11-03T11:32:51.655692+00:00",
+      "available_at": "2026-11-03T17:36:28.934079+00:00",
+      "headline": "ΧΑΚ: προειδοποιητική σήμανση για την Επίλεκτος Ενεργειακή από 4 Νοεμβρίου",
+      "finding": "Οι μετοχές της Επίλεκτος Ενεργειακή στη Νέα Αγορά του ΧΑΚ θα φέρουν ένδειξη «S» από τις 4 Νοεμβρίου, σύμφωνα με το Cyprus Mail που μεταφέρει ανακοίνωση του Χρηματιστηρίου. Αιτία είναι η μη δημοσίευση της ετήσιας οικονομικής έκθεσης για τη χρήση που έληξε στις 30 Ιουνίου 2026. Η σήμανση θα αφαιρεθεί όταν το ΧΑΚ διαπιστώσει ότι οι σχετικές περιστάσεις έχουν αρθεί.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-03-evening/cse-epilektos-warning.json",
+      "reader_url": "articles/2026-11-03-evening/cse-epilektos-warning.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/03/cse-places-warning-marker-on-epilektos-energeiaki-shares",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-03T09:44:04+00:00",
+          "retrieved_at": "2026-11-03T10:43:51.130263+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/4dae14d2c5b5a9639554882a3dc9499f391724039bb30af7ef12e7f471b92b4a.webp"
+    },
+    {
+      "story_id": "cyprus-contributions-refund-2026-11-03",
+      "identity": "cyprus-contributions-refund-2026-11-03",
+      "edition_id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "slot": "evening",
+      "published_at": "2026-11-03T05:36:26.687782+00:00",
+      "available_at": "2026-11-03T17:36:28.934079+00:00",
+      "headline": "Εισφορές υπαλλήλων: επιστροφές μετά από δικαστική απόφαση",
+      "finding": "Το Philenews αναφέρει επιστροφές περιοδικών εισφορών σε άγαμους και άτεκνους υπαλλήλους μετά από δικαστική απόφαση. Εκπρόσωπος του Γενικού Λογιστηρίου δήλωσε ότι οι 25 που κέρδισαν τη δικαστική μάχη έλαβαν εισφορές και τόκους. Άλλοι 200, που διεκδίκησαν έγκαιρα τις εισφορές τους μετά την απόφαση, αναμένεται να λάβουν συνολικά περίπου €5 εκατ., σύμφωνα με το δημοσίευμα.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-03-evening/contributions-refund.json",
+      "reader_url": "articles/2026-11-03-evening/contributions-refund.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1790133/to-kratos-epistrefi-e5-ekat-se-agamous-ke-ateknous-ipallilous-dikastiki-apofasi-allazi-ta-dedomena",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-03T04:11:00+00:00",
+          "retrieved_at": "2026-11-03T04:21:09.620368+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/2bb3959a35537f77fb3e128f376a8a7f60f0543066aeb13ff9614eb93709162c.webp"
+    },
+    {
+      "story_id": "west-ham-nuno-dismissal-2026-11-03",
+      "identity": "west-ham-nuno-dismissal-2026-11-03",
+      "edition_id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "slot": "evening",
+      "published_at": "2026-11-03T11:32:51.655692+00:00",
+      "available_at": "2026-11-03T17:36:28.934079+00:00",
+      "headline": "Γουέστ Χαμ: αποχώρηση Νούνο και συνομιλίες με Πάρκερ",
+      "finding": "Η Γουέστ Χαμ απέλυσε τον Νούνο Εσπίριτο Σάντο, σύμφωνα με το BBC. Το δίκτυο αναφέρει προχωρημένες συνομιλίες με τον Σκοτ Πάρκερ για την αντικατάστασή του.",
+      "section": "sports",
+      "priority": 5,
+      "article_path": "articles/2026-11-03-evening/west-ham-manager.json",
+      "reader_url": "articles/2026-11-03-evening/west-ham-manager.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/c63dj3zpl85go?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-03T10:38:13+00:00",
+          "retrieved_at": "2026-11-03T10:43:55.650077+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/cc142f9923645da80af79ef4d3edb8dfe415654638b5295326c378b945e9afa8.webp"
+    },
+    {
+      "story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+      "identity": "england-wheelchair-rugby-world-cup-2026-11-02",
+      "edition_id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "slot": "evening",
+      "published_at": "2026-11-03T11:32:51.655692+00:00",
+      "available_at": "2026-11-03T17:36:28.934079+00:00",
+      "headline": "Ράγκμπι λιγκ με αμαξίδιο: η Αγγλία στα ημιτελικά",
+      "finding": "Η Αγγλία νίκησε τις ΗΠΑ 134–0 και εξασφάλισε θέση στα ημιτελικά του Παγκοσμίου Κυπέλλου, σύμφωνα με το BBC. Η Ιρλανδία προκρίνεται επίσης από τον όμιλο μετά το 68–28 επί της Ουαλίας.",
+      "section": "sports",
+      "priority": 6,
+      "article_path": "articles/2026-11-03-evening/england-wheelchair-semi.json",
+      "reader_url": "articles/2026-11-03-evening/england-wheelchair-semi.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/rugby-league/articles/crwydqxw1l8ko?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-03T09:30:56+00:00",
+          "retrieved_at": "2026-11-03T10:43:56.156865+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/b5411e0dd1188bffeeccdae38a32fa15b248d59d417ad5ee569be1983206b28b.webp"
     },
     {
       "story_id": "lebanon-public-institutions-power-2026-11-03",
