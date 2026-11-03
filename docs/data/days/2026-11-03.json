@@ -10,14 +10,40 @@
       "type": "morning",
       "url": "morning/2026-11-03.html",
       "published_at": "2026-11-03T05:36:26.687782+00:00"
+    },
+    {
+      "id": "2026-11-03-midday",
+      "type": "midday",
+      "url": "midday/2026-11-03.html",
+      "published_at": "2026-11-03T11:32:51.655692+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "qeshm-explosions-2026-11-03",
+  "lead_story_id": "lebanon-public-institutions-power-2026-11-03",
   "stories": [
+    {
+      "story_id": "lebanon-public-institutions-power-2026-11-03",
+      "first_seen_at": "2026-11-03T11:32:51.655692+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "lebanon-power-cuts",
+          "source_story_id": "lebanon-public-institutions-power-2026-11-03",
+          "url": "articles/2026-11-03-midday/lebanon-power-cuts.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "lebanon-power-cuts",
+        "source_story_id": "lebanon-public-institutions-power-2026-11-03",
+        "url": "articles/2026-11-03-midday/lebanon-power-cuts.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "qeshm-explosions-2026-11-03",
       "first_seen_at": "2026-11-03T05:36:26.687782+00:00",
@@ -28,16 +54,43 @@
           "article_id": "qeshm-explosions",
           "source_story_id": "qeshm-explosions-2026-11-03",
           "url": "articles/2026-11-03-morning/qeshm-explosions.html"
+        },
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "qeshm-explosions",
+          "source_story_id": "qeshm-explosions-2026-11-03",
+          "url": "articles/2026-11-03-midday/qeshm-explosions.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-03-morning",
+        "edition_id": "2026-11-03-midday",
         "article_id": "qeshm-explosions",
         "source_story_id": "qeshm-explosions-2026-11-03",
-        "url": "articles/2026-11-03-morning/qeshm-explosions.html"
+        "url": "articles/2026-11-03-midday/qeshm-explosions.html"
       },
       "section": "world",
       "priority": 1
+    },
+    {
+      "story_id": "czech-public-media-strike-2026-11-03",
+      "first_seen_at": "2026-11-03T11:32:51.655692+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "czech-public-media",
+          "source_story_id": "czech-public-media-strike-2026-11-03",
+          "url": "articles/2026-11-03-midday/czech-public-media.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "czech-public-media",
+        "source_story_id": "czech-public-media-strike-2026-11-03",
+        "url": "articles/2026-11-03-midday/czech-public-media.html"
+      },
+      "section": "world",
+      "priority": 2
     },
     {
       "story_id": "ukraine-russia-alert-apps-2026-11-02",
@@ -49,16 +102,43 @@
           "article_id": "ukraine-alert-app",
           "source_story_id": "ukraine-russia-alert-apps-2026-11-02",
           "url": "articles/2026-11-03-morning/ukraine-alert-app.html"
+        },
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "ukraine-alert-app",
+          "source_story_id": "ukraine-russia-alert-apps-2026-11-02",
+          "url": "articles/2026-11-03-midday/ukraine-alert-app.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-03-morning",
+        "edition_id": "2026-11-03-midday",
         "article_id": "ukraine-alert-app",
         "source_story_id": "ukraine-russia-alert-apps-2026-11-02",
-        "url": "articles/2026-11-03-morning/ukraine-alert-app.html"
+        "url": "articles/2026-11-03-midday/ukraine-alert-app.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "cyprus-general-government-surplus-nine-months-2026-11-03",
+      "first_seen_at": "2026-11-03T11:32:51.655692+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "government-surplus",
+          "source_story_id": "cyprus-general-government-surplus-nine-months-2026-11-03",
+          "url": "articles/2026-11-03-midday/government-surplus.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "government-surplus",
+        "source_story_id": "cyprus-general-government-surplus-nine-months-2026-11-03",
+        "url": "articles/2026-11-03-midday/government-surplus.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "us-midterms-asia-pacific-2026-11-03",
@@ -70,16 +150,43 @@
           "article_id": "us-midterms-asia-pacific",
           "source_story_id": "us-midterms-asia-pacific-2026-11-03",
           "url": "articles/2026-11-03-morning/us-midterms-asia-pacific.html"
+        },
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "us-midterms-asia-pacific",
+          "source_story_id": "us-midterms-asia-pacific-2026-11-03",
+          "url": "articles/2026-11-03-midday/us-midterms-asia-pacific.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-03-morning",
+        "edition_id": "2026-11-03-midday",
         "article_id": "us-midterms-asia-pacific",
         "source_story_id": "us-midterms-asia-pacific-2026-11-03",
-        "url": "articles/2026-11-03-morning/us-midterms-asia-pacific.html"
+        "url": "articles/2026-11-03-midday/us-midterms-asia-pacific.html"
       },
       "section": "world",
       "priority": 3
+    },
+    {
+      "story_id": "cse-epilektos-warning-2026-11-04",
+      "first_seen_at": "2026-11-03T11:32:51.655692+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "cse-epilektos-warning",
+          "source_story_id": "cse-epilektos-warning-2026-11-04",
+          "url": "articles/2026-11-03-midday/cse-epilektos-warning.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "cse-epilektos-warning",
+        "source_story_id": "cse-epilektos-warning-2026-11-04",
+        "url": "articles/2026-11-03-midday/cse-epilektos-warning.html"
+      },
+      "section": "cyprus",
+      "priority": 4
     },
     {
       "story_id": "plaka-explosion-remand-2026-11-02",
@@ -112,15 +219,42 @@
           "article_id": "contributions-refund",
           "source_story_id": "cyprus-contributions-refund-2026-11-03",
           "url": "articles/2026-11-03-morning/contributions-refund.html"
+        },
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "contributions-refund",
+          "source_story_id": "cyprus-contributions-refund-2026-11-03",
+          "url": "articles/2026-11-03-midday/contributions-refund.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-03-morning",
+        "edition_id": "2026-11-03-midday",
         "article_id": "contributions-refund",
         "source_story_id": "cyprus-contributions-refund-2026-11-03",
-        "url": "articles/2026-11-03-morning/contributions-refund.html"
+        "url": "articles/2026-11-03-midday/contributions-refund.html"
       },
       "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "west-ham-nuno-dismissal-2026-11-03",
+      "first_seen_at": "2026-11-03T11:32:51.655692+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "west-ham-manager",
+          "source_story_id": "west-ham-nuno-dismissal-2026-11-03",
+          "url": "articles/2026-11-03-midday/west-ham-manager.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "west-ham-manager",
+        "source_story_id": "west-ham-nuno-dismissal-2026-11-03",
+        "url": "articles/2026-11-03-midday/west-ham-manager.html"
+      },
+      "section": "sports",
       "priority": 5
     },
     {
@@ -133,15 +267,42 @@
           "article_id": "fuel-receipts",
           "source_story_id": "cyprus-fuel-receipts-proposal-2026-11-03",
           "url": "articles/2026-11-03-morning/fuel-receipts.html"
+        },
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "fuel-receipts",
+          "source_story_id": "cyprus-fuel-receipts-proposal-2026-11-03",
+          "url": "articles/2026-11-03-midday/fuel-receipts.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-03-morning",
+        "edition_id": "2026-11-03-midday",
         "article_id": "fuel-receipts",
         "source_story_id": "cyprus-fuel-receipts-proposal-2026-11-03",
-        "url": "articles/2026-11-03-morning/fuel-receipts.html"
+        "url": "articles/2026-11-03-midday/fuel-receipts.html"
       },
       "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+      "first_seen_at": "2026-11-03T11:32:51.655692+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "england-wheelchair-semi",
+          "source_story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+          "url": "articles/2026-11-03-midday/england-wheelchair-semi.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "england-wheelchair-semi",
+        "source_story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+        "url": "articles/2026-11-03-midday/england-wheelchair-semi.html"
+      },
+      "section": "sports",
       "priority": 6
     },
     {
@@ -175,13 +336,19 @@
           "article_id": "tourism-revenue",
           "source_story_id": "cyprus-tourism-eight-month-revenue-2026-11-03",
           "url": "articles/2026-11-03-morning/tourism-revenue.html"
+        },
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "tourism-revenue",
+          "source_story_id": "cyprus-tourism-eight-month-revenue-2026-11-03",
+          "url": "articles/2026-11-03-midday/tourism-revenue.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-03-morning",
+        "edition_id": "2026-11-03-midday",
         "article_id": "tourism-revenue",
         "source_story_id": "cyprus-tourism-eight-month-revenue-2026-11-03",
-        "url": "articles/2026-11-03-morning/tourism-revenue.html"
+        "url": "articles/2026-11-03-midday/tourism-revenue.html"
       },
       "section": "cyprus",
       "priority": 8
@@ -196,13 +363,19 @@
           "article_id": "padel-second-day",
           "source_story_id": "doha-world-padel-2026-11-02",
           "url": "articles/2026-11-03-morning/padel-second-day.html"
+        },
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "padel-second-day",
+          "source_story_id": "doha-world-padel-2026-11-02",
+          "url": "articles/2026-11-03-midday/padel-second-day.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-03-morning",
+        "edition_id": "2026-11-03-midday",
         "article_id": "padel-second-day",
         "source_story_id": "doha-world-padel-2026-11-02",
-        "url": "articles/2026-11-03-morning/padel-second-day.html"
+        "url": "articles/2026-11-03-midday/padel-second-day.html"
       },
       "section": "sports",
       "priority": 9
@@ -403,6 +576,188 @@
         "article_id": "newcastle-home-form",
         "source_story_id": "newcastle-home-form-2026-11-03",
         "url": "articles/2026-11-03-morning/newcastle-home-form.html"
+      }
+    },
+    {
+      "id": "1ab98986ca6061251087883c292f0b02a05fe82e89a17fec2551318b446dfd07",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "lebanon-public-institutions-power-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "lebanon-power-cuts",
+        "source_story_id": "lebanon-public-institutions-power-2026-11-03",
+        "url": "articles/2026-11-03-midday/lebanon-power-cuts.html"
+      }
+    },
+    {
+      "id": "296cb4ca93c21e02e5782b2ac9a4274cf5387188ea83fc284913279214ab3c3f",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-fuel-receipts-proposal-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "fuel-receipts",
+        "source_story_id": "cyprus-fuel-receipts-proposal-2026-11-03",
+        "url": "articles/2026-11-03-midday/fuel-receipts.html"
+      }
+    },
+    {
+      "id": "457bd2f510291e45c923abcb167040453d774df70085dfbd481782884c694fe1",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-tourism-eight-month-revenue-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "tourism-revenue",
+        "source_story_id": "cyprus-tourism-eight-month-revenue-2026-11-03",
+        "url": "articles/2026-11-03-midday/tourism-revenue.html"
+      }
+    },
+    {
+      "id": "5abbf0875fb5375649943a71e22c3cf7683288cf4e8d7783f3c8a79a1f5b26a0",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterms-asia-pacific-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "us-midterms-asia-pacific",
+        "source_story_id": "us-midterms-asia-pacific-2026-11-03",
+        "url": "articles/2026-11-03-midday/us-midterms-asia-pacific.html"
+      }
+    },
+    {
+      "id": "69b2946b3426cd08561b44a020aaf2eb5081ae310f6672411b2665bc35339c48",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "qeshm-explosions-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "qeshm-explosions",
+        "source_story_id": "qeshm-explosions-2026-11-03",
+        "url": "articles/2026-11-03-midday/qeshm-explosions.html"
+      }
+    },
+    {
+      "id": "6f2a60426a47a218796d55e318bc3b0db7f0cc43d51922bcbe52c5720cc1598b",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-russia-alert-apps-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "ukraine-alert-app",
+        "source_story_id": "ukraine-russia-alert-apps-2026-11-02",
+        "url": "articles/2026-11-03-midday/ukraine-alert-app.html"
+      }
+    },
+    {
+      "id": "b8c0d89a574a1c7fc62877544ee13b429de7a80fac916011a0b03a8325c075cb",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "england-wheelchair-semi",
+        "source_story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+        "url": "articles/2026-11-03-midday/england-wheelchair-semi.html"
+      }
+    },
+    {
+      "id": "c23e9c16efa08801f9326f7eb3e1619591c1d3415d66d8bc11746140216fa18f",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cse-epilektos-warning-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "cse-epilektos-warning",
+        "source_story_id": "cse-epilektos-warning-2026-11-04",
+        "url": "articles/2026-11-03-midday/cse-epilektos-warning.html"
+      }
+    },
+    {
+      "id": "c8e728309eb176c7bac827d8b367665fc7cc805d21b345bad679002f08d7f6a2",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "doha-world-padel-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "padel-second-day",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-03-midday/padel-second-day.html"
+      }
+    },
+    {
+      "id": "d7669ca0c582c75a7258b35274ed722a529e060cfb858ce77c512e1a0dce47cd",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-general-government-surplus-nine-months-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "government-surplus",
+        "source_story_id": "cyprus-general-government-surplus-nine-months-2026-11-03",
+        "url": "articles/2026-11-03-midday/government-surplus.html"
+      }
+    },
+    {
+      "id": "dde5587af8b5b6396e2aeb6631e66d7b29f8d91b292855fb8da0fd8ff039c501",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "czech-public-media-strike-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "czech-public-media",
+        "source_story_id": "czech-public-media-strike-2026-11-03",
+        "url": "articles/2026-11-03-midday/czech-public-media.html"
+      }
+    },
+    {
+      "id": "ea8e8d31ce27e34155b0673d3dff52c488c623fcf908cd1ce0f5b822447c098c",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "west-ham-nuno-dismissal-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "west-ham-manager",
+        "source_story_id": "west-ham-nuno-dismissal-2026-11-03",
+        "url": "articles/2026-11-03-midday/west-ham-manager.html"
+      }
+    },
+    {
+      "id": "f1f6144e0a009fd6adf855952779fb2d0b8f27a656851c961cb447170824abc4",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-contributions-refund-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "contributions-refund",
+        "source_story_id": "cyprus-contributions-refund-2026-11-03",
+        "url": "articles/2026-11-03-midday/contributions-refund.html"
       }
     }
   ],
@@ -612,24 +967,24 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Αναφορές για εκρήξεις κοντά στα Στενά του Ορμούζ συνυπάρχουν με τη δήλωση της Τεχεράνης ότι οι επαφές μέσω μεσολαβητών συνεχίζονται. Δεν τεκμηριώνεται ούτε συμφωνία ειρήνης ούτε πλήρης επίσημη αποτύπωση των πληγμάτων. Οι αμερικανικές εκλογές παρακολουθούνται στην Ασία υπό το βάρος ενεργειακού κόστους και δασμών.",
+        "text": "Το προκαταρκτικό πλεόνασμα του εννεαμήνου αυξήθηκε στα €1,61 δισ., με έσοδα να ανεβαίνουν ταχύτερα από τις δαπάνες· δεν αποτελεί τελικό ετήσιο αποτέλεσμα. Στο ΧΑΚ, η προειδοποιητική σήμανση της Επίλεκτος Ενεργειακή αρχίζει αύριο και αφορά μη δημοσίευση οικονομικής έκθεσης.",
         "story_ids": [
-          "qeshm-explosions-2026-11-03",
-          "us-midterms-asia-pacific-2026-11-03"
+          "cyprus-general-government-surplus-nine-months-2026-11-03",
+          "cse-epilektos-warning-2026-11-04"
         ]
       },
       {
-        "text": "Οι επιστροφές εισφορών αφορούν συγκεκριμένες κατηγορίες διεκδικητών, όχι αυτόματο γενικό δικαίωμα για όλους. Η διαφάνεια στις αποδείξεις καυσίμων παραμένει πρόταση, ενώ η μείωση τουριστικών εσόδων αφορά το οκτάμηνο του 2026 και δεν αποτυπώνει ακόμη ολόκληρη τη χρονιά.",
+        "text": "Στον Λίβανο αναφέρονται διακοπές ηλεκτροδότησης δημόσιων φορέων με απλήρωτους λογαριασμούς. Στην Τσεχία, εργαζόμενοι δημόσιων μέσων απεργούν κατά σχεδίου χρηματοδότησης. Η πρωινή κάλυψη του Ορμούζ διατηρείται ως χρονολογημένο πλαίσιο, χωρίς νέα επιβεβαίωση πληγμάτων ή ειρηνευτικής συμφωνίας.",
         "story_ids": [
-          "cyprus-contributions-refund-2026-11-03",
-          "cyprus-fuel-receipts-proposal-2026-11-03",
-          "cyprus-tourism-eight-month-revenue-2026-11-03"
+          "lebanon-public-institutions-power-2026-11-03",
+          "czech-public-media-strike-2026-11-03",
+          "qeshm-explosions-2026-11-03"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-03T05:37:38.327875+00:00",
-  "updated_at": "2026-11-03T05:37:38.327875+00:00",
-  "input_sha256": "f8551bca52fad6f1b692e9acd156e11ea519e6a7d00932006a6716ae6052b626"
+  "updated_at": "2026-11-03T11:34:31.257631+00:00",
+  "input_sha256": "0c5814d0498b4bdf28aa108e1b73a3a0ed2d1aca27795838a7d262e2f67eb566"
 }
