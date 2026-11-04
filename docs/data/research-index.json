@@ -472,7 +472,7 @@
       "type": "morning",
       "published_at": "2026-11-04T05:33:43.055110+00:00",
       "url": "morning/2026-11-04.html",
-      "fingerprint": "dd8a25b86ce77a5ec67dadff62b69de9c782a83067a04d6dba15fc5538abf7b5"
+      "fingerprint": "a7a9a2f7cff36ca9584690f290c487865b27805562b1b7083772ed39476fa0b5"
     }
   ],
   "stories": [
@@ -16680,9 +16680,9 @@
       "date": "2026-11-04",
       "slot": "morning",
       "published_at": "2026-11-03T17:36:28.934079+00:00",
-      "available_at": "2026-11-04T05:33:43.055110+00:00",
-      "headline": "Ενδιάμεσες εκλογές ΗΠΑ: ο Guardian δίνει τη Γερουσία του Τέξας στον Ταλαρίκο",
-      "finding": "Ο Guardian μεταδίδει ότι ο Δημοκρατικός Τζέιμς Ταλαρίκο επικράτησε του Ρεπουμπλικανού Κεν Πάξτον στην αναμέτρηση για μία έδρα της Γερουσίας στο Τέξας. Κατά το ίδιο μέσο, είναι η πρώτη νίκη Δημοκρατικού σε εκλογή για τη Γερουσία στην πολιτεία από το 1988. Το απόσπασμα δεν δίνει τελικό αριθμό ψήφων ή επίσημη πιστοποίηση.",
+      "available_at": "2026-11-04T05:51:19+00:00",
+      "headline": "Ενδιάμεσες εκλογές ΗΠΑ: το AP δίνει τη Γερουσία στους Δημοκρατικούς, ανοικτή η Βουλή",
+      "finding": "Στις 4 Νοεμβρίου, το Associated Press ανακήρυξε δημοκρατική πλειοψηφία στη Γερουσία μετά από κέρδη σε έδρες όπως του Τέξας, του Κάνσας και της Νότιας Καρολίνας. Για τη Βουλή των Αντιπροσώπων, το AP δεν είχε ακόμη ανακηρύξει πλειοψηφία κατά την ενημέρωση των 07:51. Το Reuters ανέφερε προβολές άλλων αμερικανικών μέσων υπέρ των Δημοκρατικών και στα δύο σώματα. Αυτές οι αναφορές δεν συνιστούν επίσημη πιστοποίηση.",
       "section": "world",
       "priority": 1,
       "article_path": "articles/2026-11-04-morning/us-midterms-texas.json",
@@ -16694,6 +16694,22 @@
           "reporting_group": "The Guardian",
           "published_at": "2026-11-04T04:17:56+00:00",
           "retrieved_at": "2026-11-04T04:20:54.016342+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://apnews.com/article/ef6199e25927a9ac9f4c18eae0e497cd",
+          "publisher": "Associated Press",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-11-03T13:39:27+00:00",
+          "retrieved_at": "2026-11-04T05:51:19Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.reuters.com/business/media-telecom/takeaways-us-midterm-elections-2026-11-04/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": "2026-11-04T00:07:05+00:00",
+          "retrieved_at": "2026-11-04T05:51:19Z",
           "kind": "reporting"
         }
       ],
