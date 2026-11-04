@@ -10,10 +10,15 @@
       "type": "morning",
       "url": "morning/2026-11-04.html",
       "published_at": "2026-11-04T05:33:43.055110+00:00"
+    },
+    {
+      "id": "2026-11-04-midday",
+      "type": "midday",
+      "url": "midday/2026-11-04.html",
+      "published_at": "2026-11-04T11:36:37.120845+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
   "lead_story_id": "us-midterms-congress-voting-2026-11-03",
@@ -28,13 +33,19 @@
           "article_id": "us-midterms-texas",
           "source_story_id": "us-midterms-congress-voting-2026-11-03",
           "url": "articles/2026-11-04-morning/us-midterms-texas.html"
+        },
+        {
+          "edition_id": "2026-11-04-midday",
+          "article_id": "us-midterms-congress-voting-2026-11-03",
+          "source_story_id": "us-midterms-congress-voting-2026-11-03",
+          "url": "articles/2026-11-04-midday/us-midterms-congress-voting-2026-11-03.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-04-morning",
-        "article_id": "us-midterms-texas",
+        "edition_id": "2026-11-04-midday",
+        "article_id": "us-midterms-congress-voting-2026-11-03",
         "source_story_id": "us-midterms-congress-voting-2026-11-03",
-        "url": "articles/2026-11-04-morning/us-midterms-texas.html"
+        "url": "articles/2026-11-04-midday/us-midterms-congress-voting-2026-11-03.html"
       },
       "section": "world",
       "priority": 1
@@ -49,16 +60,64 @@
           "article_id": "malliotakis-ny11",
           "source_story_id": "malliotakis-ny11-reelection-2026-11-04",
           "url": "articles/2026-11-04-morning/malliotakis-ny11.html"
+        },
+        {
+          "edition_id": "2026-11-04-midday",
+          "article_id": "malliotakis-ny11",
+          "source_story_id": "malliotakis-ny11-reelection-2026-11-04",
+          "url": "articles/2026-11-04-midday/malliotakis-ny11.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-04-morning",
+        "edition_id": "2026-11-04-midday",
         "article_id": "malliotakis-ny11",
         "source_story_id": "malliotakis-ny11-reelection-2026-11-04",
-        "url": "articles/2026-11-04-morning/malliotakis-ny11.html"
+        "url": "articles/2026-11-04-midday/malliotakis-ny11.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "ukraine-power-grid-strikes-november-2026",
+      "first_seen_at": "2026-11-04T11:36:37.120845+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-04-midday",
+          "article_id": "ukraine-power-grid-strikes-november-2026",
+          "source_story_id": "ukraine-power-grid-strikes-november-2026",
+          "url": "articles/2026-11-04-midday/ukraine-power-grid-strikes-november-2026.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "ukraine-power-grid-strikes-november-2026",
+        "source_story_id": "ukraine-power-grid-strikes-november-2026",
+        "url": "articles/2026-11-04-midday/ukraine-power-grid-strikes-november-2026.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "cyprus-recycling-organic-waste-funding-2026-11-04",
+      "first_seen_at": "2026-11-04T11:36:37.120845+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-04-midday",
+          "article_id": "cyprus-recycling-organic-waste-funding-2026-11-04",
+          "source_story_id": "cyprus-recycling-organic-waste-funding-2026-11-04",
+          "url": "articles/2026-11-04-midday/cyprus-recycling-organic-waste-funding-2026-11-04.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "cyprus-recycling-organic-waste-funding-2026-11-04",
+        "source_story_id": "cyprus-recycling-organic-waste-funding-2026-11-04",
+        "url": "articles/2026-11-04-midday/cyprus-recycling-organic-waste-funding-2026-11-04.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "south-africa-local-elections-2026-11-04",
@@ -70,16 +129,43 @@
           "article_id": "south-africa-local-vote",
           "source_story_id": "south-africa-local-elections-2026-11-04",
           "url": "articles/2026-11-04-morning/south-africa-local-vote.html"
+        },
+        {
+          "edition_id": "2026-11-04-midday",
+          "article_id": "south-africa-local-vote",
+          "source_story_id": "south-africa-local-elections-2026-11-04",
+          "url": "articles/2026-11-04-midday/south-africa-local-vote.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-04-morning",
+        "edition_id": "2026-11-04-midday",
         "article_id": "south-africa-local-vote",
         "source_story_id": "south-africa-local-elections-2026-11-04",
-        "url": "articles/2026-11-04-morning/south-africa-local-vote.html"
+        "url": "articles/2026-11-04-midday/south-africa-local-vote.html"
       },
       "section": "world",
       "priority": 3
+    },
+    {
+      "story_id": "cyprus-registered-unemployment-october-2026",
+      "first_seen_at": "2026-11-04T11:36:37.120845+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-04-midday",
+          "article_id": "cyprus-registered-unemployment-october-2026",
+          "source_story_id": "cyprus-registered-unemployment-october-2026",
+          "url": "articles/2026-11-04-midday/cyprus-registered-unemployment-october-2026.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "cyprus-registered-unemployment-october-2026",
+        "source_story_id": "cyprus-registered-unemployment-october-2026",
+        "url": "articles/2026-11-04-midday/cyprus-registered-unemployment-october-2026.html"
+      },
+      "section": "cyprus",
+      "priority": 4
     },
     {
       "story_id": "invest-cyprus-export-remit-2026-11-04",
@@ -91,16 +177,43 @@
           "article_id": "invest-cyprus-exports",
           "source_story_id": "invest-cyprus-export-remit-2026-11-04",
           "url": "articles/2026-11-04-morning/invest-cyprus-exports.html"
+        },
+        {
+          "edition_id": "2026-11-04-midday",
+          "article_id": "invest-cyprus-exports",
+          "source_story_id": "invest-cyprus-export-remit-2026-11-04",
+          "url": "articles/2026-11-04-midday/invest-cyprus-exports.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-04-morning",
+        "edition_id": "2026-11-04-midday",
         "article_id": "invest-cyprus-exports",
         "source_story_id": "invest-cyprus-export-remit-2026-11-04",
-        "url": "articles/2026-11-04-morning/invest-cyprus-exports.html"
+        "url": "articles/2026-11-04-midday/invest-cyprus-exports.html"
       },
       "section": "cyprus",
       "priority": 4
+    },
+    {
+      "story_id": "cyprus-cbd-products-cannabinoids-warning-2026-11-04",
+      "first_seen_at": "2026-11-04T11:36:37.120845+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-04-midday",
+          "article_id": "cyprus-cbd-products-cannabinoids-warning-2026-11-04",
+          "source_story_id": "cyprus-cbd-products-cannabinoids-warning-2026-11-04",
+          "url": "articles/2026-11-04-midday/cyprus-cbd-products-cannabinoids-warning-2026-11-04.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "cyprus-cbd-products-cannabinoids-warning-2026-11-04",
+        "source_story_id": "cyprus-cbd-products-cannabinoids-warning-2026-11-04",
+        "url": "articles/2026-11-04-midday/cyprus-cbd-products-cannabinoids-warning-2026-11-04.html"
+      },
+      "section": "cyprus",
+      "priority": 5
     },
     {
       "story_id": "elam-leadership-election-2026-11-04",
@@ -124,6 +237,27 @@
       "priority": 5
     },
     {
+      "story_id": "mika-stojsavljevic-first-wta-win-2026-11-04",
+      "first_seen_at": "2026-11-04T11:36:37.120845+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-04-midday",
+          "article_id": "mika-stojsavljevic-first-wta-win-2026-11-04",
+          "source_story_id": "mika-stojsavljevic-first-wta-win-2026-11-04",
+          "url": "articles/2026-11-04-midday/mika-stojsavljevic-first-wta-win-2026-11-04.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "mika-stojsavljevic-first-wta-win-2026-11-04",
+        "source_story_id": "mika-stojsavljevic-first-wta-win-2026-11-04",
+        "url": "articles/2026-11-04-midday/mika-stojsavljevic-first-wta-win-2026-11-04.html"
+      },
+      "section": "sports",
+      "priority": 6
+    },
+    {
       "story_id": "paphos-polish-wedding-tourism-2026-11-03",
       "first_seen_at": "2026-11-04T05:33:43.055110+00:00",
       "last_substantive_at": null,
@@ -133,13 +267,19 @@
           "article_id": "paphos-wedding-tourism",
           "source_story_id": "paphos-polish-wedding-tourism-2026-11-03",
           "url": "articles/2026-11-04-morning/paphos-wedding-tourism.html"
+        },
+        {
+          "edition_id": "2026-11-04-midday",
+          "article_id": "paphos-wedding-tourism",
+          "source_story_id": "paphos-polish-wedding-tourism-2026-11-03",
+          "url": "articles/2026-11-04-midday/paphos-wedding-tourism.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-04-morning",
+        "edition_id": "2026-11-04-midday",
         "article_id": "paphos-wedding-tourism",
         "source_story_id": "paphos-polish-wedding-tourism-2026-11-03",
-        "url": "articles/2026-11-04-morning/paphos-wedding-tourism.html"
+        "url": "articles/2026-11-04-midday/paphos-wedding-tourism.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -154,13 +294,19 @@
           "article_id": "doha-padel-groups",
           "source_story_id": "doha-world-padel-2026-11-02",
           "url": "articles/2026-11-04-morning/doha-padel-groups.html"
+        },
+        {
+          "edition_id": "2026-11-04-midday",
+          "article_id": "doha-padel-groups",
+          "source_story_id": "doha-world-padel-2026-11-02",
+          "url": "articles/2026-11-04-midday/doha-padel-groups.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-04-morning",
+        "edition_id": "2026-11-04-midday",
         "article_id": "doha-padel-groups",
         "source_story_id": "doha-world-padel-2026-11-02",
-        "url": "articles/2026-11-04-morning/doha-padel-groups.html"
+        "url": "articles/2026-11-04-midday/doha-padel-groups.html"
       },
       "section": "sports",
       "priority": 7
@@ -175,13 +321,19 @@
           "article_id": "tenerife-tributes",
           "source_story_id": "tenerife-de-miguel-tributes-2026-11-04",
           "url": "articles/2026-11-04-morning/tenerife-tributes.html"
+        },
+        {
+          "edition_id": "2026-11-04-midday",
+          "article_id": "tenerife-tributes",
+          "source_story_id": "tenerife-de-miguel-tributes-2026-11-04",
+          "url": "articles/2026-11-04-midday/tenerife-tributes.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-04-morning",
+        "edition_id": "2026-11-04-midday",
         "article_id": "tenerife-tributes",
         "source_story_id": "tenerife-de-miguel-tributes-2026-11-04",
-        "url": "articles/2026-11-04-morning/tenerife-tributes.html"
+        "url": "articles/2026-11-04-midday/tenerife-tributes.html"
       },
       "section": "sports",
       "priority": 8
@@ -333,6 +485,174 @@
         "article_id": "us-midterms-texas",
         "source_story_id": "us-midterms-congress-voting-2026-11-03",
         "url": "articles/2026-11-04-morning/us-midterms-texas.html"
+      }
+    },
+    {
+      "id": "00f7abd0004da236a22a76360f620aadf218db7dd6ac742305c3d45eb67cf963",
+      "kind": "provenance",
+      "at": "2026-11-04T11:36:37.120845+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-cbd-products-cannabinoids-warning-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "cyprus-cbd-products-cannabinoids-warning-2026-11-04",
+        "source_story_id": "cyprus-cbd-products-cannabinoids-warning-2026-11-04",
+        "url": "articles/2026-11-04-midday/cyprus-cbd-products-cannabinoids-warning-2026-11-04.html"
+      }
+    },
+    {
+      "id": "077eef7078279b63ad2a856e8b852517e91dc086bd611146cc531c945beae2a5",
+      "kind": "provenance",
+      "at": "2026-11-04T11:36:37.120845+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "south-africa-local-elections-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "south-africa-local-vote",
+        "source_story_id": "south-africa-local-elections-2026-11-04",
+        "url": "articles/2026-11-04-midday/south-africa-local-vote.html"
+      }
+    },
+    {
+      "id": "0ef6e7b236422124f2e2cbe7f52213cc3b0938014460744c0357af48e9f7feca",
+      "kind": "provenance",
+      "at": "2026-11-04T11:36:37.120845+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-registered-unemployment-october-2026",
+      "origin": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "cyprus-registered-unemployment-october-2026",
+        "source_story_id": "cyprus-registered-unemployment-october-2026",
+        "url": "articles/2026-11-04-midday/cyprus-registered-unemployment-october-2026.html"
+      }
+    },
+    {
+      "id": "3e6ced2371ec598d38df704cc90fc86c7170a247e739394806c02d5afe1f4a5c",
+      "kind": "provenance",
+      "at": "2026-11-04T11:36:37.120845+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "doha-world-padel-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "doha-padel-groups",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-04-midday/doha-padel-groups.html"
+      }
+    },
+    {
+      "id": "411ff03747c99d51e970ec53fe1ad65934edeb3ab3de2e76572d31802c4d910a",
+      "kind": "provenance",
+      "at": "2026-11-04T11:36:37.120845+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "tenerife-de-miguel-tributes-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "tenerife-tributes",
+        "source_story_id": "tenerife-de-miguel-tributes-2026-11-04",
+        "url": "articles/2026-11-04-midday/tenerife-tributes.html"
+      }
+    },
+    {
+      "id": "482368fb473767bd6ac545dc8fa59c0870128b91523c95449bc89fd21464f4ec",
+      "kind": "provenance",
+      "at": "2026-11-04T11:36:37.120845+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-power-grid-strikes-november-2026",
+      "origin": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "ukraine-power-grid-strikes-november-2026",
+        "source_story_id": "ukraine-power-grid-strikes-november-2026",
+        "url": "articles/2026-11-04-midday/ukraine-power-grid-strikes-november-2026.html"
+      }
+    },
+    {
+      "id": "710f969b830a8d3f213c2f8924c211ca318033415bbc5bc78b5cc08b59552910",
+      "kind": "provenance",
+      "at": "2026-11-04T11:36:37.120845+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "mika-stojsavljevic-first-wta-win-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "mika-stojsavljevic-first-wta-win-2026-11-04",
+        "source_story_id": "mika-stojsavljevic-first-wta-win-2026-11-04",
+        "url": "articles/2026-11-04-midday/mika-stojsavljevic-first-wta-win-2026-11-04.html"
+      }
+    },
+    {
+      "id": "7452a3d37e69a674f5575b4208dc4d135a8ab34bf85cff1094858a07894ae67a",
+      "kind": "provenance",
+      "at": "2026-11-04T11:36:37.120845+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterms-congress-voting-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "us-midterms-congress-voting-2026-11-03",
+        "source_story_id": "us-midterms-congress-voting-2026-11-03",
+        "url": "articles/2026-11-04-midday/us-midterms-congress-voting-2026-11-03.html"
+      }
+    },
+    {
+      "id": "9af871d12ead680de0e2f9be37e7f14f11ecb240cec2e609c19de120bb0fa7d9",
+      "kind": "provenance",
+      "at": "2026-11-04T11:36:37.120845+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "invest-cyprus-export-remit-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "invest-cyprus-exports",
+        "source_story_id": "invest-cyprus-export-remit-2026-11-04",
+        "url": "articles/2026-11-04-midday/invest-cyprus-exports.html"
+      }
+    },
+    {
+      "id": "a7f6de176d786b267b2f1412e1e4a7866a8d080536873d6cccf72a0a634401cf",
+      "kind": "provenance",
+      "at": "2026-11-04T11:36:37.120845+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "paphos-polish-wedding-tourism-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "paphos-wedding-tourism",
+        "source_story_id": "paphos-polish-wedding-tourism-2026-11-03",
+        "url": "articles/2026-11-04-midday/paphos-wedding-tourism.html"
+      }
+    },
+    {
+      "id": "c3edf0fa7c7feca78840e37175f12c2275efeab2ef2a9ce03779cf4cd898901e",
+      "kind": "provenance",
+      "at": "2026-11-04T11:36:37.120845+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-recycling-organic-waste-funding-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "cyprus-recycling-organic-waste-funding-2026-11-04",
+        "source_story_id": "cyprus-recycling-organic-waste-funding-2026-11-04",
+        "url": "articles/2026-11-04-midday/cyprus-recycling-organic-waste-funding-2026-11-04.html"
+      }
+    },
+    {
+      "id": "e39b86d6f76c4c9366f14f82c91ce814d074cef3c095d1bff78f613be0e0a761",
+      "kind": "provenance",
+      "at": "2026-11-04T11:36:37.120845+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "malliotakis-ny11-reelection-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-04-midday",
+        "article_id": "malliotakis-ny11",
+        "source_story_id": "malliotakis-ny11-reelection-2026-11-04",
+        "url": "articles/2026-11-04-midday/malliotakis-ny11.html"
       }
     }
   ],
@@ -542,23 +862,23 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Ενημέρωση 4/11, 07:51: Το AP ανακήρυξε δημοκρατική πλειοψηφία στη Γερουσία. Για τη Βουλή, το AP δεν είχε ακόμη ανακηρύξει πλειοψηφία, παρότι το Reuters ανέφερε προβολές αμερικανικών μέσων υπέρ των Δημοκρατικών και στα δύο σώματα. Άλλο η δημοσιογραφική ανακήρυξη και άλλο η επίσημη πιστοποίηση.",
+        "text": "Η Βουλή περνά επίσης στους Δημοκρατικούς: το πρώτο πρακτικό τεστ είναι ποιες προτεραιότητες θα βάλουν στην ημερήσια διάταξη της νέας σύνθεσης. Στην Ουκρανία, οι διακοπές ρεύματος πριν από τον χειμώνα δίνουν επείγοντα χαρακτήρα στις επισκευές, ενώ η επόμενη συνάντηση θα δείξει αν υπάρχει περιθώριο ουσιαστικής διαπραγμάτευσης.",
         "story_ids": [
           "us-midterms-congress-voting-2026-11-03",
-          "malliotakis-ny11-reelection-2026-11-04"
+          "ukraine-power-grid-strikes-november-2026"
         ]
       },
       {
-        "text": "Η κυβέρνηση εξετάζει ανάθεση αρμοδιοτήτων για τις εξαγωγές στον Invest Cyprus. Εκκρεμεί συγκεκριμένη απόφαση. Στο ΕΛΑΜ, η επανεκλογή του Χρίστου έχει ήδη ανακοινωθεί· η ψηφοφορία της 28ης Νοεμβρίου αφορά τις αντιπροεδρίες.",
+        "text": "Τα €4,8 εκατ. για ανακύκλωση και οργανικά απόβλητα αποκτούν πρακτική αξία όταν οι δήμοι ανακοινώσουν κάλυψη και δρομολόγια. Στην απασχόληση, η ετήσια αύξηση των εγγεγραμμένων ανέργων συνυπάρχει με μικρή εποχικά διορθωμένη μηνιαία μείωση: ο επόμενος μήνας θα βοηθήσει να φανεί αν η υποχώρηση έχει συνέχεια.",
         "story_ids": [
-          "invest-cyprus-export-remit-2026-11-04",
-          "elam-leadership-election-2026-11-04"
+          "cyprus-recycling-organic-waste-funding-2026-11-04",
+          "cyprus-registered-unemployment-october-2026"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-04T05:35:27.507848+00:00",
-  "updated_at": "2026-11-04T05:53:53.672564+00:00",
-  "input_sha256": "7359f0c6cd9c7ba184277a2f72c728da300621a200296b6fac8e9600bdcae5df"
+  "updated_at": "2026-11-04T11:38:04.135812+00:00",
+  "input_sha256": "1c46280ae5f9b0cb503abdf4965861231cef54e44f3cf722006f4ebcae2ab829"
 }

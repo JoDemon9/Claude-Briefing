@@ -467,6 +467,14 @@
       "fingerprint": "1333eab01f326fd6c4e7f81ce7f70015e0885d25407a672a1208246f1d4c0b98"
     },
     {
+      "id": "2026-11-04-midday",
+      "date": "2026-11-04",
+      "type": "midday",
+      "published_at": "2026-11-04T11:36:37.120845+00:00",
+      "url": "midday/2026-11-04.html",
+      "fingerprint": "9ad183f9b882b508f77d57ae9be55f6c1d64730047201d7f0986d616052054d4"
+    },
+    {
       "id": "2026-11-04-morning",
       "date": "2026-11-04",
       "type": "morning",
@@ -16672,6 +16680,346 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/73704abb9d0148bfa66c311923d1efc09305629b6867ed37638a97c021bf9836.webp"
+    },
+    {
+      "story_id": "us-midterms-congress-voting-2026-11-03",
+      "identity": "us-midterms-congress-voting-2026-11-03",
+      "edition_id": "2026-11-04-midday",
+      "date": "2026-11-04",
+      "slot": "midday",
+      "published_at": "2026-11-03T17:36:28.934079+00:00",
+      "available_at": "2026-11-04T11:36:37.120845+00:00",
+      "headline": "ΗΠΑ: οι Δημοκρατικοί κερδίζουν και τη Βουλή, μετά τη Γερουσία",
+      "finding": "Η πρωινή αβεβαιότητα για τη Βουλή των Αντιπροσώπων υποχώρησε: Guardian και France 24 μεταδίδουν ότι οι Δημοκρατικοί κέρδισαν τον έλεγχο και των δύο σωμάτων του Κογκρέσου στις ενδιάμεσες εκλογές. Η ζωντανή καταμέτρηση του Guardian εμφάνιζε 225 έδρες στη Βουλή και 54 στη Γερουσία, με επιμέρους αναμετρήσεις ακόμη εκκρεμείς. Ο Ντόναλντ Τραμπ δήλωσε στους New York Times ότι είναι διατεθειμένος να δεχθεί τα αποτελέσματα.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-04-midday/us-midterms-congress-voting-2026-11-03.json",
+      "reader_url": "articles/2026-11-04-midday/us-midterms-congress-voting-2026-11-03.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-04T10:42:44+00:00",
+          "retrieved_at": "2026-11-04T10:46:58.160129+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.france24.com/en/americas/20261104-why-the-democrats-routed-republicans-us-midterm-elections",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-11-04T09:41:10+00:00",
+          "retrieved_at": "2026-11-04T10:46:56.733265+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/45547049bf755292f84214638d19e43926bca5f7d643c41fce3bb016485aff32.webp"
+    },
+    {
+      "story_id": "ukraine-power-grid-strikes-november-2026",
+      "identity": "ukraine-power-grid-strikes-november-2026",
+      "edition_id": "2026-11-04-midday",
+      "date": "2026-11-04",
+      "slot": "midday",
+      "published_at": "2026-11-04T11:36:37.120845+00:00",
+      "available_at": "2026-11-04T11:36:37.120845+00:00",
+      "headline": "Νέα ρωσικά πλήγματα στο δίκτυο ηλεκτροδότησης της Ουκρανίας",
+      "finding": "Στις 3 Νοεμβρίου ρωσικά πλήγματα προκάλεσαν διακοπές ρεύματος στο Κίεβο και σε άλλες περιοχές, σύμφωνα με το Reuters και το Associated Press, που επικαλούνται ουκρανικές αρχές. Η εταιρεία ηλεκτρισμού DTEK ανέφερε ότι τρεις μονάδες της τέθηκαν εκτός λειτουργίας, ενώ το Reuters μετέδωσε ότι οι συνομιλίες με αμερικανική μεσολάβηση είχαν προγραμματιστεί για τις 10–11 Νοεμβρίου στο Άμπου Ντάμπι.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-04-midday/ukraine-power-grid-strikes-november-2026.json",
+      "reader_url": "articles/2026-11-04-midday/ukraine-power-grid-strikes-november-2026.html",
+      "sources": [
+        {
+          "url": "https://www.koreaherald.com/article/10925508",
+          "publisher": "Reuters μέσω The Korea Herald",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-11-04T11:32:43.219Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/11/03/death-toll-hits-29-after-russian-strike-on-ukrainian-aid-site-with-48-still-missing",
+          "publisher": "Associated Press μέσω Spectrum News NY1",
+          "reporting_group": "Associated Press",
+          "published_at": "2026-11-03T09:56:00Z",
+          "retrieved_at": "2026-11-04T11:32:43.219Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/world-2.webp"
+    },
+    {
+      "story_id": "cyprus-recycling-organic-waste-funding-2026-11-04",
+      "identity": "cyprus-recycling-organic-waste-funding-2026-11-04",
+      "edition_id": "2026-11-04-midday",
+      "date": "2026-11-04",
+      "slot": "midday",
+      "published_at": "2026-11-04T11:36:37.120845+00:00",
+      "available_at": "2026-11-04T11:36:37.120845+00:00",
+      "headline": "€4,8 εκατ. για ανακύκλωση και χωριστή συλλογή οργανικών αποβλήτων",
+      "finding": "Το Υπουργικό Συμβούλιο ενέκρινε στις 4 Νοεμβρίου κρατική χρηματοδότηση €4,8 εκατ. για την περίοδο 2027–2029, σύμφωνα με δηλώσεις του υπουργού Γεωργίας Χρίστου Σενέκη που μετέδωσε το SigmaLive. Οι δύο εγκεκριμένες προτάσεις αφορούν την ενίσχυση της ανακύκλωσης και τη χωριστή συλλογή οργανικών αποβλήτων. Τα κονδύλια προορίζονται για να στηρίξουν τις αρχές τοπικής αυτοδιοίκησης στην εφαρμογή των υποχρεώσεών τους για τη διαχείριση αποβλήτων.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-04-midday/cyprus-recycling-organic-waste-funding-2026-11-04.json",
+      "reader_url": "articles/2026-11-04-midday/cyprus-recycling-organic-waste-funding-2026-11-04.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/environment/1336151/eghkrisi-eur48-ekat-apo-to-ypoyrghiko-ghia-anakyklosi-kai-orghanika-apovlita",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-04T10:46:09+00:00",
+          "retrieved_at": "2026-11-04T10:46:57.308954+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/16d617689a3af7bc99152a01f16070da75be356b12e84dc0c4be7d11ba16525a.webp"
+    },
+    {
+      "story_id": "cyprus-registered-unemployment-october-2026",
+      "identity": "cyprus-registered-unemployment-october-2026",
+      "edition_id": "2026-11-04-midday",
+      "date": "2026-11-04",
+      "slot": "midday",
+      "published_at": "2026-11-04T11:36:37.120845+00:00",
+      "available_at": "2026-11-04T11:36:37.120845+00:00",
+      "headline": "Στους 7.790 οι εγγεγραμμένοι άνεργοι τον Οκτώβριο, αύξηση 9,7% σε ένα έτος",
+      "finding": "Στο τέλος Οκτωβρίου η Κύπρος είχε 7.790 εγγεγραμμένους ανέργους, 691 περισσότερους από τον Οκτώβριο του 2025, σύμφωνα με στοιχεία της Στατιστικής Υπηρεσίας που δημοσιεύθηκαν στις 4 Νοεμβρίου και μετέδωσε ο Φιλελεύθερος. Στη χωριστή, εποχικά διορθωμένη σειρά, οι εγγεγραμμένοι μειώθηκαν σε 10.711 από 10.741 τον Σεπτέμβριο: η μηνιαία μεταβολή και η ετήσια σύγκριση αφορούν διαφορετικές βάσεις.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-04-midday/cyprus-registered-unemployment-october-2026.json",
+      "reader_url": "articles/2026-11-04-midday/cyprus-registered-unemployment-october-2026.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1790931/engegrammeni-anergi-afxisi-97-ton-oktovrio-sta-7-790-atoma-o-arithmos-tous",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-04T10:44:38+00:00",
+          "retrieved_at": "2026-11-04T10:46:57.560524+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0d4bc2227be803d88ce51a3fba79026d68ba5964a789250683b458c25433a892.webp"
+    },
+    {
+      "story_id": "cyprus-cbd-products-cannabinoids-warning-2026-11-04",
+      "identity": "cyprus-cbd-products-cannabinoids-warning-2026-11-04",
+      "edition_id": "2026-11-04-midday",
+      "date": "2026-11-04",
+      "slot": "midday",
+      "published_at": "2026-11-04T11:36:37.120845+00:00",
+      "available_at": "2026-11-04T11:36:37.120845+00:00",
+      "headline": "Προειδοποίηση για κανναβινοειδή σε κατασχεμένα προϊόντα καταστήματος CBD",
+      "finding": "Η Αρχή Αντιμετώπισης Εξαρτήσεων Κύπρου εξέδωσε προειδοποίηση μετά τον εντοπισμό νέων κανναβινοειδών σε προϊόντα που κατασχέθηκαν σε έλεγχο καταστήματος, μεταδίδει η Cyprus Mail στις 4 Νοεμβρίου. Μεταξύ των κατασχεθέντων ήταν υγρά ηλεκτρονικού τσιγάρου και φυτικά προϊόντα· σε ένα υγρό ανιχνεύθηκαν έξι διαφορετικά κανναβινοειδή, εύρημα που η Αρχή συνδέει με τον κίνδυνο οι καταναλωτές να αγνοούν την πραγματική σύνθεση.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-04-midday/cyprus-cbd-products-cannabinoids-warning-2026-11-04.json",
+      "reader_url": "articles/2026-11-04-midday/cyprus-cbd-products-cannabinoids-warning-2026-11-04.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/04/warning-issued-after-new-cannabinoids-found-in-products-seized-from-cbd-shop",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-04T10:34:09+00:00",
+          "retrieved_at": "2026-11-04T10:46:57.504002+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/122d82c5bdeff0510c0b6bc2b83f09f40795b429ed71f90af4feac73b290849c.webp"
+    },
+    {
+      "story_id": "mika-stojsavljevic-first-wta-win-2026-11-04",
+      "identity": "mika-stojsavljevic-first-wta-win-2026-11-04",
+      "edition_id": "2026-11-04-midday",
+      "date": "2026-11-04",
+      "slot": "midday",
+      "published_at": "2026-11-04T11:36:37.120845+00:00",
+      "available_at": "2026-11-04T11:36:37.120845+00:00",
+      "headline": "Πρώτη νίκη σε κυρίως ταμπλό WTA για τη 17χρονη Στοϊσάβλιεβιτς",
+      "finding": "Η Μίκα Στοϊσάβλιεβιτς νίκησε την πρώην πρωταθλήτρια του Australian Open Σοφία Κένιν με 6–3, 4–6, 6–4, έχοντας ειδοποιηθεί μόλις μία ώρα πριν ότι θα αγωνιστεί, αναφέρει το BBC στις 4 Νοεμβρίου.",
+      "section": "sports",
+      "priority": 6,
+      "article_path": "articles/2026-11-04-midday/mika-stojsavljevic-first-wta-win-2026-11-04.json",
+      "reader_url": "articles/2026-11-04-midday/mika-stojsavljevic-first-wta-win-2026-11-04.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cvglw70n41d7o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-04T10:06:10+00:00",
+          "retrieved_at": "2026-11-04T10:47:04.532025+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/00b92d17d5715888db7ba8c52757a479558efba64cc256dca25a31ce0265c1bd.webp"
+    },
+    {
+      "story_id": "malliotakis-ny11-reelection-2026-11-04",
+      "identity": "malliotakis-ny11-reelection-2026-11-04",
+      "edition_id": "2026-11-04-midday",
+      "date": "2026-11-04",
+      "slot": "midday",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-04T11:36:37.120845+00:00",
+      "headline": "Νέα Υόρκη: το Philenews αναφέρει επανεκλογή της Νικόλ Μαλλιωτάκη",
+      "finding": "Η Ρεπουμπλικανή Νικόλ Μαλλιωτάκη επανεξελέγη στη Βουλή των Αντιπροσώπων στην 11η περιφέρεια της Νέας Υόρκης, σύμφωνα με το Philenews. Το ενδιαφέρον για την Κύπρο αφορά τις προηγούμενες πρωτοβουλίες της για την Ελλάδα και την Κύπρο, τις οποίες αναφέρει το δημοσίευμα. Η επανεκλογή σε μία περιφέρεια δεν συνεπάγεται νέα δέσμευση των ΗΠΑ ή αλλαγή πολιτικής.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-04-midday/malliotakis-ny11.json",
+      "reader_url": "articles/2026-11-04-midday/malliotakis-ny11.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kosmos/article/1790704/nea-eklogiki-niki-gia-ti-nikol-malliotaki-sti-nea-iorki-i-schesi-me-ton-trab-ke-i-paremvasis-gia-ta-f-35-ke-tin-kipro",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-04T04:07:04+00:00",
+          "retrieved_at": "2026-11-04T04:20:54.085300+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/46a0b0d2f9b2794d36ef16076f2308ad2fa2b16709bce8adfa5bd6deaa31d1ac.webp"
+    },
+    {
+      "story_id": "south-africa-local-elections-2026-11-04",
+      "identity": "south-africa-local-elections-2026-11-04",
+      "edition_id": "2026-11-04-midday",
+      "date": "2026-11-04",
+      "slot": "midday",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-04T11:36:37.120845+00:00",
+      "headline": "Νότια Αφρική: δημοτικές εκλογές με φόντο προβλήματα ύδρευσης και ρεύματος",
+      "finding": "Ο Guardian αναφέρει ότι οι ψηφοφόροι προσέρχονται στις κάλπες για τις τοπικές εκλογές της Τετάρτης, με τη δυσαρέσκεια για διακοπές νερού και ηλεκτροδότησης στο επίκεντρο. Το δημοσίευμα εκτιμά ότι το Αφρικανικό Εθνικό Κογκρέσο μπορεί να υποχωρήσει, παραμένοντας το μεγαλύτερο κόμμα. Αυτή είναι εκτίμηση πριν από τα αποτελέσματα και δεν τεκμηριώνει συγκεκριμένη σύνθεση δημοτικών αρχών.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-04-midday/south-africa-local-vote.json",
+      "reader_url": "articles/2026-11-04-midday/south-africa-local-vote.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-04T04:00:23+00:00",
+          "retrieved_at": "2026-11-04T04:20:54.302781+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/fa94a17e6c293a3ffbb21198b436dc1951b230e6f1b999908d937d44c8b42668.webp"
+    },
+    {
+      "story_id": "invest-cyprus-export-remit-2026-11-04",
+      "identity": "invest-cyprus-export-remit-2026-11-04",
+      "edition_id": "2026-11-04-midday",
+      "date": "2026-11-04",
+      "slot": "midday",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-04T11:36:37.120845+00:00",
+      "headline": "Η κυβέρνηση εξετάζει νέες αρμοδιότητες εξαγωγών για τον Invest Cyprus",
+      "finding": "Ο Πρόεδρος Νίκος Χριστοδουλίδης δήλωσε ότι η κυβέρνηση εξετάζει να αναθέσει στον Invest Cyprus πρόσθετες αρμοδιότητες, με έμφαση στην προώθηση των κυπριακών εξαγωγών, σύμφωνα με το Sigmalive. Ανέφερε ότι έγινε πρώτη συζήτηση στο Υπουργικό Συμβούλιο. Ο οργανισμός, χωριστά, προανήγγειλε παρουσίαση της στρατηγικής του για την περίοδο 2027–2030 μέσα στους επόμενους μήνες.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-04-midday/invest-cyprus-exports.json",
+      "reader_url": "articles/2026-11-04-midday/invest-cyprus-exports.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1336084/ptd-se-invest-cyprus-skeftomaste-na-sas-dwsoyme-ki-alles-armodiotites",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-03T21:52:31+00:00",
+          "retrieved_at": "2026-11-04T04:20:54.203428+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/9cd34254a210944427bd6a5eea402c606225db9c630694683d897b8c5edf46d3.webp"
+    },
+    {
+      "story_id": "paphos-polish-wedding-tourism-2026-11-03",
+      "identity": "paphos-polish-wedding-tourism-2026-11-03",
+      "edition_id": "2026-11-04-midday",
+      "date": "2026-11-04",
+      "slot": "midday",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-04T11:36:37.120845+00:00",
+      "headline": "Πάφος: επίσκεψη πέντε Πολωνών επαγγελματιών του γαμήλιου τουρισμού",
+      "finding": "Πέντε διοργανωτές γάμων από την Πολωνία επισκέπτονται την Πάφο από τις 2 έως τις 5 Νοεμβρίου, σύμφωνα με το Cyprus Mail. Η ΕΤΑΠ Πάφου οργανώνει την επίσκεψη ώστε οι επαγγελματίες να γνωρίσουν χώρους και υπηρεσίες για γάμους και ταξίδια του μέλιτος. Το δημοσίευμα αφορά δράση προβολής στην πολωνική αγορά, χωρίς στοιχεία για νέες κρατήσεις ή έσοδα.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-04-midday/paphos-wedding-tourism.json",
+      "reader_url": "articles/2026-11-04-midday/paphos-wedding-tourism.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/03/say-i-do-in-paphos-polish-planners-courted-for-wedding-boom",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-03T16:14:56+00:00",
+          "retrieved_at": "2026-11-04T04:20:54.356303+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/cc048936b283149f35651dbea736409e2ba58f8cac42915d7cdc522f5d0875d5.webp"
+    },
+    {
+      "story_id": "doha-world-padel-2026-11-02",
+      "identity": "doha-world-padel-2026-11-02",
+      "edition_id": "2026-11-04-midday",
+      "date": "2026-11-04",
+      "slot": "midday",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-04T11:36:37.120845+00:00",
+      "headline": "Παγκόσμιο padel: ολοκληρώνεται η φάση των ομίλων στη Ντόχα",
+      "finding": "Η τρίτη και τελευταία αγωνιστική της φάσης των ομίλων διεξάγεται την Τετάρτη 4 Νοεμβρίου στη Ντόχα, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-04-midday/doha-padel-groups.json",
+      "reader_url": "articles/2026-11-04-midday/doha-padel-groups.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/tercera-jornada-mundial-padel-2026-partidos-horarios-retransmision",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-03T22:23:59+00:00",
+          "retrieved_at": "2026-11-04T04:20:59.238629+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/b806d4e02d9b7751dc134acaa7ae44f2d7eb0dff33686c065566a6836a34261b.webp"
+    },
+    {
+      "story_id": "tenerife-de-miguel-tributes-2026-11-04",
+      "identity": "tenerife-de-miguel-tributes-2026-11-04",
+      "edition_id": "2026-11-04-midday",
+      "date": "2026-11-04",
+      "slot": "midday",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-04T11:36:37.120845+00:00",
+      "headline": "Αφιερώματα στη μνήμη του Χεσούς δε Μιγκέλ",
+      "finding": "Το BBC αναφέρει ότι φίλαθλοι άφησαν λουλούδια και άναψαν κεριά στη μνήμη του επιθετικού της Τενερίφης. Τηρήθηκε επίσης ενός λεπτού σιγή πριν από το Μπαρτσελόνα–Άστον Βίλα.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-04-midday/tenerife-tributes.json",
+      "reader_url": "articles/2026-11-04-midday/tenerife-tributes.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6djv011mzlyo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-03T23:37:12+00:00",
+          "retrieved_at": "2026-11-04T04:20:59.393651+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/e4f2f98f39838231d96490136e51fdfb9d12410b235a9a8ae72b396cf24a6941.webp"
     },
     {
       "story_id": "us-midterms-congress-voting-2026-11-03",
