@@ -465,6 +465,14 @@
       "published_at": "2026-11-03T05:36:26.687782+00:00",
       "url": "morning/2026-11-03.html",
       "fingerprint": "1333eab01f326fd6c4e7f81ce7f70015e0885d25407a672a1208246f1d4c0b98"
+    },
+    {
+      "id": "2026-11-04-morning",
+      "date": "2026-11-04",
+      "type": "morning",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "url": "morning/2026-11-04.html",
+      "fingerprint": "dd8a25b86ce77a5ec67dadff62b69de9c782a83067a04d6dba15fc5538abf7b5"
     }
   ],
   "stories": [
@@ -16664,6 +16672,249 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/73704abb9d0148bfa66c311923d1efc09305629b6867ed37638a97c021bf9836.webp"
+    },
+    {
+      "story_id": "us-midterms-congress-voting-2026-11-03",
+      "identity": "us-midterms-congress-voting-2026-11-03",
+      "edition_id": "2026-11-04-morning",
+      "date": "2026-11-04",
+      "slot": "morning",
+      "published_at": "2026-11-03T17:36:28.934079+00:00",
+      "available_at": "2026-11-04T05:33:43.055110+00:00",
+      "headline": "Ενδιάμεσες εκλογές ΗΠΑ: ο Guardian δίνει τη Γερουσία του Τέξας στον Ταλαρίκο",
+      "finding": "Ο Guardian μεταδίδει ότι ο Δημοκρατικός Τζέιμς Ταλαρίκο επικράτησε του Ρεπουμπλικανού Κεν Πάξτον στην αναμέτρηση για μία έδρα της Γερουσίας στο Τέξας. Κατά το ίδιο μέσο, είναι η πρώτη νίκη Δημοκρατικού σε εκλογή για τη Γερουσία στην πολιτεία από το 1988. Το απόσπασμα δεν δίνει τελικό αριθμό ψήφων ή επίσημη πιστοποίηση.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-04-morning/us-midterms-texas.json",
+      "reader_url": "articles/2026-11-04-morning/us-midterms-texas.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-04T04:17:56+00:00",
+          "retrieved_at": "2026-11-04T04:20:54.016342+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7cf753b024bd7866470f0f03194f8c56c12bb1c95f6f763eb5910e1519105a2e.webp"
+    },
+    {
+      "story_id": "malliotakis-ny11-reelection-2026-11-04",
+      "identity": "malliotakis-ny11-reelection-2026-11-04",
+      "edition_id": "2026-11-04-morning",
+      "date": "2026-11-04",
+      "slot": "morning",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-04T05:33:43.055110+00:00",
+      "headline": "Νέα Υόρκη: το Philenews αναφέρει επανεκλογή της Νικόλ Μαλλιωτάκη",
+      "finding": "Η Ρεπουμπλικανή Νικόλ Μαλλιωτάκη επανεξελέγη στη Βουλή των Αντιπροσώπων στην 11η περιφέρεια της Νέας Υόρκης, σύμφωνα με το Philenews. Το ενδιαφέρον για την Κύπρο αφορά τις προηγούμενες πρωτοβουλίες της για την Ελλάδα και την Κύπρο, τις οποίες αναφέρει το δημοσίευμα. Η επανεκλογή σε μία περιφέρεια δεν συνεπάγεται νέα δέσμευση των ΗΠΑ ή αλλαγή πολιτικής.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-04-morning/malliotakis-ny11.json",
+      "reader_url": "articles/2026-11-04-morning/malliotakis-ny11.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kosmos/article/1790704/nea-eklogiki-niki-gia-ti-nikol-malliotaki-sti-nea-iorki-i-schesi-me-ton-trab-ke-i-paremvasis-gia-ta-f-35-ke-tin-kipro",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-04T04:07:04+00:00",
+          "retrieved_at": "2026-11-04T04:20:54.085300+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/46a0b0d2f9b2794d36ef16076f2308ad2fa2b16709bce8adfa5bd6deaa31d1ac.webp"
+    },
+    {
+      "story_id": "south-africa-local-elections-2026-11-04",
+      "identity": "south-africa-local-elections-2026-11-04",
+      "edition_id": "2026-11-04-morning",
+      "date": "2026-11-04",
+      "slot": "morning",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-04T05:33:43.055110+00:00",
+      "headline": "Νότια Αφρική: δημοτικές εκλογές με φόντο προβλήματα ύδρευσης και ρεύματος",
+      "finding": "Ο Guardian αναφέρει ότι οι ψηφοφόροι προσέρχονται στις κάλπες για τις τοπικές εκλογές της Τετάρτης, με τη δυσαρέσκεια για διακοπές νερού και ηλεκτροδότησης στο επίκεντρο. Το δημοσίευμα εκτιμά ότι το Αφρικανικό Εθνικό Κογκρέσο μπορεί να υποχωρήσει, παραμένοντας το μεγαλύτερο κόμμα. Αυτή είναι εκτίμηση πριν από τα αποτελέσματα και δεν τεκμηριώνει συγκεκριμένη σύνθεση δημοτικών αρχών.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-04-morning/south-africa-local-vote.json",
+      "reader_url": "articles/2026-11-04-morning/south-africa-local-vote.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-04T04:00:23+00:00",
+          "retrieved_at": "2026-11-04T04:20:54.302781+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/fa94a17e6c293a3ffbb21198b436dc1951b230e6f1b999908d937d44c8b42668.webp"
+    },
+    {
+      "story_id": "invest-cyprus-export-remit-2026-11-04",
+      "identity": "invest-cyprus-export-remit-2026-11-04",
+      "edition_id": "2026-11-04-morning",
+      "date": "2026-11-04",
+      "slot": "morning",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-04T05:33:43.055110+00:00",
+      "headline": "Η κυβέρνηση εξετάζει νέες αρμοδιότητες εξαγωγών για τον Invest Cyprus",
+      "finding": "Ο Πρόεδρος Νίκος Χριστοδουλίδης δήλωσε ότι η κυβέρνηση εξετάζει να αναθέσει στον Invest Cyprus πρόσθετες αρμοδιότητες, με έμφαση στην προώθηση των κυπριακών εξαγωγών, σύμφωνα με το Sigmalive. Ανέφερε ότι έγινε πρώτη συζήτηση στο Υπουργικό Συμβούλιο. Ο οργανισμός, χωριστά, προανήγγειλε παρουσίαση της στρατηγικής του για την περίοδο 2027–2030 μέσα στους επόμενους μήνες.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-04-morning/invest-cyprus-exports.json",
+      "reader_url": "articles/2026-11-04-morning/invest-cyprus-exports.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1336084/ptd-se-invest-cyprus-skeftomaste-na-sas-dwsoyme-ki-alles-armodiotites",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-03T21:52:31+00:00",
+          "retrieved_at": "2026-11-04T04:20:54.203428+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/9cd34254a210944427bd6a5eea402c606225db9c630694683d897b8c5edf46d3.webp"
+    },
+    {
+      "story_id": "elam-leadership-election-2026-11-04",
+      "identity": "elam-leadership-election-2026-11-04",
+      "edition_id": "2026-11-04-morning",
+      "date": "2026-11-04",
+      "slot": "morning",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-04T05:33:43.055110+00:00",
+      "headline": "ΕΛΑΜ: επανεκλογή Χρίστου χωρίς αντίπαλο, εκκρεμούν οι αντιπροεδρίες",
+      "finding": "Ο Χρίστος Χρίστου επανεξελέγη στην προεδρία του ΕΛΑΜ χωρίς ανθυποψήφιο, όπως και ο Πέτρος Κουντουρέσιης στη θέση του αναπληρωτή προέδρου, σύμφωνα με το Philenews. Επτά υποψήφιοι διεκδικούν τις τρεις θέσεις αντιπροέδρων στην ψηφοφορία της 28ης Νοεμβρίου. Η ψηφοφορία αυτή αφορά την κομματική ηγεσία και δεν συνιστά επιλογή υποψηφίου για την προεδρία της Δημοκρατίας.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-04-morning/elam-leadership.json",
+      "reader_url": "articles/2026-11-04-morning/elam-leadership.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1790530/to-elam-ke-to-klidi-ton-proedrikon-eklogon-i-dio-scholes-skepsis-o-christou-xana-stin-proedria-tou-kommatos",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-04T04:03:00+00:00",
+          "retrieved_at": "2026-11-04T04:20:54.082487+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/af823ca8162a55cb633cce0d15f0714a5b2e63d821f454f8e69b44c9384488d9.webp"
+    },
+    {
+      "story_id": "paphos-polish-wedding-tourism-2026-11-03",
+      "identity": "paphos-polish-wedding-tourism-2026-11-03",
+      "edition_id": "2026-11-04-morning",
+      "date": "2026-11-04",
+      "slot": "morning",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-04T05:33:43.055110+00:00",
+      "headline": "Πάφος: επίσκεψη πέντε Πολωνών επαγγελματιών του γαμήλιου τουρισμού",
+      "finding": "Πέντε διοργανωτές γάμων από την Πολωνία επισκέπτονται την Πάφο από τις 2 έως τις 5 Νοεμβρίου, σύμφωνα με το Cyprus Mail. Η ΕΤΑΠ Πάφου οργανώνει την επίσκεψη ώστε οι επαγγελματίες να γνωρίσουν χώρους και υπηρεσίες για γάμους και ταξίδια του μέλιτος. Το δημοσίευμα αφορά δράση προβολής στην πολωνική αγορά, χωρίς στοιχεία για νέες κρατήσεις ή έσοδα.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-04-morning/paphos-wedding-tourism.json",
+      "reader_url": "articles/2026-11-04-morning/paphos-wedding-tourism.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/03/say-i-do-in-paphos-polish-planners-courted-for-wedding-boom",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-03T16:14:56+00:00",
+          "retrieved_at": "2026-11-04T04:20:54.356303+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/cc048936b283149f35651dbea736409e2ba58f8cac42915d7cdc522f5d0875d5.webp"
+    },
+    {
+      "story_id": "doha-world-padel-2026-11-02",
+      "identity": "doha-world-padel-2026-11-02",
+      "edition_id": "2026-11-04-morning",
+      "date": "2026-11-04",
+      "slot": "morning",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-04T05:33:43.055110+00:00",
+      "headline": "Παγκόσμιο padel: ολοκληρώνεται η φάση των ομίλων στη Ντόχα",
+      "finding": "Η τρίτη και τελευταία αγωνιστική της φάσης των ομίλων διεξάγεται την Τετάρτη 4 Νοεμβρίου στη Ντόχα, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-04-morning/doha-padel-groups.json",
+      "reader_url": "articles/2026-11-04-morning/doha-padel-groups.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/tercera-jornada-mundial-padel-2026-partidos-horarios-retransmision",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-03T22:23:59+00:00",
+          "retrieved_at": "2026-11-04T04:20:59.238629+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/b806d4e02d9b7751dc134acaa7ae44f2d7eb0dff33686c065566a6836a34261b.webp"
+    },
+    {
+      "story_id": "tenerife-de-miguel-tributes-2026-11-04",
+      "identity": "tenerife-de-miguel-tributes-2026-11-04",
+      "edition_id": "2026-11-04-morning",
+      "date": "2026-11-04",
+      "slot": "morning",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-04T05:33:43.055110+00:00",
+      "headline": "Αφιερώματα στη μνήμη του Χεσούς δε Μιγκέλ",
+      "finding": "Το BBC αναφέρει ότι φίλαθλοι άφησαν λουλούδια και άναψαν κεριά στη μνήμη του επιθετικού της Τενερίφης. Τηρήθηκε επίσης ενός λεπτού σιγή πριν από το Μπαρτσελόνα–Άστον Βίλα.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-04-morning/tenerife-tributes.json",
+      "reader_url": "articles/2026-11-04-morning/tenerife-tributes.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6djv011mzlyo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-03T23:37:12+00:00",
+          "retrieved_at": "2026-11-04T04:20:59.393651+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/e4f2f98f39838231d96490136e51fdfb9d12410b235a9a8ae72b396cf24a6941.webp"
+    },
+    {
+      "story_id": "jodie-burrage-online-threats-2026-11-04",
+      "identity": "jodie-burrage-online-threats-2026-11-04",
+      "edition_id": "2026-11-04-morning",
+      "date": "2026-11-04",
+      "slot": "morning",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-04T05:33:43.055110+00:00",
+      "headline": "Τένις: η Μπάρατζ δημοσιοποίησε απειλές μετά την επιστροφή της",
+      "finding": "Η Τζόντι Μπάρατζ δέχθηκε απειλές και υβριστικά μηνύματα μετά την ήττα της στον πρώτο αγώνα της σε κυρίως ταμπλό της WTA έπειτα από 16 μήνες, σύμφωνα με το BBC.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-04-morning/burrage-threats.json",
+      "reader_url": "articles/2026-11-04-morning/burrage-threats.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cq62y9yzgzgeo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-03T20:26:12+00:00",
+          "retrieved_at": "2026-11-04T04:20:59.517930+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ac10748002e99ea792cdb65b18929e1439fe3119133a5be50321cf74323a75a0.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
