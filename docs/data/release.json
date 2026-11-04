@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "release_id": "d205115298012da68afc2f2c0ded8cdcaf40dc173fdb61b50aaf26c532eeba69",
+  "release_id": "6eecc90c12bbaeb6f808cfca1496ac2c02dff1a6af32dda9d1be8386c6711e62",
   "edition_ids": [
     "2026-11-04-midday",
     "2026-11-04-morning",
@@ -746,7 +746,7 @@
     "scripts/v2/collect.py": "dbe47f6e40bfb8ff5b6c34847483f6c57edea98f0631b50036930b4a94cb7815",
     "scripts/v2/compact_markets.py": "cff01a21a267a6e3ac145ac6357e807b001f46b326a904e76572f986f31236b1",
     "scripts/v2/compose.py": "73dbb60fb94563577bd841dfbdd1dce3caaf73db93c57ec8a4c3d32d4c3b5ea8",
-    "scripts/v2/context_view.py": "18b6ce698e420b62318638cb97e3c9c9f716ca425ed98f4567fd798cf325da9e",
+    "scripts/v2/context_view.py": "6add0b925fdc73b5a28e586ee92a077b2b77ae7f822ca2185a5447ed1763ad4b",
     "scripts/v2/continuity.py": "69a17b0da72d4175dda063d21102332d45f87e4c24f66f762ff6f576229bc4d4",
     "scripts/v2/daily.py": "e73718cde04fcfa4746e303dc3f150f90fc870607c5df45f1dc665311451cb10",
     "scripts/v2/editorial.py": "6a77cf4e85c5456b2bc8fbebe02a02fedd48f5f6c9c2d07d669f9229c01204e5",
@@ -812,7 +812,7 @@
     "tests/test_omonoia_sources.py": "515dc008b965212f4f14e123f2a6b92e3040ac9a51860dce86e52dba6994940c",
     "tests/test_opportunities.py": "5fa779ce501fbcf67bfcf2676a4f295ff568ef2ce17ebd6b3cdff0d5596fb1e0",
     "tests/test_photos_and_sports.py": "db9216f6a0fe9a81abcddfbe85e556cc054d04560ed44e94f723bd65666a399b",
-    "tests/test_prepare_run.py": "3cb723cc439ac61307ae1a8373c25220298e3f2139ce7c426e4594d4350def2d",
+    "tests/test_prepare_run.py": "af049b0061c6b48e1368157507bbb3e5a6a48e76623c49798739e0c2a7c6e4c3",
     "tests/test_reading_policy.py": "b829a0dad1fe60b977905f169ec012b72670808b9e3d62d61058e8280710e0f0",
     "tests/test_release.py": "e69fc1e6c8981d357c53ac6de51cdf1ae9f267b0c224573a8e9f7ea145503a59",
     "tests/test_reused_photo_preparation.py": "2ca59c5ca3b5d5636d73ee8a024e863fcb984f649d1fe8302d8e12057f491ec5",
