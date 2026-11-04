@@ -39,6 +39,36 @@ class HandoffTests(unittest.TestCase):
         after={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'content').rglob('*.json')}
         self.assertEqual(before,after)
 
+    def test_large_routine_projection_keeps_reserved_article_evidence(self):
+        view=handoff.module('context_view')
+        report='Η ανακοίνωση αφορά τη νέα διαδικασία και περιλαμβάνει συγκεκριμένα στοιχεία για την εφαρμογή της. '
+        lanes=('omonoia','manutd','realmadrid','formula1','padel','football','other')
+        candidates=[]
+        for section,entries in [('cyprus',[None]*5),('world',[None]*5),('sports',lanes)]:
+            for lane in entries:
+                i=len(candidates)+1
+                candidates.append(dict(id=f'c{i}',section=section,title='Νέα ανακοίνωση',sports_lane=lane,
+                    evidence=[dict(id=f'e{i}',access='article_excerpt',sports_lane=lane,excerpt=report*20,
+                                   source=dict(url=f'https://example.org/{i}',publisher='Fixture'))]))
+        original=dict(edition_id='2026-11-04-evening',prepared_at='2026-11-04T17:00:00+00:00',
+            sha256='fixture',weather_status='available',candidates=candidates,
+            baseline_stories=[dict(story_id='prior-news',headline='Προηγούμενη είδηση',finding=report)],
+            data=dict(markets=[],panels=[dict(paragraphs=[report*130])],
+                      sports=dict(briefing_policy='intelligence-v1',
+                                  coverage={'manutd':{'just_played':True}})))
+        digest=view.synthesis(original)
+        self.assertLessEqual(len(digest.encode('utf-8')),48000)
+        self.assertIn('## Compact routine context',digest)
+        self.assertIn('Sports just_played: {"manutd":true}',digest)
+        self.assertIn('"story_id":"prior-news"',digest)
+        self.assertIn('Visible article-backed candidates by desk: {"cyprus":5,"world":5,"sports":7}',digest)
+        self.assertTrue(all(f'"id":"e{i}"' in digest for i in range(1,18)))
+        self.assertEqual(original['data']['panels'][0]['paragraphs'],[report*130])
+        original['data']['panels']=[]
+        self.assertIn('## Python market table',view.synthesis(original))
+        with self.assertRaisesRegex(ValueError,'Reserved news/sports evidence'):
+            view.synthesis(original,max_bytes=3000)
+
     def test_public_or_symlinked_private_storage_is_rejected_before_collection(self):
         for path in [ROOT,ROOT/'docs',ROOT/'content']:
             with self.subTest(path=path),self.assertRaisesRegex(ValueError,'outside the public'):
