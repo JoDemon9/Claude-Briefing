@@ -73,6 +73,7 @@ def synthesis(pack,max_bytes=48000):
         view={k:v for k,v in story.items() if k!='identity' or v!=story.get('story_id')}
         view['finding']=short(story.get('finding',''),160 if modern else 240)
         lines.append(json.dumps(view,ensure_ascii=False,separators=(',',':')))
+    routine_start=len(lines)
     lines.append('\n## Python market table: instrument | value | change_pct | quoted_at | status'+(' | session' if enriched else ''))
     for q in pack['data']['markets']:
         keys=('instrument','value','change_pct','quoted_at','status')+(('session',) if enriched else ())
@@ -106,6 +107,7 @@ def synthesis(pack,max_bytes=48000):
     else:
         lines.append('Routine source refs (provider provenance, not article @Evidence): '+json.dumps(
             {alias:{'url':url,'retrieved_at':at} for (url,at),alias in routine_sources.items()},ensure_ascii=False,separators=(',',':')))
+    routine_end=len(lines)
     lines.append('\n## Candidate excerpts (only @Evidence article_excerpt can support claims)')
     lines.append('Priority hints are deterministic discovery aids, not editorial verdicts or story identity. Choose consequence over recency; verify geography. Excerpts are character-bounded, not full articles. Use a targeted search only for a decisive missing fact or an independent check.')
     # Reserve news breadth AND one article per sports lane before alternatives.
@@ -159,7 +161,22 @@ def synthesis(pack,max_bytes=48000):
                 blocks=primary_blocks(lead_limit,secondary_limit)
                 if fits([line for block in blocks[:len(protected)] for line in block]):break
             else:
-                raise ValueError('Reserved news/sports evidence exceeds single-read budget')
+                # Full routine data is already in the sealed pack and is rendered
+                # by Python. Trade that projection space for readable evidence.
+                status={key:card.get('just_played') for key,card in pack['data']['sports']['coverage'].items()}
+                routine=['\n## Compact routine context',
+                         'Detailed market, weather and sports tables remain in the sealed pack and public output; omitted here to preserve article evidence.',
+                         'Weather: '+pack['weather_status'],
+                         'Sports just_played: '+encoded(status)]
+                if enriched:
+                    routine.append('Market alerts (provider observations, no inferred cause): '+encoded([
+                        {k:a[k] for k in ('instrument','change_pct','quoted_at','status','session','priority')} for a in alerts[:3]]))
+                lines[routine_start:routine_end]=routine
+                for lead_limit,secondary_limit in sizes:
+                    blocks=primary_blocks(lead_limit,secondary_limit)
+                    if fits([line for block in blocks[:len(protected)] for line in block]):break
+                else:
+                    raise ValueError('Reserved news/sports evidence exceeds single-read budget')
     included=[]
     for candidate,block in zip(ordered,blocks):
         if fits(block):
