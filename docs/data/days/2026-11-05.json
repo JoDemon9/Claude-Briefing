@@ -10,13 +10,18 @@
       "type": "morning",
       "url": "morning/2026-11-05.html",
       "published_at": "2026-11-05T05:29:53.650985+00:00"
+    },
+    {
+      "id": "2026-11-05-midday",
+      "type": "midday",
+      "url": "midday/2026-11-05.html",
+      "published_at": "2026-11-05T11:33:52.119478+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "big-tech-post-midterms-rally-2026-11-04",
+  "lead_story_id": "republican-iran-war-election-reckoning-2026-11-05",
   "stories": [
     {
       "story_id": "big-tech-post-midterms-rally-2026-11-04",
@@ -28,13 +33,40 @@
           "article_id": "big-tech-post-midterms-rally-2026-11-04",
           "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
           "url": "articles/2026-11-05-morning/big-tech-post-midterms-rally-2026-11-04.html"
+        },
+        {
+          "edition_id": "2026-11-05-midday",
+          "article_id": "big-tech-post-midterms-rally-2026-11-04",
+          "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
+          "url": "articles/2026-11-05-midday/big-tech-post-midterms-rally-2026-11-04.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-05-morning",
+        "edition_id": "2026-11-05-midday",
         "article_id": "big-tech-post-midterms-rally-2026-11-04",
         "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
-        "url": "articles/2026-11-05-morning/big-tech-post-midterms-rally-2026-11-04.html"
+        "url": "articles/2026-11-05-midday/big-tech-post-midterms-rally-2026-11-04.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "republican-iran-war-election-reckoning-2026-11-05",
+      "first_seen_at": "2026-11-05T11:33:52.119478+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-midday",
+          "article_id": "republican-iran-war-election-reckoning-2026-11-05",
+          "source_story_id": "republican-iran-war-election-reckoning-2026-11-05",
+          "url": "articles/2026-11-05-midday/republican-iran-war-election-reckoning-2026-11-05.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "republican-iran-war-election-reckoning-2026-11-05",
+        "source_story_id": "republican-iran-war-election-reckoning-2026-11-05",
+        "url": "articles/2026-11-05-midday/republican-iran-war-election-reckoning-2026-11-05.html"
       },
       "section": "world",
       "priority": 1
@@ -49,16 +81,64 @@
           "article_id": "google-calendar-session-phishing-2026-11-04",
           "source_story_id": "google-calendar-session-phishing-2026-11-04",
           "url": "articles/2026-11-05-morning/google-calendar-session-phishing-2026-11-04.html"
+        },
+        {
+          "edition_id": "2026-11-05-midday",
+          "article_id": "google-calendar-session-phishing-2026-11-04",
+          "source_story_id": "google-calendar-session-phishing-2026-11-04",
+          "url": "articles/2026-11-05-midday/google-calendar-session-phishing-2026-11-04.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-05-morning",
+        "edition_id": "2026-11-05-midday",
         "article_id": "google-calendar-session-phishing-2026-11-04",
         "source_story_id": "google-calendar-session-phishing-2026-11-04",
-        "url": "articles/2026-11-05-morning/google-calendar-session-phishing-2026-11-04.html"
+        "url": "articles/2026-11-05-midday/google-calendar-session-phishing-2026-11-04.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "yemen-government-offensive-2026-10-05",
+      "first_seen_at": "2026-11-05T11:33:52.119478+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-midday",
+          "article_id": "yemen-government-offensive-2026-10-05",
+          "source_story_id": "yemen-government-offensive-2026-10-05",
+          "url": "articles/2026-11-05-midday/yemen-government-offensive-2026-10-05.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "yemen-government-offensive-2026-10-05",
+        "source_story_id": "yemen-government-offensive-2026-10-05",
+        "url": "articles/2026-11-05-midday/yemen-government-offensive-2026-10-05.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "cyprus-holguin-announcements-2026-11-05",
+      "first_seen_at": "2026-11-05T11:33:52.119478+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-midday",
+          "article_id": "cyprus-holguin-announcements-2026-11-05",
+          "source_story_id": "cyprus-holguin-announcements-2026-11-05",
+          "url": "articles/2026-11-05-midday/cyprus-holguin-announcements-2026-11-05.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "cyprus-holguin-announcements-2026-11-05",
+        "source_story_id": "cyprus-holguin-announcements-2026-11-05",
+        "url": "articles/2026-11-05-midday/cyprus-holguin-announcements-2026-11-05.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "us-midterms-congress-voting-2026-11-03",
@@ -70,16 +150,43 @@
           "article_id": "us-midterms-congress-voting-2026-11-03",
           "source_story_id": "us-midterms-congress-voting-2026-11-03",
           "url": "articles/2026-11-05-morning/us-midterms-congress-voting-2026-11-03.html"
+        },
+        {
+          "edition_id": "2026-11-05-midday",
+          "article_id": "us-midterms-congress-voting-2026-11-03",
+          "source_story_id": "us-midterms-congress-voting-2026-11-03",
+          "url": "articles/2026-11-05-midday/us-midterms-congress-voting-2026-11-03.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-05-morning",
+        "edition_id": "2026-11-05-midday",
         "article_id": "us-midterms-congress-voting-2026-11-03",
         "source_story_id": "us-midterms-congress-voting-2026-11-03",
-        "url": "articles/2026-11-05-morning/us-midterms-congress-voting-2026-11-03.html"
+        "url": "articles/2026-11-05-midday/us-midterms-congress-voting-2026-11-03.html"
       },
       "section": "world",
       "priority": 3
+    },
+    {
+      "story_id": "bank-of-cyprus-nine-month-results-2026-11-05",
+      "first_seen_at": "2026-11-05T11:33:52.119478+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-midday",
+          "article_id": "bank-of-cyprus-nine-month-results-2026-11-05",
+          "source_story_id": "bank-of-cyprus-nine-month-results-2026-11-05",
+          "url": "articles/2026-11-05-midday/bank-of-cyprus-nine-month-results-2026-11-05.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "bank-of-cyprus-nine-month-results-2026-11-05",
+        "source_story_id": "bank-of-cyprus-nine-month-results-2026-11-05",
+        "url": "articles/2026-11-05-midday/bank-of-cyprus-nine-month-results-2026-11-05.html"
+      },
+      "section": "cyprus",
+      "priority": 4
     },
     {
       "story_id": "israel-foreign-election-interference-allegations-2026-11-04",
@@ -101,6 +208,27 @@
       },
       "section": "world",
       "priority": 4
+    },
+    {
+      "story_id": "avakoum-devices-detention-order-2026-11-03",
+      "first_seen_at": "2026-11-05T11:33:52.119478+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-midday",
+          "article_id": "avakoum-devices-detention-order-2026-11-03",
+          "source_story_id": "avakoum-devices-detention-order-2026-11-03",
+          "url": "articles/2026-11-05-midday/avakoum-devices-detention-order-2026-11-03.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "avakoum-devices-detention-order-2026-11-03",
+        "source_story_id": "avakoum-devices-detention-order-2026-11-03",
+        "url": "articles/2026-11-05-midday/avakoum-devices-detention-order-2026-11-03.html"
+      },
+      "section": "cyprus",
+      "priority": 5
     },
     {
       "story_id": "north-korea-air-defence-cruise-test-2026-11-04",
@@ -133,13 +261,40 @@
           "article_id": "commission-turkey-report-cyprus-2026-11-05",
           "source_story_id": "commission-turkey-report-cyprus-2026-11-05",
           "url": "articles/2026-11-05-morning/commission-turkey-report-cyprus-2026-11-05.html"
+        },
+        {
+          "edition_id": "2026-11-05-midday",
+          "article_id": "commission-turkey-report-cyprus-2026-11-05",
+          "source_story_id": "commission-turkey-report-cyprus-2026-11-05",
+          "url": "articles/2026-11-05-midday/commission-turkey-report-cyprus-2026-11-05.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-05-morning",
+        "edition_id": "2026-11-05-midday",
         "article_id": "commission-turkey-report-cyprus-2026-11-05",
         "source_story_id": "commission-turkey-report-cyprus-2026-11-05",
-        "url": "articles/2026-11-05-morning/commission-turkey-report-cyprus-2026-11-05.html"
+        "url": "articles/2026-11-05-midday/commission-turkey-report-cyprus-2026-11-05.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "eib-cyprus-energy-transition-survey-2026-11-05",
+      "first_seen_at": "2026-11-05T11:33:52.119478+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-midday",
+          "article_id": "eib-cyprus-energy-transition-survey-2026-11-05",
+          "source_story_id": "eib-cyprus-energy-transition-survey-2026-11-05",
+          "url": "articles/2026-11-05-midday/eib-cyprus-energy-transition-survey-2026-11-05.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "eib-cyprus-energy-transition-survey-2026-11-05",
+        "source_story_id": "eib-cyprus-energy-transition-survey-2026-11-05",
+        "url": "articles/2026-11-05-midday/eib-cyprus-energy-transition-survey-2026-11-05.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -166,6 +321,27 @@
       "priority": 7
     },
     {
+      "story_id": "womens-football-acl-study-2026-11-05",
+      "first_seen_at": "2026-11-05T11:33:52.119478+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-midday",
+          "article_id": "womens-football-acl-study-2026-11-05",
+          "source_story_id": "womens-football-acl-study-2026-11-05",
+          "url": "articles/2026-11-05-midday/womens-football-acl-study-2026-11-05.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "womens-football-acl-study-2026-11-05",
+        "source_story_id": "womens-football-acl-study-2026-11-05",
+        "url": "articles/2026-11-05-midday/womens-football-acl-study-2026-11-05.html"
+      },
+      "section": "sports",
+      "priority": 7
+    },
+    {
       "story_id": "cyprus-ireland-fiscal-comparison-2026-11-05",
       "first_seen_at": "2026-11-05T05:29:53.650985+00:00",
       "last_substantive_at": null,
@@ -184,6 +360,27 @@
         "url": "articles/2026-11-05-morning/cyprus-ireland-fiscal-comparison-2026-11-05.html"
       },
       "section": "cyprus",
+      "priority": 8
+    },
+    {
+      "story_id": "wales-japan-centre-selection-2026-11-05",
+      "first_seen_at": "2026-11-05T11:33:52.119478+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-midday",
+          "article_id": "wales-japan-centre-selection-2026-11-05",
+          "source_story_id": "wales-japan-centre-selection-2026-11-05",
+          "url": "articles/2026-11-05-midday/wales-japan-centre-selection-2026-11-05.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "wales-japan-centre-selection-2026-11-05",
+        "source_story_id": "wales-japan-centre-selection-2026-11-05",
+        "url": "articles/2026-11-05-midday/wales-japan-centre-selection-2026-11-05.html"
+      },
+      "section": "sports",
       "priority": 8
     },
     {
@@ -217,13 +414,19 @@
           "article_id": "doha-world-padel-2026-11-02",
           "source_story_id": "doha-world-padel-2026-11-02",
           "url": "articles/2026-11-05-morning/doha-world-padel-2026-11-02.html"
+        },
+        {
+          "edition_id": "2026-11-05-midday",
+          "article_id": "doha-world-padel-2026-11-02",
+          "source_story_id": "doha-world-padel-2026-11-02",
+          "url": "articles/2026-11-05-midday/doha-world-padel-2026-11-02.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-05-morning",
+        "edition_id": "2026-11-05-midday",
         "article_id": "doha-world-padel-2026-11-02",
         "source_story_id": "doha-world-padel-2026-11-02",
-        "url": "articles/2026-11-05-morning/doha-world-padel-2026-11-02.html"
+        "url": "articles/2026-11-05-midday/doha-world-padel-2026-11-02.html"
       },
       "section": "sports",
       "priority": 10
@@ -439,6 +642,188 @@
         "source_story_id": "commission-turkey-report-cyprus-2026-11-05",
         "url": "articles/2026-11-05-morning/commission-turkey-report-cyprus-2026-11-05.html"
       }
+    },
+    {
+      "id": "176e9debb01ba45d09613d82dd886d0dbe2088e9b148368bb48ef99aabdc2fb4",
+      "kind": "provenance",
+      "at": "2026-11-05T11:33:52.119478+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "womens-football-acl-study-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "womens-football-acl-study-2026-11-05",
+        "source_story_id": "womens-football-acl-study-2026-11-05",
+        "url": "articles/2026-11-05-midday/womens-football-acl-study-2026-11-05.html"
+      }
+    },
+    {
+      "id": "1900b71e93a1c045679f89837204c2c7f91972b29e2e6b76e2777a49fffd2ce9",
+      "kind": "provenance",
+      "at": "2026-11-05T11:33:52.119478+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "commission-turkey-report-cyprus-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "commission-turkey-report-cyprus-2026-11-05",
+        "source_story_id": "commission-turkey-report-cyprus-2026-11-05",
+        "url": "articles/2026-11-05-midday/commission-turkey-report-cyprus-2026-11-05.html"
+      }
+    },
+    {
+      "id": "1bcea5ad6993928f51e8ecd62d471a52f88e042272f5fa31a96cbbe6600008b7",
+      "kind": "provenance",
+      "at": "2026-11-05T11:33:52.119478+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "eib-cyprus-energy-transition-survey-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "eib-cyprus-energy-transition-survey-2026-11-05",
+        "source_story_id": "eib-cyprus-energy-transition-survey-2026-11-05",
+        "url": "articles/2026-11-05-midday/eib-cyprus-energy-transition-survey-2026-11-05.html"
+      }
+    },
+    {
+      "id": "21bc113efe916eefeabe110fd7e9918973543c9c8549eeda3f3598dac09cf787",
+      "kind": "provenance",
+      "at": "2026-11-05T11:33:52.119478+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "doha-world-padel-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "doha-world-padel-2026-11-02",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-05-midday/doha-world-padel-2026-11-02.html"
+      }
+    },
+    {
+      "id": "3756163ab2fa01e53073d11c6239d9aa08077ca240cbdf50b0587341b569aedb",
+      "kind": "provenance",
+      "at": "2026-11-05T11:33:52.119478+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterms-congress-voting-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "us-midterms-congress-voting-2026-11-03",
+        "source_story_id": "us-midterms-congress-voting-2026-11-03",
+        "url": "articles/2026-11-05-midday/us-midterms-congress-voting-2026-11-03.html"
+      }
+    },
+    {
+      "id": "4fd8a038937395bccae92b1039f961829030ba9c12f1d2066469f5406f302857",
+      "kind": "provenance",
+      "at": "2026-11-05T11:33:52.119478+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "big-tech-post-midterms-rally-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "big-tech-post-midterms-rally-2026-11-04",
+        "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
+        "url": "articles/2026-11-05-midday/big-tech-post-midterms-rally-2026-11-04.html"
+      }
+    },
+    {
+      "id": "b62da83231613951fef8c4a2bbd0735089fc591187b6f1f2228f6ebfd72921ec",
+      "kind": "provenance",
+      "at": "2026-11-05T11:33:52.119478+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "google-calendar-session-phishing-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "google-calendar-session-phishing-2026-11-04",
+        "source_story_id": "google-calendar-session-phishing-2026-11-04",
+        "url": "articles/2026-11-05-midday/google-calendar-session-phishing-2026-11-04.html"
+      }
+    },
+    {
+      "id": "c5c26928538fe60df0700d5707423559b2213fb42bed4bd598712d3a31e9b109",
+      "kind": "provenance",
+      "at": "2026-11-05T11:33:52.119478+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-holguin-announcements-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "cyprus-holguin-announcements-2026-11-05",
+        "source_story_id": "cyprus-holguin-announcements-2026-11-05",
+        "url": "articles/2026-11-05-midday/cyprus-holguin-announcements-2026-11-05.html"
+      }
+    },
+    {
+      "id": "c6367f535a420f7badc1c24a5a60b803e52186311d9f658698b0d5b4005ebada",
+      "kind": "provenance",
+      "at": "2026-11-05T11:33:52.119478+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "avakoum-devices-detention-order-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "avakoum-devices-detention-order-2026-11-03",
+        "source_story_id": "avakoum-devices-detention-order-2026-11-03",
+        "url": "articles/2026-11-05-midday/avakoum-devices-detention-order-2026-11-03.html"
+      }
+    },
+    {
+      "id": "d0c2c4e3b3e3297280b53ad5fdd783e71ddd9667c5901bbe9551a4a24300bcf5",
+      "kind": "provenance",
+      "at": "2026-11-05T11:33:52.119478+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "bank-of-cyprus-nine-month-results-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "bank-of-cyprus-nine-month-results-2026-11-05",
+        "source_story_id": "bank-of-cyprus-nine-month-results-2026-11-05",
+        "url": "articles/2026-11-05-midday/bank-of-cyprus-nine-month-results-2026-11-05.html"
+      }
+    },
+    {
+      "id": "e6ef007efd3f94bb28daf4349b54cd922ffe822836a97b2de574ecc10d46de4f",
+      "kind": "provenance",
+      "at": "2026-11-05T11:33:52.119478+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "wales-japan-centre-selection-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "wales-japan-centre-selection-2026-11-05",
+        "source_story_id": "wales-japan-centre-selection-2026-11-05",
+        "url": "articles/2026-11-05-midday/wales-japan-centre-selection-2026-11-05.html"
+      }
+    },
+    {
+      "id": "fc8e942924507a80cdd69e5690efb50354547d2fe5eea6e2871b72d1a932e3a1",
+      "kind": "provenance",
+      "at": "2026-11-05T11:33:52.119478+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "yemen-government-offensive-2026-10-05",
+      "origin": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "yemen-government-offensive-2026-10-05",
+        "source_story_id": "yemen-government-offensive-2026-10-05",
+        "url": "articles/2026-11-05-midday/yemen-government-offensive-2026-10-05.html"
+      }
+    },
+    {
+      "id": "ff56f4ec29842978940d2b79c1effa3acf076597be18b3657ff2c39fc11255eb",
+      "kind": "provenance",
+      "at": "2026-11-05T11:33:52.119478+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "republican-iran-war-election-reckoning-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-05-midday",
+        "article_id": "republican-iran-war-election-reckoning-2026-11-05",
+        "source_story_id": "republican-iran-war-election-reckoning-2026-11-05",
+        "url": "articles/2026-11-05-midday/republican-iran-war-election-reckoning-2026-11-05.html"
+      }
     }
   ],
   "opportunities": [
@@ -647,23 +1032,23 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η άνοδος των μεγάλων τεχνολογικών εταιρειών στις 4 Νοεμβρίου δεν επεκτάθηκε ομοιόμορφα στους μικρότερους παρόχους υποδομών τεχνητής νοημοσύνης. Η επόμενη συνεδρίαση θα δείξει τη διάρκειά της· οι ενδοσυνεδριακές κινήσεις του δημοσιεύματος δεν είναι τιμές κλεισίματος. Παράλληλα, η εκστρατεία phishing μέσω προσκλήσεων Google δείχνει γιατί μια γνώριμη επαφή δεν αρκεί για να θεωρηθεί ασφαλής ένας σύνδεσμος.",
+        "text": "Η απόδοση της εκλογικής ήττας στον πόλεμο από τον Βανς δείχνει εσωτερική διαφωνία, όχι αλλαγή αμερικανικής πολιτικής. Στην Υεμένη, ένας μήνας κυβερνητικής επίθεσης δεν έχει αποφέρει την ολοκλήρωση του δηλωμένου στόχου.",
         "story_ids": [
-          "big-tech-post-midterms-rally-2026-11-04",
-          "google-calendar-session-phishing-2026-11-04"
+          "republican-iran-war-election-reckoning-2026-11-05",
+          "yemen-government-offensive-2026-10-05"
         ]
       },
       {
-        "text": "Η Λευκωσία εστιάζει στην καταγραφή του αγωγού Τουρκίας–κατεχομένων στην έκθεση της Επιτροπής· μένει να φανεί η συνέχεια σε συγκεκριμένες ευρωπαϊκές αποφάσεις. Στο εισόδημα των νοικοκυριών, η σωρευτική ακρίβεια εξηγεί γιατί η σταθεροποίηση ενός ετήσιου δείκτη δεν επαναφέρει αυτομάτως την παλαιότερη αγοραστική δύναμη.",
+        "text": "Στο Κυπριακό, ο επόμενος συγκεκριμένος έλεγχος είναι αν θα υπάρξουν ανακοινώσεις το Σαββατοκύριακο. Στην οικονομία, τα τραπεζικά κέρδη και η αύξηση δανείων αποτυπώνουν επέκταση δραστηριότητας· δεν αποτελούν εγγύηση φθηνότερης πίστωσης.",
         "story_ids": [
-          "commission-turkey-report-cyprus-2026-11-05",
-          "cyprus-inflation-purchasing-power-2026-11-05"
+          "cyprus-holguin-announcements-2026-11-05",
+          "bank-of-cyprus-nine-month-results-2026-11-05"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-05T05:31:30.375038+00:00",
-  "updated_at": "2026-11-05T05:31:30.375038+00:00",
-  "input_sha256": "d3b17c8338bcd1a757732e7740b7546e6339cedf4d0564d7c0d0f3fb908fa3c4"
+  "updated_at": "2026-11-05T11:35:22.138071+00:00",
+  "input_sha256": "28f98b764c9fe8083042aee0c10b951947e8f1458438673abe7f5148e2579e46"
 }
