@@ -1,7 +1,7 @@
 {
   "contract_version": 1,
   "producer_protocol": "oracle-briefing/3",
-  "content_schema_sha256": "b4d8ca4074f114f8c81169fd9e0224739370bf100112e249f32c7645975318fe",
+  "content_schema_sha256": "ae435b63b3a246d362e26d0f9099732550c4d783368c6e1e812aaa71b9f10d5b",
   "edition_schema_versions": [
     2
   ],
@@ -22,6 +22,9 @@
     "editorial_completed_at",
     "executive_scan",
     "fast_wire",
+    "financial_insights",
+    "financial_policy",
+    "financial_review",
     "freshness",
     "id",
     "image_review",
@@ -124,6 +127,7 @@
   ],
   "synthesis_protocol": "oracle-synthesis/1",
   "briefing_policy": "depth-markets-v1",
+  "financial_policy": "news-insights-v1",
   "prefetch_before_model": true,
   "intelligence_contract": 1,
   "explicit_baseline_reuse": true,
@@ -144,7 +148,7 @@
   "favourite_news_required_from": "2026-10-19",
   "favourite_news_max_age_minutes": 720,
   "editorial_protocol": "oracle-editorial/1",
-  "runtime_policy_sha256": "4758cc0fc28820df8b72c110bb8debaddbb041930b592ea7703c90443f825a99",
+  "runtime_policy_sha256": "91b7fec68429a55123d3bd91909e9a5abf598a4e0cafc28fbfdadbe94723b0d6",
   "required_from_local_date": "2026-10-16",
   "reading_review_version": 2,
   "image_review_version": 2,
