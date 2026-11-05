@@ -1,0 +1,669 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-05",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-11-05.html",
+  "editions": [
+    {
+      "id": "2026-11-05-morning",
+      "type": "morning",
+      "url": "morning/2026-11-05.html",
+      "published_at": "2026-11-05T05:29:53.650985+00:00"
+    }
+  ],
+  "missing_slots": [
+    "midday",
+    "evening"
+  ],
+  "lead_story_id": "big-tech-post-midterms-rally-2026-11-04",
+  "stories": [
+    {
+      "story_id": "big-tech-post-midterms-rally-2026-11-04",
+      "first_seen_at": "2026-11-05T05:29:53.650985+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-morning",
+          "article_id": "big-tech-post-midterms-rally-2026-11-04",
+          "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
+          "url": "articles/2026-11-05-morning/big-tech-post-midterms-rally-2026-11-04.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "big-tech-post-midterms-rally-2026-11-04",
+        "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
+        "url": "articles/2026-11-05-morning/big-tech-post-midterms-rally-2026-11-04.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "google-calendar-session-phishing-2026-11-04",
+      "first_seen_at": "2026-11-05T05:29:53.650985+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-morning",
+          "article_id": "google-calendar-session-phishing-2026-11-04",
+          "source_story_id": "google-calendar-session-phishing-2026-11-04",
+          "url": "articles/2026-11-05-morning/google-calendar-session-phishing-2026-11-04.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "google-calendar-session-phishing-2026-11-04",
+        "source_story_id": "google-calendar-session-phishing-2026-11-04",
+        "url": "articles/2026-11-05-morning/google-calendar-session-phishing-2026-11-04.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "us-midterms-congress-voting-2026-11-03",
+      "first_seen_at": "2026-11-05T05:29:53.650985+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-morning",
+          "article_id": "us-midterms-congress-voting-2026-11-03",
+          "source_story_id": "us-midterms-congress-voting-2026-11-03",
+          "url": "articles/2026-11-05-morning/us-midterms-congress-voting-2026-11-03.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "us-midterms-congress-voting-2026-11-03",
+        "source_story_id": "us-midterms-congress-voting-2026-11-03",
+        "url": "articles/2026-11-05-morning/us-midterms-congress-voting-2026-11-03.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "israel-foreign-election-interference-allegations-2026-11-04",
+      "first_seen_at": "2026-11-05T05:29:53.650985+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-morning",
+          "article_id": "israel-foreign-election-interference-allegations-2026-11-04",
+          "source_story_id": "israel-foreign-election-interference-allegations-2026-11-04",
+          "url": "articles/2026-11-05-morning/israel-foreign-election-interference-allegations-2026-11-04.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "israel-foreign-election-interference-allegations-2026-11-04",
+        "source_story_id": "israel-foreign-election-interference-allegations-2026-11-04",
+        "url": "articles/2026-11-05-morning/israel-foreign-election-interference-allegations-2026-11-04.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "north-korea-air-defence-cruise-test-2026-11-04",
+      "first_seen_at": "2026-11-05T05:29:53.650985+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-morning",
+          "article_id": "north-korea-air-defence-cruise-test-2026-11-04",
+          "source_story_id": "north-korea-air-defence-cruise-test-2026-11-04",
+          "url": "articles/2026-11-05-morning/north-korea-air-defence-cruise-test-2026-11-04.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "north-korea-air-defence-cruise-test-2026-11-04",
+        "source_story_id": "north-korea-air-defence-cruise-test-2026-11-04",
+        "url": "articles/2026-11-05-morning/north-korea-air-defence-cruise-test-2026-11-04.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
+      "story_id": "commission-turkey-report-cyprus-2026-11-05",
+      "first_seen_at": "2026-11-05T05:29:53.650985+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-morning",
+          "article_id": "commission-turkey-report-cyprus-2026-11-05",
+          "source_story_id": "commission-turkey-report-cyprus-2026-11-05",
+          "url": "articles/2026-11-05-morning/commission-turkey-report-cyprus-2026-11-05.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "commission-turkey-report-cyprus-2026-11-05",
+        "source_story_id": "commission-turkey-report-cyprus-2026-11-05",
+        "url": "articles/2026-11-05-morning/commission-turkey-report-cyprus-2026-11-05.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "cyprus-inflation-purchasing-power-2026-11-05",
+      "first_seen_at": "2026-11-05T05:29:53.650985+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-morning",
+          "article_id": "cyprus-inflation-purchasing-power-2026-11-05",
+          "source_story_id": "cyprus-inflation-purchasing-power-2026-11-05",
+          "url": "articles/2026-11-05-morning/cyprus-inflation-purchasing-power-2026-11-05.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "cyprus-inflation-purchasing-power-2026-11-05",
+        "source_story_id": "cyprus-inflation-purchasing-power-2026-11-05",
+        "url": "articles/2026-11-05-morning/cyprus-inflation-purchasing-power-2026-11-05.html"
+      },
+      "section": "cyprus",
+      "priority": 7
+    },
+    {
+      "story_id": "cyprus-ireland-fiscal-comparison-2026-11-05",
+      "first_seen_at": "2026-11-05T05:29:53.650985+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-morning",
+          "article_id": "cyprus-ireland-fiscal-comparison-2026-11-05",
+          "source_story_id": "cyprus-ireland-fiscal-comparison-2026-11-05",
+          "url": "articles/2026-11-05-morning/cyprus-ireland-fiscal-comparison-2026-11-05.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "cyprus-ireland-fiscal-comparison-2026-11-05",
+        "source_story_id": "cyprus-ireland-fiscal-comparison-2026-11-05",
+        "url": "articles/2026-11-05-morning/cyprus-ireland-fiscal-comparison-2026-11-05.html"
+      },
+      "section": "cyprus",
+      "priority": 8
+    },
+    {
+      "story_id": "cyprus-isolated-rain-forecast-2026-11-05",
+      "first_seen_at": "2026-11-05T05:29:53.650985+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-morning",
+          "article_id": "cyprus-isolated-rain-forecast-2026-11-05",
+          "source_story_id": "cyprus-isolated-rain-forecast-2026-11-05",
+          "url": "articles/2026-11-05-morning/cyprus-isolated-rain-forecast-2026-11-05.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "cyprus-isolated-rain-forecast-2026-11-05",
+        "source_story_id": "cyprus-isolated-rain-forecast-2026-11-05",
+        "url": "articles/2026-11-05-morning/cyprus-isolated-rain-forecast-2026-11-05.html"
+      },
+      "section": "cyprus",
+      "priority": 9
+    },
+    {
+      "story_id": "doha-world-padel-2026-11-02",
+      "first_seen_at": "2026-11-05T05:29:53.650985+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-morning",
+          "article_id": "doha-world-padel-2026-11-02",
+          "source_story_id": "doha-world-padel-2026-11-02",
+          "url": "articles/2026-11-05-morning/doha-world-padel-2026-11-02.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "doha-world-padel-2026-11-02",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-05-morning/doha-world-padel-2026-11-02.html"
+      },
+      "section": "sports",
+      "priority": 10
+    },
+    {
+      "story_id": "liverpool-iraola-fenerbahce-2026-11-04",
+      "first_seen_at": "2026-11-05T05:29:53.650985+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-morning",
+          "article_id": "liverpool-iraola-fenerbahce-2026-11-04",
+          "source_story_id": "liverpool-iraola-fenerbahce-2026-11-04",
+          "url": "articles/2026-11-05-morning/liverpool-iraola-fenerbahce-2026-11-04.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "liverpool-iraola-fenerbahce-2026-11-04",
+        "source_story_id": "liverpool-iraola-fenerbahce-2026-11-04",
+        "url": "articles/2026-11-05-morning/liverpool-iraola-fenerbahce-2026-11-04.html"
+      },
+      "section": "sports",
+      "priority": 11
+    },
+    {
+      "story_id": "scotland-finn-russell-all-blacks-2026-11-05",
+      "first_seen_at": "2026-11-05T05:29:53.650985+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-05-morning",
+          "article_id": "scotland-finn-russell-all-blacks-2026-11-05",
+          "source_story_id": "scotland-finn-russell-all-blacks-2026-11-05",
+          "url": "articles/2026-11-05-morning/scotland-finn-russell-all-blacks-2026-11-05.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "scotland-finn-russell-all-blacks-2026-11-05",
+        "source_story_id": "scotland-finn-russell-all-blacks-2026-11-05",
+        "url": "articles/2026-11-05-morning/scotland-finn-russell-all-blacks-2026-11-05.html"
+      },
+      "section": "sports",
+      "priority": 12
+    }
+  ],
+  "updates": [
+    {
+      "id": "0e0c6d8330863e5cd0a9156fa4a0d03c1457280fef6af140a6e09077a9073658",
+      "kind": "provenance",
+      "at": "2026-11-05T05:29:53.650985+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "google-calendar-session-phishing-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "google-calendar-session-phishing-2026-11-04",
+        "source_story_id": "google-calendar-session-phishing-2026-11-04",
+        "url": "articles/2026-11-05-morning/google-calendar-session-phishing-2026-11-04.html"
+      }
+    },
+    {
+      "id": "196504b38527487c453300fd51bf4e3561b53f21c06e40bae28d30a9aa56429a",
+      "kind": "provenance",
+      "at": "2026-11-05T05:29:53.650985+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "scotland-finn-russell-all-blacks-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "scotland-finn-russell-all-blacks-2026-11-05",
+        "source_story_id": "scotland-finn-russell-all-blacks-2026-11-05",
+        "url": "articles/2026-11-05-morning/scotland-finn-russell-all-blacks-2026-11-05.html"
+      }
+    },
+    {
+      "id": "2244e9d8e83c7f345f585f74f6106c2dc75a1e26109fbe162b34ac6588dd6bf5",
+      "kind": "provenance",
+      "at": "2026-11-05T05:29:53.650985+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "israel-foreign-election-interference-allegations-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "israel-foreign-election-interference-allegations-2026-11-04",
+        "source_story_id": "israel-foreign-election-interference-allegations-2026-11-04",
+        "url": "articles/2026-11-05-morning/israel-foreign-election-interference-allegations-2026-11-04.html"
+      }
+    },
+    {
+      "id": "3dc3a9f606f8d64780ed11dea3f04d23a6ad5561fca6620a3fe59bf2556077db",
+      "kind": "provenance",
+      "at": "2026-11-05T05:29:53.650985+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-ireland-fiscal-comparison-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "cyprus-ireland-fiscal-comparison-2026-11-05",
+        "source_story_id": "cyprus-ireland-fiscal-comparison-2026-11-05",
+        "url": "articles/2026-11-05-morning/cyprus-ireland-fiscal-comparison-2026-11-05.html"
+      }
+    },
+    {
+      "id": "446550e91f9fdfe5cba779165cfe1758f36c611fcccccf7cc3b1820a13891807",
+      "kind": "provenance",
+      "at": "2026-11-05T05:29:53.650985+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "north-korea-air-defence-cruise-test-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "north-korea-air-defence-cruise-test-2026-11-04",
+        "source_story_id": "north-korea-air-defence-cruise-test-2026-11-04",
+        "url": "articles/2026-11-05-morning/north-korea-air-defence-cruise-test-2026-11-04.html"
+      }
+    },
+    {
+      "id": "6ae88e199fe2b33566331743354edb8534f9805a59a1382a42fd6032dc787b07",
+      "kind": "provenance",
+      "at": "2026-11-05T05:29:53.650985+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterms-congress-voting-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "us-midterms-congress-voting-2026-11-03",
+        "source_story_id": "us-midterms-congress-voting-2026-11-03",
+        "url": "articles/2026-11-05-morning/us-midterms-congress-voting-2026-11-03.html"
+      }
+    },
+    {
+      "id": "89a2db5a2740d49a0663f6610ec264c4022bb32385ce853b9973d3496fb11633",
+      "kind": "provenance",
+      "at": "2026-11-05T05:29:53.650985+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-inflation-purchasing-power-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "cyprus-inflation-purchasing-power-2026-11-05",
+        "source_story_id": "cyprus-inflation-purchasing-power-2026-11-05",
+        "url": "articles/2026-11-05-morning/cyprus-inflation-purchasing-power-2026-11-05.html"
+      }
+    },
+    {
+      "id": "9f74e34b1fb12d952c386de9a4d99460a52caf6f121ee4f7cd0a9c5056c18982",
+      "kind": "provenance",
+      "at": "2026-11-05T05:29:53.650985+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "doha-world-padel-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "doha-world-padel-2026-11-02",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-05-morning/doha-world-padel-2026-11-02.html"
+      }
+    },
+    {
+      "id": "ab5a248c80f21b63eabc63934f5ebde7a360fb554a6811a25575bb859664dd6e",
+      "kind": "provenance",
+      "at": "2026-11-05T05:29:53.650985+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-isolated-rain-forecast-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "cyprus-isolated-rain-forecast-2026-11-05",
+        "source_story_id": "cyprus-isolated-rain-forecast-2026-11-05",
+        "url": "articles/2026-11-05-morning/cyprus-isolated-rain-forecast-2026-11-05.html"
+      }
+    },
+    {
+      "id": "c9bd92f13a3512a82642d83c01113121abe62f9c6938d6b924e8ef644463f58f",
+      "kind": "provenance",
+      "at": "2026-11-05T05:29:53.650985+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "big-tech-post-midterms-rally-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "big-tech-post-midterms-rally-2026-11-04",
+        "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
+        "url": "articles/2026-11-05-morning/big-tech-post-midterms-rally-2026-11-04.html"
+      }
+    },
+    {
+      "id": "ea4ecc3f3648376d260fc83772a041e6c4fd700327d8e4d9117504b265b6c4df",
+      "kind": "provenance",
+      "at": "2026-11-05T05:29:53.650985+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "liverpool-iraola-fenerbahce-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "liverpool-iraola-fenerbahce-2026-11-04",
+        "source_story_id": "liverpool-iraola-fenerbahce-2026-11-04",
+        "url": "articles/2026-11-05-morning/liverpool-iraola-fenerbahce-2026-11-04.html"
+      }
+    },
+    {
+      "id": "f70fc49c9bdee38c3d9b94bec0172e7d3a42f32e26e1764ab240a568d9001e9c",
+      "kind": "provenance",
+      "at": "2026-11-05T05:29:53.650985+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "commission-turkey-report-cyprus-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-05-morning",
+        "article_id": "commission-turkey-report-cyprus-2026-11-05",
+        "source_story_id": "commission-turkey-report-cyprus-2026-11-05",
+        "url": "articles/2026-11-05-morning/commission-turkey-report-cyprus-2026-11-05.html"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "action": "Δες την επίσημη ανακοίνωση ως ιστορικό πλαίσιο. Αναμένουμε επαληθευμένη νέα προκήρυξη πριν εμφανίσουμε ενεργή αίτηση.",
+      "application_kind": "instructions",
+      "application_url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+      "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση.",
+      "deadline": "2024-07-31T23:59:00+03:00",
+      "deadline_note": "Ιστορική προθεσμία της 2ης πρόσκλησης, όχι ημερομηνία νέας αίτησης. Νέα ενεργή πρόσκληση δεν επιβεβαιώθηκε στον παρόντα έλεγχο.",
+      "deadline_type": "fixed",
+      "eligibility": "Η προκήρυξη του 2024 όριζε νέους 18–29, άνδρες 30–50 και γυναίκες 30–55. Νέα πρόσκληση μπορεί να αλλάξει τους όρους· δεν έχει κριθεί προσωπική επιλεξιμότητα.",
+      "id": "cy-new-entrepreneurship-2024-call2",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-23T04:30:48.639313+00:00",
+          "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "retrieved_at": "2026-10-15T16:39:24.850175+00:00",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Ιστορική πρόσκληση του 2024 που έχει λήξει. Παραμένει μόνο στην παρακολούθηση για τυχόν νέα επίσημη προκήρυξη, όχι στις ενεργές αιτήσεις.",
+      "support": "Παλιοί όροι: 70% επιλέξιμης δαπάνης για 18–29, 60% για τις άλλες ομάδες, με μέγιστο επιλέξιμο προϋπολογισμό €120.000.",
+      "title": "Νέα Επιχειρηματική Δραστηριότητα · παλιά 2η προκήρυξη",
+      "verified_at": "2026-10-23T07:36:00+03:00"
+    },
+    {
+      "action": "Αν έχεις GO, προετοίμασε πλήρη πρόταση. Διαφορετικά ξεκίνα τη σύντομη αίτηση χωρίς να θεωρείς εξασφαλισμένη συμμετοχή στον γύρο Νοεμβρίου.",
+      "application_kind": "form",
+      "application_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+      "change_note": "Επανελέγχθηκε η επίσημη σελίδα EIC: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ., επενδυτικό σκέλος €1–10 εκατ. και επόμενη πλήρης πρόταση στις 4/11, 17:00 Βρυξελλών, μόνο μετά από GO.",
+      "deadline": "2026-11-04T18:00:00+02:00",
+      "deadline_note": "4/11 στις 17:00 Βρυξελλών = 18:00 Κύπρου. Αφορά πλήρη πρόταση μετά το GO. Οι σύντομες προτάσεις υποβάλλονται συνεχώς· αξιολόγηση συνήθως 4–6 εβδομάδες.",
+      "deadline_type": "fixed",
+      "eligibility": "Μία startup/ΜμΕ στην ΕΕ ή συνδεδεμένη χώρα, με καινοτομία TRL 6–8. Για πλήρη πρόταση προηγείται θετική αξιολόγηση (GO) της σύντομης πρότασης ή επιλέξιμη ειδική διαδρομή.",
+      "id": "eu-eic-accelerator-2026",
+      "jurisdiction": "ΕΕ · περιλαμβάνει την Κύπρο",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Innovation Council",
+          "reporting_group": "European Innovation Council",
+          "retrieved_at": "2026-10-24T13:43:13+03:00",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Στήριξη νεοφυών και μικρομεσαίων επιχειρήσεων με ανατρεπτική καινοτομία σε στάδιο ανάπτυξης και κλιμάκωσης. Δεν είναι γενική επιδότηση ίδρυσης επιχείρησης.",
+      "support": "Επιχορήγηση κάτω από €2,5 εκατ.· χωριστά επενδυτικό σκέλος €1–10 εκατ., που δεν αποτελεί επιχορήγηση.",
+      "title": "EIC Accelerator: επόμενη πλήρης πρόταση 4 Νοεμβρίου",
+      "verified_at": "2026-10-24T13:43:13+03:00"
+    },
+    {
+      "action": "Μην υποβάλεις νέα αίτηση. Παρακολούθησε μόνο επίσημη επαναπροκήρυξη ή ανακοίνωση για επιλαχόντες.",
+      "application_kind": "none",
+      "application_url": null,
+      "change_note": "Το ΥΕΕΒ ανακοίνωσε ολοκλήρωση υποβολής προτάσεων λόγω υπερκάλυψης προϋπολογισμού. Η προηγούμενη ένδειξη ανοικτής πρόσκλησης διορθώθηκε.",
+      "deadline": null,
+      "deadline_note": "Η υποβολή ολοκληρώθηκε στις 21/10 λόγω υπερκάλυψης του διαθέσιμου προϋπολογισμού.",
+      "deadline_type": "unknown",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "id": "cy-home-energy-2026",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "kind": "grant",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": "2026-10-21",
+          "publisher": "ΥΕΕΒ",
+          "reporting_group": "ΥΕΕΒ",
+          "retrieved_at": "2026-10-23T10:33:45.530855+00:00",
+          "url": "https://www.industry.gov.cy",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "verified_at": "2026-10-23T13:33:46+03:00"
+    },
+    {
+      "action": "Έλεγξε τα όρια και τη διαδικασία προηγούμενης κοινοποίησης στο κράτος εγκατάστασης. Ο σύνδεσμος δίνει οδηγίες, όχι κυπριακό έντυπο.",
+      "application_kind": "instructions",
+      "application_url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+      "change_note": "Επανελέγχθηκαν στις 24/10 η επίσημη ευρωπαϊκή σελίδα και η διαδικασία διασυνοριακής απαλλαγής. Το καθεστώς παραμένει προαιρετικό και ανοικτό, με ενωσιακό όριο €100.000 και προηγούμενη κοινοποίηση.",
+      "deadline": null,
+      "deadline_note": "Δεν πρόκειται για γύρο χορηγιών. Η απαλλαγή ξεκινά μετά την έγκριση/επιβεβαίωση EX· ισχύουν ξεχωριστές υποχρεώσεις τριμηνιαίας αναφοράς.",
+      "deadline_type": "rolling",
+      "eligibility": "Επιχείρηση εγκατεστημένη στην ΕΕ: ενωσιακός τζίρος έως €100.000 στο τρέχον και προηγούμενο έτος, καθώς και το εθνικό/κλαδικό όριο κάθε χώρας απαλλαγής.",
+      "id": "eu-cross-border-sme-vat",
+      "jurisdiction": "ΕΕ / Κύπρος · διασυνοριακές πωλήσεις",
+      "kind": "legal_right",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · DG TAXUD",
+          "reporting_group": "European Commission · DG TAXUD",
+          "retrieved_at": "2026-10-24T07:33:51+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · SME VAT",
+          "reporting_group": "European Commission · SME VAT",
+          "retrieved_at": "2026-10-24T07:33:47+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/index_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-24T07:33:52+03:00",
+          "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Το ευρωπαϊκό καθεστώς μικρών επιχειρήσεων επιτρέπει απαλλαγή ΦΠΑ σε επιλέξιμες διασυνοριακές πωλήσεις. Απαιτεί προηγούμενη κοινοποίηση· δεν εφαρμόζεται αυτόματα.",
+      "support": "Πιθανή απλούστευση υποχρεώσεων ΦΠΑ, με απώλεια δικαιώματος έκπτωσης ΦΠΑ για τις απαλλασσόμενες πράξεις. Αξιολόγησε το καθαρό όφελος πριν επιλέξεις.",
+      "title": "Προαιρετική απαλλαγή ΦΠΑ για μικρές επιχειρήσεις",
+      "verified_at": "2026-10-24T07:44:30+03:00"
+    },
+    {
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
+      "application_kind": "form",
+      "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "change_note": "Επανελέγχθηκαν η επίσημη δυνατότητα αίτησης, τα κριτήρια και η FAQ προθεσμίας στις 24/10. Η εγγραφή παραμένει ανοικτή χωρίς καταληκτική ημερομηνία· δεν υπονοείται προσωπική επιλεξιμότητα.",
+      "deadline": null,
+      "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
+      "deadline_type": "rolling",
+      "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
+      "id": "eu-erasmus-new-entrepreneurs",
+      "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
+      "kind": "benefit",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs · FAQ",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
+      "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
+      "title": "Erasmus for Young Entrepreneurs",
+      "verified_at": "2026-10-24T07:43:00+03:00"
+    }
+  ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Η άνοδος των μεγάλων τεχνολογικών εταιρειών στις 4 Νοεμβρίου δεν επεκτάθηκε ομοιόμορφα στους μικρότερους παρόχους υποδομών τεχνητής νοημοσύνης. Η επόμενη συνεδρίαση θα δείξει τη διάρκειά της· οι ενδοσυνεδριακές κινήσεις του δημοσιεύματος δεν είναι τιμές κλεισίματος. Παράλληλα, η εκστρατεία phishing μέσω προσκλήσεων Google δείχνει γιατί μια γνώριμη επαφή δεν αρκεί για να θεωρηθεί ασφαλής ένας σύνδεσμος.",
+        "story_ids": [
+          "big-tech-post-midterms-rally-2026-11-04",
+          "google-calendar-session-phishing-2026-11-04"
+        ]
+      },
+      {
+        "text": "Η Λευκωσία εστιάζει στην καταγραφή του αγωγού Τουρκίας–κατεχομένων στην έκθεση της Επιτροπής· μένει να φανεί η συνέχεια σε συγκεκριμένες ευρωπαϊκές αποφάσεις. Στο εισόδημα των νοικοκυριών, η σωρευτική ακρίβεια εξηγεί γιατί η σταθεροποίηση ενός ετήσιου δείκτη δεν επαναφέρει αυτομάτως την παλαιότερη αγοραστική δύναμη.",
+        "story_ids": [
+          "commission-turkey-report-cyprus-2026-11-05",
+          "cyprus-inflation-purchasing-power-2026-11-05"
+        ]
+      }
+    ]
+  },
+  "follow_ups": [],
+  "created_at": "2026-11-05T05:31:30.375038+00:00",
+  "updated_at": "2026-11-05T05:31:30.375038+00:00",
+  "input_sha256": "d3b17c8338bcd1a757732e7740b7546e6339cedf4d0564d7c0d0f3fb908fa3c4"
+}

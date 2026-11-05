@@ -481,6 +481,14 @@
       "published_at": "2026-11-04T05:33:43.055110+00:00",
       "url": "morning/2026-11-04.html",
       "fingerprint": "a7a9a2f7cff36ca9584690f290c487865b27805562b1b7083772ed39476fa0b5"
+    },
+    {
+      "id": "2026-11-05-morning",
+      "date": "2026-11-05",
+      "type": "morning",
+      "published_at": "2026-11-05T05:29:53.650985+00:00",
+      "url": "morning/2026-11-05.html",
+      "fingerprint": "fa0ebdf1c38794071251d56f3f991e416ea76ebed2fe4f13e956b732d802eb09"
     }
   ],
   "stories": [
@@ -17279,6 +17287,338 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/ac10748002e99ea792cdb65b18929e1439fe3119133a5be50321cf74323a75a0.webp"
+    },
+    {
+      "story_id": "big-tech-post-midterms-rally-2026-11-04",
+      "identity": "big-tech-post-midterms-rally-2026-11-04",
+      "edition_id": "2026-11-05-morning",
+      "date": "2026-11-05",
+      "slot": "morning",
+      "published_at": "2026-11-05T05:29:53.650985+00:00",
+      "available_at": "2026-11-05T05:29:53.650985+00:00",
+      "headline": "Μεγάλη τεχνολογία: άνοδος μετά τις εκλογές, διαφορετική εικόνα στους μικρότερους παρόχους AI",
+      "finding": "Το CNBC κατέγραψε ισχυρή άνοδο μεγάλων τεχνολογικών εταιρειών κατά τη συνεδρίαση της 4ης Νοεμβρίου, μετά τη νίκη των Δημοκρατικών στα δύο σώματα του Κογκρέσου. Στο συγκεκριμένο ενδοσυνεδριακό στιγμιότυπο ανέφερε Amazon +8%, Google πάνω από +6% και Microsoft +4%, ενώ η CoreWeave υποχωρούσε 10%. Ο Ντέιβιντ Κέλι της JPMorgan Asset Management απέδωσε την κίνηση στην απομάκρυνση εκλογικής αβεβαιότητας· πρόκειται για εκτίμησή του, όχι αποδεδειγμένη μοναδική αιτία.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-05-morning/big-tech-post-midterms-rally-2026-11-04.json",
+      "reader_url": "articles/2026-11-05-morning/big-tech-post-midterms-rally-2026-11-04.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-04T19:37:43+00:00",
+          "retrieved_at": "2026-11-05T04:26:07.754141+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/466da133bf2da7f083efb255aa052b7a05328071944dda83e06dbef88b36b14c.webp"
+    },
+    {
+      "story_id": "google-calendar-session-phishing-2026-11-04",
+      "identity": "google-calendar-session-phishing-2026-11-04",
+      "edition_id": "2026-11-05-morning",
+      "date": "2026-11-05",
+      "slot": "morning",
+      "published_at": "2026-11-05T05:29:53.650985+00:00",
+      "available_at": "2026-11-05T05:29:53.650985+00:00",
+      "headline": "Προσκλήσεις Calendar και Drive χρησιμοποιούνται για υποκλοπή συνεδριών Google",
+      "finding": "Το BleepingComputer περιγράφει εκστρατεία phishing που από τα μέσα Αυγούστου στοχεύει ενεργές εταιρικές συνεδρίες Google, αρχικά μέσω προσκλήσεων Calendar και αργότερα μέσω κοινοποιήσεων Drive. Ορισμένα μηνύματα εμφανίζονται να προέρχονται από οργανισμούς με τους οποίους ο παραλήπτης είχε ήδη επικοινωνήσει. Σύμφωνα με το δημοσίευμα, η Cloudflare επιβεβαίωσε πλαστή ενδιάμεση σελίδα και σελίδα σύνδεσης μέσω διαμεσολάβησης, προσθέτοντας δική της προειδοποίηση phishing στους σχετικούς προορισμούς.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-05-morning/google-calendar-session-phishing-2026-11-04.json",
+      "reader_url": "articles/2026-11-05-morning/google-calendar-session-phishing-2026-11-04.html",
+      "sources": [
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa",
+          "publisher": "BleepingComputer",
+          "reporting_group": "BleepingComputer",
+          "published_at": "2026-11-04T15:00:10+00:00",
+          "retrieved_at": "2026-11-05T04:26:08.512960+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/cc24373174af8173e68f79dbf7bbccd3952327468a17d54e77f244de9b3f0442.webp"
+    },
+    {
+      "story_id": "us-midterms-congress-voting-2026-11-03",
+      "identity": "us-midterms-congress-voting-2026-11-03",
+      "edition_id": "2026-11-05-morning",
+      "date": "2026-11-05",
+      "slot": "morning",
+      "published_at": "2026-11-03T17:36:28.934079+00:00",
+      "available_at": "2026-11-05T05:29:53.650985+00:00",
+      "headline": "ΗΠΑ: εκκρεμότητες σε Αλάσκα και Μισισίπι μετά την εξασφάλιση του Κογκρέσου",
+      "finding": "Οι Δημοκρατικοί έχουν εξασφαλίσει τον έλεγχο του Κογκρέσου, ενώ αναμετρήσεις για τη Γερουσία σε Αλάσκα και Μισισίπι παραμένουν ανοικτές, σύμφωνα με Guardian και Al Jazeera. Στο στιγμιότυπο του Guardian η Μέρι Πελτόλα προηγούνταν στην Αλάσκα κατά 626 ψήφους, χωρίς οριστική ανακήρυξη. Το Al Jazeera αναφέρει ότι τα αποτελέσματα της κατάταξης προτιμήσεων στην Αλάσκα προβλέπεται να δημοσιευθούν στις 18 Νοεμβρίου, εφόσον απαιτηθεί αυτή η διαδικασία.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-05-morning/us-midterms-congress-voting-2026-11-03.json",
+      "reader_url": "articles/2026-11-05-morning/us-midterms-congress-voting-2026-11-03.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-05T04:14:32+00:00",
+          "retrieved_at": "2026-11-05T04:26:08.800449+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/5/whats-delaying-us-midterm-election-calls-in-mississippi-and-alaska?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-05T03:13:08+00:00",
+          "retrieved_at": "2026-11-05T04:26:07.657837+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/fafca7b01d265b7fff50451043557d9e56ded534da892b92da3014b0b6bcca05.webp"
+    },
+    {
+      "story_id": "israel-foreign-election-interference-allegations-2026-11-04",
+      "identity": "israel-foreign-election-interference-allegations-2026-11-04",
+      "edition_id": "2026-11-05-morning",
+      "date": "2026-11-05",
+      "slot": "morning",
+      "published_at": "2026-11-05T05:29:53.650985+00:00",
+      "available_at": "2026-11-05T05:29:53.650985+00:00",
+      "headline": "Ισραήλ: καταγγελίες Νετανιάχου για ξένη εκλογική επιρροή, χωρίς τεκμηρίωση στο διαθέσιμο απόσπασμα",
+      "finding": "Ο Μπενιαμίν Νετανιάχου δήλωσε στις 4 Νοεμβρίου ότι υπάρχουν σοβαρές υποψίες πως ξένα κράτη δαπάνησαν σημαντικά ποσά για να επηρεάσουν τις πρόσφατες ισραηλινές εκλογές, μεταδίδει το France 24. Το μέσο επικαλείται επίσης ισραηλινά δημοσιεύματα για έρευνα που αφορά τον Αϊμάν Οντέχ. Το διαθέσιμο απόσπασμα δεν παρουσιάζει αποδεικτικά στοιχεία για τις καταγγελίες· επομένως αυτές δεν αντιμετωπίζονται εδώ ως επιβεβαιωμένη ξένη παρέμβαση.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-05-morning/israel-foreign-election-interference-allegations-2026-11-04.json",
+      "reader_url": "articles/2026-11-05-morning/israel-foreign-election-interference-allegations-2026-11-04.html",
+      "sources": [
+        {
+          "url": "https://www.france24.com/en/middle-east/20261104-netanyahu-claims-serious-concerns-of-foreign-spending-to-sway-israeli-election",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-11-04T21:26:53+00:00",
+          "retrieved_at": "2026-11-05T04:26:08.328906+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/b6646fe04eccaaa41d03f76e5c77c5db1b30ffa912214f0a4f557e4eb757c82b.webp"
+    },
+    {
+      "story_id": "north-korea-air-defence-cruise-test-2026-11-04",
+      "identity": "north-korea-air-defence-cruise-test-2026-11-04",
+      "edition_id": "2026-11-05-morning",
+      "date": "2026-11-05",
+      "slot": "morning",
+      "published_at": "2026-11-05T05:29:53.650985+00:00",
+      "available_at": "2026-11-05T05:29:53.650985+00:00",
+      "headline": "Βόρεια Κορέα: το KCNA ανακοινώνει δοκιμές αεράμυνας και πυραύλων κρουζ",
+      "finding": "Η Βόρεια Κορέα πραγματοποίησε στις 4 Νοεμβρίου δοκιμή νέου αντιαεροπορικού συστήματος και άσκηση προσβολής εικονικού στόχου με πύραυλο κρουζ μεγάλης εμβέλειας, σύμφωνα με το KCNA, το οποίο επικαλείται ο Φιλελεύθερος. Το κρατικό πρακτορείο υποστηρίζει ότι επιβεβαιώθηκαν λειτουργίες εντοπισμού, εγκλωβισμού και αλλαγής κατεύθυνσης πυραύλων. Το απόσπασμα δεν παρέχει ανεξάρτητη αξιολόγηση επιδόσεων ή στοιχεία που να επιτρέπουν επιβεβαίωση των τεχνικών ισχυρισμών.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-11-05-morning/north-korea-air-defence-cruise-test-2026-11-04.json",
+      "reader_url": "articles/2026-11-05-morning/north-korea-air-defence-cruise-test-2026-11-04.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kosmos/article/1791223/h-voria-korea-dokimase-neo-sistima-aeraminas-ke-piravlous-krouz-megalis-emvelias",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-05T04:12:44+00:00",
+          "retrieved_at": "2026-11-05T04:26:08.148464+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/d96837a17630d804e47eb59cdd6d53f91bb08c488ada63683d0f2ca94ff82f3f.webp"
+    },
+    {
+      "story_id": "commission-turkey-report-cyprus-2026-11-05",
+      "identity": "commission-turkey-report-cyprus-2026-11-05",
+      "edition_id": "2026-11-05-morning",
+      "date": "2026-11-05",
+      "slot": "morning",
+      "published_at": "2026-11-05T05:29:53.650985+00:00",
+      "available_at": "2026-11-05T05:29:53.650985+00:00",
+      "headline": "Λευκωσία: έμφαση στον αγωγό Τουρκίας–κατεχομένων στην έκθεση της Επιτροπής",
+      "finding": "Η Λευκωσία αποδίδει ιδιαίτερη σημασία στην καταγραφή, στην έκθεση της Ευρωπαϊκής Επιτροπής για την Τουρκία, του μνημονίου για υποθαλάσσιο αγωγό φυσικού αερίου που υπογράφηκε τον Ιούλιο, σύμφωνα με τον Φιλελεύθερο. Το δημοσίευμα αναφέρει ότι η συμφωνία έγινε χωρίς εξουσιοδότηση ή συγκατάθεση της Κυπριακής Δημοκρατίας. Παράλληλα, η Άγκυρα καλείται να στηρίξει συνολική και βιώσιμη λύση του Κυπριακού και να αποφύγει μονομερείς ενέργειες.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-05-morning/commission-turkey-report-cyprus-2026-11-05.json",
+      "reader_url": "articles/2026-11-05-morning/commission-turkey-report-cyprus-2026-11-05.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1791217/pos-i-lefkosia-axiologei-tin-ekthesi-tis-komision-gia-tin-tourkia",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-05T04:20:00+00:00",
+          "retrieved_at": "2026-11-05T04:26:08.213435+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7c27ef9f5141bbbdf371721d6303db4f4d4f7fea614205679fcebdda78ec19f5.webp"
+    },
+    {
+      "story_id": "cyprus-inflation-purchasing-power-2026-11-05",
+      "identity": "cyprus-inflation-purchasing-power-2026-11-05",
+      "edition_id": "2026-11-05-morning",
+      "date": "2026-11-05",
+      "slot": "morning",
+      "published_at": "2026-11-05T05:29:53.650985+00:00",
+      "available_at": "2026-11-05T05:29:53.650985+00:00",
+      "headline": "Ακρίβεια: ο Φιλελεύθερος υπολογίζει σωρευτική αύξηση 11,16% από τον Οκτώβριο του 2022",
+      "finding": "Ο Φιλελεύθερος παρουσιάζει σωρευτικό πληθωρισμό 11,16% για την Κύπρο από τον Οκτώβριο του 2022 έως σήμερα, αποδίδοντάς τον με παράδειγμα καλαθιού €100 που κοστίζει πλέον €111,16. Πρόκειται για τον υπολογισμό του δημοσιεύματος, καθώς το διαθέσιμο απόσπασμα δεν περιλαμβάνει την πλήρη στατιστική σειρά. Η σύγκριση αφορά την αλλαγή του επιπέδου τιμών σε βάθος χρόνου και όχι αύξηση 11,16% μόνο μέσα στο 2026.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-05-morning/cyprus-inflation-purchasing-power-2026-11-05.json",
+      "reader_url": "articles/2026-11-05-morning/cyprus-inflation-purchasing-power-2026-11-05.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1791182/plithorismos-eklepse-peran-ton-e11-apo-tin-tsepi-ton-katanaloton-sterontas-tous-ena-simantiko-kommati-tou-isodimatos-tous",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-05T04:03:00+00:00",
+          "retrieved_at": "2026-11-05T04:26:08.663861+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/43c67393ab42971df6de64c4b90834981adb23bbd00dec3cb3de1984f742e08b.webp"
+    },
+    {
+      "story_id": "cyprus-ireland-fiscal-comparison-2026-11-05",
+      "identity": "cyprus-ireland-fiscal-comparison-2026-11-05",
+      "edition_id": "2026-11-05-morning",
+      "date": "2026-11-05",
+      "slot": "morning",
+      "published_at": "2026-11-05T05:29:53.650985+00:00",
+      "available_at": "2026-11-05T05:29:53.650985+00:00",
+      "headline": "Κυπριακά δημόσια οικονομικά: σύγκριση με την Ιρλανδία, με διαφορετική φορολογική βάση",
+      "finding": "Άρθρο γνώμης της Cyprus Mail χρησιμοποιεί ως αφετηρία αναφερόμενο κυπριακό δημοσιονομικό πλεόνασμα €1,61 δισ. και συγκρίνει το οικονομικό μοντέλο με της Ιρλανδίας. Επικαλείται ιρλανδικό ΑΕΠ €602,4 δισ. για το 2025 έναντι τροποποιημένου εθνικού εισοδήματος €334 δισ. και επισημαίνει ότι η Κύπρος δεν εμφανίζει αντίστοιχη συγκέντρωση εσόδων από εταιρικό φόρο. Είναι συγκριτική ανάλυση, όχι ανακοίνωση νέου κυπριακού μέτρου.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-11-05-morning/cyprus-ireland-fiscal-comparison-2026-11-05.json",
+      "reader_url": "articles/2026-11-05-morning/cyprus-ireland-fiscal-comparison-2026-11-05.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/05/what-ireland-got-right-and-what-cyprus-could-do-better",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-05T04:00:00+00:00",
+          "retrieved_at": "2026-11-05T04:26:09.458368+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/902d0ae67d439cbe0ec892b738148b0e4bdbc6d1ad7baf9cfe056002685267a6.webp"
+    },
+    {
+      "story_id": "cyprus-isolated-rain-forecast-2026-11-05",
+      "identity": "cyprus-isolated-rain-forecast-2026-11-05",
+      "edition_id": "2026-11-05-morning",
+      "date": "2026-11-05",
+      "slot": "morning",
+      "published_at": "2026-11-05T05:29:53.650985+00:00",
+      "available_at": "2026-11-05T05:29:53.650985+00:00",
+      "headline": "Τοπικές βροχές σήμερα, ευρύτερη αστάθεια την Παρασκευή",
+      "finding": "Η πρόγνωση που δημοσιεύει το SigmaLive για τις 5 Νοεμβρίου προβλέπει αρχικά κυρίως αίθριο καιρό και τοπικές νεφώσεις, με πιθανές μεμονωμένες βροχές κυρίως στα βόρεια. Αργότερα αναμένονται μεμονωμένες βροχές και ενδεχομένως καταιγίδες σε ορεινά, βόρεια και ανατολικά. Για την Παρασκευή αναφέρονται τοπικές βροχές και μεμονωμένες καταιγίδες, ιδιαίτερα μετά το μεσημέρι· δεν προκύπτει από το απόσπασμα ότι έχει εκδοθεί επίσημη προειδοποίηση.",
+      "section": "cyprus",
+      "priority": 9,
+      "article_path": "articles/2026-11-05-morning/cyprus-isolated-rain-forecast-2026-11-05.json",
+      "reader_url": "articles/2026-11-05-morning/cyprus-isolated-rain-forecast-2026-11-05.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1336240/anamenontai-memonomenes-vrokhes-kai-kataighides-poies-periokhes-tha-epireastoun",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-05T04:22:33+00:00",
+          "retrieved_at": "2026-11-05T04:26:08.453202+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ecc03b42143f0234eea15bf7e0daef4855e1d3271d926b4af6a190678f1cd8b9.webp"
+    },
+    {
+      "story_id": "doha-world-padel-2026-11-02",
+      "identity": "doha-world-padel-2026-11-02",
+      "edition_id": "2026-11-05-morning",
+      "date": "2026-11-05",
+      "slot": "morning",
+      "published_at": "2026-11-04T05:33:43.055110+00:00",
+      "available_at": "2026-11-05T05:29:53.650985+00:00",
+      "headline": "Παγκόσμιο padel: σήμερα οι προημιτελικοί στη Ντόχα",
+      "finding": "Η διοργάνωση περνά στις 5 Νοεμβρίου από τους ομίλους στους προημιτελικούς, σύμφωνα με το Padel Addict. Οι αγώνες διεξάγονται στο Khalifa International Tennis and Squash Complex της Ντόχα.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-11-05-morning/doha-world-padel-2026-11-02.json",
+      "reader_url": "articles/2026-11-05-morning/doha-world-padel-2026-11-02.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/cuartos-mundial-padel-2026-partidos-horarios-retransmision",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-04T23:14:57+00:00",
+          "retrieved_at": "2026-11-05T04:26:14.791895+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/1055c22aef758a03d17c191ecda6b6c07697675e4ce50e310ee352edc81f559f.webp"
+    },
+    {
+      "story_id": "liverpool-iraola-fenerbahce-2026-11-04",
+      "identity": "liverpool-iraola-fenerbahce-2026-11-04",
+      "edition_id": "2026-11-05-morning",
+      "date": "2026-11-05",
+      "slot": "morning",
+      "published_at": "2026-11-05T05:29:53.650985+00:00",
+      "available_at": "2026-11-05T05:29:53.650985+00:00",
+      "headline": "Λίβερπουλ: το BBC εστιάζει στην αμυντική συνοχή μετά το 3–2 από τη Φενέρμπαχτσε",
+      "finding": "Οι αναλυτές Στίβεν Γουόρνοκ και Γκιγιέμ Μπαλαγκέ στο BBC συνδέουν την ήττα με 3–2 με αμυντικές αδυναμίες και τον πειραματισμό του Αντόνι Ιραόλα με τον Μπράντλεϊ Μπαρκολά στην κορυφή.",
+      "section": "sports",
+      "priority": 11,
+      "article_path": "articles/2026-11-05-morning/liverpool-iraola-fenerbahce-2026-11-04.json",
+      "reader_url": "articles/2026-11-05-morning/liverpool-iraola-fenerbahce-2026-11-04.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/videos/c9rky37kx37lo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-04T23:22:35+00:00",
+          "retrieved_at": "2026-11-05T04:26:15.775878+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/457702983d33bf3d840a772fc0377d808c8889b9e80e5537a223209e9ada126f.webp"
+    },
+    {
+      "story_id": "scotland-finn-russell-all-blacks-2026-11-05",
+      "identity": "scotland-finn-russell-all-blacks-2026-11-05",
+      "edition_id": "2026-11-05-morning",
+      "date": "2026-11-05",
+      "slot": "morning",
+      "published_at": "2026-11-05T05:29:53.650985+00:00",
+      "available_at": "2026-11-05T05:29:53.650985+00:00",
+      "headline": "Ράγκμπι: ο Φιν Ράσελ ετοιμάζεται για την 96η συμμετοχή του με τη Σκωτία",
+      "finding": "Ο Φιν Ράσελ αναμένεται να φτάσει τις 96 διεθνείς συμμετοχές απέναντι στη Νέα Ζηλανδία το Σάββατο στο Μάρεϊφιλντ, σύμφωνα με το BBC.",
+      "section": "sports",
+      "priority": 12,
+      "article_path": "articles/2026-11-05-morning/scotland-finn-russell-all-blacks-2026-11-05.json",
+      "reader_url": "articles/2026-11-05-morning/scotland-finn-russell-all-blacks-2026-11-05.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmj47p14w5npo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-04T22:40:05+00:00",
+          "retrieved_at": "2026-11-05T04:26:16.418077+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/d95c0d319e936091aa6f383f8aa45c771d078ba1200b0289ee07ccf712902000.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
