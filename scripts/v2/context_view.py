@@ -22,6 +22,7 @@ def synthesis(pack,max_bytes=48000):
     news=importlib.util.module_from_spec(spec);spec.loader.exec_module(news)
     modern=pack['data']['sports'].get('briefing_policy')=='intelligence-v1'
     enriched=pack.get('briefing_policy')=='depth-markets-v1'
+    financial=pack.get('financial_policy')=='news-insights-v1'
     routine_sources={}
     def source_ref(source):
         key=(source['url'],source.get('retrieved_at'))
@@ -51,7 +52,7 @@ def synthesis(pack,max_bytes=48000):
         'Coverage contract: aim for 4–5 supported Cyprus and 4–5 international stories in the complete edition. Morning: at most 10 authored stories including any sports story. Later: at most 6 materially new/updated stories, plus exact carries to retain useful coverage in BOTH desks. Keep the same 6500/4000 output-token ceilings, 5/3 searches, 2/1 URL opens, one synthesis pass and one review. Give each news desk a substantive analytical lead; secondary reports remain two clear factual sentences. Do not pad weak evidence or rewrite unchanged articles.',
         'Photos and the expanded Sports desk are assembled by Python. Use no image searches. When a priority club just played or an F1 session materially changes the championship, consider one evidence-backed sports lead within the existing story/word cap. Explain the sporting consequence and next test; tactical claims require article evidence, never a scoreline. Routine results, standings, UEFA and favourite headlines need no AI re-emission.',
         'Editorial focus within the existing task caps: read the full candidate inventory before choosing; choose consequence and material change over newest/easiest headlines and verify geography. Cover 4–5 supported stories in EACH news desk when evidence allows, using concise secondary dispatches and exact carries in later editions. Do not stop after the first two candidates per desk. News breadth takes precedence over an optional authored sports item; the full Python Sports desk remains visible. Put the most consequential analytical lead first within each desk. Aim for 120–170 Greek words per analytical lead across fact, delta, mechanism, effects and watch: what changed, causal chain/incentive, who is affected/how, and an observable next test. State uncertainty; scenarios are conditional, never invented.',
-        'Executive: 1–3 points, ideally 90–120 words total, connecting concrete developments to practical implications and a next test. Use baseline findings as dated context only. Avoid headline repetition and invented links between unrelated stories. Use the existing single factual review to check substance, support, novelty, geography and token budget; no extra turn or research loop.',
+        'Executive: 1–3 points, ideally 90–120 words total, connecting concrete developments to practical implications and a next test. Use baseline findings as dated context only. Each point should link new evidence to a mechanism, identify who is affected, and name a test that could change the assessment. If the evidence supports only one such point, give one. Use the existing single factual review to check substance, support, novelty, geography and token budget; no extra turn or research loop.',
         '\n## Baseline records (historical context, no new verification)']
     if modern:
         lines=[line for line in lines if not line.startswith('Photos and the expanded Sports desk')]
@@ -69,19 +70,49 @@ def synthesis(pack,max_bytes=48000):
         lines.insert(-1,'News depth: optional @Meaning one distinct supported consequence (15–25 words), with @AnalysisSources e1. Summary plus meaning maximum 90 words for ordinary secondary news. No minimum for weak evidence. Leads retain 120–170 words overall. Add finance, technology or cybersecurity tags to relevant stories; do not duplicate their prose in markets.')
         lines.insert(-1,'After articles, optionally @Market instrument=GOOGL evidence=e1,e2 | 10–65 Greek words: reported catalyst, practical consequence, uncertainty and next observable test where supported. At most 3; Python inserts the exact move/time. Quote evidence establishes movement, never cause. Unexplained large moves receive a Python highlight. Distinguish regular session, extended hours and crypto reference intervals; do not invent a cause, loss amount or breach victim.')
         lines.insert(-1,'At most two candidates marked priority_required must be covered using their article evidence, or explicitly @SkipPriority candidate=c1 reason="specific evidence or editorial reason, at least 20 characters". A security headline is a report to assess, not proof of a confirmed breach. Distinguish exchange, blockchain, supplier and individual-account incidents.')
+    if financial:
+        lines=[line for line in lines if not line.startswith('After articles, optionally @Market')]
+        lines.insert(-1,'Financial reporting is a reserved reading lane, including quiet-price earnings, guidance, macro policy, sector changes and exchange incidents. Read all visible finance_candidate excerpts; select by consequence, not percentage change. Compare the relevant markets with matching observation windows. Identify whether the move is broad among the tracked assets or concentrated in one group. For earnings, lead with the change in outlook or operating results. Compare actuals with equivalent consensus or prior guidance only when supplied. News establishes a reported catalyst; relative performance alone cannot prove company-specific causality. Actual-versus-expected figures, amounts, dates and affected entities require article evidence. State when the cause remains uncertain; do not invent an explanation to fill a slot.')
+        lines.insert(-1,'After articles write 2–3 distinct @Insight instruments=AMZN,^IXIC evidence=e1,e2 stats=m1 reported="Reported development and sourced explanation" meaning="Conditional editorial interpretation and practical implication" watch="Sourced next test or unresolved question" | Short Greek headline. Usually two insights; add a third only for a distinct material development within the remaining output budget. 70–100 Greek words TOTAL across reported/meaning/watch, at most 300 overall. Instruments=none supports broad macro/security reporting without an inventory company; stats=none when comparable observations are unavailable. Statistics aliases resolve to Python charts; do not retype prices/tables. An article may also be selected as news, but insights must add meaning instead of repeating it. Use @FinanceReason specific evidence/novelty limitation (at least 20 characters) if fewer than two insights; never pad.')
+        lines.insert(-1,'Later slots update only material new reporting. @CarryInsight index=1 preserves an unchanged SAME-DAY baseline financial insight, including original analysis/source/chart times. At most 3 new+carried insights total; never carry yesterday or duplicate one event in several insights. These replace @Market and percentage-only overview prose within the unchanged 48,000-byte digest, 6500/4000 output, search and single-pass caps. Required priority evidence may be covered in an insight or selected news article.')
     for story in pack.get('baseline_stories',[]):
         view={k:v for k,v in story.items() if k!='identity' or v!=story.get('story_id')}
-        view['finding']=short(story.get('finding',''),160 if modern else 240)
+        view['finding']=short(story.get('finding',''),100 if financial else 160 if modern else 240)
         lines.append(json.dumps(view,ensure_ascii=False,separators=(',',':')))
+    if financial:
+        quotes = {quote['instrument']:quote for quote in pack['data']['markets']}
+        core = ('^GSPC', '^IXIC', '^STOXX', '^N225', '^HSI', '^KS11', 'ES=F', 'NQ=F',
+                'eurusd', 'brent', 'GC=F', 'BTC-USD', 'ecb-deposit', 'euribor-3m', 'euribor-12m')
+        markets=news.module('market_briefing')
+        alerts=markets.alerts(pack['data']['markets'],pack['prepared_at'])
+        symbols=dict.fromkeys((*core, *(alert['instrument'] for alert in alerts[:3])))
+        signals=['\n## Market signals: instrument | value | provider change % | quote time | status | session',
+                 'Compare only matching observation windows. Rate levels are percentages; null changes are unavailable.']
+        for symbol in symbols:
+            quote=quotes.get(symbol)
+            if quote and quote.get('value') is not None:
+                fields=('instrument','value','change_pct','quoted_at','status','session')
+                signals.append(' | '.join(str(quote.get(key)) for key in fields))
+        lines.extend(signals)
+        titles=' '.join(c['title'] for c in pack['candidates'] if c.get('finance_candidate'))
+        related={key for key,pattern in markets.COMPANIES.items() if re.search(pattern,markets.normalized(titles))}
+        comparisons=[s for s in pack.get('market_context',[]) if s['instrument'] in related]
+        if not comparisons:comparisons=sorted(pack.get('market_context',[]),key=lambda s:abs(s['excess_pp']),reverse=True)[:3]
+        lines.append('Comparable completed sessions (not live/extended-hours returns; excess_pp is percentage points, not a cause): '+encoded([
+            {k:s[k] for k in ('id','instrument','benchmark','start','end','basis','return_pct','benchmark_return_pct','excess_pp')}
+            for s in comparisons]))
+        for index,insight in enumerate(pack.get('baseline_financial',[]),1):
+            lines.append('Historical financial insight '+str(index)+': '+encoded({k:insight[k] for k in ('headline','reported','meaning','watch','as_of')}))
     routine_start=len(lines)
-    lines.append('\n## Python market table: instrument | value | change_pct | quoted_at | status'+(' | session' if enriched else ''))
-    for q in pack['data']['markets']:
-        keys=('instrument','value','change_pct','quoted_at','status')+(('session',) if enriched else ())
-        lines.append(' | '.join(str(q.get(k)) for k in keys))
-    if enriched:
-        alerts=news.module('market_briefing').alerts(pack['data']['markets'],pack['prepared_at'])
-        lines.append('Market alerts (provider observations, no inferred cause): '+encoded([
-            {k:a[k] for k in ('instrument','change_pct','quoted_at','status','session','priority')} for a in alerts[:3]]))
+    if not financial:
+        lines.append('\n## Python market table: instrument | value | change_pct | quoted_at | status'+(' | session' if enriched else ''))
+        for q in pack['data']['markets']:
+            keys=('instrument','value','change_pct','quoted_at','status')+(('session',) if enriched else ())
+            lines.append(' | '.join(str(q.get(k)) for k in keys))
+        if enriched:
+            alerts=news.module('market_briefing').alerts(pack['data']['markets'],pack['prepared_at'])
+            lines.append('Market alerts (provider observations, no inferred cause): '+encoded([
+                {k:a[k] for k in ('instrument','change_pct','quoted_at','status','session','priority')} for a in alerts[:3]]))
     lines.append('Weather: '+pack['weather_status'])
     for panel in pack['data']['panels']:
         lines.extend(panel['paragraphs'])
@@ -115,7 +146,7 @@ def synthesis(pack,max_bytes=48000):
     usable=lambda c:[e for e in c['evidence'] if e.get('access')=='article_excerpt' and e.get('source') and e.get('excerpt')]
     queues=[[c for c in pack['candidates'] if c['section']==s and usable(c)] for s in ('cyprus','world')]
     if enriched:
-        queues=[sorted(queue,key=lambda c:not c.get('priority_required',False)) for queue in queues]
+        queues=[sorted(queue,key=lambda c:(not c.get('priority_required',False),not c.get('finance_candidate',False))) for queue in queues]
     ordered=[]
     while any(queues):
         for queue in queues:
@@ -123,8 +154,9 @@ def synthesis(pack,max_bytes=48000):
     ordered.extend(c for c in pack['candidates'] if c['section']=='sports' and usable(c))
     protected=[]
     if modern:
+        if financial:protected.extend([c for c in ordered if c.get('finance_candidate')][:3])
         for desk in ('cyprus','world'):
-            protected.extend([c for c in ordered if c['section']==desk][:5])
+            protected.extend(c for c in [c for c in ordered if c['section']==desk][:5] if c not in protected)
         lanes=set()
         for c in ordered:
             lane=c.get('sports_lane') or usable(c)[0].get('sports_lane')
@@ -132,6 +164,10 @@ def synthesis(pack,max_bytes=48000):
                 protected.append(c);lanes.add(lane)
         ordered=protected+[c for c in ordered if c not in protected]
     def evidence_line(e,limit):
+        if financial:
+            return encoded(dict(id=e['id'],access=e['access'],source={k:e['source'].get(k) for k in
+                ('publisher','reporting_group','published_at','retrieved_at')},
+                excerpt=news.focused_excerpt(e['excerpt'],e.get('title',''),limit)))
         return encoded(dict(id=e['id'],access=e['access'],source=e['source'],sports_lane=e.get('sports_lane'),
                              excerpt=news.focused_excerpt(e['excerpt'],e.get('title',''),limit),
                              excerpt_scope='selected source passages in original order; […] marks omissions; not the whole article'))
@@ -139,14 +175,18 @@ def synthesis(pack,max_bytes=48000):
         seen=set();blocks=[]
         for c in ordered:
             limit=secondary_limit if c['section'] in seen else lead_limit
+            if financial and c.get('finance_candidate'):limit=max(limit,1200)
             seen.add(c['section'])
-            blocks.append([encoded({k:v for k,v in c.items() if k!='evidence'}),evidence_line(usable(c)[0],limit)])
+            metadata={k:v for k,v in c.items() if k!='evidence'}
+            if financial:metadata={k:v for k,v in metadata.items() if k in ('id','section','title','sports_lane','finance_candidate','priority_required','baseline_matches') and v is not None}
+            blocks.append([encoded(metadata),evidence_line(usable(c)[0],limit)])
         return blocks
     # Keep an explicit inventory even when a genuinely oversized pack needs omissions.
     inventory=[{'id':c['id'],'section':c['section'],'usable_evidence':len(usable(c))} for c in pack['candidates']]
     lines.append('Candidate inventory: '+encoded(inventory))
     lines.append('Collection pipeline: '+encoded({k:{name:v[name] for name in ('discovered','fetched','readable')}
                  for k,v in pack.get('metrics',{}).get('pipeline',{}).items()}))
+    if financial:lines.append('Article source URLs/full metadata stay in the sealed pack and resolve through @Evidence aliases. Publication/reporting-chain metadata below supports review; excerpts are selected passages in source order, […] marks omissions. Never invent URLs or treat publisher variety as independence.')
     def fits(extra):return len(('\n'.join(lines+extra)+'\n').encode('utf-8'))<=max_bytes-1200
     sizes=((2400,1600),(1800,1200),(1400,1000),(1000,700))
     if modern:sizes+=((800,600),)
@@ -168,7 +208,7 @@ def synthesis(pack,max_bytes=48000):
                          'Detailed market, weather and sports tables remain in the sealed pack and public output; omitted here to preserve article evidence.',
                          'Weather: '+pack['weather_status'],
                          'Sports just_played: '+encoded(status)]
-                if enriched:
+                if enriched and not financial:
                     routine.append('Market alerts (provider observations, no inferred cause): '+encoded([
                         {k:a[k] for k in ('instrument','change_pct','quoted_at','status','session','priority')} for a in alerts[:3]]))
                 lines[routine_start:routine_end]=routine

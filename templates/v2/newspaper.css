@@ -167,6 +167,15 @@ figure.photo img[hidden],figure.photo .image-fallback[hidden]{display:none}
 .wire-item a { color: var(--amber2); text-decoration: underline; margin-left: 6px; font-size: 11px; }
 
 .quote-transmission { font: 500 11.5px/1.4 'DM Sans', sans-serif; color: var(--muted); border-top: 1px dashed var(--line); padding-top: 5px; margin-top: 4px; }
+.financial-insights { margin-bottom: 24px; }
+.financial-insight { border-top: 1px solid var(--line); padding: 16px 0; }
+.financial-insight h4 { margin: 0 0 8px; font-size: 1.2rem; }
+.financial-insight p { line-height: 1.65; overflow-wrap: anywhere; }
+.financial-as-of, .financial-limitation { color: var(--muted); font-size: .85rem; }
+.financial-chart { max-width: 560px; margin: 16px 0; }
+.financial-chart svg { display: block; width: 100%; height: auto; }
+.financial-chart figcaption { font-size: .85rem; line-height: 1.5; overflow-wrap: anywhere; }
+.financial-chart table { width: 100%; font-size: .85rem; }
 .scoreboard-badge { display: inline-block; font: 700 10px 'IBM Plex Mono', monospace; padding: 2px 8px; border-radius: 3px; background: var(--card2); color: var(--forest); border: 1px solid var(--line); }
 .fixture-pill { display: inline-block; font: 600 11px 'DM Sans', sans-serif; color: var(--muted); margin-top: 4px; }
 

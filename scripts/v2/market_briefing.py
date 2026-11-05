@@ -117,6 +117,9 @@ def hydrate(payload, pack, old_records):
         urls = {e['source']['url'] for e in candidate['evidence'] if e.get('source') and e.get('access') == 'article_excerpt'}
         covered = next((a['story_id'] for a in records if any(s.get('url') in urls and s.get('access') == 'read'
                        and s.get('used_for_claims') for s in a.get('sources', []))), None)
+        if not covered and pack.get('financial_policy')=='news-insights-v1':
+            covered=next(('financial-insight' for brief in payload.get('financial_briefs',[]) if any(
+                (pack['evidence'].get(alias,{}).get('source') or {}).get('url') in urls for alias in brief['evidence'])),None)
         if covered and candidate['id'] in skips:
             raise ValueError('A covered priority candidate cannot also be omitted')
         if not covered and len(skips.get(candidate['id'], '').strip()) < 20:

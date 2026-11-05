@@ -62,7 +62,10 @@ def hydrate(payload,pack,root,at=None):
         payload['reading_review']['completed_at']=at
     for key in routine:
         payload[key]=copy.deepcopy(pack['data'][key])
+    if pack.get('financial_policy')=='news-insights-v1' and payload.get('market_briefs'):
+        raise ValueError('Use financial insights instead of duplicate @Market explanations')
     module('market_briefing').hydrate(payload,pack,old_records)
+    module('financial_insights').hydrate(payload,pack,module('market_briefing'))
     module('sports_briefing').hydrate(payload,pack)
     if module('sports_briefing').active(payload['sports']):
         payload['sports']['major_stories_reason']=payload.pop('sports_shortfall_reason','')

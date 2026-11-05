@@ -30,6 +30,7 @@ def capabilities(root):
             'authoring_formats':['json','oracle-markdown/1'],
             'synthesis_protocol':'oracle-synthesis/1',
             'briefing_policy':'depth-markets-v1',
+            'financial_policy':'news-insights-v1',
             'prefetch_before_model':True,
             'intelligence_contract':1,
             'explicit_baseline_reuse':True,

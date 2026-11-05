@@ -28,6 +28,7 @@ def quote_key(q):
 
 def markets(b, e):
     enriched=e.get('briefing_policy')=='depth-markets-v1'
+    financial=e.get('financial_policy')=='news-insights-v1'
     companies=TECH if enriched else [item for item in TECH if item[1]!='AMZN']
     labels = {'live':'Ενδοσυνεδριακή', 'delayed':'Με καθυστέρηση · ενδοσυνεδριακή', 'previous_close':'Κλείσιμο', 'unavailable':'Μη διαθέσιμη'}
     if enriched:labels['delayed']='Με καθυστέρηση'
@@ -56,7 +57,7 @@ def markets(b, e):
             i,q = max(candidates, key=lambda pair: datetime.fromisoformat(pair[1]['quoted_at']).timestamp())
             if i not in used: core.append(q); used.add(i)
     overview = e.get('market_summary', [])
-    if not overview:
+    if not overview and not financial:
         if enriched:
             market_briefing=b.load_module('market_briefing')
             overview=[market_briefing.quote_note(a) for a in market_briefing.alerts(quotes,e['published_at'])[:3]]
@@ -69,7 +70,8 @@ def markets(b, e):
     summary='<ol class="market-summary">'+''.join('<li><p>'+b.esc(n['text'])+'</p></li>' for n in overview)+'</ol>' if overview else '<p>Δεν υπάρχουν επαληθευμένες τιμές σε αυτή την έκδοση.</p>'
     evidence=''.join('<h4>Σημείο '+str(i)+'</h4>'+b.source_links(n['sources']) for i,n in enumerate(overview,1))
     if evidence:summary+='<details class="sources-disclosure overview-sources"><summary>Πηγές σύνοψης</summary><div class="disclosure-body">'+evidence+'</div></details>'
-    html = '<section class="section compact-markets" id="markets"><div class="sectionhead"><h2>'+b.emblem('markets')+'Αγορές.</h2><a class="read-link" href="../markets.html">Ιστορικά γραφήματα ↗</a></div><div class="market-overview"><h3>Η εικόνα των αγορών σε 30 δευτερόλεπτα</h3>'+summary+'</div><div class="core-quotes">'+''.join(quote(q) for q in core)+'</div>'
+    intro=b.load_module('financial_insights').render(b,e) if financial else '<div class="market-overview"><h3>Η εικόνα των αγορών σε 30 δευτερόλεπτα</h3>'+summary+'</div>'
+    html = '<section class="section compact-markets" id="markets"><div class="sectionhead"><h2>'+b.emblem('markets')+'Αγορές.</h2><a class="read-link" href="../markets.html">Ιστορικά γραφήματα ↗</a></div>'+intro+'<div class="core-quotes">'+''.join(quote(q) for q in core)+'</div>'
     tech_keys = {key for _,key in companies}
     rates = []
     groups = {}
