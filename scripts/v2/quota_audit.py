@@ -5,13 +5,29 @@ import copy
 import hashlib
 import importlib.util
 import json
+import re
 from pathlib import Path
 import tiktoken
 
 ROOT=Path(__file__).resolve().parents[2]
 
 
-def measure(root,eid):
+def active_budgets(root):
+    contract = (root/'CHATGPT_TASK_INSTRUCTIONS.md').read_text(encoding='utf-8')
+    pattern = (r'^(Morning|Midday|Evening) budget: at most (\d+) targeted searches, '
+               r'(\d+) URL opens?, (\d+) total tool calls, (\d+).*?and '
+               r'([\d,]+) output reference tokens\.')
+    budgets = {}
+    for slot, searches, reads, tools, stories, tokens in re.findall(pattern, contract, re.MULTILINE):
+        budgets[slot.lower()] = dict(searches=int(searches), url_reads=int(reads),
+            total_tools=int(tools), authored_stories=int(stories),
+            output_reference_tokens=int(tokens.replace(',', '')))
+    if set(budgets) != {'morning', 'midday', 'evening'}:
+        raise ValueError('The active task contract must declare all three slot budgets')
+    return budgets
+
+
+def measure(root,eid,budgets=None):
     edition=json.loads((root/'content/editions'/(eid+'.json')).read_text(encoding='utf-8'))
     articles=[json.loads((root/'content'/p).read_text(encoding='utf-8')) for p in edition['articles']]
     spec=importlib.util.spec_from_file_location('audit_compose',Path(__file__).with_name('compose.py'))
@@ -41,20 +57,19 @@ def measure(root,eid):
         emitted_article_prose_words=sum(prose(a[k]) for a in articles for k in fields if k in a),
         equivalent_full_payload_utf8_bytes=len(serialized.encode()),
         equivalent_full_payload_reference_tokens=len(enc.encode(serialized)),
-        new_synthesis_reference_token_cap=6500 if edition['type']=='morning' else 4000)
+        new_synthesis_reference_token_cap=(budgets or active_budgets(root))[edition['type']]['output_reference_tokens'])
 
 
 def audit(root=ROOT):
     root=Path(root);editions=[]
+    budgets=active_budgets(root)
     for slot in ('morning','midday','evening'):
         path=max((root/'content/editions').glob('*-'+slot+'.json'))
-        editions.append(measure(root,path.stem))
+        editions.append(measure(root,path.stem,budgets))
     return dict(version=1,tokenizer='o200k_base',editions=editions,
         legacy=dict(search_cap=None,url_read_cap=None,total_tool_cap=None,actual_searches=None,actual_url_reads=None,actual_tool_calls=None,
             reason='Repository content records evidence, not a model/tool transcript. Legacy prompts have no finite ceiling. Batch calls/retries and source access cannot be reconstructed.'),
-        new=dict(morning=dict(searches=5,url_reads=2,total_tools=10,authored_stories=6,output_reference_tokens=6500),
-            midday=dict(searches=3,url_reads=1,total_tools=7,authored_stories=4,output_reference_tokens=4000),
-            evening=dict(searches=3,url_reads=1,total_tools=7,authored_stories=4,output_reference_tokens=4000)),
+        new=budgets,
         limits='Saved payload replay counts are reference tokens, not actual generated/run tokens or an account-quota measurement. Prompt caps are instructions; the compiler enforces declared tool counts, output tokens and story counts, not hidden provider telemetry.')
 
 

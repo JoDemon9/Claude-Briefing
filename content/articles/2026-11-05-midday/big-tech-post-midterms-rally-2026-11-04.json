@@ -1,0 +1,79 @@
+{
+  "analysis_sources": [
+    "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html"
+  ],
+  "baseline_origin": {
+    "edition_id": "2026-11-05-morning",
+    "fingerprint": "fa0ebdf1c38794071251d56f3f991e416ea76ebed2fe4f13e956b732d802eb09"
+  },
+  "category": "Διεθνή",
+  "change_status": "UNCHANGED",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "driver_tags": [
+    "finance",
+    "technology",
+    "market-mover"
+  ],
+  "edition_id": "2026-11-05-midday",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Μεγάλη τεχνολογία: άνοδος μετά τις εκλογές, διαφορετική εικόνα στους μικρότερους παρόχους AI",
+  "id": "big-tech-post-midterms-rally-2026-11-04",
+  "image": {
+    "alt": "Hyperscalers and Apple surge after election results remove investor uncertainty",
+    "attribution": "CNBC",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Hyperscalers and Apple surge after election results remove investor uncertainty · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
+    "original_url": "https://image.cnbcfm.com/api/v1/image/108364987-1789747291534-gettyimages-2295274523-AFP_C8PG29Z.jpeg?v=1789747390&w=1200&h=675",
+    "retrieved_at": "2026-11-05T04:26:19.910065+00:00",
+    "source_review": {
+      "checked_at": "2026-11-05T04:26:19.910065+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "4d4e4f4cba9aacec",
+      "rights_basis": "publisher-attribution",
+      "sha256": "466da133bf2da7f083efb255aa052b7a05328071944dda83e06dbef88b36b14c"
+    },
+    "source_url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
+    "url": "assets/editorial/source/466da133bf2da7f083efb255aa052b7a05328071944dda83e06dbef88b36b14c.webp"
+  },
+  "mechanics_and_incentives": "Ερμηνεία: η σαφέστερη πολιτική εικόνα μπορεί να περιορίζει την αναμονή των επενδυτών. Δεν συνεπάγεται όμως ότι όλες οι εταιρείες AI αποκτούν ίδιες προοπτικές· το ίδιο δημοσίευμα καταγράφει αντίθετη κατεύθυνση στους μικρότερους παρόχους.",
+  "published_at": "2026-11-05T05:29:53.650985+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "alternative_case": "Αν αντιστραφεί στην επόμενη συνεδρίαση, η πρώτη αντίδραση θα αποδειχθεί πρόσκαιρη.",
+    "base_case": "Αν η ζήτηση συνεχιστεί, η άνοδος μπορεί να διατηρηθεί χωρίς να καλύπτει κάθε εταιρεία AI.",
+    "watch_next": "Τη συνέχεια της συνεδρίασης στις 5 Νοεμβρίου και τη διαφορά μεταξύ μεγάλων πλατφορμών και μικρότερων παρόχων."
+  },
+  "second_order_effects": "Η έκθεση σε μεγάλες πλατφόρμες και σε εξειδικευμένους παρόχους cloud δεν έδωσε το ίδιο αποτέλεσμα. Οι αναφερόμενες μεταβολές δεν αντικαθιστούν τις χρονοσημασμένες τιμές του πίνακα.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Το CNBC κατέγραψε ισχυρή άνοδο μεγάλων τεχνολογικών εταιρειών κατά τη συνεδρίαση της 4ης Νοεμβρίου, μετά τη νίκη των Δημοκρατικών στα δύο σώματα του Κογκρέσου. Στο συγκεκριμένο ενδοσυνεδριακό στιγμιότυπο ανέφερε Amazon +8%, Google πάνω από +6% και Microsoft +4%, ενώ η CoreWeave υποχωρούσε 10%. Ο Ντέιβιντ Κέλι της JPMorgan Asset Management απέδωσε την κίνηση στην απομάκρυνση εκλογικής αβεβαιότητας· πρόκειται για εκτίμησή του, όχι αποδεδειγμένη μοναδική αιτία."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-04T19:37:43+00:00",
+      "publisher": "CNBC",
+      "reporting_group": "CNBC",
+      "retrieved_at": "2026-11-05T04:26:07.754141+00:00",
+      "url": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "big-tech-post-midterms-rally-2026-11-04",
+  "story_identity": "big-tech-post-midterms-rally-2026-11-04",
+  "summary": "Το CNBC κατέγραψε ισχυρή άνοδο μεγάλων τεχνολογικών εταιρειών κατά τη συνεδρίαση της 4ης Νοεμβρίου, μετά τη νίκη των Δημοκρατικών στα δύο σώματα του Κογκρέσου. Στο συγκεκριμένο ενδοσυνεδριακό στιγμιότυπο ανέφερε Amazon +8%, Google πάνω από +6% και Microsoft +4%, ενώ η CoreWeave υποχωρούσε 10%. Ο Ντέιβιντ Κέλι της JPMorgan Asset Management απέδωσε την κίνηση στην απομάκρυνση εκλογικής αβεβαιότητας· πρόκειται για εκτίμησή του, όχι αποδεδειγμένη μοναδική αιτία.",
+  "updated_at": "2026-11-05T05:29:53.650985+00:00",
+  "url": "articles/2026-11-05-midday/big-tech-post-midterms-rally-2026-11-04.html"
+}

@@ -71,6 +71,15 @@ class FinancialInsightTests(unittest.TestCase):
         inventory=json.loads((ROOT/'templates/v2/market-instruments.json').read_text())
         self.assertEqual(finance.context(inventory,rows,AT,prefetch.endpoint),[])
 
+    def test_benchmark_comparison_requires_matching_market_timezone(self):
+        inventory=json.loads((ROOT/'templates/v2/market-instruments.json').read_text(encoding='utf-8'))
+        rows={prefetch.endpoint('2330.TW'):chart('2330.TW',[100,97,90]),
+              prefetch.endpoint('^GSPC'):chart('^GSPC',[200,198,190])}
+        data=json.loads(rows[prefetch.endpoint('2330.TW')]['text'])
+        data['chart']['result'][0]['meta']['currency']='TWD'
+        rows[prefetch.endpoint('2330.TW')]['text']=json.dumps(data)
+        self.assertEqual(finance.context(inventory,rows,AT,prefetch.endpoint),[])
+
     def test_sourced_insight_replaces_price_only_overview_and_renders_chart(self):
         pack,payload,_=current()
         result=packmod.hydrate(payload,pack,ROOT,AT.isoformat())
@@ -147,6 +156,17 @@ class FinancialInsightTests(unittest.TestCase):
         for i in range(5,8):self.assertIn('"id":"world-e'+str(i)+'"',digest)
         for i in range(7):self.assertIn('"id":"sports-e'+str(i)+'"',digest)
         self.assertEqual(pack,before)
+        pack['data']['panels']=[dict(paragraphs=['Αναλυτική πρόγνωση. '*1400])]
+        compact=view.synthesis(pack)
+        self.assertLessEqual(len(compact.encode('utf-8')),48000)
+        self.assertIn('## Compact routine context',compact)
+        self.assertIn('## Market signals',compact)
+        self.assertIn('"id":"m1"',compact)
+        coverage=next(line for line in compact.splitlines() if line.startswith('Visible article-backed candidates by desk: '))
+        counts=json.JSONDecoder().raw_decode(coverage.split(': ',1)[1])[0]
+        self.assertGreaterEqual(counts['cyprus'],5)
+        self.assertGreaterEqual(counts['world'],5)
+        self.assertEqual(counts['sports'],7)
 
     def test_financial_excerpt_retains_reported_catalyst_beyond_the_intro(self):
         intro='Alphabet reported quarterly earnings and revenue growth. '

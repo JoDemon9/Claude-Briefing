@@ -1,0 +1,1328 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-03",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-11-03.html",
+  "editions": [
+    {
+      "id": "2026-11-03-morning",
+      "type": "morning",
+      "url": "morning/2026-11-03.html",
+      "published_at": "2026-11-03T05:36:26.687782+00:00"
+    },
+    {
+      "id": "2026-11-03-midday",
+      "type": "midday",
+      "url": "midday/2026-11-03.html",
+      "published_at": "2026-11-03T11:32:51.655692+00:00"
+    },
+    {
+      "id": "2026-11-03-evening",
+      "type": "evening",
+      "url": "evening/2026-11-03.html",
+      "published_at": "2026-11-03T17:36:28.934079+00:00"
+    }
+  ],
+  "missing_slots": [],
+  "lead_story_id": "us-midterms-congress-voting-2026-11-03",
+  "stories": [
+    {
+      "story_id": "lebanon-public-institutions-power-2026-11-03",
+      "first_seen_at": "2026-11-03T11:32:51.655692+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "lebanon-power-cuts",
+          "source_story_id": "lebanon-public-institutions-power-2026-11-03",
+          "url": "articles/2026-11-03-midday/lebanon-power-cuts.html"
+        },
+        {
+          "edition_id": "2026-11-03-evening",
+          "article_id": "lebanon-power-cuts",
+          "source_story_id": "lebanon-public-institutions-power-2026-11-03",
+          "url": "articles/2026-11-03-evening/lebanon-power-cuts.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "lebanon-power-cuts",
+        "source_story_id": "lebanon-public-institutions-power-2026-11-03",
+        "url": "articles/2026-11-03-evening/lebanon-power-cuts.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "qeshm-explosions-2026-11-03",
+      "first_seen_at": "2026-11-03T05:36:26.687782+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-morning",
+          "article_id": "qeshm-explosions",
+          "source_story_id": "qeshm-explosions-2026-11-03",
+          "url": "articles/2026-11-03-morning/qeshm-explosions.html"
+        },
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "qeshm-explosions",
+          "source_story_id": "qeshm-explosions-2026-11-03",
+          "url": "articles/2026-11-03-midday/qeshm-explosions.html"
+        },
+        {
+          "edition_id": "2026-11-03-evening",
+          "article_id": "qeshm-explosions",
+          "source_story_id": "qeshm-explosions-2026-11-03",
+          "url": "articles/2026-11-03-evening/qeshm-explosions.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "qeshm-explosions",
+        "source_story_id": "qeshm-explosions-2026-11-03",
+        "url": "articles/2026-11-03-evening/qeshm-explosions.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "us-midterms-congress-voting-2026-11-03",
+      "first_seen_at": "2026-11-03T17:36:28.934079+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-evening",
+          "article_id": "us-congress-voting",
+          "source_story_id": "us-midterms-congress-voting-2026-11-03",
+          "url": "articles/2026-11-03-evening/us-congress-voting.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "us-congress-voting",
+        "source_story_id": "us-midterms-congress-voting-2026-11-03",
+        "url": "articles/2026-11-03-evening/us-congress-voting.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "czech-public-media-strike-2026-11-03",
+      "first_seen_at": "2026-11-03T11:32:51.655692+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "czech-public-media",
+          "source_story_id": "czech-public-media-strike-2026-11-03",
+          "url": "articles/2026-11-03-midday/czech-public-media.html"
+        },
+        {
+          "edition_id": "2026-11-03-evening",
+          "article_id": "czech-public-media",
+          "source_story_id": "czech-public-media-strike-2026-11-03",
+          "url": "articles/2026-11-03-evening/czech-public-media.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "czech-public-media",
+        "source_story_id": "czech-public-media-strike-2026-11-03",
+        "url": "articles/2026-11-03-evening/czech-public-media.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "europe-supermarket-refrigeration-cyberattack-2026-11-03",
+      "first_seen_at": "2026-11-03T17:36:28.934079+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-evening",
+          "article_id": "supermarket-refrigeration",
+          "source_story_id": "europe-supermarket-refrigeration-cyberattack-2026-11-03",
+          "url": "articles/2026-11-03-evening/supermarket-refrigeration.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "supermarket-refrigeration",
+        "source_story_id": "europe-supermarket-refrigeration-cyberattack-2026-11-03",
+        "url": "articles/2026-11-03-evening/supermarket-refrigeration.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "ukraine-russia-alert-apps-2026-11-02",
+      "first_seen_at": "2026-11-03T05:36:26.687782+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-morning",
+          "article_id": "ukraine-alert-app",
+          "source_story_id": "ukraine-russia-alert-apps-2026-11-02",
+          "url": "articles/2026-11-03-morning/ukraine-alert-app.html"
+        },
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "ukraine-alert-app",
+          "source_story_id": "ukraine-russia-alert-apps-2026-11-02",
+          "url": "articles/2026-11-03-midday/ukraine-alert-app.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "ukraine-alert-app",
+        "source_story_id": "ukraine-russia-alert-apps-2026-11-02",
+        "url": "articles/2026-11-03-midday/ukraine-alert-app.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "christodoulides-holguin-meeting-2026-11-03",
+      "first_seen_at": "2026-11-03T17:36:28.934079+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-evening",
+          "article_id": "holguin-meeting",
+          "source_story_id": "christodoulides-holguin-meeting-2026-11-03",
+          "url": "articles/2026-11-03-evening/holguin-meeting.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "holguin-meeting",
+        "source_story_id": "christodoulides-holguin-meeting-2026-11-03",
+        "url": "articles/2026-11-03-evening/holguin-meeting.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
+      "story_id": "cyprus-general-government-surplus-nine-months-2026-11-03",
+      "first_seen_at": "2026-11-03T11:32:51.655692+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "government-surplus",
+          "source_story_id": "cyprus-general-government-surplus-nine-months-2026-11-03",
+          "url": "articles/2026-11-03-midday/government-surplus.html"
+        },
+        {
+          "edition_id": "2026-11-03-evening",
+          "article_id": "government-surplus",
+          "source_story_id": "cyprus-general-government-surplus-nine-months-2026-11-03",
+          "url": "articles/2026-11-03-evening/government-surplus.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "government-surplus",
+        "source_story_id": "cyprus-general-government-surplus-nine-months-2026-11-03",
+        "url": "articles/2026-11-03-evening/government-surplus.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
+      "story_id": "us-midterms-asia-pacific-2026-11-03",
+      "first_seen_at": "2026-11-03T05:36:26.687782+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-morning",
+          "article_id": "us-midterms-asia-pacific",
+          "source_story_id": "us-midterms-asia-pacific-2026-11-03",
+          "url": "articles/2026-11-03-morning/us-midterms-asia-pacific.html"
+        },
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "us-midterms-asia-pacific",
+          "source_story_id": "us-midterms-asia-pacific-2026-11-03",
+          "url": "articles/2026-11-03-midday/us-midterms-asia-pacific.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "us-midterms-asia-pacific",
+        "source_story_id": "us-midterms-asia-pacific-2026-11-03",
+        "url": "articles/2026-11-03-midday/us-midterms-asia-pacific.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "cse-epilektos-warning-2026-11-04",
+      "first_seen_at": "2026-11-03T11:32:51.655692+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "cse-epilektos-warning",
+          "source_story_id": "cse-epilektos-warning-2026-11-04",
+          "url": "articles/2026-11-03-midday/cse-epilektos-warning.html"
+        },
+        {
+          "edition_id": "2026-11-03-evening",
+          "article_id": "cse-epilektos-warning",
+          "source_story_id": "cse-epilektos-warning-2026-11-04",
+          "url": "articles/2026-11-03-evening/cse-epilektos-warning.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "cse-epilektos-warning",
+        "source_story_id": "cse-epilektos-warning-2026-11-04",
+        "url": "articles/2026-11-03-evening/cse-epilektos-warning.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "cyprus-ai-framework-2026-11-03",
+      "first_seen_at": "2026-11-03T17:36:28.934079+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-evening",
+          "article_id": "ai-framework",
+          "source_story_id": "cyprus-ai-framework-2026-11-03",
+          "url": "articles/2026-11-03-evening/ai-framework.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "ai-framework",
+        "source_story_id": "cyprus-ai-framework-2026-11-03",
+        "url": "articles/2026-11-03-evening/ai-framework.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "plaka-explosion-remand-2026-11-02",
+      "first_seen_at": "2026-11-03T05:36:26.687782+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-morning",
+          "article_id": "plaka-remand",
+          "source_story_id": "plaka-explosion-remand-2026-11-02",
+          "url": "articles/2026-11-03-morning/plaka-remand.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "plaka-remand",
+        "source_story_id": "plaka-explosion-remand-2026-11-02",
+        "url": "articles/2026-11-03-morning/plaka-remand.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "cyprus-contributions-refund-2026-11-03",
+      "first_seen_at": "2026-11-03T05:36:26.687782+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-morning",
+          "article_id": "contributions-refund",
+          "source_story_id": "cyprus-contributions-refund-2026-11-03",
+          "url": "articles/2026-11-03-morning/contributions-refund.html"
+        },
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "contributions-refund",
+          "source_story_id": "cyprus-contributions-refund-2026-11-03",
+          "url": "articles/2026-11-03-midday/contributions-refund.html"
+        },
+        {
+          "edition_id": "2026-11-03-evening",
+          "article_id": "contributions-refund",
+          "source_story_id": "cyprus-contributions-refund-2026-11-03",
+          "url": "articles/2026-11-03-evening/contributions-refund.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "contributions-refund",
+        "source_story_id": "cyprus-contributions-refund-2026-11-03",
+        "url": "articles/2026-11-03-evening/contributions-refund.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "uae-padel-nationalised-players-2026-11-03",
+      "first_seen_at": "2026-11-03T17:36:28.934079+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-evening",
+          "article_id": "uae-padel-eligibility",
+          "source_story_id": "uae-padel-nationalised-players-2026-11-03",
+          "url": "articles/2026-11-03-evening/uae-padel-eligibility.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "uae-padel-eligibility",
+        "source_story_id": "uae-padel-nationalised-players-2026-11-03",
+        "url": "articles/2026-11-03-evening/uae-padel-eligibility.html"
+      },
+      "section": "sports",
+      "priority": 5
+    },
+    {
+      "story_id": "west-ham-nuno-dismissal-2026-11-03",
+      "first_seen_at": "2026-11-03T11:32:51.655692+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "west-ham-manager",
+          "source_story_id": "west-ham-nuno-dismissal-2026-11-03",
+          "url": "articles/2026-11-03-midday/west-ham-manager.html"
+        },
+        {
+          "edition_id": "2026-11-03-evening",
+          "article_id": "west-ham-manager",
+          "source_story_id": "west-ham-nuno-dismissal-2026-11-03",
+          "url": "articles/2026-11-03-evening/west-ham-manager.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "west-ham-manager",
+        "source_story_id": "west-ham-nuno-dismissal-2026-11-03",
+        "url": "articles/2026-11-03-evening/west-ham-manager.html"
+      },
+      "section": "sports",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-fuel-receipts-proposal-2026-11-03",
+      "first_seen_at": "2026-11-03T05:36:26.687782+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-morning",
+          "article_id": "fuel-receipts",
+          "source_story_id": "cyprus-fuel-receipts-proposal-2026-11-03",
+          "url": "articles/2026-11-03-morning/fuel-receipts.html"
+        },
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "fuel-receipts",
+          "source_story_id": "cyprus-fuel-receipts-proposal-2026-11-03",
+          "url": "articles/2026-11-03-midday/fuel-receipts.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "fuel-receipts",
+        "source_story_id": "cyprus-fuel-receipts-proposal-2026-11-03",
+        "url": "articles/2026-11-03-midday/fuel-receipts.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+      "first_seen_at": "2026-11-03T11:32:51.655692+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "england-wheelchair-semi",
+          "source_story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+          "url": "articles/2026-11-03-midday/england-wheelchair-semi.html"
+        },
+        {
+          "edition_id": "2026-11-03-evening",
+          "article_id": "england-wheelchair-semi",
+          "source_story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+          "url": "articles/2026-11-03-evening/england-wheelchair-semi.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "england-wheelchair-semi",
+        "source_story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+        "url": "articles/2026-11-03-evening/england-wheelchair-semi.html"
+      },
+      "section": "sports",
+      "priority": 6
+    },
+    {
+      "story_id": "limassol-child-abuse-appeal-2026-11-02",
+      "first_seen_at": "2026-11-03T05:36:26.687782+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-morning",
+          "article_id": "appeal-sentence",
+          "source_story_id": "limassol-child-abuse-appeal-2026-11-02",
+          "url": "articles/2026-11-03-morning/appeal-sentence.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "appeal-sentence",
+        "source_story_id": "limassol-child-abuse-appeal-2026-11-02",
+        "url": "articles/2026-11-03-morning/appeal-sentence.html"
+      },
+      "section": "cyprus",
+      "priority": 7
+    },
+    {
+      "story_id": "cyprus-tourism-eight-month-revenue-2026-11-03",
+      "first_seen_at": "2026-11-03T05:36:26.687782+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-morning",
+          "article_id": "tourism-revenue",
+          "source_story_id": "cyprus-tourism-eight-month-revenue-2026-11-03",
+          "url": "articles/2026-11-03-morning/tourism-revenue.html"
+        },
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "tourism-revenue",
+          "source_story_id": "cyprus-tourism-eight-month-revenue-2026-11-03",
+          "url": "articles/2026-11-03-midday/tourism-revenue.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "tourism-revenue",
+        "source_story_id": "cyprus-tourism-eight-month-revenue-2026-11-03",
+        "url": "articles/2026-11-03-midday/tourism-revenue.html"
+      },
+      "section": "cyprus",
+      "priority": 8
+    },
+    {
+      "story_id": "doha-world-padel-2026-11-02",
+      "first_seen_at": "2026-11-03T05:36:26.687782+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-morning",
+          "article_id": "padel-second-day",
+          "source_story_id": "doha-world-padel-2026-11-02",
+          "url": "articles/2026-11-03-morning/padel-second-day.html"
+        },
+        {
+          "edition_id": "2026-11-03-midday",
+          "article_id": "padel-second-day",
+          "source_story_id": "doha-world-padel-2026-11-02",
+          "url": "articles/2026-11-03-midday/padel-second-day.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "padel-second-day",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-03-midday/padel-second-day.html"
+      },
+      "section": "sports",
+      "priority": 9
+    },
+    {
+      "story_id": "newcastle-home-form-2026-11-03",
+      "first_seen_at": "2026-11-03T05:36:26.687782+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-morning",
+          "article_id": "newcastle-home-form",
+          "source_story_id": "newcastle-home-form-2026-11-03",
+          "url": "articles/2026-11-03-morning/newcastle-home-form.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "newcastle-home-form",
+        "source_story_id": "newcastle-home-form-2026-11-03",
+        "url": "articles/2026-11-03-morning/newcastle-home-form.html"
+      },
+      "section": "sports",
+      "priority": 10
+    },
+    {
+      "story_id": "jack-campbell-neck-injury-2026-11-02",
+      "first_seen_at": "2026-11-03T05:36:26.687782+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-03-morning",
+          "article_id": "campbell-recovery",
+          "source_story_id": "jack-campbell-neck-injury-2026-11-02",
+          "url": "articles/2026-11-03-morning/campbell-recovery.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "campbell-recovery",
+        "source_story_id": "jack-campbell-neck-injury-2026-11-02",
+        "url": "articles/2026-11-03-morning/campbell-recovery.html"
+      },
+      "section": "sports",
+      "priority": 11
+    }
+  ],
+  "updates": [
+    {
+      "id": "05fdc81c149031a27d6c98313bc681d3efb8d97416688aedd6bdc9a62a35ddde",
+      "kind": "provenance",
+      "at": "2026-11-03T05:36:26.687782+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-russia-alert-apps-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "ukraine-alert-app",
+        "source_story_id": "ukraine-russia-alert-apps-2026-11-02",
+        "url": "articles/2026-11-03-morning/ukraine-alert-app.html"
+      }
+    },
+    {
+      "id": "100d431914e3c35793a52a93537d76320d8354bce106e02df513b914e72efded",
+      "kind": "provenance",
+      "at": "2026-11-03T05:36:26.687782+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-child-abuse-appeal-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "appeal-sentence",
+        "source_story_id": "limassol-child-abuse-appeal-2026-11-02",
+        "url": "articles/2026-11-03-morning/appeal-sentence.html"
+      }
+    },
+    {
+      "id": "332013430fd98074da789a356e9fff00b4fcede3fd8828ce639e4faa54703d18",
+      "kind": "provenance",
+      "at": "2026-11-03T05:36:26.687782+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-fuel-receipts-proposal-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "fuel-receipts",
+        "source_story_id": "cyprus-fuel-receipts-proposal-2026-11-03",
+        "url": "articles/2026-11-03-morning/fuel-receipts.html"
+      }
+    },
+    {
+      "id": "4dbb7b57aee211a38e1e2e68bab7a36089d739e5a12b3ab9ab8286e0f50a8ae6",
+      "kind": "provenance",
+      "at": "2026-11-03T05:36:26.687782+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "plaka-explosion-remand-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "plaka-remand",
+        "source_story_id": "plaka-explosion-remand-2026-11-02",
+        "url": "articles/2026-11-03-morning/plaka-remand.html"
+      }
+    },
+    {
+      "id": "50060793ff537db1c68474fe949a2a03b42ac10e8c591fdec65787072692b150",
+      "kind": "provenance",
+      "at": "2026-11-03T05:36:26.687782+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-tourism-eight-month-revenue-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "tourism-revenue",
+        "source_story_id": "cyprus-tourism-eight-month-revenue-2026-11-03",
+        "url": "articles/2026-11-03-morning/tourism-revenue.html"
+      }
+    },
+    {
+      "id": "b5ff84ffcbe9210b4db8562a210017e6ad44029298fde60c753f074bfdc163e0",
+      "kind": "provenance",
+      "at": "2026-11-03T05:36:26.687782+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-contributions-refund-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "contributions-refund",
+        "source_story_id": "cyprus-contributions-refund-2026-11-03",
+        "url": "articles/2026-11-03-morning/contributions-refund.html"
+      }
+    },
+    {
+      "id": "bd67f647bc5e68b449e493aa179181b925f6ea593ee3e93321a57122cf6f6e18",
+      "kind": "provenance",
+      "at": "2026-11-03T05:36:26.687782+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "jack-campbell-neck-injury-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "campbell-recovery",
+        "source_story_id": "jack-campbell-neck-injury-2026-11-02",
+        "url": "articles/2026-11-03-morning/campbell-recovery.html"
+      }
+    },
+    {
+      "id": "bded2202b3f9192cafd40bf8af6f35b21d7e5de7fbc4e2fd8cc1a0dc1266f09c",
+      "kind": "provenance",
+      "at": "2026-11-03T05:36:26.687782+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "doha-world-padel-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "padel-second-day",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-03-morning/padel-second-day.html"
+      }
+    },
+    {
+      "id": "c63089dca13d4ef58ba3049a68944f07b9078e422cf0ddbbca39805d68d47c80",
+      "kind": "provenance",
+      "at": "2026-11-03T05:36:26.687782+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "qeshm-explosions-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "qeshm-explosions",
+        "source_story_id": "qeshm-explosions-2026-11-03",
+        "url": "articles/2026-11-03-morning/qeshm-explosions.html"
+      }
+    },
+    {
+      "id": "f008f0836200e7000375771a19c6854f2bf5736d93145867c4e3ccb593b9a129",
+      "kind": "provenance",
+      "at": "2026-11-03T05:36:26.687782+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterms-asia-pacific-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "us-midterms-asia-pacific",
+        "source_story_id": "us-midterms-asia-pacific-2026-11-03",
+        "url": "articles/2026-11-03-morning/us-midterms-asia-pacific.html"
+      }
+    },
+    {
+      "id": "f468711bda722c7366b87f70c9374764f32bcb14596c416fd07a60b09f7c0816",
+      "kind": "provenance",
+      "at": "2026-11-03T05:36:26.687782+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "newcastle-home-form-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-morning",
+        "article_id": "newcastle-home-form",
+        "source_story_id": "newcastle-home-form-2026-11-03",
+        "url": "articles/2026-11-03-morning/newcastle-home-form.html"
+      }
+    },
+    {
+      "id": "1ab98986ca6061251087883c292f0b02a05fe82e89a17fec2551318b446dfd07",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "lebanon-public-institutions-power-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "lebanon-power-cuts",
+        "source_story_id": "lebanon-public-institutions-power-2026-11-03",
+        "url": "articles/2026-11-03-midday/lebanon-power-cuts.html"
+      }
+    },
+    {
+      "id": "296cb4ca93c21e02e5782b2ac9a4274cf5387188ea83fc284913279214ab3c3f",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-fuel-receipts-proposal-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "fuel-receipts",
+        "source_story_id": "cyprus-fuel-receipts-proposal-2026-11-03",
+        "url": "articles/2026-11-03-midday/fuel-receipts.html"
+      }
+    },
+    {
+      "id": "457bd2f510291e45c923abcb167040453d774df70085dfbd481782884c694fe1",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-tourism-eight-month-revenue-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "tourism-revenue",
+        "source_story_id": "cyprus-tourism-eight-month-revenue-2026-11-03",
+        "url": "articles/2026-11-03-midday/tourism-revenue.html"
+      }
+    },
+    {
+      "id": "5abbf0875fb5375649943a71e22c3cf7683288cf4e8d7783f3c8a79a1f5b26a0",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterms-asia-pacific-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "us-midterms-asia-pacific",
+        "source_story_id": "us-midterms-asia-pacific-2026-11-03",
+        "url": "articles/2026-11-03-midday/us-midterms-asia-pacific.html"
+      }
+    },
+    {
+      "id": "69b2946b3426cd08561b44a020aaf2eb5081ae310f6672411b2665bc35339c48",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "qeshm-explosions-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "qeshm-explosions",
+        "source_story_id": "qeshm-explosions-2026-11-03",
+        "url": "articles/2026-11-03-midday/qeshm-explosions.html"
+      }
+    },
+    {
+      "id": "6f2a60426a47a218796d55e318bc3b0db7f0cc43d51922bcbe52c5720cc1598b",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-russia-alert-apps-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "ukraine-alert-app",
+        "source_story_id": "ukraine-russia-alert-apps-2026-11-02",
+        "url": "articles/2026-11-03-midday/ukraine-alert-app.html"
+      }
+    },
+    {
+      "id": "b8c0d89a574a1c7fc62877544ee13b429de7a80fac916011a0b03a8325c075cb",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "england-wheelchair-semi",
+        "source_story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+        "url": "articles/2026-11-03-midday/england-wheelchair-semi.html"
+      }
+    },
+    {
+      "id": "c23e9c16efa08801f9326f7eb3e1619591c1d3415d66d8bc11746140216fa18f",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cse-epilektos-warning-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "cse-epilektos-warning",
+        "source_story_id": "cse-epilektos-warning-2026-11-04",
+        "url": "articles/2026-11-03-midday/cse-epilektos-warning.html"
+      }
+    },
+    {
+      "id": "c8e728309eb176c7bac827d8b367665fc7cc805d21b345bad679002f08d7f6a2",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "doha-world-padel-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "padel-second-day",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-03-midday/padel-second-day.html"
+      }
+    },
+    {
+      "id": "d7669ca0c582c75a7258b35274ed722a529e060cfb858ce77c512e1a0dce47cd",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-general-government-surplus-nine-months-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "government-surplus",
+        "source_story_id": "cyprus-general-government-surplus-nine-months-2026-11-03",
+        "url": "articles/2026-11-03-midday/government-surplus.html"
+      }
+    },
+    {
+      "id": "dde5587af8b5b6396e2aeb6631e66d7b29f8d91b292855fb8da0fd8ff039c501",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "czech-public-media-strike-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "czech-public-media",
+        "source_story_id": "czech-public-media-strike-2026-11-03",
+        "url": "articles/2026-11-03-midday/czech-public-media.html"
+      }
+    },
+    {
+      "id": "ea8e8d31ce27e34155b0673d3dff52c488c623fcf908cd1ce0f5b822447c098c",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "west-ham-nuno-dismissal-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "west-ham-manager",
+        "source_story_id": "west-ham-nuno-dismissal-2026-11-03",
+        "url": "articles/2026-11-03-midday/west-ham-manager.html"
+      }
+    },
+    {
+      "id": "f1f6144e0a009fd6adf855952779fb2d0b8f27a656851c961cb447170824abc4",
+      "kind": "provenance",
+      "at": "2026-11-03T11:32:51.655692+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-contributions-refund-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-midday",
+        "article_id": "contributions-refund",
+        "source_story_id": "cyprus-contributions-refund-2026-11-03",
+        "url": "articles/2026-11-03-midday/contributions-refund.html"
+      }
+    },
+    {
+      "id": "075abb5a2c5e71311a00616c0f333d1407881a4803b99a17f4b21d493e36a0c9",
+      "kind": "provenance",
+      "at": "2026-11-03T17:36:28.934079+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "lebanon-public-institutions-power-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "lebanon-power-cuts",
+        "source_story_id": "lebanon-public-institutions-power-2026-11-03",
+        "url": "articles/2026-11-03-evening/lebanon-power-cuts.html"
+      }
+    },
+    {
+      "id": "0ca68a8ed0aa2dd2899b4abb283bb639d88b640c2fa0f7da0f4311ced8e03b0c",
+      "kind": "provenance",
+      "at": "2026-11-03T17:36:28.934079+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-ai-framework-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "ai-framework",
+        "source_story_id": "cyprus-ai-framework-2026-11-03",
+        "url": "articles/2026-11-03-evening/ai-framework.html"
+      }
+    },
+    {
+      "id": "4f7ad84e6de141cce9dc2e8b9f71a48ab87aee985a4589c71eff4579f018b9ee",
+      "kind": "provenance",
+      "at": "2026-11-03T17:36:28.934079+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "qeshm-explosions-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "qeshm-explosions",
+        "source_story_id": "qeshm-explosions-2026-11-03",
+        "url": "articles/2026-11-03-evening/qeshm-explosions.html"
+      }
+    },
+    {
+      "id": "4fd604700c34e3440a2dd06551372330ab85fa8828b22d460330dc1a461c6a76",
+      "kind": "provenance",
+      "at": "2026-11-03T17:36:28.934079+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "christodoulides-holguin-meeting-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "holguin-meeting",
+        "source_story_id": "christodoulides-holguin-meeting-2026-11-03",
+        "url": "articles/2026-11-03-evening/holguin-meeting.html"
+      }
+    },
+    {
+      "id": "675aaa9ff08acead4e2ce2f887a8df7ac0f88802f8656c8a51d9fdb75c5b381a",
+      "kind": "provenance",
+      "at": "2026-11-03T17:36:28.934079+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterms-congress-voting-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "us-congress-voting",
+        "source_story_id": "us-midterms-congress-voting-2026-11-03",
+        "url": "articles/2026-11-03-evening/us-congress-voting.html"
+      }
+    },
+    {
+      "id": "80e38e80ffab5f47a8f722eb9b3a774836f0ae50100f8725c4718378a949bd1c",
+      "kind": "provenance",
+      "at": "2026-11-03T17:36:28.934079+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "czech-public-media-strike-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "czech-public-media",
+        "source_story_id": "czech-public-media-strike-2026-11-03",
+        "url": "articles/2026-11-03-evening/czech-public-media.html"
+      }
+    },
+    {
+      "id": "8e32d2fc4c95cd2fce9a1449294a4596500d5da0c43698692b917be358bc4bb4",
+      "kind": "provenance",
+      "at": "2026-11-03T17:36:28.934079+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "uae-padel-nationalised-players-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "uae-padel-eligibility",
+        "source_story_id": "uae-padel-nationalised-players-2026-11-03",
+        "url": "articles/2026-11-03-evening/uae-padel-eligibility.html"
+      }
+    },
+    {
+      "id": "900d7706f031374a80a27f6f53756c82390f5a074baf302332629e26350af329",
+      "kind": "provenance",
+      "at": "2026-11-03T17:36:28.934079+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "england-wheelchair-semi",
+        "source_story_id": "england-wheelchair-rugby-world-cup-2026-11-02",
+        "url": "articles/2026-11-03-evening/england-wheelchair-semi.html"
+      }
+    },
+    {
+      "id": "9dab63fa571349e37ef43f7ae5d6ed25f4f6264224a801c1d1a4d6d1a05e8a58",
+      "kind": "provenance",
+      "at": "2026-11-03T17:36:28.934079+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cse-epilektos-warning-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "cse-epilektos-warning",
+        "source_story_id": "cse-epilektos-warning-2026-11-04",
+        "url": "articles/2026-11-03-evening/cse-epilektos-warning.html"
+      }
+    },
+    {
+      "id": "bf56ee73e1ba70f789fd097f06cd544a84c467670247a66a02ff598770020594",
+      "kind": "provenance",
+      "at": "2026-11-03T17:36:28.934079+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-general-government-surplus-nine-months-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "government-surplus",
+        "source_story_id": "cyprus-general-government-surplus-nine-months-2026-11-03",
+        "url": "articles/2026-11-03-evening/government-surplus.html"
+      }
+    },
+    {
+      "id": "c0f6d878285a35afd73f81318b7461203f78285f26f95fff91aae33d0eba81f8",
+      "kind": "provenance",
+      "at": "2026-11-03T17:36:28.934079+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "europe-supermarket-refrigeration-cyberattack-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "supermarket-refrigeration",
+        "source_story_id": "europe-supermarket-refrigeration-cyberattack-2026-11-03",
+        "url": "articles/2026-11-03-evening/supermarket-refrigeration.html"
+      }
+    },
+    {
+      "id": "f32d822b9e32120720d4d2b9c0a6745acd09530514e2d5e2cb3c90b89e72b955",
+      "kind": "provenance",
+      "at": "2026-11-03T17:36:28.934079+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-contributions-refund-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "contributions-refund",
+        "source_story_id": "cyprus-contributions-refund-2026-11-03",
+        "url": "articles/2026-11-03-evening/contributions-refund.html"
+      }
+    },
+    {
+      "id": "f551da890522d3e9dae91a6516b313ac375a5a5b6c455f14b7e6f07ea0b65235",
+      "kind": "provenance",
+      "at": "2026-11-03T17:36:28.934079+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "west-ham-nuno-dismissal-2026-11-03",
+      "origin": {
+        "edition_id": "2026-11-03-evening",
+        "article_id": "west-ham-manager",
+        "source_story_id": "west-ham-nuno-dismissal-2026-11-03",
+        "url": "articles/2026-11-03-evening/west-ham-manager.html"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "action": "Δες την επίσημη ανακοίνωση ως ιστορικό πλαίσιο. Αναμένουμε επαληθευμένη νέα προκήρυξη πριν εμφανίσουμε ενεργή αίτηση.",
+      "application_kind": "instructions",
+      "application_url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+      "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση.",
+      "deadline": "2024-07-31T23:59:00+03:00",
+      "deadline_note": "Ιστορική προθεσμία της 2ης πρόσκλησης, όχι ημερομηνία νέας αίτησης. Νέα ενεργή πρόσκληση δεν επιβεβαιώθηκε στον παρόντα έλεγχο.",
+      "deadline_type": "fixed",
+      "eligibility": "Η προκήρυξη του 2024 όριζε νέους 18–29, άνδρες 30–50 και γυναίκες 30–55. Νέα πρόσκληση μπορεί να αλλάξει τους όρους· δεν έχει κριθεί προσωπική επιλεξιμότητα.",
+      "id": "cy-new-entrepreneurship-2024-call2",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-23T04:30:48.639313+00:00",
+          "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "retrieved_at": "2026-10-15T16:39:24.850175+00:00",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Ιστορική πρόσκληση του 2024 που έχει λήξει. Παραμένει μόνο στην παρακολούθηση για τυχόν νέα επίσημη προκήρυξη, όχι στις ενεργές αιτήσεις.",
+      "support": "Παλιοί όροι: 70% επιλέξιμης δαπάνης για 18–29, 60% για τις άλλες ομάδες, με μέγιστο επιλέξιμο προϋπολογισμό €120.000.",
+      "title": "Νέα Επιχειρηματική Δραστηριότητα · παλιά 2η προκήρυξη",
+      "verified_at": "2026-10-23T07:36:00+03:00"
+    },
+    {
+      "action": "Αν έχεις GO, προετοίμασε πλήρη πρόταση. Διαφορετικά ξεκίνα τη σύντομη αίτηση χωρίς να θεωρείς εξασφαλισμένη συμμετοχή στον γύρο Νοεμβρίου.",
+      "application_kind": "form",
+      "application_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+      "change_note": "Επανελέγχθηκε η επίσημη σελίδα EIC: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ., επενδυτικό σκέλος €1–10 εκατ. και επόμενη πλήρης πρόταση στις 4/11, 17:00 Βρυξελλών, μόνο μετά από GO.",
+      "deadline": "2026-11-04T18:00:00+02:00",
+      "deadline_note": "4/11 στις 17:00 Βρυξελλών = 18:00 Κύπρου. Αφορά πλήρη πρόταση μετά το GO. Οι σύντομες προτάσεις υποβάλλονται συνεχώς· αξιολόγηση συνήθως 4–6 εβδομάδες.",
+      "deadline_type": "fixed",
+      "eligibility": "Μία startup/ΜμΕ στην ΕΕ ή συνδεδεμένη χώρα, με καινοτομία TRL 6–8. Για πλήρη πρόταση προηγείται θετική αξιολόγηση (GO) της σύντομης πρότασης ή επιλέξιμη ειδική διαδρομή.",
+      "id": "eu-eic-accelerator-2026",
+      "jurisdiction": "ΕΕ · περιλαμβάνει την Κύπρο",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Innovation Council",
+          "reporting_group": "European Innovation Council",
+          "retrieved_at": "2026-10-24T13:43:13+03:00",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Στήριξη νεοφυών και μικρομεσαίων επιχειρήσεων με ανατρεπτική καινοτομία σε στάδιο ανάπτυξης και κλιμάκωσης. Δεν είναι γενική επιδότηση ίδρυσης επιχείρησης.",
+      "support": "Επιχορήγηση κάτω από €2,5 εκατ.· χωριστά επενδυτικό σκέλος €1–10 εκατ., που δεν αποτελεί επιχορήγηση.",
+      "title": "EIC Accelerator: επόμενη πλήρης πρόταση 4 Νοεμβρίου",
+      "verified_at": "2026-10-24T13:43:13+03:00"
+    },
+    {
+      "action": "Μην υποβάλεις νέα αίτηση. Παρακολούθησε μόνο επίσημη επαναπροκήρυξη ή ανακοίνωση για επιλαχόντες.",
+      "application_kind": "none",
+      "application_url": null,
+      "change_note": "Το ΥΕΕΒ ανακοίνωσε ολοκλήρωση υποβολής προτάσεων λόγω υπερκάλυψης προϋπολογισμού. Η προηγούμενη ένδειξη ανοικτής πρόσκλησης διορθώθηκε.",
+      "deadline": null,
+      "deadline_note": "Η υποβολή ολοκληρώθηκε στις 21/10 λόγω υπερκάλυψης του διαθέσιμου προϋπολογισμού.",
+      "deadline_type": "unknown",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "id": "cy-home-energy-2026",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "kind": "grant",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": "2026-10-21",
+          "publisher": "ΥΕΕΒ",
+          "reporting_group": "ΥΕΕΒ",
+          "retrieved_at": "2026-10-23T10:33:45.530855+00:00",
+          "url": "https://www.industry.gov.cy",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "verified_at": "2026-10-23T13:33:46+03:00"
+    },
+    {
+      "action": "Έλεγξε τα όρια και τη διαδικασία προηγούμενης κοινοποίησης στο κράτος εγκατάστασης. Ο σύνδεσμος δίνει οδηγίες, όχι κυπριακό έντυπο.",
+      "application_kind": "instructions",
+      "application_url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+      "change_note": "Επανελέγχθηκαν στις 24/10 η επίσημη ευρωπαϊκή σελίδα και η διαδικασία διασυνοριακής απαλλαγής. Το καθεστώς παραμένει προαιρετικό και ανοικτό, με ενωσιακό όριο €100.000 και προηγούμενη κοινοποίηση.",
+      "deadline": null,
+      "deadline_note": "Δεν πρόκειται για γύρο χορηγιών. Η απαλλαγή ξεκινά μετά την έγκριση/επιβεβαίωση EX· ισχύουν ξεχωριστές υποχρεώσεις τριμηνιαίας αναφοράς.",
+      "deadline_type": "rolling",
+      "eligibility": "Επιχείρηση εγκατεστημένη στην ΕΕ: ενωσιακός τζίρος έως €100.000 στο τρέχον και προηγούμενο έτος, καθώς και το εθνικό/κλαδικό όριο κάθε χώρας απαλλαγής.",
+      "id": "eu-cross-border-sme-vat",
+      "jurisdiction": "ΕΕ / Κύπρος · διασυνοριακές πωλήσεις",
+      "kind": "legal_right",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · DG TAXUD",
+          "reporting_group": "European Commission · DG TAXUD",
+          "retrieved_at": "2026-10-24T07:33:51+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · SME VAT",
+          "reporting_group": "European Commission · SME VAT",
+          "retrieved_at": "2026-10-24T07:33:47+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/index_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-24T07:33:52+03:00",
+          "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Το ευρωπαϊκό καθεστώς μικρών επιχειρήσεων επιτρέπει απαλλαγή ΦΠΑ σε επιλέξιμες διασυνοριακές πωλήσεις. Απαιτεί προηγούμενη κοινοποίηση· δεν εφαρμόζεται αυτόματα.",
+      "support": "Πιθανή απλούστευση υποχρεώσεων ΦΠΑ, με απώλεια δικαιώματος έκπτωσης ΦΠΑ για τις απαλλασσόμενες πράξεις. Αξιολόγησε το καθαρό όφελος πριν επιλέξεις.",
+      "title": "Προαιρετική απαλλαγή ΦΠΑ για μικρές επιχειρήσεις",
+      "verified_at": "2026-10-24T07:44:30+03:00"
+    },
+    {
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
+      "application_kind": "form",
+      "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "change_note": "Επανελέγχθηκαν η επίσημη δυνατότητα αίτησης, τα κριτήρια και η FAQ προθεσμίας στις 24/10. Η εγγραφή παραμένει ανοικτή χωρίς καταληκτική ημερομηνία· δεν υπονοείται προσωπική επιλεξιμότητα.",
+      "deadline": null,
+      "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
+      "deadline_type": "rolling",
+      "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
+      "id": "eu-erasmus-new-entrepreneurs",
+      "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
+      "kind": "benefit",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs · FAQ",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
+      "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
+      "title": "Erasmus for Young Entrepreneurs",
+      "verified_at": "2026-10-24T07:43:00+03:00"
+    }
+  ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Οι Αμερικανοί ψηφίζουν για τον έλεγχο του Κογκρέσου, χωρίς αποτέλεσμα στα διαθέσιμα αποσπάσματα. Το διακύβευμα αφορά νομοθεσία και κοινοβουλευτική εποπτεία, όχι εκλογή νέου προέδρου. Η πρωινή αναφορά για το Ορμούζ διατηρείται με την αρχική της επαλήθευση, χωρίς επινόηση μεταγενέστερης στρατιωτικής εξέλιξης.",
+        "story_ids": [
+          "us-midterms-congress-voting-2026-11-03",
+          "qeshm-explosions-2026-11-03"
+        ]
+      },
+      {
+        "text": "Ο Πρόεδρος εξέφρασε δυσαρέσκεια στην Ολγκίν, ενώ ο κυβερνητικός εκπρόσωπος περιγράφει πορεία προς κοινή συνάντηση στις 9 Νοεμβρίου. Το εθνικό πλαίσιο εφαρμογής του ευρωπαϊκού Κανονισμού ΤΝ βρίσκεται κατά τον υπουργό Οικονομικών κοντά στην ολοκλήρωση, χωρίς τεκμηρίωση ότι έχει ήδη τεθεί σε ισχύ.",
+        "story_ids": [
+          "christodoulides-holguin-meeting-2026-11-03",
+          "cyprus-ai-framework-2026-11-03"
+        ]
+      }
+    ]
+  },
+  "follow_ups": [],
+  "created_at": "2026-11-03T05:37:38.327875+00:00",
+  "updated_at": "2026-11-03T17:38:15.588800+00:00",
+  "input_sha256": "adafdb705ef50354c7b808e7bcf883da3f3fe33802c3efe1a29fae339ca88dd0"
+}

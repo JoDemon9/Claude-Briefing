@@ -1,0 +1,72 @@
+{
+  "analysis_sources": [
+    "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa"
+  ],
+  "category": "Διεθνή",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 2,
+    "section": "world"
+  },
+  "delta_update": "Το BleepingComputer περιγράφει εκστρατεία phishing που από τα μέσα Αυγούστου στοχεύει ενεργές εταιρικές συνεδρίες Google, αρχικά μέσω προσκλήσεων Calendar και αργότερα μέσω κοινοποιήσεων Drive. Ορισμένα μηνύματα εμφανίζονται να προέρχονται από οργανισμούς με τους οποίους ο παραλήπτης είχε ήδη επικοινωνήσει. Σύμφωνα με το δημοσίευμα, η Cloudflare επιβεβαίωσε πλαστή ενδιάμεση σελίδα και σελίδα σύνδεσης μέσω διαμεσολάβησης, προσθέτοντας δική της προειδοποίηση phishing στους σχετικούς προορισμούς.",
+  "driver_tags": [
+    "cybersecurity",
+    "technology",
+    "phishing"
+  ],
+  "edition_id": "2026-11-05-morning",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Προσκλήσεις Calendar και Drive χρησιμοποιούνται για υποκλοπή συνεδριών Google",
+  "id": "google-calendar-session-phishing-2026-11-04",
+  "image": {
+    "alt": "Message delivery time of day heat map",
+    "attribution": "BleepingComputer",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Message delivery time of day heat map · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa",
+    "original_url": "https://www.bleepstatic.com/images/news/security/m/material/google-session-hijacking-campaign/detections-by-day-hour.jpg",
+    "retrieved_at": "2026-11-05T04:26:19.934123+00:00",
+    "source_review": {
+      "checked_at": "2026-11-05T04:26:19.934123+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "68704a4b42642581",
+      "rights_basis": "publisher-attribution",
+      "sha256": "cc24373174af8173e68f79dbf7bbccd3952327468a17d54e77f244de9b3f0442"
+    },
+    "source_url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa",
+    "url": "assets/editorial/source/cc24373174af8173e68f79dbf7bbccd3952327468a17d54e77f244de9b3f0442.webp"
+  },
+  "newspaper_analysis": [
+    "Η συνηθισμένη μορφή μιας πρόσκλησης και η προηγούμενη επικοινωνία δεν αποδεικνύουν την αυθεντικότητα του προορισμού σύνδεσης."
+  ],
+  "published_at": "2026-11-05T05:29:53.650985+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Το BleepingComputer περιγράφει εκστρατεία phishing που από τα μέσα Αυγούστου στοχεύει ενεργές εταιρικές συνεδρίες Google, αρχικά μέσω προσκλήσεων Calendar και αργότερα μέσω κοινοποιήσεων Drive. Ορισμένα μηνύματα εμφανίζονται να προέρχονται από οργανισμούς με τους οποίους ο παραλήπτης είχε ήδη επικοινωνήσει. Σύμφωνα με το δημοσίευμα, η Cloudflare επιβεβαίωσε πλαστή ενδιάμεση σελίδα και σελίδα σύνδεσης μέσω διαμεσολάβησης, προσθέτοντας δική της προειδοποίηση phishing στους σχετικούς προορισμούς."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-04T15:00:10+00:00",
+      "publisher": "BleepingComputer",
+      "reporting_group": "BleepingComputer",
+      "retrieved_at": "2026-11-05T04:26:08.512960+00:00",
+      "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "google-calendar-session-phishing-2026-11-04",
+  "story_identity": "google-calendar-session-phishing-2026-11-04",
+  "summary": "Το BleepingComputer περιγράφει εκστρατεία phishing που από τα μέσα Αυγούστου στοχεύει ενεργές εταιρικές συνεδρίες Google, αρχικά μέσω προσκλήσεων Calendar και αργότερα μέσω κοινοποιήσεων Drive. Ορισμένα μηνύματα εμφανίζονται να προέρχονται από οργανισμούς με τους οποίους ο παραλήπτης είχε ήδη επικοινωνήσει. Σύμφωνα με το δημοσίευμα, η Cloudflare επιβεβαίωσε πλαστή ενδιάμεση σελίδα και σελίδα σύνδεσης μέσω διαμεσολάβησης, προσθέτοντας δική της προειδοποίηση phishing στους σχετικούς προορισμούς.",
+  "updated_at": "2026-11-05T05:29:53.650985+00:00",
+  "url": "articles/2026-11-05-morning/google-calendar-session-phishing-2026-11-04.html"
+}

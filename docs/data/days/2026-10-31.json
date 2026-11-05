@@ -10,12 +10,21 @@
       "type": "morning",
       "url": "morning/2026-10-31.html",
       "published_at": "2026-10-31T05:35:50.458247+00:00"
+    },
+    {
+      "id": "2026-10-31-midday",
+      "type": "midday",
+      "url": "midday/2026-10-31.html",
+      "published_at": "2026-10-31T11:31:43.195285+00:00"
+    },
+    {
+      "id": "2026-10-31-evening",
+      "type": "evening",
+      "url": "evening/2026-10-31.html",
+      "published_at": "2026-10-31T17:35:47.619116+00:00"
     }
   ],
-  "missing_slots": [
-    "midday",
-    "evening"
-  ],
+  "missing_slots": [],
   "lead_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
   "stories": [
     {
@@ -28,16 +37,76 @@
           "article_id": "oleshky-evacuation",
           "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
           "url": "articles/2026-10-31-morning/oleshky-evacuation.html"
+        },
+        {
+          "edition_id": "2026-10-31-midday",
+          "article_id": "oleshky-evacuation",
+          "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+          "url": "articles/2026-10-31-midday/oleshky-evacuation.html"
+        },
+        {
+          "edition_id": "2026-10-31-evening",
+          "article_id": "oleshky-return",
+          "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+          "url": "articles/2026-10-31-evening/oleshky-return.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-31-morning",
-        "article_id": "oleshky-evacuation",
+        "edition_id": "2026-10-31-evening",
+        "article_id": "oleshky-return",
         "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
-        "url": "articles/2026-10-31-morning/oleshky-evacuation.html"
+        "url": "articles/2026-10-31-evening/oleshky-return.html"
       },
       "section": "world",
       "priority": 1
+    },
+    {
+      "story_id": "nvidia-espionage-allegations-response-2026-10-30",
+      "first_seen_at": "2026-10-31T11:31:43.195285+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-midday",
+          "article_id": "nvidia-allegations",
+          "source_story_id": "nvidia-espionage-allegations-response-2026-10-30",
+          "url": "articles/2026-10-31-midday/nvidia-allegations.html"
+        },
+        {
+          "edition_id": "2026-10-31-evening",
+          "article_id": "nvidia-allegations",
+          "source_story_id": "nvidia-espionage-allegations-response-2026-10-30",
+          "url": "articles/2026-10-31-evening/nvidia-allegations.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "nvidia-allegations",
+        "source_story_id": "nvidia-espionage-allegations-response-2026-10-30",
+        "url": "articles/2026-10-31-evening/nvidia-allegations.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "iran-npt-withdrawal-calls-2026-10-31",
+      "first_seen_at": "2026-10-31T17:35:47.619116+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-evening",
+          "article_id": "iran-npt-calls",
+          "source_story_id": "iran-npt-withdrawal-calls-2026-10-31",
+          "url": "articles/2026-10-31-evening/iran-npt-calls.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "iran-npt-calls",
+        "source_story_id": "iran-npt-withdrawal-calls-2026-10-31",
+        "url": "articles/2026-10-31-evening/iran-npt-calls.html"
+      },
+      "section": "world",
+      "priority": 2
     },
     {
       "story_id": "poland-constitutional-court-2026-10-30",
@@ -49,16 +118,76 @@
           "article_id": "poland-court",
           "source_story_id": "poland-constitutional-court-2026-10-30",
           "url": "articles/2026-10-31-morning/poland-court.html"
+        },
+        {
+          "edition_id": "2026-10-31-midday",
+          "article_id": "poland-protests",
+          "source_story_id": "poland-constitutional-court-2026-10-30",
+          "url": "articles/2026-10-31-midday/poland-protests.html"
+        },
+        {
+          "edition_id": "2026-10-31-evening",
+          "article_id": "poland-protests",
+          "source_story_id": "poland-constitutional-court-2026-10-30",
+          "url": "articles/2026-10-31-evening/poland-protests.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-31-morning",
-        "article_id": "poland-court",
+        "edition_id": "2026-10-31-evening",
+        "article_id": "poland-protests",
         "source_story_id": "poland-constitutional-court-2026-10-30",
-        "url": "articles/2026-10-31-morning/poland-court.html"
+        "url": "articles/2026-10-31-evening/poland-protests.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "akel-presidential-strategy-2028-2026-10-31",
+      "first_seen_at": "2026-10-31T17:35:47.619116+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-evening",
+          "article_id": "akel-strategy",
+          "source_story_id": "akel-presidential-strategy-2028-2026-10-31",
+          "url": "articles/2026-10-31-evening/akel-strategy.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "akel-strategy",
+        "source_story_id": "akel-presidential-strategy-2028-2026-10-31",
+        "url": "articles/2026-10-31-evening/akel-strategy.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
+      "story_id": "cyprus-nine-month-budget-execution-2026-10-31",
+      "first_seen_at": "2026-10-31T11:31:43.195285+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-midday",
+          "article_id": "treasury-nine-month",
+          "source_story_id": "cyprus-nine-month-budget-execution-2026-10-31",
+          "url": "articles/2026-10-31-midday/treasury-nine-month.html"
+        },
+        {
+          "edition_id": "2026-10-31-evening",
+          "article_id": "treasury-nine-month",
+          "source_story_id": "cyprus-nine-month-budget-execution-2026-10-31",
+          "url": "articles/2026-10-31-evening/treasury-nine-month.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "treasury-nine-month",
+        "source_story_id": "cyprus-nine-month-budget-execution-2026-10-31",
+        "url": "articles/2026-10-31-evening/treasury-nine-month.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "pope-us-midterm-ballot-2026-10-30",
@@ -70,16 +199,64 @@
           "article_id": "pope-vote",
           "source_story_id": "pope-us-midterm-ballot-2026-10-30",
           "url": "articles/2026-10-31-morning/pope-vote.html"
+        },
+        {
+          "edition_id": "2026-10-31-midday",
+          "article_id": "pope-vote",
+          "source_story_id": "pope-us-midterm-ballot-2026-10-30",
+          "url": "articles/2026-10-31-midday/pope-vote.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-31-morning",
+        "edition_id": "2026-10-31-midday",
         "article_id": "pope-vote",
         "source_story_id": "pope-us-midterm-ballot-2026-10-30",
-        "url": "articles/2026-10-31-morning/pope-vote.html"
+        "url": "articles/2026-10-31-midday/pope-vote.html"
       },
       "section": "world",
       "priority": 3
+    },
+    {
+      "story_id": "cyprus-small-jobs-work-safety-2026-10-31",
+      "first_seen_at": "2026-10-31T11:31:43.195285+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-midday",
+          "article_id": "small-jobs-safety",
+          "source_story_id": "cyprus-small-jobs-work-safety-2026-10-31",
+          "url": "articles/2026-10-31-midday/small-jobs-safety.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-midday",
+        "article_id": "small-jobs-safety",
+        "source_story_id": "cyprus-small-jobs-work-safety-2026-10-31",
+        "url": "articles/2026-10-31-midday/small-jobs-safety.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "limassol-shotgun-remand-2026-10-31",
+      "first_seen_at": "2026-10-31T17:35:47.619116+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-evening",
+          "article_id": "limassol-remand",
+          "source_story_id": "limassol-shotgun-remand-2026-10-31",
+          "url": "articles/2026-10-31-evening/limassol-remand.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "limassol-remand",
+        "source_story_id": "limassol-shotgun-remand-2026-10-31",
+        "url": "articles/2026-10-31-evening/limassol-remand.html"
+      },
+      "section": "cyprus",
+      "priority": 4
     },
     {
       "story_id": "us-midterms-fabricated-polls-2026-10-31",
@@ -91,13 +268,25 @@
           "article_id": "fake-polls",
           "source_story_id": "us-midterms-fabricated-polls-2026-10-31",
           "url": "articles/2026-10-31-morning/fake-polls.html"
+        },
+        {
+          "edition_id": "2026-10-31-midday",
+          "article_id": "fake-polls",
+          "source_story_id": "us-midterms-fabricated-polls-2026-10-31",
+          "url": "articles/2026-10-31-midday/fake-polls.html"
+        },
+        {
+          "edition_id": "2026-10-31-evening",
+          "article_id": "fake-polls",
+          "source_story_id": "us-midterms-fabricated-polls-2026-10-31",
+          "url": "articles/2026-10-31-evening/fake-polls.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-31-morning",
+        "edition_id": "2026-10-31-evening",
         "article_id": "fake-polls",
         "source_story_id": "us-midterms-fabricated-polls-2026-10-31",
-        "url": "articles/2026-10-31-morning/fake-polls.html"
+        "url": "articles/2026-10-31-evening/fake-polls.html"
       },
       "section": "world",
       "priority": 4
@@ -112,15 +301,69 @@
           "article_id": "motorcycle-ambulance",
           "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
           "url": "articles/2026-10-31-morning/motorcycle-ambulance.html"
+        },
+        {
+          "edition_id": "2026-10-31-midday",
+          "article_id": "motorcycle-ambulance",
+          "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+          "url": "articles/2026-10-31-midday/motorcycle-ambulance.html"
+        },
+        {
+          "edition_id": "2026-10-31-evening",
+          "article_id": "motorcycle-ambulance",
+          "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+          "url": "articles/2026-10-31-evening/motorcycle-ambulance.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-31-morning",
+        "edition_id": "2026-10-31-evening",
         "article_id": "motorcycle-ambulance",
         "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
-        "url": "articles/2026-10-31-morning/motorcycle-ambulance.html"
+        "url": "articles/2026-10-31-evening/motorcycle-ambulance.html"
       },
       "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "south-africa-australia-test-series-2026-10-31",
+      "first_seen_at": "2026-10-31T17:35:47.619116+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-evening",
+          "article_id": "south-africa-test",
+          "source_story_id": "south-africa-australia-test-series-2026-10-31",
+          "url": "articles/2026-10-31-evening/south-africa-test.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "south-africa-test",
+        "source_story_id": "south-africa-australia-test-series-2026-10-31",
+        "url": "articles/2026-10-31-evening/south-africa-test.html"
+      },
+      "section": "sports",
+      "priority": 5
+    },
+    {
+      "story_id": "wales-japan-wxv-result-2026-10-31",
+      "first_seen_at": "2026-10-31T11:31:43.195285+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-10-31-midday",
+          "article_id": "wales-japan",
+          "source_story_id": "wales-japan-wxv-result-2026-10-31",
+          "url": "articles/2026-10-31-midday/wales-japan.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-10-31-midday",
+        "article_id": "wales-japan",
+        "source_story_id": "wales-japan-wxv-result-2026-10-31",
+        "url": "articles/2026-10-31-midday/wales-japan.html"
+      },
+      "section": "sports",
       "priority": 5
     },
     {
@@ -133,13 +376,25 @@
           "article_id": "education-facilities",
           "source_story_id": "cyprus-education-budget-2027-2026-10-30",
           "url": "articles/2026-10-31-morning/education-facilities.html"
+        },
+        {
+          "edition_id": "2026-10-31-midday",
+          "article_id": "education-facilities",
+          "source_story_id": "cyprus-education-budget-2027-2026-10-30",
+          "url": "articles/2026-10-31-midday/education-facilities.html"
+        },
+        {
+          "edition_id": "2026-10-31-evening",
+          "article_id": "education-facilities",
+          "source_story_id": "cyprus-education-budget-2027-2026-10-30",
+          "url": "articles/2026-10-31-evening/education-facilities.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-31-morning",
+        "edition_id": "2026-10-31-evening",
         "article_id": "education-facilities",
         "source_story_id": "cyprus-education-budget-2027-2026-10-30",
-        "url": "articles/2026-10-31-morning/education-facilities.html"
+        "url": "articles/2026-10-31-evening/education-facilities.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -175,13 +430,19 @@
           "article_id": "paphos-school-complaint",
           "source_story_id": "paphos-kindergarten-welfare-complaint-2026-10-31",
           "url": "articles/2026-10-31-morning/paphos-school-complaint.html"
+        },
+        {
+          "edition_id": "2026-10-31-midday",
+          "article_id": "paphos-school-complaint",
+          "source_story_id": "paphos-kindergarten-welfare-complaint-2026-10-31",
+          "url": "articles/2026-10-31-midday/paphos-school-complaint.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-31-morning",
+        "edition_id": "2026-10-31-midday",
         "article_id": "paphos-school-complaint",
         "source_story_id": "paphos-kindergarten-welfare-complaint-2026-10-31",
-        "url": "articles/2026-10-31-morning/paphos-school-complaint.html"
+        "url": "articles/2026-10-31-midday/paphos-school-complaint.html"
       },
       "section": "cyprus",
       "priority": 8
@@ -196,13 +457,25 @@
           "article_id": "kuwait-final",
           "source_story_id": "kuwait-major-finals-2026-10-31",
           "url": "articles/2026-10-31-morning/kuwait-final.html"
+        },
+        {
+          "edition_id": "2026-10-31-midday",
+          "article_id": "kuwait-final",
+          "source_story_id": "kuwait-major-finals-2026-10-31",
+          "url": "articles/2026-10-31-midday/kuwait-final.html"
+        },
+        {
+          "edition_id": "2026-10-31-evening",
+          "article_id": "kuwait-final",
+          "source_story_id": "kuwait-major-finals-2026-10-31",
+          "url": "articles/2026-10-31-evening/kuwait-final.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-10-31-morning",
+        "edition_id": "2026-10-31-evening",
         "article_id": "kuwait-final",
         "source_story_id": "kuwait-major-finals-2026-10-31",
-        "url": "articles/2026-10-31-morning/kuwait-final.html"
+        "url": "articles/2026-10-31-evening/kuwait-final.html"
       },
       "section": "sports",
       "priority": 9
@@ -368,6 +641,342 @@
         "article_id": "poland-court",
         "source_story_id": "poland-constitutional-court-2026-10-30",
         "url": "articles/2026-10-31-morning/poland-court.html"
+      }
+    },
+    {
+      "id": "18324f83b16fd9204f72df6fa16269192757086423a56891295b15d9d3a7e561",
+      "kind": "provenance",
+      "at": "2026-10-31T11:31:43.195285+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-31-midday",
+        "article_id": "oleshky-evacuation",
+        "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+        "url": "articles/2026-10-31-midday/oleshky-evacuation.html"
+      }
+    },
+    {
+      "id": "2a6c78176c277e081853ad4fef1af461cde34621487aefbf273512a70c998dbc",
+      "kind": "provenance",
+      "at": "2026-10-31T11:31:43.195285+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-small-jobs-work-safety-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-midday",
+        "article_id": "small-jobs-safety",
+        "source_story_id": "cyprus-small-jobs-work-safety-2026-10-31",
+        "url": "articles/2026-10-31-midday/small-jobs-safety.html"
+      }
+    },
+    {
+      "id": "3bf14bb89a8ddc4383b977408b896ec33ec285258764f7269dd5dcdb8ad15c13",
+      "kind": "provenance",
+      "at": "2026-10-31T11:31:43.195285+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-espionage-allegations-response-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-31-midday",
+        "article_id": "nvidia-allegations",
+        "source_story_id": "nvidia-espionage-allegations-response-2026-10-30",
+        "url": "articles/2026-10-31-midday/nvidia-allegations.html"
+      }
+    },
+    {
+      "id": "6b279cbdd62de4e599f10102b47ad8e4a8cd23988670baf2112c1b3b14057c16",
+      "kind": "provenance",
+      "at": "2026-10-31T11:31:43.195285+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterms-fabricated-polls-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-midday",
+        "article_id": "fake-polls",
+        "source_story_id": "us-midterms-fabricated-polls-2026-10-31",
+        "url": "articles/2026-10-31-midday/fake-polls.html"
+      }
+    },
+    {
+      "id": "96dd6f5f1a234f0144f99f5af35c5f3e96820695814020482113efe3bf2d86b6",
+      "kind": "provenance",
+      "at": "2026-10-31T11:31:43.195285+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-nine-month-budget-execution-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-midday",
+        "article_id": "treasury-nine-month",
+        "source_story_id": "cyprus-nine-month-budget-execution-2026-10-31",
+        "url": "articles/2026-10-31-midday/treasury-nine-month.html"
+      }
+    },
+    {
+      "id": "ad667a0541f47b02ee50762e2a96d5010cb5cd40f526e7e9c29221d7871ca2fe",
+      "kind": "provenance",
+      "at": "2026-10-31T11:31:43.195285+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-midday",
+        "article_id": "motorcycle-ambulance",
+        "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+        "url": "articles/2026-10-31-midday/motorcycle-ambulance.html"
+      }
+    },
+    {
+      "id": "c2a1a09234bf3d75dbae634c097eee6d72cb6d1ab4f669b27318afb1f1c95c5b",
+      "kind": "provenance",
+      "at": "2026-10-31T11:31:43.195285+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-education-budget-2027-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-31-midday",
+        "article_id": "education-facilities",
+        "source_story_id": "cyprus-education-budget-2027-2026-10-30",
+        "url": "articles/2026-10-31-midday/education-facilities.html"
+      }
+    },
+    {
+      "id": "d14d97c9cc5ddb5a456437a454374f211c307dfe4d60e13f21cba32e36e0f86c",
+      "kind": "provenance",
+      "at": "2026-10-31T11:31:43.195285+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "paphos-kindergarten-welfare-complaint-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-midday",
+        "article_id": "paphos-school-complaint",
+        "source_story_id": "paphos-kindergarten-welfare-complaint-2026-10-31",
+        "url": "articles/2026-10-31-midday/paphos-school-complaint.html"
+      }
+    },
+    {
+      "id": "d652d0b2f35f42432d40a6de890298d547e6d06eea39f6c00839519817833ec0",
+      "kind": "provenance",
+      "at": "2026-10-31T11:31:43.195285+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "wales-japan-wxv-result-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-midday",
+        "article_id": "wales-japan",
+        "source_story_id": "wales-japan-wxv-result-2026-10-31",
+        "url": "articles/2026-10-31-midday/wales-japan.html"
+      }
+    },
+    {
+      "id": "dfb11c7a1ff2e5cfaa9993b2b4a0aa977424ff23546929b0abb12d5f76ef5d4a",
+      "kind": "provenance",
+      "at": "2026-10-31T11:31:43.195285+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "pope-us-midterm-ballot-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-31-midday",
+        "article_id": "pope-vote",
+        "source_story_id": "pope-us-midterm-ballot-2026-10-30",
+        "url": "articles/2026-10-31-midday/pope-vote.html"
+      }
+    },
+    {
+      "id": "f3156ea90dc72b10773b88828f4c97f9fb44d497c9b05327c09c5906fbdb51a4",
+      "kind": "provenance",
+      "at": "2026-10-31T11:31:43.195285+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "poland-constitutional-court-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-31-midday",
+        "article_id": "poland-protests",
+        "source_story_id": "poland-constitutional-court-2026-10-30",
+        "url": "articles/2026-10-31-midday/poland-protests.html"
+      }
+    },
+    {
+      "id": "f6f06f5cb656be03224df0fa84146b7fc4029125ee32096f68e2b96e9a2da285",
+      "kind": "provenance",
+      "at": "2026-10-31T11:31:43.195285+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "kuwait-major-finals-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-midday",
+        "article_id": "kuwait-final",
+        "source_story_id": "kuwait-major-finals-2026-10-31",
+        "url": "articles/2026-10-31-midday/kuwait-final.html"
+      }
+    },
+    {
+      "id": "078b29e38eb528d54fe9eb111bf48fb907d6c549716a3c9d7a0d09b818dfd426",
+      "kind": "provenance",
+      "at": "2026-10-31T17:35:47.619116+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "kuwait-major-finals-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "kuwait-final",
+        "source_story_id": "kuwait-major-finals-2026-10-31",
+        "url": "articles/2026-10-31-evening/kuwait-final.html"
+      }
+    },
+    {
+      "id": "1c42e78f67cfadd937b5c076512e31d77fdc058f2acff01aa27f13f92b69b17c",
+      "kind": "provenance",
+      "at": "2026-10-31T17:35:47.619116+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-shotgun-remand-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "limassol-remand",
+        "source_story_id": "limassol-shotgun-remand-2026-10-31",
+        "url": "articles/2026-10-31-evening/limassol-remand.html"
+      }
+    },
+    {
+      "id": "2011d4bbf95aa32a69fca1d9031c277bd1fcd4c3b44e52ae2d6301c4988644ab",
+      "kind": "provenance",
+      "at": "2026-10-31T17:35:47.619116+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "iran-npt-withdrawal-calls-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "iran-npt-calls",
+        "source_story_id": "iran-npt-withdrawal-calls-2026-10-31",
+        "url": "articles/2026-10-31-evening/iran-npt-calls.html"
+      }
+    },
+    {
+      "id": "53ad36094c05760cf141af78ecf0e83e4fec8039afe31b682c79688e50b7e00b",
+      "kind": "provenance",
+      "at": "2026-10-31T17:35:47.619116+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "motorcycle-ambulance",
+        "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+        "url": "articles/2026-10-31-evening/motorcycle-ambulance.html"
+      }
+    },
+    {
+      "id": "67f283b41fbe7436e4e888ba52a97aeb00ca9af194c010aa9f5235ed713245e9",
+      "kind": "provenance",
+      "at": "2026-10-31T17:35:47.619116+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "poland-constitutional-court-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "poland-protests",
+        "source_story_id": "poland-constitutional-court-2026-10-30",
+        "url": "articles/2026-10-31-evening/poland-protests.html"
+      }
+    },
+    {
+      "id": "79c9987798f62384cabc47749ce00b86cd8f78743a71252ce8f4c9dbed464895",
+      "kind": "provenance",
+      "at": "2026-10-31T17:35:47.619116+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-espionage-allegations-response-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "nvidia-allegations",
+        "source_story_id": "nvidia-espionage-allegations-response-2026-10-30",
+        "url": "articles/2026-10-31-evening/nvidia-allegations.html"
+      }
+    },
+    {
+      "id": "84b321342d19077fe2d5a363d255c808ec357140dc5ba7736beb7d681f5db714",
+      "kind": "provenance",
+      "at": "2026-10-31T17:35:47.619116+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-nine-month-budget-execution-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "treasury-nine-month",
+        "source_story_id": "cyprus-nine-month-budget-execution-2026-10-31",
+        "url": "articles/2026-10-31-evening/treasury-nine-month.html"
+      }
+    },
+    {
+      "id": "868ad87abc5189a46ce4f58634dd27f0f8c2028d5915ed2438670ce149729530",
+      "kind": "provenance",
+      "at": "2026-10-31T17:35:47.619116+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "akel-presidential-strategy-2028-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "akel-strategy",
+        "source_story_id": "akel-presidential-strategy-2028-2026-10-31",
+        "url": "articles/2026-10-31-evening/akel-strategy.html"
+      }
+    },
+    {
+      "id": "9dcd6b8670cd25468376c3da5fbe0f8a2463332cc738a38968f38cf29c997d53",
+      "kind": "provenance",
+      "at": "2026-10-31T17:35:47.619116+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+      "origin": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "oleshky-return",
+        "source_story_id": "kherson-humanitarian-truce-extension-2026-10-27",
+        "url": "articles/2026-10-31-evening/oleshky-return.html"
+      }
+    },
+    {
+      "id": "cfbf0c12760a43a9de64e2a97ef8131f90fc9e37283a2482f0ad025127eb4c3f",
+      "kind": "provenance",
+      "at": "2026-10-31T17:35:47.619116+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-education-budget-2027-2026-10-30",
+      "origin": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "education-facilities",
+        "source_story_id": "cyprus-education-budget-2027-2026-10-30",
+        "url": "articles/2026-10-31-evening/education-facilities.html"
+      }
+    },
+    {
+      "id": "d60e096ddd612b2286b725a85120f75bc7105a026fb3e9adac615173c96c252d",
+      "kind": "provenance",
+      "at": "2026-10-31T17:35:47.619116+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "south-africa-australia-test-series-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "south-africa-test",
+        "source_story_id": "south-africa-australia-test-series-2026-10-31",
+        "url": "articles/2026-10-31-evening/south-africa-test.html"
+      }
+    },
+    {
+      "id": "dd1dabdca93d4b00b5aa343f6ad4d68cf8baaea49d47ea10881150d5fe3d658e",
+      "kind": "provenance",
+      "at": "2026-10-31T17:35:47.619116+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterms-fabricated-polls-2026-10-31",
+      "origin": {
+        "edition_id": "2026-10-31-evening",
+        "article_id": "fake-polls",
+        "source_story_id": "us-midterms-fabricated-polls-2026-10-31",
+        "url": "articles/2026-10-31-evening/fake-polls.html"
       }
     }
   ],
@@ -577,23 +1186,23 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Στο Ολέσκι, Ουκρανός αξιωματούχος αναφέρει ότι κάτοικοι αναχώρησαν μαζί με ουκρανική αντιπροσωπεία προς την Ανάπα της Ρωσίας. Στην Πολωνία, η αναστολή καθηκόντων του προέδρου του Συνταγματικού Δικαστηρίου και η επιστροφή του προέδρου της χώρας δείχνουν θεσμική ένταση. Ο αριθμός και η μετέπειτα πορεία των εκτοπισμένων, όπως και οι επόμενες δικαστικές εξελίξεις στην Πολωνία, παραμένουν προς επιβεβαίωση.",
+        "text": "Η νεότερη κάλυψη αναφέρει ότι κάτοικοι του Ολέσκι πέρασαν στην Ουκρανία, προχωρώντας πέρα από την πρωινή αναφορά αναχώρησης προς τη Ρωσία. Στο Ιράν, οι εκκλήσεις βουλευτών για έξοδο από τη Συνθήκη Μη Διάδοσης δεν ισοδυναμούν με απόφαση αποχώρησης. Και στα δύο θέματα, συγκεκριμένες ενέργειες και επίσημες αποφάσεις έχουν μεγαλύτερη σημασία από τις προβλέψεις.",
         "story_ids": [
           "kherson-humanitarian-truce-extension-2026-10-27",
-          "poland-constitutional-court-2026-10-30"
+          "iran-npt-withdrawal-calls-2026-10-31"
         ]
       },
       {
-        "text": "Στην Κύπρο, δημοσίευμα καταγράφει 350 ανταποκρίσεις δικύκλων ασθενοφόρων και βάσεις σε Λευκωσία και Λεμεσό, με εκκρεμότητες στελέχωσης. Για την Παιδεία παρουσιάζεται πρόβλεψη €53 εκατ. για σχολικές υποδομές το 2027, υπό την προϋπόθεση έγκρισης του προϋπολογισμού. Τα διαθέσιμα στοιχεία δεν τεκμηριώνουν ακριβή χρόνο απόκρισης ούτε ολοκλήρωση των σχεδιαζόμενων έργων.",
+        "text": "Το ΑΚΕΛ ανακοίνωσε πλαίσιο πορείας προς τις προεδρικές του 2028, χωρίς στο διαθέσιμο απόσπασμα να οριστικοποιεί υποψήφιο ή συμμαχία. Στη Λεμεσό, δύο ύποπτοι τέθηκαν υπό πενθήμερη κράτηση σε υπόθεση όπλου. Η διερεύνηση ενδεχόμενου εγκληματικού σχεδίου δεν αποτελεί απόδειξη ότι τέτοιο σχέδιο υπήρχε.",
         "story_ids": [
-          "cyprus-motorcycle-ambulance-2026-10-31",
-          "cyprus-education-budget-2027-2026-10-30"
+          "akel-presidential-strategy-2028-2026-10-31",
+          "limassol-shotgun-remand-2026-10-31"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-10-31T05:37:15.689775+00:00",
-  "updated_at": "2026-10-31T05:37:15.689775+00:00",
-  "input_sha256": "a17041a78402c2579b31883ee2e17bd8ee95bed0c4cd2480c80510129df7afc5"
+  "updated_at": "2026-11-02T08:18:33.866372+00:00",
+  "input_sha256": "401568d03400523e4bb61232bbd7e6547dd2b763a42e1b391acc105ffb809b07"
 }

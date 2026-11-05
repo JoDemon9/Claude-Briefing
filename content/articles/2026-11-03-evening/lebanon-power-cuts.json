@@ -1,0 +1,76 @@
+{
+  "analysis_sources": [
+    "https://www.aljazeera.com/news/2026/11/3/lebanon-cuts-power-to-public-bodies-as-electricity-crisis-deepens?traffic_source=rss"
+  ],
+  "baseline_origin": {
+    "edition_id": "2026-11-03-midday",
+    "fingerprint": "1408d57b6f42737578644f3d0eaa71b960ede957c97f8ff91b28ccd36465bf16"
+  },
+  "category": "Διεθνή",
+  "change_status": "UNCHANGED",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "driver_tags": [
+    "energy",
+    "public-services"
+  ],
+  "edition_id": "2026-11-03-evening",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Λίβανος: διακοπές ηλεκτροδότησης σε δημόσιους φορείς με οφειλές",
+  "id": "lebanon-power-cuts",
+  "image": {
+    "alt": "Lebanon cuts power to public bodies as electricity crisis deepens",
+    "attribution": "Al Jazeera",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Lebanon cuts power to public bodies as electricity crisis deepens · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.aljazeera.com/news/2026/11/3/lebanon-cuts-power-to-public-bodies-as-electricity-crisis-deepens?traffic_source=rss",
+    "original_url": "https://www.aljazeera.com/wp-content/uploads/2023/03/2022-02-18T163131Z_302401676_RC2EMS9P4PEH_RTRMADP_3_LEBANON-CRISIS-ELECTRICITY.jpg?resize=1920%2C1440",
+    "retrieved_at": "2026-11-03T10:44:02.189049+00:00",
+    "source_review": {
+      "checked_at": "2026-11-03T10:44:02.189049+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "2934148b09e10dc9",
+      "rights_basis": "publisher-attribution",
+      "sha256": "54de2586fd97937d271d6a54ae9e867ec93fb931b9a3f8befc666b16efb27bc3"
+    },
+    "source_url": "https://www.aljazeera.com/news/2026/11/3/lebanon-cuts-power-to-public-bodies-as-electricity-crisis-deepens?traffic_source=rss",
+    "url": "assets/editorial/source/54de2586fd97937d271d6a54ae9e867ec93fb931b9a3f8befc666b16efb27bc3.webp"
+  },
+  "mechanics_and_incentives": "Ερμηνεία: η διακοπή λόγω οφειλών συνδέει τη χρηματοδότηση του παρόχου με τη λειτουργία δημόσιων φορέων. Η είσπραξη λογαριασμών και η μακροχρόνια επάρκεια ηλεκτροδότησης παραμένουν διαφορετικά προβλήματα· ένα μέτρο πληρωμών δεν αποδεικνύει συνολική αποκατάσταση του δικτύου.",
+  "published_at": "2026-11-03T11:32:51.655692+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "watch_next": "Επίσημη καταγραφή φορέων, όροι επανασύνδεσης και ανακοινώσεις για βιώσιμη παροχή."
+  },
+  "second_order_effects": "Οι συνέπειες εξαρτώνται από το ποιοι φορείς επηρεάζονται και αν έχουν εναλλακτική τροφοδοσία, στοιχεία που λείπουν από το απόσπασμα. Δεν τεκμηριώνεται συγκεκριμένη διακοπή νοσοκομειακής ή άλλης κρίσιμης υπηρεσίας.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Το Al Jazeera αναφέρει, επικαλούμενο τοπικά μέσα, ότι το Υπουργείο Ενέργειας και Υδάτων άρχισε να διακόπτει την ηλεκτροδότηση περίπου 100 δημόσιων οργανισμών με ανεξόφλητους λογαριασμούς. Το ρεπορτάζ τοποθετεί την εξέλιξη στη μακροχρόνια κρίση του ηλεκτρικού συστήματος, με έντονη υποχώρηση κρατικής παροχής μετά την οικονομική και τραπεζική κρίση του 2019. Δεν παρατίθεται πλήρης κατάλογος των επηρεαζόμενων υπηρεσιών."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-03T10:17:27+00:00",
+      "publisher": "Al Jazeera",
+      "reporting_group": "Al Jazeera",
+      "retrieved_at": "2026-11-03T10:43:49.526267+00:00",
+      "url": "https://www.aljazeera.com/news/2026/11/3/lebanon-cuts-power-to-public-bodies-as-electricity-crisis-deepens?traffic_source=rss",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "lebanon-public-institutions-power-2026-11-03",
+  "story_identity": "lebanon-public-institutions-power-2026-11-03",
+  "summary": "Το Al Jazeera αναφέρει, επικαλούμενο τοπικά μέσα, ότι το Υπουργείο Ενέργειας και Υδάτων άρχισε να διακόπτει την ηλεκτροδότηση περίπου 100 δημόσιων οργανισμών με ανεξόφλητους λογαριασμούς. Το ρεπορτάζ τοποθετεί την εξέλιξη στη μακροχρόνια κρίση του ηλεκτρικού συστήματος, με έντονη υποχώρηση κρατικής παροχής μετά την οικονομική και τραπεζική κρίση του 2019. Δεν παρατίθεται πλήρης κατάλογος των επηρεαζόμενων υπηρεσιών.",
+  "updated_at": "2026-11-03T11:32:51.655692+00:00",
+  "url": "articles/2026-11-03-evening/lebanon-power-cuts.html"
+}

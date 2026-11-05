@@ -1204,6 +1204,48 @@
       "coverage": "structured"
     },
     {
+      "edition_id": "2026-10-31-evening",
+      "as_of": "2026-10-31T17:35:47.619116+00:00",
+      "records": [
+        {
+          "owner": "2026-10-31-evening",
+          "checked_at": "2026-10-31T16:20:40.304986+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-10-31T18:15:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-10-31T16:15:00+00:00",
+          "valid_until": "2026-10-31T18:15:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-10-31-midday",
+      "as_of": "2026-10-31T11:31:43.195285+00:00",
+      "records": [
+        {
+          "owner": "2026-10-31-midday",
+          "checked_at": "2026-10-31T10:20:52.430707+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-10-31T12:15:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-10-31T10:15:00+00:00",
+          "valid_until": "2026-10-31T12:15:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
       "edition_id": "2026-10-31-morning",
       "as_of": "2026-10-31T05:35:50.458247+00:00",
       "records": [
@@ -1219,6 +1261,279 @@
           ],
           "valid_from": "2026-10-31T04:15:00+00:00",
           "valid_until": "2026-10-31T06:15:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-11-01-midday",
+      "as_of": "2026-11-01T11:30:09.844015+00:00",
+      "records": [
+        {
+          "owner": "2026-11-01-midday",
+          "checked_at": "2026-11-01T10:20:43.898692+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-11-01T12:15:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-11-01T10:15:00+00:00",
+          "valid_until": "2026-11-01T12:15:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-11-01-morning",
+      "as_of": "2026-11-01T05:30:56.550056+00:00",
+      "records": [
+        {
+          "owner": "2026-11-01-morning",
+          "checked_at": "2026-11-01T04:20:41.468275+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-11-01T06:15:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-11-01T04:15:00+00:00",
+          "valid_until": "2026-11-01T06:15:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-11-02-evening",
+      "as_of": "2026-11-02T17:30:22.982715+00:00",
+      "records": [
+        {
+          "owner": "2026-11-02-evening",
+          "checked_at": "2026-11-02T16:20:45.576052+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-11-02T18:15:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-11-02T16:15:00+00:00",
+          "valid_until": "2026-11-02T18:15:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-11-02-midday",
+      "as_of": "2026-11-02T11:36:32.056134+00:00",
+      "records": [
+        {
+          "owner": "2026-11-02-midday",
+          "checked_at": "2026-11-02T10:53:38.017031+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-11-02T12:45:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-11-02T10:45:00+00:00",
+          "valid_until": "2026-11-02T12:45:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-11-02-morning",
+      "as_of": "2026-11-02T05:27:05.529749+00:00",
+      "records": [
+        {
+          "owner": "2026-11-02-morning",
+          "checked_at": "2026-11-02T04:20:42.246560+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-11-02T06:15:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-11-02T04:15:00+00:00",
+          "valid_until": "2026-11-02T06:15:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-11-03-evening",
+      "as_of": "2026-11-03T17:36:28.934079+00:00",
+      "records": [
+        {
+          "owner": "2026-11-03-evening",
+          "checked_at": "2026-11-03T16:20:51.013059+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-11-03T18:15:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-11-03T16:15:00+00:00",
+          "valid_until": "2026-11-03T18:15:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-11-03-midday",
+      "as_of": "2026-11-03T11:32:51.655692+00:00",
+      "records": [
+        {
+          "owner": "2026-11-03-midday",
+          "checked_at": "2026-11-03T10:43:34.084142+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-11-03T12:30:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-11-03T10:30:00+00:00",
+          "valid_until": "2026-11-03T12:30:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-11-03-morning",
+      "as_of": "2026-11-03T05:36:26.687782+00:00",
+      "records": [
+        {
+          "owner": "2026-11-03-morning",
+          "checked_at": "2026-11-03T04:20:46.485877+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-11-03T06:15:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-11-03T04:15:00+00:00",
+          "valid_until": "2026-11-03T06:15:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-11-04-midday",
+      "as_of": "2026-11-04T11:36:37.120845+00:00",
+      "records": [
+        {
+          "owner": "2026-11-04-midday",
+          "checked_at": "2026-11-04T10:46:46.473685+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-11-04T12:45:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-11-04T10:45:00+00:00",
+          "valid_until": "2026-11-04T12:45:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-11-04-morning",
+      "as_of": "2026-11-04T05:33:43.055110+00:00",
+      "records": [
+        {
+          "owner": "2026-11-04-morning",
+          "checked_at": "2026-11-04T04:20:47.025721+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-11-04T06:15:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-11-04T04:15:00+00:00",
+          "valid_until": "2026-11-04T06:15:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-11-05-evening",
+      "as_of": "2026-11-05T17:31:48.207493+00:00",
+      "records": [
+        {
+          "owner": "2026-11-05-evening",
+          "checked_at": "2026-11-05T16:20:51.292403+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-11-05T18:15:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-11-05T16:15:00+00:00",
+          "valid_until": "2026-11-05T18:15:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-11-05-midday",
+      "as_of": "2026-11-05T11:33:52.119478+00:00",
+      "records": [
+        {
+          "owner": "2026-11-05-midday",
+          "checked_at": "2026-11-05T10:43:45.306716+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-11-05T12:30:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-11-05T10:30:00+00:00",
+          "valid_until": "2026-11-05T12:30:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
+      "edition_id": "2026-11-05-morning",
+      "as_of": "2026-11-05T05:29:53.650985+00:00",
+      "records": [
+        {
+          "owner": "2026-11-05-morning",
+          "checked_at": "2026-11-05T04:25:52.436293+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-11-05T06:15:00+00:00",
+          "sources": [
+            "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+          ],
+          "valid_from": "2026-11-05T04:15:00+00:00",
+          "valid_until": "2026-11-05T06:15:00+00:00",
           "state": "current"
         }
       ],

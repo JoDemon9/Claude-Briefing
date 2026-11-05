@@ -1,0 +1,86 @@
+{
+  "analysis_sources": [
+    "https://www.bbc.co.uk/news/articles/ckgj9plnlxdeo?at_medium=RSS&at_campaign=rss",
+    "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html"
+  ],
+  "category": "Πρώτο θέμα",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "delta_update": "Νέα στη σημερινή επιλογή κάλυψη δημοσιευμάτων της 29ης–30ής Οκτωβρίου, χωρίς ισχυρισμό ότι προέκυψε σήμερα νέο συμβάν.",
+  "driver_tags": [
+    "finance",
+    "technology",
+    "cybersecurity",
+    "nvidia"
+  ],
+  "edition_id": "2026-10-31-midday",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Nvidia: καταγγελίες και διαψεύσεις, χωρίς επιβεβαιωμένη παραβίαση",
+  "id": "nvidia-allegations",
+  "image": {
+    "alt": "Jensen Huang, the CEO of Nvidia, is seated in a grey armchair against a plain, light-blue background.",
+    "attribution": "BBC News",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Jensen Huang, the CEO of Nvidia, is seated in a grey armchair against a plain, light-blue background. · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.bbc.co.uk/news/articles/ckgj9plnlxdeo?at_medium=RSS&at_campaign=rss",
+    "original_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/05cc/live/95d8dca0-d447-11f1-97f9-27ebf08d99fe.jpg",
+    "retrieved_at": "2026-10-30T16:40:24.538569+00:00",
+    "source_review": {
+      "checked_at": "2026-10-30T16:40:24.538569+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "072f0e8eccccccec",
+      "rights_basis": "publisher-attribution",
+      "sha256": "0c4c8a1544185c9c81242d4a94904dfe3b55bce87e8af3992d27c009b823df36"
+    },
+    "source_url": "https://www.bbc.co.uk/news/articles/ckgj9plnlxdeo?at_medium=RSS&at_campaign=rss",
+    "url": "assets/editorial/source/0c4c8a1544185c9c81242d4a94904dfe3b55bce87e8af3992d27c009b823df36.webp"
+  },
+  "mechanics_and_incentives": "Ερμηνεία: η αναφορά αφορά πιθανή πρόσβαση και διακίνηση προηγμένων chips υπό εξαγωγικούς περιορισμούς, όχι τεκμηριωμένη παραβίαση πληροφοριακών συστημάτων. Η διάψευση καταγράφεται ως θέση της εταιρείας, χωρίς να υποκαθιστά δημόσια αποδεικτικά στοιχεία.",
+  "published_at": "2026-10-31T11:31:43.195285+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "watch_next": "Συγκεκριμένα επίσημα ευρήματα και αλλαγές στους περιορισμούς, χωρίς εξαγωγή συμπεράσματος από τον τίτλο μόνο."
+  },
+  "second_order_effects": "Ερμηνεία: το ζήτημα αγγίζει τον έλεγχο συνεργατών και εξαγωγών· δεν τεκμηριώνει συγκεκριμένη χρηματιστηριακή επίδραση.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Το BBC αναφέρει ότι η Κίνα απέρριψε ισχυρισμούς για κατασκοπευτική προσέγγιση του Τζένσεν Χουάνγκ και ότι η Nvidia χαρακτήρισε τις επαφές του συνήθεις επιχειρηματικές συναλλαγές. Το CNBC μεταφέρει εταιρική δήλωση ότι καταγγελίες εκτροπής chips είχαν ήδη διερευνηθεί και διαψευστεί. Και τα δύο παραπέμπουν στην ίδια αρχική δημοσιογραφική έρευνα, συνεπώς δεν αποτελούν ανεξάρτητες επιβεβαιώσεις της καταγγελίας."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-10-30T12:20:04+00:00",
+      "publisher": "BBC",
+      "reporting_group": "BBC",
+      "retrieved_at": "2026-10-31T10:20:59.371000+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckgj9plnlxdeo?at_medium=RSS&at_campaign=rss",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-10-29T15:59:26+00:00",
+      "publisher": "CNBC",
+      "reporting_group": "CNBC",
+      "retrieved_at": "2026-10-31T10:20:59.501577+00:00",
+      "url": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "nvidia-espionage-allegations-response-2026-10-30",
+  "story_identity": "nvidia-espionage-allegations-response-2026-10-30",
+  "summary": "Το BBC αναφέρει ότι η Κίνα απέρριψε ισχυρισμούς για κατασκοπευτική προσέγγιση του Τζένσεν Χουάνγκ και ότι η Nvidia χαρακτήρισε τις επαφές του συνήθεις επιχειρηματικές συναλλαγές. Το CNBC μεταφέρει εταιρική δήλωση ότι καταγγελίες εκτροπής chips είχαν ήδη διερευνηθεί και διαψευστεί. Και τα δύο παραπέμπουν στην ίδια αρχική δημοσιογραφική έρευνα, συνεπώς δεν αποτελούν ανεξάρτητες επιβεβαιώσεις της καταγγελίας.",
+  "updated_at": "2026-10-31T11:31:43.195285+00:00",
+  "url": "articles/2026-10-31-midday/nvidia-allegations.html"
+}

@@ -68,12 +68,15 @@ def context(inventory, rows, at, endpoint):
     """Intersect session dates; compare returns, never different-session quote deltas."""
     series = {q['instrument']: completed_series(q, rows.get(endpoint(q['instrument']), {}), at)
               for q in inventory if q['asset_class'] in ('equity', 'index')}
+    by_symbol = {item['instrument']: item for item in inventory}
     result = []
     for item in inventory:
         key = item['instrument']
         if item['asset_class'] != 'equity' or not series.get(key): continue
         benchmark = '^IXIC' if key in TECH else '^GSPC'
         if not series.get(benchmark): continue
+        # Matching local dates can still refer to different trading windows.
+        if item['market_timezone'] != by_symbol[benchmark]['market_timezone']: continue
         own, reference = series[key], series[benchmark]
         dates = sorted(set(own['points']) & set(reference['points']))
         if len(dates) < 2: continue

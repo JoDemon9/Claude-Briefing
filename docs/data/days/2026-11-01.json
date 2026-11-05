@@ -1,0 +1,779 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-11-01.html",
+  "editions": [
+    {
+      "id": "2026-11-01-morning",
+      "type": "morning",
+      "url": "morning/2026-11-01.html",
+      "published_at": "2026-11-01T05:30:56.550056+00:00"
+    },
+    {
+      "id": "2026-11-01-midday",
+      "type": "midday",
+      "url": "midday/2026-11-01.html",
+      "published_at": "2026-11-01T11:30:09.844015+00:00"
+    }
+  ],
+  "missing_slots": [
+    "evening"
+  ],
+  "lead_story_id": "binance-loss-coverage-2026-11-01",
+  "stories": [
+    {
+      "story_id": "binance-loss-coverage-2026-11-01",
+      "first_seen_at": "2026-11-01T11:30:09.844015+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "binance-recovery",
+          "source_story_id": "binance-loss-coverage-2026-11-01",
+          "url": "articles/2026-11-01-midday/binance-recovery.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "binance-recovery",
+        "source_story_id": "binance-loss-coverage-2026-11-01",
+        "url": "articles/2026-11-01-midday/binance-recovery.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "poland-constitutional-court-2026-10-30",
+      "first_seen_at": "2026-11-01T05:30:56.550056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-morning",
+          "article_id": "poland-crisis-talks",
+          "source_story_id": "poland-constitutional-court-2026-10-30",
+          "url": "articles/2026-11-01-morning/poland-crisis-talks.html"
+        },
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "poland-eu-call",
+          "source_story_id": "poland-constitutional-court-2026-10-30",
+          "url": "articles/2026-11-01-midday/poland-eu-call.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "poland-eu-call",
+        "source_story_id": "poland-constitutional-court-2026-10-30",
+        "url": "articles/2026-11-01-midday/poland-eu-call.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "us-midterm-cost-of-living-2026-11-01",
+      "first_seen_at": "2026-11-01T05:30:56.550056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-morning",
+          "article_id": "us-midterm-costs",
+          "source_story_id": "us-midterm-cost-of-living-2026-11-01",
+          "url": "articles/2026-11-01-morning/us-midterm-costs.html"
+        },
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "us-midterm-costs",
+          "source_story_id": "us-midterm-cost-of-living-2026-11-01",
+          "url": "articles/2026-11-01-midday/us-midterm-costs.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "us-midterm-costs",
+        "source_story_id": "us-midterm-cost-of-living-2026-11-01",
+        "url": "articles/2026-11-01-midday/us-midterm-costs.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+      "first_seen_at": "2026-11-01T05:30:56.550056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-morning",
+          "article_id": "rescue-motorcycles",
+          "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+          "url": "articles/2026-11-01-morning/rescue-motorcycles.html"
+        },
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "rescue-motorcycles",
+          "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+          "url": "articles/2026-11-01-midday/rescue-motorcycles.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "rescue-motorcycles",
+        "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+        "url": "articles/2026-11-01-midday/rescue-motorcycles.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
+      "story_id": "gaza-medical-workers-strain-2026-11-01",
+      "first_seen_at": "2026-11-01T11:30:09.844015+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "gaza-medical-workers",
+          "source_story_id": "gaza-medical-workers-strain-2026-11-01",
+          "url": "articles/2026-11-01-midday/gaza-medical-workers.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "gaza-medical-workers",
+        "source_story_id": "gaza-medical-workers-strain-2026-11-01",
+        "url": "articles/2026-11-01-midday/gaza-medical-workers.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "cyprus-ai-employment-concerns-2026-11-01",
+      "first_seen_at": "2026-11-01T05:30:56.550056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-morning",
+          "article_id": "ai-employment",
+          "source_story_id": "cyprus-ai-employment-concerns-2026-11-01",
+          "url": "articles/2026-11-01-morning/ai-employment.html"
+        },
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "ai-employment",
+          "source_story_id": "cyprus-ai-employment-concerns-2026-11-01",
+          "url": "articles/2026-11-01-midday/ai-employment.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "ai-employment",
+        "source_story_id": "cyprus-ai-employment-concerns-2026-11-01",
+        "url": "articles/2026-11-01-midday/ai-employment.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "eu-food-innovation-survey-2026-11-01",
+      "first_seen_at": "2026-11-01T11:30:09.844015+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "eu-food-survey",
+          "source_story_id": "eu-food-innovation-survey-2026-11-01",
+          "url": "articles/2026-11-01-midday/eu-food-survey.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "eu-food-survey",
+        "source_story_id": "eu-food-innovation-survey-2026-11-01",
+        "url": "articles/2026-11-01-midday/eu-food-survey.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "akel-presidential-strategy-2028-2026-10-31",
+      "first_seen_at": "2026-11-01T05:30:56.550056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-morning",
+          "article_id": "akel-priorities",
+          "source_story_id": "akel-presidential-strategy-2028-2026-10-31",
+          "url": "articles/2026-11-01-morning/akel-priorities.html"
+        },
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "akel-priorities",
+          "source_story_id": "akel-presidential-strategy-2028-2026-10-31",
+          "url": "articles/2026-11-01-midday/akel-priorities.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "akel-priorities",
+        "source_story_id": "akel-presidential-strategy-2028-2026-10-31",
+        "url": "articles/2026-11-01-midday/akel-priorities.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "kuwait-major-tapia-title-2026-10-31",
+      "first_seen_at": "2026-11-01T05:30:56.550056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-morning",
+          "article_id": "padel-tapia",
+          "source_story_id": "kuwait-major-tapia-title-2026-10-31",
+          "url": "articles/2026-11-01-morning/padel-tapia.html"
+        },
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "kuwait-season-ranking",
+          "source_story_id": "kuwait-major-tapia-title-2026-10-31",
+          "url": "articles/2026-11-01-midday/kuwait-season-ranking.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "kuwait-season-ranking",
+        "source_story_id": "kuwait-major-tapia-title-2026-10-31",
+        "url": "articles/2026-11-01-midday/kuwait-season-ranking.html"
+      },
+      "section": "sports",
+      "priority": 5
+    },
+    {
+      "story_id": "limassol-well-homicide-investigation-2026-10-31",
+      "first_seen_at": "2026-11-01T05:30:56.550056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-morning",
+          "article_id": "limassol-investigation",
+          "source_story_id": "limassol-well-homicide-investigation-2026-10-31",
+          "url": "articles/2026-11-01-morning/limassol-investigation.html"
+        },
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "limassol-investigation",
+          "source_story_id": "limassol-well-homicide-investigation-2026-10-31",
+          "url": "articles/2026-11-01-midday/limassol-investigation.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "limassol-investigation",
+        "source_story_id": "limassol-well-homicide-investigation-2026-10-31",
+        "url": "articles/2026-11-01-midday/limassol-investigation.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "marquez-malaysia-motogp-2026-11-01",
+      "first_seen_at": "2026-11-01T11:30:09.844015+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-01-midday",
+          "article_id": "marquez-malaysia",
+          "source_story_id": "marquez-malaysia-motogp-2026-11-01",
+          "url": "articles/2026-11-01-midday/marquez-malaysia.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "marquez-malaysia",
+        "source_story_id": "marquez-malaysia-motogp-2026-11-01",
+        "url": "articles/2026-11-01-midday/marquez-malaysia.html"
+      },
+      "section": "sports",
+      "priority": 6
+    }
+  ],
+  "updates": [
+    {
+      "id": "0b1171db9c23c42c510b8e28c266cff396ef5704ce8969f8d97e7644ba9ad3ee",
+      "kind": "provenance",
+      "at": "2026-11-01T05:30:56.550056+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+      "origin": {
+        "edition_id": "2026-11-01-morning",
+        "article_id": "rescue-motorcycles",
+        "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+        "url": "articles/2026-11-01-morning/rescue-motorcycles.html"
+      }
+    },
+    {
+      "id": "11a409adb4769bd632350854d0ff9fcb329389e2bd8f128771d0a6aee0e06284",
+      "kind": "provenance",
+      "at": "2026-11-01T05:30:56.550056+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-well-homicide-investigation-2026-10-31",
+      "origin": {
+        "edition_id": "2026-11-01-morning",
+        "article_id": "limassol-investigation",
+        "source_story_id": "limassol-well-homicide-investigation-2026-10-31",
+        "url": "articles/2026-11-01-morning/limassol-investigation.html"
+      }
+    },
+    {
+      "id": "34e8d363844c07f6b6a544eeb1a593ec7988bcd2a431190fa7399d83ba39c98f",
+      "kind": "provenance",
+      "at": "2026-11-01T05:30:56.550056+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "akel-presidential-strategy-2028-2026-10-31",
+      "origin": {
+        "edition_id": "2026-11-01-morning",
+        "article_id": "akel-priorities",
+        "source_story_id": "akel-presidential-strategy-2028-2026-10-31",
+        "url": "articles/2026-11-01-morning/akel-priorities.html"
+      }
+    },
+    {
+      "id": "76808f9a6390de60195d3e83a704781aab8b9d2a2826f4ef50ca06b9044a42e6",
+      "kind": "provenance",
+      "at": "2026-11-01T05:30:56.550056+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "kuwait-major-tapia-title-2026-10-31",
+      "origin": {
+        "edition_id": "2026-11-01-morning",
+        "article_id": "padel-tapia",
+        "source_story_id": "kuwait-major-tapia-title-2026-10-31",
+        "url": "articles/2026-11-01-morning/padel-tapia.html"
+      }
+    },
+    {
+      "id": "97390e2c7a05ab3c63809b58ce62f18646f7e31921d34796c94261c560a75e36",
+      "kind": "provenance",
+      "at": "2026-11-01T05:30:56.550056+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterm-cost-of-living-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-01-morning",
+        "article_id": "us-midterm-costs",
+        "source_story_id": "us-midterm-cost-of-living-2026-11-01",
+        "url": "articles/2026-11-01-morning/us-midterm-costs.html"
+      }
+    },
+    {
+      "id": "cb42a9d0a406fd66a6f23ea63640485b1956006756497c615ce32aab7a4cef0d",
+      "kind": "provenance",
+      "at": "2026-11-01T05:30:56.550056+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "poland-constitutional-court-2026-10-30",
+      "origin": {
+        "edition_id": "2026-11-01-morning",
+        "article_id": "poland-crisis-talks",
+        "source_story_id": "poland-constitutional-court-2026-10-30",
+        "url": "articles/2026-11-01-morning/poland-crisis-talks.html"
+      }
+    },
+    {
+      "id": "e8d98e24be2a1d66e6e99bf0c77add81f5065f93ef935178a31c2a08d91a5922",
+      "kind": "provenance",
+      "at": "2026-11-01T05:30:56.550056+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-ai-employment-concerns-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-01-morning",
+        "article_id": "ai-employment",
+        "source_story_id": "cyprus-ai-employment-concerns-2026-11-01",
+        "url": "articles/2026-11-01-morning/ai-employment.html"
+      }
+    },
+    {
+      "id": "0ee63372a63d2ed75af7b1acaa61b4fd96ec8ff120882d14332ce36fffcadc63",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-well-homicide-investigation-2026-10-31",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "limassol-investigation",
+        "source_story_id": "limassol-well-homicide-investigation-2026-10-31",
+        "url": "articles/2026-11-01-midday/limassol-investigation.html"
+      }
+    },
+    {
+      "id": "2284300f216f911cee37d64e87e5b5bfe705f0e5229ff4a162e060306c450baa",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-ai-employment-concerns-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "ai-employment",
+        "source_story_id": "cyprus-ai-employment-concerns-2026-11-01",
+        "url": "articles/2026-11-01-midday/ai-employment.html"
+      }
+    },
+    {
+      "id": "3e6add1835ffe9efea102c52c5eb4376428ef909782d7b9b2cdc6ef4695bf990",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "binance-loss-coverage-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "binance-recovery",
+        "source_story_id": "binance-loss-coverage-2026-11-01",
+        "url": "articles/2026-11-01-midday/binance-recovery.html"
+      }
+    },
+    {
+      "id": "501f8961dad7faa07a13de6c7ce2018be2954e37161dfa336b3d72ba0f99434c",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "gaza-medical-workers-strain-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "gaza-medical-workers",
+        "source_story_id": "gaza-medical-workers-strain-2026-11-01",
+        "url": "articles/2026-11-01-midday/gaza-medical-workers.html"
+      }
+    },
+    {
+      "id": "7037b420710d4ec08239513310fa607572d058160dbc3dcf69c461b34e162224",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-midterm-cost-of-living-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "us-midterm-costs",
+        "source_story_id": "us-midterm-cost-of-living-2026-11-01",
+        "url": "articles/2026-11-01-midday/us-midterm-costs.html"
+      }
+    },
+    {
+      "id": "7649d04a69ae1d897af3d525283ececdbfdb0ce95394359e5693688a4134729d",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "eu-food-innovation-survey-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "eu-food-survey",
+        "source_story_id": "eu-food-innovation-survey-2026-11-01",
+        "url": "articles/2026-11-01-midday/eu-food-survey.html"
+      }
+    },
+    {
+      "id": "90cb1743f7d2e6345c5c7c0da98819b259cc92aade576afe93a94d1c1b91bce8",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "marquez-malaysia-motogp-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "marquez-malaysia",
+        "source_story_id": "marquez-malaysia-motogp-2026-11-01",
+        "url": "articles/2026-11-01-midday/marquez-malaysia.html"
+      }
+    },
+    {
+      "id": "a950734c271f2407cd25501433ad7e0a075ba133b1c7b6005c5115c771fc6cb4",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "poland-constitutional-court-2026-10-30",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "poland-eu-call",
+        "source_story_id": "poland-constitutional-court-2026-10-30",
+        "url": "articles/2026-11-01-midday/poland-eu-call.html"
+      }
+    },
+    {
+      "id": "b67947a21b6bae5cb063065363b0d550ec118910c43ee1806f30450498819517",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "akel-presidential-strategy-2028-2026-10-31",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "akel-priorities",
+        "source_story_id": "akel-presidential-strategy-2028-2026-10-31",
+        "url": "articles/2026-11-01-midday/akel-priorities.html"
+      }
+    },
+    {
+      "id": "c6fa81bd73105b356845ccb4b2763f195d2c35afddb42f673bb0c5d1742da90b",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "rescue-motorcycles",
+        "source_story_id": "cyprus-motorcycle-ambulance-2026-10-31",
+        "url": "articles/2026-11-01-midday/rescue-motorcycles.html"
+      }
+    },
+    {
+      "id": "fde4c50e48e08964f1c0f92dea30c26bac8a32c774c716fd191c665ae96f4ae5",
+      "kind": "provenance",
+      "at": "2026-11-01T11:30:09.844015+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "kuwait-major-tapia-title-2026-10-31",
+      "origin": {
+        "edition_id": "2026-11-01-midday",
+        "article_id": "kuwait-season-ranking",
+        "source_story_id": "kuwait-major-tapia-title-2026-10-31",
+        "url": "articles/2026-11-01-midday/kuwait-season-ranking.html"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "action": "Δες την επίσημη ανακοίνωση ως ιστορικό πλαίσιο. Αναμένουμε επαληθευμένη νέα προκήρυξη πριν εμφανίσουμε ενεργή αίτηση.",
+      "application_kind": "instructions",
+      "application_url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+      "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση.",
+      "deadline": "2024-07-31T23:59:00+03:00",
+      "deadline_note": "Ιστορική προθεσμία της 2ης πρόσκλησης, όχι ημερομηνία νέας αίτησης. Νέα ενεργή πρόσκληση δεν επιβεβαιώθηκε στον παρόντα έλεγχο.",
+      "deadline_type": "fixed",
+      "eligibility": "Η προκήρυξη του 2024 όριζε νέους 18–29, άνδρες 30–50 και γυναίκες 30–55. Νέα πρόσκληση μπορεί να αλλάξει τους όρους· δεν έχει κριθεί προσωπική επιλεξιμότητα.",
+      "id": "cy-new-entrepreneurship-2024-call2",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-23T04:30:48.639313+00:00",
+          "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "retrieved_at": "2026-10-15T16:39:24.850175+00:00",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Ιστορική πρόσκληση του 2024 που έχει λήξει. Παραμένει μόνο στην παρακολούθηση για τυχόν νέα επίσημη προκήρυξη, όχι στις ενεργές αιτήσεις.",
+      "support": "Παλιοί όροι: 70% επιλέξιμης δαπάνης για 18–29, 60% για τις άλλες ομάδες, με μέγιστο επιλέξιμο προϋπολογισμό €120.000.",
+      "title": "Νέα Επιχειρηματική Δραστηριότητα · παλιά 2η προκήρυξη",
+      "verified_at": "2026-10-23T07:36:00+03:00"
+    },
+    {
+      "action": "Αν έχεις GO, προετοίμασε πλήρη πρόταση. Διαφορετικά ξεκίνα τη σύντομη αίτηση χωρίς να θεωρείς εξασφαλισμένη συμμετοχή στον γύρο Νοεμβρίου.",
+      "application_kind": "form",
+      "application_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+      "change_note": "Επανελέγχθηκε η επίσημη σελίδα EIC: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ., επενδυτικό σκέλος €1–10 εκατ. και επόμενη πλήρης πρόταση στις 4/11, 17:00 Βρυξελλών, μόνο μετά από GO.",
+      "deadline": "2026-11-04T18:00:00+02:00",
+      "deadline_note": "4/11 στις 17:00 Βρυξελλών = 18:00 Κύπρου. Αφορά πλήρη πρόταση μετά το GO. Οι σύντομες προτάσεις υποβάλλονται συνεχώς· αξιολόγηση συνήθως 4–6 εβδομάδες.",
+      "deadline_type": "fixed",
+      "eligibility": "Μία startup/ΜμΕ στην ΕΕ ή συνδεδεμένη χώρα, με καινοτομία TRL 6–8. Για πλήρη πρόταση προηγείται θετική αξιολόγηση (GO) της σύντομης πρότασης ή επιλέξιμη ειδική διαδρομή.",
+      "id": "eu-eic-accelerator-2026",
+      "jurisdiction": "ΕΕ · περιλαμβάνει την Κύπρο",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Innovation Council",
+          "reporting_group": "European Innovation Council",
+          "retrieved_at": "2026-10-24T13:43:13+03:00",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Στήριξη νεοφυών και μικρομεσαίων επιχειρήσεων με ανατρεπτική καινοτομία σε στάδιο ανάπτυξης και κλιμάκωσης. Δεν είναι γενική επιδότηση ίδρυσης επιχείρησης.",
+      "support": "Επιχορήγηση κάτω από €2,5 εκατ.· χωριστά επενδυτικό σκέλος €1–10 εκατ., που δεν αποτελεί επιχορήγηση.",
+      "title": "EIC Accelerator: επόμενη πλήρης πρόταση 4 Νοεμβρίου",
+      "verified_at": "2026-10-24T13:43:13+03:00"
+    },
+    {
+      "action": "Μην υποβάλεις νέα αίτηση. Παρακολούθησε μόνο επίσημη επαναπροκήρυξη ή ανακοίνωση για επιλαχόντες.",
+      "application_kind": "none",
+      "application_url": null,
+      "change_note": "Το ΥΕΕΒ ανακοίνωσε ολοκλήρωση υποβολής προτάσεων λόγω υπερκάλυψης προϋπολογισμού. Η προηγούμενη ένδειξη ανοικτής πρόσκλησης διορθώθηκε.",
+      "deadline": null,
+      "deadline_note": "Η υποβολή ολοκληρώθηκε στις 21/10 λόγω υπερκάλυψης του διαθέσιμου προϋπολογισμού.",
+      "deadline_type": "unknown",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "id": "cy-home-energy-2026",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "kind": "grant",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": "2026-10-21",
+          "publisher": "ΥΕΕΒ",
+          "reporting_group": "ΥΕΕΒ",
+          "retrieved_at": "2026-10-23T10:33:45.530855+00:00",
+          "url": "https://www.industry.gov.cy",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "verified_at": "2026-10-23T13:33:46+03:00"
+    },
+    {
+      "action": "Έλεγξε τα όρια και τη διαδικασία προηγούμενης κοινοποίησης στο κράτος εγκατάστασης. Ο σύνδεσμος δίνει οδηγίες, όχι κυπριακό έντυπο.",
+      "application_kind": "instructions",
+      "application_url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+      "change_note": "Επανελέγχθηκαν στις 24/10 η επίσημη ευρωπαϊκή σελίδα και η διαδικασία διασυνοριακής απαλλαγής. Το καθεστώς παραμένει προαιρετικό και ανοικτό, με ενωσιακό όριο €100.000 και προηγούμενη κοινοποίηση.",
+      "deadline": null,
+      "deadline_note": "Δεν πρόκειται για γύρο χορηγιών. Η απαλλαγή ξεκινά μετά την έγκριση/επιβεβαίωση EX· ισχύουν ξεχωριστές υποχρεώσεις τριμηνιαίας αναφοράς.",
+      "deadline_type": "rolling",
+      "eligibility": "Επιχείρηση εγκατεστημένη στην ΕΕ: ενωσιακός τζίρος έως €100.000 στο τρέχον και προηγούμενο έτος, καθώς και το εθνικό/κλαδικό όριο κάθε χώρας απαλλαγής.",
+      "id": "eu-cross-border-sme-vat",
+      "jurisdiction": "ΕΕ / Κύπρος · διασυνοριακές πωλήσεις",
+      "kind": "legal_right",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · DG TAXUD",
+          "reporting_group": "European Commission · DG TAXUD",
+          "retrieved_at": "2026-10-24T07:33:51+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · SME VAT",
+          "reporting_group": "European Commission · SME VAT",
+          "retrieved_at": "2026-10-24T07:33:47+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/index_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-24T07:33:52+03:00",
+          "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Το ευρωπαϊκό καθεστώς μικρών επιχειρήσεων επιτρέπει απαλλαγή ΦΠΑ σε επιλέξιμες διασυνοριακές πωλήσεις. Απαιτεί προηγούμενη κοινοποίηση· δεν εφαρμόζεται αυτόματα.",
+      "support": "Πιθανή απλούστευση υποχρεώσεων ΦΠΑ, με απώλεια δικαιώματος έκπτωσης ΦΠΑ για τις απαλλασσόμενες πράξεις. Αξιολόγησε το καθαρό όφελος πριν επιλέξεις.",
+      "title": "Προαιρετική απαλλαγή ΦΠΑ για μικρές επιχειρήσεις",
+      "verified_at": "2026-10-24T07:44:30+03:00"
+    },
+    {
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
+      "application_kind": "form",
+      "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "change_note": "Επανελέγχθηκαν η επίσημη δυνατότητα αίτησης, τα κριτήρια και η FAQ προθεσμίας στις 24/10. Η εγγραφή παραμένει ανοικτή χωρίς καταληκτική ημερομηνία· δεν υπονοείται προσωπική επιλεξιμότητα.",
+      "deadline": null,
+      "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
+      "deadline_type": "rolling",
+      "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
+      "id": "eu-erasmus-new-entrepreneurs",
+      "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
+      "kind": "benefit",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs · FAQ",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
+      "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
+      "title": "Erasmus for Young Entrepreneurs",
+      "verified_at": "2026-10-24T07:43:00+03:00"
+    }
+  ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Η Binance δηλώνει ότι έχει καλύψει το 90% των απωλειών από επίθεση και επανέφερε αναλήψεις σε αρκετά δίκτυα. Πρόκειται για εταιρική ενημέρωση, όχι ανεξάρτητη επιβεβαίωση αποζημίωσης κάθε πελάτη ή πλήρους αποκατάστασης. Η επόμενη ουσιαστική ένδειξη είναι η τεκμηριωμένη ολοκλήρωση κάλυψης και λειτουργίας.",
+        "story_ids": [
+          "binance-loss-coverage-2026-11-01"
+        ]
+      },
+      {
+        "text": "Η Κομισιόν παρεμβαίνει στη διαμάχη για τους Πολωνούς συνταγματικούς δικαστές, χωρίς να τεκμηριώνεται λύση. Στη Γάζα, το ρεπορτάζ για το προσωπικό υγείας προσθέτει την ανθρώπινη διάσταση της πίεσης στις υπηρεσίες. Η ευρωπαϊκή έρευνα τροφίμων καταγράφει στάσεις εμπιστοσύνης, όχι επιστημονική αξιολόγηση ασφάλειας. Η χρήσιμη κυπριακή πρωινή κάλυψη διατηρείται με τις αρχικές επαληθεύσεις της.",
+        "story_ids": [
+          "poland-constitutional-court-2026-10-30",
+          "gaza-medical-workers-strain-2026-11-01",
+          "eu-food-innovation-survey-2026-11-01"
+        ]
+      }
+    ]
+  },
+  "follow_ups": [],
+  "created_at": "2026-11-01T05:32:25.111232+00:00",
+  "updated_at": "2026-11-02T08:18:34.354615+00:00",
+  "input_sha256": "0376d9653f5f65e0357f66b8b5413e7b677d3895e47bf5827354d68dd0278868"
+}
