@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "release_id": "3e50c2d3142e074ae94f7b2c3719443ac35364a95b754c0fbaec118a1474465b",
+  "release_id": "33b71098d045c5fbcfe227b21783fac067fe7161e9a96bd57334833e147b648a",
   "edition_ids": [
     "2026-11-06-midday",
     "2026-11-06-morning",
@@ -838,7 +838,7 @@
     "scripts/v2/prefetch_http.py": "12c799ea7a7f2adfed2b85d875ee87044e954b5064d0c51006859fff126c3992",
     "scripts/v2/prepare_images.py": "8dfc206a7f5eb484c285c05785f2b04391d0d845a3004507f165a5e24d38e6d4",
     "scripts/v2/prepare_run.py": "961320c85b95c5cd0cdb75a52bd8e6d8b254c52fe78db03982b3c9cff9562742",
-    "scripts/v2/publish.py": "9c7e942f7b0833f4b198130bca5f3980842dc6b9b46dd56dc00593a1bb11d3d1",
+    "scripts/v2/publish.py": "7f8cbec0e91f545adf2d623b8d27056af2afe66c56b9f77be892d18a2d9e1bcd",
     "scripts/v2/quick_validate.py": "d32425fc5fe9f30991647d2b999389538a0c06cb7fbf56c039f46b15bb4eb61b",
     "scripts/v2/quota_audit.py": "ab05abe4a953c6bb023340d857e29dc6c752905db713325afa699e2ab71ad067",
     "scripts/v2/release.py": "14fe619712b8640a58c3e1da18c0dfdaadb8889e24f6609916da5820812d63a6",
@@ -884,6 +884,7 @@
     "tests/test_news_quality.py": "28afa978a2eb25385f1515e7865cd5ea550cc010491829d7cc2eda3ef0b2daa1",
     "tests/test_omonoia_sources.py": "515dc008b965212f4f14e123f2a6b92e3040ac9a51860dce86e52dba6994940c",
     "tests/test_opportunities.py": "5fa779ce501fbcf67bfcf2676a4f295ff568ef2ce17ebd6b3cdff0d5596fb1e0",
+    "tests/test_pages_delivery.py": "e182b773c443c9f1f8951633a74431e0c8b8c157cf054258a6813c6e05b511cb",
     "tests/test_photos_and_sports.py": "db9216f6a0fe9a81abcddfbe85e556cc054d04560ed44e94f723bd65666a399b",
     "tests/test_prepare_run.py": "af049b0061c6b48e1368157507bbb3e5a6a48e76623c49798739e0c2a7c6e4c3",
     "tests/test_reading_policy.py": "b829a0dad1fe60b977905f169ec012b72670808b9e3d62d61058e8280710e0f0",
@@ -899,7 +900,7 @@
     "tests/test_ui_content.py": "fc947db4db1d2b36e59280412475281767910fa954d75eb0ee07fe62a22b663c",
     "tests/fixtures/scenarios.json": "1a81028ca5347895a0285ef78e43492c3b23e1033dcecdf2684b045ac1b6c562",
     ".github/workflows/cloud-prefetch-watchdog.yml": "c85e62b8348f10ed274540803ab82e08b7f084e0fe9e613ff862e84323ff9bf7",
-    ".github/workflows/content-checks.yml": "fce9cf87e77e8a3ff7c058b8fa2b8f601e2c3c41dcbb6466c24eafa35728b02c",
+    ".github/workflows/content-checks.yml": "f0bcab6fc5dc7037294b865c2fa08b553929827d16b2c3329afaa1ea8489dc01",
     ".github/workflows/image-candidate.yml": "8b548d9e25338c9a61f64cf6c5a64ab1e3fd08c9d0c158e2e1b5edc3aa5c0c86",
     ".github/workflows/verify-deployment.yml": "947ebfb28b1240897a7b1be1faf6ce69bf93ce3071db0e70303d6f391a3939ce",
     "requirements-v2.txt": "f9c2f2dc2ef76dd0cb9f32dd33a0a358fa1867ba9f70734250c370c34d9dd4d8"
