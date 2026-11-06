@@ -25,7 +25,7 @@ STAGES = ('generated','validated','built','checked','credentials_checked','publi
 REPOS = {'public':'JoDemon9/Claude-Briefing','portal':'JoDemon9/oracle-briefing'}
 
 
-def request_public_pages_build(commit=None, opener=None):
+def request_public_pages_build(opener=None, *, commit=None):
     """Request branch Pages once unless the exact published commit is already building."""
     token = os.environ.get('ORACLE_PAGES_BUILD_TOKEN')
     if not token:
@@ -331,7 +331,7 @@ def run(root=ROOT, portal=None, publish=False, handlers=None, checks_receipt=Non
         def verify_public():
             commit=state['stages']['public_published']['result']['commit']
             return deliver_source_pages(lambda: release.verify_live(root),
-                                        lambda: request_public_pages_build(commit))
+                                        lambda: request_public_pages_build(commit=commit))
 
         state['stages'].pop('public_verified',None)
         call('public_verified', verify_public)

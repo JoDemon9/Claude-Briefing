@@ -41,7 +41,7 @@ class PagesDeliveryTests(unittest.TestCase):
     def test_exact_active_deployment_is_not_duplicated(self):
         response = io.BytesIO(json.dumps({'commit':'same','status':'building'}).encode())
         opener = Mock(return_value=response)
-        self.assertEqual(publisher.request_public_pages_build('same',opener),
+        self.assertEqual(publisher.request_public_pages_build(opener,commit='same'),
                          {'status':'already_building'})
         self.assertEqual(opener.call_count,1)
         self.assertEqual(opener.call_args.args[0].get_method(),'GET')
