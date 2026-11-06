@@ -1,0 +1,64 @@
+{
+  "analysis_sources": [],
+  "category": "Διεθνή",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 2,
+    "section": "world"
+  },
+  "delta_update": "Η Veeam ανακοίνωσε στις 4 Νοεμβρίου ότι το Software Appliance από την έκδοση 13.1 μπορεί να μην εκκινήσει μετά από επανεκκίνηση σε συστήματα με ορισμένους επεξεργαστές AMD EPYC. Η εταιρεία αποδίδει το πρόβλημα σε έλεγχο του πυρήνα Linux κατά την εκκίνηση. Η εικονική μηχανή μπορεί να μείνει εκτός λειτουργίας ώσπου να επανεκκινηθεί χειροκίνητα, σύμφωνα με την τεχνική ανακοίνωση.",
+  "driver_tags": [
+    "technology",
+    "backup"
+  ],
+  "edition_id": "2026-11-06-evening",
+  "headline": "Η Veeam καταγράφει διαλείπουσα αστοχία εκκίνησης σε ορισμένους AMD EPYC",
+  "id": "veeam-epyc-appliance-boot",
+  "image": {
+    "alt": "Το λιμάνι Γιανγκσάν στην Κίνα, 2007",
+    "attribution": "YHBEST1",
+    "caption": "Φωτογραφία αρχείου · Το λιμάνι Γιανγκσάν στην Κίνα, 2007. Θεματικό φωτογραφικό πλαίσιο.",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Yangshan_Deepwater_Port.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Yangshan_Deepwater_Port.jpg",
+    "retrieved_at": "2026-10-14T07:57:30+03:00",
+    "reuse_review": {
+      "relevance_and_archive_date_checked": true,
+      "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+      "sha256": "58930d817107fea3a876a51e91a6a5bed6374666070a6e6930cd09d0bfebbe0c",
+      "source_asset": "assets/editorial/2026-10-11-evening/world-3.webp"
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Yangshan_Deepwater_Port.jpg",
+    "url": "assets/editorial/2026-10-11-evening/world-3.webp"
+  },
+  "published_at": "2026-11-06T18:38:26.964074+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Η Veeam ανακοίνωσε στις 4 Νοεμβρίου ότι το Software Appliance από την έκδοση 13.1 μπορεί να μην εκκινήσει μετά από επανεκκίνηση σε συστήματα με ορισμένους επεξεργαστές AMD EPYC. Η εταιρεία αποδίδει το πρόβλημα σε έλεγχο του πυρήνα Linux κατά την εκκίνηση. Η εικονική μηχανή μπορεί να μείνει εκτός λειτουργίας ώσπου να επανεκκινηθεί χειροκίνητα, σύμφωνα με την τεχνική ανακοίνωση."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "primary",
+      "published_at": null,
+      "publisher": "Veeam",
+      "reporting_group": "Veeam",
+      "retrieved_at": "2026-11-06T17:27:03Z",
+      "url": "https://www.veeam.com/kb4960",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "veeam-epyc-appliance-boot-2026-11-04",
+  "story_identity": "veeam-epyc-appliance-boot-2026-11-04",
+  "summary": "Η Veeam ανακοίνωσε στις 4 Νοεμβρίου ότι το Software Appliance από την έκδοση 13.1 μπορεί να μην εκκινήσει μετά από επανεκκίνηση σε συστήματα με ορισμένους επεξεργαστές AMD EPYC. Η εταιρεία αποδίδει το πρόβλημα σε έλεγχο του πυρήνα Linux κατά την εκκίνηση. Η εικονική μηχανή μπορεί να μείνει εκτός λειτουργίας ώσπου να επανεκκινηθεί χειροκίνητα, σύμφωνα με την τεχνική ανακοίνωση.",
+  "updated_at": "2026-11-06T18:38:26.964074+00:00",
+  "url": "articles/2026-11-06-evening/veeam-epyc-appliance-boot.html"
+}
