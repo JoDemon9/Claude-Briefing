@@ -25,7 +25,7 @@ Source photos: install the private workflow updates from `deployment/private-pre
 
 `python scripts/v2/backend.py` derives fresh capabilities from code/schema. `checks.py --base <sha>` chooses content or maintenance; `--profile full` explicitly includes historical browser audits. Daily publication has content, preview and integrity only; maintenance adds unit regressions. `quick_validate.py` is not a release gate replacement.
 
-CI stores `.work/check-report.json`, detailed logs and the exact `docs/` artifact. Promotion reuses that artifact/receipt. `PORTAL_DEPLOY_TOKEN` in Claude-Briefing needs Contents read/write for oracle-briefing; the source workflow GITHUB_TOKEN cannot grant cross-repository access. Local role-specific `ORACLE_PUBLIC_PUSH_TOKEN` and `ORACLE_PORTAL_PUSH_TOKEN` are preflighted separately. Existing source Pages build requests use pages:write.
+CI stores the exact `docs/` artifact and its check receipt. The separate **Publish and verify checked release** job restores that exact artifact from the same run and rejects a changed commit or superseded content. If deployment or live verification fails, rerun only that job, while the artifact is retained. Do not rerun the generated Pages build job: GitHub can retain duplicate Pages artifacts within that run. The publisher checks whether the exact release is already served before requesting a Pages build, avoids a duplicate request for the same active commit when build status is available, and retries a live mismatch once. Each Pages deployment still has GitHub’s own time limit. `PORTAL_DEPLOY_TOKEN` in Claude-Briefing needs Contents read/write for oracle-briefing; the source workflow GITHUB_TOKEN cannot grant cross-repository access. Local role-specific `ORACLE_PUBLIC_PUSH_TOKEN` and `ORACLE_PORTAL_PUSH_TOKEN` are preflighted separately. Existing source Pages build requests use pages:write.
 
 ```sh
 python scripts/v2/publish.py --portal-root <portal>
@@ -34,7 +34,7 @@ python scripts/v2/publish.py --status --date YYYY-MM-DD
 python scripts/v2/publish.py --portal-root <portal> --checks-receipt .work/check-report.json --publish
 ```
 
-The journal `.work/publication-state.json` tracks generation, validation, build, checks, source push/verification, portal sync/push/verification. Resume the same inputs after resolving the recorded failure; don't delete the journal to hide it. Changed inputs invalidate relevant receipts. Fresh-main worktrees, allowlists and concurrency checks preserve independent Wire commits; no force push or automatic PR merge. Verify exact source Pages before portal sync, then exact portal bytes with bounded CDN retry. Source success with portal failure is reported as partial publication, never a distributed transaction or complete success.
+The journal `.work/publication-state.json` tracks generation, validation, build, checks, source push/verification, portal sync/push/verification. Resume the same inputs after resolving the recorded failure; don't delete the journal to hide it. Changed inputs invalidate relevant receipts. A new checked release supersedes a failed older candidate; do not replay an old publish job over newer editorial content. Fresh-main worktrees, allowlists and concurrency checks preserve independent Wire commits; no force push or automatic PR merge. Verify exact source Pages before portal sync, then exact portal bytes with bounded CDN retry. Source success with portal failure is reported as partial publication, never a distributed transaction or complete success.
 
 ## Targeted diagnostics
 

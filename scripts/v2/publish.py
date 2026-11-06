@@ -25,22 +25,37 @@ STAGES = ('generated','validated','built','checked','credentials_checked','publi
 REPOS = {'public':'JoDemon9/Claude-Briefing','portal':'JoDemon9/oracle-briefing'}
 
 
-def request_public_pages_build(opener=None):
-    """CI-token pushes do not trigger Pages. Explicitly request the maintained branch build."""
+def request_public_pages_build(opener=None, *, commit=None):
+    """Request branch Pages once unless the exact published commit is already building."""
     token = os.environ.get('ORACLE_PAGES_BUILD_TOKEN')
     if not token:
         return {'status':'normal_git_push_trigger'}
-    request = urllib.request.Request('https://api.github.com/repos/'+REPOS['public']+'/pages/builds',
-        data=b'', method='POST', headers={'Authorization':'Bearer '+token,
-        'Accept':'application/vnd.github+json', 'User-Agent':'OracleBriefingPublisher/1.0',
-        'X-GitHub-Api-Version':'2026-03-10'})
+    url = 'https://api.github.com/repos/'+REPOS['public']+'/pages/builds'
+    headers={'Authorization':'Bearer '+token, 'Accept':'application/vnd.github+json',
+             'User-Agent':'OracleBriefingPublisher/1.0', 'X-GitHub-Api-Version':'2026-03-10'}
+    open_url=opener or urllib.request.urlopen
+    if commit:
+        try:
+            with open_url(urllib.request.Request(url+'/latest',headers=headers),timeout=30) as response:
+                latest=json.load(response)
+            if latest.get('commit')==commit and latest.get('status') in ('queued','building'):
+                return {'status':'already_building'}
+        except urllib.error.HTTPError as error:
+            if error.code not in (403,404):
+                raise ValueError('Could not check existing Pages build (HTTP '+str(error.code)+')') from None
+            # Some installations allow requesting builds but cannot read build history.
+    request=urllib.request.Request(url,data=b'',method='POST',headers=headers)
     try:
-        with (opener or urllib.request.urlopen)(request, timeout=30) as response:
+        with open_url(request,timeout=30) as response:
             if response.status != 201:
                 raise ValueError('GitHub Pages build request was not accepted')
     except urllib.error.HTTPError as error:
         raise ValueError('GitHub Pages build request failed (HTTP '+str(error.code)+'); check Pages write permission') from None
     return {'status':'requested'}
+
+
+def live_mismatch(error):
+    return any(text in str(error) for text in ('does not serve','could not be reached'))
 
 
 def await_live(verify, attempts=61, pause=time.sleep):
@@ -49,11 +64,33 @@ def await_live(verify, attempts=61, pause=time.sleep):
         try:
             return verify()
         except ValueError as error:
-            transient = any(text in str(error) for text in ('does not serve', 'could not be reached'))
-            if not transient or attempt == attempts - 1:
+            if not live_mismatch(error) or attempt == attempts - 1:
                 raise
             pause(10)
 
+
+def deliver_source_pages(verify, request, wait=await_live, attempts=2):
+    """Reverify a served release first, retrying propagation without changing its bytes."""
+    timings=[]
+    for attempt in range(attempts):
+        started=time.monotonic()
+        try:
+            result=verify()
+        except ValueError as error:
+            if not live_mismatch(error):raise
+        else:
+            return {**result,'pages_attempts':timings}
+        requested=request()
+        try:
+            result=wait(verify)
+        except ValueError as error:
+            timings.append({**requested,'seconds':round(time.monotonic()-started,3),'verified':False})
+            print('Source Pages attempt '+str(attempt+1)+': '+json.dumps(timings[-1]),flush=True)
+            if not live_mismatch(error) or attempt == attempts-1 or requested['status']=='normal_git_push_trigger':
+                raise
+        else:
+            timings.append({**requested,'seconds':round(time.monotonic()-started,3),'verified':True})
+            return {**result,'pages_attempts':timings}
 
 def module(name, path=None):
     spec = importlib.util.spec_from_file_location('publishing_'+name,path or Path(__file__).with_name(name+'.py'))
@@ -292,8 +329,9 @@ def run(root=ROOT, portal=None, publish=False, handlers=None, checks_receipt=Non
         call('public_published',public_publish)
         # Live state may change between attempts; never promote the portal using an old check.
         def verify_public():
-            request_public_pages_build()
-            return await_live(lambda: release.verify_live(root))
+            commit=state['stages']['public_published']['result']['commit']
+            return deliver_source_pages(lambda: release.verify_live(root),
+                                        lambda: request_public_pages_build(commit=commit))
 
         state['stages'].pop('public_verified',None)
         call('public_verified', verify_public)
