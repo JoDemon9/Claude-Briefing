@@ -507,6 +507,14 @@
       "fingerprint": "fa0ebdf1c38794071251d56f3f991e416ea76ebed2fe4f13e956b732d802eb09"
     },
     {
+      "id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "type": "evening",
+      "published_at": "2026-11-06T18:38:26.964074+00:00",
+      "url": "evening/2026-11-06.html",
+      "fingerprint": "95fb7bf71875d52155c77260d50df48022e42d66e03e5aafd13ec296e9a912a3"
+    },
+    {
       "id": "2026-11-06-midday",
       "date": "2026-11-06",
       "type": "midday",
@@ -18409,6 +18417,397 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/d95c0d319e936091aa6f383f8aa45c771d078ba1200b0289ee07ccf712902000.webp"
+    },
+    {
+      "story_id": "big-tech-post-midterms-rally-2026-11-04",
+      "identity": "big-tech-post-midterms-rally-2026-11-04",
+      "edition_id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "slot": "evening",
+      "published_at": "2026-11-05T05:29:53.650985+00:00",
+      "available_at": "2026-11-06T18:38:26.964074+00:00",
+      "headline": "Η Wall Street ανακάμπτει ενδοσυνεδριακά μετά την πτώση σε Ασία και Ευρώπη",
+      "finding": "Ο Guardian κατέγραψε άνοδο 0,8% για τον S&P 500 και 1,6% για τον Nasdaq νωρίς το απόγευμα της 6ης Νοεμβρίου στη Νέα Υόρκη, ενώ η συνεδρίαση συνεχιζόταν. Στο Λονδίνο ο FTSE 100 έκλεισε με απώλειες 1%, έχοντας βρεθεί χαμηλότερα κατά 2,35%. Είχε προηγηθεί πτώση ασιατικών μετοχών ημιαγωγών, σύμφωνα με το CNBC.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-06-evening/big-tech-post-midterms-rally-2026-11-04.json",
+      "reader_url": "articles/2026-11-06-evening/big-tech-post-midterms-rally-2026-11-04.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-06T15:48:36+00:00",
+          "retrieved_at": "2026-11-06T18:35:51.385766+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-06T00:59:14+00:00",
+          "retrieved_at": "2026-11-06T18:35:50.751048+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c1114eb03632db97d5536381d548baec48010caf4925727e08fa7bf640f93d00.webp"
+    },
+    {
+      "story_id": "veeam-epyc-appliance-boot-2026-11-04",
+      "identity": "veeam-epyc-appliance-boot-2026-11-04",
+      "edition_id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "slot": "evening",
+      "published_at": "2026-11-06T18:38:26.964074+00:00",
+      "available_at": "2026-11-06T18:38:26.964074+00:00",
+      "headline": "Η Veeam καταγράφει διαλείπουσα αστοχία εκκίνησης σε ορισμένους AMD EPYC",
+      "finding": "Η Veeam ανακοίνωσε στις 4 Νοεμβρίου ότι το Software Appliance από την έκδοση 13.1 μπορεί να μην εκκινήσει μετά από επανεκκίνηση σε συστήματα με ορισμένους επεξεργαστές AMD EPYC. Η εταιρεία αποδίδει το πρόβλημα σε έλεγχο του πυρήνα Linux κατά την εκκίνηση. Η εικονική μηχανή μπορεί να μείνει εκτός λειτουργίας ώσπου να επανεκκινηθεί χειροκίνητα, σύμφωνα με την τεχνική ανακοίνωση.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-06-evening/veeam-epyc-appliance-boot.json",
+      "reader_url": "articles/2026-11-06-evening/veeam-epyc-appliance-boot.html",
+      "sources": [
+        {
+          "url": "https://www.veeam.com/kb4960",
+          "publisher": "Veeam",
+          "reporting_group": "Veeam",
+          "published_at": null,
+          "retrieved_at": "2026-11-06T17:27:03Z",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/world-3.webp"
+    },
+    {
+      "story_id": "gsi-survey-navtex-2026-11-06",
+      "identity": "gsi-survey-navtex-2026-11-06",
+      "edition_id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "slot": "evening",
+      "published_at": "2026-11-06T18:38:26.964074+00:00",
+      "available_at": "2026-11-06T18:38:26.964074+00:00",
+      "headline": "Έρευνες βυθού για τη διασύνδεση Κρήτης–Κύπρου και τουρκική αντι-NAVTEX",
+      "finding": "Ο ΑΔΜΗΕ και η Great Sea Interconnector ανακοίνωσαν στις 6 Νοεμβρίου ότι Ελλάδα και Κύπρος εξέδωσαν αγγελίες για έρευνες βυθού με το Abeille Marengo κατά μήκος της προβλεπόμενης διαδρομής της ηλεκτρικής διασύνδεσης. Η Τουρκία απάντησε στην ελληνική αγγελία με αντι-NAVTEX και υποστηρίζει ότι μέρος της περιοχής εμπίπτει στη δική της υφαλοκρηπίδα, σύμφωνα με τη Cyprus Mail και το SigmaLive.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-06-evening/gsi-survey-navtex.json",
+      "reader_url": "articles/2026-11-06-evening/gsi-survey-navtex.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/06/gsi-seabed-surveys-announced-as-turkey-issues-counter-navtex",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-06T18:09:03+00:00",
+          "retrieved_at": "2026-11-06T18:35:55.075701+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.sigmalive.com/news/energia/1336564/h-episimi-anakinosi-admhe-ghia-gsi-prostheta-dedomena-apo-to-abeille-marengo",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-06T17:59:55+00:00",
+          "retrieved_at": "2026-11-06T18:35:51.302965+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/05af406f811d14b0acd98b3284a893e8790437989dd4e2b87e61ed618d7e715e.webp"
+    },
+    {
+      "story_id": "louroujina-access-restrictions-2026-11-06",
+      "identity": "louroujina-access-restrictions-2026-11-06",
+      "edition_id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "slot": "evening",
+      "published_at": "2026-11-06T18:38:26.964074+00:00",
+      "available_at": "2026-11-06T18:38:26.964074+00:00",
+      "headline": "Λουρουτζίνα: ρεπορτάζ για διακοπή εργασιών μετά τις διαμαρτυρίες",
+      "finding": "Ο τουρκικός στρατός φέρεται να διέκοψε εργασίες διάνοιξης χαρακωμάτων σε γεωργικές εκτάσεις της κατεχόμενης Λουρουτζίνας, μετά τον αποκλεισμό του κύριου δρόμου από κατοίκους που διαμαρτύρονταν για την πρόσβαση στα χωράφια τους. Το SigmaLive επικαλείται τη Γενί Ντουζέν, σύμφωνα με την οποία ενημερώθηκαν για επίσκεψη στρατιωτικού διοικητή τη Δευτέρα. Δεν επιβεβαιώνεται ότι αποκαταστάθηκε ήδη η πρόσβαση.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-06-evening/louroujina-access.json",
+      "reader_url": "articles/2026-11-06-evening/louroujina-access.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1336565/loyroytzina-diakopike-i-dimioyrghia-kharakomaton-meta-tis-antidraseis",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-06T18:22:14+00:00",
+          "retrieved_at": "2026-11-06T18:35:51.348433+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/2c355083aae4b10e0f62380aaec35b69c3030e286146b6faaa1253fe33caba2b.webp"
+    },
+    {
+      "story_id": "dubai-padel-galan-chingotto-2026-11-06",
+      "identity": "dubai-padel-galan-chingotto-2026-11-06",
+      "edition_id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "slot": "evening",
+      "published_at": "2026-11-06T18:38:26.964074+00:00",
+      "available_at": "2026-11-06T18:38:26.964074+00:00",
+      "headline": "Πάντελ: Γαλάν και Τσινγκότο εκτός Dubai P1",
+      "finding": "Οι Αλεχάντρο Γαλάν και Φέδε Τσινγκότο απουσιάζουν από τη λίστα εγγραφών του Dubai P1, σύμφωνα με το Padel Addict. Ο Γαλάν αντιμετωπίζει πρόβλημα στο χέρι και ο Τσινγκότο δεν αναζήτησε αντικαταστάτη.",
+      "section": "sports",
+      "priority": 5,
+      "article_path": "articles/2026-11-06-evening/dubai-padel-galan-chingotto.json",
+      "reader_url": "articles/2026-11-06-evening/dubai-padel-galan-chingotto.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/galan-chingotto-baja-dubai-p1-finals",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-06T15:30:57+00:00",
+          "retrieved_at": "2026-11-06T18:35:53.248188+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/dfa1b62063e79a12e2738d1eceed2c22dc4ca05f1e14f53f91331d0ac50f5f19.webp"
+    },
+    {
+      "story_id": "hudlin-harborough-fa-cup-2026-11-06",
+      "identity": "hudlin-harborough-fa-cup-2026-11-06",
+      "edition_id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "slot": "evening",
+      "published_at": "2026-11-06T18:38:26.964074+00:00",
+      "available_at": "2026-11-06T18:38:26.964074+00:00",
+      "headline": "Η Χάρμπορο απέκτησε τον Κάιλ Χάντλιν πριν από το Κύπελλο Αγγλίας",
+      "finding": "Η Χάρμπορο Τάουν απέκτησε τον επιθετικό Κάιλ Χάντλιν, μετέδωσε στις 6 Νοεμβρίου το BBC. Ο 2,06 μ. επιθετικός είχε 17 γκολ σε 69 συμμετοχές με τη Σόλιχαλ και πέρασε από την Τσάμπιονσιπ με τη Χάντερσφιλντ.",
+      "section": "sports",
+      "priority": 6,
+      "article_path": "articles/2026-11-06-evening/hudlin-harborough-fa-cup.json",
+      "reader_url": "articles/2026-11-06-evening/hudlin-harborough-fa-cup.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/cxvgdd7q2dm3o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-06T13:54:50+00:00",
+          "retrieved_at": "2026-11-06T18:35:50.195208+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/47698d3631443444ac19007b8c2e30a52fcdd954a38d4cf36415637635b52c20.webp"
+    },
+    {
+      "story_id": "boe-rate-rise-2026-11-05",
+      "identity": "boe-rate-rise-2026-11-05",
+      "edition_id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "slot": "evening",
+      "published_at": "2026-11-06T05:28:43.501302+00:00",
+      "available_at": "2026-11-06T18:38:26.964074+00:00",
+      "headline": "Τράπεζα της Αγγλίας: αύξηση επιτοκίου στο 4%",
+      "finding": "Η Τράπεζα της Αγγλίας αύξησε το επιτόκιο στο 4% για πρώτη φορά από τον Αύγουστο του 2023, σύμφωνα με το BBC. Οκτώ μέλη ψήφισαν υπέρ του 4% και ένα υπέρ του 4,25%. Ο διοικητής Άντριου Μπέιλι δεν προεξόφλησε παρατεταμένο κύκλο αυξήσεων, αλλά άφησε ανοικτή νέα κίνηση αν συνεχιστεί η σύγκρουση στη Μέση Ανατολή.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-06-evening/boe-rate-rise-2026-11-05.json",
+      "reader_url": "articles/2026-11-06-evening/boe-rate-rise-2026-11-05.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-05T17:09:55+00:00",
+          "retrieved_at": "2026-11-06T04:20:57.644874+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/68fb329c7dfdf7faaa4b1267a1e14474fa837dfeec94673f8c7a8e0d475bcc0a.webp"
+    },
+    {
+      "story_id": "israel-arab-list-eisenkot-government-2026-11-05",
+      "identity": "israel-arab-list-eisenkot-government-2026-11-05",
+      "edition_id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "slot": "evening",
+      "published_at": "2026-11-05T17:31:48.207493+00:00",
+      "available_at": "2026-11-06T18:38:26.964074+00:00",
+      "headline": "Ισραήλ: ο Χέρτσογκ προτίθεται να δώσει εντολή σχηματισμού κυβέρνησης την Κυριακή",
+      "finding": "Μετά τις διαβουλεύσεις με τις κοινοβουλευτικές παρατάξεις, ο Ισαάκ Χέρτσογκ ανακοίνωσε ότι προτίθεται να δώσει εντολή σχηματισμού κυβέρνησης την Κυριακή 8 Νοεμβρίου. Σύμφωνα με την Προεδρία και το Reuters, 67 βουλευτές εισηγήθηκαν τον Γκάντι Άιζενκοτ και 46 τον Μπενιαμίν Νετανιάχου. Ο Χέρτσογκ επισήμανε ότι οι αμοιβαίες αντιρρήσεις μεταξύ κομμάτων δυσκολεύουν τον σχηματισμό κυβέρνησης ακόμη και μετά τις εισηγήσεις.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-06-evening/israel-arab-list-eisenkot-government-2026-11-05.json",
+      "reader_url": "articles/2026-11-06-evening/israel-arab-list-eisenkot-government-2026-11-05.html",
+      "sources": [
+        {
+          "url": "https://www.president.gov.il/en/president-herzog-concludes-round-of-consultations-with-knesset-factions-at-the-presidents-residence/",
+          "publisher": "Προεδρία Ισραήλ",
+          "reporting_group": "Israel Presidency",
+          "published_at": null,
+          "retrieved_at": "2026-11-06T05:26:09.690Z",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/netanyahus-position-weakens-ultra-orthodox-party-withholds-support-2026-11-05/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-11-06T05:26:09.690Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "cold-chain-cyber-advisory-2026-11-05",
+      "identity": "cold-chain-cyber-advisory-2026-11-05",
+      "edition_id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "slot": "evening",
+      "published_at": "2026-11-06T05:28:43.501302+00:00",
+      "available_at": "2026-11-06T18:38:26.964074+00:00",
+      "headline": "FBI και ENISA προειδοποιούν για επιθέσεις σε συστήματα ψύξης",
+      "finding": "Το FBI προειδοποίησε για επιθέσεις σε βιομηχανικά συστήματα ψύξης και συνέστησε απομάκρυνση των ελεγκτών από το δημόσιο διαδίκτυο και αλλαγή προεπιλεγμένων κωδικών. Η ENISA επιβεβαιώνει περιστατικά σε κράτη της ΕΕ από τις 11 Οκτωβρίου, με νέο κύμα στις 1–2 Νοεμβρίου. Οι ανακοινώσεις δεν τεκμηριώνουν ότι όλα τα περιστατικά είχαν κοινό δράστη.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-06-evening/cold-chain-cyber-advisory-2026-11-05.json",
+      "reader_url": "articles/2026-11-06-evening/cold-chain-cyber-advisory-2026-11-05.html",
+      "sources": [
+        {
+          "url": "https://www.fbi.gov/video-repository/industrial-refrigeration-and-cold-chain-monitoring-systems.mp4/view",
+          "publisher": "FBI",
+          "reporting_group": "FBI",
+          "published_at": null,
+          "retrieved_at": "2026-11-06T05:26:09.690Z",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu",
+          "publisher": "ENISA",
+          "reporting_group": "ENISA",
+          "published_at": null,
+          "retrieved_at": "2026-11-06T05:26:09.690Z",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "cyprus-investment-talent-strategy-2027-2030",
+      "identity": "cyprus-investment-talent-strategy-2027-2030",
+      "edition_id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "slot": "evening",
+      "published_at": "2026-11-06T11:28:00.079702+00:00",
+      "available_at": "2026-11-06T18:38:26.964074+00:00",
+      "headline": "Στρατηγική 2027–2030 για επενδύσεις και εξειδικευμένο προσωπικό",
+      "finding": "Ο υπουργός Εσωτερικών Κωνσταντίνος Ιωάννου παρουσίασε στη Λευκωσία στρατηγική 2027–2030 για την προσέλκυση, διατήρηση και επέκταση επενδύσεων και τη σύνδεσή τους με την κυπριακή οικονομία. Στο ίδιο συνέδριο, ο πρεσβευτής των ΗΠΑ Τζον Μπρέσλοου προειδοποίησε ότι η γραφειοκρατία μπορεί να κοστίσει επενδύσεις και ζήτησε επέκταση των ελέγχων επενδύσεων στις δημόσιες συμβάσεις, σύμφωνα με τη Cyprus Mail.",
+      "section": "cyprus",
+      "priority": 2,
+      "article_path": "articles/2026-11-06-evening/cyprus-investment-talent-strategy-2027-2030.json",
+      "reader_url": "articles/2026-11-06-evening/cyprus-investment-talent-strategy-2027-2030.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1792020/kipros-ipa-stratigiki-gia-ependisis-ke-talenta-eos-to-2030-sto-epikentro-energia-ke-diasindesis",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-06T10:28:29+00:00",
+          "retrieved_at": "2026-11-06T10:43:36.094341+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://cyprus-mail.com/2026/11/06/us-ambassador-warns-red-tape-is-costing-cyprus-investment",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-06T10:01:22+00:00",
+          "retrieved_at": "2026-11-06T10:43:36.408677+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/e9e7d93b3aea258e0445eda0d23dfb72bfafbdb0272b421d4bdf2f85f3f8c6c0.webp"
+    },
+    {
+      "story_id": "cyprus-business-storage-grants-2026-11-06",
+      "identity": "cyprus-business-storage-grants-2026-11-06",
+      "edition_id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "slot": "evening",
+      "published_at": "2026-11-06T05:28:43.501302+00:00",
+      "available_at": "2026-11-06T18:38:26.964074+00:00",
+      "headline": "Χορηγίες €20 εκατ. για αποθήκευση ενέργειας σε επιχειρήσεις",
+      "finding": "Ο υπουργός Ενέργειας Μιχάλης Δαμιανός ανακοίνωσε σχέδιο χορηγιών €20 εκατ. για εγκατάσταση συστημάτων αποθήκευσης σε επιχειρήσεις με υφιστάμενα ή σχεδιαζόμενα φωτοβολταϊκά ιδιοκατανάλωσης, σύμφωνα με το SigmaLive. Στόχος είναι η καλύτερη αξιοποίηση της παραγόμενης ενέργειας και η μείωση της εξάρτησης από το δίκτυο. Στο διαθέσιμο απόσπασμα δεν αναφέρονται ημερομηνία αιτήσεων ή ποσοστά επιδότησης.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-06-evening/cyprus-business-storage-grants-2026-11-06.json",
+      "reader_url": "articles/2026-11-06-evening/cyprus-business-storage-grants-2026-11-06.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1336386/yp-energheias-xorighies-eur20-ek-ghia-apothikefsi-energheias-se-epikheiriseis",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-05T20:01:29+00:00",
+          "retrieved_at": "2026-11-06T04:20:59.008643+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f1fff0e6576bff20aa2ac0b490fd88a415c8097cfbf3a24a26da74d742489626.webp"
+    },
+    {
+      "story_id": "cyprus-holguin-announcements-2026-11-05",
+      "identity": "cyprus-holguin-announcements-2026-11-05",
+      "edition_id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "slot": "evening",
+      "published_at": "2026-11-05T11:33:52.119478+00:00",
+      "available_at": "2026-11-06T18:38:26.964074+00:00",
+      "headline": "Κυπριακό: ρεπορτάζ για βήματα πριν από πιθανή διευρυμένη διάσκεψη",
+      "finding": "Ο Φιλελεύθερος αναφέρει ότι για να προχωρήσει διευρυμένη διάσκεψη υπό τον Αντόνιο Γκουτέρες απαιτείται πρώτα πρόοδος μεταξύ των δύο ηγετών. Το ρεπορτάζ επικαλείται τουρκικές πηγές για πρόταση εκκαθάρισης ναρκοπεδίων έκτασης 70.000 τετραγωνικών μέτρων και επιφυλάξεις της τουρκοκυπριακής πλευράς για τις καθορισμένες περιοχές. Δεν πρόκειται για κοινή ανακοίνωση αποδοχής ή επιβεβαίωση ημερομηνίας διάσκεψης.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-06-evening/cyprus-holguin-announcements-2026-11-05.json",
+      "reader_url": "articles/2026-11-06-evening/cyprus-holguin-announcements-2026-11-05.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1791806/kypriako-vimata-empodia-synomilies-paketo-moe-christodoulidis",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-06T04:15:00+00:00",
+          "retrieved_at": "2026-11-06T04:21:02.640516+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/3ea23eaee3827f907231fa96560b12aec4f52639149fbb7c71e1672d041b3a97.webp"
+    },
+    {
+      "story_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
+      "identity": "horizon-cup-british-gymnastics-warning-2026-11-06",
+      "edition_id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "slot": "evening",
+      "published_at": "2026-11-06T11:28:00.079702+00:00",
+      "available_at": "2026-11-06T18:38:26.964074+00:00",
+      "headline": "Ενόργανη: προπονήτρια με επίσημη προειδοποίηση στο Horizon Cup",
+      "finding": "Η Κλερ Χέιγκ πήγε στο Horizon Cup στην Ελλάδα ως προπονήτρια, παρότι είχε λάβει επίσημη προειδοποίηση μετά από έρευνα της British Gymnastics, αναφέρει το BBC.",
+      "section": "sports",
+      "priority": 4,
+      "article_path": "articles/2026-11-06-evening/horizon-cup-british-gymnastics-warning-2026-11-06.json",
+      "reader_url": "articles/2026-11-06-evening/horizon-cup-british-gymnastics-warning-2026-11-06.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/gymnastics/articles/c6gm0r08d1elo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-06T06:36:38+00:00",
+          "retrieved_at": "2026-11-06T10:43:35.136924+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/cbed1bfb63cf8c5767a88ec9b614066d08caf0a9d43cbdf58adee31bb43b780f.webp"
     },
     {
       "story_id": "big-tech-post-midterms-rally-2026-11-04",

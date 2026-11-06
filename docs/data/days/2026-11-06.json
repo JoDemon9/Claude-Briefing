@@ -16,11 +16,15 @@
       "type": "midday",
       "url": "midday/2026-11-06.html",
       "published_at": "2026-11-06T11:28:00.079702+00:00"
+    },
+    {
+      "id": "2026-11-06-evening",
+      "type": "evening",
+      "url": "evening/2026-11-06.html",
+      "published_at": "2026-11-06T18:38:26.964074+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
+  "missing_slots": [],
   "lead_story_id": "big-tech-post-midterms-rally-2026-11-04",
   "stories": [
     {
@@ -39,13 +43,19 @@
           "article_id": "big-tech-post-midterms-rally-2026-11-04",
           "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
           "url": "articles/2026-11-06-midday/big-tech-post-midterms-rally-2026-11-04.html"
+        },
+        {
+          "edition_id": "2026-11-06-evening",
+          "article_id": "big-tech-post-midterms-rally-2026-11-04",
+          "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
+          "url": "articles/2026-11-06-evening/big-tech-post-midterms-rally-2026-11-04.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-midday",
+        "edition_id": "2026-11-06-evening",
         "article_id": "big-tech-post-midterms-rally-2026-11-04",
         "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
-        "url": "articles/2026-11-06-midday/big-tech-post-midterms-rally-2026-11-04.html"
+        "url": "articles/2026-11-06-evening/big-tech-post-midterms-rally-2026-11-04.html"
       },
       "section": "world",
       "priority": 1
@@ -66,13 +76,19 @@
           "article_id": "boe-rate-rise-2026-11-05",
           "source_story_id": "boe-rate-rise-2026-11-05",
           "url": "articles/2026-11-06-midday/boe-rate-rise-2026-11-05.html"
+        },
+        {
+          "edition_id": "2026-11-06-evening",
+          "article_id": "boe-rate-rise-2026-11-05",
+          "source_story_id": "boe-rate-rise-2026-11-05",
+          "url": "articles/2026-11-06-evening/boe-rate-rise-2026-11-05.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-midday",
+        "edition_id": "2026-11-06-evening",
         "article_id": "boe-rate-rise-2026-11-05",
         "source_story_id": "boe-rate-rise-2026-11-05",
-        "url": "articles/2026-11-06-midday/boe-rate-rise-2026-11-05.html"
+        "url": "articles/2026-11-06-evening/boe-rate-rise-2026-11-05.html"
       },
       "section": "world",
       "priority": 2
@@ -87,15 +103,42 @@
           "article_id": "cyprus-investment-talent-strategy-2027-2030",
           "source_story_id": "cyprus-investment-talent-strategy-2027-2030",
           "url": "articles/2026-11-06-midday/cyprus-investment-talent-strategy-2027-2030.html"
+        },
+        {
+          "edition_id": "2026-11-06-evening",
+          "article_id": "cyprus-investment-talent-strategy-2027-2030",
+          "source_story_id": "cyprus-investment-talent-strategy-2027-2030",
+          "url": "articles/2026-11-06-evening/cyprus-investment-talent-strategy-2027-2030.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-midday",
+        "edition_id": "2026-11-06-evening",
         "article_id": "cyprus-investment-talent-strategy-2027-2030",
         "source_story_id": "cyprus-investment-talent-strategy-2027-2030",
-        "url": "articles/2026-11-06-midday/cyprus-investment-talent-strategy-2027-2030.html"
+        "url": "articles/2026-11-06-evening/cyprus-investment-talent-strategy-2027-2030.html"
       },
       "section": "cyprus",
+      "priority": 2
+    },
+    {
+      "story_id": "veeam-epyc-appliance-boot-2026-11-04",
+      "first_seen_at": "2026-11-06T18:38:26.964074+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-06-evening",
+          "article_id": "veeam-epyc-appliance-boot",
+          "source_story_id": "veeam-epyc-appliance-boot-2026-11-04",
+          "url": "articles/2026-11-06-evening/veeam-epyc-appliance-boot.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "veeam-epyc-appliance-boot",
+        "source_story_id": "veeam-epyc-appliance-boot-2026-11-04",
+        "url": "articles/2026-11-06-evening/veeam-epyc-appliance-boot.html"
+      },
+      "section": "world",
       "priority": 2
     },
     {
@@ -120,6 +163,27 @@
       "priority": 3
     },
     {
+      "story_id": "gsi-survey-navtex-2026-11-06",
+      "first_seen_at": "2026-11-06T18:38:26.964074+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-06-evening",
+          "article_id": "gsi-survey-navtex",
+          "source_story_id": "gsi-survey-navtex-2026-11-06",
+          "url": "articles/2026-11-06-evening/gsi-survey-navtex.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "gsi-survey-navtex",
+        "source_story_id": "gsi-survey-navtex-2026-11-06",
+        "url": "articles/2026-11-06-evening/gsi-survey-navtex.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
       "story_id": "israel-arab-list-eisenkot-government-2026-11-05",
       "first_seen_at": "2026-11-06T05:28:43.501302+00:00",
       "last_substantive_at": null,
@@ -135,13 +199,19 @@
           "article_id": "israel-arab-list-eisenkot-government-2026-11-05",
           "source_story_id": "israel-arab-list-eisenkot-government-2026-11-05",
           "url": "articles/2026-11-06-midday/israel-arab-list-eisenkot-government-2026-11-05.html"
+        },
+        {
+          "edition_id": "2026-11-06-evening",
+          "article_id": "israel-arab-list-eisenkot-government-2026-11-05",
+          "source_story_id": "israel-arab-list-eisenkot-government-2026-11-05",
+          "url": "articles/2026-11-06-evening/israel-arab-list-eisenkot-government-2026-11-05.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-midday",
+        "edition_id": "2026-11-06-evening",
         "article_id": "israel-arab-list-eisenkot-government-2026-11-05",
         "source_story_id": "israel-arab-list-eisenkot-government-2026-11-05",
-        "url": "articles/2026-11-06-midday/israel-arab-list-eisenkot-government-2026-11-05.html"
+        "url": "articles/2026-11-06-evening/israel-arab-list-eisenkot-government-2026-11-05.html"
       },
       "section": "world",
       "priority": 3
@@ -162,13 +232,19 @@
           "article_id": "cold-chain-cyber-advisory-2026-11-05",
           "source_story_id": "cold-chain-cyber-advisory-2026-11-05",
           "url": "articles/2026-11-06-midday/cold-chain-cyber-advisory-2026-11-05.html"
+        },
+        {
+          "edition_id": "2026-11-06-evening",
+          "article_id": "cold-chain-cyber-advisory-2026-11-05",
+          "source_story_id": "cold-chain-cyber-advisory-2026-11-05",
+          "url": "articles/2026-11-06-evening/cold-chain-cyber-advisory-2026-11-05.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-midday",
+        "edition_id": "2026-11-06-evening",
         "article_id": "cold-chain-cyber-advisory-2026-11-05",
         "source_story_id": "cold-chain-cyber-advisory-2026-11-05",
-        "url": "articles/2026-11-06-midday/cold-chain-cyber-advisory-2026-11-05.html"
+        "url": "articles/2026-11-06-evening/cold-chain-cyber-advisory-2026-11-05.html"
       },
       "section": "world",
       "priority": 4
@@ -183,15 +259,42 @@
           "article_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
           "source_story_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
           "url": "articles/2026-11-06-midday/horizon-cup-british-gymnastics-warning-2026-11-06.html"
+        },
+        {
+          "edition_id": "2026-11-06-evening",
+          "article_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
+          "source_story_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
+          "url": "articles/2026-11-06-evening/horizon-cup-british-gymnastics-warning-2026-11-06.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-midday",
+        "edition_id": "2026-11-06-evening",
         "article_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
         "source_story_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
-        "url": "articles/2026-11-06-midday/horizon-cup-british-gymnastics-warning-2026-11-06.html"
+        "url": "articles/2026-11-06-evening/horizon-cup-british-gymnastics-warning-2026-11-06.html"
       },
       "section": "sports",
+      "priority": 4
+    },
+    {
+      "story_id": "louroujina-access-restrictions-2026-11-06",
+      "first_seen_at": "2026-11-06T18:38:26.964074+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-06-evening",
+          "article_id": "louroujina-access",
+          "source_story_id": "louroujina-access-restrictions-2026-11-06",
+          "url": "articles/2026-11-06-evening/louroujina-access.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "louroujina-access",
+        "source_story_id": "louroujina-access-restrictions-2026-11-06",
+        "url": "articles/2026-11-06-evening/louroujina-access.html"
+      },
+      "section": "cyprus",
       "priority": 4
     },
     {
@@ -210,15 +313,42 @@
           "article_id": "cyprus-business-storage-grants-2026-11-06",
           "source_story_id": "cyprus-business-storage-grants-2026-11-06",
           "url": "articles/2026-11-06-midday/cyprus-business-storage-grants-2026-11-06.html"
+        },
+        {
+          "edition_id": "2026-11-06-evening",
+          "article_id": "cyprus-business-storage-grants-2026-11-06",
+          "source_story_id": "cyprus-business-storage-grants-2026-11-06",
+          "url": "articles/2026-11-06-evening/cyprus-business-storage-grants-2026-11-06.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-midday",
+        "edition_id": "2026-11-06-evening",
         "article_id": "cyprus-business-storage-grants-2026-11-06",
         "source_story_id": "cyprus-business-storage-grants-2026-11-06",
-        "url": "articles/2026-11-06-midday/cyprus-business-storage-grants-2026-11-06.html"
+        "url": "articles/2026-11-06-evening/cyprus-business-storage-grants-2026-11-06.html"
       },
       "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "dubai-padel-galan-chingotto-2026-11-06",
+      "first_seen_at": "2026-11-06T18:38:26.964074+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-06-evening",
+          "article_id": "dubai-padel-galan-chingotto",
+          "source_story_id": "dubai-padel-galan-chingotto-2026-11-06",
+          "url": "articles/2026-11-06-evening/dubai-padel-galan-chingotto.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "dubai-padel-galan-chingotto",
+        "source_story_id": "dubai-padel-galan-chingotto-2026-11-06",
+        "url": "articles/2026-11-06-evening/dubai-padel-galan-chingotto.html"
+      },
+      "section": "sports",
       "priority": 5
     },
     {
@@ -237,15 +367,42 @@
           "article_id": "cyprus-holguin-announcements-2026-11-05",
           "source_story_id": "cyprus-holguin-announcements-2026-11-05",
           "url": "articles/2026-11-06-midday/cyprus-holguin-announcements-2026-11-05.html"
+        },
+        {
+          "edition_id": "2026-11-06-evening",
+          "article_id": "cyprus-holguin-announcements-2026-11-05",
+          "source_story_id": "cyprus-holguin-announcements-2026-11-05",
+          "url": "articles/2026-11-06-evening/cyprus-holguin-announcements-2026-11-05.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-midday",
+        "edition_id": "2026-11-06-evening",
         "article_id": "cyprus-holguin-announcements-2026-11-05",
         "source_story_id": "cyprus-holguin-announcements-2026-11-05",
-        "url": "articles/2026-11-06-midday/cyprus-holguin-announcements-2026-11-05.html"
+        "url": "articles/2026-11-06-evening/cyprus-holguin-announcements-2026-11-05.html"
       },
       "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "hudlin-harborough-fa-cup-2026-11-06",
+      "first_seen_at": "2026-11-06T18:38:26.964074+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-06-evening",
+          "article_id": "hudlin-harborough-fa-cup",
+          "source_story_id": "hudlin-harborough-fa-cup-2026-11-06",
+          "url": "articles/2026-11-06-evening/hudlin-harborough-fa-cup.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "hudlin-harborough-fa-cup",
+        "source_story_id": "hudlin-harborough-fa-cup-2026-11-06",
+        "url": "articles/2026-11-06-evening/hudlin-harborough-fa-cup.html"
+      },
+      "section": "sports",
       "priority": 6
     },
     {
@@ -694,6 +851,188 @@
         "source_story_id": "boe-rate-rise-2026-11-05",
         "url": "articles/2026-11-06-midday/boe-rate-rise-2026-11-05.html"
       }
+    },
+    {
+      "id": "293f1990d999ab4c5b8adb9af5162ccab692d3061ae31b4a87f97f1957fcb13f",
+      "kind": "provenance",
+      "at": "2026-11-06T18:38:26.964074+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "louroujina-access-restrictions-2026-11-06",
+      "origin": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "louroujina-access",
+        "source_story_id": "louroujina-access-restrictions-2026-11-06",
+        "url": "articles/2026-11-06-evening/louroujina-access.html"
+      }
+    },
+    {
+      "id": "3d4a2c66816818eb88303e82f07cee95f01a3dc3c7ee109b5660ea141041896c",
+      "kind": "provenance",
+      "at": "2026-11-06T18:38:26.964074+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "israel-arab-list-eisenkot-government-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "israel-arab-list-eisenkot-government-2026-11-05",
+        "source_story_id": "israel-arab-list-eisenkot-government-2026-11-05",
+        "url": "articles/2026-11-06-evening/israel-arab-list-eisenkot-government-2026-11-05.html"
+      }
+    },
+    {
+      "id": "77109fcf62b35a5369807c4513fa5aa492c80b3e992ebc112d8a6223e3321387",
+      "kind": "provenance",
+      "at": "2026-11-06T18:38:26.964074+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-investment-talent-strategy-2027-2030",
+      "origin": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "cyprus-investment-talent-strategy-2027-2030",
+        "source_story_id": "cyprus-investment-talent-strategy-2027-2030",
+        "url": "articles/2026-11-06-evening/cyprus-investment-talent-strategy-2027-2030.html"
+      }
+    },
+    {
+      "id": "7e3c3b1785ff84f7d6fb548d06bf55cea6ae90a35962258b8c945bc3ff0ddcae",
+      "kind": "provenance",
+      "at": "2026-11-06T18:38:26.964074+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-business-storage-grants-2026-11-06",
+      "origin": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "cyprus-business-storage-grants-2026-11-06",
+        "source_story_id": "cyprus-business-storage-grants-2026-11-06",
+        "url": "articles/2026-11-06-evening/cyprus-business-storage-grants-2026-11-06.html"
+      }
+    },
+    {
+      "id": "8c00e0b582e48588519e15411692523496684347406990c4844bb468b1aee1b4",
+      "kind": "provenance",
+      "at": "2026-11-06T18:38:26.964074+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "boe-rate-rise-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "boe-rate-rise-2026-11-05",
+        "source_story_id": "boe-rate-rise-2026-11-05",
+        "url": "articles/2026-11-06-evening/boe-rate-rise-2026-11-05.html"
+      }
+    },
+    {
+      "id": "af56a68fc9d47597f9f8a2353cc8a80f8841cbee66042ad3e80e6ef9bfe9ac03",
+      "kind": "provenance",
+      "at": "2026-11-06T18:38:26.964074+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cold-chain-cyber-advisory-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "cold-chain-cyber-advisory-2026-11-05",
+        "source_story_id": "cold-chain-cyber-advisory-2026-11-05",
+        "url": "articles/2026-11-06-evening/cold-chain-cyber-advisory-2026-11-05.html"
+      }
+    },
+    {
+      "id": "b0b90ba351a8200d4186a100aea212b7898a3d0ee3792efdf4a2cf95bf96c71d",
+      "kind": "provenance",
+      "at": "2026-11-06T18:38:26.964074+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
+      "origin": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
+        "source_story_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
+        "url": "articles/2026-11-06-evening/horizon-cup-british-gymnastics-warning-2026-11-06.html"
+      }
+    },
+    {
+      "id": "b6962c0ac62533faa21f288c8792e9800d25e9998f8c79cc0a03b3b9d8f07ed0",
+      "kind": "provenance",
+      "at": "2026-11-06T18:38:26.964074+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "hudlin-harborough-fa-cup-2026-11-06",
+      "origin": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "hudlin-harborough-fa-cup",
+        "source_story_id": "hudlin-harborough-fa-cup-2026-11-06",
+        "url": "articles/2026-11-06-evening/hudlin-harborough-fa-cup.html"
+      }
+    },
+    {
+      "id": "c38ef15958b1ac40336d4d790186e599992deabf698827566ecbeb74556ad62b",
+      "kind": "provenance",
+      "at": "2026-11-06T18:38:26.964074+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "dubai-padel-galan-chingotto-2026-11-06",
+      "origin": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "dubai-padel-galan-chingotto",
+        "source_story_id": "dubai-padel-galan-chingotto-2026-11-06",
+        "url": "articles/2026-11-06-evening/dubai-padel-galan-chingotto.html"
+      }
+    },
+    {
+      "id": "c79b31328aa0b33c7bbd182749d3fd22ded645a24c1b9f791c48ff249403b1a7",
+      "kind": "provenance",
+      "at": "2026-11-06T18:38:26.964074+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-holguin-announcements-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "cyprus-holguin-announcements-2026-11-05",
+        "source_story_id": "cyprus-holguin-announcements-2026-11-05",
+        "url": "articles/2026-11-06-evening/cyprus-holguin-announcements-2026-11-05.html"
+      }
+    },
+    {
+      "id": "d956ef3b796e340a7092bab06ce3033df03142a33981c7d4211b2e0e7778ef19",
+      "kind": "provenance",
+      "at": "2026-11-06T18:38:26.964074+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "big-tech-post-midterms-rally-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "big-tech-post-midterms-rally-2026-11-04",
+        "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
+        "url": "articles/2026-11-06-evening/big-tech-post-midterms-rally-2026-11-04.html"
+      }
+    },
+    {
+      "id": "d9b75673517719be36b0b5600a9c6fac6a8f4526e3536f5651561c9af90562fa",
+      "kind": "provenance",
+      "at": "2026-11-06T18:38:26.964074+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "veeam-epyc-appliance-boot-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "veeam-epyc-appliance-boot",
+        "source_story_id": "veeam-epyc-appliance-boot-2026-11-04",
+        "url": "articles/2026-11-06-evening/veeam-epyc-appliance-boot.html"
+      }
+    },
+    {
+      "id": "e8fc35315118b12bf881c28a2b0b7fd4c765c614bd53a79cd45e88d970c192ae",
+      "kind": "provenance",
+      "at": "2026-11-06T18:38:26.964074+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "gsi-survey-navtex-2026-11-06",
+      "origin": {
+        "edition_id": "2026-11-06-evening",
+        "article_id": "gsi-survey-navtex",
+        "source_story_id": "gsi-survey-navtex-2026-11-06",
+        "url": "articles/2026-11-06-evening/gsi-survey-navtex.html"
+      }
     }
   ],
   "opportunities": [
@@ -902,23 +1241,22 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η πίεση που φάνηκε στην Ασία πέρασε στην Ευρώπη, με υποχώρηση στις περισσότερες μεγάλες περιφερειακές αγορές. Η ανησυχία για τις επενδύσεις σε κέντρα δεδομένων είναι μία εξήγηση που αναφέρει το ρεπορτάζ. Οι επόμενες εταιρικές ανακοινώσεις θα δείξουν αν αλλάζουν πράγματι τα σχέδια δαπανών.",
+        "text": "Η Νέα Υόρκη αντέδρασε ανοδικά στην αρχή της συνεδρίασης, ενώ το Λονδίνο παρέμενε στο κόκκινο. Η αγορά εργασίας των ΗΠΑ έδωσε ένα θετικό σήμα για τη ζήτηση, αλλά για τους προμηθευτές ημιαγωγών το κρίσιμο ερώτημα παραμένει αν οι πελάτες θα διατηρήσουν τους προϋπολογισμούς για κέντρα δεδομένων. Το κλείσιμο των αμερικανικών δεικτών θα δείξει αν κράτησε η ενδοσυνεδριακή ανάκαμψη.",
         "story_ids": [
-          "big-tech-post-midterms-rally-2026-11-04",
-          "boe-rate-rise-2026-11-05"
+          "big-tech-post-midterms-rally-2026-11-04"
         ]
       },
       {
-        "text": "Η στρατηγική επενδύσεων βάζει στόχο και τη διατήρηση επιχειρήσεων που ήδη δραστηριοποιούνται στην Κύπρο. Η δοκιμή θα είναι αν οι διαδικασίες γίνουν απλούστερες και αν στοχευμένες δράσεις, όπως οι χορηγίες αποθήκευσης, αποκτήσουν σαφείς όρους και ημερομηνίες.",
+        "text": "Οι αγγελίες για έρευνες βυθού δίνουν συγκεκριμένο επόμενο βήμα για τη διασύνδεση Κρήτης–Κύπρου, αλλά η τουρκική αντίδραση κρατά ανοιχτό το ζήτημα της εκτέλεσης. Στη Λουρουτζίνα, το ρεπορτάζ για διακοπή εργασιών μετά τις διαμαρτυρίες αφήνει ανοιχτό το πρακτικό ερώτημα αν οι γεωργοί θα έχουν ξανά πρόσβαση στα χωράφια τους.",
         "story_ids": [
-          "cyprus-investment-talent-strategy-2027-2030",
-          "cyprus-business-storage-grants-2026-11-06"
+          "gsi-survey-navtex-2026-11-06",
+          "louroujina-access-restrictions-2026-11-06"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-06T05:30:03.631588+00:00",
-  "updated_at": "2026-11-06T11:29:53.798425+00:00",
-  "input_sha256": "04160b45c60c67ad520cffd08aa0e974fa5b21939b0b46d1391ef03bf2ddb774"
+  "updated_at": "2026-11-06T18:49:12.760673+00:00",
+  "input_sha256": "e3f7c50b2c40f4a3926ddc2dc97fb2ca43fe648cf1c2d62cb1c00a7d87ec0f22"
 }
