@@ -55,7 +55,10 @@ jobs:
           name: briefing-built-candidate
           retention-days: 7
           overwrite: true
-          path: docs/
+          if-no-files-found: error
+          path: |
+            docs/
+            content/
       - name: Save the check receipt for publication
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: actions/upload-artifact@v4
@@ -95,7 +98,7 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: briefing-built-candidate
-          path: .work/checked-docs
+          path: .work/checked-candidate
       - uses: actions/download-artifact@v4
         with:
           name: briefing-gate-report
@@ -118,10 +121,12 @@ jobs:
                   or candidate.get('checked_commit_sha') != os.environ['GITHUB_SHA']
                   or str(candidate.get('workflow_run_id')) != os.environ['GITHUB_RUN_ID']):
               raise SystemExit('Check receipt does not belong to this workflow and commit')
-          if not Path('.work/checked-docs/data/release.json').is_file():
-              raise SystemExit('Checked public artifact is missing its release manifest')
-          shutil.rmtree('docs')
-          Path('.work/checked-docs').rename('docs')
+          artifact = Path('.work/checked-candidate')
+          if not (artifact / 'docs/data/release.json').is_file() or not (artifact / 'content').is_dir():
+              raise SystemExit('Checked public artifact is missing its release manifest or content')
+          for directory in ('docs', 'content'):
+              shutil.rmtree(directory)
+              (artifact / directory).rename(directory)
           PY
       - name: Require central publication credentials
         env:
