@@ -10,10 +10,15 @@
       "type": "morning",
       "url": "morning/2026-11-06.html",
       "published_at": "2026-11-06T05:28:43.501302+00:00"
+    },
+    {
+      "id": "2026-11-06-midday",
+      "type": "midday",
+      "url": "midday/2026-11-06.html",
+      "published_at": "2026-11-06T11:28:00.079702+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
   "lead_story_id": "big-tech-post-midterms-rally-2026-11-04",
@@ -28,13 +33,19 @@
           "article_id": "big-tech-post-midterms-rally-2026-11-04",
           "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
           "url": "articles/2026-11-06-morning/big-tech-post-midterms-rally-2026-11-04.html"
+        },
+        {
+          "edition_id": "2026-11-06-midday",
+          "article_id": "big-tech-post-midterms-rally-2026-11-04",
+          "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
+          "url": "articles/2026-11-06-midday/big-tech-post-midterms-rally-2026-11-04.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-morning",
+        "edition_id": "2026-11-06-midday",
         "article_id": "big-tech-post-midterms-rally-2026-11-04",
         "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
-        "url": "articles/2026-11-06-morning/big-tech-post-midterms-rally-2026-11-04.html"
+        "url": "articles/2026-11-06-midday/big-tech-post-midterms-rally-2026-11-04.html"
       },
       "section": "world",
       "priority": 1
@@ -49,16 +60,64 @@
           "article_id": "boe-rate-rise-2026-11-05",
           "source_story_id": "boe-rate-rise-2026-11-05",
           "url": "articles/2026-11-06-morning/boe-rate-rise-2026-11-05.html"
+        },
+        {
+          "edition_id": "2026-11-06-midday",
+          "article_id": "boe-rate-rise-2026-11-05",
+          "source_story_id": "boe-rate-rise-2026-11-05",
+          "url": "articles/2026-11-06-midday/boe-rate-rise-2026-11-05.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-morning",
+        "edition_id": "2026-11-06-midday",
         "article_id": "boe-rate-rise-2026-11-05",
         "source_story_id": "boe-rate-rise-2026-11-05",
-        "url": "articles/2026-11-06-morning/boe-rate-rise-2026-11-05.html"
+        "url": "articles/2026-11-06-midday/boe-rate-rise-2026-11-05.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "cyprus-investment-talent-strategy-2027-2030",
+      "first_seen_at": "2026-11-06T11:28:00.079702+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-06-midday",
+          "article_id": "cyprus-investment-talent-strategy-2027-2030",
+          "source_story_id": "cyprus-investment-talent-strategy-2027-2030",
+          "url": "articles/2026-11-06-midday/cyprus-investment-talent-strategy-2027-2030.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "cyprus-investment-talent-strategy-2027-2030",
+        "source_story_id": "cyprus-investment-talent-strategy-2027-2030",
+        "url": "articles/2026-11-06-midday/cyprus-investment-talent-strategy-2027-2030.html"
+      },
+      "section": "cyprus",
+      "priority": 2
+    },
+    {
+      "story_id": "cyprus-yellow-thunderstorm-warning-2026-11-06",
+      "first_seen_at": "2026-11-06T11:28:00.079702+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-06-midday",
+          "article_id": "cyprus-yellow-thunderstorm-warning-2026-11-06",
+          "source_story_id": "cyprus-yellow-thunderstorm-warning-2026-11-06",
+          "url": "articles/2026-11-06-midday/cyprus-yellow-thunderstorm-warning-2026-11-06.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "cyprus-yellow-thunderstorm-warning-2026-11-06",
+        "source_story_id": "cyprus-yellow-thunderstorm-warning-2026-11-06",
+        "url": "articles/2026-11-06-midday/cyprus-yellow-thunderstorm-warning-2026-11-06.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "israel-arab-list-eisenkot-government-2026-11-05",
@@ -70,13 +129,19 @@
           "article_id": "israel-arab-list-eisenkot-government-2026-11-05",
           "source_story_id": "israel-arab-list-eisenkot-government-2026-11-05",
           "url": "articles/2026-11-06-morning/israel-arab-list-eisenkot-government-2026-11-05.html"
+        },
+        {
+          "edition_id": "2026-11-06-midday",
+          "article_id": "israel-arab-list-eisenkot-government-2026-11-05",
+          "source_story_id": "israel-arab-list-eisenkot-government-2026-11-05",
+          "url": "articles/2026-11-06-midday/israel-arab-list-eisenkot-government-2026-11-05.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-morning",
+        "edition_id": "2026-11-06-midday",
         "article_id": "israel-arab-list-eisenkot-government-2026-11-05",
         "source_story_id": "israel-arab-list-eisenkot-government-2026-11-05",
-        "url": "articles/2026-11-06-morning/israel-arab-list-eisenkot-government-2026-11-05.html"
+        "url": "articles/2026-11-06-midday/israel-arab-list-eisenkot-government-2026-11-05.html"
       },
       "section": "world",
       "priority": 3
@@ -91,15 +156,42 @@
           "article_id": "cold-chain-cyber-advisory-2026-11-05",
           "source_story_id": "cold-chain-cyber-advisory-2026-11-05",
           "url": "articles/2026-11-06-morning/cold-chain-cyber-advisory-2026-11-05.html"
+        },
+        {
+          "edition_id": "2026-11-06-midday",
+          "article_id": "cold-chain-cyber-advisory-2026-11-05",
+          "source_story_id": "cold-chain-cyber-advisory-2026-11-05",
+          "url": "articles/2026-11-06-midday/cold-chain-cyber-advisory-2026-11-05.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-morning",
+        "edition_id": "2026-11-06-midday",
         "article_id": "cold-chain-cyber-advisory-2026-11-05",
         "source_story_id": "cold-chain-cyber-advisory-2026-11-05",
-        "url": "articles/2026-11-06-morning/cold-chain-cyber-advisory-2026-11-05.html"
+        "url": "articles/2026-11-06-midday/cold-chain-cyber-advisory-2026-11-05.html"
       },
       "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
+      "first_seen_at": "2026-11-06T11:28:00.079702+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-06-midday",
+          "article_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
+          "source_story_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
+          "url": "articles/2026-11-06-midday/horizon-cup-british-gymnastics-warning-2026-11-06.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
+        "source_story_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
+        "url": "articles/2026-11-06-midday/horizon-cup-british-gymnastics-warning-2026-11-06.html"
+      },
+      "section": "sports",
       "priority": 4
     },
     {
@@ -112,13 +204,19 @@
           "article_id": "cyprus-business-storage-grants-2026-11-06",
           "source_story_id": "cyprus-business-storage-grants-2026-11-06",
           "url": "articles/2026-11-06-morning/cyprus-business-storage-grants-2026-11-06.html"
+        },
+        {
+          "edition_id": "2026-11-06-midday",
+          "article_id": "cyprus-business-storage-grants-2026-11-06",
+          "source_story_id": "cyprus-business-storage-grants-2026-11-06",
+          "url": "articles/2026-11-06-midday/cyprus-business-storage-grants-2026-11-06.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-morning",
+        "edition_id": "2026-11-06-midday",
         "article_id": "cyprus-business-storage-grants-2026-11-06",
         "source_story_id": "cyprus-business-storage-grants-2026-11-06",
-        "url": "articles/2026-11-06-morning/cyprus-business-storage-grants-2026-11-06.html"
+        "url": "articles/2026-11-06-midday/cyprus-business-storage-grants-2026-11-06.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -133,13 +231,19 @@
           "article_id": "cyprus-holguin-announcements-2026-11-05",
           "source_story_id": "cyprus-holguin-announcements-2026-11-05",
           "url": "articles/2026-11-06-morning/cyprus-holguin-announcements-2026-11-05.html"
+        },
+        {
+          "edition_id": "2026-11-06-midday",
+          "article_id": "cyprus-holguin-announcements-2026-11-05",
+          "source_story_id": "cyprus-holguin-announcements-2026-11-05",
+          "url": "articles/2026-11-06-midday/cyprus-holguin-announcements-2026-11-05.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-morning",
+        "edition_id": "2026-11-06-midday",
         "article_id": "cyprus-holguin-announcements-2026-11-05",
         "source_story_id": "cyprus-holguin-announcements-2026-11-05",
-        "url": "articles/2026-11-06-morning/cyprus-holguin-announcements-2026-11-05.html"
+        "url": "articles/2026-11-06-midday/cyprus-holguin-announcements-2026-11-05.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -154,13 +258,19 @@
           "article_id": "cyprus-producer-prices-september-2026",
           "source_story_id": "cyprus-producer-prices-september-2026",
           "url": "articles/2026-11-06-morning/cyprus-producer-prices-september-2026.html"
+        },
+        {
+          "edition_id": "2026-11-06-midday",
+          "article_id": "cyprus-producer-prices-september-2026",
+          "source_story_id": "cyprus-producer-prices-september-2026",
+          "url": "articles/2026-11-06-midday/cyprus-producer-prices-september-2026.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-morning",
+        "edition_id": "2026-11-06-midday",
         "article_id": "cyprus-producer-prices-september-2026",
         "source_story_id": "cyprus-producer-prices-september-2026",
-        "url": "articles/2026-11-06-morning/cyprus-producer-prices-september-2026.html"
+        "url": "articles/2026-11-06-midday/cyprus-producer-prices-september-2026.html"
       },
       "section": "cyprus",
       "priority": 7
@@ -196,13 +306,19 @@
           "article_id": "doha-world-padel-2026-11-02",
           "source_story_id": "doha-world-padel-2026-11-02",
           "url": "articles/2026-11-06-morning/doha-world-padel-2026-11-02.html"
+        },
+        {
+          "edition_id": "2026-11-06-midday",
+          "article_id": "doha-world-padel-2026-11-02",
+          "source_story_id": "doha-world-padel-2026-11-02",
+          "url": "articles/2026-11-06-midday/doha-world-padel-2026-11-02.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-morning",
+        "edition_id": "2026-11-06-midday",
         "article_id": "doha-world-padel-2026-11-02",
         "source_story_id": "doha-world-padel-2026-11-02",
-        "url": "articles/2026-11-06-morning/doha-world-padel-2026-11-02.html"
+        "url": "articles/2026-11-06-midday/doha-world-padel-2026-11-02.html"
       },
       "section": "sports",
       "priority": 9
@@ -217,13 +333,19 @@
           "article_id": "celtic-osmand-duran-impact-2026-11-06",
           "source_story_id": "celtic-osmand-duran-impact-2026-11-06",
           "url": "articles/2026-11-06-morning/celtic-osmand-duran-impact-2026-11-06.html"
+        },
+        {
+          "edition_id": "2026-11-06-midday",
+          "article_id": "celtic-osmand-duran-impact-2026-11-06",
+          "source_story_id": "celtic-osmand-duran-impact-2026-11-06",
+          "url": "articles/2026-11-06-midday/celtic-osmand-duran-impact-2026-11-06.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-06-morning",
+        "edition_id": "2026-11-06-midday",
         "article_id": "celtic-osmand-duran-impact-2026-11-06",
         "source_story_id": "celtic-osmand-duran-impact-2026-11-06",
-        "url": "articles/2026-11-06-morning/celtic-osmand-duran-impact-2026-11-06.html"
+        "url": "articles/2026-11-06-midday/celtic-osmand-duran-impact-2026-11-06.html"
       },
       "section": "sports",
       "priority": 10
@@ -403,6 +525,174 @@
         "article_id": "big-tech-post-midterms-rally-2026-11-04",
         "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
         "url": "articles/2026-11-06-morning/big-tech-post-midterms-rally-2026-11-04.html"
+      }
+    },
+    {
+      "id": "136d5cbd9de44591a5b8bd8766f173d508822f9b882b3673950536d86460f069",
+      "kind": "provenance",
+      "at": "2026-11-06T11:28:00.079702+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cold-chain-cyber-advisory-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "cold-chain-cyber-advisory-2026-11-05",
+        "source_story_id": "cold-chain-cyber-advisory-2026-11-05",
+        "url": "articles/2026-11-06-midday/cold-chain-cyber-advisory-2026-11-05.html"
+      }
+    },
+    {
+      "id": "26761cc59dd4adb3698397b76514801e8640ed55850d7563f6a58c465c1beb51",
+      "kind": "provenance",
+      "at": "2026-11-06T11:28:00.079702+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "doha-world-padel-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "doha-world-padel-2026-11-02",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-06-midday/doha-world-padel-2026-11-02.html"
+      }
+    },
+    {
+      "id": "45ceec1fce23785cfaaa85afeb7bfa486e810132ac6c56be043a94c364e3a7ee",
+      "kind": "provenance",
+      "at": "2026-11-06T11:28:00.079702+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-producer-prices-september-2026",
+      "origin": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "cyprus-producer-prices-september-2026",
+        "source_story_id": "cyprus-producer-prices-september-2026",
+        "url": "articles/2026-11-06-midday/cyprus-producer-prices-september-2026.html"
+      }
+    },
+    {
+      "id": "4fee563bc7e3d2a08c1e8c2f8694164d576564fe2bbc7156588387b2f7a8a041",
+      "kind": "provenance",
+      "at": "2026-11-06T11:28:00.079702+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-holguin-announcements-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "cyprus-holguin-announcements-2026-11-05",
+        "source_story_id": "cyprus-holguin-announcements-2026-11-05",
+        "url": "articles/2026-11-06-midday/cyprus-holguin-announcements-2026-11-05.html"
+      }
+    },
+    {
+      "id": "90b51f8a30439637c94db457844d31bf812d40d87a9209faa0052e60d3f42e0d",
+      "kind": "provenance",
+      "at": "2026-11-06T11:28:00.079702+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-business-storage-grants-2026-11-06",
+      "origin": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "cyprus-business-storage-grants-2026-11-06",
+        "source_story_id": "cyprus-business-storage-grants-2026-11-06",
+        "url": "articles/2026-11-06-midday/cyprus-business-storage-grants-2026-11-06.html"
+      }
+    },
+    {
+      "id": "9b4c553b9e6f2ee6bf64cd27897f7efb4f7867cae7c8c310681fd31e299a2c71",
+      "kind": "provenance",
+      "at": "2026-11-06T11:28:00.079702+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "celtic-osmand-duran-impact-2026-11-06",
+      "origin": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "celtic-osmand-duran-impact-2026-11-06",
+        "source_story_id": "celtic-osmand-duran-impact-2026-11-06",
+        "url": "articles/2026-11-06-midday/celtic-osmand-duran-impact-2026-11-06.html"
+      }
+    },
+    {
+      "id": "c8b71d4975dde3be2a2d81cbd0be263b5b600c56389ba8f6ead6b4033733de41",
+      "kind": "provenance",
+      "at": "2026-11-06T11:28:00.079702+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "big-tech-post-midterms-rally-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "big-tech-post-midterms-rally-2026-11-04",
+        "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
+        "url": "articles/2026-11-06-midday/big-tech-post-midterms-rally-2026-11-04.html"
+      }
+    },
+    {
+      "id": "ca7ace3d0d3d42aaba8ee129b4f7468f1d287d1a258fa6699f9fb05b05f687c2",
+      "kind": "provenance",
+      "at": "2026-11-06T11:28:00.079702+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-investment-talent-strategy-2027-2030",
+      "origin": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "cyprus-investment-talent-strategy-2027-2030",
+        "source_story_id": "cyprus-investment-talent-strategy-2027-2030",
+        "url": "articles/2026-11-06-midday/cyprus-investment-talent-strategy-2027-2030.html"
+      }
+    },
+    {
+      "id": "d8f15a45a4b40e72abec3303a6afc610c3a475022b251bec6ff2b56a85eab90a",
+      "kind": "provenance",
+      "at": "2026-11-06T11:28:00.079702+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-yellow-thunderstorm-warning-2026-11-06",
+      "origin": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "cyprus-yellow-thunderstorm-warning-2026-11-06",
+        "source_story_id": "cyprus-yellow-thunderstorm-warning-2026-11-06",
+        "url": "articles/2026-11-06-midday/cyprus-yellow-thunderstorm-warning-2026-11-06.html"
+      }
+    },
+    {
+      "id": "df2f8105780506de6cbd6cdc78188cba922ddbb99bd21fc03eaec353c351f1db",
+      "kind": "provenance",
+      "at": "2026-11-06T11:28:00.079702+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
+      "origin": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
+        "source_story_id": "horizon-cup-british-gymnastics-warning-2026-11-06",
+        "url": "articles/2026-11-06-midday/horizon-cup-british-gymnastics-warning-2026-11-06.html"
+      }
+    },
+    {
+      "id": "f13d94fe1e0f1bdad02509b9bd50948140e5e16b94b9bd5a861775e5384383b2",
+      "kind": "provenance",
+      "at": "2026-11-06T11:28:00.079702+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "israel-arab-list-eisenkot-government-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "israel-arab-list-eisenkot-government-2026-11-05",
+        "source_story_id": "israel-arab-list-eisenkot-government-2026-11-05",
+        "url": "articles/2026-11-06-midday/israel-arab-list-eisenkot-government-2026-11-05.html"
+      }
+    },
+    {
+      "id": "f14b50dbd8807969d56ab509d1925d08d79187a77ba8a1263e8e14fad33414fd",
+      "kind": "provenance",
+      "at": "2026-11-06T11:28:00.079702+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "boe-rate-rise-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-06-midday",
+        "article_id": "boe-rate-rise-2026-11-05",
+        "source_story_id": "boe-rate-rise-2026-11-05",
+        "url": "articles/2026-11-06-midday/boe-rate-rise-2026-11-05.html"
       }
     }
   ],
@@ -612,23 +902,23 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Οι πωλήσεις σε ημιαγωγούς πέρασαν από τη Wall Street στην Ασία. Το αν η πίεση θα διατηρηθεί εξαρτάται και από τις επόμενες εταιρικές προβλέψεις για δαπάνες AI. Στη Βρετανία, η αύξηση επιτοκίων δείχνει ότι η ενεργειακή ακρίβεια μπορεί να περιορίζει τα περιθώρια χαλάρωσης ακόμη και όταν η ανάπτυξη πιέζεται.",
+        "text": "Η πίεση που φάνηκε στην Ασία πέρασε στην Ευρώπη, με υποχώρηση στις περισσότερες μεγάλες περιφερειακές αγορές. Η ανησυχία για τις επενδύσεις σε κέντρα δεδομένων είναι μία εξήγηση που αναφέρει το ρεπορτάζ. Οι επόμενες εταιρικές ανακοινώσεις θα δείξουν αν αλλάζουν πράγματι τα σχέδια δαπανών.",
         "story_ids": [
           "big-tech-post-midterms-rally-2026-11-04",
           "boe-rate-rise-2026-11-05"
         ]
       },
       {
-        "text": "Η αποθήκευση μπορεί να αυξήσει την ιδιοκατανάλωση των επιχειρήσεων, αλλά η ανακοίνωση των €20 εκατ. δεν αρκεί για να κριθεί αν συμφέρει μια εγκατάσταση: χρειάζονται οι όροι της πρόσκλησης. Στο Κυπριακό, οι αναφορές για αποναρκοθέτηση δείχνουν πιθανό πεδίο συνεννόησης, όχι συμφωνημένη διάσκεψη.",
+        "text": "Η στρατηγική επενδύσεων βάζει στόχο και τη διατήρηση επιχειρήσεων που ήδη δραστηριοποιούνται στην Κύπρο. Η δοκιμή θα είναι αν οι διαδικασίες γίνουν απλούστερες και αν στοχευμένες δράσεις, όπως οι χορηγίες αποθήκευσης, αποκτήσουν σαφείς όρους και ημερομηνίες.",
         "story_ids": [
-          "cyprus-business-storage-grants-2026-11-06",
-          "cyprus-holguin-announcements-2026-11-05"
+          "cyprus-investment-talent-strategy-2027-2030",
+          "cyprus-business-storage-grants-2026-11-06"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-06T05:30:03.631588+00:00",
-  "updated_at": "2026-11-06T05:30:03.631588+00:00",
-  "input_sha256": "18c70937087d1bf74e65815dac4a44b69030e8c6ae650408b9c0daec5e7b5150"
+  "updated_at": "2026-11-06T11:29:53.798425+00:00",
+  "input_sha256": "04160b45c60c67ad520cffd08aa0e974fa5b21939b0b46d1391ef03bf2ddb774"
 }
