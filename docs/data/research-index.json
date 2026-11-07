@@ -529,6 +529,14 @@
       "published_at": "2026-11-06T05:28:43.501302+00:00",
       "url": "morning/2026-11-06.html",
       "fingerprint": "3f6889dafdec9b276458e90ec5e1f66b9e94e08178aba8bb290b915cdc5be5b7"
+    },
+    {
+      "id": "2026-11-07-morning",
+      "date": "2026-11-07",
+      "type": "morning",
+      "published_at": "2026-11-07T05:32:14.633358+00:00",
+      "url": "morning/2026-11-07.html",
+      "fingerprint": "6d7a7d6b104cb0c6f2cd12658990c2b598c266e2c27a5c2269fd0b4c774a4930"
     }
   ],
   "stories": [
@@ -19469,6 +19477,222 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/cf072cf4512ba1f8173e7cc047aa2478f4c01f4a724424efdccd277156217723.webp"
+    },
+    {
+      "story_id": "big-tech-post-midterms-rally-2026-11-04",
+      "identity": "big-tech-post-midterms-rally-2026-11-04",
+      "edition_id": "2026-11-07-morning",
+      "date": "2026-11-07",
+      "slot": "morning",
+      "published_at": "2026-11-05T05:29:53.650985+00:00",
+      "available_at": "2026-11-07T05:32:14.633358+00:00",
+      "headline": "Ο Nasdaq έκλεισε ανοδικά την Παρασκευή, καλύπτοντας μέρος της προηγούμενης πτώσης",
+      "finding": "Ο Nasdaq έκλεισε περίπου 1% υψηλότερα την Παρασκευή 6 Νοεμβρίου και ο S&P 500 ενισχύθηκε κατά 0,3%, σύμφωνα με τον Guardian. Η ανάκαμψη κάλυψε μόνο μέρος των προηγούμενων απωλειών. Ο FTSE 100 έκλεισε με πτώση 1%, αφού νωρίτερα υποχωρούσε έως 2,35%. Η εικόνα των κλεισιμάτων διαφοροποιεί την αμερικανική αντίδραση από την ευρωπαϊκή συνεδρίαση.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-07-morning/big-tech-post-midterms-rally-2026-11-04.json",
+      "reader_url": "articles/2026-11-07-morning/big-tech-post-midterms-rally-2026-11-04.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-06T21:23:54+00:00",
+          "retrieved_at": "2026-11-07T04:20:52.166354+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c1114eb03632db97d5536381d548baec48010caf4925727e08fa7bf640f93d00.webp"
+    },
+    {
+      "story_id": "boe-rate-rise-2026-11-05",
+      "identity": "boe-rate-rise-2026-11-05",
+      "edition_id": "2026-11-07-morning",
+      "date": "2026-11-07",
+      "slot": "morning",
+      "published_at": "2026-11-06T05:28:43.501302+00:00",
+      "available_at": "2026-11-07T05:32:14.633358+00:00",
+      "headline": "Οι αυξήσεις επιτοκίων περνούν στις δόσεις των Βρετανών δανειοληπτών",
+      "finding": "Το BBC κατέγραψε στις 7 Νοεμβρίου μαρτυρίες τριών ανθρώπων για την επίδραση της αύξησης του βρετανικού επιτοκίου. Τα δάνεια που ακολουθούν το βασικό επιτόκιο μπορούν να επιβαρυνθούν όταν αυτό αυξάνεται, ενώ τα σταθερά επιτόκια είχαν ήδη ανέβει εν αναμονή της απόφασης, σύμφωνα με το ρεπορτάζ. Η επιβάρυνση διαφέρει ανάλογα με τη σύμβαση και δεν ισχύει αυτόματα για κάθε δανειολήπτη.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-07-morning/boe-rate-rise-2026-11-05.json",
+      "reader_url": "articles/2026-11-07-morning/boe-rate-rise-2026-11-05.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-07T01:41:36+00:00",
+          "retrieved_at": "2026-11-07T04:20:50.963566+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/cd26831e92bb3192ec3e98738d00661d29d70677a0560fdd1423d91aa3dc36ef.webp"
+    },
+    {
+      "story_id": "sonicwall-sslvpn-mfa-2026-11-06",
+      "identity": "sonicwall-sslvpn-mfa-2026-11-06",
+      "edition_id": "2026-11-07-morning",
+      "date": "2026-11-07",
+      "slot": "morning",
+      "published_at": "2026-11-07T05:32:14.633358+00:00",
+      "available_at": "2026-11-07T05:32:14.633358+00:00",
+      "headline": "SonicWall: ενημερώσεις για παράκαμψη ελέγχων SAML σε SSL-VPN",
+      "finding": "Η SonicWall εξέδωσε ενημερώσεις για επτά ευπάθειες του SonicOS, σύμφωνα με το BleepingComputer. Η CVE-2026-19868 μπορεί να επιτρέψει σε χρήστη με έγκυρα διαπιστευτήρια εναλλακτικού τρόπου σύνδεσης να παρακάμψει ελέγχους SAML, ενδεχομένως και το MFA που επιβάλλεται μέσω αυτών. Η εταιρεία ανέφερε διερεύνηση αναφοράς πιθανής εκμετάλλευσης. Το πρόβλημα αφορά SSL-VPN με ρύθμιση SAML, όχι κάθε υλοποίηση MFA.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-07-morning/sonicwall-sslvpn-mfa-2026-11-06.json",
+      "reader_url": "articles/2026-11-07-morning/sonicwall-sslvpn-mfa-2026-11-06.html",
+      "sources": [
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks",
+          "publisher": "BleepingComputer",
+          "reporting_group": "BleepingComputer",
+          "published_at": null,
+          "retrieved_at": "2026-11-07T05:28:52Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/716f2a4148e9fee9f411b8ac72c01f629717d5ce3c6a1e39566ffe12db22857e.webp"
+    },
+    {
+      "story_id": "cyprus-ambulance-authority-2027",
+      "identity": "cyprus-ambulance-authority-2027",
+      "edition_id": "2026-11-07-morning",
+      "date": "2026-11-07",
+      "slot": "morning",
+      "published_at": "2026-11-07T05:32:14.633358+00:00",
+      "available_at": "2026-11-07T05:32:14.633358+00:00",
+      "headline": "Νέος Φορέας Ασθενοφόρων: στόχος η 1η Ιανουαρίου, εκκρεμεί η στελέχωση",
+      "finding": "Ο σχεδιασμός προβλέπει έναρξη λειτουργίας του Εθνικού Φορέα Ασθενοφόρων την 1η Ιανουαρίου 2027, με δαπάνες €19,75 εκατ., σύμφωνα με τον Φιλελεύθερο. Προβλέπονται επίσης €3 εκατ. για νέα ασθενοφόρα και εξοπλισμό. Το υπουργείο κατέθεσε νομοσχέδιο εξαίρεσης από τους περιορισμούς στις αποσπάσεις προσωπικού αορίστου χρόνου: οι ανάγκες υπερβαίνουν τους 80 εργαζομένους, χωρίς να καθορίζεται ακόμη ο ακριβής αριθμός.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-07-morning/cyprus-ambulance-authority-2027.json",
+      "reader_url": "articles/2026-11-07-morning/cyprus-ambulance-authority-2027.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1792478/allazoun-apo-ton-ianouario-ta-asthenofora-xechoristos-proipologismos-e1975-ekat-ke-kondili-e3-ekat-gia-nea-ochimata-ke-exoplismo",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-07T04:19:00+00:00",
+          "retrieved_at": "2026-11-07T04:20:52.545869+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/95386f6cbb7ddc620572d5c8e693f3dd5a355adc1be21ec43c1c9b957a0999c7.webp"
+    },
+    {
+      "story_id": "cyprus-health-budget-2027",
+      "identity": "cyprus-health-budget-2027",
+      "edition_id": "2026-11-07-morning",
+      "date": "2026-11-07",
+      "slot": "morning",
+      "published_at": "2026-11-07T05:32:14.633358+00:00",
+      "available_at": "2026-11-07T05:32:14.633358+00:00",
+      "headline": "Προϋπολογισμός Υγείας €1,4 δισ. με διαφωνία για την κατανομή της αύξησης",
+      "finding": "Ο υπουργός Υγείας παρουσίασε στη Βουλή προϋπολογισμό €1,4 δισ. για το 2027, περίπου 3% αυξημένο έναντι του 2026, μετέδωσε η Cyprus Mail στις 6 Νοεμβρίου. Η κρατική συνεισφορά στο ΓεΣΥ προβλέπεται να αυξηθεί περίπου κατά €38 εκατ., στα €908 εκατ. Το ΑΚΕΛ επέκρινε την κατανομή, υποστηρίζοντας ότι έτσι περιορίζεται η πρόσθετη ενίσχυση άλλων υπηρεσιών και δημόσιων νοσηλευτηρίων.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-07-morning/cyprus-health-budget-2027.json",
+      "reader_url": "articles/2026-11-07-morning/cyprus-health-budget-2027.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/06/health-budget-rises-to-e1-4bn-amid-gesy-concerns",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-06T18:59:34+00:00",
+          "retrieved_at": "2026-11-07T04:20:52.084656+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f3d5079266d527156da9f1444bca35d7af3d49d7fde724f27c0a6880b59d7b78.webp"
+    },
+    {
+      "story_id": "stylianos-court-testimony-2026-11-06",
+      "identity": "stylianos-court-testimony-2026-11-06",
+      "edition_id": "2026-11-07-morning",
+      "date": "2026-11-07",
+      "slot": "morning",
+      "published_at": "2026-11-07T05:32:14.633358+00:00",
+      "available_at": "2026-11-07T05:32:14.633358+00:00",
+      "headline": "Υπόθεση Στυλιανού: καταθέσεις για παλαιότερη καταγγελία και φόβους της μητέρας",
+      "finding": "Δύο αστυνομικοί κατέθεσαν στις 6 Νοεμβρίου ενώπιον του Επαρχιακού Δικαστηρίου Λευκωσίας, στη διαδικασία που αφορά τον θάνατο του ανήλικου Στυλιανού το 2019. Σύμφωνα με τη Cyprus Mail, οι καταθέσεις αφορούσαν καταγγελία επίθεσης το 2013 και μεταγενέστερη ενημέρωση της αστυνομίας από τις Υπηρεσίες Κοινωνικής Ευημερίας για φόβους της μητέρας του. Πρόκειται για δικαστικές καταθέσεις, όχι νέα απόφαση επί της εκκρεμούς υπόθεσης.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-07-morning/stylianos-court-testimony-2026-11-06.json",
+      "reader_url": "articles/2026-11-07-morning/stylianos-court-testimony-2026-11-06.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/06/court-hears-of-assault-on-stylianos-and-mothers-fears-for-her-safety",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-06T16:50:50+00:00",
+          "retrieved_at": "2026-11-07T04:20:52.137971+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/3b408151cdc2ae2ca26d393864a3022915b02ef523989c25254f706e7e062a5d.webp"
+    },
+    {
+      "story_id": "doha-world-padel-2026-11-02",
+      "identity": "doha-world-padel-2026-11-02",
+      "edition_id": "2026-11-07-morning",
+      "date": "2026-11-07",
+      "slot": "morning",
+      "published_at": "2026-11-07T05:32:14.633358+00:00",
+      "available_at": "2026-11-07T05:32:14.633358+00:00",
+      "headline": "Παγκόσμιο πάντελ: Ισπανία–Αργεντινή και στους δύο τελικούς του Σαββάτου",
+      "finding": "Ισπανία και Αργεντινή θα διεκδικήσουν στις 7 Νοεμβρίου στη Ντόχα τόσο τον γυναικείο όσο και τον ανδρικό τίτλο, σύμφωνα με το Padel Addict. Στους άνδρες, η Αργεντινή απέκλεισε την Ιταλία και η Ισπανία την Πορτογαλία, αμφότερες με 2–0.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-07-morning/doha-world-padel-2026-11-02.json",
+      "reader_url": "articles/2026-11-07-morning/doha-world-padel-2026-11-02.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/final-mundial-padel-2026-espana-argentina-horarios-donde-ver",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-06T23:15:47+00:00",
+          "retrieved_at": "2026-11-07T04:20:54.181789+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/e86112ec523cd7de7ff6ca7bfe174d6422b843acb22b15ee66621f459467f490.webp"
+    },
+    {
+      "story_id": "ireland-argentina-rugby-2026-11-06",
+      "identity": "ireland-argentina-rugby-2026-11-06",
+      "edition_id": "2026-11-07-morning",
+      "date": "2026-11-07",
+      "slot": "morning",
+      "published_at": "2026-11-07T05:32:14.633358+00:00",
+      "available_at": "2026-11-07T05:32:14.633358+00:00",
+      "headline": "Ράγκμπι: η Ιρλανδία νίκησε την Αργεντινή, αλλά ο Φάρελ ζήτησε περισσότερα",
+      "finding": "Η Ιρλανδία επικράτησε 42–12 της Αργεντινής στο Δουβλίνο στις 6 Νοεμβρίου, σκοράροντας έξι tries, σύμφωνα με το BBC. Ο Άντι Φάρελ δεν έμεινε πλήρως ικανοποιημένος παρά τη διαφορά των 30 πόντων.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-07-morning/ireland-argentina-rugby-2026-11-06.json",
+      "reader_url": "articles/2026-11-07-morning/ireland-argentina-rugby-2026-11-06.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmde88ppx39go?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-06T23:57:05+00:00",
+          "retrieved_at": "2026-11-07T04:20:51.372384+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/d773867756dd478a9dee83a7f474826f7e6494344ddf05ef00e149f5aa566223.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
