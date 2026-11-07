@@ -16,12 +16,16 @@
       "type": "midday",
       "url": "midday/2026-11-07.html",
       "published_at": "2026-11-07T11:48:34.621823+00:00"
+    },
+    {
+      "id": "2026-11-07-evening",
+      "type": "evening",
+      "url": "evening/2026-11-07.html",
+      "published_at": "2026-11-07T17:31:06.870775+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "cyprus-british-bases-status-2026-11-07",
+  "missing_slots": [],
+  "lead_story_id": "new-zealand-election-first-count-2026-11-07",
   "stories": [
     {
       "story_id": "big-tech-post-midterms-rally-2026-11-04",
@@ -39,13 +43,19 @@
           "article_id": "big-tech-post-midterms-rally-2026-11-04",
           "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
           "url": "articles/2026-11-07-midday/big-tech-post-midterms-rally-2026-11-04.html"
+        },
+        {
+          "edition_id": "2026-11-07-evening",
+          "article_id": "big-tech-post-midterms-rally-2026-11-04",
+          "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
+          "url": "articles/2026-11-07-evening/big-tech-post-midterms-rally-2026-11-04.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-07-midday",
+        "edition_id": "2026-11-07-evening",
         "article_id": "big-tech-post-midterms-rally-2026-11-04",
         "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
-        "url": "articles/2026-11-07-midday/big-tech-post-midterms-rally-2026-11-04.html"
+        "url": "articles/2026-11-07-evening/big-tech-post-midterms-rally-2026-11-04.html"
       },
       "section": "world",
       "priority": 1
@@ -60,15 +70,42 @@
           "article_id": "cyprus-british-bases-status-2026-11-07",
           "source_story_id": "cyprus-british-bases-status-2026-11-07",
           "url": "articles/2026-11-07-midday/cyprus-british-bases-status-2026-11-07.html"
+        },
+        {
+          "edition_id": "2026-11-07-evening",
+          "article_id": "cyprus-british-bases-status-2026-11-07",
+          "source_story_id": "cyprus-british-bases-status-2026-11-07",
+          "url": "articles/2026-11-07-evening/cyprus-british-bases-status-2026-11-07.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-07-midday",
+        "edition_id": "2026-11-07-evening",
         "article_id": "cyprus-british-bases-status-2026-11-07",
         "source_story_id": "cyprus-british-bases-status-2026-11-07",
-        "url": "articles/2026-11-07-midday/cyprus-british-bases-status-2026-11-07.html"
+        "url": "articles/2026-11-07-evening/cyprus-british-bases-status-2026-11-07.html"
       },
       "section": "cyprus",
+      "priority": 1
+    },
+    {
+      "story_id": "new-zealand-election-first-count-2026-11-07",
+      "first_seen_at": "2026-11-07T17:31:06.870775+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-07-evening",
+          "article_id": "new-zealand-election-first-count-2026-11-07",
+          "source_story_id": "new-zealand-election-first-count-2026-11-07",
+          "url": "articles/2026-11-07-evening/new-zealand-election-first-count-2026-11-07.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "new-zealand-election-first-count-2026-11-07",
+        "source_story_id": "new-zealand-election-first-count-2026-11-07",
+        "url": "articles/2026-11-07-evening/new-zealand-election-first-count-2026-11-07.html"
+      },
+      "section": "world",
       "priority": 1
     },
     {
@@ -87,13 +124,19 @@
           "article_id": "boe-rate-rise-2026-11-05",
           "source_story_id": "boe-rate-rise-2026-11-05",
           "url": "articles/2026-11-07-midday/boe-rate-rise-2026-11-05.html"
+        },
+        {
+          "edition_id": "2026-11-07-evening",
+          "article_id": "boe-rate-rise-2026-11-05",
+          "source_story_id": "boe-rate-rise-2026-11-05",
+          "url": "articles/2026-11-07-evening/boe-rate-rise-2026-11-05.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-07-midday",
+        "edition_id": "2026-11-07-evening",
         "article_id": "boe-rate-rise-2026-11-05",
         "source_story_id": "boe-rate-rise-2026-11-05",
-        "url": "articles/2026-11-07-midday/boe-rate-rise-2026-11-05.html"
+        "url": "articles/2026-11-07-evening/boe-rate-rise-2026-11-05.html"
       },
       "section": "world",
       "priority": 2
@@ -120,6 +163,27 @@
       "priority": 2
     },
     {
+      "story_id": "tillyria-kokkina-crossing-demand-2026-11-07",
+      "first_seen_at": "2026-11-07T17:31:06.870775+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-07-evening",
+          "article_id": "tillyria-kokkina-crossing-demand-2026-11-07",
+          "source_story_id": "tillyria-kokkina-crossing-demand-2026-11-07",
+          "url": "articles/2026-11-07-evening/tillyria-kokkina-crossing-demand-2026-11-07.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "tillyria-kokkina-crossing-demand-2026-11-07",
+        "source_story_id": "tillyria-kokkina-crossing-demand-2026-11-07",
+        "url": "articles/2026-11-07-evening/tillyria-kokkina-crossing-demand-2026-11-07.html"
+      },
+      "section": "cyprus",
+      "priority": 2
+    },
+    {
       "story_id": "new-zealand-women-rugby-league-final-2026-11-07",
       "first_seen_at": "2026-11-07T11:48:34.621823+00:00",
       "last_substantive_at": null,
@@ -141,6 +205,27 @@
       "priority": 3
     },
     {
+      "story_id": "ora-melini-landslide-2026-11-07",
+      "first_seen_at": "2026-11-07T17:31:06.870775+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-07-evening",
+          "article_id": "ora-melini-landslide-2026-11-07",
+          "source_story_id": "ora-melini-landslide-2026-11-07",
+          "url": "articles/2026-11-07-evening/ora-melini-landslide-2026-11-07.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "ora-melini-landslide-2026-11-07",
+        "source_story_id": "ora-melini-landslide-2026-11-07",
+        "url": "articles/2026-11-07-evening/ora-melini-landslide-2026-11-07.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
       "story_id": "sonicwall-sslvpn-mfa-2026-11-06",
       "first_seen_at": "2026-11-07T05:32:14.633358+00:00",
       "last_substantive_at": null,
@@ -156,13 +241,19 @@
           "article_id": "sonicwall-sslvpn-mfa-2026-11-06",
           "source_story_id": "sonicwall-sslvpn-mfa-2026-11-06",
           "url": "articles/2026-11-07-midday/sonicwall-sslvpn-mfa-2026-11-06.html"
+        },
+        {
+          "edition_id": "2026-11-07-evening",
+          "article_id": "sonicwall-sslvpn-mfa-2026-11-06",
+          "source_story_id": "sonicwall-sslvpn-mfa-2026-11-06",
+          "url": "articles/2026-11-07-evening/sonicwall-sslvpn-mfa-2026-11-06.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-07-midday",
+        "edition_id": "2026-11-07-evening",
         "article_id": "sonicwall-sslvpn-mfa-2026-11-06",
         "source_story_id": "sonicwall-sslvpn-mfa-2026-11-06",
-        "url": "articles/2026-11-07-midday/sonicwall-sslvpn-mfa-2026-11-06.html"
+        "url": "articles/2026-11-07-evening/sonicwall-sslvpn-mfa-2026-11-06.html"
       },
       "section": "world",
       "priority": 3
@@ -183,15 +274,42 @@
           "article_id": "cyprus-ambulance-authority-2027",
           "source_story_id": "cyprus-ambulance-authority-2027",
           "url": "articles/2026-11-07-midday/cyprus-ambulance-authority-2027.html"
+        },
+        {
+          "edition_id": "2026-11-07-evening",
+          "article_id": "cyprus-ambulance-authority-2027",
+          "source_story_id": "cyprus-ambulance-authority-2027",
+          "url": "articles/2026-11-07-evening/cyprus-ambulance-authority-2027.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-07-midday",
+        "edition_id": "2026-11-07-evening",
         "article_id": "cyprus-ambulance-authority-2027",
         "source_story_id": "cyprus-ambulance-authority-2027",
-        "url": "articles/2026-11-07-midday/cyprus-ambulance-authority-2027.html"
+        "url": "articles/2026-11-07-evening/cyprus-ambulance-authority-2027.html"
       },
       "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "folkestone-truro-player-hospital-2026-11-07",
+      "first_seen_at": "2026-11-07T17:31:06.870775+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-07-evening",
+          "article_id": "folkestone-truro-player-hospital-2026-11-07",
+          "source_story_id": "folkestone-truro-player-hospital-2026-11-07",
+          "url": "articles/2026-11-07-evening/folkestone-truro-player-hospital-2026-11-07.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "folkestone-truro-player-hospital-2026-11-07",
+        "source_story_id": "folkestone-truro-player-hospital-2026-11-07",
+        "url": "articles/2026-11-07-evening/folkestone-truro-player-hospital-2026-11-07.html"
+      },
+      "section": "sports",
       "priority": 4
     },
     {
@@ -210,15 +328,42 @@
           "article_id": "cyprus-health-budget-2027",
           "source_story_id": "cyprus-health-budget-2027",
           "url": "articles/2026-11-07-midday/cyprus-health-budget-2027.html"
+        },
+        {
+          "edition_id": "2026-11-07-evening",
+          "article_id": "cyprus-health-budget-2027",
+          "source_story_id": "cyprus-health-budget-2027",
+          "url": "articles/2026-11-07-evening/cyprus-health-budget-2027.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-07-midday",
+        "edition_id": "2026-11-07-evening",
         "article_id": "cyprus-health-budget-2027",
         "source_story_id": "cyprus-health-budget-2027",
-        "url": "articles/2026-11-07-midday/cyprus-health-budget-2027.html"
+        "url": "articles/2026-11-07-evening/cyprus-health-budget-2027.html"
       },
       "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "england-tongue-australia-withdrawal-2026-11-07",
+      "first_seen_at": "2026-11-07T17:31:06.870775+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-07-evening",
+          "article_id": "england-tongue-australia-withdrawal-2026-11-07",
+          "source_story_id": "england-tongue-australia-withdrawal-2026-11-07",
+          "url": "articles/2026-11-07-evening/england-tongue-australia-withdrawal-2026-11-07.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "england-tongue-australia-withdrawal-2026-11-07",
+        "source_story_id": "england-tongue-australia-withdrawal-2026-11-07",
+        "url": "articles/2026-11-07-evening/england-tongue-australia-withdrawal-2026-11-07.html"
+      },
+      "section": "sports",
       "priority": 5
     },
     {
@@ -264,13 +409,19 @@
           "article_id": "doha-world-padel-2026-11-02",
           "source_story_id": "doha-world-padel-2026-11-02",
           "url": "articles/2026-11-07-midday/doha-world-padel-2026-11-02.html"
+        },
+        {
+          "edition_id": "2026-11-07-evening",
+          "article_id": "doha-world-padel-2026-11-02",
+          "source_story_id": "doha-world-padel-2026-11-02",
+          "url": "articles/2026-11-07-evening/doha-world-padel-2026-11-02.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-07-midday",
+        "edition_id": "2026-11-07-evening",
         "article_id": "doha-world-padel-2026-11-02",
         "source_story_id": "doha-world-padel-2026-11-02",
-        "url": "articles/2026-11-07-midday/doha-world-padel-2026-11-02.html"
+        "url": "articles/2026-11-07-evening/doha-world-padel-2026-11-02.html"
       },
       "section": "sports",
       "priority": 7
@@ -549,6 +700,174 @@
         "source_story_id": "cyprus-health-budget-2027",
         "url": "articles/2026-11-07-midday/cyprus-health-budget-2027.html"
       }
+    },
+    {
+      "id": "08d565153cb3fb5ab56457803ddfb734f298ab7d9e45e381b0b9bc1731416eaf",
+      "kind": "provenance",
+      "at": "2026-11-07T17:31:06.870775+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "new-zealand-election-first-count-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "new-zealand-election-first-count-2026-11-07",
+        "source_story_id": "new-zealand-election-first-count-2026-11-07",
+        "url": "articles/2026-11-07-evening/new-zealand-election-first-count-2026-11-07.html"
+      }
+    },
+    {
+      "id": "0c4b1a74d4886933292bc9aa5b5c47616201e7d8cbd1a4f801ce20a716c0666b",
+      "kind": "provenance",
+      "at": "2026-11-07T17:31:06.870775+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-health-budget-2027",
+      "origin": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "cyprus-health-budget-2027",
+        "source_story_id": "cyprus-health-budget-2027",
+        "url": "articles/2026-11-07-evening/cyprus-health-budget-2027.html"
+      }
+    },
+    {
+      "id": "0dfc6e495d2f034b7875e170e75b05409951b7652d781fdff8701237314d621f",
+      "kind": "provenance",
+      "at": "2026-11-07T17:31:06.870775+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "big-tech-post-midterms-rally-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "big-tech-post-midterms-rally-2026-11-04",
+        "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
+        "url": "articles/2026-11-07-evening/big-tech-post-midterms-rally-2026-11-04.html"
+      }
+    },
+    {
+      "id": "31b1e9e62026c55caf2cf1f998975d013e683755fa773906e252158091dfdcd0",
+      "kind": "provenance",
+      "at": "2026-11-07T17:31:06.870775+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "tillyria-kokkina-crossing-demand-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "tillyria-kokkina-crossing-demand-2026-11-07",
+        "source_story_id": "tillyria-kokkina-crossing-demand-2026-11-07",
+        "url": "articles/2026-11-07-evening/tillyria-kokkina-crossing-demand-2026-11-07.html"
+      }
+    },
+    {
+      "id": "620b934112294b18349bb4172bef0dba2954c3e4b8d56be72efa0c3a2e7bdffe",
+      "kind": "provenance",
+      "at": "2026-11-07T17:31:06.870775+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-ambulance-authority-2027",
+      "origin": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "cyprus-ambulance-authority-2027",
+        "source_story_id": "cyprus-ambulance-authority-2027",
+        "url": "articles/2026-11-07-evening/cyprus-ambulance-authority-2027.html"
+      }
+    },
+    {
+      "id": "868bd88416118d5e6e0626315f515d36d60707d11c3ff77e9f91271b8607bc6f",
+      "kind": "provenance",
+      "at": "2026-11-07T17:31:06.870775+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "doha-world-padel-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "doha-world-padel-2026-11-02",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-07-evening/doha-world-padel-2026-11-02.html"
+      }
+    },
+    {
+      "id": "8e812f6ce43e2ca9b04b6b0c55dadc1b32328fd4df8ddaea852f5d52ae57ce5c",
+      "kind": "provenance",
+      "at": "2026-11-07T17:31:06.870775+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "england-tongue-australia-withdrawal-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "england-tongue-australia-withdrawal-2026-11-07",
+        "source_story_id": "england-tongue-australia-withdrawal-2026-11-07",
+        "url": "articles/2026-11-07-evening/england-tongue-australia-withdrawal-2026-11-07.html"
+      }
+    },
+    {
+      "id": "92e10206b495e544237deb68ec47c4bd35f3155d2b3e9b76a762aa1a45a781e3",
+      "kind": "provenance",
+      "at": "2026-11-07T17:31:06.870775+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "folkestone-truro-player-hospital-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "folkestone-truro-player-hospital-2026-11-07",
+        "source_story_id": "folkestone-truro-player-hospital-2026-11-07",
+        "url": "articles/2026-11-07-evening/folkestone-truro-player-hospital-2026-11-07.html"
+      }
+    },
+    {
+      "id": "9557593f8748c124e3c2ffb4d29a12aa0f862f0d48c87605bb16141c34f00bf8",
+      "kind": "provenance",
+      "at": "2026-11-07T17:31:06.870775+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "boe-rate-rise-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "boe-rate-rise-2026-11-05",
+        "source_story_id": "boe-rate-rise-2026-11-05",
+        "url": "articles/2026-11-07-evening/boe-rate-rise-2026-11-05.html"
+      }
+    },
+    {
+      "id": "a4e4efa33217df0b7069c0dc1dad751b963d6f6d7c935b986e53b376f6323c60",
+      "kind": "provenance",
+      "at": "2026-11-07T17:31:06.870775+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "sonicwall-sslvpn-mfa-2026-11-06",
+      "origin": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "sonicwall-sslvpn-mfa-2026-11-06",
+        "source_story_id": "sonicwall-sslvpn-mfa-2026-11-06",
+        "url": "articles/2026-11-07-evening/sonicwall-sslvpn-mfa-2026-11-06.html"
+      }
+    },
+    {
+      "id": "c7ddf1612cc41586ca78d28e0621b241c449ceebff3e15a106abb340877ef638",
+      "kind": "provenance",
+      "at": "2026-11-07T17:31:06.870775+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "ora-melini-landslide-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "ora-melini-landslide-2026-11-07",
+        "source_story_id": "ora-melini-landslide-2026-11-07",
+        "url": "articles/2026-11-07-evening/ora-melini-landslide-2026-11-07.html"
+      }
+    },
+    {
+      "id": "d45da6c71cc7034bab0dc716e0029ffbdae6205e6cb2b16b88a811aefaa5beca",
+      "kind": "provenance",
+      "at": "2026-11-07T17:31:06.870775+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-british-bases-status-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-07-evening",
+        "article_id": "cyprus-british-bases-status-2026-11-07",
+        "source_story_id": "cyprus-british-bases-status-2026-11-07",
+        "url": "articles/2026-11-07-evening/cyprus-british-bases-status-2026-11-07.html"
+      }
     }
   ],
   "opportunities": [
@@ -757,16 +1076,22 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η νέα δημόσια τοποθέτηση του Προέδρου για τις βρετανικές βάσεις ανοίγει θεσμικό ζήτημα χωρίς ακόμη συμφωνημένη διαπραγμάτευση. Για την Κυπριακή Δημοκρατία, το πρακτικό τεστ είναι αν το Λονδίνο αποδεχθεί επίσημη διαδικασία και με ποια ατζέντα· μέχρι τότε, η είδηση αλλάζει το πολιτικό πλαίσιο, όχι το ισχύον καθεστώς.",
+        "text": "Η αρχική καταμέτρηση στη Νέα Ζηλανδία αφήνει οριακό περιθώριο στην κυβερνητική συμμαχία. Το κρίσιμο επόμενο τεστ είναι οι ψήφοι που απομένουν: μπορούν να αλλάξουν την κατανομή εδρών, επομένως η πρώτη προβολή δεν ισοδυναμεί με οριστική κυβερνητική πλειοψηφία.",
         "story_ids": [
-          "cyprus-british-bases-status-2026-11-07",
-          "cyprus-ambulance-authority-2027"
+          "new-zealand-election-first-count-2026-11-07"
+        ]
+      },
+      {
+        "text": "Στην Κύπρο, η Τηλλυρία θέτει προθεσμία έως τη Δευτέρα για εξέλιξη στο πέρασμα Κοκκίνων, χωρίς ανακοινωμένη συμφωνία διάνοιξης. Παράλληλα, η κατολίσθηση στην ορεινή Λάρνακα έχει άμεση σημασία για τους οδηγούς. Παρακολουθούμε συγκεκριμένη ανταπόκριση στο πρώτο ζήτημα και νεότερη ενημέρωση οδικής ασφάλειας στο δεύτερο.",
+        "story_ids": [
+          "tillyria-kokkina-crossing-demand-2026-11-07",
+          "ora-melini-landslide-2026-11-07"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-07T05:33:37.135335+00:00",
-  "updated_at": "2026-11-07T11:52:25.375885+00:00",
-  "input_sha256": "c3822eaa598996197bd06277a21183d107f954aad882f4383fdbbd14dc09de21"
+  "updated_at": "2026-11-07T17:32:58.420488+00:00",
+  "input_sha256": "d4a5dac9d0b72b70963a889f2dff94b95f9cab3af0fe83acdbdaa16e24022186"
 }
