@@ -10,13 +10,18 @@
       "type": "morning",
       "url": "morning/2026-11-07.html",
       "published_at": "2026-11-07T05:32:14.633358+00:00"
+    },
+    {
+      "id": "2026-11-07-midday",
+      "type": "midday",
+      "url": "midday/2026-11-07.html",
+      "published_at": "2026-11-07T11:48:34.621823+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "big-tech-post-midterms-rally-2026-11-04",
+  "lead_story_id": "cyprus-british-bases-status-2026-11-07",
   "stories": [
     {
       "story_id": "big-tech-post-midterms-rally-2026-11-04",
@@ -28,15 +33,42 @@
           "article_id": "big-tech-post-midterms-rally-2026-11-04",
           "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
           "url": "articles/2026-11-07-morning/big-tech-post-midterms-rally-2026-11-04.html"
+        },
+        {
+          "edition_id": "2026-11-07-midday",
+          "article_id": "big-tech-post-midterms-rally-2026-11-04",
+          "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
+          "url": "articles/2026-11-07-midday/big-tech-post-midterms-rally-2026-11-04.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-07-morning",
+        "edition_id": "2026-11-07-midday",
         "article_id": "big-tech-post-midterms-rally-2026-11-04",
         "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
-        "url": "articles/2026-11-07-morning/big-tech-post-midterms-rally-2026-11-04.html"
+        "url": "articles/2026-11-07-midday/big-tech-post-midterms-rally-2026-11-04.html"
       },
       "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "cyprus-british-bases-status-2026-11-07",
+      "first_seen_at": "2026-11-07T11:48:34.621823+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-07-midday",
+          "article_id": "cyprus-british-bases-status-2026-11-07",
+          "source_story_id": "cyprus-british-bases-status-2026-11-07",
+          "url": "articles/2026-11-07-midday/cyprus-british-bases-status-2026-11-07.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-07-midday",
+        "article_id": "cyprus-british-bases-status-2026-11-07",
+        "source_story_id": "cyprus-british-bases-status-2026-11-07",
+        "url": "articles/2026-11-07-midday/cyprus-british-bases-status-2026-11-07.html"
+      },
+      "section": "cyprus",
       "priority": 1
     },
     {
@@ -49,16 +81,64 @@
           "article_id": "boe-rate-rise-2026-11-05",
           "source_story_id": "boe-rate-rise-2026-11-05",
           "url": "articles/2026-11-07-morning/boe-rate-rise-2026-11-05.html"
+        },
+        {
+          "edition_id": "2026-11-07-midday",
+          "article_id": "boe-rate-rise-2026-11-05",
+          "source_story_id": "boe-rate-rise-2026-11-05",
+          "url": "articles/2026-11-07-midday/boe-rate-rise-2026-11-05.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-07-morning",
+        "edition_id": "2026-11-07-midday",
         "article_id": "boe-rate-rise-2026-11-05",
         "source_story_id": "boe-rate-rise-2026-11-05",
-        "url": "articles/2026-11-07-morning/boe-rate-rise-2026-11-05.html"
+        "url": "articles/2026-11-07-midday/boe-rate-rise-2026-11-05.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "hudlin-harborough-fa-cup-2026-11-06",
+      "first_seen_at": "2026-11-07T11:48:34.621823+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-07-midday",
+          "article_id": "harborough-hudlin-signing-2026-11-06",
+          "source_story_id": "harborough-hudlin-signing-2026-11-06",
+          "url": "articles/2026-11-07-midday/harborough-hudlin-signing-2026-11-06.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-07-midday",
+        "article_id": "harborough-hudlin-signing-2026-11-06",
+        "source_story_id": "harborough-hudlin-signing-2026-11-06",
+        "url": "articles/2026-11-07-midday/harborough-hudlin-signing-2026-11-06.html"
+      },
+      "section": "sports",
+      "priority": 2
+    },
+    {
+      "story_id": "new-zealand-women-rugby-league-final-2026-11-07",
+      "first_seen_at": "2026-11-07T11:48:34.621823+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-07-midday",
+          "article_id": "new-zealand-women-rugby-league-final-2026-11-07",
+          "source_story_id": "new-zealand-women-rugby-league-final-2026-11-07",
+          "url": "articles/2026-11-07-midday/new-zealand-women-rugby-league-final-2026-11-07.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-07-midday",
+        "article_id": "new-zealand-women-rugby-league-final-2026-11-07",
+        "source_story_id": "new-zealand-women-rugby-league-final-2026-11-07",
+        "url": "articles/2026-11-07-midday/new-zealand-women-rugby-league-final-2026-11-07.html"
+      },
+      "section": "sports",
+      "priority": 3
     },
     {
       "story_id": "sonicwall-sslvpn-mfa-2026-11-06",
@@ -70,13 +150,19 @@
           "article_id": "sonicwall-sslvpn-mfa-2026-11-06",
           "source_story_id": "sonicwall-sslvpn-mfa-2026-11-06",
           "url": "articles/2026-11-07-morning/sonicwall-sslvpn-mfa-2026-11-06.html"
+        },
+        {
+          "edition_id": "2026-11-07-midday",
+          "article_id": "sonicwall-sslvpn-mfa-2026-11-06",
+          "source_story_id": "sonicwall-sslvpn-mfa-2026-11-06",
+          "url": "articles/2026-11-07-midday/sonicwall-sslvpn-mfa-2026-11-06.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-07-morning",
+        "edition_id": "2026-11-07-midday",
         "article_id": "sonicwall-sslvpn-mfa-2026-11-06",
         "source_story_id": "sonicwall-sslvpn-mfa-2026-11-06",
-        "url": "articles/2026-11-07-morning/sonicwall-sslvpn-mfa-2026-11-06.html"
+        "url": "articles/2026-11-07-midday/sonicwall-sslvpn-mfa-2026-11-06.html"
       },
       "section": "world",
       "priority": 3
@@ -91,13 +177,19 @@
           "article_id": "cyprus-ambulance-authority-2027",
           "source_story_id": "cyprus-ambulance-authority-2027",
           "url": "articles/2026-11-07-morning/cyprus-ambulance-authority-2027.html"
+        },
+        {
+          "edition_id": "2026-11-07-midday",
+          "article_id": "cyprus-ambulance-authority-2027",
+          "source_story_id": "cyprus-ambulance-authority-2027",
+          "url": "articles/2026-11-07-midday/cyprus-ambulance-authority-2027.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-07-morning",
+        "edition_id": "2026-11-07-midday",
         "article_id": "cyprus-ambulance-authority-2027",
         "source_story_id": "cyprus-ambulance-authority-2027",
-        "url": "articles/2026-11-07-morning/cyprus-ambulance-authority-2027.html"
+        "url": "articles/2026-11-07-midday/cyprus-ambulance-authority-2027.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -112,13 +204,19 @@
           "article_id": "cyprus-health-budget-2027",
           "source_story_id": "cyprus-health-budget-2027",
           "url": "articles/2026-11-07-morning/cyprus-health-budget-2027.html"
+        },
+        {
+          "edition_id": "2026-11-07-midday",
+          "article_id": "cyprus-health-budget-2027",
+          "source_story_id": "cyprus-health-budget-2027",
+          "url": "articles/2026-11-07-midday/cyprus-health-budget-2027.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-07-morning",
+        "edition_id": "2026-11-07-midday",
         "article_id": "cyprus-health-budget-2027",
         "source_story_id": "cyprus-health-budget-2027",
-        "url": "articles/2026-11-07-morning/cyprus-health-budget-2027.html"
+        "url": "articles/2026-11-07-midday/cyprus-health-budget-2027.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -133,13 +231,19 @@
           "article_id": "stylianos-court-testimony-2026-11-06",
           "source_story_id": "stylianos-court-testimony-2026-11-06",
           "url": "articles/2026-11-07-morning/stylianos-court-testimony-2026-11-06.html"
+        },
+        {
+          "edition_id": "2026-11-07-midday",
+          "article_id": "stylianos-court-testimony-2026-11-06",
+          "source_story_id": "stylianos-court-testimony-2026-11-06",
+          "url": "articles/2026-11-07-midday/stylianos-court-testimony-2026-11-06.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-07-morning",
+        "edition_id": "2026-11-07-midday",
         "article_id": "stylianos-court-testimony-2026-11-06",
         "source_story_id": "stylianos-court-testimony-2026-11-06",
-        "url": "articles/2026-11-07-morning/stylianos-court-testimony-2026-11-06.html"
+        "url": "articles/2026-11-07-midday/stylianos-court-testimony-2026-11-06.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -154,13 +258,19 @@
           "article_id": "doha-world-padel-2026-11-02",
           "source_story_id": "doha-world-padel-2026-11-02",
           "url": "articles/2026-11-07-morning/doha-world-padel-2026-11-02.html"
+        },
+        {
+          "edition_id": "2026-11-07-midday",
+          "article_id": "doha-world-padel-2026-11-02",
+          "source_story_id": "doha-world-padel-2026-11-02",
+          "url": "articles/2026-11-07-midday/doha-world-padel-2026-11-02.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-07-morning",
+        "edition_id": "2026-11-07-midday",
         "article_id": "doha-world-padel-2026-11-02",
         "source_story_id": "doha-world-padel-2026-11-02",
-        "url": "articles/2026-11-07-morning/doha-world-padel-2026-11-02.html"
+        "url": "articles/2026-11-07-midday/doha-world-padel-2026-11-02.html"
       },
       "section": "sports",
       "priority": 7
@@ -298,6 +408,146 @@
         "article_id": "ireland-argentina-rugby-2026-11-06",
         "source_story_id": "ireland-argentina-rugby-2026-11-06",
         "url": "articles/2026-11-07-morning/ireland-argentina-rugby-2026-11-06.html"
+      }
+    },
+    {
+      "id": "1d893268f5eee4e951b422411dc9c52195c294eca23515c679c95dab3ed2590c",
+      "kind": "provenance",
+      "at": "2026-11-07T11:48:34.621823+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "new-zealand-women-rugby-league-final-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-07-midday",
+        "article_id": "new-zealand-women-rugby-league-final-2026-11-07",
+        "source_story_id": "new-zealand-women-rugby-league-final-2026-11-07",
+        "url": "articles/2026-11-07-midday/new-zealand-women-rugby-league-final-2026-11-07.html"
+      }
+    },
+    {
+      "id": "2600789f2519f5a48fd18963e96a71c3cf365123c63eacfc2eb7b622f8f18135",
+      "kind": "provenance",
+      "at": "2026-11-07T11:48:34.621823+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-ambulance-authority-2027",
+      "origin": {
+        "edition_id": "2026-11-07-midday",
+        "article_id": "cyprus-ambulance-authority-2027",
+        "source_story_id": "cyprus-ambulance-authority-2027",
+        "url": "articles/2026-11-07-midday/cyprus-ambulance-authority-2027.html"
+      }
+    },
+    {
+      "id": "2b381a5960d45166b69c7ba80f608598508991572aa0f086153bd71e5b012579",
+      "kind": "provenance",
+      "at": "2026-11-07T11:48:34.621823+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "hudlin-harborough-fa-cup-2026-11-06",
+      "origin": {
+        "edition_id": "2026-11-07-midday",
+        "article_id": "harborough-hudlin-signing-2026-11-06",
+        "source_story_id": "harborough-hudlin-signing-2026-11-06",
+        "url": "articles/2026-11-07-midday/harborough-hudlin-signing-2026-11-06.html"
+      }
+    },
+    {
+      "id": "3104fa2f17c2bc4beb647f2bbadddc3539826b14a9f840018bbeaf0e3b8f677f",
+      "kind": "provenance",
+      "at": "2026-11-07T11:48:34.621823+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "doha-world-padel-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-07-midday",
+        "article_id": "doha-world-padel-2026-11-02",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-07-midday/doha-world-padel-2026-11-02.html"
+      }
+    },
+    {
+      "id": "4121006574c4136975926e87a82398040f2540f35dc46f4477a29a9add02c635",
+      "kind": "provenance",
+      "at": "2026-11-07T11:48:34.621823+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "big-tech-post-midterms-rally-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-07-midday",
+        "article_id": "big-tech-post-midterms-rally-2026-11-04",
+        "source_story_id": "big-tech-post-midterms-rally-2026-11-04",
+        "url": "articles/2026-11-07-midday/big-tech-post-midterms-rally-2026-11-04.html"
+      }
+    },
+    {
+      "id": "76ca7584a37bee22ec42856c50bc5378abe2717d16d1af9b9af91bb0ad56c237",
+      "kind": "provenance",
+      "at": "2026-11-07T11:48:34.621823+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-british-bases-status-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-07-midday",
+        "article_id": "cyprus-british-bases-status-2026-11-07",
+        "source_story_id": "cyprus-british-bases-status-2026-11-07",
+        "url": "articles/2026-11-07-midday/cyprus-british-bases-status-2026-11-07.html"
+      }
+    },
+    {
+      "id": "8b14df9c59572ecc75f5d4c3b517528c4c089dfceba367f22310e4dde347bb0b",
+      "kind": "provenance",
+      "at": "2026-11-07T11:48:34.621823+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "boe-rate-rise-2026-11-05",
+      "origin": {
+        "edition_id": "2026-11-07-midday",
+        "article_id": "boe-rate-rise-2026-11-05",
+        "source_story_id": "boe-rate-rise-2026-11-05",
+        "url": "articles/2026-11-07-midday/boe-rate-rise-2026-11-05.html"
+      }
+    },
+    {
+      "id": "c62d43e5f8435284e3512af8d2e2eb9c3539e2a70cbee87438be5cfb2b7f041b",
+      "kind": "provenance",
+      "at": "2026-11-07T11:48:34.621823+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "stylianos-court-testimony-2026-11-06",
+      "origin": {
+        "edition_id": "2026-11-07-midday",
+        "article_id": "stylianos-court-testimony-2026-11-06",
+        "source_story_id": "stylianos-court-testimony-2026-11-06",
+        "url": "articles/2026-11-07-midday/stylianos-court-testimony-2026-11-06.html"
+      }
+    },
+    {
+      "id": "e651d0c937aaab7ed57424e677d02b299cb0959e0dfdd24eb75570871894cd07",
+      "kind": "provenance",
+      "at": "2026-11-07T11:48:34.621823+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "sonicwall-sslvpn-mfa-2026-11-06",
+      "origin": {
+        "edition_id": "2026-11-07-midday",
+        "article_id": "sonicwall-sslvpn-mfa-2026-11-06",
+        "source_story_id": "sonicwall-sslvpn-mfa-2026-11-06",
+        "url": "articles/2026-11-07-midday/sonicwall-sslvpn-mfa-2026-11-06.html"
+      }
+    },
+    {
+      "id": "f2aa793f104cc5c510edcf3c1ff5337ad68ff0c088cde55c8f859c782ae97bf5",
+      "kind": "provenance",
+      "at": "2026-11-07T11:48:34.621823+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-health-budget-2027",
+      "origin": {
+        "edition_id": "2026-11-07-midday",
+        "article_id": "cyprus-health-budget-2027",
+        "source_story_id": "cyprus-health-budget-2027",
+        "url": "articles/2026-11-07-midday/cyprus-health-budget-2027.html"
       }
     }
   ],
@@ -507,23 +757,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Το αμερικανικό κλείσιμο της Παρασκευής επιβεβαίωσε μερική ανάκαμψη, όχι αναίρεση της προηγούμενης πτώσης. Στη Βρετανία, οι μαρτυρίες δανειοληπτών δείχνουν πώς η αύξηση επιτοκίων μεταφέρεται στις δόσεις, ανάλογα με τη σύμβαση. Για τις μετοχές κρίσιμες παραμένουν οι επενδυτικές δαπάνες για AI· για τα νοικοκυριά, ο χρόνος αναπροσαρμογής του δανείου.",
+        "text": "Η νέα δημόσια τοποθέτηση του Προέδρου για τις βρετανικές βάσεις ανοίγει θεσμικό ζήτημα χωρίς ακόμη συμφωνημένη διαπραγμάτευση. Για την Κυπριακή Δημοκρατία, το πρακτικό τεστ είναι αν το Λονδίνο αποδεχθεί επίσημη διαδικασία και με ποια ατζέντα· μέχρι τότε, η είδηση αλλάζει το πολιτικό πλαίσιο, όχι το ισχύον καθεστώς.",
         "story_ids": [
-          "big-tech-post-midterms-rally-2026-11-04",
-          "boe-rate-rise-2026-11-05"
-        ]
-      },
-      {
-        "text": "Ο σχεδιασμός του νέου Φορέα Ασθενοφόρων έχει ημερομηνία στόχο και κονδύλια, αλλά εξαρτάται από τη νομοθεσία και τις αποσπάσεις προσωπικού. Παράλληλα, μεγάλο μέρος της αύξησης του προϋπολογισμού Υγείας αφορά την κρατική συνεισφορά στο ΓεΣΥ. Το ουσιαστικό τεστ είναι πόροι και προσωπικό που θα φτάσουν στις υπηρεσίες, όχι μόνο το συνολικό ποσό.",
-        "story_ids": [
-          "cyprus-ambulance-authority-2027",
-          "cyprus-health-budget-2027"
+          "cyprus-british-bases-status-2026-11-07",
+          "cyprus-ambulance-authority-2027"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-07T05:33:37.135335+00:00",
-  "updated_at": "2026-11-07T05:33:37.135335+00:00",
-  "input_sha256": "7da76dd78eb0f90b283cc984ffebb6b23ceb852c969e2a26589ded2360109bf0"
+  "updated_at": "2026-11-07T11:52:25.375885+00:00",
+  "input_sha256": "c3822eaa598996197bd06277a21183d107f954aad882f4383fdbbd14dc09de21"
 }
