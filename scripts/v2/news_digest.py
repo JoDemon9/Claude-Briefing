@@ -236,8 +236,10 @@ def evidence(item,row):
         return result
     soup=BeautifulSoup(row['text'],'html.parser')
     # Prefer the article region. Navigation/cookie text never becomes article evidence.
-    region=(soup.select_one('[itemprop="articleBody"], .ArticleBody-articleBody, .article-body, .entry-content')
-            or soup.find('article') or soup.find('main'))
+    region=next((node for selector in ('[itemprop="articleBody"]', '.ArticleBody-articleBody', '.articleBody',
+                                     '.article-body', '.entry-content')
+                 if (node:=soup.select_one(selector)) is not None), None)
+    region=region or soup.find('article') or soup.find('main')
     paragraphs=[clean(str(p)) for p in region.find_all('p')] if region else []
     text='\n'.join(p for p in paragraphs if len(p)>45 and not p.startswith('Δες περισσότερα άρθρα')
                    and not re.search(r'πληρωμενη διαφημιση|μπονους εγγραφης|freebet',normalized(p)))
@@ -261,6 +263,12 @@ def evidence(item,row):
     blocked=re.search(r'enable javascript|access denied|verify you are human|subscribe to continue|just a moment',text[:500],re.I)
     if blocked:
         result['rejection_reason']='access_challenge_in_body'
+        return result
+    # A sponsored component can be long enough to pass the body-length check.
+    # Reject only promotional text with no headline terms; keep reporting about advertising.
+    if (not words(normalized(item['title'])) & words(normalized(text))
+            and re.search(r'read.only scan|start your free|no mx changes|free email security scan',text,re.I)):
+        result['rejection_reason']='promotional_body_without_article'
         return result
     published=item.get('published_at')
     meta=soup.find('meta',attrs={'property':'article:published_time'})
@@ -305,7 +313,22 @@ def financial_collection(groups,client,at):
         publisher=group[0].get('reporting_group',group[0]['publisher'])
         (rest if publisher in seen else first).append(group);seen.add(publisher)
     finance=first+rest
-    chosen=[g[0] for g in cyprus[:6]+world[:4]+finance[:3]]
+    def diversified(queue):
+        counts={};first=[];rest=[]
+        for group in queue:
+            chain=group[0].get('reporting_group',group[0]['publisher'])
+            counts[chain]=counts.get(chain,0)+1
+            (first if counts[chain]<=2 else rest).append(group)
+        return first+rest
+    cyprus=diversified(cyprus)
+    world=diversified(world)
+    broad=[g for g in world if g[0].get('topic') not in ('security','technology','markets-tech')]
+    specialist=[g for g in world if g not in broad]
+    # Reserve general international reporting before high-scoring specialist alerts.
+    initial_world=broad[:3]+specialist[:1]
+    initial_world+=(broad[3:]+specialist[1:])[:4-len(initial_world)]
+    world=broad+specialist
+    chosen=[g[0] for g in cyprus[:6]+initial_world+finance[:3]]
     chosen.extend(next(g[0] for g in sports if g[0].get('sports_lane','other')==lane)
                   for lane in lanes if any(g[0].get('sports_lane','other')==lane for g in sports))
     pages=client.many(item['url'] for item in chosen)
