@@ -1,0 +1,68 @@
+{
+  "analysis_sources": [
+    "https://www.veeam.com/kb4960"
+  ],
+  "category": "Διεθνή",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 4,
+    "section": "world"
+  },
+  "delta_update": "Η τεχνική ανακοίνωση KB4960 της Veeam, με ημερομηνία 4 Νοεμβρίου, περιγράφει διαλείπουσα αδυναμία εκκίνησης του Software Appliance 13.1 και μεταγενέστερων εκδόσεων σε ορισμένους AMD EPYC. Η εταιρεία αποδίδει το kernel panic σε έλεγχο jitterentropy κατά την εκκίνηση και αναφέρει ότι δεν υπάρχει ακόμη διόρθωση για τον συγκεκριμένο πυρήνα. Δεν περιγράφει κυβερνοεπίθεση.",
+  "driver_tags": [
+    "technology"
+  ],
+  "edition_id": "2026-11-08-morning",
+  "headline": "Veeam: τεκμηριωμένο πρόβλημα εκκίνησης σε ορισμένους AMD EPYC",
+  "id": "veeam-appliance-epyc-boot-2026-11-04",
+  "image": {
+    "alt": "Το λιμάνι Γιανγκσάν στην Κίνα, 2007",
+    "attribution": "YHBEST1",
+    "caption": "Φωτογραφία αρχείου · Το λιμάνι Γιανγκσάν στην Κίνα, 2007. Θεματικό φωτογραφικό πλαίσιο.",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Yangshan_Deepwater_Port.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Yangshan_Deepwater_Port.jpg",
+    "retrieved_at": "2026-10-14T07:57:30+03:00",
+    "reuse_review": {
+      "relevance_and_archive_date_checked": true,
+      "reviewed_at": "2026-10-25T22:26:53.448111+00:00",
+      "sha256": "58930d817107fea3a876a51e91a6a5bed6374666070a6e6930cd09d0bfebbe0c",
+      "source_asset": "assets/editorial/2026-10-11-evening/world-3.webp"
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Yangshan_Deepwater_Port.jpg",
+    "url": "assets/editorial/2026-10-11-evening/world-3.webp"
+  },
+  "newspaper_analysis": [
+    "Για διαχειριστές αντιγράφων ασφαλείας, η διαθέσιμη λειτουργία ανάκτησης χρειάζεται έλεγχο μετά από επανεκκίνηση, όχι υπόθεση ότι μια εγκατεστημένη ενημέρωση ολοκληρώθηκε επιτυχώς."
+  ],
+  "published_at": "2026-11-08T05:36:08.581875+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Η τεχνική ανακοίνωση KB4960 της Veeam, με ημερομηνία 4 Νοεμβρίου, περιγράφει διαλείπουσα αδυναμία εκκίνησης του Software Appliance 13.1 και μεταγενέστερων εκδόσεων σε ορισμένους AMD EPYC. Η εταιρεία αποδίδει το kernel panic σε έλεγχο jitterentropy κατά την εκκίνηση και αναφέρει ότι δεν υπάρχει ακόμη διόρθωση για τον συγκεκριμένο πυρήνα. Δεν περιγράφει κυβερνοεπίθεση."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": null,
+      "publisher": "Veeam",
+      "reporting_group": "Veeam",
+      "retrieved_at": "2026-11-08T05:34:00+00:00",
+      "url": "https://www.veeam.com/kb4960",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "veeam-appliance-epyc-boot-2026-11-04",
+  "story_identity": "veeam-appliance-epyc-boot-2026-11-04",
+  "summary": "Η τεχνική ανακοίνωση KB4960 της Veeam, με ημερομηνία 4 Νοεμβρίου, περιγράφει διαλείπουσα αδυναμία εκκίνησης του Software Appliance 13.1 και μεταγενέστερων εκδόσεων σε ορισμένους AMD EPYC. Η εταιρεία αποδίδει το kernel panic σε έλεγχο jitterentropy κατά την εκκίνηση και αναφέρει ότι δεν υπάρχει ακόμη διόρθωση για τον συγκεκριμένο πυρήνα. Δεν περιγράφει κυβερνοεπίθεση.",
+  "updated_at": "2026-11-08T05:36:08.581875+00:00",
+  "url": "articles/2026-11-08-morning/veeam-appliance-epyc-boot-2026-11-04.html"
+}
