@@ -36,7 +36,7 @@
   "newspaper_analysis": [
     "Για διαχειριστές αντιγράφων ασφαλείας, η διαθέσιμη λειτουργία ανάκτησης χρειάζεται έλεγχο μετά από επανεκκίνηση, όχι υπόθεση ότι μια εγκατεστημένη ενημέρωση ολοκληρώθηκε επιτυχώς."
   ],
-  "published_at": "2026-11-08T05:36:08.581875+00:00",
+  "published_at": "2026-11-08T05:38:40.142113+00:00",
   "reader_mode": "source",
   "related_story_ids": [],
   "sections": [
@@ -60,9 +60,9 @@
       "used_for_claims": true
     }
   ],
-  "story_id": "veeam-appliance-epyc-boot-2026-11-04",
-  "story_identity": "veeam-appliance-epyc-boot-2026-11-04",
+  "story_id": "veeam-epyc-appliance-boot-2026-11-04",
+  "story_identity": "veeam-epyc-appliance-boot-2026-11-04",
   "summary": "Η τεχνική ανακοίνωση KB4960 της Veeam, με ημερομηνία 4 Νοεμβρίου, περιγράφει διαλείπουσα αδυναμία εκκίνησης του Software Appliance 13.1 και μεταγενέστερων εκδόσεων σε ορισμένους AMD EPYC. Η εταιρεία αποδίδει το kernel panic σε έλεγχο jitterentropy κατά την εκκίνηση και αναφέρει ότι δεν υπάρχει ακόμη διόρθωση για τον συγκεκριμένο πυρήνα. Δεν περιγράφει κυβερνοεπίθεση.",
-  "updated_at": "2026-11-08T05:36:08.581875+00:00",
+  "updated_at": "2026-11-08T05:38:40.142113+00:00",
   "url": "articles/2026-11-08-morning/veeam-appliance-epyc-boot-2026-11-04.html"
 }

@@ -44,7 +44,7 @@
   "date": "2026-11-08",
   "delta_log": [],
   "edition_mode": "morning_scan",
-  "editorial_completed_at": "2026-11-08T05:36:08.581875+00:00",
+  "editorial_completed_at": "2026-11-08T05:38:40.142113+00:00",
   "executive_scan": {
     "cyprus_institutions": "Η ενίσχυση των σχολικών υποστηρικτικών υπηρεσιών και η ενιαία ψηφιακή πρόσβαση αφορούν την πραγματική ικανότητα εξυπηρέτησης πολιτών. Επόμενο τεστ είναι συγκεκριμένες αποφάσεις στελέχωσης και λειτουργικές υπηρεσίες μέσω CY Login, όχι μόνο ο σχεδιασμός τους.",
     "day_catalysts": [],
@@ -198,7 +198,7 @@
   ],
   "id": "2026-11-08-morning",
   "image_review": {
-    "completed_at": "2026-11-08T05:36:08.581875+00:00",
+    "completed_at": "2026-11-08T05:38:40.142113+00:00",
     "version": 2
   },
   "intelligence_contract": 1,
@@ -1416,16 +1416,16 @@
     "content_schema_sha256": "ae435b63b3a246d362e26d0f9099732550c4d783368c6e1e812aaa71b9f10d5b",
     "producer_protocol": "oracle-briefing/3"
   },
-  "published_at": "2026-11-08T05:36:08.581875+00:00",
+  "published_at": "2026-11-08T05:38:40.142113+00:00",
   "reading_review": {
-    "completed_at": "2026-11-08T05:36:08.581875+00:00",
+    "completed_at": "2026-11-08T05:38:40.142113+00:00",
     "version": 2
   },
   "scheduled_slot": "07:30",
   "schema_version": 2,
   "selection_policy": "balanced-v1",
   "selection_review": {
-    "completed_at": "2026-11-08T05:36:08.581875+00:00",
+    "completed_at": "2026-11-08T05:38:40.142113+00:00",
     "global_exception_reason": null,
     "priority_candidates": {
       "c6": "Το διαφημιστικό e6 δεν χρησιμοποιείται ως τεκμήριο· το θέμα τεκμηριώνεται ανεξάρτητα από την πρωτογενή ανακοίνωση KB4960 της Veeam.",
@@ -2439,7 +2439,7 @@
       {
         "article_id": "fulham-newcastle-draw-2026-11-07",
         "headline": "Φούλαμ–Νιούκαστλ 1–1: ο Μουνίζ στέρησε τη νίκη από τους φιλοξενούμενους",
-        "published_at": "2026-11-08T05:36:08.581875+00:00",
+        "published_at": "2026-11-08T05:38:40.142113+00:00",
         "sources": [
           {
             "access": "read",
@@ -2458,7 +2458,7 @@
       {
         "article_id": "hutchinson-buatsi-wbc-title-2026-11-07",
         "headline": "Πυγμαχία: ο Χάτσινσον κατέκτησε τον τίτλο WBC απέναντι στον Μπουάτσι",
-        "published_at": "2026-11-08T05:36:08.581875+00:00",
+        "published_at": "2026-11-08T05:38:40.142113+00:00",
         "sources": [
           {
             "access": "read",
@@ -2582,7 +2582,7 @@
     },
     {
       "headline": "Veeam: τεκμηριωμένο πρόβλημα εκκίνησης σε ορισμένους AMD EPYC",
-      "story_id": "veeam-appliance-epyc-boot-2026-11-04",
+      "story_id": "veeam-epyc-appliance-boot-2026-11-04",
       "url": "articles/2026-11-08-morning/veeam-appliance-epyc-boot-2026-11-04.html"
     }
   ],
