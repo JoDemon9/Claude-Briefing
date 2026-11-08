@@ -431,6 +431,22 @@
     "source_sha256": "3f6889dafdec9b276458e90ec5e1f66b9e94e08178aba8bb290b915cdc5be5b7",
     "reporting_sha256": "10e65c64059b7e040ab12dfbbab1dc879273074561a54b55690174c719bcbb04"
   },
+  "2026-11-07-evening": {
+    "contract": {
+      "content_schema_sha256": "ae435b63b3a246d362e26d0f9099732550c4d783368c6e1e812aaa71b9f10d5b",
+      "producer_protocol": "oracle-briefing/3"
+    },
+    "source_sha256": "29fcdff526ce3639f37b734cb7fe0ee44bd57180065cac2d8ea1a867783bfb53",
+    "reporting_sha256": "75d47f3e1ed29b3a7e4101c01c52d517947c47adc7475f05b506462a155fe7de"
+  },
+  "2026-11-07-midday": {
+    "contract": {
+      "content_schema_sha256": "ae435b63b3a246d362e26d0f9099732550c4d783368c6e1e812aaa71b9f10d5b",
+      "producer_protocol": "oracle-briefing/3"
+    },
+    "source_sha256": "84115af22d7e9052eb1a5df5e878761e2dbb4c49d237e988256d983b36b969af",
+    "reporting_sha256": "b83cd4217f3ef3a1ddaa5b434a16150c7727f4698ac78414d04a01f268261a65"
+  },
   "2026-11-07-morning": {
     "contract": {
       "content_schema_sha256": "ae435b63b3a246d362e26d0f9099732550c4d783368c6e1e812aaa71b9f10d5b",
@@ -438,5 +454,13 @@
     },
     "source_sha256": "6d7a7d6b104cb0c6f2cd12658990c2b598c266e2c27a5c2269fd0b4c774a4930",
     "reporting_sha256": "061e3e6a906ffc7c9f5a669db2f23e8cc26b5949d83b3fc80290b6484d2fb723"
+  },
+  "2026-11-08-morning": {
+    "contract": {
+      "content_schema_sha256": "ae435b63b3a246d362e26d0f9099732550c4d783368c6e1e812aaa71b9f10d5b",
+      "producer_protocol": "oracle-briefing/3"
+    },
+    "source_sha256": "998285ffd5d464621324306d95401ac496581320c45fdaafa95fb8ef211478e4",
+    "reporting_sha256": "ebf6e96db98ad66344a4e950d79485be0f8b06fee3e5d33d8b75e0966b259e10"
   }
 }

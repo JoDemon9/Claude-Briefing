@@ -460,6 +460,7 @@ def collect(root,packet,client,at,private_folder):
                               finance_candidate=bool(group[0].get('finance_candidate')),
                               priority_hint=priority(group,packet.get('stories',[]))[1],
                               evidence=group,baseline_matches=[s['story_id'] for s in packet.get('stories',[]) if any(canonical(src['url']) in {e['url'] for e in group} for src in s['sources'])]))
+    clustered=module('story_continuity').annotate(root,clustered,at,packet.get('edition_id'))
     required=sorted([c for c in clustered if c['section']!='sports' and c['market_priority']>=6
                      and any(e['access']=='article_excerpt' for e in c['evidence'])],key=lambda c:c['market_priority'],reverse=True)[:2]
     for c in required:c['priority_required']=True

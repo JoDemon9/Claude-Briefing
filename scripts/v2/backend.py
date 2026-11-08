@@ -209,7 +209,7 @@ def story_registry(bundles, aliases, reviews=None, enforce_reviews=True):
                     raise ValueError('Follow-up references unavailable coverage')
     for issue in issues:
         if enforce_reviews and issue['status']=='needs_review' and any(r['date'] >= POLICY_START for sid in issue['story_ids'] for r in stories[sid]):
-            raise ValueError('Editorial story identity review required: '+issue['id'])
+            raise ValueError('Editorial story identity review required: '+issue['id']+' ('+issue['kind']+': '+', '.join(issue['story_ids'])+'; '+issue['evidence']+')')
     return {'schema_version':1,'stories':dict(sorted(stories.items())), 'aliases':aliases,
             'identities':dict(sorted(identity_by_story.items())),
             'issues':issues, 'matching_policy':'Candidates require editorial review; never auto-merge.'}
