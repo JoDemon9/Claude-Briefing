@@ -10,14 +10,71 @@
       "type": "morning",
       "url": "morning/2026-11-08.html",
       "published_at": "2026-11-08T05:38:40.142113+00:00"
+    },
+    {
+      "id": "2026-11-08-midday",
+      "type": "midday",
+      "url": "midday/2026-11-08.html",
+      "published_at": "2026-11-08T11:35:05.276297+00:00"
+    },
+    {
+      "id": "2026-11-08-evening",
+      "type": "evening",
+      "url": "evening/2026-11-08.html",
+      "published_at": "2026-11-08T17:35:03.157784+00:00"
     }
   ],
-  "missing_slots": [
-    "midday",
-    "evening"
-  ],
-  "lead_story_id": "new-zealand-election-first-count-2026-11-07",
+  "missing_slots": [],
+  "lead_story_id": "gift-card-verification-scam-2026-11-07",
   "stories": [
+    {
+      "story_id": "gift-card-verification-scam-2026-11-07",
+      "first_seen_at": "2026-11-08T17:35:03.157784+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-08-evening",
+          "article_id": "gift-card-verification-scam-2026-11-07",
+          "source_story_id": "gift-card-verification-scam-2026-11-07",
+          "url": "articles/2026-11-08-evening/gift-card-verification-scam-2026-11-07.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "gift-card-verification-scam-2026-11-07",
+        "source_story_id": "gift-card-verification-scam-2026-11-07",
+        "url": "articles/2026-11-08-evening/gift-card-verification-scam-2026-11-07.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "gsi-survey-permit-2026-11-08",
+      "first_seen_at": "2026-11-08T11:35:05.276297+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-08-midday",
+          "article_id": "gsi-survey-permit-2026-11-08",
+          "source_story_id": "gsi-survey-permit-2026-11-08",
+          "url": "articles/2026-11-08-midday/gsi-survey-permit-2026-11-08.html"
+        },
+        {
+          "edition_id": "2026-11-08-evening",
+          "article_id": "gsi-survey-permit-2026-11-08",
+          "source_story_id": "gsi-survey-permit-2026-11-08",
+          "url": "articles/2026-11-08-evening/gsi-survey-permit-2026-11-08.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "gsi-survey-permit-2026-11-08",
+        "source_story_id": "gsi-survey-permit-2026-11-08",
+        "url": "articles/2026-11-08-evening/gsi-survey-permit-2026-11-08.html"
+      },
+      "section": "cyprus",
+      "priority": 1
+    },
     {
       "story_id": "new-zealand-election-first-count-2026-11-07",
       "first_seen_at": "2026-11-08T05:38:40.142113+00:00",
@@ -28,16 +85,61 @@
           "article_id": "new-zealand-election-first-count-2026-11-07",
           "source_story_id": "new-zealand-election-first-count-2026-11-07",
           "url": "articles/2026-11-08-morning/new-zealand-election-first-count-2026-11-07.html"
+        },
+        {
+          "edition_id": "2026-11-08-midday",
+          "article_id": "new-zealand-election-first-count-2026-11-07",
+          "source_story_id": "new-zealand-election-first-count-2026-11-07",
+          "url": "articles/2026-11-08-midday/new-zealand-election-first-count-2026-11-07.html"
+        },
+        {
+          "edition_id": "2026-11-08-evening",
+          "article_id": "new-zealand-election-first-count-2026-11-07",
+          "source_story_id": "new-zealand-election-first-count-2026-11-07",
+          "url": "articles/2026-11-08-evening/new-zealand-election-first-count-2026-11-07.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-08-morning",
+        "edition_id": "2026-11-08-evening",
         "article_id": "new-zealand-election-first-count-2026-11-07",
         "source_story_id": "new-zealand-election-first-count-2026-11-07",
-        "url": "articles/2026-11-08-morning/new-zealand-election-first-count-2026-11-07.html"
+        "url": "articles/2026-11-08-evening/new-zealand-election-first-count-2026-11-07.html"
       },
       "section": "world",
       "priority": 1
+    },
+    {
+      "story_id": "doha-world-padel-2026-11-02",
+      "first_seen_at": "2026-11-08T05:38:40.142113+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-08-morning",
+          "article_id": "doha-world-padel-2026-11-02",
+          "source_story_id": "doha-world-padel-2026-11-02",
+          "url": "articles/2026-11-08-morning/doha-world-padel-2026-11-02.html"
+        },
+        {
+          "edition_id": "2026-11-08-midday",
+          "article_id": "doha-world-padel-2026-11-02",
+          "source_story_id": "doha-world-padel-2026-11-02",
+          "url": "articles/2026-11-08-midday/doha-world-padel-2026-11-02.html"
+        },
+        {
+          "edition_id": "2026-11-08-evening",
+          "article_id": "doha-world-padel-2026-11-02",
+          "source_story_id": "doha-world-padel-2026-11-02",
+          "url": "articles/2026-11-08-evening/doha-world-padel-2026-11-02.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "doha-world-padel-2026-11-02",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-08-evening/doha-world-padel-2026-11-02.html"
+      },
+      "section": "sports",
+      "priority": 2
     },
     {
       "story_id": "italy-tajani-personal-data-2026-11-07",
@@ -49,16 +151,76 @@
           "article_id": "italy-tajani-personal-data-2026-11-07",
           "source_story_id": "italy-tajani-personal-data-2026-11-07",
           "url": "articles/2026-11-08-morning/italy-tajani-personal-data-2026-11-07.html"
+        },
+        {
+          "edition_id": "2026-11-08-midday",
+          "article_id": "italy-tajani-personal-data-2026-11-07",
+          "source_story_id": "italy-tajani-personal-data-2026-11-07",
+          "url": "articles/2026-11-08-midday/italy-tajani-personal-data-2026-11-07.html"
+        },
+        {
+          "edition_id": "2026-11-08-evening",
+          "article_id": "italy-tajani-personal-data-2026-11-07",
+          "source_story_id": "italy-tajani-personal-data-2026-11-07",
+          "url": "articles/2026-11-08-evening/italy-tajani-personal-data-2026-11-07.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-08-morning",
+        "edition_id": "2026-11-08-evening",
         "article_id": "italy-tajani-personal-data-2026-11-07",
         "source_story_id": "italy-tajani-personal-data-2026-11-07",
-        "url": "articles/2026-11-08-morning/italy-tajani-personal-data-2026-11-07.html"
+        "url": "articles/2026-11-08-evening/italy-tajani-personal-data-2026-11-07.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "pelendri-square-tenders-2026-11-08",
+      "first_seen_at": "2026-11-08T11:35:05.276297+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-08-midday",
+          "article_id": "pelendri-square-tenders-2026-11-08",
+          "source_story_id": "pelendri-square-tenders-2026-11-08",
+          "url": "articles/2026-11-08-midday/pelendri-square-tenders-2026-11-08.html"
+        },
+        {
+          "edition_id": "2026-11-08-evening",
+          "article_id": "pelendri-square-tenders-2026-11-08",
+          "source_story_id": "pelendri-square-tenders-2026-11-08",
+          "url": "articles/2026-11-08-evening/pelendri-square-tenders-2026-11-08.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "pelendri-square-tenders-2026-11-08",
+        "source_story_id": "pelendri-square-tenders-2026-11-08",
+        "url": "articles/2026-11-08-evening/pelendri-square-tenders-2026-11-08.html"
+      },
+      "section": "cyprus",
+      "priority": 2
+    },
+    {
+      "story_id": "australia-samoa-rugby-league-semifinal-2026-11-08",
+      "first_seen_at": "2026-11-08T17:35:03.157784+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-08-evening",
+          "article_id": "australia-samoa-rugby-league-semifinal-2026-11-08",
+          "source_story_id": "australia-samoa-rugby-league-semifinal-2026-11-08",
+          "url": "articles/2026-11-08-evening/australia-samoa-rugby-league-semifinal-2026-11-08.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "australia-samoa-rugby-league-semifinal-2026-11-08",
+        "source_story_id": "australia-samoa-rugby-league-semifinal-2026-11-08",
+        "url": "articles/2026-11-08-evening/australia-samoa-rugby-league-semifinal-2026-11-08.html"
+      },
+      "section": "sports",
+      "priority": 3
     },
     {
       "story_id": "big-tech-post-midterms-rally-2026-11-04",
@@ -70,15 +232,48 @@
           "article_id": "asian-chip-selloff-2026-11-06",
           "source_story_id": "asian-chip-selloff-2026-11-06",
           "url": "articles/2026-11-08-morning/asian-chip-selloff-2026-11-06.html"
+        },
+        {
+          "edition_id": "2026-11-08-midday",
+          "article_id": "asian-chip-selloff-2026-11-06",
+          "source_story_id": "asian-chip-selloff-2026-11-06",
+          "url": "articles/2026-11-08-midday/asian-chip-selloff-2026-11-06.html"
+        },
+        {
+          "edition_id": "2026-11-08-evening",
+          "article_id": "asian-chip-selloff-2026-11-06",
+          "source_story_id": "asian-chip-selloff-2026-11-06",
+          "url": "articles/2026-11-08-evening/asian-chip-selloff-2026-11-06.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-08-morning",
+        "edition_id": "2026-11-08-evening",
         "article_id": "asian-chip-selloff-2026-11-06",
         "source_story_id": "asian-chip-selloff-2026-11-06",
-        "url": "articles/2026-11-08-morning/asian-chip-selloff-2026-11-06.html"
+        "url": "articles/2026-11-08-evening/asian-chip-selloff-2026-11-06.html"
       },
       "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "khawaja-sandpaper-account-2026-11-08",
+      "first_seen_at": "2026-11-08T11:35:05.276297+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-08-midday",
+          "article_id": "khawaja-sandpaper-account-2026-11-08",
+          "source_story_id": "khawaja-sandpaper-account-2026-11-08",
+          "url": "articles/2026-11-08-midday/khawaja-sandpaper-account-2026-11-08.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-08-midday",
+        "article_id": "khawaja-sandpaper-account-2026-11-08",
+        "source_story_id": "khawaja-sandpaper-account-2026-11-08",
+        "url": "articles/2026-11-08-midday/khawaja-sandpaper-account-2026-11-08.html"
+      },
+      "section": "sports",
       "priority": 3
     },
     {
@@ -91,13 +286,25 @@
           "article_id": "veeam-appliance-epyc-boot-2026-11-04",
           "source_story_id": "veeam-epyc-appliance-boot-2026-11-04",
           "url": "articles/2026-11-08-morning/veeam-appliance-epyc-boot-2026-11-04.html"
+        },
+        {
+          "edition_id": "2026-11-08-midday",
+          "article_id": "veeam-appliance-epyc-boot-2026-11-04",
+          "source_story_id": "veeam-epyc-appliance-boot-2026-11-04",
+          "url": "articles/2026-11-08-midday/veeam-appliance-epyc-boot-2026-11-04.html"
+        },
+        {
+          "edition_id": "2026-11-08-evening",
+          "article_id": "veeam-appliance-epyc-boot-2026-11-04",
+          "source_story_id": "veeam-epyc-appliance-boot-2026-11-04",
+          "url": "articles/2026-11-08-evening/veeam-appliance-epyc-boot-2026-11-04.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-08-morning",
+        "edition_id": "2026-11-08-evening",
         "article_id": "veeam-appliance-epyc-boot-2026-11-04",
         "source_story_id": "veeam-epyc-appliance-boot-2026-11-04",
-        "url": "articles/2026-11-08-morning/veeam-appliance-epyc-boot-2026-11-04.html"
+        "url": "articles/2026-11-08-evening/veeam-appliance-epyc-boot-2026-11-04.html"
       },
       "section": "world",
       "priority": 4
@@ -112,13 +319,25 @@
           "article_id": "cyprus-school-violence-support-staff-2026-11-08",
           "source_story_id": "cyprus-school-violence-support-staff-2026-11-08",
           "url": "articles/2026-11-08-morning/cyprus-school-violence-support-staff-2026-11-08.html"
+        },
+        {
+          "edition_id": "2026-11-08-midday",
+          "article_id": "cyprus-school-violence-support-staff-2026-11-08",
+          "source_story_id": "cyprus-school-violence-support-staff-2026-11-08",
+          "url": "articles/2026-11-08-midday/cyprus-school-violence-support-staff-2026-11-08.html"
+        },
+        {
+          "edition_id": "2026-11-08-evening",
+          "article_id": "cyprus-school-violence-support-staff-2026-11-08",
+          "source_story_id": "cyprus-school-violence-support-staff-2026-11-08",
+          "url": "articles/2026-11-08-evening/cyprus-school-violence-support-staff-2026-11-08.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-08-morning",
+        "edition_id": "2026-11-08-evening",
         "article_id": "cyprus-school-violence-support-staff-2026-11-08",
         "source_story_id": "cyprus-school-violence-support-staff-2026-11-08",
-        "url": "articles/2026-11-08-morning/cyprus-school-violence-support-staff-2026-11-08.html"
+        "url": "articles/2026-11-08-evening/cyprus-school-violence-support-staff-2026-11-08.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -133,13 +352,25 @@
           "article_id": "cyprus-cy-login-services-2026-11-08",
           "source_story_id": "cyprus-cy-login-services-2026-11-08",
           "url": "articles/2026-11-08-morning/cyprus-cy-login-services-2026-11-08.html"
+        },
+        {
+          "edition_id": "2026-11-08-midday",
+          "article_id": "cyprus-cy-login-services-2026-11-08",
+          "source_story_id": "cyprus-cy-login-services-2026-11-08",
+          "url": "articles/2026-11-08-midday/cyprus-cy-login-services-2026-11-08.html"
+        },
+        {
+          "edition_id": "2026-11-08-evening",
+          "article_id": "cyprus-cy-login-services-2026-11-08",
+          "source_story_id": "cyprus-cy-login-services-2026-11-08",
+          "url": "articles/2026-11-08-evening/cyprus-cy-login-services-2026-11-08.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-08-morning",
+        "edition_id": "2026-11-08-evening",
         "article_id": "cyprus-cy-login-services-2026-11-08",
         "source_story_id": "cyprus-cy-login-services-2026-11-08",
-        "url": "articles/2026-11-08-morning/cyprus-cy-login-services-2026-11-08.html"
+        "url": "articles/2026-11-08-evening/cyprus-cy-login-services-2026-11-08.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -175,37 +406,28 @@
           "article_id": "cyprus-mountain-frost-forecast-2026-11-08",
           "source_story_id": "cyprus-mountain-frost-forecast-2026-11-08",
           "url": "articles/2026-11-08-morning/cyprus-mountain-frost-forecast-2026-11-08.html"
+        },
+        {
+          "edition_id": "2026-11-08-midday",
+          "article_id": "cyprus-mountain-frost-forecast-2026-11-08",
+          "source_story_id": "cyprus-mountain-frost-forecast-2026-11-08",
+          "url": "articles/2026-11-08-midday/cyprus-mountain-frost-forecast-2026-11-08.html"
+        },
+        {
+          "edition_id": "2026-11-08-evening",
+          "article_id": "cyprus-mountain-frost-forecast-2026-11-08",
+          "source_story_id": "cyprus-mountain-frost-forecast-2026-11-08",
+          "url": "articles/2026-11-08-evening/cyprus-mountain-frost-forecast-2026-11-08.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-08-morning",
+        "edition_id": "2026-11-08-evening",
         "article_id": "cyprus-mountain-frost-forecast-2026-11-08",
         "source_story_id": "cyprus-mountain-frost-forecast-2026-11-08",
-        "url": "articles/2026-11-08-morning/cyprus-mountain-frost-forecast-2026-11-08.html"
+        "url": "articles/2026-11-08-evening/cyprus-mountain-frost-forecast-2026-11-08.html"
       },
       "section": "cyprus",
       "priority": 8
-    },
-    {
-      "story_id": "doha-world-padel-2026-11-02",
-      "first_seen_at": "2026-11-08T05:38:40.142113+00:00",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-11-08-morning",
-          "article_id": "doha-world-padel-2026-11-02",
-          "source_story_id": "doha-world-padel-2026-11-02",
-          "url": "articles/2026-11-08-morning/doha-world-padel-2026-11-02.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-11-08-morning",
-        "article_id": "doha-world-padel-2026-11-02",
-        "source_story_id": "doha-world-padel-2026-11-02",
-        "url": "articles/2026-11-08-morning/doha-world-padel-2026-11-02.html"
-      },
-      "section": "sports",
-      "priority": 9
     },
     {
       "story_id": "fulham-newcastle-draw-2026-11-07",
@@ -217,13 +439,25 @@
           "article_id": "fulham-newcastle-draw-2026-11-07",
           "source_story_id": "fulham-newcastle-draw-2026-11-07",
           "url": "articles/2026-11-08-morning/fulham-newcastle-draw-2026-11-07.html"
+        },
+        {
+          "edition_id": "2026-11-08-midday",
+          "article_id": "fulham-newcastle-draw-2026-11-07",
+          "source_story_id": "fulham-newcastle-draw-2026-11-07",
+          "url": "articles/2026-11-08-midday/fulham-newcastle-draw-2026-11-07.html"
+        },
+        {
+          "edition_id": "2026-11-08-evening",
+          "article_id": "fulham-newcastle-draw-2026-11-07",
+          "source_story_id": "fulham-newcastle-draw-2026-11-07",
+          "url": "articles/2026-11-08-evening/fulham-newcastle-draw-2026-11-07.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-08-morning",
+        "edition_id": "2026-11-08-evening",
         "article_id": "fulham-newcastle-draw-2026-11-07",
         "source_story_id": "fulham-newcastle-draw-2026-11-07",
-        "url": "articles/2026-11-08-morning/fulham-newcastle-draw-2026-11-07.html"
+        "url": "articles/2026-11-08-evening/fulham-newcastle-draw-2026-11-07.html"
       },
       "section": "sports",
       "priority": 10
@@ -403,6 +637,356 @@
         "article_id": "italy-tajani-personal-data-2026-11-07",
         "source_story_id": "italy-tajani-personal-data-2026-11-07",
         "url": "articles/2026-11-08-morning/italy-tajani-personal-data-2026-11-07.html"
+      }
+    },
+    {
+      "id": "0de715df1e1a1a394510c51b1868c4e7b8e58ec1cd223da0f7e0f995b3862a89",
+      "kind": "provenance",
+      "at": "2026-11-08T11:35:05.276297+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-school-violence-support-staff-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-08-midday",
+        "article_id": "cyprus-school-violence-support-staff-2026-11-08",
+        "source_story_id": "cyprus-school-violence-support-staff-2026-11-08",
+        "url": "articles/2026-11-08-midday/cyprus-school-violence-support-staff-2026-11-08.html"
+      }
+    },
+    {
+      "id": "3790417554f63302982f24e263119e076e3adebd3114413faf6bfcb06ae5c74f",
+      "kind": "provenance",
+      "at": "2026-11-08T11:35:05.276297+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-cy-login-services-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-08-midday",
+        "article_id": "cyprus-cy-login-services-2026-11-08",
+        "source_story_id": "cyprus-cy-login-services-2026-11-08",
+        "url": "articles/2026-11-08-midday/cyprus-cy-login-services-2026-11-08.html"
+      }
+    },
+    {
+      "id": "4c43c5c23637127059868df232849432318e93e482b839fd284c7a62bcb9dec0",
+      "kind": "provenance",
+      "at": "2026-11-08T11:35:05.276297+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "fulham-newcastle-draw-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-08-midday",
+        "article_id": "fulham-newcastle-draw-2026-11-07",
+        "source_story_id": "fulham-newcastle-draw-2026-11-07",
+        "url": "articles/2026-11-08-midday/fulham-newcastle-draw-2026-11-07.html"
+      }
+    },
+    {
+      "id": "5ca3d1fa64e3037752f44057316950dfaf184761770f9249e789035c46fdf1b1",
+      "kind": "provenance",
+      "at": "2026-11-08T11:35:05.276297+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "italy-tajani-personal-data-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-08-midday",
+        "article_id": "italy-tajani-personal-data-2026-11-07",
+        "source_story_id": "italy-tajani-personal-data-2026-11-07",
+        "url": "articles/2026-11-08-midday/italy-tajani-personal-data-2026-11-07.html"
+      }
+    },
+    {
+      "id": "5dcf5e4e85657dd53dafb25f42626beab3a002d11a09b938b9e90e0921bf58b4",
+      "kind": "provenance",
+      "at": "2026-11-08T11:35:05.276297+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "pelendri-square-tenders-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-08-midday",
+        "article_id": "pelendri-square-tenders-2026-11-08",
+        "source_story_id": "pelendri-square-tenders-2026-11-08",
+        "url": "articles/2026-11-08-midday/pelendri-square-tenders-2026-11-08.html"
+      }
+    },
+    {
+      "id": "5f3ba4932c83f0a094a832023e08af2f2f1eb14d329fde2dca3e4bdfa3298f21",
+      "kind": "provenance",
+      "at": "2026-11-08T11:35:05.276297+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "big-tech-post-midterms-rally-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-08-midday",
+        "article_id": "asian-chip-selloff-2026-11-06",
+        "source_story_id": "asian-chip-selloff-2026-11-06",
+        "url": "articles/2026-11-08-midday/asian-chip-selloff-2026-11-06.html"
+      }
+    },
+    {
+      "id": "95750017c00cc539166051bc01c372ac6bc5b45fbf448fe1d6ecf5621be5fce8",
+      "kind": "provenance",
+      "at": "2026-11-08T11:35:05.276297+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "doha-world-padel-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-08-midday",
+        "article_id": "doha-world-padel-2026-11-02",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-08-midday/doha-world-padel-2026-11-02.html"
+      }
+    },
+    {
+      "id": "c5176cc02a2ef3abe4e9f21115d323b87e044174c13f1a834daa86f54c51c259",
+      "kind": "provenance",
+      "at": "2026-11-08T11:35:05.276297+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "new-zealand-election-first-count-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-08-midday",
+        "article_id": "new-zealand-election-first-count-2026-11-07",
+        "source_story_id": "new-zealand-election-first-count-2026-11-07",
+        "url": "articles/2026-11-08-midday/new-zealand-election-first-count-2026-11-07.html"
+      }
+    },
+    {
+      "id": "d5194c2a8136289c0b80147d0b67f1408ccd4bf362af09af4f63b0a485bbf009",
+      "kind": "provenance",
+      "at": "2026-11-08T11:35:05.276297+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "khawaja-sandpaper-account-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-08-midday",
+        "article_id": "khawaja-sandpaper-account-2026-11-08",
+        "source_story_id": "khawaja-sandpaper-account-2026-11-08",
+        "url": "articles/2026-11-08-midday/khawaja-sandpaper-account-2026-11-08.html"
+      }
+    },
+    {
+      "id": "e1ebd73fa0f094705dd805896924d2e5025338b489d7025f9094a0fcf7b753a9",
+      "kind": "provenance",
+      "at": "2026-11-08T11:35:05.276297+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "veeam-epyc-appliance-boot-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-08-midday",
+        "article_id": "veeam-appliance-epyc-boot-2026-11-04",
+        "source_story_id": "veeam-epyc-appliance-boot-2026-11-04",
+        "url": "articles/2026-11-08-midday/veeam-appliance-epyc-boot-2026-11-04.html"
+      }
+    },
+    {
+      "id": "e8310b14bdc6e6a936674e0a083db2d016e18bae2ddb5f9f1f0516b731cd0a6a",
+      "kind": "provenance",
+      "at": "2026-11-08T11:35:05.276297+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "gsi-survey-permit-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-08-midday",
+        "article_id": "gsi-survey-permit-2026-11-08",
+        "source_story_id": "gsi-survey-permit-2026-11-08",
+        "url": "articles/2026-11-08-midday/gsi-survey-permit-2026-11-08.html"
+      }
+    },
+    {
+      "id": "e89f54d625b1d9471221b6f3c6b87ec7ae875b0403b580c1f9961ddc24c7c167",
+      "kind": "provenance",
+      "at": "2026-11-08T11:35:05.276297+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-mountain-frost-forecast-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-08-midday",
+        "article_id": "cyprus-mountain-frost-forecast-2026-11-08",
+        "source_story_id": "cyprus-mountain-frost-forecast-2026-11-08",
+        "url": "articles/2026-11-08-midday/cyprus-mountain-frost-forecast-2026-11-08.html"
+      }
+    },
+    {
+      "id": "06d1ef877c7262ba08ddf65942757f65722499689797e3314ab830d9e06dfcd8",
+      "kind": "provenance",
+      "at": "2026-11-08T17:35:03.157784+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "pelendri-square-tenders-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "pelendri-square-tenders-2026-11-08",
+        "source_story_id": "pelendri-square-tenders-2026-11-08",
+        "url": "articles/2026-11-08-evening/pelendri-square-tenders-2026-11-08.html"
+      }
+    },
+    {
+      "id": "09f4bb0ffad1e3d5375aa85ff1fe0677fadaadb81a6a0a0dffa1ddfb48014356",
+      "kind": "provenance",
+      "at": "2026-11-08T17:35:03.157784+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "veeam-epyc-appliance-boot-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "veeam-appliance-epyc-boot-2026-11-04",
+        "source_story_id": "veeam-epyc-appliance-boot-2026-11-04",
+        "url": "articles/2026-11-08-evening/veeam-appliance-epyc-boot-2026-11-04.html"
+      }
+    },
+    {
+      "id": "1093820b41be4f29437c393d22808fdba5ed6db485ccc0db74a103592527be5e",
+      "kind": "provenance",
+      "at": "2026-11-08T17:35:03.157784+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-school-violence-support-staff-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "cyprus-school-violence-support-staff-2026-11-08",
+        "source_story_id": "cyprus-school-violence-support-staff-2026-11-08",
+        "url": "articles/2026-11-08-evening/cyprus-school-violence-support-staff-2026-11-08.html"
+      }
+    },
+    {
+      "id": "3a7bb0c80db168a1fea84826cb9836f43d0c31908596a52775b7177a4c0ee143",
+      "kind": "provenance",
+      "at": "2026-11-08T17:35:03.157784+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "gift-card-verification-scam-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "gift-card-verification-scam-2026-11-07",
+        "source_story_id": "gift-card-verification-scam-2026-11-07",
+        "url": "articles/2026-11-08-evening/gift-card-verification-scam-2026-11-07.html"
+      }
+    },
+    {
+      "id": "495fd70de89c3ae7a13c24a4b4af87bbc1fd1fbfe1c8ef07f7da3dc7b0cffe23",
+      "kind": "provenance",
+      "at": "2026-11-08T17:35:03.157784+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "australia-samoa-rugby-league-semifinal-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "australia-samoa-rugby-league-semifinal-2026-11-08",
+        "source_story_id": "australia-samoa-rugby-league-semifinal-2026-11-08",
+        "url": "articles/2026-11-08-evening/australia-samoa-rugby-league-semifinal-2026-11-08.html"
+      }
+    },
+    {
+      "id": "567fe5d4cf2081ac31b23b59e8b50d1de22eccfcf12a80685f6be1d56e387283",
+      "kind": "provenance",
+      "at": "2026-11-08T17:35:03.157784+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "fulham-newcastle-draw-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "fulham-newcastle-draw-2026-11-07",
+        "source_story_id": "fulham-newcastle-draw-2026-11-07",
+        "url": "articles/2026-11-08-evening/fulham-newcastle-draw-2026-11-07.html"
+      }
+    },
+    {
+      "id": "7752d7874f2e4c07cf2651b0dcbc04cef67b1920fca65254e2492d54ded50857",
+      "kind": "provenance",
+      "at": "2026-11-08T17:35:03.157784+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "new-zealand-election-first-count-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "new-zealand-election-first-count-2026-11-07",
+        "source_story_id": "new-zealand-election-first-count-2026-11-07",
+        "url": "articles/2026-11-08-evening/new-zealand-election-first-count-2026-11-07.html"
+      }
+    },
+    {
+      "id": "7d86bdcd7b372521c55033e078e560a81fe9baee24d5c4c1808db041bf770ca7",
+      "kind": "provenance",
+      "at": "2026-11-08T17:35:03.157784+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-mountain-frost-forecast-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "cyprus-mountain-frost-forecast-2026-11-08",
+        "source_story_id": "cyprus-mountain-frost-forecast-2026-11-08",
+        "url": "articles/2026-11-08-evening/cyprus-mountain-frost-forecast-2026-11-08.html"
+      }
+    },
+    {
+      "id": "7fe5eae5c4253b15712fd8b168533bf0a5f7c7f6aa302bb0dea8bdcbd5da43f4",
+      "kind": "provenance",
+      "at": "2026-11-08T17:35:03.157784+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "italy-tajani-personal-data-2026-11-07",
+      "origin": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "italy-tajani-personal-data-2026-11-07",
+        "source_story_id": "italy-tajani-personal-data-2026-11-07",
+        "url": "articles/2026-11-08-evening/italy-tajani-personal-data-2026-11-07.html"
+      }
+    },
+    {
+      "id": "817e67bc5fa33e55db2579e6fd580d9009bc614ab5918b8ba7a7ea30416c9f0b",
+      "kind": "provenance",
+      "at": "2026-11-08T17:35:03.157784+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "big-tech-post-midterms-rally-2026-11-04",
+      "origin": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "asian-chip-selloff-2026-11-06",
+        "source_story_id": "asian-chip-selloff-2026-11-06",
+        "url": "articles/2026-11-08-evening/asian-chip-selloff-2026-11-06.html"
+      }
+    },
+    {
+      "id": "8d2555a44fa9c972ceb206d60d0418c6c63b61c3d75c2b6b2fd6711116831f8c",
+      "kind": "provenance",
+      "at": "2026-11-08T17:35:03.157784+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-cy-login-services-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "cyprus-cy-login-services-2026-11-08",
+        "source_story_id": "cyprus-cy-login-services-2026-11-08",
+        "url": "articles/2026-11-08-evening/cyprus-cy-login-services-2026-11-08.html"
+      }
+    },
+    {
+      "id": "99be1c1e84dd450c72eaaf163e37c44662a678972e870df26c3f59965b1950c4",
+      "kind": "provenance",
+      "at": "2026-11-08T17:35:03.157784+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "doha-world-padel-2026-11-02",
+      "origin": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "doha-world-padel-2026-11-02",
+        "source_story_id": "doha-world-padel-2026-11-02",
+        "url": "articles/2026-11-08-evening/doha-world-padel-2026-11-02.html"
+      }
+    },
+    {
+      "id": "acf3d9cbb9ed85bb89cf5710041988f87aec8772f2e7d164cf13b9659c4f980b",
+      "kind": "provenance",
+      "at": "2026-11-08T17:35:03.157784+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "gsi-survey-permit-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-08-evening",
+        "article_id": "gsi-survey-permit-2026-11-08",
+        "source_story_id": "gsi-survey-permit-2026-11-08",
+        "url": "articles/2026-11-08-evening/gsi-survey-permit-2026-11-08.html"
       }
     }
   ],
@@ -612,23 +1196,22 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η αμφίρροπη εκλογή στη Νέα Ζηλανδία στρέφει την προσοχή στη διαμόρφωση συνεργασιών, με το Opportunity Party διαθέσιμο να συζητήσει με αμφότερα τα μεγάλα κόμματα. Στην Ιταλία, ο Ταγιάνι καταγγέλλει δημοσιοποίηση προσωπικών δεδομένων· η απόδοση ευθύνης παραμένει πολιτική δήλωση, όχι δημοσιευμένο τεχνικό πόρισμα.",
+        "text": "Η νέα επιλογή για τις ψεύτικες δωροκάρτες δείχνει συγκεκριμένο μηχανισμό εξαπάτησης: η υπόσχεση ανταμοιβής μετατρέπεται σε επαναλαμβανόμενες δοκιμασίες και προσφορές, χωρίς παράδοση δώρου στις ροές που εξέτασε η CTM360. Για τον χρήστη, μια μπάρα προόδου ή η επίκληση «επαλήθευσης» δεν αποδεικνύει αυθεντικότητα. Το κρίσιμο τεστ είναι η ανεξάρτητη επιβεβαίωση της προσφοράς από το ίδιο το κατάστημα.",
         "story_ids": [
-          "new-zealand-election-first-count-2026-11-07",
-          "italy-tajani-personal-data-2026-11-07"
+          "gift-card-verification-scam-2026-11-07"
         ]
       },
       {
-        "text": "Η ενίσχυση των σχολικών υποστηρικτικών υπηρεσιών και η ενιαία ψηφιακή πρόσβαση αφορούν την πραγματική ικανότητα εξυπηρέτησης πολιτών. Επόμενο τεστ είναι συγκεκριμένες αποφάσεις στελέχωσης και λειτουργικές υπηρεσίες μέσω CY Login, όχι μόνο ο σχεδιασμός τους.",
+        "text": "Η κάλυψη της ημέρας διατηρεί τη διάκριση ανάμεσα σε άδεια και εκτέλεση στον GSI, καθώς και ανάμεσα σε αξιολόγηση προσφορών και κατακύρωση στο Πελένδρι. Τα επόμενα ουσιαστικά ορόσημα είναι επιβεβαιωμένες εργασίες και συγκεκριμένες αποφάσεις υλοποίησης.",
         "story_ids": [
-          "cyprus-school-violence-support-staff-2026-11-08",
-          "cyprus-cy-login-services-2026-11-08"
+          "gsi-survey-permit-2026-11-08",
+          "pelendri-square-tenders-2026-11-08"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-08T05:46:35.240594+00:00",
-  "updated_at": "2026-11-08T05:46:35.240594+00:00",
-  "input_sha256": "cf2fcf45f9b4dde144e3207d74378be6ad9fb78e03f77f0a4f13da9e01bc83cd"
+  "updated_at": "2026-11-08T17:36:44.985151+00:00",
+  "input_sha256": "7a0a080c63ce1b19035b646465ee7767368c792419fcf9cf5489571302cace67"
 }
