@@ -1,0 +1,88 @@
+{
+  "analysis_sources": [
+    "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+    "https://www.aljazeera.com/news/2026/11/9/why-is-nvidias-jensen-huang-at-the-centre-of-a-us-china-spy-scandal?traffic_source=rss"
+  ],
+  "baseline_origin": {
+    "edition_id": "2026-11-09-midday",
+    "fingerprint": "4b42fb303a3bcbb88c10b5fe6010c665b47d895b2a7a232c8d3540f77a15ab74"
+  },
+  "category": "Διεθνή",
+  "change_status": "UNCHANGED",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "driver_tags": [
+    "finance",
+    "technology",
+    "market-mover"
+  ],
+  "edition_id": "2026-11-09-evening",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Το Πεκίνο απορρίπτει τους ισχυρισμούς στην υπόθεση Nvidia",
+  "id": "nvidia-board-security-review",
+  "image": {
+    "alt": "Nvidia stock falls 4% as scrutiny turns to Jensen Huang’s relationship with alleged Chinese spy",
+    "attribution": "CNBC",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Nvidia stock falls 4% as scrutiny turns to Jensen Huang’s relationship with alleged Chinese spy · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+    "original_url": "https://image.cnbcfm.com/api/v1/image/108447194-1792682505441-108447194-1792682412759-gettyimages-2301328017-2s4a6117_3tcndrih.jpg?v=1792682514&w=1200&h=675",
+    "retrieved_at": "2026-11-09T10:21:15.592139+00:00",
+    "source_review": {
+      "checked_at": "2026-11-09T10:21:15.592139+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "9b22b2aa3232b292",
+      "rights_basis": "publisher-attribution",
+      "sha256": "f22e580fed328f24d2fd36f921460423dcba21ab212a262507f9f5e92812bf4f"
+    },
+    "source_url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+    "url": "assets/editorial/source/f22e580fed328f24d2fd36f921460423dcba21ab212a262507f9f5e92812bf4f.webp"
+  },
+  "mechanics_and_incentives": "Η κινεζική διάψευση και η έναρξη της εταιρικής έρευνας είναι δύο χωριστές εξελίξεις. Η πρώτη καταγράφει τη θέση του Πεκίνου. Η δεύτερη μπορεί να οδηγήσει σε αλλαγές στους ελέγχους, ανάλογα με τα ευρήματα.",
+  "published_at": "2026-11-09T05:38:40.545646+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "watch_next": "Επίσημη ενημέρωση από το διοικητικό συμβούλιο και σύγκριση της μετοχής με τον κλάδο στο ίδιο παράθυρο συναλλαγών."
+  },
+  "second_order_effects": "Για μετόχους και πελάτες, ουσιαστική εξέλιξη θα ήταν η ανακοίνωση πορίσματος ή συγκεκριμένων μέτρων. Η προσυνεδριακή πτώση δεν τεκμηριώνει από μόνη της ούτε την αιτία της κίνησης ούτε επιχειρησιακή επίπτωση.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Στις 9 Νοεμβρίου ο εκπρόσωπος του κινεζικού ΥΠΕΞ Γκουό Τζιακούν χαρακτήρισε ατεκμηρίωτους τους ισχυρισμούς περί Κινέζας κατασκόπου στην υπόθεση του Τζένσεν Χουάνγκ, σύμφωνα με το Reuters, το οποίο επικαλείται το CNBC. Το CNBC κατέγραψε επίσης πτώση της μετοχής της Nvidia πριν από το άνοιγμα της αγοράς. Το διοικητικό συμβούλιο της εταιρείας έχει ανακοινώσει ανεξάρτητη έρευνα για το αν ο διευθύνων σύμβουλος αποτέλεσε στόχο ξένης υπηρεσίας πληροφοριών.[e11,e12]"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-09T09:05:48+00:00",
+      "publisher": "CNBC",
+      "reporting_group": "CNBC",
+      "retrieved_at": "2026-11-09T11:19:24.462281+00:00",
+      "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-09T10:49:02+00:00",
+      "publisher": "Al Jazeera",
+      "reporting_group": "Al Jazeera",
+      "retrieved_at": "2026-11-09T11:19:22.186629+00:00",
+      "url": "https://www.aljazeera.com/news/2026/11/9/why-is-nvidias-jensen-huang-at-the-centre-of-a-us-china-spy-scandal?traffic_source=rss",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "nvidia-board-security-review-2026-11-08",
+  "story_identity": "nvidia-board-security-review-2026-11-08",
+  "summary": "Στις 9 Νοεμβρίου ο εκπρόσωπος του κινεζικού ΥΠΕΞ Γκουό Τζιακούν χαρακτήρισε ατεκμηρίωτους τους ισχυρισμούς περί Κινέζας κατασκόπου στην υπόθεση του Τζένσεν Χουάνγκ, σύμφωνα με το Reuters, το οποίο επικαλείται το CNBC. Το CNBC κατέγραψε επίσης πτώση της μετοχής της Nvidia πριν από το άνοιγμα της αγοράς. Το διοικητικό συμβούλιο της εταιρείας έχει ανακοινώσει ανεξάρτητη έρευνα για το αν ο διευθύνων σύμβουλος αποτέλεσε στόχο ξένης υπηρεσίας πληροφοριών.[e11,e12]",
+  "updated_at": "2026-11-09T11:33:24.595482+00:00",
+  "url": "articles/2026-11-09-evening/nvidia-board-security-review.html"
+}

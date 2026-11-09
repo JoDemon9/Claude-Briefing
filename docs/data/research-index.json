@@ -579,6 +579,14 @@
       "fingerprint": "998285ffd5d464621324306d95401ac496581320c45fdaafa95fb8ef211478e4"
     },
     {
+      "id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "type": "evening",
+      "published_at": "2026-11-09T17:29:38.932490+00:00",
+      "url": "evening/2026-11-09.html",
+      "fingerprint": "0ad9b3c9e1142b1283f39d63cf6c0f3b15d991dac8062b8eb7f4eb0666ecd0a6"
+    },
+    {
       "id": "2026-11-09-midday",
       "date": "2026-11-09",
       "type": "midday",
@@ -21315,6 +21323,381 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/0c2d0e03fb8a810f003db11b6ebbe47d0a0d827a5b18e72ff4d5b414d37e9bcf.webp"
+    },
+    {
+      "story_id": "bax-crossing-raib-report-2026-11-09",
+      "identity": "bax-crossing-raib-report-2026-11-09",
+      "edition_id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "slot": "evening",
+      "published_at": "2026-11-09T17:29:38.932490+00:00",
+      "available_at": "2026-11-09T17:29:38.932490+00:00",
+      "headline": "Βρετανία: τέσσερις συστάσεις μετά το πόρισμα για τη θανατηφόρα σύγκρουση στη διάβαση Bax",
+      "finding": "Η βρετανική υπηρεσία διερεύνησης σιδηροδρομικών ατυχημάτων δημοσίευσε στις 9 Νοεμβρίου το πόρισμα για τη σύγκρουση της 13ης Ιουλίου 2025 στο Κεντ, στην οποία σκοτώθηκε οδηγός διανομών. Σύμφωνα με το πόρισμα, το πράσινο σήμα πιθανότατα τον έκανε να πιστέψει ότι μπορούσε να περάσει, ενώ η πύλη εξόδου ήταν κλειστή. Η υπηρεσία διατύπωσε τέσσερις συστάσεις, μεταξύ τους επανεξέταση του σχεδιασμού των χειροκίνητων διαβάσεων.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-09-evening/bax-crossing-raib-report.json",
+      "reader_url": "articles/2026-11-09-evening/bax-crossing-raib-report.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/business/2026/nov/09/amazon-driver-died-inquiry-manually-operated-level-crossing-kent",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-09T13:43:57+00:00",
+          "retrieved_at": "2026-11-09T16:21:00.751247+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.gov.uk/government/news/report-122026-collision-between-a-passenger-train-and-a-van-at-bax-level-crossing",
+          "publisher": "Rail Accident Investigation Branch",
+          "reporting_group": "Rail Accident Investigation Branch",
+          "published_at": null,
+          "retrieved_at": "2026-11-09T17:27:49+00:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/05e1a9a800173ee4853d72f73f5a23a6f2d597b7f08305d034ead511bd177f74.webp"
+    },
+    {
+      "story_id": "italy-dia-public-website-2026-11-09",
+      "identity": "italy-dia-public-website-2026-11-09",
+      "edition_id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "slot": "evening",
+      "published_at": "2026-11-09T17:29:38.932490+00:00",
+      "available_at": "2026-11-09T17:29:38.932490+00:00",
+      "headline": "Ιταλία: η υπηρεσία κατά της μαφίας αναφέρει ότι αντιγράφηκε μόνο δημόσιο υλικό",
+      "finding": "Στις 9 Νοεμβρίου, μετά από δημοσιεύματα για πιθανή κλοπή απόρρητων στοιχείων, η ιταλική Διεύθυνση Ερευνών κατά της Μαφίας ανέφερε ότι αντιγράφηκαν μόνο πληροφορίες και κείμενα που ήταν ήδη αναρτημένα στον ιστότοπό της, σύμφωνα με το Sigmalive. Το απόσπασμα δεν τεκμηριώνει πρόσβαση σε εσωτερικά συστήματα ή σε φακέλους ερευνών.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-09-evening/italy-dia-public-website.json",
+      "reader_url": "articles/2026-11-09-evening/italy-dia-public-website.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/international/1336844/italiakivernoepithesi-se-varos-istotopoy-toy-ypes",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-09T14:42:26+00:00",
+          "retrieved_at": "2026-11-09T16:21:00.810810+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/1965dbb4ba3c202d3f2d705576ebd90b995ad0af8f5c4f3b8b2507c508c787e6.webp"
+    },
+    {
+      "story_id": "cyprus-interior-budget-housing-2027",
+      "identity": "cyprus-interior-budget-housing-2027",
+      "edition_id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "slot": "evening",
+      "published_at": "2026-11-09T11:33:24.595482+00:00",
+      "available_at": "2026-11-09T17:29:38.932490+00:00",
+      "headline": "Προϋπολογισμός ΥΠΕΣ: σχέδιο για 460 προσιτές κατοικίες σε κρατική γη",
+      "finding": "Ο υπουργός Εσωτερικών παρουσίασε στη Βουλή σχέδιο για 460 προσιτές κατοικίες σε κρατική γη στις επαρχίες Λευκωσίας, Λεμεσού, Λάρνακας και Πάφου, σύμφωνα με την Cyprus Mail. Ο συνολικός προϋπολογισμός του ΥΠΕΣ για το 2027 ανέρχεται σε €780 εκατ., αυξημένος κατά €1,5 εκατ. Ο βουλευτής του ΑΚΕΛ Άριστος Δαμιανού εξέφρασε ανησυχία για μείωση €2,5 εκατ. στο κονδύλι της Υπηρεσίας Μέριμνας, σύμφωνα με το Sigmalive.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-09-evening/cyprus-interior-budget-housing.json",
+      "reader_url": "articles/2026-11-09-evening/cyprus-interior-budget-housing.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/09/minister-presents-modern-effective-and-people-centred-state",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-09T16:12:50+00:00",
+          "retrieved_at": "2026-11-09T16:21:00.454615+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.sigmalive.com/news/oikonomia/1336842/sta-eur780-ekat-o-proypologhismos-ypes-ghia-2027-pira-apo-boyli-ghia-steghastiko",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-09T14:21:37+00:00",
+          "retrieved_at": "2026-11-09T16:21:01.035400+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/855fb56f0f940816a2807316385633a445b0c06ec0340d33762df3ce1bb922e8.webp"
+    },
+    {
+      "story_id": "cyprus-culture-iii-2027-2026-11-09",
+      "identity": "cyprus-culture-iii-2027-2026-11-09",
+      "edition_id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "slot": "evening",
+      "published_at": "2026-11-09T17:29:38.932490+00:00",
+      "available_at": "2026-11-09T17:29:38.932490+00:00",
+      "headline": "Προκηρύχθηκαν τα σχέδια «Πολιτισμός ΙΙΙ» για το 2027",
+      "finding": "Το Υφυπουργείο Πολιτισμού προκήρυξε τα σχέδια του προγράμματος «Πολιτισμός ΙΙΙ» για το 2027, συνολικού ύψους €2,56 εκατ., σύμφωνα με τον Φιλελεύθερο. Αφορούν πολιτιστικούς φορείς, ομάδες φυσικών προσώπων και μεμονωμένους δημιουργούς. Το δημοσίευμα αναφέρει αλλαγές στους δικαιούχους, στις αιτήσεις και στις επιλέξιμες δαπάνες.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-09-evening/cyprus-culture-iii-2027.json",
+      "reader_url": "articles/2026-11-09-evening/cyprus-culture-iii-2027.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politismos/article/1793342/epitelous-prokirichthike-to-politismos-iii-gia-to-2027-ta-posa-pou-diatithente-ke-i-allages",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-09T16:08:53+00:00",
+          "retrieved_at": "2026-11-09T16:21:00.808972+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7954840ef62af2d1015a29e033375285cb928f69bfae2b1c0811b351f5bd3ae4.webp"
+    },
+    {
+      "story_id": "limassol-30km-road-safety-2026-11-09",
+      "identity": "limassol-30km-road-safety-2026-11-09",
+      "edition_id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "slot": "evening",
+      "published_at": "2026-11-09T17:29:38.932490+00:00",
+      "available_at": "2026-11-09T17:29:38.932490+00:00",
+      "headline": "Λεμεσός: €29.110 για παρεμβάσεις οδικής ασφάλειας και ζώνη 30 χλμ./ώρα",
+      "finding": "Το Υπουργείο Μεταφορών ενίσχυσε τον Δήμο Λεμεσού με €29.110 στο πλαίσιο σχεδίου επιχορήγησης, σύμφωνα με το Sigmalive. Οι παρεμβάσεις για τη διαμόρφωση ζώνης 30 χλμ./ώρα έχουν ολοκληρωθεί και περιλαμβάνουν πινακίδες και σήμανση στο οδόστρωμα. Το απόσπασμα δεν δίνει πλήρη οριοθέτηση της ζώνης.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-09-evening/limassol-30km-road-safety.json",
+      "reader_url": "articles/2026-11-09-evening/limassol-30km-road-safety.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1336858/lemesos-eur29110-ghia-asfalesteroys-dromoys-pou-meiwnetai-to-orio-takhytitas",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-09T15:57:26+00:00",
+          "retrieved_at": "2026-11-09T16:21:00.823128+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/1108c0742d1300dce0866bdee459867914d5884c7142c1a64cf5c3086d7e698a.webp"
+    },
+    {
+      "story_id": "dubai-p1-leal-guerrero-2026-11-09",
+      "identity": "dubai-p1-leal-guerrero-2026-11-09",
+      "edition_id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "slot": "evening",
+      "published_at": "2026-11-09T17:29:38.932490+00:00",
+      "available_at": "2026-11-09T17:29:38.932490+00:00",
+      "headline": "Πάντελ: Λεάλ και Γκερέρο απευθείας στο κυρίως ταμπλό του Dubai P1",
+      "finding": "Οι Χάβι Λεάλ και Φραν Γκερέρο, που αρχικά έμειναν εκτός επειδή δεν ολοκλήρωσαν έγκαιρα την εγγραφή τους, εμφανίζονται ως έκτο ζευγάρι του κυρίως ταμπλό, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 6,
+      "article_path": "articles/2026-11-09-evening/dubai-p1-leal-guerrero.json",
+      "reader_url": "articles/2026-11-09-evening/dubai-p1-leal-guerrero.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/leal-guerrero-cuadro-dubai-p1-reglamento",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-09T12:54:27+00:00",
+          "retrieved_at": "2026-11-09T16:21:01.929114+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5d0885de3308f0b1f59942b3a210060281be6df0ca989d206e5ac99347df410e.webp"
+    },
+    {
+      "story_id": "chelsea-fantasy-team-news-2026-11-09",
+      "identity": "chelsea-fantasy-team-news-2026-11-09",
+      "edition_id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "slot": "evening",
+      "published_at": "2026-11-09T17:29:38.932490+00:00",
+      "available_at": "2026-11-09T17:29:38.932490+00:00",
+      "headline": "Η Τσέλσι προειδοποιεί το προσωπικό για διαρροές μέσω Fantasy Premier League",
+      "finding": "Η Τσέλσι ζήτησε από το προσωπικό να προσέχει μήπως αποκαλύπτει άθελά του πληροφορίες για την ομάδα μέσω του Fantasy Premier League, σύμφωνα με το BBC. Η προειδοποίηση ακολούθησε αναφορές για αλλαγές σε ομάδες του παιχνιδιού πριν από επίσημη ενημέρωση.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-09-evening/chelsea-fantasy-team-news.json",
+      "reader_url": "articles/2026-11-09-evening/chelsea-fantasy-team-news.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/c98rzr51rlvpo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-09T12:41:23+00:00",
+          "retrieved_at": "2026-11-09T16:21:00.054164+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/fe5a74b33681ce993033652ca47d6543484d8aa1cd9a1d6c44686a8b7db984ac.webp"
+    },
+    {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "identity": "nvidia-board-security-review-2026-11-08",
+      "edition_id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "slot": "evening",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T17:29:38.932490+00:00",
+      "headline": "Το Πεκίνο απορρίπτει τους ισχυρισμούς στην υπόθεση Nvidia",
+      "finding": "Στις 9 Νοεμβρίου ο εκπρόσωπος του κινεζικού ΥΠΕΞ Γκουό Τζιακούν χαρακτήρισε ατεκμηρίωτους τους ισχυρισμούς περί Κινέζας κατασκόπου στην υπόθεση του Τζένσεν Χουάνγκ, σύμφωνα με το Reuters, το οποίο επικαλείται το CNBC. Το CNBC κατέγραψε επίσης πτώση της μετοχής της Nvidia πριν από το άνοιγμα της αγοράς. Το διοικητικό συμβούλιο της εταιρείας έχει ανακοινώσει ανεξάρτητη έρευνα για το αν ο διευθύνων σύμβουλος αποτέλεσε στόχο ξένης υπηρεσίας πληροφοριών.[e11,e12]",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-09-evening/nvidia-board-security-review.json",
+      "reader_url": "articles/2026-11-09-evening/nvidia-board-security-review.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-09T09:05:48+00:00",
+          "retrieved_at": "2026-11-09T11:19:24.462281+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/9/why-is-nvidias-jensen-huang-at-the-centre-of-a-us-china-spy-scandal?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-09T10:49:02+00:00",
+          "retrieved_at": "2026-11-09T11:19:22.186629+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f22e580fed328f24d2fd36f921460423dcba21ab212a262507f9f5e92812bf4f.webp"
+    },
+    {
+      "story_id": "china-october-inflation-2026-11-09",
+      "identity": "china-october-inflation-2026-11-09",
+      "edition_id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "slot": "evening",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T17:29:38.932490+00:00",
+      "headline": "Κίνα: επιτάχυνση στις τιμές παραγωγού, φρένο στον πληθωρισμό καταναλωτή",
+      "finding": "Ο ετήσιος πληθωρισμός καταναλωτή της Κίνας υποχώρησε τον Οκτώβριο στο 0,7% από 0,9% τον Σεπτέμβριο, έναντι πρόβλεψης 0,8% στη δημοσκόπηση του Reuters που μεταφέρει το CNBC. Οι τιμές παραγωγού αυξήθηκαν με τον ταχύτερο ρυθμό από τον Ιούνιο του 2022. Η κινεζική στατιστική υπηρεσία απέδωσε στη βενζίνη τη μεγαλύτερη ανοδική συμβολή στις τιμές καταναλωτή, την οποία αντιστάθμισε εν μέρει η πτώση των τιμών τροφίμων.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-09-evening/china-october-inflation.json",
+      "reader_url": "articles/2026-11-09-evening/china-october-inflation.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-09T01:40:11+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.072381+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/64fc593d0c291f738ccd039439f1d6069da916173fd1f77d8b95bc85f81260e0.webp"
+    },
+    {
+      "story_id": "g7-paris-cyberattacks-agenda-2026-11-09",
+      "identity": "g7-paris-cyberattacks-agenda-2026-11-09",
+      "edition_id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "slot": "evening",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T17:29:38.932490+00:00",
+      "headline": "Στην ατζέντα των ΥΠΕΞ της G7 οι κυβερνοεπιθέσεις, σύμφωνα με τον Ταγιάνι",
+      "finding": "Ο Ιταλός υπουργός Εξωτερικών Αντόνιο Ταγιάνι δήλωσε ότι η Γαλλία δέχτηκε να εντάξει τις πρόσφατες κυβερνοεπιθέσεις στην ημερήσια διάταξη της συνάντησης της G7 στο Παρίσι στις 9–10 Νοεμβρίου. Σύμφωνα με το Sigmalive, ο Ταγιάνι προανήγγειλε συζήτηση για κοινές πρωτοβουλίες, χωρίς να αποδώσει άμεσα ευθύνη στη ρωσική κυβέρνηση.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-09-evening/g7-paris-cyberattacks-agenda.json",
+      "reader_url": "articles/2026-11-09-evening/g7-paris-cyberattacks-agenda.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/international/1336710/oi-ypeks-ton-g7-tha-sizitisoyn-tis-prosfates-kivernoepitheseis",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-08T21:30:04+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.688680+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/9b46d6b307d83486d8bb88c0261160fcb5ffcfb7e0ecdcf4ef319d080e548b02.webp"
+    },
+    {
+      "story_id": "limassol-vasilieva-court-2026-11-09",
+      "identity": "limassol-vasilieva-court-2026-11-09",
+      "edition_id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "slot": "evening",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T17:29:38.932490+00:00",
+      "headline": "Οκταήμερη ανανέωση κράτησης στην υπόθεση Βασιλίεβα",
+      "finding": "Το Επαρχιακό Δικαστήριο Λεμεσού ενέκρινε στις 9 Νοεμβρίου την ανανέωση της κράτησης του 43χρονου υπόπτου για άλλες οκτώ ημέρες, σύμφωνα με τον Φιλελεύθερο. Ο ύποπτος δεν έφερε ένσταση στο αίτημα, ενώ η αστυνομική έρευνα συνεχίζεται.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-09-evening/limassol-vasilieva-court.json",
+      "reader_url": "articles/2026-11-09-evening/limassol-vasilieva-court.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1793096/dolofonia-olgas-vasilieva-gia-alles-8-imeres-sto-keli-o-43chronos-kath-omologia-drastis-siopilos-ke-me-skimmeno-to-kefali-sti-dikastiki-ethousa-tous-telefteous-exi-mines-diatirouse-sches",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-09T09:33:41+00:00",
+          "retrieved_at": "2026-11-09T11:19:23.356494+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f3935b7a4fca7b912d8e7d75ba3e779ac0399355f1f4e9ec2ea7cd4c809ef261.webp"
+    },
+    {
+      "story_id": "alpha-bank-cyprus-lending-plan-2026-11-09",
+      "identity": "alpha-bank-cyprus-lending-plan-2026-11-09",
+      "edition_id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "slot": "evening",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T17:29:38.932490+00:00",
+      "headline": "Η Alpha Bank βάζει στόχο αύξησης των δανείων της στην Κύπρο κατά περίπου 13% ετησίως",
+      "finding": "Η Alpha Bank στοχεύει σε ετήσια αύξηση των δανείων της στην Κύπρο κατά περίπου 13% μέχρι το 2030, σύμφωνα με τον Φιλελεύθερο. Το ίδιο δημοσίευμα παραθέτει εκτίμηση 4%–5% για τον ετήσιο ρυθμό της κυπριακής αγοράς. Πριν από την εξαγορά της AstroBank, η Alpha Bank εξασφάλιζε περίπου το 11% των νέων χορηγήσεων, σχεδόν διπλάσιο από το μερίδιό της στο υφιστάμενο χαρτοφυλάκιο δανείων.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-09-evening/alpha-bank-cyprus-lending-plan.json",
+      "reader_url": "articles/2026-11-09-evening/alpha-bank-cyprus-lending-plan.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1792884/trapezikos-polemos-disekatommirion-stin-kipro-apo-ellinikous-omilous",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-09T04:10:00+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.766888+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c177715c7c9194122d7cdbe360e9340bdafd5d63704142a44d52379c7de5fea8.webp"
+    },
+    {
+      "story_id": "england-australia-rugby-test-2026-11-08",
+      "identity": "england-australia-rugby-test-2026-11-08",
+      "edition_id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "slot": "evening",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T17:29:38.932490+00:00",
+      "headline": "Νίκη της Αγγλίας επί της Αυστραλίας στο ράγκμπι",
+      "finding": "Η Αγγλία νίκησε την Αυστραλία. Το BBC ξεχώρισε την εμφάνιση του Ιμάνουελ Φέι-Γουαμπόσο, ο οποίος αποχώρησε στο ημίχρονο.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-09-evening/england-australia-rugby-test.json",
+      "reader_url": "articles/2026-11-09-evening/england-australia-rugby-test.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c620r5dp51e0o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-08T19:52:48+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.172308+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5b2d19c2d7af8b615ce38166d184ee30307b1b33f55a37c054064a836079af6e.webp"
     },
     {
       "story_id": "nvidia-board-security-review-2026-11-08",
