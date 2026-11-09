@@ -577,6 +577,14 @@
       "published_at": "2026-11-08T05:38:40.142113+00:00",
       "url": "morning/2026-11-08.html",
       "fingerprint": "998285ffd5d464621324306d95401ac496581320c45fdaafa95fb8ef211478e4"
+    },
+    {
+      "id": "2026-11-09-morning",
+      "date": "2026-11-09",
+      "type": "morning",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "url": "morning/2026-11-09.html",
+      "fingerprint": "5eba0273e3dd86f0a0823cfc66e0115f6f0715745152dccd1ff911036a9d9b1d"
     }
   ],
   "stories": [
@@ -21299,6 +21307,257 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/0c2d0e03fb8a810f003db11b6ebbe47d0a0d827a5b18e72ff4d5b414d37e9bcf.webp"
+    },
+    {
+      "story_id": "china-october-inflation-2026-11-09",
+      "identity": "china-october-inflation-2026-11-09",
+      "edition_id": "2026-11-09-morning",
+      "date": "2026-11-09",
+      "slot": "morning",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T05:38:40.545646+00:00",
+      "headline": "Κίνα: επιτάχυνση στις τιμές παραγωγού, φρένο στον πληθωρισμό καταναλωτή",
+      "finding": "Ο ετήσιος πληθωρισμός καταναλωτή της Κίνας υποχώρησε τον Οκτώβριο στο 0,7% από 0,9% τον Σεπτέμβριο, έναντι πρόβλεψης 0,8% στη δημοσκόπηση του Reuters που μεταφέρει το CNBC. Οι τιμές παραγωγού αυξήθηκαν με τον ταχύτερο ρυθμό από τον Ιούνιο του 2022. Η κινεζική στατιστική υπηρεσία απέδωσε στη βενζίνη τη μεγαλύτερη ανοδική συμβολή στις τιμές καταναλωτή, την οποία αντιστάθμισε εν μέρει η πτώση των τιμών τροφίμων.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-09-morning/china-october-inflation.json",
+      "reader_url": "articles/2026-11-09-morning/china-october-inflation.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-09T01:40:11+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.072381+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/64fc593d0c291f738ccd039439f1d6069da916173fd1f77d8b95bc85f81260e0.webp"
+    },
+    {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "identity": "nvidia-board-security-review-2026-11-08",
+      "edition_id": "2026-11-09-morning",
+      "date": "2026-11-09",
+      "slot": "morning",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T05:38:40.545646+00:00",
+      "headline": "Η Nvidia ανακοίνωσε ανεξάρτητη έρευνα του διοικητικού συμβουλίου",
+      "finding": "Το διοικητικό συμβούλιο της Nvidia ανακοίνωσε στις 8 Νοεμβρίου ανεξάρτητη έρευνα έπειτα από δημοσιεύματα για πιθανή στόχευση του διευθύνοντος συμβούλου Τζένσεν Χουάνγκ από ξένη υπηρεσία πληροφοριών. Ο Χουάνγκ δήλωσε ότι θα συνεργαστεί. BBC και Guardian μεταφέρουν την ανακοίνωση της εταιρείας· η έναρξη της έρευνας δεν επιβεβαιώνει τους ισχυρισμούς των δημοσιευμάτων.[e10,e11]",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-09-morning/nvidia-board-security-review.json",
+      "reader_url": "articles/2026-11-09-morning/nvidia-board-security-review.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-09T00:50:06+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.006294+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-09T00:25:28+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.761099+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8646b42606a8987fc2fbbba047edfe81c685a093c2070051502dfcb222701bd3.webp"
+    },
+    {
+      "story_id": "g7-paris-cyberattacks-agenda-2026-11-09",
+      "identity": "g7-paris-cyberattacks-agenda-2026-11-09",
+      "edition_id": "2026-11-09-morning",
+      "date": "2026-11-09",
+      "slot": "morning",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T05:38:40.545646+00:00",
+      "headline": "Στην ατζέντα των ΥΠΕΞ της G7 οι κυβερνοεπιθέσεις, σύμφωνα με τον Ταγιάνι",
+      "finding": "Ο Ιταλός υπουργός Εξωτερικών Αντόνιο Ταγιάνι δήλωσε ότι η Γαλλία δέχτηκε να εντάξει τις πρόσφατες κυβερνοεπιθέσεις στην ημερήσια διάταξη της συνάντησης της G7 στο Παρίσι στις 9–10 Νοεμβρίου. Σύμφωνα με το Sigmalive, ο Ταγιάνι προανήγγειλε συζήτηση για κοινές πρωτοβουλίες, χωρίς να αποδώσει άμεσα ευθύνη στη ρωσική κυβέρνηση.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-09-morning/g7-paris-cyberattacks-agenda.json",
+      "reader_url": "articles/2026-11-09-morning/g7-paris-cyberattacks-agenda.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/international/1336710/oi-ypeks-ton-g7-tha-sizitisoyn-tis-prosfates-kivernoepitheseis",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-08T21:30:04+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.688680+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/9b46d6b307d83486d8bb88c0261160fcb5ffcfb7e0ecdcf4ef319d080e548b02.webp"
+    },
+    {
+      "story_id": "alpha-bank-cyprus-lending-plan-2026-11-09",
+      "identity": "alpha-bank-cyprus-lending-plan-2026-11-09",
+      "edition_id": "2026-11-09-morning",
+      "date": "2026-11-09",
+      "slot": "morning",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T05:38:40.545646+00:00",
+      "headline": "Η Alpha Bank βάζει στόχο αύξησης των δανείων της στην Κύπρο κατά περίπου 13% ετησίως",
+      "finding": "Η Alpha Bank στοχεύει σε ετήσια αύξηση των δανείων της στην Κύπρο κατά περίπου 13% μέχρι το 2030, σύμφωνα με τον Φιλελεύθερο. Το ίδιο δημοσίευμα παραθέτει εκτίμηση 4%–5% για τον ετήσιο ρυθμό της κυπριακής αγοράς. Πριν από την εξαγορά της AstroBank, η Alpha Bank εξασφάλιζε περίπου το 11% των νέων χορηγήσεων, σχεδόν διπλάσιο από το μερίδιό της στο υφιστάμενο χαρτοφυλάκιο δανείων.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-09-morning/alpha-bank-cyprus-lending-plan.json",
+      "reader_url": "articles/2026-11-09-morning/alpha-bank-cyprus-lending-plan.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1792884/trapezikos-polemos-disekatommirion-stin-kipro-apo-ellinikous-omilous",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-09T04:10:00+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.766888+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c177715c7c9194122d7cdbe360e9340bdafd5d63704142a44d52379c7de5fea8.webp"
+    },
+    {
+      "story_id": "eu-tobacco-excise-cyprus-2026-11-09",
+      "identity": "eu-tobacco-excise-cyprus-2026-11-09",
+      "edition_id": "2026-11-09-morning",
+      "date": "2026-11-09",
+      "slot": "morning",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T05:38:40.545646+00:00",
+      "headline": "Η αναθεώρηση της φορολογίας καπνού και το σημείο εκκίνησης της Κύπρου",
+      "finding": "Η αναθεώρηση της ευρωπαϊκής οδηγίας για τη φορολογία καπνού βρίσκεται υπό διαπραγμάτευση και, σύμφωνα με τον Φιλελεύθερο, συζητείται στις 9 Νοεμβρίου στο ECOFIN. Το δημοσίευμα αναφέρει ότι ο κυπριακός ειδικός φόρος στα τσιγάρα είναι €110 ανά 1.000 τεμάχια και ότι η Σουηδία έχει εκφράσει αντίθεση σε αύξηση της φορολόγησης των προϊόντων νικοτίνης.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-09-morning/eu-tobacco-excise-cyprus.json",
+      "reader_url": "articles/2026-11-09-morning/eu-tobacco-excise-cyprus.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1792885/to-evropaiko-chasma-gia-ti-forologia-kapnou-ke-to-stichima-tis-kiprou",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-09T04:15:00+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.741506+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/3a24c7ae918c5e98330d5af4aa5587de3ca48069ceb0449a517df68f0a9823df.webp"
+    },
+    {
+      "story_id": "limassol-vasilieva-court-2026-11-09",
+      "identity": "limassol-vasilieva-court-2026-11-09",
+      "edition_id": "2026-11-09-morning",
+      "date": "2026-11-09",
+      "slot": "morning",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T05:38:40.545646+00:00",
+      "headline": "Στο Δικαστήριο Λεμεσού ο ύποπτος για τον θάνατο της Όλγας Βασιλίεβα",
+      "finding": "Στο Δικαστήριο Λεμεσού αναμένεται να οδηγηθεί εκ νέου στις 9 Νοεμβρίου ο 43χρονος ύποπτος στην υπόθεση θανάτου της 61χρονης Όλγας Βασιλίεβα. Ο Φιλελεύθερος αναφέρει ότι ο ύποπτος εντοπίστηκε στο αεροδρόμιο και ότι οι κινήσεις του μετά τον θάνατο παραμένουν αντικείμενο διερεύνησης.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-09-morning/limassol-vasilieva-court.json",
+      "reader_url": "articles/2026-11-09-morning/limassol-vasilieva-court.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1792921/dolofonia-olgas-vasilieva-xana-simera-sto-dikastirio-o-43chronos-to-sigklonistiko-antio-tis-ikogenias",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-09T04:09:00+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.702452+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8e8cdcb8b8f8ebf116b8d7feb811070ef7a934d78dd8cf558edb18a01e26a6c7.webp"
+    },
+    {
+      "story_id": "galan-chingotto-2027-2026-11-08",
+      "identity": "galan-chingotto-2027-2026-11-08",
+      "edition_id": "2026-11-09-morning",
+      "date": "2026-11-09",
+      "slot": "morning",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T05:38:40.545646+00:00",
+      "headline": "Γκαλάν και Τσινγκότο συνεχίζουν μαζί το 2027",
+      "finding": "Ο Άλε Γκαλάν δήλωσε στη Marca ότι θα συνεχίσει με τον Φέδε Τσινγκότο το 2027 και ότι ετοιμάζουν νέα ομάδα υποστήριξης, όπως μεταφέρει το Padel Addict.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-09-morning/galan-chingotto-2027.json",
+      "reader_url": "articles/2026-11-09-morning/galan-chingotto-2027.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/galan-seguira-con-chingotto-2027-equipo-nuevo",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-08T17:58:52+00:00",
+          "retrieved_at": "2026-11-09T04:21:08.860790+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/e096b3fe412a04e8c352acc4f95c5943809757d30aeed290d6b44cbe0b496345.webp"
+    },
+    {
+      "story_id": "sunderland-brobbey-chelsea-2026-11-08",
+      "identity": "sunderland-brobbey-chelsea-2026-11-08",
+      "edition_id": "2026-11-09-morning",
+      "date": "2026-11-09",
+      "slot": "morning",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T05:38:40.545646+00:00",
+      "headline": "Η Σάντερλαντ νίκησε την Τσέλσι με 1–0",
+      "finding": "Ο Ντιόν Ντάμπλιν του BBC στάθηκε στον τρόπο με τον οποίο ο επιθετικός της Σάντερλαντ Μπράιαν Μπρόμπεϊ έπαιξε με δύναμη στη νίκη επί της Τσέλσι.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-09-morning/sunderland-brobbey-chelsea.json",
+      "reader_url": "articles/2026-11-09-morning/sunderland-brobbey-chelsea.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/videos/c69qz8z2d3yqo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-08T23:53:15+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.264376+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8dc4a1f910fd695122325e3d76e11218089d86aa333b60d6cd28b2c2e93bdc90.webp"
+    },
+    {
+      "story_id": "england-australia-rugby-test-2026-11-08",
+      "identity": "england-australia-rugby-test-2026-11-08",
+      "edition_id": "2026-11-09-morning",
+      "date": "2026-11-09",
+      "slot": "morning",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T05:38:40.545646+00:00",
+      "headline": "Νίκη της Αγγλίας επί της Αυστραλίας στο ράγκμπι",
+      "finding": "Η Αγγλία νίκησε την Αυστραλία. Το BBC ξεχώρισε την εμφάνιση του Ιμάνουελ Φέι-Γουαμπόσο, ο οποίος αποχώρησε στο ημίχρονο.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-09-morning/england-australia-rugby-test.json",
+      "reader_url": "articles/2026-11-09-morning/england-australia-rugby-test.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c620r5dp51e0o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-08T19:52:48+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.172308+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5b2d19c2d7af8b615ce38166d184ee30307b1b33f55a37c054064a836079af6e.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
