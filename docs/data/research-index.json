@@ -579,6 +579,14 @@
       "fingerprint": "998285ffd5d464621324306d95401ac496581320c45fdaafa95fb8ef211478e4"
     },
     {
+      "id": "2026-11-09-midday",
+      "date": "2026-11-09",
+      "type": "midday",
+      "published_at": "2026-11-09T11:33:24.595482+00:00",
+      "url": "midday/2026-11-09.html",
+      "fingerprint": "4b42fb303a3bcbb88c10b5fe6010c665b47d895b2a7a232c8d3540f77a15ab74"
+    },
+    {
       "id": "2026-11-09-morning",
       "date": "2026-11-09",
       "type": "morning",
@@ -21307,6 +21315,311 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/0c2d0e03fb8a810f003db11b6ebbe47d0a0d827a5b18e72ff4d5b414d37e9bcf.webp"
+    },
+    {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "identity": "nvidia-board-security-review-2026-11-08",
+      "edition_id": "2026-11-09-midday",
+      "date": "2026-11-09",
+      "slot": "midday",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T11:33:24.595482+00:00",
+      "headline": "Το Πεκίνο απορρίπτει τους ισχυρισμούς στην υπόθεση Nvidia",
+      "finding": "Στις 9 Νοεμβρίου ο εκπρόσωπος του κινεζικού ΥΠΕΞ Γκουό Τζιακούν χαρακτήρισε ατεκμηρίωτους τους ισχυρισμούς περί Κινέζας κατασκόπου στην υπόθεση του Τζένσεν Χουάνγκ, σύμφωνα με το Reuters, το οποίο επικαλείται το CNBC. Το CNBC κατέγραψε επίσης πτώση της μετοχής της Nvidia πριν από το άνοιγμα της αγοράς. Το διοικητικό συμβούλιο της εταιρείας έχει ανακοινώσει ανεξάρτητη έρευνα για το αν ο διευθύνων σύμβουλος αποτέλεσε στόχο ξένης υπηρεσίας πληροφοριών.[e11,e12]",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-09-midday/nvidia-board-security-review.json",
+      "reader_url": "articles/2026-11-09-midday/nvidia-board-security-review.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-09T09:05:48+00:00",
+          "retrieved_at": "2026-11-09T11:19:24.462281+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/9/why-is-nvidias-jensen-huang-at-the-centre-of-a-us-china-spy-scandal?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-09T10:49:02+00:00",
+          "retrieved_at": "2026-11-09T11:19:22.186629+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f22e580fed328f24d2fd36f921460423dcba21ab212a262507f9f5e92812bf4f.webp"
+    },
+    {
+      "story_id": "cyprus-interior-budget-housing-2027",
+      "identity": "cyprus-interior-budget-housing-2027",
+      "edition_id": "2026-11-09-midday",
+      "date": "2026-11-09",
+      "slot": "midday",
+      "published_at": "2026-11-09T11:33:24.595482+00:00",
+      "available_at": "2026-11-09T11:33:24.595482+00:00",
+      "headline": "Στη Βουλή ο προϋπολογισμός του ΥΠΕΣ με έμφαση στην προσιτή στέγαση",
+      "finding": "Ο υπουργός Εσωτερικών παρουσίασε στις 9 Νοεμβρίου στην κοινοβουλευτική Επιτροπή Οικονομικών τον προϋπολογισμό του υπουργείου για το 2027, ύψους €780 εκατ., μαζί με το δημοσιονομικό πλαίσιο 2027–2029. Η προσιτή στέγαση περιλαμβάνεται στις προτεραιότητες. Σύμφωνα με το Sigmalive, οι δαπάνες περιλαμβάνουν επίσης χορηγίες προς τοπικές αρχές και χρηματοδότηση έργων, ενώ τα αναθεωρημένα σχέδια για εκτοπισθέντες έχουν διευρύνει τον αριθμό των δικαιούχων κατά 15%.",
+      "section": "cyprus",
+      "priority": 2,
+      "article_path": "articles/2026-11-09-midday/cyprus-interior-budget-housing.json",
+      "reader_url": "articles/2026-11-09-midday/cyprus-interior-budget-housing.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1336800/nea-steghastika-skhedia-kai-523-oikopeda-ti-provlepei-o-proypologhismos-toy-ypes",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-09T10:54:09+00:00",
+          "retrieved_at": "2026-11-09T11:19:23.527769+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/898c47374e2c62eb3b033147d32a14d4f76b100adb95c73b3a9aa9134fc13771.webp"
+    },
+    {
+      "story_id": "limassol-vasilieva-court-2026-11-09",
+      "identity": "limassol-vasilieva-court-2026-11-09",
+      "edition_id": "2026-11-09-midday",
+      "date": "2026-11-09",
+      "slot": "midday",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T11:33:24.595482+00:00",
+      "headline": "Οκταήμερη ανανέωση κράτησης στην υπόθεση Βασιλίεβα",
+      "finding": "Το Επαρχιακό Δικαστήριο Λεμεσού ενέκρινε στις 9 Νοεμβρίου την ανανέωση της κράτησης του 43χρονου υπόπτου για άλλες οκτώ ημέρες, σύμφωνα με τον Φιλελεύθερο. Ο ύποπτος δεν έφερε ένσταση στο αίτημα, ενώ η αστυνομική έρευνα συνεχίζεται.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-09-midday/limassol-vasilieva-court.json",
+      "reader_url": "articles/2026-11-09-midday/limassol-vasilieva-court.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1793096/dolofonia-olgas-vasilieva-gia-alles-8-imeres-sto-keli-o-43chronos-kath-omologia-drastis-siopilos-ke-me-skimmeno-to-kefali-sti-dikastiki-ethousa-tous-telefteous-exi-mines-diatirouse-sches",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-09T09:33:41+00:00",
+          "retrieved_at": "2026-11-09T11:19:23.356494+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f3935b7a4fca7b912d8e7d75ba3e779ac0399355f1f4e9ec2ea7cd4c809ef261.webp"
+    },
+    {
+      "story_id": "edek-efstathiou-leadership-2026-11-09",
+      "identity": "edek-efstathiou-leadership-2026-11-09",
+      "edition_id": "2026-11-09-midday",
+      "date": "2026-11-09",
+      "slot": "midday",
+      "published_at": "2026-11-09T11:33:24.595482+00:00",
+      "available_at": "2026-11-09T11:33:24.595482+00:00",
+      "headline": "Ο Κωστής Ευσταθίου δεν θα διεκδικήσει την ηγεσία της ΕΔΕΚ",
+      "finding": "Ο τέως βουλευτής Κωστής Ευσταθίου δήλωσε στο ΡΙΚ στις 9 Νοεμβρίου ότι δεν θα διεκδικήσει την ηγεσία της ΕΔΕΚ ή άλλο κομματικό αξίωμα, σύμφωνα με τον Φιλελεύθερο. Τάχθηκε υπέρ συλλογικής πορείας του κόμματος και είπε ότι δεν θεωρεί κατάλληλη τη στιγμή για εσωκομματικές εκλογές.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-09-midday/edek-efstathiou-leadership.json",
+      "reader_url": "articles/2026-11-09-midday/edek-efstathiou-leadership.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1793144/kostis-efstathiou-den-ine-ora-gia-ekloges-stin-edek-chriazomaste-sillogiki-igesia-ti-protini-ke-giati-den-diekdiki",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-09T10:37:16+00:00",
+          "retrieved_at": "2026-11-09T11:19:24.287718+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/09a01987232a1399d6f60bec4a14b48f541734e3d5404f2a9b85d36e0e8dfe7e.webp"
+    },
+    {
+      "story_id": "premier-league-bookings-2026-11-09",
+      "identity": "premier-league-bookings-2026-11-09",
+      "edition_id": "2026-11-09-midday",
+      "date": "2026-11-09",
+      "slot": "midday",
+      "published_at": "2026-11-09T11:33:24.595482+00:00",
+      "available_at": "2026-11-09T11:33:24.595482+00:00",
+      "headline": "Premier League: 13 παίκτες απέχουν μία κάρτα από τιμωρία",
+      "finding": "Σύμφωνα με το BBC, 13 παίκτες έχουν τέσσερις κίτρινες κάρτες μετά τις πρώτες δέκα αγωνιστικές της Premier League. Πέμπτη κάρτα έως το τέλος του 19ου αγώνα πρωταθλήματος της ομάδας τους συνεπάγεται αποκλεισμό μίας αγωνιστικής.",
+      "section": "sports",
+      "priority": 5,
+      "article_path": "articles/2026-11-09-midday/premier-league-bookings.json",
+      "reader_url": "articles/2026-11-09-midday/premier-league-bookings.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/articles/cr3wj7wg35pxo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-09T10:33:57+00:00",
+          "retrieved_at": "2026-11-09T11:19:22.817103+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/713cff39609aaa0cc3af8eea016b5b268cbf4d92dd614d3a8ff928124be76343.webp"
+    },
+    {
+      "story_id": "china-october-inflation-2026-11-09",
+      "identity": "china-october-inflation-2026-11-09",
+      "edition_id": "2026-11-09-midday",
+      "date": "2026-11-09",
+      "slot": "midday",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T11:33:24.595482+00:00",
+      "headline": "Κίνα: επιτάχυνση στις τιμές παραγωγού, φρένο στον πληθωρισμό καταναλωτή",
+      "finding": "Ο ετήσιος πληθωρισμός καταναλωτή της Κίνας υποχώρησε τον Οκτώβριο στο 0,7% από 0,9% τον Σεπτέμβριο, έναντι πρόβλεψης 0,8% στη δημοσκόπηση του Reuters που μεταφέρει το CNBC. Οι τιμές παραγωγού αυξήθηκαν με τον ταχύτερο ρυθμό από τον Ιούνιο του 2022. Η κινεζική στατιστική υπηρεσία απέδωσε στη βενζίνη τη μεγαλύτερη ανοδική συμβολή στις τιμές καταναλωτή, την οποία αντιστάθμισε εν μέρει η πτώση των τιμών τροφίμων.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-09-midday/china-october-inflation.json",
+      "reader_url": "articles/2026-11-09-midday/china-october-inflation.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-09T01:40:11+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.072381+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/64fc593d0c291f738ccd039439f1d6069da916173fd1f77d8b95bc85f81260e0.webp"
+    },
+    {
+      "story_id": "g7-paris-cyberattacks-agenda-2026-11-09",
+      "identity": "g7-paris-cyberattacks-agenda-2026-11-09",
+      "edition_id": "2026-11-09-midday",
+      "date": "2026-11-09",
+      "slot": "midday",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T11:33:24.595482+00:00",
+      "headline": "Στην ατζέντα των ΥΠΕΞ της G7 οι κυβερνοεπιθέσεις, σύμφωνα με τον Ταγιάνι",
+      "finding": "Ο Ιταλός υπουργός Εξωτερικών Αντόνιο Ταγιάνι δήλωσε ότι η Γαλλία δέχτηκε να εντάξει τις πρόσφατες κυβερνοεπιθέσεις στην ημερήσια διάταξη της συνάντησης της G7 στο Παρίσι στις 9–10 Νοεμβρίου. Σύμφωνα με το Sigmalive, ο Ταγιάνι προανήγγειλε συζήτηση για κοινές πρωτοβουλίες, χωρίς να αποδώσει άμεσα ευθύνη στη ρωσική κυβέρνηση.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-09-midday/g7-paris-cyberattacks-agenda.json",
+      "reader_url": "articles/2026-11-09-midday/g7-paris-cyberattacks-agenda.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/international/1336710/oi-ypeks-ton-g7-tha-sizitisoyn-tis-prosfates-kivernoepitheseis",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-08T21:30:04+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.688680+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/9b46d6b307d83486d8bb88c0261160fcb5ffcfb7e0ecdcf4ef319d080e548b02.webp"
+    },
+    {
+      "story_id": "alpha-bank-cyprus-lending-plan-2026-11-09",
+      "identity": "alpha-bank-cyprus-lending-plan-2026-11-09",
+      "edition_id": "2026-11-09-midday",
+      "date": "2026-11-09",
+      "slot": "midday",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T11:33:24.595482+00:00",
+      "headline": "Η Alpha Bank βάζει στόχο αύξησης των δανείων της στην Κύπρο κατά περίπου 13% ετησίως",
+      "finding": "Η Alpha Bank στοχεύει σε ετήσια αύξηση των δανείων της στην Κύπρο κατά περίπου 13% μέχρι το 2030, σύμφωνα με τον Φιλελεύθερο. Το ίδιο δημοσίευμα παραθέτει εκτίμηση 4%–5% για τον ετήσιο ρυθμό της κυπριακής αγοράς. Πριν από την εξαγορά της AstroBank, η Alpha Bank εξασφάλιζε περίπου το 11% των νέων χορηγήσεων, σχεδόν διπλάσιο από το μερίδιό της στο υφιστάμενο χαρτοφυλάκιο δανείων.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-09-midday/alpha-bank-cyprus-lending-plan.json",
+      "reader_url": "articles/2026-11-09-midday/alpha-bank-cyprus-lending-plan.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1792884/trapezikos-polemos-disekatommirion-stin-kipro-apo-ellinikous-omilous",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-09T04:10:00+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.766888+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c177715c7c9194122d7cdbe360e9340bdafd5d63704142a44d52379c7de5fea8.webp"
+    },
+    {
+      "story_id": "eu-tobacco-excise-cyprus-2026-11-09",
+      "identity": "eu-tobacco-excise-cyprus-2026-11-09",
+      "edition_id": "2026-11-09-midday",
+      "date": "2026-11-09",
+      "slot": "midday",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T11:33:24.595482+00:00",
+      "headline": "Η αναθεώρηση της φορολογίας καπνού και το σημείο εκκίνησης της Κύπρου",
+      "finding": "Η αναθεώρηση της ευρωπαϊκής οδηγίας για τη φορολογία καπνού βρίσκεται υπό διαπραγμάτευση και, σύμφωνα με τον Φιλελεύθερο, συζητείται στις 9 Νοεμβρίου στο ECOFIN. Το δημοσίευμα αναφέρει ότι ο κυπριακός ειδικός φόρος στα τσιγάρα είναι €110 ανά 1.000 τεμάχια και ότι η Σουηδία έχει εκφράσει αντίθεση σε αύξηση της φορολόγησης των προϊόντων νικοτίνης.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-09-midday/eu-tobacco-excise-cyprus.json",
+      "reader_url": "articles/2026-11-09-midday/eu-tobacco-excise-cyprus.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1792885/to-evropaiko-chasma-gia-ti-forologia-kapnou-ke-to-stichima-tis-kiprou",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-09T04:15:00+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.741506+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/3a24c7ae918c5e98330d5af4aa5587de3ca48069ceb0449a517df68f0a9823df.webp"
+    },
+    {
+      "story_id": "galan-chingotto-2027-2026-11-08",
+      "identity": "galan-chingotto-2027-2026-11-08",
+      "edition_id": "2026-11-09-midday",
+      "date": "2026-11-09",
+      "slot": "midday",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T11:33:24.595482+00:00",
+      "headline": "Γκαλάν και Τσινγκότο συνεχίζουν μαζί το 2027",
+      "finding": "Ο Άλε Γκαλάν δήλωσε στη Marca ότι θα συνεχίσει με τον Φέδε Τσινγκότο το 2027 και ότι ετοιμάζουν νέα ομάδα υποστήριξης, όπως μεταφέρει το Padel Addict.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-09-midday/galan-chingotto-2027.json",
+      "reader_url": "articles/2026-11-09-midday/galan-chingotto-2027.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/galan-seguira-con-chingotto-2027-equipo-nuevo",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-08T17:58:52+00:00",
+          "retrieved_at": "2026-11-09T04:21:08.860790+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/e096b3fe412a04e8c352acc4f95c5943809757d30aeed290d6b44cbe0b496345.webp"
+    },
+    {
+      "story_id": "england-australia-rugby-test-2026-11-08",
+      "identity": "england-australia-rugby-test-2026-11-08",
+      "edition_id": "2026-11-09-midday",
+      "date": "2026-11-09",
+      "slot": "midday",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-09T11:33:24.595482+00:00",
+      "headline": "Νίκη της Αγγλίας επί της Αυστραλίας στο ράγκμπι",
+      "finding": "Η Αγγλία νίκησε την Αυστραλία. Το BBC ξεχώρισε την εμφάνιση του Ιμάνουελ Φέι-Γουαμπόσο, ο οποίος αποχώρησε στο ημίχρονο.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-09-midday/england-australia-rugby-test.json",
+      "reader_url": "articles/2026-11-09-midday/england-australia-rugby-test.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c620r5dp51e0o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-08T19:52:48+00:00",
+          "retrieved_at": "2026-11-09T04:21:07.172308+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5b2d19c2d7af8b615ce38166d184ee30307b1b33f55a37c054064a836079af6e.webp"
     },
     {
       "story_id": "china-october-inflation-2026-11-09",

@@ -10,13 +10,18 @@
       "type": "morning",
       "url": "morning/2026-11-09.html",
       "published_at": "2026-11-09T05:38:40.545646+00:00"
+    },
+    {
+      "id": "2026-11-09-midday",
+      "type": "midday",
+      "url": "midday/2026-11-09.html",
+      "published_at": "2026-11-09T11:33:24.595482+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "china-october-inflation-2026-11-09",
+  "lead_story_id": "nvidia-board-security-review-2026-11-08",
   "stories": [
     {
       "story_id": "china-october-inflation-2026-11-09",
@@ -28,13 +33,19 @@
           "article_id": "china-october-inflation",
           "source_story_id": "china-october-inflation-2026-11-09",
           "url": "articles/2026-11-09-morning/china-october-inflation.html"
+        },
+        {
+          "edition_id": "2026-11-09-midday",
+          "article_id": "china-october-inflation",
+          "source_story_id": "china-october-inflation-2026-11-09",
+          "url": "articles/2026-11-09-midday/china-october-inflation.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-09-morning",
+        "edition_id": "2026-11-09-midday",
         "article_id": "china-october-inflation",
         "source_story_id": "china-october-inflation-2026-11-09",
-        "url": "articles/2026-11-09-morning/china-october-inflation.html"
+        "url": "articles/2026-11-09-midday/china-october-inflation.html"
       },
       "section": "world",
       "priority": 1
@@ -49,15 +60,42 @@
           "article_id": "nvidia-board-security-review",
           "source_story_id": "nvidia-board-security-review-2026-11-08",
           "url": "articles/2026-11-09-morning/nvidia-board-security-review.html"
+        },
+        {
+          "edition_id": "2026-11-09-midday",
+          "article_id": "nvidia-board-security-review",
+          "source_story_id": "nvidia-board-security-review-2026-11-08",
+          "url": "articles/2026-11-09-midday/nvidia-board-security-review.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-09-morning",
+        "edition_id": "2026-11-09-midday",
         "article_id": "nvidia-board-security-review",
         "source_story_id": "nvidia-board-security-review-2026-11-08",
-        "url": "articles/2026-11-09-morning/nvidia-board-security-review.html"
+        "url": "articles/2026-11-09-midday/nvidia-board-security-review.html"
       },
       "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "cyprus-interior-budget-housing-2027",
+      "first_seen_at": "2026-11-09T11:33:24.595482+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-09-midday",
+          "article_id": "cyprus-interior-budget-housing",
+          "source_story_id": "cyprus-interior-budget-housing-2027",
+          "url": "articles/2026-11-09-midday/cyprus-interior-budget-housing.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-09-midday",
+        "article_id": "cyprus-interior-budget-housing",
+        "source_story_id": "cyprus-interior-budget-housing-2027",
+        "url": "articles/2026-11-09-midday/cyprus-interior-budget-housing.html"
+      },
+      "section": "cyprus",
       "priority": 2
     },
     {
@@ -70,15 +108,48 @@
           "article_id": "g7-paris-cyberattacks-agenda",
           "source_story_id": "g7-paris-cyberattacks-agenda-2026-11-09",
           "url": "articles/2026-11-09-morning/g7-paris-cyberattacks-agenda.html"
+        },
+        {
+          "edition_id": "2026-11-09-midday",
+          "article_id": "g7-paris-cyberattacks-agenda",
+          "source_story_id": "g7-paris-cyberattacks-agenda-2026-11-09",
+          "url": "articles/2026-11-09-midday/g7-paris-cyberattacks-agenda.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-09-morning",
+        "edition_id": "2026-11-09-midday",
         "article_id": "g7-paris-cyberattacks-agenda",
         "source_story_id": "g7-paris-cyberattacks-agenda-2026-11-09",
-        "url": "articles/2026-11-09-morning/g7-paris-cyberattacks-agenda.html"
+        "url": "articles/2026-11-09-midday/g7-paris-cyberattacks-agenda.html"
       },
       "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "limassol-vasilieva-court-2026-11-09",
+      "first_seen_at": "2026-11-09T05:38:40.545646+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-09-morning",
+          "article_id": "limassol-vasilieva-court",
+          "source_story_id": "limassol-vasilieva-court-2026-11-09",
+          "url": "articles/2026-11-09-morning/limassol-vasilieva-court.html"
+        },
+        {
+          "edition_id": "2026-11-09-midday",
+          "article_id": "limassol-vasilieva-court",
+          "source_story_id": "limassol-vasilieva-court-2026-11-09",
+          "url": "articles/2026-11-09-midday/limassol-vasilieva-court.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-09-midday",
+        "article_id": "limassol-vasilieva-court",
+        "source_story_id": "limassol-vasilieva-court-2026-11-09",
+        "url": "articles/2026-11-09-midday/limassol-vasilieva-court.html"
+      },
+      "section": "cyprus",
       "priority": 3
     },
     {
@@ -91,13 +162,40 @@
           "article_id": "alpha-bank-cyprus-lending-plan",
           "source_story_id": "alpha-bank-cyprus-lending-plan-2026-11-09",
           "url": "articles/2026-11-09-morning/alpha-bank-cyprus-lending-plan.html"
+        },
+        {
+          "edition_id": "2026-11-09-midday",
+          "article_id": "alpha-bank-cyprus-lending-plan",
+          "source_story_id": "alpha-bank-cyprus-lending-plan-2026-11-09",
+          "url": "articles/2026-11-09-midday/alpha-bank-cyprus-lending-plan.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-09-morning",
+        "edition_id": "2026-11-09-midday",
         "article_id": "alpha-bank-cyprus-lending-plan",
         "source_story_id": "alpha-bank-cyprus-lending-plan-2026-11-09",
-        "url": "articles/2026-11-09-morning/alpha-bank-cyprus-lending-plan.html"
+        "url": "articles/2026-11-09-midday/alpha-bank-cyprus-lending-plan.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "edek-efstathiou-leadership-2026-11-09",
+      "first_seen_at": "2026-11-09T11:33:24.595482+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-09-midday",
+          "article_id": "edek-efstathiou-leadership",
+          "source_story_id": "edek-efstathiou-leadership-2026-11-09",
+          "url": "articles/2026-11-09-midday/edek-efstathiou-leadership.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-09-midday",
+        "article_id": "edek-efstathiou-leadership",
+        "source_story_id": "edek-efstathiou-leadership-2026-11-09",
+        "url": "articles/2026-11-09-midday/edek-efstathiou-leadership.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -112,37 +210,43 @@
           "article_id": "eu-tobacco-excise-cyprus",
           "source_story_id": "eu-tobacco-excise-cyprus-2026-11-09",
           "url": "articles/2026-11-09-morning/eu-tobacco-excise-cyprus.html"
+        },
+        {
+          "edition_id": "2026-11-09-midday",
+          "article_id": "eu-tobacco-excise-cyprus",
+          "source_story_id": "eu-tobacco-excise-cyprus-2026-11-09",
+          "url": "articles/2026-11-09-midday/eu-tobacco-excise-cyprus.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-09-morning",
+        "edition_id": "2026-11-09-midday",
         "article_id": "eu-tobacco-excise-cyprus",
         "source_story_id": "eu-tobacco-excise-cyprus-2026-11-09",
-        "url": "articles/2026-11-09-morning/eu-tobacco-excise-cyprus.html"
+        "url": "articles/2026-11-09-midday/eu-tobacco-excise-cyprus.html"
       },
       "section": "cyprus",
       "priority": 5
     },
     {
-      "story_id": "limassol-vasilieva-court-2026-11-09",
-      "first_seen_at": "2026-11-09T05:38:40.545646+00:00",
+      "story_id": "premier-league-bookings-2026-11-09",
+      "first_seen_at": "2026-11-09T11:33:24.595482+00:00",
       "last_substantive_at": null,
       "references": [
         {
-          "edition_id": "2026-11-09-morning",
-          "article_id": "limassol-vasilieva-court",
-          "source_story_id": "limassol-vasilieva-court-2026-11-09",
-          "url": "articles/2026-11-09-morning/limassol-vasilieva-court.html"
+          "edition_id": "2026-11-09-midday",
+          "article_id": "premier-league-bookings",
+          "source_story_id": "premier-league-bookings-2026-11-09",
+          "url": "articles/2026-11-09-midday/premier-league-bookings.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-09-morning",
-        "article_id": "limassol-vasilieva-court",
-        "source_story_id": "limassol-vasilieva-court-2026-11-09",
-        "url": "articles/2026-11-09-morning/limassol-vasilieva-court.html"
+        "edition_id": "2026-11-09-midday",
+        "article_id": "premier-league-bookings",
+        "source_story_id": "premier-league-bookings-2026-11-09",
+        "url": "articles/2026-11-09-midday/premier-league-bookings.html"
       },
-      "section": "cyprus",
-      "priority": 6
+      "section": "sports",
+      "priority": 5
     },
     {
       "story_id": "galan-chingotto-2027-2026-11-08",
@@ -154,13 +258,19 @@
           "article_id": "galan-chingotto-2027",
           "source_story_id": "galan-chingotto-2027-2026-11-08",
           "url": "articles/2026-11-09-morning/galan-chingotto-2027.html"
+        },
+        {
+          "edition_id": "2026-11-09-midday",
+          "article_id": "galan-chingotto-2027",
+          "source_story_id": "galan-chingotto-2027-2026-11-08",
+          "url": "articles/2026-11-09-midday/galan-chingotto-2027.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-09-morning",
+        "edition_id": "2026-11-09-midday",
         "article_id": "galan-chingotto-2027",
         "source_story_id": "galan-chingotto-2027-2026-11-08",
-        "url": "articles/2026-11-09-morning/galan-chingotto-2027.html"
+        "url": "articles/2026-11-09-midday/galan-chingotto-2027.html"
       },
       "section": "sports",
       "priority": 7
@@ -196,13 +306,19 @@
           "article_id": "england-australia-rugby-test",
           "source_story_id": "england-australia-rugby-test-2026-11-08",
           "url": "articles/2026-11-09-morning/england-australia-rugby-test.html"
+        },
+        {
+          "edition_id": "2026-11-09-midday",
+          "article_id": "england-australia-rugby-test",
+          "source_story_id": "england-australia-rugby-test-2026-11-08",
+          "url": "articles/2026-11-09-midday/england-australia-rugby-test.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-09-morning",
+        "edition_id": "2026-11-09-midday",
         "article_id": "england-australia-rugby-test",
         "source_story_id": "england-australia-rugby-test-2026-11-08",
-        "url": "articles/2026-11-09-morning/england-australia-rugby-test.html"
+        "url": "articles/2026-11-09-midday/england-australia-rugby-test.html"
       },
       "section": "sports",
       "priority": 9
@@ -333,6 +449,160 @@
         "article_id": "nvidia-board-security-review",
         "source_story_id": "nvidia-board-security-review-2026-11-08",
         "url": "articles/2026-11-09-morning/nvidia-board-security-review.html"
+      }
+    },
+    {
+      "id": "2217cae56813646843f11b331ba0c75aa1d2d4edf63c10e64ce5edfdac6a11b9",
+      "kind": "provenance",
+      "at": "2026-11-09T11:33:24.595482+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-09-midday",
+        "article_id": "nvidia-board-security-review",
+        "source_story_id": "nvidia-board-security-review-2026-11-08",
+        "url": "articles/2026-11-09-midday/nvidia-board-security-review.html"
+      }
+    },
+    {
+      "id": "224b3da529e7140cad79d5b8c96b6c7f099d7d9c4305eee96c2ba5e408a1a8a7",
+      "kind": "provenance",
+      "at": "2026-11-09T11:33:24.595482+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "edek-efstathiou-leadership-2026-11-09",
+      "origin": {
+        "edition_id": "2026-11-09-midday",
+        "article_id": "edek-efstathiou-leadership",
+        "source_story_id": "edek-efstathiou-leadership-2026-11-09",
+        "url": "articles/2026-11-09-midday/edek-efstathiou-leadership.html"
+      }
+    },
+    {
+      "id": "26ed79d077d9d064bb3813c6817d8f48355fc599986e81e6ea967974753550c6",
+      "kind": "provenance",
+      "at": "2026-11-09T11:33:24.595482+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "alpha-bank-cyprus-lending-plan-2026-11-09",
+      "origin": {
+        "edition_id": "2026-11-09-midday",
+        "article_id": "alpha-bank-cyprus-lending-plan",
+        "source_story_id": "alpha-bank-cyprus-lending-plan-2026-11-09",
+        "url": "articles/2026-11-09-midday/alpha-bank-cyprus-lending-plan.html"
+      }
+    },
+    {
+      "id": "3c4f17ae6ae2e4de87b85eb35619398af1ce8974e2819a34d3590240a6aa442b",
+      "kind": "provenance",
+      "at": "2026-11-09T11:33:24.595482+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-interior-budget-housing-2027",
+      "origin": {
+        "edition_id": "2026-11-09-midday",
+        "article_id": "cyprus-interior-budget-housing",
+        "source_story_id": "cyprus-interior-budget-housing-2027",
+        "url": "articles/2026-11-09-midday/cyprus-interior-budget-housing.html"
+      }
+    },
+    {
+      "id": "479ee6e3efa872f636196afa5c7dc85796d9f45feb78b93b6081a5d38397ba2b",
+      "kind": "provenance",
+      "at": "2026-11-09T11:33:24.595482+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-vasilieva-court-2026-11-09",
+      "origin": {
+        "edition_id": "2026-11-09-midday",
+        "article_id": "limassol-vasilieva-court",
+        "source_story_id": "limassol-vasilieva-court-2026-11-09",
+        "url": "articles/2026-11-09-midday/limassol-vasilieva-court.html"
+      }
+    },
+    {
+      "id": "6008abb2abb03f9787ad4374958b53d49fec5bea8fd86ade146e94d7388b052e",
+      "kind": "provenance",
+      "at": "2026-11-09T11:33:24.595482+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "eu-tobacco-excise-cyprus-2026-11-09",
+      "origin": {
+        "edition_id": "2026-11-09-midday",
+        "article_id": "eu-tobacco-excise-cyprus",
+        "source_story_id": "eu-tobacco-excise-cyprus-2026-11-09",
+        "url": "articles/2026-11-09-midday/eu-tobacco-excise-cyprus.html"
+      }
+    },
+    {
+      "id": "6ffef23284260fa8187fe822c341fcb64b29c6bdf2c13b5458bc6b24877dd59c",
+      "kind": "provenance",
+      "at": "2026-11-09T11:33:24.595482+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "china-october-inflation-2026-11-09",
+      "origin": {
+        "edition_id": "2026-11-09-midday",
+        "article_id": "china-october-inflation",
+        "source_story_id": "china-october-inflation-2026-11-09",
+        "url": "articles/2026-11-09-midday/china-october-inflation.html"
+      }
+    },
+    {
+      "id": "929033e52845b0dfa35e72c013d6c00107ced81d3975efc3b60be2eaa2f0b747",
+      "kind": "provenance",
+      "at": "2026-11-09T11:33:24.595482+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "premier-league-bookings-2026-11-09",
+      "origin": {
+        "edition_id": "2026-11-09-midday",
+        "article_id": "premier-league-bookings",
+        "source_story_id": "premier-league-bookings-2026-11-09",
+        "url": "articles/2026-11-09-midday/premier-league-bookings.html"
+      }
+    },
+    {
+      "id": "b27817c7b80d955d528bdc992159e0baac9217550e98c84b0a674cb3b1053f6a",
+      "kind": "provenance",
+      "at": "2026-11-09T11:33:24.595482+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "england-australia-rugby-test-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-09-midday",
+        "article_id": "england-australia-rugby-test",
+        "source_story_id": "england-australia-rugby-test-2026-11-08",
+        "url": "articles/2026-11-09-midday/england-australia-rugby-test.html"
+      }
+    },
+    {
+      "id": "b74458229a0cfc3e6f9d6e96579d951e228a738b9a7f6bb2731309863ac65b7c",
+      "kind": "provenance",
+      "at": "2026-11-09T11:33:24.595482+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "galan-chingotto-2027-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-09-midday",
+        "article_id": "galan-chingotto-2027",
+        "source_story_id": "galan-chingotto-2027-2026-11-08",
+        "url": "articles/2026-11-09-midday/galan-chingotto-2027.html"
+      }
+    },
+    {
+      "id": "d18326cc626d0f7eb6148e664d1361c2c303af631a7591f3cf3bc0ac7d1594b3",
+      "kind": "provenance",
+      "at": "2026-11-09T11:33:24.595482+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "g7-paris-cyberattacks-agenda-2026-11-09",
+      "origin": {
+        "edition_id": "2026-11-09-midday",
+        "article_id": "g7-paris-cyberattacks-agenda",
+        "source_story_id": "g7-paris-cyberattacks-agenda-2026-11-09",
+        "url": "articles/2026-11-09-midday/g7-paris-cyberattacks-agenda.html"
       }
     }
   ],
@@ -542,23 +812,21 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Στην Κίνα επιταχύνονται οι τιμές παραγωγού ενώ φρενάρουν οι τιμές καταναλωτή. Για τους προμηθευτές, το τεστ είναι αν το κόστος περνά στις τελικές τιμές. Στη Nvidia, η έρευνα του διοικητικού συμβουλίου ανοίγει χωριστό ζήτημα εταιρικής εποπτείας: για πελάτες και επενδυτές μετρούν το πόρισμα και τυχόν επίσημες αλλαγές στους ελέγχους της εταιρείας.",
+        "text": "Η παρουσίαση του προϋπολογισμού του ΥΠΕΣ βάζει την προσιτή στέγαση στις προτεραιότητες του 2027. Για όσους αναζητούν κατοικία, η πρακτική αλλαγή θα φανεί στους όρους των επιμέρους σχεδίων, στο ποσό που θα διατεθεί για καθένα και στον χρόνο εξέτασης των αιτήσεων.",
         "story_ids": [
-          "china-october-inflation-2026-11-09",
-          "nvidia-board-security-review-2026-11-08"
+          "cyprus-interior-budget-housing-2027"
         ]
       },
       {
-        "text": "Στην Κύπρο, ο στόχος της Alpha Bank για ταχύτερη αύξηση των δανείων βάζει στο επίκεντρο τους όρους που θα προσφέρουν οι τράπεζες. Στον καπνό, η συζήτηση αφορά το ύψος και το πεδίο των ευρωπαϊκών ελάχιστων φόρων. Οι επόμενες προσφορές δανείων και το κείμενο που θα προκύψει στο Συμβούλιο θα δείξουν ποια από τα δύο σχέδια αλλάζουν πρακτικά τους όρους για τους καταναλωτές.",
+        "text": "Μετά την ανακοίνωση της έρευνας της Nvidia, το Πεκίνο απέρριψε τους ισχυρισμούς περί κατασκοπείας και το CNBC κατέγραψε πτώση της μετοχής πριν από το άνοιγμα. Για τους επενδυτές, το πρώτο τεστ είναι αν η μετοχή εξακολουθεί να αποκλίνει από τον κλάδο στην κανονική συνεδρίαση. Για τους πελάτες, το ουσιαστικό ερώτημα είναι αν η έρευνα οδηγήσει σε αλλαγές στους εταιρικούς ελέγχους.",
         "story_ids": [
-          "alpha-bank-cyprus-lending-plan-2026-11-09",
-          "eu-tobacco-excise-cyprus-2026-11-09"
+          "nvidia-board-security-review-2026-11-08"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-09T05:40:42.337188+00:00",
-  "updated_at": "2026-11-09T05:40:42.337188+00:00",
-  "input_sha256": "e7e192ea3ec8ed04f4c93746be2a27b18d70b838dbf0962c86f597368e361902"
+  "updated_at": "2026-11-09T11:35:28.729850+00:00",
+  "input_sha256": "e95335f80134a524add1c02f67929466d1f0665a2c6bc6d45b5644ba08a659b4"
 }
