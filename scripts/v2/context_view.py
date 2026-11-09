@@ -64,6 +64,8 @@ def synthesis(pack,max_bytes=48000):
                for line in lines]
         lines.insert(-1,'Sports contract intelligence-v1: write @SportBrief interest=omonoia|manutd|realmadrid|formula1 evidence=e1,e2 changed="reported change" meaning="sporting consequence" watch="observable next test" for favourites with article evidence (40–60 words; 70 maximum each). Use only evidence assigned to that interest. No score-based tactics or injuries. Without evidence leave the card unavailable; do not claim no news. These annotations have a separate allowance from news articles, within the unchanged output-token budget.')
         lines.insert(-1,'Beyond my four: select 2–3 sports articles, interest=other, one each tagged padel, football, or other-sport. Exclude the four favourites. Include @Fact plus @Effects and @AnalysisSources; 35–50 words preferred, 70 maximum across fact/effects. No long sports essay. If fewer than two, add @SportsReason followed by the actual evidence limitation. Aim for 300–400 sports words overall; maximum 450. Keep Greek prose, source independence and verified dates; feed-only headlines cannot support a briefing.')
+    if pack.get('coverage_policy')=='auditable-v1':
+        lines.insert(-1,'Shortfall audit: if a news desk has fewer than four selected distinct events (including exact carries), give @Exclude candidate=c1 reason="specific editorial reason, at least 20 characters" for EACH visible readable candidate not selected in that desk, in addition to @Coverage. Feed-only and input-byte-cap exclusions are recorded by Python. Different publishers reporting the same explicit event cannot fill separate story slots. Grouped prose citations [e1,e2] are validated member by member; all aliases must be declared in @Evidence or @Source.')
     if enriched:
         lines=[line.replace('@Fact two factual sentences [e1]', '@Fact usually three factual sentences, 55–75 Greek words [e1]')
                .replace('secondary reports remain two clear factual sentences.',
@@ -183,12 +185,17 @@ def synthesis(pack,max_bytes=48000):
             blocks.append([encoded(metadata),evidence_line(usable(c)[0],limit)])
         return blocks
     # Keep an explicit inventory even when a genuinely oversized pack needs omissions.
-    inventory=[{'id':c['id'],'section':c['section'],'usable_evidence':len(usable(c))} for c in pack['candidates']]
+    inventory=[{'id':c['id'],'section':c['section'],'usable_evidence':len(usable(c)),
+                **({'excluded':sorted({e.get('rejection_reason','feed_only') for e in c['evidence']})} if not usable(c) else {})}
+               for c in pack['candidates']]
     lines.append('Candidate inventory: '+encoded(inventory))
     lines.append('Collection pipeline: '+encoded({k:{name:v[name] for name in ('discovered','fetched','readable')}
                  for k,v in pack.get('metrics',{}).get('pipeline',{}).items()}))
     if financial:lines.append('Article source URLs/full metadata stay in the sealed pack and resolve through @Evidence aliases. Publication/reporting-chain metadata below supports review; excerpts are selected passages in source order, […] marks omissions. Never invent URLs or treat publisher variety as independence.')
-    def fits(extra):return len(('\n'.join(lines+extra)+'\n').encode('utf-8'))<=max_bytes-1200
+    # Reserve the actual diagnostic inventory, not a fixed footer guess.
+    diagnostics=[{'id':c['id'],'section':c['section'],'reason':'input_byte_cap'} for c in ordered]
+    footer_reserve=1200+len(encoded(diagnostics).encode('utf-8'))
+    def fits(extra):return len(('\n'.join(lines+extra)+'\n').encode('utf-8'))<=max_bytes-footer_reserve
     sizes=((2400,1600),(1800,1200),(1400,1000),(1000,700))
     if modern:sizes+=((800,600),)
     for lead_limit,secondary_limit in sizes:
@@ -230,6 +237,14 @@ def synthesis(pack,max_bytes=48000):
     coverage={desk:sum(c['section']==desk for c in included) for desk in ('cyprus','world','sports')}
     lines.append('Visible article-backed candidates by desk: '+encoded(coverage)+'. Review every visible news candidate; these counts describe evidence, not an editorial verdict. A shortfall must reflect weak/redundant evidence, never a hidden input truncation. No padding or extra research loop.')
     omitted=len(ordered)-len(included)
+    lines.append('Excluded article-backed candidates: '+encoded([row for row,c in zip(diagnostics,ordered) if c not in included]))
+    for desk in ('cyprus','world'):
+        if coverage[desk]<4:
+            reasons={}
+            for row in pack.get('metrics',{}).get('pipeline',{}).get(desk,{}).get('rejected',[]):
+                reason=row['reason'];reasons[reason]=reasons.get(reason,0)+1
+            lines.append('Evidence shortfall '+desk+': '+encoded({'target':4,'visible':coverage[desk],
+                'rejections':reasons,'details':'Candidate IDs/reasons above; URL-level collection exclusions remain in sealed metrics.pipeline.'}))
     lines.append(f'Omitted candidate clusters due to input byte cap: {omitted}. Feed-only candidates listed in the inventory are discovery, unavailable for claims; never launch a broad collection loop.')
     text='\n'.join(lines)+'\n'
     if len(text.encode('utf-8'))>max_bytes:

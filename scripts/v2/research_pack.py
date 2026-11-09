@@ -64,6 +64,7 @@ def hydrate(payload,pack,root,at=None):
         payload[key]=copy.deepcopy(pack['data'][key])
     if pack.get('financial_policy')=='news-insights-v1' and payload.get('market_briefs'):
         raise ValueError('Use financial insights instead of duplicate @Market explanations')
+    review_candidates(payload,pack,old_records)
     module('market_briefing').hydrate(payload,pack,old_records)
     module('financial_insights').hydrate(payload,pack,module('market_briefing'))
     module('sports_briefing').hydrate(payload,pack)
@@ -122,6 +123,41 @@ def hydrate(payload,pack,root,at=None):
     payload['prefetch_provenance']={'sha256':pack['sha256'],'prepared_at':pack['prepared_at']}
     module('source_photos').attach(payload,pack)
     return payload
+
+
+def review_candidates(payload,pack,old_records):
+    """Account for every visible alternative at a shortage, without new research."""
+    reasons=payload.pop('candidate_exclusions',{})
+    if pack.get('coverage_policy')!='auditable-v1':
+        if reasons:raise ValueError('@Exclude requires an auditable-v1 pack')
+        return
+    news=module('news_digest')
+    candidates={c['id']:c for c in pack['candidates']}
+    if set(reasons)-set(candidates) or any(not isinstance(v,str) or len(v.strip())<20 for v in reasons.values()):
+        raise ValueError('Candidate exclusions need known IDs and specific reasons')
+    selected=payload['articles']+[old_records[sid] for sid in payload.get('carry_story_ids',[]) if sid in old_records]
+    counts={desk:sum((a.get('section') or module('selection').section(a))==desk for a in selected) for desk in ('world','cyprus')}
+    urls={a['story_id']:{news.canonical(s['url']) for s in a.get('sources',[])} for a in selected}
+    digest=module('context_view').synthesis(pack)
+    visible={json.loads(line)['id'] for line in digest.splitlines() if line.startswith('{"id":') and '"section":' in line}
+    audit={}
+    for cid,candidate in candidates.items():
+        if candidate['section'] not in counts:continue
+        ev=candidate['evidence'];readable=[e for e in ev if e.get('access')=='article_excerpt' and e.get('source') and e.get('excerpt')]
+        evidence_urls={news.canonical(e['source']['url']) for e in readable}
+        owners={sid for sid,links in urls.items() if links & evidence_urls}
+        if len(owners)>1 and news.event_hint(candidate['title']):
+            raise ValueError('Distinct story slots reuse one explicit event: '+cid+'; review identity, never auto-merge')
+        if owners:
+            if cid in reasons:raise ValueError('Selected candidate cannot also be excluded: '+cid)
+            continue
+        if not readable:
+            audit[cid]='evidence: '+', '.join(sorted({e.get('rejection_reason','feed_only') for e in ev}))
+        elif cid not in visible:audit[cid]='input_byte_cap: not visible to synthesis'
+        elif cid in reasons:audit[cid]=reasons[cid]
+        elif counts[candidate['section']]<4:
+            raise ValueError('Coverage below four needs @Exclude candidate='+cid+' reason="..."')
+    payload.setdefault('selection_review',dict(version=2,completed_at=None,global_exception_reason=None,section_shortfalls={}))['candidate_exclusions']=audit
 
 
 def output_budget(text,slot):

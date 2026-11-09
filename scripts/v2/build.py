@@ -19,9 +19,11 @@ BASE = 'https://jodemon9.github.io/Claude-Briefing/'
 TYPES = {'morning': 'Πρωινή', 'midday': 'Μεσημεριανή', 'evening': 'Βραδινή'}
 TEAMS = {'omonoia': 'Ομόνοια', 'manutd': 'Manchester United', 'realmadrid': 'Real Madrid', 'formula1': 'Formula 1'}
 UNKNOWN = 'Δεν έχει επαληθευτεί.'
+_spec=importlib.util.spec_from_file_location('build_citations',Path(__file__).with_name('citations.py'))
+citations=importlib.util.module_from_spec(_spec);_spec.loader.exec_module(citations)
 
 def esc(value):
-    return html.escape(str(value if value is not None else ''), quote=True)
+    return html.escape(citations.public_text(str(value if value is not None else '')), quote=True)
 
 def stamp(value, timezone='Europe/Athens'):
     if not value:
@@ -35,6 +37,8 @@ def read(path):
 
 def write(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
+    if path.suffix in ('.html','.json'):
+        text=citations.public_text(text)
     path.write_text(text, encoding='utf-8', newline='\n')
 
 def sources_label(sources):
