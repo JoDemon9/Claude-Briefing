@@ -48,7 +48,10 @@ class HandoffTests(unittest.TestCase):
             for lane in entries:
                 i=len(candidates)+1
                 candidates.append(dict(id=f'c{i}',section=section,title='Νέα ανακοίνωση',sports_lane=lane,
-                    evidence=[dict(id=f'e{i}',access='article_excerpt',sports_lane=lane,excerpt=report*20,
+                    # Distinct facts force genuine projection pressure even when
+                    # repeated source paragraphs are correctly deduplicated.
+                    evidence=[dict(id=f'e{i}',access='article_excerpt',sports_lane=lane,
+                                   excerpt='\n'.join(f'Μέτρο {n}: '+report for n in range(20)),
                                    source=dict(url=f'https://example.org/{i}',publisher='Fixture'))]))
         original=dict(edition_id='2026-11-04-evening',prepared_at='2026-11-04T17:00:00+00:00',
             sha256='fixture',weather_status='available',candidates=candidates,

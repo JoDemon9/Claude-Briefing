@@ -22,8 +22,8 @@ class PrivateNovemberPacks(unittest.TestCase):
         cls.runs=Path(os.environ['NOVEMBER_PACK_ROOT'])
         cls.paths=sorted(cls.runs.glob('2026-11-0[789]-*/research_pack.json'))
 
-    def test_all_eight_sealed_packs_replay_with_unchanged_caps_and_provenance(self):
-        self.assertEqual(len(self.paths),8)
+    def test_all_nine_sealed_packs_replay_with_unchanged_caps_and_provenance(self):
+        self.assertEqual(len(self.paths),9)
         for path in self.paths:
             with self.subTest(edition=path.parent.name):
                 pack=audit.module('research_pack').load(path);before=copy.deepcopy(pack)
