@@ -1,0 +1,84 @@
+{
+  "analysis_sources": [
+    "https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates",
+    "https://www.reuters.com/business/energy/russia-attacks-energy-facilities-eight-ukrainian-regions-grid-operator-says-2026-11-10/"
+  ],
+  "category": "Πρώτο θέμα",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "delta_update": "Ο διαχειριστής του δικτύου κατέγραψε διακοπές μετά τα νέα πλήγματα.",
+  "driver_tags": [
+    "energy",
+    "infrastructure"
+  ],
+  "edition_id": "2026-11-10-midday",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Πλήγματα σε υποσταθμούς μεταφοράς και διακοπές ρεύματος στην Ουκρανία",
+  "id": "ukraine-grid-substation-strikes",
+  "image": {
+    "alt": "Firefighters work at a site of a damaged building hit during a Russian drone strike in Kremenchuk, in the Poltava region. The picture was released 9 November 2026. Photograph: State Emergency Service of Ukraine/Reuters",
+    "attribution": "the Guardian",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Firefighters work at a site of a damaged building hit during a Russian drone strike in Kremenchuk, in the Poltava region. The picture was released 9 November 2026. Photograph: State Emergency Service of Ukraine/Reuters · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates",
+    "original_url": "https://i.guim.co.uk/img/media/837dd8d147845937607eadb4a6c01ec42fbc8591/0_0_2048_1365/master/2048.jpg?width=465&dpr=1&s=none&crop=none",
+    "retrieved_at": "2026-11-10T11:00:43.663841+00:00",
+    "source_review": {
+      "checked_at": "2026-11-10T11:00:43.663841+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "f5bea63bf1f1f323",
+      "rights_basis": "publisher-attribution",
+      "sha256": "978035c3506e4f35b317965cecc7a75d37deac728bb2c752d0e5e55f357bc76c"
+    },
+    "source_url": "https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates",
+    "url": "assets/editorial/source/978035c3506e4f35b317965cecc7a75d37deac728bb2c752d0e5e55f357bc76c.webp"
+  },
+  "mechanics_and_incentives": "Οι υποσταθμοί συνδέουν διαφορετικά τμήματα του δικτύου. Όταν τίθενται εκτός, μπορεί να περιοριστεί η μεταφορά ρεύματος ακόμη και προς περιοχές που δεν κατονομάζονται ως στόχοι.",
+  "published_at": "2026-11-10T11:34:43.490485+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "watch_next": "Νεότερη ενημέρωση της Ukrenergo για την επαναφορά της τροφοδοσίας ανά περιοχή και για τυχόν περιορισμούς που παραμένουν."
+  },
+  "second_order_effects": "Για νοικοκυριά και επιχειρήσεις, η ανακοίνωση αποκατάστασης ενός υποσταθμού δεν σημαίνει αυτόματα σταθερή τροφοδοσία σε κάθε περιοχή. Η διάρκεια των διακοπών εξαρτάται από τις επισκευές και τις διαθέσιμες εναλλακτικές διαδρομές τροφοδοσίας.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Ο πρωθυπουργός της Ουκρανίας ανέφερε ότι τα ρωσικά πλήγματα τη νύχτα προς τη 10η Νοεμβρίου έπληξαν πέντε μεγάλους υποσταθμούς που μεταφέρουν ηλεκτρική ενέργεια μεταξύ περιφερειών, σύμφωνα με τον Guardian. Χωριστά, η Ukrenergo κατέγραψε πλήγματα σε ενεργειακές υποδομές οκτώ περιφερειών και διακοπές ρεύματος σε έξι, μεταξύ τους το Κίεβο, το Χάρκοβο και το Σούμι, σύμφωνα με το Reuters."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-10T10:58:18+00:00",
+      "publisher": "The Guardian",
+      "reporting_group": "The Guardian",
+      "retrieved_at": "2026-11-10T11:00:36.552352+00:00",
+      "url": "https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": null,
+      "publisher": "Reuters",
+      "reporting_group": "Reuters",
+      "retrieved_at": "2026-11-10T11:32:49+00:00",
+      "url": "https://www.reuters.com/business/energy/russia-attacks-energy-facilities-eight-ukrainian-regions-grid-operator-says-2026-11-10/",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "ukraine-grid-substation-strikes-2026-11-10",
+  "story_identity": "ukraine-grid-substation-strikes-2026-11-10",
+  "summary": "Ο πρωθυπουργός της Ουκρανίας ανέφερε ότι τα ρωσικά πλήγματα τη νύχτα προς τη 10η Νοεμβρίου έπληξαν πέντε μεγάλους υποσταθμούς που μεταφέρουν ηλεκτρική ενέργεια μεταξύ περιφερειών, σύμφωνα με τον Guardian. Χωριστά, η Ukrenergo κατέγραψε πλήγματα σε ενεργειακές υποδομές οκτώ περιφερειών και διακοπές ρεύματος σε έξι, μεταξύ τους το Κίεβο, το Χάρκοβο και το Σούμι, σύμφωνα με το Reuters.",
+  "updated_at": "2026-11-10T11:34:43.490485+00:00",
+  "url": "articles/2026-11-10-midday/ukraine-grid-substation-strikes.html"
+}
