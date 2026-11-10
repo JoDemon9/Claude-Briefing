@@ -86,6 +86,8 @@ class NovemberRegressions(unittest.TestCase):
             ('Delhi pollution rises before Diwali','https://cyprus-mail.com/2026/11/07/pollution','world'),
             ('Man Utd in relegation zone after chaotic draw','https://cyprus-mail.com/2026/11/08/match','sports'),
             ('Formula E boss criticises F1','https://cyprus-mail.com/2026/11/07/race','sports'),
+            ('Live: Ολυμπιακός – Απόλλων','https://example.com/match','sports'),
+            ('Live: Floods – emergency updates','https://example.com/local','cyprus'),
             ('Κειμήλια στο μουσείο στη Θεσσαλονίκη','https://www.philenews.com/kipros/koinonia/article/1/report','world'),
             ('Health model predicts global benefit','https://www.philenews.com/igia-news/zoi-evexia/article/1/report','world'),
             ('Cyprus discusses defence ties with US','https://cyprus-mail.com/2026/11/09/ties','cyprus'),

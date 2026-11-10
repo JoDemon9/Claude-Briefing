@@ -93,7 +93,7 @@ def geography(title,url,fallback):
     political=re.search(r'presiden|election|προεδρ|εκλογ',text)
     if not political and (re.search(r'/(?:sport|sports|athlitika)/',path) or
             re.search(r'\b(?:formula [e1]|\bf1\b|man utd|manchester united|world cup|premier league|coventry|constructors.? title)\b',text) or
-            re.match(r'live:.*[–-]',text)):
+            re.match(r'live:\s*(?:ολυμπιακος|απολλων|αποελ|ομονοια)\b.*[–-]',text)):
         return 'sports'
     if re.search(r'κυπρ|cyprus|nicosia|limassol|λευκωσ|λεμεσ|λαρνακ|αμμοχωστ',text):return 'cyprus'
     # Explicit location outranks a publisher's broad /kipros/ directory.
