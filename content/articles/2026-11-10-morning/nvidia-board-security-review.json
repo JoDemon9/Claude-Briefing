@@ -1,0 +1,85 @@
+{
+  "analysis_sources": [
+    "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html"
+  ],
+  "category": "Διεθνή",
+  "change_status": "UPDATED",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "delta_update": "Νέα εξέλιξη είναι η δημόσια δήλωση του Τραμπ για το FBI. Το αίτημα ενημέρωσης της Βουλής είναι προγενέστερο.",
+  "driver_tags": [
+    "technology",
+    "finance",
+    "market-mover"
+  ],
+  "edition_id": "2026-11-10-morning",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Ο Τραμπ δηλώνει ότι το FBI ερευνά την υπόθεση του επικεφαλής της Nvidia",
+  "id": "nvidia-board-security-review",
+  "image": {
+    "alt": "A composite image of Donald Trump on the right and Jensen Huang on the left",
+    "attribution": "BBC News",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · A composite image of Donald Trump on the right and Jensen Huang on the left · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+    "original_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/f773/live/9c28e680-dc95-11f1-a701-fddedf244c16.jpg",
+    "retrieved_at": "2026-11-10T04:21:15.385146+00:00",
+    "source_review": {
+      "checked_at": "2026-11-10T04:21:15.385146+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "9cb4e4b5ace4a4e7",
+      "rights_basis": "publisher-attribution",
+      "sha256": "275c8937d24586d4a68029a3851711b5b525ebb2182f5e01540199e3c1b486a0"
+    },
+    "source_url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+    "url": "assets/editorial/source/275c8937d24586d4a68029a3851711b5b525ebb2182f5e01540199e3c1b486a0.webp"
+  },
+  "mechanics_and_incentives": "Η εταιρική έρευνα, η αναφορά του Τραμπ για το FBI και το αίτημα της Βουλής είναι διαφορετικές διαδικασίες. Η δήλωση του προέδρου δεν διευκρινίζει το εύρος της έρευνας που περιγράφει.",
+  "published_at": "2026-11-09T05:38:40.545646+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "watch_next": "Επίσημη ανακοίνωση για το αντικείμενο της έρευνας, διεξαγωγή της ενημέρωσης της Βουλής και συγκεκριμένες αλλαγές στους εταιρικούς ελέγχους."
+  },
+  "second_order_effects": "Για τους πελάτες της Nvidia, πρακτική συνέπεια θα προέκυπτε αν άλλαζαν οι όροι πώλησης, οι έλεγχοι πελατών ή η πρόσβαση σε προϊόντα. Τα διαθέσιμα ρεπορτάζ δεν τεκμηριώνουν τέτοια αλλαγή.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Ο Ντόναλντ Τραμπ δήλωσε στο BBC ότι το FBI ερευνά την υπόθεση του διευθύνοντος συμβούλου της Nvidia, Τζένσεν Χουάνγκ. Η Nvidia έχει ήδη αναθέσει χωριστή ανεξάρτητη έρευνα και δήλωσε ότι δεν έχει λόγο να πιστεύει πως τέθηκαν σε κίνδυνο εταιρικά μυστικά ή η εθνική ασφάλεια. Το CNBC αναφέρει ότι επικεφαλής επιτροπών της Βουλής έχουν ζητήσει από τον Χουάνγκ να συμμετάσχει σε ενημέρωση στις 18 Νοεμβρίου."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-10T03:58:13+00:00",
+      "publisher": "BBC",
+      "reporting_group": "BBC",
+      "retrieved_at": "2026-11-10T04:21:09.786021+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-09T10:35:23+00:00",
+      "publisher": "CNBC",
+      "reporting_group": "CNBC",
+      "retrieved_at": "2026-11-10T04:21:10.140114+00:00",
+      "url": "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "nvidia-board-security-review-2026-11-08",
+  "story_identity": "nvidia-board-security-review-2026-11-08",
+  "summary": "Ο Ντόναλντ Τραμπ δήλωσε στο BBC ότι το FBI ερευνά την υπόθεση του διευθύνοντος συμβούλου της Nvidia, Τζένσεν Χουάνγκ. Η Nvidia έχει ήδη αναθέσει χωριστή ανεξάρτητη έρευνα και δήλωσε ότι δεν έχει λόγο να πιστεύει πως τέθηκαν σε κίνδυνο εταιρικά μυστικά ή η εθνική ασφάλεια. Το CNBC αναφέρει ότι επικεφαλής επιτροπών της Βουλής έχουν ζητήσει από τον Χουάνγκ να συμμετάσχει σε ενημέρωση στις 18 Νοεμβρίου.",
+  "updated_at": "2026-11-10T05:30:51.007537+00:00",
+  "url": "articles/2026-11-10-morning/nvidia-board-security-review.html"
+}

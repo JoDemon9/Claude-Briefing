@@ -1,0 +1,76 @@
+{
+  "analysis_sources": [
+    "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html"
+  ],
+  "baseline_origin": {
+    "edition_id": "2026-11-09-midday",
+    "fingerprint": "4b42fb303a3bcbb88c10b5fe6010c665b47d895b2a7a232c8d3540f77a15ab74"
+  },
+  "category": "Διεθνή",
+  "change_status": "UNCHANGED",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "driver_tags": [
+    "finance",
+    "macro"
+  ],
+  "edition_id": "2026-11-09-evening",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Κίνα: επιτάχυνση στις τιμές παραγωγού, φρένο στον πληθωρισμό καταναλωτή",
+  "id": "china-october-inflation",
+  "image": {
+    "alt": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+    "attribution": "CNBC",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · China wholesale inflation hits highest in more than four years as consumer measure slows · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+    "original_url": "https://image.cnbcfm.com/api/v1/image/108545286-1794185503611-gettyimages-2300115692-vcg111674152282.jpeg?v=1794185552&w=1200&h=675",
+    "retrieved_at": "2026-11-09T04:21:13.376743+00:00",
+    "source_review": {
+      "checked_at": "2026-11-09T04:21:13.376743+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "9bcb4424c3c3a687",
+      "rights_basis": "publisher-attribution",
+      "sha256": "64fc593d0c291f738ccd039439f1d6069da916173fd1f77d8b95bc85f81260e0"
+    },
+    "source_url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+    "url": "assets/editorial/source/64fc593d0c291f738ccd039439f1d6069da916173fd1f77d8b95bc85f81260e0.webp"
+  },
+  "mechanics_and_incentives": "Η άνοδος των τιμών στην παραγωγή μπορεί να περάσει στα ράφια με καθυστέρηση. Ο γενικός δείκτης καταναλωτή, όμως, επηρεάζεται και από τα τρόφιμα και τα καύσιμα, οπότε η απόκλιση ενός μήνα δεν δείχνει από μόνη της πόσο κόστος μετακυλίστηκε.",
+  "published_at": "2026-11-09T05:38:40.545646+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "watch_next": "Στην επόμενη μέτρηση, αν η απόκλιση παραμένει και αν η άνοδος του δείκτη καταναλωτή απλώνεται πέρα από τα καύσιμα."
+  },
+  "second_order_effects": "Για εισαγωγείς και λιανεμπόρους έχει σημασία αν αυξάνονται οι τιμές των συγκεκριμένων προϊόντων που αγοράζουν και αν μπορούν να αναπροσαρμόσουν τις δικές τους τιμές χωρίς να χάσουν πωλήσεις.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Ο ετήσιος πληθωρισμός καταναλωτή της Κίνας υποχώρησε τον Οκτώβριο στο 0,7% από 0,9% τον Σεπτέμβριο, έναντι πρόβλεψης 0,8% στη δημοσκόπηση του Reuters που μεταφέρει το CNBC. Οι τιμές παραγωγού αυξήθηκαν με τον ταχύτερο ρυθμό από τον Ιούνιο του 2022. Η κινεζική στατιστική υπηρεσία απέδωσε στη βενζίνη τη μεγαλύτερη ανοδική συμβολή στις τιμές καταναλωτή, την οποία αντιστάθμισε εν μέρει η πτώση των τιμών τροφίμων."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-09T01:40:11+00:00",
+      "publisher": "CNBC",
+      "reporting_group": "CNBC",
+      "retrieved_at": "2026-11-09T04:21:07.072381+00:00",
+      "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "china-october-inflation-2026-11-09",
+  "story_identity": "china-october-inflation-2026-11-09",
+  "summary": "Ο ετήσιος πληθωρισμός καταναλωτή της Κίνας υποχώρησε τον Οκτώβριο στο 0,7% από 0,9% τον Σεπτέμβριο, έναντι πρόβλεψης 0,8% στη δημοσκόπηση του Reuters που μεταφέρει το CNBC. Οι τιμές παραγωγού αυξήθηκαν με τον ταχύτερο ρυθμό από τον Ιούνιο του 2022. Η κινεζική στατιστική υπηρεσία απέδωσε στη βενζίνη τη μεγαλύτερη ανοδική συμβολή στις τιμές καταναλωτή, την οποία αντιστάθμισε εν μέρει η πτώση των τιμών τροφίμων.",
+  "updated_at": "2026-11-09T05:38:40.545646+00:00",
+  "url": "articles/2026-11-09-evening/china-october-inflation.html"
+}

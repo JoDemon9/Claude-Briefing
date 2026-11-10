@@ -1,0 +1,84 @@
+{
+  "analysis_sources": [
+    "https://www.theguardian.com/business/2026/nov/09/amazon-driver-died-inquiry-manually-operated-level-crossing-kent",
+    "https://www.gov.uk/government/news/report-122026-collision-between-a-passenger-train-and-a-van-at-bax-level-crossing"
+  ],
+  "category": "Πρώτο θέμα",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "delta_update": "Η νέα εξέλιξη είναι η δημοσίευση των ευρημάτων και των συστάσεων, δεκαέξι μήνες μετά τη σύγκρουση.",
+  "driver_tags": [
+    "transport",
+    "safety"
+  ],
+  "edition_id": "2026-11-09-evening",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Βρετανία: τέσσερις συστάσεις μετά το πόρισμα για τη θανατηφόρα σύγκρουση στη διάβαση Bax",
+  "id": "bax-crossing-raib-report",
+  "image": {
+    "alt": "‘Obvious risk of further tragedy’ at rail crossing type at which Amazon driver died, inquiry finds",
+    "attribution": "the Guardian",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · ‘Obvious risk of further tragedy’ at rail crossing type at which Amazon driver died, inquiry finds · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.theguardian.com/business/2026/nov/09/amazon-driver-died-inquiry-manually-operated-level-crossing-kent",
+    "original_url": "https://i.guim.co.uk/img/media/2c9380b8b1020412df6921ea4a4e0e4d68512f5c/511_0_7678_6144/master/7678.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=10f2bb0fead93203b5abab63b8495b1d",
+    "retrieved_at": "2026-11-09T16:21:08.393272+00:00",
+    "source_review": {
+      "checked_at": "2026-11-09T16:21:08.393272+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "b2f26cd1d58c2c1c",
+      "rights_basis": "publisher-attribution",
+      "sha256": "05e1a9a800173ee4853d72f73f5a23a6f2d597b7f08305d034ead511bd177f74"
+    },
+    "source_url": "https://www.theguardian.com/business/2026/nov/09/amazon-driver-died-inquiry-manually-operated-level-crossing-kent",
+    "url": "assets/editorial/source/05e1a9a800173ee4853d72f73f5a23a6f2d597b7f08305d034ead511bd177f74.webp"
+  },
+  "mechanics_and_incentives": "Το πράσινο έδειχνε ότι δεν πλησίαζε τρένο τη συγκεκριμένη στιγμή· δεν επιβεβαίωνε ότι είχαν ανοίξει και οι δύο πύλες. Η σήμανση και η εκπαίδευση δεν βοήθησαν επαρκώς τον οδηγό να ξεχωρίσει αυτά τα δύο.",
+  "published_at": "2026-11-09T17:29:38.932490+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "watch_next": "Η απάντηση της Network Rail για τον σχεδιασμό και των αρμόδιων αρχών για την καθοδήγηση των οδηγών."
+  },
+  "second_order_effects": "Για διανομείς που δεν γνωρίζουν τη διάβαση, καλύτερες οδηγίες μπορούν να μειώσουν τα λάθη, αλλά ο ανασχεδιασμός θα μπορούσε να περιορίσει και την εξάρτηση από τη σωστή ερμηνεία τους.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Η βρετανική υπηρεσία διερεύνησης σιδηροδρομικών ατυχημάτων δημοσίευσε στις 9 Νοεμβρίου το πόρισμα για τη σύγκρουση της 13ης Ιουλίου 2025 στο Κεντ, στην οποία σκοτώθηκε οδηγός διανομών. Σύμφωνα με το πόρισμα, το πράσινο σήμα πιθανότατα τον έκανε να πιστέψει ότι μπορούσε να περάσει, ενώ η πύλη εξόδου ήταν κλειστή. Η υπηρεσία διατύπωσε τέσσερις συστάσεις, μεταξύ τους επανεξέταση του σχεδιασμού των χειροκίνητων διαβάσεων."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-09T13:43:57+00:00",
+      "publisher": "The Guardian",
+      "reporting_group": "The Guardian",
+      "retrieved_at": "2026-11-09T16:21:00.751247+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/09/amazon-driver-died-inquiry-manually-operated-level-crossing-kent",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "primary",
+      "published_at": null,
+      "publisher": "Rail Accident Investigation Branch",
+      "reporting_group": "Rail Accident Investigation Branch",
+      "retrieved_at": "2026-11-09T17:27:49+00:00",
+      "url": "https://www.gov.uk/government/news/report-122026-collision-between-a-passenger-train-and-a-van-at-bax-level-crossing",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "bax-crossing-raib-report-2026-11-09",
+  "story_identity": "bax-crossing-raib-report-2026-11-09",
+  "summary": "Η βρετανική υπηρεσία διερεύνησης σιδηροδρομικών ατυχημάτων δημοσίευσε στις 9 Νοεμβρίου το πόρισμα για τη σύγκρουση της 13ης Ιουλίου 2025 στο Κεντ, στην οποία σκοτώθηκε οδηγός διανομών. Σύμφωνα με το πόρισμα, το πράσινο σήμα πιθανότατα τον έκανε να πιστέψει ότι μπορούσε να περάσει, ενώ η πύλη εξόδου ήταν κλειστή. Η υπηρεσία διατύπωσε τέσσερις συστάσεις, μεταξύ τους επανεξέταση του σχεδιασμού των χειροκίνητων διαβάσεων.",
+  "updated_at": "2026-11-09T17:29:38.932490+00:00",
+  "url": "articles/2026-11-09-evening/bax-crossing-raib-report.html"
+}

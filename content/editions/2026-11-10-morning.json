@@ -1,0 +1,2584 @@
+{
+  "articles": [
+    "articles/2026-11-10-morning/nvidia-board-security-review.json",
+    "articles/2026-11-10-morning/australia-ai-incident-reporting-review.json",
+    "articles/2026-11-10-morning/eba-white-label-finance-guide.json",
+    "articles/2026-11-10-morning/cyprus-holguin-leaders-meeting.json",
+    "articles/2026-11-10-morning/gesy-specialist-appointment-visibility.json",
+    "articles/2026-11-10-morning/cyprus-police-reform-proposals.json",
+    "articles/2026-11-10-morning/avakoum-cement-payment-testimony.json",
+    "articles/2026-11-10-morning/rizokarpaso-bakirci-unopposed.json",
+    "articles/2026-11-10-morning/dubai-p1-main-draw-opening.json",
+    "articles/2026-11-10-morning/warner-khawaja-cricket-account.json"
+  ],
+  "availability_notes": [
+    "Χορηγίες και δικαιώματα: διατηρούνται παλιότερα στοιχεία με σαφή ένδειξη επανελέγχου.",
+    "Αγορές: ορισμένες τιμές δεν είναι διαθέσιμες· δεν αντικαταστάθηκαν με παλιές τιμές.",
+    "Διεθνή: Δύο από τα πέντε ορατά διεθνή αποσπάσματα είναι διαφημίσεις και δύο αφορούν την ίδια υπόθεση Nvidia. Ο οδηγός EBA αφορά όλη την ΕΕ και κατατάσσεται στα διεθνή."
+  ],
+  "availability_policy": "partial-v1",
+  "baseline": {
+    "edition_id": "2026-11-09-evening",
+    "fingerprint": "0ad9b3c9e1142b1283f39d63cf6c0f3b15d991dac8062b8eb7f4eb0666ecd0a6"
+  },
+  "briefing_policy": "depth-markets-v1",
+  "changes": [],
+  "daily": {
+    "follow_ups": [],
+    "lead_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+    "summary_60s": [
+      "Στο Κυπριακό, η συνάντηση των δύο ηγετών με την Ολγκίν δίνει συνέχεια στις επαφές, χωρίς να ορίζει ημερομηνία για το επόμενο βήμα. Στο ΓεΣΥ, η σχεδιαζόμενη σήμανση των διαθέσιμων ραντεβού μπορεί να βοηθήσει τους ασθενείς να βρουν νωρίτερα ειδικό. Το τεστ είναι αν η πληροφορία θα ενημερώνεται συχνά και αν οι αναμονές θα μειωθούν ανά ειδικότητα.",
+      "Ο Τραμπ δήλωσε ότι το FBI ερευνά την υπόθεση του επικεφαλής της Nvidia. Για επενδυτές και πελάτες, έχει σημασία αν θα ανακοινωθούν το αντικείμενο της έρευνας ή μέτρα που επηρεάζουν τις εξαγωγές και τις συνεργασίες. Στις πληρωμές, ο οδηγός της EBA εξηγεί γιατί η εμπορική επωνυμία μιας κάρτας μπορεί να διαφέρει από τον πάροχο που τη διαχειρίζεται."
+    ],
+    "summary_story_ids": [
+      [
+        "cyprus-holguin-leaders-meeting-2026-11-09",
+        "gesy-specialist-appointment-visibility-2026-11-10"
+      ],
+      [
+        "nvidia-board-security-review-2026-11-08",
+        "eba-white-label-finance-guide-2026-11-09"
+      ]
+    ]
+  },
+  "date": "2026-11-10",
+  "delta_log": [],
+  "edition_mode": "morning_scan",
+  "editorial_completed_at": "2026-11-10T05:30:51.007537+00:00",
+  "executive_scan": {
+    "cyprus_institutions": "Στο Κυπριακό, η συνάντηση των δύο ηγετών με την Ολγκίν δίνει συνέχεια στις επαφές, χωρίς να ορίζει ημερομηνία για το επόμενο βήμα. Στο ΓεΣΥ, η σχεδιαζόμενη σήμανση των διαθέσιμων ραντεβού μπορεί να βοηθήσει τους ασθενείς να βρουν νωρίτερα ειδικό. Το τεστ είναι αν η πληροφορία θα ενημερώνεται συχνά και αν οι αναμονές θα μειωθούν ανά ειδικότητα.",
+    "day_catalysts": [],
+    "geopolitics_macro": "Δεν υπάρχει νεότερη επαληθευμένη ενημέρωση για αυτόν τον άξονα.",
+    "markets_tech": "Ο Τραμπ δήλωσε ότι το FBI ερευνά την υπόθεση του επικεφαλής της Nvidia. Για επενδυτές και πελάτες, έχει σημασία αν θα ανακοινωθούν το αντικείμενο της έρευνας ή μέτρα που επηρεάζουν τις εξαγωγές και τις συνεργασίες. Στις πληρωμές, ο οδηγός της EBA εξηγεί γιατί η εμπορική επωνυμία μιας κάρτας μπορεί να διαφέρει από τον πάροχο που τη διαχειρίζεται."
+  },
+  "fast_wire": [],
+  "financial_insights": [
+    {
+      "as_of": "2026-11-10T04:21:15.964884+00:00",
+      "headline": "Nvidia: η σχετική υστέρηση προηγείται της δήλωσης Τραμπ",
+      "instruments": [
+        "NVDA",
+        "^IXIC"
+      ],
+      "meaning": "Το παράθυρο περιλαμβάνει συνεδριάσεις πριν από τη δήλωση και δεν μετρά την αντίδραση σε αυτήν. Για εκτίμηση κινδύνου χρειάζεται να ξεχωρίσουν τυχόν περιορισμοί πωλήσεων από τη γενικότερη μεταβλητότητα του κλάδου.",
+      "reported": "Ο Τραμπ δήλωσε στο BBC ότι το FBI ερευνά την υπόθεση του επικεφαλής της Nvidia. Ο συγκρίσιμος δείκτης μετρά την απόδοση Nvidia και Nasdaq από τα κλεισίματα 3 έως 9 Νοεμβρίου και δείχνει σχετική υστέρηση της μετοχής.",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "reporting",
+          "published_at": "2026-11-10T03:58:13+00:00",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "retrieved_at": "2026-11-10T04:21:09.786021+00:00",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "reporting",
+          "published_at": "2026-11-09T10:35:23+00:00",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "retrieved_at": "2026-11-10T04:21:10.140114+00:00",
+          "url": "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.513102+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&range=5d",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.236879+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "statistics": [
+        {
+          "basis": "adjusted_close",
+          "benchmark": "^IXIC",
+          "benchmark_return_pct": -0.4685,
+          "end": "2026-11-09",
+          "excess_pp": -13.088,
+          "id": "m2",
+          "instrument": "NVDA",
+          "points": [
+            {
+              "benchmark": 25372.009765625,
+              "date": "2026-11-03",
+              "value": 206.69000244140625
+            },
+            {
+              "benchmark": 25736.509765625,
+              "date": "2026-11-04",
+              "value": 200.1300048828125
+            },
+            {
+              "benchmark": 24315.0,
+              "date": "2026-11-05",
+              "value": 181.60000610351562
+            },
+            {
+              "benchmark": 24579.4296875,
+              "date": "2026-11-06",
+              "value": 186.63999938964844
+            },
+            {
+              "benchmark": 25253.138671875,
+              "date": "2026-11-09",
+              "value": 178.6699981689453
+            }
+          ],
+          "return_pct": -13.5565,
+          "sources": [
+            {
+              "access": "read",
+              "kind": "primary",
+              "published_at": null,
+              "publisher": "Yahoo Finance",
+              "reporting_group": "Yahoo Finance",
+              "retrieved_at": "2026-11-10T04:20:57.513102+00:00",
+              "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&range=5d",
+              "used_for_claims": true
+            },
+            {
+              "access": "read",
+              "kind": "primary",
+              "published_at": null,
+              "publisher": "Yahoo Finance",
+              "reporting_group": "Yahoo Finance",
+              "retrieved_at": "2026-11-10T04:20:57.236879+00:00",
+              "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&range=5d",
+              "used_for_claims": true
+            }
+          ],
+          "start": "2026-11-03"
+        }
+      ],
+      "watch": "Επίσημη περιγραφή του εύρους της έρευνας και σύγκριση με τον κλάδο σε επόμενο κοινό παράθυρο."
+    },
+    {
+      "as_of": "2026-11-10T04:21:15.964884+00:00",
+      "headline": "Κάρτες με εμπορική επωνυμία: ποιος παρέχει την υπηρεσία",
+      "instruments": [],
+      "meaning": "Για τον καταναλωτή, η αναγνωρίσιμη μάρκα μπορεί να διευκολύνει την πρόσβαση στην υπηρεσία, αλλά δεν του λέει από μόνη της ποιος είναι ο αντισυμβαλλόμενος ή πού θα απευθυνθεί αν προκύψει πρόβλημα. Η διάκριση έχει αξία πριν από τη σύναψη της σύμβασης.",
+      "reported": "Σύμφωνα με τον Φιλελεύθερο, η EBA εξέδωσε οδηγό για κάρτες, δάνεια και άλλες υπηρεσίες που διατίθενται με διαφορετική εμπορική επωνυμία από εκείνη του ιδρύματος που τις εκδίδει ή τις διαχειρίζεται.",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "reporting",
+          "published_at": "2026-11-10T04:17:00+00:00",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "retrieved_at": "2026-11-10T04:21:10.633643+00:00",
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1793400/pios-krivete-piso-apo-tin-karta-pou-chrisimopiite-proidopiisi-se-katanalotes-apo-european-banking-authority",
+          "used_for_claims": true
+        }
+      ],
+      "statistics": [],
+      "watch": "Αν οι όροι και η οθόνη εγγραφής εμφανίζουν καθαρά τον πάροχο και το σημείο υποβολής παραπόνων."
+    }
+  ],
+  "financial_policy": "news-insights-v1",
+  "financial_review": "",
+  "freshness": [
+    {
+      "checked_at": "2026-11-10T04:20:57.501122+00:00",
+      "id": "weather-limassol",
+      "kind": "weather",
+      "label": "Μοντέλο καιρού · Λεμεσός",
+      "recheck_at": "2026-11-10T06:15:00+00:00",
+      "sources": [
+        "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2"
+      ],
+      "valid_from": "2026-11-10T04:15:00+00:00",
+      "valid_until": "2026-11-10T06:15:00+00:00"
+    }
+  ],
+  "id": "2026-11-10-morning",
+  "image_review": {
+    "completed_at": "2026-11-10T05:30:51.007537+00:00",
+    "version": 2
+  },
+  "intelligence_contract": 1,
+  "market_movers": [],
+  "market_summary": [],
+  "markets": [
+    {
+      "asset_class": "index",
+      "change_pct": 2.346,
+      "currency": "USD",
+      "instrument": "^GSPC",
+      "market_timezone": "America/New_York",
+      "name": "S&P 500",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:00+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.192352+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "μονάδες δείκτη",
+      "value": 7549.94
+    },
+    {
+      "asset_class": "index",
+      "change_pct": 2.741,
+      "currency": "USD",
+      "instrument": "^IXIC",
+      "market_timezone": "America/New_York",
+      "name": "Nasdaq Composite",
+      "precision": 2,
+      "quoted_at": "2026-11-09T22:15:59+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.236879+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EIXIC?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "μονάδες δείκτη",
+      "value": 25253.139
+    },
+    {
+      "asset_class": "index",
+      "change_pct": 2.153,
+      "currency": "USD",
+      "instrument": "^DJI",
+      "market_timezone": "America/New_York",
+      "name": "Dow Jones",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:00+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.189266+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EDJI?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "μονάδες δείκτη",
+      "value": 52389.8
+    },
+    {
+      "asset_class": "index",
+      "change_pct": 1.263,
+      "currency": "EUR",
+      "instrument": "^STOXX",
+      "market_timezone": "Europe/Zurich",
+      "name": "STOXX Europe 600",
+      "precision": 2,
+      "quoted_at": "2026-11-09T17:00:00+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.287748+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESTOXX?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "μονάδες δείκτη",
+      "value": 656.52
+    },
+    {
+      "asset_class": "index",
+      "change_pct": 1.021,
+      "currency": "GBP",
+      "instrument": "^FTSE",
+      "market_timezone": "Europe/London",
+      "name": "FTSE 100",
+      "precision": 2,
+      "quoted_at": "2026-11-09T16:35:30+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.193806+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EFTSE?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "μονάδες δείκτη",
+      "value": 10782.87
+    },
+    {
+      "asset_class": "index",
+      "change_pct": 1.73,
+      "currency": "EUR",
+      "instrument": "^GDAXI",
+      "market_timezone": "Europe/Berlin",
+      "name": "DAX",
+      "precision": 2,
+      "quoted_at": "2026-11-09T17:00:00+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.180127+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGDAXI?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "μονάδες δείκτη",
+      "value": 26267.19
+    },
+    {
+      "asset_class": "index",
+      "change_pct": 1.159,
+      "currency": "EUR",
+      "instrument": "^FCHI",
+      "market_timezone": "Europe/Paris",
+      "name": "CAC 40",
+      "precision": 2,
+      "quoted_at": "2026-11-09T16:30:00+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.161087+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EFCHI?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "μονάδες δείκτη",
+      "value": 8233.3
+    },
+    {
+      "asset_class": "index",
+      "change_pct": 2.182,
+      "currency": "JPY",
+      "instrument": "^N225",
+      "market_timezone": "Asia/Tokyo",
+      "name": "Nikkei 225",
+      "precision": 2,
+      "quoted_at": "2026-11-10T04:05:55+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.273792+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EN225?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "μονάδες δείκτη",
+      "value": 60058.05
+    },
+    {
+      "asset_class": "index",
+      "change_pct": 3.655,
+      "currency": "KRW",
+      "instrument": "^KS11",
+      "market_timezone": "Asia/Seoul",
+      "name": "KOSPI",
+      "precision": 2,
+      "quoted_at": "2026-11-10T04:00:50+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.243715+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "μονάδες δείκτη",
+      "value": 5202.28
+    },
+    {
+      "asset_class": "futures_index",
+      "change_pct": -0.017,
+      "currency": "USD",
+      "instrument": "ES=F",
+      "market_timezone": "America/New_York",
+      "name": "S&P 500 futures",
+      "precision": 2,
+      "quoted_at": "2026-11-10T04:10:54+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.432339+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/ES%3DF?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "μονάδες συμβολαίου",
+      "value": 7573.0
+    },
+    {
+      "asset_class": "futures_index",
+      "change_pct": -0.436,
+      "currency": "USD",
+      "instrument": "NQ=F",
+      "market_timezone": "America/New_York",
+      "name": "Nasdaq 100 futures",
+      "precision": 2,
+      "quoted_at": "2026-11-10T04:10:54+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.551688+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/NQ%3DF?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "μονάδες συμβολαίου",
+      "value": 27892.25
+    },
+    {
+      "asset_class": "fx",
+      "change_pct": 0.0561,
+      "currency": "USD",
+      "instrument": "eurusd",
+      "market_timezone": "Europe/London",
+      "name": "EUR/USD",
+      "precision": 4,
+      "quoted_at": "2026-11-10T04:20:34+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.443433+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/EURUSD%3DX?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "EUR",
+      "value": 1.1225
+    },
+    {
+      "asset_class": "futures",
+      "change_pct": -0.875,
+      "currency": "USD",
+      "instrument": "brent",
+      "market_timezone": "America/New_York",
+      "name": "Brent · futures",
+      "precision": 2,
+      "quoted_at": "2026-11-10T04:10:23+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.410689+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ%3DF?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "βαρέλι",
+      "value": 91.76
+    },
+    {
+      "asset_class": "crypto",
+      "change_pct": -0.126,
+      "currency": "USD",
+      "instrument": "BTC-USD",
+      "market_timezone": "UTC",
+      "name": "Bitcoin",
+      "precision": 2,
+      "quoted_at": "2026-11-10T04:20:51+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.393065+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BTC-USD?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "BTC",
+      "value": 74623.79
+    },
+    {
+      "asset_class": "equity",
+      "change_pct": 3.511,
+      "currency": "USD",
+      "instrument": "TSM",
+      "market_timezone": "America/New_York",
+      "name": "TSMC · ADR Νέας Υόρκης",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:03+00:00",
+      "session": "regular",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.613308+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "previous_close",
+      "unit": "ADR",
+      "value": 388.62
+    },
+    {
+      "asset_class": "equity",
+      "change_pct": -4.27,
+      "currency": "USD",
+      "instrument": "NVDA",
+      "market_timezone": "America/New_York",
+      "name": "Nvidia",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:00+00:00",
+      "session": "regular",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.513102+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "previous_close",
+      "unit": "μετοχή",
+      "value": 178.67
+    },
+    {
+      "asset_class": "equity",
+      "change_pct": 1.183,
+      "currency": "USD",
+      "instrument": "GOOGL",
+      "market_timezone": "America/New_York",
+      "name": "Alphabet · Class A",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:01+00:00",
+      "session": "regular",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.505529+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "previous_close",
+      "unit": "μετοχή",
+      "value": 288.15
+    },
+    {
+      "asset_class": "equity",
+      "change_pct": 2.746,
+      "currency": "USD",
+      "instrument": "MSFT",
+      "market_timezone": "America/New_York",
+      "name": "Microsoft",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:01+00:00",
+      "session": "regular",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.483222+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "previous_close",
+      "unit": "μετοχή",
+      "value": 545.18
+    },
+    {
+      "asset_class": "equity",
+      "change_pct": 2.943,
+      "currency": "USD",
+      "instrument": "AMZN",
+      "market_timezone": "America/New_York",
+      "name": "Amazon",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:01+00:00",
+      "session": "regular",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.342076+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "previous_close",
+      "unit": "μετοχή",
+      "value": 266.93
+    },
+    {
+      "asset_class": "equity",
+      "change_pct": 2.43,
+      "currency": "USD",
+      "instrument": "AAPL",
+      "market_timezone": "America/New_York",
+      "name": "Apple",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:01+00:00",
+      "session": "regular",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.346810+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "previous_close",
+      "unit": "μετοχή",
+      "value": 350.69
+    },
+    {
+      "asset_class": "equity",
+      "change_pct": 6.254,
+      "currency": "USD",
+      "instrument": "MU",
+      "market_timezone": "America/New_York",
+      "name": "Micron",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:00+00:00",
+      "session": "regular",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.563411+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "previous_close",
+      "unit": "μετοχή",
+      "value": 733.15
+    },
+    {
+      "asset_class": "equity",
+      "change_pct": 5.117,
+      "currency": "USD",
+      "instrument": "META",
+      "market_timezone": "America/New_York",
+      "name": "Meta",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:01+00:00",
+      "session": "regular",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.451913+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/META?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "previous_close",
+      "unit": "μετοχή",
+      "value": 641.37
+    },
+    {
+      "asset_class": "equity",
+      "change_pct": 2.132,
+      "currency": "USD",
+      "instrument": "JNJ",
+      "market_timezone": "America/New_York",
+      "name": "Johnson & Johnson",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:02+00:00",
+      "session": "regular",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.545462+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/JNJ?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "previous_close",
+      "unit": "μετοχή",
+      "value": 282.11
+    },
+    {
+      "asset_class": "equity",
+      "change_pct": 4.666,
+      "currency": "USD",
+      "instrument": "GS",
+      "market_timezone": "America/New_York",
+      "name": "Goldman Sachs",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:02+00:00",
+      "session": "regular",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.504637+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/GS?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "previous_close",
+      "unit": "μετοχή",
+      "value": 906.22
+    },
+    {
+      "asset_class": "index",
+      "change_pct": null,
+      "currency": "EUR",
+      "instrument": "cse",
+      "market_timezone": "Europe/Athens",
+      "name": "ΧΑΚ Γενικός",
+      "precision": 2,
+      "quoted_at": null,
+      "sources": [],
+      "status": "unavailable",
+      "unit": "μονάδες δείκτη",
+      "value": null
+    },
+    {
+      "asset_class": "rate",
+      "change_pct": null,
+      "currency": "EUR",
+      "instrument": "ecb-deposit",
+      "market_timezone": "Europe/Brussels",
+      "name": "ΕΚΤ · καταθέσεις",
+      "precision": 3,
+      "quoted_at": "2026-11-10",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "ECB Data Portal",
+          "reporting_group": "ECB Data Portal",
+          "retrieved_at": "2026-11-10T04:20:57.787498+00:00",
+          "url": "https://data-api.ecb.europa.eu/service/data/FM/D.U2.EUR.4F.KR.DFR.LEV?lastNObservations=1&format=csvdata",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "% ετησίως",
+      "value": 2.5
+    },
+    {
+      "asset_class": "rate",
+      "change_pct": null,
+      "currency": "EUR",
+      "instrument": "ecb-mro",
+      "market_timezone": "Europe/Brussels",
+      "name": "ΕΚΤ · MRO",
+      "precision": 3,
+      "quoted_at": null,
+      "sources": [],
+      "status": "unavailable",
+      "unit": "% ετησίως",
+      "value": null
+    },
+    {
+      "asset_class": "rate",
+      "change_pct": null,
+      "currency": "EUR",
+      "instrument": "ecb-mlf",
+      "market_timezone": "Europe/Brussels",
+      "name": "ΕΚΤ · οριακή χρηματοδότηση",
+      "precision": 3,
+      "quoted_at": null,
+      "sources": [],
+      "status": "unavailable",
+      "unit": "% ετησίως",
+      "value": null
+    },
+    {
+      "asset_class": "rate",
+      "change_pct": null,
+      "currency": "EUR",
+      "instrument": "euribor-3m",
+      "market_timezone": "Europe/Brussels",
+      "name": "Euribor 3 μηνών",
+      "precision": 3,
+      "quoted_at": "2026-11-06",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "reporting",
+          "published_at": null,
+          "publisher": "Euribor Rates",
+          "reporting_group": "Euribor Rates",
+          "retrieved_at": "2026-11-10T04:20:58.202550+00:00",
+          "url": "https://www.euribor-rates.eu/en/current-euribor-rates/2/euribor-rate-3-months/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "% ετησίως",
+      "value": 2.794
+    },
+    {
+      "asset_class": "rate",
+      "change_pct": null,
+      "currency": "EUR",
+      "instrument": "euribor-6m",
+      "market_timezone": "Europe/Brussels",
+      "name": "Euribor 6 μηνών",
+      "precision": 3,
+      "quoted_at": "2026-11-06",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "reporting",
+          "published_at": null,
+          "publisher": "Euribor Rates",
+          "reporting_group": "Euribor Rates",
+          "retrieved_at": "2026-11-10T04:20:58.212679+00:00",
+          "url": "https://www.euribor-rates.eu/en/current-euribor-rates/3/euribor-rate-6-months/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "% ετησίως",
+      "value": 3.016
+    },
+    {
+      "asset_class": "rate",
+      "change_pct": null,
+      "currency": "EUR",
+      "instrument": "euribor-12m",
+      "market_timezone": "Europe/Brussels",
+      "name": "Euribor 12 μηνών",
+      "precision": 3,
+      "quoted_at": "2026-11-06",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "reporting",
+          "published_at": null,
+          "publisher": "Euribor Rates",
+          "reporting_group": "Euribor Rates",
+          "retrieved_at": "2026-11-10T04:20:58.209321+00:00",
+          "url": "https://www.euribor-rates.eu/en/current-euribor-rates/4/euribor-rate-12-months/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "% ετησίως",
+      "value": 3.248
+    },
+    {
+      "asset_class": "equity",
+      "change_pct": 2.287,
+      "currency": "USD",
+      "instrument": "BAC",
+      "market_timezone": "America/New_York",
+      "name": "Bank of America",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:02+00:00",
+      "session": "regular",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.379642+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BAC?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "previous_close",
+      "unit": "μετοχή",
+      "value": 50.55
+    },
+    {
+      "asset_class": "equity",
+      "change_pct": 3.04,
+      "currency": "USD",
+      "instrument": "BLK",
+      "market_timezone": "America/New_York",
+      "name": "BlackRock",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:03+00:00",
+      "session": "regular",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.381139+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/BLK?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "previous_close",
+      "unit": "μετοχή",
+      "value": 1214.71
+    },
+    {
+      "asset_class": "equity",
+      "change_pct": 3.213,
+      "currency": "USD",
+      "instrument": "STT",
+      "market_timezone": "America/New_York",
+      "name": "State Street",
+      "precision": 2,
+      "quoted_at": "2026-11-09T21:00:02+00:00",
+      "session": "regular",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.581878+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/STT?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "previous_close",
+      "unit": "μετοχή",
+      "value": 170.88
+    },
+    {
+      "asset_class": "commodity",
+      "change_pct": 0.139,
+      "currency": "USD",
+      "instrument": "GC=F",
+      "market_timezone": "America/New_York",
+      "name": "Χρυσός · futures",
+      "precision": 2,
+      "quoted_at": "2026-11-10T04:10:29+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.440812+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "ουγγιά troy",
+      "value": 4120.2
+    },
+    {
+      "asset_class": "crypto",
+      "change_pct": -0.8623,
+      "currency": "USD",
+      "instrument": "ETH-USD",
+      "market_timezone": "UTC",
+      "name": "Ethereum",
+      "precision": 2,
+      "quoted_at": "2026-11-10T04:20:54+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.430891+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/ETH-USD?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "μονάδα",
+      "value": 2117.77
+    },
+    {
+      "asset_class": "index",
+      "change_pct": 0.286,
+      "currency": "HKD",
+      "instrument": "^HSI",
+      "market_timezone": "Asia/Hong_Kong",
+      "name": "Hang Seng",
+      "precision": 2,
+      "quoted_at": "2026-11-10T04:05:00+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.232668+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EHSI?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "μονάδες δείκτη",
+      "value": 24518.87
+    },
+    {
+      "asset_class": "index",
+      "change_pct": 1.781,
+      "currency": "TWD",
+      "instrument": "^TWII",
+      "market_timezone": "Asia/Taipei",
+      "name": "Taiwan Weighted",
+      "precision": 2,
+      "quoted_at": "2026-11-10T04:00:55+00:00",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.297272+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETWII?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "μονάδες δείκτη",
+      "value": 42403.64
+    },
+    {
+      "asset_class": "equity",
+      "change_pct": 0.671,
+      "currency": "TWD",
+      "instrument": "2330.TW",
+      "market_timezone": "Asia/Taipei",
+      "name": "TSMC · Ταϊβάν",
+      "precision": 2,
+      "quoted_at": "2026-11-10T04:00:55+00:00",
+      "session": "regular",
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Yahoo Finance",
+          "retrieved_at": "2026-11-10T04:20:57.314616+00:00",
+          "url": "https://query1.finance.yahoo.com/v8/finance/chart/2330.TW?interval=1d&range=5d",
+          "used_for_claims": true
+        }
+      ],
+      "status": "delayed",
+      "unit": "TWD/μετοχή",
+      "value": 2250.0
+    }
+  ],
+  "opportunities": [
+    {
+      "action": "Μην υποβάλεις νέα αίτηση. Παρακολούθησε μόνο επίσημη επαναπροκήρυξη ή ανακοίνωση για επιλαχόντες.",
+      "application_kind": "none",
+      "application_url": null,
+      "change_note": "Το ΥΕΕΒ ανακοίνωσε ολοκλήρωση υποβολής προτάσεων λόγω υπερκάλυψης προϋπολογισμού. Η προηγούμενη ένδειξη ανοικτής πρόσκλησης διορθώθηκε.",
+      "deadline": null,
+      "deadline_note": "Η υποβολή ολοκληρώθηκε στις 21/10 λόγω υπερκάλυψης του διαθέσιμου προϋπολογισμού.",
+      "deadline_type": "unknown",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "id": "cy-home-energy-2026",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "kind": "grant",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": "2026-10-21",
+          "publisher": "ΥΕΕΒ",
+          "reporting_group": "ΥΕΕΒ",
+          "retrieved_at": "2026-10-23T10:33:45.530855+00:00",
+          "url": "https://www.industry.gov.cy",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "verified_at": "2026-10-23T13:33:46+03:00"
+    },
+    {
+      "action": "Αν έχεις GO, προετοίμασε πλήρη πρόταση. Διαφορετικά ξεκίνα τη σύντομη αίτηση χωρίς να θεωρείς εξασφαλισμένη συμμετοχή στον γύρο Νοεμβρίου.",
+      "application_kind": "form",
+      "application_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+      "change_note": "Επανελέγχθηκε η επίσημη σελίδα EIC: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ., επενδυτικό σκέλος €1–10 εκατ. και επόμενη πλήρης πρόταση στις 4/11, 17:00 Βρυξελλών, μόνο μετά από GO.",
+      "deadline": "2026-11-04T18:00:00+02:00",
+      "deadline_note": "4/11 στις 17:00 Βρυξελλών = 18:00 Κύπρου. Αφορά πλήρη πρόταση μετά το GO. Οι σύντομες προτάσεις υποβάλλονται συνεχώς· αξιολόγηση συνήθως 4–6 εβδομάδες.",
+      "deadline_type": "fixed",
+      "eligibility": "Μία startup/ΜμΕ στην ΕΕ ή συνδεδεμένη χώρα, με καινοτομία TRL 6–8. Για πλήρη πρόταση προηγείται θετική αξιολόγηση (GO) της σύντομης πρότασης ή επιλέξιμη ειδική διαδρομή.",
+      "id": "eu-eic-accelerator-2026",
+      "jurisdiction": "ΕΕ · περιλαμβάνει την Κύπρο",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Innovation Council",
+          "reporting_group": "European Innovation Council",
+          "retrieved_at": "2026-10-24T13:43:13+03:00",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Στήριξη νεοφυών και μικρομεσαίων επιχειρήσεων με ανατρεπτική καινοτομία σε στάδιο ανάπτυξης και κλιμάκωσης. Δεν είναι γενική επιδότηση ίδρυσης επιχείρησης.",
+      "support": "Επιχορήγηση κάτω από €2,5 εκατ.· χωριστά επενδυτικό σκέλος €1–10 εκατ., που δεν αποτελεί επιχορήγηση.",
+      "title": "EIC Accelerator: επόμενη πλήρης πρόταση 4 Νοεμβρίου",
+      "verified_at": "2026-10-24T13:43:13+03:00"
+    },
+    {
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
+      "application_kind": "form",
+      "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "change_note": "Επανελέγχθηκαν η επίσημη δυνατότητα αίτησης, τα κριτήρια και η FAQ προθεσμίας στις 24/10. Η εγγραφή παραμένει ανοικτή χωρίς καταληκτική ημερομηνία· δεν υπονοείται προσωπική επιλεξιμότητα.",
+      "deadline": null,
+      "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
+      "deadline_type": "rolling",
+      "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
+      "id": "eu-erasmus-new-entrepreneurs",
+      "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
+      "kind": "benefit",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs · FAQ",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
+      "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
+      "title": "Erasmus for Young Entrepreneurs",
+      "verified_at": "2026-10-24T07:43:00+03:00"
+    },
+    {
+      "action": "Έλεγξε τα όρια και τη διαδικασία προηγούμενης κοινοποίησης στο κράτος εγκατάστασης. Ο σύνδεσμος δίνει οδηγίες, όχι κυπριακό έντυπο.",
+      "application_kind": "instructions",
+      "application_url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+      "change_note": "Επανελέγχθηκαν στις 24/10 η επίσημη ευρωπαϊκή σελίδα και η διαδικασία διασυνοριακής απαλλαγής. Το καθεστώς παραμένει προαιρετικό και ανοικτό, με ενωσιακό όριο €100.000 και προηγούμενη κοινοποίηση.",
+      "deadline": null,
+      "deadline_note": "Δεν πρόκειται για γύρο χορηγιών. Η απαλλαγή ξεκινά μετά την έγκριση/επιβεβαίωση EX· ισχύουν ξεχωριστές υποχρεώσεις τριμηνιαίας αναφοράς.",
+      "deadline_type": "rolling",
+      "eligibility": "Επιχείρηση εγκατεστημένη στην ΕΕ: ενωσιακός τζίρος έως €100.000 στο τρέχον και προηγούμενο έτος, καθώς και το εθνικό/κλαδικό όριο κάθε χώρας απαλλαγής.",
+      "id": "eu-cross-border-sme-vat",
+      "jurisdiction": "ΕΕ / Κύπρος · διασυνοριακές πωλήσεις",
+      "kind": "legal_right",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · DG TAXUD",
+          "reporting_group": "European Commission · DG TAXUD",
+          "retrieved_at": "2026-10-24T07:33:51+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · SME VAT",
+          "reporting_group": "European Commission · SME VAT",
+          "retrieved_at": "2026-10-24T07:33:47+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/index_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-24T07:33:52+03:00",
+          "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Το ευρωπαϊκό καθεστώς μικρών επιχειρήσεων επιτρέπει απαλλαγή ΦΠΑ σε επιλέξιμες διασυνοριακές πωλήσεις. Απαιτεί προηγούμενη κοινοποίηση· δεν εφαρμόζεται αυτόματα.",
+      "support": "Πιθανή απλούστευση υποχρεώσεων ΦΠΑ, με απώλεια δικαιώματος έκπτωσης ΦΠΑ για τις απαλλασσόμενες πράξεις. Αξιολόγησε το καθαρό όφελος πριν επιλέξεις.",
+      "title": "Προαιρετική απαλλαγή ΦΠΑ για μικρές επιχειρήσεις",
+      "verified_at": "2026-10-24T07:44:30+03:00"
+    },
+    {
+      "action": "Δες την επίσημη ανακοίνωση ως ιστορικό πλαίσιο. Αναμένουμε επαληθευμένη νέα προκήρυξη πριν εμφανίσουμε ενεργή αίτηση.",
+      "application_kind": "instructions",
+      "application_url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+      "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση.",
+      "deadline": "2024-07-31T23:59:00+03:00",
+      "deadline_note": "Ιστορική προθεσμία της 2ης πρόσκλησης, όχι ημερομηνία νέας αίτησης. Νέα ενεργή πρόσκληση δεν επιβεβαιώθηκε στον παρόντα έλεγχο.",
+      "deadline_type": "fixed",
+      "eligibility": "Η προκήρυξη του 2024 όριζε νέους 18–29, άνδρες 30–50 και γυναίκες 30–55. Νέα πρόσκληση μπορεί να αλλάξει τους όρους· δεν έχει κριθεί προσωπική επιλεξιμότητα.",
+      "id": "cy-new-entrepreneurship-2024-call2",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-23T04:30:48.639313+00:00",
+          "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "retrieved_at": "2026-10-15T16:39:24.850175+00:00",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Ιστορική πρόσκληση του 2024 που έχει λήξει. Παραμένει μόνο στην παρακολούθηση για τυχόν νέα επίσημη προκήρυξη, όχι στις ενεργές αιτήσεις.",
+      "support": "Παλιοί όροι: 70% επιλέξιμης δαπάνης για 18–29, 60% για τις άλλες ομάδες, με μέγιστο επιλέξιμο προϋπολογισμό €120.000.",
+      "title": "Νέα Επιχειρηματική Δραστηριότητα · παλιά 2η προκήρυξη",
+      "verified_at": "2026-10-23T07:36:00+03:00"
+    }
+  ],
+  "panels": [
+    {
+      "heading": "Καιρός · Λεμεσός",
+      "id": "weather",
+      "paragraphs": [
+        "Μοντέλο Open-Meteo: 11.7 °C, άνεμος 8.8 km/h, υετός 0 mm. Ημερήσιο εύρος 11.6–19.8 °C, πιθανότητα υετού 0%. Δεν αποτελεί έλεγχο επίσημων προειδοποιήσεων."
+      ],
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Open-Meteo · μοντέλο πρόγνωσης",
+          "reporting_group": "Open-Meteo · μοντέλο πρόγνωσης",
+          "retrieved_at": "2026-11-10T04:20:57.501122+00:00",
+          "url": "https://api.open-meteo.com/v1/forecast?latitude=34.68&longitude=33.04&current=temperature_2m,precipitation,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=UTC&timeformat=unixtime&forecast_days=2",
+          "used_for_claims": true
+        }
+      ]
+    }
+  ],
+  "photo_policy": "real-photos-v1",
+  "prefetch_provenance": {
+    "prepared_at": "2026-11-10T04:21:15.964884+00:00",
+    "sha256": "b11e0860b1e27920d76cf70678a7780a33c929a6367d7ab81a2f92de3bcc0a28"
+  },
+  "producer_contract": {
+    "content_schema_sha256": "ae435b63b3a246d362e26d0f9099732550c4d783368c6e1e812aaa71b9f10d5b",
+    "producer_protocol": "oracle-briefing/3"
+  },
+  "published_at": "2026-11-10T05:30:51.007537+00:00",
+  "reading_review": {
+    "completed_at": "2026-11-10T05:30:51.007537+00:00",
+    "version": 2
+  },
+  "scheduled_slot": "07:30",
+  "schema_version": 2,
+  "selection_policy": "balanced-v1",
+  "selection_review": {
+    "completed_at": "2026-11-10T05:30:51.007537+00:00",
+    "coverage_notes": {
+      "world": "Δύο από τα πέντε ορατά διεθνή αποσπάσματα είναι διαφημίσεις και δύο αφορούν την ίδια υπόθεση Nvidia. Ο οδηγός EBA αφορά όλη την ΕΕ και κατατάσσεται στα διεθνή."
+    },
+    "global_exception_reason": null,
+    "priority_candidates": {
+      "c12": "covered:nvidia-board-security-review-2026-11-08",
+      "c13": "covered:nvidia-board-security-review-2026-11-08"
+    },
+    "section_shortfalls": {},
+    "version": 2
+  },
+  "sports": {
+    "briefing_policy": "intelligence-v1",
+    "briefings": {
+      "manutd": {
+        "changed": "Το BBC αναφέρει ότι η Μάντσεστερ Γιουνάιτεντ αναμένεται να απομακρύνει τον Μάικλ Κάρικ, έπειτα από επανεξέταση της θέσης του.",
+        "meaning": "Η πιθανή αλλαγή προπονητή ανοίγει ζήτημα διαχείρισης της ομάδας στη διακοπή, αλλά το ρεπορτάζ δεν είναι ανακοίνωση του συλλόγου.",
+        "sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": "2026-11-09T23:13:31+00:00",
+            "publisher": "BBC",
+            "reporting_group": "BBC",
+            "retrieved_at": "2026-11-10T04:21:09.791096+00:00",
+            "url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
+            "used_for_claims": true
+          }
+        ],
+        "watch": "Επίσημη απόφαση και, αν υπάρξει αλλαγή, ποιος θα αναλάβει την ομάδα."
+      },
+      "omonoia": {
+        "changed": "Στο 2–0 επί της Ανόρθωσης ο Ακιντόλα είχε γκολ και ασίστ. Το Goal αναφέρει ότι ο Παναγιώτης Ανδρέου κέρδισε την μπάλα στην αρχή και των δύο φάσεων.",
+        "meaning": "Η συμβολή του Ανδρέου προηγήθηκε της τελικής πάσας και της εκτέλεσης.",
+        "sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": "2026-11-09T18:42:00+00:00",
+            "publisher": "Goal/Philenews",
+            "reporting_group": "Philenews",
+            "retrieved_at": "2026-11-10T04:21:10.221744+00:00",
+            "url": "https://goal.philenews.com/podosfero/kypros/a-katigoria/omonoia/omonoia-ta-fota-ston-akintola-o-andreou-to-violi-tou",
+            "used_for_claims": true
+          }
+        ],
+        "watch": "Αν η Ομόνοια δημιουργήσει ξανά καθαρές ευκαιρίες αμέσως μετά από ανάκτηση της μπάλας."
+      }
+    },
+    "competitions": {
+      "uefa.champions": {
+        "fixtures": [
+          {
+            "name": "Bodo/Glimt — LASK Linz",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.466402+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-24T17:45:00+00:00"
+          },
+          {
+            "name": "Galatasaray — Aston Villa",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.466402+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-24T17:45:00+00:00"
+          },
+          {
+            "name": "Arsenal — Borussia Dortmund",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.466402+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-24T20:00:00+00:00"
+          },
+          {
+            "name": "Como — AEK Athens",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.466402+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-24T20:00:00+00:00"
+          },
+          {
+            "name": "Feyenoord Rotterdam — FC Porto",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.466402+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-24T20:00:00+00:00"
+          },
+          {
+            "name": "Manchester City — Napoli",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.466402+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-24T20:00:00+00:00"
+          }
+        ],
+        "scores": [],
+        "standings": [
+          {
+            "points": "12",
+            "rank": "1",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.626575+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.champions/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "Paris Saint-Germain"
+          },
+          {
+            "points": "12",
+            "rank": "2",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.626575+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.champions/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "Real Madrid"
+          },
+          {
+            "points": "10",
+            "rank": "3",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.626575+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.champions/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "Arsenal"
+          },
+          {
+            "points": "9",
+            "rank": "4",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.626575+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.champions/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "Como"
+          },
+          {
+            "points": "9",
+            "rank": "5",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.626575+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.champions/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "Barcelona"
+          }
+        ],
+        "status": "available"
+      },
+      "uefa.europa": {
+        "fixtures": [],
+        "scores": [
+          {
+            "name": "AZ Alkmaar — Juventus",
+            "score": "1–2",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.574720+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261105",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-05T20:00:00+00:00"
+          },
+          {
+            "name": "Bayer Leverkusen — Marseille",
+            "score": "0–1",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.574720+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261105",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-05T20:00:00+00:00"
+          },
+          {
+            "name": "Benfica — Lech Poznan",
+            "score": "3–1",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.574720+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261105",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-05T20:00:00+00:00"
+          },
+          {
+            "name": "Celta Vigo — Union St.-Gilloise",
+            "score": "1–2",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.574720+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261105",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-05T20:00:00+00:00"
+          },
+          {
+            "name": "Celtic — Besiktas",
+            "score": "3–2",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.574720+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261105",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-05T20:00:00+00:00"
+          },
+          {
+            "name": "Hapoel Be'er — OFI Crete",
+            "score": "0–2",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.574720+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261105",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-05T20:00:00+00:00"
+          }
+        ],
+        "standings": [
+          {
+            "points": "12",
+            "rank": "1",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.659362+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "Benfica"
+          },
+          {
+            "points": "12",
+            "rank": "2",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.659362+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "AFC Bournemouth"
+          },
+          {
+            "points": "12",
+            "rank": "3",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.659362+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "Ferencvaros"
+          },
+          {
+            "points": "10",
+            "rank": "4",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.659362+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "Union St.-Gilloise"
+          },
+          {
+            "points": "10",
+            "rank": "5",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.659362+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "Juventus"
+          }
+        ],
+        "status": "available"
+      },
+      "uefa.europa.conf": {
+        "fixtures": [],
+        "scores": [
+          {
+            "name": "AS Monaco — FC Nordsjælland",
+            "score": "2–0",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.494805+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-05T20:00:00+00:00"
+          },
+          {
+            "name": "CSU Craiova — Egnatia",
+            "score": "2–0",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.494805+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-05T20:00:00+00:00"
+          },
+          {
+            "name": "F.C. København — Iberia 1999",
+            "score": "2–1",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.494805+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-05T20:00:00+00:00"
+          },
+          {
+            "name": "FC Lugano — Kauno Zalgiris",
+            "score": "3–0",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.494805+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-05T20:00:00+00:00"
+          },
+          {
+            "name": "FC Twente — Pafos",
+            "score": "3–1",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.494805+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-05T20:00:00+00:00"
+          },
+          {
+            "name": "Getafe — Brighton & Hove Albion",
+            "score": "0–1",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.494805+00:00",
+                "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261105",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-05T20:00:00+00:00"
+          }
+        ],
+        "standings": [
+          {
+            "points": "9",
+            "rank": "1",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.641977+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa.conf/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "FC Lugano"
+          },
+          {
+            "points": "9",
+            "rank": "2",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.641977+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa.conf/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "Panathinaikos"
+          },
+          {
+            "points": "9",
+            "rank": "3",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.641977+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa.conf/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "FC Twente"
+          },
+          {
+            "points": "9",
+            "rank": "4",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.641977+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa.conf/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "AS Monaco"
+          },
+          {
+            "points": "7",
+            "rank": "5",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "ESPN",
+                "reporting_group": "ESPN",
+                "retrieved_at": "2026-11-10T04:21:07.641977+00:00",
+                "url": "https://site.api.espn.com/apis/v2/sports/soccer/uefa.europa.conf/standings",
+                "used_for_claims": true
+              }
+            ],
+            "team": "Brighton & Hove Albion"
+          }
+        ],
+        "status": "available"
+      }
+    },
+    "coverage": {
+      "formula1": {
+        "analysis": "Δομημένα δεδομένα jolpica-f1· καμία αυτόματη ερμηνεία στρατηγικής.",
+        "last_match": null,
+        "latest_session": {
+          "date": "2026-11-08",
+          "name": "Brazilian Grand Prix",
+          "results": [
+            {
+              "driver": "Norris",
+              "position": "1",
+              "status": "Finished"
+            },
+            {
+              "driver": "Verstappen",
+              "position": "2",
+              "status": "Finished"
+            },
+            {
+              "driver": "Hadjar",
+              "position": "3",
+              "status": "Finished"
+            },
+            {
+              "driver": "Russell",
+              "position": "4",
+              "status": "Finished"
+            },
+            {
+              "driver": "Antonelli",
+              "position": "5",
+              "status": "Finished"
+            }
+          ],
+          "sources": [
+            {
+              "access": "read",
+              "kind": "reporting",
+              "published_at": null,
+              "publisher": "jolpica-f1",
+              "reporting_group": "jolpica-f1",
+              "retrieved_at": "2026-11-10T04:21:07.891292+00:00",
+              "url": "https://api.jolpi.ca/ergast/f1/2026/last/results/?limit=30",
+              "used_for_claims": true
+            }
+          ],
+          "verified_at": "2026-11-10T04:21:07.891292+00:00"
+        },
+        "name": "Formula 1",
+        "next_fixture": null,
+        "next_gp_sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": null,
+            "publisher": "jolpica-f1",
+            "reporting_group": "jolpica-f1",
+            "retrieved_at": "2026-11-10T04:21:07.787884+00:00",
+            "url": "https://api.jolpi.ca/ergast/f1/2026/?limit=30",
+            "used_for_claims": true
+          }
+        ],
+        "next_grand_prix": "Las Vegas Grand Prix",
+        "sessions": [
+          {
+            "name": "Race",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "jolpica-f1",
+                "reporting_group": "jolpica-f1",
+                "retrieved_at": "2026-11-10T04:21:07.787884+00:00",
+                "url": "https://api.jolpi.ca/ergast/f1/2026/?limit=30",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-22T04:00:00+00:00"
+          },
+          {
+            "name": "FirstPractice",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "jolpica-f1",
+                "reporting_group": "jolpica-f1",
+                "retrieved_at": "2026-11-10T04:21:07.787884+00:00",
+                "url": "https://api.jolpi.ca/ergast/f1/2026/?limit=30",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-20T00:30:00+00:00"
+          },
+          {
+            "name": "SecondPractice",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "jolpica-f1",
+                "reporting_group": "jolpica-f1",
+                "retrieved_at": "2026-11-10T04:21:07.787884+00:00",
+                "url": "https://api.jolpi.ca/ergast/f1/2026/?limit=30",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-20T04:00:00+00:00"
+          },
+          {
+            "name": "ThirdPractice",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "jolpica-f1",
+                "reporting_group": "jolpica-f1",
+                "retrieved_at": "2026-11-10T04:21:07.787884+00:00",
+                "url": "https://api.jolpi.ca/ergast/f1/2026/?limit=30",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-21T00:30:00+00:00"
+          },
+          {
+            "name": "Qualifying",
+            "sources": [
+              {
+                "access": "read",
+                "kind": "reporting",
+                "published_at": null,
+                "publisher": "jolpica-f1",
+                "reporting_group": "jolpica-f1",
+                "retrieved_at": "2026-11-10T04:21:07.787884+00:00",
+                "url": "https://api.jolpi.ca/ergast/f1/2026/?limit=30",
+                "used_for_claims": true
+              }
+            ],
+            "starts_at": "2026-11-21T04:00:00+00:00"
+          }
+        ],
+        "standings": [
+          {
+            "driver": "Andrea Kimi Antonelli",
+            "points": "390",
+            "position": "1"
+          },
+          {
+            "driver": "Max Verstappen",
+            "points": "279",
+            "position": "2"
+          },
+          {
+            "driver": "George Russell",
+            "points": "262",
+            "position": "3"
+          },
+          {
+            "driver": "Lewis Hamilton",
+            "points": "261",
+            "position": "4"
+          },
+          {
+            "driver": "Charles Leclerc",
+            "points": "249",
+            "position": "5"
+          }
+        ],
+        "standings_sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": null,
+            "publisher": "jolpica-f1",
+            "reporting_group": "jolpica-f1",
+            "retrieved_at": "2026-11-10T04:21:07.785622+00:00",
+            "url": "https://api.jolpi.ca/ergast/f1/2026/driverStandings/?limit=30",
+            "used_for_claims": true
+          }
+        ],
+        "updated_at": "2026-11-10T04:21:07.891292+00:00",
+        "updates": []
+      },
+      "manutd": {
+        "analysis": "Δομημένα δεδομένα ESPN· το πρόγραμμα αφορά όσα καλύπτει ο πάροχος. Δεν τεκμηριώνεται τακτική ανάλυση.",
+        "just_played": false,
+        "last_match": {
+          "competition": "English Premier League",
+          "date": "2026-11-08",
+          "opponent": "Aston Villa",
+          "result": "4–4",
+          "scorers": null,
+          "sources": [
+            {
+              "access": "read",
+              "kind": "reporting",
+              "published_at": null,
+              "publisher": "ESPN",
+              "reporting_group": "ESPN",
+              "retrieved_at": "2026-11-10T04:21:07.392166+00:00",
+              "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/360/schedule?dates=20261011-20261210",
+              "used_for_claims": true
+            }
+          ],
+          "venue": "Old Trafford",
+          "verified_at": "2026-11-10T04:21:07.392166+00:00"
+        },
+        "last_match_at": "2026-11-08T16:30:00+00:00",
+        "league_position": "18",
+        "league_stats": {
+          "gamesPlayed": "10",
+          "losses": "4",
+          "pointDifferential": "-5",
+          "points": "8",
+          "ties": "5",
+          "wins": "1"
+        },
+        "name": "Manchester United",
+        "next_fixture": {
+          "competition": "English Premier League",
+          "date": "2026-11-22",
+          "kickoff_at": "2026-11-22T16:30:00+00:00",
+          "opponent": "Liverpool",
+          "sources": [
+            {
+              "access": "read",
+              "kind": "reporting",
+              "published_at": null,
+              "publisher": "ESPN",
+              "reporting_group": "ESPN",
+              "retrieved_at": "2026-11-10T04:21:07.350974+00:00",
+              "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/360/schedule?fixture=true",
+              "used_for_claims": true
+            }
+          ],
+          "venue": "Anfield",
+          "verified_at": "2026-11-10T04:21:07.350974+00:00"
+        },
+        "no_update_reason": "Δεν εξάγονται τραυματισμοί, xG ή τακτική από το σκορ.",
+        "standings_season": "2026-27 English Premier League",
+        "standings_sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": null,
+            "publisher": "ESPN",
+            "reporting_group": "ESPN",
+            "retrieved_at": "2026-11-10T04:21:07.618288+00:00",
+            "url": "https://site.api.espn.com/apis/v2/sports/soccer/eng.1/standings",
+            "used_for_claims": true
+          }
+        ],
+        "standings_status": "available",
+        "updated_at": "2026-11-10T04:21:07.618288+00:00",
+        "updates": []
+      },
+      "omonoia": {
+        "analysis": "Δομημένα δεδομένα ESPN· το πρόγραμμα αφορά όσα καλύπτει ο πάροχος. Δεν τεκμηριώνεται τακτική ανάλυση. Δεν διατίθεται τρέχουσα κατάταξη· η πηγή επέστρεψε παλαιότερη περίοδο.",
+        "just_played": false,
+        "last_match": {
+          "competition": "UEFA Europa League",
+          "date": "2026-11-05",
+          "opponent": "NEC Nijmegen",
+          "result": "1–3",
+          "scorers": null,
+          "sources": [
+            {
+              "access": "read",
+              "kind": "reporting",
+              "published_at": null,
+              "publisher": "ESPN",
+              "reporting_group": "ESPN",
+              "retrieved_at": "2026-11-10T04:21:07.378557+00:00",
+              "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/617/schedule?dates=20261011-20261210",
+              "used_for_claims": true
+            }
+          ],
+          "venue": "Goffertstadion",
+          "verified_at": "2026-11-10T04:21:07.378557+00:00"
+        },
+        "last_match_at": "2026-11-05T17:45:00+00:00",
+        "league_position": null,
+        "name": "Omonia Nicosia",
+        "next_fixture": {
+          "competition": "UEFA Europa League",
+          "date": "2026-11-26",
+          "kickoff_at": "2026-11-26T20:00:00+00:00",
+          "opponent": "Juventus",
+          "sources": [
+            {
+              "access": "read",
+              "kind": "reporting",
+              "published_at": null,
+              "publisher": "ESPN",
+              "reporting_group": "ESPN",
+              "retrieved_at": "2026-11-10T04:21:07.371470+00:00",
+              "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/617/schedule?fixture=true",
+              "used_for_claims": true
+            }
+          ],
+          "venue": "Allianz Stadium",
+          "verified_at": "2026-11-10T04:21:07.371470+00:00"
+        },
+        "no_update_reason": "Δεν εξάγονται τραυματισμοί, xG ή τακτική από το σκορ.",
+        "standings_season": "2025-26 Cypriot First Division",
+        "standings_status": "unavailable",
+        "updated_at": "2026-11-10T04:21:07.623824+00:00",
+        "updates": []
+      },
+      "realmadrid": {
+        "analysis": "Δομημένα δεδομένα ESPN· το πρόγραμμα αφορά όσα καλύπτει ο πάροχος. Δεν τεκμηριώνεται τακτική ανάλυση.",
+        "just_played": false,
+        "last_match": {
+          "competition": "Spanish LALIGA",
+          "date": "2026-11-07",
+          "opponent": "Valencia",
+          "result": "3–0",
+          "scorers": null,
+          "sources": [
+            {
+              "access": "read",
+              "kind": "reporting",
+              "published_at": null,
+              "publisher": "ESPN",
+              "reporting_group": "ESPN",
+              "retrieved_at": "2026-11-10T04:21:07.526642+00:00",
+              "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/86/schedule?dates=20261011-20261210",
+              "used_for_claims": true
+            }
+          ],
+          "venue": "Mestalla Stadium",
+          "verified_at": "2026-11-10T04:21:07.526642+00:00"
+        },
+        "last_match_at": "2026-11-07T20:00:00+00:00",
+        "league_position": "2",
+        "league_stats": {
+          "gamesPlayed": "12",
+          "losses": "2",
+          "pointDifferential": "+21",
+          "points": "30",
+          "ties": "0",
+          "wins": "10"
+        },
+        "name": "Real Madrid",
+        "next_fixture": {
+          "competition": "Spanish LALIGA",
+          "date": "2026-11-21",
+          "kickoff_at": "2026-11-21T20:00:00+00:00",
+          "opponent": "Celta Vigo",
+          "sources": [
+            {
+              "access": "read",
+              "kind": "reporting",
+              "published_at": null,
+              "publisher": "ESPN",
+              "reporting_group": "ESPN",
+              "retrieved_at": "2026-11-10T04:21:07.444419+00:00",
+              "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/86/schedule?fixture=true",
+              "used_for_claims": true
+            }
+          ],
+          "venue": "Santiago Bernabéu",
+          "verified_at": "2026-11-10T04:21:07.444419+00:00"
+        },
+        "no_update_reason": "Δεν εξάγονται τραυματισμοί, xG ή τακτική από το σκορ.",
+        "standings_season": "2026-27 Spanish LALIGA",
+        "standings_sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": null,
+            "publisher": "ESPN",
+            "reporting_group": "ESPN",
+            "retrieved_at": "2026-11-10T04:21:07.609789+00:00",
+            "url": "https://site.api.espn.com/apis/v2/sports/soccer/esp.1/standings",
+            "used_for_claims": true
+          }
+        ],
+        "standings_status": "available",
+        "updated_at": "2026-11-10T04:21:07.609789+00:00",
+        "updates": []
+      }
+    },
+    "major_stories": [
+      {
+        "article_id": "dubai-p1-main-draw-opening",
+        "headline": "Πάντελ: ξεκινά το κυρίως ταμπλό του Dubai P1",
+        "published_at": "2026-11-10T05:30:51.007537+00:00",
+        "sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": "2026-11-09T23:01:22+00:00",
+            "publisher": "Padel Addict",
+            "reporting_group": "Padel Addict",
+            "retrieved_at": "2026-11-10T04:21:11.964548+00:00",
+            "url": "https://www.padeladdict.com/partidos-horarios-streaming-treintaidosavos-dubai-premier-padel-p1-2026",
+            "used_for_claims": true
+          }
+        ],
+        "summary": "Στις 10 Νοεμβρίου ανοίγει το κυρίως ταμπλό του Dubai P1, με αγώνες της φάσης των 64 στους άνδρες και των 32 στις γυναίκες, σύμφωνα με το Padel Addict.",
+        "why_it_matters": "Οι περισσότεροι αγώνες ακολουθούν τον προηγούμενο στο ίδιο γήπεδο, οπότε η σειρά έχει μεγαλύτερη χρησιμότητα από μια σταθερή ώρα έναρξης."
+      },
+      {
+        "article_id": "warner-khawaja-cricket-account",
+        "headline": "Κρίκετ: ο Γουόρνερ στηρίζει την αφήγηση του Καουάτζα για την υπόθεση του 2018",
+        "published_at": "2026-11-10T05:30:51.007537+00:00",
+        "sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": "2026-11-09T09:21:09+00:00",
+            "publisher": "BBC",
+            "reporting_group": "BBC",
+            "retrieved_at": "2026-11-10T04:21:10.052202+00:00",
+            "url": "https://www.bbc.co.uk/sport/cricket/articles/c5wyry9gmz4ko?at_medium=RSS&at_campaign=rss",
+            "used_for_claims": true
+          }
+        ],
+        "summary": "Ο Ντέιβιντ Γουόρνερ, τότε υπαρχηγός της Αυστραλίας στα Test, στήριξε δημόσια την αφήγηση του Ουσμάν Καουάτζα για την αλλοίωση της μπάλας το 2018, σύμφωνα με το BBC.",
+        "why_it_matters": "Η δήλωση επαναφέρει τη συζήτηση για την υπόθεση χωρίς να συνιστά νέο πειθαρχικό πόρισμα."
+      }
+    ],
+    "major_stories_reason": "",
+    "news_links": {
+      "formula1": {
+        "attempted_at": "2026-11-10T04:20:56.477311+00:00",
+        "checked_at": "2026-11-10T04:21:08.023935+00:00",
+        "items": [
+          {
+            "headline": "What's behind Piastri's split with Webber – and what it means for his F1 career",
+            "published_at": "2026-11-09T15:53:07+00:00",
+            "retrieved_at": "2026-11-10T04:21:07.932560+00:00",
+            "url": "https://www.autosport.com/f1/news/whats-behind-piastris-split-with-webber-and-what-it-means-for-his-f1-career/10873410/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk"
+          },
+          {
+            "headline": "FIA boss planning to end age limits for office holders",
+            "published_at": "2026-11-09T15:20:35+00:00",
+            "retrieved_at": "2026-11-10T04:21:08.023935+00:00",
+            "url": "https://www.bbc.co.uk/sport/formula1/articles/cr9dz7w1xgxvo?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "note": null,
+        "source_url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
+        "status": "available"
+      },
+      "manutd": {
+        "attempted_at": "2026-11-10T04:20:56.477311+00:00",
+        "checked_at": "2026-11-10T04:21:08.353623+00:00",
+        "items": [
+          {
+            "headline": "Mauricio Pochettino would consider Manchester United job if Michael Carrick is sacked - Paper Talk - Sky Sports",
+            "published_at": "2026-11-10T03:55:30+00:00",
+            "retrieved_at": "2026-11-10T04:21:08.353623+00:00",
+            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcmRUUUtDRzcwbmpQMFc3M3l6RmpQTjlrMkNzbVRzd0V2UXAyQVRWdGdmWTlzLXZHb0cwZE9CNkZ2RzlhMjdaQWJsSFJQOTNrNUs3bkNaLWd2blVPV1ZXVC11RXNMWTk3THdXRGFwdWh1dzRMajdFUVhRZWNGU0d1dHhsQUl2Ul9vMnZkU0tTbEt3d2N2MlQtVnJNYUdIQWktZnRGSWJDVE45M2k2SWJnOGVkZHY3YnozU3hYUzJfallIOFI1cHhReFhWUWlIWGxGNF8tUWlVVndKUmdRTkE?oc=5"
+          },
+          {
+            "headline": "Man Utd expected to sack head coach Carrick",
+            "published_at": "2026-11-09T23:13:31+00:00",
+            "retrieved_at": "2026-11-10T04:21:08.008262+00:00",
+            "url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "note": null,
+        "source_url": "https://feeds.bbci.co.uk/sport/football/teams/manchester-united/rss.xml",
+        "status": "available"
+      },
+      "omonoia": {
+        "attempted_at": "2026-11-10T04:20:56.477311+00:00",
+        "checked_at": "2026-11-10T04:21:08.606142+00:00",
+        "items": [
+          {
+            "headline": "ΑΝΑΛΥΣΗ ΔΙΑΙΤΗΣΙΑΣ | Ανόρθωση – ΟΜΟΝΟΙΑ (9η αγωνιστική)",
+            "published_at": "2026-11-09T18:44:31+00:00",
+            "retrieved_at": "2026-11-10T04:21:08.606142+00:00",
+            "url": "https://www.omonoiafc.com.cy/%ce%b1%ce%bd%ce%b1%ce%bb%cf%85%cf%83%ce%b7-%ce%b4%ce%b9%ce%b1%ce%b9%cf%84%ce%b7%cf%83%ce%b9%ce%b1%cf%83-%ce%b1%ce%bd%cf%8c%cf%81%ce%b8%cf%89%cf%83%ce%b7-%ce%bf%ce%bc%ce%bf%ce%bd%ce%bf%ce%b9%ce%b1/"
+          },
+          {
+            "headline": "Κύπελλο Futsal: Ντέρμπι αιωνίων στα προημιτελικά - AlphaNews",
+            "published_at": "2026-11-09T14:23:53+00:00",
+            "retrieved_at": "2026-11-10T04:21:08.282624+00:00",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbGFZS2NmR2M0dGpSV0s0OWJJS21MVjROY1ZUd3hBSDZFWVNLU3ZYZFZacHllZVlKc3FFWHM5T1hSRXIyTkNiSTIyWlhVWlhpd29welprWTczaWNpa2RNbndOLUxhRzlZSE43S05sSWJudldrT1oyNlM0WDR3c2dSdXNiclZZR1Vs?oc=5"
+          }
+        ],
+        "note": null,
+        "source_url": "https://news.google.com/rss/search?q=%CE%9F%CE%BC%CF%8C%CE%BD%CE%BF%CE%B9%CE%B1+%CE%9B%CE%B5%CF%85%CE%BA%CF%89%CF%83%CE%AF%CE%B1%CF%82+when:3d&hl=el&gl=CY&ceid=CY:el",
+        "status": "available"
+      },
+      "realmadrid": {
+        "attempted_at": "2026-11-10T04:20:56.477311+00:00",
+        "checked_at": "2026-11-10T04:21:08.350224+00:00",
+        "items": [
+          {
+            "headline": "Angry Casillas pulls his two sons out of Real Madrid - Goal.com",
+            "published_at": "2026-11-10T01:53:22+00:00",
+            "retrieved_at": "2026-11-10T04:21:08.350224+00:00",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY2Y3V3o2S2dURG1mMU5zUThZcXJ0emRrVUxrTi1yaGs2WFRZekhvMFRtUS12Z2FmU3pNQmV2Q3lpa1pTU3puNGhFS0tNMklnSDNieXdySU53Z1VmWVBFcnNObXVUSHBDWkhzd2h4aWpTaG82akZvb1hmTnZlRm54ekduQWV0QkJBMVVOZ09URnd4OE9oQkgtbzRPMF80LWJP?oc=5"
+          },
+          {
+            "headline": "Real Madrid Star Marc Cucurella Explains Difference Between Premier League and La Liga - roundtable.io",
+            "published_at": "2026-11-10T01:12:50+00:00",
+            "retrieved_at": "2026-11-10T04:21:08.350224+00:00",
+            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMjdoamhSZ09CT3BJUVBwQ1ljaGwybXNnQU9xaXlka2FLSzJfWWFaV19VM3c3Q3hRQ2Zva3JvMWhVZFVyX0M1OXRsbTQ2c0RCcl9tSnd2MHgzQ0x3azQ5eFM3NE9EWmgzU0wyMExXOXV0VXdvXzYzbWNDUmNQQ1A5WTNlRm42TVYyNkhxeE0zREh3cXBuNmQxdDF3OW9PLWlvYXM2SEFBNjUtUDZHbGI2ZURaWEplNTVxWHl4MmZqb2lPcHQ5c1dnUjlWX25ncDNOZGdmclkzTi13blZXeGpiczV0Znc?oc=5"
+          }
+        ],
+        "note": null,
+        "source_url": "https://news.google.com/rss/search?q=%22Real+Madrid%22+when:2d&hl=en-GB&gl=GB&ceid=GB:en",
+        "status": "available"
+      }
+    }
+  },
+  "status": "published",
+  "summary_60s": [
+    "Στο Κυπριακό, η συνάντηση των δύο ηγετών με την Ολγκίν δίνει συνέχεια στις επαφές, χωρίς να ορίζει ημερομηνία για το επόμενο βήμα. Στο ΓεΣΥ, η σχεδιαζόμενη σήμανση των διαθέσιμων ραντεβού μπορεί να βοηθήσει τους ασθενείς να βρουν νωρίτερα ειδικό. Το τεστ είναι αν η πληροφορία θα ενημερώνεται συχνά και αν οι αναμονές θα μειωθούν ανά ειδικότητα.",
+    "Ο Τραμπ δήλωσε ότι το FBI ερευνά την υπόθεση του επικεφαλής της Nvidia. Για επενδυτές και πελάτες, έχει σημασία αν θα ανακοινωθούν το αντικείμενο της έρευνας ή μέτρα που επηρεάζουν τις εξαγωγές και τις συνεργασίες. Στις πληρωμές, ο οδηγός της EBA εξηγεί γιατί η εμπορική επωνυμία μιας κάρτας μπορεί να διαφέρει από τον πάροχο που τη διαχειρίζεται."
+  ],
+  "synthesis_profile": "single-turn-v1",
+  "technology_briefing": [
+    {
+      "headline": "Ο Τραμπ δηλώνει ότι το FBI ερευνά την υπόθεση του επικεφαλής της Nvidia",
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "url": "articles/2026-11-10-morning/nvidia-board-security-review.html"
+    },
+    {
+      "headline": "Η Αυστραλία εξετάζει υποχρεωτική αναφορά περιστατικών τεχνητής νοημοσύνης",
+      "story_id": "australia-ai-incident-reporting-review-2026-11-10",
+      "url": "articles/2026-11-10-morning/australia-ai-incident-reporting-review.html"
+    }
+  ],
+  "timezone": "Europe/Athens",
+  "title": "Πρωινή σάρωση · 2026-11-10",
+  "type": "morning",
+  "url": "morning/2026-11-10.html"
+}
