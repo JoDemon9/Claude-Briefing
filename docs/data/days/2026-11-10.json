@@ -16,13 +16,38 @@
       "type": "midday",
       "url": "midday/2026-11-10.html",
       "published_at": "2026-11-10T11:34:43.490485+00:00"
+    },
+    {
+      "id": "2026-11-10-evening",
+      "type": "evening",
+      "url": "evening/2026-11-10.html",
+      "published_at": "2026-11-10T17:33:21.962920+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "ukraine-grid-substation-strikes-2026-11-10",
+  "missing_slots": [],
+  "lead_story_id": "cyprus-national-ai-strategy-2032",
   "stories": [
+    {
+      "story_id": "cop31-fossil-fuel-roadmap-2026-11-10",
+      "first_seen_at": "2026-11-10T17:33:21.962920+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-10-evening",
+          "article_id": "cop31-fossil-fuel-roadmap",
+          "source_story_id": "cop31-fossil-fuel-roadmap-2026-11-10",
+          "url": "articles/2026-11-10-evening/cop31-fossil-fuel-roadmap.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "cop31-fossil-fuel-roadmap",
+        "source_story_id": "cop31-fossil-fuel-roadmap-2026-11-10",
+        "url": "articles/2026-11-10-evening/cop31-fossil-fuel-roadmap.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "ukraine-grid-substation-strikes-2026-11-10",
       "first_seen_at": "2026-11-10T11:34:43.490485+00:00",
@@ -33,13 +58,19 @@
           "article_id": "ukraine-grid-substation-strikes",
           "source_story_id": "ukraine-grid-substation-strikes-2026-11-10",
           "url": "articles/2026-11-10-midday/ukraine-grid-substation-strikes.html"
+        },
+        {
+          "edition_id": "2026-11-10-evening",
+          "article_id": "ukraine-grid-substation-strikes",
+          "source_story_id": "ukraine-grid-substation-strikes-2026-11-10",
+          "url": "articles/2026-11-10-evening/ukraine-grid-substation-strikes.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-10-midday",
+        "edition_id": "2026-11-10-evening",
         "article_id": "ukraine-grid-substation-strikes",
         "source_story_id": "ukraine-grid-substation-strikes-2026-11-10",
-        "url": "articles/2026-11-10-midday/ukraine-grid-substation-strikes.html"
+        "url": "articles/2026-11-10-evening/ukraine-grid-substation-strikes.html"
       },
       "section": "world",
       "priority": 1
@@ -72,6 +103,39 @@
       "priority": 2
     },
     {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "first_seen_at": "2026-11-10T05:30:51.007537+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-10-morning",
+          "article_id": "nvidia-board-security-review",
+          "source_story_id": "nvidia-board-security-review-2026-11-08",
+          "url": "articles/2026-11-10-morning/nvidia-board-security-review.html"
+        },
+        {
+          "edition_id": "2026-11-10-midday",
+          "article_id": "nvidia-board-security-review",
+          "source_story_id": "nvidia-board-security-review-2026-11-08",
+          "url": "articles/2026-11-10-midday/nvidia-board-security-review.html"
+        },
+        {
+          "edition_id": "2026-11-10-evening",
+          "article_id": "nvidia-board-security-review",
+          "source_story_id": "nvidia-board-security-review-2026-11-08",
+          "url": "articles/2026-11-10-evening/nvidia-board-security-review.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "nvidia-board-security-review",
+        "source_story_id": "nvidia-board-security-review-2026-11-08",
+        "url": "articles/2026-11-10-evening/nvidia-board-security-review.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
       "story_id": "spain-train-drivers-safety-strike-2026-11-10",
       "first_seen_at": "2026-11-10T11:34:43.490485+00:00",
       "last_substantive_at": null,
@@ -81,16 +145,43 @@
           "article_id": "spain-train-drivers-safety-strike",
           "source_story_id": "spain-train-drivers-safety-strike-2026-11-10",
           "url": "articles/2026-11-10-midday/spain-train-drivers-safety-strike.html"
+        },
+        {
+          "edition_id": "2026-11-10-evening",
+          "article_id": "spain-train-drivers-safety-strike",
+          "source_story_id": "spain-train-drivers-safety-strike-2026-11-10",
+          "url": "articles/2026-11-10-evening/spain-train-drivers-safety-strike.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-10-midday",
+        "edition_id": "2026-11-10-evening",
         "article_id": "spain-train-drivers-safety-strike",
         "source_story_id": "spain-train-drivers-safety-strike-2026-11-10",
-        "url": "articles/2026-11-10-midday/spain-train-drivers-safety-strike.html"
+        "url": "articles/2026-11-10-evening/spain-train-drivers-safety-strike.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "cyprus-national-ai-strategy-2032",
+      "first_seen_at": "2026-11-10T17:33:21.962920+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-10-evening",
+          "article_id": "cyprus-national-ai-strategy",
+          "source_story_id": "cyprus-national-ai-strategy-2032",
+          "url": "articles/2026-11-10-evening/cyprus-national-ai-strategy.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "cyprus-national-ai-strategy",
+        "source_story_id": "cyprus-national-ai-strategy-2032",
+        "url": "articles/2026-11-10-evening/cyprus-national-ai-strategy.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "eba-white-label-finance-guide-2026-11-09",
@@ -108,40 +199,19 @@
           "article_id": "eba-white-label-finance-guide",
           "source_story_id": "eba-white-label-finance-guide-2026-11-09",
           "url": "articles/2026-11-10-midday/eba-white-label-finance-guide.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-11-10-midday",
-        "article_id": "eba-white-label-finance-guide",
-        "source_story_id": "eba-white-label-finance-guide-2026-11-09",
-        "url": "articles/2026-11-10-midday/eba-white-label-finance-guide.html"
-      },
-      "section": "world",
-      "priority": 3
-    },
-    {
-      "story_id": "nvidia-board-security-review-2026-11-08",
-      "first_seen_at": "2026-11-10T05:30:51.007537+00:00",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-11-10-morning",
-          "article_id": "nvidia-board-security-review",
-          "source_story_id": "nvidia-board-security-review-2026-11-08",
-          "url": "articles/2026-11-10-morning/nvidia-board-security-review.html"
         },
         {
-          "edition_id": "2026-11-10-midday",
-          "article_id": "nvidia-board-security-review",
-          "source_story_id": "nvidia-board-security-review-2026-11-08",
-          "url": "articles/2026-11-10-midday/nvidia-board-security-review.html"
+          "edition_id": "2026-11-10-evening",
+          "article_id": "eba-white-label-finance-guide",
+          "source_story_id": "eba-white-label-finance-guide-2026-11-09",
+          "url": "articles/2026-11-10-evening/eba-white-label-finance-guide.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-10-midday",
-        "article_id": "nvidia-board-security-review",
-        "source_story_id": "nvidia-board-security-review-2026-11-08",
-        "url": "articles/2026-11-10-midday/nvidia-board-security-review.html"
+        "edition_id": "2026-11-10-evening",
+        "article_id": "eba-white-label-finance-guide",
+        "source_story_id": "eba-white-label-finance-guide-2026-11-09",
+        "url": "articles/2026-11-10-evening/eba-white-label-finance-guide.html"
       },
       "section": "world",
       "priority": 3
@@ -162,13 +232,19 @@
           "article_id": "cyprus-holguin-leaders-meeting",
           "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
           "url": "articles/2026-11-10-midday/cyprus-holguin-leaders-meeting.html"
+        },
+        {
+          "edition_id": "2026-11-10-evening",
+          "article_id": "cyprus-holguin-leaders-meeting",
+          "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+          "url": "articles/2026-11-10-evening/cyprus-holguin-leaders-meeting.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-10-midday",
+        "edition_id": "2026-11-10-evening",
         "article_id": "cyprus-holguin-leaders-meeting",
         "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
-        "url": "articles/2026-11-10-midday/cyprus-holguin-leaders-meeting.html"
+        "url": "articles/2026-11-10-evening/cyprus-holguin-leaders-meeting.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -195,6 +271,27 @@
       "priority": 4
     },
     {
+      "story_id": "cyprus-energy-poverty-target-2026-11-10",
+      "first_seen_at": "2026-11-10T17:33:21.962920+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-10-evening",
+          "article_id": "cyprus-energy-poverty-target",
+          "source_story_id": "cyprus-energy-poverty-target-2026-11-10",
+          "url": "articles/2026-11-10-evening/cyprus-energy-poverty-target.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "cyprus-energy-poverty-target",
+        "source_story_id": "cyprus-energy-poverty-target-2026-11-10",
+        "url": "articles/2026-11-10-evening/cyprus-energy-poverty-target.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
       "story_id": "gesy-specialist-appointment-visibility-2026-11-10",
       "first_seen_at": "2026-11-10T05:30:51.007537+00:00",
       "last_substantive_at": null,
@@ -210,13 +307,19 @@
           "article_id": "gesy-specialist-appointment-visibility",
           "source_story_id": "gesy-specialist-appointment-visibility-2026-11-10",
           "url": "articles/2026-11-10-midday/gesy-specialist-appointment-visibility.html"
+        },
+        {
+          "edition_id": "2026-11-10-evening",
+          "article_id": "gesy-specialist-appointment-visibility",
+          "source_story_id": "gesy-specialist-appointment-visibility-2026-11-10",
+          "url": "articles/2026-11-10-evening/gesy-specialist-appointment-visibility.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-10-midday",
+        "edition_id": "2026-11-10-evening",
         "article_id": "gesy-specialist-appointment-visibility",
         "source_story_id": "gesy-specialist-appointment-visibility-2026-11-10",
-        "url": "articles/2026-11-10-midday/gesy-specialist-appointment-visibility.html"
+        "url": "articles/2026-11-10-evening/gesy-specialist-appointment-visibility.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -264,6 +367,27 @@
       "priority": 6
     },
     {
+      "story_id": "cyprus-teachers-appointments-industrial-action-2026-11-10",
+      "first_seen_at": "2026-11-10T17:33:21.962920+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-10-evening",
+          "article_id": "cyprus-teachers-appointments-industrial-action",
+          "source_story_id": "cyprus-teachers-appointments-industrial-action-2026-11-10",
+          "url": "articles/2026-11-10-evening/cyprus-teachers-appointments-industrial-action.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "cyprus-teachers-appointments-industrial-action",
+        "source_story_id": "cyprus-teachers-appointments-industrial-action-2026-11-10",
+        "url": "articles/2026-11-10-evening/cyprus-teachers-appointments-industrial-action.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
       "story_id": "hold-onto-me-european-young-audience-award-2026-11-10",
       "first_seen_at": "2026-11-10T11:34:43.490485+00:00",
       "last_substantive_at": null,
@@ -306,6 +430,27 @@
       "priority": 7
     },
     {
+      "story_id": "kompany-bayern-training-return-2026-11-10",
+      "first_seen_at": "2026-11-10T17:33:21.962920+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-10-evening",
+          "article_id": "kompany-bayern-training-return",
+          "source_story_id": "kompany-bayern-training-return-2026-11-10",
+          "url": "articles/2026-11-10-evening/kompany-bayern-training-return.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "kompany-bayern-training-return",
+        "source_story_id": "kompany-bayern-training-return-2026-11-10",
+        "url": "articles/2026-11-10-evening/kompany-bayern-training-return.html"
+      },
+      "section": "sports",
+      "priority": 7
+    },
+    {
       "story_id": "premier-padel-women-race-2026-11-10",
       "first_seen_at": "2026-11-10T11:34:43.490485+00:00",
       "last_substantive_at": null,
@@ -315,13 +460,19 @@
           "article_id": "premier-padel-women-race",
           "source_story_id": "premier-padel-women-race-2026-11-10",
           "url": "articles/2026-11-10-midday/premier-padel-women-race.html"
+        },
+        {
+          "edition_id": "2026-11-10-evening",
+          "article_id": "premier-padel-women-race",
+          "source_story_id": "premier-padel-women-race-2026-11-10",
+          "url": "articles/2026-11-10-evening/premier-padel-women-race.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-10-midday",
+        "edition_id": "2026-11-10-evening",
         "article_id": "premier-padel-women-race",
         "source_story_id": "premier-padel-women-race-2026-11-10",
-        "url": "articles/2026-11-10-midday/premier-padel-women-race.html"
+        "url": "articles/2026-11-10-evening/premier-padel-women-race.html"
       },
       "section": "sports",
       "priority": 7
@@ -357,13 +508,19 @@
           "article_id": "warriors-eight-win-start",
           "source_story_id": "warriors-eight-win-start-2026-11-10",
           "url": "articles/2026-11-10-midday/warriors-eight-win-start.html"
+        },
+        {
+          "edition_id": "2026-11-10-evening",
+          "article_id": "warriors-eight-win-start",
+          "source_story_id": "warriors-eight-win-start-2026-11-10",
+          "url": "articles/2026-11-10-evening/warriors-eight-win-start.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-10-midday",
+        "edition_id": "2026-11-10-evening",
         "article_id": "warriors-eight-win-start",
         "source_story_id": "warriors-eight-win-start-2026-11-10",
-        "url": "articles/2026-11-10-midday/warriors-eight-win-start.html"
+        "url": "articles/2026-11-10-evening/warriors-eight-win-start.html"
       },
       "section": "sports",
       "priority": 8
@@ -719,6 +876,188 @@
         "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
         "url": "articles/2026-11-10-midday/cyprus-holguin-leaders-meeting.html"
       }
+    },
+    {
+      "id": "241622f109693f935383728be9a990370e54cda0a175c88908ecdd646395a8f4",
+      "kind": "provenance",
+      "at": "2026-11-10T17:33:21.962920+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "spain-train-drivers-safety-strike-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "spain-train-drivers-safety-strike",
+        "source_story_id": "spain-train-drivers-safety-strike-2026-11-10",
+        "url": "articles/2026-11-10-evening/spain-train-drivers-safety-strike.html"
+      }
+    },
+    {
+      "id": "3b5ac0700ef9cb153c90bbc5b3695a7d12fd13579211a26d519cc4f8d1a4a945",
+      "kind": "provenance",
+      "at": "2026-11-10T17:33:21.962920+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-energy-poverty-target-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "cyprus-energy-poverty-target",
+        "source_story_id": "cyprus-energy-poverty-target-2026-11-10",
+        "url": "articles/2026-11-10-evening/cyprus-energy-poverty-target.html"
+      }
+    },
+    {
+      "id": "5661f76d44291fb8f0a94abb020caa17ed3524d95079358734992cf1195a13e4",
+      "kind": "provenance",
+      "at": "2026-11-10T17:33:21.962920+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "warriors-eight-win-start-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "warriors-eight-win-start",
+        "source_story_id": "warriors-eight-win-start-2026-11-10",
+        "url": "articles/2026-11-10-evening/warriors-eight-win-start.html"
+      }
+    },
+    {
+      "id": "5d827f8848a921451c34fba413bcb4a2be13cbaa8381fc1e709e87e15387c402",
+      "kind": "provenance",
+      "at": "2026-11-10T17:33:21.962920+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cop31-fossil-fuel-roadmap-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "cop31-fossil-fuel-roadmap",
+        "source_story_id": "cop31-fossil-fuel-roadmap-2026-11-10",
+        "url": "articles/2026-11-10-evening/cop31-fossil-fuel-roadmap.html"
+      }
+    },
+    {
+      "id": "72c9226e66847f3fe056b0b0b5822afdb7a71416584ba3a7811af3f3e21be0b0",
+      "kind": "provenance",
+      "at": "2026-11-10T17:33:21.962920+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "premier-padel-women-race-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "premier-padel-women-race",
+        "source_story_id": "premier-padel-women-race-2026-11-10",
+        "url": "articles/2026-11-10-evening/premier-padel-women-race.html"
+      }
+    },
+    {
+      "id": "7caeeb5f6b80ab4f3eabbfa77a9afa3cce85e9d4adcecfe746907217503743d2",
+      "kind": "provenance",
+      "at": "2026-11-10T17:33:21.962920+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-teachers-appointments-industrial-action-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "cyprus-teachers-appointments-industrial-action",
+        "source_story_id": "cyprus-teachers-appointments-industrial-action-2026-11-10",
+        "url": "articles/2026-11-10-evening/cyprus-teachers-appointments-industrial-action.html"
+      }
+    },
+    {
+      "id": "7f8e0a13e330830ee2c29b6159c1fa589e589b0b3bf3a2e619c57cf6e2b50d4a",
+      "kind": "provenance",
+      "at": "2026-11-10T17:33:21.962920+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "eba-white-label-finance-guide-2026-11-09",
+      "origin": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "eba-white-label-finance-guide",
+        "source_story_id": "eba-white-label-finance-guide-2026-11-09",
+        "url": "articles/2026-11-10-evening/eba-white-label-finance-guide.html"
+      }
+    },
+    {
+      "id": "812f448041c5a96d6cbb76b45bd6d91da5d4c2cde725e272a1c1e432a66e0fc6",
+      "kind": "provenance",
+      "at": "2026-11-10T17:33:21.962920+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-grid-substation-strikes-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "ukraine-grid-substation-strikes",
+        "source_story_id": "ukraine-grid-substation-strikes-2026-11-10",
+        "url": "articles/2026-11-10-evening/ukraine-grid-substation-strikes.html"
+      }
+    },
+    {
+      "id": "8737f46f2c9c408085eab389ffef3d82fea636c9566aaa09a00d073eedacee9c",
+      "kind": "provenance",
+      "at": "2026-11-10T17:33:21.962920+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "gesy-specialist-appointment-visibility-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "gesy-specialist-appointment-visibility",
+        "source_story_id": "gesy-specialist-appointment-visibility-2026-11-10",
+        "url": "articles/2026-11-10-evening/gesy-specialist-appointment-visibility.html"
+      }
+    },
+    {
+      "id": "b9d1217e5b3eac7bd8eb82828fe55a7f9a4834271063447352c0249c1d4f74d9",
+      "kind": "provenance",
+      "at": "2026-11-10T17:33:21.962920+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "nvidia-board-security-review",
+        "source_story_id": "nvidia-board-security-review-2026-11-08",
+        "url": "articles/2026-11-10-evening/nvidia-board-security-review.html"
+      }
+    },
+    {
+      "id": "cfa91700ab3d8f74c2a327390e135eda484afeab63c21742084ebc9178d07557",
+      "kind": "provenance",
+      "at": "2026-11-10T17:33:21.962920+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-national-ai-strategy-2032",
+      "origin": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "cyprus-national-ai-strategy",
+        "source_story_id": "cyprus-national-ai-strategy-2032",
+        "url": "articles/2026-11-10-evening/cyprus-national-ai-strategy.html"
+      }
+    },
+    {
+      "id": "d102e534a6a11c0f5fc56adf18b9b3c1e1c3dc899ac87f076e5b1f432a4f5a9c",
+      "kind": "provenance",
+      "at": "2026-11-10T17:33:21.962920+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+      "origin": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "cyprus-holguin-leaders-meeting",
+        "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+        "url": "articles/2026-11-10-evening/cyprus-holguin-leaders-meeting.html"
+      }
+    },
+    {
+      "id": "f67ad27ca9b54966ba7c1988b1b0bec324aa63b78e50cc262cfd0183aa7b1716",
+      "kind": "provenance",
+      "at": "2026-11-10T17:33:21.962920+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "kompany-bayern-training-return-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-10-evening",
+        "article_id": "kompany-bayern-training-return",
+        "source_story_id": "kompany-bayern-training-return-2026-11-10",
+        "url": "articles/2026-11-10-evening/kompany-bayern-training-return.html"
+      }
     }
   ],
   "opportunities": [
@@ -927,22 +1266,23 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Στην Ουκρανία, τα πλήγματα σε υποσταθμούς μεταφοράς προκάλεσαν διακοπές που καταγράφονται και πέρα από ορισμένες περιοχές των πληγμάτων. Για τα νοικοκυριά μετρά πότε θα επανέλθει σταθερά η τροφοδοσία. Στην Ισπανία, η απεργία έφερε ξανά στο προσκήνιο τη συντήρηση των σιδηροδρόμων· το επόμενο τεστ είναι αν θα ξαναρχίσουν οι συνομιλίες για την ασφάλεια.",
+        "text": "Η νέα στρατηγική ΤΝ θέτει στόχο χρήσης από το 75% των επιχειρήσεων έως το 2032. Για τις μικρότερες εταιρείες, το τεστ είναι αν τα προγράμματα θα δώσουν πρόσβαση σε κατάρτιση και εφαρμόσιμα εργαλεία. Στο Κυπριακό, οι διαπραγματευτές άρχισαν συντονισμό για τα σημεία διέλευσης· αναμένεται ενδεικτικό χρονοδιάγραμμα.",
         "story_ids": [
-          "ukraine-grid-substation-strikes-2026-11-10",
-          "spain-train-drivers-safety-strike-2026-11-10"
+          "cyprus-national-ai-strategy-2032",
+          "cyprus-holguin-leaders-meeting-2026-11-09"
         ]
       },
       {
-        "text": "Στην ιδιωτική ποινική δίωξη για την υπόθεση Θανάση Νικολάου, η νέα ημερομηνία αφορά τη συμπλήρωση μαρτυρίας και τις τοποθετήσεις των αρμοδίων. Η 17η Νοεμβρίου είναι το επόμενο διαδικαστικό ορόσημο· σημασία έχει ποια στοιχεία θα τεθούν τελικά ενώπιον του δικαστηρίου.",
+        "text": "Στην COP31, ο Γκουτέρες ζητά δουλειά για τη μετάβαση από τα ορυκτά καύσιμα χωρίς σχετικό θέμα στην επίσημη ημερήσια διάταξη. Το επόμενο τεστ είναι αν η πρόταση θα εμφανιστεί σε διαπραγματευτικό κείμενο. Στις αγορές, η Nvidia υποχώρησε ενώ η AMD ανέβηκε, σύμφωνα με το CNBC· η απόκλιση δεν εξηγεί από μόνη της τις δύο κινήσεις.",
         "story_ids": [
-          "thanasis-nicolaou-hearing-adjournment-2026-11-10"
+          "cop31-fossil-fuel-roadmap-2026-11-10",
+          "nvidia-board-security-review-2026-11-08"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-10T05:33:06.502664+00:00",
-  "updated_at": "2026-11-10T11:36:13.074107+00:00",
-  "input_sha256": "f2692b268e44e2399e65865b791d03feeafa160ee5954911d6c0e7c4762c21e5"
+  "updated_at": "2026-11-10T17:34:49.097375+00:00",
+  "input_sha256": "26c7749d3485f88584f854335c6808f954a41a69f0f9b13e3aa523a2ee0e3868"
 }
