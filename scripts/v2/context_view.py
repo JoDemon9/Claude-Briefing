@@ -47,6 +47,7 @@ def synthesis(pack,max_bytes=48000):
         '@Headline Greek; @Fact two factual sentences [e1]; @Evidence e1,e2; @Delta the material change; @Tags comma-separated-ascii.',
         'For each desk lead/major mover: @AnalysisSources e1,e2; @Mechanism causal chain; @Effects who is affected/how; @Scenarios base="conditional path" alternative="what would change it" (tail optional); @Watch observable test. Explain uncertainty instead of inventing a scenario.',
         'A new web source uses @Source s1 | publisher="..." url=https://... published=null retrieved=<actual ISO> group="..." kind=reporting access=read claims=true. Unknown publication is null.',
+        'known_story_matches are historical exact-source or explicitly reviewed hints, not new evidence or automatic merges. Reuse the established story_id and identity when the event is the same, even outside the latest baseline. A selected event absent from the fingerprinted baseline uses NEW while retaining its identity and original event dates; shared roundup URLs can describe distinct events and require editorial review.',
         'After articles: @CarryOver id=story-id selects a useful unchanged SAME-DAY baseline record; @Omit id=story-id reason="specific reason of at least 20 characters" retires it from this snapshot. Account for every later-slot baseline story by update, carry or omission. Never carry yesterday unchanged or relabel identical reporting as NEW/UPDATED. Morning selects afresh.',
         'If either news desk has fewer than four selected stories, add @Coverage section=cyprus|world reason="specific evidence/selection limitation, at least 20 characters". An explained small edition is valid; do not invent shortage research. A sixth/seventh world story needs @WorldException reason="specific editorial reason". No routine tables, typed blocks, full readers or photo research.',
         'Coverage contract: aim for 4–5 supported Cyprus and 4–5 international stories in the complete edition. Morning: at most 10 authored stories including any sports story. Later: at most 6 materially new/updated stories, plus exact carries to retain useful coverage in BOTH desks. Keep the same 6500/4000 output-token ceilings, 5/3 searches, 2/1 URL opens, one synthesis pass and one review. Give each news desk a substantive analytical lead; secondary reports remain two clear factual sentences. Do not pad weak evidence or rewrite unchanged articles.',
@@ -63,6 +64,8 @@ def synthesis(pack,max_bytes=48000):
                for line in lines]
         lines.insert(-1,'Sports contract intelligence-v1: write @SportBrief interest=omonoia|manutd|realmadrid|formula1 evidence=e1,e2 changed="reported change" meaning="sporting consequence" watch="observable next test" for favourites with article evidence (40–60 words; 70 maximum each). Use only evidence assigned to that interest. No score-based tactics or injuries. Without evidence leave the card unavailable; do not claim no news. These annotations have a separate allowance from news articles, within the unchanged output-token budget.')
         lines.insert(-1,'Beyond my four: select 2–3 sports articles, interest=other, one each tagged padel, football, or other-sport. Exclude the four favourites. Include @Fact plus @Effects and @AnalysisSources; 35–50 words preferred, 70 maximum across fact/effects. No long sports essay. If fewer than two, add @SportsReason followed by the actual evidence limitation. Aim for 300–400 sports words overall; maximum 450. Keep Greek prose, source independence and verified dates; feed-only headlines cannot support a briefing.')
+    if pack.get('coverage_policy')=='auditable-v1':
+        lines.insert(-1,'Shortfall audit: if a news desk has fewer than four selected distinct events (including exact carries), give @Exclude candidate=c1 reason="specific editorial reason, at least 20 characters" for EACH visible readable candidate not selected in that desk, in addition to @Coverage. Feed-only and input-byte-cap exclusions are recorded by Python. Different publishers reporting the same explicit event cannot fill separate story slots. Grouped prose citations [e1,e2] are validated member by member; all aliases must be declared in @Evidence or @Source.')
     if enriched:
         lines=[line.replace('@Fact two factual sentences [e1]', '@Fact usually three factual sentences, 55–75 Greek words [e1]')
                .replace('secondary reports remain two clear factual sentences.',
@@ -178,16 +181,21 @@ def synthesis(pack,max_bytes=48000):
             if financial and c.get('finance_candidate'):limit=max(limit,1200)
             seen.add(c['section'])
             metadata={k:v for k,v in c.items() if k!='evidence'}
-            if financial:metadata={k:v for k,v in metadata.items() if k in ('id','section','title','sports_lane','finance_candidate','priority_required','baseline_matches') and v is not None}
+            if financial:metadata={k:v for k,v in metadata.items() if k in ('id','section','title','sports_lane','finance_candidate','priority_required','baseline_matches','known_story_matches') and v is not None}
             blocks.append([encoded(metadata),evidence_line(usable(c)[0],limit)])
         return blocks
     # Keep an explicit inventory even when a genuinely oversized pack needs omissions.
-    inventory=[{'id':c['id'],'section':c['section'],'usable_evidence':len(usable(c))} for c in pack['candidates']]
+    inventory=[{'id':c['id'],'section':c['section'],'usable_evidence':len(usable(c)),
+                **({'excluded':sorted({e.get('rejection_reason','feed_only') for e in c['evidence']})} if not usable(c) else {})}
+               for c in pack['candidates']]
     lines.append('Candidate inventory: '+encoded(inventory))
     lines.append('Collection pipeline: '+encoded({k:{name:v[name] for name in ('discovered','fetched','readable')}
                  for k,v in pack.get('metrics',{}).get('pipeline',{}).items()}))
     if financial:lines.append('Article source URLs/full metadata stay in the sealed pack and resolve through @Evidence aliases. Publication/reporting-chain metadata below supports review; excerpts are selected passages in source order, […] marks omissions. Never invent URLs or treat publisher variety as independence.')
-    def fits(extra):return len(('\n'.join(lines+extra)+'\n').encode('utf-8'))<=max_bytes-1200
+    # Reserve the actual diagnostic inventory, not a fixed footer guess.
+    diagnostics=[{'id':c['id'],'section':c['section'],'reason':'input_byte_cap'} for c in ordered]
+    footer_reserve=1200+len(encoded(diagnostics).encode('utf-8'))
+    def fits(extra):return len(('\n'.join(lines+extra)+'\n').encode('utf-8'))<=max_bytes-footer_reserve
     sizes=((2400,1600),(1800,1200),(1400,1000),(1000,700))
     if modern:sizes+=((800,600),)
     for lead_limit,secondary_limit in sizes:
@@ -229,6 +237,14 @@ def synthesis(pack,max_bytes=48000):
     coverage={desk:sum(c['section']==desk for c in included) for desk in ('cyprus','world','sports')}
     lines.append('Visible article-backed candidates by desk: '+encoded(coverage)+'. Review every visible news candidate; these counts describe evidence, not an editorial verdict. A shortfall must reflect weak/redundant evidence, never a hidden input truncation. No padding or extra research loop.')
     omitted=len(ordered)-len(included)
+    lines.append('Excluded article-backed candidates: '+encoded([row for row,c in zip(diagnostics,ordered) if c not in included]))
+    for desk in ('cyprus','world'):
+        if coverage[desk]<4:
+            reasons={}
+            for row in pack.get('metrics',{}).get('pipeline',{}).get(desk,{}).get('rejected',[]):
+                reason=row['reason'];reasons[reason]=reasons.get(reason,0)+1
+            lines.append('Evidence shortfall '+desk+': '+encoded({'target':4,'visible':coverage[desk],
+                'rejections':reasons,'details':'Candidate IDs/reasons above; URL-level collection exclusions remain in sealed metrics.pipeline.'}))
     lines.append(f'Omitted candidate clusters due to input byte cap: {omitted}. Feed-only candidates listed in the inventory are discovery, unavailable for claims; never launch a broad collection loop.')
     text='\n'.join(lines)+'\n'
     if len(text.encode('utf-8'))>max_bytes:

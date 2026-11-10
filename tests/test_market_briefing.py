@@ -171,7 +171,7 @@ class MarketBriefingTests(unittest.TestCase):
 @SkipPriority candidate=c2 reason="Το δημοσίευμα δεν επιβεβαιώνει την ταυτότητα του θύματος."
 '''
         parsed=md.parse(text,ROOT,pack)
-        self.assertEqual(parsed['articles'][0]['newspaper_analysis'],['Διακριτή συνέπεια με πηγή. '])
+        self.assertEqual(parsed['articles'][0]['newspaper_analysis'],['Διακριτή συνέπεια με πηγή.'])
         self.assertEqual(parsed['market_briefs'][0]['instrument'],'GOOGL')
         self.assertIn('c2',parsed['priority_skips'])
 

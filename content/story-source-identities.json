@@ -1,0 +1,8 @@
+{
+  "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/": {
+    "story_id": "veeam-epyc-appliance-boot-2026-11-04",
+    "supporting_url": "https://www.veeam.com/kb4960",
+    "reason": "Reviewed against the article body and Veeam KB4960: both describe the same Software Appliance 13.1+ AMD EPYC jitterentropy boot failure. This mapping covers that boot incident, not the separate MPTCP vulnerability mentioned later in the report.",
+    "reviewed_at": "2026-11-08T05:48:05Z"
+  }
+}

@@ -42,7 +42,7 @@ def prepare(root,day,slot,at,private_root,wire_root=None,client=None):
     opportunities=[{**o['record'],'review_due':True} for o in packet['opportunities']]
     baseline_edition,baseline_records=module('baseline').load(root,packet['baseline']) if packet.get('baseline') else ({},[])
     photos=module('source_photos').prepare(evidence,root,folder/'source-cache/images')
-    pack=module('research_pack').seal(dict(version=1,protocol='oracle-synthesis/1',selection_policy='balanced-v1',briefing_policy='depth-markets-v1',edition_id=packet['edition_id'],
+    pack=module('research_pack').seal(dict(version=1,protocol='oracle-synthesis/1',selection_policy='balanced-v1',coverage_policy='auditable-v1',briefing_policy='depth-markets-v1',edition_id=packet['edition_id'],
         financial_policy=module('financial_insights').POLICY,market_context=routine.get('market_context',[]),
         baseline_financial=baseline_edition.get('financial_insights',[]),
         submission_workflow_installed=(Path(private_root)/'.github/workflows/submit-synthesis.yml').is_file(),

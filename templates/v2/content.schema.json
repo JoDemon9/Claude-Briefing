@@ -2372,6 +2372,11 @@
             "minLength": 20
           }
         },
+        "candidate_exclusions": {
+          "type": "object",
+          "propertyNames": {"pattern": "^c[0-9]+$"},
+          "additionalProperties": {"type": "string", "minLength": 9}
+        },
         "priority_candidates": {
           "type": "object",
           "maxProperties": 2,

@@ -35,24 +35,41 @@ def sports_lane(title, fallback='other'):
 def focused_excerpt(value, title, limit):
     """Select intact paragraphs in source order, including decisive facts after the intro."""
     if len(value)<=limit:return value
-    paragraphs=[p.strip() for p in value.split('\n') if p.strip()]
+    paragraphs=[p.strip() for p in re.split(r'\n|\s*\[…\]\s*',value) if p.strip()]
     if len(paragraphs)<2:
-        paragraphs=re.split(r'(?<=[.!;?·])\s+',value)
+        paragraphs=sentences(value)
+    # Large source paragraphs otherwise consume the entire budget before their
+    # decisive later sentence. Keep complete sentences as ordered source units.
+    paragraphs=[unit for p in paragraphs for unit in (sentences(p) if len(p)>max(300,limit//2) else [p])]
+    paragraphs=list(dict.fromkeys(p.strip() for p in paragraphs if p.strip()))
     tokens=words(normalized(title))
     def relevance(pair):
         i,p=pair; text=normalized(p)
         overlap=len(tokens & words(text))
         financial=bool(re.search(r'earnings|guidance|revenue|inflation|interest rate|μετοχ|κερδ|εσοδ|επιτοκι',normalized(title)))
         catalyst=financial and re.search(r'because|due to|forecast|outlook|guidance|expect|margin|cash flow|spending|analyst|επειδη|προβλεψ|εκτιμησ|δαπαν|περιθωρι',text)
-        return (overlap*4 + (5 if catalyst else 0) + (2 if re.search(r'\d|€|%|deadline|eligible|δικαιουχ|προθεσμ',text) else 0),-i)
+        qualification=bool(re.search(r'no reason to believe|not (?:confirmed|established)|remains unclear|groundless|δεν (?:επιβεβαι|καθοριζ|τεκμηρι)|εκκρεμ',text))
+        concrete=bool(re.search(r'\d|€|%|deadline|eligible|δικαιουχ|προθεσμ|\b(?:δυο|τρια|τρεις)\b',text))
+        consequence=bool(re.search(r'με αποτελεσμα|με συνεπεια|αποσπασματικ|unable to|cannot|only .*eligible',text))
+        return (min(overlap,4)*3 + (8 if catalyst else 0) + (14 if concrete else 0) + (12 if consequence and concrete else 0) + (20 if qualification else 0),-i)
     chosen={0:excerpt(paragraphs[0],min(limit//3,600))};size=len(chosen[0])
     for i,p in sorted(enumerate(paragraphs[1:],1),key=relevance,reverse=True):
         room=limit-size-5
-        if room<120:continue
-        take=p if len(p)<=room else excerpt(p,room)
-        if len(take)<80:continue
+        if room<40:continue
+        # Do not drop the qualification at the end of a decisive paragraph.
+        # An overlong paragraph can only contribute complete sentences.
+        take=p if len(p)<=room else ''
+        if not take:
+            for sentence in sentences(p):
+                if len(take)+len(sentence)+1>room:break
+                take=(take+' '+sentence).strip()
+        if len(take)<40:continue
         chosen[i]=take;size+=len(take)+5
-    return ' […] '.join(chosen[i] for i in sorted(chosen))[:limit]
+    return '\n[…]\n'.join(chosen[i] for i in sorted(chosen))[:limit]
+
+
+def sentences(value):
+    return re.split(r'(?<=[.!?·])(?<!\bκ\.)(?<!\bMr\.)(?<!\bDr\.)\s+',value)
 
 
 def normalized(value):
@@ -63,6 +80,7 @@ def news_report(title):
     """Exclude cartoon columns and forthcoming-show promos, not completed reporting."""
     text=normalized(title).strip()
     return not (re.match(r'^(?:(?:το )?σκιτσο (?:του|της|της ημερας)|(?:daily |today.s )?cartoon(?: of the day)?(?:\s*[:–—-]|$))',text)
+                or text.startswith('καλημερα απο τον πιν')
                 or ('σε λιγο' in text and re.search(r'vidcast|podcast',text)))
 
 
@@ -70,12 +88,23 @@ def geography(title,url,fallback):
     """Conservative routing for general Cyprus feeds and Wire category fallbacks."""
     text=normalized(title);path=urlsplit(url).path.lower()
     if fallback=='sports':return fallback
+    # General publisher feeds also contain sport. A sporting biography in a
+    # political headline (e.g. a presidential candidacy) is not a match report.
+    political=re.search(r'presiden|election|προεδρ|εκλογ',text)
+    if not political and (re.search(r'/(?:sport|sports|athlitika)/',path) or
+            re.search(r'\b(?:formula [e1]|\bf1\b|man utd|manchester united|world cup|premier league|coventry|constructors.? title)\b',text) or
+            re.match(r'live:\s*(?:ολυμπιακοσ|απολλων|αποελ|ομονοια)\b.*[–-]',text)):
+        return 'sports'
     if re.search(r'κυπρ|cyprus|nicosia|limassol|λευκωσ|λεμεσ|λαρνακ|αμμοχωστ',text):return 'cyprus'
+    # Explicit location outranks a publisher's broad /kipros/ directory.
+    if re.search(r'\b(?:new zealand|kiwis|delhi|india|us |united states|china|thessaloniki|νεα ζηλανδια|θεσσαλονικη|γαλλια|κινα|ελλαδα)\b',text):return 'world'
     host=(urlsplit(url).hostname or '').removeprefix('www.')
     if host=='philenews.com':
         if path.startswith('/kipros/'):return 'cyprus'
         if path.startswith('/kosmos/') or '/kosmos-ikonomia/' in path:return 'world'
     if host=='sigmalive.com' and path.startswith('/news/international/'):return 'world'
+    if host=='philenews.com' and path.startswith('/igia-news/zoi-evexia/'):
+        return 'world'
     if fallback=='cyprus' and re.search(r'\b(?:nato|νατο|ηπα|usa|ισραηλ\w*|israel\w*|ukraine|ουκραν\w*|ρωσι\w*|russia\w*)\b',text):return 'world'
     return fallback
 
@@ -85,6 +114,10 @@ def event_hint(title):
     text=normalized(title)
     if re.search(r'\b(?:israel\w*|ισραηλ\w*)\b',text) and re.search(r'\b(?:election\w*|polls|εκλογ\w*|ψηφοφορ\w*)\b',text):
         return 'israel-election'
+    if 'nvidia' in text and re.search(r'\bspy\b|foreign intelligence|security investigation|spy scandal|κατασκοπ|πρακτορ',text):
+        return 'nvidia-security-investigation'
+    if re.search(r'new zealand|νεα ζηλανδ',text) and re.search(r'election|εκλογ',text):
+        return 'new-zealand-election'
     return None
 
 
@@ -92,6 +125,7 @@ def feed_section(item,feed):
     """A Cyprus publisher can carry world news; explicit RSS categories take precedence."""
     if feed['section']=='sports':return 'sports'
     categories={normalized(e.text.strip()) for e in item if e.tag.rsplit('}',1)[-1]=='category' and e.text}
+    if categories & {'sport','sports','football','formula 1','αθλητικα'}:return 'sports'
     if categories & {normalized(c) for c in ('world','world news','world-news','international','διεθνη','κοσμος','europe','middle east')}:
         return 'world'
     if categories & {normalized(c) for c in ('cyprus','κυπρος')}:
@@ -218,7 +252,10 @@ def cluster(items):
     for item in items:
         tokens=words(item['title'])
         hint=event_hint(item['title'])
-        group=next((g for g in groups if item['section']==g[0]['section'] and
+        def same_window(other):
+            if not item.get('published_at') or not other.get('published_at'):return True
+            return abs(datetime.fromisoformat(item['published_at'])-datetime.fromisoformat(other['published_at']))<=timedelta(hours=48)
+        group=next((g for g in groups if item['section']==g[0]['section'] and same_window(g[0]) and
                     ((hint and hint==event_hint(g[0]['title'])) or
                      (len(tokens & words(g[0]['title']))>=3 and
                       len(tokens & words(g[0]['title']))/max(1,len(tokens | words(g[0]['title'])))>=0.60))),None)
@@ -236,11 +273,18 @@ def evidence(item,row):
         return result
     soup=BeautifulSoup(row['text'],'html.parser')
     # Prefer the article region. Navigation/cookie text never becomes article evidence.
-    region=(soup.select_one('[itemprop="articleBody"], .ArticleBody-articleBody, .article-body, .entry-content')
-            or soup.find('article') or soup.find('main'))
-    paragraphs=[clean(str(p)) for p in region.find_all('p')] if region else []
-    text='\n'.join(p for p in paragraphs if len(p)>45 and not p.startswith('Δες περισσότερα άρθρα')
-                   and not re.search(r'πληρωμενη διαφημιση|μπονους εγγραφης|freebet',normalized(p)))
+    # Remove labelled ads before paragraph extraction, including their descendants.
+    for node in soup.select('.advertisement,.sponsored,.sponsor,.advertorial,[data-ad],aside,nav,footer'):
+        node.decompose()
+    text='';rejected=[]
+    for selector in ('[itemprop="articleBody"]','.ArticleBody-articleBody','.articleBody',
+                     '.article-body','.entry-content','article','main'):
+        for region in soup.select(selector):
+            body='\n'.join(clean(str(p)) for p in region.find_all('p'))
+            reason=body_rejection(body)
+            if reason:rejected.append(reason);continue
+            text=article_text(body);break
+        if text:break
     if len(text)<160:
         # Only explicit Article bodies, never arbitrary page JSON or navigation.
         def bodies(node):
@@ -249,18 +293,26 @@ def evidence(item,row):
             elif isinstance(node,dict):
                 types=node.get('@type',[]);types=[types] if isinstance(types,str) else types
                 if set(types)&{'NewsArticle','Article','ReportageNewsArticle'} and isinstance(node.get('articleBody'),str):
-                    yield clean(node['articleBody'])
+                    yield '\n'.join(clean(p) for p in node['articleBody'].splitlines())
                 if '@graph' in node:yield from bodies(node['@graph'])
         for script in soup.select('script[type="application/ld+json"]'):
             try: body=max(bodies(json.loads(script.string or script.get_text())),key=len,default='')
             except (ValueError,TypeError):continue
-            if len(body)>len(text):text=body
+            reason=body_rejection(body)
+            if reason:rejected.append(reason)
+            elif len(body)>len(text):text=article_text(body)
     if len(text)<160:
-        result['rejection_reason']='article_body_missing_or_short'
+        result['rejection_reason']=next((r for r in rejected if r!='article_body_missing_or_short'),'article_body_missing_or_short')
         return result
     blocked=re.search(r'enable javascript|access denied|verify you are human|subscribe to continue|just a moment',text[:500],re.I)
     if blocked:
         result['rejection_reason']='access_challenge_in_body'
+        return result
+    # A sponsored component can be long enough to pass the body-length check.
+    # Reject only promotional text with no headline terms; keep reporting about advertising.
+    if (not words(normalized(item['title'])) & words(normalized(text))
+            and re.search(r'read.only scan|start your free|no mx changes|free email security scan',text,re.I)):
+        result['rejection_reason']='promotional_body_without_article'
         return result
     published=item.get('published_at')
     meta=soup.find('meta',attrs={'property':'article:published_time'})
@@ -290,6 +342,26 @@ def evidence(item,row):
     return result
 
 
+def promotional_paragraph(text):
+    return bool(re.search(r'read.only scan|no mx changes|start your free|free email security scan|adaptive security.s ai agents analyze|πληρωμενη διαφημιση|μπονους εγγραφης|freebet',normalized(text)))
+
+
+def article_text(text):
+    return '\n'.join(p.strip() for p in text.split('\n') if p.strip() and not promotional_paragraph(p)
+                     and not p.startswith('Δες περισσότερα άρθρα'))
+
+
+def body_rejection(text):
+    """Apply the same admission gate to DOM, JSON-LD and sealed-pack replays."""
+    if re.search(r'enable javascript|access denied|verify you are human|subscribe to continue|just a moment',text[:500],re.I):
+        return 'access_challenge_in_body'
+    # A call to buy/scan is not reporting, even when it shares security headline words.
+    if promotional_paragraph(text) and len(article_text(text))<160:
+        return 'promotional_body_without_article'
+    if len(text.strip())<160:return 'article_body_missing_or_short'
+    return None
+
+
 def financial_collection(groups,client,at):
     """Spend the same 24 reads: six Cyprus, four general world, three finance,
     seven sports lanes, then confirmation/repairs. Vacancies return to the queue.
@@ -305,7 +377,22 @@ def financial_collection(groups,client,at):
         publisher=group[0].get('reporting_group',group[0]['publisher'])
         (rest if publisher in seen else first).append(group);seen.add(publisher)
     finance=first+rest
-    chosen=[g[0] for g in cyprus[:6]+world[:4]+finance[:3]]
+    def diversified(queue):
+        counts={};first=[];rest=[]
+        for group in queue:
+            chain=group[0].get('reporting_group',group[0]['publisher'])
+            counts[chain]=counts.get(chain,0)+1
+            (first if counts[chain]<=2 else rest).append(group)
+        return first+rest
+    cyprus=diversified(cyprus)
+    world=diversified(world)
+    broad=[g for g in world if g[0].get('topic') not in ('security','technology','markets-tech')]
+    specialist=[g for g in world if g not in broad]
+    # Reserve general international reporting before high-scoring specialist alerts.
+    initial_world=broad[:3]+specialist[:1]
+    initial_world+=(broad[3:]+specialist[1:])[:4-len(initial_world)]
+    world=broad+specialist
+    chosen=[g[0] for g in cyprus[:6]+initial_world+finance[:3]]
     chosen.extend(next(g[0] for g in sports if g[0].get('sports_lane','other')==lane)
                   for lane in lanes if any(g[0].get('sports_lane','other')==lane for g in sports))
     pages=client.many(item['url'] for item in chosen)
@@ -325,14 +412,14 @@ def financial_collection(groups,client,at):
         targets=[(finance,3),(cyprus,6),(world,4)]
         group=next((g for queue,target in targets
                     if sum(any(usable(i) for i in row) for row in queue)<target
-                    for g in queue if not any(i['url'] in pages for i in g)),None)
+                    for g in queue if not any(usable(i) for i in g) and any(i['url'] not in pages for i in g)),None)
         if group is None:
             group=next((g for lane in lanes if not any(usable(i) and i.get('sports_lane','other')==lane for i in chosen)
                         for g in sports if g[0].get('sports_lane','other')==lane and g[0]['url'] not in pages),None)
         if group is None:
             group=next((g for g in cyprus+world+finance if not any(i['url'] in pages for i in g)),None)
         if group is None:break
-        fetch(group[0])
+        fetch(next(i for i in group if i['url'] not in pages))
     return chosen,pages,fetched
 
 
@@ -415,17 +502,18 @@ def collect(root,packet,client,at,private_folder):
     except (OSError,ValueError):
         seen={}
     baseline_urls={canonical(s['url']) for story in packet.get('stories',[]) for s in story['sources']}
-    candidates=[]; unchanged=[]
+    candidates=[]; unchanged=[];excluded=[]
     for item in chosen:
         ev=fetched[item['url']]; old=seen.get(item['url'],{})
         if ev.get('source'):
             baseline_dates=[datetime.fromisoformat(s['retrieved_at'].replace('Z','+00:00')) for story in packet.get('stories',[]) for s in story['sources'] if canonical(s['url'])==item['url'] and s.get('retrieved_at')]
             old_at=datetime.fromisoformat(old['retrieved_at'].replace('Z','+00:00')) if old.get('retrieved_at') else None
             if item['url'] in baseline_urls and ev['content_sha256']==old.get('sha256') and baseline_dates and old_at and old_at<=min(baseline_dates):
-                unchanged.append(item['url']);continue
+                unchanged.append(item['url']);excluded.append(dict(url=item['url'],section=item['section'],reason='unchanged_baseline'));continue
             seen[item['url']]={'sha256':ev['content_sha256'],'retrieved_at':ev['source']['retrieved_at']}
         # Exclude future-dated evidence, but keep missing dates explicitly unknown.
         if ev.get('published_at') and datetime.fromisoformat(ev['published_at'])>at:
+            excluded.append(dict(url=item['url'],section=item['section'],reason='future_publication'))
             continue
         candidates.append(ev)
     module('atomic').write_json(seen_path,seen)
@@ -437,12 +525,21 @@ def collect(root,packet,client,at,private_folder):
                               finance_candidate=bool(group[0].get('finance_candidate')),
                               priority_hint=priority(group,packet.get('stories',[]))[1],
                               evidence=group,baseline_matches=[s['story_id'] for s in packet.get('stories',[]) if any(canonical(src['url']) in {e['url'] for e in group} for src in s['sources'])]))
+    clustered=module('story_continuity').annotate(root,clustered,at,packet.get('edition_id'))
     required=sorted([c for c in clustered if c['section']!='sports' and c['market_priority']>=6
                      and any(e['access']=='article_excerpt' for e in c['evidence'])],key=lambda c:c['market_priority'],reverse=True)[:2]
     for c in required:c['priority_required']=True
+    grouped_urls={i['url'] for g in groups for i in g}
+    for item in unique.values():
+        if item['url'] not in pages:
+            group=next((g for g in groups if item in g),[])
+            reason=('not_reporting' if item['url'] not in grouped_urls else
+                    'same_event_alternative' if any(i['url'] in pages for i in group) else 'collection_budget')
+            excluded.append(dict(url=item['url'],section=item['section'],reason=reason))
     pipeline={desk:dict(discovered=sum(i['section']==desk for i in unique.values()),
         fetched=sum(i['section']==desk for i in chosen),readable=sum(c['section']==desk and any(e['access']=='article_excerpt' for e in c['evidence']) for c in clustered),
-        rejected=[{'url':e['url'],'reason':e.get('rejection_reason','unavailable')} for e in fetched.values() if e['section']==desk and e['access']!='article_excerpt']) for desk in ('cyprus','world','sports')}
+        rejected=[{'url':e['url'],'reason':e.get('rejection_reason','unavailable')} for e in fetched.values() if e['section']==desk and e['access']!='article_excerpt']+
+                 [{k:e[k] for k in ('url','reason')} for e in excluded if e['section']==desk]) for desk in ('cyprus','world','sports')}
     return dict(candidates=clustered,metrics=dict(pipeline=pipeline,feed_requests=len(feeds),feed_items=len(items),unique_urls=len(unique),
         financial_articles=sum(c['finance_candidate'] and any(e['access']=='article_excerpt' for e in c['evidence']) for c in clustered),
         article_requests=len(pages),unchanged_baseline_urls=len(unchanged),clusters=len(clustered)),

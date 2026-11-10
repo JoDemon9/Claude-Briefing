@@ -41,8 +41,12 @@ def coverage(edition, articles):
     targets = {'world': 4, 'cyprus': 4} if balanced_required(edition) else TARGETS.copy()
     return {'edition_id': edition['id'], 'counts': counts, 'targets': targets,
             'preferred_range': [4, 5],
+            'new_counts': inventory([a for a in articles if a.get('change_status') == 'NEW']),
+            'updated_counts': inventory([a for a in articles if a.get('change_status') in ('UPDATED','REVERSAL','CORRECTION')]),
             'carried_counts': inventory([a for a in articles if a.get('change_status') == 'UNCHANGED']),
+            'unknown_counts': inventory([a for a in articles if a.get('change_status') not in ('NEW','UPDATED','REVERSAL','CORRECTION','UNCHANGED')]),
             'coverage_notes': edition.get('selection_review', {}).get('coverage_notes', {}),
+            'candidate_exclusions': edition.get('selection_review', {}).get('candidate_exclusions', {}),
             'required': coverage_required(edition),
             'shortfalls': {name: target-counts[name] for name, target in targets.items() if counts[name] < target}}
 

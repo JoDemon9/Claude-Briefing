@@ -5,6 +5,10 @@ No general Markdown rendering, HTML, executable expressions or inferred provenan
 import json
 from pathlib import Path
 import re
+import importlib.util
+
+_spec=importlib.util.spec_from_file_location('markdown_citations',Path(__file__).with_name('citations.py'))
+citations=importlib.util.module_from_spec(_spec);_spec.loader.exec_module(citations)
 
 BLOCKS = {'sports', 'panels', 'freshness', 'opportunities', 'daily', 'executive_scan', 'markets',
           'market_summary', 'market_movers', 'market_next_event', 'market_core', 'market_notes',
@@ -72,17 +76,14 @@ def parse(text, root, pack=None):
         for key in ('headline', 'summary'):
             if not article.get(key):
                 raise ValueError('Every article needs @Headline and @Fact')
-        referenced = set(re.findall(r'\[([a-z][a-z0-9-]*)\]', '\n'.join(str(v) for v in article.values())))
-        if not referenced | set(analysis_ids) <= set(sources):
+        if not set(analysis_ids) <= set(sources):
             raise ValueError('Unresolved source reference')
         article['sources'] = list(sources.values())
         article['analysis_sources'] = [sources[key]['url'] for key in analysis_ids]
-        for key in ('summary', 'mechanics_and_incentives', 'second_order_effects', 'delta_update', 'newspaper_analysis'):
+        for key in ('headline','summary','mechanics_and_incentives','second_order_effects','delta_update',
+                    'newspaper_analysis','scenarios','paragraphs','sections','why_it_matters','reader_value','revision_note','evidence_note'):
             if key in article:
-                clean = lambda value:re.sub(r'\[[a-z][a-z0-9-]*\]\s*', '', value)
-                article[key] = [clean(value) for value in article[key]] if isinstance(article[key],list) else clean(article[key])
-        for key in article.get('scenarios', {}):
-            article['scenarios'][key] = re.sub(r'\[[a-z][a-z0-9-]*\]\s*', '', article['scenarios'][key])
+                article[key]=citations.resolve(article[key],sources)
         if article['change_status'] in ('NEW', 'UPDATED', 'REVERSAL', 'CORRECTION'):
             article.setdefault('delta_update', article['summary'])
         if any(article.get(k) for k in ('mechanics_and_incentives','second_order_effects','scenarios')) and not analysis_ids:
@@ -232,11 +233,11 @@ def parse(text, root, pack=None):
                     raise ValueError('Market explanation requires text')
                 payload.setdefault('market_briefs', []).append({'instrument':meta['instrument'],
                     'evidence':meta['evidence'].split(','),'text':body})
-            elif name == '@SkipPriority':
+            elif name in ('@SkipPriority','@Exclude'):
                 finish()
                 meta = attributes(value)
                 fields(meta, ('candidate','reason'), ('candidate','reason'))
-                skips = payload.setdefault('priority_skips', {})
+                skips = payload.setdefault('priority_skips' if name=='@SkipPriority' else 'candidate_exclusions', {})
                 if meta['candidate'] in skips or len(meta['reason'].strip()) < 20:
                     raise ValueError('Priority omission needs one specific reason')
                 skips[meta['candidate']] = meta['reason']
