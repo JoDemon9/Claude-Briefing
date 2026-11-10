@@ -601,6 +601,14 @@
       "published_at": "2026-11-09T05:38:40.545646+00:00",
       "url": "morning/2026-11-09.html",
       "fingerprint": "5eba0273e3dd86f0a0823cfc66e0115f6f0715745152dccd1ff911036a9d9b1d"
+    },
+    {
+      "id": "2026-11-10-morning",
+      "date": "2026-11-10",
+      "type": "morning",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "url": "morning/2026-11-10.html",
+      "fingerprint": "329d5e94461763fb9670f1c18b090687de31011694ef12879a49da6f8adf9a52"
     }
   ],
   "stories": [
@@ -22254,6 +22262,284 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/5b2d19c2d7af8b615ce38166d184ee30307b1b33f55a37c054064a836079af6e.webp"
+    },
+    {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "identity": "nvidia-board-security-review-2026-11-08",
+      "edition_id": "2026-11-10-morning",
+      "date": "2026-11-10",
+      "slot": "morning",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-10T05:30:51.007537+00:00",
+      "headline": "Ο Τραμπ δηλώνει ότι το FBI ερευνά την υπόθεση του επικεφαλής της Nvidia",
+      "finding": "Ο Ντόναλντ Τραμπ δήλωσε στο BBC ότι το FBI ερευνά την υπόθεση του διευθύνοντος συμβούλου της Nvidia, Τζένσεν Χουάνγκ. Η Nvidia έχει ήδη αναθέσει χωριστή ανεξάρτητη έρευνα και δήλωσε ότι δεν έχει λόγο να πιστεύει πως τέθηκαν σε κίνδυνο εταιρικά μυστικά ή η εθνική ασφάλεια. Το CNBC αναφέρει ότι επικεφαλής επιτροπών της Βουλής έχουν ζητήσει από τον Χουάνγκ να συμμετάσχει σε ενημέρωση στις 18 Νοεμβρίου.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-10-morning/nvidia-board-security-review.json",
+      "reader_url": "articles/2026-11-10-morning/nvidia-board-security-review.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-10T03:58:13+00:00",
+          "retrieved_at": "2026-11-10T04:21:09.786021+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-09T10:35:23+00:00",
+          "retrieved_at": "2026-11-10T04:21:10.140114+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/275c8937d24586d4a68029a3851711b5b525ebb2182f5e01540199e3c1b486a0.webp"
+    },
+    {
+      "story_id": "australia-ai-incident-reporting-review-2026-11-10",
+      "identity": "australia-ai-incident-reporting-review-2026-11-10",
+      "edition_id": "2026-11-10-morning",
+      "date": "2026-11-10",
+      "slot": "morning",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-10T05:30:51.007537+00:00",
+      "headline": "Η Αυστραλία εξετάζει υποχρεωτική αναφορά περιστατικών τεχνητής νοημοσύνης",
+      "finding": "Η αυστραλιανή κυβέρνηση προανήγγειλε αλλαγές στο ποινικό πλαίσιο μετά το περιστατικό που συνδέθηκε με τη Medicare, σύμφωνα με τον Guardian στις 10 Νοεμβρίου. Η ανασκόπηση συνιστά να εξεταστεί η υποχρεωτική γνωστοποίηση περιστατικών ασφάλειας τεχνητής νοημοσύνης μέσα σε προθεσμία. Το απόσπασμα δεν αναφέρει ότι έχει ήδη θεσπιστεί τέτοιος κανόνας.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-10-morning/australia-ai-incident-reporting-review.json",
+      "reader_url": "articles/2026-11-10-morning/australia-ai-incident-reporting-review.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-10T02:31:08+00:00",
+          "retrieved_at": "2026-11-10T04:21:10.520260+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5e77832387fe06dd486a0cc5a03c9e9ccbffa3f45686b436d6779695ffda090b.webp"
+    },
+    {
+      "story_id": "eba-white-label-finance-guide-2026-11-09",
+      "identity": "eba-white-label-finance-guide-2026-11-09",
+      "edition_id": "2026-11-10-morning",
+      "date": "2026-11-10",
+      "slot": "morning",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-10T05:30:51.007537+00:00",
+      "headline": "Οδηγός της EBA για κάρτες που φέρουν διαφορετική επωνυμία από τον εκδότη",
+      "finding": "Η Ευρωπαϊκή Αρχή Τραπεζών εξέδωσε οδηγό για χρηματοπιστωτικές υπηρεσίες που προσφέρονται με την επωνυμία άλλης επιχείρησης, σύμφωνα με τον Φιλελεύθερο. Μια κάρτα, ένα δάνειο ή ένα ψηφιακό πορτοφόλι μπορεί να εμφανίζεται με το σήμα γνωστής αλυσίδας ή εφαρμογής, ενώ την έκδοση και τη διαχείριση αναλαμβάνει τράπεζα ή ίδρυμα πληρωμών.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-10-morning/eba-white-label-finance-guide.json",
+      "reader_url": "articles/2026-11-10-morning/eba-white-label-finance-guide.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1793400/pios-krivete-piso-apo-tin-karta-pou-chrisimopiite-proidopiisi-se-katanalotes-apo-european-banking-authority",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-10T04:17:00+00:00",
+          "retrieved_at": "2026-11-10T04:21:10.633643+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/1d4d307f3ae0780fbecf983c81d29b6cb0692bb18bcc2804af4c313fc1bafc15.webp"
+    },
+    {
+      "story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+      "identity": "cyprus-holguin-leaders-meeting-2026-11-09",
+      "edition_id": "2026-11-10-morning",
+      "date": "2026-11-10",
+      "slot": "morning",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-10T05:30:51.007537+00:00",
+      "headline": "Κυπριακό: η συνάντηση με την Ολγκίν ανοίγει συζήτηση για το επόμενο βήμα",
+      "finding": "Οι δύο ηγέτες συναντήθηκαν στις 9 Νοεμβρίου με την προσωπική απεσταλμένη του Γενικού Γραμματέα του ΟΗΕ, Μαρία Άνχελα Ολγκίν. Ο Φιλελεύθερος αναφέρει ότι η Ολγκίν συνεννοήθηκε με τον Αντόνιο Γκουτέρες και τη Ρόζμαρι ΝτιΚάρλο για τα επόμενα βήματα και ότι εξετάζεται νέα συνάντηση υπό τον Γενικό Γραμματέα. Το διαθέσιμο ρεπορτάζ δεν δίνει επιβεβαιωμένη ημερομηνία.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-10-morning/cyprus-holguin-leaders-meeting.json",
+      "reader_url": "articles/2026-11-10-morning/cyprus-holguin-leaders-meeting.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1793421/pos-kleidose-i-trimeri-me-gkouteres-dromos-gia-5-1",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-10T04:15:00+00:00",
+          "retrieved_at": "2026-11-10T04:21:10.613926+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/676e04cfe3f6a2ee6783b728dbe57091374a8a7eaba949b3afb1bc28c45d060e.webp"
+    },
+    {
+      "story_id": "gesy-specialist-appointment-visibility-2026-11-10",
+      "identity": "gesy-specialist-appointment-visibility-2026-11-10",
+      "edition_id": "2026-11-10-morning",
+      "date": "2026-11-10",
+      "slot": "morning",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-10T05:30:51.007537+00:00",
+      "headline": "ΓεΣΥ: σχεδιάζεται ένδειξη διαθεσιμότητας για ραντεβού με ειδικούς",
+      "finding": "Ο Οργανισμός Ασφάλισης Υγείας σχεδιάζει να εμφανίζει ένδειξη διαθεσιμότητας δίπλα στο όνομα κάθε ειδικού γιατρού του ΓεΣΥ και να καταγράφει τους χρόνους αναμονής ανά ειδικότητα, σύμφωνα με τον Φιλελεύθερο. Ο ΟΑΥ έχει εντοπίσει ότι σε ορισμένες περιπτώσεις πολλοί ασθενείς συγκεντρώνονται σε συγκεκριμένους γιατρούς ενώ άλλοι της ίδιας ειδικότητας έχουν νωρίτερα ραντεβού.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-10-morning/gesy-specialist-appointment-visibility.json",
+      "reader_url": "articles/2026-11-10-morning/gesy-specialist-appointment-visibility.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1793374/listes-anamonis-tha-vlepoume-pii-giatri-echoun-diathesima-rantevou-pies-idikotites-parousiazoun-provlimata-ke-pos-proothite-i-katagrafi-ton-anagkon-se-giatrous",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-10T04:14:00+00:00",
+          "retrieved_at": "2026-11-10T04:21:10.566306+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/fb4e3f16ba440c8721dd9508853bd9ef4ee60fcee9c33fe6b12f8d4a3c0d1a26.webp"
+    },
+    {
+      "story_id": "cyprus-police-reform-proposals-2026-11-10",
+      "identity": "cyprus-police-reform-proposals-2026-11-10",
+      "edition_id": "2026-11-10-morning",
+      "date": "2026-11-10",
+      "slot": "morning",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-10T05:30:51.007537+00:00",
+      "headline": "Υπό συζήτηση αλλαγές στις προσλήψεις και τις προαγωγές στην Αστυνομία",
+      "finding": "Ο υπουργός Δικαιοσύνης Κώστας Φυτιρής σχεδιάζει αλλαγές στις προσλήψεις, τις προαγωγές και την επιχειρησιακή λειτουργία της Αστυνομίας, σύμφωνα με τον Φιλελεύθερο. Στη συζήτηση βρίσκεται και το ηλικιακό όριο για νέες προσλήψεις. Το δημοσίευμα παρουσιάζει το χαμήλωμα του ορίου ως πιθανή κατεύθυνση και δεν αναφέρει οριστική απόφαση ή νέο όριο.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-10-morning/cyprus-police-reform-proposals.json",
+      "reader_url": "articles/2026-11-10-morning/cyprus-police-reform-proposals.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1793341/i-pente-megales-allages-pou-zita-o-fitiris-stin-astinomia-allagi-tropou-proagogon-proslipsi-proin-lokatzidon-miosi-ilikias-gia-proslipsis",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-10T04:13:00+00:00",
+          "retrieved_at": "2026-11-10T04:21:10.464932+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c0336783000ad13753677b712ed54b53fcf42c6cd7d44ace0b6aa8450d4b9b85.webp"
+    },
+    {
+      "story_id": "avakoum-cement-payment-testimony-2026-11-09",
+      "identity": "avakoum-cement-payment-testimony-2026-11-09",
+      "edition_id": "2026-11-10-morning",
+      "date": "2026-11-10",
+      "slot": "morning",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-10T05:30:51.007537+00:00",
+      "headline": "Υπόθεση Αββακούμ: κατάθεση για πληρωμές τσιμέντου με μετρητά",
+      "finding": "Στο δικαστήριο στη Λευκωσία, διευθυντής εταιρείας τσιμέντου κατέθεσε στις 9 Νοεμβρίου ότι οι πληρωμές για παραδόσεις στη Μονή Αββακούμ γίνονταν τμηματικά και με μετρητά. Σύμφωνα με την Cyprus Mail, ο μάρτυρας ανέφερε €101.000 για το πρώτο συγκεντρωτικό τιμολόγιο και €9.000 για το δεύτερο. Πρόκειται για κατάθεση μάρτυρα, όχι για δικαστικό πόρισμα.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-10-morning/avakoum-cement-payment-testimony.json",
+      "reader_url": "articles/2026-11-10-morning/avakoum-cement-payment-testimony.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/09/avakoum-monastery-spent-e100k-on-cement-court-hears",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-09T18:53:15+00:00",
+          "retrieved_at": "2026-11-10T04:21:10.125498+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/4f023b7f3bbac65d44dca1048414f5cbc69427653b7de51c66acbb6e0eff0194.webp"
+    },
+    {
+      "story_id": "rizokarpaso-bakirci-unopposed-2026-11-09",
+      "identity": "rizokarpaso-bakirci-unopposed-2026-11-09",
+      "edition_id": "2026-11-10-morning",
+      "date": "2026-11-10",
+      "slot": "morning",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-10T05:30:51.007537+00:00",
+      "headline": "Χωρίς αντίπαλο ανακηρύχθηκε εκ νέου ο Μπακιρτζί στη Γιαλούσα και το Ριζοκάρπασο",
+      "finding": "Ο Χαμίτ Μπακιρτζί ανακηρύχθηκε στις 9 Νοεμβρίου για δεύτερη τετραετή θητεία στην τουρκοκυπριακή τοπική διοίκηση Γιαλούσας και Ριζοκαρπάσου, καθώς δεν υπήρξε άλλος υποψήφιος, σύμφωνα με την Cyprus Mail. Είχε εκλεγεί για πρώτη φορά το 2022, μετά τη συνένωση των δύο δήμων στο πλαίσιο της τοπικής διοικητικής μεταρρύθμισης.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-11-10-morning/rizokarpaso-bakirci-unopposed.json",
+      "reader_url": "articles/2026-11-10-morning/rizokarpaso-bakirci-unopposed.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/10/turkish-cypriot-rizokarpaso-mayor-re-elected-without-contest",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-09T22:00:02+00:00",
+          "retrieved_at": "2026-11-10T04:21:10.393659+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/1733cb7291364634bfaf80b2d602bb9f0d6f3146f5eca834cdb937a3c96f7c4c.webp"
+    },
+    {
+      "story_id": "dubai-p1-main-draw-opening-2026-11-10",
+      "identity": "dubai-p1-main-draw-opening-2026-11-10",
+      "edition_id": "2026-11-10-morning",
+      "date": "2026-11-10",
+      "slot": "morning",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-10T05:30:51.007537+00:00",
+      "headline": "Πάντελ: ξεκινά το κυρίως ταμπλό του Dubai P1",
+      "finding": "Στις 10 Νοεμβρίου ανοίγει το κυρίως ταμπλό του Dubai P1, με αγώνες της φάσης των 64 στους άνδρες και των 32 στις γυναίκες, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-10-morning/dubai-p1-main-draw-opening.json",
+      "reader_url": "articles/2026-11-10-morning/dubai-p1-main-draw-opening.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/partidos-horarios-streaming-treintaidosavos-dubai-premier-padel-p1-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-09T23:01:22+00:00",
+          "retrieved_at": "2026-11-10T04:21:11.964548+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8c4585351a78fa2370600698cd712196a482522dfd5f348a51f4b2732e6e56b8.webp"
+    },
+    {
+      "story_id": "warner-khawaja-cricket-account-2026-11-09",
+      "identity": "warner-khawaja-cricket-account-2026-11-09",
+      "edition_id": "2026-11-10-morning",
+      "date": "2026-11-10",
+      "slot": "morning",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-10T05:30:51.007537+00:00",
+      "headline": "Κρίκετ: ο Γουόρνερ στηρίζει την αφήγηση του Καουάτζα για την υπόθεση του 2018",
+      "finding": "Ο Ντέιβιντ Γουόρνερ, τότε υπαρχηγός της Αυστραλίας στα Test, στήριξε δημόσια την αφήγηση του Ουσμάν Καουάτζα για την αλλοίωση της μπάλας το 2018, σύμφωνα με το BBC.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-11-10-morning/warner-khawaja-cricket-account.json",
+      "reader_url": "articles/2026-11-10-morning/warner-khawaja-cricket-account.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/c5wyry9gmz4ko?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-09T09:21:09+00:00",
+          "retrieved_at": "2026-11-10T04:21:10.052202+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7eaa12544ad24a1f66e8d83b96d3de57d4d8d1fd63963b385d4c2a8a8cdb0c40.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
