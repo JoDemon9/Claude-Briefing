@@ -1,0 +1,74 @@
+{
+  "analysis_sources": [
+    "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack"
+  ],
+  "baseline_origin": {
+    "edition_id": "2026-11-10-morning",
+    "fingerprint": "329d5e94461763fb9670f1c18b090687de31011694ef12879a49da6f8adf9a52"
+  },
+  "category": "Διεθνή",
+  "change_status": "UNCHANGED",
+  "daily": {
+    "events": [],
+    "priority": 2,
+    "section": "world"
+  },
+  "driver_tags": [
+    "technology",
+    "regulation"
+  ],
+  "edition_id": "2026-11-10-midday",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Η Αυστραλία εξετάζει υποχρεωτική αναφορά περιστατικών τεχνητής νοημοσύνης",
+  "id": "australia-ai-incident-reporting-review",
+  "image": {
+    "alt": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
+    "attribution": "the Guardian",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’ · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+    "original_url": "https://i.guim.co.uk/img/media/dffa89dc77a6bbaad44df383335bad241ee8e4ac/250_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4c894726f89832e90eabcf0ec9009cca",
+    "retrieved_at": "2026-11-10T04:21:15.109580+00:00",
+    "source_review": {
+      "checked_at": "2026-11-10T04:21:15.109580+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "9a9a383838383838",
+      "rights_basis": "publisher-attribution",
+      "sha256": "5e77832387fe06dd486a0cc5a03c9e9ccbffa3f45686b436d6779695ffda090b"
+    },
+    "source_url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+    "url": "assets/editorial/source/5e77832387fe06dd486a0cc5a03c9e9ccbffa3f45686b436d6779695ffda090b.webp"
+  },
+  "newspaper_analysis": [
+    "Αν θεσπιστεί υποχρέωση, οι πάροχοι θα χρειάζονται διαδικασία έγκαιρης αναγνώρισης και αναφοράς των συμβάντων που θα ορίζει ο κανόνας."
+  ],
+  "published_at": "2026-11-10T05:30:51.007537+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Η αυστραλιανή κυβέρνηση προανήγγειλε αλλαγές στο ποινικό πλαίσιο μετά το περιστατικό που συνδέθηκε με τη Medicare, σύμφωνα με τον Guardian στις 10 Νοεμβρίου. Η ανασκόπηση συνιστά να εξεταστεί η υποχρεωτική γνωστοποίηση περιστατικών ασφάλειας τεχνητής νοημοσύνης μέσα σε προθεσμία. Το απόσπασμα δεν αναφέρει ότι έχει ήδη θεσπιστεί τέτοιος κανόνας."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-10T02:31:08+00:00",
+      "publisher": "The Guardian",
+      "reporting_group": "The Guardian",
+      "retrieved_at": "2026-11-10T04:21:10.520260+00:00",
+      "url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "australia-ai-incident-reporting-review-2026-11-10",
+  "story_identity": "australia-ai-incident-reporting-review-2026-11-10",
+  "summary": "Η αυστραλιανή κυβέρνηση προανήγγειλε αλλαγές στο ποινικό πλαίσιο μετά το περιστατικό που συνδέθηκε με τη Medicare, σύμφωνα με τον Guardian στις 10 Νοεμβρίου. Η ανασκόπηση συνιστά να εξεταστεί η υποχρεωτική γνωστοποίηση περιστατικών ασφάλειας τεχνητής νοημοσύνης μέσα σε προθεσμία. Το απόσπασμα δεν αναφέρει ότι έχει ήδη θεσπιστεί τέτοιος κανόνας.",
+  "updated_at": "2026-11-10T05:30:51.007537+00:00",
+  "url": "articles/2026-11-10-midday/australia-ai-incident-reporting-review.html"
+}

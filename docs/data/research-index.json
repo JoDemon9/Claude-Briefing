@@ -603,6 +603,14 @@
       "fingerprint": "5eba0273e3dd86f0a0823cfc66e0115f6f0715745152dccd1ff911036a9d9b1d"
     },
     {
+      "id": "2026-11-10-midday",
+      "date": "2026-11-10",
+      "type": "midday",
+      "published_at": "2026-11-10T11:34:43.490485+00:00",
+      "url": "midday/2026-11-10.html",
+      "fingerprint": "0ab744d78072552c226309f8443e6933e0678aebbd6a98d3768358bc1d25f530"
+    },
+    {
       "id": "2026-11-10-morning",
       "date": "2026-11-10",
       "type": "morning",
@@ -22262,6 +22270,346 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/5b2d19c2d7af8b615ce38166d184ee30307b1b33f55a37c054064a836079af6e.webp"
+    },
+    {
+      "story_id": "ukraine-grid-substation-strikes-2026-11-10",
+      "identity": "ukraine-grid-substation-strikes-2026-11-10",
+      "edition_id": "2026-11-10-midday",
+      "date": "2026-11-10",
+      "slot": "midday",
+      "published_at": "2026-11-10T11:34:43.490485+00:00",
+      "available_at": "2026-11-10T11:34:43.490485+00:00",
+      "headline": "Πλήγματα σε υποσταθμούς μεταφοράς και διακοπές ρεύματος στην Ουκρανία",
+      "finding": "Ο πρωθυπουργός της Ουκρανίας ανέφερε ότι τα ρωσικά πλήγματα τη νύχτα προς τη 10η Νοεμβρίου έπληξαν πέντε μεγάλους υποσταθμούς που μεταφέρουν ηλεκτρική ενέργεια μεταξύ περιφερειών, σύμφωνα με τον Guardian. Χωριστά, η Ukrenergo κατέγραψε πλήγματα σε ενεργειακές υποδομές οκτώ περιφερειών και διακοπές ρεύματος σε έξι, μεταξύ τους το Κίεβο, το Χάρκοβο και το Σούμι, σύμφωνα με το Reuters.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-10-midday/ukraine-grid-substation-strikes.json",
+      "reader_url": "articles/2026-11-10-midday/ukraine-grid-substation-strikes.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-10T10:58:18+00:00",
+          "retrieved_at": "2026-11-10T11:00:36.552352+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.reuters.com/business/energy/russia-attacks-energy-facilities-eight-ukrainian-regions-grid-operator-says-2026-11-10/",
+          "publisher": "Reuters",
+          "reporting_group": "Reuters",
+          "published_at": null,
+          "retrieved_at": "2026-11-10T11:32:49+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/978035c3506e4f35b317965cecc7a75d37deac728bb2c752d0e5e55f357bc76c.webp"
+    },
+    {
+      "story_id": "spain-train-drivers-safety-strike-2026-11-10",
+      "identity": "spain-train-drivers-safety-strike-2026-11-10",
+      "edition_id": "2026-11-10-midday",
+      "date": "2026-11-10",
+      "slot": "midday",
+      "published_at": "2026-11-10T11:34:43.490485+00:00",
+      "available_at": "2026-11-10T11:34:43.490485+00:00",
+      "headline": "Ισπανία: απεργία μηχανοδηγών με αίτημα επενδύσεις στην ασφάλεια",
+      "finding": "Οι μηχανοδηγοί στην Ισπανία απέργησαν στις 10 Νοεμβρίου ζητώντας μεγαλύτερες επενδύσεις στη συντήρηση και την ασφάλεια, μετά το δεύτερο θανατηφόρο σιδηροδρομικό δυστύχημα της χρονιάς, σύμφωνα με την Cyprus Mail. Η κινητοποίηση προκάλεσε προβλήματα στις μετακινήσεις· στη Λεγανές, κοντά στη Μαδρίτη, επιβάτες χρειάστηκε να χρησιμοποιήσουν λεωφορεία για το κέντρο.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-10-midday/spain-train-drivers-safety-strike.json",
+      "reader_url": "articles/2026-11-10-midday/spain-train-drivers-safety-strike.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/10/train-drivers-strike-in-spain-after-two-deadly-crashes-in-a-year",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-10T10:53:00+00:00",
+          "retrieved_at": "2026-11-10T11:00:35.269201+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-27-midday/israel-election-voting.webp"
+    },
+    {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "identity": "nvidia-board-security-review-2026-11-08",
+      "edition_id": "2026-11-10-midday",
+      "date": "2026-11-10",
+      "slot": "midday",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-10T11:34:43.490485+00:00",
+      "headline": "Nvidia: προσυνεδριακή άνοδος μετά την πτώση της Δευτέρας",
+      "finding": "Η Nvidia έκλεισε με πτώση άνω του 4% τη Δευτέρα 9 Νοεμβρίου, ενώ το CNBC κατέγραψε άνοδο πριν από το άνοιγμα της Τρίτης. Ο Φιλελεύθερος αναφέρει χωριστά ότι η Rosen Law Firm προωθεί διαδικασίες για ομαδική αγωγή επενδυτών. Οι ισχυρισμοί που περιγράφει το δημοσίευμα δεν συνιστούν δικαστική διαπίστωση.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-10-midday/nvidia-board-security-review.json",
+      "reader_url": "articles/2026-11-10-midday/nvidia-board-security-review.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-10T09:14:29+00:00",
+          "retrieved_at": "2026-11-10T11:00:35.005404+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.philenews.com/oikonomia/kosmos-ikonomia/article/1793610/rosen-law-firm-o-nomikos-ikos-pou-organoni-tin-omadiki-agogi-kata-tis-nvidia-ke-tou-jensen-huang-gia-tin-ipothesi-megaspeed",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-10T10:36:06+00:00",
+          "retrieved_at": "2026-11-10T11:00:36.482591+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f34469910283062f5c27161db45c2085a7f029f593540701fc12c3387cfebebc.webp"
+    },
+    {
+      "story_id": "thanasis-nicolaou-hearing-adjournment-2026-11-10",
+      "identity": "thanasis-nicolaou-hearing-adjournment-2026-11-10",
+      "edition_id": "2026-11-10-midday",
+      "date": "2026-11-10",
+      "slot": "midday",
+      "published_at": "2026-11-10T11:34:43.490485+00:00",
+      "available_at": "2026-11-10T11:34:43.490485+00:00",
+      "headline": "Υπόθεση Θανάση Νικολάου: νέα ακρόαση στις 17 Νοεμβρίου",
+      "finding": "Στην ακρόαση της 10ης Νοεμβρίου για την ιδιωτική ποινική δίωξη, η πλευρά της κατηγορίας ζήτησε χρόνο ώστε η Ανδριάνα Νικολάου να συμπληρώσει τη γραπτή μαρτυρία της, σύμφωνα με τον Φιλελεύθερο. Η διαδικασία δεν προχώρησε όπως είχε προγραμματιστεί και ορίστηκε εκ νέου για τις 17 Νοεμβρίου, οπότε αναμένονται τοποθετήσεις του Γενικού Εισαγγελέα και του Αρχηγού της Αστυνομίας.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-10-midday/thanasis-nicolaou-hearing-adjournment.json",
+      "reader_url": "articles/2026-11-10-midday/thanasis-nicolaou-hearing-adjournment.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1793624/ipothesi-thanasi-nikolaou-zitise-chrono-i-andriana-gia-na-simplirosi-stichia-sti-grapti-martiria-tis-kivotio-me-engrafa-apo-to-geef-sto-dikastirio",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-10T10:42:34+00:00",
+          "retrieved_at": "2026-11-10T11:00:36.584656+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/18827704d516a0af812c3afe5b7fa7d0584ac92f6ba81988958242cce7e3e666.webp"
+    },
+    {
+      "story_id": "peyia-death-remand-2026-11-10",
+      "identity": "peyia-death-remand-2026-11-10",
+      "edition_id": "2026-11-10-midday",
+      "date": "2026-11-10",
+      "slot": "midday",
+      "published_at": "2026-11-10T11:34:43.490485+00:00",
+      "available_at": "2026-11-10T11:34:43.490485+00:00",
+      "headline": "Οκταήμερη κράτηση δύο υπόπτων για τον θάνατο 51χρονου στην Πέγεια",
+      "finding": "Το Επαρχιακό Δικαστήριο Πάφου εξέδωσε διάταγμα οκταήμερης κράτησης για τη 42χρονη συμβία του 51χρονου και τον 20χρονο γιο της, στο πλαίσιο της έρευνας για τον θάνατο του άνδρα στην Πέγεια, σύμφωνα με τον Φιλελεύθερο. Το διάταγμα αφορά την κράτησή τους όσο διερευνάται η υπόθεση.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-10-midday/peyia-death-remand.json",
+      "reader_url": "articles/2026-11-10-midday/peyia-death-remand.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1793613/fonos-51chronou-stin-pegia-anazitite-neari-fili-tou-20chronou-i-ischirismi-gia-koka%ce%90ni-ke-zilia-ti-apokalipse-i-astinomia-sto-dikastirio",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-10T10:35:26+00:00",
+          "retrieved_at": "2026-11-10T11:00:36.775043+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/65a4959585a70eaac82e890f79c611a05dfd6f5d3bb16c856cdac604bbfa82b7.webp"
+    },
+    {
+      "story_id": "hold-onto-me-european-young-audience-award-2026-11-10",
+      "identity": "hold-onto-me-european-young-audience-award-2026-11-10",
+      "edition_id": "2026-11-10-midday",
+      "date": "2026-11-10",
+      "slot": "midday",
+      "published_at": "2026-11-10T11:34:43.490485+00:00",
+      "available_at": "2026-11-10T11:34:43.490485+00:00",
+      "headline": "Το Hold Onto Me της Μυρσίνης Αριστείδου υποψήφιο για ευρωπαϊκό βραβείο κοινού",
+      "finding": "Η ταινία της Κύπριας σκηνοθέτριας Μυρσίνης Αριστείδου είναι μία από τις τρεις υποψήφιες για το Ευρωπαϊκό Βραβείο Νεανικού Κοινού 2027, σύμφωνα με την Cyprus Mail. Την επιλογή θα κάνουν νέοι 12 έως 19 ετών από την Ευρώπη. Η ταινία είναι επίσης η επίσημη υποβολή της Κύπρου για την κατηγορία διεθνούς ταινίας στα Όσκαρ.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-10-midday/hold-onto-me-european-young-audience-award.json",
+      "reader_url": "articles/2026-11-10-midday/hold-onto-me-european-young-audience-award.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/10/cypriot-film-hold-onto-me-shortlisted-for-european-award-as-oscar-campaign-continues",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-10T10:57:28+00:00",
+          "retrieved_at": "2026-11-10T11:00:36.492614+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8923624f97d15d46c98a6d86644c26c90f86c8fb38fe31949c158670c287fe24.webp"
+    },
+    {
+      "story_id": "premier-padel-women-race-2026-11-10",
+      "identity": "premier-padel-women-race-2026-11-10",
+      "edition_id": "2026-11-10-midday",
+      "date": "2026-11-10",
+      "slot": "midday",
+      "published_at": "2026-11-10T11:34:43.490485+00:00",
+      "available_at": "2026-11-10T11:34:43.490485+00:00",
+      "headline": "Πάντελ: Τριάι και Μπρέα έχουν προβάδισμα 2.780 βαθμών στη Race",
+      "finding": "Σύμφωνα με το Padel Addict, Τζέμα Τριάι και Ντέλφι Μπρέα προηγούνται στη γυναικεία Race του Premier Padel. Οι Άρι Σάντσεθ και Αντρέα Ουστέρο ακολουθούν σε απόσταση 2.780 βαθμών.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-10-midday/premier-padel-women-race.json",
+      "reader_url": "articles/2026-11-10-midday/premier-padel-women-race.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/numero-1-femenino-premier-padel-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-10T09:45:38+00:00",
+          "retrieved_at": "2026-11-10T11:00:38.043919+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f54c1ce39620f9024717dbd2017fb509e5f379505a14d4d9604787ffc377a709.webp"
+    },
+    {
+      "story_id": "warriors-eight-win-start-2026-11-10",
+      "identity": "warriors-eight-win-start-2026-11-10",
+      "edition_id": "2026-11-10-midday",
+      "date": "2026-11-10",
+      "slot": "midday",
+      "published_at": "2026-11-10T11:34:43.490485+00:00",
+      "available_at": "2026-11-10T11:34:43.490485+00:00",
+      "headline": "NBA: όγδοη σερί νίκη των Γουόριορς μετά το 0–3",
+      "finding": "Οι Γκόλντεν Στέιτ Γουόριορς νίκησαν τους Νιου Όρλεανς Πέλικανς με 138–87 και έγιναν η πρώτη ομάδα στο NBA που ξεκίνησε με τρεις ήττες και ακολούθησε με οκτώ διαδοχικές νίκες, σύμφωνα με την Cyprus Mail.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-10-midday/warriors-eight-win-start.json",
+      "reader_url": "articles/2026-11-10-midday/warriors-eight-win-start.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/10/warriors-crush-pelicans-to-make-nba-history",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-10T10:17:38+00:00",
+          "retrieved_at": "2026-11-10T11:00:36.308653+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8161d0dbbf69aa54e5177238c64a2d3676cd2819743a16abcac4290a112869fd.webp"
+    },
+    {
+      "story_id": "australia-ai-incident-reporting-review-2026-11-10",
+      "identity": "australia-ai-incident-reporting-review-2026-11-10",
+      "edition_id": "2026-11-10-midday",
+      "date": "2026-11-10",
+      "slot": "midday",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-10T11:34:43.490485+00:00",
+      "headline": "Η Αυστραλία εξετάζει υποχρεωτική αναφορά περιστατικών τεχνητής νοημοσύνης",
+      "finding": "Η αυστραλιανή κυβέρνηση προανήγγειλε αλλαγές στο ποινικό πλαίσιο μετά το περιστατικό που συνδέθηκε με τη Medicare, σύμφωνα με τον Guardian στις 10 Νοεμβρίου. Η ανασκόπηση συνιστά να εξεταστεί η υποχρεωτική γνωστοποίηση περιστατικών ασφάλειας τεχνητής νοημοσύνης μέσα σε προθεσμία. Το απόσπασμα δεν αναφέρει ότι έχει ήδη θεσπιστεί τέτοιος κανόνας.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-10-midday/australia-ai-incident-reporting-review.json",
+      "reader_url": "articles/2026-11-10-midday/australia-ai-incident-reporting-review.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-10T02:31:08+00:00",
+          "retrieved_at": "2026-11-10T04:21:10.520260+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5e77832387fe06dd486a0cc5a03c9e9ccbffa3f45686b436d6779695ffda090b.webp"
+    },
+    {
+      "story_id": "eba-white-label-finance-guide-2026-11-09",
+      "identity": "eba-white-label-finance-guide-2026-11-09",
+      "edition_id": "2026-11-10-midday",
+      "date": "2026-11-10",
+      "slot": "midday",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-10T11:34:43.490485+00:00",
+      "headline": "Οδηγός της EBA για κάρτες που φέρουν διαφορετική επωνυμία από τον εκδότη",
+      "finding": "Η Ευρωπαϊκή Αρχή Τραπεζών εξέδωσε οδηγό για χρηματοπιστωτικές υπηρεσίες που προσφέρονται με την επωνυμία άλλης επιχείρησης, σύμφωνα με τον Φιλελεύθερο. Μια κάρτα, ένα δάνειο ή ένα ψηφιακό πορτοφόλι μπορεί να εμφανίζεται με το σήμα γνωστής αλυσίδας ή εφαρμογής, ενώ την έκδοση και τη διαχείριση αναλαμβάνει τράπεζα ή ίδρυμα πληρωμών.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-10-midday/eba-white-label-finance-guide.json",
+      "reader_url": "articles/2026-11-10-midday/eba-white-label-finance-guide.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1793400/pios-krivete-piso-apo-tin-karta-pou-chrisimopiite-proidopiisi-se-katanalotes-apo-european-banking-authority",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-10T04:17:00+00:00",
+          "retrieved_at": "2026-11-10T04:21:10.633643+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/1d4d307f3ae0780fbecf983c81d29b6cb0692bb18bcc2804af4c313fc1bafc15.webp"
+    },
+    {
+      "story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+      "identity": "cyprus-holguin-leaders-meeting-2026-11-09",
+      "edition_id": "2026-11-10-midday",
+      "date": "2026-11-10",
+      "slot": "midday",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-10T11:34:43.490485+00:00",
+      "headline": "Κυπριακό: η συνάντηση με την Ολγκίν ανοίγει συζήτηση για το επόμενο βήμα",
+      "finding": "Οι δύο ηγέτες συναντήθηκαν στις 9 Νοεμβρίου με την προσωπική απεσταλμένη του Γενικού Γραμματέα του ΟΗΕ, Μαρία Άνχελα Ολγκίν. Ο Φιλελεύθερος αναφέρει ότι η Ολγκίν συνεννοήθηκε με τον Αντόνιο Γκουτέρες και τη Ρόζμαρι ΝτιΚάρλο για τα επόμενα βήματα και ότι εξετάζεται νέα συνάντηση υπό τον Γενικό Γραμματέα. Το διαθέσιμο ρεπορτάζ δεν δίνει επιβεβαιωμένη ημερομηνία.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-10-midday/cyprus-holguin-leaders-meeting.json",
+      "reader_url": "articles/2026-11-10-midday/cyprus-holguin-leaders-meeting.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1793421/pos-kleidose-i-trimeri-me-gkouteres-dromos-gia-5-1",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-10T04:15:00+00:00",
+          "retrieved_at": "2026-11-10T04:21:10.613926+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/676e04cfe3f6a2ee6783b728dbe57091374a8a7eaba949b3afb1bc28c45d060e.webp"
+    },
+    {
+      "story_id": "gesy-specialist-appointment-visibility-2026-11-10",
+      "identity": "gesy-specialist-appointment-visibility-2026-11-10",
+      "edition_id": "2026-11-10-midday",
+      "date": "2026-11-10",
+      "slot": "midday",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-10T11:34:43.490485+00:00",
+      "headline": "ΓεΣΥ: σχεδιάζεται ένδειξη διαθεσιμότητας για ραντεβού με ειδικούς",
+      "finding": "Ο Οργανισμός Ασφάλισης Υγείας σχεδιάζει να εμφανίζει ένδειξη διαθεσιμότητας δίπλα στο όνομα κάθε ειδικού γιατρού του ΓεΣΥ και να καταγράφει τους χρόνους αναμονής ανά ειδικότητα, σύμφωνα με τον Φιλελεύθερο. Ο ΟΑΥ έχει εντοπίσει ότι σε ορισμένες περιπτώσεις πολλοί ασθενείς συγκεντρώνονται σε συγκεκριμένους γιατρούς ενώ άλλοι της ίδιας ειδικότητας έχουν νωρίτερα ραντεβού.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-10-midday/gesy-specialist-appointment-visibility.json",
+      "reader_url": "articles/2026-11-10-midday/gesy-specialist-appointment-visibility.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1793374/listes-anamonis-tha-vlepoume-pii-giatri-echoun-diathesima-rantevou-pies-idikotites-parousiazoun-provlimata-ke-pos-proothite-i-katagrafi-ton-anagkon-se-giatrous",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-10T04:14:00+00:00",
+          "retrieved_at": "2026-11-10T04:21:10.566306+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/fb4e3f16ba440c8721dd9508853bd9ef4ee60fcee9c33fe6b12f8d4a3c0d1a26.webp"
     },
     {
       "story_id": "nvidia-board-security-review-2026-11-08",
