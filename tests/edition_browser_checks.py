@@ -4,6 +4,7 @@ import functools
 import importlib.util
 from http.server import SimpleHTTPRequestHandler,ThreadingHTTPServer
 import json
+import re
 from pathlib import Path
 import threading
 from urllib.parse import urljoin,urlsplit
@@ -15,6 +16,12 @@ except ImportError:
 
 ORIGIN='https://jodemon9.github.io/Claude-Briefing/'
 CASES=((390,True),(1440,False))
+ALIAS_PATTERN=r'\[\s*[es]\d+(?:\s*[,;]\s*[es]\d+)*\s*\]'
+
+
+def public_summary(value):
+    """Expected display text; immutable legacy sources can retain authoring refs."""
+    return re.sub(ALIAS_PATTERN,'',value).strip()
 
 
 class Quiet(SimpleHTTPRequestHandler):
@@ -93,11 +100,12 @@ def run(root,edition_ids=(),output=None):
                         toggle=findings.locator('summary');toggle.focus();page.keyboard.press('Enter')
                         if initially_open:page.keyboard.press('Enter')
                         assert findings.locator('.abstract').is_visible()
-                        assert findings.locator('.abstract').inner_text()==lead['summary']
+                        assert findings.locator('.abstract').inner_text()==public_summary(lead['summary'])
                         assert toggle.bounding_box()['height']>=44
                         toggle.click();assert not findings.locator('.abstract').is_visible()
                     else:
-                        assert page.locator('.hero .abstract').inner_text()==lead['summary']
+                        assert page.locator('.hero .abstract').inner_text()==public_summary(lead['summary'])
+                    assert not re.search(ALIAS_PATTERN,page.locator('body').inner_text())
                     if lead.get('image'):
                         image=page.locator('.hero img').first;image.scroll_into_view_if_needed()
                         image.evaluate('(x)=>x.decode()')
