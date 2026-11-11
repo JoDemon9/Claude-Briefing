@@ -1,0 +1,67 @@
+{
+  "id": "world-china",
+  "story_id": "china-lpr-decision-october-20-2026",
+  "story_identity": "china-lpr-decision-october-20-2026",
+  "edition_id": "2026-10-21-midday",
+  "headline": "Κίνα: αμετάβλητα τα επιτόκια δανείων για 17ο μήνα",
+  "category": "Διεθνή",
+  "summary": "Η Λαϊκή Τράπεζα της Κίνας διατήρησε στις 20/10 το μονοετές βασικό επιτόκιο δανείων στο 3,0% και το πενταετές στο 3,5%, σύμφωνα με την επίσημη ανακοίνωση και το Reuters. Ήταν ο 17ος συνεχόμενος μήνας χωρίς μεταβολή. Η απόφαση ακολούθησε στοιχεία επιβράδυνσης της ανάπτυξης και δείχνει ότι οι αρχές δεν επέλεξαν νέα οριζόντια μείωση σε αυτή τη συνεδρίαση. Η επόμενη κίνηση πολιτικής παραμένει ανοικτή.",
+  "published_at": "2026-10-21T13:39:24+03:00",
+  "updated_at": "2026-10-21T13:39:24+03:00",
+  "sources": [
+    {
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/finance/china-leaves-loan-rates-steady-17th-consecutive-month-2026-10-20/",
+      "published_at": "2026-10-20T01:31:30Z",
+      "retrieved_at": "2026-10-20T04:41:10.375Z",
+      "reporting_group": "Reuters",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Χρονολογημένο υπόβαθρο",
+      "paragraphs": [
+        "Η απόφαση δημοσιεύθηκε στις 20/10 και παραμένει το τελευταίο επίσημο σημείο αναφοράς για τα LPR."
+      ]
+    }
+  ],
+  "image": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Yangshan_Deepwater_Port.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Yangshan_Deepwater_Port.jpg",
+    "caption": "Λιμάνι Yangshan στην Κίνα, 2007. Οικονομικό και γεωγραφικό αρχείο· δεν απεικονίζει τη συνεδρίαση ή την ανακοίνωση επιτοκίων της 20/10/2026. Σμίκρυνση και WebP.",
+    "alt": "Λιμάνι Yangshan στην Κίνα, 2007. Οικονομικό και γεωγραφικό αρχείο· δεν απεικονίζει τη συνεδρίαση ή την ανακοίνωση επιτοκίων της 20/10/2026. Σμίκρυνση και WebP.",
+    "attribution": "YHBEST1",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Yangshan_Deepwater_Port.jpg",
+    "retrieved_at": "2026-10-14T07:57:30+03:00",
+    "url": "assets/editorial/2026-10-21-midday/world-china.webp",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-14-morning/world-2.webp",
+      "sha256": "58930d817107fea3a876a51e91a6a5bed6374666070a6e6930cd09d0bfebbe0c",
+      "reviewed_at": "2026-10-21T13:39:24+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-21-midday/world-china.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 50,
+    "events": [
+      {
+        "id": "2026-10-21-midday-world-china-editorial-review",
+        "kind": "substantive_update",
+        "at": "2026-10-21T13:39:24+03:00",
+        "summary": "Συντακτικός έλεγχος της μεσημεριανής έκδοσης με τις αναφερόμενες πηγές και τους αρχικούς χρόνους τους.",
+        "source_urls": [
+          "https://www.reuters.com/business/finance/china-leaves-loan-rates-steady-17th-consecutive-month-2026-10-20/"
+        ]
+      }
+    ]
+  }
+}

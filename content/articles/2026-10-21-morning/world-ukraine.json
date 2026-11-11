@@ -1,0 +1,78 @@
+{
+  "id": "world-ukraine",
+  "story_id": "ukraine-october-20-strikes-oslo-diplomacy",
+  "story_identity": "ukraine-october-20-strikes-oslo-diplomacy",
+  "edition_id": "2026-10-21-morning",
+  "headline": "Ουκρανία: επανήλθε η έγκαιρη προειδοποίηση· ο Γουίτκοφ μεταφέρει τις ιδέες στη Μόσχα",
+  "category": "Διεθνή",
+  "summary": "Ο Βολοντίμιρ Ζελένσκι δήλωσε μετά τις επαφές της 20/10 στο Όσλο ότι λειτουργεί ξανά η συμμαχική έγκαιρη προειδοποίηση για ρωσικές βαλλιστικές επιθέσεις. Η ουκρανική Προεδρία ανέφερε συνομιλίες με Νορβηγία, Φινλανδία και τους Αμερικανούς απεσταλμένους Στιβ Γουίτκοφ και Τζάρεντ Κούσνερ. Ο Γουίτκοφ αναμένεται σήμερα στη Ρωσία και θα ενημερώσει κατόπιν το Κίεβο. Δεν έχει ανακοινωθεί συμφωνία, ενώ το AP καταγράφει συνεχιζόμενες επιθέσεις και ανησυχία για τις παραδόσεις Patriot.",
+  "published_at": "2026-10-21T07:41:46+03:00",
+  "updated_at": "2026-10-21T07:41:46+03:00",
+  "sources": [
+    {
+      "publisher": "Προεδρία της Ουκρανίας",
+      "url": "https://www.president.gov.ua/en/news/v-oslo-prezident-ukrayini-proviv-zustrichi-z-premyer-ministr-106981",
+      "published_at": "2026-10-20T23:11:00+03:00",
+      "retrieved_at": "2026-10-21T04:38:00Z",
+      "reporting_group": "Προεδρία της Ουκρανίας",
+      "kind": "primary",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/russia-ukraine-zelenskyy-norway-trump-rubio-witkoff-140895c6c0a1682c46f4fe197e056996",
+      "published_at": "2026-10-20T09:01:34Z",
+      "retrieved_at": "2026-10-21T04:38:00Z",
+      "reporting_group": "Associated Press",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Τι ακολουθεί",
+      "paragraphs": [
+        "Η επίσκεψη Γουίτκοφ στη Ρωσία είναι το επόμενο επιβεβαιώσιμο βήμα. Η επαναφορά προειδοποίησης μειώνει ένα επιχειρησιακό κενό, αλλά δεν ισοδυναμεί με αποκατάσταση όλων των εκκρεμών αμερικανικών παραδόσεων."
+      ]
+    }
+  ],
+  "image": {
+    "url": "assets/editorial/2026-10-21-morning/world-ukraine.webp",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Darnytska_Combined_Heat_and_Power_Plant_in_Kyiv_after_Russian_attack_on_2026-02-03_%2819%29.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Darnytska_Combined_Heat_and_Power_Plant_in_Kyiv_after_Russian_attack_on_2026-02-03_%2819%29.jpg",
+    "caption": "Μονάδα Darnytska του Κιέβου μετά την επίθεση της 03/02/2026. Φωτογραφία αρχείου· όχι τα πλήγματα της 20/10.",
+    "alt": "Μονάδα Darnytska του Κιέβου μετά την επίθεση της 03/02/2026. Φωτογραφία αρχείου· όχι τα πλήγματα της 20/10.",
+    "attribution": "Ministry of Energy of Ukraine · Mev.gov.ua / Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "retrieved_at": "2026-10-13T15:54:24+03:00",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-13-morning/world-4.webp",
+      "sha256": "74e70536c975934300273a9c7895e4f37467506aeacddf64f685f05475e609e1",
+      "reviewed_at": "2026-10-21T07:41:46+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-21-morning/world-ukraine.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 10,
+    "events": [
+      {
+        "id": "2026-10-21-morning-world-ukraine-editorial-review",
+        "kind": "substantive_update",
+        "at": "2026-10-21T07:41:46+03:00",
+        "summary": "Συντακτικός έλεγχος της πρωινής έκδοσης με τις αναφερόμενες πηγές και τους αρχικούς χρόνους τους.",
+        "source_urls": [
+          "https://www.president.gov.ua/en/news/v-oslo-prezident-ukrayini-proviv-zustrichi-z-premyer-ministr-106981",
+          "https://apnews.com/article/russia-ukraine-zelenskyy-norway-trump-rubio-witkoff-140895c6c0a1682c46f4fe197e056996"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "world-iran",
+  "story_id": "iran-us-talks-strategy-october-20-2026",
+  "story_identity": "iran-us-talks-strategy-october-20-2026",
+  "edition_id": "2026-10-21-morning",
+  "headline": "Ιράν–ΗΠΑ: παρατεταμένο αδιέξοδο στις επαφές για τον πόλεμο",
+  "category": "Διεθνή",
+  "summary": "Το Reuters ανέφερε στις 20/10, επικαλούμενο τρεις ανώνυμους Ιρανούς αξιωματούχους και έναν εσωτερικό συνομιλητή, ότι η Τεχεράνη δεν αναμένει γρήγορη συμφωνία με τις ΗΠΑ πριν από τις ενδιάμεσες εκλογές. Το Ιράν επιμένει σε άρση του ναυτικού αποκλεισμού, χαλάρωση περιορισμών στις εξαγωγές και αποδέσμευση περιουσιακών στοιχείων πριν από πυρηνικές συνομιλίες. Η αμερικανική και η ιρανική κυβέρνηση δεν σχολίασαν το δημοσίευμα· δεν υπάρχει ανακοινωμένη συμφωνία.",
+  "published_at": "2026-10-21T07:41:46+03:00",
+  "updated_at": "2026-10-21T07:41:46+03:00",
+  "sources": [
+    {
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/us/iran-prolongs-talks-stalemate-influence-us-midterms-officials-say-2026-10-20/",
+      "published_at": "2026-10-20T10:26:13Z",
+      "retrieved_at": "2026-10-20T11:16:46Z",
+      "reporting_group": "Reuters",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Χρονολογημένο υπόβαθρο",
+      "paragraphs": [
+        "Η καταγραφή αφορά το ρεπορτάζ της 20/10 και διατηρείται επειδή εξηγεί το σημερινό ασφάλιστρο κινδύνου στην ενέργεια. Οι ανώνυμες πηγές αποδίδουν κίνητρα· δεν τα παρουσιάζουμε ως επίσημη θέση."
+      ]
+    }
+  ],
+  "image": {
+    "url": "assets/editorial/2026-10-21-morning/world-iran.webp",
+    "alt": "Δορυφορική απεικόνιση των Στενών του Ορμούζ, 06/12/2018. Γεωγραφικό αρχείο· όχι η σημερινή διπλωματική επαφή ή η ναυτιλιακή κίνηση.",
+    "caption": "Δορυφορική απεικόνιση των Στενών του Ορμούζ, 06/12/2018. Γεωγραφικό αρχείο· όχι η σημερινή διπλωματική επαφή ή η ναυτιλιακή κίνηση.",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Strait_of_Hormuz_and_Musandam_Peninsula_%28MODIS_2018-12-10%29.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_and_Musandam_Peninsula_(MODIS_2018-12-10).jpg",
+    "attribution": "MODIS Land Rapid Response Team, NASA GSFC / Wikimedia Commons",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA",
+    "retrieved_at": "2026-10-15T07:44:20+03:00",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-15-morning/world-hormuz.webp",
+      "sha256": "62685d855cbd7f6e18175e45035e814560d96bb774cb2ccf23310d6d323d7ffb",
+      "reviewed_at": "2026-10-21T07:41:46+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-21-morning/world-iran.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 40,
+    "events": [
+      {
+        "id": "2026-10-21-morning-world-iran-editorial-review",
+        "kind": "substantive_update",
+        "at": "2026-10-21T07:41:46+03:00",
+        "summary": "Συντακτικός έλεγχος της πρωινής έκδοσης με τις αναφερόμενες πηγές και τους αρχικούς χρόνους τους.",
+        "source_urls": [
+          "https://www.reuters.com/world/us/iran-prolongs-talks-stalemate-influence-us-midterms-officials-say-2026-10-20/"
+        ]
+      }
+    ]
+  }
+}

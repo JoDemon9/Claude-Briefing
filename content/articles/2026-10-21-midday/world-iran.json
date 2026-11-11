@@ -1,0 +1,67 @@
+{
+  "id": "world-iran",
+  "story_id": "iran-us-talks-strategy-october-20-2026",
+  "story_identity": "iran-us-talks-strategy-october-20-2026",
+  "edition_id": "2026-10-21-midday",
+  "headline": "Ιράν–ΗΠΑ: χωρίς διπλωματική πρόοδο, το Brent κοντά σε υψηλό πέντε μηνών",
+  "category": "Διεθνή",
+  "summary": "Η Τεχεράνη επανέλαβε ότι δεν θα διαπραγματευθεί χωρίς ικανοποίηση των όρων της, ενώ οι επιθέσεις κατά πλοίων στον Κόλπο έφθασαν τουλάχιστον τις 18 σε δύο εβδομάδες, σύμφωνα με το Reuters. Το Brent κινήθηκε στις 21/10 πάνω από τα 110 δολάρια, κοντά σε υψηλό πέντε μηνών. Η άνοδος συνδέεται με φόβους για την προσφορά και με αναφερόμενη πτώση 4,9 εκατ. βαρελιών στα αμερικανικά αποθέματα· δεν υπάρχει επιβεβαιωμένη διπλωματική πρόοδος.",
+  "published_at": "2026-10-21T13:39:24+03:00",
+  "updated_at": "2026-10-21T13:39:24+03:00",
+  "sources": [
+    {
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-worries-2026-10-21/",
+      "published_at": "2026-10-21T00:50:51Z",
+      "retrieved_at": "2026-10-21T10:31:00Z",
+      "reporting_group": "Reuters",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Χρονολογημένο υπόβαθρο",
+      "paragraphs": [
+        "Η τιμή του πετρελαίου είναι στιγμιότυπο ανοικτής αγοράς, όχι κλείσιμο. Οι φόβοι προσφοράς και τα αποθέματα είναι παράλληλοι παράγοντες· δεν αποδίδεται ολόκληρη η κίνηση σε μία αιτία."
+      ]
+    }
+  ],
+  "image": {
+    "url": "assets/editorial/2026-10-21-midday/world-iran.webp",
+    "alt": "Δορυφορική απεικόνιση των Στενών του Ορμούζ, 06/12/2018. Γεωγραφικό αρχείο· όχι η σημερινή διπλωματική επαφή ή η ναυτιλιακή κίνηση.",
+    "caption": "Δορυφορική απεικόνιση των Στενών του Ορμούζ, 06/12/2018. Γεωγραφικό αρχείο· όχι η σημερινή διπλωματική επαφή ή η ναυτιλιακή κίνηση.",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Strait_of_Hormuz_and_Musandam_Peninsula_%28MODIS_2018-12-10%29.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_and_Musandam_Peninsula_(MODIS_2018-12-10).jpg",
+    "attribution": "MODIS Land Rapid Response Team, NASA GSFC / Wikimedia Commons",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA",
+    "retrieved_at": "2026-10-15T07:44:20+03:00",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-15-morning/world-hormuz.webp",
+      "sha256": "62685d855cbd7f6e18175e45035e814560d96bb774cb2ccf23310d6d323d7ffb",
+      "reviewed_at": "2026-10-21T13:39:24+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-21-midday/world-iran.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 40,
+    "events": [
+      {
+        "id": "2026-10-21-midday-world-iran-editorial-review",
+        "kind": "substantive_update",
+        "at": "2026-10-21T13:39:24+03:00",
+        "summary": "Προστέθηκε η ενδοσυνεδριακή άνοδος του Brent και η νεότερη εικόνα για τις θαλάσσιες επιθέσεις, χωρίς να παρουσιαστεί ως κλείσιμο.",
+        "source_urls": [
+          "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-worries-2026-10-21/"
+        ]
+      }
+    ]
+  }
+}

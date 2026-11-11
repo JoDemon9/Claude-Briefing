@@ -1,0 +1,67 @@
+{
+  "id": "cyprus-water",
+  "story_id": "nicosia-eoa-non-revenue-water-october-2026",
+  "story_identity": "nicosia-eoa-non-revenue-water-october-2026",
+  "edition_id": "2026-10-21-morning",
+  "headline": "Λευκωσία: το μη τιμολογούμενο νερό υποχώρησε στο 22%, έναντι 33% παγκύπρια",
+  "category": "Κύπρος",
+  "summary": "Ο ΕΟΑ Λευκωσίας μείωσε το μη τιμολογούμενο νερό στο 22%, κάτω από τον παγκύπριο μέσο όρο 33%, δήλωσε ο πρόεδρός του Κωνσταντίνος Γιωρκάτζης στις 20/10. Σύμφωνα με το Cyprus Mail, ο οργανισμός εξέδωσε 31.242 άδειες από 1/7/2024 έως 30/9/2026, από τις οποίες 1.479 τον Σεπτέμβριο. Τα στοιχεία είναι δήλωση του φορέα και όχι δημοσιευμένος ανεξάρτητος τεχνικός έλεγχος των δικτύων.",
+  "published_at": "2026-10-21T07:41:46+03:00",
+  "updated_at": "2026-10-21T07:41:46+03:00",
+  "sources": [
+    {
+      "publisher": "Cyprus Mail",
+      "url": "https://cyprus-mail.com/2026/10/21/nicosia-water-losses-below-national-average",
+      "published_at": "2026-10-21T04:24:00+03:00",
+      "retrieved_at": "2026-10-21T04:38:00Z",
+      "reporting_group": "Cyprus Mail",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Γιατί έχει σημασία",
+      "paragraphs": [
+        "Η διαφορά των έντεκα ποσοστιαίων μονάδων από τον παγκύπριο μέσο δείχνει ότι η μείωση των απωλειών είναι εφικτή, αλλά το 22% εξακολουθεί να αντιστοιχεί σε σημαντική ποσότητα νερού που δεν τιμολογείται."
+      ]
+    }
+  ],
+  "image": {
+    "url": "assets/editorial/2026-10-21-morning/cyprus-water.webp",
+    "alt": "Αρχειακή άποψη του φράγματος Κούρη και της όχθης του.",
+    "caption": "Φράγμα Κούρη, 06/02/2007. Φωτογραφία αρχείου της περιοχής Άλασσας· δεν τεκμηριώνει τη σημερινή στάθμη ή τα νέα έργα.",
+    "attribution": "Pbach (Peter Bach) · Wikimedia Commons · Public domain · σμίκρυνση/μετατροπή WebP",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-user",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kouris_Dam,_Cyprus.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Kouris_Dam%2C_Cyprus.jpg",
+    "retrieved_at": "2026-10-19T04:33:09.350702+00:00",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-21-morning/cyprus-water.webp",
+      "sha256": "ca32a23c3a7aabd0810e435f8fdde236cf80edb0309c115c4ec9a498506528e4",
+      "reviewed_at": "2026-10-21T07:41:46+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-21-morning/cyprus-water.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "cyprus",
+    "priority": 30,
+    "events": [
+      {
+        "id": "2026-10-21-morning-cyprus-water-editorial-review",
+        "kind": "new",
+        "at": "2026-10-21T07:41:46+03:00",
+        "summary": "Συντακτικός έλεγχος της πρωινής έκδοσης με τις αναφερόμενες πηγές και τους αρχικούς χρόνους τους.",
+        "source_urls": [
+          "https://cyprus-mail.com/2026/10/21/nicosia-water-losses-below-national-average"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "world-ukraine",
+  "story_id": "ukraine-october-20-strikes-oslo-diplomacy",
+  "story_identity": "ukraine-october-20-strikes-oslo-diplomacy",
+  "edition_id": "2026-10-21-midday",
+  "headline": "Ουκρανία: ο Γουίτκοφ συναντήθηκε με τον Πούτιν· τέσσερις νεκροί από νέα πλήγματα",
+  "category": "Διεθνή",
+  "summary": "Ο Αμερικανός απεσταλμένος Στιβ Γουίτκοφ συναντήθηκε στις 21/10 στην Αγία Πετρούπολη με τον Βλαντίμιρ Πούτιν, μετά τις επαφές του Όσλο με την ουκρανική και ευρωπαϊκές πλευρές. Η Ρωσία απελευθέρωσε παράλληλα τον Αμερικανό Στίβεν Χάμπαρντ. Δεν ανακοινώθηκε συμφωνία για τον πόλεμο. Την ίδια ημέρα ρωσικά πλήγματα σκότωσαν τουλάχιστον τέσσερις αμάχους και έπληξαν κατοικίες και ενεργειακές υποδομές, σύμφωνα με ουκρανικές αρχές που επικαλείται το Reuters.",
+  "published_at": "2026-10-21T13:39:24+03:00",
+  "updated_at": "2026-10-21T13:39:24+03:00",
+  "sources": [
+    {
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/europe/putin-hosts-trump-envoy-new-ukraine-peace-talks-frees-us-citizen-held-russia-2026-10-21/",
+      "published_at": "2026-10-21T09:00:00Z",
+      "retrieved_at": "2026-10-21T10:31:00Z",
+      "reporting_group": "Reuters",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    },
+    {
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/europe/four-killed-russian-strikes-ukraine-prime-minister-says-2026-10-21/",
+      "published_at": "2026-10-21T07:00:00Z",
+      "retrieved_at": "2026-10-21T10:31:00Z",
+      "reporting_group": "Reuters",
+      "kind": "reporting",
+      "access": "read",
+      "used_for_claims": true
+    }
+  ],
+  "sections": [
+    {
+      "kind": "reported",
+      "heading": "Τι ακολουθεί",
+      "paragraphs": [
+        "Η συνάντηση έγινε, αλλά το περιεχόμενο και τυχόν παραχωρήσεις δεν έχουν δημοσιοποιηθεί. Η απελευθέρωση του Αμερικανού κρατουμένου είναι διακριτό ανθρωπιστικό αποτέλεσμα και όχι από μόνη της ένδειξη συμφωνίας για την Ουκρανία."
+      ]
+    }
+  ],
+  "image": {
+    "url": "assets/editorial/2026-10-21-midday/world-ukraine.webp",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Darnytska_Combined_Heat_and_Power_Plant_in_Kyiv_after_Russian_attack_on_2026-02-03_%2819%29.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Darnytska_Combined_Heat_and_Power_Plant_in_Kyiv_after_Russian_attack_on_2026-02-03_%2819%29.jpg",
+    "caption": "Μονάδα Darnytska του Κιέβου μετά την επίθεση της 03/02/2026. Φωτογραφία αρχείου· όχι τα πλήγματα της 20/10.",
+    "alt": "Μονάδα Darnytska του Κιέβου μετά την επίθεση της 03/02/2026. Φωτογραφία αρχείου· όχι τα πλήγματα της 20/10.",
+    "attribution": "Ministry of Energy of Ukraine · Mev.gov.ua / Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "retrieved_at": "2026-10-13T15:54:24+03:00",
+    "reuse_review": {
+      "source_asset": "assets/editorial/2026-10-13-morning/world-4.webp",
+      "sha256": "74e70536c975934300273a9c7895e4f37467506aeacddf64f685f05475e609e1",
+      "reviewed_at": "2026-10-21T13:39:24+03:00",
+      "relevance_and_archive_date_checked": true
+    }
+  },
+  "related_story_ids": [],
+  "url": "articles/2026-10-21-midday/world-ukraine.html",
+  "reader_mode": "source",
+  "daily": {
+    "section": "world",
+    "priority": 10,
+    "events": [
+      {
+        "id": "2026-10-21-midday-world-ukraine-editorial-review",
+        "kind": "substantive_update",
+        "at": "2026-10-21T13:39:24+03:00",
+        "summary": "Η αναμενόμενη επίσκεψη εξελίχθηκε σε συνάντηση Πούτιν–Γουίτκοφ, ενώ προστέθηκε ο νεότερος απολογισμός των ρωσικών πληγμάτων.",
+        "source_urls": [
+          "https://www.reuters.com/world/europe/putin-hosts-trump-envoy-new-ukraine-peace-talks-frees-us-citizen-held-russia-2026-10-21/",
+          "https://www.reuters.com/world/europe/four-killed-russian-strikes-ukraine-prime-minister-says-2026-10-21/"
+        ]
+      }
+    ]
+  }
+}
