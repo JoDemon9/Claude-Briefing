@@ -1,0 +1,82 @@
+{
+  "analysis_sources": [
+    "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
+    "https://pr.tsmc.com/english/news/3349"
+  ],
+  "category": "Διεθνή",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 3,
+    "section": "world"
+  },
+  "delta_update": "Στη βραδινή έκδοση προστίθεται η ανακοίνωση εσόδων της 10ης Νοεμβρίου.",
+  "driver_tags": [
+    "finance",
+    "technology"
+  ],
+  "edition_id": "2026-11-11-evening",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "TSMC: αύξηση 59,7% στα έσοδα Οκτωβρίου σε ετήσια βάση",
+  "id": "tsmc-october-revenue-2026",
+  "image": {
+    "alt": "TSMC's October sales jump as global chip boom rolls on",
+    "attribution": "CNBC",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · TSMC's October sales jump as global chip boom rolls on · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
+    "original_url": "https://image.cnbcfm.com/api/v1/image/108547192-1794278392881-gettyimages-2285692291-TAIWAN_TSMC_EARNS.jpeg?v=1794278413&w=1200&h=675",
+    "retrieved_at": "2026-11-11T16:21:10.689969+00:00",
+    "source_review": {
+      "checked_at": "2026-11-11T16:21:10.689969+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "fce2c4c2c2d0e2c6",
+      "rights_basis": "publisher-attribution",
+      "sha256": "fd8fd99ec3ac2230a91ea241c72e5c4660204395ce03bc1de9ff052c8849fa86"
+    },
+    "source_url": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
+    "url": "assets/editorial/source/fd8fd99ec3ac2230a91ea241c72e5c4660204395ce03bc1de9ff052c8849fa86.webp"
+  },
+  "newspaper_analysis": [
+    "Τα έσοδα δείχνουν τον ρυθμό πωλήσεων, ενώ το κόστος της επέκτασης και τα περιθώρια θα φανούν στα επόμενα αποτελέσματα."
+  ],
+  "published_at": "2026-11-11T17:29:16.469907+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Η TSMC ανακοίνωσε στις 10 Νοεμβρίου έσοδα Οκτωβρίου 586,89 δισ. δολαρίων Ταϊβάν, αυξημένα κατά 59,7% σε σχέση με τον Οκτώβριο του 2025 και κατά 14,7% έναντι του Σεπτεμβρίου. Το CNBC αναφέρει επίσης ότι η εταιρεία αναμένει σημαντικά υψηλότερες κεφαλαιουχικές δαπάνες την τριετία 2026–2028 από την προηγούμενη τριετία."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-10T05:41:45+00:00",
+      "publisher": "CNBC",
+      "reporting_group": "CNBC",
+      "retrieved_at": "2026-11-11T16:21:03.433741+00:00",
+      "url": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "primary",
+      "published_at": null,
+      "publisher": "TSMC",
+      "reporting_group": "TSMC",
+      "retrieved_at": "2026-11-11T17:27:05+00:00",
+      "url": "https://pr.tsmc.com/english/news/3349",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "tsmc-october-revenue-2026-11-10",
+  "story_identity": "tsmc-october-revenue-2026-11-10",
+  "summary": "Η TSMC ανακοίνωσε στις 10 Νοεμβρίου έσοδα Οκτωβρίου 586,89 δισ. δολαρίων Ταϊβάν, αυξημένα κατά 59,7% σε σχέση με τον Οκτώβριο του 2025 και κατά 14,7% έναντι του Σεπτεμβρίου. Το CNBC αναφέρει επίσης ότι η εταιρεία αναμένει σημαντικά υψηλότερες κεφαλαιουχικές δαπάνες την τριετία 2026–2028 από την προηγούμενη τριετία.",
+  "updated_at": "2026-11-11T17:29:16.469907+00:00",
+  "url": "articles/2026-11-11-evening/tsmc-october-revenue-2026.html"
+}
