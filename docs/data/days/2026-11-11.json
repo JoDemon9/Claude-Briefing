@@ -10,13 +10,18 @@
       "type": "morning",
       "url": "morning/2026-11-11.html",
       "published_at": "2026-11-11T05:29:02.219750+00:00"
+    },
+    {
+      "id": "2026-11-11-midday",
+      "type": "midday",
+      "url": "midday/2026-11-11.html",
+      "published_at": "2026-11-11T11:30:13.959773+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "gsi-greece-counter-navtex-1441-26",
+  "lead_story_id": "eu-annual-budget-2027-agreement-2026-11-11",
   "stories": [
     {
       "story_id": "alibaba-thead-hong-kong-listing-plan-2026-11-10",
@@ -28,16 +33,64 @@
           "article_id": "alibaba-thead-hong-kong-listing-plan",
           "source_story_id": "alibaba-thead-hong-kong-listing-plan-2026-11-10",
           "url": "articles/2026-11-11-morning/alibaba-thead-hong-kong-listing-plan.html"
+        },
+        {
+          "edition_id": "2026-11-11-midday",
+          "article_id": "alibaba-thead-hong-kong-listing-plan",
+          "source_story_id": "alibaba-thead-hong-kong-listing-plan-2026-11-10",
+          "url": "articles/2026-11-11-midday/alibaba-thead-hong-kong-listing-plan.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-11-morning",
+        "edition_id": "2026-11-11-midday",
         "article_id": "alibaba-thead-hong-kong-listing-plan",
         "source_story_id": "alibaba-thead-hong-kong-listing-plan-2026-11-10",
-        "url": "articles/2026-11-11-morning/alibaba-thead-hong-kong-listing-plan.html"
+        "url": "articles/2026-11-11-midday/alibaba-thead-hong-kong-listing-plan.html"
       },
       "section": "world",
       "priority": 1
+    },
+    {
+      "story_id": "eu-annual-budget-2027-agreement-2026-11-11",
+      "first_seen_at": "2026-11-11T11:30:13.959773+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-11-midday",
+          "article_id": "eu-annual-budget-2027-agreement",
+          "source_story_id": "eu-annual-budget-2027-agreement-2026-11-11",
+          "url": "articles/2026-11-11-midday/eu-annual-budget-2027-agreement.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "eu-annual-budget-2027-agreement",
+        "source_story_id": "eu-annual-budget-2027-agreement-2026-11-11",
+        "url": "articles/2026-11-11-midday/eu-annual-budget-2027-agreement.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "india-false-orders-betting-site-blocks-2026-11-11",
+      "first_seen_at": "2026-11-11T11:30:13.959773+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-11-midday",
+          "article_id": "india-false-orders-betting-site-blocks",
+          "source_story_id": "india-false-orders-betting-site-blocks-2026-11-11",
+          "url": "articles/2026-11-11-midday/india-false-orders-betting-site-blocks.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "india-false-orders-betting-site-blocks",
+        "source_story_id": "india-false-orders-betting-site-blocks-2026-11-11",
+        "url": "articles/2026-11-11-midday/india-false-orders-betting-site-blocks.html"
+      },
+      "section": "world",
+      "priority": 2
     },
     {
       "story_id": "nvidia-board-security-review-2026-11-08",
@@ -49,16 +102,22 @@
           "article_id": "nvidia-board-security-review",
           "source_story_id": "nvidia-board-security-review-2026-11-08",
           "url": "articles/2026-11-11-morning/nvidia-board-security-review.html"
+        },
+        {
+          "edition_id": "2026-11-11-midday",
+          "article_id": "nvidia-board-security-review",
+          "source_story_id": "nvidia-board-security-review-2026-11-08",
+          "url": "articles/2026-11-11-midday/nvidia-board-security-review.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-11-morning",
+        "edition_id": "2026-11-11-midday",
         "article_id": "nvidia-board-security-review",
         "source_story_id": "nvidia-board-security-review-2026-11-08",
-        "url": "articles/2026-11-11-morning/nvidia-board-security-review.html"
+        "url": "articles/2026-11-11-midday/nvidia-board-security-review.html"
       },
       "section": "world",
-      "priority": 2
+      "priority": 3
     },
     {
       "story_id": "uk-eu-electricity-market-contribution-2026-11-10",
@@ -82,27 +141,6 @@
       "priority": 3
     },
     {
-      "story_id": "tigray-displaced-families-return-risk-2026-11-11",
-      "first_seen_at": "2026-11-11T05:29:02.219750+00:00",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-11-11-morning",
-          "article_id": "tigray-displaced-families-return-risk",
-          "source_story_id": "tigray-displaced-families-return-risk-2026-11-11",
-          "url": "articles/2026-11-11-morning/tigray-displaced-families-return-risk.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-11-11-morning",
-        "article_id": "tigray-displaced-families-return-risk",
-        "source_story_id": "tigray-displaced-families-return-risk-2026-11-11",
-        "url": "articles/2026-11-11-morning/tigray-displaced-families-return-risk.html"
-      },
-      "section": "world",
-      "priority": 4
-    },
-    {
       "story_id": "gsi-greece-counter-navtex-1441-26",
       "first_seen_at": "2026-11-11T05:29:02.219750+00:00",
       "last_substantive_at": null,
@@ -112,13 +150,67 @@
           "article_id": "gsi-greece-counter-navtex",
           "source_story_id": "gsi-greece-counter-navtex-1441-26",
           "url": "articles/2026-11-11-morning/gsi-greece-counter-navtex.html"
+        },
+        {
+          "edition_id": "2026-11-11-midday",
+          "article_id": "gsi-greece-counter-navtex",
+          "source_story_id": "gsi-greece-counter-navtex-1441-26",
+          "url": "articles/2026-11-11-midday/gsi-greece-counter-navtex.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-11-morning",
+        "edition_id": "2026-11-11-midday",
         "article_id": "gsi-greece-counter-navtex",
         "source_story_id": "gsi-greece-counter-navtex-1441-26",
-        "url": "articles/2026-11-11-morning/gsi-greece-counter-navtex.html"
+        "url": "articles/2026-11-11-midday/gsi-greece-counter-navtex.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "tigray-displaced-families-return-risk-2026-11-11",
+      "first_seen_at": "2026-11-11T05:29:02.219750+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-11-morning",
+          "article_id": "tigray-displaced-families-return-risk",
+          "source_story_id": "tigray-displaced-families-return-risk-2026-11-11",
+          "url": "articles/2026-11-11-morning/tigray-displaced-families-return-risk.html"
+        },
+        {
+          "edition_id": "2026-11-11-midday",
+          "article_id": "tigray-displaced-families-return-risk",
+          "source_story_id": "tigray-displaced-families-return-risk-2026-11-11",
+          "url": "articles/2026-11-11-midday/tigray-displaced-families-return-risk.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "tigray-displaced-families-return-risk",
+        "source_story_id": "tigray-displaced-families-return-risk-2026-11-11",
+        "url": "articles/2026-11-11-midday/tigray-displaced-families-return-risk.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "cyprus-cbc-patsalides-energy-ai-2026-11-11",
+      "first_seen_at": "2026-11-11T11:30:13.959773+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-11-midday",
+          "article_id": "cyprus-cbc-patsalides-energy-ai",
+          "source_story_id": "cyprus-cbc-patsalides-energy-ai-2026-11-11",
+          "url": "articles/2026-11-11-midday/cyprus-cbc-patsalides-energy-ai.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "cyprus-cbc-patsalides-energy-ai",
+        "source_story_id": "cyprus-cbc-patsalides-energy-ai-2026-11-11",
+        "url": "articles/2026-11-11-midday/cyprus-cbc-patsalides-energy-ai.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -133,13 +225,40 @@
           "article_id": "governors-beach-campsite-eviction",
           "source_story_id": "governors-beach-campsite-eviction-2026-11-10",
           "url": "articles/2026-11-11-morning/governors-beach-campsite-eviction.html"
+        },
+        {
+          "edition_id": "2026-11-11-midday",
+          "article_id": "governors-beach-campsite-eviction",
+          "source_story_id": "governors-beach-campsite-eviction-2026-11-10",
+          "url": "articles/2026-11-11-midday/governors-beach-campsite-eviction.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-11-morning",
+        "edition_id": "2026-11-11-midday",
         "article_id": "governors-beach-campsite-eviction",
         "source_story_id": "governors-beach-campsite-eviction-2026-11-10",
-        "url": "articles/2026-11-11-morning/governors-beach-campsite-eviction.html"
+        "url": "articles/2026-11-11-midday/governors-beach-campsite-eviction.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "peyia-death-remand-2026-11-10",
+      "first_seen_at": "2026-11-11T11:30:13.959773+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-11-midday",
+          "article_id": "peyia-death-remand",
+          "source_story_id": "peyia-death-remand-2026-11-10",
+          "url": "articles/2026-11-11-midday/peyia-death-remand.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "peyia-death-remand",
+        "source_story_id": "peyia-death-remand-2026-11-10",
+        "url": "articles/2026-11-11-midday/peyia-death-remand.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -175,13 +294,19 @@
           "article_id": "cyprus-holguin-leaders-meeting",
           "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
           "url": "articles/2026-11-11-morning/cyprus-holguin-leaders-meeting.html"
+        },
+        {
+          "edition_id": "2026-11-11-midday",
+          "article_id": "cyprus-holguin-leaders-meeting",
+          "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+          "url": "articles/2026-11-11-midday/cyprus-holguin-leaders-meeting.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-11-morning",
+        "edition_id": "2026-11-11-midday",
         "article_id": "cyprus-holguin-leaders-meeting",
         "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
-        "url": "articles/2026-11-11-morning/cyprus-holguin-leaders-meeting.html"
+        "url": "articles/2026-11-11-midday/cyprus-holguin-leaders-meeting.html"
       },
       "section": "cyprus",
       "priority": 8
@@ -196,13 +321,19 @@
           "article_id": "noskova-wta-finals-semifinal",
           "source_story_id": "noskova-wta-finals-semifinal-2026-11-11",
           "url": "articles/2026-11-11-morning/noskova-wta-finals-semifinal.html"
+        },
+        {
+          "edition_id": "2026-11-11-midday",
+          "article_id": "noskova-wta-finals-semifinal",
+          "source_story_id": "noskova-wta-finals-semifinal-2026-11-11",
+          "url": "articles/2026-11-11-midday/noskova-wta-finals-semifinal.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-11-morning",
+        "edition_id": "2026-11-11-midday",
         "article_id": "noskova-wta-finals-semifinal",
         "source_story_id": "noskova-wta-finals-semifinal-2026-11-11",
-        "url": "articles/2026-11-11-morning/noskova-wta-finals-semifinal.html"
+        "url": "articles/2026-11-11-midday/noskova-wta-finals-semifinal.html"
       },
       "section": "sports",
       "priority": 9
@@ -217,13 +348,19 @@
           "article_id": "dubai-p1-second-round-programme",
           "source_story_id": "dubai-p1-second-round-programme-2026-11-11",
           "url": "articles/2026-11-11-morning/dubai-p1-second-round-programme.html"
+        },
+        {
+          "edition_id": "2026-11-11-midday",
+          "article_id": "dubai-p1-second-round-programme",
+          "source_story_id": "dubai-p1-second-round-programme-2026-11-11",
+          "url": "articles/2026-11-11-midday/dubai-p1-second-round-programme.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-11-morning",
+        "edition_id": "2026-11-11-midday",
         "article_id": "dubai-p1-second-round-programme",
         "source_story_id": "dubai-p1-second-round-programme-2026-11-11",
-        "url": "articles/2026-11-11-morning/dubai-p1-second-round-programme.html"
+        "url": "articles/2026-11-11-midday/dubai-p1-second-round-programme.html"
       },
       "section": "sports",
       "priority": 10
@@ -368,6 +505,174 @@
         "article_id": "noskova-wta-finals-semifinal",
         "source_story_id": "noskova-wta-finals-semifinal-2026-11-11",
         "url": "articles/2026-11-11-morning/noskova-wta-finals-semifinal.html"
+      }
+    },
+    {
+      "id": "0d005fe2af8f5fb566d0df7ead4b0e8ca5edea3081b5e5fb6baecc3573cf2bf3",
+      "kind": "provenance",
+      "at": "2026-11-11T11:30:13.959773+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "alibaba-thead-hong-kong-listing-plan-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "alibaba-thead-hong-kong-listing-plan",
+        "source_story_id": "alibaba-thead-hong-kong-listing-plan-2026-11-10",
+        "url": "articles/2026-11-11-midday/alibaba-thead-hong-kong-listing-plan.html"
+      }
+    },
+    {
+      "id": "105ef96d9539925e427c64b198edbb80790844a5b3f94e77225f9b96c81baf67",
+      "kind": "provenance",
+      "at": "2026-11-11T11:30:13.959773+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "governors-beach-campsite-eviction-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "governors-beach-campsite-eviction",
+        "source_story_id": "governors-beach-campsite-eviction-2026-11-10",
+        "url": "articles/2026-11-11-midday/governors-beach-campsite-eviction.html"
+      }
+    },
+    {
+      "id": "15959d31fb9a7cd3f7de87b44f16f89e8ff58a394a1f62d1ec34b05a9dda3704",
+      "kind": "provenance",
+      "at": "2026-11-11T11:30:13.959773+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "dubai-p1-second-round-programme-2026-11-11",
+      "origin": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "dubai-p1-second-round-programme",
+        "source_story_id": "dubai-p1-second-round-programme-2026-11-11",
+        "url": "articles/2026-11-11-midday/dubai-p1-second-round-programme.html"
+      }
+    },
+    {
+      "id": "1b5f29a70e6065c088471136a383f9c650df6b06a1f6548686ff001d3375f1c5",
+      "kind": "provenance",
+      "at": "2026-11-11T11:30:13.959773+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "peyia-death-remand-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "peyia-death-remand",
+        "source_story_id": "peyia-death-remand-2026-11-10",
+        "url": "articles/2026-11-11-midday/peyia-death-remand.html"
+      }
+    },
+    {
+      "id": "3aae86be0312216487fa17b2579aa4bfe5ed679b0b40d6765b1ff2064ee73fc8",
+      "kind": "provenance",
+      "at": "2026-11-11T11:30:13.959773+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "noskova-wta-finals-semifinal-2026-11-11",
+      "origin": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "noskova-wta-finals-semifinal",
+        "source_story_id": "noskova-wta-finals-semifinal-2026-11-11",
+        "url": "articles/2026-11-11-midday/noskova-wta-finals-semifinal.html"
+      }
+    },
+    {
+      "id": "59d46904f38f60d323ad822af47487e1ecd480fb39aa07411fa14351970c2f02",
+      "kind": "provenance",
+      "at": "2026-11-11T11:30:13.959773+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-cbc-patsalides-energy-ai-2026-11-11",
+      "origin": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "cyprus-cbc-patsalides-energy-ai",
+        "source_story_id": "cyprus-cbc-patsalides-energy-ai-2026-11-11",
+        "url": "articles/2026-11-11-midday/cyprus-cbc-patsalides-energy-ai.html"
+      }
+    },
+    {
+      "id": "5fdc80edecff2934ac65a1de37712183d79652b1c4ac6fb196ece14874c54228",
+      "kind": "provenance",
+      "at": "2026-11-11T11:30:13.959773+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+      "origin": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "cyprus-holguin-leaders-meeting",
+        "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+        "url": "articles/2026-11-11-midday/cyprus-holguin-leaders-meeting.html"
+      }
+    },
+    {
+      "id": "7c4ec6e92909b5762ada2e7c726940da892d324d5880f6de292ec4e10d94dc44",
+      "kind": "provenance",
+      "at": "2026-11-11T11:30:13.959773+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "india-false-orders-betting-site-blocks-2026-11-11",
+      "origin": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "india-false-orders-betting-site-blocks",
+        "source_story_id": "india-false-orders-betting-site-blocks-2026-11-11",
+        "url": "articles/2026-11-11-midday/india-false-orders-betting-site-blocks.html"
+      }
+    },
+    {
+      "id": "9d929037d6a8ba61240c9d17af1c90750f96b70341470b42d0338573b5d33e54",
+      "kind": "provenance",
+      "at": "2026-11-11T11:30:13.959773+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "gsi-greece-counter-navtex-1441-26",
+      "origin": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "gsi-greece-counter-navtex",
+        "source_story_id": "gsi-greece-counter-navtex-1441-26",
+        "url": "articles/2026-11-11-midday/gsi-greece-counter-navtex.html"
+      }
+    },
+    {
+      "id": "cdc9af6aed03a7afe73754370866648c5c4238191f1339d21a1683e7b60c3db9",
+      "kind": "provenance",
+      "at": "2026-11-11T11:30:13.959773+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "tigray-displaced-families-return-risk-2026-11-11",
+      "origin": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "tigray-displaced-families-return-risk",
+        "source_story_id": "tigray-displaced-families-return-risk-2026-11-11",
+        "url": "articles/2026-11-11-midday/tigray-displaced-families-return-risk.html"
+      }
+    },
+    {
+      "id": "e78ab6d028761c44c76ee513cb1eddca98b6ec5e67d2e891e078c2fc2f422e09",
+      "kind": "provenance",
+      "at": "2026-11-11T11:30:13.959773+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "nvidia-board-security-review",
+        "source_story_id": "nvidia-board-security-review-2026-11-08",
+        "url": "articles/2026-11-11-midday/nvidia-board-security-review.html"
+      }
+    },
+    {
+      "id": "f6d8775fd414a058dc1a5f85fb722e48c90630c336ecdc0f93902d658566c401",
+      "kind": "provenance",
+      "at": "2026-11-11T11:30:13.959773+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "eu-annual-budget-2027-agreement-2026-11-11",
+      "origin": {
+        "edition_id": "2026-11-11-midday",
+        "article_id": "eu-annual-budget-2027-agreement",
+        "source_story_id": "eu-annual-budget-2027-agreement-2026-11-11",
+        "url": "articles/2026-11-11-midday/eu-annual-budget-2027-agreement.html"
       }
     }
   ],
@@ -577,23 +882,22 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η Αθήνα απάντησε στην τουρκική αναγγελία για τις έρευνες του καλωδίου Κρήτης–Κύπρου, επικαλούμενη τις άδειες. Το πρακτικό τεστ είναι αν οι έρευνες θα προχωρήσουν. Στην Ακτή του Κυβερνήτη, η ειδοποίηση αποχώρησης αφορά και οικογένειες που μένουν μόνιμα εκεί· κρίσιμα είναι η προθεσμία και τυχόν πρόβλεψη μετεγκατάστασης.",
+        "text": "Συμβούλιο και Ευρωκοινοβούλιο συμφώνησαν προκαταρκτικά στον προϋπολογισμό του 2027. Οι δεσμεύσεις επιτρέπουν την ανάληψη δαπανών που μπορεί να εκτείνονται σε περισσότερα έτη, ενώ οι πληρωμές καλύπτουν υποχρεώσεις και από προηγούμενα έτη. Για τους δικαιούχους, το επόμενο τεστ είναι η επίσημη έγκριση και η εφαρμογή ανά πρόγραμμα.",
         "story_ids": [
-          "gsi-greece-counter-navtex-1441-26",
-          "governors-beach-campsite-eviction-2026-11-10"
+          "eu-annual-budget-2027-agreement-2026-11-11"
         ]
       },
       {
-        "text": "Η Alibaba γνωστοποίησε σχέδιο χωριστής εισαγωγής της T-Head, ενώ η Nvidia όρισε εξωτερικό δικηγορικό γραφείο για την έρευνά της. Για τους επενδυτές, τα επόμενα ορόσημα είναι οι όροι της πιθανής εισαγωγής και τα ευρήματα της εταιρικής έρευνας. Καμία από τις δύο ανακοινώσεις δεν τεκμηριώνει μεταβολή στις παραγγελίες τσιπ.",
+        "text": "Η Λευκωσία εξέδωσε δική της NAVTEX για τις έρευνες του καλωδίου, μετά την ελληνική απάντηση στην τουρκική αναγγελία. Η εξέλιξη του έργου θα φανεί από τις ανακοινώσεις για την πορεία των ερευνών. Στη νομισματική πολιτική, ο διοικητής της Κεντρικής Τράπεζας ξεχώρισε το άμεσο ενεργειακό κόστος από τις ευρύτερες επιπτώσεις στις τιμές.",
         "story_ids": [
-          "alibaba-thead-hong-kong-listing-plan-2026-11-10",
-          "nvidia-board-security-review-2026-11-08"
+          "gsi-greece-counter-navtex-1441-26",
+          "cyprus-cbc-patsalides-energy-ai-2026-11-11"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-11T05:31:09.638740+00:00",
-  "updated_at": "2026-11-11T05:31:09.638740+00:00",
-  "input_sha256": "4ce0d6eb5fe72bfd74ba6c9c60e22aeb91d0fd06344795751556460e564c6945"
+  "updated_at": "2026-11-11T11:31:57.290498+00:00",
+  "input_sha256": "c04dcaf73e54296caf1ef5561da5576f2679bbda1c85bd83de2bfb06092c7ef9"
 }

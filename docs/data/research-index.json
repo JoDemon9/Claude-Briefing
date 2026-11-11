@@ -627,6 +627,14 @@
       "fingerprint": "329d5e94461763fb9670f1c18b090687de31011694ef12879a49da6f8adf9a52"
     },
     {
+      "id": "2026-11-11-midday",
+      "date": "2026-11-11",
+      "type": "midday",
+      "published_at": "2026-11-11T11:30:13.959773+00:00",
+      "url": "midday/2026-11-11.html",
+      "fingerprint": "ccf534e00f02a2bd7a3996155062814049b2a731999976128072fd0a6713174a"
+    },
+    {
       "id": "2026-11-11-morning",
       "date": "2026-11-11",
       "type": "morning",
@@ -23271,6 +23279,354 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/7eaa12544ad24a1f66e8d83b96d3de57d4d8d1fd63963b385d4c2a8a8cdb0c40.webp"
+    },
+    {
+      "story_id": "eu-annual-budget-2027-agreement-2026-11-11",
+      "identity": "eu-annual-budget-2027-agreement-2026-11-11",
+      "edition_id": "2026-11-11-midday",
+      "date": "2026-11-11",
+      "slot": "midday",
+      "published_at": "2026-11-11T11:30:13.959773+00:00",
+      "available_at": "2026-11-11T11:30:13.959773+00:00",
+      "headline": "Προκαταρκτική συμφωνία για τον προϋπολογισμό της ΕΕ του 2027",
+      "finding": "Συμβούλιο και Ευρωπαϊκό Κοινοβούλιο κατέληξαν στις 11 Νοεμβρίου σε προκαταρκτική συμφωνία για τον προϋπολογισμό του 2027, τον τελευταίο του πολυετούς πλαισίου 2021–2027. Το Συμβούλιο ανακοίνωσε €199,7 δισ. σε δεσμεύσεις και €211,5 δισ. σε πληρωμές. Η συμφωνία χρειάζεται ακόμη επίσημη έγκριση από τα δύο όργανα· ο Φιλελεύθερος αναφέρει συζήτηση στην Επιτροπή Προϋπολογισμών στις 19 Νοεμβρίου.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-11-midday/eu-annual-budget-2027-agreement.json",
+      "reader_url": "articles/2026-11-11-midday/eu-annual-budget-2027-agreement.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1794067/epitefchthike-simfonia-gia-ton-proipologismo-tis-ee-marathonies-diapragmatefsis-ke-kathoristiki-i-simvoli-chatzipantela",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-11T09:48:05+00:00",
+          "retrieved_at": "2026-11-11T10:43:32.177356+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/11/eu-budget-for-2027-council-and-parliament-reach-agreement/",
+          "publisher": "Council of the European Union",
+          "reporting_group": "Council of the European Union",
+          "published_at": null,
+          "retrieved_at": "2026-11-11T11:28:17+00:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7e48a84f578593fcf029c6c8f899bc2a2aa13a7e8f1d95e1e5d16e9bef911b0b.webp"
+    },
+    {
+      "story_id": "india-false-orders-betting-site-blocks-2026-11-11",
+      "identity": "india-false-orders-betting-site-blocks-2026-11-11",
+      "edition_id": "2026-11-11-midday",
+      "date": "2026-11-11",
+      "slot": "midday",
+      "published_at": "2026-11-11T11:30:13.959773+00:00",
+      "available_at": "2026-11-11T11:30:13.959773+00:00",
+      "headline": "Reuters: αποκλεισμός 129 ιστοτόπων στην Ινδία με βάση πλαστές δικαστικές εντολές",
+      "finding": "Το Reuters, σε ρεπορτάζ που δημοσίευσε η Cyprus Mail, διαπίστωσε ότι δύο πλαστές δικαστικές εντολές χρησιμοποιήθηκαν ως βάση για κυβερνητικές οδηγίες προς παρόχους διαδικτύου να αποκλείσουν 129 ιστοτόπους στοιχηματισμού. Τα ευρήματα οδήγησαν σε τουλάχιστον μία αστυνομική έρευνα. Δεν έχει διευκρινιστεί πώς δημιουργήθηκαν οι πλαστές εντολές ή αν χρησιμοποιήθηκε τεχνητή νοημοσύνη.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-11-midday/india-false-orders-betting-site-blocks.json",
+      "reader_url": "articles/2026-11-11-midday/india-false-orders-betting-site-blocks.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/11/india-blocked-129-websites-using-fake-court-orders",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-11T10:30:21+00:00",
+          "retrieved_at": "2026-11-11T10:43:31.336434+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/999410dabe645cad1a8dfe275aaca10d3ab16240c43d5af3394c32cb318cb60c.webp"
+    },
+    {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "identity": "nvidia-board-security-review-2026-11-08",
+      "edition_id": "2026-11-11-midday",
+      "date": "2026-11-11",
+      "slot": "midday",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-11T11:30:13.959773+00:00",
+      "headline": "Nvidia: προσυνεδριακή ανάκαμψη μετά από δύο πτωτικές συνεδριάσεις",
+      "finding": "Το CNBC ανέφερε ότι η Nvidia έκλεισε την Τρίτη 10 Νοεμβρίου με πτώση 5,47%, μετά την πτώση 4,3% της Δευτέρας. Την Τετάρτη κατέγραψε άνοδο 4,5% σε προσυνεδριακή μέτρηση. Η εταιρεία έχει ήδη αναθέσει σε εξωτερικό δικηγορικό γραφείο την έρευνα για το αν τέθηκαν σε κίνδυνο εταιρικά μυστικά ή η εθνική ασφάλεια.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-11-midday/nvidia-board-security-review.json",
+      "reader_url": "articles/2026-11-11-midday/nvidia-board-security-review.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-11T10:03:29+00:00",
+          "retrieved_at": "2026-11-11T10:43:30.968367+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-10T09:14:29+00:00",
+          "retrieved_at": "2026-11-11T10:43:34.474711+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7e9c90fec921058061abd1cebb6b795e68fe91a08dc61ab0b5043d0eff17cda8.webp"
+    },
+    {
+      "story_id": "gsi-greece-counter-navtex-1441-26",
+      "identity": "gsi-greece-counter-navtex-1441-26",
+      "edition_id": "2026-11-11-midday",
+      "date": "2026-11-11",
+      "slot": "midday",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T11:30:13.959773+00:00",
+      "headline": "Η Κύπρος εξέδωσε δική της NAVTEX για τις έρευνες του καλωδίου Κρήτης–Κύπρου",
+      "finding": "Στις 11 Νοεμβρίου η Λευκωσία εξέδωσε τη NAVTEX NW 352/26 για τις έρευνες του καλωδίου Κρήτης–Κύπρου, μετά την ελληνική αντι-NAVTEX, σύμφωνα με το Sigmalive. Η κυπριακή πλευρά αναφέρει ότι οι εργασίες του Abeille Marengo εντός της κυπριακής ΑΟΖ και υφαλοκρηπίδας έχουν εγκριθεί με κυπριακή άδεια. Το δημοσίευμα αναφέρει ότι το πλοίο απέπλευσε από το Ηράκλειο για τις προγραμματισμένες εργασίες.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-11-midday/gsi-greece-counter-navtex.json",
+      "reader_url": "articles/2026-11-11-midday/gsi-greece-counter-navtex.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/greece/1337158/polemos-navtex-kai-anti-navtex-ghia-to-gsi-pros-kaso-to-abeille-marengo",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-11T10:42:00+00:00",
+          "retrieved_at": "2026-11-11T10:43:31.593511+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0b3d5265d22ea1f796dbed75d9c86a93a041107282362b574607821ae0ba6e74.webp"
+    },
+    {
+      "story_id": "cyprus-cbc-patsalides-energy-ai-2026-11-11",
+      "identity": "cyprus-cbc-patsalides-energy-ai-2026-11-11",
+      "edition_id": "2026-11-11-midday",
+      "date": "2026-11-11",
+      "slot": "midday",
+      "published_at": "2026-11-11T11:30:13.959773+00:00",
+      "available_at": "2026-11-11T11:30:13.959773+00:00",
+      "headline": "Πατσαλίδης: οι κεντρικές τράπεζες πρέπει να εξετάζουν τι κρύβεται πίσω από τον πληθωρισμό",
+      "finding": "Ο διοικητής της Κεντρικής Τράπεζας της Κύπρου Χριστόδουλος Πατσαλίδης δήλωσε στις 11 Νοεμβρίου ότι οι κεντρικές τράπεζες πρέπει να εξετάζουν πώς το ενεργειακό σοκ και η τεχνητή νοημοσύνη επηρεάζουν τη δραστηριότητα, τη χρηματοδότηση και τη σταθερότητα, σύμφωνα με την Cyprus Mail. Ανέφερε ότι δεν έχουν εμφανιστεί σε σημαντική έκταση έμμεσες επιπτώσεις του ενεργειακού σοκ.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-11-midday/cyprus-cbc-patsalides-energy-ai.json",
+      "reader_url": "articles/2026-11-11-midday/cyprus-cbc-patsalides-energy-ai.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/11/energy-shock-and-ai-pose-fresh-challenges-for-monetary-policy-says-cbc-governor",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-11T10:12:43+00:00",
+          "retrieved_at": "2026-11-11T10:43:31.392881+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-13-evening/world-2.webp"
+    },
+    {
+      "story_id": "peyia-death-remand-2026-11-10",
+      "identity": "peyia-death-remand-2026-11-10",
+      "edition_id": "2026-11-11-midday",
+      "date": "2026-11-11",
+      "slot": "midday",
+      "published_at": "2026-11-11T11:30:13.959773+00:00",
+      "available_at": "2026-11-11T11:30:13.959773+00:00",
+      "headline": "Επταήμερη κράτηση 35χρονης στην υπόθεση θανάτου του 51χρονου στην Πέγεια",
+      "finding": "Το Επαρχιακό Δικαστήριο Πάφου εξέδωσε στις 11 Νοεμβρίου διάταγμα επταήμερης κράτησης για 35χρονη στο πλαίσιο της έρευνας για τον θάνατο του 51χρονου στην Πέγεια, σύμφωνα με τον Φιλελεύθερο. Οι Αρχές εκτιμούν ότι η γυναίκα μετέφερε τον άνδρα στο νοσοκομείο μετά τον τραυματισμό του. Το διάταγμα δεν κρίνει την ευθύνη της.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-11-midday/peyia-death-remand.json",
+      "reader_url": "articles/2026-11-11-midday/peyia-death-remand.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1794057/fonos-stin-pegia-eptaimeri-kratisi-gia-tin-35chroni-fili-tou-20chronou-egkatelipse-to-aftokinito-me-to-emofirto-thima",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-11T09:15:06+00:00",
+          "retrieved_at": "2026-11-11T10:43:31.810803+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a4c2b66e73d1d2efeb31338735e0915b8226008618376917b502c6fc302cc24d.webp"
+    },
+    {
+      "story_id": "alibaba-thead-hong-kong-listing-plan-2026-11-10",
+      "identity": "alibaba-thead-hong-kong-listing-plan-2026-11-10",
+      "edition_id": "2026-11-11-midday",
+      "date": "2026-11-11",
+      "slot": "midday",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T11:30:13.959773+00:00",
+      "headline": "Η Alibaba προχωρά το σχέδιο χωριστής εισαγωγής της T-Head στο Χονγκ Κονγκ",
+      "finding": "Η Alibaba ανακοίνωσε στις 10 Νοεμβρίου ότι το χρηματιστήριο του Χονγκ Κονγκ της επέτρεψε να προχωρήσει με τη διαδικασία για χωριστή εισαγωγή της T-Head. Η θυγατρική ημιαγωγών είχε καταθέσει εμπιστευτική αίτηση στις 11 Σεπτεμβρίου. Σύμφωνα με την εταιρική ανακοίνωση και το CNBC, η τελική εισαγωγή εκκρεμεί. Το μέγεθος της προσφοράς δεν έχει οριστικοποιηθεί και η Alibaba αναμένει ότι η T-Head θα παραμείνει θυγατρική της.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-11-midday/alibaba-thead-hong-kong-listing-plan.json",
+      "reader_url": "articles/2026-11-11-midday/alibaba-thead-hong-kong-listing-plan.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-11T03:08:17+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.246917+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926124859/tm2629456d1_ex99-1.htm",
+          "publisher": "Alibaba Group via SEC EDGAR",
+          "reporting_group": "Alibaba Group",
+          "published_at": null,
+          "retrieved_at": "2026-11-11T05:26:45+00:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c0ce4a43b552a0b5760118a1e90aba5232033887c2f83220f3e1b9cee92140d8.webp"
+    },
+    {
+      "story_id": "tigray-displaced-families-return-risk-2026-11-11",
+      "identity": "tigray-displaced-families-return-risk-2026-11-11",
+      "edition_id": "2026-11-11-midday",
+      "date": "2026-11-11",
+      "slot": "midday",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T11:30:13.959773+00:00",
+      "headline": "Τιγκράι: η αναζωπύρωση των συγκρούσεων δυσκολεύει την επιστροφή εκτοπισμένων",
+      "finding": "Οικογένειες που έφυγαν από τα σπίτια τους στον πόλεμο του Τιγκράι αντιμετωπίζουν νέα αβεβαιότητα για την επιστροφή τους, σύμφωνα με ρεπορτάζ του Al Jazeera στις 11 Νοεμβρίου. Η συμφωνία της Πρετόριας τερμάτισε τον διετή πόλεμο το 2022. Τον Οκτώβριο, οργανώσεις δικαιωμάτων προειδοποίησαν το Συμβούλιο Ανθρωπίνων Δικαιωμάτων του ΟΗΕ ότι η αναζωπύρωση των εχθροπραξιών απειλεί τη συμφωνία.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-11-midday/tigray-displaced-families-return-risk.json",
+      "reader_url": "articles/2026-11-11-midday/tigray-displaced-families-return-risk.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/11/tigray-displaced-families-fear-renewed-war-as-hopes-of-returning-home-fade?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-11T01:11:04+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.065178+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/3b3d555a028a70094ef00b5e810253750cbd38f58ac61c6427cdbb8e1119ecbc.webp"
+    },
+    {
+      "story_id": "governors-beach-campsite-eviction-2026-11-10",
+      "identity": "governors-beach-campsite-eviction-2026-11-10",
+      "edition_id": "2026-11-11-midday",
+      "date": "2026-11-11",
+      "slot": "midday",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T11:30:13.959773+00:00",
+      "headline": "Ακτή του Κυβερνήτη: ζητήθηκε η αποχώρηση περίπου 330 οικογενειών από τον κατασκηνωτικό χώρο",
+      "finding": "Στην Επιτροπή Προσφύγων της Βουλής αναφέρθηκε στις 10 Νοεμβρίου ότι περίπου 330 οικογένειες που χρησιμοποιούν τροχόσπιτα στον κατασκηνωτικό χώρο στην Ακτή του Κυβερνήτη κλήθηκαν να αποχωρήσουν, σύμφωνα με την Cyprus Mail. Περίπου 102 χρησιμοποιούν τα τροχόσπιτα ως μόνιμες κατοικίες. Το απόσπασμα δεν διευκρινίζει την προθεσμία αποχώρησης.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-11-midday/governors-beach-campsite-eviction.json",
+      "reader_url": "articles/2026-11-11-midday/governors-beach-campsite-eviction.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/11/campers-face-eviction-from-governors-beach-in-limassol",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-11T02:24:00+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.689821+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/e16b1245d64866bc7756b4acfbf35b3cb2bb8025974aca8ce91ffdcb8f1fea8e.webp"
+    },
+    {
+      "story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+      "identity": "cyprus-holguin-leaders-meeting-2026-11-09",
+      "edition_id": "2026-11-11-midday",
+      "date": "2026-11-11",
+      "slot": "midday",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-11T11:30:13.959773+00:00",
+      "headline": "Κυπριακό: θετική αποτίμηση του Γκουτέρες για τη συνάντηση της Λευκωσίας, σύμφωνα με τον Φιλελεύθερο",
+      "finding": "Ο Φιλελεύθερος μετέδωσε στις 11 Νοεμβρίου ότι ο Αντόνιο Γκουτέρες αποτιμά ως ουσιαστικά τα αποτελέσματα της συνάντησης της 9ης Νοεμβρίου μεταξύ των δύο ηγετών και της Μαρία Άνχελα Ολγκίν στη Λευκωσία. Το διαθέσιμο απόσπασμα δεν δίνει ημερομηνία για νέα συνάντηση υπό τον Γενικό Γραμματέα.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-11-11-midday/cyprus-holguin-leaders-meeting.json",
+      "reader_url": "articles/2026-11-11-midday/cyprus-holguin-leaders-meeting.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1793882/etimos-gia-trimeri-o-gkouteres-ti-ipan-se-tilefoniki-epikinonia-me-christodoulidi-stin-attalia-o-proedros-tis-dimokratias",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-11T04:12:00+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.865150+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/dc22ea14f94f3ed697fd1c41a6bb0f8132938bbd7138e662d8a8a09a8e5865d3.webp"
+    },
+    {
+      "story_id": "noskova-wta-finals-semifinal-2026-11-11",
+      "identity": "noskova-wta-finals-semifinal-2026-11-11",
+      "edition_id": "2026-11-11-midday",
+      "date": "2026-11-11",
+      "slot": "midday",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T11:30:13.959773+00:00",
+      "headline": "Η Νοσκόβα νίκησε την Γκοφ και πέρασε στα ημιτελικά των WTA Finals",
+      "finding": "Η Λίντα Νοσκόβα νίκησε την Κόκο Γκοφ με 6–3, 6–3 και προκρίθηκε στα ημιτελικά των WTA Finals στην πρώτη συμμετοχή της στη διοργάνωση, σύμφωνα με το BBC.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-11-midday/noskova-wta-finals-semifinal.json",
+      "reader_url": "articles/2026-11-11-midday/noskova-wta-finals-semifinal.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cvglwllpxddro?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-10T23:59:03+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.127562+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f7e407e7990dd3b2bb253fc243ef601eb9f7c6875c79c7182ec04099dda9764a.webp"
+    },
+    {
+      "story_id": "dubai-p1-second-round-programme-2026-11-11",
+      "identity": "dubai-p1-second-round-programme-2026-11-11",
+      "edition_id": "2026-11-11-midday",
+      "date": "2026-11-11",
+      "slot": "midday",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T11:30:13.959773+00:00",
+      "headline": "Πάντελ: 22 αγώνες στη δεύτερη ημέρα του κυρίως ταμπλό στο Ντουμπάι",
+      "finding": "Το πρόγραμμα του Dubai P1 για τις 11 Νοεμβρίου περιλαμβάνει 16 αγώνες ανδρών και έξι γυναικών στη φάση των 32, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-11-11-midday/dubai-p1-second-round-programme.json",
+      "reader_url": "articles/2026-11-11-midday/dubai-p1-second-round-programme.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/horarios-partidos-donde-ver-dieciseisavos-dubai-p1-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-10T23:28:31+00:00",
+          "retrieved_at": "2026-11-11T04:21:07.997705+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c7d9a7e311e1ebe4418104ace5722d03513528702d06f89e0b57a4046637ad1a.webp"
     },
     {
       "story_id": "alibaba-thead-hong-kong-listing-plan-2026-11-10",
