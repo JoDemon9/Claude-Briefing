@@ -627,6 +627,14 @@
       "fingerprint": "329d5e94461763fb9670f1c18b090687de31011694ef12879a49da6f8adf9a52"
     },
     {
+      "id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "type": "evening",
+      "published_at": "2026-11-11T17:29:16.469907+00:00",
+      "url": "evening/2026-11-11.html",
+      "fingerprint": "1b5b7fba5518894482707c691ea3cbc74675b448f39da91fb53370f6da5cb02e"
+    },
+    {
       "id": "2026-11-11-midday",
       "date": "2026-11-11",
       "type": "midday",
@@ -23279,6 +23287,389 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/7eaa12544ad24a1f66e8d83b96d3de57d4d8d1fd63963b385d4c2a8a8cdb0c40.webp"
+    },
+    {
+      "story_id": "spain-general-strike-housing-2026-11-11",
+      "identity": "spain-general-strike-housing-2026-11-11",
+      "edition_id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "slot": "evening",
+      "published_at": "2026-11-11T17:29:16.469907+00:00",
+      "available_at": "2026-11-11T17:29:16.469907+00:00",
+      "headline": "Γενική απεργία στην Ισπανία για τη στέγαση και το κόστος ζωής",
+      "finding": "Η πρώτη γενική απεργία στην Ισπανία εδώ και 14 χρόνια προκάλεσε στις 11 Νοεμβρίου σοβαρές διαταραχές στις μεταφορές και σε άλλες δημόσιες υπηρεσίες, σύμφωνα με το BBC. Τα μεγάλα συνδικάτα κάλεσαν την κινητοποίηση για τη στέγαση και το κόστος ζωής. Οι βουλευτικές εκλογές έχουν οριστεί για τις 29 Νοεμβρίου, μετά την αδυναμία έγκρισης της στεγαστικής μεταρρύθμισης στο κοινοβούλιο.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-11-evening/spain-general-strike-housing.json",
+      "reader_url": "articles/2026-11-11-evening/spain-general-strike-housing.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/videos/cwj0587gde88o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-11T16:12:12+00:00",
+          "retrieved_at": "2026-11-11T16:21:02.263436+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7ad7ee08f18fc351b9af0069409b13f374880a3b9faaf9b76f0d1f7c713930e0.webp"
+    },
+    {
+      "story_id": "italy-schools-hoax-alerts-2026-11-11",
+      "identity": "italy-schools-hoax-alerts-2026-11-11",
+      "edition_id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "slot": "evening",
+      "published_at": "2026-11-11T17:29:16.469907+00:00",
+      "available_at": "2026-11-11T17:29:16.469907+00:00",
+      "headline": "Εκκενώσεις σχολείων στην Ιταλία μετά από ψευδείς απειλές",
+      "finding": "Σχολεία στην Ιταλία εκκενώθηκαν στις 11 Νοεμβρίου μετά τη μαζική αποστολή ηλεκτρονικού μηνύματος με ψευδή απειλή, σύμφωνα με το Al Jazeera. Το μέσο αναφέρει περίπου 6.300 παραλήπτες μεταξύ σχολείων, ενώ ο υπουργός Παιδείας μίλησε για τουλάχιστον 300 σχολεία που επηρεάστηκαν. Οι δύο αριθμοί περιγράφουν διαφορετικά μεγέθη.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-11-evening/italy-schools-hoax-alerts.json",
+      "reader_url": "articles/2026-11-11-evening/italy-schools-hoax-alerts.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-11T13:18:36+00:00",
+          "retrieved_at": "2026-11-11T16:21:02.253737+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6c9bc13ade95545747590b406ac088045f786ed02618afec04125de4fd7121b0.webp"
+    },
+    {
+      "story_id": "tsmc-october-revenue-2026-11-10",
+      "identity": "tsmc-october-revenue-2026-11-10",
+      "edition_id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "slot": "evening",
+      "published_at": "2026-11-11T17:29:16.469907+00:00",
+      "available_at": "2026-11-11T17:29:16.469907+00:00",
+      "headline": "TSMC: αύξηση 59,7% στα έσοδα Οκτωβρίου σε ετήσια βάση",
+      "finding": "Η TSMC ανακοίνωσε στις 10 Νοεμβρίου έσοδα Οκτωβρίου 586,89 δισ. δολαρίων Ταϊβάν, αυξημένα κατά 59,7% σε σχέση με τον Οκτώβριο του 2025 και κατά 14,7% έναντι του Σεπτεμβρίου. Το CNBC αναφέρει επίσης ότι η εταιρεία αναμένει σημαντικά υψηλότερες κεφαλαιουχικές δαπάνες την τριετία 2026–2028 από την προηγούμενη τριετία.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-11-evening/tsmc-october-revenue-2026.json",
+      "reader_url": "articles/2026-11-11-evening/tsmc-october-revenue-2026.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/10/tsmcs-october-sales-.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-10T05:41:45+00:00",
+          "retrieved_at": "2026-11-11T16:21:03.433741+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://pr.tsmc.com/english/news/3349",
+          "publisher": "TSMC",
+          "reporting_group": "TSMC",
+          "published_at": null,
+          "retrieved_at": "2026-11-11T17:27:05+00:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/fd8fd99ec3ac2230a91ea241c72e5c4660204395ce03bc1de9ff052c8849fa86.webp"
+    },
+    {
+      "story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+      "identity": "cyprus-holguin-leaders-meeting-2026-11-09",
+      "edition_id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "slot": "evening",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-11T17:29:16.469907+00:00",
+      "headline": "Κυπριακό: ο Φιλελεύθερος μεταδίδει συζήτηση για σύνδεση με την Τελωνειακή Ένωση",
+      "finding": "Ο Φιλελεύθερος μετέδωσε στις 11 Νοεμβρίου, επικαλούμενος πηγές με γνώση των επαφών στην Αττάλεια, ότι ο Ραφαέλε Φίτο θα μεταφέρει στην Άγκυρα πρόταση για επανέναρξη της συζήτησης για την Τελωνειακή Ένωση ΕΕ–Τουρκίας, εφόσον αρχίσουν διαπραγματεύσεις για το Κυπριακό. Οι ίδιες πηγές ανέφεραν ότι ενημερώθηκε ο Γενικός Γραμματέας του ΟΗΕ. Το ρεπορτάζ δεν τεκμηριώνει αποδοχή από την Άγκυρα.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-11-evening/cyprus-holguin-leaders-meeting.json",
+      "reader_url": "articles/2026-11-11-evening/cyprus-holguin-leaders-meeting.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1794333/kipriako-protasi-ee-gia-epanenarxi-diapragmatefseon-sto-kipriako-me-antallagma-sizitisi-gia-teloniaki-enosi",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-11T16:00:15+00:00",
+          "retrieved_at": "2026-11-11T16:21:03.278758+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6753c12848a5485886db3b6c755f4e08da634c30fe8a145c91507be6dc1c3352.webp"
+    },
+    {
+      "story_id": "cyprus-greece-egypt-energy-parliamentary-meeting-2026-11-11",
+      "identity": "cyprus-greece-egypt-energy-parliamentary-meeting-2026-11-11",
+      "edition_id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "slot": "evening",
+      "published_at": "2026-11-11T17:29:16.469907+00:00",
+      "available_at": "2026-11-11T17:29:16.469907+00:00",
+      "headline": "Στη Λευκωσία συζητήθηκε η ενεργειακή συνεργασία Κύπρου, Ελλάδας και Αιγύπτου",
+      "finding": "Στη δεύτερη συνάντηση των προέδρων των κοινοβουλίων Κύπρου, Ελλάδας και Αιγύπτου στις 11 Νοεμβρίου, ομιλητές αναφέρθηκαν στις δυνατότητες στενότερης ενεργειακής συνεργασίας, σύμφωνα με το Sigmalive. Η Αννίτα Δημητρίου χαιρέτισε την επανεκκίνηση των ελληνοαιγυπτιακών διαπραγματεύσεων για το τμήμα της μεταξύ τους ΑΟΖ που δεν καλύφθηκε από τη συμφωνία του 2020.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-11-evening/cyprus-greece-egypt-energy-parliamentary-meeting.json",
+      "reader_url": "articles/2026-11-11-evening/cyprus-greece-egypt-energy-parliamentary-meeting.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/energia/1337214/paroysiastike-i-stratighiki-energheiaki-sinerghasia-kyproy-elladas-kai-aighyptoy",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-11T14:46:12+00:00",
+          "retrieved_at": "2026-11-11T16:21:03.315134+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/1c99078e8c49c2ab0de627d0cf1b04842ca6392fdf371434cbccb1a665ecd3db.webp"
+    },
+    {
+      "story_id": "cyprus-cop31-leaders-address-2026-11-11",
+      "identity": "cyprus-cop31-leaders-address-2026-11-11",
+      "edition_id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "slot": "evening",
+      "published_at": "2026-11-11T17:29:16.469907+00:00",
+      "available_at": "2026-11-11T17:29:16.469907+00:00",
+      "headline": "Στην COP31 ο Χριστοδουλίδης έδωσε έμφαση στην εφαρμογή των κλιματικών δεσμεύσεων",
+      "finding": "Ο Νίκος Χριστοδουλίδης δήλωσε στη Σύνοδο Ηγετών της COP31 στην Αττάλεια στις 11 Νοεμβρίου ότι η επιτυχία πρέπει να κριθεί από την αποτελεσματικότητα των δράσεων, σύμφωνα με τον Φιλελεύθερο. Χωριστά, οι ηγέτες Βραζιλίας και Τουρκίας κάλεσαν τη σύνοδο να διατηρήσει την κλιματική δράση στο επίκεντρο παρά τους πολέμους και τις εμπορικές διαφορές, σύμφωνα με την Cyprus Mail.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-11-evening/cyprus-cop31-leaders-address.json",
+      "reader_url": "articles/2026-11-11-evening/cyprus-cop31-leaders-address.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1794304/christodoulidis-apo-tin-attalia-i-kipriaki-dimokratia-ine-ena-kiriarcho-isotimo-ke-anexartito-kratos-melos-ton-inomenon-ethnon-to-minima-apo-to-vima-tis-cop31",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-11T14:37:14+00:00",
+          "retrieved_at": "2026-11-11T16:21:03.160298+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://cyprus-mail.com/2026/11/11/war-conflict-must-not-distract-from-climate-action-leaders-warn-cop31",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-11T15:14:26+00:00",
+          "retrieved_at": "2026-11-11T16:21:02.951133+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8bc6dda5b5f48d958d87bb45dfded351604a86e80a3b41fb4bca66047aedbe18.webp"
+    },
+    {
+      "story_id": "motogp-yamaha-qatar-withdrawal-2026-11-11",
+      "identity": "motogp-yamaha-qatar-withdrawal-2026-11-11",
+      "edition_id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "slot": "evening",
+      "published_at": "2026-11-11T17:29:16.469907+00:00",
+      "available_at": "2026-11-11T17:29:16.469907+00:00",
+      "headline": "MotoGP: η Yamaha δεν αγωνίστηκε στο Κατάρ λόγω ταξιδιωτικών περιορισμών",
+      "finding": "Η Yamaha απέσυρε την εργοστασιακή ομάδα και την Prima Pramac από το Grand Prix του Κατάρ, επικαλούμενη εταιρικούς ταξιδιωτικούς περιορισμούς για τη Μέση Ανατολή, σύμφωνα με το Al Jazeera.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-11-evening/motogp-yamaha-qatar-withdrawal.json",
+      "reader_url": "articles/2026-11-11-evening/motogp-yamaha-qatar-withdrawal.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/sports/2026/11/11/motogp-carlos-ezpeleta-deputy-ceo-qatar-grand-prix-yamaha-iran-war?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-11T14:58:15+00:00",
+          "retrieved_at": "2026-11-11T16:21:02.258216+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/45a78d858618ef67e025d648e7850c5afa153e9fd65cc43c7f266c4ffac8c1e4.webp"
+    },
+    {
+      "story_id": "bristol-city-skubala-board-support-2026-11-11",
+      "identity": "bristol-city-skubala-board-support-2026-11-11",
+      "edition_id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "slot": "evening",
+      "published_at": "2026-11-11T17:29:16.469907+00:00",
+      "available_at": "2026-11-11T17:29:16.469907+00:00",
+      "headline": "Η Μπρίστολ Σίτι δίνει χρόνο στον Σκούμπαλα",
+      "finding": "Η διοίκηση της Μπρίστολ Σίτι αποφάσισε να δώσει στον Μάικλ Σκούμπαλα την ευκαιρία να βελτιώσει τα εντός έδρας αποτελέσματα μετά από τέσσερις διαδοχικές ήττες εκεί στην Championship, σύμφωνα με το BBC.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-11-evening/bristol-city-skubala-board-support.json",
+      "reader_url": "articles/2026-11-11-evening/bristol-city-skubala-board-support.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/c54gnev0ydnno?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-11T15:52:30+00:00",
+          "retrieved_at": "2026-11-11T16:21:02.451711+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/9cd7a2a11787fff5ae4969027c08b15dfc64592c27dd763041b82cc90f30fae6.webp"
+    },
+    {
+      "story_id": "eu-annual-budget-2027-agreement-2026-11-11",
+      "identity": "eu-annual-budget-2027-agreement-2026-11-11",
+      "edition_id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "slot": "evening",
+      "published_at": "2026-11-11T11:30:13.959773+00:00",
+      "available_at": "2026-11-11T17:29:16.469907+00:00",
+      "headline": "Προκαταρκτική συμφωνία για τον προϋπολογισμό της ΕΕ του 2027",
+      "finding": "Συμβούλιο και Ευρωπαϊκό Κοινοβούλιο κατέληξαν στις 11 Νοεμβρίου σε προκαταρκτική συμφωνία για τον προϋπολογισμό του 2027, τον τελευταίο του πολυετούς πλαισίου 2021–2027. Το Συμβούλιο ανακοίνωσε €199,7 δισ. σε δεσμεύσεις και €211,5 δισ. σε πληρωμές. Η συμφωνία χρειάζεται ακόμη επίσημη έγκριση από τα δύο όργανα· ο Φιλελεύθερος αναφέρει συζήτηση στην Επιτροπή Προϋπολογισμών στις 19 Νοεμβρίου.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-11-evening/eu-annual-budget-2027-agreement.json",
+      "reader_url": "articles/2026-11-11-evening/eu-annual-budget-2027-agreement.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1794067/epitefchthike-simfonia-gia-ton-proipologismo-tis-ee-marathonies-diapragmatefsis-ke-kathoristiki-i-simvoli-chatzipantela",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-11T09:48:05+00:00",
+          "retrieved_at": "2026-11-11T10:43:32.177356+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/11/eu-budget-for-2027-council-and-parliament-reach-agreement/",
+          "publisher": "Council of the European Union",
+          "reporting_group": "Council of the European Union",
+          "published_at": null,
+          "retrieved_at": "2026-11-11T11:28:17+00:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7e48a84f578593fcf029c6c8f899bc2a2aa13a7e8f1d95e1e5d16e9bef911b0b.webp"
+    },
+    {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "identity": "nvidia-board-security-review-2026-11-08",
+      "edition_id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "slot": "evening",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-11T17:29:16.469907+00:00",
+      "headline": "Nvidia: προσυνεδριακή ανάκαμψη μετά από δύο πτωτικές συνεδριάσεις",
+      "finding": "Το CNBC ανέφερε ότι η Nvidia έκλεισε την Τρίτη 10 Νοεμβρίου με πτώση 5,47%, μετά την πτώση 4,3% της Δευτέρας. Την Τετάρτη κατέγραψε άνοδο 4,5% σε προσυνεδριακή μέτρηση. Η εταιρεία έχει ήδη αναθέσει σε εξωτερικό δικηγορικό γραφείο την έρευνα για το αν τέθηκαν σε κίνδυνο εταιρικά μυστικά ή η εθνική ασφάλεια.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-11-evening/nvidia-board-security-review.json",
+      "reader_url": "articles/2026-11-11-evening/nvidia-board-security-review.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-11T10:03:29+00:00",
+          "retrieved_at": "2026-11-11T10:43:30.968367+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-10T09:14:29+00:00",
+          "retrieved_at": "2026-11-11T10:43:34.474711+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7e9c90fec921058061abd1cebb6b795e68fe91a08dc61ab0b5043d0eff17cda8.webp"
+    },
+    {
+      "story_id": "gsi-greece-counter-navtex-1441-26",
+      "identity": "gsi-greece-counter-navtex-1441-26",
+      "edition_id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "slot": "evening",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T17:29:16.469907+00:00",
+      "headline": "Η Κύπρος εξέδωσε δική της NAVTEX για τις έρευνες του καλωδίου Κρήτης–Κύπρου",
+      "finding": "Στις 11 Νοεμβρίου η Λευκωσία εξέδωσε τη NAVTEX NW 352/26 για τις έρευνες του καλωδίου Κρήτης–Κύπρου, μετά την ελληνική αντι-NAVTEX, σύμφωνα με το Sigmalive. Η κυπριακή πλευρά αναφέρει ότι οι εργασίες του Abeille Marengo εντός της κυπριακής ΑΟΖ και υφαλοκρηπίδας έχουν εγκριθεί με κυπριακή άδεια. Το δημοσίευμα αναφέρει ότι το πλοίο απέπλευσε από το Ηράκλειο για τις προγραμματισμένες εργασίες.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-11-evening/gsi-greece-counter-navtex.json",
+      "reader_url": "articles/2026-11-11-evening/gsi-greece-counter-navtex.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/greece/1337158/polemos-navtex-kai-anti-navtex-ghia-to-gsi-pros-kaso-to-abeille-marengo",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-11T10:42:00+00:00",
+          "retrieved_at": "2026-11-11T10:43:31.593511+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0b3d5265d22ea1f796dbed75d9c86a93a041107282362b574607821ae0ba6e74.webp"
+    },
+    {
+      "story_id": "governors-beach-campsite-eviction-2026-11-10",
+      "identity": "governors-beach-campsite-eviction-2026-11-10",
+      "edition_id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "slot": "evening",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T17:29:16.469907+00:00",
+      "headline": "Ακτή του Κυβερνήτη: ζητήθηκε η αποχώρηση περίπου 330 οικογενειών από τον κατασκηνωτικό χώρο",
+      "finding": "Στην Επιτροπή Προσφύγων της Βουλής αναφέρθηκε στις 10 Νοεμβρίου ότι περίπου 330 οικογένειες που χρησιμοποιούν τροχόσπιτα στον κατασκηνωτικό χώρο στην Ακτή του Κυβερνήτη κλήθηκαν να αποχωρήσουν, σύμφωνα με την Cyprus Mail. Περίπου 102 χρησιμοποιούν τα τροχόσπιτα ως μόνιμες κατοικίες. Το απόσπασμα δεν διευκρινίζει την προθεσμία αποχώρησης.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-11-evening/governors-beach-campsite-eviction.json",
+      "reader_url": "articles/2026-11-11-evening/governors-beach-campsite-eviction.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/11/campers-face-eviction-from-governors-beach-in-limassol",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-11T02:24:00+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.689821+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/e16b1245d64866bc7756b4acfbf35b3cb2bb8025974aca8ce91ffdcb8f1fea8e.webp"
+    },
+    {
+      "story_id": "dubai-p1-second-round-programme-2026-11-11",
+      "identity": "dubai-p1-second-round-programme-2026-11-11",
+      "edition_id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "slot": "evening",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T17:29:16.469907+00:00",
+      "headline": "Πάντελ: 22 αγώνες στη δεύτερη ημέρα του κυρίως ταμπλό στο Ντουμπάι",
+      "finding": "Το πρόγραμμα του Dubai P1 για τις 11 Νοεμβρίου περιλαμβάνει 16 αγώνες ανδρών και έξι γυναικών στη φάση των 32, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-11-11-evening/dubai-p1-second-round-programme.json",
+      "reader_url": "articles/2026-11-11-evening/dubai-p1-second-round-programme.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/horarios-partidos-donde-ver-dieciseisavos-dubai-p1-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-10T23:28:31+00:00",
+          "retrieved_at": "2026-11-11T04:21:07.997705+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c7d9a7e311e1ebe4418104ace5722d03513528702d06f89e0b57a4046637ad1a.webp"
     },
     {
       "story_id": "eu-annual-budget-2027-agreement-2026-11-11",

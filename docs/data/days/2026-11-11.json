@@ -16,12 +16,16 @@
       "type": "midday",
       "url": "midday/2026-11-11.html",
       "published_at": "2026-11-11T11:30:13.959773+00:00"
+    },
+    {
+      "id": "2026-11-11-evening",
+      "type": "evening",
+      "url": "evening/2026-11-11.html",
+      "published_at": "2026-11-11T17:29:16.469907+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "eu-annual-budget-2027-agreement-2026-11-11",
+  "missing_slots": [],
+  "lead_story_id": "spain-general-strike-housing-2026-11-11",
   "stories": [
     {
       "story_id": "alibaba-thead-hong-kong-listing-plan-2026-11-10",
@@ -60,13 +64,40 @@
           "article_id": "eu-annual-budget-2027-agreement",
           "source_story_id": "eu-annual-budget-2027-agreement-2026-11-11",
           "url": "articles/2026-11-11-midday/eu-annual-budget-2027-agreement.html"
+        },
+        {
+          "edition_id": "2026-11-11-evening",
+          "article_id": "eu-annual-budget-2027-agreement",
+          "source_story_id": "eu-annual-budget-2027-agreement-2026-11-11",
+          "url": "articles/2026-11-11-evening/eu-annual-budget-2027-agreement.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-11-midday",
+        "edition_id": "2026-11-11-evening",
         "article_id": "eu-annual-budget-2027-agreement",
         "source_story_id": "eu-annual-budget-2027-agreement-2026-11-11",
-        "url": "articles/2026-11-11-midday/eu-annual-budget-2027-agreement.html"
+        "url": "articles/2026-11-11-evening/eu-annual-budget-2027-agreement.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "spain-general-strike-housing-2026-11-11",
+      "first_seen_at": "2026-11-11T17:29:16.469907+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-11-evening",
+          "article_id": "spain-general-strike-housing",
+          "source_story_id": "spain-general-strike-housing-2026-11-11",
+          "url": "articles/2026-11-11-evening/spain-general-strike-housing.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "spain-general-strike-housing",
+        "source_story_id": "spain-general-strike-housing-2026-11-11",
+        "url": "articles/2026-11-11-evening/spain-general-strike-housing.html"
       },
       "section": "world",
       "priority": 1
@@ -93,6 +124,27 @@
       "priority": 2
     },
     {
+      "story_id": "italy-schools-hoax-alerts-2026-11-11",
+      "first_seen_at": "2026-11-11T17:29:16.469907+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-11-evening",
+          "article_id": "italy-schools-hoax-alerts",
+          "source_story_id": "italy-schools-hoax-alerts-2026-11-11",
+          "url": "articles/2026-11-11-evening/italy-schools-hoax-alerts.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "italy-schools-hoax-alerts",
+        "source_story_id": "italy-schools-hoax-alerts-2026-11-11",
+        "url": "articles/2026-11-11-evening/italy-schools-hoax-alerts.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
       "story_id": "nvidia-board-security-review-2026-11-08",
       "first_seen_at": "2026-11-11T05:29:02.219750+00:00",
       "last_substantive_at": null,
@@ -108,13 +160,40 @@
           "article_id": "nvidia-board-security-review",
           "source_story_id": "nvidia-board-security-review-2026-11-08",
           "url": "articles/2026-11-11-midday/nvidia-board-security-review.html"
+        },
+        {
+          "edition_id": "2026-11-11-evening",
+          "article_id": "nvidia-board-security-review",
+          "source_story_id": "nvidia-board-security-review-2026-11-08",
+          "url": "articles/2026-11-11-evening/nvidia-board-security-review.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-11-midday",
+        "edition_id": "2026-11-11-evening",
         "article_id": "nvidia-board-security-review",
         "source_story_id": "nvidia-board-security-review-2026-11-08",
-        "url": "articles/2026-11-11-midday/nvidia-board-security-review.html"
+        "url": "articles/2026-11-11-evening/nvidia-board-security-review.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "tsmc-october-revenue-2026-11-10",
+      "first_seen_at": "2026-11-11T17:29:16.469907+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-11-evening",
+          "article_id": "tsmc-october-revenue-2026",
+          "source_story_id": "tsmc-october-revenue-2026-11-10",
+          "url": "articles/2026-11-11-evening/tsmc-october-revenue-2026.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "tsmc-october-revenue-2026",
+        "source_story_id": "tsmc-october-revenue-2026-11-10",
+        "url": "articles/2026-11-11-evening/tsmc-october-revenue-2026.html"
       },
       "section": "world",
       "priority": 3
@@ -141,6 +220,39 @@
       "priority": 3
     },
     {
+      "story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+      "first_seen_at": "2026-11-11T05:29:02.219750+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-11-morning",
+          "article_id": "cyprus-holguin-leaders-meeting",
+          "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+          "url": "articles/2026-11-11-morning/cyprus-holguin-leaders-meeting.html"
+        },
+        {
+          "edition_id": "2026-11-11-midday",
+          "article_id": "cyprus-holguin-leaders-meeting",
+          "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+          "url": "articles/2026-11-11-midday/cyprus-holguin-leaders-meeting.html"
+        },
+        {
+          "edition_id": "2026-11-11-evening",
+          "article_id": "cyprus-holguin-leaders-meeting",
+          "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+          "url": "articles/2026-11-11-evening/cyprus-holguin-leaders-meeting.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "cyprus-holguin-leaders-meeting",
+        "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+        "url": "articles/2026-11-11-evening/cyprus-holguin-leaders-meeting.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
       "story_id": "gsi-greece-counter-navtex-1441-26",
       "first_seen_at": "2026-11-11T05:29:02.219750+00:00",
       "last_substantive_at": null,
@@ -156,13 +268,19 @@
           "article_id": "gsi-greece-counter-navtex",
           "source_story_id": "gsi-greece-counter-navtex-1441-26",
           "url": "articles/2026-11-11-midday/gsi-greece-counter-navtex.html"
+        },
+        {
+          "edition_id": "2026-11-11-evening",
+          "article_id": "gsi-greece-counter-navtex",
+          "source_story_id": "gsi-greece-counter-navtex-1441-26",
+          "url": "articles/2026-11-11-evening/gsi-greece-counter-navtex.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-11-midday",
+        "edition_id": "2026-11-11-evening",
         "article_id": "gsi-greece-counter-navtex",
         "source_story_id": "gsi-greece-counter-navtex-1441-26",
-        "url": "articles/2026-11-11-midday/gsi-greece-counter-navtex.html"
+        "url": "articles/2026-11-11-evening/gsi-greece-counter-navtex.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -216,6 +334,48 @@
       "priority": 5
     },
     {
+      "story_id": "cyprus-greece-egypt-energy-parliamentary-meeting-2026-11-11",
+      "first_seen_at": "2026-11-11T17:29:16.469907+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-11-evening",
+          "article_id": "cyprus-greece-egypt-energy-parliamentary-meeting",
+          "source_story_id": "cyprus-greece-egypt-energy-parliamentary-meeting-2026-11-11",
+          "url": "articles/2026-11-11-evening/cyprus-greece-egypt-energy-parliamentary-meeting.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "cyprus-greece-egypt-energy-parliamentary-meeting",
+        "source_story_id": "cyprus-greece-egypt-energy-parliamentary-meeting-2026-11-11",
+        "url": "articles/2026-11-11-evening/cyprus-greece-egypt-energy-parliamentary-meeting.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-cop31-leaders-address-2026-11-11",
+      "first_seen_at": "2026-11-11T17:29:16.469907+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-11-evening",
+          "article_id": "cyprus-cop31-leaders-address",
+          "source_story_id": "cyprus-cop31-leaders-address-2026-11-11",
+          "url": "articles/2026-11-11-evening/cyprus-cop31-leaders-address.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "cyprus-cop31-leaders-address",
+        "source_story_id": "cyprus-cop31-leaders-address-2026-11-11",
+        "url": "articles/2026-11-11-evening/cyprus-cop31-leaders-address.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
       "story_id": "governors-beach-campsite-eviction-2026-11-10",
       "first_seen_at": "2026-11-11T05:29:02.219750+00:00",
       "last_substantive_at": null,
@@ -231,13 +391,19 @@
           "article_id": "governors-beach-campsite-eviction",
           "source_story_id": "governors-beach-campsite-eviction-2026-11-10",
           "url": "articles/2026-11-11-midday/governors-beach-campsite-eviction.html"
+        },
+        {
+          "edition_id": "2026-11-11-evening",
+          "article_id": "governors-beach-campsite-eviction",
+          "source_story_id": "governors-beach-campsite-eviction-2026-11-10",
+          "url": "articles/2026-11-11-evening/governors-beach-campsite-eviction.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-11-midday",
+        "edition_id": "2026-11-11-evening",
         "article_id": "governors-beach-campsite-eviction",
         "source_story_id": "governors-beach-campsite-eviction-2026-11-10",
-        "url": "articles/2026-11-11-midday/governors-beach-campsite-eviction.html"
+        "url": "articles/2026-11-11-evening/governors-beach-campsite-eviction.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -285,30 +451,45 @@
       "priority": 7
     },
     {
-      "story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
-      "first_seen_at": "2026-11-11T05:29:02.219750+00:00",
+      "story_id": "motogp-yamaha-qatar-withdrawal-2026-11-11",
+      "first_seen_at": "2026-11-11T17:29:16.469907+00:00",
       "last_substantive_at": null,
       "references": [
         {
-          "edition_id": "2026-11-11-morning",
-          "article_id": "cyprus-holguin-leaders-meeting",
-          "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
-          "url": "articles/2026-11-11-morning/cyprus-holguin-leaders-meeting.html"
-        },
-        {
-          "edition_id": "2026-11-11-midday",
-          "article_id": "cyprus-holguin-leaders-meeting",
-          "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
-          "url": "articles/2026-11-11-midday/cyprus-holguin-leaders-meeting.html"
+          "edition_id": "2026-11-11-evening",
+          "article_id": "motogp-yamaha-qatar-withdrawal",
+          "source_story_id": "motogp-yamaha-qatar-withdrawal-2026-11-11",
+          "url": "articles/2026-11-11-evening/motogp-yamaha-qatar-withdrawal.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-11-midday",
-        "article_id": "cyprus-holguin-leaders-meeting",
-        "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
-        "url": "articles/2026-11-11-midday/cyprus-holguin-leaders-meeting.html"
+        "edition_id": "2026-11-11-evening",
+        "article_id": "motogp-yamaha-qatar-withdrawal",
+        "source_story_id": "motogp-yamaha-qatar-withdrawal-2026-11-11",
+        "url": "articles/2026-11-11-evening/motogp-yamaha-qatar-withdrawal.html"
       },
-      "section": "cyprus",
+      "section": "sports",
+      "priority": 7
+    },
+    {
+      "story_id": "bristol-city-skubala-board-support-2026-11-11",
+      "first_seen_at": "2026-11-11T17:29:16.469907+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-11-evening",
+          "article_id": "bristol-city-skubala-board-support",
+          "source_story_id": "bristol-city-skubala-board-support-2026-11-11",
+          "url": "articles/2026-11-11-evening/bristol-city-skubala-board-support.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "bristol-city-skubala-board-support",
+        "source_story_id": "bristol-city-skubala-board-support-2026-11-11",
+        "url": "articles/2026-11-11-evening/bristol-city-skubala-board-support.html"
+      },
+      "section": "sports",
       "priority": 8
     },
     {
@@ -354,13 +535,19 @@
           "article_id": "dubai-p1-second-round-programme",
           "source_story_id": "dubai-p1-second-round-programme-2026-11-11",
           "url": "articles/2026-11-11-midday/dubai-p1-second-round-programme.html"
+        },
+        {
+          "edition_id": "2026-11-11-evening",
+          "article_id": "dubai-p1-second-round-programme",
+          "source_story_id": "dubai-p1-second-round-programme-2026-11-11",
+          "url": "articles/2026-11-11-evening/dubai-p1-second-round-programme.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-11-midday",
+        "edition_id": "2026-11-11-evening",
         "article_id": "dubai-p1-second-round-programme",
         "source_story_id": "dubai-p1-second-round-programme-2026-11-11",
-        "url": "articles/2026-11-11-midday/dubai-p1-second-round-programme.html"
+        "url": "articles/2026-11-11-evening/dubai-p1-second-round-programme.html"
       },
       "section": "sports",
       "priority": 10
@@ -674,6 +861,188 @@
         "source_story_id": "eu-annual-budget-2027-agreement-2026-11-11",
         "url": "articles/2026-11-11-midday/eu-annual-budget-2027-agreement.html"
       }
+    },
+    {
+      "id": "02191b0226cc959ec80107ba1a1f4c149069a7a50ecb5b3474f07f1568a1ec3f",
+      "kind": "provenance",
+      "at": "2026-11-11T17:29:16.469907+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "spain-general-strike-housing-2026-11-11",
+      "origin": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "spain-general-strike-housing",
+        "source_story_id": "spain-general-strike-housing-2026-11-11",
+        "url": "articles/2026-11-11-evening/spain-general-strike-housing.html"
+      }
+    },
+    {
+      "id": "1efd2c002f3f63347b0cf7f561b8aa31a840a1497c4d417017b09224465a880e",
+      "kind": "provenance",
+      "at": "2026-11-11T17:29:16.469907+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "tsmc-october-revenue-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "tsmc-october-revenue-2026",
+        "source_story_id": "tsmc-october-revenue-2026-11-10",
+        "url": "articles/2026-11-11-evening/tsmc-october-revenue-2026.html"
+      }
+    },
+    {
+      "id": "24e33e5ed7f3fa7e74af22580b005c2e7d766e714eddc9a3318e9d6f73fc50d7",
+      "kind": "provenance",
+      "at": "2026-11-11T17:29:16.469907+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "dubai-p1-second-round-programme-2026-11-11",
+      "origin": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "dubai-p1-second-round-programme",
+        "source_story_id": "dubai-p1-second-round-programme-2026-11-11",
+        "url": "articles/2026-11-11-evening/dubai-p1-second-round-programme.html"
+      }
+    },
+    {
+      "id": "302a7ff759b2ec1d9b9123e4613d1107634a1b44af3776846365e6eedc00b43b",
+      "kind": "provenance",
+      "at": "2026-11-11T17:29:16.469907+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "eu-annual-budget-2027-agreement-2026-11-11",
+      "origin": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "eu-annual-budget-2027-agreement",
+        "source_story_id": "eu-annual-budget-2027-agreement-2026-11-11",
+        "url": "articles/2026-11-11-evening/eu-annual-budget-2027-agreement.html"
+      }
+    },
+    {
+      "id": "33f807b4fd4a1bc719a5dc88730874184f4e4968a319d98576570b95a167fff7",
+      "kind": "provenance",
+      "at": "2026-11-11T17:29:16.469907+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "italy-schools-hoax-alerts-2026-11-11",
+      "origin": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "italy-schools-hoax-alerts",
+        "source_story_id": "italy-schools-hoax-alerts-2026-11-11",
+        "url": "articles/2026-11-11-evening/italy-schools-hoax-alerts.html"
+      }
+    },
+    {
+      "id": "4e50fe460213d9888447ff85bd77ecb658fc3fe16d2e70992345fbd27dfee1da",
+      "kind": "provenance",
+      "at": "2026-11-11T17:29:16.469907+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+      "origin": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "cyprus-holguin-leaders-meeting",
+        "source_story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+        "url": "articles/2026-11-11-evening/cyprus-holguin-leaders-meeting.html"
+      }
+    },
+    {
+      "id": "4e8c9ee2722d260022e6a5a8f84302fb6857cd10461d368e9e7d21879d5768e6",
+      "kind": "provenance",
+      "at": "2026-11-11T17:29:16.469907+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "gsi-greece-counter-navtex-1441-26",
+      "origin": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "gsi-greece-counter-navtex",
+        "source_story_id": "gsi-greece-counter-navtex-1441-26",
+        "url": "articles/2026-11-11-evening/gsi-greece-counter-navtex.html"
+      }
+    },
+    {
+      "id": "530defe815b52503c6db02b953f812c0fa53e7456c82c6dfd607b0bd344f25a4",
+      "kind": "provenance",
+      "at": "2026-11-11T17:29:16.469907+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-cop31-leaders-address-2026-11-11",
+      "origin": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "cyprus-cop31-leaders-address",
+        "source_story_id": "cyprus-cop31-leaders-address-2026-11-11",
+        "url": "articles/2026-11-11-evening/cyprus-cop31-leaders-address.html"
+      }
+    },
+    {
+      "id": "c7559182b3c56d9492c703c5f1228b34662efd936f66524053be824dd2bc89b7",
+      "kind": "provenance",
+      "at": "2026-11-11T17:29:16.469907+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "motogp-yamaha-qatar-withdrawal-2026-11-11",
+      "origin": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "motogp-yamaha-qatar-withdrawal",
+        "source_story_id": "motogp-yamaha-qatar-withdrawal-2026-11-11",
+        "url": "articles/2026-11-11-evening/motogp-yamaha-qatar-withdrawal.html"
+      }
+    },
+    {
+      "id": "d3fa150aa625dcb7471e0b25a937703808f05b3e7fe56e244e5298ea48911185",
+      "kind": "provenance",
+      "at": "2026-11-11T17:29:16.469907+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "bristol-city-skubala-board-support-2026-11-11",
+      "origin": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "bristol-city-skubala-board-support",
+        "source_story_id": "bristol-city-skubala-board-support-2026-11-11",
+        "url": "articles/2026-11-11-evening/bristol-city-skubala-board-support.html"
+      }
+    },
+    {
+      "id": "e4877fe33b368c764a90f6fc4c8b17466c84a54c5faf713f65a8887d18481d3b",
+      "kind": "provenance",
+      "at": "2026-11-11T17:29:16.469907+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-greece-egypt-energy-parliamentary-meeting-2026-11-11",
+      "origin": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "cyprus-greece-egypt-energy-parliamentary-meeting",
+        "source_story_id": "cyprus-greece-egypt-energy-parliamentary-meeting-2026-11-11",
+        "url": "articles/2026-11-11-evening/cyprus-greece-egypt-energy-parliamentary-meeting.html"
+      }
+    },
+    {
+      "id": "e8c775e00f6e1481723e1d6f8bbad38f034c20111bc2dd11e6e82da1fe3971f4",
+      "kind": "provenance",
+      "at": "2026-11-11T17:29:16.469907+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "governors-beach-campsite-eviction-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "governors-beach-campsite-eviction",
+        "source_story_id": "governors-beach-campsite-eviction-2026-11-10",
+        "url": "articles/2026-11-11-evening/governors-beach-campsite-eviction.html"
+      }
+    },
+    {
+      "id": "ee72dff88295ac35982724745c630fa9e7e3732b68b1cdb6a958ae647e2f2bf8",
+      "kind": "provenance",
+      "at": "2026-11-11T17:29:16.469907+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-11-evening",
+        "article_id": "nvidia-board-security-review",
+        "source_story_id": "nvidia-board-security-review-2026-11-08",
+        "url": "articles/2026-11-11-evening/nvidia-board-security-review.html"
+      }
     }
   ],
   "opportunities": [
@@ -882,22 +1251,23 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Συμβούλιο και Ευρωκοινοβούλιο συμφώνησαν προκαταρκτικά στον προϋπολογισμό του 2027. Οι δεσμεύσεις επιτρέπουν την ανάληψη δαπανών που μπορεί να εκτείνονται σε περισσότερα έτη, ενώ οι πληρωμές καλύπτουν υποχρεώσεις και από προηγούμενα έτη. Για τους δικαιούχους, το επόμενο τεστ είναι η επίσημη έγκριση και η εφαρμογή ανά πρόγραμμα.",
+        "text": "Η γενική απεργία στην Ισπανία μετέφερε το στεγαστικό και το κόστος ζωής στις συγκοινωνίες και τις δημόσιες υπηρεσίες, πριν από τις εκλογές. Στην Ιταλία, οι ψευδείς απειλές προκάλεσαν εκκενώσεις σχολείων. Για τις οικογένειες μετρά η επίσημη ενημέρωση για την επαναλειτουργία, καθώς οι αναφορές για παραλήπτες και σχολεία που επηρεάστηκαν δεν μετρούν το ίδιο πράγμα.",
         "story_ids": [
-          "eu-annual-budget-2027-agreement-2026-11-11"
+          "spain-general-strike-housing-2026-11-11",
+          "italy-schools-hoax-alerts-2026-11-11"
         ]
       },
       {
-        "text": "Η Λευκωσία εξέδωσε δική της NAVTEX για τις έρευνες του καλωδίου, μετά την ελληνική απάντηση στην τουρκική αναγγελία. Η εξέλιξη του έργου θα φανεί από τις ανακοινώσεις για την πορεία των ερευνών. Στη νομισματική πολιτική, ο διοικητής της Κεντρικής Τράπεζας ξεχώρισε το άμεσο ενεργειακό κόστος από τις ευρύτερες επιπτώσεις στις τιμές.",
+        "text": "Ο Φιλελεύθερος μεταδίδει ότι συζητείται σύνδεση του Κυπριακού με την Τελωνειακή Ένωση ΕΕ–Τουρκίας. Επόμενο τεστ είναι αν θα υπάρξει επίσημη πρόταση. Στη Λευκωσία, η τριμερής κοινοβουλευτική συνάντηση ανέδειξε περιθώρια ενεργειακής συνεργασίας με Ελλάδα και Αίγυπτο, χωρίς να ανακοινωθεί συγκεκριμένη συμφωνία στο διαθέσιμο απόσπασμα.",
         "story_ids": [
-          "gsi-greece-counter-navtex-1441-26",
-          "cyprus-cbc-patsalides-energy-ai-2026-11-11"
+          "cyprus-holguin-leaders-meeting-2026-11-09",
+          "cyprus-greece-egypt-energy-parliamentary-meeting-2026-11-11"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-11T05:31:09.638740+00:00",
-  "updated_at": "2026-11-11T11:31:57.290498+00:00",
-  "input_sha256": "c04dcaf73e54296caf1ef5561da5576f2679bbda1c85bd83de2bfb06092c7ef9"
+  "updated_at": "2026-11-11T17:31:26.932629+00:00",
+  "input_sha256": "3260184d7e1dc4cd34b66a27ac0d752655374d6c0d8d813db80305290c0d3438"
 }
