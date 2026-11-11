@@ -625,6 +625,14 @@
       "published_at": "2026-11-10T05:30:51.007537+00:00",
       "url": "morning/2026-11-10.html",
       "fingerprint": "329d5e94461763fb9670f1c18b090687de31011694ef12879a49da6f8adf9a52"
+    },
+    {
+      "id": "2026-11-11-morning",
+      "date": "2026-11-11",
+      "type": "morning",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "url": "morning/2026-11-11.html",
+      "fingerprint": "5335539dd4bbd5fc986a399ec942b6de7ccd7eba53697b552eb9b38b86fc8311"
     }
   ],
   "stories": [
@@ -23263,6 +23271,292 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/7eaa12544ad24a1f66e8d83b96d3de57d4d8d1fd63963b385d4c2a8a8cdb0c40.webp"
+    },
+    {
+      "story_id": "alibaba-thead-hong-kong-listing-plan-2026-11-10",
+      "identity": "alibaba-thead-hong-kong-listing-plan-2026-11-10",
+      "edition_id": "2026-11-11-morning",
+      "date": "2026-11-11",
+      "slot": "morning",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T05:29:02.219750+00:00",
+      "headline": "Η Alibaba προχωρά το σχέδιο χωριστής εισαγωγής της T-Head στο Χονγκ Κονγκ",
+      "finding": "Η Alibaba ανακοίνωσε στις 10 Νοεμβρίου ότι το χρηματιστήριο του Χονγκ Κονγκ της επέτρεψε να προχωρήσει με τη διαδικασία για χωριστή εισαγωγή της T-Head. Η θυγατρική ημιαγωγών είχε καταθέσει εμπιστευτική αίτηση στις 11 Σεπτεμβρίου. Σύμφωνα με την εταιρική ανακοίνωση και το CNBC, η τελική εισαγωγή εκκρεμεί. Το μέγεθος της προσφοράς δεν έχει οριστικοποιηθεί και η Alibaba αναμένει ότι η T-Head θα παραμείνει θυγατρική της.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-11-morning/alibaba-thead-hong-kong-listing-plan.json",
+      "reader_url": "articles/2026-11-11-morning/alibaba-thead-hong-kong-listing-plan.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-11T03:08:17+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.246917+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926124859/tm2629456d1_ex99-1.htm",
+          "publisher": "Alibaba Group via SEC EDGAR",
+          "reporting_group": "Alibaba Group",
+          "published_at": null,
+          "retrieved_at": "2026-11-11T05:26:45+00:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c0ce4a43b552a0b5760118a1e90aba5232033887c2f83220f3e1b9cee92140d8.webp"
+    },
+    {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "identity": "nvidia-board-security-review-2026-11-08",
+      "edition_id": "2026-11-11-morning",
+      "date": "2026-11-11",
+      "slot": "morning",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-11T05:29:02.219750+00:00",
+      "headline": "Η Nvidia ανέθεσε σε εξωτερικό δικηγορικό γραφείο την εταιρική έρευνα",
+      "finding": "Η Nvidia ανακοίνωσε στις 10 Νοεμβρίου ότι ανέθεσε στο δικηγορικό γραφείο Wachtell, Lipton, Rosen & Katz τη διερεύνηση της υπόθεσης του διευθύνοντος συμβούλου της, σύμφωνα με το BBC. Την έρευνα θα ηγηθεί ο δικηγόρος Τζουν Κιμ. Η ανάθεση προσδιορίζει ποιος διεξάγει την εταιρική έρευνα· δεν αποτελεί πόρισμα για τους ισχυρισμούς που την προκάλεσαν.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-11-morning/nvidia-board-security-review.json",
+      "reader_url": "articles/2026-11-11-morning/nvidia-board-security-review.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-10T22:52:15+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.138754+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/3d50bb057c89eb7293b2f423c9f9c0b85745e621a29a976157fe8257dd250e0c.webp"
+    },
+    {
+      "story_id": "uk-eu-electricity-market-contribution-2026-11-10",
+      "identity": "uk-eu-electricity-market-contribution-2026-11-10",
+      "edition_id": "2026-11-11-morning",
+      "date": "2026-11-11",
+      "slot": "morning",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T05:29:02.219750+00:00",
+      "headline": "Λονδίνο και Βρυξέλλες θα συζητήσουν τη χρηματοδότηση στο πλαίσιο της πρόσβασης στην αγορά ρεύματος",
+      "finding": "Ο Βρετανός υπουργός Χάμις Φάλκονερ δήλωσε στον Guardian ότι το Λονδίνο δεν έχει αποδεχθεί τη σύνδεση της πρόσβασης στην αγορά ηλεκτρισμού της ΕΕ με εισφορά σε ταμείο συνοχής, αλλά το θέμα θα συζητηθεί. Σε κοινοβουλευτική απάντηση της 26ης Οκτωβρίου, η κυβέρνηση είχε διευκρινίσει ότι η Κομισιόν μπορεί να ζητήσει συνεισφορά και ότι δεν είχε συμφωνηθεί ποσό.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-11-morning/uk-eu-electricity-market-contribution.json",
+      "reader_url": "articles/2026-11-11-morning/uk-eu-electricity-market-contribution.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/politics/2026/nov/10/britain-eu-electricity-market-cohesion-fund-hamish-falconer",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-10T17:52:07+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.683774+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-16/35581/",
+          "publisher": "UK Parliament",
+          "reporting_group": "UK Department for Energy Security and Net Zero",
+          "published_at": null,
+          "retrieved_at": "2026-11-11T05:26:45+00:00",
+          "kind": "primary"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/044a5a7e905db256185f7e789ecc70fdd990ed5254395466df650a1e410549e8.webp"
+    },
+    {
+      "story_id": "tigray-displaced-families-return-risk-2026-11-11",
+      "identity": "tigray-displaced-families-return-risk-2026-11-11",
+      "edition_id": "2026-11-11-morning",
+      "date": "2026-11-11",
+      "slot": "morning",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T05:29:02.219750+00:00",
+      "headline": "Τιγκράι: η αναζωπύρωση των συγκρούσεων δυσκολεύει την επιστροφή εκτοπισμένων",
+      "finding": "Οικογένειες που έφυγαν από τα σπίτια τους στον πόλεμο του Τιγκράι αντιμετωπίζουν νέα αβεβαιότητα για την επιστροφή τους, σύμφωνα με ρεπορτάζ του Al Jazeera στις 11 Νοεμβρίου. Η συμφωνία της Πρετόριας τερμάτισε τον διετή πόλεμο το 2022. Τον Οκτώβριο, οργανώσεις δικαιωμάτων προειδοποίησαν το Συμβούλιο Ανθρωπίνων Δικαιωμάτων του ΟΗΕ ότι η αναζωπύρωση των εχθροπραξιών απειλεί τη συμφωνία.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-11-morning/tigray-displaced-families-return-risk.json",
+      "reader_url": "articles/2026-11-11-morning/tigray-displaced-families-return-risk.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/11/tigray-displaced-families-fear-renewed-war-as-hopes-of-returning-home-fade?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-11T01:11:04+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.065178+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/3b3d555a028a70094ef00b5e810253750cbd38f58ac61c6427cdbb8e1119ecbc.webp"
+    },
+    {
+      "story_id": "gsi-greece-counter-navtex-1441-26",
+      "identity": "gsi-greece-counter-navtex-1441-26",
+      "edition_id": "2026-11-11-morning",
+      "date": "2026-11-11",
+      "slot": "morning",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T05:29:02.219750+00:00",
+      "headline": "Ελληνική αντι-NAVTEX για τις έρευνες του καλωδίου Κρήτης–Κύπρου",
+      "finding": "Η Αθήνα εξέδωσε την αντι-NAVTEX 1441/26 ως απάντηση στην τουρκική αναγγελία για τις έρευνες του πλοίου Abeille Marengo σχετικά με την ηλεκτρική διασύνδεση Κρήτης–Κύπρου, σύμφωνα με τον Φιλελεύθερο. Η ελληνική αναγγελία παραπέμπει σε αποφάσεις αδειοδότησης και υποστηρίζει ότι οι γραμμές των ερευνών εμπίπτουν στην περιοχή ευθύνης του ελληνικού συστήματος NAVTEX.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-11-morning/gsi-greece-counter-navtex.json",
+      "reader_url": "articles/2026-11-11-morning/gsi-greece-counter-navtex.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/ellada/article/1793898/elliniki-anti-navtex-gia-to-kalodio-kritis-kiprou-akiri-i-tourkiki-anangelia-i-athina-apanta-me-tis-adies-ton-erevnon",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-11T04:11:14+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.786337+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c41be9176e0b5529a702845329427040af52ad62a373bb40df42036a29b85a35.webp"
+    },
+    {
+      "story_id": "governors-beach-campsite-eviction-2026-11-10",
+      "identity": "governors-beach-campsite-eviction-2026-11-10",
+      "edition_id": "2026-11-11-morning",
+      "date": "2026-11-11",
+      "slot": "morning",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T05:29:02.219750+00:00",
+      "headline": "Ακτή του Κυβερνήτη: ζητήθηκε η αποχώρηση περίπου 330 οικογενειών από τον κατασκηνωτικό χώρο",
+      "finding": "Στην Επιτροπή Προσφύγων της Βουλής αναφέρθηκε στις 10 Νοεμβρίου ότι περίπου 330 οικογένειες που χρησιμοποιούν τροχόσπιτα στον κατασκηνωτικό χώρο στην Ακτή του Κυβερνήτη κλήθηκαν να αποχωρήσουν, σύμφωνα με την Cyprus Mail. Περίπου 102 χρησιμοποιούν τα τροχόσπιτα ως μόνιμες κατοικίες. Το απόσπασμα δεν διευκρινίζει την προθεσμία αποχώρησης.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-11-morning/governors-beach-campsite-eviction.json",
+      "reader_url": "articles/2026-11-11-morning/governors-beach-campsite-eviction.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/11/campers-face-eviction-from-governors-beach-in-limassol",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-11T02:24:00+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.689821+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/e16b1245d64866bc7756b4acfbf35b3cb2bb8025974aca8ce91ffdcb8f1fea8e.webp"
+    },
+    {
+      "story_id": "cyprus-cop31-electrification-pledge-2026-11-10",
+      "identity": "cyprus-cop31-electrification-pledge-2026-11-10",
+      "edition_id": "2026-11-11-morning",
+      "date": "2026-11-11",
+      "slot": "morning",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T05:29:02.219750+00:00",
+      "headline": "Η Κύπρος βλέπει θετικά την πρόταση ηλεκτροποίησης στην COP31, με επιφυλάξεις",
+      "finding": "Η κυπριακή κυβέρνηση είναι καταρχήν θετική στην προτεινόμενη δέσμευση για ηλεκτροποίηση στην COP31, δήλωσε ο κυβερνητικός εκπρόσωπος στην Cyprus Mail. Η πρόταση αφορά παγκόσμιο στόχο για κάλυψη του 35% της ενέργειας από ηλεκτρισμό έως το 2035. Ο εκπρόσωπος εξέφρασε επιφυλάξεις για την εφαρμογή του στόχου στην Κύπρο, επικαλούμενος το απομονωμένο δίκτυο και την εξάρτηση της ηλεκτροπαραγωγής από μαζούτ.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-11-morning/cyprus-cop31-electrification-pledge.json",
+      "reader_url": "articles/2026-11-11-morning/cyprus-cop31-electrification-pledge.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/10/cyprus-generally-positive-but-has-reservations-over-cop31-electrification-pledge",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-10T21:11:17+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.691426+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-12-midday/cyprus-1.webp"
+    },
+    {
+      "story_id": "cyprus-holguin-leaders-meeting-2026-11-09",
+      "identity": "cyprus-holguin-leaders-meeting-2026-11-09",
+      "edition_id": "2026-11-11-morning",
+      "date": "2026-11-11",
+      "slot": "morning",
+      "published_at": "2026-11-10T05:30:51.007537+00:00",
+      "available_at": "2026-11-11T05:29:02.219750+00:00",
+      "headline": "Κυπριακό: θετική αποτίμηση του Γκουτέρες για τη συνάντηση της Λευκωσίας, σύμφωνα με τον Φιλελεύθερο",
+      "finding": "Ο Φιλελεύθερος μετέδωσε στις 11 Νοεμβρίου ότι ο Αντόνιο Γκουτέρες αποτιμά ως ουσιαστικά τα αποτελέσματα της συνάντησης της 9ης Νοεμβρίου μεταξύ των δύο ηγετών και της Μαρία Άνχελα Ολγκίν στη Λευκωσία. Το διαθέσιμο απόσπασμα δεν δίνει ημερομηνία για νέα συνάντηση υπό τον Γενικό Γραμματέα.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-11-11-morning/cyprus-holguin-leaders-meeting.json",
+      "reader_url": "articles/2026-11-11-morning/cyprus-holguin-leaders-meeting.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1793882/etimos-gia-trimeri-o-gkouteres-ti-ipan-se-tilefoniki-epikinonia-me-christodoulidi-stin-attalia-o-proedros-tis-dimokratias",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-11T04:12:00+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.865150+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/dc22ea14f94f3ed697fd1c41a6bb0f8132938bbd7138e662d8a8a09a8e5865d3.webp"
+    },
+    {
+      "story_id": "noskova-wta-finals-semifinal-2026-11-11",
+      "identity": "noskova-wta-finals-semifinal-2026-11-11",
+      "edition_id": "2026-11-11-morning",
+      "date": "2026-11-11",
+      "slot": "morning",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T05:29:02.219750+00:00",
+      "headline": "Η Νοσκόβα νίκησε την Γκοφ και πέρασε στα ημιτελικά των WTA Finals",
+      "finding": "Η Λίντα Νοσκόβα νίκησε την Κόκο Γκοφ με 6–3, 6–3 και προκρίθηκε στα ημιτελικά των WTA Finals στην πρώτη συμμετοχή της στη διοργάνωση, σύμφωνα με το BBC.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-11-morning/noskova-wta-finals-semifinal.json",
+      "reader_url": "articles/2026-11-11-morning/noskova-wta-finals-semifinal.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/cvglwllpxddro?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-10T23:59:03+00:00",
+          "retrieved_at": "2026-11-11T04:21:06.127562+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f7e407e7990dd3b2bb253fc243ef601eb9f7c6875c79c7182ec04099dda9764a.webp"
+    },
+    {
+      "story_id": "dubai-p1-second-round-programme-2026-11-11",
+      "identity": "dubai-p1-second-round-programme-2026-11-11",
+      "edition_id": "2026-11-11-morning",
+      "date": "2026-11-11",
+      "slot": "morning",
+      "published_at": "2026-11-11T05:29:02.219750+00:00",
+      "available_at": "2026-11-11T05:29:02.219750+00:00",
+      "headline": "Πάντελ: 22 αγώνες στη δεύτερη ημέρα του κυρίως ταμπλό στο Ντουμπάι",
+      "finding": "Το πρόγραμμα του Dubai P1 για τις 11 Νοεμβρίου περιλαμβάνει 16 αγώνες ανδρών και έξι γυναικών στη φάση των 32, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-11-11-morning/dubai-p1-second-round-programme.json",
+      "reader_url": "articles/2026-11-11-morning/dubai-p1-second-round-programme.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/horarios-partidos-donde-ver-dieciseisavos-dubai-p1-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-10T23:28:31+00:00",
+          "retrieved_at": "2026-11-11T04:21:07.997705+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c7d9a7e311e1ebe4418104ace5722d03513528702d06f89e0b57a4046637ad1a.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
