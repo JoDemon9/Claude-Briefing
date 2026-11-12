@@ -72,6 +72,21 @@ class HandoffTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'Reserved news/sports evidence'):
             view.synthesis(original,max_bytes=3000)
 
+    def test_preflight_guidance_is_versioned_without_changing_old_digests(self):
+        view=handoff.module('context_view')
+        pack=dict(edition_id='2026-11-12-evening',prepared_at='2026-11-12T16:21:23+00:00',
+                  sha256='fixture',weather_status='available',candidates=[],
+                  briefing_policy='depth-markets-v1',financial_policy='news-insights-v1',
+                  data=dict(markets=[],panels=[],sports=dict(briefing_policy='intelligence-v1',coverage={})))
+        old=view.synthesis(pack)
+        self.assertIn('A new web source uses @Source',old)
+        self.assertIn('70–100 Greek words TOTAL',old)
+        self.assertEqual(view.synthesis({**pack,'authoring_preflight':'unknown'}),old)
+        new=view.synthesis({**pack,'authoring_preflight':'scope-and-length-v1'})
+        self.assertIn('inside its ### article, never in the header or @Evidence',new)
+        self.assertIn('70–100 whitespace-separated words',new)
+        self.assertLessEqual(len(new.encode('utf-8')),48000)
+
     def test_public_or_symlinked_private_storage_is_rejected_before_collection(self):
         for path in [ROOT,ROOT/'docs',ROOT/'content']:
             with self.subTest(path=path),self.assertRaisesRegex(ValueError,'outside the public'):

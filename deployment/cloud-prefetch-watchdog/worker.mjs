@@ -8,16 +8,23 @@ const FORMAT = new Intl.DateTimeFormat('en-CA', {
   hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23',
 });
 const EDITIONS = [[7, 'morning'], [13, 'midday'], [19, 'evening']];
+const MINUTE = 60_000;
+const PACK_LIFE = 90 * MINUTE;
+const LATE_RECOVERY = 120 * MINUTE;
 
 export function windowAt(now) {
   const parts = Object.fromEntries(FORMAT.formatToParts(now).map(x => [x.type, x.value]));
   const seconds = Number(parts.hour) * 3600 + Number(parts.minute) * 60 + Number(parts.second);
   for (const [hour, slot] of EDITIONS) {
     const lead = (hour * 3600 + 30 * 60 - seconds) * 1000;
-    // Freeze ten minutes before the AI; allow an audit five minutes before it.
-    if (lead <= 70 * 60000 && lead >= 5 * 60000) {
+    // Keep the original preparation window and final audit. A delayed
+    // scheduled run can use a replacement only after the old pack expires.
+    const before = lead <= 70 * MINUTE && lead >= 5 * MINUTE;
+    const late = lead <= 0 && lead >= -LATE_RECOVERY;
+    if (before || late) {
       return { slot, edition: `${parts.year}-${parts.month}-${parts.day}-${slot}`,
-        taskAt: new Date(now.getTime() + lead), canDispatch: lead > 10 * 60000 };
+        taskAt: new Date(now.getTime() + lead), late,
+        canDispatch: late || lead > 10 * MINUTE };
     }
   }
   return null;
@@ -32,7 +39,7 @@ export function digestStatus(text, window, now) {
   const stamp = Date.parse(prepared[1]);
   const age = now.getTime() - stamp;
   if (!Number.isFinite(stamp) || age < 0) return 'invalid_digest';
-  if (age > 90 * 60000 || window.taskAt.getTime() + 20 * 60000 > stamp + 90 * 60000) return 'stale';
+  if (age > PACK_LIFE || (!window.late && window.taskAt.getTime() + 20 * MINUTE > stamp + PACK_LIFE)) return 'stale';
   if (!/^submission_ready=true\./m.test(text) ||
       !/^Private submission workflow installed: True$/m.test(text)) return 'submission_unready';
   return 'ready';
@@ -59,8 +66,9 @@ export async function ensurePack(env, { now = new Date(), fetcher = fetch } = {}
   if (!window) return { status: 'outside_window', ai_calls: 0 };
   const api = githubClient(env.GITHUB_PREFETCH_TOKEN, fetcher);
   const context = { edition: window.edition, checked_at: now.toISOString(), ai_calls: 0 };
+  const submissionPath = `/contents/sources/synthesis/${window.edition}.md?ref=main`;
   // An authored submission freezes its pack, including a manual early run.
-  const submission = await api(`/contents/sources/synthesis/${window.edition}.md?ref=main`, { allowMissing: true });
+  const submission = await api(submissionPath, { allowMissing: true });
   if (submission?.type === 'file') return { ...context, status: 'already_submitted' };
   const files = await api(`/contents/research/runs/${window.edition}?ref=main`, { allowMissing: true });
   const complete = Array.isArray(files) && ['digest.md', 'research_pack.json'].every(name =>
@@ -81,6 +89,11 @@ export async function ensurePack(env, { now = new Date(), fetcher = fetch } = {}
     && now.getTime() - Date.parse(run.created_at) >= 0
     && now.getTime() - Date.parse(run.created_at) < 10 * 60000);
   if (active) return { ...context, status: 'collector_in_flight', run_id: active.id };
+  // Recheck the freeze at the point of dispatch for recovery, in case a
+  // submission landed while reading the digest or the run queue.
+  if (window.late && (await api(submissionPath, { allowMissing: true }))?.type === 'file') {
+    return { ...context, status: 'already_submitted' };
+  }
   await api(`/actions/workflows/${WORKFLOW}/dispatches`, {
     method: 'POST', body: JSON.stringify({ ref: 'main', inputs: { slot: window.slot } }),
   });
