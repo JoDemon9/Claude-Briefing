@@ -2,8 +2,9 @@
 name: Prepare private synthesis pack (Python only)
 on:
   schedule:
-    # Four preparation attempts per edition; Python selects Athens time across DST.
-    - cron: '7,22,37,52 3-5,9-11,15-17 * * *'
+    # Retain the preparation cadence and cover the late recovery window across DST.
+    # The Python selector skips unused ticks and leaves fresh or submitted packs alone.
+    - cron: '7,22,37,52 3-7,9-13,15-19 * * *'
   workflow_dispatch:
     inputs:
       slot:
