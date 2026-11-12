@@ -3,11 +3,14 @@
 import argparse
 from datetime import datetime, timedelta, timezone
 import json
+import re
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 ZONE = ZoneInfo('Europe/Athens')
 EDITIONS = {7: 'morning', 13: 'midday', 19: 'evening'}
+PACK_LIFE = timedelta(minutes=90)
+RECOVERY_WINDOW = timedelta(hours=2)
 
 
 def scheduled_slot(at):
@@ -24,9 +27,48 @@ def scheduled_slot(at):
     return None
 
 
-def select_slot(event, requested, at):
+def recovery_slot(at, root):
+    """Allow an existing scheduled runner to refresh only an unsubmitted expired pack."""
+    if at.tzinfo is None:
+        raise ValueError('An aware clock is required')
+    local = at.astimezone(ZONE)
+    for hour, slot in EDITIONS.items():
+        task_at = local.replace(hour=hour, minute=30, second=0, microsecond=0)
+        if not timedelta(0) <= local - task_at <= RECOVERY_WINDOW:
+            continue
+        edition = local.date().isoformat() + '-' + slot
+        if (root / 'sources/synthesis' / (edition + '.md')).exists():
+            return None
+        run = root / 'research/runs' / edition
+        if not (run / 'research_pack.json').is_file() or not (run / 'digest.md').is_file():
+            return slot
+        with (run / 'digest.md').open(encoding='utf-8') as stream:
+            header = [stream.readline().rstrip('\n') for _ in range(7)]
+        stamp = re.fullmatch(r'Prepared at (\S+); expires after 90 minutes\..*', header[1])
+        if (header[0] != '# Prepared synthesis digest · oracle-synthesis/1'
+                or not stamp
+                or not header[5].startswith('@Edition v=1 id=' + edition + ' ')
+                or not re.fullmatch(r'@Pack sha256=[0-9a-f]{64}', header[6])):
+            raise ValueError('Invalid digest for late recovery: ' + edition)
+        if (header[2] != 'Private submission workflow installed: True'
+                or not header[3].startswith('submission_ready=true.')):
+            raise ValueError('Submission not ready for late recovery: ' + edition)
+        prepared = datetime.fromisoformat(stamp[1])
+        if prepared.tzinfo is None or prepared > at:
+            raise ValueError('Invalid preparation timestamp: ' + edition)
+        return slot if at - prepared > PACK_LIFE else None
+    return None
+
+
+def select_slot(event, requested, at, root=None):
     if event == 'schedule':
-        return scheduled_slot(at)
+        slot = scheduled_slot(at)
+        if root is None:
+            return slot
+        if not slot:
+            return recovery_slot(at, root)
+        edition = at.astimezone(ZONE).date().isoformat() + '-' + slot
+        return None if (root / 'sources/synthesis' / (edition + '.md')).exists() else slot
     if event != 'workflow_dispatch' or requested not in EDITIONS.values():
         raise ValueError('Manual preparation requires a valid edition slot')
     return requested
@@ -40,7 +82,7 @@ def main():
     parser.add_argument('--print-slot', action='store_true')
     args = parser.parse_args()
     now = datetime.now(timezone.utc)
-    slot = select_slot(args.event, args.slot, now)
+    slot = select_slot(args.event, args.slot, now, Path(__file__).resolve().parents[1])
     if args.github_output:
         with args.github_output.open('a', encoding='utf-8') as stream:
             stream.write('slot=' + (slot or '') + '\n')
