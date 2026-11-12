@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
+import { readFileSync } from 'node:fs';
 import { ensurePack, windowAt, digestStatus, githubClient, verifyGithubReadAccess } from './worker.mjs';
 
 const token = 'unit-test-placeholder';
@@ -25,6 +26,15 @@ function mock(entries) {
 const missing = { status: 404, value: {} };
 const encoded = text => ({ encoding: 'base64', content: Buffer.from(text).toString('base64') });
 
+function cronCovers(at) {
+  const [minutes, hours] = JSON.parse(readFileSync(new URL('./wrangler.jsonc', import.meta.url), 'utf8')).triggers.crons[0].split(' ');
+  assert.equal(minutes, '*/5');
+  return at.getUTCMinutes()%5===0 && hours.split(',').some(range => {
+    const [first,last] = range.split('-').map(Number);
+    return first<=at.getUTCHours() && at.getUTCHours()<=last;
+  });
+}
+
 test('all editions and UTC cron coverage survive the October DST transition', () => {
   for (const [date, offset] of [['2026-10-24', 3], ['2026-10-25', 2]]) {
     for (const [hour, slot] of [[7, 'morning'], [13, 'midday'], [19, 'evening']]) {
@@ -36,17 +46,23 @@ test('all editions and UTC cron coverage survive the October DST transition', ()
         assert.equal(window.edition, `${date}-${slot}`);
         assert.equal(window.canDispatch, lead > 10);
         assert.equal(window.taskAt.toISOString(), task.toISOString());
-        assert.ok([3,4,5,9,10,11,15,16,17].includes(at.getUTCHours()));
+        assert.ok(cronCovers(at));
         assert.equal(at.getUTCMinutes() % 5, 0);
       }
       assert.equal(windowAt(new Date(task.getTime()-71*60000)), null);
-      assert.equal(windowAt(task), null);
+      assert.equal(windowAt(new Date(task.getTime()-4*60000)), null);
+      for (const delay of [0, 25, 65, 120]) {
+        const at = new Date(task.getTime()+delay*60000);
+        assert.deepEqual(windowAt(at), { slot, edition: `${date}-${slot}`, taskAt: task, canDispatch: true, late: true });
+        assert.ok(cronCovers(at));
+      }
+      assert.equal(windowAt(new Date(task.getTime()+121*60000)), null);
     }
   }
 });
 
 test('outside collection windows makes no HTTP calls and needs no credential', async () => {
-  const result = await ensurePack({}, { now: new Date('2026-10-25T11:55:00Z'), fetcher: () => assert.fail('HTTP outside window') });
+  const result = await ensurePack({}, { now: new Date('2026-10-25T13:35:00Z'), fetcher: () => assert.fail('HTTP outside window') });
   assert.deepEqual(result, { status: 'outside_window', ai_calls: 0 });
 });
 
@@ -133,4 +149,32 @@ test('Cloudflare-compatible manual redirects never follow a credential-bearing r
   });
   await assert.rejects(api('/contents/README.md'), /GitHub GET failed: HTTP 302/);
   assert.equal(calls, 1);
+});
+
+test('the observed evening delay dispatches only the existing Python workflow for an expired pack', async () => {
+  const now = new Date('2026-11-12T17:55:00Z'); // first tick after the 19:51 local expiry
+  const old = digest('2026-11-12T16:21:23Z').replace(edition, '2026-11-12-evening');
+  const api = mock([missing, { value: files }, { value: encoded(old) }, { value: { workflow_runs: [] } },
+    { ...missing, match: /sources\/synthesis\/2026-11-12-evening\.md/ }, { status: 204, match: /prepare-synthesis\.yml\/dispatches$/ }]);
+  const result = await ensurePack({ GITHUB_PREFETCH_TOKEN: token }, { now, fetcher: api.fetcher });
+  assert.equal(result.status, 'dispatch_accepted');
+  assert.equal(result.previous_pack, 'stale');
+  assert.deepEqual(JSON.parse(api.calls.at(-1).body), { ref: 'main', inputs: { slot: 'evening' } });
+  assert.equal(digestStatus(old, windowAt(new Date('2026-11-12T18:35:00Z')), new Date('2026-11-12T18:35:00Z')), 'stale');
+});
+
+test('late recovery leaves a still-valid pack alone even just before expiry', async () => {
+  const now = new Date('2026-10-25T11:31:00Z');
+  const api = mock([missing, { value: files }, { value: encoded(digest('2026-10-25T10:02:00Z')) }]);
+  const result = await ensurePack({ GITHUB_PREFETCH_TOKEN: token }, { now, fetcher: api.fetcher });
+  assert.equal(result.status, 'ready');
+  assert.ok(api.calls.every(call => !call.method));
+});
+
+test('late recovery does not dispatch if a submission appears during the readiness check', async () => {
+  const now = new Date('2026-10-25T12:35:00Z');
+  const api = mock([missing, missing, { value: { workflow_runs: [] } }, { value: { type: 'file' } }]);
+  const result = await ensurePack({ GITHUB_PREFETCH_TOKEN: token }, { now, fetcher: api.fetcher });
+  assert.equal(result.status, 'already_submitted');
+  assert.ok(api.calls.every(call => !call.method));
 });
