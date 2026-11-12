@@ -85,6 +85,8 @@ class HandoffTests(unittest.TestCase):
         new=view.synthesis({**pack,'authoring_preflight':'scope-and-length-v1'})
         self.assertIn('inside its ### article, never in the header or @Evidence',new)
         self.assertIn('70–100 whitespace-separated words',new)
+        self.assertNotIn('70–100 Greek words TOTAL',new)
+        self.assertEqual(new.count('## Baseline records'),1)
         self.assertLessEqual(len(new.encode('utf-8')),48000)
 
     def test_public_or_symlinked_private_storage_is_rejected_before_collection(self):
