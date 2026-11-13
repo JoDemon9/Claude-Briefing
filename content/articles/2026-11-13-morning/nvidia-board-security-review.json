@@ -1,0 +1,98 @@
+{
+  "analysis_sources": [
+    "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
+    "https://www.theguardian.com/technology/live/2026/nov/13/nvidia-jensen-huang-to-testify-before-congress-live-latest-updates",
+    "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
+  ],
+  "category": "Πρώτο θέμα",
+  "change_status": "UPDATED",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "delta_update": "Η παραίτηση και οι προσκλήσεις για κατάθεση προσθέτουν κοινοβουλευτικό έλεγχο στην εταιρική έρευνα.",
+  "driver_tags": [
+    "technology",
+    "finance",
+    "export-controls"
+  ],
+  "edition_id": "2026-11-13-morning",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Το Κογκρέσο ζητά εξηγήσεις από τον Τζένσεν Χουάνγκ μετά την παραίτηση",
+  "id": "nvidia-board-security-review",
+  "image": {
+    "alt": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
+    "attribution": "CNBC",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
+    "original_url": "https://image.cnbcfm.com/api/v1/image/106921243-16280104992021-08-03t161859z_1971438431_rc2nxo9ys9jn_rtrmadp_0_new-york-cuomo.jpeg?v=1794534676&w=1200&h=675",
+    "retrieved_at": "2026-11-13T04:21:10.321580+00:00",
+    "source_review": {
+      "checked_at": "2026-11-13T04:21:10.321580+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "8f97d6d2dafaf2fa",
+      "rights_basis": "publisher-attribution",
+      "sha256": "ce572750d6dff0c82d1a9fcb226422b37710d2358db4a876da06a3fc68eb1b1b"
+    },
+    "source_url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
+    "url": "assets/editorial/source/ce572750d6dff0c82d1a9fcb226422b37710d2358db4a876da06a3fc68eb1b1b.webp"
+  },
+  "mechanics_and_incentives": "Ο πρόεδρος της Βουλής Μάικ Τζόνσον μίλησε για σύγκλιση υπέρ αυστηρότερων περιορισμών στις εξαγωγές τσιπ προς την Κίνα. Οι ακροάσεις μπορούν να τροφοδοτήσουν τη συζήτηση· η πρόσκληση για κατάθεση δεν αλλάζει από μόνη της τους κανόνες.",
+  "published_at": "2026-11-09T05:38:40.545646+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "alternative_case": "Αν κατατεθεί πρόταση, το πεδίο της θα δείξει ποια προϊόντα και πωλήσεις επηρεάζονται.",
+    "base_case": "Αν η συζήτηση μείνει στις ακροάσεις, δεν προκύπτει αλλαγή στις άδειες εξαγωγής.",
+    "watch_next": "Επιβεβαίωση των καταθέσεων, ευρήματα της εταιρικής έρευνας και τυχόν συγκεκριμένο νομοθετικό κείμενο."
+  },
+  "second_order_effects": "Για τους προμηθευτές προηγμένων τσιπ και τους πελάτες τους στην Κίνα, σημασία έχει αν τυχόν νέοι κανόνες θα καλύπτουν προϊόντα που σήμερα μπορούν να εξαχθούν.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Ο Τζένσεν Χουάνγκ παραιτήθηκε από τη θέση του διευθύνοντος συμβούλου της Nvidia, σύμφωνα με τον Guardian, ενώ το BBC αναφέρει ότι επιτροπές της Βουλής ζήτησαν κλειστή συνέντευξη την 1η Δεκεμβρίου και ότι υπάρχει χωριστή πρόσκληση για εθελοντική κατάθεση στις 3 Δεκεμβρίου. Η Nvidia έχει αναθέσει έρευνα στον Τζουν Κιμ και στη Wachtell Lipton, σύμφωνα με το CNBC. Η εταιρεία δηλώνει ότι δεν έχει λόγο να πιστεύει πως εκτέθηκαν μυστικά της."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-12T19:58:11+00:00",
+      "publisher": "CNBC",
+      "reporting_group": "CNBC",
+      "retrieved_at": "2026-11-13T04:21:01.918352+00:00",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-13T04:15:57+00:00",
+      "publisher": "The Guardian",
+      "reporting_group": "The Guardian",
+      "retrieved_at": "2026-11-13T04:21:02.638048+00:00",
+      "url": "https://www.theguardian.com/technology/live/2026/nov/13/nvidia-jensen-huang-to-testify-before-congress-live-latest-updates",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-13T03:57:01+00:00",
+      "publisher": "BBC",
+      "reporting_group": "BBC",
+      "retrieved_at": "2026-11-13T04:21:01.784523+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "nvidia-board-security-review-2026-11-08",
+  "story_identity": "nvidia-board-security-review-2026-11-08",
+  "summary": "Ο Τζένσεν Χουάνγκ παραιτήθηκε από τη θέση του διευθύνοντος συμβούλου της Nvidia, σύμφωνα με τον Guardian, ενώ το BBC αναφέρει ότι επιτροπές της Βουλής ζήτησαν κλειστή συνέντευξη την 1η Δεκεμβρίου και ότι υπάρχει χωριστή πρόσκληση για εθελοντική κατάθεση στις 3 Δεκεμβρίου. Η Nvidia έχει αναθέσει έρευνα στον Τζουν Κιμ και στη Wachtell Lipton, σύμφωνα με το CNBC. Η εταιρεία δηλώνει ότι δεν έχει λόγο να πιστεύει πως εκτέθηκαν μυστικά της.",
+  "updated_at": "2026-11-13T05:35:52.148289+00:00",
+  "url": "articles/2026-11-13-morning/nvidia-board-security-review.html"
+}
