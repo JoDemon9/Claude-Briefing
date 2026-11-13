@@ -10,13 +10,18 @@
       "type": "morning",
       "url": "morning/2026-11-13.html",
       "published_at": "2026-11-13T05:35:52.148289+00:00"
+    },
+    {
+      "id": "2026-11-13-midday",
+      "type": "midday",
+      "url": "midday/2026-11-13.html",
+      "published_at": "2026-11-13T11:28:30.033081+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "nvidia-board-security-review-2026-11-08",
+  "lead_story_id": "stellantis-brampton-notice-2026-11-13",
   "stories": [
     {
       "story_id": "nvidia-board-security-review-2026-11-08",
@@ -28,13 +33,40 @@
           "article_id": "nvidia-board-security-review",
           "source_story_id": "nvidia-board-security-review-2026-11-08",
           "url": "articles/2026-11-13-morning/nvidia-board-security-review.html"
+        },
+        {
+          "edition_id": "2026-11-13-midday",
+          "article_id": "nvidia-board-security-review",
+          "source_story_id": "nvidia-board-security-review-2026-11-08",
+          "url": "articles/2026-11-13-midday/nvidia-board-security-review.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-13-morning",
+        "edition_id": "2026-11-13-midday",
         "article_id": "nvidia-board-security-review",
         "source_story_id": "nvidia-board-security-review-2026-11-08",
-        "url": "articles/2026-11-13-morning/nvidia-board-security-review.html"
+        "url": "articles/2026-11-13-midday/nvidia-board-security-review.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "stellantis-brampton-notice-2026-11-13",
+      "first_seen_at": "2026-11-13T11:28:30.033081+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-midday",
+          "article_id": "stellantis-brampton-notice-2026-11-13",
+          "source_story_id": "stellantis-brampton-notice-2026-11-13",
+          "url": "articles/2026-11-13-midday/stellantis-brampton-notice-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "stellantis-brampton-notice-2026-11-13",
+        "source_story_id": "stellantis-brampton-notice-2026-11-13",
+        "url": "articles/2026-11-13-midday/stellantis-brampton-notice-2026-11-13.html"
       },
       "section": "world",
       "priority": 1
@@ -49,13 +81,40 @@
           "article_id": "spain-court-suspends-far-right-group-2026-11-13",
           "source_story_id": "spain-court-suspends-far-right-group-2026-11-13",
           "url": "articles/2026-11-13-morning/spain-court-suspends-far-right-group-2026-11-13.html"
+        },
+        {
+          "edition_id": "2026-11-13-midday",
+          "article_id": "spain-court-suspends-far-right-group-2026-11-13",
+          "source_story_id": "spain-court-suspends-far-right-group-2026-11-13",
+          "url": "articles/2026-11-13-midday/spain-court-suspends-far-right-group-2026-11-13.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-13-morning",
+        "edition_id": "2026-11-13-midday",
         "article_id": "spain-court-suspends-far-right-group-2026-11-13",
         "source_story_id": "spain-court-suspends-far-right-group-2026-11-13",
-        "url": "articles/2026-11-13-morning/spain-court-suspends-far-right-group-2026-11-13.html"
+        "url": "articles/2026-11-13-midday/spain-court-suspends-far-right-group-2026-11-13.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "uk-eu-food-scrutiny-2026-11-13",
+      "first_seen_at": "2026-11-13T11:28:30.033081+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-midday",
+          "article_id": "uk-eu-food-scrutiny-2026-11-13",
+          "source_story_id": "uk-eu-food-scrutiny-2026-11-13",
+          "url": "articles/2026-11-13-midday/uk-eu-food-scrutiny-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "uk-eu-food-scrutiny-2026-11-13",
+        "source_story_id": "uk-eu-food-scrutiny-2026-11-13",
+        "url": "articles/2026-11-13-midday/uk-eu-food-scrutiny-2026-11-13.html"
       },
       "section": "world",
       "priority": 2
@@ -82,6 +141,27 @@
       "priority": 3
     },
     {
+      "story_id": "volgograd-industrial-zone-casualties-2026-11-13",
+      "first_seen_at": "2026-11-13T11:28:30.033081+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-midday",
+          "article_id": "volgograd-industrial-zone-casualties-2026-11-13",
+          "source_story_id": "volgograd-industrial-zone-casualties-2026-11-13",
+          "url": "articles/2026-11-13-midday/volgograd-industrial-zone-casualties-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "volgograd-industrial-zone-casualties-2026-11-13",
+        "source_story_id": "volgograd-industrial-zone-casualties-2026-11-13",
+        "url": "articles/2026-11-13-midday/volgograd-industrial-zone-casualties-2026-11-13.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
       "story_id": "cyprus-canada-leaders-meeting-2026-11-12",
       "first_seen_at": "2026-11-13T05:35:52.148289+00:00",
       "last_substantive_at": null,
@@ -91,13 +171,40 @@
           "article_id": "cyprus-canada-leaders-meeting-2026-11-12",
           "source_story_id": "cyprus-canada-leaders-meeting-2026-11-12",
           "url": "articles/2026-11-13-morning/cyprus-canada-leaders-meeting-2026-11-12.html"
+        },
+        {
+          "edition_id": "2026-11-13-midday",
+          "article_id": "cyprus-canada-leaders-meeting-2026-11-12",
+          "source_story_id": "cyprus-canada-leaders-meeting-2026-11-12",
+          "url": "articles/2026-11-13-midday/cyprus-canada-leaders-meeting-2026-11-12.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-13-morning",
+        "edition_id": "2026-11-13-midday",
         "article_id": "cyprus-canada-leaders-meeting-2026-11-12",
         "source_story_id": "cyprus-canada-leaders-meeting-2026-11-12",
-        "url": "articles/2026-11-13-morning/cyprus-canada-leaders-meeting-2026-11-12.html"
+        "url": "articles/2026-11-13-midday/cyprus-canada-leaders-meeting-2026-11-12.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "nicosia-venue-permits-2026-11-13",
+      "first_seen_at": "2026-11-13T11:28:30.033081+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-midday",
+          "article_id": "nicosia-venue-permits-2026-11-13",
+          "source_story_id": "nicosia-venue-permits-2026-11-13",
+          "url": "articles/2026-11-13-midday/nicosia-venue-permits-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "nicosia-venue-permits-2026-11-13",
+        "source_story_id": "nicosia-venue-permits-2026-11-13",
+        "url": "articles/2026-11-13-midday/nicosia-venue-permits-2026-11-13.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -112,13 +219,40 @@
           "article_id": "cyprus-central-prisons-documents-trial-2026-11-12",
           "source_story_id": "cyprus-central-prisons-documents-trial-2026-11-12",
           "url": "articles/2026-11-13-morning/cyprus-central-prisons-documents-trial-2026-11-12.html"
+        },
+        {
+          "edition_id": "2026-11-13-midday",
+          "article_id": "cyprus-central-prisons-documents-trial-2026-11-12",
+          "source_story_id": "cyprus-central-prisons-documents-trial-2026-11-12",
+          "url": "articles/2026-11-13-midday/cyprus-central-prisons-documents-trial-2026-11-12.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-13-morning",
+        "edition_id": "2026-11-13-midday",
         "article_id": "cyprus-central-prisons-documents-trial-2026-11-12",
         "source_story_id": "cyprus-central-prisons-documents-trial-2026-11-12",
-        "url": "articles/2026-11-13-morning/cyprus-central-prisons-documents-trial-2026-11-12.html"
+        "url": "articles/2026-11-13-midday/cyprus-central-prisons-documents-trial-2026-11-12.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-pensions-63-2026-11-13",
+      "first_seen_at": "2026-11-13T11:28:30.033081+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-midday",
+          "article_id": "cyprus-pensions-63-2026-11-13",
+          "source_story_id": "cyprus-pensions-63-2026-11-13",
+          "url": "articles/2026-11-13-midday/cyprus-pensions-63-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "cyprus-pensions-63-2026-11-13",
+        "source_story_id": "cyprus-pensions-63-2026-11-13",
+        "url": "articles/2026-11-13-midday/cyprus-pensions-63-2026-11-13.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -143,6 +277,48 @@
       },
       "section": "cyprus",
       "priority": 6
+    },
+    {
+      "story_id": "tychikos-archbishop-2026-11-13",
+      "first_seen_at": "2026-11-13T11:28:30.033081+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-midday",
+          "article_id": "tychikos-archbishop-2026-11-13",
+          "source_story_id": "tychikos-archbishop-2026-11-13",
+          "url": "articles/2026-11-13-midday/tychikos-archbishop-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "tychikos-archbishop-2026-11-13",
+        "source_story_id": "tychikos-archbishop-2026-11-13",
+        "url": "articles/2026-11-13-midday/tychikos-archbishop-2026-11-13.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "hendon-returns-2026-11-13",
+      "first_seen_at": "2026-11-13T11:28:30.033081+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-midday",
+          "article_id": "hendon-returns-2026-11-13",
+          "source_story_id": "hendon-returns-2026-11-13",
+          "url": "articles/2026-11-13-midday/hendon-returns-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "hendon-returns-2026-11-13",
+        "source_story_id": "hendon-returns-2026-11-13",
+        "url": "articles/2026-11-13-midday/hendon-returns-2026-11-13.html"
+      },
+      "section": "sports",
+      "priority": 7
     },
     {
       "story_id": "limassol-antiquities-acquittal-return-order-2026-11-13",
@@ -175,13 +351,40 @@
           "article_id": "dubai-p1-quarterfinals-2026-11-13",
           "source_story_id": "dubai-p1-quarterfinals-2026-11-13",
           "url": "articles/2026-11-13-morning/dubai-p1-quarterfinals-2026-11-13.html"
+        },
+        {
+          "edition_id": "2026-11-13-midday",
+          "article_id": "dubai-p1-quarterfinals-2026-11-13",
+          "source_story_id": "dubai-p1-quarterfinals-2026-11-13",
+          "url": "articles/2026-11-13-midday/dubai-p1-quarterfinals-2026-11-13.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-13-morning",
+        "edition_id": "2026-11-13-midday",
         "article_id": "dubai-p1-quarterfinals-2026-11-13",
         "source_story_id": "dubai-p1-quarterfinals-2026-11-13",
-        "url": "articles/2026-11-13-morning/dubai-p1-quarterfinals-2026-11-13.html"
+        "url": "articles/2026-11-13-midday/dubai-p1-quarterfinals-2026-11-13.html"
+      },
+      "section": "sports",
+      "priority": 8
+    },
+    {
+      "story_id": "warburton-adames-2026-11-13",
+      "first_seen_at": "2026-11-13T11:28:30.033081+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-midday",
+          "article_id": "warburton-adames-2026-11-13",
+          "source_story_id": "warburton-adames-2026-11-13",
+          "url": "articles/2026-11-13-midday/warburton-adames-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "warburton-adames-2026-11-13",
+        "source_story_id": "warburton-adames-2026-11-13",
+        "url": "articles/2026-11-13-midday/warburton-adames-2026-11-13.html"
       },
       "section": "sports",
       "priority": 8
@@ -368,6 +571,188 @@
         "article_id": "spain-court-suspends-far-right-group-2026-11-13",
         "source_story_id": "spain-court-suspends-far-right-group-2026-11-13",
         "url": "articles/2026-11-13-morning/spain-court-suspends-far-right-group-2026-11-13.html"
+      }
+    },
+    {
+      "id": "14ec9f0809d6da34d452d787c5d64c5e38eb900071d866caa4aadf07224520f8",
+      "kind": "provenance",
+      "at": "2026-11-13T11:28:30.033081+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "warburton-adames-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "warburton-adames-2026-11-13",
+        "source_story_id": "warburton-adames-2026-11-13",
+        "url": "articles/2026-11-13-midday/warburton-adames-2026-11-13.html"
+      }
+    },
+    {
+      "id": "19ea03ddd98eb0590576b16b81ea06361d353cd2a6e4e7046df0fdf0bcf8bc33",
+      "kind": "provenance",
+      "at": "2026-11-13T11:28:30.033081+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "stellantis-brampton-notice-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "stellantis-brampton-notice-2026-11-13",
+        "source_story_id": "stellantis-brampton-notice-2026-11-13",
+        "url": "articles/2026-11-13-midday/stellantis-brampton-notice-2026-11-13.html"
+      }
+    },
+    {
+      "id": "26d063f9bb5791ffe04dee435a638e4a81c0b52408af6e6a5540a8f2987f0562",
+      "kind": "provenance",
+      "at": "2026-11-13T11:28:30.033081+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-pensions-63-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "cyprus-pensions-63-2026-11-13",
+        "source_story_id": "cyprus-pensions-63-2026-11-13",
+        "url": "articles/2026-11-13-midday/cyprus-pensions-63-2026-11-13.html"
+      }
+    },
+    {
+      "id": "394da3c32ee92c103fcab66c2c8d17edf5c990f742e768aaac2d1bc849ae6940",
+      "kind": "provenance",
+      "at": "2026-11-13T11:28:30.033081+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "tychikos-archbishop-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "tychikos-archbishop-2026-11-13",
+        "source_story_id": "tychikos-archbishop-2026-11-13",
+        "url": "articles/2026-11-13-midday/tychikos-archbishop-2026-11-13.html"
+      }
+    },
+    {
+      "id": "3d3183bf5c6e9acaa34b89f5bb5bc988fbf9ab26b921511efe4c24e8322a8d2f",
+      "kind": "provenance",
+      "at": "2026-11-13T11:28:30.033081+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-eu-food-scrutiny-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "uk-eu-food-scrutiny-2026-11-13",
+        "source_story_id": "uk-eu-food-scrutiny-2026-11-13",
+        "url": "articles/2026-11-13-midday/uk-eu-food-scrutiny-2026-11-13.html"
+      }
+    },
+    {
+      "id": "3eb2a69b3087168b34fcfee6954bf0a7d6701e9f973b5b05af47dfb8039f154b",
+      "kind": "provenance",
+      "at": "2026-11-13T11:28:30.033081+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "volgograd-industrial-zone-casualties-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "volgograd-industrial-zone-casualties-2026-11-13",
+        "source_story_id": "volgograd-industrial-zone-casualties-2026-11-13",
+        "url": "articles/2026-11-13-midday/volgograd-industrial-zone-casualties-2026-11-13.html"
+      }
+    },
+    {
+      "id": "573a4df6e9123d43c58c087d2eca14d093caee4727e96a6e8a3fab2e0e7341bd",
+      "kind": "provenance",
+      "at": "2026-11-13T11:28:30.033081+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "dubai-p1-quarterfinals-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "dubai-p1-quarterfinals-2026-11-13",
+        "source_story_id": "dubai-p1-quarterfinals-2026-11-13",
+        "url": "articles/2026-11-13-midday/dubai-p1-quarterfinals-2026-11-13.html"
+      }
+    },
+    {
+      "id": "76f73af671206c1e483bbc02fa49b4fdb237f7c469307c60d86806b3cb214df4",
+      "kind": "provenance",
+      "at": "2026-11-13T11:28:30.033081+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-central-prisons-documents-trial-2026-11-12",
+      "origin": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "cyprus-central-prisons-documents-trial-2026-11-12",
+        "source_story_id": "cyprus-central-prisons-documents-trial-2026-11-12",
+        "url": "articles/2026-11-13-midday/cyprus-central-prisons-documents-trial-2026-11-12.html"
+      }
+    },
+    {
+      "id": "9253f12348722be94f0dbf0282e952bd9bdeec7f3d1db1a2ae9137740a8ee0a3",
+      "kind": "provenance",
+      "at": "2026-11-13T11:28:30.033081+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-canada-leaders-meeting-2026-11-12",
+      "origin": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "cyprus-canada-leaders-meeting-2026-11-12",
+        "source_story_id": "cyprus-canada-leaders-meeting-2026-11-12",
+        "url": "articles/2026-11-13-midday/cyprus-canada-leaders-meeting-2026-11-12.html"
+      }
+    },
+    {
+      "id": "c52679f9f7d1ada9250ebc753993bc4b458631f9788e8f7a802b71acc956cf56",
+      "kind": "provenance",
+      "at": "2026-11-13T11:28:30.033081+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "nvidia-board-security-review",
+        "source_story_id": "nvidia-board-security-review-2026-11-08",
+        "url": "articles/2026-11-13-midday/nvidia-board-security-review.html"
+      }
+    },
+    {
+      "id": "ca098b52b3afd059ec5348e0cbcc2bc8399a7ad98d579c6dd5843c3c5cd3c774",
+      "kind": "provenance",
+      "at": "2026-11-13T11:28:30.033081+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "spain-court-suspends-far-right-group-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "spain-court-suspends-far-right-group-2026-11-13",
+        "source_story_id": "spain-court-suspends-far-right-group-2026-11-13",
+        "url": "articles/2026-11-13-midday/spain-court-suspends-far-right-group-2026-11-13.html"
+      }
+    },
+    {
+      "id": "e9257b0563c9f85181fc62fa8fc01655092dc470a65a273b42f8e4c3dac18e4a",
+      "kind": "provenance",
+      "at": "2026-11-13T11:28:30.033081+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "hendon-returns-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "hendon-returns-2026-11-13",
+        "source_story_id": "hendon-returns-2026-11-13",
+        "url": "articles/2026-11-13-midday/hendon-returns-2026-11-13.html"
+      }
+    },
+    {
+      "id": "ecc57e5051b320cf4706745b1d973623bea1277e4d79ecf844edbddd75f11eca",
+      "kind": "provenance",
+      "at": "2026-11-13T11:28:30.033081+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "nicosia-venue-permits-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-midday",
+        "article_id": "nicosia-venue-permits-2026-11-13",
+        "source_story_id": "nicosia-venue-permits-2026-11-13",
+        "url": "articles/2026-11-13-midday/nicosia-venue-permits-2026-11-13.html"
       }
     }
   ],
@@ -577,16 +962,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Στις ΗΠΑ, οι προσκλήσεις προς τον πρώην επικεφαλής της Nvidia μεταφέρουν την υπόθεση στο Κογκρέσο, όπου συζητούνται αυστηρότεροι περιορισμοί στις εξαγωγές προηγμένων τσιπ στην Κίνα. Για τις εταιρείες του κλάδου, το πρακτικό ερώτημα είναι αν θα κατατεθεί πρόταση που να αλλάζει τι επιτρέπεται να πωλούν. Για την Κύπρο, η πρώτη συνάντηση ηγετών με τον Καναδά εδώ και οκτώ χρόνια ανοίγει δίαυλο για διμερείς επαφές και ενημέρωση για το Κυπριακό. Η συνέχεια θα φανεί από το αν οι δύο κυβερνήσεις ορίσουν επόμενη συνάντηση ή ανακοινώσουν συγκεκριμένη συνεργασία.",
+        "text": "Ο Καναδάς έδωσε στη Stellantis 30 ημέρες να απαντήσει για τις δεσμεύσεις της, ενώ στην Κύπρο η Ελεγκτική Υπηρεσία διαπίστωσε ότι βασικοί όροι άδειας στη Λευκωσία παραμένουν ανεκπλήρωτοι. Στον Καναδά, κρίσιμο είναι αν η εταιρεία θα παρουσιάσει σχέδιο για το εργοστάσιο ή επιστροφή ενισχύσεων που θα δεχθεί η κυβέρνηση. Στη Λευκωσία, το επόμενο τεστ είναι αν οι αρχές θα ορίσουν προθεσμία συμμόρφωσης και αν θα την εφαρμόσουν.",
         "story_ids": [
-          "nvidia-board-security-review-2026-11-08",
-          "cyprus-canada-leaders-meeting-2026-11-12"
+          "stellantis-brampton-notice-2026-11-13",
+          "nicosia-venue-permits-2026-11-13"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-13T05:37:53.302159+00:00",
-  "updated_at": "2026-11-13T05:37:53.302159+00:00",
-  "input_sha256": "ad0a633f5a3115154e56f1965ca0d65724434be509aede6ba12ab60f05d7ee36"
+  "updated_at": "2026-11-13T11:30:00.861118+00:00",
+  "input_sha256": "2c63596afdb78549a1738ee1371086ca06096715169ff0c3f36230482c23fe45"
 }
