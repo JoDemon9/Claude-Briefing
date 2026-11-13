@@ -651,6 +651,14 @@
       "fingerprint": "5335539dd4bbd5fc986a399ec942b6de7ccd7eba53697b552eb9b38b86fc8311"
     },
     {
+      "id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "type": "evening",
+      "published_at": "2026-11-13T17:39:15.518151+00:00",
+      "url": "evening/2026-11-13.html",
+      "fingerprint": "a78b4fdce94417e526a3df0a66dd6288cf3ce5c3622eae707f021b41e41009f4"
+    },
+    {
       "id": "2026-11-13-midday",
       "date": "2026-11-13",
       "type": "midday",
@@ -24320,6 +24328,365 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/c7d9a7e311e1ebe4418104ace5722d03513528702d06f89e0b57a4046637ad1a.webp"
+    },
+    {
+      "story_id": "microsoft-365-outage-2026-11-12",
+      "identity": "microsoft-365-outage-2026-11-12",
+      "edition_id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "slot": "evening",
+      "published_at": "2026-11-13T17:39:15.518151+00:00",
+      "available_at": "2026-11-13T17:39:15.518151+00:00",
+      "headline": "Η διακοπή του Microsoft 365 ανέβαλε και ανακοίνωση εταιρικών αποτελεσμάτων",
+      "finding": "Τα προβλήματα σύνδεσης στο Microsoft 365 εμφανίστηκαν την Πέμπτη και επηρέασαν τουλάχιστον 74 χώρες, σύμφωνα με το BBC. Η Workhorse μετέφερε την ανακοίνωση αποτελεσμάτων τρίτου τριμήνου από τις 12 στις 16 Νοεμβρίου, επικαλούμενη τη διαταραχή στη λειτουργία της. Η Microsoft ανέφερε πρόοδο στην αποκατάσταση και, σύμφωνα με τον Guardian, εξέταζε το ενδεχόμενο προβλήματος στις ρυθμίσεις των διακομιστών.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-13-evening/microsoft-365-outage-2026-11-12.json",
+      "reader_url": "articles/2026-11-13-evening/microsoft-365-outage-2026-11-12.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqp9d58eldlro?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-13T15:44:48+00:00",
+          "retrieved_at": "2026-11-13T16:21:07.442100+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-13T14:56:42+00:00",
+          "retrieved_at": "2026-11-13T16:21:08.261545+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/41aaeb6eafb8df23a25bb8eb2be56c0531b68f6804e6890478d1619620d80662.webp"
+    },
+    {
+      "story_id": "binance-crypto-seizure-2026-11-13",
+      "identity": "binance-crypto-seizure-2026-11-13",
+      "edition_id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "slot": "evening",
+      "published_at": "2026-11-13T17:39:15.518151+00:00",
+      "available_at": "2026-11-13T17:39:15.518151+00:00",
+      "headline": "Οι ΗΠΑ ανακοίνωσαν κατάσχεση κρυπτοστοιχείων 1,2 δισ. δολαρίων στην υπόθεση Binance",
+      "finding": "Το αμερικανικό Υπουργείο Δικαιοσύνης ανακοίνωσε την Πέμπτη δικαστικά εγκεκριμένη κατάσχεση και δέσμευση κρυπτοστοιχείων αξίας άνω των 1,2 δισ. δολαρίων. Σύμφωνα με το υπουργείο, το ποσό περιλαμβάνεται στα άνω των 2,7 δισ. δολαρίων που έχουν δεσμευτεί μετά την κλοπή από το ανταλλακτήριο Binance στις 29 Οκτωβρίου. Το υπουργείο απέδωσε την κλοπή σε δράστες που συνδέει με τον στρατό της Βόρειας Κορέας.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-13-evening/binance-crypto-seizure-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-evening/binance-crypto-seizure-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/13/us-seizes-binance-hack-crypto.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-13T12:03:24+00:00",
+          "retrieved_at": "2026-11-13T16:21:07.771395+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/bbb7654a83bdcf93deed38c46c8000a3d5c0a233747c0b1a0d21e9c3e7ae9119.webp"
+    },
+    {
+      "story_id": "sudan-unhcr-funding-2026-11-13",
+      "identity": "sudan-unhcr-funding-2026-11-13",
+      "edition_id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "slot": "evening",
+      "published_at": "2026-11-13T17:39:15.518151+00:00",
+      "available_at": "2026-11-13T17:39:15.518151+00:00",
+      "headline": "Ο επικεφαλής της Ύπατης Αρμοστείας ζητά πολιτική λύση για το Σουδάν",
+      "finding": "Ο Μπαρχάμ Σάλεχ, επικεφαλής της Ύπατης Αρμοστείας του ΟΗΕ για τους Πρόσφυγες, ζήτησε πολιτική λύση στον πόλεμο του Σουδάν σε συνέντευξη στο France 24 που δημοσιεύθηκε την Παρασκευή. Προειδοποίησε ότι οι περικοπές χρηματοδότησης πλήττουν ανθρώπους με επείγουσες ανάγκες. Συνέδεσε την έκκληση για τερματισμό του πολέμου με την πίεση που δέχεται η ανθρωπιστική βοήθεια σε περίοδο εκτοπισμού σε επίπεδα ρεκόρ.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-13-evening/sudan-unhcr-funding-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-evening/sudan-unhcr-funding-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261113-un-refugee-chief-barham-salih-slams-shameful-war-in-sudan-urges-political-solution",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-11-13T15:56:30+00:00",
+          "retrieved_at": "2026-11-13T16:21:07.712197+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/40b1709c4cb4ba2bdaf9349b15b68f757c6ea43152a09e75b9b995a802181091.webp"
+    },
+    {
+      "story_id": "cyprus-defence-budget-2027-2026-11-13",
+      "identity": "cyprus-defence-budget-2027-2026-11-13",
+      "edition_id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "slot": "evening",
+      "published_at": "2026-11-13T17:39:15.518151+00:00",
+      "available_at": "2026-11-13T17:39:15.518151+00:00",
+      "headline": "Αμυντικός προϋπολογισμός: από 177 σε 430 εκατ. ευρώ οι προβλεπόμενες πιστώσεις",
+      "finding": "Κατά τη συζήτηση του προϋπολογισμού του Υπουργείου Άμυνας την Παρασκευή, ο βουλευτής του ΔΗΣΥ Χαράλαμπος Πετρίδης ανέφερε ότι οι πιστώσεις για την αμυντική θωράκιση αυξάνονται από 177 σε 430 εκατ. ευρώ για το 2027. Συνέδεσε την αύξηση και με το ευρωπαϊκό δάνειο SAFE. Ζήτησε να διευκρινιστεί ποιες συμβάσεις θα προχωρήσουν μέσα στο έτος.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-13-evening/cyprus-defence-budget-2027-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-evening/cyprus-defence-budget-2027-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1337522/dhsy-xairetizei-tin-auksisi-toy-proypologhismou-ghia-tin-amina-to-2027",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-13T16:13:44+00:00",
+          "retrieved_at": "2026-11-13T16:21:08.200203+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/b7959303587c204be6112a033cc8e355874066ac0b1b2a51a5392c84cfcb4105.webp"
+    },
+    {
+      "story_id": "cyprus-ai-election-interference-2026-11-13",
+      "identity": "cyprus-ai-election-interference-2026-11-13",
+      "edition_id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "slot": "evening",
+      "published_at": "2026-11-13T17:39:15.518151+00:00",
+      "available_at": "2026-11-13T17:39:15.518151+00:00",
+      "headline": "Ο Χριστοδουλίδης δεν αποκλείει εκστρατεία παραπληροφόρησης με τεχνητή νοημοσύνη",
+      "finding": "Ο Πρόεδρος Νίκος Χριστοδουλίδης δήλωσε την Παρασκευή ότι δεν αποκλείει τη χρήση τεχνητής νοημοσύνης για να επηρεαστούν ψηφοφόροι στις επόμενες προεδρικές εκλογές της Κύπρου. Η Cyprus Mail αναφέρει ότι η ευρωπαϊκή διαβούλευση λήγει στις 23 Νοεμβρίου. Οι υπό συζήτηση προτάσεις προβλέπουν έκθεση των πλατφορμών εντός 30 ημερών από τις εκλογές για τα μέτρα που έλαβαν.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-13-evening/cyprus-ai-election-interference-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-evening/cyprus-ai-election-interference-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/13/christodoulides-does-not-rule-out-ai-interference-in-next-cypriot-elections",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-13T15:36:54+00:00",
+          "retrieved_at": "2026-11-13T16:21:07.952802+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/aca5f2943692a5a8611f0227b2acba5f44b240b911b87df2e4ca21d11192b7a7.webp"
+    },
+    {
+      "story_id": "cyprus-stylianos-testimony-2026-11-13",
+      "identity": "cyprus-stylianos-testimony-2026-11-13",
+      "edition_id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "slot": "evening",
+      "published_at": "2026-11-13T17:39:15.518151+00:00",
+      "available_at": "2026-11-13T17:39:15.518151+00:00",
+      "headline": "Νέα μαρτυρία στο δικαστήριο για την υπόθεση του Στυλιανού",
+      "finding": "Η λογοθεραπεύτρια του Στυλιανού κατέθεσε στο Επαρχιακό Δικαστήριο Λευκωσίας και περιέγραψε συνομιλίες με το παιδί που είχε καταγράψει σε κατάθεση το 2020. Ανέφερε επίσης ότι η μητέρα είχε εκφράσει στο σχολείο φόβο για βία από τον σύζυγό της. Το δικαστήριο διέκοψε προσωρινά τη διαδικασία κατά την κυρίως εξέταση της μάρτυρος.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-13-evening/cyprus-stylianos-testimony-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-evening/cyprus-stylianos-testimony-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1795447/ipothesi-stilianou-en-ginete-kiria-na-ginis-i-mamma-mou-nees-sigklonistikes-anafores-gia-xilodarmo-pina-exanthimata-ke-pontikia-sto-spiti-i-martiras-vourkose-to-dikastirio",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-13T14:50:48+00:00",
+          "retrieved_at": "2026-11-13T16:21:08.372364+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/3b396d24794b113e46681b24412563025551d87813912aaba339bf90079cae75.webp"
+    },
+    {
+      "story_id": "portugal-denmark-nations-league-2026-11-14",
+      "identity": "portugal-denmark-nations-league-2026-11-14",
+      "edition_id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "slot": "evening",
+      "published_at": "2026-11-13T17:39:15.518151+00:00",
+      "available_at": "2026-11-13T17:39:15.518151+00:00",
+      "headline": "Πρώτος αγώνας της Πορτογαλίας μετά την ανακοίνωση του Ρονάλντο",
+      "finding": "Η Πορτογαλία υποδέχεται τη Δανία το Σάββατο 14 Νοεμβρίου στην Μπράγκα, στον όμιλο Α4 του Nations League. Είναι ο πρώτος αγώνας της αφότου ο Κριστιάνο Ρονάλντο ανακοίνωσε την αποχώρησή του.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-13-evening/portugal-denmark-nations-league-2026-11-14.json",
+      "reader_url": "articles/2026-11-13-evening/portugal-denmark-nations-league-2026-11-14.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/sports/2026/11/13/portugal-denmark-ronaldo-uefa-nations-league-predictions-teams?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-13T14:18:25+00:00",
+          "retrieved_at": "2026-11-13T16:21:07.347847+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8b591c591746bb63aac47d8b337fb185a0ef6ceebbd807b7f0072e8c0e7c8d47.webp"
+    },
+    {
+      "story_id": "stellantis-brampton-notice-2026-11-13",
+      "identity": "stellantis-brampton-notice-2026-11-13",
+      "edition_id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "slot": "evening",
+      "published_at": "2026-11-13T11:28:30.033081+00:00",
+      "available_at": "2026-11-13T17:39:15.518151+00:00",
+      "headline": "Ο Καναδάς δίνει στη Stellantis 30 ημέρες πριν από πιθανή προσφυγή",
+      "finding": "Η υπουργός Βιομηχανίας του Καναδά Μελανί Ζολί δήλωσε την Πέμπτη ότι η κυβέρνηση έστειλε επίσημη ειδοποίηση στη Stellantis και της έδωσε 30 ημέρες να απαντήσει, σύμφωνα με το CNBC. Η διαφορά αφορά το εργοστάσιο στο Μπράμπτον και κρατικές ενισχύσεις. Η εταιρεία φέρεται να προτίθεται να επιστρέψει 24 εκατ. δολάρια, ποσό χαμηλότερο από την κυβερνητική εκτίμηση.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-13-evening/stellantis-brampton-notice-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-evening/stellantis-brampton-notice-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/13/canada-stellantis-auto-trump-tariffs-jeep.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-13T09:44:38+00:00",
+          "retrieved_at": "2026-11-13T10:50:47.183831+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/e9c4fa6bcf45b80f611ae846e39daf27fc5e8d0e9aeb8ecbc80860f5daabb303.webp"
+    },
+    {
+      "story_id": "uk-eu-food-scrutiny-2026-11-13",
+      "identity": "uk-eu-food-scrutiny-2026-11-13",
+      "edition_id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "slot": "evening",
+      "published_at": "2026-11-13T11:28:30.033081+00:00",
+      "available_at": "2026-11-13T17:39:15.518151+00:00",
+      "headline": "Βρετανική επιτροπή ζητά έλεγχο των κανόνων της συμφωνίας με την ΕΕ",
+      "finding": "Βρετανική κοινοβουλευτική επιτροπή εκτίμησε ότι μόνο η συμφωνία για τρόφιμα και γεωργία θα μπορούσε να αφορά τουλάχιστον 780 ευρωπαϊκές νομοθετικές πράξεις τον χρόνο, σύμφωνα με τον Guardian. Ζητά διαδικασίες και πόρους για κοινοβουλευτικό έλεγχο, καθώς οι κανόνες μπορούν να επηρεάσουν τα πρότυπα τροφίμων και το κόστος των επιχειρήσεων.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-13-evening/uk-eu-food-scrutiny-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-evening/uk-eu-food-scrutiny-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/politics/live/2026/nov/13/uk-eu-post-brexit-deal-relationship-trade-food-standards-committee-latest-news-updates",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-13T10:33:52+00:00",
+          "retrieved_at": "2026-11-13T10:50:47.829172+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/3137ea911d72334e6bf7382e7e5587a55b83572e81093412fdaa9a2ffa3b1557.webp"
+    },
+    {
+      "story_id": "nicosia-venue-permits-2026-11-13",
+      "identity": "nicosia-venue-permits-2026-11-13",
+      "edition_id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "slot": "evening",
+      "published_at": "2026-11-13T11:28:30.033081+00:00",
+      "available_at": "2026-11-13T17:39:15.518151+00:00",
+      "headline": "Η Ελεγκτική Υπηρεσία εντοπίζει εκκρεμείς παραβάσεις όρων άδειας στη Λευκωσία",
+      "finding": "Χώρος δεξιώσεων στη Λευκωσία λειτουργεί από τον Οκτώβριο του 2023 χωρίς να τηρεί βασικούς όρους των αδειών του, σύμφωνα με υπόμνημα της Ελεγκτικής Υπηρεσίας που παρουσίασε το Cyprus Mail στις 13 Νοεμβρίου. Οι όροι είχαν τεθεί κατά την κατ’ εξαίρεση έγκριση του 2022. Η Υπηρεσία επανήλθε μετά την έκθεση του 2025 για να ελέγξει αν υπήρξε συμμόρφωση.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-13-evening/nicosia-venue-permits-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-evening/nicosia-venue-permits-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/13/state-failing-to-enforce-planning-laws-auditor-general-warns",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-13T08:58:38+00:00",
+          "retrieved_at": "2026-11-13T10:50:47.487618+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f1b2723870a7e1877413d15c44ee4bc689d00184145c8eab8899517d78b5e7c5.webp"
+    },
+    {
+      "story_id": "cyprus-pensions-63-2026-11-13",
+      "identity": "cyprus-pensions-63-2026-11-13",
+      "edition_id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "slot": "evening",
+      "published_at": "2026-11-13T11:28:30.033081+00:00",
+      "available_at": "2026-11-13T17:39:15.518151+00:00",
+      "headline": "Συνταξιοδοτικό: στο τραπέζι αυστηρότερη προϋπόθεση για αφυπηρέτηση στα 63",
+      "finding": "Στο 17ο Συνταξιοδοτικό Φόρουμ συζητήθηκε η μείωση 12% και, σύμφωνα με τον Φιλελεύθερο, η πρόταση να αυξηθεί ο απαιτούμενος χρόνος ασφάλισης από 33 σε 38 χρόνια. Ο υπουργός Εργασίας είπε ότι η αφυπηρέτηση στα 63 θα γίνει δυσκολότερη μετά την πενταετία, ενώ αναφέρθηκε σε εθελοντική εργασία έως τα 67.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-13-evening/cyprus-pensions-63-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-evening/cyprus-pensions-63-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/paraskinio/article/1794915/ethelontika-mechri-ta-67",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-13T10:30:00+00:00",
+          "retrieved_at": "2026-11-13T10:50:47.660867+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/bdea135c445fed9baf91a97631daa07936465d8e04a703dc4fcd1219d39d5fc3.webp"
+    },
+    {
+      "story_id": "warburton-adames-2026-11-13",
+      "identity": "warburton-adames-2026-11-13",
+      "edition_id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "slot": "evening",
+      "published_at": "2026-11-13T11:28:30.033081+00:00",
+      "available_at": "2026-11-13T17:39:15.518151+00:00",
+      "headline": "Ο Γουόρμπερτον αντιμετωπίζει τον πρωταθλητή Αντάμες στο Ριάντ",
+      "finding": "Ο Τζερόμ Γουόρμπερτον, με 18 νίκες σε 22 επαγγελματικούς αγώνες, αντιμετωπίζει στις 14 Νοεμβρίου τον πρωταθλητή μεσαίων βαρών του WBC, Κάρλος Αντάμες, σύμφωνα με το BBC.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-13-evening/warburton-adames-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-evening/warburton-adames-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/boxing/articles/cmgqwdv1kg40o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-13T04:52:44+00:00",
+          "retrieved_at": "2026-11-13T10:50:46.888971+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/b682f26c4b272e949463f7db79cd461b4a1e0d35cd8fbdfe7dba5456acb9aba3.webp"
+    },
+    {
+      "story_id": "dubai-p1-quarterfinals-2026-11-13",
+      "identity": "dubai-p1-quarterfinals-2026-11-13",
+      "edition_id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "slot": "evening",
+      "published_at": "2026-11-13T05:35:52.148289+00:00",
+      "available_at": "2026-11-13T17:39:15.518151+00:00",
+      "headline": "Πάντελ: οκτώ προημιτελικοί στο Dubai P1",
+      "finding": "Το πρόγραμμα της Παρασκευής περιλαμβάνει τέσσερις προημιτελικούς ανδρών και τέσσερις γυναικών σε δύο γήπεδα, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-13-evening/dubai-p1-quarterfinals-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-evening/dubai-p1-quarterfinals-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/horarios-partidos-donde-ver-cuartos-dubai-p1-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-12T23:37:12+00:00",
+          "retrieved_at": "2026-11-13T04:21:03.760269+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0af0a0c278111c75fa1fac5f1676745a5877e91bd6cce5c5d580d1c0a365fef2.webp"
     },
     {
       "story_id": "stellantis-brampton-notice-2026-11-13",

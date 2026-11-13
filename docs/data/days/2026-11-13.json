@@ -16,13 +16,38 @@
       "type": "midday",
       "url": "midday/2026-11-13.html",
       "published_at": "2026-11-13T11:28:30.033081+00:00"
+    },
+    {
+      "id": "2026-11-13-evening",
+      "type": "evening",
+      "url": "evening/2026-11-13.html",
+      "published_at": "2026-11-13T17:39:15.518151+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "stellantis-brampton-notice-2026-11-13",
+  "missing_slots": [],
+  "lead_story_id": "microsoft-365-outage-2026-11-12",
   "stories": [
+    {
+      "story_id": "microsoft-365-outage-2026-11-12",
+      "first_seen_at": "2026-11-13T17:39:15.518151+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-evening",
+          "article_id": "microsoft-365-outage-2026-11-12",
+          "source_story_id": "microsoft-365-outage-2026-11-12",
+          "url": "articles/2026-11-13-evening/microsoft-365-outage-2026-11-12.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "microsoft-365-outage-2026-11-12",
+        "source_story_id": "microsoft-365-outage-2026-11-12",
+        "url": "articles/2026-11-13-evening/microsoft-365-outage-2026-11-12.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "nvidia-board-security-review-2026-11-08",
       "first_seen_at": "2026-11-13T05:35:52.148289+00:00",
@@ -60,16 +85,43 @@
           "article_id": "stellantis-brampton-notice-2026-11-13",
           "source_story_id": "stellantis-brampton-notice-2026-11-13",
           "url": "articles/2026-11-13-midday/stellantis-brampton-notice-2026-11-13.html"
+        },
+        {
+          "edition_id": "2026-11-13-evening",
+          "article_id": "stellantis-brampton-notice-2026-11-13",
+          "source_story_id": "stellantis-brampton-notice-2026-11-13",
+          "url": "articles/2026-11-13-evening/stellantis-brampton-notice-2026-11-13.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-13-midday",
+        "edition_id": "2026-11-13-evening",
         "article_id": "stellantis-brampton-notice-2026-11-13",
         "source_story_id": "stellantis-brampton-notice-2026-11-13",
-        "url": "articles/2026-11-13-midday/stellantis-brampton-notice-2026-11-13.html"
+        "url": "articles/2026-11-13-evening/stellantis-brampton-notice-2026-11-13.html"
       },
       "section": "world",
       "priority": 1
+    },
+    {
+      "story_id": "binance-crypto-seizure-2026-11-13",
+      "first_seen_at": "2026-11-13T17:39:15.518151+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-evening",
+          "article_id": "binance-crypto-seizure-2026-11-13",
+          "source_story_id": "binance-crypto-seizure-2026-11-13",
+          "url": "articles/2026-11-13-evening/binance-crypto-seizure-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "binance-crypto-seizure-2026-11-13",
+        "source_story_id": "binance-crypto-seizure-2026-11-13",
+        "url": "articles/2026-11-13-evening/binance-crypto-seizure-2026-11-13.html"
+      },
+      "section": "world",
+      "priority": 2
     },
     {
       "story_id": "spain-court-suspends-far-right-group-2026-11-13",
@@ -108,16 +160,43 @@
           "article_id": "uk-eu-food-scrutiny-2026-11-13",
           "source_story_id": "uk-eu-food-scrutiny-2026-11-13",
           "url": "articles/2026-11-13-midday/uk-eu-food-scrutiny-2026-11-13.html"
+        },
+        {
+          "edition_id": "2026-11-13-evening",
+          "article_id": "uk-eu-food-scrutiny-2026-11-13",
+          "source_story_id": "uk-eu-food-scrutiny-2026-11-13",
+          "url": "articles/2026-11-13-evening/uk-eu-food-scrutiny-2026-11-13.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-13-midday",
+        "edition_id": "2026-11-13-evening",
         "article_id": "uk-eu-food-scrutiny-2026-11-13",
         "source_story_id": "uk-eu-food-scrutiny-2026-11-13",
-        "url": "articles/2026-11-13-midday/uk-eu-food-scrutiny-2026-11-13.html"
+        "url": "articles/2026-11-13-evening/uk-eu-food-scrutiny-2026-11-13.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "sudan-unhcr-funding-2026-11-13",
+      "first_seen_at": "2026-11-13T17:39:15.518151+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-evening",
+          "article_id": "sudan-unhcr-funding-2026-11-13",
+          "source_story_id": "sudan-unhcr-funding-2026-11-13",
+          "url": "articles/2026-11-13-evening/sudan-unhcr-funding-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "sudan-unhcr-funding-2026-11-13",
+        "source_story_id": "sudan-unhcr-funding-2026-11-13",
+        "url": "articles/2026-11-13-evening/sudan-unhcr-funding-2026-11-13.html"
+      },
+      "section": "world",
+      "priority": 3
     },
     {
       "story_id": "sydney-baird-davies-trial-testimony-2026-11-13",
@@ -189,6 +268,27 @@
       "priority": 4
     },
     {
+      "story_id": "cyprus-defence-budget-2027-2026-11-13",
+      "first_seen_at": "2026-11-13T17:39:15.518151+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-evening",
+          "article_id": "cyprus-defence-budget-2027-2026-11-13",
+          "source_story_id": "cyprus-defence-budget-2027-2026-11-13",
+          "url": "articles/2026-11-13-evening/cyprus-defence-budget-2027-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "cyprus-defence-budget-2027-2026-11-13",
+        "source_story_id": "cyprus-defence-budget-2027-2026-11-13",
+        "url": "articles/2026-11-13-evening/cyprus-defence-budget-2027-2026-11-13.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
       "story_id": "nicosia-venue-permits-2026-11-13",
       "first_seen_at": "2026-11-13T11:28:30.033081+00:00",
       "last_substantive_at": null,
@@ -198,16 +298,43 @@
           "article_id": "nicosia-venue-permits-2026-11-13",
           "source_story_id": "nicosia-venue-permits-2026-11-13",
           "url": "articles/2026-11-13-midday/nicosia-venue-permits-2026-11-13.html"
+        },
+        {
+          "edition_id": "2026-11-13-evening",
+          "article_id": "nicosia-venue-permits-2026-11-13",
+          "source_story_id": "nicosia-venue-permits-2026-11-13",
+          "url": "articles/2026-11-13-evening/nicosia-venue-permits-2026-11-13.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-13-midday",
+        "edition_id": "2026-11-13-evening",
         "article_id": "nicosia-venue-permits-2026-11-13",
         "source_story_id": "nicosia-venue-permits-2026-11-13",
-        "url": "articles/2026-11-13-midday/nicosia-venue-permits-2026-11-13.html"
+        "url": "articles/2026-11-13-evening/nicosia-venue-permits-2026-11-13.html"
       },
       "section": "cyprus",
       "priority": 4
+    },
+    {
+      "story_id": "cyprus-ai-election-interference-2026-11-13",
+      "first_seen_at": "2026-11-13T17:39:15.518151+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-evening",
+          "article_id": "cyprus-ai-election-interference-2026-11-13",
+          "source_story_id": "cyprus-ai-election-interference-2026-11-13",
+          "url": "articles/2026-11-13-evening/cyprus-ai-election-interference-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "cyprus-ai-election-interference-2026-11-13",
+        "source_story_id": "cyprus-ai-election-interference-2026-11-13",
+        "url": "articles/2026-11-13-evening/cyprus-ai-election-interference-2026-11-13.html"
+      },
+      "section": "cyprus",
+      "priority": 5
     },
     {
       "story_id": "cyprus-central-prisons-documents-trial-2026-11-12",
@@ -246,13 +373,19 @@
           "article_id": "cyprus-pensions-63-2026-11-13",
           "source_story_id": "cyprus-pensions-63-2026-11-13",
           "url": "articles/2026-11-13-midday/cyprus-pensions-63-2026-11-13.html"
+        },
+        {
+          "edition_id": "2026-11-13-evening",
+          "article_id": "cyprus-pensions-63-2026-11-13",
+          "source_story_id": "cyprus-pensions-63-2026-11-13",
+          "url": "articles/2026-11-13-evening/cyprus-pensions-63-2026-11-13.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-13-midday",
+        "edition_id": "2026-11-13-evening",
         "article_id": "cyprus-pensions-63-2026-11-13",
         "source_story_id": "cyprus-pensions-63-2026-11-13",
-        "url": "articles/2026-11-13-midday/cyprus-pensions-63-2026-11-13.html"
+        "url": "articles/2026-11-13-evening/cyprus-pensions-63-2026-11-13.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -274,6 +407,27 @@
         "article_id": "cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13",
         "source_story_id": "cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13",
         "url": "articles/2026-11-13-morning/cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "cyprus-stylianos-testimony-2026-11-13",
+      "first_seen_at": "2026-11-13T17:39:15.518151+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-evening",
+          "article_id": "cyprus-stylianos-testimony-2026-11-13",
+          "source_story_id": "cyprus-stylianos-testimony-2026-11-13",
+          "url": "articles/2026-11-13-evening/cyprus-stylianos-testimony-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "cyprus-stylianos-testimony-2026-11-13",
+        "source_story_id": "cyprus-stylianos-testimony-2026-11-13",
+        "url": "articles/2026-11-13-evening/cyprus-stylianos-testimony-2026-11-13.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -342,6 +496,27 @@
       "priority": 7
     },
     {
+      "story_id": "portugal-denmark-nations-league-2026-11-14",
+      "first_seen_at": "2026-11-13T17:39:15.518151+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-evening",
+          "article_id": "portugal-denmark-nations-league-2026-11-14",
+          "source_story_id": "portugal-denmark-nations-league-2026-11-14",
+          "url": "articles/2026-11-13-evening/portugal-denmark-nations-league-2026-11-14.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "portugal-denmark-nations-league-2026-11-14",
+        "source_story_id": "portugal-denmark-nations-league-2026-11-14",
+        "url": "articles/2026-11-13-evening/portugal-denmark-nations-league-2026-11-14.html"
+      },
+      "section": "sports",
+      "priority": 7
+    },
+    {
       "story_id": "dubai-p1-quarterfinals-2026-11-13",
       "first_seen_at": "2026-11-13T05:35:52.148289+00:00",
       "last_substantive_at": null,
@@ -357,13 +532,19 @@
           "article_id": "dubai-p1-quarterfinals-2026-11-13",
           "source_story_id": "dubai-p1-quarterfinals-2026-11-13",
           "url": "articles/2026-11-13-midday/dubai-p1-quarterfinals-2026-11-13.html"
+        },
+        {
+          "edition_id": "2026-11-13-evening",
+          "article_id": "dubai-p1-quarterfinals-2026-11-13",
+          "source_story_id": "dubai-p1-quarterfinals-2026-11-13",
+          "url": "articles/2026-11-13-evening/dubai-p1-quarterfinals-2026-11-13.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-13-midday",
+        "edition_id": "2026-11-13-evening",
         "article_id": "dubai-p1-quarterfinals-2026-11-13",
         "source_story_id": "dubai-p1-quarterfinals-2026-11-13",
-        "url": "articles/2026-11-13-midday/dubai-p1-quarterfinals-2026-11-13.html"
+        "url": "articles/2026-11-13-evening/dubai-p1-quarterfinals-2026-11-13.html"
       },
       "section": "sports",
       "priority": 8
@@ -378,13 +559,19 @@
           "article_id": "warburton-adames-2026-11-13",
           "source_story_id": "warburton-adames-2026-11-13",
           "url": "articles/2026-11-13-midday/warburton-adames-2026-11-13.html"
+        },
+        {
+          "edition_id": "2026-11-13-evening",
+          "article_id": "warburton-adames-2026-11-13",
+          "source_story_id": "warburton-adames-2026-11-13",
+          "url": "articles/2026-11-13-evening/warburton-adames-2026-11-13.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-13-midday",
+        "edition_id": "2026-11-13-evening",
         "article_id": "warburton-adames-2026-11-13",
         "source_story_id": "warburton-adames-2026-11-13",
-        "url": "articles/2026-11-13-midday/warburton-adames-2026-11-13.html"
+        "url": "articles/2026-11-13-evening/warburton-adames-2026-11-13.html"
       },
       "section": "sports",
       "priority": 8
@@ -754,6 +941,188 @@
         "source_story_id": "nicosia-venue-permits-2026-11-13",
         "url": "articles/2026-11-13-midday/nicosia-venue-permits-2026-11-13.html"
       }
+    },
+    {
+      "id": "0f24046701fefe37fd21d2ae1acee11e702270ac1d5303f3aa334df56ef06a0a",
+      "kind": "provenance",
+      "at": "2026-11-13T17:39:15.518151+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "binance-crypto-seizure-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "binance-crypto-seizure-2026-11-13",
+        "source_story_id": "binance-crypto-seizure-2026-11-13",
+        "url": "articles/2026-11-13-evening/binance-crypto-seizure-2026-11-13.html"
+      }
+    },
+    {
+      "id": "24287bd9561d0b61139755c108f7abefcf07f32e6943bb46a396cd91eb66855a",
+      "kind": "provenance",
+      "at": "2026-11-13T17:39:15.518151+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "dubai-p1-quarterfinals-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "dubai-p1-quarterfinals-2026-11-13",
+        "source_story_id": "dubai-p1-quarterfinals-2026-11-13",
+        "url": "articles/2026-11-13-evening/dubai-p1-quarterfinals-2026-11-13.html"
+      }
+    },
+    {
+      "id": "25dfad968b9b570d0ee7e48c1ec36149d51d1e7755532c8c0284e652476b994d",
+      "kind": "provenance",
+      "at": "2026-11-13T17:39:15.518151+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "sudan-unhcr-funding-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "sudan-unhcr-funding-2026-11-13",
+        "source_story_id": "sudan-unhcr-funding-2026-11-13",
+        "url": "articles/2026-11-13-evening/sudan-unhcr-funding-2026-11-13.html"
+      }
+    },
+    {
+      "id": "44d43fb9fd9bc61a49b7d3858a16369a388b0e3823f212bc587965ad2929570b",
+      "kind": "provenance",
+      "at": "2026-11-13T17:39:15.518151+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "microsoft-365-outage-2026-11-12",
+      "origin": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "microsoft-365-outage-2026-11-12",
+        "source_story_id": "microsoft-365-outage-2026-11-12",
+        "url": "articles/2026-11-13-evening/microsoft-365-outage-2026-11-12.html"
+      }
+    },
+    {
+      "id": "576b7442f3a2d82713d183ee2b09995e666022a1ec5d113f0af18b1095449e0b",
+      "kind": "provenance",
+      "at": "2026-11-13T17:39:15.518151+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-stylianos-testimony-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "cyprus-stylianos-testimony-2026-11-13",
+        "source_story_id": "cyprus-stylianos-testimony-2026-11-13",
+        "url": "articles/2026-11-13-evening/cyprus-stylianos-testimony-2026-11-13.html"
+      }
+    },
+    {
+      "id": "5b7f9761f6998ef8db286a7bae089e6247aa0e03f50adcf49291a75aede3f1be",
+      "kind": "provenance",
+      "at": "2026-11-13T17:39:15.518151+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-defence-budget-2027-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "cyprus-defence-budget-2027-2026-11-13",
+        "source_story_id": "cyprus-defence-budget-2027-2026-11-13",
+        "url": "articles/2026-11-13-evening/cyprus-defence-budget-2027-2026-11-13.html"
+      }
+    },
+    {
+      "id": "5bed69677e96a8029875390a99295438130a5ca0ab3b2c37ecce776d776c2c69",
+      "kind": "provenance",
+      "at": "2026-11-13T17:39:15.518151+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-ai-election-interference-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "cyprus-ai-election-interference-2026-11-13",
+        "source_story_id": "cyprus-ai-election-interference-2026-11-13",
+        "url": "articles/2026-11-13-evening/cyprus-ai-election-interference-2026-11-13.html"
+      }
+    },
+    {
+      "id": "6e9bed7812900843ca07c38f4eb0d88559b230e0529709e9c372cb88ce597eac",
+      "kind": "provenance",
+      "at": "2026-11-13T17:39:15.518151+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "nicosia-venue-permits-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "nicosia-venue-permits-2026-11-13",
+        "source_story_id": "nicosia-venue-permits-2026-11-13",
+        "url": "articles/2026-11-13-evening/nicosia-venue-permits-2026-11-13.html"
+      }
+    },
+    {
+      "id": "79a0be3cdd2a4af0d966781c99bd09c5571b804a2ffbca6bc5bb12438e0cdb74",
+      "kind": "provenance",
+      "at": "2026-11-13T17:39:15.518151+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-pensions-63-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "cyprus-pensions-63-2026-11-13",
+        "source_story_id": "cyprus-pensions-63-2026-11-13",
+        "url": "articles/2026-11-13-evening/cyprus-pensions-63-2026-11-13.html"
+      }
+    },
+    {
+      "id": "a3a76a5319c16f4b669332ac0d96a42b15ab65bd0f8a320b0e44ffe387139dbf",
+      "kind": "provenance",
+      "at": "2026-11-13T17:39:15.518151+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "stellantis-brampton-notice-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "stellantis-brampton-notice-2026-11-13",
+        "source_story_id": "stellantis-brampton-notice-2026-11-13",
+        "url": "articles/2026-11-13-evening/stellantis-brampton-notice-2026-11-13.html"
+      }
+    },
+    {
+      "id": "ac8a4e30538007e1fa361fe300647080aff3786dadded182ccf36cf7c8677238",
+      "kind": "provenance",
+      "at": "2026-11-13T17:39:15.518151+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "warburton-adames-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "warburton-adames-2026-11-13",
+        "source_story_id": "warburton-adames-2026-11-13",
+        "url": "articles/2026-11-13-evening/warburton-adames-2026-11-13.html"
+      }
+    },
+    {
+      "id": "b00e3397f3a6e8160ebc026621cee708fe7740162c4c68e5bdefe721bb8d879e",
+      "kind": "provenance",
+      "at": "2026-11-13T17:39:15.518151+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "portugal-denmark-nations-league-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "portugal-denmark-nations-league-2026-11-14",
+        "source_story_id": "portugal-denmark-nations-league-2026-11-14",
+        "url": "articles/2026-11-13-evening/portugal-denmark-nations-league-2026-11-14.html"
+      }
+    },
+    {
+      "id": "e04c63302fd36cae7e66cc69d5143249374a19df819d57047449f953828a9bb4",
+      "kind": "provenance",
+      "at": "2026-11-13T17:39:15.518151+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-eu-food-scrutiny-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-evening",
+        "article_id": "uk-eu-food-scrutiny-2026-11-13",
+        "source_story_id": "uk-eu-food-scrutiny-2026-11-13",
+        "url": "articles/2026-11-13-evening/uk-eu-food-scrutiny-2026-11-13.html"
+      }
     }
   ],
   "opportunities": [
@@ -962,16 +1331,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Ο Καναδάς έδωσε στη Stellantis 30 ημέρες να απαντήσει για τις δεσμεύσεις της, ενώ στην Κύπρο η Ελεγκτική Υπηρεσία διαπίστωσε ότι βασικοί όροι άδειας στη Λευκωσία παραμένουν ανεκπλήρωτοι. Στον Καναδά, κρίσιμο είναι αν η εταιρεία θα παρουσιάσει σχέδιο για το εργοστάσιο ή επιστροφή ενισχύσεων που θα δεχθεί η κυβέρνηση. Στη Λευκωσία, το επόμενο τεστ είναι αν οι αρχές θα ορίσουν προθεσμία συμμόρφωσης και αν θα την εφαρμόσουν.",
+        "text": "Η διακοπή του Microsoft 365 μεταφέρθηκε από την επικοινωνία στο ημερολόγιο των επιχειρήσεων: η Workhorse ανέβαλε την ανακοίνωση αποτελεσμάτων. Για οργανισμούς που συγκεντρώνουν πολλές λειτουργίες στον ίδιο πάροχο, το κριτήριο είναι πότε κάθε υπηρεσία λειτουργεί ξανά και αν υπήρχε διαθέσιμο εφεδρικό κανάλι. Στη χωριστή υπόθεση της Binance, η δικαστικά εγκεκριμένη κατάσχεση αφορούσε μέρος των περιουσιακών στοιχείων που, κατά το αμερικανικό Υπουργείο Δικαιοσύνης, έχουν δεσμευτεί. Για όσους υπέστησαν ζημία, το επόμενο ουσιαστικό στοιχείο είναι αν και με ποια διαδικασία τα δεσμευμένα ποσά θα μπορούσαν να επιστραφούν.",
         "story_ids": [
-          "stellantis-brampton-notice-2026-11-13",
-          "nicosia-venue-permits-2026-11-13"
+          "microsoft-365-outage-2026-11-12",
+          "binance-crypto-seizure-2026-11-13"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-13T05:37:53.302159+00:00",
-  "updated_at": "2026-11-13T11:30:00.861118+00:00",
-  "input_sha256": "2c63596afdb78549a1738ee1371086ca06096715169ff0c3f36230482c23fe45"
+  "updated_at": "2026-11-13T17:41:02.660748+00:00",
+  "input_sha256": "50dad66f60c5ec38282ceec52d42bf7a45ee7c85e0b8d6955177ae477fa0ebfc"
 }
