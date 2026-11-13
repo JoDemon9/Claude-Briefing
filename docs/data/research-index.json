@@ -649,6 +649,14 @@
       "published_at": "2026-11-11T05:29:02.219750+00:00",
       "url": "morning/2026-11-11.html",
       "fingerprint": "5335539dd4bbd5fc986a399ec942b6de7ccd7eba53697b552eb9b38b86fc8311"
+    },
+    {
+      "id": "2026-11-13-morning",
+      "date": "2026-11-13",
+      "type": "morning",
+      "published_at": "2026-11-13T05:35:52.148289+00:00",
+      "url": "morning/2026-11-13.html",
+      "fingerprint": "d276991c81de9253b2a99db9ae21e7803b1b71fdfd38d7318efff6a791271871"
     }
   ],
   "stories": [
@@ -24304,6 +24312,292 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/c7d9a7e311e1ebe4418104ace5722d03513528702d06f89e0b57a4046637ad1a.webp"
+    },
+    {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "identity": "nvidia-board-security-review-2026-11-08",
+      "edition_id": "2026-11-13-morning",
+      "date": "2026-11-13",
+      "slot": "morning",
+      "published_at": "2026-11-09T05:38:40.545646+00:00",
+      "available_at": "2026-11-13T05:35:52.148289+00:00",
+      "headline": "Το Κογκρέσο ζητά εξηγήσεις από τον Τζένσεν Χουάνγκ μετά την παραίτηση",
+      "finding": "Ο Τζένσεν Χουάνγκ παραιτήθηκε από τη θέση του διευθύνοντος συμβούλου της Nvidia, σύμφωνα με τον Guardian, ενώ το BBC αναφέρει ότι επιτροπές της Βουλής ζήτησαν κλειστή συνέντευξη την 1η Δεκεμβρίου και ότι υπάρχει χωριστή πρόσκληση για εθελοντική κατάθεση στις 3 Δεκεμβρίου. Η Nvidia έχει αναθέσει έρευνα στον Τζουν Κιμ και στη Wachtell Lipton, σύμφωνα με το CNBC. Η εταιρεία δηλώνει ότι δεν έχει λόγο να πιστεύει πως εκτέθηκαν μυστικά της.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-13-morning/nvidia-board-security-review.json",
+      "reader_url": "articles/2026-11-13-morning/nvidia-board-security-review.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-12T19:58:11+00:00",
+          "retrieved_at": "2026-11-13T04:21:01.918352+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.theguardian.com/technology/live/2026/nov/13/nvidia-jensen-huang-to-testify-before-congress-live-latest-updates",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-13T04:15:57+00:00",
+          "retrieved_at": "2026-11-13T04:21:02.638048+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-13T03:57:01+00:00",
+          "retrieved_at": "2026-11-13T04:21:01.784523+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ce572750d6dff0c82d1a9fcb226422b37710d2358db4a876da06a3fc68eb1b1b.webp"
+    },
+    {
+      "story_id": "spain-court-suspends-far-right-group-2026-11-13",
+      "identity": "spain-court-suspends-far-right-group-2026-11-13",
+      "edition_id": "2026-11-13-morning",
+      "date": "2026-11-13",
+      "slot": "morning",
+      "published_at": "2026-11-13T05:35:52.148289+00:00",
+      "available_at": "2026-11-13T05:35:52.148289+00:00",
+      "headline": "Ισπανία: δικαστική αναστολή δράσης ακροδεξιάς ομάδας",
+      "finding": "Ισπανός δικαστής διέταξε αναστολή της δράσης ακροδεξιάς ομάδας, κλείσιμο των γραφείων της και δέσμευση λογαριασμών, σύμφωνα με το Al Jazeera στις 13 Νοεμβρίου. Είχαν προηγηθεί 14 συλλήψεις μελών την περασμένη εβδομάδα για φερόμενη υποκίνηση μίσους. Η αστυνομία ανέφερε επίσης κατασχέσεις πυροβόλων όπλων στις έρευνές της. Τα μέτρα δεν συνιστούν καταδίκη.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-13-morning/spain-court-suspends-far-right-group-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-morning/spain-court-suspends-far-right-group-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/13/spanish-court-suspends-far-right-group-over-alleged-hate-crimes?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-13T02:52:25+00:00",
+          "retrieved_at": "2026-11-13T04:21:01.793163+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/1442026b05852066ab251f0ef512227e6c4821026730d6fc1e2f450f1f90be81.webp"
+    },
+    {
+      "story_id": "sydney-baird-davies-trial-testimony-2026-11-13",
+      "identity": "sydney-baird-davies-trial-testimony-2026-11-13",
+      "edition_id": "2026-11-13-morning",
+      "date": "2026-11-13",
+      "slot": "morning",
+      "published_at": "2026-11-13T05:35:52.148289+00:00",
+      "available_at": "2026-11-13T05:35:52.148289+00:00",
+      "headline": "Σίδνεϊ: ο πρώην αστυνομικός αρνήθηκε ότι σχεδίασε τη διπλή δολοφονία",
+      "finding": "Ο πρώην αστυνομικός Μπο Λαμάρ Κόντον δήλωσε σε δικαστήριο του Σίδνεϊ ότι δεν είχε σχεδιάσει να σκοτώσει κανέναν, μετέδωσε ο Guardian στις 13 Νοεμβρίου. Κατηγορείται για τους θανάτους του Τζέσι Μπερντ και του Λουκ Ντέιβις στο Πάντινγκτον τον Φεβρουάριο του 2024. Η κατηγορούσα αρχή έθεσε επανειλημμένα το ζήτημα του προσχεδιασμού κατά την εξέτασή του.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-13-morning/sydney-baird-davies-trial-testimony-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-morning/sydney-baird-davies-trial-testimony-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/australia-news/2026/nov/13/beau-lamarre-condon-trial-sim-card-pseudonym-ntwnfb",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-13T03:45:19+00:00",
+          "retrieved_at": "2026-11-13T04:21:02.498915+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/bca16c9f56c851743629e4c6348522a6dc729b30601a188756d5091ac07ffdc5.webp"
+    },
+    {
+      "story_id": "cyprus-canada-leaders-meeting-2026-11-12",
+      "identity": "cyprus-canada-leaders-meeting-2026-11-12",
+      "edition_id": "2026-11-13-morning",
+      "date": "2026-11-13",
+      "slot": "morning",
+      "published_at": "2026-11-13T05:35:52.148289+00:00",
+      "available_at": "2026-11-13T05:35:52.148289+00:00",
+      "headline": "Κύπρος και Καναδάς: πρώτη συνάντηση ηγετών εδώ και οκτώ χρόνια",
+      "finding": "Ο Πρόεδρος της Δημοκρατίας συναντήθηκε με τον πρωθυπουργό του Καναδά για τις διμερείς σχέσεις και το Κυπριακό. Σύμφωνα με τον κυβερνητικό εκπρόσωπο, τον οποίο επικαλείται το SigmaLive, η συνάντηση έγινε με καναδική πρωτοβουλία και ήταν η πρώτη σε επίπεδο ηγετών εδώ και οκτώ χρόνια. Ο Νίκος Χριστοδουλίδης ενημέρωσε για τις προσπάθειες επανέναρξης των διαπραγματεύσεων από το σημείο όπου διακόπηκαν το 2017.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-13-morning/cyprus-canada-leaders-meeting-2026-11-12.json",
+      "reader_url": "articles/2026-11-13-morning/cyprus-canada-leaders-meeting-2026-11-12.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1337384/ependyseis-energheia-kipriako-sti-sinantisi-ptd-me-kanado-prothipoyrgho",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-12T20:28:43+00:00",
+          "retrieved_at": "2026-11-13T04:21:02.364398+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/181202bbe30082ced37f56d46540c3bf551d81d25d64e9e2c912b9ecbaa2cca6.webp"
+    },
+    {
+      "story_id": "cyprus-central-prisons-documents-trial-2026-11-12",
+      "identity": "cyprus-central-prisons-documents-trial-2026-11-12",
+      "edition_id": "2026-11-13-morning",
+      "date": "2026-11-13",
+      "slot": "morning",
+      "published_at": "2026-11-13T05:35:52.148289+00:00",
+      "available_at": "2026-11-13T05:35:52.148289+00:00",
+      "headline": "Κεντρικές Φυλακές: νέα κατάθεση στη δίκη για τα έγγραφα",
+      "finding": "Δεσμοφύλακας κατέθεσε στις 12 Νοεμβρίου στο ποινικό δικαστήριο της Λευκωσίας ότι το 2022 είδε τον αρχιδεσμοφύλακα να βγαίνει από τις Κεντρικές Φυλακές με σακούλες που έφεραν την ένδειξη του Τμήματος Φυλακών, σύμφωνα με το Cyprus Mail. Η δίκη αφορά φερόμενη αφαίρεση χιλιάδων εγγράφων. Η κατάθεση αποτελεί μαρτυρία της κατηγορούσας αρχής και η διαδικασία συνεχίζεται.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-13-morning/cyprus-central-prisons-documents-trial-2026-11-12.json",
+      "reader_url": "articles/2026-11-13-morning/cyprus-central-prisons-documents-trial-2026-11-12.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/12/chief-warden-seen-removing-bags-of-papers-from-prisons-court-hears",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-12T17:15:16+00:00",
+          "retrieved_at": "2026-11-13T04:21:02.411933+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/d3f6b5662adba0d4e3306b67eb4ecfafbd22ed454df3696b661b699799554259.webp"
+    },
+    {
+      "story_id": "cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13",
+      "identity": "cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13",
+      "edition_id": "2026-11-13-morning",
+      "date": "2026-11-13",
+      "slot": "morning",
+      "published_at": "2026-11-13T05:35:52.148289+00:00",
+      "available_at": "2026-11-13T05:35:52.148289+00:00",
+      "headline": "Ο Μαυρογιάννης κρατά ανοιχτό το ενδεχόμενο υποψηφιότητας",
+      "finding": "Ο Ανδρέας Μαυρογιάννης είπε ότι θα απευθυνθεί σε πολιτικές δυνάμεις που θα μπορούσαν να τον στηρίξουν, εφόσον τελικά αποφασίσει να είναι υποψήφιος στις προεδρικές εκλογές, σύμφωνα με τον Φιλελεύθερο στις 13 Νοεμβρίου. Διέκρινε δύο στάδια: τη δική του απόφαση και το αν θα τον στηρίξει το ΑΚΕΛ. Οι δηλώσεις δεν συνιστούν ανακοίνωση υποψηφιότητας ή κομματικής στήριξης.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-13-morning/cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-morning/cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1794876/o-andreas-stelni-minima-sto-akel-i-piesi-mavrogianni-stin-ezekias-papaioannou-gia-tis-proedrikes-ekloges",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-13T04:03:00+00:00",
+          "retrieved_at": "2026-11-13T04:21:02.387269+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ff95453da52d433bb339ee52ca12e9f7ce619fded93e588f11a719f2892a2f65.webp"
+    },
+    {
+      "story_id": "limassol-antiquities-acquittal-return-order-2026-11-13",
+      "identity": "limassol-antiquities-acquittal-return-order-2026-11-13",
+      "edition_id": "2026-11-13-morning",
+      "date": "2026-11-13",
+      "slot": "morning",
+      "published_at": "2026-11-13T05:35:52.148289+00:00",
+      "available_at": "2026-11-13T05:35:52.148289+00:00",
+      "headline": "Λεμεσός: αθώωση για κατοχή αρχαιοτήτων, με διαταγή παράδοσης των αντικειμένων",
+      "finding": "Δικαστήριο αθώωσε γυναίκα από τη Λεμεσό από την κατηγορία της κατοχής αρχαιοτήτων χωρίς την απαιτούμενη ενημέρωση, αλλά διέταξε την παράδοση των αντικειμένων στο Τμήμα Αρχαιοτήτων, σύμφωνα με τον Φιλελεύθερο. Η υπόθεση άρχισε το 2020, όταν παραδόθηκαν στην Αστυνομία 20 αρχαιότητες. Το δικαστήριο αναγνώρισε ότι το 1996 είχε σταλεί επιστολή με αίτημα τακτοποίησης.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-13-morning/limassol-antiquities-acquittal-return-order-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-morning/limassol-antiquities-acquittal-return-order-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1794920/gios-katingile-stin-astinomia-oti-i-gonis-tou-katichan-adilota-archea-ti-apofasise-to-dikastirio",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-13T04:14:00+00:00",
+          "retrieved_at": "2026-11-13T04:21:02.265821+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/247df73de26801bf9dafe564867edac69ac1a4e286e3e174d4cff512def2f104.webp"
+    },
+    {
+      "story_id": "dubai-p1-quarterfinals-2026-11-13",
+      "identity": "dubai-p1-quarterfinals-2026-11-13",
+      "edition_id": "2026-11-13-morning",
+      "date": "2026-11-13",
+      "slot": "morning",
+      "published_at": "2026-11-13T05:35:52.148289+00:00",
+      "available_at": "2026-11-13T05:35:52.148289+00:00",
+      "headline": "Πάντελ: οκτώ προημιτελικοί στο Dubai P1",
+      "finding": "Το πρόγραμμα της Παρασκευής περιλαμβάνει τέσσερις προημιτελικούς ανδρών και τέσσερις γυναικών σε δύο γήπεδα, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-13-morning/dubai-p1-quarterfinals-2026-11-13.json",
+      "reader_url": "articles/2026-11-13-morning/dubai-p1-quarterfinals-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/horarios-partidos-donde-ver-cuartos-dubai-p1-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-12T23:37:12+00:00",
+          "retrieved_at": "2026-11-13T04:21:03.760269+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0af0a0c278111c75fa1fac5f1676745a5877e91bd6cce5c5d580d1c0a365fef2.webp"
+    },
+    {
+      "story_id": "wales-norway-oslo-third-place-2026-11-12",
+      "identity": "wales-norway-oslo-third-place-2026-11-12",
+      "edition_id": "2026-11-13-morning",
+      "date": "2026-11-13",
+      "slot": "morning",
+      "published_at": "2026-11-13T05:35:52.148289+00:00",
+      "available_at": "2026-11-13T05:35:52.148289+00:00",
+      "headline": "Η Ουαλία διεκδικεί καλύτερη κατάταξη πριν από τα προκριματικά του Euro",
+      "finding": "Η Ουαλία αντιμετωπίζει το Σάββατο τη Νορβηγία στο Όσλο. Ο Νταν Τζέιμς είχε σκοράρει στη νίκη της με 2–1 τον Οκτώβριο, υπενθυμίζει το BBC.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-13-morning/wales-norway-oslo-third-place-2026-11-12.json",
+      "reader_url": "articles/2026-11-13-morning/wales-norway-oslo-third-place-2026-11-12.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/c623jl1kenvyo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-12T04:32:42+00:00",
+          "retrieved_at": "2026-11-13T04:21:02.097072+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/4d95ccec661c1574a7eb9e936a02374b58c5c6df92ff4d061b6200aedfd7ea09.webp"
+    },
+    {
+      "story_id": "norway-finland-athlete-entry-2026-11-12",
+      "identity": "norway-finland-athlete-entry-2026-11-12",
+      "edition_id": "2026-11-13-morning",
+      "date": "2026-11-13",
+      "slot": "morning",
+      "published_at": "2026-11-13T05:35:52.148289+00:00",
+      "available_at": "2026-11-13T05:35:52.148289+00:00",
+      "headline": "Η Νορβηγία περιορίζει την είσοδο Ρώσων και Λευκορώσων επαγγελματιών αθλητών",
+      "finding": "Η νορβηγική κυβέρνηση ανακοίνωσε ότι θα εμποδίσει την είσοδο Ρώσων και Λευκορώσων επαγγελματιών αθλητών για αγώνες. Είχε προηγηθεί φινλανδική ανακοίνωση για τις βίζες Ρώσων αθλητών, σύμφωνα με τον Guardian.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-11-13-morning/norway-finland-athlete-entry-2026-11-12.json",
+      "reader_url": "articles/2026-11-13-morning/norway-finland-athlete-entry-2026-11-12.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/sport/2026/nov/12/finland-bars-russian-athletes-ukraine",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-12T21:00:12+00:00",
+          "retrieved_at": "2026-11-13T04:21:02.476172+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/9032433aa95d7fc13b4ccdf19a1fd2111ad853605d959da00af3c556e9c16274.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."

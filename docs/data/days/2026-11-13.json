@@ -1,0 +1,592 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-11-13.html",
+  "editions": [
+    {
+      "id": "2026-11-13-morning",
+      "type": "morning",
+      "url": "morning/2026-11-13.html",
+      "published_at": "2026-11-13T05:35:52.148289+00:00"
+    }
+  ],
+  "missing_slots": [
+    "midday",
+    "evening"
+  ],
+  "lead_story_id": "nvidia-board-security-review-2026-11-08",
+  "stories": [
+    {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "first_seen_at": "2026-11-13T05:35:52.148289+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-morning",
+          "article_id": "nvidia-board-security-review",
+          "source_story_id": "nvidia-board-security-review-2026-11-08",
+          "url": "articles/2026-11-13-morning/nvidia-board-security-review.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "nvidia-board-security-review",
+        "source_story_id": "nvidia-board-security-review-2026-11-08",
+        "url": "articles/2026-11-13-morning/nvidia-board-security-review.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "spain-court-suspends-far-right-group-2026-11-13",
+      "first_seen_at": "2026-11-13T05:35:52.148289+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-morning",
+          "article_id": "spain-court-suspends-far-right-group-2026-11-13",
+          "source_story_id": "spain-court-suspends-far-right-group-2026-11-13",
+          "url": "articles/2026-11-13-morning/spain-court-suspends-far-right-group-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "spain-court-suspends-far-right-group-2026-11-13",
+        "source_story_id": "spain-court-suspends-far-right-group-2026-11-13",
+        "url": "articles/2026-11-13-morning/spain-court-suspends-far-right-group-2026-11-13.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "sydney-baird-davies-trial-testimony-2026-11-13",
+      "first_seen_at": "2026-11-13T05:35:52.148289+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-morning",
+          "article_id": "sydney-baird-davies-trial-testimony-2026-11-13",
+          "source_story_id": "sydney-baird-davies-trial-testimony-2026-11-13",
+          "url": "articles/2026-11-13-morning/sydney-baird-davies-trial-testimony-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "sydney-baird-davies-trial-testimony-2026-11-13",
+        "source_story_id": "sydney-baird-davies-trial-testimony-2026-11-13",
+        "url": "articles/2026-11-13-morning/sydney-baird-davies-trial-testimony-2026-11-13.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "cyprus-canada-leaders-meeting-2026-11-12",
+      "first_seen_at": "2026-11-13T05:35:52.148289+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-morning",
+          "article_id": "cyprus-canada-leaders-meeting-2026-11-12",
+          "source_story_id": "cyprus-canada-leaders-meeting-2026-11-12",
+          "url": "articles/2026-11-13-morning/cyprus-canada-leaders-meeting-2026-11-12.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "cyprus-canada-leaders-meeting-2026-11-12",
+        "source_story_id": "cyprus-canada-leaders-meeting-2026-11-12",
+        "url": "articles/2026-11-13-morning/cyprus-canada-leaders-meeting-2026-11-12.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "cyprus-central-prisons-documents-trial-2026-11-12",
+      "first_seen_at": "2026-11-13T05:35:52.148289+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-morning",
+          "article_id": "cyprus-central-prisons-documents-trial-2026-11-12",
+          "source_story_id": "cyprus-central-prisons-documents-trial-2026-11-12",
+          "url": "articles/2026-11-13-morning/cyprus-central-prisons-documents-trial-2026-11-12.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "cyprus-central-prisons-documents-trial-2026-11-12",
+        "source_story_id": "cyprus-central-prisons-documents-trial-2026-11-12",
+        "url": "articles/2026-11-13-morning/cyprus-central-prisons-documents-trial-2026-11-12.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13",
+      "first_seen_at": "2026-11-13T05:35:52.148289+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-morning",
+          "article_id": "cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13",
+          "source_story_id": "cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13",
+          "url": "articles/2026-11-13-morning/cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13",
+        "source_story_id": "cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13",
+        "url": "articles/2026-11-13-morning/cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "limassol-antiquities-acquittal-return-order-2026-11-13",
+      "first_seen_at": "2026-11-13T05:35:52.148289+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-morning",
+          "article_id": "limassol-antiquities-acquittal-return-order-2026-11-13",
+          "source_story_id": "limassol-antiquities-acquittal-return-order-2026-11-13",
+          "url": "articles/2026-11-13-morning/limassol-antiquities-acquittal-return-order-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "limassol-antiquities-acquittal-return-order-2026-11-13",
+        "source_story_id": "limassol-antiquities-acquittal-return-order-2026-11-13",
+        "url": "articles/2026-11-13-morning/limassol-antiquities-acquittal-return-order-2026-11-13.html"
+      },
+      "section": "cyprus",
+      "priority": 7
+    },
+    {
+      "story_id": "dubai-p1-quarterfinals-2026-11-13",
+      "first_seen_at": "2026-11-13T05:35:52.148289+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-morning",
+          "article_id": "dubai-p1-quarterfinals-2026-11-13",
+          "source_story_id": "dubai-p1-quarterfinals-2026-11-13",
+          "url": "articles/2026-11-13-morning/dubai-p1-quarterfinals-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "dubai-p1-quarterfinals-2026-11-13",
+        "source_story_id": "dubai-p1-quarterfinals-2026-11-13",
+        "url": "articles/2026-11-13-morning/dubai-p1-quarterfinals-2026-11-13.html"
+      },
+      "section": "sports",
+      "priority": 8
+    },
+    {
+      "story_id": "wales-norway-oslo-third-place-2026-11-12",
+      "first_seen_at": "2026-11-13T05:35:52.148289+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-morning",
+          "article_id": "wales-norway-oslo-third-place-2026-11-12",
+          "source_story_id": "wales-norway-oslo-third-place-2026-11-12",
+          "url": "articles/2026-11-13-morning/wales-norway-oslo-third-place-2026-11-12.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "wales-norway-oslo-third-place-2026-11-12",
+        "source_story_id": "wales-norway-oslo-third-place-2026-11-12",
+        "url": "articles/2026-11-13-morning/wales-norway-oslo-third-place-2026-11-12.html"
+      },
+      "section": "sports",
+      "priority": 9
+    },
+    {
+      "story_id": "norway-finland-athlete-entry-2026-11-12",
+      "first_seen_at": "2026-11-13T05:35:52.148289+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-13-morning",
+          "article_id": "norway-finland-athlete-entry-2026-11-12",
+          "source_story_id": "norway-finland-athlete-entry-2026-11-12",
+          "url": "articles/2026-11-13-morning/norway-finland-athlete-entry-2026-11-12.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "norway-finland-athlete-entry-2026-11-12",
+        "source_story_id": "norway-finland-athlete-entry-2026-11-12",
+        "url": "articles/2026-11-13-morning/norway-finland-athlete-entry-2026-11-12.html"
+      },
+      "section": "sports",
+      "priority": 10
+    }
+  ],
+  "updates": [
+    {
+      "id": "12ad784b6b123a2e24d63b4f709596f637b3426df07ee7ce0a0552ad85f86913",
+      "kind": "provenance",
+      "at": "2026-11-13T05:35:52.148289+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "sydney-baird-davies-trial-testimony-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "sydney-baird-davies-trial-testimony-2026-11-13",
+        "source_story_id": "sydney-baird-davies-trial-testimony-2026-11-13",
+        "url": "articles/2026-11-13-morning/sydney-baird-davies-trial-testimony-2026-11-13.html"
+      }
+    },
+    {
+      "id": "166510d77cd1c72305e17d0d9eaa624cb721783a035805f34ca6acf41b64e0a1",
+      "kind": "provenance",
+      "at": "2026-11-13T05:35:52.148289+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "nvidia-board-security-review",
+        "source_story_id": "nvidia-board-security-review-2026-11-08",
+        "url": "articles/2026-11-13-morning/nvidia-board-security-review.html"
+      }
+    },
+    {
+      "id": "2ab584647b4ec0bc0b779a34050172bf1b06349450fd028ded100a4439f987f4",
+      "kind": "provenance",
+      "at": "2026-11-13T05:35:52.148289+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "dubai-p1-quarterfinals-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "dubai-p1-quarterfinals-2026-11-13",
+        "source_story_id": "dubai-p1-quarterfinals-2026-11-13",
+        "url": "articles/2026-11-13-morning/dubai-p1-quarterfinals-2026-11-13.html"
+      }
+    },
+    {
+      "id": "6eb3b1461bc4898a1e2be88337726898c07e1d71165f05037dbd0b738dc83b4c",
+      "kind": "provenance",
+      "at": "2026-11-13T05:35:52.148289+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-antiquities-acquittal-return-order-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "limassol-antiquities-acquittal-return-order-2026-11-13",
+        "source_story_id": "limassol-antiquities-acquittal-return-order-2026-11-13",
+        "url": "articles/2026-11-13-morning/limassol-antiquities-acquittal-return-order-2026-11-13.html"
+      }
+    },
+    {
+      "id": "8a8a30cbd1deb172a99e3cc42cf52090bd424337b4f682609cb9cc0073f91f14",
+      "kind": "provenance",
+      "at": "2026-11-13T05:35:52.148289+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "norway-finland-athlete-entry-2026-11-12",
+      "origin": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "norway-finland-athlete-entry-2026-11-12",
+        "source_story_id": "norway-finland-athlete-entry-2026-11-12",
+        "url": "articles/2026-11-13-morning/norway-finland-athlete-entry-2026-11-12.html"
+      }
+    },
+    {
+      "id": "9c47814f6758951ae9cc84e2e34598c6704e09285281a3238f3b0afb22777f8d",
+      "kind": "provenance",
+      "at": "2026-11-13T05:35:52.148289+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-central-prisons-documents-trial-2026-11-12",
+      "origin": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "cyprus-central-prisons-documents-trial-2026-11-12",
+        "source_story_id": "cyprus-central-prisons-documents-trial-2026-11-12",
+        "url": "articles/2026-11-13-morning/cyprus-central-prisons-documents-trial-2026-11-12.html"
+      }
+    },
+    {
+      "id": "9d7948ad6743b62e919c6a56a9ea7a8ba448a0245f188e493a97240d3fd7d40b",
+      "kind": "provenance",
+      "at": "2026-11-13T05:35:52.148289+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-canada-leaders-meeting-2026-11-12",
+      "origin": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "cyprus-canada-leaders-meeting-2026-11-12",
+        "source_story_id": "cyprus-canada-leaders-meeting-2026-11-12",
+        "url": "articles/2026-11-13-morning/cyprus-canada-leaders-meeting-2026-11-12.html"
+      }
+    },
+    {
+      "id": "ca13290652b18b9913be1b85d2f9a8312f7f1f9f33304a4f56eb264e8e1a59b2",
+      "kind": "provenance",
+      "at": "2026-11-13T05:35:52.148289+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "wales-norway-oslo-third-place-2026-11-12",
+      "origin": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "wales-norway-oslo-third-place-2026-11-12",
+        "source_story_id": "wales-norway-oslo-third-place-2026-11-12",
+        "url": "articles/2026-11-13-morning/wales-norway-oslo-third-place-2026-11-12.html"
+      }
+    },
+    {
+      "id": "d795d418474f5ba2c231a53611c193a0fa6457c969b970b5b3985addec2372b4",
+      "kind": "provenance",
+      "at": "2026-11-13T05:35:52.148289+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13",
+        "source_story_id": "cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13",
+        "url": "articles/2026-11-13-morning/cyprus-mavroyiannis-akel-candidacy-discussion-2026-11-13.html"
+      }
+    },
+    {
+      "id": "f808b1217c52d9da7a62e56d7695bb77b3f95adbf14e3cfe5230bd1422c0cf7f",
+      "kind": "provenance",
+      "at": "2026-11-13T05:35:52.148289+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "spain-court-suspends-far-right-group-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-13-morning",
+        "article_id": "spain-court-suspends-far-right-group-2026-11-13",
+        "source_story_id": "spain-court-suspends-far-right-group-2026-11-13",
+        "url": "articles/2026-11-13-morning/spain-court-suspends-far-right-group-2026-11-13.html"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "action": "Δες την επίσημη ανακοίνωση ως ιστορικό πλαίσιο. Αναμένουμε επαληθευμένη νέα προκήρυξη πριν εμφανίσουμε ενεργή αίτηση.",
+      "application_kind": "instructions",
+      "application_url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+      "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση.",
+      "deadline": "2024-07-31T23:59:00+03:00",
+      "deadline_note": "Ιστορική προθεσμία της 2ης πρόσκλησης, όχι ημερομηνία νέας αίτησης. Νέα ενεργή πρόσκληση δεν επιβεβαιώθηκε στον παρόντα έλεγχο.",
+      "deadline_type": "fixed",
+      "eligibility": "Η προκήρυξη του 2024 όριζε νέους 18–29, άνδρες 30–50 και γυναίκες 30–55. Νέα πρόσκληση μπορεί να αλλάξει τους όρους· δεν έχει κριθεί προσωπική επιλεξιμότητα.",
+      "id": "cy-new-entrepreneurship-2024-call2",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-23T04:30:48.639313+00:00",
+          "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "retrieved_at": "2026-10-15T16:39:24.850175+00:00",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Ιστορική πρόσκληση του 2024 που έχει λήξει. Παραμένει μόνο στην παρακολούθηση για τυχόν νέα επίσημη προκήρυξη, όχι στις ενεργές αιτήσεις.",
+      "support": "Παλιοί όροι: 70% επιλέξιμης δαπάνης για 18–29, 60% για τις άλλες ομάδες, με μέγιστο επιλέξιμο προϋπολογισμό €120.000.",
+      "title": "Νέα Επιχειρηματική Δραστηριότητα · παλιά 2η προκήρυξη",
+      "verified_at": "2026-10-23T07:36:00+03:00"
+    },
+    {
+      "action": "Αν έχεις GO, προετοίμασε πλήρη πρόταση. Διαφορετικά ξεκίνα τη σύντομη αίτηση χωρίς να θεωρείς εξασφαλισμένη συμμετοχή στον γύρο Νοεμβρίου.",
+      "application_kind": "form",
+      "application_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+      "change_note": "Επανελέγχθηκε η επίσημη σελίδα EIC: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ., επενδυτικό σκέλος €1–10 εκατ. και επόμενη πλήρης πρόταση στις 4/11, 17:00 Βρυξελλών, μόνο μετά από GO.",
+      "deadline": "2026-11-04T18:00:00+02:00",
+      "deadline_note": "4/11 στις 17:00 Βρυξελλών = 18:00 Κύπρου. Αφορά πλήρη πρόταση μετά το GO. Οι σύντομες προτάσεις υποβάλλονται συνεχώς· αξιολόγηση συνήθως 4–6 εβδομάδες.",
+      "deadline_type": "fixed",
+      "eligibility": "Μία startup/ΜμΕ στην ΕΕ ή συνδεδεμένη χώρα, με καινοτομία TRL 6–8. Για πλήρη πρόταση προηγείται θετική αξιολόγηση (GO) της σύντομης πρότασης ή επιλέξιμη ειδική διαδρομή.",
+      "id": "eu-eic-accelerator-2026",
+      "jurisdiction": "ΕΕ · περιλαμβάνει την Κύπρο",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Innovation Council",
+          "reporting_group": "European Innovation Council",
+          "retrieved_at": "2026-10-24T13:43:13+03:00",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Στήριξη νεοφυών και μικρομεσαίων επιχειρήσεων με ανατρεπτική καινοτομία σε στάδιο ανάπτυξης και κλιμάκωσης. Δεν είναι γενική επιδότηση ίδρυσης επιχείρησης.",
+      "support": "Επιχορήγηση κάτω από €2,5 εκατ.· χωριστά επενδυτικό σκέλος €1–10 εκατ., που δεν αποτελεί επιχορήγηση.",
+      "title": "EIC Accelerator: επόμενη πλήρης πρόταση 4 Νοεμβρίου",
+      "verified_at": "2026-10-24T13:43:13+03:00"
+    },
+    {
+      "action": "Μην υποβάλεις νέα αίτηση. Παρακολούθησε μόνο επίσημη επαναπροκήρυξη ή ανακοίνωση για επιλαχόντες.",
+      "application_kind": "none",
+      "application_url": null,
+      "change_note": "Το ΥΕΕΒ ανακοίνωσε ολοκλήρωση υποβολής προτάσεων λόγω υπερκάλυψης προϋπολογισμού. Η προηγούμενη ένδειξη ανοικτής πρόσκλησης διορθώθηκε.",
+      "deadline": null,
+      "deadline_note": "Η υποβολή ολοκληρώθηκε στις 21/10 λόγω υπερκάλυψης του διαθέσιμου προϋπολογισμού.",
+      "deadline_type": "unknown",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "id": "cy-home-energy-2026",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "kind": "grant",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": "2026-10-21",
+          "publisher": "ΥΕΕΒ",
+          "reporting_group": "ΥΕΕΒ",
+          "retrieved_at": "2026-10-23T10:33:45.530855+00:00",
+          "url": "https://www.industry.gov.cy",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "verified_at": "2026-10-23T13:33:46+03:00"
+    },
+    {
+      "action": "Έλεγξε τα όρια και τη διαδικασία προηγούμενης κοινοποίησης στο κράτος εγκατάστασης. Ο σύνδεσμος δίνει οδηγίες, όχι κυπριακό έντυπο.",
+      "application_kind": "instructions",
+      "application_url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+      "change_note": "Επανελέγχθηκαν στις 24/10 η επίσημη ευρωπαϊκή σελίδα και η διαδικασία διασυνοριακής απαλλαγής. Το καθεστώς παραμένει προαιρετικό και ανοικτό, με ενωσιακό όριο €100.000 και προηγούμενη κοινοποίηση.",
+      "deadline": null,
+      "deadline_note": "Δεν πρόκειται για γύρο χορηγιών. Η απαλλαγή ξεκινά μετά την έγκριση/επιβεβαίωση EX· ισχύουν ξεχωριστές υποχρεώσεις τριμηνιαίας αναφοράς.",
+      "deadline_type": "rolling",
+      "eligibility": "Επιχείρηση εγκατεστημένη στην ΕΕ: ενωσιακός τζίρος έως €100.000 στο τρέχον και προηγούμενο έτος, καθώς και το εθνικό/κλαδικό όριο κάθε χώρας απαλλαγής.",
+      "id": "eu-cross-border-sme-vat",
+      "jurisdiction": "ΕΕ / Κύπρος · διασυνοριακές πωλήσεις",
+      "kind": "legal_right",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · DG TAXUD",
+          "reporting_group": "European Commission · DG TAXUD",
+          "retrieved_at": "2026-10-24T07:33:51+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · SME VAT",
+          "reporting_group": "European Commission · SME VAT",
+          "retrieved_at": "2026-10-24T07:33:47+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/index_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-24T07:33:52+03:00",
+          "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Το ευρωπαϊκό καθεστώς μικρών επιχειρήσεων επιτρέπει απαλλαγή ΦΠΑ σε επιλέξιμες διασυνοριακές πωλήσεις. Απαιτεί προηγούμενη κοινοποίηση· δεν εφαρμόζεται αυτόματα.",
+      "support": "Πιθανή απλούστευση υποχρεώσεων ΦΠΑ, με απώλεια δικαιώματος έκπτωσης ΦΠΑ για τις απαλλασσόμενες πράξεις. Αξιολόγησε το καθαρό όφελος πριν επιλέξεις.",
+      "title": "Προαιρετική απαλλαγή ΦΠΑ για μικρές επιχειρήσεις",
+      "verified_at": "2026-10-24T07:44:30+03:00"
+    },
+    {
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
+      "application_kind": "form",
+      "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "change_note": "Επανελέγχθηκαν η επίσημη δυνατότητα αίτησης, τα κριτήρια και η FAQ προθεσμίας στις 24/10. Η εγγραφή παραμένει ανοικτή χωρίς καταληκτική ημερομηνία· δεν υπονοείται προσωπική επιλεξιμότητα.",
+      "deadline": null,
+      "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
+      "deadline_type": "rolling",
+      "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
+      "id": "eu-erasmus-new-entrepreneurs",
+      "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
+      "kind": "benefit",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs · FAQ",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
+      "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
+      "title": "Erasmus for Young Entrepreneurs",
+      "verified_at": "2026-10-24T07:43:00+03:00"
+    }
+  ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Στις ΗΠΑ, οι προσκλήσεις προς τον πρώην επικεφαλής της Nvidia μεταφέρουν την υπόθεση στο Κογκρέσο, όπου συζητούνται αυστηρότεροι περιορισμοί στις εξαγωγές προηγμένων τσιπ στην Κίνα. Για τις εταιρείες του κλάδου, το πρακτικό ερώτημα είναι αν θα κατατεθεί πρόταση που να αλλάζει τι επιτρέπεται να πωλούν. Για την Κύπρο, η πρώτη συνάντηση ηγετών με τον Καναδά εδώ και οκτώ χρόνια ανοίγει δίαυλο για διμερείς επαφές και ενημέρωση για το Κυπριακό. Η συνέχεια θα φανεί από το αν οι δύο κυβερνήσεις ορίσουν επόμενη συνάντηση ή ανακοινώσουν συγκεκριμένη συνεργασία.",
+        "story_ids": [
+          "nvidia-board-security-review-2026-11-08",
+          "cyprus-canada-leaders-meeting-2026-11-12"
+        ]
+      }
+    ]
+  },
+  "follow_ups": [],
+  "created_at": "2026-11-13T05:37:53.302159+00:00",
+  "updated_at": "2026-11-13T05:37:53.302159+00:00",
+  "input_sha256": "ad0a633f5a3115154e56f1965ca0d65724434be509aede6ba12ab60f05d7ee36"
+}
