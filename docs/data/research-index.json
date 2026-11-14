@@ -673,6 +673,14 @@
       "published_at": "2026-11-13T05:35:52.148289+00:00",
       "url": "morning/2026-11-13.html",
       "fingerprint": "d276991c81de9253b2a99db9ae21e7803b1b71fdfd38d7318efff6a791271871"
+    },
+    {
+      "id": "2026-11-14-morning",
+      "date": "2026-11-14",
+      "type": "morning",
+      "published_at": "2026-11-14T05:31:21.375446+00:00",
+      "url": "morning/2026-11-14.html",
+      "fingerprint": "e0630a27fd8c74663f018b3daa408fb4b06d6dcc3f19a9341fec42d9b47ebcbd"
     }
   ],
   "stories": [
@@ -25340,6 +25348,284 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/9032433aa95d7fc13b4ccdf19a1fd2111ad853605d959da00af3c556e9c16274.webp"
+    },
+    {
+      "story_id": "norway-oil-field-approvals-ruling-2026-11-13",
+      "identity": "norway-oil-field-approvals-ruling-2026-11-13",
+      "edition_id": "2026-11-14-morning",
+      "date": "2026-11-14",
+      "slot": "morning",
+      "published_at": "2026-11-14T05:31:21.375446+00:00",
+      "available_at": "2026-11-14T05:31:21.375446+00:00",
+      "headline": "Το Ανώτατο Δικαστήριο της Νορβηγίας ακύρωσε εγκρίσεις για τρία κοιτάσματα",
+      "finding": "Το Ανώτατο Δικαστήριο της Νορβηγίας έκρινε την Παρασκευή άκυρες τις κυβερνητικές εγκρίσεις για τα κοιτάσματα Tyrving, Breidablikk και Yggdrasil, σύμφωνα με τον Φιλελεύθερο. Η Greenpeace Norway και η Young Friends of the Earth Norway είχαν προσφύγει το 2023. Η υπόθεση, που αφορά τη συνεκτίμηση ρύπων μετά την εξόρυξη, εξετάστηκε από έντεκα δικαστές αντί της συνήθους πενταμελούς σύνθεσης.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-14-morning/norway-oil-field-approvals-ruling-2026-11-13.json",
+      "reader_url": "articles/2026-11-14-morning/norway-oil-field-approvals-ruling-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1795600/norvigia-metroun-ke-i-ripi-meta-tin-exorixi-idrogonanthrakon-dikastiki-apofasi-me-panevropaikes-proektasis",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-14T04:11:00+00:00",
+          "retrieved_at": "2026-11-14T04:21:24.195256+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/fe21c9bc1a728f503f14b1a5502ac122d73812d4014cbb0d4926f5d6b325c17c.webp"
+    },
+    {
+      "story_id": "microsoft-365-outage-2026-11-12",
+      "identity": "microsoft-365-outage-2026-11-12",
+      "edition_id": "2026-11-14-morning",
+      "date": "2026-11-14",
+      "slot": "morning",
+      "published_at": "2026-11-13T17:39:15.518151+00:00",
+      "available_at": "2026-11-14T05:31:21.375446+00:00",
+      "headline": "Η Microsoft ανακοίνωσε σταδιακή επαναφορά μετά τη διακοπή του 365",
+      "finding": "Η Microsoft δήλωσε ότι αντιμετώπισε το υποκείμενο πρόβλημα της διακοπής του Microsoft 365 και επαναφέρει τις υπηρεσίες σταδιακά για να διασφαλίσει τη σταθερότητά τους, σύμφωνα με τον Guardian. Το BBC είχε καταγράψει προβλήματα σύνδεσης σε υπηρεσίες όπως το Teams και το Outlook σε τουλάχιστον 74 χώρες. Η εταιρική δήλωση δεν επιβεβαιώνει πότε αποκαταστάθηκε κάθε υπηρεσία για όλους τους χρήστες.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-14-morning/microsoft-365-outage-2026-11-12.json",
+      "reader_url": "articles/2026-11-14-morning/microsoft-365-outage-2026-11-12.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqp9d58eldlro?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-13T17:34:58+00:00",
+          "retrieved_at": "2026-11-14T04:21:22.800319+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-14T00:52:48+00:00",
+          "retrieved_at": "2026-11-14T04:21:27.353365+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/41aaeb6eafb8df23a25bb8eb2be56c0531b68f6804e6890478d1619620d80662.webp"
+    },
+    {
+      "story_id": "google-tpu-8tx-8i-max-2026-11-14",
+      "identity": "google-tpu-8tx-8i-max-2026-11-14",
+      "edition_id": "2026-11-14-morning",
+      "date": "2026-11-14",
+      "slot": "morning",
+      "published_at": "2026-11-14T05:31:21.375446+00:00",
+      "available_at": "2026-11-14T05:31:21.375446+00:00",
+      "headline": "Η Google παρουσίασε δύο εξειδικευμένους επεξεργαστές για τεχνητή νοημοσύνη",
+      "finding": "Η Google παρουσίασε τους 8tx και 8i Max, δύο νέες εκδόσεις των επεξεργαστών TPU που έχει αναπτύξει η ίδια, σύμφωνα με δημοσίευμα της Cyprus Mail το Σάββατο. Η εταιρεία προορίζει τον 8tx για δημόσιες υπηρεσίες και επιχειρήσεις με αυστηρούς κανόνες προστασίας δεδομένων. Ο 8i Max σχεδιάστηκε για εφαρμογές που επεξεργάζονται πολύ μεγάλο όγκο πληροφοριών ταυτόχρονα.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-14-morning/google-tpu-8tx-8i-max-2026-11-14.json",
+      "reader_url": "articles/2026-11-14-morning/google-tpu-8tx-8i-max-2026-11-14.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/14/google-unveils-two-new-variants-of-in-house-chips",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-14T04:00:00+00:00",
+          "retrieved_at": "2026-11-14T04:21:24.177770+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/214fd9728f06cae0ae8a6289274795caa97296f7aa96ceee9d83366833b9df5d.webp"
+    },
+    {
+      "story_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
+      "identity": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
+      "edition_id": "2026-11-14-morning",
+      "date": "2026-11-14",
+      "slot": "morning",
+      "published_at": "2026-11-14T05:31:21.375446+00:00",
+      "available_at": "2026-11-14T05:31:21.375446+00:00",
+      "headline": "Η Κύπρος στηρίζει κοινή πλατφόρμα του ΟΗΕ για την ανθρωπιστική βοήθεια",
+      "finding": "Η Κύπρος είναι μεταξύ των κρατών που στηρίζουν την ενοποίηση της εφοδιαστικής αλυσίδας για την ανθρωπιστική βοήθεια στο πλαίσιο του UN80, σύμφωνα με το SigmaLive. Την κοινή δήλωση των ΗΠΑ, της Ευρωπαϊκής Ένωσης, των κρατών μελών της και άλλων δωρητών εκφώνησε ο Αμερικανός πρέσβης Τζεφ Μπάρτος. Οι υπογράφοντες ζήτησαν ενημέρωση για την εφαρμογή της πλατφόρμας τον Δεκέμβριο.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-14-morning/cyprus-un80-humanitarian-supply-chain-2026-11-13.json",
+      "reader_url": "articles/2026-11-14-morning/cyprus-un80-humanitarian-supply-chain-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/international/1337554/h-kypros-stirizei-koini-dilosi-toy-ohe-ghia-eniaia-efodiastiki-alisida",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-13T21:28:38+00:00",
+          "retrieved_at": "2026-11-14T04:21:24.154828+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ac956c7d10bf78f63a0d8974743f9b782e601160170720801db96fe7d4c55bbb.webp"
+    },
+    {
+      "story_id": "cyprus-nonparliamentary-parties-presidential-2026-11-14",
+      "identity": "cyprus-nonparliamentary-parties-presidential-2026-11-14",
+      "edition_id": "2026-11-14-morning",
+      "date": "2026-11-14",
+      "slot": "morning",
+      "published_at": "2026-11-14T05:31:21.375446+00:00",
+      "available_at": "2026-11-14T05:31:21.375446+00:00",
+      "headline": "Ανοιχτή η στάση των εξωκοινοβουλευτικών κομμάτων ενόψει των προεδρικών",
+      "finding": "Στις βουλευτικές εκλογές του Μαΐου, το 16,7% των έγκυρων ψήφων πήγε σε σχηματισμούς που έμειναν εκτός Βουλής, σύμφωνα με ανάλυση του Φιλελευθέρου. ΕΔΕΚ, ΔΗΠΑ, VOLT και Κυνηγοί κινήθηκαν κοντά στο 3% το καθένα και οι Οικολόγοι στο 2%. Η στάση τους ενόψει των προεδρικών παραμένει ασαφής, ενώ τα ποσοστά των βουλευτικών δεν δείχνουν πώς θα ψηφίσουν οι ίδιοι ψηφοφόροι.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-14-morning/cyprus-nonparliamentary-parties-presidential-2026-11-14.json",
+      "reader_url": "articles/2026-11-14-morning/cyprus-nonparliamentary-parties-presidential-2026-11-14.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1795442/i-mikri-allazoun-tis-isorropies-edek-dipa-volt-ikologi-ke-kinigi-bori-na-feroun-ta-pano-kato-stis-proedrikes-ekloges",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-14T04:03:00+00:00",
+          "retrieved_at": "2026-11-14T04:21:24.164396+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a76a7fda79726b958a5152524dac62f1d97e7e4d2cc0b691dd841eeef7c54839.webp"
+    },
+    {
+      "story_id": "cyprus-hope-for-children-education-tool-2026-11-20",
+      "identity": "cyprus-hope-for-children-education-tool-2026-11-20",
+      "edition_id": "2026-11-14-morning",
+      "date": "2026-11-14",
+      "slot": "morning",
+      "published_at": "2026-11-14T05:31:21.375446+00:00",
+      "available_at": "2026-11-14T05:31:21.375446+00:00",
+      "headline": "Στις 20 Νοεμβρίου παρουσιάζεται νέο εργαλείο ενδυνάμωσης για παιδιά",
+      "finding": "Το Hope For Children στηρίζει και θα παρουσιάσει το εικονογραφημένο εργαλείο «Ψιτ! Το ’χεις!» στις 20 Νοεμβρίου, με αφορμή την Παγκόσμια Ημέρα του Παιδιού, σύμφωνα με τον Φιλελεύθερο. Η ιδέα προήλθε από μια 13χρονη και απευθύνεται σε παιδιά από έξι ετών. Το υλικό χρησιμοποιεί ιστορίες και βιωματικές δραστηριότητες για δύσκολες εμπειρίες, όπως η παραβίαση προσωπικών ορίων.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-14-morning/cyprus-hope-for-children-education-tool-2026-11-20.json",
+      "reader_url": "articles/2026-11-14-morning/cyprus-hope-for-children-education-tool-2026-11-20.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1795418/psit-to-chis-to-protoporiako-ergalio-pou-skarfistike-mia-13chroni-gia-ta-pedia-ke-tis-proklisis-tis-zois-kapios-me-angixe-me-tropo-pou-den-ithela",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-14T04:18:00+00:00",
+          "retrieved_at": "2026-11-14T04:21:23.954641+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/278aab7dd4768ac980d2dd2c68784f0f8a2cb0e7bf8f1dc26a21189283d5090b.webp"
+    },
+    {
+      "story_id": "paphos-mesogi-car-rollover-2026-11-13",
+      "identity": "paphos-mesogi-car-rollover-2026-11-13",
+      "edition_id": "2026-11-14-morning",
+      "date": "2026-11-14",
+      "slot": "morning",
+      "published_at": "2026-11-14T05:31:21.375446+00:00",
+      "available_at": "2026-11-14T05:31:21.375446+00:00",
+      "headline": "Τροχαίο στη λεωφόρο Μεσόγης: η οδηγός πήρε εξιτήριο",
+      "finding": "Αυτοκίνητο ανατράπηκε σε διασταύρωση της λεωφόρου Μεσόγης στην επαρχία Πάφου και κατέληξε στον κήπο κατοικίας το βράδυ της Παρασκευής. Ασθενοφόρο μετέφερε τη 42χρονη οδηγό στο Γενικό Νοσοκομείο Πάφου για εξετάσεις. Σύμφωνα με την Αστυνομία, όπως μεταδίδει η Cyprus Mail, η οδηγός πήρε εξιτήριο λίγο αργότερα.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-14-morning/paphos-mesogi-car-rollover-2026-11-13.json",
+      "reader_url": "articles/2026-11-14-morning/paphos-mesogi-car-rollover-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/13/womans-car-overturns-in-paphos-ends-up-in-house-garden",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-13T19:26:39+00:00",
+          "retrieved_at": "2026-11-14T04:21:24.320071+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a63ca8c3e32a527cc6c1414e5d6b63b6cf6badbbe2c2ccf9195972aa44f1e207.webp"
+    },
+    {
+      "story_id": "dubai-p1-semifinals-2026-11-14",
+      "identity": "dubai-p1-semifinals-2026-11-14",
+      "edition_id": "2026-11-14-morning",
+      "date": "2026-11-14",
+      "slot": "morning",
+      "published_at": "2026-11-14T05:31:21.375446+00:00",
+      "available_at": "2026-11-14T05:31:21.375446+00:00",
+      "headline": "Τέσσερις ημιτελικοί στο Dubai P1 το Σάββατο",
+      "finding": "Οι τέσσερις ημιτελικοί του Dubai Premier Padel P1 είναι προγραμματισμένοι για το Σάββατο 14 Νοεμβρίου στο κεντρικό γήπεδο. Οκτώ ζευγάρια συνεχίζουν μετά τους προημιτελικούς, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-14-morning/dubai-p1-semifinals-2026-11-14.json",
+      "reader_url": "articles/2026-11-14-morning/dubai-p1-semifinals-2026-11-14.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/horarios-partidos-donde-ver-semifinales-dubai-p1-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-14T00:23:07+00:00",
+          "retrieved_at": "2026-11-14T04:21:26.051244+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/08c0b23afe13cb3b7c822852123306840809afcd8e96f39b54c6e771a137304d.webp"
+    },
+    {
+      "story_id": "efl-social-media-warning-2026-11-13",
+      "identity": "efl-social-media-warning-2026-11-13",
+      "edition_id": "2026-11-14-morning",
+      "date": "2026-11-14",
+      "slot": "morning",
+      "published_at": "2026-11-14T05:31:21.375446+00:00",
+      "available_at": "2026-11-14T05:31:21.375446+00:00",
+      "headline": "Η EFL προειδοποιεί τους συλλόγους για αναρτήσεις σχετικά με πειθαρχικές υποθέσεις",
+      "finding": "Η English Football League προειδοποίησε τους συλλόγους για αναρτήσεις που στοχοποιούν άλλες ομάδες σχετικά με πειθαρχικά ζητήματα, σύμφωνα με το BBC. Η Ρέξαμ και η Σαουθάμπτον είχαν ανταλλάξει τέτοιες αιχμές.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-14-morning/efl-social-media-warning-2026-11-13.json",
+      "reader_url": "articles/2026-11-14-morning/efl-social-media-warning-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/cmqj5r8edvneo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-13T18:20:17+00:00",
+          "retrieved_at": "2026-11-14T04:21:23.093687+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f30429e9b93bf2b2988f2adaaf80f8d463ee94e9202d6c3994d3ae580c7ce53b.webp"
+    },
+    {
+      "story_id": "larnaca-marathon-renewed-route-2026-11-15",
+      "identity": "larnaca-marathon-renewed-route-2026-11-15",
+      "edition_id": "2026-11-14-morning",
+      "date": "2026-11-14",
+      "slot": "morning",
+      "published_at": "2026-11-14T05:31:21.375446+00:00",
+      "available_at": "2026-11-14T05:31:21.375446+00:00",
+      "headline": "Νέα διαδρομή και κυκλοφοριακές ρυθμίσεις για τον μαραθώνιο Λάρνακας",
+      "finding": "Ο μαραθώνιος Λάρνακας διεξάγεται την Κυριακή 15 Νοεμβρίου με ανανεωμένη διαδρομή. Οι διοργανωτές αναμένουν πάνω από 14.000 συμμετέχοντες συνολικά στις διάφορες αποστάσεις, σύμφωνα με την Cyprus Mail.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-11-14-morning/larnaca-marathon-renewed-route-2026-11-15.json",
+      "reader_url": "articles/2026-11-14-morning/larnaca-marathon-renewed-route-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/14/thousands-arriving-for-larnaca-marathon-as-countdown-begins",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-14T02:25:00+00:00",
+          "retrieved_at": "2026-11-14T04:21:23.291547+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a4aa3cabf6b6ae27b737bbd2adea822fafcb00f4c5f9e7c23759f12a3e7086b1.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
