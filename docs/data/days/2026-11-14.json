@@ -10,14 +10,40 @@
       "type": "morning",
       "url": "morning/2026-11-14.html",
       "published_at": "2026-11-14T05:31:21.375446+00:00"
+    },
+    {
+      "id": "2026-11-14-midday",
+      "type": "midday",
+      "url": "midday/2026-11-14.html",
+      "published_at": "2026-11-14T11:33:27.872097+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "norway-oil-field-approvals-ruling-2026-11-13",
+  "lead_story_id": "hormuz-un-seafarer-toll-2026-11-14",
   "stories": [
+    {
+      "story_id": "hormuz-un-seafarer-toll-2026-11-14",
+      "first_seen_at": "2026-11-14T11:33:27.872097+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-14-midday",
+          "article_id": "hormuz-un-seafarer-toll-2026-11-14",
+          "source_story_id": "hormuz-un-seafarer-toll-2026-11-14",
+          "url": "articles/2026-11-14-midday/hormuz-un-seafarer-toll-2026-11-14.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "hormuz-un-seafarer-toll-2026-11-14",
+        "source_story_id": "hormuz-un-seafarer-toll-2026-11-14",
+        "url": "articles/2026-11-14-midday/hormuz-un-seafarer-toll-2026-11-14.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "norway-oil-field-approvals-ruling-2026-11-13",
       "first_seen_at": "2026-11-14T05:31:21.375446+00:00",
@@ -28,13 +54,19 @@
           "article_id": "norway-oil-field-approvals-ruling-2026-11-13",
           "source_story_id": "norway-oil-field-approvals-ruling-2026-11-13",
           "url": "articles/2026-11-14-morning/norway-oil-field-approvals-ruling-2026-11-13.html"
+        },
+        {
+          "edition_id": "2026-11-14-midday",
+          "article_id": "norway-oil-field-approvals-ruling-2026-11-13",
+          "source_story_id": "norway-oil-field-approvals-ruling-2026-11-13",
+          "url": "articles/2026-11-14-midday/norway-oil-field-approvals-ruling-2026-11-13.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-morning",
+        "edition_id": "2026-11-14-midday",
         "article_id": "norway-oil-field-approvals-ruling-2026-11-13",
         "source_story_id": "norway-oil-field-approvals-ruling-2026-11-13",
-        "url": "articles/2026-11-14-morning/norway-oil-field-approvals-ruling-2026-11-13.html"
+        "url": "articles/2026-11-14-midday/norway-oil-field-approvals-ruling-2026-11-13.html"
       },
       "section": "world",
       "priority": 1
@@ -49,13 +81,19 @@
           "article_id": "microsoft-365-outage-2026-11-12",
           "source_story_id": "microsoft-365-outage-2026-11-12",
           "url": "articles/2026-11-14-morning/microsoft-365-outage-2026-11-12.html"
+        },
+        {
+          "edition_id": "2026-11-14-midday",
+          "article_id": "microsoft-365-outage-2026-11-12",
+          "source_story_id": "microsoft-365-outage-2026-11-12",
+          "url": "articles/2026-11-14-midday/microsoft-365-outage-2026-11-12.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-morning",
+        "edition_id": "2026-11-14-midday",
         "article_id": "microsoft-365-outage-2026-11-12",
         "source_story_id": "microsoft-365-outage-2026-11-12",
-        "url": "articles/2026-11-14-morning/microsoft-365-outage-2026-11-12.html"
+        "url": "articles/2026-11-14-midday/microsoft-365-outage-2026-11-12.html"
       },
       "section": "world",
       "priority": 2
@@ -70,16 +108,64 @@
           "article_id": "google-tpu-8tx-8i-max-2026-11-14",
           "source_story_id": "google-tpu-8tx-8i-max-2026-11-14",
           "url": "articles/2026-11-14-morning/google-tpu-8tx-8i-max-2026-11-14.html"
+        },
+        {
+          "edition_id": "2026-11-14-midday",
+          "article_id": "google-tpu-8tx-8i-max-2026-11-14",
+          "source_story_id": "google-tpu-8tx-8i-max-2026-11-14",
+          "url": "articles/2026-11-14-midday/google-tpu-8tx-8i-max-2026-11-14.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-morning",
+        "edition_id": "2026-11-14-midday",
         "article_id": "google-tpu-8tx-8i-max-2026-11-14",
         "source_story_id": "google-tpu-8tx-8i-max-2026-11-14",
-        "url": "articles/2026-11-14-morning/google-tpu-8tx-8i-max-2026-11-14.html"
+        "url": "articles/2026-11-14-midday/google-tpu-8tx-8i-max-2026-11-14.html"
       },
       "section": "world",
       "priority": 3
+    },
+    {
+      "story_id": "rubio-icc-criticism-2026-11-14",
+      "first_seen_at": "2026-11-14T11:33:27.872097+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-14-midday",
+          "article_id": "rubio-icc-criticism-2026-11-14",
+          "source_story_id": "rubio-icc-criticism-2026-11-14",
+          "url": "articles/2026-11-14-midday/rubio-icc-criticism-2026-11-14.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "rubio-icc-criticism-2026-11-14",
+        "source_story_id": "rubio-icc-criticism-2026-11-14",
+        "url": "articles/2026-11-14-midday/rubio-icc-criticism-2026-11-14.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "cyprus-built-to-rent-supply-2026-11-14",
+      "first_seen_at": "2026-11-14T11:33:27.872097+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-14-midday",
+          "article_id": "cyprus-built-to-rent-supply-2026-11-14",
+          "source_story_id": "cyprus-built-to-rent-supply-2026-11-14",
+          "url": "articles/2026-11-14-midday/cyprus-built-to-rent-supply-2026-11-14.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "cyprus-built-to-rent-supply-2026-11-14",
+        "source_story_id": "cyprus-built-to-rent-supply-2026-11-14",
+        "url": "articles/2026-11-14-midday/cyprus-built-to-rent-supply-2026-11-14.html"
+      },
+      "section": "cyprus",
+      "priority": 4
     },
     {
       "story_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
@@ -91,16 +177,43 @@
           "article_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
           "source_story_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
           "url": "articles/2026-11-14-morning/cyprus-un80-humanitarian-supply-chain-2026-11-13.html"
+        },
+        {
+          "edition_id": "2026-11-14-midday",
+          "article_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
+          "source_story_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
+          "url": "articles/2026-11-14-midday/cyprus-un80-humanitarian-supply-chain-2026-11-13.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-morning",
+        "edition_id": "2026-11-14-midday",
         "article_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
         "source_story_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
-        "url": "articles/2026-11-14-morning/cyprus-un80-humanitarian-supply-chain-2026-11-13.html"
+        "url": "articles/2026-11-14-midday/cyprus-un80-humanitarian-supply-chain-2026-11-13.html"
       },
       "section": "cyprus",
       "priority": 4
+    },
+    {
+      "story_id": "cyprus-greens-electoral-congress-2026-11-14",
+      "first_seen_at": "2026-11-14T11:33:27.872097+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-14-midday",
+          "article_id": "cyprus-greens-electoral-congress-2026-11-14",
+          "source_story_id": "cyprus-greens-electoral-congress-2026-11-14",
+          "url": "articles/2026-11-14-midday/cyprus-greens-electoral-congress-2026-11-14.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "cyprus-greens-electoral-congress-2026-11-14",
+        "source_story_id": "cyprus-greens-electoral-congress-2026-11-14",
+        "url": "articles/2026-11-14-midday/cyprus-greens-electoral-congress-2026-11-14.html"
+      },
+      "section": "cyprus",
+      "priority": 5
     },
     {
       "story_id": "cyprus-nonparliamentary-parties-presidential-2026-11-14",
@@ -112,13 +225,19 @@
           "article_id": "cyprus-nonparliamentary-parties-presidential-2026-11-14",
           "source_story_id": "cyprus-nonparliamentary-parties-presidential-2026-11-14",
           "url": "articles/2026-11-14-morning/cyprus-nonparliamentary-parties-presidential-2026-11-14.html"
+        },
+        {
+          "edition_id": "2026-11-14-midday",
+          "article_id": "cyprus-nonparliamentary-parties-presidential-2026-11-14",
+          "source_story_id": "cyprus-nonparliamentary-parties-presidential-2026-11-14",
+          "url": "articles/2026-11-14-midday/cyprus-nonparliamentary-parties-presidential-2026-11-14.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-morning",
+        "edition_id": "2026-11-14-midday",
         "article_id": "cyprus-nonparliamentary-parties-presidential-2026-11-14",
         "source_story_id": "cyprus-nonparliamentary-parties-presidential-2026-11-14",
-        "url": "articles/2026-11-14-morning/cyprus-nonparliamentary-parties-presidential-2026-11-14.html"
+        "url": "articles/2026-11-14-midday/cyprus-nonparliamentary-parties-presidential-2026-11-14.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -133,15 +252,42 @@
           "article_id": "cyprus-hope-for-children-education-tool-2026-11-20",
           "source_story_id": "cyprus-hope-for-children-education-tool-2026-11-20",
           "url": "articles/2026-11-14-morning/cyprus-hope-for-children-education-tool-2026-11-20.html"
+        },
+        {
+          "edition_id": "2026-11-14-midday",
+          "article_id": "cyprus-hope-for-children-education-tool-2026-11-20",
+          "source_story_id": "cyprus-hope-for-children-education-tool-2026-11-20",
+          "url": "articles/2026-11-14-midday/cyprus-hope-for-children-education-tool-2026-11-20.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-morning",
+        "edition_id": "2026-11-14-midday",
         "article_id": "cyprus-hope-for-children-education-tool-2026-11-20",
         "source_story_id": "cyprus-hope-for-children-education-tool-2026-11-20",
-        "url": "articles/2026-11-14-morning/cyprus-hope-for-children-education-tool-2026-11-20.html"
+        "url": "articles/2026-11-14-midday/cyprus-hope-for-children-education-tool-2026-11-20.html"
       },
       "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "warner-cricket-australia-investigation-2026-11-14",
+      "first_seen_at": "2026-11-14T11:33:27.872097+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-14-midday",
+          "article_id": "warner-cricket-australia-investigation-2026-11-14",
+          "source_story_id": "warner-cricket-australia-investigation-2026-11-14",
+          "url": "articles/2026-11-14-midday/warner-cricket-australia-investigation-2026-11-14.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "warner-cricket-australia-investigation-2026-11-14",
+        "source_story_id": "warner-cricket-australia-investigation-2026-11-14",
+        "url": "articles/2026-11-14-midday/warner-cricket-australia-investigation-2026-11-14.html"
+      },
+      "section": "sports",
       "priority": 6
     },
     {
@@ -175,13 +321,19 @@
           "article_id": "dubai-p1-semifinals-2026-11-14",
           "source_story_id": "dubai-p1-semifinals-2026-11-14",
           "url": "articles/2026-11-14-morning/dubai-p1-semifinals-2026-11-14.html"
+        },
+        {
+          "edition_id": "2026-11-14-midday",
+          "article_id": "dubai-p1-semifinals-2026-11-14",
+          "source_story_id": "dubai-p1-semifinals-2026-11-14",
+          "url": "articles/2026-11-14-midday/dubai-p1-semifinals-2026-11-14.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-morning",
+        "edition_id": "2026-11-14-midday",
         "article_id": "dubai-p1-semifinals-2026-11-14",
         "source_story_id": "dubai-p1-semifinals-2026-11-14",
-        "url": "articles/2026-11-14-morning/dubai-p1-semifinals-2026-11-14.html"
+        "url": "articles/2026-11-14-midday/dubai-p1-semifinals-2026-11-14.html"
       },
       "section": "sports",
       "priority": 8
@@ -196,13 +348,19 @@
           "article_id": "efl-social-media-warning-2026-11-13",
           "source_story_id": "efl-social-media-warning-2026-11-13",
           "url": "articles/2026-11-14-morning/efl-social-media-warning-2026-11-13.html"
+        },
+        {
+          "edition_id": "2026-11-14-midday",
+          "article_id": "efl-social-media-warning-2026-11-13",
+          "source_story_id": "efl-social-media-warning-2026-11-13",
+          "url": "articles/2026-11-14-midday/efl-social-media-warning-2026-11-13.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-morning",
+        "edition_id": "2026-11-14-midday",
         "article_id": "efl-social-media-warning-2026-11-13",
         "source_story_id": "efl-social-media-warning-2026-11-13",
-        "url": "articles/2026-11-14-morning/efl-social-media-warning-2026-11-13.html"
+        "url": "articles/2026-11-14-midday/efl-social-media-warning-2026-11-13.html"
       },
       "section": "sports",
       "priority": 9
@@ -368,6 +526,188 @@
         "article_id": "norway-oil-field-approvals-ruling-2026-11-13",
         "source_story_id": "norway-oil-field-approvals-ruling-2026-11-13",
         "url": "articles/2026-11-14-morning/norway-oil-field-approvals-ruling-2026-11-13.html"
+      }
+    },
+    {
+      "id": "0d0bdefd7a32d57db60f90894ab0051321148acc5ef86f74eb40f4036e490b73",
+      "kind": "provenance",
+      "at": "2026-11-14T11:33:27.872097+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-nonparliamentary-parties-presidential-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "cyprus-nonparliamentary-parties-presidential-2026-11-14",
+        "source_story_id": "cyprus-nonparliamentary-parties-presidential-2026-11-14",
+        "url": "articles/2026-11-14-midday/cyprus-nonparliamentary-parties-presidential-2026-11-14.html"
+      }
+    },
+    {
+      "id": "2293c5d7576e256954d602bc55ac6dd264e128b0c9b3e31e81a0b7c3785d5084",
+      "kind": "provenance",
+      "at": "2026-11-14T11:33:27.872097+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "rubio-icc-criticism-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "rubio-icc-criticism-2026-11-14",
+        "source_story_id": "rubio-icc-criticism-2026-11-14",
+        "url": "articles/2026-11-14-midday/rubio-icc-criticism-2026-11-14.html"
+      }
+    },
+    {
+      "id": "262a0d52c454e36da0d3d85708cb86c9780c8246a202a89cde5c918405fe0184",
+      "kind": "provenance",
+      "at": "2026-11-14T11:33:27.872097+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "dubai-p1-semifinals-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "dubai-p1-semifinals-2026-11-14",
+        "source_story_id": "dubai-p1-semifinals-2026-11-14",
+        "url": "articles/2026-11-14-midday/dubai-p1-semifinals-2026-11-14.html"
+      }
+    },
+    {
+      "id": "2a30682868362e7815be8a8c522529b94a3a411279ebcb622756ebf8483c3179",
+      "kind": "provenance",
+      "at": "2026-11-14T11:33:27.872097+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "efl-social-media-warning-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "efl-social-media-warning-2026-11-13",
+        "source_story_id": "efl-social-media-warning-2026-11-13",
+        "url": "articles/2026-11-14-midday/efl-social-media-warning-2026-11-13.html"
+      }
+    },
+    {
+      "id": "339d5cac020e1cbf8b47d8d0b62c7dfe78edaa2232c4763e4fca8fbab39e76ad",
+      "kind": "provenance",
+      "at": "2026-11-14T11:33:27.872097+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "hormuz-un-seafarer-toll-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "hormuz-un-seafarer-toll-2026-11-14",
+        "source_story_id": "hormuz-un-seafarer-toll-2026-11-14",
+        "url": "articles/2026-11-14-midday/hormuz-un-seafarer-toll-2026-11-14.html"
+      }
+    },
+    {
+      "id": "465d3f856bf8c7a5fdfb0888d23afaa18b7e65d9f362e21345e8a9dd01e59aa3",
+      "kind": "provenance",
+      "at": "2026-11-14T11:33:27.872097+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-built-to-rent-supply-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "cyprus-built-to-rent-supply-2026-11-14",
+        "source_story_id": "cyprus-built-to-rent-supply-2026-11-14",
+        "url": "articles/2026-11-14-midday/cyprus-built-to-rent-supply-2026-11-14.html"
+      }
+    },
+    {
+      "id": "46b3de8ebd92d5f1dd646d6cb0ae4f7ec1ba083045ceee317efc4f703db092e6",
+      "kind": "provenance",
+      "at": "2026-11-14T11:33:27.872097+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
+        "source_story_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
+        "url": "articles/2026-11-14-midday/cyprus-un80-humanitarian-supply-chain-2026-11-13.html"
+      }
+    },
+    {
+      "id": "b949a2e019de5cd2e9fb8c14d5af500b554ef4248bd1708674686bd9e1d921e8",
+      "kind": "provenance",
+      "at": "2026-11-14T11:33:27.872097+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-greens-electoral-congress-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "cyprus-greens-electoral-congress-2026-11-14",
+        "source_story_id": "cyprus-greens-electoral-congress-2026-11-14",
+        "url": "articles/2026-11-14-midday/cyprus-greens-electoral-congress-2026-11-14.html"
+      }
+    },
+    {
+      "id": "bd556b4cc7f5903f04c82610dc7a3b449eb394ad74e920904eff995985453e82",
+      "kind": "provenance",
+      "at": "2026-11-14T11:33:27.872097+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "google-tpu-8tx-8i-max-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "google-tpu-8tx-8i-max-2026-11-14",
+        "source_story_id": "google-tpu-8tx-8i-max-2026-11-14",
+        "url": "articles/2026-11-14-midday/google-tpu-8tx-8i-max-2026-11-14.html"
+      }
+    },
+    {
+      "id": "cb89da5573b5d6a80ee0957543383365d6835377aa47df72149803580f5fbd20",
+      "kind": "provenance",
+      "at": "2026-11-14T11:33:27.872097+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "norway-oil-field-approvals-ruling-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "norway-oil-field-approvals-ruling-2026-11-13",
+        "source_story_id": "norway-oil-field-approvals-ruling-2026-11-13",
+        "url": "articles/2026-11-14-midday/norway-oil-field-approvals-ruling-2026-11-13.html"
+      }
+    },
+    {
+      "id": "cba21cba720c79c17a5e7f61c800dbcb287c4c546a0abdbf12d395477009748f",
+      "kind": "provenance",
+      "at": "2026-11-14T11:33:27.872097+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "microsoft-365-outage-2026-11-12",
+      "origin": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "microsoft-365-outage-2026-11-12",
+        "source_story_id": "microsoft-365-outage-2026-11-12",
+        "url": "articles/2026-11-14-midday/microsoft-365-outage-2026-11-12.html"
+      }
+    },
+    {
+      "id": "def67e545cd44e4b1db1d55f4a38cf90139689375a339db88bbb6b41c123af10",
+      "kind": "provenance",
+      "at": "2026-11-14T11:33:27.872097+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-hope-for-children-education-tool-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "cyprus-hope-for-children-education-tool-2026-11-20",
+        "source_story_id": "cyprus-hope-for-children-education-tool-2026-11-20",
+        "url": "articles/2026-11-14-midday/cyprus-hope-for-children-education-tool-2026-11-20.html"
+      }
+    },
+    {
+      "id": "e3216065ca1e4abf94ebd1b81e35a16c28f9a4c9e401a9b2b1bedb695825c55d",
+      "kind": "provenance",
+      "at": "2026-11-14T11:33:27.872097+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "warner-cricket-australia-investigation-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-midday",
+        "article_id": "warner-cricket-australia-investigation-2026-11-14",
+        "source_story_id": "warner-cricket-australia-investigation-2026-11-14",
+        "url": "articles/2026-11-14-midday/warner-cricket-australia-investigation-2026-11-14.html"
       }
     }
   ],
@@ -577,16 +917,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Στη Νορβηγία, η ακύρωση των εγκρίσεων για τρία κοιτάσματα βάζει στο επίκεντρο τι πρέπει να περιλαμβάνει μια περιβαλλοντική αξιολόγηση. Για τις εταιρείες, το πρακτικό ερώτημα είναι αν θα απαιτηθεί νέα διαδικασία και με ποια κριτήρια. Στον ΟΗΕ, η Κύπρος συνυπογράφει τη στήριξη μιας κοινής πλατφόρμας για τη μεταφορά ανθρωπιστικής βοήθειας. Για τους φορείς που τη διανέμουν, το όφελος θα εξαρτηθεί από το αν οι κοινοί κανόνες περιορίζουν τις επικαλύψεις χωρίς να καθυστερούν επείγουσες αποστολές. Η ενημέρωση που ζήτησαν οι δωρητές για τον Δεκέμβριο θα δείξει αν υπάρχουν ήδη εφαρμόσιμες διαδικασίες και πώς θα τεκμηριώνονται οι εξαιρέσεις.",
+        "text": "Ο ΟΗΕ καταγράφει τουλάχιστον 25 νεκρούς ναυτικούς μέσα και γύρω από τα Στενά του Ορμούζ από την έναρξη του πολέμου τον Φεβρουάριο. Για τα πληρώματα και τις ναυτιλιακές, έχει σημασία αν οι επόμενες καταγραφές θα δείξουν αποκλιμάκωση στην ίδια περιοχή και σε συγκρίσιμα χρονικά διαστήματα. Στην Κύπρο, ο υπουργός Εσωτερικών εκτιμά ότι το Build to Rent θα δώσει πάνω από 1.100 προσιτές κατοικίες στην επόμενη διετία. Για τους ενοικιαστές, η πρώτη ουσιαστική ένδειξη θα είναι πόσα έργα προχωρούν σε κατασκευή και με ποιους όρους θα διατεθούν τα σπίτια.",
         "story_ids": [
-          "norway-oil-field-approvals-ruling-2026-11-13",
-          "cyprus-un80-humanitarian-supply-chain-2026-11-13"
+          "hormuz-un-seafarer-toll-2026-11-14",
+          "cyprus-built-to-rent-supply-2026-11-14"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-14T05:33:14.985869+00:00",
-  "updated_at": "2026-11-14T05:33:14.985869+00:00",
-  "input_sha256": "5fe2e6163939060216d06c94d9d2dbb7748b244b19c34ddf34b3b5d6f8ffb6a3"
+  "updated_at": "2026-11-14T11:35:45.399291+00:00",
+  "input_sha256": "dabfadc7a7625a8b534654986b729e8fa2086c94a1aa11884eff93a96c8b32a5"
 }
