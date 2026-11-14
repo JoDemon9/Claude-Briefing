@@ -16,12 +16,16 @@
       "type": "midday",
       "url": "midday/2026-11-14.html",
       "published_at": "2026-11-14T11:33:27.872097+00:00"
+    },
+    {
+      "id": "2026-11-14-evening",
+      "type": "evening",
+      "url": "evening/2026-11-14.html",
+      "published_at": "2026-11-14T17:34:21.871570+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "hormuz-un-seafarer-toll-2026-11-14",
+  "missing_slots": [],
+  "lead_story_id": "meta-italy-data-protection-fine-2026-11-14",
   "stories": [
     {
       "story_id": "hormuz-un-seafarer-toll-2026-11-14",
@@ -33,13 +37,40 @@
           "article_id": "hormuz-un-seafarer-toll-2026-11-14",
           "source_story_id": "hormuz-un-seafarer-toll-2026-11-14",
           "url": "articles/2026-11-14-midday/hormuz-un-seafarer-toll-2026-11-14.html"
+        },
+        {
+          "edition_id": "2026-11-14-evening",
+          "article_id": "hormuz-un-seafarer-toll-2026-11-14",
+          "source_story_id": "hormuz-un-seafarer-toll-2026-11-14",
+          "url": "articles/2026-11-14-evening/hormuz-un-seafarer-toll-2026-11-14.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-midday",
+        "edition_id": "2026-11-14-evening",
         "article_id": "hormuz-un-seafarer-toll-2026-11-14",
         "source_story_id": "hormuz-un-seafarer-toll-2026-11-14",
-        "url": "articles/2026-11-14-midday/hormuz-un-seafarer-toll-2026-11-14.html"
+        "url": "articles/2026-11-14-evening/hormuz-un-seafarer-toll-2026-11-14.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "meta-italy-data-protection-fine-2026-11-14",
+      "first_seen_at": "2026-11-14T17:34:21.871570+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-14-evening",
+          "article_id": "meta-italy-data-protection-fine-2026-11-14",
+          "source_story_id": "meta-italy-data-protection-fine-2026-11-14",
+          "url": "articles/2026-11-14-evening/meta-italy-data-protection-fine-2026-11-14.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "meta-italy-data-protection-fine-2026-11-14",
+        "source_story_id": "meta-italy-data-protection-fine-2026-11-14",
+        "url": "articles/2026-11-14-evening/meta-italy-data-protection-fine-2026-11-14.html"
       },
       "section": "world",
       "priority": 1
@@ -60,13 +91,19 @@
           "article_id": "norway-oil-field-approvals-ruling-2026-11-13",
           "source_story_id": "norway-oil-field-approvals-ruling-2026-11-13",
           "url": "articles/2026-11-14-midday/norway-oil-field-approvals-ruling-2026-11-13.html"
+        },
+        {
+          "edition_id": "2026-11-14-evening",
+          "article_id": "norway-oil-field-approvals-ruling-2026-11-13",
+          "source_story_id": "norway-oil-field-approvals-ruling-2026-11-13",
+          "url": "articles/2026-11-14-evening/norway-oil-field-approvals-ruling-2026-11-13.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-midday",
+        "edition_id": "2026-11-14-evening",
         "article_id": "norway-oil-field-approvals-ruling-2026-11-13",
         "source_story_id": "norway-oil-field-approvals-ruling-2026-11-13",
-        "url": "articles/2026-11-14-midday/norway-oil-field-approvals-ruling-2026-11-13.html"
+        "url": "articles/2026-11-14-evening/norway-oil-field-approvals-ruling-2026-11-13.html"
       },
       "section": "world",
       "priority": 1
@@ -87,16 +124,64 @@
           "article_id": "microsoft-365-outage-2026-11-12",
           "source_story_id": "microsoft-365-outage-2026-11-12",
           "url": "articles/2026-11-14-midday/microsoft-365-outage-2026-11-12.html"
+        },
+        {
+          "edition_id": "2026-11-14-evening",
+          "article_id": "microsoft-365-outage-2026-11-12",
+          "source_story_id": "microsoft-365-outage-2026-11-12",
+          "url": "articles/2026-11-14-evening/microsoft-365-outage-2026-11-12.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-midday",
+        "edition_id": "2026-11-14-evening",
         "article_id": "microsoft-365-outage-2026-11-12",
         "source_story_id": "microsoft-365-outage-2026-11-12",
-        "url": "articles/2026-11-14-midday/microsoft-365-outage-2026-11-12.html"
+        "url": "articles/2026-11-14-evening/microsoft-365-outage-2026-11-12.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "spain-chambers-us-extradition-hearing-2026-11-13",
+      "first_seen_at": "2026-11-14T17:34:21.871570+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-14-evening",
+          "article_id": "spain-chambers-us-extradition-hearing-2026-11-13",
+          "source_story_id": "spain-chambers-us-extradition-hearing-2026-11-13",
+          "url": "articles/2026-11-14-evening/spain-chambers-us-extradition-hearing-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "spain-chambers-us-extradition-hearing-2026-11-13",
+        "source_story_id": "spain-chambers-us-extradition-hearing-2026-11-13",
+        "url": "articles/2026-11-14-evening/spain-chambers-us-extradition-hearing-2026-11-13.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "cyprus-regular-blood-donors-2026-11-14",
+      "first_seen_at": "2026-11-14T17:34:21.871570+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-14-evening",
+          "article_id": "cyprus-regular-blood-donors-2026-11-14",
+          "source_story_id": "cyprus-regular-blood-donors-2026-11-14",
+          "url": "articles/2026-11-14-evening/cyprus-regular-blood-donors-2026-11-14.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "cyprus-regular-blood-donors-2026-11-14",
+        "source_story_id": "cyprus-regular-blood-donors-2026-11-14",
+        "url": "articles/2026-11-14-evening/cyprus-regular-blood-donors-2026-11-14.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "google-tpu-8tx-8i-max-2026-11-14",
@@ -156,13 +241,19 @@
           "article_id": "cyprus-built-to-rent-supply-2026-11-14",
           "source_story_id": "cyprus-built-to-rent-supply-2026-11-14",
           "url": "articles/2026-11-14-midday/cyprus-built-to-rent-supply-2026-11-14.html"
+        },
+        {
+          "edition_id": "2026-11-14-evening",
+          "article_id": "cyprus-built-to-rent-supply-2026-11-14",
+          "source_story_id": "cyprus-built-to-rent-supply-2026-11-14",
+          "url": "articles/2026-11-14-evening/cyprus-built-to-rent-supply-2026-11-14.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-midday",
+        "edition_id": "2026-11-14-evening",
         "article_id": "cyprus-built-to-rent-supply-2026-11-14",
         "source_story_id": "cyprus-built-to-rent-supply-2026-11-14",
-        "url": "articles/2026-11-14-midday/cyprus-built-to-rent-supply-2026-11-14.html"
+        "url": "articles/2026-11-14-evening/cyprus-built-to-rent-supply-2026-11-14.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -183,13 +274,40 @@
           "article_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
           "source_story_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
           "url": "articles/2026-11-14-midday/cyprus-un80-humanitarian-supply-chain-2026-11-13.html"
+        },
+        {
+          "edition_id": "2026-11-14-evening",
+          "article_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
+          "source_story_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
+          "url": "articles/2026-11-14-evening/cyprus-un80-humanitarian-supply-chain-2026-11-13.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-midday",
+        "edition_id": "2026-11-14-evening",
         "article_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
         "source_story_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
-        "url": "articles/2026-11-14-midday/cyprus-un80-humanitarian-supply-chain-2026-11-13.html"
+        "url": "articles/2026-11-14-evening/cyprus-un80-humanitarian-supply-chain-2026-11-13.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "gsi-french-diplomatic-note-2026-11-14",
+      "first_seen_at": "2026-11-14T17:34:21.871570+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-14-evening",
+          "article_id": "gsi-french-diplomatic-note-2026-11-14",
+          "source_story_id": "gsi-french-diplomatic-note-2026-11-14",
+          "url": "articles/2026-11-14-evening/gsi-french-diplomatic-note-2026-11-14.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "gsi-french-diplomatic-note-2026-11-14",
+        "source_story_id": "gsi-french-diplomatic-note-2026-11-14",
+        "url": "articles/2026-11-14-evening/gsi-french-diplomatic-note-2026-11-14.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -258,13 +376,19 @@
           "article_id": "cyprus-hope-for-children-education-tool-2026-11-20",
           "source_story_id": "cyprus-hope-for-children-education-tool-2026-11-20",
           "url": "articles/2026-11-14-midday/cyprus-hope-for-children-education-tool-2026-11-20.html"
+        },
+        {
+          "edition_id": "2026-11-14-evening",
+          "article_id": "cyprus-hope-for-children-education-tool-2026-11-20",
+          "source_story_id": "cyprus-hope-for-children-education-tool-2026-11-20",
+          "url": "articles/2026-11-14-evening/cyprus-hope-for-children-education-tool-2026-11-20.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-midday",
+        "edition_id": "2026-11-14-evening",
         "article_id": "cyprus-hope-for-children-education-tool-2026-11-20",
         "source_story_id": "cyprus-hope-for-children-education-tool-2026-11-20",
-        "url": "articles/2026-11-14-midday/cyprus-hope-for-children-education-tool-2026-11-20.html"
+        "url": "articles/2026-11-14-evening/cyprus-hope-for-children-education-tool-2026-11-20.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -279,13 +403,19 @@
           "article_id": "warner-cricket-australia-investigation-2026-11-14",
           "source_story_id": "warner-cricket-australia-investigation-2026-11-14",
           "url": "articles/2026-11-14-midday/warner-cricket-australia-investigation-2026-11-14.html"
+        },
+        {
+          "edition_id": "2026-11-14-evening",
+          "article_id": "warner-cricket-australia-investigation-2026-11-14",
+          "source_story_id": "warner-cricket-australia-investigation-2026-11-14",
+          "url": "articles/2026-11-14-evening/warner-cricket-australia-investigation-2026-11-14.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-midday",
+        "edition_id": "2026-11-14-evening",
         "article_id": "warner-cricket-australia-investigation-2026-11-14",
         "source_story_id": "warner-cricket-australia-investigation-2026-11-14",
-        "url": "articles/2026-11-14-midday/warner-cricket-australia-investigation-2026-11-14.html"
+        "url": "articles/2026-11-14-evening/warner-cricket-australia-investigation-2026-11-14.html"
       },
       "section": "sports",
       "priority": 6
@@ -327,13 +457,19 @@
           "article_id": "dubai-p1-semifinals-2026-11-14",
           "source_story_id": "dubai-p1-semifinals-2026-11-14",
           "url": "articles/2026-11-14-midday/dubai-p1-semifinals-2026-11-14.html"
+        },
+        {
+          "edition_id": "2026-11-14-evening",
+          "article_id": "dubai-p1-semifinals-2026-11-14",
+          "source_story_id": "dubai-p1-semifinals-2026-11-14",
+          "url": "articles/2026-11-14-evening/dubai-p1-semifinals-2026-11-14.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-midday",
+        "edition_id": "2026-11-14-evening",
         "article_id": "dubai-p1-semifinals-2026-11-14",
         "source_story_id": "dubai-p1-semifinals-2026-11-14",
-        "url": "articles/2026-11-14-midday/dubai-p1-semifinals-2026-11-14.html"
+        "url": "articles/2026-11-14-evening/dubai-p1-semifinals-2026-11-14.html"
       },
       "section": "sports",
       "priority": 8
@@ -354,13 +490,19 @@
           "article_id": "efl-social-media-warning-2026-11-13",
           "source_story_id": "efl-social-media-warning-2026-11-13",
           "url": "articles/2026-11-14-midday/efl-social-media-warning-2026-11-13.html"
+        },
+        {
+          "edition_id": "2026-11-14-evening",
+          "article_id": "efl-social-media-warning-2026-11-13",
+          "source_story_id": "efl-social-media-warning-2026-11-13",
+          "url": "articles/2026-11-14-evening/efl-social-media-warning-2026-11-13.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-14-midday",
+        "edition_id": "2026-11-14-evening",
         "article_id": "efl-social-media-warning-2026-11-13",
         "source_story_id": "efl-social-media-warning-2026-11-13",
-        "url": "articles/2026-11-14-midday/efl-social-media-warning-2026-11-13.html"
+        "url": "articles/2026-11-14-evening/efl-social-media-warning-2026-11-13.html"
       },
       "section": "sports",
       "priority": 9
@@ -709,6 +851,188 @@
         "source_story_id": "warner-cricket-australia-investigation-2026-11-14",
         "url": "articles/2026-11-14-midday/warner-cricket-australia-investigation-2026-11-14.html"
       }
+    },
+    {
+      "id": "345f126adee553077c6a61cc59600d0c0aae463e863acd1a9eb40be7162a24d0",
+      "kind": "provenance",
+      "at": "2026-11-14T17:34:21.871570+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-regular-blood-donors-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "cyprus-regular-blood-donors-2026-11-14",
+        "source_story_id": "cyprus-regular-blood-donors-2026-11-14",
+        "url": "articles/2026-11-14-evening/cyprus-regular-blood-donors-2026-11-14.html"
+      }
+    },
+    {
+      "id": "36b4c1c55186f913b06b0d905cc1dfa7ff95706d2585d6f75c5f007e159b9259",
+      "kind": "provenance",
+      "at": "2026-11-14T17:34:21.871570+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "microsoft-365-outage-2026-11-12",
+      "origin": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "microsoft-365-outage-2026-11-12",
+        "source_story_id": "microsoft-365-outage-2026-11-12",
+        "url": "articles/2026-11-14-evening/microsoft-365-outage-2026-11-12.html"
+      }
+    },
+    {
+      "id": "4f68b8d12625b98debf0aed9b0bc86477a2ba6c615dbe7d0d2c28e4c8da6a8cd",
+      "kind": "provenance",
+      "at": "2026-11-14T17:34:21.871570+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
+        "source_story_id": "cyprus-un80-humanitarian-supply-chain-2026-11-13",
+        "url": "articles/2026-11-14-evening/cyprus-un80-humanitarian-supply-chain-2026-11-13.html"
+      }
+    },
+    {
+      "id": "5709952c29bca044b4acd690127113552ff418a0fa624ef3f0263359b8b2bb91",
+      "kind": "provenance",
+      "at": "2026-11-14T17:34:21.871570+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "efl-social-media-warning-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "efl-social-media-warning-2026-11-13",
+        "source_story_id": "efl-social-media-warning-2026-11-13",
+        "url": "articles/2026-11-14-evening/efl-social-media-warning-2026-11-13.html"
+      }
+    },
+    {
+      "id": "5cbb841c7f56fd653c6b0f1cea5a720f2a4a5907c3ff87f61838dbfcdebefa25",
+      "kind": "provenance",
+      "at": "2026-11-14T17:34:21.871570+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "meta-italy-data-protection-fine-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "meta-italy-data-protection-fine-2026-11-14",
+        "source_story_id": "meta-italy-data-protection-fine-2026-11-14",
+        "url": "articles/2026-11-14-evening/meta-italy-data-protection-fine-2026-11-14.html"
+      }
+    },
+    {
+      "id": "95cbb5ade468df151841844a327c2689477e0b9867a698e0688fc06e5d6064d1",
+      "kind": "provenance",
+      "at": "2026-11-14T17:34:21.871570+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "warner-cricket-australia-investigation-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "warner-cricket-australia-investigation-2026-11-14",
+        "source_story_id": "warner-cricket-australia-investigation-2026-11-14",
+        "url": "articles/2026-11-14-evening/warner-cricket-australia-investigation-2026-11-14.html"
+      }
+    },
+    {
+      "id": "b3d8d4200291fa15615950b5788d68f1296b789579b01779231d5b5f32f019a6",
+      "kind": "provenance",
+      "at": "2026-11-14T17:34:21.871570+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "dubai-p1-semifinals-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "dubai-p1-semifinals-2026-11-14",
+        "source_story_id": "dubai-p1-semifinals-2026-11-14",
+        "url": "articles/2026-11-14-evening/dubai-p1-semifinals-2026-11-14.html"
+      }
+    },
+    {
+      "id": "c6565e5dc55c892d710c4a9e97af7ad804bef4fabb98d82666423b93f97a6456",
+      "kind": "provenance",
+      "at": "2026-11-14T17:34:21.871570+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-hope-for-children-education-tool-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "cyprus-hope-for-children-education-tool-2026-11-20",
+        "source_story_id": "cyprus-hope-for-children-education-tool-2026-11-20",
+        "url": "articles/2026-11-14-evening/cyprus-hope-for-children-education-tool-2026-11-20.html"
+      }
+    },
+    {
+      "id": "de906231192564582f13a7c298f0d09d9f2c603510e849e8aa0d3778be97c0c4",
+      "kind": "provenance",
+      "at": "2026-11-14T17:34:21.871570+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "gsi-french-diplomatic-note-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "gsi-french-diplomatic-note-2026-11-14",
+        "source_story_id": "gsi-french-diplomatic-note-2026-11-14",
+        "url": "articles/2026-11-14-evening/gsi-french-diplomatic-note-2026-11-14.html"
+      }
+    },
+    {
+      "id": "e1e839855c348936e5c0c0c830349ec6e9f986b1b4101364db24e54008b9eb8f",
+      "kind": "provenance",
+      "at": "2026-11-14T17:34:21.871570+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "norway-oil-field-approvals-ruling-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "norway-oil-field-approvals-ruling-2026-11-13",
+        "source_story_id": "norway-oil-field-approvals-ruling-2026-11-13",
+        "url": "articles/2026-11-14-evening/norway-oil-field-approvals-ruling-2026-11-13.html"
+      }
+    },
+    {
+      "id": "efde5e481ddc232469f151aefa281bb35332de58d97fb19feed11c7b2f9914f9",
+      "kind": "provenance",
+      "at": "2026-11-14T17:34:21.871570+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-built-to-rent-supply-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "cyprus-built-to-rent-supply-2026-11-14",
+        "source_story_id": "cyprus-built-to-rent-supply-2026-11-14",
+        "url": "articles/2026-11-14-evening/cyprus-built-to-rent-supply-2026-11-14.html"
+      }
+    },
+    {
+      "id": "fb42194a557d2b88cc0999bfcbab211ab3e7e9bb9a4ec001aad47ffc92fd8fb2",
+      "kind": "provenance",
+      "at": "2026-11-14T17:34:21.871570+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "spain-chambers-us-extradition-hearing-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "spain-chambers-us-extradition-hearing-2026-11-13",
+        "source_story_id": "spain-chambers-us-extradition-hearing-2026-11-13",
+        "url": "articles/2026-11-14-evening/spain-chambers-us-extradition-hearing-2026-11-13.html"
+      }
+    },
+    {
+      "id": "feed55e6e8f3f7513f1cfc48fe8e59fe9cf9e3d2ad9f8c450be5e934bc6c2863",
+      "kind": "provenance",
+      "at": "2026-11-14T17:34:21.871570+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "hormuz-un-seafarer-toll-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-14-evening",
+        "article_id": "hormuz-un-seafarer-toll-2026-11-14",
+        "source_story_id": "hormuz-un-seafarer-toll-2026-11-14",
+        "url": "articles/2026-11-14-evening/hormuz-un-seafarer-toll-2026-11-14.html"
+      }
     }
   ],
   "opportunities": [
@@ -917,16 +1241,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Ο ΟΗΕ καταγράφει τουλάχιστον 25 νεκρούς ναυτικούς μέσα και γύρω από τα Στενά του Ορμούζ από την έναρξη του πολέμου τον Φεβρουάριο. Για τα πληρώματα και τις ναυτιλιακές, έχει σημασία αν οι επόμενες καταγραφές θα δείξουν αποκλιμάκωση στην ίδια περιοχή και σε συγκρίσιμα χρονικά διαστήματα. Στην Κύπρο, ο υπουργός Εσωτερικών εκτιμά ότι το Build to Rent θα δώσει πάνω από 1.100 προσιτές κατοικίες στην επόμενη διετία. Για τους ενοικιαστές, η πρώτη ουσιαστική ένδειξη θα είναι πόσα έργα προχωρούν σε κατασκευή και με ποιους όρους θα διατεθούν τα σπίτια.",
+        "text": "Η ιταλική αρχή προστασίας δεδομένων ανακοίνωσε πρόστιμο στη Meta για φερόμενη πρόσβαση σε φωτογραφίες και βίντεο χρηστών χωρίς ενημέρωση ή συγκατάθεση. Για τους χρήστες, το επόμενο ουσιαστικό στοιχείο είναι αν η απόφαση απαιτεί και αλλαγές στον τρόπο πρόσβασης στο υλικό τους. Στην Κύπρο, το Υπουργείο Υγείας θέλει περισσότερους τακτικούς αιμοδότες ώστε η προσφορά αίματος να ανταποκρίνεται σε επαναλαμβανόμενες ανάγκες, όπως αυτές ασθενών με θαλασσαιμία. Η συμμετοχή σε μία αιμοδοσία βοηθά άμεσα· για την επάρκεια σε βάθος χρόνου θα μετρήσει πόσοι δότες επιστρέφουν και αν περιορίζονται τα κενά στα αποθέματα.",
         "story_ids": [
-          "hormuz-un-seafarer-toll-2026-11-14",
-          "cyprus-built-to-rent-supply-2026-11-14"
+          "meta-italy-data-protection-fine-2026-11-14",
+          "cyprus-regular-blood-donors-2026-11-14"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-14T05:33:14.985869+00:00",
-  "updated_at": "2026-11-14T11:35:45.399291+00:00",
-  "input_sha256": "dabfadc7a7625a8b534654986b729e8fa2086c94a1aa11884eff93a96c8b32a5"
+  "updated_at": "2026-11-14T17:36:01.183136+00:00",
+  "input_sha256": "d46771443e266dfc210eae330e76466b44b35a3762a1cad899852d0ba3f7c8ea"
 }
