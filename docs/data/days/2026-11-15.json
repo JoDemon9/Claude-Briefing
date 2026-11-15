@@ -10,14 +10,40 @@
       "type": "morning",
       "url": "morning/2026-11-15.html",
       "published_at": "2026-11-15T05:35:01.967838+00:00"
+    },
+    {
+      "id": "2026-11-15-midday",
+      "type": "midday",
+      "url": "midday/2026-11-15.html",
+      "published_at": "2026-11-15T11:30:32.729954+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "nvidia-board-security-review-2026-11-08",
+  "lead_story_id": "bahrain-iran-airbase-strike-2026-11-15",
   "stories": [
+    {
+      "story_id": "bahrain-iran-airbase-strike-2026-11-15",
+      "first_seen_at": "2026-11-15T11:30:32.729954+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-15-midday",
+          "article_id": "bahrain-iran-airbase-strike-2026-11-15",
+          "source_story_id": "bahrain-iran-airbase-strike-2026-11-15",
+          "url": "articles/2026-11-15-midday/bahrain-iran-airbase-strike-2026-11-15.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "bahrain-iran-airbase-strike-2026-11-15",
+        "source_story_id": "bahrain-iran-airbase-strike-2026-11-15",
+        "url": "articles/2026-11-15-midday/bahrain-iran-airbase-strike-2026-11-15.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "nvidia-board-security-review-2026-11-08",
       "first_seen_at": "2026-11-15T05:35:01.967838+00:00",
@@ -28,16 +54,43 @@
           "article_id": "nvidia-board-security-review-2026-11-08",
           "source_story_id": "nvidia-board-security-review-2026-11-08",
           "url": "articles/2026-11-15-morning/nvidia-board-security-review-2026-11-08.html"
+        },
+        {
+          "edition_id": "2026-11-15-midday",
+          "article_id": "nvidia-board-security-review-2026-11-08",
+          "source_story_id": "nvidia-board-security-review-2026-11-08",
+          "url": "articles/2026-11-15-midday/nvidia-board-security-review-2026-11-08.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-morning",
+        "edition_id": "2026-11-15-midday",
         "article_id": "nvidia-board-security-review-2026-11-08",
         "source_story_id": "nvidia-board-security-review-2026-11-08",
-        "url": "articles/2026-11-15-morning/nvidia-board-security-review-2026-11-08.html"
+        "url": "articles/2026-11-15-midday/nvidia-board-security-review-2026-11-08.html"
       },
       "section": "world",
       "priority": 1
+    },
+    {
+      "story_id": "gaza-younis-death-2026-11-15",
+      "first_seen_at": "2026-11-15T11:30:32.729954+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-15-midday",
+          "article_id": "gaza-younis-death-2026-11-15",
+          "source_story_id": "gaza-younis-death-2026-11-15",
+          "url": "articles/2026-11-15-midday/gaza-younis-death-2026-11-15.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "gaza-younis-death-2026-11-15",
+        "source_story_id": "gaza-younis-death-2026-11-15",
+        "url": "articles/2026-11-15-midday/gaza-younis-death-2026-11-15.html"
+      },
+      "section": "world",
+      "priority": 2
     },
     {
       "story_id": "uk-bank-of-england-rate-outlook-2026-11-15",
@@ -49,16 +102,43 @@
           "article_id": "uk-bank-of-england-rate-outlook-2026-11-15",
           "source_story_id": "uk-bank-of-england-rate-outlook-2026-11-15",
           "url": "articles/2026-11-15-morning/uk-bank-of-england-rate-outlook-2026-11-15.html"
+        },
+        {
+          "edition_id": "2026-11-15-midday",
+          "article_id": "uk-bank-of-england-rate-outlook-2026-11-15",
+          "source_story_id": "uk-bank-of-england-rate-outlook-2026-11-15",
+          "url": "articles/2026-11-15-midday/uk-bank-of-england-rate-outlook-2026-11-15.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-morning",
+        "edition_id": "2026-11-15-midday",
         "article_id": "uk-bank-of-england-rate-outlook-2026-11-15",
         "source_story_id": "uk-bank-of-england-rate-outlook-2026-11-15",
-        "url": "articles/2026-11-15-morning/uk-bank-of-england-rate-outlook-2026-11-15.html"
+        "url": "articles/2026-11-15-midday/uk-bank-of-england-rate-outlook-2026-11-15.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "cape-verde-presidential-election-2026-11-15",
+      "first_seen_at": "2026-11-15T11:30:32.729954+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-15-midday",
+          "article_id": "cape-verde-presidential-election-2026-11-15",
+          "source_story_id": "cape-verde-presidential-election-2026-11-15",
+          "url": "articles/2026-11-15-midday/cape-verde-presidential-election-2026-11-15.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "cape-verde-presidential-election-2026-11-15",
+        "source_story_id": "cape-verde-presidential-election-2026-11-15",
+        "url": "articles/2026-11-15-midday/cape-verde-presidential-election-2026-11-15.html"
+      },
+      "section": "world",
+      "priority": 3
     },
     {
       "story_id": "cyprus-greens-electoral-congress-2026-11-14",
@@ -70,16 +150,43 @@
           "article_id": "cyprus-greens-electoral-congress-2026-11-14",
           "source_story_id": "cyprus-greens-electoral-congress-2026-11-14",
           "url": "articles/2026-11-15-morning/cyprus-greens-electoral-congress-2026-11-14.html"
+        },
+        {
+          "edition_id": "2026-11-15-midday",
+          "article_id": "cyprus-greens-electoral-congress-2026-11-14",
+          "source_story_id": "cyprus-greens-electoral-congress-2026-11-14",
+          "url": "articles/2026-11-15-midday/cyprus-greens-electoral-congress-2026-11-14.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-morning",
+        "edition_id": "2026-11-15-midday",
         "article_id": "cyprus-greens-electoral-congress-2026-11-14",
         "source_story_id": "cyprus-greens-electoral-congress-2026-11-14",
-        "url": "articles/2026-11-15-morning/cyprus-greens-electoral-congress-2026-11-14.html"
+        "url": "articles/2026-11-15-midday/cyprus-greens-electoral-congress-2026-11-14.html"
       },
       "section": "cyprus",
       "priority": 3
+    },
+    {
+      "story_id": "cyprus-1983-declaration-anniversary-2026-11-15",
+      "first_seen_at": "2026-11-15T11:30:32.729954+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-15-midday",
+          "article_id": "cyprus-1983-declaration-anniversary-2026-11-15",
+          "source_story_id": "cyprus-1983-declaration-anniversary-2026-11-15",
+          "url": "articles/2026-11-15-midday/cyprus-1983-declaration-anniversary-2026-11-15.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "cyprus-1983-declaration-anniversary-2026-11-15",
+        "source_story_id": "cyprus-1983-declaration-anniversary-2026-11-15",
+        "url": "articles/2026-11-15-midday/cyprus-1983-declaration-anniversary-2026-11-15.html"
+      },
+      "section": "cyprus",
+      "priority": 4
     },
     {
       "story_id": "cyprus-crossings-implementation-2026-11-15",
@@ -91,13 +198,19 @@
           "article_id": "cyprus-crossings-implementation-2026-11-15",
           "source_story_id": "cyprus-crossings-implementation-2026-11-15",
           "url": "articles/2026-11-15-morning/cyprus-crossings-implementation-2026-11-15.html"
+        },
+        {
+          "edition_id": "2026-11-15-midday",
+          "article_id": "cyprus-crossings-implementation-2026-11-15",
+          "source_story_id": "cyprus-crossings-implementation-2026-11-15",
+          "url": "articles/2026-11-15-midday/cyprus-crossings-implementation-2026-11-15.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-morning",
+        "edition_id": "2026-11-15-midday",
         "article_id": "cyprus-crossings-implementation-2026-11-15",
         "source_story_id": "cyprus-crossings-implementation-2026-11-15",
-        "url": "articles/2026-11-15-morning/cyprus-crossings-implementation-2026-11-15.html"
+        "url": "articles/2026-11-15-midday/cyprus-crossings-implementation-2026-11-15.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -112,13 +225,40 @@
           "article_id": "cyprus-gas-storage-market-comparison-2026-11-15",
           "source_story_id": "cyprus-gas-storage-market-comparison-2026-11-15",
           "url": "articles/2026-11-15-morning/cyprus-gas-storage-market-comparison-2026-11-15.html"
+        },
+        {
+          "edition_id": "2026-11-15-midday",
+          "article_id": "cyprus-gas-storage-market-comparison-2026-11-15",
+          "source_story_id": "cyprus-gas-storage-market-comparison-2026-11-15",
+          "url": "articles/2026-11-15-midday/cyprus-gas-storage-market-comparison-2026-11-15.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-morning",
+        "edition_id": "2026-11-15-midday",
         "article_id": "cyprus-gas-storage-market-comparison-2026-11-15",
         "source_story_id": "cyprus-gas-storage-market-comparison-2026-11-15",
-        "url": "articles/2026-11-15-morning/cyprus-gas-storage-market-comparison-2026-11-15.html"
+        "url": "articles/2026-11-15-midday/cyprus-gas-storage-market-comparison-2026-11-15.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "limassol-port-detention-2026-11-15",
+      "first_seen_at": "2026-11-15T11:30:32.729954+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-15-midday",
+          "article_id": "limassol-port-detention-2026-11-15",
+          "source_story_id": "limassol-port-detention-2026-11-15",
+          "url": "articles/2026-11-15-midday/limassol-port-detention-2026-11-15.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "limassol-port-detention-2026-11-15",
+        "source_story_id": "limassol-port-detention-2026-11-15",
+        "url": "articles/2026-11-15-midday/limassol-port-detention-2026-11-15.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -145,6 +285,27 @@
       "priority": 6
     },
     {
+      "story_id": "wales-new-zealand-rugby-win-2026-11-14",
+      "first_seen_at": "2026-11-15T11:30:32.729954+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-15-midday",
+          "article_id": "wales-new-zealand-rugby-win-2026-11-14",
+          "source_story_id": "wales-new-zealand-rugby-win-2026-11-14",
+          "url": "articles/2026-11-15-midday/wales-new-zealand-rugby-win-2026-11-14.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "wales-new-zealand-rugby-win-2026-11-14",
+        "source_story_id": "wales-new-zealand-rugby-win-2026-11-14",
+        "url": "articles/2026-11-15-midday/wales-new-zealand-rugby-win-2026-11-14.html"
+      },
+      "section": "sports",
+      "priority": 6
+    },
+    {
       "story_id": "dubai-p1-finals-2026-11-15",
       "first_seen_at": "2026-11-15T05:35:01.967838+00:00",
       "last_substantive_at": null,
@@ -154,13 +315,19 @@
           "article_id": "dubai-p1-finals-2026-11-15",
           "source_story_id": "dubai-p1-finals-2026-11-15",
           "url": "articles/2026-11-15-morning/dubai-p1-finals-2026-11-15.html"
+        },
+        {
+          "edition_id": "2026-11-15-midday",
+          "article_id": "dubai-p1-finals-2026-11-15",
+          "source_story_id": "dubai-p1-finals-2026-11-15",
+          "url": "articles/2026-11-15-midday/dubai-p1-finals-2026-11-15.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-morning",
+        "edition_id": "2026-11-15-midday",
         "article_id": "dubai-p1-finals-2026-11-15",
         "source_story_id": "dubai-p1-finals-2026-11-15",
-        "url": "articles/2026-11-15-morning/dubai-p1-finals-2026-11-15.html"
+        "url": "articles/2026-11-15-midday/dubai-p1-finals-2026-11-15.html"
       },
       "section": "sports",
       "priority": 7
@@ -175,13 +342,19 @@
           "article_id": "northern-ireland-devlin-first-goal-2026-11-14",
           "source_story_id": "northern-ireland-devlin-first-goal-2026-11-14",
           "url": "articles/2026-11-15-morning/northern-ireland-devlin-first-goal-2026-11-14.html"
+        },
+        {
+          "edition_id": "2026-11-15-midday",
+          "article_id": "northern-ireland-devlin-first-goal-2026-11-14",
+          "source_story_id": "northern-ireland-devlin-first-goal-2026-11-14",
+          "url": "articles/2026-11-15-midday/northern-ireland-devlin-first-goal-2026-11-14.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-morning",
+        "edition_id": "2026-11-15-midday",
         "article_id": "northern-ireland-devlin-first-goal-2026-11-14",
         "source_story_id": "northern-ireland-devlin-first-goal-2026-11-14",
-        "url": "articles/2026-11-15-morning/northern-ireland-devlin-first-goal-2026-11-14.html"
+        "url": "articles/2026-11-15-midday/northern-ireland-devlin-first-goal-2026-11-14.html"
       },
       "section": "sports",
       "priority": 8
@@ -333,6 +506,188 @@
         "article_id": "cyprus-presidential-nominations-2028-2026-11-15",
         "source_story_id": "cyprus-presidential-nominations-2028-2026-11-15",
         "url": "articles/2026-11-15-morning/cyprus-presidential-nominations-2028-2026-11-15.html"
+      }
+    },
+    {
+      "id": "0f10edf67f64b39169c8302df9f02eaa8946cd3e8d42473ecc792aecfa1dbe48",
+      "kind": "provenance",
+      "at": "2026-11-15T11:30:32.729954+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-bank-of-england-rate-outlook-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "uk-bank-of-england-rate-outlook-2026-11-15",
+        "source_story_id": "uk-bank-of-england-rate-outlook-2026-11-15",
+        "url": "articles/2026-11-15-midday/uk-bank-of-england-rate-outlook-2026-11-15.html"
+      }
+    },
+    {
+      "id": "3aecb8561ca77fea7368dad675919423313f6d7fcca63f05743ee09db795dac3",
+      "kind": "provenance",
+      "at": "2026-11-15T11:30:32.729954+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-1983-declaration-anniversary-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "cyprus-1983-declaration-anniversary-2026-11-15",
+        "source_story_id": "cyprus-1983-declaration-anniversary-2026-11-15",
+        "url": "articles/2026-11-15-midday/cyprus-1983-declaration-anniversary-2026-11-15.html"
+      }
+    },
+    {
+      "id": "438880bd5c958bff38ad838520bcf8aa4b991047a58189aadc0bb5208f50f654",
+      "kind": "provenance",
+      "at": "2026-11-15T11:30:32.729954+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "dubai-p1-finals-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "dubai-p1-finals-2026-11-15",
+        "source_story_id": "dubai-p1-finals-2026-11-15",
+        "url": "articles/2026-11-15-midday/dubai-p1-finals-2026-11-15.html"
+      }
+    },
+    {
+      "id": "465d46a51ba3c2ac8acc13553ef4dc795b5a087b06e8064fa2ffb993db025a77",
+      "kind": "provenance",
+      "at": "2026-11-15T11:30:32.729954+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-gas-storage-market-comparison-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "cyprus-gas-storage-market-comparison-2026-11-15",
+        "source_story_id": "cyprus-gas-storage-market-comparison-2026-11-15",
+        "url": "articles/2026-11-15-midday/cyprus-gas-storage-market-comparison-2026-11-15.html"
+      }
+    },
+    {
+      "id": "572015f77e9ccbd28fd7894a8aa274dfdd9798c7da4327caac67a03a18e529f9",
+      "kind": "provenance",
+      "at": "2026-11-15T11:30:32.729954+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "northern-ireland-devlin-first-goal-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "northern-ireland-devlin-first-goal-2026-11-14",
+        "source_story_id": "northern-ireland-devlin-first-goal-2026-11-14",
+        "url": "articles/2026-11-15-midday/northern-ireland-devlin-first-goal-2026-11-14.html"
+      }
+    },
+    {
+      "id": "5c9de2e13fd29f91572c4d60873b8e2503827274cd616586122172e0a975bff1",
+      "kind": "provenance",
+      "at": "2026-11-15T11:30:32.729954+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "gaza-younis-death-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "gaza-younis-death-2026-11-15",
+        "source_story_id": "gaza-younis-death-2026-11-15",
+        "url": "articles/2026-11-15-midday/gaza-younis-death-2026-11-15.html"
+      }
+    },
+    {
+      "id": "63a79e1ca391c22b8bf55b07713cdb72409a1c71940859f394df63d0b464ba63",
+      "kind": "provenance",
+      "at": "2026-11-15T11:30:32.729954+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-crossings-implementation-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "cyprus-crossings-implementation-2026-11-15",
+        "source_story_id": "cyprus-crossings-implementation-2026-11-15",
+        "url": "articles/2026-11-15-midday/cyprus-crossings-implementation-2026-11-15.html"
+      }
+    },
+    {
+      "id": "6e89c94b8ad2a394b1e848e874348555f4a2a69362b3e479a4b875d60e2ed5b3",
+      "kind": "provenance",
+      "at": "2026-11-15T11:30:32.729954+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-greens-electoral-congress-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "cyprus-greens-electoral-congress-2026-11-14",
+        "source_story_id": "cyprus-greens-electoral-congress-2026-11-14",
+        "url": "articles/2026-11-15-midday/cyprus-greens-electoral-congress-2026-11-14.html"
+      }
+    },
+    {
+      "id": "804e94f6acea85a76f99781c35532407e031dc4d2e37d56cf96726e6fe299dae",
+      "kind": "provenance",
+      "at": "2026-11-15T11:30:32.729954+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "nvidia-board-security-review-2026-11-08",
+        "source_story_id": "nvidia-board-security-review-2026-11-08",
+        "url": "articles/2026-11-15-midday/nvidia-board-security-review-2026-11-08.html"
+      }
+    },
+    {
+      "id": "80a689f3cb82da1faa8aa453688330f2ffa4d39c2564f5823de54005e948a51f",
+      "kind": "provenance",
+      "at": "2026-11-15T11:30:32.729954+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cape-verde-presidential-election-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "cape-verde-presidential-election-2026-11-15",
+        "source_story_id": "cape-verde-presidential-election-2026-11-15",
+        "url": "articles/2026-11-15-midday/cape-verde-presidential-election-2026-11-15.html"
+      }
+    },
+    {
+      "id": "90b3a4f020e10a9fafe774acd9c3528475acdb13bd132b3fadc83666284ac490",
+      "kind": "provenance",
+      "at": "2026-11-15T11:30:32.729954+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-port-detention-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "limassol-port-detention-2026-11-15",
+        "source_story_id": "limassol-port-detention-2026-11-15",
+        "url": "articles/2026-11-15-midday/limassol-port-detention-2026-11-15.html"
+      }
+    },
+    {
+      "id": "c2ff142cf821fbe4b8f6e3299d3038dab6786f7bb3e494888b36b5073bcfb594",
+      "kind": "provenance",
+      "at": "2026-11-15T11:30:32.729954+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "wales-new-zealand-rugby-win-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "wales-new-zealand-rugby-win-2026-11-14",
+        "source_story_id": "wales-new-zealand-rugby-win-2026-11-14",
+        "url": "articles/2026-11-15-midday/wales-new-zealand-rugby-win-2026-11-14.html"
+      }
+    },
+    {
+      "id": "eebfec234809e944ade4006af760acdcc654570e07d7ec56753d7b7cc4a57938",
+      "kind": "provenance",
+      "at": "2026-11-15T11:30:32.729954+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "bahrain-iran-airbase-strike-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-midday",
+        "article_id": "bahrain-iran-airbase-strike-2026-11-15",
+        "source_story_id": "bahrain-iran-airbase-strike-2026-11-15",
+        "url": "articles/2026-11-15-midday/bahrain-iran-airbase-strike-2026-11-15.html"
       }
     }
   ],
@@ -542,16 +897,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Στην υπόθεση Nvidia, το αμερικανικό Υπουργείο Οικονομικών φέρεται να είχε εισηγηθεί περιορισμούς για εταιρεία στη Σιγκαπούρη, χωρίς αντίστοιχη ενέργεια από το Υπουργείο Εμπορίου. Για τις επιχειρήσεις που εξάγουν προηγμένους επεξεργαστές, το κρίσιμο επόμενο στοιχείο είναι αν η διαφωνία θα οδηγήσει σε επίσημη απόφαση ή σε σαφέστερη κατανομή αρμοδιοτήτων. Στη Βρετανία, η πρόβλεψη για πληθωρισμό 5% την άνοιξη ενισχύει τη συζήτηση για νέα αύξηση επιτοκίων. Για νοικοκυριά που θα αναχρηματοδοτήσουν δάνειο, σημασία έχουν τα στοιχεία που θα προηγηθούν της συνεδρίασης της 17ης Δεκεμβρίου και το τι θα αποφασίσει τότε η Τράπεζα της Αγγλίας.",
+        "text": "Η επανέναρξη πληγμάτων στον Κόλπο συνοδεύτηκε από δημόσιες προειδοποιήσεις στο Μπαχρέιν. Για τους κατοίκους, το άμεσο ερώτημα είναι αν οι επίσημες ενημερώσεις θα δείξουν ότι ο συναγερμός έληξε ή ότι υπάρχει συνέχεια. Στην Κύπρο, οι τοποθετήσεις για την επέτειο της ανακήρυξης δείχνουν ότι η διαφωνία για το πολιτικό πλαίσιο παραμένει, παρότι ο Τουφάν Ερχιουρμάν δήλωσε ότι εξακολουθεί να θέλει λύση. Για όσους περιμένουν συγκεκριμένες αλλαγές στην καθημερινότητα, το επόμενο ουσιαστικό στοιχείο είναι αν θα οριστούν βήματα εφαρμογής για τα συμφωνηθέντα σημεία διέλευσης.",
         "story_ids": [
-          "nvidia-board-security-review-2026-11-08",
-          "uk-bank-of-england-rate-outlook-2026-11-15"
+          "bahrain-iran-airbase-strike-2026-11-15",
+          "cyprus-1983-declaration-anniversary-2026-11-15"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-15T05:36:37.159824+00:00",
-  "updated_at": "2026-11-15T05:36:37.159824+00:00",
-  "input_sha256": "c33e63a954c4f6c88bcf195fcc83a4b7ce27689bd50fbbe9d8e7b5f45015edbd"
+  "updated_at": "2026-11-15T11:32:36.438417+00:00",
+  "input_sha256": "a5a1923f1a91402dde1e9060043d3156b6ea0425b688ffc0e6e9bbcd906c38e6"
 }
