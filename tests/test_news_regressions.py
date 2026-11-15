@@ -144,6 +144,10 @@ class NovemberRegressions(unittest.TestCase):
                               (13,'The new route opens to passengers on 8 January 2027.')):
             source['candidates'][idx]['evidence'][0]['excerpt']=BODY*6+'\n'+sentence+'\n'+BODY*6
         source['data']['panels']=[dict(paragraphs=['Routine presentation detail. '*340])]
+        legacy=view.synthesis(source,max_bytes=33000)
+        self.assertNotIn('## Compact routine context',legacy)
+        self.assertNotIn('Appeals must be filed by 16 December 2026.',legacy)
+        source['projection_policy']='evidence-first-v1'
         before=copy.deepcopy(source)
         digest=view.synthesis(source,max_bytes=33000)
         self.assertLessEqual(len(digest.encode('utf-8')),33000)

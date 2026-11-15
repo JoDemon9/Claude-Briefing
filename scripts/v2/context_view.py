@@ -24,6 +24,7 @@ def synthesis(pack,max_bytes=48000):
     enriched=pack.get('briefing_policy')=='depth-markets-v1'
     financial=pack.get('financial_policy')=='news-insights-v1'
     preflight=pack.get('authoring_preflight')=='scope-and-length-v1'
+    evidence_first=modern and pack.get('projection_policy')=='evidence-first-v1'
     routine_sources={}
     def source_ref(source):
         key=(source['url'],source.get('retrieved_at'))
@@ -212,6 +213,10 @@ def synthesis(pack,max_bytes=48000):
     all_ids={c['id'] for c in ordered}
     plan=choose_blocks(all_ids)
     if plan is None and modern:
+        protected_ids={c['id'] for c in protected}
+        if not evidence_first:
+            plan=choose_blocks(protected_ids)
+    if plan is None and modern:
         # Routine tables are rendered from the sealed pack; spend their model
         # space on evidence before dropping a readable story from either desk.
         status={key:card.get('just_played') for key,card in pack['data']['sports']['coverage'].items()}
@@ -223,12 +228,13 @@ def synthesis(pack,max_bytes=48000):
             routine.append('Market alerts (provider observations, no inferred cause): '+encoded([
                 {k:a[k] for k in ('instrument','change_pct','quoted_at','status','session','priority')} for a in alerts[:3]]))
         lines[routine_start:routine_end]=routine
-        protected_ids={c['id'] for c in protected}
         # One extra readable option per news desk can replace a repeat or
         # geographically misplaced report during editorial review.
-        alternates=[c for desk in ('cyprus','world') for c in
-                    [row for row in ordered if row['section']==desk and row['id'] not in protected_ids][:1]]
-        plan=choose_blocks(all_ids) or choose_blocks(protected_ids | {c['id'] for c in alternates})
+        alternates=[]
+        if evidence_first:
+            alternates=[c for desk in ('cyprus','world') for c in
+                        [row for row in ordered if row['section']==desk and row['id'] not in protected_ids][:1]]
+            plan=choose_blocks(all_ids) or choose_blocks(protected_ids | {c['id'] for c in alternates})
         if plan is None:
             plan=choose_blocks(protected_ids)
         if plan is None:
