@@ -136,6 +136,27 @@ class NovemberRegressions(unittest.TestCase):
         self.assertIn('Excluded article-backed candidates:',digest)
         self.assertEqual(p,before)
 
+    def test_digest_prefers_extra_readable_news_over_routine_detail(self):
+        source=pack()
+        # The extra world reports have different later facts and are usable
+        # replacements if a reserved candidate repeats earlier coverage.
+        for idx, sentence in ((12,'Appeals must be filed by 16 December 2026.'),
+                              (13,'The new route opens to passengers on 8 January 2027.')):
+            source['candidates'][idx]['evidence'][0]['excerpt']=BODY*6+'\n'+sentence+'\n'+BODY*6
+        source['data']['panels']=[dict(paragraphs=['Routine presentation detail. '*340])]
+        before=copy.deepcopy(source)
+        digest=view.synthesis(source,max_bytes=33000)
+        self.assertLessEqual(len(digest.encode('utf-8')),33000)
+        self.assertIn('## Compact routine context',digest)
+        self.assertIn('Appeals must be filed by 16 December 2026.',digest)
+        self.assertIn('The new route opens to passengers on 8 January 2027.',digest)
+        self.assertEqual(source,before)
+        coverage=next(line for line in digest.splitlines() if line.startswith('Visible article-backed candidates by desk: '))
+        counts=json.JSONDecoder().raw_decode(coverage.split(': ',1)[1])[0]
+        self.assertEqual(counts['sports'],7)
+        self.assertGreaterEqual(counts['cyprus'],5)
+        self.assertEqual(counts['world'],7)
+
     def test_ad_only_pack_has_honest_shortfall_and_no_readable_credit(self):
         p=pack();p['candidates']=p['candidates'][:2]
         for c in p['candidates']:c['evidence'][0]['excerpt']=AD
