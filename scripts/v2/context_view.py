@@ -24,6 +24,7 @@ def synthesis(pack,max_bytes=48000):
     enriched=pack.get('briefing_policy')=='depth-markets-v1'
     financial=pack.get('financial_policy')=='news-insights-v1'
     preflight=pack.get('authoring_preflight')=='scope-and-length-v1'
+    evidence_first=modern and pack.get('projection_policy')=='evidence-first-v1'
     routine_sources={}
     def source_ref(source):
         key=(source['url'],source.get('retrieved_at'))
@@ -197,38 +198,59 @@ def synthesis(pack,max_bytes=48000):
                  for k,v in pack.get('metrics',{}).get('pipeline',{}).items()}))
     if financial:lines.append('Article source URLs/full metadata stay in the sealed pack and resolve through @Evidence aliases. Publication/reporting-chain metadata below supports review; excerpts are selected passages in source order, […] marks omissions. Never invent URLs or treat publisher variety as independence.')
     # Reserve the actual diagnostic inventory, not a fixed footer guess.
-    diagnostics=[{'id':c['id'],'section':c['section'],'reason':'input_byte_cap'} for c in ordered]
-    footer_reserve=1200+len(encoded(diagnostics).encode('utf-8'))
+    diagnostics={c['id']:{'id':c['id'],'section':c['section'],'reason':'input_byte_cap'} for c in ordered}
+    footer_reserve=1200+len(encoded(list(diagnostics.values())).encode('utf-8'))
     def fits(extra):return len(('\n'.join(lines+extra)+'\n').encode('utf-8'))<=max_bytes-footer_reserve
     sizes=((2400,1600),(1800,1200),(1400,1000),(1000,700))
     if modern:sizes+=((800,600),)
-    for lead_limit,secondary_limit in sizes:
-        blocks=primary_blocks(lead_limit,secondary_limit)
-        if fits([line for block in blocks for line in block]):break
+    def choose_blocks(required):
+        for lead_limit,secondary_limit in sizes:
+            blocks=primary_blocks(lead_limit,secondary_limit)
+            if fits([line for candidate,block in zip(ordered,blocks) if candidate['id'] in required for line in block]):
+                return blocks,secondary_limit
+        return None
+
+    all_ids={c['id'] for c in ordered}
+    plan=choose_blocks(all_ids)
+    if plan is None and modern:
+        protected_ids={c['id'] for c in protected}
+        if not evidence_first:
+            plan=choose_blocks(protected_ids)
+    if plan is None and modern:
+        # Routine tables are rendered from the sealed pack; spend their model
+        # space on evidence before dropping a readable story from either desk.
+        status={key:card.get('just_played') for key,card in pack['data']['sports']['coverage'].items()}
+        routine=['\n## Compact routine context',
+                 'Detailed market, weather and sports tables remain in the sealed pack and public output; omitted here to preserve article evidence.',
+                 'Weather: '+pack['weather_status'],
+                 'Sports just_played: '+encoded(status)]
+        if enriched and not financial:
+            routine.append('Market alerts (provider observations, no inferred cause): '+encoded([
+                {k:a[k] for k in ('instrument','change_pct','quoted_at','status','session','priority')} for a in alerts[:3]]))
+        lines[routine_start:routine_end]=routine
+        # One extra readable option per news desk can replace a repeat or
+        # geographically misplaced report during editorial review.
+        alternates=[]
+        if evidence_first:
+            alternates=[c for desk in ('cyprus','world') for c in
+                        [row for row in ordered if row['section']==desk and row['id'] not in protected_ids][:1]]
+            plan=choose_blocks(all_ids) or choose_blocks(protected_ids | {c['id'] for c in alternates})
+        if plan is None:
+            plan=choose_blocks(protected_ids)
+        if plan is None:
+            raise ValueError('Reserved news/sports evidence exceeds single-read budget')
+        if alternates:
+            # Spend remaining bytes on desk alternatives before other surplus.
+            priority_ids=protected_ids | {c['id'] for c in alternates}
+            pairs=list(zip(ordered,plan[0]))
+            pairs.sort(key=lambda pair: (pair[0]['id'] not in protected_ids,pair[0]['id'] not in priority_ids))
+            ordered,blocks=map(list,zip(*pairs))
+            plan=blocks,plan[1]
+    if plan is None:
+        blocks=primary_blocks(*sizes[-1])
+        secondary_limit=sizes[-1][1]
     else:
-        if modern:
-            # Prefer useful protected excerpts over extra alternatives. Never
-            # disguise a projection failure as unavailable sports reporting.
-            for lead_limit,secondary_limit in sizes:
-                blocks=primary_blocks(lead_limit,secondary_limit)
-                if fits([line for block in blocks[:len(protected)] for line in block]):break
-            else:
-                # Full routine data is already in the sealed pack and is rendered
-                # by Python. Trade that projection space for readable evidence.
-                status={key:card.get('just_played') for key,card in pack['data']['sports']['coverage'].items()}
-                routine=['\n## Compact routine context',
-                         'Detailed market, weather and sports tables remain in the sealed pack and public output; omitted here to preserve article evidence.',
-                         'Weather: '+pack['weather_status'],
-                         'Sports just_played: '+encoded(status)]
-                if enriched and not financial:
-                    routine.append('Market alerts (provider observations, no inferred cause): '+encoded([
-                        {k:a[k] for k in ('instrument','change_pct','quoted_at','status','session','priority')} for a in alerts[:3]]))
-                lines[routine_start:routine_end]=routine
-                for lead_limit,secondary_limit in sizes:
-                    blocks=primary_blocks(lead_limit,secondary_limit)
-                    if fits([line for block in blocks[:len(protected)] for line in block]):break
-                else:
-                    raise ValueError('Reserved news/sports evidence exceeds single-read budget')
+        blocks,secondary_limit=plan
     included=[]
     for candidate,block in zip(ordered,blocks):
         if fits(block):
@@ -241,7 +263,7 @@ def synthesis(pack,max_bytes=48000):
     coverage={desk:sum(c['section']==desk for c in included) for desk in ('cyprus','world','sports')}
     lines.append('Visible article-backed candidates by desk: '+encoded(coverage)+'. Review every visible news candidate; these counts describe evidence, not an editorial verdict. A shortfall must reflect weak/redundant evidence, never a hidden input truncation. No padding or extra research loop.')
     omitted=len(ordered)-len(included)
-    lines.append('Excluded article-backed candidates: '+encoded([row for row,c in zip(diagnostics,ordered) if c not in included]))
+    lines.append('Excluded article-backed candidates: '+encoded([diagnostics[c['id']] for c in ordered if c not in included]))
     for desk in ('cyprus','world'):
         if coverage[desk]<4:
             reasons={}
