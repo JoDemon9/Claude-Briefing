@@ -16,12 +16,16 @@
       "type": "midday",
       "url": "midday/2026-11-15.html",
       "published_at": "2026-11-15T11:30:32.729954+00:00"
+    },
+    {
+      "id": "2026-11-15-evening",
+      "type": "evening",
+      "url": "evening/2026-11-15.html",
+      "published_at": "2026-11-15T17:33:06.954666+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "bahrain-iran-airbase-strike-2026-11-15",
+  "missing_slots": [],
+  "lead_story_id": "tsmc-employee-cloud-data-leak-2026-11-15",
   "stories": [
     {
       "story_id": "bahrain-iran-airbase-strike-2026-11-15",
@@ -33,40 +37,40 @@
           "article_id": "bahrain-iran-airbase-strike-2026-11-15",
           "source_story_id": "bahrain-iran-airbase-strike-2026-11-15",
           "url": "articles/2026-11-15-midday/bahrain-iran-airbase-strike-2026-11-15.html"
+        },
+        {
+          "edition_id": "2026-11-15-evening",
+          "article_id": "bahrain-iran-airbase-strike-2026-11-15",
+          "source_story_id": "bahrain-iran-airbase-strike-2026-11-15",
+          "url": "articles/2026-11-15-evening/bahrain-iran-airbase-strike-2026-11-15.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-midday",
+        "edition_id": "2026-11-15-evening",
         "article_id": "bahrain-iran-airbase-strike-2026-11-15",
         "source_story_id": "bahrain-iran-airbase-strike-2026-11-15",
-        "url": "articles/2026-11-15-midday/bahrain-iran-airbase-strike-2026-11-15.html"
+        "url": "articles/2026-11-15-evening/bahrain-iran-airbase-strike-2026-11-15.html"
       },
       "section": "world",
       "priority": 1
     },
     {
-      "story_id": "nvidia-board-security-review-2026-11-08",
-      "first_seen_at": "2026-11-15T05:35:01.967838+00:00",
+      "story_id": "tsmc-employee-cloud-data-leak-2026-11-15",
+      "first_seen_at": "2026-11-15T17:33:06.954666+00:00",
       "last_substantive_at": null,
       "references": [
         {
-          "edition_id": "2026-11-15-morning",
-          "article_id": "nvidia-board-security-review-2026-11-08",
-          "source_story_id": "nvidia-board-security-review-2026-11-08",
-          "url": "articles/2026-11-15-morning/nvidia-board-security-review-2026-11-08.html"
-        },
-        {
-          "edition_id": "2026-11-15-midday",
-          "article_id": "nvidia-board-security-review-2026-11-08",
-          "source_story_id": "nvidia-board-security-review-2026-11-08",
-          "url": "articles/2026-11-15-midday/nvidia-board-security-review-2026-11-08.html"
+          "edition_id": "2026-11-15-evening",
+          "article_id": "tsmc-employee-cloud-data-leak-2026-11-15",
+          "source_story_id": "tsmc-employee-cloud-data-leak-2026-11-15",
+          "url": "articles/2026-11-15-evening/tsmc-employee-cloud-data-leak-2026-11-15.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-midday",
-        "article_id": "nvidia-board-security-review-2026-11-08",
-        "source_story_id": "nvidia-board-security-review-2026-11-08",
-        "url": "articles/2026-11-15-midday/nvidia-board-security-review-2026-11-08.html"
+        "edition_id": "2026-11-15-evening",
+        "article_id": "tsmc-employee-cloud-data-leak-2026-11-15",
+        "source_story_id": "tsmc-employee-cloud-data-leak-2026-11-15",
+        "url": "articles/2026-11-15-evening/tsmc-employee-cloud-data-leak-2026-11-15.html"
       },
       "section": "world",
       "priority": 1
@@ -88,6 +92,39 @@
         "article_id": "gaza-younis-death-2026-11-15",
         "source_story_id": "gaza-younis-death-2026-11-15",
         "url": "articles/2026-11-15-midday/gaza-younis-death-2026-11-15.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "first_seen_at": "2026-11-15T05:35:01.967838+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-15-morning",
+          "article_id": "nvidia-board-security-review-2026-11-08",
+          "source_story_id": "nvidia-board-security-review-2026-11-08",
+          "url": "articles/2026-11-15-morning/nvidia-board-security-review-2026-11-08.html"
+        },
+        {
+          "edition_id": "2026-11-15-midday",
+          "article_id": "nvidia-board-security-review-2026-11-08",
+          "source_story_id": "nvidia-board-security-review-2026-11-08",
+          "url": "articles/2026-11-15-midday/nvidia-board-security-review-2026-11-08.html"
+        },
+        {
+          "edition_id": "2026-11-15-evening",
+          "article_id": "nvidia-board-security-review-2026-11-08",
+          "source_story_id": "nvidia-board-security-review-2026-11-08",
+          "url": "articles/2026-11-15-evening/nvidia-board-security-review-2026-11-08.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "nvidia-board-security-review-2026-11-08",
+        "source_story_id": "nvidia-board-security-review-2026-11-08",
+        "url": "articles/2026-11-15-evening/nvidia-board-security-review-2026-11-08.html"
       },
       "section": "world",
       "priority": 2
@@ -129,13 +166,19 @@
           "article_id": "cape-verde-presidential-election-2026-11-15",
           "source_story_id": "cape-verde-presidential-election-2026-11-15",
           "url": "articles/2026-11-15-midday/cape-verde-presidential-election-2026-11-15.html"
+        },
+        {
+          "edition_id": "2026-11-15-evening",
+          "article_id": "cape-verde-presidential-election-2026-11-15",
+          "source_story_id": "cape-verde-presidential-election-2026-11-15",
+          "url": "articles/2026-11-15-evening/cape-verde-presidential-election-2026-11-15.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-midday",
+        "edition_id": "2026-11-15-evening",
         "article_id": "cape-verde-presidential-election-2026-11-15",
         "source_story_id": "cape-verde-presidential-election-2026-11-15",
-        "url": "articles/2026-11-15-midday/cape-verde-presidential-election-2026-11-15.html"
+        "url": "articles/2026-11-15-evening/cape-verde-presidential-election-2026-11-15.html"
       },
       "section": "world",
       "priority": 3
@@ -168,6 +211,27 @@
       "priority": 3
     },
     {
+      "story_id": "greece-zefyri-fire-prosecution-2026-11-15",
+      "first_seen_at": "2026-11-15T17:33:06.954666+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-15-evening",
+          "article_id": "greece-zefyri-fire-prosecution-2026-11-15",
+          "source_story_id": "greece-zefyri-fire-prosecution-2026-11-15",
+          "url": "articles/2026-11-15-evening/greece-zefyri-fire-prosecution-2026-11-15.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "greece-zefyri-fire-prosecution-2026-11-15",
+        "source_story_id": "greece-zefyri-fire-prosecution-2026-11-15",
+        "url": "articles/2026-11-15-evening/greece-zefyri-fire-prosecution-2026-11-15.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
       "story_id": "cyprus-1983-declaration-anniversary-2026-11-15",
       "first_seen_at": "2026-11-15T11:30:32.729954+00:00",
       "last_substantive_at": null,
@@ -177,13 +241,19 @@
           "article_id": "cyprus-1983-declaration-anniversary-2026-11-15",
           "source_story_id": "cyprus-1983-declaration-anniversary-2026-11-15",
           "url": "articles/2026-11-15-midday/cyprus-1983-declaration-anniversary-2026-11-15.html"
+        },
+        {
+          "edition_id": "2026-11-15-evening",
+          "article_id": "cyprus-1983-declaration-anniversary-2026-11-15",
+          "source_story_id": "cyprus-1983-declaration-anniversary-2026-11-15",
+          "url": "articles/2026-11-15-evening/cyprus-1983-declaration-anniversary-2026-11-15.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-midday",
+        "edition_id": "2026-11-15-evening",
         "article_id": "cyprus-1983-declaration-anniversary-2026-11-15",
         "source_story_id": "cyprus-1983-declaration-anniversary-2026-11-15",
-        "url": "articles/2026-11-15-midday/cyprus-1983-declaration-anniversary-2026-11-15.html"
+        "url": "articles/2026-11-15-evening/cyprus-1983-declaration-anniversary-2026-11-15.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -204,13 +274,40 @@
           "article_id": "cyprus-crossings-implementation-2026-11-15",
           "source_story_id": "cyprus-crossings-implementation-2026-11-15",
           "url": "articles/2026-11-15-midday/cyprus-crossings-implementation-2026-11-15.html"
+        },
+        {
+          "edition_id": "2026-11-15-evening",
+          "article_id": "cyprus-crossings-implementation-2026-11-15",
+          "source_story_id": "cyprus-crossings-implementation-2026-11-15",
+          "url": "articles/2026-11-15-evening/cyprus-crossings-implementation-2026-11-15.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-midday",
+        "edition_id": "2026-11-15-evening",
         "article_id": "cyprus-crossings-implementation-2026-11-15",
         "source_story_id": "cyprus-crossings-implementation-2026-11-15",
-        "url": "articles/2026-11-15-midday/cyprus-crossings-implementation-2026-11-15.html"
+        "url": "articles/2026-11-15-evening/cyprus-crossings-implementation-2026-11-15.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "cyprus-green-line-military-dialogue-2026-11-15",
+      "first_seen_at": "2026-11-15T17:33:06.954666+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-15-evening",
+          "article_id": "cyprus-green-line-military-dialogue-2026-11-15",
+          "source_story_id": "cyprus-green-line-military-dialogue-2026-11-15",
+          "url": "articles/2026-11-15-evening/cyprus-green-line-military-dialogue-2026-11-15.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "cyprus-green-line-military-dialogue-2026-11-15",
+        "source_story_id": "cyprus-green-line-military-dialogue-2026-11-15",
+        "url": "articles/2026-11-15-evening/cyprus-green-line-military-dialogue-2026-11-15.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -243,6 +340,27 @@
       "priority": 5
     },
     {
+      "story_id": "cyprus-roadpol-truck-bus-checks-2026-11-16",
+      "first_seen_at": "2026-11-15T17:33:06.954666+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-15-evening",
+          "article_id": "cyprus-roadpol-truck-bus-checks-2026-11-16",
+          "source_story_id": "cyprus-roadpol-truck-bus-checks-2026-11-16",
+          "url": "articles/2026-11-15-evening/cyprus-roadpol-truck-bus-checks-2026-11-16.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "cyprus-roadpol-truck-bus-checks-2026-11-16",
+        "source_story_id": "cyprus-roadpol-truck-bus-checks-2026-11-16",
+        "url": "articles/2026-11-15-evening/cyprus-roadpol-truck-bus-checks-2026-11-16.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
       "story_id": "limassol-port-detention-2026-11-15",
       "first_seen_at": "2026-11-15T11:30:32.729954+00:00",
       "last_substantive_at": null,
@@ -252,13 +370,19 @@
           "article_id": "limassol-port-detention-2026-11-15",
           "source_story_id": "limassol-port-detention-2026-11-15",
           "url": "articles/2026-11-15-midday/limassol-port-detention-2026-11-15.html"
+        },
+        {
+          "edition_id": "2026-11-15-evening",
+          "article_id": "limassol-port-detention-2026-11-15",
+          "source_story_id": "limassol-port-detention-2026-11-15",
+          "url": "articles/2026-11-15-evening/limassol-port-detention-2026-11-15.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-midday",
+        "edition_id": "2026-11-15-evening",
         "article_id": "limassol-port-detention-2026-11-15",
         "source_story_id": "limassol-port-detention-2026-11-15",
-        "url": "articles/2026-11-15-midday/limassol-port-detention-2026-11-15.html"
+        "url": "articles/2026-11-15-evening/limassol-port-detention-2026-11-15.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -285,6 +409,27 @@
       "priority": 6
     },
     {
+      "story_id": "hendon-returns-2026-11-13",
+      "first_seen_at": "2026-11-15T17:33:06.954666+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-15-evening",
+          "article_id": "hendon-returns-2026-11-13",
+          "source_story_id": "hendon-returns-2026-11-13",
+          "url": "articles/2026-11-15-evening/hendon-returns-2026-11-13.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "hendon-returns-2026-11-13",
+        "source_story_id": "hendon-returns-2026-11-13",
+        "url": "articles/2026-11-15-evening/hendon-returns-2026-11-13.html"
+      },
+      "section": "sports",
+      "priority": 6
+    },
+    {
       "story_id": "wales-new-zealand-rugby-win-2026-11-14",
       "first_seen_at": "2026-11-15T11:30:32.729954+00:00",
       "last_substantive_at": null,
@@ -294,13 +439,19 @@
           "article_id": "wales-new-zealand-rugby-win-2026-11-14",
           "source_story_id": "wales-new-zealand-rugby-win-2026-11-14",
           "url": "articles/2026-11-15-midday/wales-new-zealand-rugby-win-2026-11-14.html"
+        },
+        {
+          "edition_id": "2026-11-15-evening",
+          "article_id": "wales-new-zealand-rugby-win-2026-11-14",
+          "source_story_id": "wales-new-zealand-rugby-win-2026-11-14",
+          "url": "articles/2026-11-15-evening/wales-new-zealand-rugby-win-2026-11-14.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-midday",
+        "edition_id": "2026-11-15-evening",
         "article_id": "wales-new-zealand-rugby-win-2026-11-14",
         "source_story_id": "wales-new-zealand-rugby-win-2026-11-14",
-        "url": "articles/2026-11-15-midday/wales-new-zealand-rugby-win-2026-11-14.html"
+        "url": "articles/2026-11-15-evening/wales-new-zealand-rugby-win-2026-11-14.html"
       },
       "section": "sports",
       "priority": 6
@@ -321,13 +472,19 @@
           "article_id": "dubai-p1-finals-2026-11-15",
           "source_story_id": "dubai-p1-finals-2026-11-15",
           "url": "articles/2026-11-15-midday/dubai-p1-finals-2026-11-15.html"
+        },
+        {
+          "edition_id": "2026-11-15-evening",
+          "article_id": "dubai-p1-finals-2026-11-15",
+          "source_story_id": "dubai-p1-finals-2026-11-15",
+          "url": "articles/2026-11-15-evening/dubai-p1-finals-2026-11-15.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-15-midday",
+        "edition_id": "2026-11-15-evening",
         "article_id": "dubai-p1-finals-2026-11-15",
         "source_story_id": "dubai-p1-finals-2026-11-15",
-        "url": "articles/2026-11-15-midday/dubai-p1-finals-2026-11-15.html"
+        "url": "articles/2026-11-15-evening/dubai-p1-finals-2026-11-15.html"
       },
       "section": "sports",
       "priority": 7
@@ -689,6 +846,188 @@
         "source_story_id": "bahrain-iran-airbase-strike-2026-11-15",
         "url": "articles/2026-11-15-midday/bahrain-iran-airbase-strike-2026-11-15.html"
       }
+    },
+    {
+      "id": "092a8c6a4c7efac5276d09c56b5ce6199d0e55280745c2afc69ff757dfc4d751",
+      "kind": "provenance",
+      "at": "2026-11-15T17:33:06.954666+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "bahrain-iran-airbase-strike-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "bahrain-iran-airbase-strike-2026-11-15",
+        "source_story_id": "bahrain-iran-airbase-strike-2026-11-15",
+        "url": "articles/2026-11-15-evening/bahrain-iran-airbase-strike-2026-11-15.html"
+      }
+    },
+    {
+      "id": "3d36d4ca8cdf8b6ca0c9ba9cdec456343960e33df916e83a448504f3b183c7d4",
+      "kind": "provenance",
+      "at": "2026-11-15T17:33:06.954666+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "dubai-p1-finals-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "dubai-p1-finals-2026-11-15",
+        "source_story_id": "dubai-p1-finals-2026-11-15",
+        "url": "articles/2026-11-15-evening/dubai-p1-finals-2026-11-15.html"
+      }
+    },
+    {
+      "id": "4df8f6581b602a0f11a7df71da0365f4bc2c39bd401f6639fa5596c24e60650d",
+      "kind": "provenance",
+      "at": "2026-11-15T17:33:06.954666+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cape-verde-presidential-election-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "cape-verde-presidential-election-2026-11-15",
+        "source_story_id": "cape-verde-presidential-election-2026-11-15",
+        "url": "articles/2026-11-15-evening/cape-verde-presidential-election-2026-11-15.html"
+      }
+    },
+    {
+      "id": "535ab7fd1dd7a80fdfc8fe34c299f48fa93c4501db8d8f52280de8ae95feab89",
+      "kind": "provenance",
+      "at": "2026-11-15T17:33:06.954666+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "nvidia-board-security-review-2026-11-08",
+        "source_story_id": "nvidia-board-security-review-2026-11-08",
+        "url": "articles/2026-11-15-evening/nvidia-board-security-review-2026-11-08.html"
+      }
+    },
+    {
+      "id": "6461a2ba4964008b2f83562f81dd9682e71ece512be313905c2e367713287c21",
+      "kind": "provenance",
+      "at": "2026-11-15T17:33:06.954666+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-roadpol-truck-bus-checks-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "cyprus-roadpol-truck-bus-checks-2026-11-16",
+        "source_story_id": "cyprus-roadpol-truck-bus-checks-2026-11-16",
+        "url": "articles/2026-11-15-evening/cyprus-roadpol-truck-bus-checks-2026-11-16.html"
+      }
+    },
+    {
+      "id": "6fe6db503d34c89d77e8e4b9026336e6c6aecdd4355eb19b8bf96a606a2f565d",
+      "kind": "provenance",
+      "at": "2026-11-15T17:33:06.954666+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-green-line-military-dialogue-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "cyprus-green-line-military-dialogue-2026-11-15",
+        "source_story_id": "cyprus-green-line-military-dialogue-2026-11-15",
+        "url": "articles/2026-11-15-evening/cyprus-green-line-military-dialogue-2026-11-15.html"
+      }
+    },
+    {
+      "id": "871387085cc7f5580e357b422eeb0c2aac19a8050656957297697834c14fc343",
+      "kind": "provenance",
+      "at": "2026-11-15T17:33:06.954666+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "wales-new-zealand-rugby-win-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "wales-new-zealand-rugby-win-2026-11-14",
+        "source_story_id": "wales-new-zealand-rugby-win-2026-11-14",
+        "url": "articles/2026-11-15-evening/wales-new-zealand-rugby-win-2026-11-14.html"
+      }
+    },
+    {
+      "id": "9da0f5d86d1a40ba72ffb1053b4d87e244f61d9d9e54677c48609b42a9d61027",
+      "kind": "provenance",
+      "at": "2026-11-15T17:33:06.954666+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-port-detention-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "limassol-port-detention-2026-11-15",
+        "source_story_id": "limassol-port-detention-2026-11-15",
+        "url": "articles/2026-11-15-evening/limassol-port-detention-2026-11-15.html"
+      }
+    },
+    {
+      "id": "a05e10389387b021af5a5e560b012148d01d16b430f700cd660696bd68a53a2d",
+      "kind": "provenance",
+      "at": "2026-11-15T17:33:06.954666+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "tsmc-employee-cloud-data-leak-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "tsmc-employee-cloud-data-leak-2026-11-15",
+        "source_story_id": "tsmc-employee-cloud-data-leak-2026-11-15",
+        "url": "articles/2026-11-15-evening/tsmc-employee-cloud-data-leak-2026-11-15.html"
+      }
+    },
+    {
+      "id": "ace6490620456000a8cfb236ef775aa1887d5655dfbaaeabc67f1ff040927c24",
+      "kind": "provenance",
+      "at": "2026-11-15T17:33:06.954666+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "hendon-returns-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "hendon-returns-2026-11-13",
+        "source_story_id": "hendon-returns-2026-11-13",
+        "url": "articles/2026-11-15-evening/hendon-returns-2026-11-13.html"
+      }
+    },
+    {
+      "id": "bc138e5096c47db5c949ce136f66a7dcd2ccf0870ce2ad5ec7e063fc5b937b88",
+      "kind": "provenance",
+      "at": "2026-11-15T17:33:06.954666+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-1983-declaration-anniversary-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "cyprus-1983-declaration-anniversary-2026-11-15",
+        "source_story_id": "cyprus-1983-declaration-anniversary-2026-11-15",
+        "url": "articles/2026-11-15-evening/cyprus-1983-declaration-anniversary-2026-11-15.html"
+      }
+    },
+    {
+      "id": "ed783098b6054537da3d5937fda388578beaa847c987328d06d69f86a36ff3fa",
+      "kind": "provenance",
+      "at": "2026-11-15T17:33:06.954666+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "greece-zefyri-fire-prosecution-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "greece-zefyri-fire-prosecution-2026-11-15",
+        "source_story_id": "greece-zefyri-fire-prosecution-2026-11-15",
+        "url": "articles/2026-11-15-evening/greece-zefyri-fire-prosecution-2026-11-15.html"
+      }
+    },
+    {
+      "id": "fea9bdc2eb330fe7296e7caefdf468ed5092e43843efc5ad696e927276e2f3d0",
+      "kind": "provenance",
+      "at": "2026-11-15T17:33:06.954666+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-crossings-implementation-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-15-evening",
+        "article_id": "cyprus-crossings-implementation-2026-11-15",
+        "source_story_id": "cyprus-crossings-implementation-2026-11-15",
+        "url": "articles/2026-11-15-evening/cyprus-crossings-implementation-2026-11-15.html"
+      }
     }
   ],
   "opportunities": [
@@ -897,16 +1236,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η επανέναρξη πληγμάτων στον Κόλπο συνοδεύτηκε από δημόσιες προειδοποιήσεις στο Μπαχρέιν. Για τους κατοίκους, το άμεσο ερώτημα είναι αν οι επίσημες ενημερώσεις θα δείξουν ότι ο συναγερμός έληξε ή ότι υπάρχει συνέχεια. Στην Κύπρο, οι τοποθετήσεις για την επέτειο της ανακήρυξης δείχνουν ότι η διαφωνία για το πολιτικό πλαίσιο παραμένει, παρότι ο Τουφάν Ερχιουρμάν δήλωσε ότι εξακολουθεί να θέλει λύση. Για όσους περιμένουν συγκεκριμένες αλλαγές στην καθημερινότητα, το επόμενο ουσιαστικό στοιχείο είναι αν θα οριστούν βήματα εφαρμογής για τα συμφωνηθέντα σημεία διέλευσης.",
+        "text": "Η TSMC επιβεβαίωσε διαρροή στοιχείων εργαζομένων που ταυτίζονται με δεδομένα σε συστήματα εξωτερικού παρόχου. Για τους εργαζομένους, επείγει να διευκρινιστεί ποια στοιχεία εκτέθηκαν και ποιοι θα ειδοποιηθούν. Στην Κύπρο, η πρόταση απευθείας επικοινωνίας εκατέρωθεν της Πράσινης Γραμμής έχει κολλήσει στο ποιος θα συνομιλεί με την Εθνική Φρουρά. Η συμφωνία για τον συνομιλητή και τις αρμοδιότητές του είναι το πρώτο πρακτικό βήμα: από αυτήν θα κριθεί αν μπορεί να δημιουργηθεί δίαυλος που να λειτουργεί όταν προκύψει περιστατικό.",
         "story_ids": [
-          "bahrain-iran-airbase-strike-2026-11-15",
-          "cyprus-1983-declaration-anniversary-2026-11-15"
+          "tsmc-employee-cloud-data-leak-2026-11-15",
+          "cyprus-green-line-military-dialogue-2026-11-15"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-15T05:36:37.159824+00:00",
-  "updated_at": "2026-11-15T11:32:36.438417+00:00",
-  "input_sha256": "a5a1923f1a91402dde1e9060043d3156b6ea0425b688ffc0e6e9bbcd906c38e6"
+  "updated_at": "2026-11-15T17:34:44.815788+00:00",
+  "input_sha256": "a6cebc31b5ea02b48143c621c6901d93933af7955985ebaff4acdd4abf344861"
 }

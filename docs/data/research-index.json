@@ -699,6 +699,14 @@
       "fingerprint": "e0630a27fd8c74663f018b3daa408fb4b06d6dcc3f19a9341fec42d9b47ebcbd"
     },
     {
+      "id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "type": "evening",
+      "published_at": "2026-11-15T17:33:06.954666+00:00",
+      "url": "evening/2026-11-15.html",
+      "fingerprint": "26767a911d7c3bf826751d880c6d50d86e74d7d6ffddee79c1e851bf17b71e5b"
+    },
+    {
       "id": "2026-11-15-midday",
       "date": "2026-11-15",
       "type": "midday",
@@ -26360,6 +26368,389 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/a4aa3cabf6b6ae27b737bbd2adea822fafcb00f4c5f9e7c23759f12a3e7086b1.webp"
+    },
+    {
+      "story_id": "tsmc-employee-cloud-data-leak-2026-11-15",
+      "identity": "tsmc-employee-cloud-data-leak-2026-11-15",
+      "edition_id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "slot": "evening",
+      "published_at": "2026-11-15T17:33:06.954666+00:00",
+      "available_at": "2026-11-15T17:33:06.954666+00:00",
+      "headline": "Η TSMC επιβεβαίωσε διαρροή στοιχείων εργαζομένων που τηρούνταν σε πάροχο cloud",
+      "finding": "Η TSMC επιβεβαίωσε, σύμφωνα με το BleepingComputer, ότι προσωπικά στοιχεία εργαζομένων της διέρρευσαν στο διαδίκτυο. Η εταιρεία διαπίστωσε ότι τα στοιχεία αντιστοιχούσαν σε δεδομένα αποθηκευμένα σε συστήματα εξωτερικού παρόχου cloud. Ο αριθμός των εργαζομένων στο σύνολο των δεδομένων παραμένει ανεπιβεβαίωτος: το μεγαλύτερο σύνολο που αναφέρει το δημοσίευμα βασίζεται σε ισχυρισμό του προσώπου που ανάρτησε τα στοιχεία.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-15-evening/tsmc-employee-cloud-data-leak-2026-11-15.json",
+      "reader_url": "articles/2026-11-15-evening/tsmc-employee-cloud-data-leak-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider",
+          "publisher": "BleepingComputer",
+          "reporting_group": "BleepingComputer",
+          "published_at": "2026-11-15T15:23:48+00:00",
+          "retrieved_at": "2026-11-15T16:21:03.719099+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/3e8517b4cde26cfc7f1a1cfceb5b161b7315acd3f3507c953be43f60d2c1f332.webp"
+    },
+    {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "identity": "nvidia-board-security-review-2026-11-08",
+      "edition_id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "slot": "evening",
+      "published_at": "2026-11-15T05:35:01.967838+00:00",
+      "available_at": "2026-11-15T17:33:06.954666+00:00",
+      "headline": "Ο Μπέσεντ τάχθηκε υπέρ διαδόχου του Χουάνγκ εκτός Nvidia",
+      "finding": "Ο Αμερικανός υπουργός Οικονομικών Σκοτ Μπέσεντ δήλωσε την Κυριακή στο Fox News ότι η Nvidia πρέπει να αναζητήσει νέο διευθύνοντα σύμβουλο εκτός εταιρείας, σύμφωνα με την Cyprus Mail. Η τοποθέτηση αφορά τη διαδοχή του Τζένσεν Χουάνγκ. Το δημοσίευμα δεν αναφέρει ότι η εταιρεία επέλεξε υποψήφιο ή υιοθέτησε την εισήγηση.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-15-evening/nvidia-board-security-review-2026-11-08.json",
+      "reader_url": "articles/2026-11-15-evening/nvidia-board-security-review-2026-11-08.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/15/bessent-says-nvidia-must-go-outside-the-company-to-find-new-ceo",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-15T15:42:10+00:00",
+          "retrieved_at": "2026-11-15T16:21:07.272575+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5af8e5a79004ac6df0517ed9cd5924d1d2afd6cb2959447ac08f294a1d352423.webp"
+    },
+    {
+      "story_id": "greece-zefyri-fire-prosecution-2026-11-15",
+      "identity": "greece-zefyri-fire-prosecution-2026-11-15",
+      "edition_id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "slot": "evening",
+      "published_at": "2026-11-15T17:33:06.954666+00:00",
+      "available_at": "2026-11-15T17:33:06.954666+00:00",
+      "headline": "Δίωξη στην Αθήνα μετά την πυρκαγιά που στοίχισε τη ζωή δύο πυροσβεστών",
+      "finding": "Η Εισαγγελία Πρωτοδικών Αθηνών άσκησε κακουργηματική δίωξη σε βάρος 34χρονης για την πυρκαγιά του Σαββάτου στο Ζεφύρι Αττικής, από την οποία σκοτώθηκαν δύο πυροσβέστες και τραυματίστηκε ένας ακόμη. Ο Φιλελεύθερος και το SigmaLive αναφέρουν ότι εκδόθηκε ένταλμα για δεύτερο ενήλικο. Η δίωξη αφορά κατηγορία για εμπρησμό με αποτέλεσμα θάνατο.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-15-evening/greece-zefyri-fire-prosecution-2026-11-15.json",
+      "reader_url": "articles/2026-11-15-evening/greece-zefyri-fire-prosecution-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/ellada/article/1796055/tragodia-sto-zefiri-kakourgimatiki-dioxi-stin-34chroni-mitera-eleftheres-i-kores",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-15T16:13:09+00:00",
+          "retrieved_at": "2026-11-15T16:21:04.018575+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.sigmalive.com/news/greece/1337702/traghodia-sto-zefyri-kakoyrghimatiki-dioksi-stin-34khroni-roma-ghia-tin-pirkaghia",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-15T16:12:32+00:00",
+          "retrieved_at": "2026-11-15T16:21:04.145617+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c91d78512d65d75f2b6f214848203636c2a6a448139e47f5adbfd9694fc72e0c.webp"
+    },
+    {
+      "story_id": "cyprus-green-line-military-dialogue-2026-11-15",
+      "identity": "cyprus-green-line-military-dialogue-2026-11-15",
+      "edition_id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "slot": "evening",
+      "published_at": "2026-11-15T17:33:06.954666+00:00",
+      "available_at": "2026-11-15T17:33:06.954666+00:00",
+      "headline": "Σε εκκρεμότητα η πρόταση απευθείας επικοινωνίας στην Πράσινη Γραμμή",
+      "finding": "Η πρόταση για απευθείας επικοινωνία μεταξύ των στρατιωτικών πλευρών εκατέρωθεν της Πράσινης Γραμμής βρίσκεται σε αδιέξοδο, σύμφωνα με την Cyprus Mail. Το ρεπορτάζ εντοπίζει τη διαφωνία στο ποιος θα είναι ο συνομιλητής της Εθνικής Φρουράς. Δεν αναφέρει συμφωνία για έναρξη επαφών ή χρονοδιάγραμμα εφαρμογής.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-15-evening/cyprus-green-line-military-dialogue-2026-11-15.json",
+      "reader_url": "articles/2026-11-15-evening/cyprus-green-line-military-dialogue-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/15/direct-military-dialogue-proposal-locked-over-who-national-guard-will-speak-to",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-15T14:13:07+00:00",
+          "retrieved_at": "2026-11-15T16:21:04.099007+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6b64a8e0d320e76858026ace778c5f349353db6c988958724e85b38b00f9cfcb.webp"
+    },
+    {
+      "story_id": "cyprus-roadpol-truck-bus-checks-2026-11-16",
+      "identity": "cyprus-roadpol-truck-bus-checks-2026-11-16",
+      "edition_id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "slot": "evening",
+      "published_at": "2026-11-15T17:33:06.954666+00:00",
+      "available_at": "2026-11-15T17:33:06.954666+00:00",
+      "headline": "Έλεγχοι σε φορτηγά και λεωφορεία από τις 16 έως τις 22 Νοεμβρίου",
+      "finding": "Η Αστυνομία Κύπρου θα διενεργήσει ελέγχους σε φορτηγά και λεωφορεία από τις 16 έως τις 22 Νοεμβρίου στο πλαίσιο πανευρωπαϊκής εκστρατείας του ROADPOL. Συμμετέχουν το Τμήμα Οδικών Μεταφορών και το Τμήμα Εργασιακών Σχέσεων. Ο έλεγχος θα περιλαμβάνει τη χρήση αναλογικών και ψηφιακών ταχογράφων, όπως αναφέρουν ο Φιλελεύθερος και το SigmaLive.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-15-evening/cyprus-roadpol-truck-bus-checks-2026-11-16.json",
+      "reader_url": "articles/2026-11-15-evening/cyprus-roadpol-truck-bus-checks-2026-11-16.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/astinomika/article/1796035/nea-ekstratia-tis-astinomias-apo-avrio-ti-tha-elegchi",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-15T15:16:24+00:00",
+          "retrieved_at": "2026-11-15T16:21:04.088063+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.sigmalive.com/news/local/1337696/bghainei-stoys-dromoys-i-astinomia-eleghkhoi-se-fortigha-kai-leoforia",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-15T15:12:41+00:00",
+          "retrieved_at": "2026-11-15T16:21:07.957392+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/caaa755cef1d72a422cb59c42a9607753fa59e147e95e73360310a733889eb0d.webp"
+    },
+    {
+      "story_id": "hendon-returns-2026-11-13",
+      "identity": "hendon-returns-2026-11-13",
+      "edition_id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "slot": "evening",
+      "published_at": "2026-11-15T17:33:06.954666+00:00",
+      "available_at": "2026-11-15T17:33:06.954666+00:00",
+      "headline": "Διακόπηκε ο πρώτος αγώνας της Χέντον μετά τον θάνατο του Γουίλιαμς",
+      "finding": "Ο αγώνας της Χέντον με την Μπέντφοντ Σπορτς το Σάββατο διακόπηκε μέσα στα πρώτα δέκα λεπτά, αφού ο αμυντικός Ίθαν Κρέρι τραυματίστηκε και μεταφέρθηκε στο νοσοκομείο. Ήταν η πρώτη εμφάνιση της ομάδας μετά τον θάνατο του Έζεκιελ Γουίλιαμς, σύμφωνα με το BBC.",
+      "section": "sports",
+      "priority": 6,
+      "article_path": "articles/2026-11-15-evening/hendon-returns-2026-11-13.json",
+      "reader_url": "articles/2026-11-15-evening/hendon-returns-2026-11-13.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/cm98xd2dpjd7o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-15T14:06:19+00:00",
+          "retrieved_at": "2026-11-15T16:21:03.241638+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f5b5aaadbba343256ab762f99461a3f12b149c3a819296f0a7b670df19bce8a8.webp"
+    },
+    {
+      "story_id": "bahrain-iran-airbase-strike-2026-11-15",
+      "identity": "bahrain-iran-airbase-strike-2026-11-15",
+      "edition_id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "slot": "evening",
+      "published_at": "2026-11-15T11:30:32.729954+00:00",
+      "available_at": "2026-11-15T17:33:06.954666+00:00",
+      "headline": "Πλήγμα του Ιράν κατά αεροπορικής βάσης στο Μπαχρέιν αναφέρει ο Guardian",
+      "finding": "Ο Guardian μετέδωσε την Κυριακή ότι το Ιράν στόχευσε αεροπορική βάση στο Μπαχρέιν, στο πλαίσιο νέας έξαρσης των πληγμάτων στον Κόλπο. Σύμφωνα με το ρεπορτάζ, εκδόθηκαν δημόσιες προειδοποιήσεις και ήχησαν σειρήνες το πρωί. Το διαθέσιμο απόσπασμα δεν αναφέρει επιβεβαιωμένο απολογισμό ζημιών ή θυμάτων, ούτε διευκρινίζει ποια ήταν η έκβαση του πλήγματος.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-15-evening/bahrain-iran-airbase-strike-2026-11-15.json",
+      "reader_url": "articles/2026-11-15-evening/bahrain-iran-airbase-strike-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-15T10:33:04+00:00",
+          "retrieved_at": "2026-11-15T10:42:13.342543+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ab10f70638ffe4c2b959eeb79489e4a4409482bf4c7fc6d2cd455420d65ff160.webp"
+    },
+    {
+      "story_id": "cape-verde-presidential-election-2026-11-15",
+      "identity": "cape-verde-presidential-election-2026-11-15",
+      "edition_id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "slot": "evening",
+      "published_at": "2026-11-15T11:30:32.729954+00:00",
+      "available_at": "2026-11-15T17:33:06.954666+00:00",
+      "headline": "Προεδρικές εκλογές στο Πράσινο Ακρωτήριο με την πρώτη γυναίκα υποψήφια",
+      "finding": "Το Πράσινο Ακρωτήριο διεξάγει προεδρικές εκλογές την Κυριακή. Η υπουργός Δικαιοσύνης Ζοάνα Ρόζα, με τη στήριξη του αντιπολιτευόμενου Κινήματος για τη Δημοκρατία, διεκδικεί την προεδρία απέναντι στον εν ενεργεία πρόεδρο Ζοζέ Μαρία Νέβες, σύμφωνα με το France 24. Είναι η πρώτη γυναίκα που διεκδικεί την προεδρία μετά την ανεξαρτησία από την Πορτογαλία το 1975.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-15-evening/cape-verde-presidential-election-2026-11-15.json",
+      "reader_url": "articles/2026-11-15-evening/cape-verde-presidential-election-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://www.france24.com/en/africa/20261115-cape-verde-could-make-election-history-with-first-female-president",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-11-15T07:56:14+00:00",
+          "retrieved_at": "2026-11-15T10:21:07.594236+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/96754bb92825e4e5754be0e0a1a096f502f1af0bf31c198eaebb6a45ff7244b7.webp"
+    },
+    {
+      "story_id": "cyprus-1983-declaration-anniversary-2026-11-15",
+      "identity": "cyprus-1983-declaration-anniversary-2026-11-15",
+      "edition_id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "slot": "evening",
+      "published_at": "2026-11-15T11:30:32.729954+00:00",
+      "available_at": "2026-11-15T17:33:06.954666+00:00",
+      "headline": "Λευκωσία και Ερχιουρμάν τοποθετούνται στην επέτειο της ανακήρυξης στα κατεχόμενα",
+      "finding": "Στα 43 χρόνια από την ανακήρυξη της 15ης Νοεμβρίου 1983, το κυπριακό Υπουργείο Εξωτερικών απέρριψε τη λύση δύο κρατών και κάλεσε τις κυβερνήσεις να τηρήσουν τα ψηφίσματα 541 και 550 του Συμβουλίου Ασφαλείας του ΟΗΕ. Κυπριακά κόμματα καταδίκασαν επίσης την ανακήρυξη. Ο Τουφάν Ερχιουρμάν δήλωσε ότι οι Τουρκοκύπριοι εξακολουθούν να επιδιώκουν λύση, αλλά ότι πρέπει να αλλάξουν οι αναποτελεσματικές μέθοδοι.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-15-evening/cyprus-1983-declaration-anniversary-2026-11-15.json",
+      "reader_url": "articles/2026-11-15-evening/cyprus-1983-declaration-anniversary-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1337658/ypeks-oydepote-tha-apodekhthoume-ti-nomimopiisi-tis-dikhotomisis",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-15T10:37:11+00:00",
+          "retrieved_at": "2026-11-15T10:42:13.376067+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.philenews.com/politiki/article/1795982/psevdokratos-katadikazi-o-politikos-kosmos-tin-paranomi-anakirixi-ta-minimata-ton-kommaton",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-15T10:30:39+00:00",
+          "retrieved_at": "2026-11-15T10:42:14.327685+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://cyprus-mail.com/2026/11/15/erhurman-the-turkish-cypriots-have-not-given-up-their-will-for-a-solution",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-15T10:32:53+00:00",
+          "retrieved_at": "2026-11-15T10:42:19.292165+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/11c8786e499de0e88eecf6dce4e278c9b37a9a188f9ccbb1681e02973db4a833.webp"
+    },
+    {
+      "story_id": "limassol-port-detention-2026-11-15",
+      "identity": "limassol-port-detention-2026-11-15",
+      "edition_id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "slot": "evening",
+      "published_at": "2026-11-15T11:30:32.729954+00:00",
+      "available_at": "2026-11-15T17:33:06.954666+00:00",
+      "headline": "Τριήμερη προσωποκράτηση μετά από έλεγχο στο λιμάνι Λεμεσού",
+      "finding": "Το Επαρχιακό Δικαστήριο Λεμεσού εξέδωσε την Κυριακή διάταγμα τριήμερης προσωποκράτησης 30χρονου Ισραηλινού στρατιώτη για διευκόλυνση των αστυνομικών ανακρίσεων, σύμφωνα με το SigmaLive. Το ρεπορτάζ αναφέρει ότι σε έλεγχο στο λιμάνι της Λεμεσού εντοπίστηκε έμφορτος γεμιστήρας στις αποσκευές του. Η αστυνομική έρευνα για τις συνθήκες υπό τις οποίες βρέθηκε στην κατοχή του συνεχίζεται.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-15-evening/limassol-port-detention-2026-11-15.json",
+      "reader_url": "articles/2026-11-15-evening/limassol-port-detention-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1337668/lemesos-ypo-kratisi-o-israilinos-stratiwtis-meta-ton-entopismo-ghemistira",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-15T10:39:35+00:00",
+          "retrieved_at": "2026-11-15T10:42:13.310026+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/3000fb67f828936ecc2eeb6c2067786420837eb5de9c1c4359f24a5baad4aed1.webp"
+    },
+    {
+      "story_id": "cyprus-crossings-implementation-2026-11-15",
+      "identity": "cyprus-crossings-implementation-2026-11-15",
+      "edition_id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "slot": "evening",
+      "published_at": "2026-11-15T05:35:01.967838+00:00",
+      "available_at": "2026-11-15T17:33:06.954666+00:00",
+      "headline": "Νέα σημεία διέλευσης: ανοιχτό το χρονοδιάγραμμα των έργων στον Κάμπο",
+      "finding": "Η Cyprus Mail αναφέρει ότι στη συνάντηση της Δευτέρας οι δύο ηγέτες, παρουσία της απεσταλμένης του ΟΗΕ Μαρία Άνχελα Ολγκίν, συμφώνησαν στο άνοιγμα δύο νέων σημείων διέλευσης. Η ανάλυση εστιάζει στον χρόνο κατασκευής που συνδέεται με την επιλογή του Κάμπου. Δεν δίνει ημερομηνία έναρξης λειτουργίας.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-15-evening/cyprus-crossings-implementation-2026-11-15.json",
+      "reader_url": "articles/2026-11-15-evening/cyprus-crossings-implementation-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/15/is-cyprus-crossings-deal-really-progress",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-15T02:25:00+00:00",
+          "retrieved_at": "2026-11-15T04:21:17.039527+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/816544e31fb99847101e765cd957f66180a94992fb55decb719271d019745f52.webp"
+    },
+    {
+      "story_id": "dubai-p1-finals-2026-11-15",
+      "identity": "dubai-p1-finals-2026-11-15",
+      "edition_id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "slot": "evening",
+      "published_at": "2026-11-15T05:35:01.967838+00:00",
+      "available_at": "2026-11-15T17:33:06.954666+00:00",
+      "headline": "Δύο τελικοί την Κυριακή στο Dubai P1",
+      "finding": "Οι δύο τελικοί του Dubai Premier Padel P1 είναι προγραμματισμένοι για την Κυριακή 15 Νοεμβρίου στο κεντρικό γήπεδο, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-15-evening/dubai-p1-finals-2026-11-15.json",
+      "reader_url": "articles/2026-11-15-evening/dubai-p1-finals-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/horarios-partidos-donde-ver-finales-dubai-p1-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-14T23:26:10+00:00",
+          "retrieved_at": "2026-11-15T04:21:19.096826+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/aeaac1098faad21894ab3ded1a52ea2022405d77d8771dbb5386b11f3d88f219.webp"
+    },
+    {
+      "story_id": "wales-new-zealand-rugby-win-2026-11-14",
+      "identity": "wales-new-zealand-rugby-win-2026-11-14",
+      "edition_id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "slot": "evening",
+      "published_at": "2026-11-15T11:30:32.729954+00:00",
+      "available_at": "2026-11-15T17:33:06.954666+00:00",
+      "headline": "Η Ουαλία νίκησε τη Νέα Ζηλανδία στο ράγκμπι έπειτα από 73 χρόνια",
+      "finding": "Η Ουαλία επικράτησε της Νέας Ζηλανδίας με 35–28 το Σάββατο, στην πρώτη της νίκη επί της συγκεκριμένης αντιπάλου εδώ και 73 χρόνια, σύμφωνα με το France 24.",
+      "section": "sports",
+      "priority": 6,
+      "article_path": "articles/2026-11-15-evening/wales-new-zealand-rugby-win-2026-11-14.json",
+      "reader_url": "articles/2026-11-15-evening/wales-new-zealand-rugby-win-2026-11-14.html",
+      "sources": [
+        {
+          "url": "https://www.france24.com/en/tv-shows/sports/20261115-zin%C3%A9dine-zidane-returns-to-bordeaux-as-france-take-on-turkey-in-nations-league",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-11-15T09:36:30+00:00",
+          "retrieved_at": "2026-11-15T10:21:07.736811+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f74e4363dec568d5b8cd1232d08ea4e966557f8b2100e19567ceb7c39c31331e.webp"
     },
     {
       "story_id": "bahrain-iran-airbase-strike-2026-11-15",
