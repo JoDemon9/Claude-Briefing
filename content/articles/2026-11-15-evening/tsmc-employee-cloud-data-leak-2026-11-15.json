@@ -1,0 +1,76 @@
+{
+  "analysis_sources": [
+    "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider"
+  ],
+  "category": "Πρώτο θέμα",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "delta_update": "Η επιβεβαίωση αφορά τα στοιχεία εργαζομένων και τη σύνδεσή τους με εξωτερικό πάροχο.",
+  "driver_tags": [
+    "cybersecurity",
+    "technology",
+    "finance"
+  ],
+  "edition_id": "2026-11-15-evening",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Η TSMC επιβεβαίωσε διαρροή στοιχείων εργαζομένων που τηρούνταν σε πάροχο cloud",
+  "id": "tsmc-employee-cloud-data-leak-2026-11-15",
+  "image": {
+    "alt": "TSMC employee data breach linked to cloud provider",
+    "attribution": "BleepingComputer",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · TSMC employee data breach linked to cloud provider · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider",
+    "original_url": "https://www.bleepstatic.com/content/hl-images/2026/11/13/TSMC.jpg",
+    "retrieved_at": "2026-11-15T16:21:11.957888+00:00",
+    "source_review": {
+      "checked_at": "2026-11-15T16:21:11.957888+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "68c896b3b3d1ec58",
+      "rights_basis": "publisher-attribution",
+      "sha256": "3e8517b4cde26cfc7f1a1cfceb5b161b7315acd3f3507c953be43f60d2c1f332"
+    },
+    "source_url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider",
+    "url": "assets/editorial/source/3e8517b4cde26cfc7f1a1cfceb5b161b7315acd3f3507c953be43f60d2c1f332.webp"
+  },
+  "mechanics_and_incentives": "Όταν στοιχεία προσωπικού τηρούνται από τρίτο, η διερεύνηση χρειάζεται πληροφορίες από τον πάροχο για το τι ήταν προσβάσιμο και ποια αρχεία πράγματι εκτέθηκαν.",
+  "published_at": "2026-11-15T17:33:06.954666+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "alternative_case": "Αν επαληθευτούν πρόσθετα αρχεία, μπορεί να διευρυνθεί ο κύκλος των ειδοποιήσεων.",
+    "base_case": "Αν επιβεβαιωθεί μόνο το γνωστό δείγμα, οι ειδοποιήσεις μπορούν να εστιαστούν στα πρόσωπα που ταυτοποιούνται.",
+    "watch_next": "Ανακοίνωση με επιβεβαιωμένο εύρος, κατηγορίες δεδομένων και τρόπο ειδοποίησης των εργαζομένων."
+  },
+  "second_order_effects": "Οι εργαζόμενοι χρειάζονται σαφή ενημέρωση για τα δικά τους στοιχεία. Η επιβεβαίωση της διαρροής δεν αρκεί για συμπέρασμα σχετικά με άλλα συστήματα ή την παραγωγή.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Η TSMC επιβεβαίωσε, σύμφωνα με το BleepingComputer, ότι προσωπικά στοιχεία εργαζομένων της διέρρευσαν στο διαδίκτυο. Η εταιρεία διαπίστωσε ότι τα στοιχεία αντιστοιχούσαν σε δεδομένα αποθηκευμένα σε συστήματα εξωτερικού παρόχου cloud. Ο αριθμός των εργαζομένων στο σύνολο των δεδομένων παραμένει ανεπιβεβαίωτος: το μεγαλύτερο σύνολο που αναφέρει το δημοσίευμα βασίζεται σε ισχυρισμό του προσώπου που ανάρτησε τα στοιχεία."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-15T15:23:48+00:00",
+      "publisher": "BleepingComputer",
+      "reporting_group": "BleepingComputer",
+      "retrieved_at": "2026-11-15T16:21:03.719099+00:00",
+      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "tsmc-employee-cloud-data-leak-2026-11-15",
+  "story_identity": "tsmc-employee-cloud-data-leak-2026-11-15",
+  "summary": "Η TSMC επιβεβαίωσε, σύμφωνα με το BleepingComputer, ότι προσωπικά στοιχεία εργαζομένων της διέρρευσαν στο διαδίκτυο. Η εταιρεία διαπίστωσε ότι τα στοιχεία αντιστοιχούσαν σε δεδομένα αποθηκευμένα σε συστήματα εξωτερικού παρόχου cloud. Ο αριθμός των εργαζομένων στο σύνολο των δεδομένων παραμένει ανεπιβεβαίωτος: το μεγαλύτερο σύνολο που αναφέρει το δημοσίευμα βασίζεται σε ισχυρισμό του προσώπου που ανάρτησε τα στοιχεία.",
+  "updated_at": "2026-11-15T17:33:06.954666+00:00",
+  "url": "articles/2026-11-15-evening/tsmc-employee-cloud-data-leak-2026-11-15.html"
+}
