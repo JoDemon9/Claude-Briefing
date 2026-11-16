@@ -1,0 +1,66 @@
+{
+  "analysis_sources": [],
+  "category": "Διεθνή",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 3,
+    "section": "world"
+  },
+  "delta_update": "Η νεότερη προειδοποίηση συνδέει το εργαλείο με ήδη καταγεγραμμένα περιστατικά.",
+  "driver_tags": [
+    "cybersecurity",
+    "technology"
+  ],
+  "edition_id": "2026-11-16-morning",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Το FBI προειδοποιεί για χρήση εργαλείου τεχνητής νοημοσύνης σε κυβερνοεπιθέσεις",
+  "id": "fbi-artex-cyber-warning-2026-11-15",
+  "image": {
+    "alt": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+    "attribution": "BleepingComputer",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · FBI warns ARTEX AI hacking tool is powering global cyberattacks · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks",
+    "original_url": "https://www.bleepstatic.com/content/hl-images/2025/10/23/AI-2.jpg",
+    "retrieved_at": "2026-11-16T04:21:10.417252+00:00",
+    "source_review": {
+      "checked_at": "2026-11-16T04:21:10.417252+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "e4ececece8eccc6c",
+      "rights_basis": "publisher-attribution",
+      "sha256": "89bd8b1bb3ca387a8b57dc44aa97072c434a890d0e71ab7c363d2fc36e3ff6c2"
+    },
+    "source_url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks",
+    "url": "assets/editorial/source/89bd8b1bb3ca387a8b57dc44aa97072c434a890d0e71ab7c363d2fc36e3ff6c2.webp"
+  },
+  "published_at": "2026-11-16T05:30:22.305674+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Το FBI προειδοποίησε ότι δράστες χρησιμοποιούν εργαλείο τεχνητής νοημοσύνης για αυτοματοποίηση κυβερνοεπιθέσεων, σύμφωνα με το BleepingComputer. Η προειδοποίηση αναφέρεται και στην ήδη γνωστή επίθεση του Οκτωβρίου κατά του ConnectWise Cloud Backup, η οποία επηρέασε περιβάλλοντα πελατών του Microsoft 365. Η Huntress είχε αναφέρει τότε ότι εντόπισε τουλάχιστον 162 επηρεαζόμενα εταιρικά περιβάλλοντα."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-15T18:29:53+00:00",
+      "publisher": "BleepingComputer",
+      "reporting_group": "BleepingComputer",
+      "retrieved_at": "2026-11-16T04:21:02.724004+00:00",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "fbi-artex-cyber-warning-2026-11-15",
+  "story_identity": "fbi-artex-cyber-warning-2026-11-15",
+  "summary": "Το FBI προειδοποίησε ότι δράστες χρησιμοποιούν εργαλείο τεχνητής νοημοσύνης για αυτοματοποίηση κυβερνοεπιθέσεων, σύμφωνα με το BleepingComputer. Η προειδοποίηση αναφέρεται και στην ήδη γνωστή επίθεση του Οκτωβρίου κατά του ConnectWise Cloud Backup, η οποία επηρέασε περιβάλλοντα πελατών του Microsoft 365. Η Huntress είχε αναφέρει τότε ότι εντόπισε τουλάχιστον 162 επηρεαζόμενα εταιρικά περιβάλλοντα.",
+  "updated_at": "2026-11-16T05:30:22.305674+00:00",
+  "url": "articles/2026-11-16-morning/fbi-artex-cyber-warning-2026-11-15.html"
+}

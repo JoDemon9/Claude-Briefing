@@ -721,6 +721,14 @@
       "published_at": "2026-11-15T05:35:01.967838+00:00",
       "url": "morning/2026-11-15.html",
       "fingerprint": "9e58149249b0e1228d3f4639b065c014eff5cf367c8d5291703a6888db57e636"
+    },
+    {
+      "id": "2026-11-16-morning",
+      "date": "2026-11-16",
+      "type": "morning",
+      "published_at": "2026-11-16T05:30:22.305674+00:00",
+      "url": "morning/2026-11-16.html",
+      "fingerprint": "2145bee92a36bd709f4ab2ed1e7779ebde5dad7def9e4027c2538ee5853c2d00"
     }
   ],
   "stories": [
@@ -27361,6 +27369,257 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/09cacbd25824295af3194bf6b5495c8bf3db2783c2f6f87f479b5aa374a18293.webp"
+    },
+    {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "identity": "nvidia-board-security-review-2026-11-08",
+      "edition_id": "2026-11-16-morning",
+      "date": "2026-11-16",
+      "slot": "morning",
+      "published_at": "2026-11-15T05:35:01.967838+00:00",
+      "available_at": "2026-11-16T05:30:22.305674+00:00",
+      "headline": "Απαντήσεις εντός δέκα ημερών ζητά ο Μπέσεντ για την υπόθεση Nvidia",
+      "finding": "Ο υπουργός Οικονομικών των ΗΠΑ Σκοτ Μπέσεντ ζήτησε, σύμφωνα με τον Φιλελεύθερο, ενημέρωση από το διοικητικό συμβούλιο της Nvidia μέσα στις επόμενες δέκα ημέρες για το αν έγιναν πωλήσεις προηγμένων επεξεργαστών σε κινεζικές επιχειρήσεις κατά παράβαση περιορισμών. Χωριστά, η Megaspeed δήλωσε στο BBC ότι η Άλις Χουάνγκ αποχώρησε από την εκτελεστική θέση της τον Αύγουστο του 2025. Το BBC αναφέρει ότι η C4ADS αμφισβητεί κατά πόσο είχε παύσει νωρίτερα να ασκεί ουσιαστικό έλεγχο.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-16-morning/nvidia-board-security-review-2026-11-08.json",
+      "reader_url": "articles/2026-11-16-morning/nvidia-board-security-review-2026-11-08.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kosmos-ikonomia/article/1796117/nvidia-sigi-tramp-skliri-stasi-apo-ton-ipourgo-ikonomikon-ke-kinisi-asteron-tis-technologias-gia-epistrofi-chouangk-stin-igesia-tis-eterias",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-16T04:13:18+00:00",
+          "retrieved_at": "2026-11-16T04:21:04.467612+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-16T01:47:57+00:00",
+          "retrieved_at": "2026-11-16T04:21:02.766912+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6211ad9bfe6469ebab206bcf37fa536a24cdd8799b61983752b0130b5c22965c.webp"
+    },
+    {
+      "story_id": "israel-eisenkot-electoral-interference-allegations-2026-11-16",
+      "identity": "israel-eisenkot-electoral-interference-allegations-2026-11-16",
+      "edition_id": "2026-11-16-morning",
+      "date": "2026-11-16",
+      "slot": "morning",
+      "published_at": "2026-11-16T05:30:22.305674+00:00",
+      "available_at": "2026-11-16T05:30:22.305674+00:00",
+      "headline": "Ο Αϊζενκότ ζητά αποχώρηση Νετανιάχου μετά από δημοσίευμα για εκλογική παρέμβαση",
+      "finding": "Ο Γκάντι Αϊζενκότ ζήτησε την Κυριακή την άμεση αποχώρηση του υπηρεσιακού πρωθυπουργού Μπενιαμίν Νετανιάχου, σύμφωνα με το France 24. Το ισραηλινό Channel 12 είχε αναφέρει ότι ο επικεφαλής του γραφείου του Νετανιάχου τηλεφώνησε στην αστυνομία την παραμονή των εκλογών για καταγγελία σχετικά με μέλη του κόμματος Ράαμ. Κανένα από τα δύο πολιτικά μπλοκ δεν εξασφάλισε τις 61 έδρες που απαιτούνται για σχηματισμό κυβέρνησης.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-16-morning/israel-eisenkot-electoral-interference-allegations-2026-11-16.json",
+      "reader_url": "articles/2026-11-16-morning/israel-eisenkot-electoral-interference-allegations-2026-11-16.html",
+      "sources": [
+        {
+          "url": "https://www.france24.com/en/middle-east/20261116-eisenkot-netanyahu-cannot-stay-in-office",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-11-16T03:47:28+00:00",
+          "retrieved_at": "2026-11-16T04:21:02.828168+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/d4324c5ff50cbecdee12ed6f6894f181f316ab80f8e4e165de5cac0e6378fa0c.webp"
+    },
+    {
+      "story_id": "fbi-artex-cyber-warning-2026-11-15",
+      "identity": "fbi-artex-cyber-warning-2026-11-15",
+      "edition_id": "2026-11-16-morning",
+      "date": "2026-11-16",
+      "slot": "morning",
+      "published_at": "2026-11-16T05:30:22.305674+00:00",
+      "available_at": "2026-11-16T05:30:22.305674+00:00",
+      "headline": "Το FBI προειδοποιεί για χρήση εργαλείου τεχνητής νοημοσύνης σε κυβερνοεπιθέσεις",
+      "finding": "Το FBI προειδοποίησε ότι δράστες χρησιμοποιούν εργαλείο τεχνητής νοημοσύνης για αυτοματοποίηση κυβερνοεπιθέσεων, σύμφωνα με το BleepingComputer. Η προειδοποίηση αναφέρεται και στην ήδη γνωστή επίθεση του Οκτωβρίου κατά του ConnectWise Cloud Backup, η οποία επηρέασε περιβάλλοντα πελατών του Microsoft 365. Η Huntress είχε αναφέρει τότε ότι εντόπισε τουλάχιστον 162 επηρεαζόμενα εταιρικά περιβάλλοντα.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-16-morning/fbi-artex-cyber-warning-2026-11-15.json",
+      "reader_url": "articles/2026-11-16-morning/fbi-artex-cyber-warning-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks",
+          "publisher": "BleepingComputer",
+          "reporting_group": "BleepingComputer",
+          "published_at": "2026-11-15T18:29:53+00:00",
+          "retrieved_at": "2026-11-16T04:21:02.724004+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/89bd8b1bb3ca387a8b57dc44aa97072c434a890d0e71ab7c363d2fc36e3ff6c2.webp"
+    },
+    {
+      "story_id": "cop31-antalya-ministerial-phase-2026-11-16",
+      "identity": "cop31-antalya-ministerial-phase-2026-11-16",
+      "edition_id": "2026-11-16-morning",
+      "date": "2026-11-16",
+      "slot": "morning",
+      "published_at": "2026-11-16T05:30:22.305674+00:00",
+      "available_at": "2026-11-16T05:30:22.305674+00:00",
+      "headline": "Η COP31 περνά από τη σύνοδο των ηγετών στις διαπραγματεύσεις",
+      "finding": "Με την ολοκλήρωση της συνόδου των ηγετών στην COP31 της Αττάλειας, τη συνέχεια αναλαμβάνουν υπουργοί και διαπραγματευτές από σχεδόν 200 χώρες, σύμφωνα με την Cyprus Mail. Το δημοσίευμα αναφέρει πρωτοβουλίες συνεργασίας και φιλανθρωπικής χρηματοδότησης με δεσμεύσεις άνω των 480 εκατ. δολαρίων. Διευκρινίζει χωριστά ότι τα 25 δισ. ευρώ αποτελούν στόχο κινητοποίησης επενδύσεων, χωρίς να έχουν ήδη εξασφαλιστεί.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-16-morning/cop31-antalya-ministerial-phase-2026-11-16.json",
+      "reader_url": "articles/2026-11-16-morning/cop31-antalya-ministerial-phase-2026-11-16.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/16/cop31-what-has-been-achieved-so-far",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-16T02:25:00+00:00",
+          "retrieved_at": "2026-11-16T04:21:02.800247+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a51bdbcbb64399b1eb6252546b2f451c5a3002a9935a77c28c0db5bb071363bf.webp"
+    },
+    {
+      "story_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
+      "identity": "cyprus-eac-unions-electricity-planning-2026-11-16",
+      "edition_id": "2026-11-16-morning",
+      "date": "2026-11-16",
+      "slot": "morning",
+      "published_at": "2026-11-16T05:30:22.305674+00:00",
+      "available_at": "2026-11-16T05:30:22.305674+00:00",
+      "headline": "Οι συντεχνίες της ΑΗΚ ζητούν απαντήσεις για τον ενεργειακό σχεδιασμό",
+      "finding": "Οι συντεχνίες της ΑΗΚ ζητούν εξηγήσεις για καθυστερήσεις στον ενεργειακό σχεδιασμό και προειδοποιούν για κινδύνους στην επάρκεια ηλεκτρισμού και για επιβαρύνσεις στους καταναλωτές, σύμφωνα με το SigmaLive. Η παρέμβασή τους ακολουθεί τις δηλώσεις του πρώην υπουργού Ενέργειας Γιώργου Παπαναστασίου στις 3 Νοεμβρίου περί παρεμβάσεων συμφερόντων. Το δημοσίευμα καταγράφει τις καταγγελίες, χωρίς να τεκμηριώνει ποιος ευθύνεται για συγκεκριμένη καθυστέρηση.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-16-morning/cyprus-eac-unions-electricity-planning-2026-11-16.json",
+      "reader_url": "articles/2026-11-16-morning/cyprus-eac-unions-electricity-planning-2026-11-16.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1337703/kataghghelies-papanastasioy-proeidopoioun-ghia-energheiaka-adieksoda-oi-sintekhnies",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-15T20:55:08+00:00",
+          "retrieved_at": "2026-11-16T04:21:03.137305+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/831d84bad823a9d69e5502b15fd03118b6fbf64cfb0c60007792e841b57a3235.webp"
+    },
+    {
+      "story_id": "polis-eoka-history-conference-account-2026-11-16",
+      "identity": "polis-eoka-history-conference-account-2026-11-16",
+      "edition_id": "2026-11-16-morning",
+      "date": "2026-11-16",
+      "slot": "morning",
+      "published_at": "2026-11-16T05:30:22.305674+00:00",
+      "available_at": "2026-11-16T05:30:22.305674+00:00",
+      "headline": "Απολογισμός του ιστορικού συνεδρίου στην Πόλη Χρυσοχούς",
+      "finding": "Ο Φιλελεύθερος δημοσίευσε τη Δευτέρα απολογισμό του συνεδρίου που έγινε στις 6 και 7 Νοεμβρίου στην Πόλη Χρυσοχούς για την ιστορική τεκμηρίωση και τη λογοτεχνική αποτύπωση του αγώνα της ΕΟΚΑ στην επαρχία Πάφου. Το διοργάνωσαν ο δήμος και ο Όμιλος Λογοτεχνίας και Κριτικής. Στους δηλωμένους στόχους ήταν η διεύρυνση της ιστορικής γνώσης και η διεξαγωγή επιστημονικών εκδηλώσεων στην περιφέρεια.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-16-morning/polis-eoka-history-conference-account-2026-11-16.json",
+      "reader_url": "articles/2026-11-16-morning/polis-eoka-history-conference-account-2026-11-16.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1796104/i-poli-chrisochous-ke-i-eparchia-pafou-ston-agona-tis-eoka-ena-sinedrio-me-stocho-ton-emploutismo-tis-istorikis-gnosis",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-16T04:14:00+00:00",
+          "retrieved_at": "2026-11-16T04:21:04.022894+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a0151a29d55fe86606e01c65f4fa00814ecf4fc117be1c3ad5170135eb89cc89.webp"
+    },
+    {
+      "story_id": "dubai-p1-finals-2026-11-15",
+      "identity": "dubai-p1-finals-2026-11-15",
+      "edition_id": "2026-11-16-morning",
+      "date": "2026-11-16",
+      "slot": "morning",
+      "published_at": "2026-11-15T05:35:01.967838+00:00",
+      "available_at": "2026-11-16T05:30:22.305674+00:00",
+      "headline": "Λεμπρόν–Άουγκσμπουργκερ και Φερνάντεθ–Κάλβο πρωταθλητές στο Dubai P1",
+      "finding": "Οι Λεμπρόν και Άουγκσμπουργκερ κατέκτησαν τον τίτλο ανδρών και οι Φερνάντεθ και Κάλβο τον τίτλο γυναικών στο Dubai P1, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-16-morning/dubai-p1-finals-2026-11-15.json",
+      "reader_url": "articles/2026-11-16-morning/dubai-p1-finals-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/lebron-augsburger-y-fernandez-calvo-campeones-del-dubai-p1",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-15T19:20:38+00:00",
+          "retrieved_at": "2026-11-16T04:21:04.792039+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/705fec67e27940a62d15977248aa4833b56ddaebffe1cade96456b7f679c8463.webp"
+    },
+    {
+      "story_id": "tenerife-de-miguel-return-2026-11-15",
+      "identity": "tenerife-de-miguel-return-2026-11-15",
+      "edition_id": "2026-11-16-morning",
+      "date": "2026-11-16",
+      "slot": "morning",
+      "published_at": "2026-11-16T05:30:22.305674+00:00",
+      "available_at": "2026-11-16T05:30:22.305674+00:00",
+      "headline": "Η Τενερίφη επέστρεψε με νίκη και αφιέρωμα στον Ντε Μιγκέλ",
+      "finding": "Η Τενερίφη νίκησε 2–0 τη Θέουτα την Κυριακή στον πρώτο αγώνα της μετά τον θάνατο του Χεσούς Ντε Μιγκέλ, σύμφωνα με το BBC. Ο σύλλογος και οι φίλαθλοι τίμησαν τη μνήμη του.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-16-morning/tenerife-de-miguel-return-2026-11-15.json",
+      "reader_url": "articles/2026-11-16-morning/tenerife-de-miguel-return-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/cqx2xn535yj8o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-15T16:38:51+00:00",
+          "retrieved_at": "2026-11-16T04:21:02.929340+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/195a0aa19057cdfffe5563b16b2256cb36112d99ff2b7fd814f7988be1a10a80.webp"
+    },
+    {
+      "story_id": "andreeva-wta-finals-title-2026-11-15",
+      "identity": "andreeva-wta-finals-title-2026-11-15",
+      "edition_id": "2026-11-16-morning",
+      "date": "2026-11-16",
+      "slot": "morning",
+      "published_at": "2026-11-16T05:30:22.305674+00:00",
+      "available_at": "2026-11-16T05:30:22.305674+00:00",
+      "headline": "Η 19χρονη Αντρέεβα κατέκτησε τα WTA Finals χωρίς να χάσει σετ",
+      "finding": "Η Μίρα Αντρέεβα κατέκτησε τον τίτλο στο Indian Wells χωρίς να χάσει σετ και με μόλις 26 χαμένα γκέιμ σε πέντε αγώνες, σύμφωνα με το BBC.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-16-morning/andreeva-wta-finals-title-2026-11-15.json",
+      "reader_url": "articles/2026-11-16-morning/andreeva-wta-finals-title-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/tennis/articles/c61740145y7wo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-15T23:18:38+00:00",
+          "retrieved_at": "2026-11-16T04:21:02.762351+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7b3df06f6097facb0bccde118243b812efe5232bf878284be5bb9a753d4eac14.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
