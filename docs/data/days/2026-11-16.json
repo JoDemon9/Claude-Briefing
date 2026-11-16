@@ -16,13 +16,38 @@
       "type": "midday",
       "url": "midday/2026-11-16.html",
       "published_at": "2026-11-16T11:43:52.556920+00:00"
+    },
+    {
+      "id": "2026-11-16-evening",
+      "type": "evening",
+      "url": "evening/2026-11-16.html",
+      "published_at": "2026-11-16T17:40:08.412339+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "us-roosevelt-middle-east-arrival-2026-11-15",
+  "missing_slots": [],
+  "lead_story_id": "cyprus-poed-teacher-appointments-2026-11-16",
   "stories": [
+    {
+      "story_id": "google-autonomous-cyber-risk-assessment-2026-11-16",
+      "first_seen_at": "2026-11-16T17:40:08.412339+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-16-evening",
+          "article_id": "google-ai-cyber-defence",
+          "source_story_id": "google-autonomous-cyber-risk-assessment-2026-11-16",
+          "url": "articles/2026-11-16-evening/google-ai-cyber-defence.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "google-ai-cyber-defence",
+        "source_story_id": "google-autonomous-cyber-risk-assessment-2026-11-16",
+        "url": "articles/2026-11-16-evening/google-ai-cyber-defence.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "nvidia-board-security-review-2026-11-08",
       "first_seen_at": "2026-11-16T05:30:22.305674+00:00",
@@ -39,13 +64,19 @@
           "article_id": "nvidia-board-security-review-2026-11-08",
           "source_story_id": "nvidia-board-security-review-2026-11-08",
           "url": "articles/2026-11-16-midday/nvidia-board-security-review-2026-11-08.html"
+        },
+        {
+          "edition_id": "2026-11-16-evening",
+          "article_id": "nvidia-board-security-review-2026-11-08",
+          "source_story_id": "nvidia-board-security-review-2026-11-08",
+          "url": "articles/2026-11-16-evening/nvidia-board-security-review-2026-11-08.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-16-midday",
+        "edition_id": "2026-11-16-evening",
         "article_id": "nvidia-board-security-review-2026-11-08",
         "source_story_id": "nvidia-board-security-review-2026-11-08",
-        "url": "articles/2026-11-16-midday/nvidia-board-security-review-2026-11-08.html"
+        "url": "articles/2026-11-16-evening/nvidia-board-security-review-2026-11-08.html"
       },
       "section": "world",
       "priority": 1
@@ -120,25 +151,25 @@
       "priority": 2
     },
     {
-      "story_id": "cyprus-poed-teacher-appointments-2026-11-16",
-      "first_seen_at": "2026-11-16T11:43:52.556920+00:00",
+      "story_id": "uk-eu-food-deal-terms-2026-11-16",
+      "first_seen_at": "2026-11-16T17:40:08.412339+00:00",
       "last_substantive_at": null,
       "references": [
         {
-          "edition_id": "2026-11-16-midday",
-          "article_id": "cyprus-poed-teacher-appointments-2026-11-16",
-          "source_story_id": "cyprus-poed-teacher-appointments-2026-11-16",
-          "url": "articles/2026-11-16-midday/cyprus-poed-teacher-appointments-2026-11-16.html"
+          "edition_id": "2026-11-16-evening",
+          "article_id": "uk-eu-food-deal-terms",
+          "source_story_id": "uk-eu-food-deal-terms-2026-11-16",
+          "url": "articles/2026-11-16-evening/uk-eu-food-deal-terms.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-16-midday",
-        "article_id": "cyprus-poed-teacher-appointments-2026-11-16",
-        "source_story_id": "cyprus-poed-teacher-appointments-2026-11-16",
-        "url": "articles/2026-11-16-midday/cyprus-poed-teacher-appointments-2026-11-16.html"
+        "edition_id": "2026-11-16-evening",
+        "article_id": "uk-eu-food-deal-terms",
+        "source_story_id": "uk-eu-food-deal-terms-2026-11-16",
+        "url": "articles/2026-11-16-evening/uk-eu-food-deal-terms.html"
       },
-      "section": "cyprus",
-      "priority": 3
+      "section": "world",
+      "priority": 2
     },
     {
       "story_id": "fbi-artex-cyber-warning-2026-11-15",
@@ -162,6 +193,27 @@
       "priority": 3
     },
     {
+      "story_id": "us-flight-ground-stop-recovery-2026-11-16",
+      "first_seen_at": "2026-11-16T17:40:08.412339+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-16-evening",
+          "article_id": "us-flight-disruptions",
+          "source_story_id": "us-flight-ground-stop-recovery-2026-11-16",
+          "url": "articles/2026-11-16-evening/us-flight-disruptions.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "us-flight-disruptions",
+        "source_story_id": "us-flight-ground-stop-recovery-2026-11-16",
+        "url": "articles/2026-11-16-evening/us-flight-disruptions.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
       "story_id": "cop31-antalya-ministerial-phase-2026-11-16",
       "first_seen_at": "2026-11-16T05:30:22.305674+00:00",
       "last_substantive_at": null,
@@ -177,13 +229,19 @@
           "article_id": "cop31-antalya-ministerial-phase-2026-11-16",
           "source_story_id": "cop31-antalya-ministerial-phase-2026-11-16",
           "url": "articles/2026-11-16-midday/cop31-antalya-ministerial-phase-2026-11-16.html"
+        },
+        {
+          "edition_id": "2026-11-16-evening",
+          "article_id": "cop31-antalya-ministerial-phase-2026-11-16",
+          "source_story_id": "cop31-antalya-ministerial-phase-2026-11-16",
+          "url": "articles/2026-11-16-evening/cop31-antalya-ministerial-phase-2026-11-16.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-16-midday",
+        "edition_id": "2026-11-16-evening",
         "article_id": "cop31-antalya-ministerial-phase-2026-11-16",
         "source_story_id": "cop31-antalya-ministerial-phase-2026-11-16",
-        "url": "articles/2026-11-16-midday/cop31-antalya-ministerial-phase-2026-11-16.html"
+        "url": "articles/2026-11-16-evening/cop31-antalya-ministerial-phase-2026-11-16.html"
       },
       "section": "world",
       "priority": 4
@@ -204,13 +262,46 @@
           "article_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
           "source_story_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
           "url": "articles/2026-11-16-midday/cyprus-eac-unions-electricity-planning-2026-11-16.html"
+        },
+        {
+          "edition_id": "2026-11-16-evening",
+          "article_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
+          "source_story_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
+          "url": "articles/2026-11-16-evening/cyprus-eac-unions-electricity-planning-2026-11-16.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-16-midday",
+        "edition_id": "2026-11-16-evening",
         "article_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
         "source_story_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
-        "url": "articles/2026-11-16-midday/cyprus-eac-unions-electricity-planning-2026-11-16.html"
+        "url": "articles/2026-11-16-evening/cyprus-eac-unions-electricity-planning-2026-11-16.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "cyprus-poed-teacher-appointments-2026-11-16",
+      "first_seen_at": "2026-11-16T11:43:52.556920+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-16-midday",
+          "article_id": "cyprus-poed-teacher-appointments-2026-11-16",
+          "source_story_id": "cyprus-poed-teacher-appointments-2026-11-16",
+          "url": "articles/2026-11-16-midday/cyprus-poed-teacher-appointments-2026-11-16.html"
+        },
+        {
+          "edition_id": "2026-11-16-evening",
+          "article_id": "teacher-appointments-meeting",
+          "source_story_id": "cyprus-poed-teacher-appointments-2026-11-16",
+          "url": "articles/2026-11-16-evening/teacher-appointments-meeting.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "teacher-appointments-meeting",
+        "source_story_id": "cyprus-poed-teacher-appointments-2026-11-16",
+        "url": "articles/2026-11-16-evening/teacher-appointments-meeting.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -225,13 +316,40 @@
           "article_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
           "source_story_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
           "url": "articles/2026-11-16-midday/larnaca-investor-naturalisation-hearing-2026-11-16.html"
+        },
+        {
+          "edition_id": "2026-11-16-evening",
+          "article_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
+          "source_story_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
+          "url": "articles/2026-11-16-evening/larnaca-investor-naturalisation-hearing-2026-11-16.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-16-midday",
+        "edition_id": "2026-11-16-evening",
         "article_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
         "source_story_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
-        "url": "articles/2026-11-16-midday/larnaca-investor-naturalisation-hearing-2026-11-16.html"
+        "url": "articles/2026-11-16-evening/larnaca-investor-naturalisation-hearing-2026-11-16.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "lympia-crossing-threats-2026-11-16",
+      "first_seen_at": "2026-11-16T17:40:08.412339+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-16-evening",
+          "article_id": "lympia-crossing-threats",
+          "source_story_id": "lympia-crossing-threats-2026-11-16",
+          "url": "articles/2026-11-16-evening/lympia-crossing-threats.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "lympia-crossing-threats",
+        "source_story_id": "lympia-crossing-threats-2026-11-16",
+        "url": "articles/2026-11-16-evening/lympia-crossing-threats.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -253,6 +371,27 @@
         "article_id": "cyprus-alma-charalambidou-presidential-option-2026-11-16",
         "source_story_id": "cyprus-alma-charalambidou-presidential-option-2026-11-16",
         "url": "articles/2026-11-16-midday/cyprus-alma-charalambidou-presidential-option-2026-11-16.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "nicosia-agios-antonios-homicide-2026-11-14",
+      "first_seen_at": "2026-11-16T17:40:08.412339+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-16-evening",
+          "article_id": "nicosia-homicide-investigation",
+          "source_story_id": "nicosia-agios-antonios-homicide-2026-11-14",
+          "url": "articles/2026-11-16-evening/nicosia-homicide-investigation.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "nicosia-homicide-investigation",
+        "source_story_id": "nicosia-agios-antonios-homicide-2026-11-14",
+        "url": "articles/2026-11-16-evening/nicosia-homicide-investigation.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -285,6 +424,27 @@
       "priority": 6
     },
     {
+      "story_id": "apoel-away-fans-appeal-2026-11-16",
+      "first_seen_at": "2026-11-16T17:40:08.412339+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-16-evening",
+          "article_id": "apoel-away-fans-appeal",
+          "source_story_id": "apoel-away-fans-appeal-2026-11-16",
+          "url": "articles/2026-11-16-evening/apoel-away-fans-appeal.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "apoel-away-fans-appeal",
+        "source_story_id": "apoel-away-fans-appeal-2026-11-16",
+        "url": "articles/2026-11-16-evening/apoel-away-fans-appeal.html"
+      },
+      "section": "sports",
+      "priority": 7
+    },
+    {
       "story_id": "dubai-p1-finals-2026-11-15",
       "first_seen_at": "2026-11-16T05:30:22.305674+00:00",
       "last_substantive_at": null,
@@ -300,13 +460,19 @@
           "article_id": "dubai-p1-finals-2026-11-15",
           "source_story_id": "dubai-p1-finals-2026-11-15",
           "url": "articles/2026-11-16-midday/dubai-p1-finals-2026-11-15.html"
+        },
+        {
+          "edition_id": "2026-11-16-evening",
+          "article_id": "dubai-p1-finals-2026-11-15",
+          "source_story_id": "dubai-p1-finals-2026-11-15",
+          "url": "articles/2026-11-16-evening/dubai-p1-finals-2026-11-15.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-16-midday",
+        "edition_id": "2026-11-16-evening",
         "article_id": "dubai-p1-finals-2026-11-15",
         "source_story_id": "dubai-p1-finals-2026-11-15",
-        "url": "articles/2026-11-16-midday/dubai-p1-finals-2026-11-15.html"
+        "url": "articles/2026-11-16-evening/dubai-p1-finals-2026-11-15.html"
       },
       "section": "sports",
       "priority": 7
@@ -689,6 +855,174 @@
         "source_story_id": "polis-eoka-history-conference-account-2026-11-16",
         "url": "articles/2026-11-16-midday/polis-eoka-history-conference-account-2026-11-16.html"
       }
+    },
+    {
+      "id": "1cd856a0689945bd0471e9943a4dbe0d412f4831977e4f41feb2fe54dd6cb089",
+      "kind": "provenance",
+      "at": "2026-11-16T17:40:08.412339+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "nicosia-agios-antonios-homicide-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "nicosia-homicide-investigation",
+        "source_story_id": "nicosia-agios-antonios-homicide-2026-11-14",
+        "url": "articles/2026-11-16-evening/nicosia-homicide-investigation.html"
+      }
+    },
+    {
+      "id": "2b175d2e1b1dd0fd36c5c9e06360b7838a0de55a5b9bac0da7be63cb5f4682ac",
+      "kind": "provenance",
+      "at": "2026-11-16T17:40:08.412339+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
+        "source_story_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
+        "url": "articles/2026-11-16-evening/cyprus-eac-unions-electricity-planning-2026-11-16.html"
+      }
+    },
+    {
+      "id": "3c1efe02f62645e15de6422288442c60d6b933aeebb00cf1754cbdf51da2e743",
+      "kind": "provenance",
+      "at": "2026-11-16T17:40:08.412339+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "apoel-away-fans-appeal-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "apoel-away-fans-appeal",
+        "source_story_id": "apoel-away-fans-appeal-2026-11-16",
+        "url": "articles/2026-11-16-evening/apoel-away-fans-appeal.html"
+      }
+    },
+    {
+      "id": "5f0db6080a18c26ff98c66f476e55cfb04cb7c1dbc7bccd3ee3eb5d44e774426",
+      "kind": "provenance",
+      "at": "2026-11-16T17:40:08.412339+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "nvidia-board-security-review-2026-11-08",
+        "source_story_id": "nvidia-board-security-review-2026-11-08",
+        "url": "articles/2026-11-16-evening/nvidia-board-security-review-2026-11-08.html"
+      }
+    },
+    {
+      "id": "67dd19235fad0c5430007152e735454941120d961b36eeccdb059b58e7309628",
+      "kind": "provenance",
+      "at": "2026-11-16T17:40:08.412339+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-eu-food-deal-terms-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "uk-eu-food-deal-terms",
+        "source_story_id": "uk-eu-food-deal-terms-2026-11-16",
+        "url": "articles/2026-11-16-evening/uk-eu-food-deal-terms.html"
+      }
+    },
+    {
+      "id": "9b160b8f2a64c1b24a673b8ff62875e3f60f8cbffcfa93523b09d3aad38cecdd",
+      "kind": "provenance",
+      "at": "2026-11-16T17:40:08.412339+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-poed-teacher-appointments-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "teacher-appointments-meeting",
+        "source_story_id": "cyprus-poed-teacher-appointments-2026-11-16",
+        "url": "articles/2026-11-16-evening/teacher-appointments-meeting.html"
+      }
+    },
+    {
+      "id": "9f63eab9416ee05181a6f5b80eebad2f5815a2ee8921551912db08e51f4fa512",
+      "kind": "provenance",
+      "at": "2026-11-16T17:40:08.412339+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
+        "source_story_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
+        "url": "articles/2026-11-16-evening/larnaca-investor-naturalisation-hearing-2026-11-16.html"
+      }
+    },
+    {
+      "id": "b818525010918a76fff79e719f1fcfd842c9ba242898c1a8f6d21d6e97d6124e",
+      "kind": "provenance",
+      "at": "2026-11-16T17:40:08.412339+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cop31-antalya-ministerial-phase-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "cop31-antalya-ministerial-phase-2026-11-16",
+        "source_story_id": "cop31-antalya-ministerial-phase-2026-11-16",
+        "url": "articles/2026-11-16-evening/cop31-antalya-ministerial-phase-2026-11-16.html"
+      }
+    },
+    {
+      "id": "ce7d9c0b7e31b8e4cff062f07aa152d8abf0603cec8cc81b5138c6531a6322d0",
+      "kind": "provenance",
+      "at": "2026-11-16T17:40:08.412339+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-flight-ground-stop-recovery-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "us-flight-disruptions",
+        "source_story_id": "us-flight-ground-stop-recovery-2026-11-16",
+        "url": "articles/2026-11-16-evening/us-flight-disruptions.html"
+      }
+    },
+    {
+      "id": "d76d8e945126d89871135fd1b9253c02ab2c44fb4e71148db409451b6fa9df0d",
+      "kind": "provenance",
+      "at": "2026-11-16T17:40:08.412339+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "google-autonomous-cyber-risk-assessment-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "google-ai-cyber-defence",
+        "source_story_id": "google-autonomous-cyber-risk-assessment-2026-11-16",
+        "url": "articles/2026-11-16-evening/google-ai-cyber-defence.html"
+      }
+    },
+    {
+      "id": "eccb01bfab64ebcefa37541a763a41a383ab8d0cc7627c310cc87121295a62ca",
+      "kind": "provenance",
+      "at": "2026-11-16T17:40:08.412339+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "lympia-crossing-threats-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "lympia-crossing-threats",
+        "source_story_id": "lympia-crossing-threats-2026-11-16",
+        "url": "articles/2026-11-16-evening/lympia-crossing-threats.html"
+      }
+    },
+    {
+      "id": "f0dfa0baf65f3496b28ef53bf54adc53aaf314cdbb3c3acb7e12f7e209a41ad8",
+      "kind": "provenance",
+      "at": "2026-11-16T17:40:08.412339+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "dubai-p1-finals-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-16-evening",
+        "article_id": "dubai-p1-finals-2026-11-15",
+        "source_story_id": "dubai-p1-finals-2026-11-15",
+        "url": "articles/2026-11-16-evening/dubai-p1-finals-2026-11-15.html"
+      }
     }
   ],
   "opportunities": [
@@ -897,16 +1231,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η άφιξη του αεροπλανοφόρου Theodore Roosevelt στη Μέση Ανατολή αυξάνει τον αριθμό των αμερικανικών αεροπλανοφόρων που επιχειρούν στην περιοχή, σύμφωνα με το Al Jazeera. Η ενίσχυση της παρουσίας δεν αρκεί για να προβλεφθεί αν θα ξαναρχίσουν επιχειρήσεις· αυτό θα φανεί από επίσημες αποφάσεις. Στην Κύπρο, η ΠΟΕΔ δεν προσέρχεται στη συνάντηση για το σύστημα διορισμού εκπαιδευτικών και ζητά πρώτα να μάθει αν το Υπουργείο θα αναθεωρήσει την πρόταση. Για εκπαιδευτικούς που περιμένουν τους νέους κανόνες, το επόμενο ουσιαστικό βήμα είναι μια γραπτή απάντηση και, εφόσον υπάρξουν αλλαγές, ένα αναθεωρημένο κείμενο προς συζήτηση.",
+        "text": "Η συνάντηση για τους διορισμούς έγινε μόνο με την ΟΛΤΕΚ. Η συζήτηση συνεχίζεται την Πέμπτη με την ΟΕΛΜΕΚ, αλλά το κρίσιμο για τους υποψήφιους εκπαιδευτικούς είναι αν το υπουργείο θα παρουσιάσει αλλαγές που απαντούν στις ενστάσεις της. Στα Λύμπια, ο αντιδήμαρχος ζήτησε αστυνομική προστασία μετά τις απειλές για τη σχεδιαζόμενη διάβαση. Για τους κατοίκους εκκρεμεί ένα διαφορετικό ερώτημα: αν η τελική χάραξη θα διοχετεύει την κίνηση μέσα από το χωριό ή θα προβλέπει περιμετρική σύνδεση. Ένα σχέδιο οδικής πρόσβασης θα επιτρέψει να κριθεί ποια σημεία του οικισμού επηρεάζονται.",
         "story_ids": [
-          "us-roosevelt-middle-east-arrival-2026-11-15",
-          "cyprus-poed-teacher-appointments-2026-11-16"
+          "cyprus-poed-teacher-appointments-2026-11-16",
+          "lympia-crossing-threats-2026-11-16"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-16T05:32:25.131198+00:00",
-  "updated_at": "2026-11-16T11:46:11.860734+00:00",
-  "input_sha256": "d7c061b331fb1aa8addd291970f6f26a17a4ca348f5ed5a0fbfb51d1341656ac"
+  "updated_at": "2026-11-16T17:42:30.902905+00:00",
+  "input_sha256": "7ab11650050d650225ce181821f998bec9400a912d5b6cfccb05296674282130"
 }

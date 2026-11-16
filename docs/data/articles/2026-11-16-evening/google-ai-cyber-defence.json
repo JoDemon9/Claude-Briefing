@@ -1,0 +1,75 @@
+{
+  "analysis_sources": [
+    "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon"
+  ],
+  "category": "Διεθνή",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "delta_update": "Το δημοσίευμα ξεχωρίζει την ήδη καταγεγραμμένη επιτάχυνση από την πρόβλεψη για πλήρη αυτονομία.",
+  "driver_tags": [
+    "technology",
+    "cybersecurity"
+  ],
+  "edition_id": "2026-11-16-evening",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Η Google προειδοποιεί ότι στενεύει το περιθώριο για διορθώσεις ασφαλείας",
+  "id": "google-ai-cyber-defence",
+  "image": {
+    "alt": "Google warns that fully-automated AI attacks are coming soon",
+    "attribution": "BleepingComputer",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Google warns that fully-automated AI attacks are coming soon · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon",
+    "original_url": "https://www.bleepstatic.com/content/hl-images/2026/10/09/robot-hacker.jpg",
+    "retrieved_at": "2026-11-16T16:26:20.172539+00:00",
+    "source_review": {
+      "checked_at": "2026-11-16T16:26:20.172539+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "aaecbabab6b4f0f4",
+      "rights_basis": "publisher-attribution",
+      "sha256": "bc9b7f76af02f25a2087c39fc6fe162887f99795336478e41eb365220e3d6128"
+    },
+    "source_url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon",
+    "url": "assets/editorial/source/bc9b7f76af02f25a2087c39fc6fe162887f99795336478e41eb365220e3d6128.webp"
+  },
+  "mechanics_and_incentives": "Όσο μικραίνει το διάστημα ανάμεσα στη γνωστοποίηση μιας αδυναμίας και στην κατάχρησή της, τόσο λιγότερο χρόνο έχει μια ομάδα για επιβεβαίωση και αποκατάσταση.",
+  "published_at": "2026-11-16T17:40:08.412339+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "alternative_case": "Ανεξάρτητη τεκμηρίωση πλήρως αυτόνομων περιστατικών θα ανέβαζε την εκτίμηση του κινδύνου.",
+    "base_case": "Αν συνεχιστεί η επιτάχυνση, οι καθυστερήσεις στις κρίσιμες διορθώσεις θα έχουν μεγαλύτερη σημασία.",
+    "watch_next": "Νέες ανεξάρτητες καταγραφές περιστατικών και μετρήσεις του χρόνου που μεσολαβεί από την ειδοποίηση έως τη διόρθωση."
+  },
+  "second_order_effects": "Οι επιχειρήσεις που έχουν κρίσιμα συστήματα εκτεθειμένα στο διαδίκτυο χρειάζονται σαφή σειρά προτεραιότητας, ώστε οι αβάσιμες ειδοποιήσεις να μη μεταθέτουν τις επείγουσες διορθώσεις.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Ερευνητές της Google διαπιστώνουν ότι η αυτοματοποίηση επιταχύνει ορισμένες φάσεις κυβερνοεπιθέσεων, σύμφωνα με το BleepingComputer. Εκτιμούν ότι πιο σύνθετες, πλήρως αυτόνομες επιθέσεις μπορεί να εμφανιστούν μέσα στους επόμενους έξι μήνες. Η εκτίμηση διαφέρει από όσα έχουν ήδη καταγράψει: οι ομάδες ασφάλειας έχουν λιγότερο χρόνο να εφαρμόσουν διορθώσεις και πρέπει παράλληλα να ξεχωρίζουν τα πραγματικά ευρήματα από τις ψευδείς ενδείξεις."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-16T14:00:00+00:00",
+      "publisher": "BleepingComputer",
+      "reporting_group": "BleepingComputer",
+      "retrieved_at": "2026-11-16T16:26:11.940033+00:00",
+      "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "google-autonomous-cyber-risk-assessment-2026-11-16",
+  "story_identity": "google-autonomous-cyber-risk-assessment-2026-11-16",
+  "summary": "Ερευνητές της Google διαπιστώνουν ότι η αυτοματοποίηση επιταχύνει ορισμένες φάσεις κυβερνοεπιθέσεων, σύμφωνα με το BleepingComputer. Εκτιμούν ότι πιο σύνθετες, πλήρως αυτόνομες επιθέσεις μπορεί να εμφανιστούν μέσα στους επόμενους έξι μήνες. Η εκτίμηση διαφέρει από όσα έχουν ήδη καταγράψει: οι ομάδες ασφάλειας έχουν λιγότερο χρόνο να εφαρμόσουν διορθώσεις και πρέπει παράλληλα να ξεχωρίζουν τα πραγματικά ευρήματα από τις ψευδείς ενδείξεις.",
+  "updated_at": "2026-11-16T17:40:08.412339+00:00",
+  "url": "articles/2026-11-16-evening/google-ai-cyber-defence.html"
+}

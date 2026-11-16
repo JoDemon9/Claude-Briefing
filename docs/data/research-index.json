@@ -723,6 +723,14 @@
       "fingerprint": "9e58149249b0e1228d3f4639b065c014eff5cf367c8d5291703a6888db57e636"
     },
     {
+      "id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "type": "evening",
+      "published_at": "2026-11-16T17:40:08.412339+00:00",
+      "url": "evening/2026-11-16.html",
+      "fingerprint": "e4db3654589b1b080dbbebbd80b838943c6152149abf8a11e363f298061e4d32"
+    },
+    {
       "id": "2026-11-16-midday",
       "date": "2026-11-16",
       "type": "midday",
@@ -27377,6 +27385,338 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/09cacbd25824295af3194bf6b5495c8bf3db2783c2f6f87f479b5aa374a18293.webp"
+    },
+    {
+      "story_id": "google-autonomous-cyber-risk-assessment-2026-11-16",
+      "identity": "google-autonomous-cyber-risk-assessment-2026-11-16",
+      "edition_id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "slot": "evening",
+      "published_at": "2026-11-16T17:40:08.412339+00:00",
+      "available_at": "2026-11-16T17:40:08.412339+00:00",
+      "headline": "Η Google προειδοποιεί ότι στενεύει το περιθώριο για διορθώσεις ασφαλείας",
+      "finding": "Ερευνητές της Google διαπιστώνουν ότι η αυτοματοποίηση επιταχύνει ορισμένες φάσεις κυβερνοεπιθέσεων, σύμφωνα με το BleepingComputer. Εκτιμούν ότι πιο σύνθετες, πλήρως αυτόνομες επιθέσεις μπορεί να εμφανιστούν μέσα στους επόμενους έξι μήνες. Η εκτίμηση διαφέρει από όσα έχουν ήδη καταγράψει: οι ομάδες ασφάλειας έχουν λιγότερο χρόνο να εφαρμόσουν διορθώσεις και πρέπει παράλληλα να ξεχωρίζουν τα πραγματικά ευρήματα από τις ψευδείς ενδείξεις.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-16-evening/google-ai-cyber-defence.json",
+      "reader_url": "articles/2026-11-16-evening/google-ai-cyber-defence.html",
+      "sources": [
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon",
+          "publisher": "BleepingComputer",
+          "reporting_group": "BleepingComputer",
+          "published_at": "2026-11-16T14:00:00+00:00",
+          "retrieved_at": "2026-11-16T16:26:11.940033+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/bc9b7f76af02f25a2087c39fc6fe162887f99795336478e41eb365220e3d6128.webp"
+    },
+    {
+      "story_id": "uk-eu-food-deal-terms-2026-11-16",
+      "identity": "uk-eu-food-deal-terms-2026-11-16",
+      "edition_id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "slot": "evening",
+      "published_at": "2026-11-16T17:40:08.412339+00:00",
+      "available_at": "2026-11-16T17:40:08.412339+00:00",
+      "headline": "Το Λονδίνο επιδιώκει λιγότερα εμπόδια στις εξαγωγές τροφίμων προς την ΕΕ",
+      "finding": "Η συμφωνία για τα τρόφιμα που αναμένεται να υπογραφεί την Παρασκευή θα μπορούσε να διευκολύνει τις βρετανικές εξαγωγές προς την ΕΕ με στενότερη ευθυγράμμιση των κανόνων, σύμφωνα με το BBC. Η βρετανική κυβέρνηση εκτιμά όφελος έως 5 δισ. λίρες ετησίως για την οικονομία. Ανοιχτό παραμένει πόση επιρροή θα έχει το Λονδίνο στη διαμόρφωση των ευρωπαϊκών κανόνων.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-16-evening/uk-eu-food-deal-terms.json",
+      "reader_url": "articles/2026-11-16-evening/uk-eu-food-deal-terms.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-16T15:40:16+00:00",
+          "retrieved_at": "2026-11-16T16:26:11.499291+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f5e7aab6085682aa965a7f8f3ed7c6077a08e054364e322cdabc7405b6701994.webp"
+    },
+    {
+      "story_id": "us-flight-ground-stop-recovery-2026-11-16",
+      "identity": "us-flight-ground-stop-recovery-2026-11-16",
+      "edition_id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "slot": "evening",
+      "published_at": "2026-11-16T17:40:08.412339+00:00",
+      "available_at": "2026-11-16T17:40:08.412339+00:00",
+      "headline": "Τρίτη ημέρα προβλημάτων στις αερομεταφορές των ΗΠΑ",
+      "finding": "Πάνω από 10.000 πτήσεις επηρεάστηκαν την Κυριακή στις ΗΠΑ, σύμφωνα με τον Guardian. Οι δυσκολίες συνεχίστηκαν για τρίτη ημέρα καθώς οι εταιρείες προσπαθούσαν να επαναφέρουν τα δρομολόγια μετά τη γενικευμένη αναστολή αναχωρήσεων. Ο υπουργός Μεταφορών Σον Ντάφι προέβλεψε εξομάλυνση τη Δευτέρα, χωρίς το δημοσίευμα να επιβεβαιώνει ότι είχε ήδη αποκατασταθεί το πρόγραμμα.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-16-evening/us-flight-disruptions.json",
+      "reader_url": "articles/2026-11-16-evening/us-flight-disruptions.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-16T16:10:52+00:00",
+          "retrieved_at": "2026-11-16T16:26:12.623058+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c99641c6f9e08c2fd198473e631073e33b34f50cf5ec347c45d3e7c48e567bcd.webp"
+    },
+    {
+      "story_id": "cyprus-poed-teacher-appointments-2026-11-16",
+      "identity": "cyprus-poed-teacher-appointments-2026-11-16",
+      "edition_id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "slot": "evening",
+      "published_at": "2026-11-16T11:43:52.556920+00:00",
+      "available_at": "2026-11-16T17:40:08.412339+00:00",
+      "headline": "Μόνο η ΟΛΤΕΚ στη συνάντηση για τους διορισμούς εκπαιδευτικών",
+      "finding": "Η συνάντηση της Δευτέρας για το σύστημα διορισμού εκπαιδευτικών πραγματοποιήθηκε μόνο με εκπροσώπους της ΟΛΤΕΚ, σύμφωνα με το SigmaLive. Η υπουργός Παιδείας εξέφρασε λύπη για την απουσία των δύο άλλων οργανώσεων. Η ΟΕΛΜΕΚ υποστήριξε ότι ο διάλογος δεν μπορεί να επικυρώνει μια ήδη ειλημμένη απόφαση και θα έχει χωριστή συνάντηση την Πέμπτη 19 Νοεμβρίου.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-16-evening/teacher-appointments-meeting.json",
+      "reader_url": "articles/2026-11-16-evening/teacher-appointments-meeting.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1337849/sinekhizetai-i-antiparathesi-ypan-kai-ekpaideftikwn-ghia-to-systima-diorismwn",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-16T16:11:44+00:00",
+          "retrieved_at": "2026-11-16T16:26:12.540212+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/d5c2324b100984f1e3e369bbe1813b3d14431390329e609faf630f927c63117b.webp"
+    },
+    {
+      "story_id": "lympia-crossing-threats-2026-11-16",
+      "identity": "lympia-crossing-threats-2026-11-16",
+      "edition_id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "slot": "evening",
+      "published_at": "2026-11-16T17:40:08.412339+00:00",
+      "available_at": "2026-11-16T17:40:08.412339+00:00",
+      "headline": "Αστυνομική προστασία ζητά ο αντιδήμαρχος Λυμπιών μετά από απειλές",
+      "finding": "Ο αντιδήμαρχος Λυμπιών ζήτησε αυξημένες αστυνομικές περιπολίες κοντά στο σπίτι του, μετά από απειλές κατά της ζωής του που γράφτηκαν σε τοίχους του χωριού στο πλαίσιο της διαμάχης για νέα διάβαση, σύμφωνα με το Cyprus Mail. Επανέλαβε ότι θέλει περιμετρική σύνδεση προς τους δρόμους Λυμπιών–Πυροΐου και Λυμπιών–Αθηένου, ώστε η κυκλοφορία να μη διέρχεται από το κέντρο.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-16-evening/lympia-crossing-threats.json",
+      "reader_url": "articles/2026-11-16-evening/lympia-crossing-threats.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/16/lympia-deputy-mayor-seeks-protection-after-death-threats",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-16T15:54:20+00:00",
+          "retrieved_at": "2026-11-16T16:26:12.254848+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0a6d31e31edf9ad3536cb54350121156acb82bd841543ad5563752ccfbe8f0fc.webp"
+    },
+    {
+      "story_id": "nicosia-agios-antonios-homicide-2026-11-14",
+      "identity": "nicosia-agios-antonios-homicide-2026-11-14",
+      "edition_id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "slot": "evening",
+      "published_at": "2026-11-16T17:40:08.412339+00:00",
+      "available_at": "2026-11-16T17:40:08.412339+00:00",
+      "headline": "Συνεχίζονται οι έρευνες για τον θάνατο 44χρονης στη Λευκωσία",
+      "finding": "Οι Αρχές ερευνούν τον θάνατο 44χρονης γυναίκας στην περιοχή Αγίου Αντωνίου στη Λευκωσία. Η υπόθεση ήρθε στο φως το βράδυ του Σαββάτου, όταν η Αστυνομία ειδοποιήθηκε για τραυματισμένη γυναίκα κοντά στη συμβολή των λεωφόρων Διγενή Ακρίτα και Λάρνακος. Ο Φιλελεύθερος αναφέρει ότι το μαχαίρι που αναζητούν οι ανακριτές δεν είχε βρεθεί.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-16-evening/nicosia-homicide-investigation.json",
+      "reader_url": "articles/2026-11-16-evening/nicosia-homicide-investigation.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/astinomika/article/1796489/foniko-sti-lefkosia-se-sigkekrimeno-atomo-estiazi-i-astinomia-kathoristiki-i-katathesi-tis-travmatismenis-ginekas-pou-vriskete-stin-meth-ichni-pithanis-pornias-sto-institouto-masaz",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-16T16:03:44+00:00",
+          "retrieved_at": "2026-11-16T16:26:12.568053+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6da97ab8b9e1fbcbcf42cd61db8b3eb441e1572cafa1581977be3581a8c6fdb2.webp"
+    },
+    {
+      "story_id": "apoel-away-fans-appeal-2026-11-16",
+      "identity": "apoel-away-fans-appeal-2026-11-16",
+      "edition_id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "slot": "evening",
+      "published_at": "2026-11-16T17:40:08.412339+00:00",
+      "available_at": "2026-11-16T17:40:08.412339+00:00",
+      "headline": "Ο ΑΠΟΕΛ κέρδισε την έφεση για τη μετακίνηση φιλάθλων",
+      "finding": "Το Εφετείο της ΚΟΠ δέχθηκε ομόφωνα την έφεση του ΑΠΟΕΛ κατά της απαγόρευσης μετακίνησης των φιλάθλων του για έναν αγώνα, σύμφωνα με τον Φιλελεύθερο.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-16-evening/apoel-away-fans-appeal.json",
+      "reader_url": "articles/2026-11-16-evening/apoel-away-fans-appeal.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/athlitika/article/1796487/dekti-i-efesi-tou-apoel-me-kosmo-sto-ntermpi-eonion",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-16T16:01:10+00:00",
+          "retrieved_at": "2026-11-16T16:26:12.911170+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/4375c93f67fccc27ad6ac336e076bfb98687308b07e24cab0613f54753a9dc78.webp"
+    },
+    {
+      "story_id": "dubai-p1-finals-2026-11-15",
+      "identity": "dubai-p1-finals-2026-11-15",
+      "edition_id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "slot": "evening",
+      "published_at": "2026-11-15T05:35:01.967838+00:00",
+      "available_at": "2026-11-16T17:40:08.412339+00:00",
+      "headline": "Λεμπρόν–Άουγκσμπουργκερ και Φερνάντεθ–Κάλβο πρωταθλητές στο Dubai P1",
+      "finding": "Οι Λεμπρόν και Άουγκσμπουργκερ κατέκτησαν τον τίτλο ανδρών και οι Φερνάντεθ και Κάλβο τον τίτλο γυναικών στο Dubai P1, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-16-evening/dubai-p1-finals-2026-11-15.json",
+      "reader_url": "articles/2026-11-16-evening/dubai-p1-finals-2026-11-15.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/lebron-augsburger-y-fernandez-calvo-campeones-del-dubai-p1",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-15T19:20:38+00:00",
+          "retrieved_at": "2026-11-16T04:21:04.792039+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/705fec67e27940a62d15977248aa4833b56ddaebffe1cade96456b7f679c8463.webp"
+    },
+    {
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "identity": "nvidia-board-security-review-2026-11-08",
+      "edition_id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "slot": "evening",
+      "published_at": "2026-11-15T05:35:01.967838+00:00",
+      "available_at": "2026-11-16T17:40:08.412339+00:00",
+      "headline": "Απαντήσεις εντός δέκα ημερών ζητά ο Μπέσεντ για την υπόθεση Nvidia",
+      "finding": "Ο υπουργός Οικονομικών των ΗΠΑ Σκοτ Μπέσεντ ζήτησε, σύμφωνα με τον Φιλελεύθερο, ενημέρωση από το διοικητικό συμβούλιο της Nvidia μέσα στις επόμενες δέκα ημέρες για το αν έγιναν πωλήσεις προηγμένων επεξεργαστών σε κινεζικές επιχειρήσεις κατά παράβαση περιορισμών. Χωριστά, η Megaspeed δήλωσε στο BBC ότι η Άλις Χουάνγκ αποχώρησε από την εκτελεστική θέση της τον Αύγουστο του 2025. Το BBC αναφέρει ότι η C4ADS αμφισβητεί κατά πόσο είχε παύσει νωρίτερα να ασκεί ουσιαστικό έλεγχο.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-16-evening/nvidia-board-security-review-2026-11-08.json",
+      "reader_url": "articles/2026-11-16-evening/nvidia-board-security-review-2026-11-08.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kosmos-ikonomia/article/1796117/nvidia-sigi-tramp-skliri-stasi-apo-ton-ipourgo-ikonomikon-ke-kinisi-asteron-tis-technologias-gia-epistrofi-chouangk-stin-igesia-tis-eterias",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-16T04:13:18+00:00",
+          "retrieved_at": "2026-11-16T04:21:04.467612+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-16T01:47:57+00:00",
+          "retrieved_at": "2026-11-16T04:21:02.766912+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6211ad9bfe6469ebab206bcf37fa536a24cdd8799b61983752b0130b5c22965c.webp"
+    },
+    {
+      "story_id": "cop31-antalya-ministerial-phase-2026-11-16",
+      "identity": "cop31-antalya-ministerial-phase-2026-11-16",
+      "edition_id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "slot": "evening",
+      "published_at": "2026-11-16T05:30:22.305674+00:00",
+      "available_at": "2026-11-16T17:40:08.412339+00:00",
+      "headline": "Η COP31 περνά από τη σύνοδο των ηγετών στις διαπραγματεύσεις",
+      "finding": "Με την ολοκλήρωση της συνόδου των ηγετών στην COP31 της Αττάλειας, τη συνέχεια αναλαμβάνουν υπουργοί και διαπραγματευτές από σχεδόν 200 χώρες, σύμφωνα με την Cyprus Mail. Το δημοσίευμα αναφέρει πρωτοβουλίες συνεργασίας και φιλανθρωπικής χρηματοδότησης με δεσμεύσεις άνω των 480 εκατ. δολαρίων. Διευκρινίζει χωριστά ότι τα 25 δισ. ευρώ αποτελούν στόχο κινητοποίησης επενδύσεων, χωρίς να έχουν ήδη εξασφαλιστεί.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-16-evening/cop31-antalya-ministerial-phase-2026-11-16.json",
+      "reader_url": "articles/2026-11-16-evening/cop31-antalya-ministerial-phase-2026-11-16.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/16/cop31-what-has-been-achieved-so-far",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-16T02:25:00+00:00",
+          "retrieved_at": "2026-11-16T04:21:02.800247+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a51bdbcbb64399b1eb6252546b2f451c5a3002a9935a77c28c0db5bb071363bf.webp"
+    },
+    {
+      "story_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
+      "identity": "cyprus-eac-unions-electricity-planning-2026-11-16",
+      "edition_id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "slot": "evening",
+      "published_at": "2026-11-16T05:30:22.305674+00:00",
+      "available_at": "2026-11-16T17:40:08.412339+00:00",
+      "headline": "Η Χαραλαμπίδου ζητά από τον Παπαναστασίου στοιχεία για το Βασιλικό",
+      "finding": "Η βουλευτής Ειρήνη Χαραλαμπίδου κάλεσε τον πρώην υπουργό Ενέργειας Γιώργο Παπαναστασίου να κατονομάσει τα συμφέροντα στα οποία αναφέρθηκε και να καταθέσει όσα γνωρίζει στην Ευρωπαϊκή Εισαγγελία, σύμφωνα με το SigmaLive. Η βουλευτής συνέδεσε τις δηλώσεις του με το τερματικό φυσικού αερίου στο Βασιλικό. Το δημοσίευμα καταγράφει το αίτημά της, χωρίς να αναφέρει ότι κατατέθηκαν στοιχεία.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-16-evening/cyprus-eac-unions-electricity-planning-2026-11-16.json",
+      "reader_url": "articles/2026-11-16-evening/cyprus-eac-unions-electricity-planning-2026-11-16.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1337800/xaralampidoy-ghia-basiliko-o-papanastasioy-na-katonomasei-ta-simferonta",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-16T10:49:41+00:00",
+          "retrieved_at": "2026-11-16T11:00:06.229120+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6d62825bae0cf5f49305447ea1e65d13ecb5dadb08d0693d21f2dac9b108577b.webp"
+    },
+    {
+      "story_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
+      "identity": "larnaca-investor-naturalisation-hearing-2026-11-16",
+      "edition_id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "slot": "evening",
+      "published_at": "2026-11-16T11:43:52.556920+00:00",
+      "available_at": "2026-11-16T17:40:08.412339+00:00",
+      "headline": "Στις 23 Νοεμβρίου η επόμενη ακρόαση για την πολιτογράφηση επενδυτή",
+      "finding": "Αναβλήθηκε η ακρόαση της Δευτέρας στο Κακουργιοδικείο Λάρνακας για πολιτογράφηση ξένου επενδυτή μέσω του Κυπριακού Επενδυτικού Προγράμματος, σύμφωνα με την Cyprus Mail. Στις 23 Νοεμβρίου θα εξεταστεί αν στοιχειοθετείται εκ πρώτης όψεως υπόθεση κατά οκτώ κατηγορουμένων, φυσικών και νομικών προσώπων. Το δημοσίευμα αναφέρει ότι είχαν αθωωθεί πρωτοδίκως το 2022.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-16-evening/larnaca-investor-naturalisation-hearing-2026-11-16.json",
+      "reader_url": "articles/2026-11-16-evening/larnaca-investor-naturalisation-hearing-2026-11-16.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/16/foreign-investor-naturalisation-court-case-postponed",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-16T09:05:22+00:00",
+          "retrieved_at": "2026-11-16T11:00:05.216520+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ebc0a3b2b1b5f6925b5206767b62f005a18d8d7368e4c4a935016662a0ea31b6.webp"
     },
     {
       "story_id": "us-roosevelt-middle-east-arrival-2026-11-15",
