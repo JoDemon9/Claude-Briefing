@@ -10,13 +10,18 @@
       "type": "morning",
       "url": "morning/2026-11-16.html",
       "published_at": "2026-11-16T05:30:22.305674+00:00"
+    },
+    {
+      "id": "2026-11-16-midday",
+      "type": "midday",
+      "url": "midday/2026-11-16.html",
+      "published_at": "2026-11-16T11:43:52.556920+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "nvidia-board-security-review-2026-11-08",
+  "lead_story_id": "us-roosevelt-middle-east-arrival-2026-11-15",
   "stories": [
     {
       "story_id": "nvidia-board-security-review-2026-11-08",
@@ -28,13 +33,40 @@
           "article_id": "nvidia-board-security-review-2026-11-08",
           "source_story_id": "nvidia-board-security-review-2026-11-08",
           "url": "articles/2026-11-16-morning/nvidia-board-security-review-2026-11-08.html"
+        },
+        {
+          "edition_id": "2026-11-16-midday",
+          "article_id": "nvidia-board-security-review-2026-11-08",
+          "source_story_id": "nvidia-board-security-review-2026-11-08",
+          "url": "articles/2026-11-16-midday/nvidia-board-security-review-2026-11-08.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-16-morning",
+        "edition_id": "2026-11-16-midday",
         "article_id": "nvidia-board-security-review-2026-11-08",
         "source_story_id": "nvidia-board-security-review-2026-11-08",
-        "url": "articles/2026-11-16-morning/nvidia-board-security-review-2026-11-08.html"
+        "url": "articles/2026-11-16-midday/nvidia-board-security-review-2026-11-08.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "us-roosevelt-middle-east-arrival-2026-11-15",
+      "first_seen_at": "2026-11-16T11:43:52.556920+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-16-midday",
+          "article_id": "us-roosevelt-middle-east-arrival-2026-11-15",
+          "source_story_id": "us-roosevelt-middle-east-arrival-2026-11-15",
+          "url": "articles/2026-11-16-midday/us-roosevelt-middle-east-arrival-2026-11-15.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "us-roosevelt-middle-east-arrival-2026-11-15",
+        "source_story_id": "us-roosevelt-middle-east-arrival-2026-11-15",
+        "url": "articles/2026-11-16-midday/us-roosevelt-middle-east-arrival-2026-11-15.html"
       },
       "section": "world",
       "priority": 1
@@ -49,16 +81,64 @@
           "article_id": "israel-eisenkot-electoral-interference-allegations-2026-11-16",
           "source_story_id": "israel-eisenkot-electoral-interference-allegations-2026-11-16",
           "url": "articles/2026-11-16-morning/israel-eisenkot-electoral-interference-allegations-2026-11-16.html"
+        },
+        {
+          "edition_id": "2026-11-16-midday",
+          "article_id": "israel-eisenkot-electoral-interference-allegations-2026-11-16",
+          "source_story_id": "israel-eisenkot-electoral-interference-allegations-2026-11-16",
+          "url": "articles/2026-11-16-midday/israel-eisenkot-electoral-interference-allegations-2026-11-16.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-16-morning",
+        "edition_id": "2026-11-16-midday",
         "article_id": "israel-eisenkot-electoral-interference-allegations-2026-11-16",
         "source_story_id": "israel-eisenkot-electoral-interference-allegations-2026-11-16",
-        "url": "articles/2026-11-16-morning/israel-eisenkot-electoral-interference-allegations-2026-11-16.html"
+        "url": "articles/2026-11-16-midday/israel-eisenkot-electoral-interference-allegations-2026-11-16.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "quad-manila-australia-ai-cooperation-2026-11-16",
+      "first_seen_at": "2026-11-16T11:43:52.556920+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-16-midday",
+          "article_id": "quad-manila-australia-ai-cooperation-2026-11-16",
+          "source_story_id": "quad-manila-australia-ai-cooperation-2026-11-16",
+          "url": "articles/2026-11-16-midday/quad-manila-australia-ai-cooperation-2026-11-16.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "quad-manila-australia-ai-cooperation-2026-11-16",
+        "source_story_id": "quad-manila-australia-ai-cooperation-2026-11-16",
+        "url": "articles/2026-11-16-midday/quad-manila-australia-ai-cooperation-2026-11-16.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "cyprus-poed-teacher-appointments-2026-11-16",
+      "first_seen_at": "2026-11-16T11:43:52.556920+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-16-midday",
+          "article_id": "cyprus-poed-teacher-appointments-2026-11-16",
+          "source_story_id": "cyprus-poed-teacher-appointments-2026-11-16",
+          "url": "articles/2026-11-16-midday/cyprus-poed-teacher-appointments-2026-11-16.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "cyprus-poed-teacher-appointments-2026-11-16",
+        "source_story_id": "cyprus-poed-teacher-appointments-2026-11-16",
+        "url": "articles/2026-11-16-midday/cyprus-poed-teacher-appointments-2026-11-16.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "fbi-artex-cyber-warning-2026-11-15",
@@ -91,13 +171,19 @@
           "article_id": "cop31-antalya-ministerial-phase-2026-11-16",
           "source_story_id": "cop31-antalya-ministerial-phase-2026-11-16",
           "url": "articles/2026-11-16-morning/cop31-antalya-ministerial-phase-2026-11-16.html"
+        },
+        {
+          "edition_id": "2026-11-16-midday",
+          "article_id": "cop31-antalya-ministerial-phase-2026-11-16",
+          "source_story_id": "cop31-antalya-ministerial-phase-2026-11-16",
+          "url": "articles/2026-11-16-midday/cop31-antalya-ministerial-phase-2026-11-16.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-16-morning",
+        "edition_id": "2026-11-16-midday",
         "article_id": "cop31-antalya-ministerial-phase-2026-11-16",
         "source_story_id": "cop31-antalya-ministerial-phase-2026-11-16",
-        "url": "articles/2026-11-16-morning/cop31-antalya-ministerial-phase-2026-11-16.html"
+        "url": "articles/2026-11-16-midday/cop31-antalya-ministerial-phase-2026-11-16.html"
       },
       "section": "world",
       "priority": 4
@@ -112,16 +198,64 @@
           "article_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
           "source_story_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
           "url": "articles/2026-11-16-morning/cyprus-eac-unions-electricity-planning-2026-11-16.html"
+        },
+        {
+          "edition_id": "2026-11-16-midday",
+          "article_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
+          "source_story_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
+          "url": "articles/2026-11-16-midday/cyprus-eac-unions-electricity-planning-2026-11-16.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-16-morning",
+        "edition_id": "2026-11-16-midday",
         "article_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
         "source_story_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
-        "url": "articles/2026-11-16-morning/cyprus-eac-unions-electricity-planning-2026-11-16.html"
+        "url": "articles/2026-11-16-midday/cyprus-eac-unions-electricity-planning-2026-11-16.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
+      "first_seen_at": "2026-11-16T11:43:52.556920+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-16-midday",
+          "article_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
+          "source_story_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
+          "url": "articles/2026-11-16-midday/larnaca-investor-naturalisation-hearing-2026-11-16.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
+        "source_story_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
+        "url": "articles/2026-11-16-midday/larnaca-investor-naturalisation-hearing-2026-11-16.html"
       },
       "section": "cyprus",
       "priority": 5
+    },
+    {
+      "story_id": "cyprus-alma-charalambidou-presidential-option-2026-11-16",
+      "first_seen_at": "2026-11-16T11:43:52.556920+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-16-midday",
+          "article_id": "cyprus-alma-charalambidou-presidential-option-2026-11-16",
+          "source_story_id": "cyprus-alma-charalambidou-presidential-option-2026-11-16",
+          "url": "articles/2026-11-16-midday/cyprus-alma-charalambidou-presidential-option-2026-11-16.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "cyprus-alma-charalambidou-presidential-option-2026-11-16",
+        "source_story_id": "cyprus-alma-charalambidou-presidential-option-2026-11-16",
+        "url": "articles/2026-11-16-midday/cyprus-alma-charalambidou-presidential-option-2026-11-16.html"
+      },
+      "section": "cyprus",
+      "priority": 6
     },
     {
       "story_id": "polis-eoka-history-conference-account-2026-11-16",
@@ -133,13 +267,19 @@
           "article_id": "polis-eoka-history-conference-account-2026-11-16",
           "source_story_id": "polis-eoka-history-conference-account-2026-11-16",
           "url": "articles/2026-11-16-morning/polis-eoka-history-conference-account-2026-11-16.html"
+        },
+        {
+          "edition_id": "2026-11-16-midday",
+          "article_id": "polis-eoka-history-conference-account-2026-11-16",
+          "source_story_id": "polis-eoka-history-conference-account-2026-11-16",
+          "url": "articles/2026-11-16-midday/polis-eoka-history-conference-account-2026-11-16.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-16-morning",
+        "edition_id": "2026-11-16-midday",
         "article_id": "polis-eoka-history-conference-account-2026-11-16",
         "source_story_id": "polis-eoka-history-conference-account-2026-11-16",
-        "url": "articles/2026-11-16-morning/polis-eoka-history-conference-account-2026-11-16.html"
+        "url": "articles/2026-11-16-midday/polis-eoka-history-conference-account-2026-11-16.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -154,13 +294,40 @@
           "article_id": "dubai-p1-finals-2026-11-15",
           "source_story_id": "dubai-p1-finals-2026-11-15",
           "url": "articles/2026-11-16-morning/dubai-p1-finals-2026-11-15.html"
+        },
+        {
+          "edition_id": "2026-11-16-midday",
+          "article_id": "dubai-p1-finals-2026-11-15",
+          "source_story_id": "dubai-p1-finals-2026-11-15",
+          "url": "articles/2026-11-16-midday/dubai-p1-finals-2026-11-15.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-16-morning",
+        "edition_id": "2026-11-16-midday",
         "article_id": "dubai-p1-finals-2026-11-15",
         "source_story_id": "dubai-p1-finals-2026-11-15",
-        "url": "articles/2026-11-16-morning/dubai-p1-finals-2026-11-15.html"
+        "url": "articles/2026-11-16-midday/dubai-p1-finals-2026-11-15.html"
+      },
+      "section": "sports",
+      "priority": 7
+    },
+    {
+      "story_id": "ronaldinho-ravenna-return-2026-11-15",
+      "first_seen_at": "2026-11-16T11:43:52.556920+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-16-midday",
+          "article_id": "ronaldinho-ravenna-return-2026-11-15",
+          "source_story_id": "ronaldinho-ravenna-return-2026-11-15",
+          "url": "articles/2026-11-16-midday/ronaldinho-ravenna-return-2026-11-15.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "ronaldinho-ravenna-return-2026-11-15",
+        "source_story_id": "ronaldinho-ravenna-return-2026-11-15",
+        "url": "articles/2026-11-16-midday/ronaldinho-ravenna-return-2026-11-15.html"
       },
       "section": "sports",
       "priority": 7
@@ -196,13 +363,19 @@
           "article_id": "andreeva-wta-finals-title-2026-11-15",
           "source_story_id": "andreeva-wta-finals-title-2026-11-15",
           "url": "articles/2026-11-16-morning/andreeva-wta-finals-title-2026-11-15.html"
+        },
+        {
+          "edition_id": "2026-11-16-midday",
+          "article_id": "andreeva-wta-finals-title-2026-11-15",
+          "source_story_id": "andreeva-wta-finals-title-2026-11-15",
+          "url": "articles/2026-11-16-midday/andreeva-wta-finals-title-2026-11-15.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-16-morning",
+        "edition_id": "2026-11-16-midday",
         "article_id": "andreeva-wta-finals-title-2026-11-15",
         "source_story_id": "andreeva-wta-finals-title-2026-11-15",
-        "url": "articles/2026-11-16-morning/andreeva-wta-finals-title-2026-11-15.html"
+        "url": "articles/2026-11-16-midday/andreeva-wta-finals-title-2026-11-15.html"
       },
       "section": "sports",
       "priority": 9
@@ -333,6 +506,188 @@
         "article_id": "andreeva-wta-finals-title-2026-11-15",
         "source_story_id": "andreeva-wta-finals-title-2026-11-15",
         "url": "articles/2026-11-16-morning/andreeva-wta-finals-title-2026-11-15.html"
+      }
+    },
+    {
+      "id": "0e485f3518194e3674a53d906ffc3bfc8f359909d0b6f9e29c31612ec209ff9a",
+      "kind": "provenance",
+      "at": "2026-11-16T11:43:52.556920+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ronaldinho-ravenna-return-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "ronaldinho-ravenna-return-2026-11-15",
+        "source_story_id": "ronaldinho-ravenna-return-2026-11-15",
+        "url": "articles/2026-11-16-midday/ronaldinho-ravenna-return-2026-11-15.html"
+      }
+    },
+    {
+      "id": "31c3f4153f3dfda770e6f8d46f220032db8c94e89bb01e5abc203fa28143b50d",
+      "kind": "provenance",
+      "at": "2026-11-16T11:43:52.556920+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-alma-charalambidou-presidential-option-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "cyprus-alma-charalambidou-presidential-option-2026-11-16",
+        "source_story_id": "cyprus-alma-charalambidou-presidential-option-2026-11-16",
+        "url": "articles/2026-11-16-midday/cyprus-alma-charalambidou-presidential-option-2026-11-16.html"
+      }
+    },
+    {
+      "id": "45f5a378154dfa04edb46428694a8f14dcb3e911ab4d79200030d25399156e48",
+      "kind": "provenance",
+      "at": "2026-11-16T11:43:52.556920+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
+        "source_story_id": "larnaca-investor-naturalisation-hearing-2026-11-16",
+        "url": "articles/2026-11-16-midday/larnaca-investor-naturalisation-hearing-2026-11-16.html"
+      }
+    },
+    {
+      "id": "9ae0578bc4f0d48a4be61ce9d9dfb20249c1356b32dab37f62ff85d5a5a0bcab",
+      "kind": "provenance",
+      "at": "2026-11-16T11:43:52.556920+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "andreeva-wta-finals-title-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "andreeva-wta-finals-title-2026-11-15",
+        "source_story_id": "andreeva-wta-finals-title-2026-11-15",
+        "url": "articles/2026-11-16-midday/andreeva-wta-finals-title-2026-11-15.html"
+      }
+    },
+    {
+      "id": "9bb402dc0ebed2a9452fcfe3aa6e7d3a6aed43a2c58e0c81672184d5f3675d17",
+      "kind": "provenance",
+      "at": "2026-11-16T11:43:52.556920+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "israel-eisenkot-electoral-interference-allegations-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "israel-eisenkot-electoral-interference-allegations-2026-11-16",
+        "source_story_id": "israel-eisenkot-electoral-interference-allegations-2026-11-16",
+        "url": "articles/2026-11-16-midday/israel-eisenkot-electoral-interference-allegations-2026-11-16.html"
+      }
+    },
+    {
+      "id": "a01585596ec9cbcf1996bd890f5bcd1962fc86c873fc1a503d9a69dd7372a032",
+      "kind": "provenance",
+      "at": "2026-11-16T11:43:52.556920+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "dubai-p1-finals-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "dubai-p1-finals-2026-11-15",
+        "source_story_id": "dubai-p1-finals-2026-11-15",
+        "url": "articles/2026-11-16-midday/dubai-p1-finals-2026-11-15.html"
+      }
+    },
+    {
+      "id": "a16cf2b232ccd81355fb136b8718e2619c807f94532402bd5ddc55ec5c447a8a",
+      "kind": "provenance",
+      "at": "2026-11-16T11:43:52.556920+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-poed-teacher-appointments-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "cyprus-poed-teacher-appointments-2026-11-16",
+        "source_story_id": "cyprus-poed-teacher-appointments-2026-11-16",
+        "url": "articles/2026-11-16-midday/cyprus-poed-teacher-appointments-2026-11-16.html"
+      }
+    },
+    {
+      "id": "a3b7be42fd1c2e3c4fc47880a53a011a8a954f5bfe168dd22b3cd60abc437da2",
+      "kind": "provenance",
+      "at": "2026-11-16T11:43:52.556920+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-board-security-review-2026-11-08",
+      "origin": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "nvidia-board-security-review-2026-11-08",
+        "source_story_id": "nvidia-board-security-review-2026-11-08",
+        "url": "articles/2026-11-16-midday/nvidia-board-security-review-2026-11-08.html"
+      }
+    },
+    {
+      "id": "b7ddb3b798f9335f258e3bca2b37efe2238d111f07a14df4fb639bfcdd1159f6",
+      "kind": "provenance",
+      "at": "2026-11-16T11:43:52.556920+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cop31-antalya-ministerial-phase-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "cop31-antalya-ministerial-phase-2026-11-16",
+        "source_story_id": "cop31-antalya-ministerial-phase-2026-11-16",
+        "url": "articles/2026-11-16-midday/cop31-antalya-ministerial-phase-2026-11-16.html"
+      }
+    },
+    {
+      "id": "c319bfdb0d8cec4f6483399343e39cdf3ba1742ab75c760501632badeed22498",
+      "kind": "provenance",
+      "at": "2026-11-16T11:43:52.556920+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "quad-manila-australia-ai-cooperation-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "quad-manila-australia-ai-cooperation-2026-11-16",
+        "source_story_id": "quad-manila-australia-ai-cooperation-2026-11-16",
+        "url": "articles/2026-11-16-midday/quad-manila-australia-ai-cooperation-2026-11-16.html"
+      }
+    },
+    {
+      "id": "ced77d1694ecd42e10586654c8406d8bf59ed7e4aced4e070685b48214d7e31c",
+      "kind": "provenance",
+      "at": "2026-11-16T11:43:52.556920+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
+        "source_story_id": "cyprus-eac-unions-electricity-planning-2026-11-16",
+        "url": "articles/2026-11-16-midday/cyprus-eac-unions-electricity-planning-2026-11-16.html"
+      }
+    },
+    {
+      "id": "f4498b0463a562c0a9c1d1a9e31063fba0302dcaf41fb8152c04e1c175774270",
+      "kind": "provenance",
+      "at": "2026-11-16T11:43:52.556920+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-roosevelt-middle-east-arrival-2026-11-15",
+      "origin": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "us-roosevelt-middle-east-arrival-2026-11-15",
+        "source_story_id": "us-roosevelt-middle-east-arrival-2026-11-15",
+        "url": "articles/2026-11-16-midday/us-roosevelt-middle-east-arrival-2026-11-15.html"
+      }
+    },
+    {
+      "id": "fd38ea1cdde0f88608dc08bee35a402ca3efe8d7b5a9135a1921c293450c0782",
+      "kind": "provenance",
+      "at": "2026-11-16T11:43:52.556920+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "polis-eoka-history-conference-account-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-16-midday",
+        "article_id": "polis-eoka-history-conference-account-2026-11-16",
+        "source_story_id": "polis-eoka-history-conference-account-2026-11-16",
+        "url": "articles/2026-11-16-midday/polis-eoka-history-conference-account-2026-11-16.html"
       }
     }
   ],
@@ -542,16 +897,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Στην υπόθεση Nvidia, ο Σκοτ Μπέσεντ ζητά απαντήσεις μέσα σε δέκα ημέρες, σύμφωνα με τον Φιλελεύθερο. Η Megaspeed δίνει τη δική της εκδοχή για την αποχώρηση της Άλις Χουάνγκ. Για όσους συναλλάσσονται στην αγορά προηγμένων επεξεργαστών, το επόμενο ουσιαστικό στοιχείο είναι αν το διοικητικό συμβούλιο θα δημοσιεύσει τεκμηριωμένα ευρήματα για τις πωλήσεις. Στην Κύπρο, οι συντεχνίες της ΑΗΚ ζητούν απαντήσεις για τις καθυστερήσεις στον ενεργειακό σχεδιασμό. Για τους καταναλωτές, οι προειδοποιήσεις αποκτούν πρακτικό νόημα όταν συνοδεύονται από στοιχεία για τη διαθέσιμη ισχύ και συγκεκριμένες ημερομηνίες για τα έργα που μπορούν να επηρεάσουν την επάρκεια και το κόστος.",
+        "text": "Η άφιξη του αεροπλανοφόρου Theodore Roosevelt στη Μέση Ανατολή αυξάνει τον αριθμό των αμερικανικών αεροπλανοφόρων που επιχειρούν στην περιοχή, σύμφωνα με το Al Jazeera. Η ενίσχυση της παρουσίας δεν αρκεί για να προβλεφθεί αν θα ξαναρχίσουν επιχειρήσεις· αυτό θα φανεί από επίσημες αποφάσεις. Στην Κύπρο, η ΠΟΕΔ δεν προσέρχεται στη συνάντηση για το σύστημα διορισμού εκπαιδευτικών και ζητά πρώτα να μάθει αν το Υπουργείο θα αναθεωρήσει την πρόταση. Για εκπαιδευτικούς που περιμένουν τους νέους κανόνες, το επόμενο ουσιαστικό βήμα είναι μια γραπτή απάντηση και, εφόσον υπάρξουν αλλαγές, ένα αναθεωρημένο κείμενο προς συζήτηση.",
         "story_ids": [
-          "nvidia-board-security-review-2026-11-08",
-          "cyprus-eac-unions-electricity-planning-2026-11-16"
+          "us-roosevelt-middle-east-arrival-2026-11-15",
+          "cyprus-poed-teacher-appointments-2026-11-16"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-16T05:32:25.131198+00:00",
-  "updated_at": "2026-11-16T05:32:25.131198+00:00",
-  "input_sha256": "27b7b8444959e0a440901498464fef369ce97995aaeb5a894ab2e947a60b6e15"
+  "updated_at": "2026-11-16T11:46:11.860734+00:00",
+  "input_sha256": "d7c061b331fb1aa8addd291970f6f26a17a4ca348f5ed5a0fbfb51d1341656ac"
 }
