@@ -6,8 +6,8 @@
     "articles/2026-11-16-evening/teacher-appointments-meeting.json",
     "articles/2026-11-16-evening/lympia-crossing-threats.json",
     "articles/2026-11-16-evening/nicosia-homicide-investigation.json",
-    "articles/2026-11-16-evening/dubai-p1-finals.json",
     "articles/2026-11-16-evening/apoel-away-fans-appeal.json",
+    "articles/2026-11-16-evening/dubai-p1-finals-2026-11-15.json",
     "articles/2026-11-16-evening/nvidia-board-security-review-2026-11-08.json",
     "articles/2026-11-16-evening/cop31-antalya-ministerial-phase-2026-11-16.json",
     "articles/2026-11-16-evening/cyprus-eac-unions-electricity-planning-2026-11-16.json",
@@ -45,11 +45,10 @@
     "Μετά την προαναγγελία αποχής της ΠΟΕΔ, έγινε η συνάντηση με μία μόνο οργάνωση και ορίστηκε χωριστή συζήτηση με την ΟΕΛΜΕΚ.",
     "Το αίτημα προστασίας ανοίγει ξεχωριστό αστυνομικό σκέλος ενώ εκκρεμεί η επιλογή της οδικής πρόσβασης.",
     "Οι ανακριτές εξακολουθούν να αναζητούν το μαχαίρι, ενώ η κατάθεση της τραυματισμένης γυναίκας παραμένει σε εκκρεμότητα.",
-    "Ο απολογισμός μετά τον τελικό δείχνει ισοβαθμία με τον Σάνιο Γκουτιέρες.",
     "Ακυρώθηκε η ποινή που είχε επιβληθεί στις 26 Οκτωβρίου."
   ],
   "edition_mode": "evening_synthesis",
-  "editorial_completed_at": "2026-11-16T17:37:03.967261+00:00",
+  "editorial_completed_at": "2026-11-16T17:40:08.412339+00:00",
   "executive_scan": {
     "cyprus_institutions": "Η συνάντηση για τους διορισμούς έγινε μόνο με την ΟΛΤΕΚ. Η συζήτηση συνεχίζεται την Πέμπτη με την ΟΕΛΜΕΚ, αλλά το κρίσιμο για τους υποψήφιους εκπαιδευτικούς είναι αν το υπουργείο θα παρουσιάσει αλλαγές που απαντούν στις ενστάσεις της. Στα Λύμπια, ο αντιδήμαρχος ζήτησε αστυνομική προστασία μετά τις απειλές για τη σχεδιαζόμενη διάβαση. Για τους κατοίκους εκκρεμεί ένα διαφορετικό ερώτημα: αν η τελική χάραξη θα διοχετεύει την κίνηση μέσα από το χωριό ή θα προβλέπει περιμετρική σύνδεση. Ένα σχέδιο οδικής πρόσβασης θα επιτρέψει να κριθεί ποια σημεία του οικισμού επηρεάζονται.",
     "day_catalysts": [],
@@ -397,7 +396,7 @@
   ],
   "id": "2026-11-16-evening",
   "image_review": {
-    "completed_at": "2026-11-16T17:37:03.967261+00:00",
+    "completed_at": "2026-11-16T17:40:08.412339+00:00",
     "version": 2
   },
   "intelligence_contract": 1,
@@ -1593,9 +1592,9 @@
     "content_schema_sha256": "7f39559bb42296d71910dc869195cc6fd8bf82d17dc1a4139a2cfafeb62360fe",
     "producer_protocol": "oracle-briefing/3"
   },
-  "published_at": "2026-11-16T17:37:03.967261+00:00",
+  "published_at": "2026-11-16T17:40:08.412339+00:00",
   "reading_review": {
-    "completed_at": "2026-11-16T17:37:03.967261+00:00",
+    "completed_at": "2026-11-16T17:40:08.412339+00:00",
     "version": 2
   },
   "scheduled_slot": "19:30",
@@ -1609,7 +1608,7 @@
       "c8": "input_byte_cap: not visible to synthesis",
       "c9": "input_byte_cap: not visible to synthesis"
     },
-    "completed_at": "2026-11-16T17:37:03.967261+00:00",
+    "completed_at": "2026-11-16T17:40:08.412339+00:00",
     "global_exception_reason": null,
     "omitted_stories": {
       "andreeva-wta-finals-title-2026-11-15": "Το βραδινό πακέτο δεν προσθέτει νέα εξέλιξη για τον τίτλο.",
@@ -2603,28 +2602,9 @@
     },
     "major_stories": [
       {
-        "article_id": "dubai-p1-finals",
-        "headline": "Padel: ο Λεμπρόν έφτασε τους 42 τίτλους και ισοφάρισε τον Σάνιο",
-        "published_at": "2026-11-15T05:35:01.967838+00:00",
-        "sources": [
-          {
-            "access": "read",
-            "kind": "reporting",
-            "published_at": "2026-11-16T10:30:04+00:00",
-            "publisher": "Padel Addict",
-            "reporting_group": "Padel Addict",
-            "retrieved_at": "2026-11-16T16:26:14.075242+00:00",
-            "url": "https://www.padeladdict.com/cuales-son-los-jugadores-en-activo-que-han-ganado-mas-titulos-en-el-padel-profesional",
-            "used_for_claims": true
-          }
-        ],
-        "summary": "Ο Χουάν Λεμπρόν έφτασε τους 42 τίτλους μετά τη νίκη του στο Dubai P1 με τον Λέο Άουγκσμπουργκερ, σύμφωνα με την καταμέτρηση του Padel Addict σε τρία σιρκουί.",
-        "why_it_matters": "Οι δύο ισοβαθμούν μεταξύ των εν ενεργεία παικτών, με τον Αρτούρο Κοέγιο μπροστά στους 59 τίτλους."
-      },
-      {
         "article_id": "apoel-away-fans-appeal",
         "headline": "Ο ΑΠΟΕΛ κέρδισε την έφεση για τη μετακίνηση φιλάθλων",
-        "published_at": "2026-11-16T17:37:03.967261+00:00",
+        "published_at": "2026-11-16T17:40:08.412339+00:00",
         "sources": [
           {
             "access": "read",
@@ -2639,6 +2619,25 @@
         ],
         "summary": "Το Εφετείο της ΚΟΠ δέχθηκε ομόφωνα την έφεση του ΑΠΟΕΛ κατά της απαγόρευσης μετακίνησης των φιλάθλων του για έναν αγώνα, σύμφωνα με τον Φιλελεύθερο.",
         "why_it_matters": "Ο συγκεκριμένος περιορισμός δεν ισχύει για το ντέρμπι. Η ΚΟΠ θα δημοσιεύσει αργότερα το πλήρες σκεπτικό."
+      },
+      {
+        "article_id": "dubai-p1-finals-2026-11-15",
+        "headline": "Λεμπρόν–Άουγκσμπουργκερ και Φερνάντεθ–Κάλβο πρωταθλητές στο Dubai P1",
+        "published_at": "2026-11-15T05:35:01.967838+00:00",
+        "sources": [
+          {
+            "access": "read",
+            "kind": "reporting",
+            "published_at": "2026-11-15T19:20:38+00:00",
+            "publisher": "Padel Addict",
+            "reporting_group": "Padel Addict",
+            "retrieved_at": "2026-11-16T04:21:04.792039+00:00",
+            "url": "https://www.padeladdict.com/lebron-augsburger-y-fernandez-calvo-campeones-del-dubai-p1",
+            "used_for_claims": true
+          }
+        ],
+        "summary": "Οι Λεμπρόν και Άουγκσμπουργκερ κατέκτησαν τον τίτλο ανδρών και οι Φερνάντεθ και Κάλβο τον τίτλο γυναικών στο Dubai P1, σύμφωνα με το Padel Addict.",
+        "why_it_matters": "Στους άνδρες το νικητήριο ζευγάρι πήρε το πρώτο σετ στο τάι μπρέικ, ενώ οι νικήτριες των γυναικών άνοιξαν τον τελικό με 7–5."
       }
     ],
     "major_stories_reason": "",
