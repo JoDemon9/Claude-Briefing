@@ -1,0 +1,592 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-11-17.html",
+  "editions": [
+    {
+      "id": "2026-11-17-morning",
+      "type": "morning",
+      "url": "morning/2026-11-17.html",
+      "published_at": "2026-11-17T05:34:42.022596+00:00"
+    }
+  ],
+  "missing_slots": [
+    "midday",
+    "evening"
+  ],
+  "lead_story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+  "stories": [
+    {
+      "story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+      "first_seen_at": "2026-11-17T05:34:42.022596+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-morning",
+          "article_id": "us-chip-export-licensing",
+          "source_story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+          "url": "articles/2026-11-17-morning/us-chip-export-licensing.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "us-chip-export-licensing",
+        "source_story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+        "url": "articles/2026-11-17-morning/us-chip-export-licensing.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "nvidia-huang-reinstatement-petition-2026-11-17",
+      "first_seen_at": "2026-11-17T05:34:42.022596+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-morning",
+          "article_id": "nvidia-huang-reinstatement-petition",
+          "source_story_id": "nvidia-huang-reinstatement-petition-2026-11-17",
+          "url": "articles/2026-11-17-morning/nvidia-huang-reinstatement-petition.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "nvidia-huang-reinstatement-petition",
+        "source_story_id": "nvidia-huang-reinstatement-petition-2026-11-17",
+        "url": "articles/2026-11-17-morning/nvidia-huang-reinstatement-petition.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "rba-minutes-rate-hike-dissent-2026-11-17",
+      "first_seen_at": "2026-11-17T05:34:42.022596+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-morning",
+          "article_id": "rba-rate-debate",
+          "source_story_id": "rba-minutes-rate-hike-dissent-2026-11-17",
+          "url": "articles/2026-11-17-morning/rba-rate-debate.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "rba-rate-debate",
+        "source_story_id": "rba-minutes-rate-hike-dissent-2026-11-17",
+        "url": "articles/2026-11-17-morning/rba-rate-debate.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "queensland-wood-third-bail-hearing-2026-11-17",
+      "first_seen_at": "2026-11-17T05:34:42.022596+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-morning",
+          "article_id": "queensland-bail-hearing",
+          "source_story_id": "queensland-wood-third-bail-hearing-2026-11-17",
+          "url": "articles/2026-11-17-morning/queensland-bail-hearing.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "queensland-bail-hearing",
+        "source_story_id": "queensland-wood-third-bail-hearing-2026-11-17",
+        "url": "articles/2026-11-17-morning/queensland-bail-hearing.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
+      "first_seen_at": "2026-11-17T05:34:42.022596+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-morning",
+          "article_id": "water-tariffs-proposal",
+          "source_story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
+          "url": "articles/2026-11-17-morning/water-tariffs-proposal.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "water-tariffs-proposal",
+        "source_story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
+        "url": "articles/2026-11-17-morning/water-tariffs-proposal.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "paphos-phaedonos-aristodimou-cross-examination-2026-11-17",
+      "first_seen_at": "2026-11-17T05:34:42.022596+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-morning",
+          "article_id": "paphos-trial-cross-examination",
+          "source_story_id": "paphos-phaedonos-aristodimou-cross-examination-2026-11-17",
+          "url": "articles/2026-11-17-morning/paphos-trial-cross-examination.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "paphos-trial-cross-examination",
+        "source_story_id": "paphos-phaedonos-aristodimou-cross-examination-2026-11-17",
+        "url": "articles/2026-11-17-morning/paphos-trial-cross-examination.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "lakatamia-cocaine-retrial-closing-arguments-2026-11-17",
+      "first_seen_at": "2026-11-17T05:34:42.022596+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-morning",
+          "article_id": "lakatamia-retrial-closings",
+          "source_story_id": "lakatamia-cocaine-retrial-closing-arguments-2026-11-17",
+          "url": "articles/2026-11-17-morning/lakatamia-retrial-closings.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "lakatamia-retrial-closings",
+        "source_story_id": "lakatamia-cocaine-retrial-closing-arguments-2026-11-17",
+        "url": "articles/2026-11-17-morning/lakatamia-retrial-closings.html"
+      },
+      "section": "cyprus",
+      "priority": 7
+    },
+    {
+      "story_id": "paphos-grandparents-in-class-pilot-2026-11-16",
+      "first_seen_at": "2026-11-17T05:34:42.022596+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-morning",
+          "article_id": "paphos-grandparents-in-class",
+          "source_story_id": "paphos-grandparents-in-class-pilot-2026-11-16",
+          "url": "articles/2026-11-17-morning/paphos-grandparents-in-class.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "paphos-grandparents-in-class",
+        "source_story_id": "paphos-grandparents-in-class-pilot-2026-11-16",
+        "url": "articles/2026-11-17-morning/paphos-grandparents-in-class.html"
+      },
+      "section": "cyprus",
+      "priority": 8
+    },
+    {
+      "story_id": "uefa-diallo-fifa-election-backing-2026-11-16",
+      "first_seen_at": "2026-11-17T05:34:42.022596+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-morning",
+          "article_id": "uefa-diallo-fifa-election",
+          "source_story_id": "uefa-diallo-fifa-election-backing-2026-11-16",
+          "url": "articles/2026-11-17-morning/uefa-diallo-fifa-election.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "uefa-diallo-fifa-election",
+        "source_story_id": "uefa-diallo-fifa-election-backing-2026-11-16",
+        "url": "articles/2026-11-17-morning/uefa-diallo-fifa-election.html"
+      },
+      "section": "sports",
+      "priority": 9
+    },
+    {
+      "story_id": "south-africa-rugby-erasmus-officiating-questions-2026-11-16",
+      "first_seen_at": "2026-11-17T05:34:42.022596+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-morning",
+          "article_id": "erasmus-rugby-officiating",
+          "source_story_id": "south-africa-rugby-erasmus-officiating-questions-2026-11-16",
+          "url": "articles/2026-11-17-morning/erasmus-rugby-officiating.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "erasmus-rugby-officiating",
+        "source_story_id": "south-africa-rugby-erasmus-officiating-questions-2026-11-16",
+        "url": "articles/2026-11-17-morning/erasmus-rugby-officiating.html"
+      },
+      "section": "sports",
+      "priority": 10
+    }
+  ],
+  "updates": [
+    {
+      "id": "2204df0f7a7797759d3a3561b607385cd492e9fc6c4ab70f45dfb52d2f53f03e",
+      "kind": "provenance",
+      "at": "2026-11-17T05:34:42.022596+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "rba-minutes-rate-hike-dissent-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "rba-rate-debate",
+        "source_story_id": "rba-minutes-rate-hike-dissent-2026-11-17",
+        "url": "articles/2026-11-17-morning/rba-rate-debate.html"
+      }
+    },
+    {
+      "id": "513e1643e1038ddbdef6c9c0b4763254274f821ec5e1dccd0b9dd3cbe33140de",
+      "kind": "provenance",
+      "at": "2026-11-17T05:34:42.022596+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "us-chip-export-licensing",
+        "source_story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+        "url": "articles/2026-11-17-morning/us-chip-export-licensing.html"
+      }
+    },
+    {
+      "id": "589f97adaead098764e6421c54c692a9f77908a63b17ea9e30839c15b00ee970",
+      "kind": "provenance",
+      "at": "2026-11-17T05:34:42.022596+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-huang-reinstatement-petition-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "nvidia-huang-reinstatement-petition",
+        "source_story_id": "nvidia-huang-reinstatement-petition-2026-11-17",
+        "url": "articles/2026-11-17-morning/nvidia-huang-reinstatement-petition.html"
+      }
+    },
+    {
+      "id": "5cabdd9d099333c46c4a4c6d769c3ef9b7b6f4ca84fa190fe8ba3b75af41e1bf",
+      "kind": "provenance",
+      "at": "2026-11-17T05:34:42.022596+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "lakatamia-cocaine-retrial-closing-arguments-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "lakatamia-retrial-closings",
+        "source_story_id": "lakatamia-cocaine-retrial-closing-arguments-2026-11-17",
+        "url": "articles/2026-11-17-morning/lakatamia-retrial-closings.html"
+      }
+    },
+    {
+      "id": "67967b6812c9bea53ffa2c838fbb533e0329e5256730c31463f47e6747580c39",
+      "kind": "provenance",
+      "at": "2026-11-17T05:34:42.022596+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "uefa-diallo-fifa-election-backing-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "uefa-diallo-fifa-election",
+        "source_story_id": "uefa-diallo-fifa-election-backing-2026-11-16",
+        "url": "articles/2026-11-17-morning/uefa-diallo-fifa-election.html"
+      }
+    },
+    {
+      "id": "78e8b96f0dc27f8980ee06dccfc3e1098f328f28aacebf17937a084c923a3fc9",
+      "kind": "provenance",
+      "at": "2026-11-17T05:34:42.022596+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "south-africa-rugby-erasmus-officiating-questions-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "erasmus-rugby-officiating",
+        "source_story_id": "south-africa-rugby-erasmus-officiating-questions-2026-11-16",
+        "url": "articles/2026-11-17-morning/erasmus-rugby-officiating.html"
+      }
+    },
+    {
+      "id": "8f694974c9cf30e995eace7138858270e696293307ff019bb209f712c730eaf6",
+      "kind": "provenance",
+      "at": "2026-11-17T05:34:42.022596+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "water-tariffs-proposal",
+        "source_story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
+        "url": "articles/2026-11-17-morning/water-tariffs-proposal.html"
+      }
+    },
+    {
+      "id": "bdef703df3c0a9f3a32eec36ebbe4116bf4c2c3fa65e1a30c8ebad8bb4c35ec3",
+      "kind": "provenance",
+      "at": "2026-11-17T05:34:42.022596+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "queensland-wood-third-bail-hearing-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "queensland-bail-hearing",
+        "source_story_id": "queensland-wood-third-bail-hearing-2026-11-17",
+        "url": "articles/2026-11-17-morning/queensland-bail-hearing.html"
+      }
+    },
+    {
+      "id": "e7bfa5769e413a737bbb1c86cf9742b14026abda2fa948bf9707914535a06f3e",
+      "kind": "provenance",
+      "at": "2026-11-17T05:34:42.022596+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "paphos-grandparents-in-class-pilot-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "paphos-grandparents-in-class",
+        "source_story_id": "paphos-grandparents-in-class-pilot-2026-11-16",
+        "url": "articles/2026-11-17-morning/paphos-grandparents-in-class.html"
+      }
+    },
+    {
+      "id": "ea76f9e108ee9815fac647831d8ab28df216d6a845d0005b3e744d465890419c",
+      "kind": "provenance",
+      "at": "2026-11-17T05:34:42.022596+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "paphos-phaedonos-aristodimou-cross-examination-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-morning",
+        "article_id": "paphos-trial-cross-examination",
+        "source_story_id": "paphos-phaedonos-aristodimou-cross-examination-2026-11-17",
+        "url": "articles/2026-11-17-morning/paphos-trial-cross-examination.html"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "action": "Δες την επίσημη ανακοίνωση ως ιστορικό πλαίσιο. Αναμένουμε επαληθευμένη νέα προκήρυξη πριν εμφανίσουμε ενεργή αίτηση.",
+      "application_kind": "instructions",
+      "application_url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+      "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση.",
+      "deadline": "2024-07-31T23:59:00+03:00",
+      "deadline_note": "Ιστορική προθεσμία της 2ης πρόσκλησης, όχι ημερομηνία νέας αίτησης. Νέα ενεργή πρόσκληση δεν επιβεβαιώθηκε στον παρόντα έλεγχο.",
+      "deadline_type": "fixed",
+      "eligibility": "Η προκήρυξη του 2024 όριζε νέους 18–29, άνδρες 30–50 και γυναίκες 30–55. Νέα πρόσκληση μπορεί να αλλάξει τους όρους· δεν έχει κριθεί προσωπική επιλεξιμότητα.",
+      "id": "cy-new-entrepreneurship-2024-call2",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-23T04:30:48.639313+00:00",
+          "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "retrieved_at": "2026-10-15T16:39:24.850175+00:00",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Ιστορική πρόσκληση του 2024 που έχει λήξει. Παραμένει μόνο στην παρακολούθηση για τυχόν νέα επίσημη προκήρυξη, όχι στις ενεργές αιτήσεις.",
+      "support": "Παλιοί όροι: 70% επιλέξιμης δαπάνης για 18–29, 60% για τις άλλες ομάδες, με μέγιστο επιλέξιμο προϋπολογισμό €120.000.",
+      "title": "Νέα Επιχειρηματική Δραστηριότητα · παλιά 2η προκήρυξη",
+      "verified_at": "2026-10-23T07:36:00+03:00"
+    },
+    {
+      "action": "Αν έχεις GO, προετοίμασε πλήρη πρόταση. Διαφορετικά ξεκίνα τη σύντομη αίτηση χωρίς να θεωρείς εξασφαλισμένη συμμετοχή στον γύρο Νοεμβρίου.",
+      "application_kind": "form",
+      "application_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+      "change_note": "Επανελέγχθηκε η επίσημη σελίδα EIC: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ., επενδυτικό σκέλος €1–10 εκατ. και επόμενη πλήρης πρόταση στις 4/11, 17:00 Βρυξελλών, μόνο μετά από GO.",
+      "deadline": "2026-11-04T18:00:00+02:00",
+      "deadline_note": "4/11 στις 17:00 Βρυξελλών = 18:00 Κύπρου. Αφορά πλήρη πρόταση μετά το GO. Οι σύντομες προτάσεις υποβάλλονται συνεχώς· αξιολόγηση συνήθως 4–6 εβδομάδες.",
+      "deadline_type": "fixed",
+      "eligibility": "Μία startup/ΜμΕ στην ΕΕ ή συνδεδεμένη χώρα, με καινοτομία TRL 6–8. Για πλήρη πρόταση προηγείται θετική αξιολόγηση (GO) της σύντομης πρότασης ή επιλέξιμη ειδική διαδρομή.",
+      "id": "eu-eic-accelerator-2026",
+      "jurisdiction": "ΕΕ · περιλαμβάνει την Κύπρο",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Innovation Council",
+          "reporting_group": "European Innovation Council",
+          "retrieved_at": "2026-10-24T13:43:13+03:00",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Στήριξη νεοφυών και μικρομεσαίων επιχειρήσεων με ανατρεπτική καινοτομία σε στάδιο ανάπτυξης και κλιμάκωσης. Δεν είναι γενική επιδότηση ίδρυσης επιχείρησης.",
+      "support": "Επιχορήγηση κάτω από €2,5 εκατ.· χωριστά επενδυτικό σκέλος €1–10 εκατ., που δεν αποτελεί επιχορήγηση.",
+      "title": "EIC Accelerator: επόμενη πλήρης πρόταση 4 Νοεμβρίου",
+      "verified_at": "2026-10-24T13:43:13+03:00"
+    },
+    {
+      "action": "Μην υποβάλεις νέα αίτηση. Παρακολούθησε μόνο επίσημη επαναπροκήρυξη ή ανακοίνωση για επιλαχόντες.",
+      "application_kind": "none",
+      "application_url": null,
+      "change_note": "Το ΥΕΕΒ ανακοίνωσε ολοκλήρωση υποβολής προτάσεων λόγω υπερκάλυψης προϋπολογισμού. Η προηγούμενη ένδειξη ανοικτής πρόσκλησης διορθώθηκε.",
+      "deadline": null,
+      "deadline_note": "Η υποβολή ολοκληρώθηκε στις 21/10 λόγω υπερκάλυψης του διαθέσιμου προϋπολογισμού.",
+      "deadline_type": "unknown",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "id": "cy-home-energy-2026",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "kind": "grant",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": "2026-10-21",
+          "publisher": "ΥΕΕΒ",
+          "reporting_group": "ΥΕΕΒ",
+          "retrieved_at": "2026-10-23T10:33:45.530855+00:00",
+          "url": "https://www.industry.gov.cy",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "verified_at": "2026-10-23T13:33:46+03:00"
+    },
+    {
+      "action": "Έλεγξε τα όρια και τη διαδικασία προηγούμενης κοινοποίησης στο κράτος εγκατάστασης. Ο σύνδεσμος δίνει οδηγίες, όχι κυπριακό έντυπο.",
+      "application_kind": "instructions",
+      "application_url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+      "change_note": "Επανελέγχθηκαν στις 24/10 η επίσημη ευρωπαϊκή σελίδα και η διαδικασία διασυνοριακής απαλλαγής. Το καθεστώς παραμένει προαιρετικό και ανοικτό, με ενωσιακό όριο €100.000 και προηγούμενη κοινοποίηση.",
+      "deadline": null,
+      "deadline_note": "Δεν πρόκειται για γύρο χορηγιών. Η απαλλαγή ξεκινά μετά την έγκριση/επιβεβαίωση EX· ισχύουν ξεχωριστές υποχρεώσεις τριμηνιαίας αναφοράς.",
+      "deadline_type": "rolling",
+      "eligibility": "Επιχείρηση εγκατεστημένη στην ΕΕ: ενωσιακός τζίρος έως €100.000 στο τρέχον και προηγούμενο έτος, καθώς και το εθνικό/κλαδικό όριο κάθε χώρας απαλλαγής.",
+      "id": "eu-cross-border-sme-vat",
+      "jurisdiction": "ΕΕ / Κύπρος · διασυνοριακές πωλήσεις",
+      "kind": "legal_right",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · DG TAXUD",
+          "reporting_group": "European Commission · DG TAXUD",
+          "retrieved_at": "2026-10-24T07:33:51+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · SME VAT",
+          "reporting_group": "European Commission · SME VAT",
+          "retrieved_at": "2026-10-24T07:33:47+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/index_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-24T07:33:52+03:00",
+          "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Το ευρωπαϊκό καθεστώς μικρών επιχειρήσεων επιτρέπει απαλλαγή ΦΠΑ σε επιλέξιμες διασυνοριακές πωλήσεις. Απαιτεί προηγούμενη κοινοποίηση· δεν εφαρμόζεται αυτόματα.",
+      "support": "Πιθανή απλούστευση υποχρεώσεων ΦΠΑ, με απώλεια δικαιώματος έκπτωσης ΦΠΑ για τις απαλλασσόμενες πράξεις. Αξιολόγησε το καθαρό όφελος πριν επιλέξεις.",
+      "title": "Προαιρετική απαλλαγή ΦΠΑ για μικρές επιχειρήσεις",
+      "verified_at": "2026-10-24T07:44:30+03:00"
+    },
+    {
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
+      "application_kind": "form",
+      "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "change_note": "Επανελέγχθηκαν η επίσημη δυνατότητα αίτησης, τα κριτήρια και η FAQ προθεσμίας στις 24/10. Η εγγραφή παραμένει ανοικτή χωρίς καταληκτική ημερομηνία· δεν υπονοείται προσωπική επιλεξιμότητα.",
+      "deadline": null,
+      "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
+      "deadline_type": "rolling",
+      "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
+      "id": "eu-erasmus-new-entrepreneurs",
+      "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
+      "kind": "benefit",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs · FAQ",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
+      "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
+      "title": "Erasmus for Young Entrepreneurs",
+      "verified_at": "2026-10-24T07:43:00+03:00"
+    }
+  ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Οι ΗΠΑ επεκτείνουν την απαίτηση άδειας εξαγωγής σε πέντε χώρες για προηγμένα τσιπ. Για προμηθευτές και πελάτες, το κρίσιμο είναι αν ο έλεγχος θα σταματά στον άμεσο αγοραστή ή θα εξετάζει και ποιος χρησιμοποιεί τελικά την υπολογιστική ισχύ. Στην Κύπρο, η πρόταση για κοινές χρεώσεις νερού ανά κυβικό μέτρο αλλάζει τη βάση υπολογισμού για τα νοικοκυριά. Χωρίς τον πίνακα χρεώσεων και τη σύγκρισή του με τα ισχύοντα τιμολόγια ανά επαρχία, δεν ξέρουμε ποιος θα πληρώσει περισσότερο. Τα επόμενα σημεία ελέγχου είναι οι αμερικανικοί όροι αδειοδότησης και η τελική πρόταση του Υπουργικού.",
+        "story_ids": [
+          "us-ai-chip-export-licensing-five-countries-2026-11-17",
+          "cyprus-uniform-water-tariffs-proposal-2026-11-17"
+        ]
+      }
+    ]
+  },
+  "follow_ups": [],
+  "created_at": "2026-11-17T05:36:46.945514+00:00",
+  "updated_at": "2026-11-17T05:36:46.945514+00:00",
+  "input_sha256": "8372a600eea3dfc9f06b845aab5a5e2ec0223b92be14dc24954d6223f4894302"
+}
