@@ -16,13 +16,38 @@
       "type": "midday",
       "url": "midday/2026-11-17.html",
       "published_at": "2026-11-17T11:32:55.831441+00:00"
+    },
+    {
+      "id": "2026-11-17-evening",
+      "type": "evening",
+      "url": "evening/2026-11-17.html",
+      "published_at": "2026-11-17T17:30:29.628631+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+  "missing_slots": [],
+  "lead_story_id": "cyprus-digipol-fake-fine-sms-warning-2026-11-17",
   "stories": [
+    {
+      "story_id": "uk-west-bank-settlement-sanctions-2026-11-17",
+      "first_seen_at": "2026-11-17T17:30:29.628631+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-evening",
+          "article_id": "uk-settlement-sanctions",
+          "source_story_id": "uk-west-bank-settlement-sanctions-2026-11-17",
+          "url": "articles/2026-11-17-evening/uk-settlement-sanctions.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "uk-settlement-sanctions",
+        "source_story_id": "uk-west-bank-settlement-sanctions-2026-11-17",
+        "url": "articles/2026-11-17-evening/uk-settlement-sanctions.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
       "first_seen_at": "2026-11-17T05:34:42.022596+00:00",
@@ -39,13 +64,19 @@
           "article_id": "us-chip-export-licensing",
           "source_story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
           "url": "articles/2026-11-17-midday/us-chip-export-licensing.html"
+        },
+        {
+          "edition_id": "2026-11-17-evening",
+          "article_id": "us-chip-export-licensing",
+          "source_story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+          "url": "articles/2026-11-17-evening/us-chip-export-licensing.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-17-midday",
+        "edition_id": "2026-11-17-evening",
         "article_id": "us-chip-export-licensing",
         "source_story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
-        "url": "articles/2026-11-17-midday/us-chip-export-licensing.html"
+        "url": "articles/2026-11-17-evening/us-chip-export-licensing.html"
       },
       "section": "world",
       "priority": 1
@@ -60,13 +91,19 @@
           "article_id": "denmark-manure-biogas",
           "source_story_id": "denmark-manure-biogas-scale-2026-11-17",
           "url": "articles/2026-11-17-midday/denmark-manure-biogas.html"
+        },
+        {
+          "edition_id": "2026-11-17-evening",
+          "article_id": "denmark-manure-biogas",
+          "source_story_id": "denmark-manure-biogas-scale-2026-11-17",
+          "url": "articles/2026-11-17-evening/denmark-manure-biogas.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-17-midday",
+        "edition_id": "2026-11-17-evening",
         "article_id": "denmark-manure-biogas",
         "source_story_id": "denmark-manure-biogas-scale-2026-11-17",
-        "url": "articles/2026-11-17-midday/denmark-manure-biogas.html"
+        "url": "articles/2026-11-17-evening/denmark-manure-biogas.html"
       },
       "section": "world",
       "priority": 2
@@ -99,6 +136,27 @@
       "priority": 2
     },
     {
+      "story_id": "royal-mail-viability-kyle-warning-2026-11-17",
+      "first_seen_at": "2026-11-17T17:30:29.628631+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-evening",
+          "article_id": "royal-mail-viability",
+          "source_story_id": "royal-mail-viability-kyle-warning-2026-11-17",
+          "url": "articles/2026-11-17-evening/royal-mail-viability.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "royal-mail-viability",
+        "source_story_id": "royal-mail-viability-kyle-warning-2026-11-17",
+        "url": "articles/2026-11-17-evening/royal-mail-viability.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
       "story_id": "cyprus-deutsche-bank-zdf-leaks-2026-11-17",
       "first_seen_at": "2026-11-17T11:32:55.831441+00:00",
       "last_substantive_at": null,
@@ -108,15 +166,42 @@
           "article_id": "deutsche-bank-zdf-leaks",
           "source_story_id": "cyprus-deutsche-bank-zdf-leaks-2026-11-17",
           "url": "articles/2026-11-17-midday/deutsche-bank-zdf-leaks.html"
+        },
+        {
+          "edition_id": "2026-11-17-evening",
+          "article_id": "deutsche-bank-zdf-leaks",
+          "source_story_id": "cyprus-deutsche-bank-zdf-leaks-2026-11-17",
+          "url": "articles/2026-11-17-evening/deutsche-bank-zdf-leaks.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-17-midday",
+        "edition_id": "2026-11-17-evening",
         "article_id": "deutsche-bank-zdf-leaks",
         "source_story_id": "cyprus-deutsche-bank-zdf-leaks-2026-11-17",
-        "url": "articles/2026-11-17-midday/deutsche-bank-zdf-leaks.html"
+        "url": "articles/2026-11-17-evening/deutsche-bank-zdf-leaks.html"
       },
       "section": "cyprus",
+      "priority": 3
+    },
+    {
+      "story_id": "le-pen-pension-reversal-pledge-2026-11-17",
+      "first_seen_at": "2026-11-17T17:30:29.628631+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-evening",
+          "article_id": "france-pension-election-pledge",
+          "source_story_id": "le-pen-pension-reversal-pledge-2026-11-17",
+          "url": "articles/2026-11-17-evening/france-pension-election-pledge.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "france-pension-election-pledge",
+        "source_story_id": "le-pen-pension-reversal-pledge-2026-11-17",
+        "url": "articles/2026-11-17-evening/france-pension-election-pledge.html"
+      },
+      "section": "world",
       "priority": 3
     },
     {
@@ -145,6 +230,27 @@
       },
       "section": "world",
       "priority": 3
+    },
+    {
+      "story_id": "cyprus-digipol-fake-fine-sms-warning-2026-11-17",
+      "first_seen_at": "2026-11-17T17:30:29.628631+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-evening",
+          "article_id": "digipol-scam-alert",
+          "source_story_id": "cyprus-digipol-fake-fine-sms-warning-2026-11-17",
+          "url": "articles/2026-11-17-evening/digipol-scam-alert.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "digipol-scam-alert",
+        "source_story_id": "cyprus-digipol-fake-fine-sms-warning-2026-11-17",
+        "url": "articles/2026-11-17-evening/digipol-scam-alert.html"
+      },
+      "section": "cyprus",
+      "priority": 4
     },
     {
       "story_id": "paphos-student-residence-drainage-repairs-2026-11-17",
@@ -231,16 +337,64 @@
           "article_id": "water-tariffs-proposal",
           "source_story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
           "url": "articles/2026-11-17-midday/water-tariffs-proposal.html"
+        },
+        {
+          "edition_id": "2026-11-17-evening",
+          "article_id": "water-tariffs-proposal",
+          "source_story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
+          "url": "articles/2026-11-17-evening/water-tariffs-proposal.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-17-midday",
+        "edition_id": "2026-11-17-evening",
         "article_id": "water-tariffs-proposal",
         "source_story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
-        "url": "articles/2026-11-17-midday/water-tariffs-proposal.html"
+        "url": "articles/2026-11-17-evening/water-tariffs-proposal.html"
       },
       "section": "cyprus",
       "priority": 5
+    },
+    {
+      "story_id": "nicosia-agios-antonios-homicide-2026-11-14",
+      "first_seen_at": "2026-11-17T17:30:29.628631+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-evening",
+          "article_id": "nicosia-homicide-phones",
+          "source_story_id": "nicosia-agios-antonios-homicide-2026-11-14",
+          "url": "articles/2026-11-17-evening/nicosia-homicide-phones.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "nicosia-homicide-phones",
+        "source_story_id": "nicosia-agios-antonios-homicide-2026-11-14",
+        "url": "articles/2026-11-17-evening/nicosia-homicide-phones.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "agios-dometios-waste-fire-complaints-2026-11-17",
+      "first_seen_at": "2026-11-17T17:30:29.628631+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-evening",
+          "article_id": "agios-dometios-complaints",
+          "source_story_id": "agios-dometios-waste-fire-complaints-2026-11-17",
+          "url": "articles/2026-11-17-evening/agios-dometios-complaints.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "agios-dometios-complaints",
+        "source_story_id": "agios-dometios-waste-fire-complaints-2026-11-17",
+        "url": "articles/2026-11-17-evening/agios-dometios-complaints.html"
+      },
+      "section": "cyprus",
+      "priority": 6
     },
     {
       "story_id": "paphos-phaedonos-aristodimou-cross-examination-2026-11-17",
@@ -268,6 +422,27 @@
       },
       "section": "cyprus",
       "priority": 6
+    },
+    {
+      "story_id": "coello-long-term-career-goals-2026-11-17",
+      "first_seen_at": "2026-11-17T17:30:29.628631+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-evening",
+          "article_id": "coello-career-horizon",
+          "source_story_id": "coello-long-term-career-goals-2026-11-17",
+          "url": "articles/2026-11-17-evening/coello-career-horizon.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "coello-career-horizon",
+        "source_story_id": "coello-long-term-career-goals-2026-11-17",
+        "url": "articles/2026-11-17-evening/coello-career-horizon.html"
+      },
+      "section": "sports",
+      "priority": 7
     },
     {
       "story_id": "lakatamia-cocaine-retrial-closing-arguments-2026-11-17",
@@ -312,6 +487,27 @@
       "priority": 8
     },
     {
+      "story_id": "romario-ancelotti-dismissal-demand-2026-11-17",
+      "first_seen_at": "2026-11-17T17:30:29.628631+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-evening",
+          "article_id": "romario-ancelotti-criticism",
+          "source_story_id": "romario-ancelotti-dismissal-demand-2026-11-17",
+          "url": "articles/2026-11-17-evening/romario-ancelotti-criticism.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "romario-ancelotti-criticism",
+        "source_story_id": "romario-ancelotti-dismissal-demand-2026-11-17",
+        "url": "articles/2026-11-17-evening/romario-ancelotti-criticism.html"
+      },
+      "section": "sports",
+      "priority": 8
+    },
+    {
       "story_id": "uefa-diallo-fifa-election-backing-2026-11-16",
       "first_seen_at": "2026-11-17T05:34:42.022596+00:00",
       "last_substantive_at": null,
@@ -334,6 +530,27 @@
         "article_id": "uefa-diallo-fifa-election",
         "source_story_id": "uefa-diallo-fifa-election-backing-2026-11-16",
         "url": "articles/2026-11-17-midday/uefa-diallo-fifa-election.html"
+      },
+      "section": "sports",
+      "priority": 9
+    },
+    {
+      "story_id": "woods-hero-world-challenge-return-2026-11-17",
+      "first_seen_at": "2026-11-17T17:30:29.628631+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-evening",
+          "article_id": "woods-hero-return",
+          "source_story_id": "woods-hero-world-challenge-return-2026-11-17",
+          "url": "articles/2026-11-17-evening/woods-hero-return.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "woods-hero-return",
+        "source_story_id": "woods-hero-world-challenge-return-2026-11-17",
+        "url": "articles/2026-11-17-evening/woods-hero-return.html"
       },
       "section": "sports",
       "priority": 9
@@ -674,6 +891,188 @@
         "source_story_id": "cyprus-deutsche-bank-zdf-leaks-2026-11-17",
         "url": "articles/2026-11-17-midday/deutsche-bank-zdf-leaks.html"
       }
+    },
+    {
+      "id": "1a20b91bc262a2a8cf408d9cb00fe495a4fb6d3e7518fa80ffe1bfebd4c466b7",
+      "kind": "provenance",
+      "at": "2026-11-17T17:30:29.628631+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "romario-ancelotti-dismissal-demand-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "romario-ancelotti-criticism",
+        "source_story_id": "romario-ancelotti-dismissal-demand-2026-11-17",
+        "url": "articles/2026-11-17-evening/romario-ancelotti-criticism.html"
+      }
+    },
+    {
+      "id": "1d8279e97bcdbfbe4265d8809cb0a5b32320c2ac329bd9eb197a2176d7ac9708",
+      "kind": "provenance",
+      "at": "2026-11-17T17:30:29.628631+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "us-chip-export-licensing",
+        "source_story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+        "url": "articles/2026-11-17-evening/us-chip-export-licensing.html"
+      }
+    },
+    {
+      "id": "474c5f3797421b2d5e714333dea77716109efa0381a053165e23689ee59cf6b3",
+      "kind": "provenance",
+      "at": "2026-11-17T17:30:29.628631+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "le-pen-pension-reversal-pledge-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "france-pension-election-pledge",
+        "source_story_id": "le-pen-pension-reversal-pledge-2026-11-17",
+        "url": "articles/2026-11-17-evening/france-pension-election-pledge.html"
+      }
+    },
+    {
+      "id": "4c52f807a6dd785d8a5554c43affeada82bccb7daaed33d8080753c85c5d577b",
+      "kind": "provenance",
+      "at": "2026-11-17T17:30:29.628631+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-west-bank-settlement-sanctions-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "uk-settlement-sanctions",
+        "source_story_id": "uk-west-bank-settlement-sanctions-2026-11-17",
+        "url": "articles/2026-11-17-evening/uk-settlement-sanctions.html"
+      }
+    },
+    {
+      "id": "4d86816734d06824c2187e9d9378f2b2627d1bfaad5da748d0705d69e8564e8c",
+      "kind": "provenance",
+      "at": "2026-11-17T17:30:29.628631+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-deutsche-bank-zdf-leaks-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "deutsche-bank-zdf-leaks",
+        "source_story_id": "cyprus-deutsche-bank-zdf-leaks-2026-11-17",
+        "url": "articles/2026-11-17-evening/deutsche-bank-zdf-leaks.html"
+      }
+    },
+    {
+      "id": "6d2ed4ab28a6a4059499e513c244803a4ddc2f0bc409cdf716cccb980cdc8077",
+      "kind": "provenance",
+      "at": "2026-11-17T17:30:29.628631+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "water-tariffs-proposal",
+        "source_story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
+        "url": "articles/2026-11-17-evening/water-tariffs-proposal.html"
+      }
+    },
+    {
+      "id": "737ee00ee71dd6ff0bb7154ce6a9d1254fcd433fc18c59bdf8fb52efe8c0731e",
+      "kind": "provenance",
+      "at": "2026-11-17T17:30:29.628631+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "woods-hero-world-challenge-return-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "woods-hero-return",
+        "source_story_id": "woods-hero-world-challenge-return-2026-11-17",
+        "url": "articles/2026-11-17-evening/woods-hero-return.html"
+      }
+    },
+    {
+      "id": "7eb9d8c1be1b788c9ee6ffc81a73df0df122718a13fd2b48b08d7ffd96a33797",
+      "kind": "provenance",
+      "at": "2026-11-17T17:30:29.628631+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "nicosia-agios-antonios-homicide-2026-11-14",
+      "origin": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "nicosia-homicide-phones",
+        "source_story_id": "nicosia-agios-antonios-homicide-2026-11-14",
+        "url": "articles/2026-11-17-evening/nicosia-homicide-phones.html"
+      }
+    },
+    {
+      "id": "a8f7082a0172d2fd875492eaf2cdb3c5b872d789221a5dc5c9ee554f3ed3da2e",
+      "kind": "provenance",
+      "at": "2026-11-17T17:30:29.628631+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "agios-dometios-waste-fire-complaints-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "agios-dometios-complaints",
+        "source_story_id": "agios-dometios-waste-fire-complaints-2026-11-17",
+        "url": "articles/2026-11-17-evening/agios-dometios-complaints.html"
+      }
+    },
+    {
+      "id": "b24172936d34121f26beea40d50e2bbb0e98639bcba4806da3af40d8715d6527",
+      "kind": "provenance",
+      "at": "2026-11-17T17:30:29.628631+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "coello-long-term-career-goals-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "coello-career-horizon",
+        "source_story_id": "coello-long-term-career-goals-2026-11-17",
+        "url": "articles/2026-11-17-evening/coello-career-horizon.html"
+      }
+    },
+    {
+      "id": "bac8a71673bec1d48a3cebdfeced5722ed1d4b5ab75c5bb8ae15718d910d3b74",
+      "kind": "provenance",
+      "at": "2026-11-17T17:30:29.628631+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "royal-mail-viability-kyle-warning-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "royal-mail-viability",
+        "source_story_id": "royal-mail-viability-kyle-warning-2026-11-17",
+        "url": "articles/2026-11-17-evening/royal-mail-viability.html"
+      }
+    },
+    {
+      "id": "c883c042751f18533288323ed1d1e55eafea73240902da6b6101225be7f36a2f",
+      "kind": "provenance",
+      "at": "2026-11-17T17:30:29.628631+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "denmark-manure-biogas-scale-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "denmark-manure-biogas",
+        "source_story_id": "denmark-manure-biogas-scale-2026-11-17",
+        "url": "articles/2026-11-17-evening/denmark-manure-biogas.html"
+      }
+    },
+    {
+      "id": "e77e7cee3d4a9c4440617ac14e94797d7c8d40a9e14a909b57d5a92e68f1d9bd",
+      "kind": "provenance",
+      "at": "2026-11-17T17:30:29.628631+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-digipol-fake-fine-sms-warning-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-evening",
+        "article_id": "digipol-scam-alert",
+        "source_story_id": "cyprus-digipol-fake-fine-sms-warning-2026-11-17",
+        "url": "articles/2026-11-17-evening/digipol-scam-alert.html"
+      }
     }
   ],
   "opportunities": [
@@ -882,16 +1281,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Μετά τους αμερικανικούς περιορισμούς στα τσιπ, το Πεκίνο απειλεί με αντίμετρα ενόψει της συνάντησης Τραμπ–Σι. Για τους παρόχους υπολογιστικής ισχύος, κρίσιμο είναι αν θα διευκρινιστούν οι όροι για τους τελικούς χρήστες ή αν θα προστεθούν μέτρα. Στην Κύπρο, το ZDF συνδέει τραπεζικές συναλλαγές Ρώσων πελατών με το νησί. Για τις τράπεζες και τους πελάτες τους, το δημοσίευμα ανοίγει ερωτήματα για τους ελέγχους εκείνης της περιόδου. Η αξιολόγηση θα αλλάξει αν δημοσιοποιηθούν συγκεκριμένες συναλλαγές, ημερομηνίες ή νέες ενέργειες των εποπτών.",
+        "text": "Η Αστυνομία προειδοποιεί για SMS που μιμούνται το Digipol και ζητούν πληρωμή δήθεν προστίμων. Για τους παραλήπτες, η ασφαλής επαλήθευση περνά από ανεξάρτητη επικοινωνία με την Αστυνομία και όχι από τον σύνδεσμο του μηνύματος. Στη Δυτική Όχθη, οι βρετανικές κυρώσεις έρχονται δύο ημέρες πριν από την προθεσμία προσφορών για έργα στην περιοχή Ε1. Η αποτελεσματικότητά τους θα κριθεί από την εφαρμογή τους και από το αν επηρεάζουν τις σχετικές συναλλαγές. Δεν τεκμηριώνεται ακύρωση των έργων.",
         "story_ids": [
-          "us-ai-chip-export-licensing-five-countries-2026-11-17",
-          "cyprus-deutsche-bank-zdf-leaks-2026-11-17"
+          "cyprus-digipol-fake-fine-sms-warning-2026-11-17",
+          "uk-west-bank-settlement-sanctions-2026-11-17"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-17T05:36:46.945514+00:00",
-  "updated_at": "2026-11-17T11:35:05.495816+00:00",
-  "input_sha256": "b77165b306789b99449f1b5160023086eaa84edd3a77681dd3f08a95b63a730d"
+  "updated_at": "2026-11-17T17:32:05.773979+00:00",
+  "input_sha256": "5d0bf4cf2660310f48b79b6d79b85099d3acffa92085351e522f934e287af574"
 }

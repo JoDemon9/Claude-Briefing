@@ -747,6 +747,14 @@
       "fingerprint": "2145bee92a36bd709f4ab2ed1e7779ebde5dad7def9e4027c2538ee5853c2d00"
     },
     {
+      "id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "type": "evening",
+      "published_at": "2026-11-17T17:30:29.628631+00:00",
+      "url": "evening/2026-11-17.html",
+      "fingerprint": "4abfba457b5461b45b388a3bcf652da4f147dd163713ddd40652b8f82768d4a9"
+    },
+    {
       "id": "2026-11-17-midday",
       "date": "2026-11-17",
       "type": "midday",
@@ -28343,6 +28351,357 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/7b3df06f6097facb0bccde118243b812efe5232bf878284be5bb9a753d4eac14.webp"
+    },
+    {
+      "story_id": "uk-west-bank-settlement-sanctions-2026-11-17",
+      "identity": "uk-west-bank-settlement-sanctions-2026-11-17",
+      "edition_id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "slot": "evening",
+      "published_at": "2026-11-17T17:30:29.628631+00:00",
+      "available_at": "2026-11-17T17:30:29.628631+00:00",
+      "headline": "Βρετανικές κυρώσεις για τους ισραηλινούς εποικισμούς στη Δυτική Όχθη",
+      "finding": "Το Ηνωμένο Βασίλειο επέβαλε κυρώσεις σε εταιρείες για τους ισραηλινούς εποικισμούς στη Δυτική Όχθη, σύμφωνα με το BBC. Η κίνηση έρχεται δύο ημέρες πριν από τη λήξη της προθεσμίας προσφορών για έργα στην περιοχή Ε1, ανατολικά της Ιερουσαλήμ. Στους στόχους περιλαμβάνεται και η οργάνωση Tzav 9, την οποία η βρετανική κυβέρνηση κατηγορεί για αποκλεισμούς της ανθρωπιστικής βοήθειας προς τη Γάζα.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-17-evening/uk-settlement-sanctions.json",
+      "reader_url": "articles/2026-11-17-evening/uk-settlement-sanctions.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-17T15:59:47+00:00",
+          "retrieved_at": "2026-11-17T16:21:12.000886+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/274523e39f4861f167ed8617f8a5674f061346f59e8894549afcbcd1c15dfcf2.webp"
+    },
+    {
+      "story_id": "royal-mail-viability-kyle-warning-2026-11-17",
+      "identity": "royal-mail-viability-kyle-warning-2026-11-17",
+      "edition_id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "slot": "evening",
+      "published_at": "2026-11-17T17:30:29.628631+00:00",
+      "available_at": "2026-11-17T17:30:29.628631+00:00",
+      "headline": "Προειδοποίηση για τη βιωσιμότητα της Royal Mail",
+      "finding": "Ο πρώην υπουργός Επιχειρήσεων Πίτερ Κάιλ ζήτησε επείγουσα κρατική δράση ώστε η Royal Mail να ανταγωνίζεται με ισότιμους όρους, μεταδίδει το BBC. Η κυβέρνηση αναφέρει ότι συναντήθηκε την προηγούμενη εβδομάδα με την εταιρεία και το συνδικάτο για την ποιότητα υπηρεσιών. Η αντιπολίτευση επιρρίπτει ευθύνες στη διοίκηση. Η προειδοποίηση δεν αποτελεί ανακοίνωση κρατικής διάσωσης.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-17-evening/royal-mail-viability.json",
+      "reader_url": "articles/2026-11-17-evening/royal-mail-viability.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cjvg26p3z2gdo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-17T12:43:07+00:00",
+          "retrieved_at": "2026-11-17T16:21:11.996345+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f283f6b59067cbaf5d879c378e8a60b40b3ce767dfc0e7df19d7f53dcc2a73f8.webp"
+    },
+    {
+      "story_id": "le-pen-pension-reversal-pledge-2026-11-17",
+      "identity": "le-pen-pension-reversal-pledge-2026-11-17",
+      "edition_id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "slot": "evening",
+      "published_at": "2026-11-17T17:30:29.628631+00:00",
+      "available_at": "2026-11-17T17:30:29.628631+00:00",
+      "headline": "Η Λεπέν υπόσχεται κατάργηση της συνταξιοδοτικής μεταρρύθμισης Μακρόν",
+      "finding": "Η Μαρίν Λεπέν δήλωσε ότι, εάν εκλεγεί, θα καταργήσει τη συνταξιοδοτική μεταρρύθμιση του Εμανουέλ Μακρόν και θα δημιουργήσει νέο συνταξιοδοτικό ταμείο 900 δισ. ευρώ, σύμφωνα με το France 24. Οι συντάξεις αποτελούν τη μεγαλύτερη κατηγορία δημόσιας δαπάνης στη Γαλλία. Η ανακοίνωση αφορά προεκλογική δέσμευση, χωρίς το απόσπασμα να τεκμηριώνει τον τρόπο χρηματοδότησης του ταμείου.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-17-evening/france-pension-election-pledge.json",
+      "reader_url": "articles/2026-11-17-evening/france-pension-election-pledge.html",
+      "sources": [
+        {
+          "url": "https://www.france24.com/en/france/20261117-french-far-right-candidate-le-pen-vows-end-macron-s-pension-reform-if-elected",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-11-17T14:07:18+00:00",
+          "retrieved_at": "2026-11-17T16:21:12.297997+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/35df73ed81ed6e6947aeab1278d26c49105f1517aa1b9ac1e3de82763270c511.webp"
+    },
+    {
+      "story_id": "cyprus-digipol-fake-fine-sms-warning-2026-11-17",
+      "identity": "cyprus-digipol-fake-fine-sms-warning-2026-11-17",
+      "edition_id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "slot": "evening",
+      "published_at": "2026-11-17T17:30:29.628631+00:00",
+      "available_at": "2026-11-17T17:30:29.628631+00:00",
+      "headline": "Ψεύτικα SMS για πρόστιμα μιμούνται το Digipol",
+      "finding": "Η Αστυνομία προειδοποίησε σήμερα για ψεύτικα μηνύματα που εμφανίζονται ως Digipol και παραπέμπουν σε πληρωμή δήθεν εκκρεμών προστίμων, μεταδίδει το Cyprus Mail. Οι σύνδεσμοι χρησιμοποιούνται για υποκλοπή προσωπικών και τραπεζικών στοιχείων και χρημάτων. Η Αστυνομία διευκρινίζει ότι δεν συνδέεται με τα μηνύματα και ζητά οι πολίτες να ελέγχουν τυχόν εκκρεμότητες από τα επίσημα κανάλια επικοινωνίας της.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-17-evening/digipol-scam-alert.json",
+      "reader_url": "articles/2026-11-17-evening/digipol-scam-alert.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/17/police-warn-of-fake-sms-messages-appearing-to-come-from-digipol",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-17T14:58:39+00:00",
+          "retrieved_at": "2026-11-17T16:21:13.184548+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/559643c7aa96760a703aa14c3de1ff4c4e2bdffb384c6792bf83ea2d9d327e56.webp"
+    },
+    {
+      "story_id": "nicosia-agios-antonios-homicide-2026-11-14",
+      "identity": "nicosia-agios-antonios-homicide-2026-11-14",
+      "edition_id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "slot": "evening",
+      "published_at": "2026-11-17T17:30:29.628631+00:00",
+      "available_at": "2026-11-17T17:30:29.628631+00:00",
+      "headline": "Εξετάζονται τα τηλέφωνα των δύο γυναικών για το φονικό στη Λευκωσία",
+      "finding": "Το ΤΑΕ Λευκωσίας εξετάζει τις επικοινωνίες της 44χρονης που σκοτώθηκε και της 40χρονης που επέζησε της επίθεσης, σύμφωνα με τον Φιλελεύθερο. Οι ανακριτές επιχειρούν να εντοπίσουν με ποιους είχαν επαφή τις τελευταίες ώρες πριν από το έγκλημα. Στο πλαίσιο των ερευνών εντοπίστηκαν και δημοσιεύσεις για το ινστιτούτο μασάζ που διατηρούσαν σε διαμέρισμα.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-17-evening/nicosia-homicide-phones.json",
+      "reader_url": "articles/2026-11-17-evening/nicosia-homicide-phones.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/astinomika/article/1796942/agrio-foniko-lefkosias-erevna-gia-taftopiisi-tis-figouras-pou-kategrapse-cctv-avrio-i-proti-epafi-me-tin-epizisasa",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-17T16:15:00+00:00",
+          "retrieved_at": "2026-11-17T16:21:13.064277+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f9214b8f17f78c2c487d8c69e38ef83f9ecba286a35cac7728b12c865d077bf6.webp"
+    },
+    {
+      "story_id": "agios-dometios-waste-fire-complaints-2026-11-17",
+      "identity": "agios-dometios-waste-fire-complaints-2026-11-17",
+      "edition_id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "slot": "evening",
+      "published_at": "2026-11-17T17:30:29.628631+00:00",
+      "available_at": "2026-11-17T17:30:29.628631+00:00",
+      "headline": "Κάτοικοι Αγίου Δομετίου καταγγέλλουν σκουπίδια και φωτιές",
+      "finding": "Κάτοικοι καταγγέλλουν συσσώρευση απορριμμάτων σε δρόμους και ανοικτούς χώρους του Αγίου Δομετίου, σύμφωνα με τον Φιλελεύθερο. Αναφέρουν επίσης ότι κοντά στην εκκλησία του Αγίου Παύλου ανάβονται φωτιές σε ανοικτά τεμάχια σχεδόν κάθε βράδυ. Πρόκειται για καταγγελίες κατοίκων· το διαθέσιμο απόσπασμα δεν περιλαμβάνει απάντηση της αρμόδιας αρχής ή χρονοδιάγραμμα παρέμβασης.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-17-evening/agios-dometios-complaints.json",
+      "reader_url": "articles/2026-11-17-evening/agios-dometios-complaints.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/avtoptis-martiras/article/1796952/provlima-kathariotitas-ke-ochlirias-ston-agio-dometio",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-17T16:07:34+00:00",
+          "retrieved_at": "2026-11-17T16:21:12.978966+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/2fce3f7fdf855974324218cd14cdb3ca2f5d9aeb0b136a96929f886e932fdb64.webp"
+    },
+    {
+      "story_id": "coello-long-term-career-goals-2026-11-17",
+      "identity": "coello-long-term-career-goals-2026-11-17",
+      "edition_id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "slot": "evening",
+      "published_at": "2026-11-17T17:30:29.628631+00:00",
+      "available_at": "2026-11-17T17:30:29.628631+00:00",
+      "headline": "Ο Κοέγιο θέτει στόχο τη διάρκεια στην κορυφή",
+      "finding": "Ο Αρτούρο Κοέγιο, 24 ετών, δηλώνει ότι θέλει η προετοιμασία του να του επιτρέπει να αγωνίζεται στο υψηλότερο επίπεδο και στα 32–34 του, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-17-evening/coello-career-horizon.json",
+      "reader_url": "articles/2026-11-17-evening/coello-career-horizon.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/entrevista-arturo-coello",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-17T11:54:15+00:00",
+          "retrieved_at": "2026-11-17T16:21:14.376445+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/177b754dec1417202a93d37f4920645077d163e325a7b77edeb654f1450f2f85.webp"
+    },
+    {
+      "story_id": "romario-ancelotti-dismissal-demand-2026-11-17",
+      "identity": "romario-ancelotti-dismissal-demand-2026-11-17",
+      "edition_id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "slot": "evening",
+      "published_at": "2026-11-17T17:30:29.628631+00:00",
+      "available_at": "2026-11-17T17:30:29.628631+00:00",
+      "headline": "Ο Ρομάριο επαναλαμβάνει το αίτημα απομάκρυνσης Αντσελότι",
+      "finding": "Ο Ρομάριο ζήτησε ξανά την απόλυση του Κάρλο Αντσελότι από την εθνική Βραζιλίας, σύμφωνα με το BBC. Ο απολογισμός του προπονητή είναι 12 νίκες, τέσσερις ισοπαλίες και πέντε ήττες σε 21 παιχνίδια.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-17-evening/romario-ancelotti-criticism.json",
+      "reader_url": "articles/2026-11-17-evening/romario-ancelotti-criticism.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/c63rgq02pz9qo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-17T13:10:58+00:00",
+          "retrieved_at": "2026-11-17T16:21:12.179613+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c19545537f803dd99eceff91b254f1e71d88a16cb84640eca74422776ae345fe.webp"
+    },
+    {
+      "story_id": "woods-hero-world-challenge-return-2026-11-17",
+      "identity": "woods-hero-world-challenge-return-2026-11-17",
+      "edition_id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "slot": "evening",
+      "published_at": "2026-11-17T17:30:29.628631+00:00",
+      "available_at": "2026-11-17T17:30:29.628631+00:00",
+      "headline": "Ο Γουντς ανακοινώθηκε στο πεδίο του Hero World Challenge",
+      "finding": "Ο Τάιγκερ Γουντς περιλαμβάνεται στους 20 παίκτες του Hero World Challenge τον επόμενο μήνα, μεταδίδει το BBC. Δεν έχει αγωνιστεί σε συμβατικό τουρνουά κατάταξης από το Open του 2024.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-17-evening/woods-hero-return.json",
+      "reader_url": "articles/2026-11-17-evening/woods-hero-return.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/golf/articles/cm93080ep703o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-17T15:54:36+00:00",
+          "retrieved_at": "2026-11-17T16:21:12.023866+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/d91276903e2d34ecc5a09e22d65e5de61a587054138213a3b3ccfe37601a26ba.webp"
+    },
+    {
+      "story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+      "identity": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+      "edition_id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "slot": "evening",
+      "published_at": "2026-11-17T05:34:42.022596+00:00",
+      "available_at": "2026-11-17T17:30:29.628631+00:00",
+      "headline": "Το Πεκίνο απειλεί με αντίμετρα για τα τσιπ πριν από τη συνάντηση Τραμπ–Σι",
+      "finding": "Η Κίνα απειλεί με αντίμετρα μετά τους νέους αμερικανικούς περιορισμούς στην εξαγωγή προηγμένων τσιπ, σύμφωνα με τον Φιλελεύθερο. Οι κανόνες, που ανακοινώθηκαν στις 16 Νοεμβρίου και καλύπτουν πέντε τρίτες χώρες, αποσκοπούν στον περιορισμό της πρόσβασης κινεζικών εταιρειών και μέσω κέντρων δεδομένων. Η συνάντηση Ντόναλντ Τραμπ και Σι Τζινπίνγκ έχει προγραμματιστεί για την Πέμπτη στη Σενζέν.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-17-evening/us-chip-export-licensing.json",
+      "reader_url": "articles/2026-11-17-evening/us-chip-export-licensing.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kosmos-ikonomia/article/1796726/ipa-kinaneos-polemos-gia-ta-tsip-tis-nvidia-to-pekino-apili-me-antimetra-prin-apo-ti-sinantisi-tramp-si",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-17T09:42:13+00:00",
+          "retrieved_at": "2026-11-17T10:21:09.215190+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/2a5ce5360fda743abb88dc64fb230e03a4911d53da3bb019dea0f43553096368.webp"
+    },
+    {
+      "story_id": "denmark-manure-biogas-scale-2026-11-17",
+      "identity": "denmark-manure-biogas-scale-2026-11-17",
+      "edition_id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "slot": "evening",
+      "published_at": "2026-11-17T11:32:55.831441+00:00",
+      "available_at": "2026-11-17T17:30:29.628631+00:00",
+      "headline": "Η κοπριά τροφοδοτεί την παραγωγή βιοαερίου στη Δανία",
+      "finding": "Η Δανία έφτασε μέσα σε λίγο περισσότερο από μία δεκαετία από λίγες μικρές μονάδες σε περίπου 150 εγκαταστάσεις βιοαερίου βιομηχανικής κλίμακας, σύμφωνα με το Al Jazeera. Έως το 70% των πρώτων υλών τους προέρχεται από απόβλητα χοίρων και βοοειδών. Το ρεπορτάζ δείχνει πώς ένα πρόβλημα διαχείρισης αποβλήτων τροφοδοτεί πλέον την παραγωγή ενέργειας.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-17-evening/denmark-manure-biogas.json",
+      "reader_url": "articles/2026-11-17-evening/denmark-manure-biogas.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/economy/2026/11/17/powering-towns-on-pig-manure-how-denmark-has-transformed-energy-generation?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-17T09:51:02+00:00",
+          "retrieved_at": "2026-11-17T10:21:07.649680+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c5906de4e91dbb1a688fc752afe9a691dfd9c117b6ce265db2401114ebdc08d4.webp"
+    },
+    {
+      "story_id": "cyprus-deutsche-bank-zdf-leaks-2026-11-17",
+      "identity": "cyprus-deutsche-bank-zdf-leaks-2026-11-17",
+      "edition_id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "slot": "evening",
+      "published_at": "2026-11-17T11:32:55.831441+00:00",
+      "available_at": "2026-11-17T17:30:29.628631+00:00",
+      "headline": "Έρευνα του ZDF συνδέει την Κύπρο με συναλλαγές Ρώσων πελατών της Deutsche Bank",
+      "finding": "Εσωτερικά έγγραφα που επικαλείται το ZDF συνδέουν συναλλαγές Ρώσων πελατών της Deutsche Bank με την Κύπρο, μεταδίδει το Cyprus Mail. Η εφημερίδα αναφέρει ότι το 2016 η Deutsche Bank διέκοψε τη σχέση ανταποκρίτριας τράπεζας με την κυπριακή RCB. Η RCB είχε αρνηθεί οποιαδήποτε σύνδεση με τις τότε καταγγελίες για υπεράκτιες συναλλαγές.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-17-evening/deutsche-bank-zdf-leaks.json",
+      "reader_url": "articles/2026-11-17-evening/deutsche-bank-zdf-leaks.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/17/deutsche-bank-leaks-cyprus-used-as-back-door-to-eu-for-russian-oligarchs",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-17T09:57:44+00:00",
+          "retrieved_at": "2026-11-17T10:21:08.348504+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a6e13de0303bf10a0fda43695c69bdbe6c162bac8347ed7099121b6bd85d4308.webp"
+    },
+    {
+      "story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
+      "identity": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
+      "edition_id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "slot": "evening",
+      "published_at": "2026-11-17T05:34:42.022596+00:00",
+      "available_at": "2026-11-17T17:30:29.628631+00:00",
+      "headline": "Κοινές χρεώσεις νερού ανά κυβικό μέτρο προτείνονται σε όλη την Κύπρο",
+      "finding": "Ενώπιον του Υπουργικού Συμβουλίου αναμένεται σήμερα πρόταση για ενιαία τιμολογιακή πολιτική στην ύδρευση και την αποχέτευση, σύμφωνα με τον Φιλελεύθερο. Προβλέπει κοινές χρεώσεις ανά κυβικό μέτρο, ανώτατο τέλος εγκατάστασης 700 ευρώ και χρέωση 35 ευρώ για αποκοπή ύδρευσης. Παράλληλα ετοιμάστηκε τροποποιητικό νομοσχέδιο ώστε να αποσαφηνιστεί η μεταβίβαση εξουσιών στους Επαρχιακούς Οργανισμούς Αυτοδιοίκησης. Οι χρεώσεις παρουσιάζονται ως πρόταση.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-17-evening/water-tariffs-proposal.json",
+      "reader_url": "articles/2026-11-17-evening/water-tariffs-proposal.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1796535/afta-ine-ta-nea-teli-gia-posimo-nero-enopion-tou-ipourgikou-simvouliou-simera-i-protasi-gia-eniea-teli-idrefsis-ke-apochetefsis-se-oli-tin-kipro",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-17T04:14:00+00:00",
+          "retrieved_at": "2026-11-17T04:21:19.530767+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/be828390fa163b4f31e517964f74a4f3f07a1446400a31ae76262281a9c8a6fd.webp"
     },
     {
       "story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",

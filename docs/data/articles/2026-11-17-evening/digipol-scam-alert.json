@@ -1,0 +1,76 @@
+{
+  "analysis_sources": [
+    "https://cyprus-mail.com/2026/11/17/police-warn-of-fake-sms-messages-appearing-to-come-from-digipol"
+  ],
+  "category": "Πρώτο θέμα",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 4,
+    "section": "cyprus"
+  },
+  "delta_update": "Η προειδοποίηση κατονομάζει τη μεταμφίεση που χρησιμοποιούν τα συγκεκριμένα μηνύματα.",
+  "driver_tags": [
+    "cybersecurity",
+    "fraud",
+    "public-services"
+  ],
+  "edition_id": "2026-11-17-evening",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Ψεύτικα SMS για πρόστιμα μιμούνται το Digipol",
+  "id": "digipol-scam-alert",
+  "image": {
+    "alt": "Police warn of fake SMS messages appearing to come from Digipol",
+    "attribution": "cyprus-mail.com",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Police warn of fake SMS messages appearing to come from Digipol · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://cyprus-mail.com/2026/11/17/police-warn-of-fake-sms-messages-appearing-to-come-from-digipol",
+    "original_url": "https://cyprus-mail.com/wp-content/uploads/2023/01/person-on-phone.jpg",
+    "retrieved_at": "2026-11-17T16:21:19.169694+00:00",
+    "source_review": {
+      "checked_at": "2026-11-17T16:21:19.169694+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "734365f4f5fb3b3b",
+      "rights_basis": "publisher-attribution",
+      "sha256": "559643c7aa96760a703aa14c3de1ff4c4e2bdffb384c6792bf83ea2d9d327e56"
+    },
+    "source_url": "https://cyprus-mail.com/2026/11/17/police-warn-of-fake-sms-messages-appearing-to-come-from-digipol",
+    "url": "assets/editorial/source/559643c7aa96760a703aa14c3de1ff4c4e2bdffb384c6792bf83ea2d9d327e56.webp"
+  },
+  "mechanics_and_incentives": "Η επίκληση προστίμου δίνει στον παραλήπτη λόγο να πληρώσει πριν ελέγξει την προέλευση. Το όνομα μιας γνωστής υπηρεσίας κάνει τον σύνδεσμο να φαίνεται αξιόπιστος.",
+  "published_at": "2026-11-17T17:30:29.628631+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "alternative_case": "Αν ακολουθήσει τον σύνδεσμο και δώσει στοιχεία, εκτίθεται στον κίνδυνο που περιγράφει η προειδοποίηση.",
+    "base_case": "Αν ο παραλήπτης επικοινωνήσει ανεξάρτητα με την Αστυνομία, μπορεί να ελέγξει την εκκρεμότητα χωρίς τον ύποπτο σύνδεσμο.",
+    "watch_next": "Νεότερες επίσημες οδηγίες για τα συγκεκριμένα μηνύματα και τον τρόπο αναφοράς τους."
+  },
+  "second_order_effects": "Ο κίνδυνος αφορά όποιον εισάγει στοιχεία σε ύποπτη σελίδα. Η εμφάνιση του ονόματος Digipol δεν αποδεικνύει ότι το μήνυμα προέρχεται από την υπηρεσία.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Η Αστυνομία προειδοποίησε σήμερα για ψεύτικα μηνύματα που εμφανίζονται ως Digipol και παραπέμπουν σε πληρωμή δήθεν εκκρεμών προστίμων, μεταδίδει το Cyprus Mail. Οι σύνδεσμοι χρησιμοποιούνται για υποκλοπή προσωπικών και τραπεζικών στοιχείων και χρημάτων. Η Αστυνομία διευκρινίζει ότι δεν συνδέεται με τα μηνύματα και ζητά οι πολίτες να ελέγχουν τυχόν εκκρεμότητες από τα επίσημα κανάλια επικοινωνίας της."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-17T14:58:39+00:00",
+      "publisher": "Cyprus Mail",
+      "reporting_group": "Cyprus Mail",
+      "retrieved_at": "2026-11-17T16:21:13.184548+00:00",
+      "url": "https://cyprus-mail.com/2026/11/17/police-warn-of-fake-sms-messages-appearing-to-come-from-digipol",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "cyprus-digipol-fake-fine-sms-warning-2026-11-17",
+  "story_identity": "cyprus-digipol-fake-fine-sms-warning-2026-11-17",
+  "summary": "Η Αστυνομία προειδοποίησε σήμερα για ψεύτικα μηνύματα που εμφανίζονται ως Digipol και παραπέμπουν σε πληρωμή δήθεν εκκρεμών προστίμων, μεταδίδει το Cyprus Mail. Οι σύνδεσμοι χρησιμοποιούνται για υποκλοπή προσωπικών και τραπεζικών στοιχείων και χρημάτων. Η Αστυνομία διευκρινίζει ότι δεν συνδέεται με τα μηνύματα και ζητά οι πολίτες να ελέγχουν τυχόν εκκρεμότητες από τα επίσημα κανάλια επικοινωνίας της.",
+  "updated_at": "2026-11-17T17:30:29.628631+00:00",
+  "url": "articles/2026-11-17-evening/digipol-scam-alert.html"
+}
