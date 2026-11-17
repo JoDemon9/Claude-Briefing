@@ -10,10 +10,15 @@
       "type": "morning",
       "url": "morning/2026-11-17.html",
       "published_at": "2026-11-17T05:34:42.022596+00:00"
+    },
+    {
+      "id": "2026-11-17-midday",
+      "type": "midday",
+      "url": "midday/2026-11-17.html",
+      "published_at": "2026-11-17T11:32:55.831441+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
   "lead_story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
@@ -28,16 +33,43 @@
           "article_id": "us-chip-export-licensing",
           "source_story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
           "url": "articles/2026-11-17-morning/us-chip-export-licensing.html"
+        },
+        {
+          "edition_id": "2026-11-17-midday",
+          "article_id": "us-chip-export-licensing",
+          "source_story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+          "url": "articles/2026-11-17-midday/us-chip-export-licensing.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-17-morning",
+        "edition_id": "2026-11-17-midday",
         "article_id": "us-chip-export-licensing",
         "source_story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
-        "url": "articles/2026-11-17-morning/us-chip-export-licensing.html"
+        "url": "articles/2026-11-17-midday/us-chip-export-licensing.html"
       },
       "section": "world",
       "priority": 1
+    },
+    {
+      "story_id": "denmark-manure-biogas-scale-2026-11-17",
+      "first_seen_at": "2026-11-17T11:32:55.831441+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-midday",
+          "article_id": "denmark-manure-biogas",
+          "source_story_id": "denmark-manure-biogas-scale-2026-11-17",
+          "url": "articles/2026-11-17-midday/denmark-manure-biogas.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "denmark-manure-biogas",
+        "source_story_id": "denmark-manure-biogas-scale-2026-11-17",
+        "url": "articles/2026-11-17-midday/denmark-manure-biogas.html"
+      },
+      "section": "world",
+      "priority": 2
     },
     {
       "story_id": "nvidia-huang-reinstatement-petition-2026-11-17",
@@ -49,16 +81,43 @@
           "article_id": "nvidia-huang-reinstatement-petition",
           "source_story_id": "nvidia-huang-reinstatement-petition-2026-11-17",
           "url": "articles/2026-11-17-morning/nvidia-huang-reinstatement-petition.html"
+        },
+        {
+          "edition_id": "2026-11-17-midday",
+          "article_id": "nvidia-huang-reinstatement-petition",
+          "source_story_id": "nvidia-huang-reinstatement-petition-2026-11-17",
+          "url": "articles/2026-11-17-midday/nvidia-huang-reinstatement-petition.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-17-morning",
+        "edition_id": "2026-11-17-midday",
         "article_id": "nvidia-huang-reinstatement-petition",
         "source_story_id": "nvidia-huang-reinstatement-petition-2026-11-17",
-        "url": "articles/2026-11-17-morning/nvidia-huang-reinstatement-petition.html"
+        "url": "articles/2026-11-17-midday/nvidia-huang-reinstatement-petition.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "cyprus-deutsche-bank-zdf-leaks-2026-11-17",
+      "first_seen_at": "2026-11-17T11:32:55.831441+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-midday",
+          "article_id": "deutsche-bank-zdf-leaks",
+          "source_story_id": "cyprus-deutsche-bank-zdf-leaks-2026-11-17",
+          "url": "articles/2026-11-17-midday/deutsche-bank-zdf-leaks.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "deutsche-bank-zdf-leaks",
+        "source_story_id": "cyprus-deutsche-bank-zdf-leaks-2026-11-17",
+        "url": "articles/2026-11-17-midday/deutsche-bank-zdf-leaks.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "rba-minutes-rate-hike-dissent-2026-11-17",
@@ -70,16 +129,43 @@
           "article_id": "rba-rate-debate",
           "source_story_id": "rba-minutes-rate-hike-dissent-2026-11-17",
           "url": "articles/2026-11-17-morning/rba-rate-debate.html"
+        },
+        {
+          "edition_id": "2026-11-17-midday",
+          "article_id": "rba-rate-debate",
+          "source_story_id": "rba-minutes-rate-hike-dissent-2026-11-17",
+          "url": "articles/2026-11-17-midday/rba-rate-debate.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-17-morning",
+        "edition_id": "2026-11-17-midday",
         "article_id": "rba-rate-debate",
         "source_story_id": "rba-minutes-rate-hike-dissent-2026-11-17",
-        "url": "articles/2026-11-17-morning/rba-rate-debate.html"
+        "url": "articles/2026-11-17-midday/rba-rate-debate.html"
       },
       "section": "world",
       "priority": 3
+    },
+    {
+      "story_id": "paphos-student-residence-drainage-repairs-2026-11-17",
+      "first_seen_at": "2026-11-17T11:32:55.831441+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-midday",
+          "article_id": "paphos-student-residence-repairs",
+          "source_story_id": "paphos-student-residence-drainage-repairs-2026-11-17",
+          "url": "articles/2026-11-17-midday/paphos-student-residence-repairs.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "paphos-student-residence-repairs",
+        "source_story_id": "paphos-student-residence-drainage-repairs-2026-11-17",
+        "url": "articles/2026-11-17-midday/paphos-student-residence-repairs.html"
+      },
+      "section": "cyprus",
+      "priority": 4
     },
     {
       "story_id": "queensland-wood-third-bail-hearing-2026-11-17",
@@ -91,16 +177,43 @@
           "article_id": "queensland-bail-hearing",
           "source_story_id": "queensland-wood-third-bail-hearing-2026-11-17",
           "url": "articles/2026-11-17-morning/queensland-bail-hearing.html"
+        },
+        {
+          "edition_id": "2026-11-17-midday",
+          "article_id": "queensland-bail-hearing",
+          "source_story_id": "queensland-wood-third-bail-hearing-2026-11-17",
+          "url": "articles/2026-11-17-midday/queensland-bail-hearing.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-17-morning",
+        "edition_id": "2026-11-17-midday",
         "article_id": "queensland-bail-hearing",
         "source_story_id": "queensland-wood-third-bail-hearing-2026-11-17",
-        "url": "articles/2026-11-17-morning/queensland-bail-hearing.html"
+        "url": "articles/2026-11-17-midday/queensland-bail-hearing.html"
       },
       "section": "world",
       "priority": 4
+    },
+    {
+      "story_id": "bridge-steam-pyla-december-workshop-2026-11-17",
+      "first_seen_at": "2026-11-17T11:32:55.831441+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-17-midday",
+          "article_id": "bridge-steam-pyla",
+          "source_story_id": "bridge-steam-pyla-december-workshop-2026-11-17",
+          "url": "articles/2026-11-17-midday/bridge-steam-pyla.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "bridge-steam-pyla",
+        "source_story_id": "bridge-steam-pyla-december-workshop-2026-11-17",
+        "url": "articles/2026-11-17-midday/bridge-steam-pyla.html"
+      },
+      "section": "cyprus",
+      "priority": 5
     },
     {
       "story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
@@ -112,13 +225,19 @@
           "article_id": "water-tariffs-proposal",
           "source_story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
           "url": "articles/2026-11-17-morning/water-tariffs-proposal.html"
+        },
+        {
+          "edition_id": "2026-11-17-midday",
+          "article_id": "water-tariffs-proposal",
+          "source_story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
+          "url": "articles/2026-11-17-midday/water-tariffs-proposal.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-17-morning",
+        "edition_id": "2026-11-17-midday",
         "article_id": "water-tariffs-proposal",
         "source_story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
-        "url": "articles/2026-11-17-morning/water-tariffs-proposal.html"
+        "url": "articles/2026-11-17-midday/water-tariffs-proposal.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -133,13 +252,19 @@
           "article_id": "paphos-trial-cross-examination",
           "source_story_id": "paphos-phaedonos-aristodimou-cross-examination-2026-11-17",
           "url": "articles/2026-11-17-morning/paphos-trial-cross-examination.html"
+        },
+        {
+          "edition_id": "2026-11-17-midday",
+          "article_id": "paphos-trial-cross-examination",
+          "source_story_id": "paphos-phaedonos-aristodimou-cross-examination-2026-11-17",
+          "url": "articles/2026-11-17-midday/paphos-trial-cross-examination.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-17-morning",
+        "edition_id": "2026-11-17-midday",
         "article_id": "paphos-trial-cross-examination",
         "source_story_id": "paphos-phaedonos-aristodimou-cross-examination-2026-11-17",
-        "url": "articles/2026-11-17-morning/paphos-trial-cross-examination.html"
+        "url": "articles/2026-11-17-midday/paphos-trial-cross-examination.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -196,13 +321,19 @@
           "article_id": "uefa-diallo-fifa-election",
           "source_story_id": "uefa-diallo-fifa-election-backing-2026-11-16",
           "url": "articles/2026-11-17-morning/uefa-diallo-fifa-election.html"
+        },
+        {
+          "edition_id": "2026-11-17-midday",
+          "article_id": "uefa-diallo-fifa-election",
+          "source_story_id": "uefa-diallo-fifa-election-backing-2026-11-16",
+          "url": "articles/2026-11-17-midday/uefa-diallo-fifa-election.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-17-morning",
+        "edition_id": "2026-11-17-midday",
         "article_id": "uefa-diallo-fifa-election",
         "source_story_id": "uefa-diallo-fifa-election-backing-2026-11-16",
-        "url": "articles/2026-11-17-morning/uefa-diallo-fifa-election.html"
+        "url": "articles/2026-11-17-midday/uefa-diallo-fifa-election.html"
       },
       "section": "sports",
       "priority": 9
@@ -217,13 +348,19 @@
           "article_id": "erasmus-rugby-officiating",
           "source_story_id": "south-africa-rugby-erasmus-officiating-questions-2026-11-16",
           "url": "articles/2026-11-17-morning/erasmus-rugby-officiating.html"
+        },
+        {
+          "edition_id": "2026-11-17-midday",
+          "article_id": "erasmus-rugby-officiating",
+          "source_story_id": "south-africa-rugby-erasmus-officiating-questions-2026-11-16",
+          "url": "articles/2026-11-17-midday/erasmus-rugby-officiating.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-17-morning",
+        "edition_id": "2026-11-17-midday",
         "article_id": "erasmus-rugby-officiating",
         "source_story_id": "south-africa-rugby-erasmus-officiating-questions-2026-11-16",
-        "url": "articles/2026-11-17-morning/erasmus-rugby-officiating.html"
+        "url": "articles/2026-11-17-midday/erasmus-rugby-officiating.html"
       },
       "section": "sports",
       "priority": 10
@@ -368,6 +505,174 @@
         "article_id": "paphos-trial-cross-examination",
         "source_story_id": "paphos-phaedonos-aristodimou-cross-examination-2026-11-17",
         "url": "articles/2026-11-17-morning/paphos-trial-cross-examination.html"
+      }
+    },
+    {
+      "id": "158d8ceda8dc1e317bbbe9aa005237feb65e60c12aa4e36597c0a2a0ea4b75ab",
+      "kind": "provenance",
+      "at": "2026-11-17T11:32:55.831441+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "uefa-diallo-fifa-election-backing-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "uefa-diallo-fifa-election",
+        "source_story_id": "uefa-diallo-fifa-election-backing-2026-11-16",
+        "url": "articles/2026-11-17-midday/uefa-diallo-fifa-election.html"
+      }
+    },
+    {
+      "id": "1c37b03281a1a7e20f1ad716af9b8b6910de70d6234953d77d6284933e680fa3",
+      "kind": "provenance",
+      "at": "2026-11-17T11:32:55.831441+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "paphos-phaedonos-aristodimou-cross-examination-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "paphos-trial-cross-examination",
+        "source_story_id": "paphos-phaedonos-aristodimou-cross-examination-2026-11-17",
+        "url": "articles/2026-11-17-midday/paphos-trial-cross-examination.html"
+      }
+    },
+    {
+      "id": "2536380d9b74b9d75929c2815a88f940c42344700b4c52eb9c9448d97d365b82",
+      "kind": "provenance",
+      "at": "2026-11-17T11:32:55.831441+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "water-tariffs-proposal",
+        "source_story_id": "cyprus-uniform-water-tariffs-proposal-2026-11-17",
+        "url": "articles/2026-11-17-midday/water-tariffs-proposal.html"
+      }
+    },
+    {
+      "id": "2a7dcd3b8df75f315b3e8f53a1275f7aaa248e6e23b73d7fe3d94372d3eb1ffc",
+      "kind": "provenance",
+      "at": "2026-11-17T11:32:55.831441+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "bridge-steam-pyla-december-workshop-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "bridge-steam-pyla",
+        "source_story_id": "bridge-steam-pyla-december-workshop-2026-11-17",
+        "url": "articles/2026-11-17-midday/bridge-steam-pyla.html"
+      }
+    },
+    {
+      "id": "310e9d32d2c3de5513e12b3f21cdff449cc0964152f8078dbc2b750358bc1293",
+      "kind": "provenance",
+      "at": "2026-11-17T11:32:55.831441+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "queensland-wood-third-bail-hearing-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "queensland-bail-hearing",
+        "source_story_id": "queensland-wood-third-bail-hearing-2026-11-17",
+        "url": "articles/2026-11-17-midday/queensland-bail-hearing.html"
+      }
+    },
+    {
+      "id": "76ec6f8c6b03de09c6120d365eb83410c6c9d471ce5cadf7ad7c6572ea5beaeb",
+      "kind": "provenance",
+      "at": "2026-11-17T11:32:55.831441+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "us-chip-export-licensing",
+        "source_story_id": "us-ai-chip-export-licensing-five-countries-2026-11-17",
+        "url": "articles/2026-11-17-midday/us-chip-export-licensing.html"
+      }
+    },
+    {
+      "id": "8b813a52a23018dabc039f51a10c91f9e958e2986c9279c2da4d904e35464aa2",
+      "kind": "provenance",
+      "at": "2026-11-17T11:32:55.831441+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "south-africa-rugby-erasmus-officiating-questions-2026-11-16",
+      "origin": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "erasmus-rugby-officiating",
+        "source_story_id": "south-africa-rugby-erasmus-officiating-questions-2026-11-16",
+        "url": "articles/2026-11-17-midday/erasmus-rugby-officiating.html"
+      }
+    },
+    {
+      "id": "9222045b25af2f2ec965e164b1edf44a549e4dff5e4f1ec4f9b14437b49f4eea",
+      "kind": "provenance",
+      "at": "2026-11-17T11:32:55.831441+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "paphos-student-residence-drainage-repairs-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "paphos-student-residence-repairs",
+        "source_story_id": "paphos-student-residence-drainage-repairs-2026-11-17",
+        "url": "articles/2026-11-17-midday/paphos-student-residence-repairs.html"
+      }
+    },
+    {
+      "id": "9e8eee308b5044cff41953c09f2329a21f935eb15734c228d47dd598ee5558bb",
+      "kind": "provenance",
+      "at": "2026-11-17T11:32:55.831441+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "rba-minutes-rate-hike-dissent-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "rba-rate-debate",
+        "source_story_id": "rba-minutes-rate-hike-dissent-2026-11-17",
+        "url": "articles/2026-11-17-midday/rba-rate-debate.html"
+      }
+    },
+    {
+      "id": "d670816bb0319a6911dcd66319a68162270baf5acdd84370bb955330e03a830d",
+      "kind": "provenance",
+      "at": "2026-11-17T11:32:55.831441+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "denmark-manure-biogas-scale-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "denmark-manure-biogas",
+        "source_story_id": "denmark-manure-biogas-scale-2026-11-17",
+        "url": "articles/2026-11-17-midday/denmark-manure-biogas.html"
+      }
+    },
+    {
+      "id": "eae4a879c2191ad75a73e937cf986c78b487429a8ee1c573c3e666174e9466aa",
+      "kind": "provenance",
+      "at": "2026-11-17T11:32:55.831441+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-huang-reinstatement-petition-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "nvidia-huang-reinstatement-petition",
+        "source_story_id": "nvidia-huang-reinstatement-petition-2026-11-17",
+        "url": "articles/2026-11-17-midday/nvidia-huang-reinstatement-petition.html"
+      }
+    },
+    {
+      "id": "f259b8c991d9d85e6e6926b2f7c05ba5055abcf7ae74e5fcdae8474f8670180d",
+      "kind": "provenance",
+      "at": "2026-11-17T11:32:55.831441+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-deutsche-bank-zdf-leaks-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-17-midday",
+        "article_id": "deutsche-bank-zdf-leaks",
+        "source_story_id": "cyprus-deutsche-bank-zdf-leaks-2026-11-17",
+        "url": "articles/2026-11-17-midday/deutsche-bank-zdf-leaks.html"
       }
     }
   ],
@@ -577,16 +882,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Οι ΗΠΑ επεκτείνουν την απαίτηση άδειας εξαγωγής σε πέντε χώρες για προηγμένα τσιπ. Για προμηθευτές και πελάτες, το κρίσιμο είναι αν ο έλεγχος θα σταματά στον άμεσο αγοραστή ή θα εξετάζει και ποιος χρησιμοποιεί τελικά την υπολογιστική ισχύ. Στην Κύπρο, η πρόταση για κοινές χρεώσεις νερού ανά κυβικό μέτρο αλλάζει τη βάση υπολογισμού για τα νοικοκυριά. Χωρίς τον πίνακα χρεώσεων και τη σύγκρισή του με τα ισχύοντα τιμολόγια ανά επαρχία, δεν ξέρουμε ποιος θα πληρώσει περισσότερο. Τα επόμενα σημεία ελέγχου είναι οι αμερικανικοί όροι αδειοδότησης και η τελική πρόταση του Υπουργικού.",
+        "text": "Μετά τους αμερικανικούς περιορισμούς στα τσιπ, το Πεκίνο απειλεί με αντίμετρα ενόψει της συνάντησης Τραμπ–Σι. Για τους παρόχους υπολογιστικής ισχύος, κρίσιμο είναι αν θα διευκρινιστούν οι όροι για τους τελικούς χρήστες ή αν θα προστεθούν μέτρα. Στην Κύπρο, το ZDF συνδέει τραπεζικές συναλλαγές Ρώσων πελατών με το νησί. Για τις τράπεζες και τους πελάτες τους, το δημοσίευμα ανοίγει ερωτήματα για τους ελέγχους εκείνης της περιόδου. Η αξιολόγηση θα αλλάξει αν δημοσιοποιηθούν συγκεκριμένες συναλλαγές, ημερομηνίες ή νέες ενέργειες των εποπτών.",
         "story_ids": [
           "us-ai-chip-export-licensing-five-countries-2026-11-17",
-          "cyprus-uniform-water-tariffs-proposal-2026-11-17"
+          "cyprus-deutsche-bank-zdf-leaks-2026-11-17"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-17T05:36:46.945514+00:00",
-  "updated_at": "2026-11-17T05:36:46.945514+00:00",
-  "input_sha256": "8372a600eea3dfc9f06b845aab5a5e2ec0223b92be14dc24954d6223f4894302"
+  "updated_at": "2026-11-17T11:35:05.495816+00:00",
+  "input_sha256": "b77165b306789b99449f1b5160023086eaa84edd3a77681dd3f08a95b63a730d"
 }
