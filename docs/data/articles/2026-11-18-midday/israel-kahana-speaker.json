@@ -1,0 +1,79 @@
+{
+  "analysis_sources": [
+    "https://www.aljazeera.com/news/2026/11/17/israel-parliament-elects-gadi-eisenkot-ally-matan-kahana-as-new-speaker?traffic_source=rss"
+  ],
+  "baseline_origin": {
+    "edition_id": "2026-11-18-morning",
+    "fingerprint": "881ce868d7e10ba4ab81a9ba0fa01a3edacd4efd02b445c00b6a92a6db5b7c4f"
+  },
+  "category": "Διεθνή",
+  "change_status": "UNCHANGED",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "driver_tags": [
+    "israel",
+    "parliament",
+    "government"
+  ],
+  "edition_id": "2026-11-18-midday",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Ο Ματάν Καχάνα εξελέγη πρόεδρος της Κνεσέτ με 66 ψήφους",
+  "id": "israel-kahana-speaker",
+  "image": {
+    "alt": "Israel parliament elects Gadi Eisenkot ally Matan Kahana as new speaker",
+    "attribution": "Al Jazeera",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Israel parliament elects Gadi Eisenkot ally Matan Kahana as new speaker · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.aljazeera.com/news/2026/11/17/israel-parliament-elects-gadi-eisenkot-ally-matan-kahana-as-new-speaker?traffic_source=rss",
+    "original_url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26321467242182-1794953286.jpg?resize=1920%2C1440",
+    "retrieved_at": "2026-11-18T04:21:23.673242+00:00",
+    "source_review": {
+      "checked_at": "2026-11-18T04:21:23.673242+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "e5e7aa86cc4999c2",
+      "rights_basis": "publisher-attribution",
+      "sha256": "56cf0ccd4f2651b30d84e824eab0db2c0137e82693a3b52eb4a9acccf4fe8933"
+    },
+    "source_url": "https://www.aljazeera.com/news/2026/11/17/israel-parliament-elects-gadi-eisenkot-ally-matan-kahana-as-new-speaker?traffic_source=rss",
+    "url": "assets/editorial/source/56cf0ccd4f2651b30d84e824eab0db2c0137e82693a3b52eb4a9acccf4fe8933.webp"
+  },
+  "mechanics_and_incentives": "Η εκλογή προέδρου δοκιμάζει αν διαφορετικές κοινοβουλευτικές δυνάμεις μπορούν να ψηφίσουν μαζί. Η συμφωνία για ένα αξίωμα, όμως, δεν απαντά από μόνη της στις διαφωνίες για κυβερνητικό πρόγραμμα.",
+  "published_at": "2026-11-18T05:33:08.219839+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "alternative_case": "Αν υπάρξουν διαφωνίες για το πρόγραμμα, οι 66 ψήφοι δεν εγγυώνται κυβερνητική συνοχή.",
+    "base_case": "Αν διατηρηθεί η συνεργασία, μπορεί να διευκολυνθεί η συμφωνία διακυβέρνησης.",
+    "watch_next": "Επίσημες συμφωνίες συνεργασίας και αν οι κοινοβουλευτικές δυνάμεις στηρίζουν κοινό κυβερνητικό πρόγραμμα."
+  },
+  "second_order_effects": "Ο Αϊζενκότ διαθέτει ένδειξη συνεργασίας μέσα στη Βουλή. Για τους πολίτες, οι δεσμεύσεις ανατροπής πολιτικών του Νετανιάχου εξαρτώνται ακόμη από τον σχηματισμό κυβέρνησης.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Η ισραηλινή Βουλή εξέλεξε την Τρίτη τον Ματάν Καχάνα στην προεδρία της, με 66 ψήφους σε σύνολο 120 εδρών, σύμφωνα με το Al Jazeera. Ο Καχάνα είναι σύμμαχος του Γκάντι Αϊζενκότ, ο οποίος επιχειρεί να σχηματίσει την επόμενη κυβέρνηση. Διαδέχεται τον Αμίρ Οχάνα, σύμμαχο του Μπενιαμίν Νετανιάχου που κατείχε τη θέση από το 2022."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-17T23:28:54+00:00",
+      "publisher": "Al Jazeera",
+      "reporting_group": "Al Jazeera",
+      "retrieved_at": "2026-11-18T04:21:16.485933+00:00",
+      "url": "https://www.aljazeera.com/news/2026/11/17/israel-parliament-elects-gadi-eisenkot-ally-matan-kahana-as-new-speaker?traffic_source=rss",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "israel-kahana-speaker-election-2026-11-17",
+  "story_identity": "israel-kahana-speaker-election-2026-11-17",
+  "summary": "Η ισραηλινή Βουλή εξέλεξε την Τρίτη τον Ματάν Καχάνα στην προεδρία της, με 66 ψήφους σε σύνολο 120 εδρών, σύμφωνα με το Al Jazeera. Ο Καχάνα είναι σύμμαχος του Γκάντι Αϊζενκότ, ο οποίος επιχειρεί να σχηματίσει την επόμενη κυβέρνηση. Διαδέχεται τον Αμίρ Οχάνα, σύμμαχο του Μπενιαμίν Νετανιάχου που κατείχε τη θέση από το 2022.",
+  "updated_at": "2026-11-18T05:33:08.219839+00:00",
+  "url": "articles/2026-11-18-midday/israel-kahana-speaker.html"
+}

@@ -10,13 +10,18 @@
       "type": "morning",
       "url": "morning/2026-11-18.html",
       "published_at": "2026-11-18T05:33:08.219839+00:00"
+    },
+    {
+      "id": "2026-11-18-midday",
+      "type": "midday",
+      "url": "midday/2026-11-18.html",
+      "published_at": "2026-11-18T11:36:00.072956+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "israel-kahana-speaker-election-2026-11-17",
+  "lead_story_id": "mauritius-chagos-legal-action-deadline-2026-11-18",
   "stories": [
     {
       "story_id": "israel-kahana-speaker-election-2026-11-17",
@@ -28,13 +33,40 @@
           "article_id": "israel-kahana-speaker",
           "source_story_id": "israel-kahana-speaker-election-2026-11-17",
           "url": "articles/2026-11-18-morning/israel-kahana-speaker.html"
+        },
+        {
+          "edition_id": "2026-11-18-midday",
+          "article_id": "israel-kahana-speaker",
+          "source_story_id": "israel-kahana-speaker-election-2026-11-17",
+          "url": "articles/2026-11-18-midday/israel-kahana-speaker.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-18-morning",
+        "edition_id": "2026-11-18-midday",
         "article_id": "israel-kahana-speaker",
         "source_story_id": "israel-kahana-speaker-election-2026-11-17",
-        "url": "articles/2026-11-18-morning/israel-kahana-speaker.html"
+        "url": "articles/2026-11-18-midday/israel-kahana-speaker.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "mauritius-chagos-legal-action-deadline-2026-11-18",
+      "first_seen_at": "2026-11-18T11:36:00.072956+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-18-midday",
+          "article_id": "chagos-implementation-deadline",
+          "source_story_id": "mauritius-chagos-legal-action-deadline-2026-11-18",
+          "url": "articles/2026-11-18-midday/chagos-implementation-deadline.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "chagos-implementation-deadline",
+        "source_story_id": "mauritius-chagos-legal-action-deadline-2026-11-18",
+        "url": "articles/2026-11-18-midday/chagos-implementation-deadline.html"
       },
       "section": "world",
       "priority": 1
@@ -49,13 +81,40 @@
           "article_id": "alaska-peltola-senate",
           "source_story_id": "alaska-peltola-senate-victory-2026-11-17",
           "url": "articles/2026-11-18-morning/alaska-peltola-senate.html"
+        },
+        {
+          "edition_id": "2026-11-18-midday",
+          "article_id": "alaska-peltola-senate",
+          "source_story_id": "alaska-peltola-senate-victory-2026-11-17",
+          "url": "articles/2026-11-18-midday/alaska-peltola-senate.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-18-morning",
+        "edition_id": "2026-11-18-midday",
         "article_id": "alaska-peltola-senate",
         "source_story_id": "alaska-peltola-senate-victory-2026-11-17",
-        "url": "articles/2026-11-18-morning/alaska-peltola-senate.html"
+        "url": "articles/2026-11-18-midday/alaska-peltola-senate.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "uk-january-energy-cap-forecast-2026-11-18",
+      "first_seen_at": "2026-11-18T11:36:00.072956+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-18-midday",
+          "article_id": "uk-energy-bills-forecast",
+          "source_story_id": "uk-january-energy-cap-forecast-2026-11-18",
+          "url": "articles/2026-11-18-midday/uk-energy-bills-forecast.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "uk-energy-bills-forecast",
+        "source_story_id": "uk-january-energy-cap-forecast-2026-11-18",
+        "url": "articles/2026-11-18-midday/uk-energy-bills-forecast.html"
       },
       "section": "world",
       "priority": 2
@@ -82,6 +141,54 @@
       "priority": 3
     },
     {
+      "story_id": "us-buchanan-smishing-crypto-sentence-2026-11-18",
+      "first_seen_at": "2026-11-18T11:36:00.072956+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-18-midday",
+          "article_id": "smishing-us-sentence",
+          "source_story_id": "us-buchanan-smishing-crypto-sentence-2026-11-18",
+          "url": "articles/2026-11-18-midday/smishing-us-sentence.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "smishing-us-sentence",
+        "source_story_id": "us-buchanan-smishing-crypto-sentence-2026-11-18",
+        "url": "articles/2026-11-18-midday/smishing-us-sentence.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
+      "first_seen_at": "2026-11-18T05:33:08.219839+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-18-morning",
+          "article_id": "commission-energy-vulnerability",
+          "source_story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
+          "url": "articles/2026-11-18-morning/commission-energy-vulnerability.html"
+        },
+        {
+          "edition_id": "2026-11-18-midday",
+          "article_id": "commission-growth-revision",
+          "source_story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
+          "url": "articles/2026-11-18-midday/commission-growth-revision.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "commission-growth-revision",
+        "source_story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
+        "url": "articles/2026-11-18-midday/commission-growth-revision.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
       "story_id": "nvidia-remote-access-customer-warning-2026-11-17",
       "first_seen_at": "2026-11-18T05:33:08.219839+00:00",
       "last_substantive_at": null,
@@ -103,22 +210,22 @@
       "priority": 4
     },
     {
-      "story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
-      "first_seen_at": "2026-11-18T05:33:08.219839+00:00",
+      "story_id": "peyia-november9-murder-remand-2026-11-18",
+      "first_seen_at": "2026-11-18T11:36:00.072956+00:00",
       "last_substantive_at": null,
       "references": [
         {
-          "edition_id": "2026-11-18-morning",
-          "article_id": "commission-energy-vulnerability",
-          "source_story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
-          "url": "articles/2026-11-18-morning/commission-energy-vulnerability.html"
+          "edition_id": "2026-11-18-midday",
+          "article_id": "peyia-remand-extension",
+          "source_story_id": "peyia-november9-murder-remand-2026-11-18",
+          "url": "articles/2026-11-18-midday/peyia-remand-extension.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-18-morning",
-        "article_id": "commission-energy-vulnerability",
-        "source_story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
-        "url": "articles/2026-11-18-morning/commission-energy-vulnerability.html"
+        "edition_id": "2026-11-18-midday",
+        "article_id": "peyia-remand-extension",
+        "source_story_id": "peyia-november9-murder-remand-2026-11-18",
+        "url": "articles/2026-11-18-midday/peyia-remand-extension.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -133,16 +240,64 @@
           "article_id": "mazotos-desalination-plan",
           "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
           "url": "articles/2026-11-18-morning/mazotos-desalination-plan.html"
+        },
+        {
+          "edition_id": "2026-11-18-midday",
+          "article_id": "mazotos-desalination-plan",
+          "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+          "url": "articles/2026-11-18-midday/mazotos-desalination-plan.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-18-morning",
+        "edition_id": "2026-11-18-midday",
         "article_id": "mazotos-desalination-plan",
         "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
-        "url": "articles/2026-11-18-morning/mazotos-desalination-plan.html"
+        "url": "articles/2026-11-18-midday/mazotos-desalination-plan.html"
       },
       "section": "cyprus",
       "priority": 6
+    },
+    {
+      "story_id": "premier-padel-women-race-2026-11-10",
+      "first_seen_at": "2026-11-18T11:36:00.072956+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-18-midday",
+          "article_id": "premier-padel-women-race",
+          "source_story_id": "premier-padel-women-race-2026-11-10",
+          "url": "articles/2026-11-18-midday/premier-padel-women-race.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "premier-padel-women-race",
+        "source_story_id": "premier-padel-women-race-2026-11-10",
+        "url": "articles/2026-11-18-midday/premier-padel-women-race.html"
+      },
+      "section": "sports",
+      "priority": 6
+    },
+    {
+      "story_id": "atp-finals-zverev-shelton-semifinal-2026-11-17",
+      "first_seen_at": "2026-11-18T11:36:00.072956+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-18-midday",
+          "article_id": "atp-zverev-semifinal",
+          "source_story_id": "atp-finals-zverev-shelton-semifinal-2026-11-17",
+          "url": "articles/2026-11-18-midday/atp-zverev-semifinal.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "atp-zverev-semifinal",
+        "source_story_id": "atp-finals-zverev-shelton-semifinal-2026-11-17",
+        "url": "articles/2026-11-18-midday/atp-zverev-semifinal.html"
+      },
+      "section": "sports",
+      "priority": 7
     },
     {
       "story_id": "limassol-car-fire-investigation-2026-11-18",
@@ -154,13 +309,19 @@
           "article_id": "limassol-car-fire",
           "source_story_id": "limassol-car-fire-investigation-2026-11-18",
           "url": "articles/2026-11-18-morning/limassol-car-fire.html"
+        },
+        {
+          "edition_id": "2026-11-18-midday",
+          "article_id": "limassol-car-fire",
+          "source_story_id": "limassol-car-fire-investigation-2026-11-18",
+          "url": "articles/2026-11-18-midday/limassol-car-fire.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-18-morning",
+        "edition_id": "2026-11-18-midday",
         "article_id": "limassol-car-fire",
         "source_story_id": "limassol-car-fire-investigation-2026-11-18",
-        "url": "articles/2026-11-18-morning/limassol-car-fire.html"
+        "url": "articles/2026-11-18-midday/limassol-car-fire.html"
       },
       "section": "cyprus",
       "priority": 7
@@ -175,15 +336,42 @@
           "article_id": "digital-platform-supervision",
           "source_story_id": "cyprus-adult-platform-supervision-remit-2026-11-18",
           "url": "articles/2026-11-18-morning/digital-platform-supervision.html"
+        },
+        {
+          "edition_id": "2026-11-18-midday",
+          "article_id": "digital-platform-supervision",
+          "source_story_id": "cyprus-adult-platform-supervision-remit-2026-11-18",
+          "url": "articles/2026-11-18-midday/digital-platform-supervision.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-18-morning",
+        "edition_id": "2026-11-18-midday",
         "article_id": "digital-platform-supervision",
         "source_story_id": "cyprus-adult-platform-supervision-remit-2026-11-18",
-        "url": "articles/2026-11-18-morning/digital-platform-supervision.html"
+        "url": "articles/2026-11-18-midday/digital-platform-supervision.html"
       },
       "section": "cyprus",
+      "priority": 8
+    },
+    {
+      "story_id": "fifa-2027-nomination-deadline-2026-11-18",
+      "first_seen_at": "2026-11-18T11:36:00.072956+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-18-midday",
+          "article_id": "fifa-nomination-deadline",
+          "source_story_id": "fifa-2027-nomination-deadline-2026-11-18",
+          "url": "articles/2026-11-18-midday/fifa-nomination-deadline.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "fifa-nomination-deadline",
+        "source_story_id": "fifa-2027-nomination-deadline-2026-11-18",
+        "url": "articles/2026-11-18-midday/fifa-nomination-deadline.html"
+      },
+      "section": "sports",
       "priority": 8
     },
     {
@@ -333,6 +521,188 @@
         "article_id": "mazotos-desalination-plan",
         "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
         "url": "articles/2026-11-18-morning/mazotos-desalination-plan.html"
+      }
+    },
+    {
+      "id": "0c50365f9f6cd2fe707352dfd4f1b75d7b948c25d7373f274442d83ac01088dd",
+      "kind": "provenance",
+      "at": "2026-11-18T11:36:00.072956+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-adult-platform-supervision-remit-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "digital-platform-supervision",
+        "source_story_id": "cyprus-adult-platform-supervision-remit-2026-11-18",
+        "url": "articles/2026-11-18-midday/digital-platform-supervision.html"
+      }
+    },
+    {
+      "id": "1e642d88063fb57c41b46af1b25db54694d0bb2db9a0a5d1f863c82f0456002c",
+      "kind": "provenance",
+      "at": "2026-11-18T11:36:00.072956+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "atp-finals-zverev-shelton-semifinal-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "atp-zverev-semifinal",
+        "source_story_id": "atp-finals-zverev-shelton-semifinal-2026-11-17",
+        "url": "articles/2026-11-18-midday/atp-zverev-semifinal.html"
+      }
+    },
+    {
+      "id": "2f0449fb3a6dc98cb49d070f5b73605894d55839ec3bff25ea50bdd29d4b4352",
+      "kind": "provenance",
+      "at": "2026-11-18T11:36:00.072956+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "alaska-peltola-senate-victory-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "alaska-peltola-senate",
+        "source_story_id": "alaska-peltola-senate-victory-2026-11-17",
+        "url": "articles/2026-11-18-midday/alaska-peltola-senate.html"
+      }
+    },
+    {
+      "id": "420d961ad9bde24d91d18199a9f04c561b03f7401c502d29bc92dbadcf1a8910",
+      "kind": "provenance",
+      "at": "2026-11-18T11:36:00.072956+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "premier-padel-women-race-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "premier-padel-women-race",
+        "source_story_id": "premier-padel-women-race-2026-11-10",
+        "url": "articles/2026-11-18-midday/premier-padel-women-race.html"
+      }
+    },
+    {
+      "id": "5191bed39862278e30eb0cd4ca27cffab4e8bc5e8d88e7b248ea1082efdbaf93",
+      "kind": "provenance",
+      "at": "2026-11-18T11:36:00.072956+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "mauritius-chagos-legal-action-deadline-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "chagos-implementation-deadline",
+        "source_story_id": "mauritius-chagos-legal-action-deadline-2026-11-18",
+        "url": "articles/2026-11-18-midday/chagos-implementation-deadline.html"
+      }
+    },
+    {
+      "id": "7646ce5b1ad13ef1efde1a9aaadc059c6130a9586c0c2fc070c3c8cbf916599e",
+      "kind": "provenance",
+      "at": "2026-11-18T11:36:00.072956+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "fifa-2027-nomination-deadline-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "fifa-nomination-deadline",
+        "source_story_id": "fifa-2027-nomination-deadline-2026-11-18",
+        "url": "articles/2026-11-18-midday/fifa-nomination-deadline.html"
+      }
+    },
+    {
+      "id": "7966d264569f5cde614e4c11a27c26ca803d04785b6511c7f4b6114e925d4d8d",
+      "kind": "provenance",
+      "at": "2026-11-18T11:36:00.072956+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "mazotos-desalination-plan",
+        "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+        "url": "articles/2026-11-18-midday/mazotos-desalination-plan.html"
+      }
+    },
+    {
+      "id": "9d7dfa7de5790000a71b077d2b2dc3b0e034869e7f179ba459212d64911c9474",
+      "kind": "provenance",
+      "at": "2026-11-18T11:36:00.072956+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-january-energy-cap-forecast-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "uk-energy-bills-forecast",
+        "source_story_id": "uk-january-energy-cap-forecast-2026-11-18",
+        "url": "articles/2026-11-18-midday/uk-energy-bills-forecast.html"
+      }
+    },
+    {
+      "id": "a51079bcceb237813194112aa9417a9d88a69bdade0ff628d079d86bd41301ac",
+      "kind": "provenance",
+      "at": "2026-11-18T11:36:00.072956+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-car-fire-investigation-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "limassol-car-fire",
+        "source_story_id": "limassol-car-fire-investigation-2026-11-18",
+        "url": "articles/2026-11-18-midday/limassol-car-fire.html"
+      }
+    },
+    {
+      "id": "bbf3d9f2d562823c5001dea650de4e4e01262f88bc75c73ea2ff70b174f98e25",
+      "kind": "provenance",
+      "at": "2026-11-18T11:36:00.072956+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "peyia-november9-murder-remand-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "peyia-remand-extension",
+        "source_story_id": "peyia-november9-murder-remand-2026-11-18",
+        "url": "articles/2026-11-18-midday/peyia-remand-extension.html"
+      }
+    },
+    {
+      "id": "d81841b75b8d5940a34f72c9f2bcb0013568cac81e4a80d547fdd49dfabe6720",
+      "kind": "provenance",
+      "at": "2026-11-18T11:36:00.072956+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-buchanan-smishing-crypto-sentence-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "smishing-us-sentence",
+        "source_story_id": "us-buchanan-smishing-crypto-sentence-2026-11-18",
+        "url": "articles/2026-11-18-midday/smishing-us-sentence.html"
+      }
+    },
+    {
+      "id": "da4cb7e66fd7825d90fdc32a4d7eccafbb0c7b2423358108efafc1ec7f39acf3",
+      "kind": "provenance",
+      "at": "2026-11-18T11:36:00.072956+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "commission-growth-revision",
+        "source_story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
+        "url": "articles/2026-11-18-midday/commission-growth-revision.html"
+      }
+    },
+    {
+      "id": "ef0cf9b0fb5417898691b08ae77f359f1e422a051e47c25b6684166b8615fbdf",
+      "kind": "provenance",
+      "at": "2026-11-18T11:36:00.072956+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "israel-kahana-speaker-election-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-18-midday",
+        "article_id": "israel-kahana-speaker",
+        "source_story_id": "israel-kahana-speaker-election-2026-11-17",
+        "url": "articles/2026-11-18-midday/israel-kahana-speaker.html"
       }
     }
   ],
@@ -542,9 +912,9 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η εκλογή του Ματάν Καχάνα στην προεδρία της Κνεσέτ δίνει ένα μετρήσιμο κοινοβουλευτικό αποτέλεσμα στο μπλοκ Αϊζενκότ: 66 ψήφους. Για τον σχηματισμό κυβέρνησης, το επόμενο τεστ είναι αν η ίδια στήριξη μετατρέπεται σε συμφωνία διακυβέρνησης. Στην Κύπρο, οι προβλέψεις της Κομισιόν αναδεικνύουν πόσο εκτεθειμένα παραμένουν νοικοκυριά και επιχειρήσεις στις διεθνείς τιμές ενέργειας. Η προσομοίωση δείχνει ευαισθησία σε νέο σοκ, όχι ότι αυτό έχει ήδη συμβεί. Η πορεία του ενεργειακού κόστους και των τιμών καταναλωτή θα δείξει αν επιβεβαιώνεται η αναμενόμενη αποκλιμάκωση του πληθωρισμού το 2027.",
+        "text": "Ο Μαυρίκιος θέτει προθεσμία έως τον Δεκέμβριο για λύση στη διαφορά των Τσάγκος, ενώ εκκρεμεί η βρετανική νομοθεσία εφαρμογής της συμφωνίας. Για τις δύο κυβερνήσεις, το επόμενο τεστ είναι η μετατροπή της συμφωνίας σε εφαρμόσιμες δεσμεύσεις. Στην Κύπρο, ο υπουργός Οικονομικών προβάλλει την αναβάθμιση των προβλέψεων ανάπτυξης. Η ισχυρότερη συνολική επίδοση δεν αναιρεί την ενεργειακή ευπάθεια που καταγράφηκε το πρωί: η εξέλιξη των πραγματικών εισοδημάτων θα κριθεί και από τις τιμές. Οι προβλέψεις ανάπτυξης και πληθωρισμού περιγράφουν διαφορετικές όψεις της ίδιας οικονομίας.",
         "story_ids": [
-          "israel-kahana-speaker-election-2026-11-17",
+          "mauritius-chagos-legal-action-deadline-2026-11-18",
           "cyprus-commission-energy-vulnerability-2026-11-18"
         ]
       }
@@ -552,6 +922,6 @@
   },
   "follow_ups": [],
   "created_at": "2026-11-18T05:35:32.032661+00:00",
-  "updated_at": "2026-11-18T05:35:32.032661+00:00",
-  "input_sha256": "420fbbaca293b0697871b398186cbfee279ff0d169fca830ab7af76001ec2b5c"
+  "updated_at": "2026-11-18T11:39:33.739184+00:00",
+  "input_sha256": "83e797dc81d2c03fba5833b991053860be3c32c2031535bdc8b0bf6c6eb066ea"
 }
