@@ -769,6 +769,14 @@
       "published_at": "2026-11-17T05:34:42.022596+00:00",
       "url": "morning/2026-11-17.html",
       "fingerprint": "abf7a27fe1b71c5f7d8cfeac8cdb651c31f8cd8ea13140adef03a729680136fa"
+    },
+    {
+      "id": "2026-11-18-morning",
+      "date": "2026-11-18",
+      "type": "morning",
+      "published_at": "2026-11-18T05:33:08.219839+00:00",
+      "url": "morning/2026-11-18.html",
+      "fingerprint": "881ce868d7e10ba4ab81a9ba0fa01a3edacd4efd02b445c00b6a92a6db5b7c4f"
     }
   ],
   "stories": [
@@ -29296,6 +29304,257 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/82f1eca6e011653336f5c7ca0a15c79a72cedb3e91531f7d1333a6468ac45de5.webp"
+    },
+    {
+      "story_id": "israel-kahana-speaker-election-2026-11-17",
+      "identity": "israel-kahana-speaker-election-2026-11-17",
+      "edition_id": "2026-11-18-morning",
+      "date": "2026-11-18",
+      "slot": "morning",
+      "published_at": "2026-11-18T05:33:08.219839+00:00",
+      "available_at": "2026-11-18T05:33:08.219839+00:00",
+      "headline": "Ο Ματάν Καχάνα εξελέγη πρόεδρος της Κνεσέτ με 66 ψήφους",
+      "finding": "Η ισραηλινή Βουλή εξέλεξε την Τρίτη τον Ματάν Καχάνα στην προεδρία της, με 66 ψήφους σε σύνολο 120 εδρών, σύμφωνα με το Al Jazeera. Ο Καχάνα είναι σύμμαχος του Γκάντι Αϊζενκότ, ο οποίος επιχειρεί να σχηματίσει την επόμενη κυβέρνηση. Διαδέχεται τον Αμίρ Οχάνα, σύμμαχο του Μπενιαμίν Νετανιάχου που κατείχε τη θέση από το 2022.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-18-morning/israel-kahana-speaker.json",
+      "reader_url": "articles/2026-11-18-morning/israel-kahana-speaker.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/17/israel-parliament-elects-gadi-eisenkot-ally-matan-kahana-as-new-speaker?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-17T23:28:54+00:00",
+          "retrieved_at": "2026-11-18T04:21:16.485933+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/56cf0ccd4f2651b30d84e824eab0db2c0137e82693a3b52eb4a9acccf4fe8933.webp"
+    },
+    {
+      "story_id": "alaska-peltola-senate-victory-2026-11-17",
+      "identity": "alaska-peltola-senate-victory-2026-11-17",
+      "edition_id": "2026-11-18-morning",
+      "date": "2026-11-18",
+      "slot": "morning",
+      "published_at": "2026-11-18T05:33:08.219839+00:00",
+      "available_at": "2026-11-18T05:33:08.219839+00:00",
+      "headline": "Η νίκη της Πελτόλα στην Αλάσκα ανεβάζει τους Δημοκρατικούς στις 56 έδρες",
+      "finding": "Το Associated Press ανακήρυξε την Τρίτη νικήτρια των εκλογών για τη Γερουσία στην Αλάσκα τη Δημοκρατική Μέρι Πελτόλα, σύμφωνα με το CNBC. Η έκβαση δίνει στο κόμμα 56 έδρες από τον Ιανουάριο. Η ανακήρυξη έγινε δύο εβδομάδες μετά την ημέρα των εκλογών. Οι εκλεγμένοι γερουσιαστές αναλαμβάνουν με την έναρξη της νέας περιόδου, όχι με την ανακοίνωση του αποτελέσματος.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-18-morning/alaska-peltola-senate.json",
+      "reader_url": "articles/2026-11-18-morning/alaska-peltola-senate.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/18/alaska-senate-mary-peltola-wins-election.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-18T03:26:29+00:00",
+          "retrieved_at": "2026-11-18T04:21:17.084887+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/92cf1095135fde225925e7bcec110097cc914ac54b0267de0f02bec99b0de0f4.webp"
+    },
+    {
+      "story_id": "openjdk-java4shell-disclosure-2026-11-17",
+      "identity": "openjdk-java4shell-disclosure-2026-11-17",
+      "edition_id": "2026-11-18-morning",
+      "date": "2026-11-18",
+      "slot": "morning",
+      "published_at": "2026-11-18T05:33:08.219839+00:00",
+      "available_at": "2026-11-18T05:33:08.219839+00:00",
+      "headline": "Κρίσιμη ευπάθεια στο OpenJDK μπορεί να επιτρέψει απομακρυσμένη εκτέλεση κώδικα",
+      "finding": "Το BleepingComputer αναφέρει κρίσιμη ευπάθεια στο OpenJDK, με αναγνωριστικό CVE-2026-114938 και ονομασία Java4Shell. Το πρόβλημα αφορά την επιταχυνόμενη από το υλικό αποκωδικοποίηση Base64 και μπορεί να οδηγήσει σε αποκάλυψη δεδομένων μνήμης ή απομακρυσμένη εκτέλεση κώδικα χωρίς πιστοποίηση. Το ρεπορτάζ αναφέρει εφαρμογές όπως Jenkins και Jira. Το απόσπασμα δεν παρέχει πλήρη κατάλογο επηρεαζόμενων εκδόσεων ή επιβεβαίωση ενεργής εκμετάλλευσης.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-18-morning/java4shell-warning.json",
+      "reader_url": "articles/2026-11-18-morning/java4shell-warning.html",
+      "sources": [
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications",
+          "publisher": "BleepingComputer",
+          "reporting_group": "BleepingComputer",
+          "published_at": "2026-11-17T23:04:21+00:00",
+          "retrieved_at": "2026-11-18T04:21:16.925735+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/9ea64806fe519af7e98aa0162085b02ad02c7e73e3799be1ae5bcf60e0d9b28f.webp"
+    },
+    {
+      "story_id": "nvidia-remote-access-customer-warning-2026-11-17",
+      "identity": "nvidia-remote-access-customer-warning-2026-11-17",
+      "edition_id": "2026-11-18-morning",
+      "date": "2026-11-18",
+      "slot": "morning",
+      "published_at": "2026-11-18T05:33:08.219839+00:00",
+      "available_at": "2026-11-18T05:33:08.219839+00:00",
+      "headline": "Προειδοποιήσεις της Nvidia προς πελάτες για κινεζική πρόσβαση μέσω κέντρων δεδομένων",
+      "finding": "Πηγές του CNBC αναφέρουν ότι η Nvidia προειδοποίησε πελάτες για πιθανό νομικό κίνδυνο από προτεινόμενη αμερικανική νομοθεσία για απομακρυσμένη πρόσβαση κινεζικών εταιρειών στα τσιπ της. Το δημοσίευμα της 17ης Νοεμβρίου αναφέρει επίσης εταιρικούς περιορισμούς για πελάτες που εκμισθώνουν πάνω από το μισό δυναμικό GPU σε κινεζικές εταιρείες. Οι προειδοποιήσεις είχαν σταλεί τους προηγούμενους μήνες· δεν ανακοινώνεται νέος νόμος.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-18-morning/nvidia-customer-access-warning.json",
+      "reader_url": "articles/2026-11-18-morning/nvidia-customer-access-warning.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-17T07:07:35+00:00",
+          "retrieved_at": "2026-11-18T04:21:16.803326+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/88ff7d0002a269eeb242fc02b49cb34fcd5d377ae1202303d3caa2489861b63d.webp"
+    },
+    {
+      "story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
+      "identity": "cyprus-commission-energy-vulnerability-2026-11-18",
+      "edition_id": "2026-11-18-morning",
+      "date": "2026-11-18",
+      "slot": "morning",
+      "published_at": "2026-11-18T05:33:08.219839+00:00",
+      "available_at": "2026-11-18T05:33:08.219839+00:00",
+      "headline": "Η ενεργειακή εξάρτηση αφήνει την Κύπρο ευάλωτη στην ακρίβεια",
+      "finding": "Οι φθινοπωρινές προβλέψεις της Κομισιόν κατατάσσουν την Κύπρο στις έξι οικονομίες της ΕΕ με τη μεγαλύτερη ευαισθησία σε ενεργειακές ανατιμήσεις, σύμφωνα με τον Φιλελεύθερο. Η εκτίμηση αποδίδεται στην εξάρτηση από εισαγόμενα ορυκτά καύσιμα. Το δημοσίευμα μεταφέρει πρόβλεψη πληθωρισμού 3,9% για το 2026 και 2,9% για το 2027. Η αποκλιμάκωση αποτελεί πρόβλεψη και όχι ήδη καταγεγραμμένο αποτέλεσμα.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-18-morning/commission-energy-vulnerability.json",
+      "reader_url": "articles/2026-11-18-morning/commission-energy-vulnerability.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1797091/komision-achillios-pterna-to-kostos-tis-energias-pou-xechorizi-ke-pou-pona-i-kipriaki-ikonomia-stasimi-i-misthi-to-26",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-18T04:11:00+00:00",
+          "retrieved_at": "2026-11-18T04:21:17.330357+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/2e78a4b6d06de3991c78d3654d905130ae275abfed16f72249d2cf9f9fb14573.webp"
+    },
+    {
+      "story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+      "identity": "mazotos-mobile-desalination-timetable-2026-11-18",
+      "edition_id": "2026-11-18-morning",
+      "date": "2026-11-18",
+      "slot": "morning",
+      "published_at": "2026-11-18T05:33:08.219839+00:00",
+      "available_at": "2026-11-18T05:33:08.219839+00:00",
+      "headline": "Συνεχίζεται ο σχεδιασμός της αφαλάτωσης στον Μαζωτό παρά τις διαμαρτυρίες",
+      "finding": "Το κράτος προχωρά στον σχεδιασμό κινητής μονάδας αφαλάτωσης στον Μαζωτό, παρά τις αντιδράσεις κατοίκων για τις εργασίες πρόσβασης, σύμφωνα με τον Φιλελεύθερο. Η συμφωνία με τον ανάδοχο αναμένεται εντός του επόμενου μήνα και οι εργασίες στις αρχές του 2027. Η μονάδα σχεδιάζεται για 40.000 κυβικά μέτρα ημερησίως και αναμένεται να ολοκληρωθεί το φθινόπωρο του 2027.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-18-morning/mazotos-desalination-plan.json",
+      "reader_url": "articles/2026-11-18-morning/mazotos-desalination-plan.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1797054/kanonika-i-schediasmi-gia-tin-afalatosi-ston-mazoto-arches-tou-2027-xekina-i-dimiourgia-tis-sinechizoun-na-diamartironte-i-katiki",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-18T04:20:00+00:00",
+          "retrieved_at": "2026-11-18T04:21:17.300490+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f40b3b8a9056a31fd55b1086d5503d3e63692f68b737ca224baba281d8ceecaa.webp"
+    },
+    {
+      "story_id": "limassol-car-fire-investigation-2026-11-18",
+      "identity": "limassol-car-fire-investigation-2026-11-18",
+      "edition_id": "2026-11-18-morning",
+      "date": "2026-11-18",
+      "slot": "morning",
+      "published_at": "2026-11-18T05:33:08.219839+00:00",
+      "available_at": "2026-11-18T05:33:08.219839+00:00",
+      "headline": "Καταστράφηκε αυτοκίνητο από φωτιά τα ξημερώματα στη Λεμεσό",
+      "finding": "Αυτοκίνητο ιδιοκτησίας 45χρονου καταστράφηκε ολοσχερώς από φωτιά γύρω στη 01:10 σήμερα, ενώ ήταν σταθμευμένο σε ανοικτό χώρο στη Λεμεσό. Η Πυροσβεστική κατέσβησε τη φωτιά και το ΤΑΕ Λεμεσού συνεχίζει τις εξετάσεις, σύμφωνα με το SigmaLive και τον Φιλελεύθερο. Τα αίτια θα διερευνηθούν σήμερα. Τα δύο δημοσιεύματα περιγράφουν το ίδιο περιστατικό και δεν τεκμηριώνουν εμπρησμό.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-18-morning/limassol-car-fire.json",
+      "reader_url": "articles/2026-11-18-morning/limassol-car-fire.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1338061/lemesos-fotia-se-autokinito-45khronoy",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-18T04:18:47+00:00",
+          "retrieved_at": "2026-11-18T04:21:17.356526+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.philenews.com/kipros/astinomika/article/1797109/stis-floges-ochima-45chronou-sti-lemeso-katastrafike-oloscheros-erevnes-apo-tin-astinomia",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-18T04:19:55+00:00",
+          "retrieved_at": "2026-11-18T04:21:20.624157+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/070f59256b5b075fc2b84521f9950be477d148783449a3ba7aca22fc420be793.webp"
+    },
+    {
+      "story_id": "cyprus-adult-platform-supervision-remit-2026-11-18",
+      "identity": "cyprus-adult-platform-supervision-remit-2026-11-18",
+      "edition_id": "2026-11-18-morning",
+      "date": "2026-11-18",
+      "slot": "morning",
+      "published_at": "2026-11-18T05:33:08.219839+00:00",
+      "available_at": "2026-11-18T05:33:08.219839+00:00",
+      "headline": "Η κυπριακή αρχή διευκρινίζει τα όρια εποπτείας πλατφορμών ενηλίκων",
+      "finding": "Η κυπριακή αρχή ψηφιακών υπηρεσιών δηλώνει ότι το Pornhub δεν υπάγεται στην εποπτεία της, παρότι ο διαχειριστής του είναι εγγεγραμμένος στην Κύπρο, σύμφωνα με το Cyprus Mail. Η αρχή αναφέρει επίσης ότι δεν έχει επιβάλει πρόστιμα στις πλατφόρμες ενηλίκων της δικής της αρμοδιότητας. Η εγγραφή μιας εταιρείας στο νησί δεν αρκεί, συνεπώς, για να προσδιοριστεί ποιος επόπτης είναι αρμόδιος.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-11-18-morning/digital-platform-supervision.json",
+      "reader_url": "articles/2026-11-18-morning/digital-platform-supervision.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/18/pornhub-beyond-reach-of-cyprus-digital-authority-to-regulate",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-18T02:24:00+00:00",
+          "retrieved_at": "2026-11-18T04:21:17.154914+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/911920a49c1c3b8cb76286ab920d71d405201517b7c95ea76f40810b42ea9be1.webp"
+    },
+    {
+      "story_id": "isl-all-star-december-return-2026-11-17",
+      "identity": "isl-all-star-december-return-2026-11-17",
+      "edition_id": "2026-11-18-morning",
+      "date": "2026-11-18",
+      "slot": "morning",
+      "published_at": "2026-11-18T05:33:08.219839+00:00",
+      "available_at": "2026-11-18T05:33:08.219839+00:00",
+      "headline": "Η ISL επιστρέφει τον Δεκέμβριο με εκκρεμείς παλιές οφειλές",
+      "finding": "Η International Swimming League επιστρέφει στις 19 Δεκεμβρίου στο Λονδίνο με 96 κολυμβητές και 46 κούρσες σε δύο ώρες, σύμφωνα με το BBC.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-18-morning/isl-december-return.json",
+      "reader_url": "articles/2026-11-18-morning/isl-december-return.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/swimming/articles/ck1wvzryg015o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-17T17:17:18+00:00",
+          "retrieved_at": "2026-11-18T04:21:16.684061+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/16b638539f18a0e4abac27d2b05363d1fab91c8e879fa47288fa8acbe5190036.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."

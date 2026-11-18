@@ -1,0 +1,67 @@
+{
+  "analysis_sources": [],
+  "category": "Διεθνή",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 4,
+    "section": "world"
+  },
+  "delta_update": "Το ρεπορτάζ διακρίνει την προτεινόμενη νομοθεσία από όρους που η εταιρεία γνωστοποίησε στους πελάτες.",
+  "driver_tags": [
+    "technology",
+    "finance",
+    "semiconductors"
+  ],
+  "edition_id": "2026-11-18-morning",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Προειδοποιήσεις της Nvidia προς πελάτες για κινεζική πρόσβαση μέσω κέντρων δεδομένων",
+  "id": "nvidia-customer-access-warning",
+  "image": {
+    "alt": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+    "attribution": "CNBC",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+    "original_url": "https://image.cnbcfm.com/api/v1/image/108551696-1794795719884-gettyimages-2304259055-nokings-sf1017.jpeg?v=1794840889&w=1200&h=675",
+    "retrieved_at": "2026-11-17T10:21:13.806191+00:00",
+    "source_review": {
+      "checked_at": "2026-11-17T10:21:13.806191+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "cc6c84d4d0d47428",
+      "rights_basis": "publisher-attribution",
+      "sha256": "88ff7d0002a269eeb242fc02b49cb34fcd5d377ae1202303d3caa2489861b63d"
+    },
+    "source_url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+    "url": "assets/editorial/source/88ff7d0002a269eeb242fc02b49cb34fcd5d377ae1202303d3caa2489861b63d.webp"
+  },
+  "published_at": "2026-11-18T05:33:08.219839+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Πηγές του CNBC αναφέρουν ότι η Nvidia προειδοποίησε πελάτες για πιθανό νομικό κίνδυνο από προτεινόμενη αμερικανική νομοθεσία για απομακρυσμένη πρόσβαση κινεζικών εταιρειών στα τσιπ της. Το δημοσίευμα της 17ης Νοεμβρίου αναφέρει επίσης εταιρικούς περιορισμούς για πελάτες που εκμισθώνουν πάνω από το μισό δυναμικό GPU σε κινεζικές εταιρείες. Οι προειδοποιήσεις είχαν σταλεί τους προηγούμενους μήνες· δεν ανακοινώνεται νέος νόμος."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-17T07:07:35+00:00",
+      "publisher": "CNBC",
+      "reporting_group": "CNBC",
+      "retrieved_at": "2026-11-18T04:21:16.803326+00:00",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "nvidia-remote-access-customer-warning-2026-11-17",
+  "story_identity": "nvidia-remote-access-customer-warning-2026-11-17",
+  "summary": "Πηγές του CNBC αναφέρουν ότι η Nvidia προειδοποίησε πελάτες για πιθανό νομικό κίνδυνο από προτεινόμενη αμερικανική νομοθεσία για απομακρυσμένη πρόσβαση κινεζικών εταιρειών στα τσιπ της. Το δημοσίευμα της 17ης Νοεμβρίου αναφέρει επίσης εταιρικούς περιορισμούς για πελάτες που εκμισθώνουν πάνω από το μισό δυναμικό GPU σε κινεζικές εταιρείες. Οι προειδοποιήσεις είχαν σταλεί τους προηγούμενους μήνες· δεν ανακοινώνεται νέος νόμος.",
+  "updated_at": "2026-11-18T05:33:08.219839+00:00",
+  "url": "articles/2026-11-18-morning/nvidia-customer-access-warning.html"
+}
