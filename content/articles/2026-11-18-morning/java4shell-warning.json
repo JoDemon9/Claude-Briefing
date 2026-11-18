@@ -1,0 +1,72 @@
+{
+  "analysis_sources": [
+    "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications"
+  ],
+  "category": "Διεθνή",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 3,
+    "section": "world"
+  },
+  "delta_update": "Δημοσιοποιείται συγκεκριμένο πρόβλημα στον μηχανισμό αποκωδικοποίησης της Java.",
+  "driver_tags": [
+    "technology",
+    "cybersecurity",
+    "software"
+  ],
+  "edition_id": "2026-11-18-morning",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Κρίσιμη ευπάθεια στο OpenJDK μπορεί να επιτρέψει απομακρυσμένη εκτέλεση κώδικα",
+  "id": "java4shell-warning",
+  "image": {
+    "alt": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+    "attribution": "BleepingComputer",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Critical Java4Shell flaw allows RCE attacks on major Java applications · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications",
+    "original_url": "https://www.bleepstatic.com/content/hl-images/2026/11/17/java4shell-header.jpg",
+    "retrieved_at": "2026-11-18T04:21:23.801417+00:00",
+    "source_review": {
+      "checked_at": "2026-11-18T04:21:23.801417+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "56f072323297951f",
+      "rights_basis": "publisher-attribution",
+      "sha256": "9ea64806fe519af7e98aa0162085b02ad02c7e73e3799be1ae5bcf60e0d9b28f"
+    },
+    "source_url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications",
+    "url": "assets/editorial/source/9ea64806fe519af7e98aa0162085b02ad02c7e73e3799be1ae5bcf60e0d9b28f.webp"
+  },
+  "newspaper_analysis": [
+    "Για τους διαχειριστές, προέχει η αντιστοίχιση των εγκατεστημένων εκδόσεων με τις επίσημες ανακοινώσεις πριν εκτιμηθεί η έκθεση κάθε εφαρμογής."
+  ],
+  "published_at": "2026-11-18T05:33:08.219839+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Το BleepingComputer αναφέρει κρίσιμη ευπάθεια στο OpenJDK, με αναγνωριστικό CVE-2026-114938 και ονομασία Java4Shell. Το πρόβλημα αφορά την επιταχυνόμενη από το υλικό αποκωδικοποίηση Base64 και μπορεί να οδηγήσει σε αποκάλυψη δεδομένων μνήμης ή απομακρυσμένη εκτέλεση κώδικα χωρίς πιστοποίηση. Το ρεπορτάζ αναφέρει εφαρμογές όπως Jenkins και Jira. Το απόσπασμα δεν παρέχει πλήρη κατάλογο επηρεαζόμενων εκδόσεων ή επιβεβαίωση ενεργής εκμετάλλευσης."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-17T23:04:21+00:00",
+      "publisher": "BleepingComputer",
+      "reporting_group": "BleepingComputer",
+      "retrieved_at": "2026-11-18T04:21:16.925735+00:00",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "openjdk-java4shell-disclosure-2026-11-17",
+  "story_identity": "openjdk-java4shell-disclosure-2026-11-17",
+  "summary": "Το BleepingComputer αναφέρει κρίσιμη ευπάθεια στο OpenJDK, με αναγνωριστικό CVE-2026-114938 και ονομασία Java4Shell. Το πρόβλημα αφορά την επιταχυνόμενη από το υλικό αποκωδικοποίηση Base64 και μπορεί να οδηγήσει σε αποκάλυψη δεδομένων μνήμης ή απομακρυσμένη εκτέλεση κώδικα χωρίς πιστοποίηση. Το ρεπορτάζ αναφέρει εφαρμογές όπως Jenkins και Jira. Το απόσπασμα δεν παρέχει πλήρη κατάλογο επηρεαζόμενων εκδόσεων ή επιβεβαίωση ενεργής εκμετάλλευσης.",
+  "updated_at": "2026-11-18T05:33:08.219839+00:00",
+  "url": "articles/2026-11-18-morning/java4shell-warning.html"
+}
