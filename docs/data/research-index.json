@@ -771,6 +771,14 @@
       "fingerprint": "abf7a27fe1b71c5f7d8cfeac8cdb651c31f8cd8ea13140adef03a729680136fa"
     },
     {
+      "id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "type": "evening",
+      "published_at": "2026-11-18T17:30:13.506056+00:00",
+      "url": "evening/2026-11-18.html",
+      "fingerprint": "7f3999f43fc64d373bd2913d7e00f0555e30d4ae9a63298dfc3d6e0bc5e0398b"
+    },
+    {
       "id": "2026-11-18-midday",
       "date": "2026-11-18",
       "type": "midday",
@@ -29312,6 +29320,365 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/82f1eca6e011653336f5c7ca0a15c79a72cedb3e91531f7d1333a6468ac45de5.webp"
+    },
+    {
+      "story_id": "gaza-salahuddin-tank-incursion-reports-2026-11-18",
+      "identity": "gaza-salahuddin-tank-incursion-reports-2026-11-18",
+      "edition_id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "slot": "evening",
+      "published_at": "2026-11-18T17:30:13.506056+00:00",
+      "available_at": "2026-11-18T17:30:13.506056+00:00",
+      "headline": "Μαρτυρίες για ισραηλινά άρματα δυτικά της Κίτρινης Γραμμής στη Γάζα",
+      "finding": "Αυτόπτες μάρτυρες ανέφεραν ισραηλινά άρματα στην οδό Σαλαχουντίν, δυτικά της Κίτρινης Γραμμής, σύμφωνα με το SigmaLive. Κάτοικοι περιγράφουν την κίνηση ως την πρώτη χερσαία επιδρομή μετά την κατάπαυση πυρός του 2025. Παλαιστίνιοι υγειονομικοί αναφέρουν έναν νεκρό από αεροπορικό πλήγμα κοντά στο σημείο. Το απόσπασμα δεν περιλαμβάνει ισραηλινή εξήγηση για την επιχείρηση ούτε ανεξάρτητη αποτίμηση της έκτασής της.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-18-evening/gaza-incursion-reports.json",
+      "reader_url": "articles/2026-11-18-evening/gaza-incursion-reports.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/international/1338205/lorida-tis-gazas-prwti-khersaia-epikhirisi-toy-israil-meta-tin-ekekheiria",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-18T15:51:29+00:00",
+          "retrieved_at": "2026-11-18T16:21:41.234909+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0df7d27ccb28d5e495b0b6987ae2adcad9dda1176d28718379a1b82852560cf3.webp"
+    },
+    {
+      "story_id": "mossad-us-iran-strikes-lobbying-report-2026-11-18",
+      "identity": "mossad-us-iran-strikes-lobbying-report-2026-11-18",
+      "edition_id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "slot": "evening",
+      "published_at": "2026-11-18T17:30:13.506056+00:00",
+      "available_at": "2026-11-18T17:30:13.506056+00:00",
+      "headline": "Πηγές αναφέρουν ισραηλινή πίεση για κοινά πλήγματα κατά του Ιράν",
+      "finding": "Ο επικεφαλής της Μοσάντ Ρομάν Γκόφμαν υποστήριξε κοινά αμερικανοϊσραηλινά πλήγματα κατά του Ιράν σε επαφές στην Ουάσιγκτον την περασμένη εβδομάδα, μεταδίδει το Cyprus Mail επικαλούμενο δύο πρόσωπα ενημερωμένα για την επίσκεψη. Η επίσκεψη ακολούθησε τη δήλωση Τραμπ στις 9 Νοεμβρίου ότι θα ανέβαλλε πλήγματα μετά από συνάντηση με τον πρωθυπουργό του Κατάρ. Δεν τεκμηριώνεται απόφαση επίθεσης.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-18-evening/mossad-iran-us-visit.json",
+      "reader_url": "articles/2026-11-18-evening/mossad-iran-us-visit.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/18/israeli-spy-chief-lobbied-for-joint-iran-strikes-on-us-visit",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-18T15:49:09+00:00",
+          "retrieved_at": "2026-11-18T16:21:42.060479+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/bb4bd78dd1322711fc00413417f670e81831b0dd0391e60325ee1c2f28b247bd.webp"
+    },
+    {
+      "story_id": "apache-roller-exploited-flaw-updates-2026-11-18",
+      "identity": "apache-roller-exploited-flaw-updates-2026-11-18",
+      "edition_id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "slot": "evening",
+      "published_at": "2026-11-18T17:30:13.506056+00:00",
+      "available_at": "2026-11-18T17:30:13.506056+00:00",
+      "headline": "Η Apache προειδοποιεί για ενεργή εκμετάλλευση ευπάθειας στο Roller",
+      "finding": "Η Apache διέθεσε ενημερώσεις ασφαλείας για κρίσιμη ευπάθεια στο Roller, την οποία επιτιθέμενοι χρησιμοποιούν για εκτέλεση κώδικα σε ευάλωτους διακομιστές, σύμφωνα με το BleepingComputer. Το νέο αναγνωριστικό CVE-2026-129448 αφορά την ίδια ευπάθεια με το CVE-2026-82384, όπου είχε καταγραφεί μόνο η έκδοση 6.1.5 ως επηρεαζόμενη. Η προειδοποίηση αφορά συγκεκριμένα το Roller, όχι όλα τα προϊόντα Apache.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-18-evening/apache-roller-active-exploitation.json",
+      "reader_url": "articles/2026-11-18-evening/apache-roller-active-exploitation.html",
+      "sources": [
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks",
+          "publisher": "BleepingComputer",
+          "reporting_group": "BleepingComputer",
+          "published_at": "2026-11-18T10:35:05+00:00",
+          "retrieved_at": "2026-11-18T16:21:40.524178+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/1af49e3fa45f093233b3bd9eb032e9abbebcfc68be3be37c9f7cdce8d2c3e283.webp"
+    },
+    {
+      "story_id": "cyprus-schengen-july-target-mitsotakis-2026-11-18",
+      "identity": "cyprus-schengen-july-target-mitsotakis-2026-11-18",
+      "edition_id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "slot": "evening",
+      "published_at": "2026-11-18T17:30:13.506056+00:00",
+      "available_at": "2026-11-18T17:30:13.506056+00:00",
+      "headline": "Την 1η Ιουλίου 2027 ως προσδοκώμενη ημερομηνία Σένγκεν αναφέρει ο Μητσοτάκης",
+      "finding": "Ο Κυριάκος Μητσοτάκης δήλωσε ότι προσβλέπει στην επίσημη ένταξη της Κύπρου στη Σένγκεν την 1η Ιουλίου του επόμενου έτους, σύμφωνα με το Cyprus Mail. Η τοποθέτηση ακολουθεί αντίστοιχες δηλώσεις του Νίκου Χριστοδουλίδη την προηγούμενη εβδομάδα. Το διαθέσιμο απόσπασμα καταγράφει πολιτική προσδοκία και ημερομηνία στόχου, χωρίς να περιλαμβάνει το κείμενο επίσημης απόφασης ένταξης ή τους όρους εφαρμογής της.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-18-evening/schengen-july-target.json",
+      "reader_url": "articles/2026-11-18-evening/schengen-july-target.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/18/mitsotakis-cyprus-will-join-schengen-zone-on-july-1",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-18T16:08:52+00:00",
+          "retrieved_at": "2026-11-18T16:21:40.817998+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/69563d5a1646aa9073caa508a235f6362520342231c235d68984abe7731b1bc2.webp"
+    },
+    {
+      "story_id": "cyprus-greece-police-coastguard-training-intentions-2026-11-18",
+      "identity": "cyprus-greece-police-coastguard-training-intentions-2026-11-18",
+      "edition_id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "slot": "evening",
+      "published_at": "2026-11-18T17:30:13.506056+00:00",
+      "available_at": "2026-11-18T17:30:13.506056+00:00",
+      "headline": "Δηλώσεις προθέσεων Κύπρου–Ελλάδας για εκπαίδευση αστυνομικών και ακτοφυλάκων",
+      "finding": "Κύπρος και Ελλάδα υπέγραψαν δύο Δηλώσεις Προθέσεων για εκπαίδευση προσωπικού της Αστυνομίας Κύπρου και της υπό συγκρότηση Ακτοφυλακής, σύμφωνα με το SigmaLive. Η πρώτη αφορά φοίτηση υπηρετούντων αστυνομικών στη Σχολή Αξιωματικών της Ελληνικής Αστυνομίας. Στόχος είναι η έναρξη το εκπαιδευτικό έτος 2027–2028, αφού ολοκληρωθούν οι προβλεπόμενες διαδικασίες. Δεν ανακοινώνεται στο απόσπασμα ήδη λειτουργούν πρόγραμμα φοίτησης.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-18-evening/police-coastguard-training.json",
+      "reader_url": "articles/2026-11-18-evening/police-coastguard-training.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1338208/kypros-ellada-simfonies-ghia-ekpaidefsi-astinomias-kai-aktofilakis",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-18T16:06:09+00:00",
+          "retrieved_at": "2026-11-18T16:21:41.289676+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/14c4776630fe435394e17f37ba77ba7dc405035345e80ab88933151645985cf7.webp"
+    },
+    {
+      "story_id": "pasyki-okypy-management-vacancies-2026-11-18",
+      "identity": "pasyki-okypy-management-vacancies-2026-11-18",
+      "edition_id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "slot": "evening",
+      "published_at": "2026-11-18T17:30:13.506056+00:00",
+      "available_at": "2026-11-18T17:30:13.506056+00:00",
+      "headline": "Η ΠΑΣΥΚΙ καταγγέλλει κενές διευθυντικές θέσεις στον ΟΚΥπΥ",
+      "finding": "Η ΠΑΣΥΚΙ κατηγορεί το διοικητικό συμβούλιο του ΟΚΥπΥ για παρατεταμένες καθυστερήσεις στην πλήρωση διοικητικών θέσεων, μεταδίδει το Cyprus Mail. Η συντεχνία αναφέρει ότι παραμένουν κενές τρεις θέσεις οικονομικών διευθυντών και ότι η διεύθυνση ψυχιατρικών υπηρεσιών καλύπτεται με πρόσθετα καθήκοντα. Οι ισχυρισμοί αποδίδονται στη συντεχνία· το απόσπασμα δεν περιλαμβάνει απάντηση του οργανισμού ή αποτίμηση επιπτώσεων στους ασθενείς.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-18-evening/okypy-management-vacancies.json",
+      "reader_url": "articles/2026-11-18-evening/okypy-management-vacancies.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/18/doctors-union-blames-okypy-for-management-vacancies",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-18T16:04:09+00:00",
+          "retrieved_at": "2026-11-18T16:21:40.768347+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/67abf650dc91dc25a8808d375c32ecc04fd98d336f4cbc5ff68bfa6cd1854d35.webp"
+    },
+    {
+      "story_id": "toney-euro2028-trial-rescheduling-refused-2026-11-18",
+      "identity": "toney-euro2028-trial-rescheduling-refused-2026-11-18",
+      "edition_id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "slot": "evening",
+      "published_at": "2026-11-18T17:30:13.506056+00:00",
+      "available_at": "2026-11-18T17:30:13.506056+00:00",
+      "headline": "Απορρίφθηκε αίτημα μετάθεσης της δίκης του Τόνεϊ λόγω Euro 2028",
+      "finding": "Δικαστήριο απέρριψε αίτημα του Άιβαν Τόνεϊ να μετατεθεί η δίκη του για κατηγορία επίθεσης, ώστε να μη συμπίπτει με το Euro 2028, σύμφωνα με το BBC. Ο ποδοσφαιριστής αρνείται την κατηγορία.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-18-evening/toney-trial-date.json",
+      "reader_url": "articles/2026-11-18-evening/toney-trial-date.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/ckm2m1899mqyo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-18T12:46:12+00:00",
+          "retrieved_at": "2026-11-18T16:21:39.812851+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6e76087697cb48f5485cf15e1640a85ce64d8cf4070605388760d42efe4661bb.webp"
+    },
+    {
+      "story_id": "mauritius-chagos-legal-action-deadline-2026-11-18",
+      "identity": "mauritius-chagos-legal-action-deadline-2026-11-18",
+      "edition_id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "slot": "evening",
+      "published_at": "2026-11-18T11:36:00.072956+00:00",
+      "available_at": "2026-11-18T17:30:13.506056+00:00",
+      "headline": "Ο Μαυρίκιος θέτει προθεσμία για τα Τσάγκος και προειδοποιεί για δικαστική προσφυγή",
+      "finding": "Ο Μαυρίκιος απειλεί με δικαστικές ενέργειες εάν δεν επιλυθεί η εκκρεμότητα των Τσάγκος μέσω διαλόγου έως τον Δεκέμβριο του 2026, σύμφωνα με το SigmaLive. Σχεδόν 18 μήνες μετά τη συμφωνία του Μαΐου 2025, το βρετανικό Κοινοβούλιο δεν έχει εγκρίνει τη νομοθεσία εφαρμογής. Η συμφωνία προέβλεπε αναγνώριση της κυριαρχίας του Μαυρίκιου και βρετανική μίσθωση της βάσης Ντιέγκο Γκαρσία για 99 χρόνια.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-18-evening/chagos-implementation-deadline.json",
+      "reader_url": "articles/2026-11-18-evening/chagos-implementation-deadline.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/international/1338120/o-maurikios-apeili-me-dikastikes-energheies-ti-bretania-ghia-ta-nisia-tsaghkos",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-18T09:39:46+00:00",
+          "retrieved_at": "2026-11-18T10:21:10.578204+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/831c2ad3df36947bb47538d7e88058f51fc7d3c46f54371e1b74e7c70b404534.webp"
+    },
+    {
+      "story_id": "uk-january-energy-cap-forecast-2026-11-18",
+      "identity": "uk-january-energy-cap-forecast-2026-11-18",
+      "edition_id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "slot": "evening",
+      "published_at": "2026-11-18T11:36:00.072956+00:00",
+      "available_at": "2026-11-18T17:30:13.506056+00:00",
+      "headline": "Πρόβλεψη αύξησης 443 λιρών στους ετήσιους λογαριασμούς ενέργειας στη Βρετανία",
+      "finding": "Η Cornwall Insight προβλέπει αύξηση 26% στο ανώτατο όριο τιμολόγησης ενέργειας από τον Ιανουάριο, με ετήσια επιβάρυνση 443 λιρών, σύμφωνα με το BBC. Η Ofgem θα ανακοινώσει το νέο όριο στις 25 Νοεμβρίου. Ο πληθωρισμός Οκτωβρίου αυξήθηκε στο 3,6% από 3,5%. Η εκτίμηση της συμβουλευτικής δεν αποτελεί ακόμη απόφαση της ρυθμιστικής αρχής.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-18-evening/uk-energy-bills-forecast.json",
+      "reader_url": "articles/2026-11-18-evening/uk-energy-bills-forecast.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-18T10:10:12+00:00",
+          "retrieved_at": "2026-11-18T10:21:10.215785+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/00770717e2e2be64e4cd051b52a48d717839d5cd3eadf47b819a5abf420d462f.webp"
+    },
+    {
+      "story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
+      "identity": "cyprus-commission-energy-vulnerability-2026-11-18",
+      "edition_id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "slot": "evening",
+      "published_at": "2026-11-18T05:33:08.219839+00:00",
+      "available_at": "2026-11-18T17:30:13.506056+00:00",
+      "headline": "Αναβάθμιση ανάπτυξης στο 3,4% για το 2026 προβάλλει ο Κεραυνός",
+      "finding": "Ο υπουργός Οικονομικών Μάκης Κεραυνός χαιρέτισε την αναθεώρηση της πρόβλεψης ανάπτυξης της Κομισιόν για το 2026 στο 3,4% από 2,3%, σύμφωνα με τον Φιλελεύθερο. Για το 2027 προβλέπεται 3%, έναντι 2,7% την άνοιξη. Το υπουργείο θεωρεί την αξιολόγηση επιβεβαίωση της πολιτικής του, όπως μεταφέρει και το SigmaLive. Πρόκειται για κυβερνητική αποτίμηση των προβλέψεων, όχι για ανεξάρτητη απόδειξη αιτιότητας.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-18-evening/commission-growth-revision.json",
+      "reader_url": "articles/2026-11-18-evening/commission-growth-revision.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1797261/keravnos-stin-proti-triada-anaptixis-tis-evrozonis-i-kipros-anavathmise-tis-provlepsis-i-komision",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-18T10:06:41+00:00",
+          "retrieved_at": "2026-11-18T10:21:10.712170+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.sigmalive.com/news/oikonomia/1338135/ypik-h-kypros-vadizei-me-statherotita-skhedio-kai-ipefthinotita",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-18T10:18:06+00:00",
+          "retrieved_at": "2026-11-18T10:21:10.838327+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/414f101730c15bea70a18172f8b25189348f41200e1207277e147f24de5c6075.webp"
+    },
+    {
+      "story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+      "identity": "mazotos-mobile-desalination-timetable-2026-11-18",
+      "edition_id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "slot": "evening",
+      "published_at": "2026-11-18T05:33:08.219839+00:00",
+      "available_at": "2026-11-18T17:30:13.506056+00:00",
+      "headline": "Συνεχίζεται ο σχεδιασμός της αφαλάτωσης στον Μαζωτό παρά τις διαμαρτυρίες",
+      "finding": "Το κράτος προχωρά στον σχεδιασμό κινητής μονάδας αφαλάτωσης στον Μαζωτό, παρά τις αντιδράσεις κατοίκων για τις εργασίες πρόσβασης, σύμφωνα με τον Φιλελεύθερο. Η συμφωνία με τον ανάδοχο αναμένεται εντός του επόμενου μήνα και οι εργασίες στις αρχές του 2027. Η μονάδα σχεδιάζεται για 40.000 κυβικά μέτρα ημερησίως και αναμένεται να ολοκληρωθεί το φθινόπωρο του 2027.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-18-evening/mazotos-desalination-plan.json",
+      "reader_url": "articles/2026-11-18-evening/mazotos-desalination-plan.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1797054/kanonika-i-schediasmi-gia-tin-afalatosi-ston-mazoto-arches-tou-2027-xekina-i-dimiourgia-tis-sinechizoun-na-diamartironte-i-katiki",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-18T04:20:00+00:00",
+          "retrieved_at": "2026-11-18T04:21:17.300490+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f40b3b8a9056a31fd55b1086d5503d3e63692f68b737ca224baba281d8ceecaa.webp"
+    },
+    {
+      "story_id": "premier-padel-women-race-2026-11-10",
+      "identity": "premier-padel-women-race-2026-11-10",
+      "edition_id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "slot": "evening",
+      "published_at": "2026-11-18T11:36:00.072956+00:00",
+      "available_at": "2026-11-18T17:30:13.506056+00:00",
+      "headline": "Ημιτελικά στο Μεξικό αρκούν στις Τριάι–Μπρέα για το ετήσιο Νο 1",
+      "finding": "Σύμφωνα με το Padel Addict, οι Τζέμα Τριάι και Ντέλφι Μπρέα εξασφαλίζουν μαθηματικά το Νο 1 της χρονιάς εάν φτάσουν στα ημιτελικά του Major στο Μεξικό.",
+      "section": "sports",
+      "priority": 6,
+      "article_path": "articles/2026-11-18-evening/premier-padel-women-race.json",
+      "reader_url": "articles/2026-11-18-evening/premier-padel-women-race.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/numero-1-femenino-premier-padel-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-18T09:00:38+00:00",
+          "retrieved_at": "2026-11-18T10:21:12.091817+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7e6ac07f24be7265465c99614860f3b2c7c54b75e4c3f40c3adf5d2c32029abb.webp"
+    },
+    {
+      "story_id": "atp-finals-zverev-shelton-semifinal-2026-11-17",
+      "identity": "atp-finals-zverev-shelton-semifinal-2026-11-17",
+      "edition_id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "slot": "evening",
+      "published_at": "2026-11-18T11:36:00.072956+00:00",
+      "available_at": "2026-11-18T17:30:13.506056+00:00",
+      "headline": "Ο Ζβέρεφ εξασφάλισε θέση στα ημιτελικά των ATP Finals",
+      "finding": "Ο Αλεξάντερ Ζβέρεφ νίκησε την Τρίτη τον Μπεν Σέλτον με 6–2, 7–6(4) και προκρίθηκε στα ημιτελικά των ATP Finals, σύμφωνα με το Cyprus Mail.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-18-evening/atp-zverev-semifinal.json",
+      "reader_url": "articles/2026-11-18-evening/atp-zverev-semifinal.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/18/top-seed-zverev-powers-past-shelton-to-punch-semi-final-ticket",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-18T10:18:44+00:00",
+          "retrieved_at": "2026-11-18T10:21:10.770580+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/54f21f02fa9f4a7dae5cebd8a1111626b17ca06ec9bedc267ffd36212961c85b.webp"
     },
     {
       "story_id": "mauritius-chagos-legal-action-deadline-2026-11-18",

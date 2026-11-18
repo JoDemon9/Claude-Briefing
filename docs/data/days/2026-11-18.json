@@ -16,13 +16,38 @@
       "type": "midday",
       "url": "midday/2026-11-18.html",
       "published_at": "2026-11-18T11:36:00.072956+00:00"
+    },
+    {
+      "id": "2026-11-18-evening",
+      "type": "evening",
+      "url": "evening/2026-11-18.html",
+      "published_at": "2026-11-18T17:30:13.506056+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "mauritius-chagos-legal-action-deadline-2026-11-18",
+  "missing_slots": [],
+  "lead_story_id": "gaza-salahuddin-tank-incursion-reports-2026-11-18",
   "stories": [
+    {
+      "story_id": "gaza-salahuddin-tank-incursion-reports-2026-11-18",
+      "first_seen_at": "2026-11-18T17:30:13.506056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-18-evening",
+          "article_id": "gaza-incursion-reports",
+          "source_story_id": "gaza-salahuddin-tank-incursion-reports-2026-11-18",
+          "url": "articles/2026-11-18-evening/gaza-incursion-reports.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "gaza-incursion-reports",
+        "source_story_id": "gaza-salahuddin-tank-incursion-reports-2026-11-18",
+        "url": "articles/2026-11-18-evening/gaza-incursion-reports.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "israel-kahana-speaker-election-2026-11-17",
       "first_seen_at": "2026-11-18T05:33:08.219839+00:00",
@@ -60,13 +85,19 @@
           "article_id": "chagos-implementation-deadline",
           "source_story_id": "mauritius-chagos-legal-action-deadline-2026-11-18",
           "url": "articles/2026-11-18-midday/chagos-implementation-deadline.html"
+        },
+        {
+          "edition_id": "2026-11-18-evening",
+          "article_id": "chagos-implementation-deadline",
+          "source_story_id": "mauritius-chagos-legal-action-deadline-2026-11-18",
+          "url": "articles/2026-11-18-evening/chagos-implementation-deadline.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-18-midday",
+        "edition_id": "2026-11-18-evening",
         "article_id": "chagos-implementation-deadline",
         "source_story_id": "mauritius-chagos-legal-action-deadline-2026-11-18",
-        "url": "articles/2026-11-18-midday/chagos-implementation-deadline.html"
+        "url": "articles/2026-11-18-evening/chagos-implementation-deadline.html"
       },
       "section": "world",
       "priority": 1
@@ -99,6 +130,27 @@
       "priority": 2
     },
     {
+      "story_id": "mossad-us-iran-strikes-lobbying-report-2026-11-18",
+      "first_seen_at": "2026-11-18T17:30:13.506056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-18-evening",
+          "article_id": "mossad-iran-us-visit",
+          "source_story_id": "mossad-us-iran-strikes-lobbying-report-2026-11-18",
+          "url": "articles/2026-11-18-evening/mossad-iran-us-visit.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "mossad-iran-us-visit",
+        "source_story_id": "mossad-us-iran-strikes-lobbying-report-2026-11-18",
+        "url": "articles/2026-11-18-evening/mossad-iran-us-visit.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
       "story_id": "uk-january-energy-cap-forecast-2026-11-18",
       "first_seen_at": "2026-11-18T11:36:00.072956+00:00",
       "last_substantive_at": null,
@@ -108,16 +160,43 @@
           "article_id": "uk-energy-bills-forecast",
           "source_story_id": "uk-january-energy-cap-forecast-2026-11-18",
           "url": "articles/2026-11-18-midday/uk-energy-bills-forecast.html"
+        },
+        {
+          "edition_id": "2026-11-18-evening",
+          "article_id": "uk-energy-bills-forecast",
+          "source_story_id": "uk-january-energy-cap-forecast-2026-11-18",
+          "url": "articles/2026-11-18-evening/uk-energy-bills-forecast.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-18-midday",
+        "edition_id": "2026-11-18-evening",
         "article_id": "uk-energy-bills-forecast",
         "source_story_id": "uk-january-energy-cap-forecast-2026-11-18",
-        "url": "articles/2026-11-18-midday/uk-energy-bills-forecast.html"
+        "url": "articles/2026-11-18-evening/uk-energy-bills-forecast.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "apache-roller-exploited-flaw-updates-2026-11-18",
+      "first_seen_at": "2026-11-18T17:30:13.506056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-18-evening",
+          "article_id": "apache-roller-active-exploitation",
+          "source_story_id": "apache-roller-exploited-flaw-updates-2026-11-18",
+          "url": "articles/2026-11-18-evening/apache-roller-active-exploitation.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "apache-roller-active-exploitation",
+        "source_story_id": "apache-roller-exploited-flaw-updates-2026-11-18",
+        "url": "articles/2026-11-18-evening/apache-roller-active-exploitation.html"
+      },
+      "section": "world",
+      "priority": 3
     },
     {
       "story_id": "openjdk-java4shell-disclosure-2026-11-17",
@@ -177,13 +256,40 @@
           "article_id": "commission-growth-revision",
           "source_story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
           "url": "articles/2026-11-18-midday/commission-growth-revision.html"
+        },
+        {
+          "edition_id": "2026-11-18-evening",
+          "article_id": "commission-growth-revision",
+          "source_story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
+          "url": "articles/2026-11-18-evening/commission-growth-revision.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-18-midday",
+        "edition_id": "2026-11-18-evening",
         "article_id": "commission-growth-revision",
         "source_story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
-        "url": "articles/2026-11-18-midday/commission-growth-revision.html"
+        "url": "articles/2026-11-18-evening/commission-growth-revision.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "cyprus-schengen-july-target-mitsotakis-2026-11-18",
+      "first_seen_at": "2026-11-18T17:30:13.506056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-18-evening",
+          "article_id": "schengen-july-target",
+          "source_story_id": "cyprus-schengen-july-target-mitsotakis-2026-11-18",
+          "url": "articles/2026-11-18-evening/schengen-july-target.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "schengen-july-target",
+        "source_story_id": "cyprus-schengen-july-target-mitsotakis-2026-11-18",
+        "url": "articles/2026-11-18-evening/schengen-july-target.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -208,6 +314,27 @@
       },
       "section": "world",
       "priority": 4
+    },
+    {
+      "story_id": "cyprus-greece-police-coastguard-training-intentions-2026-11-18",
+      "first_seen_at": "2026-11-18T17:30:13.506056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-18-evening",
+          "article_id": "police-coastguard-training",
+          "source_story_id": "cyprus-greece-police-coastguard-training-intentions-2026-11-18",
+          "url": "articles/2026-11-18-evening/police-coastguard-training.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "police-coastguard-training",
+        "source_story_id": "cyprus-greece-police-coastguard-training-intentions-2026-11-18",
+        "url": "articles/2026-11-18-evening/police-coastguard-training.html"
+      },
+      "section": "cyprus",
+      "priority": 5
     },
     {
       "story_id": "peyia-november9-murder-remand-2026-11-18",
@@ -246,13 +373,40 @@
           "article_id": "mazotos-desalination-plan",
           "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
           "url": "articles/2026-11-18-midday/mazotos-desalination-plan.html"
+        },
+        {
+          "edition_id": "2026-11-18-evening",
+          "article_id": "mazotos-desalination-plan",
+          "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+          "url": "articles/2026-11-18-evening/mazotos-desalination-plan.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-18-midday",
+        "edition_id": "2026-11-18-evening",
         "article_id": "mazotos-desalination-plan",
         "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
-        "url": "articles/2026-11-18-midday/mazotos-desalination-plan.html"
+        "url": "articles/2026-11-18-evening/mazotos-desalination-plan.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "pasyki-okypy-management-vacancies-2026-11-18",
+      "first_seen_at": "2026-11-18T17:30:13.506056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-18-evening",
+          "article_id": "okypy-management-vacancies",
+          "source_story_id": "pasyki-okypy-management-vacancies-2026-11-18",
+          "url": "articles/2026-11-18-evening/okypy-management-vacancies.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "okypy-management-vacancies",
+        "source_story_id": "pasyki-okypy-management-vacancies-2026-11-18",
+        "url": "articles/2026-11-18-evening/okypy-management-vacancies.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -267,13 +421,19 @@
           "article_id": "premier-padel-women-race",
           "source_story_id": "premier-padel-women-race-2026-11-10",
           "url": "articles/2026-11-18-midday/premier-padel-women-race.html"
+        },
+        {
+          "edition_id": "2026-11-18-evening",
+          "article_id": "premier-padel-women-race",
+          "source_story_id": "premier-padel-women-race-2026-11-10",
+          "url": "articles/2026-11-18-evening/premier-padel-women-race.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-18-midday",
+        "edition_id": "2026-11-18-evening",
         "article_id": "premier-padel-women-race",
         "source_story_id": "premier-padel-women-race-2026-11-10",
-        "url": "articles/2026-11-18-midday/premier-padel-women-race.html"
+        "url": "articles/2026-11-18-evening/premier-padel-women-race.html"
       },
       "section": "sports",
       "priority": 6
@@ -288,13 +448,19 @@
           "article_id": "atp-zverev-semifinal",
           "source_story_id": "atp-finals-zverev-shelton-semifinal-2026-11-17",
           "url": "articles/2026-11-18-midday/atp-zverev-semifinal.html"
+        },
+        {
+          "edition_id": "2026-11-18-evening",
+          "article_id": "atp-zverev-semifinal",
+          "source_story_id": "atp-finals-zverev-shelton-semifinal-2026-11-17",
+          "url": "articles/2026-11-18-evening/atp-zverev-semifinal.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-18-midday",
+        "edition_id": "2026-11-18-evening",
         "article_id": "atp-zverev-semifinal",
         "source_story_id": "atp-finals-zverev-shelton-semifinal-2026-11-17",
-        "url": "articles/2026-11-18-midday/atp-zverev-semifinal.html"
+        "url": "articles/2026-11-18-evening/atp-zverev-semifinal.html"
       },
       "section": "sports",
       "priority": 7
@@ -324,6 +490,27 @@
         "url": "articles/2026-11-18-midday/limassol-car-fire.html"
       },
       "section": "cyprus",
+      "priority": 7
+    },
+    {
+      "story_id": "toney-euro2028-trial-rescheduling-refused-2026-11-18",
+      "first_seen_at": "2026-11-18T17:30:13.506056+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-18-evening",
+          "article_id": "toney-trial-date",
+          "source_story_id": "toney-euro2028-trial-rescheduling-refused-2026-11-18",
+          "url": "articles/2026-11-18-evening/toney-trial-date.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "toney-trial-date",
+        "source_story_id": "toney-euro2028-trial-rescheduling-refused-2026-11-18",
+        "url": "articles/2026-11-18-evening/toney-trial-date.html"
+      },
+      "section": "sports",
       "priority": 7
     },
     {
@@ -704,6 +891,188 @@
         "source_story_id": "israel-kahana-speaker-election-2026-11-17",
         "url": "articles/2026-11-18-midday/israel-kahana-speaker.html"
       }
+    },
+    {
+      "id": "04319282881f8ab9adc4afaf677a3dbe75abb9d965bca3d8248353cd8fe36d4b",
+      "kind": "provenance",
+      "at": "2026-11-18T17:30:13.506056+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-january-energy-cap-forecast-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "uk-energy-bills-forecast",
+        "source_story_id": "uk-january-energy-cap-forecast-2026-11-18",
+        "url": "articles/2026-11-18-evening/uk-energy-bills-forecast.html"
+      }
+    },
+    {
+      "id": "0c7e0ed5c8331c6f7bc3125d501de0f85a2994db31259cd5af0c64d2938f75aa",
+      "kind": "provenance",
+      "at": "2026-11-18T17:30:13.506056+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "gaza-salahuddin-tank-incursion-reports-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "gaza-incursion-reports",
+        "source_story_id": "gaza-salahuddin-tank-incursion-reports-2026-11-18",
+        "url": "articles/2026-11-18-evening/gaza-incursion-reports.html"
+      }
+    },
+    {
+      "id": "106b8e1387042a9a6a0ec868c13bed2963e6f560434e5dd108d65715c775a7cd",
+      "kind": "provenance",
+      "at": "2026-11-18T17:30:13.506056+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "mauritius-chagos-legal-action-deadline-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "chagos-implementation-deadline",
+        "source_story_id": "mauritius-chagos-legal-action-deadline-2026-11-18",
+        "url": "articles/2026-11-18-evening/chagos-implementation-deadline.html"
+      }
+    },
+    {
+      "id": "470010d4b23e134fce3a36b0a954d4196373ffcea6aa7da7fbe52254526fdfe6",
+      "kind": "provenance",
+      "at": "2026-11-18T17:30:13.506056+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "mossad-us-iran-strikes-lobbying-report-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "mossad-iran-us-visit",
+        "source_story_id": "mossad-us-iran-strikes-lobbying-report-2026-11-18",
+        "url": "articles/2026-11-18-evening/mossad-iran-us-visit.html"
+      }
+    },
+    {
+      "id": "7509a6fda7e24f22e38827e2b69903114f4e937b23f48af37df3f4104ff004b4",
+      "kind": "provenance",
+      "at": "2026-11-18T17:30:13.506056+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "premier-padel-women-race-2026-11-10",
+      "origin": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "premier-padel-women-race",
+        "source_story_id": "premier-padel-women-race-2026-11-10",
+        "url": "articles/2026-11-18-evening/premier-padel-women-race.html"
+      }
+    },
+    {
+      "id": "786b8ad32907713e6e874033ddf11af712d3443003e839e493479940ec7ae2ba",
+      "kind": "provenance",
+      "at": "2026-11-18T17:30:13.506056+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "mazotos-desalination-plan",
+        "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+        "url": "articles/2026-11-18-evening/mazotos-desalination-plan.html"
+      }
+    },
+    {
+      "id": "825f7ff3f938045231a78d5043ae3d708b2f982492de6e3d999648bca7262b2e",
+      "kind": "provenance",
+      "at": "2026-11-18T17:30:13.506056+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-schengen-july-target-mitsotakis-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "schengen-july-target",
+        "source_story_id": "cyprus-schengen-july-target-mitsotakis-2026-11-18",
+        "url": "articles/2026-11-18-evening/schengen-july-target.html"
+      }
+    },
+    {
+      "id": "8bd148bbba354a3dba0159b3a324e28224380f2982671d29af958440148789ae",
+      "kind": "provenance",
+      "at": "2026-11-18T17:30:13.506056+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "pasyki-okypy-management-vacancies-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "okypy-management-vacancies",
+        "source_story_id": "pasyki-okypy-management-vacancies-2026-11-18",
+        "url": "articles/2026-11-18-evening/okypy-management-vacancies.html"
+      }
+    },
+    {
+      "id": "9e3c85587205329a18de7734140cc6a38e81871f1ab35a4105021af1ec7b3bde",
+      "kind": "provenance",
+      "at": "2026-11-18T17:30:13.506056+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "atp-finals-zverev-shelton-semifinal-2026-11-17",
+      "origin": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "atp-zverev-semifinal",
+        "source_story_id": "atp-finals-zverev-shelton-semifinal-2026-11-17",
+        "url": "articles/2026-11-18-evening/atp-zverev-semifinal.html"
+      }
+    },
+    {
+      "id": "a036e21a3cf4cd93fba83b1dc8ee2ab17412ba202041de4bb2e8f10952baef32",
+      "kind": "provenance",
+      "at": "2026-11-18T17:30:13.506056+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "apache-roller-exploited-flaw-updates-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "apache-roller-active-exploitation",
+        "source_story_id": "apache-roller-exploited-flaw-updates-2026-11-18",
+        "url": "articles/2026-11-18-evening/apache-roller-active-exploitation.html"
+      }
+    },
+    {
+      "id": "a2ebf54c07104fd9aafc5ad59997adf2663236168f2f752f187814753afff0d3",
+      "kind": "provenance",
+      "at": "2026-11-18T17:30:13.506056+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "toney-euro2028-trial-rescheduling-refused-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "toney-trial-date",
+        "source_story_id": "toney-euro2028-trial-rescheduling-refused-2026-11-18",
+        "url": "articles/2026-11-18-evening/toney-trial-date.html"
+      }
+    },
+    {
+      "id": "bbfa3a4f990aee2219ab63ffd63b1b3f1c2cc55c83cae4737149b08ed304b99b",
+      "kind": "provenance",
+      "at": "2026-11-18T17:30:13.506056+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "commission-growth-revision",
+        "source_story_id": "cyprus-commission-energy-vulnerability-2026-11-18",
+        "url": "articles/2026-11-18-evening/commission-growth-revision.html"
+      }
+    },
+    {
+      "id": "d0952756fd1e74cd1dcc0f1512abe562d21b6266485f19a5bcc2b13d72f74d6f",
+      "kind": "provenance",
+      "at": "2026-11-18T17:30:13.506056+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-greece-police-coastguard-training-intentions-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-18-evening",
+        "article_id": "police-coastguard-training",
+        "source_story_id": "cyprus-greece-police-coastguard-training-intentions-2026-11-18",
+        "url": "articles/2026-11-18-evening/police-coastguard-training.html"
+      }
     }
   ],
   "opportunities": [
@@ -912,16 +1281,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Ο Μαυρίκιος θέτει προθεσμία έως τον Δεκέμβριο για λύση στη διαφορά των Τσάγκος, ενώ εκκρεμεί η βρετανική νομοθεσία εφαρμογής της συμφωνίας. Για τις δύο κυβερνήσεις, το επόμενο τεστ είναι η μετατροπή της συμφωνίας σε εφαρμόσιμες δεσμεύσεις. Στην Κύπρο, ο υπουργός Οικονομικών προβάλλει την αναβάθμιση των προβλέψεων ανάπτυξης. Η ισχυρότερη συνολική επίδοση δεν αναιρεί την ενεργειακή ευπάθεια που καταγράφηκε το πρωί: η εξέλιξη των πραγματικών εισοδημάτων θα κριθεί και από τις τιμές. Οι προβλέψεις ανάπτυξης και πληθωρισμού περιγράφουν διαφορετικές όψεις της ίδιας οικονομίας.",
+        "text": "Οι αναφορές για ισραηλινά άρματα δυτικά της Κίτρινης Γραμμής στη Γάζα θέτουν ζήτημα τήρησης της εκεχειρίας. Για τους κατοίκους, το άμεσο ερώτημα είναι η έκταση και η διάρκεια της προώθησης· οι μαρτυρίες δεν αρκούν για συνολική αποτίμηση της κατάπαυσης πυρός. Στην Κύπρο, ο Μητσοτάκης τοποθετεί την προσδοκώμενη ένταξη στη Σένγκεν την 1η Ιουλίου 2027. Η δήλωση ενισχύει τον πολιτικό στόχο, χωρίς το διαθέσιμο δημοσίευμα να περιλαμβάνει επίσημη απόφαση ένταξης. Οι πολίτες και οι επιχειρήσεις χρειάζονται το τελικό κείμενο πριν θεωρήσουν δεδομένες αλλαγές στις μετακινήσεις.",
         "story_ids": [
-          "mauritius-chagos-legal-action-deadline-2026-11-18",
-          "cyprus-commission-energy-vulnerability-2026-11-18"
+          "gaza-salahuddin-tank-incursion-reports-2026-11-18",
+          "cyprus-schengen-july-target-mitsotakis-2026-11-18"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-18T05:35:32.032661+00:00",
-  "updated_at": "2026-11-18T11:39:33.739184+00:00",
-  "input_sha256": "83e797dc81d2c03fba5833b991053860be3c32c2031535bdc8b0bf6c6eb066ea"
+  "updated_at": "2026-11-18T17:32:06.541957+00:00",
+  "input_sha256": "4e38e0e75be8973f3b6bb7c2686f73c47b683653b1934894e82cda7a04018614"
 }
