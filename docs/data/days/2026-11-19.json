@@ -10,13 +10,18 @@
       "type": "morning",
       "url": "morning/2026-11-19.html",
       "published_at": "2026-11-19T05:35:03.754246+00:00"
+    },
+    {
+      "id": "2026-11-19-midday",
+      "type": "midday",
+      "url": "midday/2026-11-19.html",
+      "published_at": "2026-11-19T11:34:07.768307+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "china-korea-media-travel-trade-access-2026-11-19",
+  "lead_story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
   "stories": [
     {
       "story_id": "china-korea-media-travel-trade-access-2026-11-19",
@@ -28,13 +33,40 @@
           "article_id": "korea-china-trade-access",
           "source_story_id": "china-korea-media-travel-trade-access-2026-11-19",
           "url": "articles/2026-11-19-morning/korea-china-trade-access.html"
+        },
+        {
+          "edition_id": "2026-11-19-midday",
+          "article_id": "korea-china-trade-access",
+          "source_story_id": "china-korea-media-travel-trade-access-2026-11-19",
+          "url": "articles/2026-11-19-midday/korea-china-trade-access.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-19-morning",
+        "edition_id": "2026-11-19-midday",
         "article_id": "korea-china-trade-access",
         "source_story_id": "china-korea-media-travel-trade-access-2026-11-19",
-        "url": "articles/2026-11-19-morning/korea-china-trade-access.html"
+        "url": "articles/2026-11-19-midday/korea-china-trade-access.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
+      "first_seen_at": "2026-11-19T11:34:07.768307+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-19-midday",
+          "article_id": "shenzhen-leaders-talks",
+          "source_story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
+          "url": "articles/2026-11-19-midday/shenzhen-leaders-talks.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "shenzhen-leaders-talks",
+        "source_story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
+        "url": "articles/2026-11-19-midday/shenzhen-leaders-talks.html"
       },
       "section": "world",
       "priority": 1
@@ -61,6 +93,48 @@
       "priority": 2
     },
     {
+      "story_id": "nvidia-gentlemen-breach-claim-investigation-2026-11-19",
+      "first_seen_at": "2026-11-19T11:34:07.768307+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-19-midday",
+          "article_id": "nvidia-breach-claim-investigation",
+          "source_story_id": "nvidia-gentlemen-breach-claim-investigation-2026-11-19",
+          "url": "articles/2026-11-19-midday/nvidia-breach-claim-investigation.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "nvidia-breach-claim-investigation",
+        "source_story_id": "nvidia-gentlemen-breach-claim-investigation-2026-11-19",
+        "url": "articles/2026-11-19-midday/nvidia-breach-claim-investigation.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "iea-data-centre-electricity-2030-scenario-2026-11-19",
+      "first_seen_at": "2026-11-19T11:34:07.768307+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-19-midday",
+          "article_id": "data-centre-electricity",
+          "source_story_id": "iea-data-centre-electricity-2030-scenario-2026-11-19",
+          "url": "articles/2026-11-19-midday/data-centre-electricity.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "data-centre-electricity",
+        "source_story_id": "iea-data-centre-electricity-2030-scenario-2026-11-19",
+        "url": "articles/2026-11-19-midday/data-centre-electricity.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
       "story_id": "us-microsoft-aviation-nsa-outage-assessments-2026-11-18",
       "first_seen_at": "2026-11-19T05:35:03.754246+00:00",
       "last_substantive_at": null,
@@ -80,6 +154,27 @@
       },
       "section": "world",
       "priority": 3
+    },
+    {
+      "story_id": "aphrodite-chevron-fid-outlook-2026-11-19",
+      "first_seen_at": "2026-11-19T11:34:07.768307+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-19-midday",
+          "article_id": "aphrodite-investment-outlook",
+          "source_story_id": "aphrodite-chevron-fid-outlook-2026-11-19",
+          "url": "articles/2026-11-19-midday/aphrodite-investment-outlook.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "aphrodite-investment-outlook",
+        "source_story_id": "aphrodite-chevron-fid-outlook-2026-11-19",
+        "url": "articles/2026-11-19-midday/aphrodite-investment-outlook.html"
+      },
+      "section": "cyprus",
+      "priority": 4
     },
     {
       "story_id": "haiti-moise-sanon-miami-verdict-2026-11-18",
@@ -112,16 +207,64 @@
           "article_id": "cop31-vanuatu-reform",
           "source_story_id": "cop31-vanuatu-process-reform-call-2026-11-19",
           "url": "articles/2026-11-19-morning/cop31-vanuatu-reform.html"
+        },
+        {
+          "edition_id": "2026-11-19-midday",
+          "article_id": "cop31-vanuatu-reform",
+          "source_story_id": "cop31-vanuatu-process-reform-call-2026-11-19",
+          "url": "articles/2026-11-19-midday/cop31-vanuatu-reform.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-19-morning",
+        "edition_id": "2026-11-19-midday",
         "article_id": "cop31-vanuatu-reform",
         "source_story_id": "cop31-vanuatu-process-reform-call-2026-11-19",
-        "url": "articles/2026-11-19-morning/cop31-vanuatu-reform.html"
+        "url": "articles/2026-11-19-midday/cop31-vanuatu-reform.html"
       },
       "section": "world",
       "priority": 5
+    },
+    {
+      "story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+      "first_seen_at": "2026-11-19T11:34:07.768307+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-19-midday",
+          "article_id": "mazotos-tree-cutting",
+          "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+          "url": "articles/2026-11-19-midday/mazotos-tree-cutting.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "mazotos-tree-cutting",
+        "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+        "url": "articles/2026-11-19-midday/mazotos-tree-cutting.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-teacher-employer-cost-study-2026-11-19",
+      "first_seen_at": "2026-11-19T11:34:07.768307+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-19-midday",
+          "article_id": "teacher-employer-cost-study",
+          "source_story_id": "cyprus-teacher-employer-cost-study-2026-11-19",
+          "url": "articles/2026-11-19-midday/teacher-employer-cost-study.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "teacher-employer-cost-study",
+        "source_story_id": "cyprus-teacher-employer-cost-study-2026-11-19",
+        "url": "articles/2026-11-19-midday/teacher-employer-cost-study.html"
+      },
+      "section": "cyprus",
+      "priority": 6
     },
     {
       "story_id": "helleniq-cyprus-exploration-partnership-option-2026-11-19",
@@ -133,16 +276,43 @@
           "article_id": "helleniq-cyprus-option",
           "source_story_id": "helleniq-cyprus-exploration-partnership-option-2026-11-19",
           "url": "articles/2026-11-19-morning/helleniq-cyprus-option.html"
+        },
+        {
+          "edition_id": "2026-11-19-midday",
+          "article_id": "helleniq-cyprus-option",
+          "source_story_id": "helleniq-cyprus-exploration-partnership-option-2026-11-19",
+          "url": "articles/2026-11-19-midday/helleniq-cyprus-option.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-19-morning",
+        "edition_id": "2026-11-19-midday",
         "article_id": "helleniq-cyprus-option",
         "source_story_id": "helleniq-cyprus-exploration-partnership-option-2026-11-19",
-        "url": "articles/2026-11-19-morning/helleniq-cyprus-option.html"
+        "url": "articles/2026-11-19-midday/helleniq-cyprus-option.html"
       },
       "section": "cyprus",
       "priority": 6
+    },
+    {
+      "story_id": "aguascalientes-fip-finals-qualification-2026-11-19",
+      "first_seen_at": "2026-11-19T11:34:07.768307+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-19-midday",
+          "article_id": "aguascalientes-finals-race",
+          "source_story_id": "aguascalientes-fip-finals-qualification-2026-11-19",
+          "url": "articles/2026-11-19-midday/aguascalientes-finals-race.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "aguascalientes-finals-race",
+        "source_story_id": "aguascalientes-fip-finals-qualification-2026-11-19",
+        "url": "articles/2026-11-19-midday/aguascalientes-finals-race.html"
+      },
+      "section": "sports",
+      "priority": 7
     },
     {
       "story_id": "istanbul-cyprus-two-state-symposium-2026-11-19",
@@ -187,6 +357,27 @@
       "priority": 8
     },
     {
+      "story_id": "fifa-2027-nomination-deadline-2026-11-18",
+      "first_seen_at": "2026-11-19T11:34:07.768307+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-19-midday",
+          "article_id": "fifa-candidates-confirmed",
+          "source_story_id": "fifa-2027-nomination-deadline-2026-11-18",
+          "url": "articles/2026-11-19-midday/fifa-candidates-confirmed.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "fifa-candidates-confirmed",
+        "source_story_id": "fifa-2027-nomination-deadline-2026-11-18",
+        "url": "articles/2026-11-19-midday/fifa-candidates-confirmed.html"
+      },
+      "section": "sports",
+      "priority": 8
+    },
+    {
       "story_id": "turkish-cypriot-ballot-leak-allegations-2026-11-18",
       "first_seen_at": "2026-11-19T05:35:03.754246+00:00",
       "last_substantive_at": null,
@@ -196,13 +387,19 @@
           "article_id": "ballot-leak-allegations",
           "source_story_id": "turkish-cypriot-ballot-leak-allegations-2026-11-18",
           "url": "articles/2026-11-19-morning/ballot-leak-allegations.html"
+        },
+        {
+          "edition_id": "2026-11-19-midday",
+          "article_id": "ballot-leak-allegations",
+          "source_story_id": "turkish-cypriot-ballot-leak-allegations-2026-11-18",
+          "url": "articles/2026-11-19-midday/ballot-leak-allegations.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-19-morning",
+        "edition_id": "2026-11-19-midday",
         "article_id": "ballot-leak-allegations",
         "source_story_id": "turkish-cypriot-ballot-leak-allegations-2026-11-18",
-        "url": "articles/2026-11-19-morning/ballot-leak-allegations.html"
+        "url": "articles/2026-11-19-midday/ballot-leak-allegations.html"
       },
       "section": "cyprus",
       "priority": 9
@@ -238,13 +435,19 @@
           "article_id": "cricket-bancroft-allegations",
           "source_story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
           "url": "articles/2026-11-19-morning/cricket-bancroft-allegations.html"
+        },
+        {
+          "edition_id": "2026-11-19-midday",
+          "article_id": "cricket-bancroft-allegations",
+          "source_story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
+          "url": "articles/2026-11-19-midday/cricket-bancroft-allegations.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-19-morning",
+        "edition_id": "2026-11-19-midday",
         "article_id": "cricket-bancroft-allegations",
         "source_story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
-        "url": "articles/2026-11-19-morning/cricket-bancroft-allegations.html"
+        "url": "articles/2026-11-19-midday/cricket-bancroft-allegations.html"
       },
       "section": "sports",
       "priority": 11
@@ -403,6 +606,188 @@
         "article_id": "us-service-outage-assessments",
         "source_story_id": "us-microsoft-aviation-nsa-outage-assessments-2026-11-18",
         "url": "articles/2026-11-19-morning/us-service-outage-assessments.html"
+      }
+    },
+    {
+      "id": "04eacf3c494c1c1e39c65ec3403dfce96ad891f3a57a218ee402a1b69735b1b8",
+      "kind": "provenance",
+      "at": "2026-11-19T11:34:07.768307+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "aguascalientes-fip-finals-qualification-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "aguascalientes-finals-race",
+        "source_story_id": "aguascalientes-fip-finals-qualification-2026-11-19",
+        "url": "articles/2026-11-19-midday/aguascalientes-finals-race.html"
+      }
+    },
+    {
+      "id": "0d0b66f0a6fb7c4b3acc5cea9a94a05d66cee2910645acd4398486c5044dfaca",
+      "kind": "provenance",
+      "at": "2026-11-19T11:34:07.768307+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "shenzhen-leaders-talks",
+        "source_story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
+        "url": "articles/2026-11-19-midday/shenzhen-leaders-talks.html"
+      }
+    },
+    {
+      "id": "13e388fe38b6a9548de720b41e2688358250dd84cf088e282beeed4c1f65f38a",
+      "kind": "provenance",
+      "at": "2026-11-19T11:34:07.768307+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "mazotos-tree-cutting",
+        "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+        "url": "articles/2026-11-19-midday/mazotos-tree-cutting.html"
+      }
+    },
+    {
+      "id": "3aef4cedd815fd4a6934dc6d45e65dd9f0691f38593e01acdbe40f933ae94e10",
+      "kind": "provenance",
+      "at": "2026-11-19T11:34:07.768307+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "china-korea-media-travel-trade-access-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "korea-china-trade-access",
+        "source_story_id": "china-korea-media-travel-trade-access-2026-11-19",
+        "url": "articles/2026-11-19-midday/korea-china-trade-access.html"
+      }
+    },
+    {
+      "id": "48a57130ca12636d8897ec6a9970c65026a21c9ab07d54ff491ba68735af4830",
+      "kind": "provenance",
+      "at": "2026-11-19T11:34:07.768307+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "fifa-2027-nomination-deadline-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "fifa-candidates-confirmed",
+        "source_story_id": "fifa-2027-nomination-deadline-2026-11-18",
+        "url": "articles/2026-11-19-midday/fifa-candidates-confirmed.html"
+      }
+    },
+    {
+      "id": "4e86c8b382c5de736ec770528b8f94b3e3c4d6b235a58fce9874f2f462e8f0da",
+      "kind": "provenance",
+      "at": "2026-11-19T11:34:07.768307+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cop31-vanuatu-process-reform-call-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "cop31-vanuatu-reform",
+        "source_story_id": "cop31-vanuatu-process-reform-call-2026-11-19",
+        "url": "articles/2026-11-19-midday/cop31-vanuatu-reform.html"
+      }
+    },
+    {
+      "id": "69fde6862699f94d16c88fea8bded1e6c17fc8e677cc4398939599dffc4c0e1f",
+      "kind": "provenance",
+      "at": "2026-11-19T11:34:07.768307+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "cricket-bancroft-allegations",
+        "source_story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
+        "url": "articles/2026-11-19-midday/cricket-bancroft-allegations.html"
+      }
+    },
+    {
+      "id": "8027fb99a79a1b7885d96e6fb705016874c384eb8f03ec1e48e3d7164fefa3d6",
+      "kind": "provenance",
+      "at": "2026-11-19T11:34:07.768307+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-gentlemen-breach-claim-investigation-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "nvidia-breach-claim-investigation",
+        "source_story_id": "nvidia-gentlemen-breach-claim-investigation-2026-11-19",
+        "url": "articles/2026-11-19-midday/nvidia-breach-claim-investigation.html"
+      }
+    },
+    {
+      "id": "8f9779af563a3c5e9f62a80aec531b3f2a0d392e13cd89f985242562b9f82c4b",
+      "kind": "provenance",
+      "at": "2026-11-19T11:34:07.768307+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-teacher-employer-cost-study-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "teacher-employer-cost-study",
+        "source_story_id": "cyprus-teacher-employer-cost-study-2026-11-19",
+        "url": "articles/2026-11-19-midday/teacher-employer-cost-study.html"
+      }
+    },
+    {
+      "id": "925ee7b0880aa2e333267baae788d8f0ef6e9fec2720dbc6788f36c62c0bf168",
+      "kind": "provenance",
+      "at": "2026-11-19T11:34:07.768307+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "aphrodite-chevron-fid-outlook-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "aphrodite-investment-outlook",
+        "source_story_id": "aphrodite-chevron-fid-outlook-2026-11-19",
+        "url": "articles/2026-11-19-midday/aphrodite-investment-outlook.html"
+      }
+    },
+    {
+      "id": "bdcca33ba5ac82a785261e85f4cb8beafea7ffa89400b586b6edd503b73c777e",
+      "kind": "provenance",
+      "at": "2026-11-19T11:34:07.768307+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "helleniq-cyprus-exploration-partnership-option-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "helleniq-cyprus-option",
+        "source_story_id": "helleniq-cyprus-exploration-partnership-option-2026-11-19",
+        "url": "articles/2026-11-19-midday/helleniq-cyprus-option.html"
+      }
+    },
+    {
+      "id": "c1e864f047fef1f216ffeaa6c06c2e2a748b9bf27e7b58e9bfadeb21f2f8141c",
+      "kind": "provenance",
+      "at": "2026-11-19T11:34:07.768307+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "iea-data-centre-electricity-2030-scenario-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "data-centre-electricity",
+        "source_story_id": "iea-data-centre-electricity-2030-scenario-2026-11-19",
+        "url": "articles/2026-11-19-midday/data-centre-electricity.html"
+      }
+    },
+    {
+      "id": "e4153088bf3ede3137f7c90bc5e252476e17c666b89d5fda0a644c75344aa6a7",
+      "kind": "provenance",
+      "at": "2026-11-19T11:34:07.768307+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "turkish-cypriot-ballot-leak-allegations-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-19-midday",
+        "article_id": "ballot-leak-allegations",
+        "source_story_id": "turkish-cypriot-ballot-leak-allegations-2026-11-18",
+        "url": "articles/2026-11-19-midday/ballot-leak-allegations.html"
       }
     }
   ],
@@ -612,16 +997,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η εμπορική προσέγγιση Σεούλ–Πεκίνου δημιουργεί προσδοκίες για ευκολότερη πρόσβαση κορεατικών επιχειρήσεων στην κινεζική αγορά. Για ταξιδιωτικές και εταιρείες περιεχομένου, το ουσιαστικό τεστ είναι αν οι όροι μετατραπούν σε άδειες, πελάτες και έσοδα· η άνοδος των μετοχών δεν επιβεβαιώνει από μόνη της το αποτέλεσμα. Στην Κύπρο, η HELLENiQ ENERGY αφήνει ανοικτή πιθανή συμμετοχή σε έρευνες φυσικού αερίου μέσω συνεργασίας. Η προοπτική δεν ισοδυναμεί με επενδυτική απόφαση. Χρειάζονται κατονομασμένος εταίρος, περιοχή και συμφωνημένοι όροι πριν ενταχθεί σε συγκεκριμένο χρονοδιάγραμμα ερευνών.",
+        "text": "Οι χωριστές συναντήσεις Τραμπ με Πούτιν και Σι στη Σενζέν προηγούνται της προγραμματισμένης τριμερούς. Το επόμενο τεστ είναι αν θα δημοσιοποιηθούν κοινές δεσμεύσεις. Στην Κύπρο, η Chevron αναφέρει ότι δημιουργούνται προϋποθέσεις για πιθανή τελική επενδυτική απόφαση στο «Αφροδίτη» το 2027. Η προσδοκία εσόδων δεν αποτελεί απόφαση χρηματοδότησης ή ημερομηνία παραγωγής. Η αξιολόγηση αλλάζει όταν ανακοινωθούν δεσμευτικό επενδυτικό σχέδιο και χρονοδιάγραμμα.",
         "story_ids": [
-          "china-korea-media-travel-trade-access-2026-11-19",
-          "helleniq-cyprus-exploration-partnership-option-2026-11-19"
+          "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
+          "aphrodite-chevron-fid-outlook-2026-11-19"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-19T05:39:02.928605+00:00",
-  "updated_at": "2026-11-19T05:39:02.928605+00:00",
-  "input_sha256": "d8f4f1711054ec0a52cb48c3705b651e0e3240446a2c57e17dacb99fa78b685b"
+  "updated_at": "2026-11-19T11:38:47.361135+00:00",
+  "input_sha256": "f71daea429dce40b69caea6858728c45438e9f8c87ab3572d3e769484845b6d6"
 }

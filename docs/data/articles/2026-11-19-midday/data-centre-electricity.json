@@ -1,0 +1,67 @@
+{
+  "analysis_sources": [],
+  "category": "Διεθνή",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 3,
+    "section": "world"
+  },
+  "delta_update": "Η πρόβλεψη εξειδικεύει την ενεργειακή πίεση από την επέκταση της υπολογιστικής υποδομής.",
+  "driver_tags": [
+    "energy",
+    "technology",
+    "infrastructure"
+  ],
+  "edition_id": "2026-11-19-midday",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Ο IEA προβλέπει πιθανό διπλασιασμό της κατανάλωσης ρεύματος των κέντρων δεδομένων",
+  "id": "data-centre-electricity",
+  "image": {
+    "alt": "Data center electricity use could double by 2030, IEA says",
+    "attribution": "CNBC",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Data center electricity use could double by 2030, IEA says · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html",
+    "original_url": "https://image.cnbcfm.com/api/v1/image/108554983-1795077775639-gettyimages-2256322513-dji_20260114174803_0111_d_fs0a4xfd.jpeg?v=1795077817&w=1200&h=675",
+    "retrieved_at": "2026-11-19T10:21:20.596046+00:00",
+    "source_review": {
+      "checked_at": "2026-11-19T10:21:20.596046+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "1be634b8f0716a22",
+      "rights_basis": "publisher-attribution",
+      "sha256": "ca5b8cbbe3c7513f16900bec6e96cb5dae47b21f3ca890ad89c42b346afbaaf4"
+    },
+    "source_url": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html",
+    "url": "assets/editorial/source/ca5b8cbbe3c7513f16900bec6e96cb5dae47b21f3ca890ad89c42b346afbaaf4.webp"
+  },
+  "published_at": "2026-11-19T11:34:07.768307+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Τα κέντρα δεδομένων μπορεί να καταναλώνουν περίπου 1.000 τεραβατώρες ετησίως έως το 2030 στο σενάριο δηλωμένων πολιτικών του IEA, σύμφωνα με το CNBC. Περιορισμένη δυναμικότητα δικτύων, εφοδιαστικές δυσκολίες και τοπικές αντιδράσεις μπορεί να επιβραδύνουν νέες κατασκευές. Η εκτίμηση αποτελεί σενάριο, όχι βέβαιο αποτέλεσμα."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-19T10:14:03+00:00",
+      "publisher": "CNBC",
+      "reporting_group": "CNBC",
+      "retrieved_at": "2026-11-19T10:21:12.132165+00:00",
+      "url": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "iea-data-centre-electricity-2030-scenario-2026-11-19",
+  "story_identity": "iea-data-centre-electricity-2030-scenario-2026-11-19",
+  "summary": "Τα κέντρα δεδομένων μπορεί να καταναλώνουν περίπου 1.000 τεραβατώρες ετησίως έως το 2030 στο σενάριο δηλωμένων πολιτικών του IEA, σύμφωνα με το CNBC. Περιορισμένη δυναμικότητα δικτύων, εφοδιαστικές δυσκολίες και τοπικές αντιδράσεις μπορεί να επιβραδύνουν νέες κατασκευές. Η εκτίμηση αποτελεί σενάριο, όχι βέβαιο αποτέλεσμα.",
+  "updated_at": "2026-11-19T11:34:07.768307+00:00",
+  "url": "articles/2026-11-19-midday/data-centre-electricity.html"
+}
