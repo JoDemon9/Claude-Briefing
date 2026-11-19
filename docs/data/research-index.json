@@ -793,6 +793,14 @@
       "published_at": "2026-11-18T05:33:08.219839+00:00",
       "url": "morning/2026-11-18.html",
       "fingerprint": "881ce868d7e10ba4ab81a9ba0fa01a3edacd4efd02b445c00b6a92a6db5b7c4f"
+    },
+    {
+      "id": "2026-11-19-morning",
+      "date": "2026-11-19",
+      "type": "morning",
+      "published_at": "2026-11-19T05:35:03.754246+00:00",
+      "url": "morning/2026-11-19.html",
+      "fingerprint": "9d958942221febba663147a5a4468af54ad4ce2a89549186bc1dc124c61cf3e4"
     }
   ],
   "stories": [
@@ -30297,6 +30305,303 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/16b638539f18a0e4abac27d2b05363d1fab91c8e879fa47288fa8acbe5190036.webp"
+    },
+    {
+      "story_id": "china-korea-media-travel-trade-access-2026-11-19",
+      "identity": "china-korea-media-travel-trade-access-2026-11-19",
+      "edition_id": "2026-11-19-morning",
+      "date": "2026-11-19",
+      "slot": "morning",
+      "published_at": "2026-11-19T05:35:03.754246+00:00",
+      "available_at": "2026-11-19T05:35:03.754246+00:00",
+      "headline": "Η προσέγγιση Σεούλ–Πεκίνου ενισχύει κορεατικές μετοχές περιεχομένου και τουρισμού",
+      "finding": "Μετοχές νοτιοκορεατικών εταιρειών ψυχαγωγίας, παιχνιδιών και ταξιδιών ενισχύθηκαν σήμερα, καθώς Σεούλ και Πεκίνο έχουν σε μεγάλο βαθμό ολοκληρώσει εμπορική συμφωνία, σύμφωνα με το CNBC. Στον τουρισμό προβλέπεται δυνατότητα κορεατικών πρακτορείων σε 23 κινεζικές περιφέρειες να προσελκύουν απευθείας κατοίκους για ταξίδια στο εξωτερικό. Αναλυτής θεωρεί ότι η κίνηση αυξάνει και τις προσδοκίες χαλάρωσης των περιορισμών στο κορεατικό περιεχόμενο.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-19-morning/korea-china-trade-access.json",
+      "reader_url": "articles/2026-11-19-morning/korea-china-trade-access.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/19/china-south-korea-trade-deal-films-gaming.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-19T02:54:37+00:00",
+          "retrieved_at": "2026-11-19T04:21:09.742221+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8d84a65c952fb60f16ceae659b2e80e0c500fabc748b26a6f40f623a87a04940.webp"
+    },
+    {
+      "story_id": "coinbase-musk-deepfake-transfer-blocks-2026-11-18",
+      "identity": "coinbase-musk-deepfake-transfer-blocks-2026-11-18",
+      "edition_id": "2026-11-19-morning",
+      "date": "2026-11-19",
+      "slot": "morning",
+      "published_at": "2026-11-19T05:35:03.754246+00:00",
+      "available_at": "2026-11-19T05:35:03.754246+00:00",
+      "headline": "Η Coinbase λέει ότι μπλόκαρε 4,7 εκατ. δολάρια σε απάτη με deepfake του Μασκ",
+      "finding": "Η Coinbase αναφέρει ότι απέτρεψε μεταφορές κρυπτονομισμάτων 4,7 εκατ. δολαρίων προς απατεώνες που προωθούσαν ψεύτικη δωρεά με βίντεο τεχνητής νοημοσύνης του Έλον Μασκ, μεταδίδει το BleepingComputer. Η εταιρεία εκτιμά ότι μπλόκαρε περίπου το 91% των προσπαθειών μεταφοράς που περιγράφει. Πρόκειται για εταιρικό απολογισμό προστασίας πελατών, όχι για παραβίαση του ανταλλακτηρίου ή ανεξάρτητα ελεγμένο ποσοστό αποτελεσματικότητας.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-19-morning/coinbase-deepfake-scam.json",
+      "reader_url": "articles/2026-11-19-morning/coinbase-deepfake-scam.html",
+      "sources": [
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam",
+          "publisher": "BleepingComputer",
+          "reporting_group": "BleepingComputer",
+          "published_at": "2026-11-18T20:49:32+00:00",
+          "retrieved_at": "2026-11-19T04:21:10.108027+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/db9db40265fbe5f4b6c38ceafa777268f827916c1de2d4e7736ccca5c8246748.webp"
+    },
+    {
+      "story_id": "us-microsoft-aviation-nsa-outage-assessments-2026-11-18",
+      "identity": "us-microsoft-aviation-nsa-outage-assessments-2026-11-18",
+      "edition_id": "2026-11-19-morning",
+      "date": "2026-11-19",
+      "slot": "morning",
+      "published_at": "2026-11-19T05:35:03.754246+00:00",
+      "available_at": "2026-11-19T05:35:03.754246+00:00",
+      "headline": "Αμερικανοί αξιωματούχοι δεν αναφέρουν εντοπισμένη κακόβουλη δραστηριότητα στις βλάβες",
+      "finding": "Διαδοχικές βλάβες επηρέασαν υπηρεσίες της Microsoft, αμερικανικές αερομεταφορές και εσωτερικό δίκτυο επικοινωνίας της NSA, σύμφωνα με το SigmaLive. Το FBI δήλωσε ότι δεν είχε εντοπίσει κακόβουλη δραστηριότητα έως την ενημέρωσή του. Ειδικά για τη NSA, το περιστατικό αποδόθηκε σε συντήρηση ρουτίνας. Οι δηλώσεις δεν τεκμηριώνουν κοινή αιτία για όλες τις διακοπές ούτε ολοκληρωμένη τεχνική έκθεση.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-19-morning/us-service-outage-assessments.json",
+      "reader_url": "articles/2026-11-19-morning/us-service-outage-assessments.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/scitech/1338231/kathisikhazoyn-oi-hpa-ghia-tis-vlaves-se-microsoft-aerometafores-kai-nsa",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-18T21:44:49+00:00",
+          "retrieved_at": "2026-11-19T04:21:14.091728+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/475e83763da8216f57527a9b1eb57153ea326f01e718eeaf0ebdb37efd6c5174.webp"
+    },
+    {
+      "story_id": "haiti-moise-sanon-miami-verdict-2026-11-18",
+      "identity": "haiti-moise-sanon-miami-verdict-2026-11-18",
+      "edition_id": "2026-11-19-morning",
+      "date": "2026-11-19",
+      "slot": "morning",
+      "published_at": "2026-11-19T05:35:03.754246+00:00",
+      "available_at": "2026-11-19T05:35:03.754246+00:00",
+      "headline": "Ένοχος στο Μαϊάμι ο Σανόν για συνωμοσία στη δολοφονία του προέδρου της Αϊτής",
+      "finding": "Δικαστήριο στο Μαϊάμι έκρινε την Τετάρτη ένοχο τον Κριστιάν Εμανουέλ Σανόν και στις οκτώ κατηγορίες που αντιμετώπιζε, περιλαμβανομένης συνωμοσίας για τη δολοφονία του Ζοβενέλ Μοΐζ, σύμφωνα με το Al Jazeera. Ο πρόεδρος της Αϊτής δολοφονήθηκε στο σπίτι του στις 7 Ιουλίου 2021. Οι εισαγγελείς υποστήριξαν ότι ο Σανόν επιδίωκε να τον διαδεχθεί.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-19-morning/haiti-assassination-verdict.json",
+      "reader_url": "articles/2026-11-19-morning/haiti-assassination-verdict.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/19/miami-court-convicts-us-haitian-pastor-over-2021-assassination-of-president?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-19T03:58:10+00:00",
+          "retrieved_at": "2026-11-19T04:21:09.367999+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/cdefed1c21a4ff28de73dda2bc5d403d64be601f5dcaf02f9aaf1e6ae93c33c2.webp"
+    },
+    {
+      "story_id": "cop31-vanuatu-process-reform-call-2026-11-19",
+      "identity": "cop31-vanuatu-process-reform-call-2026-11-19",
+      "edition_id": "2026-11-19-morning",
+      "date": "2026-11-19",
+      "slot": "morning",
+      "published_at": "2026-11-19T05:35:03.754246+00:00",
+      "available_at": "2026-11-19T05:35:03.754246+00:00",
+      "headline": "Το Βανουάτου ζητά αλλαγές στη διαδικασία των κλιματικών συνόδων",
+      "finding": "Ο υπουργός Περιβάλλοντος του Βανουάτου Ραλφ Ρεγκενβάνου ζήτησε μεταρρύθμιση της διαδικασίας των συνόδων COP, σύμφωνα με το France 24. Υποστήριξε ότι μικρή ομάδα κρατών εμποδίζει την πρόοδο και τη φιλοδοξία των υπολοίπων. Η παρέμβαση έγινε στην COP31 στην Τουρκία, η οποία βρίσκεται στις τελευταίες ημέρες της. Πρόκειται για κριτική και αίτημα του υπουργού, όχι για ήδη συμφωνημένη αλλαγή κανόνων.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-11-19-morning/cop31-vanuatu-reform.json",
+      "reader_url": "articles/2026-11-19-morning/cop31-vanuatu-reform.html",
+      "sources": [
+        {
+          "url": "https://www.france24.com/en/europe/20261119-cop31-vanuatu-un-climate-summit-reform-warns-of-backsliding",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-11-19T02:00:39+00:00",
+          "retrieved_at": "2026-11-19T04:21:09.898637+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0edf987d624707c2b1c4ac6552d2e7cf6fda76b29f44e151c83ba1deb3fad332.webp"
+    },
+    {
+      "story_id": "helleniq-cyprus-exploration-partnership-option-2026-11-19",
+      "identity": "helleniq-cyprus-exploration-partnership-option-2026-11-19",
+      "edition_id": "2026-11-19-morning",
+      "date": "2026-11-19",
+      "slot": "morning",
+      "published_at": "2026-11-19T05:35:03.754246+00:00",
+      "available_at": "2026-11-19T05:35:03.754246+00:00",
+      "headline": "Ανοικτό ενδεχόμενο συνεργασίας για κυπριακές έρευνες αερίου αφήνει η HELLENiQ",
+      "finding": "Η HELLENiQ ENERGY δεν αποκλείει συμμετοχή στο κυπριακό πρόγραμμα υπεράκτιων ερευνών φυσικού αερίου μέσω συνεργασίας με άλλη εταιρεία, σύμφωνα με το Cyprus Mail. Το απόσπασμα δεν κατονομάζει συμφωνία ή κυπριακή περιοχή. Ξεχωριστά, περιγράφει τη συμφωνία της με τη Chevron τον Φεβρουάριο του 2026 για τέσσερις θαλάσσιες περιοχές νότια της Κρήτης και της Πελοποννήσου.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-19-morning/helleniq-cyprus-option.json",
+      "reader_url": "articles/2026-11-19-morning/helleniq-cyprus-option.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/19/helleniq-energy-keeps-door-open-to-potential-cyprus-gas-exploration-partnership",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-19T03:00:00+00:00",
+          "retrieved_at": "2026-11-19T04:21:09.693307+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/dcbaddf2a7dea9141df90e2705d17b58193f6d7e75d605ff8e9e36b505c2d9bb.webp"
+    },
+    {
+      "story_id": "istanbul-cyprus-two-state-symposium-2026-11-19",
+      "identity": "istanbul-cyprus-two-state-symposium-2026-11-19",
+      "edition_id": "2026-11-19-morning",
+      "date": "2026-11-19",
+      "slot": "morning",
+      "published_at": "2026-11-19T05:35:03.754246+00:00",
+      "available_at": "2026-11-19T05:35:03.754246+00:00",
+      "headline": "Συμπόσιο στην Κωνσταντινούπολη προβάλλει τη λύση δύο κρατών για την Κύπρο",
+      "finding": "Συμπόσιο με θέμα το μέλλον της Κύπρου και την ανάγκη λύσης δύο κρατών πραγματοποιήθηκε στην Κωνσταντινούπολη, σύμφωνα με τον Φιλελεύθερο. Διοργανωτές ήταν το Ίδρυμα Οικονομικής Ανάπτυξης İKV, το Ινστιτούτο Ευρωπαϊκών Σπουδών του Πανεπιστημίου Μαρμαρά και η Ομάδα Σκέψης Πενταδάκτυλος. Η εκδήλωση προβάλλει συγκεκριμένη πολιτική θέση, χωρίς το απόσπασμα να τεκμηριώνει νέα διαπραγματευτική συμφωνία.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-19-morning/cyprus-two-state-symposium.json",
+      "reader_url": "articles/2026-11-19-morning/cyprus-two-state-symposium.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1797546/tourkia-symposio-konstantinoupoli-lysi-dyo-kraton",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-19T04:15:00+00:00",
+          "retrieved_at": "2026-11-19T04:21:10.417635+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/677ea171be5f166421849a641b7945d7885086258ef7609ddf96d25adc25bc50.webp"
+    },
+    {
+      "story_id": "annita-demography-youth-security-speech-2026-11-18",
+      "identity": "annita-demography-youth-security-speech-2026-11-18",
+      "edition_id": "2026-11-19-morning",
+      "date": "2026-11-19",
+      "slot": "morning",
+      "published_at": "2026-11-19T05:35:03.754246+00:00",
+      "available_at": "2026-11-19T05:35:03.754246+00:00",
+      "headline": "Ασφάλεια και προοπτική για τους νέους ζητά η Αννίτα Δημητρίου για το δημογραφικό",
+      "finding": "Η πρόεδρος του ΔΗΣΥ Αννίτα Δημητρίου συνέδεσε την αντιμετώπιση του δημογραφικού με περιβάλλον ασφάλειας και προοπτικής για τους νέους, σε εκδήλωση της ΝΕΔΗΣΥ για οικογένεια και καριέρα, σύμφωνα με το SigmaLive. Ζήτησε συντονισμένες παρεμβάσεις με μακροπρόθεσμο σχεδιασμό για τη συρρίκνωση και τη γήρανση του πληθυσμού. Στο απόσπασμα δεν εξειδικεύονται νέα μέτρα, χρηματοδότηση ή προθεσμίες εφαρμογής.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-11-19-morning/demography-youth-speech.json",
+      "reader_url": "articles/2026-11-19-morning/demography-youth-speech.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1338235/dimoghrafiko-perivallon-asfaleias-ghia-toys-neoys-zita-i-annita-dimitrioy",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-18T22:08:47+00:00",
+          "retrieved_at": "2026-11-19T04:21:10.519271+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/05d97bc620ad11a87bac83b5301cd2dd365576c11e70c994cd29da4cecdb3c2a.webp"
+    },
+    {
+      "story_id": "turkish-cypriot-ballot-leak-allegations-2026-11-18",
+      "identity": "turkish-cypriot-ballot-leak-allegations-2026-11-18",
+      "edition_id": "2026-11-19-morning",
+      "date": "2026-11-19",
+      "slot": "morning",
+      "published_at": "2026-11-19T05:35:03.754246+00:00",
+      "available_at": "2026-11-19T05:35:03.754246+00:00",
+      "headline": "Καταγγελίες για ψηφοδέλτια προκαλούν αντιπαράθεση στα κατεχόμενα",
+      "finding": "Ισχυρισμοί για μεταφορά ψηφοδελτίων έξω από το τυπογραφείο, πριν από την ψηφοφορία της 8ης Δεκεμβρίου στα κατεχόμενα, προκάλεσαν συνάντηση του Τουρκοκύπριου ηγέτη Τουφάν Έρχιουρμαν με τον επικεφαλής του εκεί δικαστηρίου, σύμφωνα με το SigmaLive. Ο Έρχιουρμαν τόνισε την ανάγκη να εκφραστεί η βούληση των ψηφοφόρων. Το απόσπασμα δεν αποδεικνύει ότι συνέβη διαρροή ή αλλοίωση ψηφοδελτίων.",
+      "section": "cyprus",
+      "priority": 9,
+      "article_path": "articles/2026-11-19-morning/ballot-leak-allegations.json",
+      "reader_url": "articles/2026-11-19-morning/ballot-leak-allegations.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1338232/katekhomena-allazei-to-khrwma-ton-psifodeltion-meta-apo-kataghghelies-diarrois",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-18T21:50:43+00:00",
+          "retrieved_at": "2026-11-19T04:21:10.446467+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/4030a8e7b43b90fd53cc72f8ee90ac1c9ba46ecd74114194751b962730c47011.webp"
+    },
+    {
+      "story_id": "ireland-ward-contract-talks-poland-playoff-2026-11-18",
+      "identity": "ireland-ward-contract-talks-poland-playoff-2026-11-18",
+      "edition_id": "2026-11-19-morning",
+      "date": "2026-11-19",
+      "slot": "morning",
+      "published_at": "2026-11-19T05:35:03.754246+00:00",
+      "available_at": "2026-11-19T05:35:03.754246+00:00",
+      "headline": "Κοντά σε ανανέωση με την Ιρλανδία δηλώνει η Κάρλα Γουόρντ",
+      "finding": "Η Κάρλα Γουόρντ δήλωσε ότι πλησιάζει σε συμφωνία επέκτασης συμβολαίου, ανακοινώνοντας την αποστολή της Ιρλανδίας για τον τελικό των μπαράζ του Μουντιάλ Γυναικών με την Πολωνία, σύμφωνα με το BBC.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-11-19-morning/ireland-ward-contract.json",
+      "reader_url": "articles/2026-11-19-morning/ireland-ward-contract.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/c6782xedd985o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-18T18:06:04+00:00",
+          "retrieved_at": "2026-11-19T04:21:10.238480+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8be74157ba376cec83faf166f8e4a561fa805eacdda48a8e9c7046575a345964.webp"
+    },
+    {
+      "story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
+      "identity": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
+      "edition_id": "2026-11-19-morning",
+      "date": "2026-11-19",
+      "slot": "morning",
+      "published_at": "2026-11-19T05:35:03.754246+00:00",
+      "available_at": "2026-11-19T05:35:03.754246+00:00",
+      "headline": "Νέοι ισχυρισμοί Μπάνκροφτ επαναφέρουν το σκάνδαλο αλλοίωσης μπάλας του 2018",
+      "finding": "Ο Guardian καταγράφει αντιδράσεις του βρετανικού Τύπου στον ισχυρισμό του Κάμερον Μπάνκροφτ ότι όλοι στην αυστραλιανή ομάδα γνώριζαν το σχέδιο αλλοίωσης της μπάλας το 2018.",
+      "section": "sports",
+      "priority": 11,
+      "article_path": "articles/2026-11-19-morning/cricket-bancroft-allegations.json",
+      "reader_url": "articles/2026-11-19-morning/cricket-bancroft-allegations.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/media/2026/nov/19/shame-old-aussies-to-fresh-chaos-what-the-uk-papers-say-about-bancrofts-explosive-ball-tampering-claims-ntwnfb",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-19T04:06:19+00:00",
+          "retrieved_at": "2026-11-19T04:21:10.371881+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f26610b85135eb5e8607be51ce297c7f63646922f7a3ff7d41224887c3a4108b.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
