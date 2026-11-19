@@ -16,12 +16,16 @@
       "type": "midday",
       "url": "midday/2026-11-19.html",
       "published_at": "2026-11-19T11:34:07.768307+00:00"
+    },
+    {
+      "id": "2026-11-19-evening",
+      "type": "evening",
+      "url": "evening/2026-11-19.html",
+      "published_at": "2026-11-19T17:36:27.280028+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
+  "missing_slots": [],
+  "lead_story_id": "myanmar-rohingya-icj-genocide-ruling-2026-11-19",
   "stories": [
     {
       "story_id": "china-korea-media-travel-trade-access-2026-11-19",
@@ -51,22 +55,22 @@
       "priority": 1
     },
     {
-      "story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
-      "first_seen_at": "2026-11-19T11:34:07.768307+00:00",
+      "story_id": "myanmar-rohingya-icj-genocide-ruling-2026-11-19",
+      "first_seen_at": "2026-11-19T17:36:27.280028+00:00",
       "last_substantive_at": null,
       "references": [
         {
-          "edition_id": "2026-11-19-midday",
-          "article_id": "shenzhen-leaders-talks",
-          "source_story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
-          "url": "articles/2026-11-19-midday/shenzhen-leaders-talks.html"
+          "edition_id": "2026-11-19-evening",
+          "article_id": "myanmar-icj-ruling",
+          "source_story_id": "myanmar-rohingya-icj-genocide-ruling-2026-11-19",
+          "url": "articles/2026-11-19-evening/myanmar-icj-ruling.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-19-midday",
-        "article_id": "shenzhen-leaders-talks",
-        "source_story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
-        "url": "articles/2026-11-19-midday/shenzhen-leaders-talks.html"
+        "edition_id": "2026-11-19-evening",
+        "article_id": "myanmar-icj-ruling",
+        "source_story_id": "myanmar-rohingya-icj-genocide-ruling-2026-11-19",
+        "url": "articles/2026-11-19-evening/myanmar-icj-ruling.html"
       },
       "section": "world",
       "priority": 1
@@ -102,16 +106,70 @@
           "article_id": "nvidia-breach-claim-investigation",
           "source_story_id": "nvidia-gentlemen-breach-claim-investigation-2026-11-19",
           "url": "articles/2026-11-19-midday/nvidia-breach-claim-investigation.html"
+        },
+        {
+          "edition_id": "2026-11-19-evening",
+          "article_id": "nvidia-breach-claim-investigation",
+          "source_story_id": "nvidia-gentlemen-breach-claim-investigation-2026-11-19",
+          "url": "articles/2026-11-19-evening/nvidia-breach-claim-investigation.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-19-midday",
+        "edition_id": "2026-11-19-evening",
         "article_id": "nvidia-breach-claim-investigation",
         "source_story_id": "nvidia-gentlemen-breach-claim-investigation-2026-11-19",
-        "url": "articles/2026-11-19-midday/nvidia-breach-claim-investigation.html"
+        "url": "articles/2026-11-19-evening/nvidia-breach-claim-investigation.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
+      "first_seen_at": "2026-11-19T11:34:07.768307+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-19-midday",
+          "article_id": "shenzhen-leaders-talks",
+          "source_story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
+          "url": "articles/2026-11-19-midday/shenzhen-leaders-talks.html"
+        },
+        {
+          "edition_id": "2026-11-19-evening",
+          "article_id": "shenzhen-declaration",
+          "source_story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
+          "url": "articles/2026-11-19-evening/shenzhen-declaration.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "shenzhen-declaration",
+        "source_story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
+        "url": "articles/2026-11-19-evening/shenzhen-declaration.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "amazon-nyc-intro518-campaign-2026-11-19",
+      "first_seen_at": "2026-11-19T17:36:27.280028+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-19-evening",
+          "article_id": "amazon-nyc-delivery-bill",
+          "source_story_id": "amazon-nyc-intro518-campaign-2026-11-19",
+          "url": "articles/2026-11-19-evening/amazon-nyc-delivery-bill.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "amazon-nyc-delivery-bill",
+        "source_story_id": "amazon-nyc-intro518-campaign-2026-11-19",
+        "url": "articles/2026-11-19-evening/amazon-nyc-delivery-bill.html"
+      },
+      "section": "world",
+      "priority": 3
     },
     {
       "story_id": "iea-data-centre-electricity-2030-scenario-2026-11-19",
@@ -123,13 +181,19 @@
           "article_id": "data-centre-electricity",
           "source_story_id": "iea-data-centre-electricity-2030-scenario-2026-11-19",
           "url": "articles/2026-11-19-midday/data-centre-electricity.html"
+        },
+        {
+          "edition_id": "2026-11-19-evening",
+          "article_id": "data-centre-electricity",
+          "source_story_id": "iea-data-centre-electricity-2030-scenario-2026-11-19",
+          "url": "articles/2026-11-19-evening/data-centre-electricity.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-19-midday",
+        "edition_id": "2026-11-19-evening",
         "article_id": "data-centre-electricity",
         "source_story_id": "iea-data-centre-electricity-2030-scenario-2026-11-19",
-        "url": "articles/2026-11-19-midday/data-centre-electricity.html"
+        "url": "articles/2026-11-19-evening/data-centre-electricity.html"
       },
       "section": "world",
       "priority": 3
@@ -165,13 +229,40 @@
           "article_id": "aphrodite-investment-outlook",
           "source_story_id": "aphrodite-chevron-fid-outlook-2026-11-19",
           "url": "articles/2026-11-19-midday/aphrodite-investment-outlook.html"
+        },
+        {
+          "edition_id": "2026-11-19-evening",
+          "article_id": "aphrodite-investment-outlook",
+          "source_story_id": "aphrodite-chevron-fid-outlook-2026-11-19",
+          "url": "articles/2026-11-19-evening/aphrodite-investment-outlook.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-19-midday",
+        "edition_id": "2026-11-19-evening",
         "article_id": "aphrodite-investment-outlook",
         "source_story_id": "aphrodite-chevron-fid-outlook-2026-11-19",
-        "url": "articles/2026-11-19-midday/aphrodite-investment-outlook.html"
+        "url": "articles/2026-11-19-evening/aphrodite-investment-outlook.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "cyprus-weee-financing-regulations-vote-2026-11-19",
+      "first_seen_at": "2026-11-19T17:36:27.280028+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-19-evening",
+          "article_id": "electrical-waste-regulations",
+          "source_story_id": "cyprus-weee-financing-regulations-vote-2026-11-19",
+          "url": "articles/2026-11-19-evening/electrical-waste-regulations.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "electrical-waste-regulations",
+        "source_story_id": "cyprus-weee-financing-regulations-vote-2026-11-19",
+        "url": "articles/2026-11-19-evening/electrical-waste-regulations.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -225,6 +316,27 @@
       "priority": 5
     },
     {
+      "story_id": "larnaca-tourism-board-email-compromise-2026-11-19",
+      "first_seen_at": "2026-11-19T17:36:27.280028+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-19-evening",
+          "article_id": "larnaca-tourism-email",
+          "source_story_id": "larnaca-tourism-board-email-compromise-2026-11-19",
+          "url": "articles/2026-11-19-evening/larnaca-tourism-email.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "larnaca-tourism-email",
+        "source_story_id": "larnaca-tourism-board-email-compromise-2026-11-19",
+        "url": "articles/2026-11-19-evening/larnaca-tourism-email.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
       "story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
       "first_seen_at": "2026-11-19T11:34:07.768307+00:00",
       "last_substantive_at": null,
@@ -234,16 +346,43 @@
           "article_id": "mazotos-tree-cutting",
           "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
           "url": "articles/2026-11-19-midday/mazotos-tree-cutting.html"
+        },
+        {
+          "edition_id": "2026-11-19-evening",
+          "article_id": "mazotos-tree-cutting",
+          "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+          "url": "articles/2026-11-19-evening/mazotos-tree-cutting.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-19-midday",
+        "edition_id": "2026-11-19-evening",
         "article_id": "mazotos-tree-cutting",
         "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
-        "url": "articles/2026-11-19-midday/mazotos-tree-cutting.html"
+        "url": "articles/2026-11-19-evening/mazotos-tree-cutting.html"
       },
       "section": "cyprus",
       "priority": 5
+    },
+    {
+      "story_id": "cyprus-parliament-2029-power-adequacy-warning-2026-11-19",
+      "first_seen_at": "2026-11-19T17:36:27.280028+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-19-evening",
+          "article_id": "cyprus-power-adequacy-debate",
+          "source_story_id": "cyprus-parliament-2029-power-adequacy-warning-2026-11-19",
+          "url": "articles/2026-11-19-evening/cyprus-power-adequacy-debate.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "cyprus-power-adequacy-debate",
+        "source_story_id": "cyprus-parliament-2029-power-adequacy-warning-2026-11-19",
+        "url": "articles/2026-11-19-evening/cyprus-power-adequacy-debate.html"
+      },
+      "section": "cyprus",
+      "priority": 6
     },
     {
       "story_id": "cyprus-teacher-employer-cost-study-2026-11-19",
@@ -303,13 +442,19 @@
           "article_id": "aguascalientes-finals-race",
           "source_story_id": "aguascalientes-fip-finals-qualification-2026-11-19",
           "url": "articles/2026-11-19-midday/aguascalientes-finals-race.html"
+        },
+        {
+          "edition_id": "2026-11-19-evening",
+          "article_id": "aguascalientes-finals-race",
+          "source_story_id": "aguascalientes-fip-finals-qualification-2026-11-19",
+          "url": "articles/2026-11-19-evening/aguascalientes-finals-race.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-19-midday",
+        "edition_id": "2026-11-19-evening",
         "article_id": "aguascalientes-finals-race",
         "source_story_id": "aguascalientes-fip-finals-qualification-2026-11-19",
-        "url": "articles/2026-11-19-midday/aguascalientes-finals-race.html"
+        "url": "articles/2026-11-19-evening/aguascalientes-finals-race.html"
       },
       "section": "sports",
       "priority": 7
@@ -366,13 +511,19 @@
           "article_id": "fifa-candidates-confirmed",
           "source_story_id": "fifa-2027-nomination-deadline-2026-11-18",
           "url": "articles/2026-11-19-midday/fifa-candidates-confirmed.html"
+        },
+        {
+          "edition_id": "2026-11-19-evening",
+          "article_id": "fifa-candidates-confirmed",
+          "source_story_id": "fifa-2027-nomination-deadline-2026-11-18",
+          "url": "articles/2026-11-19-evening/fifa-candidates-confirmed.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-19-midday",
+        "edition_id": "2026-11-19-evening",
         "article_id": "fifa-candidates-confirmed",
         "source_story_id": "fifa-2027-nomination-deadline-2026-11-18",
-        "url": "articles/2026-11-19-midday/fifa-candidates-confirmed.html"
+        "url": "articles/2026-11-19-evening/fifa-candidates-confirmed.html"
       },
       "section": "sports",
       "priority": 8
@@ -441,13 +592,19 @@
           "article_id": "cricket-bancroft-allegations",
           "source_story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
           "url": "articles/2026-11-19-midday/cricket-bancroft-allegations.html"
+        },
+        {
+          "edition_id": "2026-11-19-evening",
+          "article_id": "cricket-bancroft-allegations",
+          "source_story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
+          "url": "articles/2026-11-19-evening/cricket-bancroft-allegations.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-19-midday",
+        "edition_id": "2026-11-19-evening",
         "article_id": "cricket-bancroft-allegations",
         "source_story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
-        "url": "articles/2026-11-19-midday/cricket-bancroft-allegations.html"
+        "url": "articles/2026-11-19-evening/cricket-bancroft-allegations.html"
       },
       "section": "sports",
       "priority": 11
@@ -789,6 +946,188 @@
         "source_story_id": "turkish-cypriot-ballot-leak-allegations-2026-11-18",
         "url": "articles/2026-11-19-midday/ballot-leak-allegations.html"
       }
+    },
+    {
+      "id": "117af1dc3275ada79bcf8845717daa41e248737afdd54e9c1eb3e93fa504e31f",
+      "kind": "provenance",
+      "at": "2026-11-19T17:36:27.280028+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "shenzhen-declaration",
+        "source_story_id": "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
+        "url": "articles/2026-11-19-evening/shenzhen-declaration.html"
+      }
+    },
+    {
+      "id": "1a212a9811da132ba333de161ca8ba9ec658cf533458615281f6a41f90225e72",
+      "kind": "provenance",
+      "at": "2026-11-19T17:36:27.280028+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-weee-financing-regulations-vote-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "electrical-waste-regulations",
+        "source_story_id": "cyprus-weee-financing-regulations-vote-2026-11-19",
+        "url": "articles/2026-11-19-evening/electrical-waste-regulations.html"
+      }
+    },
+    {
+      "id": "1b821f6d9d03f765efed01b8bb7c450e6105e64e4cd098e43b6c6722d7b6f8be",
+      "kind": "provenance",
+      "at": "2026-11-19T17:36:27.280028+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "iea-data-centre-electricity-2030-scenario-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "data-centre-electricity",
+        "source_story_id": "iea-data-centre-electricity-2030-scenario-2026-11-19",
+        "url": "articles/2026-11-19-evening/data-centre-electricity.html"
+      }
+    },
+    {
+      "id": "2f9688aaf16ab4455189ba908e17a1dbbcf76cf8b9134539abc83134299003f6",
+      "kind": "provenance",
+      "at": "2026-11-19T17:36:27.280028+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "myanmar-rohingya-icj-genocide-ruling-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "myanmar-icj-ruling",
+        "source_story_id": "myanmar-rohingya-icj-genocide-ruling-2026-11-19",
+        "url": "articles/2026-11-19-evening/myanmar-icj-ruling.html"
+      }
+    },
+    {
+      "id": "71dc04007f67da6a6a25dc9075587a4c5e4a330b068adac209c77598cadacd3f",
+      "kind": "provenance",
+      "at": "2026-11-19T17:36:27.280028+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "amazon-nyc-intro518-campaign-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "amazon-nyc-delivery-bill",
+        "source_story_id": "amazon-nyc-intro518-campaign-2026-11-19",
+        "url": "articles/2026-11-19-evening/amazon-nyc-delivery-bill.html"
+      }
+    },
+    {
+      "id": "98525f4d4a768a22ed66db6ee7f04c1f9905b76f2f05ed1456633cc20f7ca918",
+      "kind": "provenance",
+      "at": "2026-11-19T17:36:27.280028+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-gentlemen-breach-claim-investigation-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "nvidia-breach-claim-investigation",
+        "source_story_id": "nvidia-gentlemen-breach-claim-investigation-2026-11-19",
+        "url": "articles/2026-11-19-evening/nvidia-breach-claim-investigation.html"
+      }
+    },
+    {
+      "id": "a976b19d13747551a4c20790f21fe771c9eda0ef161dd3b8ddb8164d69da3eb1",
+      "kind": "provenance",
+      "at": "2026-11-19T17:36:27.280028+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "aguascalientes-fip-finals-qualification-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "aguascalientes-finals-race",
+        "source_story_id": "aguascalientes-fip-finals-qualification-2026-11-19",
+        "url": "articles/2026-11-19-evening/aguascalientes-finals-race.html"
+      }
+    },
+    {
+      "id": "ac1ffb7d227ad4ba0267a872d84559b3a3b8c236be89c27e2e6e2980954945d9",
+      "kind": "provenance",
+      "at": "2026-11-19T17:36:27.280028+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "mazotos-tree-cutting",
+        "source_story_id": "mazotos-mobile-desalination-timetable-2026-11-18",
+        "url": "articles/2026-11-19-evening/mazotos-tree-cutting.html"
+      }
+    },
+    {
+      "id": "bfdcd7b25b58576bf97005b08621f9eb61dd425504587ca8248681ad852d5899",
+      "kind": "provenance",
+      "at": "2026-11-19T17:36:27.280028+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "aphrodite-chevron-fid-outlook-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "aphrodite-investment-outlook",
+        "source_story_id": "aphrodite-chevron-fid-outlook-2026-11-19",
+        "url": "articles/2026-11-19-evening/aphrodite-investment-outlook.html"
+      }
+    },
+    {
+      "id": "cc964c1e71557cb2ccd1d7bdf0c1c91051936b8a87607202f9625a879003a978",
+      "kind": "provenance",
+      "at": "2026-11-19T17:36:27.280028+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "fifa-2027-nomination-deadline-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "fifa-candidates-confirmed",
+        "source_story_id": "fifa-2027-nomination-deadline-2026-11-18",
+        "url": "articles/2026-11-19-evening/fifa-candidates-confirmed.html"
+      }
+    },
+    {
+      "id": "cd910993ed39b9bcf10082550e2bdce1a36f2c995d1bb4730b8dec9064e5fd97",
+      "kind": "provenance",
+      "at": "2026-11-19T17:36:27.280028+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "cricket-bancroft-allegations",
+        "source_story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
+        "url": "articles/2026-11-19-evening/cricket-bancroft-allegations.html"
+      }
+    },
+    {
+      "id": "d5c2982bac5f956fe027d468822fd66d71864b18c52b53f49fce8118e5c2db8a",
+      "kind": "provenance",
+      "at": "2026-11-19T17:36:27.280028+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "larnaca-tourism-board-email-compromise-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "larnaca-tourism-email",
+        "source_story_id": "larnaca-tourism-board-email-compromise-2026-11-19",
+        "url": "articles/2026-11-19-evening/larnaca-tourism-email.html"
+      }
+    },
+    {
+      "id": "e86268a22718219835c57c139263d95804a619282657f4cf584aaff263760a5e",
+      "kind": "provenance",
+      "at": "2026-11-19T17:36:27.280028+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-parliament-2029-power-adequacy-warning-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-19-evening",
+        "article_id": "cyprus-power-adequacy-debate",
+        "source_story_id": "cyprus-parliament-2029-power-adequacy-warning-2026-11-19",
+        "url": "articles/2026-11-19-evening/cyprus-power-adequacy-debate.html"
+      }
     }
   ],
   "opportunities": [
@@ -997,16 +1336,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Οι χωριστές συναντήσεις Τραμπ με Πούτιν και Σι στη Σενζέν προηγούνται της προγραμματισμένης τριμερούς. Το επόμενο τεστ είναι αν θα δημοσιοποιηθούν κοινές δεσμεύσεις. Στην Κύπρο, η Chevron αναφέρει ότι δημιουργούνται προϋποθέσεις για πιθανή τελική επενδυτική απόφαση στο «Αφροδίτη» το 2027. Η προσδοκία εσόδων δεν αποτελεί απόφαση χρηματοδότησης ή ημερομηνία παραγωγής. Η αξιολόγηση αλλάζει όταν ανακοινωθούν δεσμευτικό επενδυτικό σχέδιο και χρονοδιάγραμμα.",
+        "text": "Το Διεθνές Δικαστήριο έκρινε ότι οι ενέργειες των δυνάμεων της Μιανμάρ κατά των Ροχίνγκια το 2017 συνιστούσαν γενοκτονία. Για τους επιζώντες, η δικαστική αναγνώριση μεταφέρει το βάρος στα επόμενα βήματα εφαρμογής. Στη Σενζέν, η τριμερής κατέληξε σε διακήρυξη, χωρίς αναφορά στους πολέμους Ουκρανίας και Ιράν, σύμφωνα με τον Guardian. Αυτό περιορίζει όσα μπορούμε να συμπεράνουμε για τις συγκεκριμένες συγκρούσεις. Στην Κύπρο, οι εγκεκριμένοι κανονισμοί για ηλεκτρικά απόβλητα αποσαφηνίζουν τη χρηματοδότηση διαχείρισής τους· το δημοσιευμένο κείμενο θα δείξει τις πρακτικές υποχρεώσεις.",
         "story_ids": [
-          "shenzhen-trump-putin-xi-separate-talks-2026-11-19",
-          "aphrodite-chevron-fid-outlook-2026-11-19"
+          "myanmar-rohingya-icj-genocide-ruling-2026-11-19",
+          "shenzhen-trump-putin-xi-separate-talks-2026-11-19"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-19T05:39:02.928605+00:00",
-  "updated_at": "2026-11-19T11:38:47.361135+00:00",
-  "input_sha256": "f71daea429dce40b69caea6858728c45438e9f8c87ab3572d3e769484845b6d6"
+  "updated_at": "2026-11-19T17:38:41.160322+00:00",
+  "input_sha256": "48d2acce4f1270103e178acb0d40620d1c122e915c482ab304de7d6dd9f625f8"
 }
