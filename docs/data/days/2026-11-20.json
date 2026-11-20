@@ -16,13 +16,38 @@
       "type": "midday",
       "url": "midday/2026-11-20.html",
       "published_at": "2026-11-20T11:34:11.430228+00:00"
+    },
+    {
+      "id": "2026-11-20-evening",
+      "type": "evening",
+      "url": "evening/2026-11-20.html",
+      "published_at": "2026-11-20T17:38:26.343717+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
+  "missing_slots": [],
+  "lead_story_id": "anthropic-second-session-selloff-2026-11-20",
   "stories": [
+    {
+      "story_id": "anthropic-second-session-selloff-2026-11-20",
+      "first_seen_at": "2026-11-20T17:38:26.343717+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-20-evening",
+          "article_id": "anthropic-market-selloff",
+          "source_story_id": "anthropic-second-session-selloff-2026-11-20",
+          "url": "articles/2026-11-20-evening/anthropic-market-selloff.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "anthropic-market-selloff",
+        "source_story_id": "anthropic-second-session-selloff-2026-11-20",
+        "url": "articles/2026-11-20-evening/anthropic-market-selloff.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
       "first_seen_at": "2026-11-20T11:34:11.430228+00:00",
@@ -33,13 +58,19 @@
           "article_id": "kyiv-bridges",
           "source_story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
           "url": "articles/2026-11-20-midday/kyiv-bridges.html"
+        },
+        {
+          "edition_id": "2026-11-20-evening",
+          "article_id": "kyiv-bridges",
+          "source_story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
+          "url": "articles/2026-11-20-evening/kyiv-bridges.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-20-midday",
+        "edition_id": "2026-11-20-evening",
         "article_id": "kyiv-bridges",
         "source_story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
-        "url": "articles/2026-11-20-midday/kyiv-bridges.html"
+        "url": "articles/2026-11-20-evening/kyiv-bridges.html"
       },
       "section": "world",
       "priority": 1
@@ -70,6 +101,27 @@
       },
       "section": "world",
       "priority": 1
+    },
+    {
+      "story_id": "airbnb-standard-house-rules-effective-2026-11-20",
+      "first_seen_at": "2026-11-20T17:38:26.343717+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-20-evening",
+          "article_id": "airbnb-house-rules",
+          "source_story_id": "airbnb-standard-house-rules-effective-2026-11-20",
+          "url": "articles/2026-11-20-evening/airbnb-house-rules.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "airbnb-house-rules",
+        "source_story_id": "airbnb-standard-house-rules-effective-2026-11-20",
+        "url": "articles/2026-11-20-evening/airbnb-house-rules.html"
+      },
+      "section": "world",
+      "priority": 2
     },
     {
       "story_id": "meta-net-zero-timeline-review-2026-11-19",
@@ -108,13 +160,19 @@
           "article_id": "pakistan-india-visit",
           "source_story_id": "pakistan-malik-india-multilateral-visit-2026-11-20",
           "url": "articles/2026-11-20-midday/pakistan-india-visit.html"
+        },
+        {
+          "edition_id": "2026-11-20-evening",
+          "article_id": "pakistan-india-visit",
+          "source_story_id": "pakistan-malik-india-multilateral-visit-2026-11-20",
+          "url": "articles/2026-11-20-evening/pakistan-india-visit.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-20-midday",
+        "edition_id": "2026-11-20-evening",
         "article_id": "pakistan-india-visit",
         "source_story_id": "pakistan-malik-india-multilateral-visit-2026-11-20",
-        "url": "articles/2026-11-20-midday/pakistan-india-visit.html"
+        "url": "articles/2026-11-20-evening/pakistan-india-visit.html"
       },
       "section": "world",
       "priority": 2
@@ -129,13 +187,19 @@
           "article_id": "asus-console-patches",
           "source_story_id": "asus-control-center-critical-fixes-2026-11-19",
           "url": "articles/2026-11-20-midday/asus-console-patches.html"
+        },
+        {
+          "edition_id": "2026-11-20-evening",
+          "article_id": "asus-console-patches",
+          "source_story_id": "asus-control-center-critical-fixes-2026-11-19",
+          "url": "articles/2026-11-20-evening/asus-console-patches.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-20-midday",
+        "edition_id": "2026-11-20-evening",
         "article_id": "asus-console-patches",
         "source_story_id": "asus-control-center-critical-fixes-2026-11-19",
-        "url": "articles/2026-11-20-midday/asus-console-patches.html"
+        "url": "articles/2026-11-20-evening/asus-console-patches.html"
       },
       "section": "world",
       "priority": 3
@@ -162,6 +226,48 @@
       "priority": 3
     },
     {
+      "story_id": "cyprus-civil-defence-72-hour-household-guide-2026-11-20",
+      "first_seen_at": "2026-11-20T17:38:26.343717+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-20-evening",
+          "article_id": "household-preparedness",
+          "source_story_id": "cyprus-civil-defence-72-hour-household-guide-2026-11-20",
+          "url": "articles/2026-11-20-evening/household-preparedness.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "household-preparedness",
+        "source_story_id": "cyprus-civil-defence-72-hour-household-guide-2026-11-20",
+        "url": "articles/2026-11-20-evening/household-preparedness.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
+      "story_id": "cyprus-coloured-diesel-agricultural-aid-2026-11-20",
+      "first_seen_at": "2026-11-20T17:38:26.343717+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-20-evening",
+          "article_id": "agricultural-diesel-aid",
+          "source_story_id": "cyprus-coloured-diesel-agricultural-aid-2026-11-20",
+          "url": "articles/2026-11-20-evening/agricultural-diesel-aid.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "agricultural-diesel-aid",
+        "source_story_id": "cyprus-coloured-diesel-agricultural-aid-2026-11-20",
+        "url": "articles/2026-11-20-evening/agricultural-diesel-aid.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
       "story_id": "cyprus-government-debt-nonresident-holdings-2025",
       "first_seen_at": "2026-11-20T11:34:11.430228+00:00",
       "last_substantive_at": null,
@@ -171,13 +277,19 @@
           "article_id": "debt-investor-base",
           "source_story_id": "cyprus-government-debt-nonresident-holdings-2025",
           "url": "articles/2026-11-20-midday/debt-investor-base.html"
+        },
+        {
+          "edition_id": "2026-11-20-evening",
+          "article_id": "debt-investor-base",
+          "source_story_id": "cyprus-government-debt-nonresident-holdings-2025",
+          "url": "articles/2026-11-20-evening/debt-investor-base.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-20-midday",
+        "edition_id": "2026-11-20-evening",
         "article_id": "debt-investor-base",
         "source_story_id": "cyprus-government-debt-nonresident-holdings-2025",
-        "url": "articles/2026-11-20-midday/debt-investor-base.html"
+        "url": "articles/2026-11-20-evening/debt-investor-base.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -204,6 +316,33 @@
       "priority": 4
     },
     {
+      "story_id": "avakoum-monastery-cash-invoice-testimony-2026-11-19",
+      "first_seen_at": "2026-11-20T05:35:21.700409+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-20-morning",
+          "article_id": "avakoum-trial-testimony",
+          "source_story_id": "avakoum-monastery-cash-invoice-testimony-2026-11-19",
+          "url": "articles/2026-11-20-morning/avakoum-trial-testimony.html"
+        },
+        {
+          "edition_id": "2026-11-20-evening",
+          "article_id": "avakoum-tax-testimony",
+          "source_story_id": "avakoum-monastery-cash-invoice-testimony-2026-11-19",
+          "url": "articles/2026-11-20-evening/avakoum-tax-testimony.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "avakoum-tax-testimony",
+        "source_story_id": "avakoum-monastery-cash-invoice-testimony-2026-11-19",
+        "url": "articles/2026-11-20-evening/avakoum-tax-testimony.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
       "story_id": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
       "first_seen_at": "2026-11-20T05:35:21.700409+00:00",
       "last_substantive_at": null,
@@ -219,13 +358,19 @@
           "article_id": "juvenile-justice-implementation",
           "source_story_id": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
           "url": "articles/2026-11-20-midday/juvenile-justice-implementation.html"
+        },
+        {
+          "edition_id": "2026-11-20-evening",
+          "article_id": "juvenile-justice-implementation",
+          "source_story_id": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
+          "url": "articles/2026-11-20-evening/juvenile-justice-implementation.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-20-midday",
+        "edition_id": "2026-11-20-evening",
         "article_id": "juvenile-justice-implementation",
         "source_story_id": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
-        "url": "articles/2026-11-20-midday/juvenile-justice-implementation.html"
+        "url": "articles/2026-11-20-evening/juvenile-justice-implementation.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -250,6 +395,27 @@
       },
       "section": "cyprus",
       "priority": 5
+    },
+    {
+      "story_id": "arsenal-tzolis-fpl-lineup-signal-2026-11-01",
+      "first_seen_at": "2026-11-20T17:38:26.343717+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-20-evening",
+          "article_id": "arsenal-fpl-signal",
+          "source_story_id": "arsenal-tzolis-fpl-lineup-signal-2026-11-01",
+          "url": "articles/2026-11-20-evening/arsenal-fpl-signal.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "arsenal-fpl-signal",
+        "source_story_id": "arsenal-tzolis-fpl-lineup-signal-2026-11-01",
+        "url": "articles/2026-11-20-evening/arsenal-fpl-signal.html"
+      },
+      "section": "sports",
+      "priority": 6
     },
     {
       "story_id": "cyprus-opok-planning-exemptions-warning-2026-11-19",
@@ -309,36 +475,42 @@
           "article_id": "a1-premier-transition",
           "source_story_id": "a1-premier-padel-player-transition-2026-11-20",
           "url": "articles/2026-11-20-midday/a1-premier-transition.html"
+        },
+        {
+          "edition_id": "2026-11-20-evening",
+          "article_id": "a1-premier-transition",
+          "source_story_id": "a1-premier-padel-player-transition-2026-11-20",
+          "url": "articles/2026-11-20-evening/a1-premier-transition.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-20-midday",
+        "edition_id": "2026-11-20-evening",
         "article_id": "a1-premier-transition",
         "source_story_id": "a1-premier-padel-player-transition-2026-11-20",
-        "url": "articles/2026-11-20-midday/a1-premier-transition.html"
+        "url": "articles/2026-11-20-evening/a1-premier-transition.html"
       },
       "section": "sports",
       "priority": 7
     },
     {
-      "story_id": "avakoum-monastery-cash-invoice-testimony-2026-11-19",
-      "first_seen_at": "2026-11-20T05:35:21.700409+00:00",
+      "story_id": "alcaraz-cobolli-atp-finals-round-robin-2026-11-20",
+      "first_seen_at": "2026-11-20T17:38:26.343717+00:00",
       "last_substantive_at": null,
       "references": [
         {
-          "edition_id": "2026-11-20-morning",
-          "article_id": "avakoum-trial-testimony",
-          "source_story_id": "avakoum-monastery-cash-invoice-testimony-2026-11-19",
-          "url": "articles/2026-11-20-morning/avakoum-trial-testimony.html"
+          "edition_id": "2026-11-20-evening",
+          "article_id": "alcaraz-cobolli-finals",
+          "source_story_id": "alcaraz-cobolli-atp-finals-round-robin-2026-11-20",
+          "url": "articles/2026-11-20-evening/alcaraz-cobolli-finals.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-20-morning",
-        "article_id": "avakoum-trial-testimony",
-        "source_story_id": "avakoum-monastery-cash-invoice-testimony-2026-11-19",
-        "url": "articles/2026-11-20-morning/avakoum-trial-testimony.html"
+        "edition_id": "2026-11-20-evening",
+        "article_id": "alcaraz-cobolli-finals",
+        "source_story_id": "alcaraz-cobolli-atp-finals-round-robin-2026-11-20",
+        "url": "articles/2026-11-20-evening/alcaraz-cobolli-finals.html"
       },
-      "section": "cyprus",
+      "section": "sports",
       "priority": 7
     },
     {
@@ -734,6 +906,188 @@
         "source_story_id": "prountzos-conditional-presidential-interest-2026-11-20",
         "url": "articles/2026-11-20-midday/prountzos-presidency.html"
       }
+    },
+    {
+      "id": "064b1d375ed8bfead4bedde4e3a53f28da961a979c6e7c29d924364aa998983a",
+      "kind": "provenance",
+      "at": "2026-11-20T17:38:26.343717+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "kyiv-bridges",
+        "source_story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
+        "url": "articles/2026-11-20-evening/kyiv-bridges.html"
+      }
+    },
+    {
+      "id": "1e3a099fd30520b3a971a78d263f898ecac7af4ee70369291d7b61c520033577",
+      "kind": "provenance",
+      "at": "2026-11-20T17:38:26.343717+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-government-debt-nonresident-holdings-2025",
+      "origin": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "debt-investor-base",
+        "source_story_id": "cyprus-government-debt-nonresident-holdings-2025",
+        "url": "articles/2026-11-20-evening/debt-investor-base.html"
+      }
+    },
+    {
+      "id": "3454175af76c4f4fc150f2f406dc06615360889c3af5417f912a2d94a4555092",
+      "kind": "provenance",
+      "at": "2026-11-20T17:38:26.343717+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "asus-control-center-critical-fixes-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "asus-console-patches",
+        "source_story_id": "asus-control-center-critical-fixes-2026-11-19",
+        "url": "articles/2026-11-20-evening/asus-console-patches.html"
+      }
+    },
+    {
+      "id": "384febc8e4479ec87125b3d43e27c62346d7447108ce08e94020198c02e58248",
+      "kind": "provenance",
+      "at": "2026-11-20T17:38:26.343717+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "a1-premier-padel-player-transition-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "a1-premier-transition",
+        "source_story_id": "a1-premier-padel-player-transition-2026-11-20",
+        "url": "articles/2026-11-20-evening/a1-premier-transition.html"
+      }
+    },
+    {
+      "id": "44da694c85260dd225c2abf8ec660d11b20f84e933ec619c054f1d6f251a8e62",
+      "kind": "provenance",
+      "at": "2026-11-20T17:38:26.343717+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "pakistan-malik-india-multilateral-visit-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "pakistan-india-visit",
+        "source_story_id": "pakistan-malik-india-multilateral-visit-2026-11-20",
+        "url": "articles/2026-11-20-evening/pakistan-india-visit.html"
+      }
+    },
+    {
+      "id": "6d4ca6effa91d6786c92dd43158a9cd31c07f6db1ddaa3349dbbfe89fd9a56cc",
+      "kind": "provenance",
+      "at": "2026-11-20T17:38:26.343717+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "airbnb-standard-house-rules-effective-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "airbnb-house-rules",
+        "source_story_id": "airbnb-standard-house-rules-effective-2026-11-20",
+        "url": "articles/2026-11-20-evening/airbnb-house-rules.html"
+      }
+    },
+    {
+      "id": "a1b33af240ff181861ade2dc505b0ce24d1ee07b173c0f59faa078d2fb4873f0",
+      "kind": "provenance",
+      "at": "2026-11-20T17:38:26.343717+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-civil-defence-72-hour-household-guide-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "household-preparedness",
+        "source_story_id": "cyprus-civil-defence-72-hour-household-guide-2026-11-20",
+        "url": "articles/2026-11-20-evening/household-preparedness.html"
+      }
+    },
+    {
+      "id": "caed4a2c6172ca547d884e0a4a9516d950641084f61cb2ea7ff1e1739d943ed0",
+      "kind": "provenance",
+      "at": "2026-11-20T17:38:26.343717+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "anthropic-second-session-selloff-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "anthropic-market-selloff",
+        "source_story_id": "anthropic-second-session-selloff-2026-11-20",
+        "url": "articles/2026-11-20-evening/anthropic-market-selloff.html"
+      }
+    },
+    {
+      "id": "cef5cea394171803d91f0ec9ede91fb0b94bd51de0e36a4079033d98c73df2ac",
+      "kind": "provenance",
+      "at": "2026-11-20T17:38:26.343717+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "alcaraz-cobolli-atp-finals-round-robin-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "alcaraz-cobolli-finals",
+        "source_story_id": "alcaraz-cobolli-atp-finals-round-robin-2026-11-20",
+        "url": "articles/2026-11-20-evening/alcaraz-cobolli-finals.html"
+      }
+    },
+    {
+      "id": "e1660bddaa740e46635d0a265f214a6066ab242cea9d8f20540d930bbeec5306",
+      "kind": "provenance",
+      "at": "2026-11-20T17:38:26.343717+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "arsenal-tzolis-fpl-lineup-signal-2026-11-01",
+      "origin": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "arsenal-fpl-signal",
+        "source_story_id": "arsenal-tzolis-fpl-lineup-signal-2026-11-01",
+        "url": "articles/2026-11-20-evening/arsenal-fpl-signal.html"
+      }
+    },
+    {
+      "id": "e261900a47084e95d2547986e0bc39d86d6ad3279ddb9791545b877bead8ecc5",
+      "kind": "provenance",
+      "at": "2026-11-20T17:38:26.343717+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-coloured-diesel-agricultural-aid-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "agricultural-diesel-aid",
+        "source_story_id": "cyprus-coloured-diesel-agricultural-aid-2026-11-20",
+        "url": "articles/2026-11-20-evening/agricultural-diesel-aid.html"
+      }
+    },
+    {
+      "id": "ec54f01c7d6204cd350833cb4298b868edc8d9183f2cd790ed1628ff4706dc4c",
+      "kind": "provenance",
+      "at": "2026-11-20T17:38:26.343717+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "avakoum-monastery-cash-invoice-testimony-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "avakoum-tax-testimony",
+        "source_story_id": "avakoum-monastery-cash-invoice-testimony-2026-11-19",
+        "url": "articles/2026-11-20-evening/avakoum-tax-testimony.html"
+      }
+    },
+    {
+      "id": "f11cfea272b871c89da51a27d19fcb6990d8b3afec6bbf0b8a3abed80ceb5d07",
+      "kind": "provenance",
+      "at": "2026-11-20T17:38:26.343717+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-20-evening",
+        "article_id": "juvenile-justice-implementation",
+        "source_story_id": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
+        "url": "articles/2026-11-20-evening/juvenile-justice-implementation.html"
+      }
     }
   ],
   "opportunities": [
@@ -942,16 +1296,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Οι αναφορές για πλήγματα σε τρεις γέφυρες του Κιέβου αναδεικνύουν κίνδυνο για τις καθημερινές μετακινήσεις, πέρα από τον απολογισμό θυμάτων που δίνει ο δήμαρχος και δεν έχει επαληθευτεί ανεξάρτητα. Η διάρκεια των περιορισμών θα κρίνει την έκταση της διαταραχής. Παράλληλα, η επίσκεψη Πακιστανού υπουργού στην Ινδία δημιουργεί παρουσία στο ίδιο διπλωματικό περιβάλλον μετά τον πόλεμο του 2025. Οι δύο πλευρές την χαρακτηρίζουν πολυμερή· ουσιαστικό τεστ θα ήταν επιβεβαιωμένη διμερής επαφή. Στην Κύπρο, η σύνθεση του δημόσιου χρέους και απόφαση για κτηματομεσιτικές εργασίες στρέφουν την προσοχή στη χρηματοδότηση και στην αδειοδότηση.",
+        "text": "Η δεύτερη συνεδρίαση της Anthropic δείχνει πόσο γρήγορα ο ενθουσιασμός μιας εισαγωγής μπορεί να συναντήσει ευρύτερες αμφιβολίες για τις επενδύσεις στην τεχνητή νοημοσύνη. Οι ενδοσυνεδριακές τιμές δεν είναι τελικό αποτέλεσμα ούτε μέτρηση λειτουργικών εσόδων. Στην Airbnb, οι τυποποιημένοι κανόνες και η σήμανση πρόσθετων απαιτήσεων επηρεάζουν την πληροφόρηση πριν από την κράτηση· κρίσιμο τεστ είναι η εφαρμογή τους στις καταχωρίσεις. Στην Κύπρο, η Πολιτική Άμυνα προαναγγέλλει πρακτικό οδηγό αυτάρκειας 72 ωρών, ενώ το σχέδιο αγροτικού πετρελαίου έχει συγκεκριμένη προθεσμία αιτήσεων. Η χρησιμότητα αυτών των παρεμβάσεων εξαρτάται από σαφείς οδηγίες και πραγματική πρόσβαση των ενδιαφερομένων.",
         "story_ids": [
-          "kyiv-dnipro-bridges-missile-attack-2026-11-20",
-          "pakistan-malik-india-multilateral-visit-2026-11-20"
+          "anthropic-second-session-selloff-2026-11-20",
+          "airbnb-standard-house-rules-effective-2026-11-20"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-20T05:37:19.194129+00:00",
-  "updated_at": "2026-11-20T11:39:19.303571+00:00",
-  "input_sha256": "11a8aaef3bdd1724fb11f453b1347cae3581cf229daf0c1e534e4f22663108c3"
+  "updated_at": "2026-11-20T17:40:22.885391+00:00",
+  "input_sha256": "a704f13ff57d741762f18fb1eb850ab09b639a3d8308ca3be82b17ec3ca62ab4"
 }

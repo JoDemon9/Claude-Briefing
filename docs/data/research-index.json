@@ -819,6 +819,14 @@
       "fingerprint": "9d958942221febba663147a5a4468af54ad4ce2a89549186bc1dc124c61cf3e4"
     },
     {
+      "id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "type": "evening",
+      "published_at": "2026-11-20T17:38:26.343717+00:00",
+      "url": "evening/2026-11-20.html",
+      "fingerprint": "030fa6be66cd882991937046dba55d990859297d4dc86efe102b77029bb82afc"
+    },
+    {
       "id": "2026-11-20-midday",
       "date": "2026-11-20",
       "type": "midday",
@@ -31352,6 +31360,357 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/f26610b85135eb5e8607be51ce297c7f63646922f7a3ff7d41224887c3a4108b.webp"
+    },
+    {
+      "story_id": "anthropic-second-session-selloff-2026-11-20",
+      "identity": "anthropic-second-session-selloff-2026-11-20",
+      "edition_id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "slot": "evening",
+      "published_at": "2026-11-20T17:38:26.343717+00:00",
+      "available_at": "2026-11-20T17:38:26.343717+00:00",
+      "headline": "Πτώση έως 12% για την Anthropic στη δεύτερη συνεδρίασή της",
+      "finding": "Ο Guardian αναφέρει ότι η μετοχή της Anthropic, που εισήχθη την Πέμπτη, υποχώρησε ενδοσυνεδριακά έως 12% την Παρασκευή. Το ρεπορτάζ των 16:18 UTC κατέγραψε τιμή 85,12 δολαρίων, κοντά στα 83 δολάρια της εισαγωγής. Περιγράφει παράλληλα ευρύτερες πιέσεις στις τεχνολογικές μετοχές και στις ασιατικές αγορές, με επενδυτές να αμφισβητούν τα μεγάλα ποσά που διοχετεύονται στην ανάπτυξη υποδομών τεχνητής νοημοσύνης.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-20-evening/anthropic-market-selloff.json",
+      "reader_url": "articles/2026-11-20-evening/anthropic-market-selloff.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-20T16:18:00+00:00",
+          "retrieved_at": "2026-11-20T16:21:14.595437+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/e6fb1645bb5494b74f928c1e6938bf569cdbb0420ef7389acc22a74642862b16.webp"
+    },
+    {
+      "story_id": "airbnb-standard-house-rules-effective-2026-11-20",
+      "identity": "airbnb-standard-house-rules-effective-2026-11-20",
+      "edition_id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "slot": "evening",
+      "published_at": "2026-11-20T17:38:26.343717+00:00",
+      "available_at": "2026-11-20T17:38:26.343717+00:00",
+      "headline": "Σε ισχύ οι νέοι κανόνες Airbnb για απαιτήσεις οικοδεσποτών",
+      "finding": "Οι νέοι κανόνες Airbnb τέθηκαν σε ισχύ, αναφέρει το BBC. Οι οικοδεσπότες επιλέγουν από επτά τυποποιημένους κανόνες, μεταξύ άλλων για διανυκτερεύοντες επισκέπτες, κατοικίδια και κάπνισμα. Μπορούν να ζητούν έγκριση πρόσθετου κανόνα. Αν διατηρούν μη εγκεκριμένη απαίτηση, η πλατφόρμα θα την επισημαίνει στην καταχώριση, για παράδειγμα με ένδειξη ότι περιλαμβάνονται εργασίες καθαρισμού.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-20-evening/airbnb-house-rules.json",
+      "reader_url": "articles/2026-11-20-evening/airbnb-house-rules.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-20T15:48:35+00:00",
+          "retrieved_at": "2026-11-20T16:21:13.225582+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c112955563aab07d704ff319dd61e85238e4a967857063f6c1dcaf5f570eac10.webp"
+    },
+    {
+      "story_id": "cyprus-civil-defence-72-hour-household-guide-2026-11-20",
+      "identity": "cyprus-civil-defence-72-hour-household-guide-2026-11-20",
+      "edition_id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "slot": "evening",
+      "published_at": "2026-11-20T17:38:26.343717+00:00",
+      "available_at": "2026-11-20T17:38:26.343717+00:00",
+      "headline": "Η Πολιτική Άμυνα σχεδιάζει οδηγό οικιακής αυτάρκειας 72 ωρών",
+      "finding": "Η Πολιτική Άμυνα στηρίζει την ευρωπαϊκή σύσταση βασικής αυτάρκειας των νοικοκυριών για τουλάχιστον 72 ώρες, δήλωσε η εκπρόσωπός της Χαρά Λαζάρου, σύμφωνα με τον Φιλελεύθερο. Η ενημέρωση μέχρι σήμερα επικεντρωνόταν στο σακίδιο και στο οικογενειακό σχέδιο έκτακτης ανάγκης. Ως επόμενο βήμα σχεδιάζεται ειδικός οδηγός οργάνωσης προμηθειών, για ενδεχόμενη διακοπή βασικών υπηρεσιών.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-20-evening/household-preparedness.json",
+      "reader_url": "articles/2026-11-20-evening/household-preparedness.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1798567/politiki-amina-exigi-to-skeptiko-ton-72-oron-giati-prepi-na-echoume-to-sakidio-ektaktis-anagkis",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-20T14:21:49+00:00",
+          "retrieved_at": "2026-11-20T16:21:14.372367+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a05c76a129668591b8dc14472361cc35511bcd201a16cc20625bc24f483ad032.webp"
+    },
+    {
+      "story_id": "cyprus-coloured-diesel-agricultural-aid-2026-11-20",
+      "identity": "cyprus-coloured-diesel-agricultural-aid-2026-11-20",
+      "edition_id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "slot": "evening",
+      "published_at": "2026-11-20T17:38:26.343717+00:00",
+      "available_at": "2026-11-20T17:38:26.343717+00:00",
+      "headline": "Έως 1 Δεκεμβρίου οι αιτήσεις για ενίσχυση αγροτικού πετρελαίου",
+      "finding": "Αιτήσεις για μερική κάλυψη του κόστους χρωματισμένου πετρελαίου υποβάλλονται έως την 1η Δεκεμβρίου 2026 μέσω του EAS του ΚΟΑΠ, αναφέρει το SigmaLive. Το σχέδιο αφορά παραλαβές από 1 Απριλίου έως 31 Οκτωβρίου 2026, βάσει του σχετικού βιβλιαρίου. Η ενίσχυση δεν υπερβαίνει τα 0,126 ευρώ ανά λίτρο, με μέγιστο ποσό 5.000 και κατώτατο 100 ευρώ ανά δικαιούχο.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-20-evening/agricultural-diesel-aid.json",
+      "reader_url": "articles/2026-11-20-evening/agricultural-diesel-aid.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1338524/prokiriksi-skhedioy-ghia-ektakti-voitheia-se-aghrotes-ghia-khromatismeno-petrelaio",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-20T16:06:07+00:00",
+          "retrieved_at": "2026-11-20T16:21:14.190559+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a2a9b29230b06aeeeaa6d41fba451b910ca9e1fe15abf70f6e9c53cb503ffd52.webp"
+    },
+    {
+      "story_id": "avakoum-monastery-cash-invoice-testimony-2026-11-19",
+      "identity": "avakoum-monastery-cash-invoice-testimony-2026-11-19",
+      "edition_id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "slot": "evening",
+      "published_at": "2026-11-20T17:38:26.343717+00:00",
+      "available_at": "2026-11-20T17:38:26.343717+00:00",
+      "headline": "Νέα κατάθεση για 3,62 εκατ. ευρώ χωρίς νόμιμες αποδείξεις στη Μονή Αββακούμ",
+      "finding": "Ο επικεφαλής της μονάδας διερεύνησης φορολογικής απάτης Γιώργος Γεωργίου κατέθεσε την Παρασκευή ότι εντοπίστηκαν εισπράξεις 3.620.607 ευρώ χωρίς νόμιμες αποδείξεις στη Μονή Αββακούμ, σύμφωνα με το Cyprus Mail. Ανέφερε τραπεζικές καταθέσεις 4.857.356 ευρώ για την περίοδο 2018–2024. Τα στοιχεία αποδίδονται σε μαρτυρία ενώπιον του Κακουργιοδικείου Λευκωσίας.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-20-evening/avakoum-tax-testimony.json",
+      "reader_url": "articles/2026-11-20-evening/avakoum-tax-testimony.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/20/e3-6m-was-collected-by-avakoum-monastery-without-receipts",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-20T15:56:30+00:00",
+          "retrieved_at": "2026-11-20T16:21:14.356974+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/97df58f1b48d04d9aa9ba99ce0798b2d492de5ab272f7fa42f9b9ac35f3ab3fe.webp"
+    },
+    {
+      "story_id": "arsenal-tzolis-fpl-lineup-signal-2026-11-01",
+      "identity": "arsenal-tzolis-fpl-lineup-signal-2026-11-01",
+      "edition_id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "slot": "evening",
+      "published_at": "2026-11-20T17:38:26.343717+00:00",
+      "available_at": "2026-11-20T17:38:26.343717+00:00",
+      "headline": "Η επιλογή Τζόλη στο Fantasy πριν από την επιστροφή του",
+      "finding": "Το BBC καταγράφει ότι ο Χρήστος Τζόλης επέλεξε τον εαυτό του ως αρχηγό στο Fantasy πριν από τον αγώνα Άρσεναλ–Λίβερπουλ της 1ης Νοεμβρίου. Επέστρεψε τότε στην ενδεκάδα μετά από απουσία λόγω τραυματισμού.",
+      "section": "sports",
+      "priority": 6,
+      "article_path": "articles/2026-11-20-evening/arsenal-fpl-signal.json",
+      "reader_url": "articles/2026-11-20-evening/arsenal-fpl-signal.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/ck62pz5r16pro?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-20T14:08:55+00:00",
+          "retrieved_at": "2026-11-20T16:21:13.273819+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/b0a8184e84d689f514ed3703c7dccc71dbbfb126965b7ecccbdad2c1c379ca95.webp"
+    },
+    {
+      "story_id": "alcaraz-cobolli-atp-finals-round-robin-2026-11-20",
+      "identity": "alcaraz-cobolli-atp-finals-round-robin-2026-11-20",
+      "edition_id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "slot": "evening",
+      "published_at": "2026-11-20T17:38:26.343717+00:00",
+      "available_at": "2026-11-20T17:38:26.343717+00:00",
+      "headline": "Ο Αλκαράθ νίκησε τον Κομπόλι με 6–4, 6–1 στο Τορίνο",
+      "finding": "Ο Κάρλος Αλκαράθ νίκησε τον Φλάβιο Κομπόλι με 6–4, 6–1 στον τελευταίο του αγώνα ομίλου στα ATP Finals, αναφέρει το Cyprus Mail. Το ρεπορτάζ περιγράφει αποτελεσματική εμφάνιση με σύντομους πόντους.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-20-evening/alcaraz-cobolli-finals.json",
+      "reader_url": "articles/2026-11-20-evening/alcaraz-cobolli-finals.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/20/alcaraz-eases-injury-concerns-with-cobolli-win-to-complete-perfect-atp-finals",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-20T16:15:38+00:00",
+          "retrieved_at": "2026-11-20T16:21:13.924312+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/1669bc977f72e7056c55c154ef3b28d43c504d73bfc9c285c0de22242a871b49.webp"
+    },
+    {
+      "story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
+      "identity": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
+      "edition_id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "slot": "evening",
+      "published_at": "2026-11-20T11:34:11.430228+00:00",
+      "available_at": "2026-11-20T17:38:26.343717+00:00",
+      "headline": "Πλήγματα σε τρεις γέφυρες και τρεις νεκρούς αναφέρει ο δήμαρχος Κιέβου",
+      "finding": "Ρωσική επίθεση με βαλλιστικούς πυραύλους έπληξε τρεις γέφυρες στον Δνείπερο την Παρασκευή, σύμφωνα με τον δήμαρχο Κιέβου Βιτάλι Κλίτσκο. Ανέφερε τρεις νεκρούς και περίπου 15 τραυματίες, καθώς και κλεισίματα ή κυκλοφοριακούς περιορισμούς στις γέφυρες Ποντίλσκο-Βοσκρεσένσκι, Νταρνίτσκι και Πιβντένι. Το δημοσίευμα του Cyprus Mail επισημαίνει ότι το Reuters δεν μπόρεσε να επιβεβαιώσει αμέσως ανεξάρτητα τις αναφορές.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-20-evening/kyiv-bridges.json",
+      "reader_url": "articles/2026-11-20-evening/kyiv-bridges.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/20/three-killed-in-missile-strikes-on-kyiv-mayor-says-in-biggest-attack-on-bridges",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-20T08:21:07+00:00",
+          "retrieved_at": "2026-11-20T10:21:27.183068+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0a53aef4c670cb8dc5bf3299031dd9857a317c0e57774b076f65b043ff2ea705.webp"
+    },
+    {
+      "story_id": "pakistan-malik-india-multilateral-visit-2026-11-20",
+      "identity": "pakistan-malik-india-multilateral-visit-2026-11-20",
+      "edition_id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "slot": "evening",
+      "published_at": "2026-11-20T11:34:11.430228+00:00",
+      "available_at": "2026-11-20T17:38:26.343717+00:00",
+      "headline": "Πακιστανός υπουργός στην Ινδία για πρώτη φορά μετά τον πόλεμο του 2025",
+      "finding": "Ο υπουργός Κλιματικής Αλλαγής του Πακιστάν Μουσάντικ Μάλικ έφθασε την Παρασκευή στο Νέο Δελχί, αναφέρει το Al Jazeera. Είναι ο πρώτος Πακιστανός ομοσπονδιακός υπουργός που επισκέπτεται την Ινδία μετά τον τετραήμερο πόλεμο του Μαΐου 2025. Ισλαμαμπάντ και Νέο Δελχί υπογραμμίζουν τον αποκλειστικά πολυμερή χαρακτήρα της επίσκεψης.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-20-evening/pakistan-india-visit.json",
+      "reader_url": "articles/2026-11-20-evening/pakistan-india-visit.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-20T09:11:57+00:00",
+          "retrieved_at": "2026-11-20T10:21:25.826597+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/866f1811c6bf318b5f9c93c7e9e33550181c0bcecce34abe926c5a97dab42811.webp"
+    },
+    {
+      "story_id": "asus-control-center-critical-fixes-2026-11-19",
+      "identity": "asus-control-center-critical-fixes-2026-11-19",
+      "edition_id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "slot": "evening",
+      "published_at": "2026-11-20T11:34:11.430228+00:00",
+      "available_at": "2026-11-20T17:38:26.343717+00:00",
+      "headline": "Διορθώσεις κρίσιμων ευπαθειών για κονσόλες διαχείρισης της ASUS",
+      "finding": "Η ASUS εξέδωσε το Control Center Express 1.7.29 για τρεις κρίσιμες ευπάθειες που θα μπορούσαν να επιτρέψουν απομακρυσμένη ανάληψη διαχειριστικού ελέγχου, σύμφωνα με το BleepingComputer. Μεταξύ των προβλημάτων περιγράφεται ενσωματωμένο κρυπτογραφικό κλειδί που επιτρέπει σε χρήστη χαμηλών προνομίων να πλαστογραφήσει διακριτικό συνεδρίας πρόσφατα συνδεδεμένου λογαριασμού.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-20-evening/asus-console-patches.json",
+      "reader_url": "articles/2026-11-20-evening/asus-console-patches.html",
+      "sources": [
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express",
+          "publisher": "BleepingComputer",
+          "reporting_group": "BleepingComputer",
+          "published_at": "2026-11-19T21:15:59+00:00",
+          "retrieved_at": "2026-11-20T10:21:26.699794+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/b992ceee934cabc5f3da9c85a6357a2da718eddff33c6ab08ab40bdb6e1a9ace.webp"
+    },
+    {
+      "story_id": "cyprus-government-debt-nonresident-holdings-2025",
+      "identity": "cyprus-government-debt-nonresident-holdings-2025",
+      "edition_id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "slot": "evening",
+      "published_at": "2026-11-20T11:34:11.430228+00:00",
+      "available_at": "2026-11-20T17:38:26.343717+00:00",
+      "headline": "Σε μη κατοίκους το 90% του κυπριακού δημόσιου χρέους στο τέλος του 2025",
+      "finding": "Μη κάτοικοι κατείχαν το 90% του κυπριακού δημόσιου χρέους στο τέλος του 2025, το μεγαλύτερο ποσοστό στην ΕΕ, σύμφωνα με το Cyprus Mail. Το ακαθάριστο χρέος της γενικής κυβέρνησης μειώθηκε στα 20,05 δισ. ευρώ από 21,81 δισ. το 2024. Σε 16 κράτη μέλη οι ξένοι κάτοχοι αντιστοιχούσαν σε περισσότερο από το μισό δημόσιο χρέος.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-20-evening/debt-investor-base.json",
+      "reader_url": "articles/2026-11-20-evening/debt-investor-base.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/20/foreign-investors-hold-90-per-cent-of-cyprus-government-debt",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-20T10:15:17+00:00",
+          "retrieved_at": "2026-11-20T10:21:26.403899+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5a38382ef114ca10df881d372ce9b81418167237f70d9aebcc17da9339c518d3.webp"
+    },
+    {
+      "story_id": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
+      "identity": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
+      "edition_id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "slot": "evening",
+      "published_at": "2026-11-20T05:35:21.700409+00:00",
+      "available_at": "2026-11-20T17:38:26.343717+00:00",
+      "headline": "Ελλείψεις δομών περιορίζουν την εφαρμογή της νομοθεσίας για παιδιά παραβάτες",
+      "finding": "Ο Φιλελεύθερος καταγράφει ελλείψεις σε δομές και υπηρεσίες της νομοθεσίας για παιδιά σε σύγκρουση με τον νόμο, με τους δικαστές να μη διαθέτουν όλες τις προβλεπόμενες επιλογές μεταχείρισης. Αναφέρονται καθυστερήσεις στις εκθέσεις ειδικών και απουσία κατάλληλου χώρου κράτησης σε ορισμένες υποθέσεις. Για τον σχεδιαζόμενο χώρο εντός των Κεντρικών Φυλακών εκκρεμούν κανονισμοί λειτουργίας, ενώ η ετοιμότητά του τοποθετείται στα τέλη του 2027.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-20-evening/juvenile-justice-implementation.json",
+      "reader_url": "articles/2026-11-20-evening/juvenile-justice-implementation.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1797930/terasties-ellipsis-ke-asafies-ston-nomo-gia-pedia-paravates-psifistike-to-2021-alla-den-echi-akoma-pliri-efarmogi-echmes-tis-dikastou-tou-anotatou-elenas-efrem",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-20T04:05:00+00:00",
+          "retrieved_at": "2026-11-20T04:21:17.676055+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6aa42959db7fa7107679449a9505f8cb0c8a4992b6a6e8d7bb0fbbc2d99eceb4.webp"
+    },
+    {
+      "story_id": "a1-premier-padel-player-transition-2026-11-20",
+      "identity": "a1-premier-padel-player-transition-2026-11-20",
+      "edition_id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "slot": "evening",
+      "published_at": "2026-11-20T11:34:11.430228+00:00",
+      "available_at": "2026-11-20T17:38:26.343717+00:00",
+      "headline": "Η μετάβαση πρώην παικτών του A1 στο Premier Padel",
+      "finding": "Το Padel Addict εξετάζει την προσαρμογή πρώην παικτών του A1 στο Premier Padel μετά το κλείσιμο του πρώτου κυκλώματος. Περιγράφει μεταξύ άλλων συνεργασία νεαρού παίκτη με τον Χάβι Γκαρίδο.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-20-evening/a1-premier-transition.json",
+      "reader_url": "articles/2026-11-20-evening/a1-premier-transition.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/de-a1-a-premier-padel-la-nueva-generacion-que-sacude-la-elite",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-20T09:45:04+00:00",
+          "retrieved_at": "2026-11-20T10:21:28.731510+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/15e31a4fca74d6e7b23c32cacdba53ab1d9c275d271aac6f500ad4d06d89309a.webp"
     },
     {
       "story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
