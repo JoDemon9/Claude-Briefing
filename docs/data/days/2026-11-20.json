@@ -10,14 +10,40 @@
       "type": "morning",
       "url": "morning/2026-11-20.html",
       "published_at": "2026-11-20T05:35:21.700409+00:00"
+    },
+    {
+      "id": "2026-11-20-midday",
+      "type": "midday",
+      "url": "midday/2026-11-20.html",
+      "published_at": "2026-11-20T11:34:11.430228+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "us-senate-baaja-permitting-bill-2026-11-19",
+  "lead_story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
   "stories": [
+    {
+      "story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
+      "first_seen_at": "2026-11-20T11:34:11.430228+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-20-midday",
+          "article_id": "kyiv-bridges",
+          "source_story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
+          "url": "articles/2026-11-20-midday/kyiv-bridges.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "kyiv-bridges",
+        "source_story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
+        "url": "articles/2026-11-20-midday/kyiv-bridges.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "us-senate-baaja-permitting-bill-2026-11-19",
       "first_seen_at": "2026-11-20T05:35:21.700409+00:00",
@@ -28,13 +54,19 @@
           "article_id": "american-energy-permitting",
           "source_story_id": "us-senate-baaja-permitting-bill-2026-11-19",
           "url": "articles/2026-11-20-morning/american-energy-permitting.html"
+        },
+        {
+          "edition_id": "2026-11-20-midday",
+          "article_id": "american-energy-permitting",
+          "source_story_id": "us-senate-baaja-permitting-bill-2026-11-19",
+          "url": "articles/2026-11-20-midday/american-energy-permitting.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-20-morning",
+        "edition_id": "2026-11-20-midday",
         "article_id": "american-energy-permitting",
         "source_story_id": "us-senate-baaja-permitting-bill-2026-11-19",
-        "url": "articles/2026-11-20-morning/american-energy-permitting.html"
+        "url": "articles/2026-11-20-midday/american-energy-permitting.html"
       },
       "section": "world",
       "priority": 1
@@ -49,16 +81,64 @@
           "article_id": "meta-climate-timeline",
           "source_story_id": "meta-net-zero-timeline-review-2026-11-19",
           "url": "articles/2026-11-20-morning/meta-climate-timeline.html"
+        },
+        {
+          "edition_id": "2026-11-20-midday",
+          "article_id": "meta-climate-timeline",
+          "source_story_id": "meta-net-zero-timeline-review-2026-11-19",
+          "url": "articles/2026-11-20-midday/meta-climate-timeline.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-20-morning",
+        "edition_id": "2026-11-20-midday",
         "article_id": "meta-climate-timeline",
         "source_story_id": "meta-net-zero-timeline-review-2026-11-19",
-        "url": "articles/2026-11-20-morning/meta-climate-timeline.html"
+        "url": "articles/2026-11-20-midday/meta-climate-timeline.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "pakistan-malik-india-multilateral-visit-2026-11-20",
+      "first_seen_at": "2026-11-20T11:34:11.430228+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-20-midday",
+          "article_id": "pakistan-india-visit",
+          "source_story_id": "pakistan-malik-india-multilateral-visit-2026-11-20",
+          "url": "articles/2026-11-20-midday/pakistan-india-visit.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "pakistan-india-visit",
+        "source_story_id": "pakistan-malik-india-multilateral-visit-2026-11-20",
+        "url": "articles/2026-11-20-midday/pakistan-india-visit.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "asus-control-center-critical-fixes-2026-11-19",
+      "first_seen_at": "2026-11-20T11:34:11.430228+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-20-midday",
+          "article_id": "asus-console-patches",
+          "source_story_id": "asus-control-center-critical-fixes-2026-11-19",
+          "url": "articles/2026-11-20-midday/asus-console-patches.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "asus-console-patches",
+        "source_story_id": "asus-control-center-critical-fixes-2026-11-19",
+        "url": "articles/2026-11-20-midday/asus-console-patches.html"
+      },
+      "section": "world",
+      "priority": 3
     },
     {
       "story_id": "aukus-cbo-us-fleet-transfer-warning-2026-11-20",
@@ -80,6 +160,27 @@
       },
       "section": "world",
       "priority": 3
+    },
+    {
+      "story_id": "cyprus-government-debt-nonresident-holdings-2025",
+      "first_seen_at": "2026-11-20T11:34:11.430228+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-20-midday",
+          "article_id": "debt-investor-base",
+          "source_story_id": "cyprus-government-debt-nonresident-holdings-2025",
+          "url": "articles/2026-11-20-midday/debt-investor-base.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "debt-investor-base",
+        "source_story_id": "cyprus-government-debt-nonresident-holdings-2025",
+        "url": "articles/2026-11-20-midday/debt-investor-base.html"
+      },
+      "section": "cyprus",
+      "priority": 4
     },
     {
       "story_id": "spain-sanchez-feijoo-election-debate-2026-11-19",
@@ -112,13 +213,40 @@
           "article_id": "juvenile-justice-implementation",
           "source_story_id": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
           "url": "articles/2026-11-20-morning/juvenile-justice-implementation.html"
+        },
+        {
+          "edition_id": "2026-11-20-midday",
+          "article_id": "juvenile-justice-implementation",
+          "source_story_id": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
+          "url": "articles/2026-11-20-midday/juvenile-justice-implementation.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-20-morning",
+        "edition_id": "2026-11-20-midday",
         "article_id": "juvenile-justice-implementation",
         "source_story_id": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
-        "url": "articles/2026-11-20-morning/juvenile-justice-implementation.html"
+        "url": "articles/2026-11-20-midday/juvenile-justice-implementation.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "prountzos-conditional-presidential-interest-2026-11-20",
+      "first_seen_at": "2026-11-20T11:34:11.430228+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-20-midday",
+          "article_id": "prountzos-presidency",
+          "source_story_id": "prountzos-conditional-presidential-interest-2026-11-20",
+          "url": "articles/2026-11-20-midday/prountzos-presidency.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "prountzos-presidency",
+        "source_story_id": "prountzos-conditional-presidential-interest-2026-11-20",
+        "url": "articles/2026-11-20-midday/prountzos-presidency.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -133,16 +261,64 @@
           "article_id": "planning-exemptions",
           "source_story_id": "cyprus-opok-planning-exemptions-warning-2026-11-19",
           "url": "articles/2026-11-20-morning/planning-exemptions.html"
+        },
+        {
+          "edition_id": "2026-11-20-midday",
+          "article_id": "planning-exemptions",
+          "source_story_id": "cyprus-opok-planning-exemptions-warning-2026-11-19",
+          "url": "articles/2026-11-20-midday/planning-exemptions.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-20-morning",
+        "edition_id": "2026-11-20-midday",
         "article_id": "planning-exemptions",
         "source_story_id": "cyprus-opok-planning-exemptions-warning-2026-11-19",
-        "url": "articles/2026-11-20-morning/planning-exemptions.html"
+        "url": "articles/2026-11-20-midday/planning-exemptions.html"
       },
       "section": "cyprus",
       "priority": 6
+    },
+    {
+      "story_id": "cyprus-property-facebook-unlicensed-broker-appeal-2026-11-18",
+      "first_seen_at": "2026-11-20T11:34:11.430228+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-20-midday",
+          "article_id": "property-facebook-appeal",
+          "source_story_id": "cyprus-property-facebook-unlicensed-broker-appeal-2026-11-18",
+          "url": "articles/2026-11-20-midday/property-facebook-appeal.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "property-facebook-appeal",
+        "source_story_id": "cyprus-property-facebook-unlicensed-broker-appeal-2026-11-18",
+        "url": "articles/2026-11-20-midday/property-facebook-appeal.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "a1-premier-padel-player-transition-2026-11-20",
+      "first_seen_at": "2026-11-20T11:34:11.430228+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-20-midday",
+          "article_id": "a1-premier-transition",
+          "source_story_id": "a1-premier-padel-player-transition-2026-11-20",
+          "url": "articles/2026-11-20-midday/a1-premier-transition.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "a1-premier-transition",
+        "source_story_id": "a1-premier-padel-player-transition-2026-11-20",
+        "url": "articles/2026-11-20-midday/a1-premier-transition.html"
+      },
+      "section": "sports",
+      "priority": 7
     },
     {
       "story_id": "avakoum-monastery-cash-invoice-testimony-2026-11-19",
@@ -164,6 +340,27 @@
       },
       "section": "cyprus",
       "priority": 7
+    },
+    {
+      "story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
+      "first_seen_at": "2026-11-20T11:34:11.430228+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-20-midday",
+          "article_id": "cummins-captaincy",
+          "source_story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
+          "url": "articles/2026-11-20-midday/cummins-captaincy.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "cummins-captaincy",
+        "source_story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
+        "url": "articles/2026-11-20-midday/cummins-captaincy.html"
+      },
+      "section": "sports",
+      "priority": 8
     },
     {
       "story_id": "cyprus-parliament-2029-power-adequacy-warning-2026-11-19",
@@ -368,6 +565,174 @@
         "article_id": "planning-exemptions",
         "source_story_id": "cyprus-opok-planning-exemptions-warning-2026-11-19",
         "url": "articles/2026-11-20-morning/planning-exemptions.html"
+      }
+    },
+    {
+      "id": "17a606c482672e1de76aa1bab02337076e5b2eca1fd10b26b94b5e2257f2f748",
+      "kind": "provenance",
+      "at": "2026-11-20T11:34:11.430228+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "meta-net-zero-timeline-review-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "meta-climate-timeline",
+        "source_story_id": "meta-net-zero-timeline-review-2026-11-19",
+        "url": "articles/2026-11-20-midday/meta-climate-timeline.html"
+      }
+    },
+    {
+      "id": "3115976cf7f214294bb5f40fe3f08b0b51c2c09dcb42fb2c69fa390f2f74a883",
+      "kind": "provenance",
+      "at": "2026-11-20T11:34:11.430228+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "kyiv-bridges",
+        "source_story_id": "kyiv-dnipro-bridges-missile-attack-2026-11-20",
+        "url": "articles/2026-11-20-midday/kyiv-bridges.html"
+      }
+    },
+    {
+      "id": "42e11a0081f915a86861c85f94cd91cd3c04fa348de89e1b753542805604d96b",
+      "kind": "provenance",
+      "at": "2026-11-20T11:34:11.430228+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "us-senate-baaja-permitting-bill-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "american-energy-permitting",
+        "source_story_id": "us-senate-baaja-permitting-bill-2026-11-19",
+        "url": "articles/2026-11-20-midday/american-energy-permitting.html"
+      }
+    },
+    {
+      "id": "5cf741c543604bd8e4f7e63b0e38070a994b7d4e104878f2b44e3d40b85c98cf",
+      "kind": "provenance",
+      "at": "2026-11-20T11:34:11.430228+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-property-facebook-unlicensed-broker-appeal-2026-11-18",
+      "origin": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "property-facebook-appeal",
+        "source_story_id": "cyprus-property-facebook-unlicensed-broker-appeal-2026-11-18",
+        "url": "articles/2026-11-20-midday/property-facebook-appeal.html"
+      }
+    },
+    {
+      "id": "72fc7e667f8d17a34e8a30cdb3acec7dcd1306c3e71b11b68992b272eee95cf3",
+      "kind": "provenance",
+      "at": "2026-11-20T11:34:11.430228+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "pakistan-malik-india-multilateral-visit-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "pakistan-india-visit",
+        "source_story_id": "pakistan-malik-india-multilateral-visit-2026-11-20",
+        "url": "articles/2026-11-20-midday/pakistan-india-visit.html"
+      }
+    },
+    {
+      "id": "73cb5603a27eb796265fbe900133ce0afc39a7f0839994c3274eff1cc492149e",
+      "kind": "provenance",
+      "at": "2026-11-20T11:34:11.430228+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "asus-control-center-critical-fixes-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "asus-console-patches",
+        "source_story_id": "asus-control-center-critical-fixes-2026-11-19",
+        "url": "articles/2026-11-20-midday/asus-console-patches.html"
+      }
+    },
+    {
+      "id": "75ca745954e587816820bb854b2504efdeaeb902087d42c9ee09cad6fd8aef81",
+      "kind": "provenance",
+      "at": "2026-11-20T11:34:11.430228+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-government-debt-nonresident-holdings-2025",
+      "origin": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "debt-investor-base",
+        "source_story_id": "cyprus-government-debt-nonresident-holdings-2025",
+        "url": "articles/2026-11-20-midday/debt-investor-base.html"
+      }
+    },
+    {
+      "id": "8a47714fe02de34f4f9ed2bd1ceeb790448003cb433b496bf11510cd23aa2e89",
+      "kind": "provenance",
+      "at": "2026-11-20T11:34:11.430228+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "a1-premier-padel-player-transition-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "a1-premier-transition",
+        "source_story_id": "a1-premier-padel-player-transition-2026-11-20",
+        "url": "articles/2026-11-20-midday/a1-premier-transition.html"
+      }
+    },
+    {
+      "id": "93ba72e30b2e0351b9612ed76a9961d0d0d7f8b7313daf79e3f6d30acdfb1118",
+      "kind": "provenance",
+      "at": "2026-11-20T11:34:11.430228+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-opok-planning-exemptions-warning-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "planning-exemptions",
+        "source_story_id": "cyprus-opok-planning-exemptions-warning-2026-11-19",
+        "url": "articles/2026-11-20-midday/planning-exemptions.html"
+      }
+    },
+    {
+      "id": "bf4f417ae95dda625e34258b50615a051962d5f5815a4634536fcff8b31cb08b",
+      "kind": "provenance",
+      "at": "2026-11-20T11:34:11.430228+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "juvenile-justice-implementation",
+        "source_story_id": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
+        "url": "articles/2026-11-20-midday/juvenile-justice-implementation.html"
+      }
+    },
+    {
+      "id": "db5c96bcda2854cae45b8021c617cda413ef26c16be080d38185155af19dcc60",
+      "kind": "provenance",
+      "at": "2026-11-20T11:34:11.430228+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
+      "origin": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "cummins-captaincy",
+        "source_story_id": "cricket-bancroft-2018-knowledge-allegation-2026-11-19",
+        "url": "articles/2026-11-20-midday/cummins-captaincy.html"
+      }
+    },
+    {
+      "id": "ec234b981fe4a2e3c3692f04de4e4d46d4a09a7b28822e37717f9991407739ff",
+      "kind": "provenance",
+      "at": "2026-11-20T11:34:11.430228+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "prountzos-conditional-presidential-interest-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-20-midday",
+        "article_id": "prountzos-presidency",
+        "source_story_id": "prountzos-conditional-presidential-interest-2026-11-20",
+        "url": "articles/2026-11-20-midday/prountzos-presidency.html"
       }
     }
   ],
@@ -577,16 +942,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η αμερικανική Γερουσία ενέκρινε αλλαγές στις ενεργειακές αδειοδοτήσεις, ενώ η Meta επανεξετάζει το χρονοδιάγραμμα μηδενικών καθαρών εκπομπών εν μέσω επέκτασης της τεχνητής νοημοσύνης. Οι δύο εξελίξεις αναδεικνύουν διαφορετικές πλευρές της ίδιας πίεσης: η ψηφιακή ανάπτυξη χρειάζεται φυσικές υποδομές και ηλεκτρισμό. Για καταναλωτές και επενδυτές, κρίσιμα είναι το τελικό νομοθετικό αποτέλεσμα και οι συγκεκριμένες νέες δεσμεύσεις της εταιρείας. Στην Κύπρο, οι ελλείψεις στην εφαρμογή του νόμου για παιδιά σε σύγκρουση με τον νόμο δείχνουν επίσης απόσταση ανάμεσα σε θεσμική πρόβλεψη και διαθέσιμη υπηρεσία. Το επόμενο ουσιαστικό τεστ είναι λειτουργικές δομές και κανονισμοί, μαζί με αντιμετώπιση των καθυστερήσεων στις εκθέσεις ειδικών.",
+        "text": "Οι αναφορές για πλήγματα σε τρεις γέφυρες του Κιέβου αναδεικνύουν κίνδυνο για τις καθημερινές μετακινήσεις, πέρα από τον απολογισμό θυμάτων που δίνει ο δήμαρχος και δεν έχει επαληθευτεί ανεξάρτητα. Η διάρκεια των περιορισμών θα κρίνει την έκταση της διαταραχής. Παράλληλα, η επίσκεψη Πακιστανού υπουργού στην Ινδία δημιουργεί παρουσία στο ίδιο διπλωματικό περιβάλλον μετά τον πόλεμο του 2025. Οι δύο πλευρές την χαρακτηρίζουν πολυμερή· ουσιαστικό τεστ θα ήταν επιβεβαιωμένη διμερής επαφή. Στην Κύπρο, η σύνθεση του δημόσιου χρέους και απόφαση για κτηματομεσιτικές εργασίες στρέφουν την προσοχή στη χρηματοδότηση και στην αδειοδότηση.",
         "story_ids": [
-          "us-senate-baaja-permitting-bill-2026-11-19",
-          "meta-net-zero-timeline-review-2026-11-19"
+          "kyiv-dnipro-bridges-missile-attack-2026-11-20",
+          "pakistan-malik-india-multilateral-visit-2026-11-20"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-20T05:37:19.194129+00:00",
-  "updated_at": "2026-11-20T05:37:19.194129+00:00",
-  "input_sha256": "e7cfd129de09d979e9302a16c14da9975d28d29a82c6fdb5ec07401d09847deb"
+  "updated_at": "2026-11-20T11:39:19.303571+00:00",
+  "input_sha256": "11a8aaef3bdd1724fb11f453b1347cae3581cf229daf0c1e534e4f22663108c3"
 }
