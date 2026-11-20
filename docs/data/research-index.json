@@ -817,6 +817,14 @@
       "published_at": "2026-11-19T05:35:03.754246+00:00",
       "url": "morning/2026-11-19.html",
       "fingerprint": "9d958942221febba663147a5a4468af54ad4ce2a89549186bc1dc124c61cf3e4"
+    },
+    {
+      "id": "2026-11-20-morning",
+      "date": "2026-11-20",
+      "type": "morning",
+      "published_at": "2026-11-20T05:35:21.700409+00:00",
+      "url": "morning/2026-11-20.html",
+      "fingerprint": "05265a2ec632a78252b981ac011321cc3b3ad9320774dac526d11d60e9830f5a"
     }
   ],
   "stories": [
@@ -31336,6 +31344,276 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/f26610b85135eb5e8607be51ce297c7f63646922f7a3ff7d41224887c3a4108b.webp"
+    },
+    {
+      "story_id": "us-senate-baaja-permitting-bill-2026-11-19",
+      "identity": "us-senate-baaja-permitting-bill-2026-11-19",
+      "edition_id": "2026-11-20-morning",
+      "date": "2026-11-20",
+      "slot": "morning",
+      "published_at": "2026-11-20T05:35:21.700409+00:00",
+      "available_at": "2026-11-20T05:35:21.700409+00:00",
+      "headline": "Η αμερικανική Γερουσία ενέκρινε νομοσχέδιο ταχύτερων ενεργειακών αδειοδοτήσεων",
+      "finding": "Η Γερουσία των ΗΠΑ ενέκρινε την Πέμπτη 19 Νοεμβρίου το Bipartisan American Affordability and Jobs Act, σύμφωνα με το CNBC. Το νομοσχέδιο αλλάζει τις περιβαλλοντικές αδειοδοτήσεις και τους κανόνες μεταφοράς ηλεκτρισμού, επιδιώκοντας ταχύτερη κατασκευή έργων. Το Rhodium Group εκτιμά ότι θα μπορούσε να επιτρέψει πρόσθετη ισχύ καθαρής ενέργειας από 17 έως 249 γιγαβάτ μέχρι το 2040· πρόκειται για προβολή, με ιδιαίτερα μεγάλο εύρος.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-20-morning/american-energy-permitting.json",
+      "reader_url": "articles/2026-11-20-morning/american-energy-permitting.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-20T03:30:45+00:00",
+          "retrieved_at": "2026-11-20T04:21:16.704464+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/3fb25cf473e8cd8639c9767f553041547bd8757653b1b0bd03b7bd8eb84ac8b4.webp"
+    },
+    {
+      "story_id": "meta-net-zero-timeline-review-2026-11-19",
+      "identity": "meta-net-zero-timeline-review-2026-11-19",
+      "edition_id": "2026-11-20-morning",
+      "date": "2026-11-20",
+      "slot": "morning",
+      "published_at": "2026-11-20T05:35:21.700409+00:00",
+      "available_at": "2026-11-20T05:35:21.700409+00:00",
+      "headline": "Η Meta επανεξετάζει τον στόχο του 2030 καθώς αυξάνονται οι εκπομπές της",
+      "finding": "Η Meta ανακοίνωσε στην έκθεση βιωσιμότητάς της ότι επανεξετάζει χρονοδιαγράμματα και ενδιάμεσα ορόσημα, περιλαμβανομένου του στόχου μηδενικών καθαρών εκπομπών το 2030, αναφέρει το Al Jazeera. Η εταιρεία δήλωσε αύξηση των καθαρών εκπομπών ισοδυνάμου άνθρακα κατά 45% το 2025, στους 11,8 εκατομμύρια τόνους. Το δημοσίευμα συνδέει την αναθεώρηση με τις ενεργειακές ανάγκες των κέντρων δεδομένων τεχνητής νοημοσύνης.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-20-morning/meta-climate-timeline.json",
+      "reader_url": "articles/2026-11-20-morning/meta-climate-timeline.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/20/meta-rethinks-2030-climate-goals-as-ai-data-centres-drive-emissions-up?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-20T01:29:28+00:00",
+          "retrieved_at": "2026-11-20T04:21:16.253515+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/adf80bc43b54a5c866b9024186fb462007c294edfa72e0c16170cfb7809e52d5.webp"
+    },
+    {
+      "story_id": "aukus-cbo-us-fleet-transfer-warning-2026-11-20",
+      "identity": "aukus-cbo-us-fleet-transfer-warning-2026-11-20",
+      "edition_id": "2026-11-20-morning",
+      "date": "2026-11-20",
+      "slot": "morning",
+      "published_at": "2026-11-20T05:35:21.700409+00:00",
+      "available_at": "2026-11-20T05:35:21.700409+00:00",
+      "headline": "Προειδοποίηση του CBO για το κόστος του AUKUS στον αμερικανικό στόλο",
+      "finding": "Ο Guardian αναφέρει προειδοποίηση του Γραφείου Προϋπολογισμού του Κογκρέσου ότι η παραχώρηση πυρηνοκίνητων υποβρυχίων στην Αυστραλία θα μείωνε τον αμερικανικό στόλο για πολλά χρόνια. Ο πρώτος πυλώνας του AUKUS προβλέπει πώληση τριών έως πέντε εν υπηρεσία υποβρυχίων Virginia από το 2032. Το CBO θέτει επίσης ερωτήματα για τη δυνατότητα δέσμευσης αυστραλιανών υποβρυχίων σε σύγκρουση με την Κίνα.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-20-morning/aukus-fleet-tradeoff.json",
+      "reader_url": "articles/2026-11-20-morning/aukus-fleet-tradeoff.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/nov/20/aukus-defence-us-warned-supplying-nuclear-powered-submarines-to-australia-would-diminish-its-own-fleet-for-many-years",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-20T00:16:29+00:00",
+          "retrieved_at": "2026-11-20T04:21:17.437262+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7bdb65cbe652ffdc4dc4937ae7f2d04320c9bb577f78d2c27b0d06cbd691a571.webp"
+    },
+    {
+      "story_id": "spain-sanchez-feijoo-election-debate-2026-11-19",
+      "identity": "spain-sanchez-feijoo-election-debate-2026-11-19",
+      "edition_id": "2026-11-20-morning",
+      "date": "2026-11-20",
+      "slot": "morning",
+      "published_at": "2026-11-20T05:35:21.700409+00:00",
+      "available_at": "2026-11-20T05:35:21.700409+00:00",
+      "headline": "Ο Σάντσεθ παραδέχθηκε αδυναμίες στην τηλεμαχία πριν από τις ισπανικές εκλογές",
+      "finding": "Ο Πέδρο Σάντσεθ αναγνώρισε αδυναμίες της κυβέρνησής του στην τηλεοπτική αντιπαράθεση της Πέμπτης με τον Αλμπέρτο Νούνιεθ Φεϊχόο, σύμφωνα με το France 24. Ήταν η μόνη τηλεμαχία της προεκλογικής περιόδου πριν από τις πρόωρες εκλογές της 29ης Νοεμβρίου. Το ρεπορτάζ επισημαίνει και την αδυναμία άλλων αριστερών κομμάτων, των οποίων η στήριξη υπήρξε κρίσιμη μετά τις εκλογές του 2023.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-20-morning/spanish-election-debate.json",
+      "reader_url": "articles/2026-11-20-morning/spanish-election-debate.html",
+      "sources": [
+        {
+          "url": "https://www.france24.com/en/europe/20261120-pm-s%C3%A1nchez-admits-mistakes-in-key-debate-ahead-of-spain-election",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-11-20T00:49:44+00:00",
+          "retrieved_at": "2026-11-20T04:21:16.843076+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/dfb478565691734e5ce468dc056e51def14adfda5c1473c3cac0873c5aedd325.webp"
+    },
+    {
+      "story_id": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
+      "identity": "cyprus-juvenile-justice-implementation-gaps-2026-11-20",
+      "edition_id": "2026-11-20-morning",
+      "date": "2026-11-20",
+      "slot": "morning",
+      "published_at": "2026-11-20T05:35:21.700409+00:00",
+      "available_at": "2026-11-20T05:35:21.700409+00:00",
+      "headline": "Ελλείψεις δομών περιορίζουν την εφαρμογή της νομοθεσίας για παιδιά παραβάτες",
+      "finding": "Ο Φιλελεύθερος καταγράφει ελλείψεις σε δομές και υπηρεσίες της νομοθεσίας για παιδιά σε σύγκρουση με τον νόμο, με τους δικαστές να μη διαθέτουν όλες τις προβλεπόμενες επιλογές μεταχείρισης. Αναφέρονται καθυστερήσεις στις εκθέσεις ειδικών και απουσία κατάλληλου χώρου κράτησης σε ορισμένες υποθέσεις. Για τον σχεδιαζόμενο χώρο εντός των Κεντρικών Φυλακών εκκρεμούν κανονισμοί λειτουργίας, ενώ η ετοιμότητά του τοποθετείται στα τέλη του 2027.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-20-morning/juvenile-justice-implementation.json",
+      "reader_url": "articles/2026-11-20-morning/juvenile-justice-implementation.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1797930/terasties-ellipsis-ke-asafies-ston-nomo-gia-pedia-paravates-psifistike-to-2021-alla-den-echi-akoma-pliri-efarmogi-echmes-tis-dikastou-tou-anotatou-elenas-efrem",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-20T04:05:00+00:00",
+          "retrieved_at": "2026-11-20T04:21:17.676055+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6aa42959db7fa7107679449a9505f8cb0c8a4992b6a6e8d7bb0fbbc2d99eceb4.webp"
+    },
+    {
+      "story_id": "cyprus-opok-planning-exemptions-warning-2026-11-19",
+      "identity": "cyprus-opok-planning-exemptions-warning-2026-11-19",
+      "edition_id": "2026-11-20-morning",
+      "date": "2026-11-20",
+      "slot": "morning",
+      "published_at": "2026-11-20T05:35:21.700409+00:00",
+      "available_at": "2026-11-20T05:35:21.700409+00:00",
+      "headline": "Περιβαλλοντικές οργανώσεις αντιδρούν στη συστηματική χρήση πολεοδομικών παρεκκλίσεων",
+      "finding": "Η Ομοσπονδία Περιβαλλοντικών Οργανώσεων προειδοποίησε την Πέμπτη κατά της συστηματικής χρήσης πολεοδομικών παρεκκλίσεων για μεγάλες ιδιωτικές αναπτύξεις, σύμφωνα με το Cyprus Mail. Η παρέμβαση έγινε καθώς η κοινοβουλευτική Επιτροπή Εσωτερικών άρχισε να εξετάζει το ζήτημα, μετά από ελεγκτική έκθεση που προειδοποιεί ότι οι εξαιρέσεις κινδυνεύουν να γίνουν κανόνας. Οι οργανώσεις αμφισβητούν την επάρκεια αποκλειστικά οικονομικών επιχειρημάτων για την έγκρισή τους.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-20-morning/planning-exemptions.json",
+      "reader_url": "articles/2026-11-20-morning/planning-exemptions.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/20/environmental-groups-warn-against-planning-exemptions",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-20T02:24:00+00:00",
+          "retrieved_at": "2026-11-20T04:21:16.980255+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/39e314682de3b5ab33642f3124f12d270f59f5afa74896ae46d8aff3fb11301d.webp"
+    },
+    {
+      "story_id": "avakoum-monastery-cash-invoice-testimony-2026-11-19",
+      "identity": "avakoum-monastery-cash-invoice-testimony-2026-11-19",
+      "edition_id": "2026-11-20-morning",
+      "date": "2026-11-20",
+      "slot": "morning",
+      "published_at": "2026-11-20T05:35:21.700409+00:00",
+      "available_at": "2026-11-20T05:35:21.700409+00:00",
+      "headline": "Καταθέσεις για πληρωμές και τιμολόγια στη δίκη της Μονής Αββακούμ",
+      "finding": "Τεχνίτης κατέθεσε την Πέμπτη στο Κακουργιοδικείο Λευκωσίας ότι πληρώθηκε 2.450 ευρώ σε μετρητά για εργασίες στη Μονή Αββακούμ χωρίς κανονικό τιμολόγιο, αναφέρει το Cyprus Mail. Δωρητής υποστήριξε ότι του ζητήθηκε να αφήσει κενό τον δικαιούχο σε επιταγή 3.000 ευρώ του 2021. Πρόκειται για μαρτυρικούς ισχυρισμούς στη δικαστική διαδικασία, οι οποίοι δεν ισοδυναμούν με δικαστική διαπίστωση ενοχής.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-20-morning/avakoum-trial-testimony.json",
+      "reader_url": "articles/2026-11-20-morning/avakoum-trial-testimony.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/19/monastery-told-contractor-paying-vat-would-be-a-shame-court-hears",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-19T20:15:00+00:00",
+          "retrieved_at": "2026-11-20T04:21:16.968199+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/4f023b7f3bbac65d44dca1048414f5cbc69427653b7de51c66acbb6e0eff0194.webp"
+    },
+    {
+      "story_id": "cyprus-parliament-2029-power-adequacy-warning-2026-11-19",
+      "identity": "cyprus-parliament-2029-power-adequacy-warning-2026-11-19",
+      "edition_id": "2026-11-20-morning",
+      "date": "2026-11-20",
+      "slot": "morning",
+      "published_at": "2026-11-19T17:36:27.280028+00:00",
+      "available_at": "2026-11-20T05:35:21.700409+00:00",
+      "headline": "Το ΔΗΚΟ ζητεί συντονισμό για την ηλεκτρική επάρκεια ενόψει του 2030",
+      "finding": "Ο βουλευτής του ΔΗΚΟ Χρύσης Παντελίδης ζήτησε συνεργασία νομοθετικής και εκτελεστικής εξουσίας για την επάρκεια ηλεκτρισμού, σύμφωνα με το SigmaLive. Προειδοποίησε για τον κίνδυνο που, κατά την τοποθέτησή του, συνδέεται με την απόσυρση μονάδων στο Βασιλικό το 2030. Η αναφορά προσθέτει συγκεκριμένο χρονικό ορίζοντα στη χθεσινή κοινοβουλευτική συζήτηση για την ενεργειακή επάρκεια, χωρίς να αποτελεί ανακοινωμένο σχέδιο αντικατάστασης των μονάδων.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-11-20-morning/electricity-adequacy-debate.json",
+      "reader_url": "articles/2026-11-20-morning/electricity-adequacy-debate.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1338379/dhko-fisiko-aerio-gsi-oi-lyseis-ghia-fthino-reuma-kai-energheiaki-eparkeia",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-19T19:05:25+00:00",
+          "retrieved_at": "2026-11-20T04:21:17.195232+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ea0f0ede9cbe2eb159f888f96fbb5f9448920b5bdf44cef8010131ce1129da26.webp"
+    },
+    {
+      "story_id": "cyprus-eu-culture-council-larnaca-leuven-2026-11-20",
+      "identity": "cyprus-eu-culture-council-larnaca-leuven-2026-11-20",
+      "edition_id": "2026-11-20-morning",
+      "date": "2026-11-20",
+      "slot": "morning",
+      "published_at": "2026-11-20T05:35:21.700409+00:00",
+      "available_at": "2026-11-20T05:35:21.700409+00:00",
+      "headline": "Κυπριακή συμμετοχή στο Συμβούλιο Πολιτισμού με ενδιαφέρον για Λάρνακα–Λουβένη",
+      "finding": "Η υφυπουργός Πολιτισμού συμμετέχει σήμερα, Παρασκευή 20 Νοεμβρίου, στο Συμβούλιο Υπουργών Πολιτισμού της ΕΕ στις Βρυξέλλες, σύμφωνα με τον Φιλελεύθερο. Το δημοσίευμα αναφέρεται επίσης σε προγραμματισμένη συνάντηση της 19ης Νοεμβρίου με τη Φλαμανδή υπουργό Πολιτισμού Καρολίν Γκενέζ. Αντικείμενό της ήταν η προετοιμασία Λάρνακας και Λουβένης ως Πολιτιστικών Πρωτευουσών της Ευρώπης για το 2030 και οι δυνατότητες συνεργασίας τους.",
+      "section": "cyprus",
+      "priority": 9,
+      "article_path": "articles/2026-11-20-morning/culture-council-brussels.json",
+      "reader_url": "articles/2026-11-20-morning/culture-council-brussels.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politismos/article/1798020/stis-vrixelles-i-klea-papaellina-gia-to-simvoulio-ipourgon-politismou-tis-ee",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-20T04:17:00+00:00",
+          "retrieved_at": "2026-11-20T04:21:17.670496+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/da6062b2b3add678bc2b67e24d7f494c5e7968d923577f5e482d3e9248861f86.webp"
+    },
+    {
+      "story_id": "sykes-humphries-grand-slam-darts-2026-11-19",
+      "identity": "sykes-humphries-grand-slam-darts-2026-11-19",
+      "edition_id": "2026-11-20-morning",
+      "date": "2026-11-20",
+      "slot": "morning",
+      "published_at": "2026-11-20T05:35:21.700409+00:00",
+      "available_at": "2026-11-20T05:35:21.700409+00:00",
+      "headline": "Ο Σάικς απέκλεισε τον Χάμφρις με 10–9 στο Grand Slam",
+      "finding": "Ο Τομ Σάικς νίκησε τον Λουκ Χάμφρις με 10–9 στον δεύτερο γύρο του Grand Slam of Darts. Ο Άγγλος, νούμερο 81 στον κόσμο, εξασφάλισε την πρώτη του παρουσία σε προημιτελικά μεγάλης διοργάνωσης, σύμφωνα με το BBC.",
+      "section": "sports",
+      "priority": 10,
+      "article_path": "articles/2026-11-20-morning/sykes-grand-slam.json",
+      "reader_url": "articles/2026-11-20-morning/sykes-grand-slam.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/darts/articles/ckzd9n5996zno?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-19T22:45:41+00:00",
+          "retrieved_at": "2026-11-20T04:21:16.279796+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f758d6c3c896a1fc19b8dfd81325ae7b41ac839f4800272a177aa9dc9a0b23d5.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
