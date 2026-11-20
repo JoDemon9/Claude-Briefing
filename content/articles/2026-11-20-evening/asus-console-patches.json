@@ -1,0 +1,70 @@
+{
+  "analysis_sources": [],
+  "baseline_origin": {
+    "edition_id": "2026-11-20-midday",
+    "fingerprint": "8315e4b09985c706e105820d6a6e8a6d0fd0a136133e8c9342f28ee1f6be48d6"
+  },
+  "category": "Διεθνή",
+  "change_status": "UNCHANGED",
+  "daily": {
+    "events": [],
+    "priority": 3,
+    "section": "world"
+  },
+  "driver_tags": [
+    "cybersecurity",
+    "technology",
+    "patching"
+  ],
+  "edition_id": "2026-11-20-evening",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Διορθώσεις κρίσιμων ευπαθειών για κονσόλες διαχείρισης της ASUS",
+  "id": "asus-console-patches",
+  "image": {
+    "alt": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+    "attribution": "BleepingComputer",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · ASUS warns of critical hard-coded key flaw in Control Center Express · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express",
+    "original_url": "https://www.bleepstatic.com/content/hl-images/2025/11/26/Asus.jpg",
+    "retrieved_at": "2026-11-20T04:21:25.944356+00:00",
+    "source_review": {
+      "checked_at": "2026-11-20T04:21:25.944356+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "8c0208396164c737",
+      "rights_basis": "publisher-attribution",
+      "sha256": "b992ceee934cabc5f3da9c85a6357a2da718eddff33c6ab08ab40bdb6e1a9ace"
+    },
+    "source_url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express",
+    "url": "assets/editorial/source/b992ceee934cabc5f3da9c85a6357a2da718eddff33c6ab08ab40bdb6e1a9ace.webp"
+  },
+  "published_at": "2026-11-20T11:34:11.430228+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Η ASUS εξέδωσε το Control Center Express 1.7.29 για τρεις κρίσιμες ευπάθειες που θα μπορούσαν να επιτρέψουν απομακρυσμένη ανάληψη διαχειριστικού ελέγχου, σύμφωνα με το BleepingComputer. Μεταξύ των προβλημάτων περιγράφεται ενσωματωμένο κρυπτογραφικό κλειδί που επιτρέπει σε χρήστη χαμηλών προνομίων να πλαστογραφήσει διακριτικό συνεδρίας πρόσφατα συνδεδεμένου λογαριασμού."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-19T21:15:59+00:00",
+      "publisher": "BleepingComputer",
+      "reporting_group": "BleepingComputer",
+      "retrieved_at": "2026-11-20T10:21:26.699794+00:00",
+      "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "asus-control-center-critical-fixes-2026-11-19",
+  "story_identity": "asus-control-center-critical-fixes-2026-11-19",
+  "summary": "Η ASUS εξέδωσε το Control Center Express 1.7.29 για τρεις κρίσιμες ευπάθειες που θα μπορούσαν να επιτρέψουν απομακρυσμένη ανάληψη διαχειριστικού ελέγχου, σύμφωνα με το BleepingComputer. Μεταξύ των προβλημάτων περιγράφεται ενσωματωμένο κρυπτογραφικό κλειδί που επιτρέπει σε χρήστη χαμηλών προνομίων να πλαστογραφήσει διακριτικό συνεδρίας πρόσφατα συνδεδεμένου λογαριασμού.",
+  "updated_at": "2026-11-20T11:34:11.430228+00:00",
+  "url": "articles/2026-11-20-evening/asus-console-patches.html"
+}
