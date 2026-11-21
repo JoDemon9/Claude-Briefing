@@ -1,0 +1,88 @@
+{
+  "analysis_sources": [
+    "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+    "https://www.polskieradio.pl/395/7784/Artykul/3755261,polish-pm-accuses-russia-of-intentional-provocation-after-airspace-breaches"
+  ],
+  "baseline_origin": {
+    "edition_id": "2026-11-21-morning",
+    "fingerprint": "639322f5bf9b11fbf1a21eb33d674539cc643e468ac1b4645dcdb2df006041fb"
+  },
+  "category": "Διεθνή",
+  "change_status": "UNCHANGED",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "driver_tags": [
+    "security",
+    "poland",
+    "ukraine"
+  ],
+  "edition_id": "2026-11-21-midday",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Η Πολωνία καταγγέλλει πτώση δύο ρωσικών πυραύλων και drone στο έδαφός της",
+  "id": "poland-airspace-breach",
+  "image": {
+    "alt": "explosion seen in Poland",
+    "attribution": "BBC News",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · explosion seen in Poland · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+    "original_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cbb7/live/b5de9720-e4ea-11f1-99b6-a35a62fa4264.jpg",
+    "retrieved_at": "2026-11-21T04:21:24.645458+00:00",
+    "source_review": {
+      "checked_at": "2026-11-21T04:21:24.645458+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "cce0e2c2f7cfc432",
+      "rights_basis": "publisher-attribution",
+      "sha256": "6730b0b0ce755c1cd1307f2e58d52e4b86c025669bef8650f448f52364f8031d"
+    },
+    "source_url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+    "url": "assets/editorial/source/6730b0b0ce755c1cd1307f2e58d52e4b86c025669bef8650f448f52364f8031d.webp"
+  },
+  "mechanics_and_incentives": "Η συνύπαρξη περιστατικού εναέριου χώρου και άσκησης απαιτεί συντονισμό στρατιωτικής επιτήρησης και πολιτικής επικοινωνίας, ώστε η απόδοση πρόθεσης να στηρίζεται σε επαληθευμένα στοιχεία.",
+  "published_at": "2026-11-21T05:33:51.663460+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "watch_next": "Τα πορίσματα της διερεύνησης και οι επίσημες συμμαχικές τοποθετήσεις, περιλαμβανομένης της αναφερόμενης προγραμματισμένης επίσκεψης Ρούτε το Σάββατο."
+  },
+  "second_order_effects": "Η Βαρσοβία έχει επαφές με συμμάχους. Η κυβερνητική καταγγελία και η τεχνική διερεύνηση είναι διακριτά στοιχεία της αξιολόγησης του περιστατικού.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Πολωνικές αρχές ανέφεραν ότι δύο ρωσικοί πύραυλοι και drone έπεσαν στη νοτιοανατολική Πολωνία την Παρασκευή 20 Νοεμβρίου. Ο Ντόναλντ Τουσκ χαρακτήρισε το περιστατικό πιθανή σκόπιμη πρόκληση, σύμφωνα με το Polskie Radio. Ο υπουργός Άμυνας δήλωσε ότι δεν υπήρχαν τραυματίες ή αναφορές ζημιών σε υποδομές. Στην περιοχή διεξάγεται άσκηση με συμμετοχή 11 χωρών, αναφέρει το BBC."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": null,
+      "publisher": "Polskie Radio",
+      "reporting_group": "IAR/PAP",
+      "retrieved_at": "2026-11-21T05:26:53.249Z",
+      "url": "https://www.polskieradio.pl/395/7784/Artykul/3755261,polish-pm-accuses-russia-of-intentional-provocation-after-airspace-breaches",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-21T02:09:46+00:00",
+      "publisher": "BBC",
+      "reporting_group": "BBC",
+      "retrieved_at": "2026-11-21T04:21:15.679498+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "poland-russian-objects-airspace-breach-2026-11-20",
+  "story_identity": "poland-russian-objects-airspace-breach-2026-11-20",
+  "summary": "Πολωνικές αρχές ανέφεραν ότι δύο ρωσικοί πύραυλοι και drone έπεσαν στη νοτιοανατολική Πολωνία την Παρασκευή 20 Νοεμβρίου. Ο Ντόναλντ Τουσκ χαρακτήρισε το περιστατικό πιθανή σκόπιμη πρόκληση, σύμφωνα με το Polskie Radio. Ο υπουργός Άμυνας δήλωσε ότι δεν υπήρχαν τραυματίες ή αναφορές ζημιών σε υποδομές. Στην περιοχή διεξάγεται άσκηση με συμμετοχή 11 χωρών, αναφέρει το BBC.",
+  "updated_at": "2026-11-21T05:33:51.663460+00:00",
+  "url": "articles/2026-11-21-midday/poland-airspace-breach.html"
+}

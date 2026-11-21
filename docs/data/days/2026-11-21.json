@@ -10,14 +10,40 @@
       "type": "morning",
       "url": "morning/2026-11-21.html",
       "published_at": "2026-11-21T05:33:51.663460+00:00"
+    },
+    {
+      "id": "2026-11-21-midday",
+      "type": "midday",
+      "url": "midday/2026-11-21.html",
+      "published_at": "2026-11-21T11:36:28.478715+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "poland-russian-objects-airspace-breach-2026-11-20",
+  "lead_story_id": "iran-us-diplomacy-uranium-red-lines-2026-11-21",
   "stories": [
+    {
+      "story_id": "iran-us-diplomacy-uranium-red-lines-2026-11-21",
+      "first_seen_at": "2026-11-21T11:36:28.478715+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-21-midday",
+          "article_id": "iran-diplomacy",
+          "source_story_id": "iran-us-diplomacy-uranium-red-lines-2026-11-21",
+          "url": "articles/2026-11-21-midday/iran-diplomacy.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "iran-diplomacy",
+        "source_story_id": "iran-us-diplomacy-uranium-red-lines-2026-11-21",
+        "url": "articles/2026-11-21-midday/iran-diplomacy.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "poland-russian-objects-airspace-breach-2026-11-20",
       "first_seen_at": "2026-11-21T05:33:51.663460+00:00",
@@ -28,13 +54,19 @@
           "article_id": "poland-airspace-breach",
           "source_story_id": "poland-russian-objects-airspace-breach-2026-11-20",
           "url": "articles/2026-11-21-morning/poland-airspace-breach.html"
+        },
+        {
+          "edition_id": "2026-11-21-midday",
+          "article_id": "poland-airspace-breach",
+          "source_story_id": "poland-russian-objects-airspace-breach-2026-11-20",
+          "url": "articles/2026-11-21-midday/poland-airspace-breach.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-21-morning",
+        "edition_id": "2026-11-21-midday",
         "article_id": "poland-airspace-breach",
         "source_story_id": "poland-russian-objects-airspace-breach-2026-11-20",
-        "url": "articles/2026-11-21-morning/poland-airspace-breach.html"
+        "url": "articles/2026-11-21-midday/poland-airspace-breach.html"
       },
       "section": "world",
       "priority": 1
@@ -61,27 +93,6 @@
       "priority": 2
     },
     {
-      "story_id": "europe-gen-z-cost-climate-protests-2026-11-21",
-      "first_seen_at": "2026-11-21T05:33:51.663460+00:00",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-11-21-morning",
-          "article_id": "european-youth-protests",
-          "source_story_id": "europe-gen-z-cost-climate-protests-2026-11-21",
-          "url": "articles/2026-11-21-morning/european-youth-protests.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-11-21-morning",
-        "article_id": "european-youth-protests",
-        "source_story_id": "europe-gen-z-cost-climate-protests-2026-11-21",
-        "url": "articles/2026-11-21-morning/european-youth-protests.html"
-      },
-      "section": "world",
-      "priority": 3
-    },
-    {
       "story_id": "riyadh-alerts-coalition-interception-claim-2026-11-21",
       "first_seen_at": "2026-11-21T05:33:51.663460+00:00",
       "last_substantive_at": null,
@@ -91,15 +102,90 @@
           "article_id": "riyadh-missile-alerts",
           "source_story_id": "riyadh-alerts-coalition-interception-claim-2026-11-21",
           "url": "articles/2026-11-21-morning/riyadh-missile-alerts.html"
+        },
+        {
+          "edition_id": "2026-11-21-midday",
+          "article_id": "riyadh-attribution",
+          "source_story_id": "riyadh-alerts-coalition-interception-claim-2026-11-21",
+          "url": "articles/2026-11-21-midday/riyadh-attribution.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-21-morning",
-        "article_id": "riyadh-missile-alerts",
+        "edition_id": "2026-11-21-midday",
+        "article_id": "riyadh-attribution",
         "source_story_id": "riyadh-alerts-coalition-interception-claim-2026-11-21",
-        "url": "articles/2026-11-21-morning/riyadh-missile-alerts.html"
+        "url": "articles/2026-11-21-midday/riyadh-attribution.html"
       },
       "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "cop31-china-low-carbon-electrification-target-2026-11-21",
+      "first_seen_at": "2026-11-21T11:36:28.478715+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-21-midday",
+          "article_id": "cop31-electrification",
+          "source_story_id": "cop31-china-low-carbon-electrification-target-2026-11-21",
+          "url": "articles/2026-11-21-midday/cop31-electrification.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "cop31-electrification",
+        "source_story_id": "cop31-china-low-carbon-electrification-target-2026-11-21",
+        "url": "articles/2026-11-21-midday/cop31-electrification.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "europe-gen-z-cost-climate-protests-2026-11-21",
+      "first_seen_at": "2026-11-21T05:33:51.663460+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-21-morning",
+          "article_id": "european-youth-protests",
+          "source_story_id": "europe-gen-z-cost-climate-protests-2026-11-21",
+          "url": "articles/2026-11-21-morning/european-youth-protests.html"
+        },
+        {
+          "edition_id": "2026-11-21-midday",
+          "article_id": "european-youth-protests",
+          "source_story_id": "europe-gen-z-cost-climate-protests-2026-11-21",
+          "url": "articles/2026-11-21-midday/european-youth-protests.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "european-youth-protests",
+        "source_story_id": "europe-gen-z-cost-climate-protests-2026-11-21",
+        "url": "articles/2026-11-21-midday/european-youth-protests.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "cyprus-moodys-a3-government-response-2026-11-21",
+      "first_seen_at": "2026-11-21T11:36:28.478715+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-21-midday",
+          "article_id": "moodys-government-response",
+          "source_story_id": "cyprus-moodys-a3-government-response-2026-11-21",
+          "url": "articles/2026-11-21-midday/moodys-government-response.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "moodys-government-response",
+        "source_story_id": "cyprus-moodys-a3-government-response-2026-11-21",
+        "url": "articles/2026-11-21-midday/moodys-government-response.html"
+      },
+      "section": "cyprus",
       "priority": 4
     },
     {
@@ -112,13 +198,40 @@
           "article_id": "foreign-tertiary-students",
           "source_story_id": "cyprus-foreign-tertiary-students-eurostat-2024",
           "url": "articles/2026-11-21-morning/foreign-tertiary-students.html"
+        },
+        {
+          "edition_id": "2026-11-21-midday",
+          "article_id": "foreign-tertiary-students",
+          "source_story_id": "cyprus-foreign-tertiary-students-eurostat-2024",
+          "url": "articles/2026-11-21-midday/foreign-tertiary-students.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-21-morning",
+        "edition_id": "2026-11-21-midday",
         "article_id": "foreign-tertiary-students",
         "source_story_id": "cyprus-foreign-tertiary-students-eurostat-2024",
-        "url": "articles/2026-11-21-morning/foreign-tertiary-students.html"
+        "url": "articles/2026-11-21-midday/foreign-tertiary-students.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "paphos-foster-police-treatment-allegations-2026-11-21",
+      "first_seen_at": "2026-11-21T11:36:28.478715+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-21-midday",
+          "article_id": "paphos-father-complaints",
+          "source_story_id": "paphos-foster-police-treatment-allegations-2026-11-21",
+          "url": "articles/2026-11-21-midday/paphos-father-complaints.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "paphos-father-complaints",
+        "source_story_id": "paphos-foster-police-treatment-allegations-2026-11-21",
+        "url": "articles/2026-11-21-midday/paphos-father-complaints.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -133,16 +246,64 @@
           "article_id": "christmas-villages",
           "source_story_id": "cyprus-nine-christmas-villages-opening-2026-11-21",
           "url": "articles/2026-11-21-morning/christmas-villages.html"
+        },
+        {
+          "edition_id": "2026-11-21-midday",
+          "article_id": "christmas-villages",
+          "source_story_id": "cyprus-nine-christmas-villages-opening-2026-11-21",
+          "url": "articles/2026-11-21-midday/christmas-villages.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-21-morning",
+        "edition_id": "2026-11-21-midday",
         "article_id": "christmas-villages",
         "source_story_id": "cyprus-nine-christmas-villages-opening-2026-11-21",
-        "url": "articles/2026-11-21-morning/christmas-villages.html"
+        "url": "articles/2026-11-21-midday/christmas-villages.html"
       },
       "section": "cyprus",
       "priority": 6
+    },
+    {
+      "story_id": "farmakas-quarry-moving-truck-fire-2026-11-21",
+      "first_seen_at": "2026-11-21T11:36:28.478715+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-21-midday",
+          "article_id": "farmakas-truck-fire",
+          "source_story_id": "farmakas-quarry-moving-truck-fire-2026-11-21",
+          "url": "articles/2026-11-21-midday/farmakas-truck-fire.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "farmakas-truck-fire",
+        "source_story_id": "farmakas-quarry-moving-truck-fire-2026-11-21",
+        "url": "articles/2026-11-21-midday/farmakas-truck-fire.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "conmebol-infantino-reelection-endorsement-2026-11-21",
+      "first_seen_at": "2026-11-21T11:36:28.478715+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-21-midday",
+          "article_id": "conmebol-endorsement",
+          "source_story_id": "conmebol-infantino-reelection-endorsement-2026-11-21",
+          "url": "articles/2026-11-21-midday/conmebol-endorsement.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "conmebol-endorsement",
+        "source_story_id": "conmebol-infantino-reelection-endorsement-2026-11-21",
+        "url": "articles/2026-11-21-midday/conmebol-endorsement.html"
+      },
+      "section": "sports",
+      "priority": 7
     },
     {
       "story_id": "cyprus-faros-zois-ministry-donation-2026-11-20",
@@ -196,13 +357,19 @@
           "article_id": "padel-cross-madrid",
           "source_story_id": "red-bull-padel-cross-madrid-announcement-2027-02-13",
           "url": "articles/2026-11-21-morning/padel-cross-madrid.html"
+        },
+        {
+          "edition_id": "2026-11-21-midday",
+          "article_id": "padel-cross-madrid",
+          "source_story_id": "red-bull-padel-cross-madrid-announcement-2027-02-13",
+          "url": "articles/2026-11-21-midday/padel-cross-madrid.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-21-morning",
+        "edition_id": "2026-11-21-midday",
         "article_id": "padel-cross-madrid",
         "source_story_id": "red-bull-padel-cross-madrid-announcement-2027-02-13",
-        "url": "articles/2026-11-21-morning/padel-cross-madrid.html"
+        "url": "articles/2026-11-21-midday/padel-cross-madrid.html"
       },
       "section": "sports",
       "priority": 9
@@ -333,6 +500,174 @@
         "article_id": "christmas-villages",
         "source_story_id": "cyprus-nine-christmas-villages-opening-2026-11-21",
         "url": "articles/2026-11-21-morning/christmas-villages.html"
+      }
+    },
+    {
+      "id": "020b08692424c88d9ad2199b3d7b0144765950ad01e2ccdf0d5a0e93c1ddc4d5",
+      "kind": "provenance",
+      "at": "2026-11-21T11:36:28.478715+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "poland-russian-objects-airspace-breach-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "poland-airspace-breach",
+        "source_story_id": "poland-russian-objects-airspace-breach-2026-11-20",
+        "url": "articles/2026-11-21-midday/poland-airspace-breach.html"
+      }
+    },
+    {
+      "id": "0f4551cd936dc3ddff752af8e44145b0cd9ad6985e7eb85d5fcc51133fcd97b8",
+      "kind": "provenance",
+      "at": "2026-11-21T11:36:28.478715+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "conmebol-infantino-reelection-endorsement-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "conmebol-endorsement",
+        "source_story_id": "conmebol-infantino-reelection-endorsement-2026-11-21",
+        "url": "articles/2026-11-21-midday/conmebol-endorsement.html"
+      }
+    },
+    {
+      "id": "1a5ae453be50146bd47fcc8de2cbeb064d2f9ebb8e7ffec9c08efc6fb7b12bd2",
+      "kind": "provenance",
+      "at": "2026-11-21T11:36:28.478715+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "red-bull-padel-cross-madrid-announcement-2027-02-13",
+      "origin": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "padel-cross-madrid",
+        "source_story_id": "red-bull-padel-cross-madrid-announcement-2027-02-13",
+        "url": "articles/2026-11-21-midday/padel-cross-madrid.html"
+      }
+    },
+    {
+      "id": "2037fee7cf013aca12cb5fc973f28bd0290414541a895f64352e85eed5effa66",
+      "kind": "provenance",
+      "at": "2026-11-21T11:36:28.478715+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cop31-china-low-carbon-electrification-target-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "cop31-electrification",
+        "source_story_id": "cop31-china-low-carbon-electrification-target-2026-11-21",
+        "url": "articles/2026-11-21-midday/cop31-electrification.html"
+      }
+    },
+    {
+      "id": "34605b163aa6024dfa41c35e0e27b2922f21fc422cafdbca2f86396e7d4197a9",
+      "kind": "provenance",
+      "at": "2026-11-21T11:36:28.478715+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "paphos-foster-police-treatment-allegations-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "paphos-father-complaints",
+        "source_story_id": "paphos-foster-police-treatment-allegations-2026-11-21",
+        "url": "articles/2026-11-21-midday/paphos-father-complaints.html"
+      }
+    },
+    {
+      "id": "5bc92b25f36f833e1f7ad91b154e84991091964601bebe2b4dbfdfc1bb991f2d",
+      "kind": "provenance",
+      "at": "2026-11-21T11:36:28.478715+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "farmakas-quarry-moving-truck-fire-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "farmakas-truck-fire",
+        "source_story_id": "farmakas-quarry-moving-truck-fire-2026-11-21",
+        "url": "articles/2026-11-21-midday/farmakas-truck-fire.html"
+      }
+    },
+    {
+      "id": "9b27ace36c436fa58d4783d248c7640724139ae2eb7986dfbc9bac6ce0da923a",
+      "kind": "provenance",
+      "at": "2026-11-21T11:36:28.478715+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-nine-christmas-villages-opening-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "christmas-villages",
+        "source_story_id": "cyprus-nine-christmas-villages-opening-2026-11-21",
+        "url": "articles/2026-11-21-midday/christmas-villages.html"
+      }
+    },
+    {
+      "id": "b90caffbc4aa9f6be534711dc5504034e577305e0d131f1db16f646c795ddfa1",
+      "kind": "provenance",
+      "at": "2026-11-21T11:36:28.478715+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-foreign-tertiary-students-eurostat-2024",
+      "origin": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "foreign-tertiary-students",
+        "source_story_id": "cyprus-foreign-tertiary-students-eurostat-2024",
+        "url": "articles/2026-11-21-midday/foreign-tertiary-students.html"
+      }
+    },
+    {
+      "id": "bddc140916fd50051599ca064ee57d3ecd59a5cc0f9013b6aca5adf1a40139c0",
+      "kind": "provenance",
+      "at": "2026-11-21T11:36:28.478715+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "iran-us-diplomacy-uranium-red-lines-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "iran-diplomacy",
+        "source_story_id": "iran-us-diplomacy-uranium-red-lines-2026-11-21",
+        "url": "articles/2026-11-21-midday/iran-diplomacy.html"
+      }
+    },
+    {
+      "id": "c2a1c6072f03c66868b3ded008b850e163e42484478c91d348ce53a29436cdd7",
+      "kind": "provenance",
+      "at": "2026-11-21T11:36:28.478715+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "europe-gen-z-cost-climate-protests-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "european-youth-protests",
+        "source_story_id": "europe-gen-z-cost-climate-protests-2026-11-21",
+        "url": "articles/2026-11-21-midday/european-youth-protests.html"
+      }
+    },
+    {
+      "id": "c3fd8eccbfc978bb1aabee6a64d050ccec8853ca5e320122ec96244a67ad897d",
+      "kind": "provenance",
+      "at": "2026-11-21T11:36:28.478715+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-moodys-a3-government-response-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "moodys-government-response",
+        "source_story_id": "cyprus-moodys-a3-government-response-2026-11-21",
+        "url": "articles/2026-11-21-midday/moodys-government-response.html"
+      }
+    },
+    {
+      "id": "ca1730acd46d96f0d75a3b90e93d1f12c95f6be0c7d8574a7d96e34f548abc4e",
+      "kind": "provenance",
+      "at": "2026-11-21T11:36:28.478715+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "riyadh-alerts-coalition-interception-claim-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-midday",
+        "article_id": "riyadh-attribution",
+        "source_story_id": "riyadh-alerts-coalition-interception-claim-2026-11-21",
+        "url": "articles/2026-11-21-midday/riyadh-attribution.html"
       }
     }
   ],
@@ -542,16 +877,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η πτώση ρωσικών αντικειμένων στην Πολωνία, ενώ διεξαγόταν συμμαχική άσκηση, αυξάνει τη σημασία συντονισμού και τεχνικής διερεύνησης. Η πρόθεση αποδίδεται στην εκτίμηση των πολωνικών αρχών· οι επόμενες επίσημες συμμαχικές τοποθετήσεις θα δείξουν την αντίδραση. Στην Κύπρο, το υψηλό ποσοστό φοιτητών από το εξωτερικό αφορά το 2024 και περιγράφει τη διεθνοποίηση της εκπαίδευσης, χωρίς να μετρά σημερινές εισροές ή οικονομική συνεισφορά. Η έναρξη των χριστουγεννιάτικων χωριών δημιουργεί σημερινή ευκαιρία επισκέψεων στην ύπαιθρο. Για εκπαιδευτικά ιδρύματα και κοινότητες, χρήσιμο επόμενο τεστ είναι πραγματικά στοιχεία συμμετοχής και ζήτησης υπηρεσιών, αντί για συμπεράσματα που στηρίζονται μόνο σε ποσοστά ή εξαγγελίες.",
+        "text": "Το Ιράν δηλώνει ανοικτό στη διπλωματία, αλλά η διατήρηση εμπλουτισμένου ουρανίου στη χώρα παραμένει κόκκινη γραμμή, ενώ ο Τραμπ απορρίπτει τους προτεινόμενους όρους. Η απόσταση αυτή περιορίζει τα συμπεράσματα για επικείμενη συμφωνία. Οι αναφορές ανταλλαγής πληγμάτων Χούθι–σαουδαραβικού συνασπισμού δείχνουν ότι η περιφερειακή ασφάλεια παραμένει ενεργό ζήτημα· κρίσιμο τεστ είναι επαληθευμένες δεσμεύσεις και αλλαγή στη στρατιωτική δραστηριότητα. Στην Κύπρο, η διατήρηση του A3 συνυπάρχει με προειδοποιήσεις για μεταρρυθμίσεις και δημόσια έργα. Η κυβερνητική διαβεβαίωση χρειάζεται να μεταφραστεί σε συγκεκριμένα μέτρα και χρονοδιαγράμματα για να αξιολογηθεί η αντιμετώπιση αυτών των κινδύνων.",
         "story_ids": [
-          "poland-russian-objects-airspace-breach-2026-11-20",
-          "cyprus-foreign-tertiary-students-eurostat-2024"
+          "iran-us-diplomacy-uranium-red-lines-2026-11-21",
+          "riyadh-alerts-coalition-interception-claim-2026-11-21"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-21T05:35:44.282260+00:00",
-  "updated_at": "2026-11-21T05:35:44.282260+00:00",
-  "input_sha256": "614116880293bf064943c1e5529baad12946b8def7b97a30f816e624021f0ba1"
+  "updated_at": "2026-11-21T11:38:54.610647+00:00",
+  "input_sha256": "3005fcb2fdb8a5a1b6a1eb7c26ca92509b5ce1ee596f16bdab14f7dfe363b1c9"
 }
