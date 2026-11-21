@@ -841,6 +841,14 @@
       "published_at": "2026-11-20T05:35:21.700409+00:00",
       "url": "morning/2026-11-20.html",
       "fingerprint": "05265a2ec632a78252b981ac011321cc3b3ad9320774dac526d11d60e9830f5a"
+    },
+    {
+      "id": "2026-11-21-morning",
+      "date": "2026-11-21",
+      "type": "morning",
+      "published_at": "2026-11-21T05:33:51.663460+00:00",
+      "url": "morning/2026-11-21.html",
+      "fingerprint": "639322f5bf9b11fbf1a21eb33d674539cc643e468ac1b4645dcdb2df006041fb"
     }
   ],
   "stories": [
@@ -32305,6 +32313,273 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/f758d6c3c896a1fc19b8dfd81325ae7b41ac839f4800272a177aa9dc9a0b23d5.webp"
+    },
+    {
+      "story_id": "poland-russian-objects-airspace-breach-2026-11-20",
+      "identity": "poland-russian-objects-airspace-breach-2026-11-20",
+      "edition_id": "2026-11-21-morning",
+      "date": "2026-11-21",
+      "slot": "morning",
+      "published_at": "2026-11-21T05:33:51.663460+00:00",
+      "available_at": "2026-11-21T05:33:51.663460+00:00",
+      "headline": "Η Πολωνία καταγγέλλει πτώση δύο ρωσικών πυραύλων και drone στο έδαφός της",
+      "finding": "Πολωνικές αρχές ανέφεραν ότι δύο ρωσικοί πύραυλοι και drone έπεσαν στη νοτιοανατολική Πολωνία την Παρασκευή 20 Νοεμβρίου. Ο Ντόναλντ Τουσκ χαρακτήρισε το περιστατικό πιθανή σκόπιμη πρόκληση, σύμφωνα με το Polskie Radio. Ο υπουργός Άμυνας δήλωσε ότι δεν υπήρχαν τραυματίες ή αναφορές ζημιών σε υποδομές. Στην περιοχή διεξάγεται άσκηση με συμμετοχή 11 χωρών, αναφέρει το BBC.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-21-morning/poland-airspace-breach.json",
+      "reader_url": "articles/2026-11-21-morning/poland-airspace-breach.html",
+      "sources": [
+        {
+          "url": "https://www.polskieradio.pl/395/7784/Artykul/3755261,polish-pm-accuses-russia-of-intentional-provocation-after-airspace-breaches",
+          "publisher": "Polskie Radio",
+          "reporting_group": "IAR/PAP",
+          "published_at": null,
+          "retrieved_at": "2026-11-21T05:26:53.249Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-21T02:09:46+00:00",
+          "retrieved_at": "2026-11-21T04:21:15.679498+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6730b0b0ce755c1cd1307f2e58d52e4b86c025669bef8650f448f52364f8031d.webp"
+    },
+    {
+      "story_id": "nvidia-trump-huang-return-call-2026-11-20",
+      "identity": "nvidia-trump-huang-return-call-2026-11-20",
+      "edition_id": "2026-11-21-morning",
+      "date": "2026-11-21",
+      "slot": "morning",
+      "published_at": "2026-11-21T05:33:51.663460+00:00",
+      "available_at": "2026-11-21T05:33:51.663460+00:00",
+      "headline": "Ο Τραμπ ζητεί «δεύτερη ευκαιρία» για τον Χουάνγκ στη NVIDIA",
+      "finding": "Ο Ντόναλντ Τραμπ δήλωσε την Παρασκευή ότι θα ήθελε να δοθεί δεύτερη ευκαιρία στον Τζένσεν Χουάνγκ για επιστροφή στη NVIDIA, σύμφωνα με το Al Jazeera και το βίντεο δηλώσεων που δημοσιεύει το Yahoo Finance. Το Al Jazeera αναφέρει ότι το διοικητικό συμβούλιο έχει αποκλείσει την επάνοδό του. Η πολιτική παρέμβαση δεν τεκμηριώνει εταιρική απόφαση επανατοποθέτησης.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-21-morning/nvidia-return-call.json",
+      "reader_url": "articles/2026-11-21-morning/nvidia-return-call.html",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/video/trump-on-jensen-huang-were-a-country-of-second-chances-193647938.html",
+          "publisher": "Yahoo Finance",
+          "reporting_group": "Trump-public-remarks",
+          "published_at": null,
+          "retrieved_at": "2026-11-21T05:26:53.249Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/21/trump-calls-for-nvidia-to-reinstate-brilliant-jensen-huang?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-21T01:49:07+00:00",
+          "retrieved_at": "2026-11-21T04:21:15.577329+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/56b16f89c35021aa7109c30ae97a3adcd25e9c11812eff78ebe6c8aedbf09abc.webp"
+    },
+    {
+      "story_id": "europe-gen-z-cost-climate-protests-2026-11-21",
+      "identity": "europe-gen-z-cost-climate-protests-2026-11-21",
+      "edition_id": "2026-11-21-morning",
+      "date": "2026-11-21",
+      "slot": "morning",
+      "published_at": "2026-11-21T05:33:51.663460+00:00",
+      "available_at": "2026-11-21T05:33:51.663460+00:00",
+      "headline": "Κινητοποιήσεις νέων σε 25 ευρωπαϊκές χώρες αναφέρει το Al Jazeera",
+      "finding": "Χιλιάδες νέοι διαδήλωσαν σε 25 ευρωπαϊκές χώρες για το κόστος ζωής, τις στρατιωτικές δαπάνες και το κλίμα, αναφέρει το Al Jazeera. Το ίδιο δημοσίευμα τοποθετεί τη συζήτηση σε πλαίσιο πολιτικής υποεκπροσώπησης: σε παγκόσμιο επίπεδο, μόλις 2,8% των βουλευτών είναι ηλικίας έως 30 ετών. Το ποσοστό αφορά τον κόσμο συνολικά, όχι ειδικά τα ευρωπαϊκά κοινοβούλια.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-21-morning/european-youth-protests.json",
+      "reader_url": "articles/2026-11-21-morning/european-youth-protests.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-21T02:49:16+00:00",
+          "retrieved_at": "2026-11-21T04:21:15.582388+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c856d60635152013041e738cf8f7e337e3aece6e4da4e6841abf4c45f6d93483.webp"
+    },
+    {
+      "story_id": "riyadh-alerts-coalition-interception-claim-2026-11-21",
+      "identity": "riyadh-alerts-coalition-interception-claim-2026-11-21",
+      "edition_id": "2026-11-21-morning",
+      "date": "2026-11-21",
+      "slot": "morning",
+      "published_at": "2026-11-21T05:33:51.663460+00:00",
+      "available_at": "2026-11-21T05:33:51.663460+00:00",
+      "headline": "Προειδοποιήσεις για το Ριάντ και αναφορά αναχαίτισης τριών πυραύλων",
+      "finding": "Η Σαουδική Αραβία εξέδωσε σειρά έκτακτων προειδοποιήσεων για το Ριάντ, ενώ ο σαουδαραβικός συνασπισμός ανέφερε αναχαίτιση τριών βαλλιστικών πυραύλων, σύμφωνα με το Al Jazeera. Η πληροφορία για τις αναχαιτίσεις αποδίδεται στον συνασπισμό.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-21-morning/riyadh-missile-alerts.json",
+      "reader_url": "articles/2026-11-21-morning/riyadh-missile-alerts.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-21T00:00:06+00:00",
+          "retrieved_at": "2026-11-21T04:21:15.647070+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7ac02cf63a6172082741d87a338e7f4257604417644acb947f574c9de5639df6.webp"
+    },
+    {
+      "story_id": "cyprus-foreign-tertiary-students-eurostat-2024",
+      "identity": "cyprus-foreign-tertiary-students-eurostat-2024",
+      "edition_id": "2026-11-21-morning",
+      "date": "2026-11-21",
+      "slot": "morning",
+      "published_at": "2026-11-21T05:33:51.663460+00:00",
+      "available_at": "2026-11-21T05:33:51.663460+00:00",
+      "headline": "Από το εξωτερικό το 21,6% των φοιτητών τριτοβάθμιας εκπαίδευσης στην Κύπρο το 2024",
+      "finding": "Η Κύπρος είχε το τρίτο υψηλότερο ποσοστό φοιτητών από το εξωτερικό στην ΕΕ το 2024, σύμφωνα με στοιχεία Eurostat που παρουσιάζει το Cyprus Mail. Το ποσοστό έφθανε το 21,6%, πίσω από Λουξεμβούργο και Μάλτα. Στο σύνολο της ΕΕ, οι φοιτητές από το εξωτερικό ήταν 1,65 εκατομμύρια και αντιστοιχούσαν στο 8,7% του φοιτητικού πληθυσμού τριτοβάθμιας εκπαίδευσης.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-21-morning/foreign-tertiary-students.json",
+      "reader_url": "articles/2026-11-21-morning/foreign-tertiary-students.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/21/over-a-fifth-of-students-in-cyprus-come-from-abroad-third-highest-in-eu",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-21T04:00:00+00:00",
+          "retrieved_at": "2026-11-21T04:21:16.628338+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a24eb902bb15e18bc3945493ea09c0cea44b02e729f5304484db6a49f75689ac.webp"
+    },
+    {
+      "story_id": "cyprus-nine-christmas-villages-opening-2026-11-21",
+      "identity": "cyprus-nine-christmas-villages-opening-2026-11-21",
+      "edition_id": "2026-11-21-morning",
+      "date": "2026-11-21",
+      "slot": "morning",
+      "published_at": "2026-11-21T05:33:51.663460+00:00",
+      "available_at": "2026-11-21T05:33:51.663460+00:00",
+      "headline": "Από σήμερα επισκέψεις σε εννέα χριστουγεννιάτικα χωριά",
+      "finding": "Εννέα κοινότητες υποδέχονται επισκέπτες από τις 21 Νοεμβρίου, σύμφωνα με δηλώσεις Κουμή που μεταδίδει το SigmaLive: Αγρός, Δερύνεια, Κακοπετριά, Καλοπαναγιώτης, Κυπερούντα, Λεύκαρα, Λόφου, Στατός–Άγιος Φώτιος και Φικάρδου. Ο Κουμής συνέδεσε τα Χριστουγεννιάτικα Χωριά με την προσπάθεια αντιμετώπισης της εποχικότητας και τη δημιουργία προοπτικών για τις κοινότητες της υπαίθρου.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-21-morning/christmas-villages.json",
+      "reader_url": "articles/2026-11-21-morning/christmas-villages.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1338546/koymis-ta-xristoyghenniatika-xoria-simvalloyn-stin-antimetwpisi-epokhikotitas",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-20T20:51:31+00:00",
+          "retrieved_at": "2026-11-21T04:21:16.754998+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/95e7c5dbfea5b81ec1ce8eee825f39080389d51462e91bcda3fd406db60c0f55.webp"
+    },
+    {
+      "story_id": "cyprus-faros-zois-ministry-donation-2026-11-20",
+      "identity": "cyprus-faros-zois-ministry-donation-2026-11-20",
+      "edition_id": "2026-11-21-morning",
+      "date": "2026-11-21",
+      "slot": "morning",
+      "published_at": "2026-11-21T05:33:51.663460+00:00",
+      "available_at": "2026-11-21T05:33:51.663460+00:00",
+      "headline": "Δωρεά 1.000 ευρώ στον «Φάρο Ζωής» από το Υφυπουργείο Μετανάστευσης",
+      "finding": "Ο Ιωαννίδης ανακοίνωσε δωρεά 1.000 ευρώ του Υφυπουργείου Μετανάστευσης και Διεθνούς Προστασίας στον «Φάρο Ζωής», σύμφωνα με το SigmaLive. Ανέφερε ότι ο σύνδεσμος στηρίζει από το 1994 παιδιά και οικογένειες της ελεύθερης επαρχίας Αμμοχώστου και περιοχών της Λάρνακας. Κατά τη δήλωσή του, εξυπηρετεί κατά μέσο όρο περίπου εκατό παιδιά ετησίως.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-21-morning/faros-zois-donation.json",
+      "reader_url": "articles/2026-11-21-morning/faros-zois-donation.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1338550/ioannidis-efthyni-politias-i-prosvasi-kathe-paidiou-se-frontida-kai-ekpaidefsi",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-20T21:47:16+00:00",
+          "retrieved_at": "2026-11-21T04:21:16.915875+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f42d24c2f7eb2ad7ead57bcb1ca0ce0e06e38d342a8be28cc458422aaadd5461.webp"
+    },
+    {
+      "story_id": "cyprus-cardiac-imaging-history-ai-perspectives-2026-11-21",
+      "identity": "cyprus-cardiac-imaging-history-ai-perspectives-2026-11-21",
+      "edition_id": "2026-11-21-morning",
+      "date": "2026-11-21",
+      "slot": "morning",
+      "published_at": "2026-11-21T05:33:51.663460+00:00",
+      "available_at": "2026-11-21T05:33:51.663460+00:00",
+      "headline": "Αναδρομή στην καρδιακή απεικόνιση και προοπτικές αξιοποίησης της τεχνητής νοημοσύνης",
+      "finding": "Ο Φιλελεύθερος δημοσιεύει αναδρομή στην καρδιολογική διάγνωση στην Κύπρο, περιλαμβάνοντας το σύστημα υπερηχοκαρδιογραφίας Ekoline 20 που εγκαταστάθηκε το 1977.  Το δημοσίευμα παρουσιάζει φορητά συστήματα με υποβοήθηση τεχνητής νοημοσύνης ως προοπτική διεύρυνσης της πρόσβασης στην απεικόνιση. Η εκτίμηση αφορά πιθανή μελλοντική κλινική ενσωμάτωση και δεν αποτελεί ανακοίνωση νέων αποτελεσμάτων θεραπείας.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-11-21-morning/cardiac-imaging-perspectives.json",
+      "reader_url": "articles/2026-11-21-morning/cardiac-imaging-perspectives.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1798517/i-techniti-noimosini-allazi-tin-kardiologia-apo-ton-proto-iperichokardiografo-tou-1977-stis-nees-dinatotites-tis-diagnostikis-technologias/",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-21T04:10:00+00:00",
+          "retrieved_at": "2026-11-21T05:26:53.249Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1798517/i-techniti-noimosini-allazi-tin-kardiologia-apo-ton-proto-iperichokardiografo-tou-1977-stis-nees-dinatotites-tis-diagnostikis-technologias",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-21T04:10:00+00:00",
+          "retrieved_at": "2026-11-21T04:21:16.832475+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8d6e07a2920235f60c6fccd8ce7039298bf7fa37d44330664ac8c13953c3dac4.webp"
+    },
+    {
+      "story_id": "red-bull-padel-cross-madrid-announcement-2027-02-13",
+      "identity": "red-bull-padel-cross-madrid-announcement-2027-02-13",
+      "edition_id": "2026-11-21-morning",
+      "date": "2026-11-21",
+      "slot": "morning",
+      "published_at": "2026-11-21T05:33:51.663460+00:00",
+      "available_at": "2026-11-21T05:33:51.663460+00:00",
+      "headline": "Γκαλάν και Λεμπρόν σε προγραμματισμένη αναμέτρηση 1 εναντίον 1",
+      "finding": "Το Padel Addict αναγγέλλει το Red Bull Padel Cross στις 13 Φεβρουαρίου 2027 στο Madrid Arena, με τον Χουάν Λεμπρόν και τον Αλέ Γκαλάν σε μορφή 1 εναντίον 1.",
+      "section": "sports",
+      "priority": 9,
+      "article_path": "articles/2026-11-21-morning/padel-cross-madrid.json",
+      "reader_url": "articles/2026-11-21-morning/padel-cross-madrid.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/red-bull-padel-cross",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-20T22:18:46+00:00",
+          "retrieved_at": "2026-11-21T04:21:18.226251+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/820b32e640796f30a70a6c27771acc5fa0b8070bf4bf3f5926402ddf954fdb48.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
