@@ -16,13 +16,38 @@
       "type": "midday",
       "url": "midday/2026-11-21.html",
       "published_at": "2026-11-21T11:36:28.478715+00:00"
+    },
+    {
+      "id": "2026-11-21-evening",
+      "type": "evening",
+      "url": "evening/2026-11-21.html",
+      "published_at": "2026-11-21T17:39:02.547344+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "iran-us-diplomacy-uranium-red-lines-2026-11-21",
+  "missing_slots": [],
+  "lead_story_id": "france-costa-eu-budget-framework-rejection-2026-11-21",
   "stories": [
+    {
+      "story_id": "france-costa-eu-budget-framework-rejection-2026-11-21",
+      "first_seen_at": "2026-11-21T17:39:02.547344+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-21-evening",
+          "article_id": "france-eu-budget",
+          "source_story_id": "france-costa-eu-budget-framework-rejection-2026-11-21",
+          "url": "articles/2026-11-21-evening/france-eu-budget.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "france-eu-budget",
+        "source_story_id": "france-costa-eu-budget-framework-rejection-2026-11-21",
+        "url": "articles/2026-11-21-evening/france-eu-budget.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "iran-us-diplomacy-uranium-red-lines-2026-11-21",
       "first_seen_at": "2026-11-21T11:36:28.478715+00:00",
@@ -33,13 +58,19 @@
           "article_id": "iran-diplomacy",
           "source_story_id": "iran-us-diplomacy-uranium-red-lines-2026-11-21",
           "url": "articles/2026-11-21-midday/iran-diplomacy.html"
+        },
+        {
+          "edition_id": "2026-11-21-evening",
+          "article_id": "iran-diplomacy",
+          "source_story_id": "iran-us-diplomacy-uranium-red-lines-2026-11-21",
+          "url": "articles/2026-11-21-evening/iran-diplomacy.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-21-midday",
+        "edition_id": "2026-11-21-evening",
         "article_id": "iran-diplomacy",
         "source_story_id": "iran-us-diplomacy-uranium-red-lines-2026-11-21",
-        "url": "articles/2026-11-21-midday/iran-diplomacy.html"
+        "url": "articles/2026-11-21-evening/iran-diplomacy.html"
       },
       "section": "world",
       "priority": 1
@@ -120,6 +151,27 @@
       "priority": 2
     },
     {
+      "story_id": "uk-commercial-refrigeration-cyber-vulnerability-fix-2026-11-21",
+      "first_seen_at": "2026-11-21T17:39:02.547344+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-21-evening",
+          "article_id": "refrigeration-cyber-fix",
+          "source_story_id": "uk-commercial-refrigeration-cyber-vulnerability-fix-2026-11-21",
+          "url": "articles/2026-11-21-evening/refrigeration-cyber-fix.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "refrigeration-cyber-fix",
+        "source_story_id": "uk-commercial-refrigeration-cyber-vulnerability-fix-2026-11-21",
+        "url": "articles/2026-11-21-evening/refrigeration-cyber-fix.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
       "story_id": "cop31-china-low-carbon-electrification-target-2026-11-21",
       "first_seen_at": "2026-11-21T11:36:28.478715+00:00",
       "last_substantive_at": null,
@@ -129,13 +181,19 @@
           "article_id": "cop31-electrification",
           "source_story_id": "cop31-china-low-carbon-electrification-target-2026-11-21",
           "url": "articles/2026-11-21-midday/cop31-electrification.html"
+        },
+        {
+          "edition_id": "2026-11-21-evening",
+          "article_id": "cop31-electrification",
+          "source_story_id": "cop31-china-low-carbon-electrification-target-2026-11-21",
+          "url": "articles/2026-11-21-evening/cop31-electrification.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-21-midday",
+        "edition_id": "2026-11-21-evening",
         "article_id": "cop31-electrification",
         "source_story_id": "cop31-china-low-carbon-electrification-target-2026-11-21",
-        "url": "articles/2026-11-21-midday/cop31-electrification.html"
+        "url": "articles/2026-11-21-evening/cop31-electrification.html"
       },
       "section": "world",
       "priority": 3
@@ -168,6 +226,27 @@
       "priority": 3
     },
     {
+      "story_id": "mexico-fausto-isidro-meza-capture-2026-11-21",
+      "first_seen_at": "2026-11-21T17:39:02.547344+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-21-evening",
+          "article_id": "mexico-meza-arrest",
+          "source_story_id": "mexico-fausto-isidro-meza-capture-2026-11-21",
+          "url": "articles/2026-11-21-evening/mexico-meza-arrest.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "mexico-meza-arrest",
+        "source_story_id": "mexico-fausto-isidro-meza-capture-2026-11-21",
+        "url": "articles/2026-11-21-evening/mexico-meza-arrest.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
       "story_id": "cyprus-moodys-a3-government-response-2026-11-21",
       "first_seen_at": "2026-11-21T11:36:28.478715+00:00",
       "last_substantive_at": null,
@@ -177,13 +256,40 @@
           "article_id": "moodys-government-response",
           "source_story_id": "cyprus-moodys-a3-government-response-2026-11-21",
           "url": "articles/2026-11-21-midday/moodys-government-response.html"
+        },
+        {
+          "edition_id": "2026-11-21-evening",
+          "article_id": "moodys-government-response",
+          "source_story_id": "cyprus-moodys-a3-government-response-2026-11-21",
+          "url": "articles/2026-11-21-evening/moodys-government-response.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-21-midday",
+        "edition_id": "2026-11-21-evening",
         "article_id": "moodys-government-response",
         "source_story_id": "cyprus-moodys-a3-government-response-2026-11-21",
-        "url": "articles/2026-11-21-midday/moodys-government-response.html"
+        "url": "articles/2026-11-21-evening/moodys-government-response.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "pallouriotissa-pub-fire-locked-exit-investigation-2026-11-21",
+      "first_seen_at": "2026-11-21T17:39:02.547344+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-21-evening",
+          "article_id": "pallouriotissa-fire",
+          "source_story_id": "pallouriotissa-pub-fire-locked-exit-investigation-2026-11-21",
+          "url": "articles/2026-11-21-evening/pallouriotissa-fire.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "pallouriotissa-fire",
+        "source_story_id": "pallouriotissa-pub-fire-locked-exit-investigation-2026-11-21",
+        "url": "articles/2026-11-21-evening/pallouriotissa-fire.html"
       },
       "section": "cyprus",
       "priority": 4
@@ -204,13 +310,19 @@
           "article_id": "foreign-tertiary-students",
           "source_story_id": "cyprus-foreign-tertiary-students-eurostat-2024",
           "url": "articles/2026-11-21-midday/foreign-tertiary-students.html"
+        },
+        {
+          "edition_id": "2026-11-21-evening",
+          "article_id": "foreign-tertiary-students",
+          "source_story_id": "cyprus-foreign-tertiary-students-eurostat-2024",
+          "url": "articles/2026-11-21-evening/foreign-tertiary-students.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-21-midday",
+        "edition_id": "2026-11-21-evening",
         "article_id": "foreign-tertiary-students",
         "source_story_id": "cyprus-foreign-tertiary-students-eurostat-2024",
-        "url": "articles/2026-11-21-midday/foreign-tertiary-students.html"
+        "url": "articles/2026-11-21-evening/foreign-tertiary-students.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -225,13 +337,19 @@
           "article_id": "paphos-father-complaints",
           "source_story_id": "paphos-foster-police-treatment-allegations-2026-11-21",
           "url": "articles/2026-11-21-midday/paphos-father-complaints.html"
+        },
+        {
+          "edition_id": "2026-11-21-evening",
+          "article_id": "foster-case-context",
+          "source_story_id": "paphos-foster-police-treatment-allegations-2026-11-21",
+          "url": "articles/2026-11-21-evening/foster-case-context.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-21-midday",
-        "article_id": "paphos-father-complaints",
+        "edition_id": "2026-11-21-evening",
+        "article_id": "foster-case-context",
         "source_story_id": "paphos-foster-police-treatment-allegations-2026-11-21",
-        "url": "articles/2026-11-21-midday/paphos-father-complaints.html"
+        "url": "articles/2026-11-21-evening/foster-case-context.html"
       },
       "section": "cyprus",
       "priority": 5
@@ -252,13 +370,19 @@
           "article_id": "christmas-villages",
           "source_story_id": "cyprus-nine-christmas-villages-opening-2026-11-21",
           "url": "articles/2026-11-21-midday/christmas-villages.html"
+        },
+        {
+          "edition_id": "2026-11-21-evening",
+          "article_id": "christmas-villages",
+          "source_story_id": "cyprus-nine-christmas-villages-opening-2026-11-21",
+          "url": "articles/2026-11-21-evening/christmas-villages.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-21-midday",
+        "edition_id": "2026-11-21-evening",
         "article_id": "christmas-villages",
         "source_story_id": "cyprus-nine-christmas-villages-opening-2026-11-21",
-        "url": "articles/2026-11-21-midday/christmas-villages.html"
+        "url": "articles/2026-11-21-evening/christmas-villages.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -285,6 +409,48 @@
       "priority": 6
     },
     {
+      "story_id": "galan-acapulco-major-withdrawal-2026-11-21",
+      "first_seen_at": "2026-11-21T17:39:02.547344+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-21-evening",
+          "article_id": "galan-acapulco-withdrawal",
+          "source_story_id": "galan-acapulco-major-withdrawal-2026-11-21",
+          "url": "articles/2026-11-21-evening/galan-acapulco-withdrawal.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "galan-acapulco-withdrawal",
+        "source_story_id": "galan-acapulco-major-withdrawal-2026-11-21",
+        "url": "articles/2026-11-21-evening/galan-acapulco-withdrawal.html"
+      },
+      "section": "sports",
+      "priority": 6
+    },
+    {
+      "story_id": "alcaraz-shelton-atp-finals-semifinal-2026-11-21",
+      "first_seen_at": "2026-11-21T17:39:02.547344+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-21-evening",
+          "article_id": "alcaraz-shelton-semifinal",
+          "source_story_id": "alcaraz-shelton-atp-finals-semifinal-2026-11-21",
+          "url": "articles/2026-11-21-evening/alcaraz-shelton-semifinal.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "alcaraz-shelton-semifinal",
+        "source_story_id": "alcaraz-shelton-atp-finals-semifinal-2026-11-21",
+        "url": "articles/2026-11-21-evening/alcaraz-shelton-semifinal.html"
+      },
+      "section": "sports",
+      "priority": 7
+    },
+    {
       "story_id": "conmebol-infantino-reelection-endorsement-2026-11-21",
       "first_seen_at": "2026-11-21T11:36:28.478715+00:00",
       "last_substantive_at": null,
@@ -294,13 +460,19 @@
           "article_id": "conmebol-endorsement",
           "source_story_id": "conmebol-infantino-reelection-endorsement-2026-11-21",
           "url": "articles/2026-11-21-midday/conmebol-endorsement.html"
+        },
+        {
+          "edition_id": "2026-11-21-evening",
+          "article_id": "conmebol-endorsement",
+          "source_story_id": "conmebol-infantino-reelection-endorsement-2026-11-21",
+          "url": "articles/2026-11-21-evening/conmebol-endorsement.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-21-midday",
+        "edition_id": "2026-11-21-evening",
         "article_id": "conmebol-endorsement",
         "source_story_id": "conmebol-infantino-reelection-endorsement-2026-11-21",
-        "url": "articles/2026-11-21-midday/conmebol-endorsement.html"
+        "url": "articles/2026-11-21-evening/conmebol-endorsement.html"
       },
       "section": "sports",
       "priority": 7
@@ -669,6 +841,188 @@
         "source_story_id": "riyadh-alerts-coalition-interception-claim-2026-11-21",
         "url": "articles/2026-11-21-midday/riyadh-attribution.html"
       }
+    },
+    {
+      "id": "09704362dd447cf034a20366726dbf447a1c6cb2d88adb4cf74b4d155cc9600f",
+      "kind": "provenance",
+      "at": "2026-11-21T17:39:02.547344+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "conmebol-infantino-reelection-endorsement-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "conmebol-endorsement",
+        "source_story_id": "conmebol-infantino-reelection-endorsement-2026-11-21",
+        "url": "articles/2026-11-21-evening/conmebol-endorsement.html"
+      }
+    },
+    {
+      "id": "29cc03e07c683c2eebe9bbbc8b21601322891fbf251418459409aff526608dab",
+      "kind": "provenance",
+      "at": "2026-11-21T17:39:02.547344+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "alcaraz-shelton-atp-finals-semifinal-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "alcaraz-shelton-semifinal",
+        "source_story_id": "alcaraz-shelton-atp-finals-semifinal-2026-11-21",
+        "url": "articles/2026-11-21-evening/alcaraz-shelton-semifinal.html"
+      }
+    },
+    {
+      "id": "3b4353b8310d5b373418762a829ed160c773af03b2885bb7973725da241184a4",
+      "kind": "provenance",
+      "at": "2026-11-21T17:39:02.547344+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-nine-christmas-villages-opening-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "christmas-villages",
+        "source_story_id": "cyprus-nine-christmas-villages-opening-2026-11-21",
+        "url": "articles/2026-11-21-evening/christmas-villages.html"
+      }
+    },
+    {
+      "id": "3d6d8057281a1b7ac8edafae9799567dfbb7ee69445717ab5c93f3801b4a2a04",
+      "kind": "provenance",
+      "at": "2026-11-21T17:39:02.547344+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "france-costa-eu-budget-framework-rejection-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "france-eu-budget",
+        "source_story_id": "france-costa-eu-budget-framework-rejection-2026-11-21",
+        "url": "articles/2026-11-21-evening/france-eu-budget.html"
+      }
+    },
+    {
+      "id": "536524dd72e88515bf53829241888d65893601924d1684340b6d3ebab11fcb96",
+      "kind": "provenance",
+      "at": "2026-11-21T17:39:02.547344+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-foreign-tertiary-students-eurostat-2024",
+      "origin": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "foreign-tertiary-students",
+        "source_story_id": "cyprus-foreign-tertiary-students-eurostat-2024",
+        "url": "articles/2026-11-21-evening/foreign-tertiary-students.html"
+      }
+    },
+    {
+      "id": "53d8bc999ab91ac47fe3bd7c3f21b1028749429b0e189076c80740bd09361a8b",
+      "kind": "provenance",
+      "at": "2026-11-21T17:39:02.547344+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "paphos-foster-police-treatment-allegations-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "foster-case-context",
+        "source_story_id": "paphos-foster-police-treatment-allegations-2026-11-21",
+        "url": "articles/2026-11-21-evening/foster-case-context.html"
+      }
+    },
+    {
+      "id": "54def2792285799d8de0fd217c26be6ed818ad5c588d7be7ca742c74c1fd9343",
+      "kind": "provenance",
+      "at": "2026-11-21T17:39:02.547344+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-moodys-a3-government-response-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "moodys-government-response",
+        "source_story_id": "cyprus-moodys-a3-government-response-2026-11-21",
+        "url": "articles/2026-11-21-evening/moodys-government-response.html"
+      }
+    },
+    {
+      "id": "5fcf2a874e0a84d33f4262048d7bfd28b4f3c099a75e1157a3bd7152366b8440",
+      "kind": "provenance",
+      "at": "2026-11-21T17:39:02.547344+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-commercial-refrigeration-cyber-vulnerability-fix-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "refrigeration-cyber-fix",
+        "source_story_id": "uk-commercial-refrigeration-cyber-vulnerability-fix-2026-11-21",
+        "url": "articles/2026-11-21-evening/refrigeration-cyber-fix.html"
+      }
+    },
+    {
+      "id": "62887300e5009c2e4b1c9132a246edddb27fb399e9686e456b2c3e33e4c2a9cc",
+      "kind": "provenance",
+      "at": "2026-11-21T17:39:02.547344+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cop31-china-low-carbon-electrification-target-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "cop31-electrification",
+        "source_story_id": "cop31-china-low-carbon-electrification-target-2026-11-21",
+        "url": "articles/2026-11-21-evening/cop31-electrification.html"
+      }
+    },
+    {
+      "id": "863e98c3fb99c8dfa0b707230da02f757e69c160a5c405750da344dcd10df6b3",
+      "kind": "provenance",
+      "at": "2026-11-21T17:39:02.547344+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "pallouriotissa-pub-fire-locked-exit-investigation-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "pallouriotissa-fire",
+        "source_story_id": "pallouriotissa-pub-fire-locked-exit-investigation-2026-11-21",
+        "url": "articles/2026-11-21-evening/pallouriotissa-fire.html"
+      }
+    },
+    {
+      "id": "9e00c9e4b67ef09253e960876c0f57d0ab510a6a21687a62de9d2c22b3d0e43c",
+      "kind": "provenance",
+      "at": "2026-11-21T17:39:02.547344+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "iran-us-diplomacy-uranium-red-lines-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "iran-diplomacy",
+        "source_story_id": "iran-us-diplomacy-uranium-red-lines-2026-11-21",
+        "url": "articles/2026-11-21-evening/iran-diplomacy.html"
+      }
+    },
+    {
+      "id": "bd697072aec772b85c9f55af4e66589e6b98a289f6a6058acca019f00f578606",
+      "kind": "provenance",
+      "at": "2026-11-21T17:39:02.547344+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "mexico-fausto-isidro-meza-capture-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "mexico-meza-arrest",
+        "source_story_id": "mexico-fausto-isidro-meza-capture-2026-11-21",
+        "url": "articles/2026-11-21-evening/mexico-meza-arrest.html"
+      }
+    },
+    {
+      "id": "ed63fa5c9a531ca8626dd5cf5f18f58211be2635c9f689420da08db2416c9c7f",
+      "kind": "provenance",
+      "at": "2026-11-21T17:39:02.547344+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "galan-acapulco-major-withdrawal-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-21-evening",
+        "article_id": "galan-acapulco-withdrawal",
+        "source_story_id": "galan-acapulco-major-withdrawal-2026-11-21",
+        "url": "articles/2026-11-21-evening/galan-acapulco-withdrawal.html"
+      }
     }
   ],
   "opportunities": [
@@ -877,16 +1231,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Το Ιράν δηλώνει ανοικτό στη διπλωματία, αλλά η διατήρηση εμπλουτισμένου ουρανίου στη χώρα παραμένει κόκκινη γραμμή, ενώ ο Τραμπ απορρίπτει τους προτεινόμενους όρους. Η απόσταση αυτή περιορίζει τα συμπεράσματα για επικείμενη συμφωνία. Οι αναφορές ανταλλαγής πληγμάτων Χούθι–σαουδαραβικού συνασπισμού δείχνουν ότι η περιφερειακή ασφάλεια παραμένει ενεργό ζήτημα· κρίσιμο τεστ είναι επαληθευμένες δεσμεύσεις και αλλαγή στη στρατιωτική δραστηριότητα. Στην Κύπρο, η διατήρηση του A3 συνυπάρχει με προειδοποιήσεις για μεταρρυθμίσεις και δημόσια έργα. Η κυβερνητική διαβεβαίωση χρειάζεται να μεταφραστεί σε συγκεκριμένα μέτρα και χρονοδιαγράμματα για να αξιολογηθεί η αντιμετώπιση αυτών των κινδύνων.",
+        "text": "Η φωτιά στην Παλλουριώτισσα συνδυάζει ποινική διερεύνηση και έλεγχο ασφάλειας εξόδων. Η εύρεση εύφλεκτης ύλης αποτελεί στοιχείο προς εξέταση, ενώ η αναφορά κλειδωμένης εξόδου θέτει άμεσο ζήτημα προστασίας θαμώνων. Κρίσιμο τεστ είναι τα επίσημα ευρήματα και ο έλεγχος των συνθηκών διαφυγής. Στην υπόθεση Φόστερ, το πρόστιμο είχε επιβληθεί τον Οκτώβριο· οι σημερινές καταγγελίες αστυνομικής μεταχείρισης είναι ξεχωριστό ζήτημα. Η προσθήκη του δικαστικού πλαισίου δεν αρκεί για αξιολόγηση αυτών των καταγγελιών. Χρειάζονται τεκμηριωμένες θέσεις των αρχών και εξέταση των συγκεκριμένων ισχυρισμών, με σαφή διάκριση ανάμεσα σε διαπιστωμένα διαδικαστικά γεγονότα και αποδιδόμενες μαρτυρίες.",
         "story_ids": [
-          "iran-us-diplomacy-uranium-red-lines-2026-11-21",
-          "riyadh-alerts-coalition-interception-claim-2026-11-21"
+          "pallouriotissa-pub-fire-locked-exit-investigation-2026-11-21",
+          "paphos-foster-police-treatment-allegations-2026-11-21"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-21T05:35:44.282260+00:00",
-  "updated_at": "2026-11-21T11:38:54.610647+00:00",
-  "input_sha256": "3005fcb2fdb8a5a1b6a1eb7c26ca92509b5ce1ee596f16bdab14f7dfe363b1c9"
+  "updated_at": "2026-11-21T17:41:34.048348+00:00",
+  "input_sha256": "991b6464e0622bc6d8f8a98651609c0c5b37a3fbb06f31ea2634c8fff03b3046"
 }
