@@ -867,6 +867,14 @@
       "fingerprint": "639322f5bf9b11fbf1a21eb33d674539cc643e468ac1b4645dcdb2df006041fb"
     },
     {
+      "id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "type": "evening",
+      "published_at": "2026-11-22T17:34:42.196207+00:00",
+      "url": "evening/2026-11-22.html",
+      "fingerprint": "b5eaf41495844201c49b3507e5efe5b4d86a04899f6944557300dd4254106fdc"
+    },
+    {
       "id": "2026-11-22-midday",
       "date": "2026-11-22",
       "type": "midday",
@@ -33311,6 +33319,389 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/820b32e640796f30a70a6c27771acc5fa0b8070bf4bf3f5926402ddf954fdb48.webp"
+    },
+    {
+      "story_id": "ukraine-patriot-request-2026-11-22",
+      "identity": "ukraine-patriot-request-2026-11-22",
+      "edition_id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "slot": "evening",
+      "published_at": "2026-11-22T17:34:42.196207+00:00",
+      "available_at": "2026-11-22T17:34:42.196207+00:00",
+      "headline": "Ζελένσκι: αίτημα παράδοσης πυραύλων Patriot",
+      "finding": "Ο Βολοντίμιρ Ζελένσκι κάλεσε τις ΗΠΑ να εγκρίνουν παράδοση πυραύλων αναχαίτισης Patriot, αναφέρει το Al Jazeera στις 22 Νοεμβρίου. Σε ανάρτησή του απέδωσε στη Ρωσία περίπου 2.700 επιθετικά drones, 1.460 κατευθυνόμενες αεροπορικές βόμβες και 165 πυραύλους την προηγούμενη εβδομάδα. Πρόκειται για ουκρανικό απολογισμό, χωρίς ανεξάρτητη επιβεβαίωση των αριθμών στο απόσπασμα.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-22-evening/ukraine-patriot.json",
+      "reader_url": "articles/2026-11-22-evening/ukraine-patriot.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-22T14:48:50+00:00",
+          "retrieved_at": "2026-11-22T16:21:14.478805+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/664774a82e53e2075f190b51b453fff47e6f9f336b4d745b78791f1ebde48d6d.webp"
+    },
+    {
+      "story_id": "cleverbridge-cards-2026-11-22",
+      "identity": "cleverbridge-cards-2026-11-22",
+      "edition_id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "slot": "evening",
+      "published_at": "2026-11-22T17:34:42.196207+00:00",
+      "available_at": "2026-11-22T17:34:42.196207+00:00",
+      "headline": "Cleverbridge: υποκλοπή στοιχείων καρτών και CVV",
+      "finding": "Η Cleverbridge προειδοποιεί για υποκλοπή στοιχείων καρτών, αριθμών και CVV, από συστήματά της, αναφέρει το BleepingComputer. Ενημερώνει πελάτες από τις 20 Νοεμβρίου, χωρίς στο απόσπασμα πλήθος θυμάτων ή περίοδο έκθεσης.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-22-evening/cleverbridge-cards.json",
+      "reader_url": "articles/2026-11-22-evening/cleverbridge-cards.html",
+      "sources": [
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach",
+          "publisher": "BleepingComputer",
+          "reporting_group": "BleepingComputer",
+          "published_at": "2026-11-22T15:43:04+00:00",
+          "retrieved_at": "2026-11-22T16:21:14.675947+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/96c5dbeaa086a43a582e4a37a9450979f0fb8ce20dc04c6ba3a7b58ffe1fe323.webp"
+    },
+    {
+      "story_id": "centrica-bills-2026-11-22",
+      "identity": "centrica-bills-2026-11-22",
+      "edition_id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "slot": "evening",
+      "published_at": "2026-11-22T17:34:42.196207+00:00",
+      "available_at": "2026-11-22T17:34:42.196207+00:00",
+      "headline": "Centrica: ανησυχία για λογαριασμούς Ιανουαρίου",
+      "finding": "Ο επικεφαλής της Centrica ανησυχεί για τους λογαριασμούς Ιανουαρίου, μεταδίδει το BBC. Το βρετανικό πλαφόν ανακοινώνεται την Τετάρτη. Η Cornwall Insight προβλέπει ετήσια αύξηση £443 για τυπικό νοικοκυριό· ενίσχυση £100 αφορά ορισμένα νοικοκυριά.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-22-evening/centrica-energy.json",
+      "reader_url": "articles/2026-11-22-evening/centrica-energy.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-22T13:50:21+00:00",
+          "retrieved_at": "2026-11-22T16:21:14.840100+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8c4958140fe3f265c668a9b58f60a7b8d5f90ffa96211d1501223e9846304fa1.webp"
+    },
+    {
+      "story_id": "mazotos-desalination-2026-11-22",
+      "identity": "mazotos-desalination-2026-11-22",
+      "edition_id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "slot": "evening",
+      "published_at": "2026-11-22T17:34:42.196207+00:00",
+      "available_at": "2026-11-22T17:34:42.196207+00:00",
+      "headline": "Μαζωτός: το ΤΑΥ εξηγεί τη διάθεση άλμης",
+      "finding": "Το Τμήμα Αναπτύξεως Υδάτων υποστηρίζει ότι η κινητή μονάδα αφαλάτωσης Μαζωτού προχωρεί με περιβαλλοντική τεκμηρίωση, αναφέρει το SigmaLive. Περιγράφει διάθεση άλμης σε βάθος οκτώ μέτρων, μέσω πολυσημειακού διαχυτήρα σε αμμώδη πυθμένα, μακριά από λιβάδια ποσειδωνίας και υφάλους. Παραπέμπει σε πολεοδομική έγκριση της 10ης Ιουλίου 2026, μετά την περιβαλλοντική έγκριση.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-22-evening/mazotos-desalination.json",
+      "reader_url": "articles/2026-11-22-evening/mazotos-desalination.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1338695/apanta-to-tau-ghia-mazoto-me-perivallontikes-eghkriseis-prokhori-to-ergho",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-22T15:39:58+00:00",
+          "retrieved_at": "2026-11-22T16:21:15.082345+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/d9c871d2bd3699e38a11c9cf16ab54a514c1b4cf05f1776b298f08acbc5cb313.webp"
+    },
+    {
+      "story_id": "limassol-kourea-appeal-2026-11-22",
+      "identity": "limassol-kourea-appeal-2026-11-22",
+      "edition_id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "slot": "evening",
+      "published_at": "2026-11-22T17:34:42.196207+00:00",
+      "available_at": "2026-11-22T17:34:42.196207+00:00",
+      "headline": "Λεμεσός: έκκληση για εντοπισμό της Μαρίας Κουρέα",
+      "finding": "Η έκκληση της 22ας Νοεμβρίου αφορά τη Μαρία Κουρέα, 79 ετών, που απουσιάζει από τον χώρο διαμονής της στη Λεμεσό από το πρωί: λεπτή, περίπου 1,50 μ., με κόκκινα μαλλιά. Πληροφορίες: ΤΑΕ Λεμεσού 25805057 ή 1460. Κοινή ανακοίνωση, όχι ανεξάρτητες επιβεβαιώσεις.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-22-evening/missing-limassol.json",
+      "reader_url": "articles/2026-11-22-evening/missing-limassol.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1799152/chathikan-ta-ichni-tis-79chronis-marias-sti-lemeso-tin-echete-di-ikona",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-22T16:19:22+00:00",
+          "retrieved_at": "2026-11-22T16:21:15.251008+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.sigmalive.com/news/local/1338697/xathikan-ta-ikhni-tis-79khronis-marias-apo-ti-lemeso-foto",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-22T16:19:02+00:00",
+          "retrieved_at": "2026-11-22T16:21:15.452794+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.reporter.com.cy/article/1487872/ores-agnias-ga-79chroni-sti-lemeso-apoysiazei-apo-ton-choro-diamonis-tis-i-maria-koyrea-pic",
+          "publisher": "Reporter",
+          "reporting_group": "CyprusPolice",
+          "published_at": "2026-11-22T16:23:00+00:00",
+          "retrieved_at": "2026-11-22T17:29:43.560Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/da5e19cac34a89df1a8c0baae89a91cb0f0c0ce7c89796f7a4a12bf6f10ecfc0.webp"
+    },
+    {
+      "story_id": "cyprus-guitarfish-2026-11-22",
+      "identity": "cyprus-guitarfish-2026-11-22",
+      "edition_id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "slot": "evening",
+      "published_at": "2026-11-22T17:34:42.196207+00:00",
+      "available_at": "2026-11-22T17:34:42.196207+00:00",
+      "headline": "Κύπρος: σήμανση 33 κιθαρόψαρων",
+      "finding": "Το Cyprus Mail παραθέτει δήλωση για σήμανση 33 ατόμων blackchin guitarfish, με συνεργασία ντόπιων ψαράδων, από το καλοκαίρι. Το δημοσίευμα αναδεικνύει την παρουσία κιθαρόψαρων στα νερά γύρω από την Κύπρο και την έρευνα για αυτά.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-22-evening/guitarfish-research.json",
+      "reader_url": "articles/2026-11-22-evening/guitarfish-research.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/22/critically-endangered-guitarfish-find-refuge-in-cyprus-waters",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-22T14:32:22+00:00",
+          "retrieved_at": "2026-11-22T16:21:19.319421+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8910657f0e5d92e5b874bdd6a19019f6a7cd5af3ce8f831eccd0790f030e6d5d.webp"
+    },
+    {
+      "story_id": "barcelona-villarreal-2026-11-22",
+      "identity": "barcelona-villarreal-2026-11-22",
+      "edition_id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "slot": "evening",
+      "published_at": "2026-11-22T17:34:42.196207+00:00",
+      "available_at": "2026-11-22T17:34:42.196207+00:00",
+      "headline": "Μπαρτσελόνα–Βιγιαρεάλ: ανατροπή και 3–2",
+      "finding": "Η Μπαρτσελόνα νίκησε 3–2 τη Βιγιαρεάλ την Κυριακή. Ο Ζεράρ Μαρτίν μείωσε στο 57ο λεπτό και ο Φερμίν Λόπεθ ισοφάρισε τέσσερα λεπτά αργότερα, σύμφωνα με το Cyprus Mail.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-22-evening/barcelona-villarreal.json",
+      "reader_url": "articles/2026-11-22-evening/barcelona-villarreal.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/22/barcelona-retain-advantage-atop-laliga-after-comeback-win-over-villarreal",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-22T15:31:26+00:00",
+          "retrieved_at": "2026-11-22T16:21:15.138475+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5b8faace3fb5830616c4c5e40254bbc9fbd782174f2748c5a7811c447b658996.webp"
+    },
+    {
+      "story_id": "meta-india-congress-protests-2026-11-22",
+      "identity": "meta-india-congress-protests-2026-11-22",
+      "edition_id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "slot": "evening",
+      "published_at": "2026-11-22T11:38:48.672530+00:00",
+      "available_at": "2026-11-22T17:34:42.196207+00:00",
+      "headline": "Ινδία: προειδοποίηση νέων διαμαρτυριών κατά της Meta",
+      "finding": "Η νεολαία του Κογκρέσου προειδοποίησε το Σάββατο για νέες κινητοποιήσεις αν δεν αποκατασταθούν λογαριασμοί στελεχών της στο Instagram, μεταδίδει ο Guardian. Προηγήθηκαν την Παρασκευή συγκρούσεις με την αστυνομία σε κτίριο γραφείων της Meta στο Χαϊντεραμπάντ. Δεν τεκμηριώνεται κυβερνοπαραβίαση.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-22-evening/meta-india-protests.json",
+      "reader_url": "articles/2026-11-22-evening/meta-india-protests.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/nov/22/india-congress-meta-protests-police-hyderabad",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-22T09:14:27+00:00",
+          "retrieved_at": "2026-11-22T11:07:22.369536+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a47c30c5667297dc3265c023dca1d95e12eb156c6b7923ec8c050511d6a43570.webp"
+    },
+    {
+      "story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
+      "identity": "nvidia-seven-week-losing-streak-close-2026-11-20",
+      "edition_id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "slot": "evening",
+      "published_at": "2026-11-22T05:45:01.166646+00:00",
+      "available_at": "2026-11-22T17:34:42.196207+00:00",
+      "headline": "NVIDIA: πτώση 14% την Παρασκευή και επτά διαδοχικές εβδομάδες απωλειών",
+      "finding": "Η μετοχή της NVIDIA υποχώρησε 14% την Παρασκευή 20 Νοεμβρίου, ολοκληρώνοντας έβδομη διαδοχική πτωτική συνεδρίαση και έβδομη εβδομάδα απωλειών, αναφέρει το CNBC. Το CNBC χαρακτηρίζει το εβδομαδιαίο σερί το μεγαλύτερο από το 2008. Η αναφορά δεν απομονώνει αιτία της πτώσης.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-22-evening/nvidia-friday-close.json",
+      "reader_url": "articles/2026-11-22-evening/nvidia-friday-close.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-20T19:26:29+00:00",
+          "retrieved_at": "2026-11-22T04:21:16.530648+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/63d3691e6c7f80f87fb37e93b1400f98602c20628ac9e67407d1f00f9050055e.webp"
+    },
+    {
+      "story_id": "cyprus-greek-fdi-stock-2025",
+      "identity": "cyprus-greek-fdi-stock-2025",
+      "edition_id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "slot": "evening",
+      "published_at": "2026-11-22T05:45:01.166646+00:00",
+      "available_at": "2026-11-22T17:34:42.196207+00:00",
+      "headline": "Στα €9,34 δισ. το ελληνικό επενδυτικό απόθεμα στην Κύπρο το 2025",
+      "finding": "Το ελληνικό απόθεμα άμεσων επενδύσεων στην Κύπρο έφθασε τα 9,34 δισ. ευρώ το 2025, με αύξηση 34,2%, σύμφωνα με τον Φιλελεύθερο.  Η Κεντρική Τράπεζα δημοσίευσε στις 20 Νοεμβρίου την ετήσια έκθεση και διακρίνει επενδυτικές θέσεις από συναλλαγές, μαζί με συμπληρωματικές σειρές που αντιμετωπίζουν τις οντότητες ειδικού σκοπού ως μη κατοίκους.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-22-evening/greek-investment-stock.json",
+      "reader_url": "articles/2026-11-22-evening/greek-investment-stock.html",
+      "sources": [
+        {
+          "url": "https://www.centralbank.cy/en/announcements/foreign-direct-investment-2025-20-11-2026",
+          "publisher": "Central Bank of Cyprus",
+          "reporting_group": "CBC",
+          "published_at": null,
+          "retrieved_at": "2026-11-22T05:38:41.088Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1798753/alma-ellinikon-ependiseon-stin-kipriaki-ikonomia/",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-22T04:19:00+00:00",
+          "retrieved_at": "2026-11-22T05:39:12.095Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1798753/alma-ellinikon-ependiseon-stin-kipriaki-ikonomia",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-22T04:19:00+00:00",
+          "retrieved_at": "2026-11-22T04:21:17.061571+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ed118e37d5c4b57c2ec3e22ea209d5a5fa18a01df030e7e7dfb867b1d9bce025.webp"
+    },
+    {
+      "story_id": "sotira-byzantine-route-2026-11-22",
+      "identity": "sotira-byzantine-route-2026-11-22",
+      "edition_id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "slot": "evening",
+      "published_at": "2026-11-22T11:38:48.672530+00:00",
+      "available_at": "2026-11-22T17:34:42.196207+00:00",
+      "headline": "Εγκαινιάστηκε η «Βυζαντινή Διαδρομή Σωτήρας»",
+      "finding": "Ο Υφυπουργός Τουρισμού Κώστας Κουμής εγκαινίασε την Κυριακή τη «Βυζαντινή Διαδρομή Σωτήρας», αναφέρει το SigmaLive. Συνέδεσε την προσβασιμότητα της θρησκευτικής και πολιτιστικής κληρονομιάς με την ανάπτυξη αυθεντικών τοπικών εμπειριών. Δεν δίνονται στοιχεία επισκεψιμότητας ή οικονομικής απόδοσης.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-22-evening/sotira-route.json",
+      "reader_url": "articles/2026-11-22-evening/sotira-route.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1338668/k-koymis-apo-sotira-nees-prooptikes-anadeiksis-toy-thriskeftikou-toyrismou",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-22T10:46:47+00:00",
+          "retrieved_at": "2026-11-22T11:07:21.694454+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ac6b0568a57775819651772313850f90863c28bf75396197414c3059b3601319.webp"
+    },
+    {
+      "story_id": "mexico-major-draw-2026-11-22",
+      "identity": "mexico-major-draw-2026-11-22",
+      "edition_id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "slot": "evening",
+      "published_at": "2026-11-22T11:38:48.672530+00:00",
+      "available_at": "2026-11-22T17:34:42.196207+00:00",
+      "headline": "Mexico Major: ανοικτή η πρωτιά των γυναικών",
+      "finding": "Οριστικοποιήθηκαν οι κληρώσεις του Mexico Major στο Ακαπούλκο, που ολοκληρώνεται στις 29 Νοεμβρίου. Το τελευταίο Major προσφέρει 2.000 βαθμούς στις πρωταθλήτριες και στους πρωταθλητές, ενώ η ετήσια πρωτιά των γυναικών παραμένει ανοικτή, σύμφωνα με το Padel Addict.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-22-evening/mexico-major-draw.json",
+      "reader_url": "articles/2026-11-22-evening/mexico-major-draw.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/cuadros-mexico-major-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-22T10:26:57+00:00",
+          "retrieved_at": "2026-11-22T11:07:23.596742+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/2155f2105efdf7cbbdaf1cf8b7d51ba30e153d6954abb7e3d36c3821fa8255a8.webp"
+    },
+    {
+      "story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
+      "identity": "france-argentina-nations-championship-semifinal-2026-11-21",
+      "edition_id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "slot": "evening",
+      "published_at": "2026-11-22T05:45:01.166646+00:00",
+      "available_at": "2026-11-22T17:34:42.196207+00:00",
+      "headline": "Η Γαλλία προκρίθηκε στον τελικό με 45–17 επί της Αργεντινής",
+      "finding": "Η Γαλλία νίκησε την Αργεντινή με 45–17 στο Παρίσι και προκρίθηκε στον τελικό του Nations Championship ράγκμπι, αναφέρει το BBC σε δημοσίευμα της 21ης Νοεμβρίου.",
+      "section": "sports",
+      "priority": 12,
+      "article_path": "articles/2026-11-22-evening/france-argentina-rugby.json",
+      "reader_url": "articles/2026-11-22-evening/france-argentina-rugby.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/rugby-union/videos/cm879py9n9xwo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-21T23:22:40+00:00",
+          "retrieved_at": "2026-11-22T04:21:16.195080+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/eb5095e4cdb0c20f72c0a302a3678c91001ab74a447234e5d3e797e6eadcea1a.webp"
     },
     {
       "story_id": "bahrain-industrial-strike-2026-11-21",

@@ -16,12 +16,16 @@
       "type": "midday",
       "url": "midday/2026-11-22.html",
       "published_at": "2026-11-22T11:38:48.672530+00:00"
+    },
+    {
+      "id": "2026-11-22-evening",
+      "type": "evening",
+      "url": "evening/2026-11-22.html",
+      "published_at": "2026-11-22T17:34:42.196207+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "bahrain-industrial-strike-2026-11-21",
+  "missing_slots": [],
+  "lead_story_id": "ukraine-patriot-request-2026-11-22",
   "stories": [
     {
       "story_id": "bahrain-industrial-strike-2026-11-21",
@@ -66,6 +70,48 @@
       "priority": 1
     },
     {
+      "story_id": "ukraine-patriot-request-2026-11-22",
+      "first_seen_at": "2026-11-22T17:34:42.196207+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-evening",
+          "article_id": "ukraine-patriot",
+          "source_story_id": "ukraine-patriot-request-2026-11-22",
+          "url": "articles/2026-11-22-evening/ukraine-patriot.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "ukraine-patriot",
+        "source_story_id": "ukraine-patriot-request-2026-11-22",
+        "url": "articles/2026-11-22-evening/ukraine-patriot.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "cleverbridge-cards-2026-11-22",
+      "first_seen_at": "2026-11-22T17:34:42.196207+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-evening",
+          "article_id": "cleverbridge-cards",
+          "source_story_id": "cleverbridge-cards-2026-11-22",
+          "url": "articles/2026-11-22-evening/cleverbridge-cards.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "cleverbridge-cards",
+        "source_story_id": "cleverbridge-cards-2026-11-22",
+        "url": "articles/2026-11-22-evening/cleverbridge-cards.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
       "story_id": "dymer-drone-strike-2026-11-22",
       "first_seen_at": "2026-11-22T11:38:48.672530+00:00",
       "last_substantive_at": null,
@@ -108,6 +154,27 @@
       "priority": 2
     },
     {
+      "story_id": "centrica-bills-2026-11-22",
+      "first_seen_at": "2026-11-22T17:34:42.196207+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-evening",
+          "article_id": "centrica-energy",
+          "source_story_id": "centrica-bills-2026-11-22",
+          "url": "articles/2026-11-22-evening/centrica-energy.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "centrica-energy",
+        "source_story_id": "centrica-bills-2026-11-22",
+        "url": "articles/2026-11-22-evening/centrica-energy.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
       "story_id": "fbi-criminal-database-apparent-breach-report-2026-11-22",
       "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
       "last_substantive_at": null,
@@ -144,13 +211,19 @@
           "article_id": "meta-india-protests",
           "source_story_id": "meta-india-congress-protests-2026-11-22",
           "url": "articles/2026-11-22-midday/meta-india-protests.html"
+        },
+        {
+          "edition_id": "2026-11-22-evening",
+          "article_id": "meta-india-protests",
+          "source_story_id": "meta-india-congress-protests-2026-11-22",
+          "url": "articles/2026-11-22-evening/meta-india-protests.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-22-midday",
+        "edition_id": "2026-11-22-evening",
         "article_id": "meta-india-protests",
         "source_story_id": "meta-india-congress-protests-2026-11-22",
-        "url": "articles/2026-11-22-midday/meta-india-protests.html"
+        "url": "articles/2026-11-22-evening/meta-india-protests.html"
       },
       "section": "world",
       "priority": 3
@@ -177,6 +250,27 @@
       "priority": 4
     },
     {
+      "story_id": "mazotos-desalination-2026-11-22",
+      "first_seen_at": "2026-11-22T17:34:42.196207+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-evening",
+          "article_id": "mazotos-desalination",
+          "source_story_id": "mazotos-desalination-2026-11-22",
+          "url": "articles/2026-11-22-evening/mazotos-desalination.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "mazotos-desalination",
+        "source_story_id": "mazotos-desalination-2026-11-22",
+        "url": "articles/2026-11-22-evening/mazotos-desalination.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
       "story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
       "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
       "last_substantive_at": null,
@@ -192,13 +286,19 @@
           "article_id": "nvidia-friday-close",
           "source_story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
           "url": "articles/2026-11-22-midday/nvidia-friday-close.html"
+        },
+        {
+          "edition_id": "2026-11-22-evening",
+          "article_id": "nvidia-friday-close",
+          "source_story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
+          "url": "articles/2026-11-22-evening/nvidia-friday-close.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-22-midday",
+        "edition_id": "2026-11-22-evening",
         "article_id": "nvidia-friday-close",
         "source_story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
-        "url": "articles/2026-11-22-midday/nvidia-friday-close.html"
+        "url": "articles/2026-11-22-evening/nvidia-friday-close.html"
       },
       "section": "world",
       "priority": 4
@@ -246,6 +346,48 @@
       "priority": 5
     },
     {
+      "story_id": "limassol-kourea-appeal-2026-11-22",
+      "first_seen_at": "2026-11-22T17:34:42.196207+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-evening",
+          "article_id": "missing-limassol",
+          "source_story_id": "limassol-kourea-appeal-2026-11-22",
+          "url": "articles/2026-11-22-evening/missing-limassol.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "missing-limassol",
+        "source_story_id": "limassol-kourea-appeal-2026-11-22",
+        "url": "articles/2026-11-22-evening/missing-limassol.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-guitarfish-2026-11-22",
+      "first_seen_at": "2026-11-22T17:34:42.196207+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-evening",
+          "article_id": "guitarfish-research",
+          "source_story_id": "cyprus-guitarfish-2026-11-22",
+          "url": "articles/2026-11-22-evening/guitarfish-research.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "guitarfish-research",
+        "source_story_id": "cyprus-guitarfish-2026-11-22",
+        "url": "articles/2026-11-22-evening/guitarfish-research.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
       "story_id": "cyprus-pay-as-you-throw-infrastructure-delay-2026-11-22",
       "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
       "last_substantive_at": null,
@@ -282,16 +424,43 @@
           "article_id": "sotira-route",
           "source_story_id": "sotira-byzantine-route-2026-11-22",
           "url": "articles/2026-11-22-midday/sotira-route.html"
+        },
+        {
+          "edition_id": "2026-11-22-evening",
+          "article_id": "sotira-route",
+          "source_story_id": "sotira-byzantine-route-2026-11-22",
+          "url": "articles/2026-11-22-evening/sotira-route.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-22-midday",
+        "edition_id": "2026-11-22-evening",
         "article_id": "sotira-route",
         "source_story_id": "sotira-byzantine-route-2026-11-22",
-        "url": "articles/2026-11-22-midday/sotira-route.html"
+        "url": "articles/2026-11-22-evening/sotira-route.html"
       },
       "section": "cyprus",
       "priority": 6
+    },
+    {
+      "story_id": "barcelona-villarreal-2026-11-22",
+      "first_seen_at": "2026-11-22T17:34:42.196207+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-evening",
+          "article_id": "barcelona-villarreal",
+          "source_story_id": "barcelona-villarreal-2026-11-22",
+          "url": "articles/2026-11-22-evening/barcelona-villarreal.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "barcelona-villarreal",
+        "source_story_id": "barcelona-villarreal-2026-11-22",
+        "url": "articles/2026-11-22-evening/barcelona-villarreal.html"
+      },
+      "section": "sports",
+      "priority": 7
     },
     {
       "story_id": "cyprus-greek-fdi-stock-2025",
@@ -309,13 +478,19 @@
           "article_id": "greek-investment-stock",
           "source_story_id": "cyprus-greek-fdi-stock-2025",
           "url": "articles/2026-11-22-midday/greek-investment-stock.html"
+        },
+        {
+          "edition_id": "2026-11-22-evening",
+          "article_id": "greek-investment-stock",
+          "source_story_id": "cyprus-greek-fdi-stock-2025",
+          "url": "articles/2026-11-22-evening/greek-investment-stock.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-22-midday",
+        "edition_id": "2026-11-22-evening",
         "article_id": "greek-investment-stock",
         "source_story_id": "cyprus-greek-fdi-stock-2025",
-        "url": "articles/2026-11-22-midday/greek-investment-stock.html"
+        "url": "articles/2026-11-22-evening/greek-investment-stock.html"
       },
       "section": "cyprus",
       "priority": 7
@@ -330,13 +505,19 @@
           "article_id": "mexico-major-draw",
           "source_story_id": "mexico-major-draw-2026-11-22",
           "url": "articles/2026-11-22-midday/mexico-major-draw.html"
+        },
+        {
+          "edition_id": "2026-11-22-evening",
+          "article_id": "mexico-major-draw",
+          "source_story_id": "mexico-major-draw-2026-11-22",
+          "url": "articles/2026-11-22-evening/mexico-major-draw.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-22-midday",
+        "edition_id": "2026-11-22-evening",
         "article_id": "mexico-major-draw",
         "source_story_id": "mexico-major-draw-2026-11-22",
-        "url": "articles/2026-11-22-midday/mexico-major-draw.html"
+        "url": "articles/2026-11-22-evening/mexico-major-draw.html"
       },
       "section": "sports",
       "priority": 7
@@ -447,13 +628,19 @@
           "article_id": "france-argentina-rugby",
           "source_story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
           "url": "articles/2026-11-22-midday/france-argentina-rugby.html"
+        },
+        {
+          "edition_id": "2026-11-22-evening",
+          "article_id": "france-argentina-rugby",
+          "source_story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
+          "url": "articles/2026-11-22-evening/france-argentina-rugby.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-22-midday",
+        "edition_id": "2026-11-22-evening",
         "article_id": "france-argentina-rugby",
         "source_story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
-        "url": "articles/2026-11-22-midday/france-argentina-rugby.html"
+        "url": "articles/2026-11-22-evening/france-argentina-rugby.html"
       },
       "section": "sports",
       "priority": 12
@@ -809,6 +996,188 @@
         "source_story_id": "bahrain-industrial-strike-2026-11-21",
         "url": "articles/2026-11-22-midday/bahrain-industrial-attack.html"
       }
+    },
+    {
+      "id": "13d6bdab94836a9431b45ed56028633e3346cbc7a279eaacd98ae5855d70f78d",
+      "kind": "provenance",
+      "at": "2026-11-22T17:34:42.196207+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "mexico-major-draw-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "mexico-major-draw",
+        "source_story_id": "mexico-major-draw-2026-11-22",
+        "url": "articles/2026-11-22-evening/mexico-major-draw.html"
+      }
+    },
+    {
+      "id": "1c07cf55bf82b1d9328e42c7b4db3af6d21cfdf1b98c26af995a9c437a70bb52",
+      "kind": "provenance",
+      "at": "2026-11-22T17:34:42.196207+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "barcelona-villarreal-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "barcelona-villarreal",
+        "source_story_id": "barcelona-villarreal-2026-11-22",
+        "url": "articles/2026-11-22-evening/barcelona-villarreal.html"
+      }
+    },
+    {
+      "id": "2a344221c39e6bf0fe6ede5e0df063d2006d86813d8686ef40c202f4d87a8cd0",
+      "kind": "provenance",
+      "at": "2026-11-22T17:34:42.196207+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "mazotos-desalination-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "mazotos-desalination",
+        "source_story_id": "mazotos-desalination-2026-11-22",
+        "url": "articles/2026-11-22-evening/mazotos-desalination.html"
+      }
+    },
+    {
+      "id": "387d3942f942b3197b30df1cc86aa5d1e5284f23de1ea9b201dbd0d61254cd47",
+      "kind": "provenance",
+      "at": "2026-11-22T17:34:42.196207+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-kourea-appeal-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "missing-limassol",
+        "source_story_id": "limassol-kourea-appeal-2026-11-22",
+        "url": "articles/2026-11-22-evening/missing-limassol.html"
+      }
+    },
+    {
+      "id": "43f0b079485a0a5251b17f66cf77ddb6a7965912d9d92e40bfb0bc24ea1eea56",
+      "kind": "provenance",
+      "at": "2026-11-22T17:34:42.196207+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "sotira-byzantine-route-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "sotira-route",
+        "source_story_id": "sotira-byzantine-route-2026-11-22",
+        "url": "articles/2026-11-22-evening/sotira-route.html"
+      }
+    },
+    {
+      "id": "5d3da3c6da04a68c5951047c0007da33139ca64c1a46020716314387adb6958f",
+      "kind": "provenance",
+      "at": "2026-11-22T17:34:42.196207+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "meta-india-congress-protests-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "meta-india-protests",
+        "source_story_id": "meta-india-congress-protests-2026-11-22",
+        "url": "articles/2026-11-22-evening/meta-india-protests.html"
+      }
+    },
+    {
+      "id": "6740073a09752e5c859a43d8b8186fa573e2e4c1babed0c2a3a47a5dbba290a4",
+      "kind": "provenance",
+      "at": "2026-11-22T17:34:42.196207+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-guitarfish-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "guitarfish-research",
+        "source_story_id": "cyprus-guitarfish-2026-11-22",
+        "url": "articles/2026-11-22-evening/guitarfish-research.html"
+      }
+    },
+    {
+      "id": "67ebe77b2753a8aaae3f45c328d6955230145d616e896dd2bd8e91001b234aeb",
+      "kind": "provenance",
+      "at": "2026-11-22T17:34:42.196207+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-greek-fdi-stock-2025",
+      "origin": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "greek-investment-stock",
+        "source_story_id": "cyprus-greek-fdi-stock-2025",
+        "url": "articles/2026-11-22-evening/greek-investment-stock.html"
+      }
+    },
+    {
+      "id": "798e6461c5edec28fc7d01175d69d30b527d6863269f4ac32d196fd4aa9a9655",
+      "kind": "provenance",
+      "at": "2026-11-22T17:34:42.196207+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "france-argentina-rugby",
+        "source_story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
+        "url": "articles/2026-11-22-evening/france-argentina-rugby.html"
+      }
+    },
+    {
+      "id": "a24dd9921bcdc54ce06d03932019c3af735dd3ce778bdff18615a8ff1041d54c",
+      "kind": "provenance",
+      "at": "2026-11-22T17:34:42.196207+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "nvidia-friday-close",
+        "source_story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
+        "url": "articles/2026-11-22-evening/nvidia-friday-close.html"
+      }
+    },
+    {
+      "id": "f7b3a941f6fb1adbe9d1f303eb768d66e96b05954398d96613588ff4e638112a",
+      "kind": "provenance",
+      "at": "2026-11-22T17:34:42.196207+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "centrica-bills-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "centrica-energy",
+        "source_story_id": "centrica-bills-2026-11-22",
+        "url": "articles/2026-11-22-evening/centrica-energy.html"
+      }
+    },
+    {
+      "id": "f8576ac25a9cf2d3dfa8e5aac26ce2f05e7808a28071f4d0517f579ff2961e00",
+      "kind": "provenance",
+      "at": "2026-11-22T17:34:42.196207+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-patriot-request-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "ukraine-patriot",
+        "source_story_id": "ukraine-patriot-request-2026-11-22",
+        "url": "articles/2026-11-22-evening/ukraine-patriot.html"
+      }
+    },
+    {
+      "id": "fadb776088496b8a9c893f3d6ef900ab1df7f9106f4b475c5372e1466e9846f5",
+      "kind": "provenance",
+      "at": "2026-11-22T17:34:42.196207+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cleverbridge-cards-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-evening",
+        "article_id": "cleverbridge-cards",
+        "source_story_id": "cleverbridge-cards-2026-11-22",
+        "url": "articles/2026-11-22-evening/cleverbridge-cards.html"
+      }
     }
   ],
   "opportunities": [
@@ -1017,17 +1386,17 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Οι αναφορές του Μπαχρέιν για πλήγμα σε βιομηχανική εγκατάσταση και της Ουκρανίας για αγνοουμένους στο Ντίμερ μεταφέρουν το βάρος στην προστασία πολιτικών υποδομών και στις διασώσεις. Οι αριθμοί αποδίδονται στις αρχές· επόμενο τεστ είναι ο απολογισμός επί τόπου. Στην Κύπρο, η θετική προεδρική απάντηση για δύο δεξαμενές στο Μάμμαρι αφορά δυνατότητα υλοποίησης, χωρίς εγκεκριμένη χρηματοδότηση ή χρονοδιάγραμμα στο απόσπασμα. Για τους γεωργούς, η διαφορά μεταξύ δήλωσης και έργου θα κριθεί στις αποφάσεις που θα ακολουθήσουν. Διατηρούνται επιλεγμένα πρωινά θέματα χωρίς να παρουσιάζονται ως νέες εξελίξεις.",
+        "text": "Το αίτημα Ζελένσκι για Patriot αφορά έγκριση παραδόσεων, όχι ανακοινωμένη άφιξη πυραύλων. Για κατοίκους και υποδομές, το επόμενο τεστ είναι η αμερικανική απόφαση και ο χρόνος εφαρμογής της. Στον Μαζωτό, το ΤΑΥ επικαλείται εγκρίσεις και σχεδιασμό διάθεσης άλμης. Η τοποθέτηση εξηγεί τι προβλέπεται, χωρίς να αποδεικνύει την επίδραση στο θαλάσσιο περιβάλλον. Τήρηση των όρων και μετρήσεις θα κρίνουν το αποτέλεσμα. Παράλληλα, η Cleverbridge ενημερώνει για έκθεση στοιχείων καρτών· χρειάζεται σαφής αποτύπωση των επηρεαζόμενων πελατών. Οι διατηρούμενες ειδήσεις κρατούν τον αρχικό χρόνο τους.",
         "story_ids": [
-          "bahrain-industrial-strike-2026-11-21",
-          "dymer-drone-strike-2026-11-22",
-          "mammari-water-tanks-2026-11-22"
+          "ukraine-patriot-request-2026-11-22",
+          "cleverbridge-cards-2026-11-22",
+          "mazotos-desalination-2026-11-22"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-22T05:47:16.060847+00:00",
-  "updated_at": "2026-11-22T11:41:23.141948+00:00",
-  "input_sha256": "ea3040297db7cf13ad8c07ac2630ebce57591aaab24c8dd07dfa60654e8c2e54"
+  "updated_at": "2026-11-22T17:37:09.755630+00:00",
+  "input_sha256": "5d404ef1356918523269e64f87976564a227990fadf42ccb644423eb1231c272"
 }
