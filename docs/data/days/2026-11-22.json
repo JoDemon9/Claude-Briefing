@@ -10,14 +10,40 @@
       "type": "morning",
       "url": "morning/2026-11-22.html",
       "published_at": "2026-11-22T05:45:01.166646+00:00"
+    },
+    {
+      "id": "2026-11-22-midday",
+      "type": "midday",
+      "url": "midday/2026-11-22.html",
+      "published_at": "2026-11-22T11:38:48.672530+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "gaza-housing-loss-strikes-reports-2026-11-22",
+  "lead_story_id": "bahrain-industrial-strike-2026-11-21",
   "stories": [
+    {
+      "story_id": "bahrain-industrial-strike-2026-11-21",
+      "first_seen_at": "2026-11-22T11:38:48.672530+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-midday",
+          "article_id": "bahrain-industrial-attack",
+          "source_story_id": "bahrain-industrial-strike-2026-11-21",
+          "url": "articles/2026-11-22-midday/bahrain-industrial-attack.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "bahrain-industrial-attack",
+        "source_story_id": "bahrain-industrial-strike-2026-11-21",
+        "url": "articles/2026-11-22-midday/bahrain-industrial-attack.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
     {
       "story_id": "gaza-housing-loss-strikes-reports-2026-11-22",
       "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
@@ -38,6 +64,27 @@
       },
       "section": "world",
       "priority": 1
+    },
+    {
+      "story_id": "dymer-drone-strike-2026-11-22",
+      "first_seen_at": "2026-11-22T11:38:48.672530+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-midday",
+          "article_id": "dymer-rescue",
+          "source_story_id": "dymer-drone-strike-2026-11-22",
+          "url": "articles/2026-11-22-midday/dymer-rescue.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "dymer-rescue",
+        "source_story_id": "dymer-drone-strike-2026-11-22",
+        "url": "articles/2026-11-22-midday/dymer-rescue.html"
+      },
+      "section": "world",
+      "priority": 2
     },
     {
       "story_id": "victoria-yallourn-2028-electricity-gap-warning-2026-11-22",
@@ -70,16 +117,64 @@
           "article_id": "fbi-database-report",
           "source_story_id": "fbi-criminal-database-apparent-breach-report-2026-11-22",
           "url": "articles/2026-11-22-morning/fbi-database-report.html"
+        },
+        {
+          "edition_id": "2026-11-22-midday",
+          "article_id": "fbi-database-report",
+          "source_story_id": "fbi-criminal-database-apparent-breach-report-2026-11-22",
+          "url": "articles/2026-11-22-midday/fbi-database-report.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-22-morning",
+        "edition_id": "2026-11-22-midday",
         "article_id": "fbi-database-report",
         "source_story_id": "fbi-criminal-database-apparent-breach-report-2026-11-22",
-        "url": "articles/2026-11-22-morning/fbi-database-report.html"
+        "url": "articles/2026-11-22-midday/fbi-database-report.html"
       },
       "section": "world",
       "priority": 3
+    },
+    {
+      "story_id": "meta-india-congress-protests-2026-11-22",
+      "first_seen_at": "2026-11-22T11:38:48.672530+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-midday",
+          "article_id": "meta-india-protests",
+          "source_story_id": "meta-india-congress-protests-2026-11-22",
+          "url": "articles/2026-11-22-midday/meta-india-protests.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "meta-india-protests",
+        "source_story_id": "meta-india-congress-protests-2026-11-22",
+        "url": "articles/2026-11-22-midday/meta-india-protests.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "mammari-water-tanks-2026-11-22",
+      "first_seen_at": "2026-11-22T11:38:48.672530+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-midday",
+          "article_id": "mammari-water",
+          "source_story_id": "mammari-water-tanks-2026-11-22",
+          "url": "articles/2026-11-22-midday/mammari-water.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "mammari-water",
+        "source_story_id": "mammari-water-tanks-2026-11-22",
+        "url": "articles/2026-11-22-midday/mammari-water.html"
+      },
+      "section": "cyprus",
+      "priority": 4
     },
     {
       "story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
@@ -91,16 +186,43 @@
           "article_id": "nvidia-friday-close",
           "source_story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
           "url": "articles/2026-11-22-morning/nvidia-friday-close.html"
+        },
+        {
+          "edition_id": "2026-11-22-midday",
+          "article_id": "nvidia-friday-close",
+          "source_story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
+          "url": "articles/2026-11-22-midday/nvidia-friday-close.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-22-morning",
+        "edition_id": "2026-11-22-midday",
         "article_id": "nvidia-friday-close",
         "source_story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
-        "url": "articles/2026-11-22-morning/nvidia-friday-close.html"
+        "url": "articles/2026-11-22-midday/nvidia-friday-close.html"
       },
       "section": "world",
       "priority": 4
+    },
+    {
+      "story_id": "aykut-property-claim-2026-11-22",
+      "first_seen_at": "2026-11-22T11:38:48.672530+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-midday",
+          "article_id": "property-purchases-claim",
+          "source_story_id": "aykut-property-claim-2026-11-22",
+          "url": "articles/2026-11-22-midday/property-purchases-claim.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "property-purchases-claim",
+        "source_story_id": "aykut-property-claim-2026-11-22",
+        "url": "articles/2026-11-22-midday/property-purchases-claim.html"
+      },
+      "section": "cyprus",
+      "priority": 5
     },
     {
       "story_id": "devon-communities-energy-advice-winter-2026-11-21",
@@ -133,13 +255,40 @@
           "article_id": "waste-implementation-gap",
           "source_story_id": "cyprus-pay-as-you-throw-infrastructure-delay-2026-11-22",
           "url": "articles/2026-11-22-morning/waste-implementation-gap.html"
+        },
+        {
+          "edition_id": "2026-11-22-midday",
+          "article_id": "waste-implementation-gap",
+          "source_story_id": "cyprus-pay-as-you-throw-infrastructure-delay-2026-11-22",
+          "url": "articles/2026-11-22-midday/waste-implementation-gap.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-22-morning",
+        "edition_id": "2026-11-22-midday",
         "article_id": "waste-implementation-gap",
         "source_story_id": "cyprus-pay-as-you-throw-infrastructure-delay-2026-11-22",
-        "url": "articles/2026-11-22-morning/waste-implementation-gap.html"
+        "url": "articles/2026-11-22-midday/waste-implementation-gap.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "sotira-byzantine-route-2026-11-22",
+      "first_seen_at": "2026-11-22T11:38:48.672530+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-midday",
+          "article_id": "sotira-route",
+          "source_story_id": "sotira-byzantine-route-2026-11-22",
+          "url": "articles/2026-11-22-midday/sotira-route.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "sotira-route",
+        "source_story_id": "sotira-byzantine-route-2026-11-22",
+        "url": "articles/2026-11-22-midday/sotira-route.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -154,15 +303,42 @@
           "article_id": "greek-investment-stock",
           "source_story_id": "cyprus-greek-fdi-stock-2025",
           "url": "articles/2026-11-22-morning/greek-investment-stock.html"
+        },
+        {
+          "edition_id": "2026-11-22-midday",
+          "article_id": "greek-investment-stock",
+          "source_story_id": "cyprus-greek-fdi-stock-2025",
+          "url": "articles/2026-11-22-midday/greek-investment-stock.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-22-morning",
+        "edition_id": "2026-11-22-midday",
         "article_id": "greek-investment-stock",
         "source_story_id": "cyprus-greek-fdi-stock-2025",
-        "url": "articles/2026-11-22-morning/greek-investment-stock.html"
+        "url": "articles/2026-11-22-midday/greek-investment-stock.html"
       },
       "section": "cyprus",
+      "priority": 7
+    },
+    {
+      "story_id": "mexico-major-draw-2026-11-22",
+      "first_seen_at": "2026-11-22T11:38:48.672530+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-midday",
+          "article_id": "mexico-major-draw",
+          "source_story_id": "mexico-major-draw-2026-11-22",
+          "url": "articles/2026-11-22-midday/mexico-major-draw.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "mexico-major-draw",
+        "source_story_id": "mexico-major-draw-2026-11-22",
+        "url": "articles/2026-11-22-midday/mexico-major-draw.html"
+      },
+      "section": "sports",
       "priority": 7
     },
     {
@@ -238,13 +414,19 @@
           "article_id": "bournemouth-forest",
           "source_story_id": "bournemouth-nottingham-forest-evanilson-sixth-2026-11-21",
           "url": "articles/2026-11-22-morning/bournemouth-forest.html"
+        },
+        {
+          "edition_id": "2026-11-22-midday",
+          "article_id": "bournemouth-forest",
+          "source_story_id": "bournemouth-nottingham-forest-evanilson-sixth-2026-11-21",
+          "url": "articles/2026-11-22-midday/bournemouth-forest.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-22-morning",
+        "edition_id": "2026-11-22-midday",
         "article_id": "bournemouth-forest",
         "source_story_id": "bournemouth-nottingham-forest-evanilson-sixth-2026-11-21",
-        "url": "articles/2026-11-22-morning/bournemouth-forest.html"
+        "url": "articles/2026-11-22-midday/bournemouth-forest.html"
       },
       "section": "sports",
       "priority": 11
@@ -259,13 +441,19 @@
           "article_id": "france-argentina-rugby",
           "source_story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
           "url": "articles/2026-11-22-morning/france-argentina-rugby.html"
+        },
+        {
+          "edition_id": "2026-11-22-midday",
+          "article_id": "france-argentina-rugby",
+          "source_story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
+          "url": "articles/2026-11-22-midday/france-argentina-rugby.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-22-morning",
+        "edition_id": "2026-11-22-midday",
         "article_id": "france-argentina-rugby",
         "source_story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
-        "url": "articles/2026-11-22-morning/france-argentina-rugby.html"
+        "url": "articles/2026-11-22-midday/france-argentina-rugby.html"
       },
       "section": "sports",
       "priority": 12
@@ -438,6 +626,188 @@
         "article_id": "greek-investment-stock",
         "source_story_id": "cyprus-greek-fdi-stock-2025",
         "url": "articles/2026-11-22-morning/greek-investment-stock.html"
+      }
+    },
+    {
+      "id": "04fb0eda7b0f9a1f43c89fe77e08107a19f18836a3ae48f28142c3fdb3423909",
+      "kind": "provenance",
+      "at": "2026-11-22T11:38:48.672530+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "dymer-drone-strike-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "dymer-rescue",
+        "source_story_id": "dymer-drone-strike-2026-11-22",
+        "url": "articles/2026-11-22-midday/dymer-rescue.html"
+      }
+    },
+    {
+      "id": "25bb3b21fdc9bb939d5556da211f5c0e50388c48e748d09aa3943999c9c7ce46",
+      "kind": "provenance",
+      "at": "2026-11-22T11:38:48.672530+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-greek-fdi-stock-2025",
+      "origin": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "greek-investment-stock",
+        "source_story_id": "cyprus-greek-fdi-stock-2025",
+        "url": "articles/2026-11-22-midday/greek-investment-stock.html"
+      }
+    },
+    {
+      "id": "2ae87c0059272115f403bde21b8bac463cbdcf9ff268e99599133daf80b690e7",
+      "kind": "provenance",
+      "at": "2026-11-22T11:38:48.672530+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-pay-as-you-throw-infrastructure-delay-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "waste-implementation-gap",
+        "source_story_id": "cyprus-pay-as-you-throw-infrastructure-delay-2026-11-22",
+        "url": "articles/2026-11-22-midday/waste-implementation-gap.html"
+      }
+    },
+    {
+      "id": "3468e9ab2d29cf01a014b4c8df7f2c7b6130bae6d6b74ee89cd1c6954018a7c8",
+      "kind": "provenance",
+      "at": "2026-11-22T11:38:48.672530+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "bournemouth-nottingham-forest-evanilson-sixth-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "bournemouth-forest",
+        "source_story_id": "bournemouth-nottingham-forest-evanilson-sixth-2026-11-21",
+        "url": "articles/2026-11-22-midday/bournemouth-forest.html"
+      }
+    },
+    {
+      "id": "46bc0f10e8f6919d81a7f07c9083c4598a38b494ee27c7edfb5b3d18d6883433",
+      "kind": "provenance",
+      "at": "2026-11-22T11:38:48.672530+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "mammari-water-tanks-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "mammari-water",
+        "source_story_id": "mammari-water-tanks-2026-11-22",
+        "url": "articles/2026-11-22-midday/mammari-water.html"
+      }
+    },
+    {
+      "id": "4b9de4c910b9799fd23f887e11c511dbafbdc3313fa64a3af2bdb0b5a31cbacf",
+      "kind": "provenance",
+      "at": "2026-11-22T11:38:48.672530+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "france-argentina-rugby",
+        "source_story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
+        "url": "articles/2026-11-22-midday/france-argentina-rugby.html"
+      }
+    },
+    {
+      "id": "5c4e9e1fe9a2c304d2eb349fdcbf4543b0b40a61b55c35d9e804c6d4764fa750",
+      "kind": "provenance",
+      "at": "2026-11-22T11:38:48.672530+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "fbi-criminal-database-apparent-breach-report-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "fbi-database-report",
+        "source_story_id": "fbi-criminal-database-apparent-breach-report-2026-11-22",
+        "url": "articles/2026-11-22-midday/fbi-database-report.html"
+      }
+    },
+    {
+      "id": "a2251545c115d99e335fa873aa6681054a15c6fc74d779d70726db0be778511c",
+      "kind": "provenance",
+      "at": "2026-11-22T11:38:48.672530+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "nvidia-friday-close",
+        "source_story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
+        "url": "articles/2026-11-22-midday/nvidia-friday-close.html"
+      }
+    },
+    {
+      "id": "a6dbd91ed3cefd41a4eabbb733918488f4357b6b887e6f43d431c6cbe9b9c69f",
+      "kind": "provenance",
+      "at": "2026-11-22T11:38:48.672530+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "meta-india-congress-protests-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "meta-india-protests",
+        "source_story_id": "meta-india-congress-protests-2026-11-22",
+        "url": "articles/2026-11-22-midday/meta-india-protests.html"
+      }
+    },
+    {
+      "id": "b113c45f9d2154a835f41db849085c6d94568308864bd634ffdad3abe3d8494b",
+      "kind": "provenance",
+      "at": "2026-11-22T11:38:48.672530+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "aykut-property-claim-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "property-purchases-claim",
+        "source_story_id": "aykut-property-claim-2026-11-22",
+        "url": "articles/2026-11-22-midday/property-purchases-claim.html"
+      }
+    },
+    {
+      "id": "b3540115fb66ce90a1b85ffef1ed7b59048a20dce4cd12aafaffb9bdc592b979",
+      "kind": "provenance",
+      "at": "2026-11-22T11:38:48.672530+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "sotira-byzantine-route-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "sotira-route",
+        "source_story_id": "sotira-byzantine-route-2026-11-22",
+        "url": "articles/2026-11-22-midday/sotira-route.html"
+      }
+    },
+    {
+      "id": "d7e4e9375c92d242b8d1189f06a135531fb44635fd2dfc4ac3b6831c2a197a82",
+      "kind": "provenance",
+      "at": "2026-11-22T11:38:48.672530+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "mexico-major-draw-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "mexico-major-draw",
+        "source_story_id": "mexico-major-draw-2026-11-22",
+        "url": "articles/2026-11-22-midday/mexico-major-draw.html"
+      }
+    },
+    {
+      "id": "e3aeff97fbfd49977b80d16f02de316b44607f0b3c7e9a50cce810aa3abd1e08",
+      "kind": "provenance",
+      "at": "2026-11-22T11:38:48.672530+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "bahrain-industrial-strike-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-22-midday",
+        "article_id": "bahrain-industrial-attack",
+        "source_story_id": "bahrain-industrial-strike-2026-11-21",
+        "url": "articles/2026-11-22-midday/bahrain-industrial-attack.html"
       }
     }
   ],
@@ -647,16 +1017,17 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η καθυστέρηση του «Πληρώνω Όσο Πετώ» δείχνει την απόσταση ανάμεσα σε χρηματοδοτική έγκριση και λειτουργικό σύστημα. Για δήμους και νοικοκυριά, το κρίσιμο τεστ είναι υποδομές και εφαρμόσιμο χρονοδιάγραμμα. Η αύξηση της ελληνικής επενδυτικής παρουσίας αφορά απόθεμα του 2025· δεν ισοδυναμεί με αντίστοιχη εισροή νέων χρημάτων μέσα σε ένα έτος. Η Κεντρική Τράπεζα διακρίνει ρητά θέσεις από συναλλαγές και δημοσιεύει προσαρμοσμένες σειρές για οντότητες ειδικού σκοπού. Στα διεθνή, οι αναφορές απωλειών και έλλειψης στέγης στη Γάζα απαιτούν διασταύρωση και ανθρωπιστική παρακολούθηση, ενώ η έρευνα για φερόμενη παραβίαση βάσης του FBI παραμένει δημοσιογραφική αναφορά με αδιευκρίνιστη έκταση.",
+        "text": "Οι αναφορές του Μπαχρέιν για πλήγμα σε βιομηχανική εγκατάσταση και της Ουκρανίας για αγνοουμένους στο Ντίμερ μεταφέρουν το βάρος στην προστασία πολιτικών υποδομών και στις διασώσεις. Οι αριθμοί αποδίδονται στις αρχές· επόμενο τεστ είναι ο απολογισμός επί τόπου. Στην Κύπρο, η θετική προεδρική απάντηση για δύο δεξαμενές στο Μάμμαρι αφορά δυνατότητα υλοποίησης, χωρίς εγκεκριμένη χρηματοδότηση ή χρονοδιάγραμμα στο απόσπασμα. Για τους γεωργούς, η διαφορά μεταξύ δήλωσης και έργου θα κριθεί στις αποφάσεις που θα ακολουθήσουν. Διατηρούνται επιλεγμένα πρωινά θέματα χωρίς να παρουσιάζονται ως νέες εξελίξεις.",
         "story_ids": [
-          "cyprus-pay-as-you-throw-infrastructure-delay-2026-11-22",
-          "cyprus-greek-fdi-stock-2025"
+          "bahrain-industrial-strike-2026-11-21",
+          "dymer-drone-strike-2026-11-22",
+          "mammari-water-tanks-2026-11-22"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-22T05:47:16.060847+00:00",
-  "updated_at": "2026-11-22T05:47:16.060847+00:00",
-  "input_sha256": "aeaba8afd3bf116aeaa429a3846cd2265a2088acf273bb51fe639dfd08f59cf3"
+  "updated_at": "2026-11-22T11:41:23.141948+00:00",
+  "input_sha256": "ea3040297db7cf13ad8c07ac2630ebce57591aaab24c8dd07dfa60654e8c2e54"
 }
