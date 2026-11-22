@@ -1,0 +1,662 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-22",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-11-22.html",
+  "editions": [
+    {
+      "id": "2026-11-22-morning",
+      "type": "morning",
+      "url": "morning/2026-11-22.html",
+      "published_at": "2026-11-22T05:45:01.166646+00:00"
+    }
+  ],
+  "missing_slots": [
+    "midday",
+    "evening"
+  ],
+  "lead_story_id": "gaza-housing-loss-strikes-reports-2026-11-22",
+  "stories": [
+    {
+      "story_id": "gaza-housing-loss-strikes-reports-2026-11-22",
+      "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-morning",
+          "article_id": "gaza-housing-strikes",
+          "source_story_id": "gaza-housing-loss-strikes-reports-2026-11-22",
+          "url": "articles/2026-11-22-morning/gaza-housing-strikes.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "gaza-housing-strikes",
+        "source_story_id": "gaza-housing-loss-strikes-reports-2026-11-22",
+        "url": "articles/2026-11-22-morning/gaza-housing-strikes.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "victoria-yallourn-2028-electricity-gap-warning-2026-11-22",
+      "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-morning",
+          "article_id": "victoria-power-gap",
+          "source_story_id": "victoria-yallourn-2028-electricity-gap-warning-2026-11-22",
+          "url": "articles/2026-11-22-morning/victoria-power-gap.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "victoria-power-gap",
+        "source_story_id": "victoria-yallourn-2028-electricity-gap-warning-2026-11-22",
+        "url": "articles/2026-11-22-morning/victoria-power-gap.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "fbi-criminal-database-apparent-breach-report-2026-11-22",
+      "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-morning",
+          "article_id": "fbi-database-report",
+          "source_story_id": "fbi-criminal-database-apparent-breach-report-2026-11-22",
+          "url": "articles/2026-11-22-morning/fbi-database-report.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "fbi-database-report",
+        "source_story_id": "fbi-criminal-database-apparent-breach-report-2026-11-22",
+        "url": "articles/2026-11-22-morning/fbi-database-report.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
+      "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-morning",
+          "article_id": "nvidia-friday-close",
+          "source_story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
+          "url": "articles/2026-11-22-morning/nvidia-friday-close.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "nvidia-friday-close",
+        "source_story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
+        "url": "articles/2026-11-22-morning/nvidia-friday-close.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "devon-communities-energy-advice-winter-2026-11-21",
+      "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-morning",
+          "article_id": "devon-energy-advice",
+          "source_story_id": "devon-communities-energy-advice-winter-2026-11-21",
+          "url": "articles/2026-11-22-morning/devon-energy-advice.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "devon-energy-advice",
+        "source_story_id": "devon-communities-energy-advice-winter-2026-11-21",
+        "url": "articles/2026-11-22-morning/devon-energy-advice.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-pay-as-you-throw-infrastructure-delay-2026-11-22",
+      "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-morning",
+          "article_id": "waste-implementation-gap",
+          "source_story_id": "cyprus-pay-as-you-throw-infrastructure-delay-2026-11-22",
+          "url": "articles/2026-11-22-morning/waste-implementation-gap.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "waste-implementation-gap",
+        "source_story_id": "cyprus-pay-as-you-throw-infrastructure-delay-2026-11-22",
+        "url": "articles/2026-11-22-morning/waste-implementation-gap.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "cyprus-greek-fdi-stock-2025",
+      "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-morning",
+          "article_id": "greek-investment-stock",
+          "source_story_id": "cyprus-greek-fdi-stock-2025",
+          "url": "articles/2026-11-22-morning/greek-investment-stock.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "greek-investment-stock",
+        "source_story_id": "cyprus-greek-fdi-stock-2025",
+        "url": "articles/2026-11-22-morning/greek-investment-stock.html"
+      },
+      "section": "cyprus",
+      "priority": 7
+    },
+    {
+      "story_id": "cyprus-eu-malicious-ai-action-presidential-2028-2026-11-22",
+      "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-morning",
+          "article_id": "deepfake-election-policy",
+          "source_story_id": "cyprus-eu-malicious-ai-action-presidential-2028-2026-11-22",
+          "url": "articles/2026-11-22-morning/deepfake-election-policy.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "deepfake-election-policy",
+        "source_story_id": "cyprus-eu-malicious-ai-action-presidential-2028-2026-11-22",
+        "url": "articles/2026-11-22-morning/deepfake-election-policy.html"
+      },
+      "section": "cyprus",
+      "priority": 8
+    },
+    {
+      "story_id": "cyprus-penal-code-comprehensive-revision-debate-2026-11-22",
+      "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-morning",
+          "article_id": "penal-code-revision-debate",
+          "source_story_id": "cyprus-penal-code-comprehensive-revision-debate-2026-11-22",
+          "url": "articles/2026-11-22-morning/penal-code-revision-debate.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "penal-code-revision-debate",
+        "source_story_id": "cyprus-penal-code-comprehensive-revision-debate-2026-11-22",
+        "url": "articles/2026-11-22-morning/penal-code-revision-debate.html"
+      },
+      "section": "cyprus",
+      "priority": 9
+    },
+    {
+      "story_id": "limassol-domestic-worker-rape-allegation-remand-2026-11-21",
+      "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-morning",
+          "article_id": "limassol-remand-investigation",
+          "source_story_id": "limassol-domestic-worker-rape-allegation-remand-2026-11-21",
+          "url": "articles/2026-11-22-morning/limassol-remand-investigation.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "limassol-remand-investigation",
+        "source_story_id": "limassol-domestic-worker-rape-allegation-remand-2026-11-21",
+        "url": "articles/2026-11-22-morning/limassol-remand-investigation.html"
+      },
+      "section": "cyprus",
+      "priority": 10
+    },
+    {
+      "story_id": "bournemouth-nottingham-forest-evanilson-sixth-2026-11-21",
+      "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-morning",
+          "article_id": "bournemouth-forest",
+          "source_story_id": "bournemouth-nottingham-forest-evanilson-sixth-2026-11-21",
+          "url": "articles/2026-11-22-morning/bournemouth-forest.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "bournemouth-forest",
+        "source_story_id": "bournemouth-nottingham-forest-evanilson-sixth-2026-11-21",
+        "url": "articles/2026-11-22-morning/bournemouth-forest.html"
+      },
+      "section": "sports",
+      "priority": 11
+    },
+    {
+      "story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
+      "first_seen_at": "2026-11-22T05:45:01.166646+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-22-morning",
+          "article_id": "france-argentina-rugby",
+          "source_story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
+          "url": "articles/2026-11-22-morning/france-argentina-rugby.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "france-argentina-rugby",
+        "source_story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
+        "url": "articles/2026-11-22-morning/france-argentina-rugby.html"
+      },
+      "section": "sports",
+      "priority": 12
+    }
+  ],
+  "updates": [
+    {
+      "id": "03df4ef65b7e3d2d30cf7a868c5b224f47b8b3cf6a335c5d9ad28d2ca0ab7942",
+      "kind": "provenance",
+      "at": "2026-11-22T05:45:01.166646+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "bournemouth-nottingham-forest-evanilson-sixth-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "bournemouth-forest",
+        "source_story_id": "bournemouth-nottingham-forest-evanilson-sixth-2026-11-21",
+        "url": "articles/2026-11-22-morning/bournemouth-forest.html"
+      }
+    },
+    {
+      "id": "1f0818701cb853e007c9a7a42d58582df8e8e32763cbc19a00554f0c4e16eba3",
+      "kind": "provenance",
+      "at": "2026-11-22T05:45:01.166646+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "gaza-housing-loss-strikes-reports-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "gaza-housing-strikes",
+        "source_story_id": "gaza-housing-loss-strikes-reports-2026-11-22",
+        "url": "articles/2026-11-22-morning/gaza-housing-strikes.html"
+      }
+    },
+    {
+      "id": "3f782222de74c5e49da13582266569bc582301fee4a08957db2da187ea884f67",
+      "kind": "provenance",
+      "at": "2026-11-22T05:45:01.166646+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "devon-communities-energy-advice-winter-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "devon-energy-advice",
+        "source_story_id": "devon-communities-energy-advice-winter-2026-11-21",
+        "url": "articles/2026-11-22-morning/devon-energy-advice.html"
+      }
+    },
+    {
+      "id": "47e447dacc720ebcadea068ce8a08feac955b047d4139b37213d135d994c3694",
+      "kind": "provenance",
+      "at": "2026-11-22T05:45:01.166646+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-eu-malicious-ai-action-presidential-2028-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "deepfake-election-policy",
+        "source_story_id": "cyprus-eu-malicious-ai-action-presidential-2028-2026-11-22",
+        "url": "articles/2026-11-22-morning/deepfake-election-policy.html"
+      }
+    },
+    {
+      "id": "5421366335616817bc67e18488cc27782f514a778efd1d8cee9cd60cb4059871",
+      "kind": "provenance",
+      "at": "2026-11-22T05:45:01.166646+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "france-argentina-rugby",
+        "source_story_id": "france-argentina-nations-championship-semifinal-2026-11-21",
+        "url": "articles/2026-11-22-morning/france-argentina-rugby.html"
+      }
+    },
+    {
+      "id": "65608e24a7a7a5d3bc0545d133567e5afdd38da10169d67ea730e981c29d7ef3",
+      "kind": "provenance",
+      "at": "2026-11-22T05:45:01.166646+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "limassol-domestic-worker-rape-allegation-remand-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "limassol-remand-investigation",
+        "source_story_id": "limassol-domestic-worker-rape-allegation-remand-2026-11-21",
+        "url": "articles/2026-11-22-morning/limassol-remand-investigation.html"
+      }
+    },
+    {
+      "id": "7c7757fd65fb3b8607ee9b72d7479ac586f6c17ab90356dc1aff366ed3269239",
+      "kind": "provenance",
+      "at": "2026-11-22T05:45:01.166646+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "victoria-yallourn-2028-electricity-gap-warning-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "victoria-power-gap",
+        "source_story_id": "victoria-yallourn-2028-electricity-gap-warning-2026-11-22",
+        "url": "articles/2026-11-22-morning/victoria-power-gap.html"
+      }
+    },
+    {
+      "id": "81996e597688e204538fd6a66f88af8a7c28af3bb677e06f6a7fb0de27d0552b",
+      "kind": "provenance",
+      "at": "2026-11-22T05:45:01.166646+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "nvidia-friday-close",
+        "source_story_id": "nvidia-seven-week-losing-streak-close-2026-11-20",
+        "url": "articles/2026-11-22-morning/nvidia-friday-close.html"
+      }
+    },
+    {
+      "id": "94987e0fc0e4f69f88ea80dfc64da0959623ded08a89a60027f48c58895d77af",
+      "kind": "provenance",
+      "at": "2026-11-22T05:45:01.166646+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-penal-code-comprehensive-revision-debate-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "penal-code-revision-debate",
+        "source_story_id": "cyprus-penal-code-comprehensive-revision-debate-2026-11-22",
+        "url": "articles/2026-11-22-morning/penal-code-revision-debate.html"
+      }
+    },
+    {
+      "id": "9fbf252e335fafad9fc77066ebde1ddee359b74349eea7ac37e51b9228a1dd19",
+      "kind": "provenance",
+      "at": "2026-11-22T05:45:01.166646+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-pay-as-you-throw-infrastructure-delay-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "waste-implementation-gap",
+        "source_story_id": "cyprus-pay-as-you-throw-infrastructure-delay-2026-11-22",
+        "url": "articles/2026-11-22-morning/waste-implementation-gap.html"
+      }
+    },
+    {
+      "id": "bbbc6770185dc642fc94cb988562c3083794c7a4c6705ae101cedc5515c04f01",
+      "kind": "provenance",
+      "at": "2026-11-22T05:45:01.166646+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "fbi-criminal-database-apparent-breach-report-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "fbi-database-report",
+        "source_story_id": "fbi-criminal-database-apparent-breach-report-2026-11-22",
+        "url": "articles/2026-11-22-morning/fbi-database-report.html"
+      }
+    },
+    {
+      "id": "e1e08ef7004ca531600969e785e049bcd253ec247c7e86a9a6f74ac6a8cd1c05",
+      "kind": "provenance",
+      "at": "2026-11-22T05:45:01.166646+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-greek-fdi-stock-2025",
+      "origin": {
+        "edition_id": "2026-11-22-morning",
+        "article_id": "greek-investment-stock",
+        "source_story_id": "cyprus-greek-fdi-stock-2025",
+        "url": "articles/2026-11-22-morning/greek-investment-stock.html"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "action": "Δες την επίσημη ανακοίνωση ως ιστορικό πλαίσιο. Αναμένουμε επαληθευμένη νέα προκήρυξη πριν εμφανίσουμε ενεργή αίτηση.",
+      "application_kind": "instructions",
+      "application_url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+      "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση.",
+      "deadline": "2024-07-31T23:59:00+03:00",
+      "deadline_note": "Ιστορική προθεσμία της 2ης πρόσκλησης, όχι ημερομηνία νέας αίτησης. Νέα ενεργή πρόσκληση δεν επιβεβαιώθηκε στον παρόντα έλεγχο.",
+      "deadline_type": "fixed",
+      "eligibility": "Η προκήρυξη του 2024 όριζε νέους 18–29, άνδρες 30–50 και γυναίκες 30–55. Νέα πρόσκληση μπορεί να αλλάξει τους όρους· δεν έχει κριθεί προσωπική επιλεξιμότητα.",
+      "id": "cy-new-entrepreneurship-2024-call2",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-23T04:30:48.639313+00:00",
+          "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "retrieved_at": "2026-10-15T16:39:24.850175+00:00",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Ιστορική πρόσκληση του 2024 που έχει λήξει. Παραμένει μόνο στην παρακολούθηση για τυχόν νέα επίσημη προκήρυξη, όχι στις ενεργές αιτήσεις.",
+      "support": "Παλιοί όροι: 70% επιλέξιμης δαπάνης για 18–29, 60% για τις άλλες ομάδες, με μέγιστο επιλέξιμο προϋπολογισμό €120.000.",
+      "title": "Νέα Επιχειρηματική Δραστηριότητα · παλιά 2η προκήρυξη",
+      "verified_at": "2026-10-23T07:36:00+03:00"
+    },
+    {
+      "action": "Αν έχεις GO, προετοίμασε πλήρη πρόταση. Διαφορετικά ξεκίνα τη σύντομη αίτηση χωρίς να θεωρείς εξασφαλισμένη συμμετοχή στον γύρο Νοεμβρίου.",
+      "application_kind": "form",
+      "application_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+      "change_note": "Επανελέγχθηκε η επίσημη σελίδα EIC: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ., επενδυτικό σκέλος €1–10 εκατ. και επόμενη πλήρης πρόταση στις 4/11, 17:00 Βρυξελλών, μόνο μετά από GO.",
+      "deadline": "2026-11-04T18:00:00+02:00",
+      "deadline_note": "4/11 στις 17:00 Βρυξελλών = 18:00 Κύπρου. Αφορά πλήρη πρόταση μετά το GO. Οι σύντομες προτάσεις υποβάλλονται συνεχώς· αξιολόγηση συνήθως 4–6 εβδομάδες.",
+      "deadline_type": "fixed",
+      "eligibility": "Μία startup/ΜμΕ στην ΕΕ ή συνδεδεμένη χώρα, με καινοτομία TRL 6–8. Για πλήρη πρόταση προηγείται θετική αξιολόγηση (GO) της σύντομης πρότασης ή επιλέξιμη ειδική διαδρομή.",
+      "id": "eu-eic-accelerator-2026",
+      "jurisdiction": "ΕΕ · περιλαμβάνει την Κύπρο",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Innovation Council",
+          "reporting_group": "European Innovation Council",
+          "retrieved_at": "2026-10-24T13:43:13+03:00",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Στήριξη νεοφυών και μικρομεσαίων επιχειρήσεων με ανατρεπτική καινοτομία σε στάδιο ανάπτυξης και κλιμάκωσης. Δεν είναι γενική επιδότηση ίδρυσης επιχείρησης.",
+      "support": "Επιχορήγηση κάτω από €2,5 εκατ.· χωριστά επενδυτικό σκέλος €1–10 εκατ., που δεν αποτελεί επιχορήγηση.",
+      "title": "EIC Accelerator: επόμενη πλήρης πρόταση 4 Νοεμβρίου",
+      "verified_at": "2026-10-24T13:43:13+03:00"
+    },
+    {
+      "action": "Μην υποβάλεις νέα αίτηση. Παρακολούθησε μόνο επίσημη επαναπροκήρυξη ή ανακοίνωση για επιλαχόντες.",
+      "application_kind": "none",
+      "application_url": null,
+      "change_note": "Το ΥΕΕΒ ανακοίνωσε ολοκλήρωση υποβολής προτάσεων λόγω υπερκάλυψης προϋπολογισμού. Η προηγούμενη ένδειξη ανοικτής πρόσκλησης διορθώθηκε.",
+      "deadline": null,
+      "deadline_note": "Η υποβολή ολοκληρώθηκε στις 21/10 λόγω υπερκάλυψης του διαθέσιμου προϋπολογισμού.",
+      "deadline_type": "unknown",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "id": "cy-home-energy-2026",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "kind": "grant",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": "2026-10-21",
+          "publisher": "ΥΕΕΒ",
+          "reporting_group": "ΥΕΕΒ",
+          "retrieved_at": "2026-10-23T10:33:45.530855+00:00",
+          "url": "https://www.industry.gov.cy",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "verified_at": "2026-10-23T13:33:46+03:00"
+    },
+    {
+      "action": "Έλεγξε τα όρια και τη διαδικασία προηγούμενης κοινοποίησης στο κράτος εγκατάστασης. Ο σύνδεσμος δίνει οδηγίες, όχι κυπριακό έντυπο.",
+      "application_kind": "instructions",
+      "application_url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+      "change_note": "Επανελέγχθηκαν στις 24/10 η επίσημη ευρωπαϊκή σελίδα και η διαδικασία διασυνοριακής απαλλαγής. Το καθεστώς παραμένει προαιρετικό και ανοικτό, με ενωσιακό όριο €100.000 και προηγούμενη κοινοποίηση.",
+      "deadline": null,
+      "deadline_note": "Δεν πρόκειται για γύρο χορηγιών. Η απαλλαγή ξεκινά μετά την έγκριση/επιβεβαίωση EX· ισχύουν ξεχωριστές υποχρεώσεις τριμηνιαίας αναφοράς.",
+      "deadline_type": "rolling",
+      "eligibility": "Επιχείρηση εγκατεστημένη στην ΕΕ: ενωσιακός τζίρος έως €100.000 στο τρέχον και προηγούμενο έτος, καθώς και το εθνικό/κλαδικό όριο κάθε χώρας απαλλαγής.",
+      "id": "eu-cross-border-sme-vat",
+      "jurisdiction": "ΕΕ / Κύπρος · διασυνοριακές πωλήσεις",
+      "kind": "legal_right",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · DG TAXUD",
+          "reporting_group": "European Commission · DG TAXUD",
+          "retrieved_at": "2026-10-24T07:33:51+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · SME VAT",
+          "reporting_group": "European Commission · SME VAT",
+          "retrieved_at": "2026-10-24T07:33:47+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/index_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-24T07:33:52+03:00",
+          "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Το ευρωπαϊκό καθεστώς μικρών επιχειρήσεων επιτρέπει απαλλαγή ΦΠΑ σε επιλέξιμες διασυνοριακές πωλήσεις. Απαιτεί προηγούμενη κοινοποίηση· δεν εφαρμόζεται αυτόματα.",
+      "support": "Πιθανή απλούστευση υποχρεώσεων ΦΠΑ, με απώλεια δικαιώματος έκπτωσης ΦΠΑ για τις απαλλασσόμενες πράξεις. Αξιολόγησε το καθαρό όφελος πριν επιλέξεις.",
+      "title": "Προαιρετική απαλλαγή ΦΠΑ για μικρές επιχειρήσεις",
+      "verified_at": "2026-10-24T07:44:30+03:00"
+    },
+    {
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
+      "application_kind": "form",
+      "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "change_note": "Επανελέγχθηκαν η επίσημη δυνατότητα αίτησης, τα κριτήρια και η FAQ προθεσμίας στις 24/10. Η εγγραφή παραμένει ανοικτή χωρίς καταληκτική ημερομηνία· δεν υπονοείται προσωπική επιλεξιμότητα.",
+      "deadline": null,
+      "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
+      "deadline_type": "rolling",
+      "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
+      "id": "eu-erasmus-new-entrepreneurs",
+      "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
+      "kind": "benefit",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs · FAQ",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
+      "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
+      "title": "Erasmus for Young Entrepreneurs",
+      "verified_at": "2026-10-24T07:43:00+03:00"
+    }
+  ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Η καθυστέρηση του «Πληρώνω Όσο Πετώ» δείχνει την απόσταση ανάμεσα σε χρηματοδοτική έγκριση και λειτουργικό σύστημα. Για δήμους και νοικοκυριά, το κρίσιμο τεστ είναι υποδομές και εφαρμόσιμο χρονοδιάγραμμα. Η αύξηση της ελληνικής επενδυτικής παρουσίας αφορά απόθεμα του 2025· δεν ισοδυναμεί με αντίστοιχη εισροή νέων χρημάτων μέσα σε ένα έτος. Η Κεντρική Τράπεζα διακρίνει ρητά θέσεις από συναλλαγές και δημοσιεύει προσαρμοσμένες σειρές για οντότητες ειδικού σκοπού. Στα διεθνή, οι αναφορές απωλειών και έλλειψης στέγης στη Γάζα απαιτούν διασταύρωση και ανθρωπιστική παρακολούθηση, ενώ η έρευνα για φερόμενη παραβίαση βάσης του FBI παραμένει δημοσιογραφική αναφορά με αδιευκρίνιστη έκταση.",
+        "story_ids": [
+          "cyprus-pay-as-you-throw-infrastructure-delay-2026-11-22",
+          "cyprus-greek-fdi-stock-2025"
+        ]
+      }
+    ]
+  },
+  "follow_ups": [],
+  "created_at": "2026-11-22T05:47:16.060847+00:00",
+  "updated_at": "2026-11-22T05:47:16.060847+00:00",
+  "input_sha256": "aeaba8afd3bf116aeaa429a3846cd2265a2088acf273bb51fe639dfd08f59cf3"
+}
