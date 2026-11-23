@@ -891,6 +891,14 @@
       "fingerprint": "dd7d08543b13466573631869e3319be6c4cb9e3ff3c510a8bdf8e801e45d8bf5"
     },
     {
+      "id": "2026-11-23-midday",
+      "date": "2026-11-23",
+      "type": "midday",
+      "published_at": "2026-11-23T11:35:27.918824+00:00",
+      "url": "midday/2026-11-23.html",
+      "fingerprint": "3f89867ff36d8c62060644e7bac4edcb763567a7e1ea703473e9e12fdd9f4412"
+    },
+    {
       "id": "2026-11-23-morning",
       "date": "2026-11-23",
       "type": "morning",
@@ -34425,6 +34433,346 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/eb5095e4cdb0c20f72c0a302a3678c91001ab74a447234e5d3e797e6eadcea1a.webp"
+    },
+    {
+      "story_id": "merkury-claim-2026-11-23",
+      "identity": "merkury-claim-2026-11-23",
+      "edition_id": "2026-11-23-midday",
+      "date": "2026-11-23",
+      "slot": "midday",
+      "published_at": "2026-11-23T11:35:27.918824+00:00",
+      "available_at": "2026-11-23T11:35:27.918824+00:00",
+      "headline": "Ζελένσκι: ισχυρισμός βύθισης της Merkury στη Λιβύη",
+      "finding": "Ο Βολοντίμιρ Ζελένσκι ανέλαβε ευθύνη για βύθιση της ρωσικής κορβέτας Merkury σε λιβυκή ναυτική βάση την Κυριακή, με επτά ναυτικά drones, σύμφωνα με Guardian και Cyprus Mail. Οι δύο αναφορές βασίζονται στη δήλωσή του, όχι σε ανεξάρτητες επιβεβαιώσεις. Το Cyprus Mail σημειώνει ότι το ρωσικό υπουργείο Άμυνας δεν σχολίασε άμεσα.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-23-midday/libya-warship-claim.json",
+      "reader_url": "articles/2026-11-23-midday/libya-warship-claim.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-23T09:59:14+00:00",
+          "retrieved_at": "2026-11-23T10:21:19.739041+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://cyprus-mail.com/2026/11/23/russian-warship-hit-in-suspected-drone-attack-at-libyan-naval-base",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-23T09:28:00+00:00",
+          "retrieved_at": "2026-11-23T10:21:19.537681+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/286463a51338e24978d7840cd42acb22a3ff3fcddfa6cf44754f24cd7bbb4e82.webp"
+    },
+    {
+      "story_id": "wang-ai-warning-2026-11-23",
+      "identity": "wang-ai-warning-2026-11-23",
+      "edition_id": "2026-11-23-midday",
+      "date": "2026-11-23",
+      "slot": "midday",
+      "published_at": "2026-11-23T11:35:27.918824+00:00",
+      "available_at": "2026-11-23T11:35:27.918824+00:00",
+      "headline": "Wang: προειδοποίηση για τον έλεγχο της AI",
+      "finding": "Ο Wang της Meta προειδοποιεί για απώλεια ελέγχου συστημάτων που αυτοβελτιώνονται, αναφέρει το Al Jazeera. Επικαλείται ισχυρισμό απόδειξης της υπόθεσης Riemann με Claude. Το Ctech σημειώνει ότι δεν έχει γίνει αποδεκτός ως οριστικό μαθηματικό αποτέλεσμα.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-23-midday/wang-ai-warning.json",
+      "reader_url": "articles/2026-11-23-midday/wang-ai-warning.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/economy/2026/11/23/ai-superintelligence-arriving-warns-top-meta-executive?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-23T09:08:07+00:00",
+          "retrieved_at": "2026-11-23T10:21:18.648391+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.calcalistech.com/ctechnews/article/hked2tbjqx",
+          "publisher": "Ctech",
+          "reporting_group": "Ctech",
+          "published_at": null,
+          "retrieved_at": "2026-11-23T11:29:58.083Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/66ba41cfd158bc1ab770e856e159f774a3d911202974f9c8bf21b952e575e999.webp"
+    },
+    {
+      "story_id": "ai-premarket-2026-11-23",
+      "identity": "ai-premarket-2026-11-23",
+      "edition_id": "2026-11-23-midday",
+      "date": "2026-11-23",
+      "slot": "midday",
+      "published_at": "2026-11-23T11:35:27.918824+00:00",
+      "available_at": "2026-11-23T11:35:27.918824+00:00",
+      "headline": "CNBC: προχρηματιστηριακή ανάκαμψη μετοχών AI",
+      "finding": "Το CNBC αναφέρει προχρηματιστηριακή άνοδο Anthropic και NVIDIA τη Δευτέρα μετά τις προηγούμενες απώλειες, με θετικές κινήσεις και σε Alphabet, Meta, Amazon και Microsoft. Δεν πρόκειται για αποτέλεσμα της κανονικής συνεδρίασης ή νέα τιμή κλεισίματος.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-23-midday/ai-premarket.json",
+      "reader_url": "articles/2026-11-23-midday/ai-premarket.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-23T09:17:42+00:00",
+          "retrieved_at": "2026-11-23T10:21:18.942315+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c0c95f9eda38c3478488800e51d6933146b0eee2c75e16c9ce6c4ae0ce1cd008.webp"
+    },
+    {
+      "story_id": "cyprus-eu-audit-2026-11-23",
+      "identity": "cyprus-eu-audit-2026-11-23",
+      "edition_id": "2026-11-23-midday",
+      "date": "2026-11-23",
+      "slot": "midday",
+      "published_at": "2026-11-23T11:35:27.918824+00:00",
+      "available_at": "2026-11-23T11:35:27.918824+00:00",
+      "headline": "Έκθεση ΕΕ: αναφορά σε καθαρό όφελος €430,8 εκατ.",
+      "finding": "Ο Πρόεδρος παρέλαβε την ετήσια έκθεση του Ευρωπαϊκού Ελεγκτικού Συνεδρίου για τις δαπάνες και τα έσοδα της ΕΕ το 2025, αναφέρει το SigmaLive. Ο Λευτέρης Χριστοφόρου μίλησε για €430,8 εκατ. μετά την αφαίρεση των κυπριακών συνεισφορών. Το απόσπασμα δεν παρέχει κατανομή ανά πρόγραμμα ή χρονοδιάγραμμα νέων πληρωμών.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-23-midday/eu-audit-balance.json",
+      "reader_url": "articles/2026-11-23-midday/eu-audit-balance.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1338756/eur35-dis-stin-kypro-apo-ton-neo-efropaiko-proypologhismo",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-23T09:44:46+00:00",
+          "retrieved_at": "2026-11-23T10:21:19.822940+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7760990e865738a070d137fefad7f7dd1a2a50a8b67e3a9cee7cede2214c6db5.webp"
+    },
+    {
+      "story_id": "kakopetria-forensic-response-2026-11-23",
+      "identity": "kakopetria-forensic-response-2026-11-23",
+      "edition_id": "2026-11-23-midday",
+      "date": "2026-11-23",
+      "slot": "midday",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T11:35:27.918824+00:00",
+      "headline": "Κακοπετριά: η διευθύντρια αναφέρει προηγούμενες προειδοποιήσεις",
+      "finding": "Η διευθύντρια του Λυκείου Αγίου Σπυρίδωνα δήλωσε στο ΡΙΚ ότι είχε προειδοποιήσει γονείς στις 11 και 19 Νοεμβρίου και την Αστυνομία για την εκδρομή στην Κακοπετριά, μεταδίδει το Cyprus Mail. Κατά την ίδια, σχολείο, εκπαιδευτικοί και σύνδεσμος γονέων δεν την οργάνωσαν.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-23-midday/kakopetria-school.json",
+      "reader_url": "articles/2026-11-23-midday/kakopetria-school.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/23/headteacher-says-she-warned-police-ahead-of-trip-in-which-teen-died",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-23T08:57:09+00:00",
+          "retrieved_at": "2026-11-23T10:21:19.408902+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/2026-10-11-evening/cyprus-5.webp"
+    },
+    {
+      "story_id": "cyprus-india-maritime-2026-11-23",
+      "identity": "cyprus-india-maritime-2026-11-23",
+      "edition_id": "2026-11-23-midday",
+      "date": "2026-11-23",
+      "slot": "midday",
+      "published_at": "2026-11-23T11:35:27.918824+00:00",
+      "available_at": "2026-11-23T11:35:27.918824+00:00",
+      "headline": "Κυπριακή ναυτιλιακή αποστολή στη Βομβάη",
+      "finding": "Η Υφυπουργός Ναυτιλίας Μαρίνα Χατζημανώλη παρέθεσε δείπνο για συμμετέχοντες στο Cyprus–India Maritime Business Forum στη Βομβάη, αναφέρει το Cyprus Mail. Τη συνοδεύουν ο πρόεδρος του ΚΕΒΕ και επιχειρηματική αποστολή. Δεν ανακοινώνεται εμπορική συμφωνία στο απόσπασμα.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-23-midday/india-maritime.json",
+      "reader_url": "articles/2026-11-23-midday/india-maritime.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/23/cyprus-maritime-delegation-opens-india-visit-with-business-networking-in-mumbai",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-23T10:15:56+00:00",
+          "retrieved_at": "2026-11-23T10:21:23.489528+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/22462f03f286c4b82253452db4620acfefe3c0526086ce53bd82655976166ce3.webp"
+    },
+    {
+      "story_id": "fury-disclosure-2026-11-23",
+      "identity": "fury-disclosure-2026-11-23",
+      "edition_id": "2026-11-23-midday",
+      "date": "2026-11-23",
+      "slot": "midday",
+      "published_at": "2026-11-23T11:35:27.918824+00:00",
+      "available_at": "2026-11-23T11:35:27.918824+00:00",
+      "headline": "Φιούρι: δημόσια αναφορά σε διάγνωση σχιζοφρένειας",
+      "finding": "Ο Tyson Fury δηλώνει ότι διαγνώστηκε με σχιζοφρένεια μετά τον τίτλο του 2015, αναφέρει το BBC. Σε ντοκιμαντέρ που κυκλοφορεί την Παρασκευή, ο ίδιος και η Paris περιγράφουν νοσηλεία τον Ιούνιο 2016.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-23-midday/fury-disclosure.json",
+      "reader_url": "articles/2026-11-23-midday/fury-disclosure.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/boxing/articles/c6y80n3dn15yo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-23T09:53:52+00:00",
+          "retrieved_at": "2026-11-23T10:21:18.719654+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ee84451a4c8efa2a304b1ce34df7e7eb1688fe5e3d5250f1ceb71694c7315abf.webp"
+    },
+    {
+      "story_id": "dymer-drone-strike-2026-11-22",
+      "identity": "dymer-drone-strike-2026-11-22",
+      "edition_id": "2026-11-23-midday",
+      "date": "2026-11-23",
+      "slot": "midday",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T11:35:27.918824+00:00",
+      "headline": "Ντίμερ: διασώσεις παιδιού και ηλικιωμένης μετά το πλήγμα της Κυριακής",
+      "finding": "Επτάχρονο αγόρι ανασύρθηκε ζωντανό ύστερα από 14 ώρες από πολυκατοικία στο Ντίμερ, αναφέρει το BBC επικαλούμενο Ουκρανούς αξιωματούχους. Οι αρχές αποδίδουν εννέα θανάτους στα ρωσικά πλήγματα στην περιοχή. Διασώθηκε επίσης 79χρονη, η οποία νοσηλεύεται. Το πλήγμα στο κτίριο έγινε στις 05:00 τοπική ώρα την Κυριακή 22 Νοεμβρίου, σύμφωνα με τον υπουργό Εσωτερικών.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-23-midday/dymer-rescue.json",
+      "reader_url": "articles/2026-11-23-midday/dymer-rescue.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-23T02:37:02+00:00",
+          "retrieved_at": "2026-11-23T04:21:16.480964+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5c35fc415f1d82a4fc59fcc2d651a11b4061c9b7a2a7535ebfeb58cd481086e1.webp"
+    },
+    {
+      "story_id": "uk-energy-household-options-2026-11-23",
+      "identity": "uk-energy-household-options-2026-11-23",
+      "edition_id": "2026-11-23-midday",
+      "date": "2026-11-23",
+      "slot": "midday",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T11:35:27.918824+00:00",
+      "headline": "Βρετανία: πρόβλεψη ενεργειακών αυξήσεων και επιλογές νοικοκυριών",
+      "finding": "Το BBC αναφέρει πρόβλεψη ανόδου ενεργειακών τιμών κατά 26% για εκατομμύρια βρετανικά νοικοκυριά τον Ιανουάριο και παρουσιάζει τρόπους περιορισμού κατανάλωσης. Η πληρωμή με πάγια εντολή περιγράφεται ως συνήθως φθηνότερη από το standard credit. Η αναφερόμενη ενίσχυση £100 αφορά στην Αγγλία κατοικίες των ζωνών δημοτικού φόρου A–D· αντίστοιχη εφαρμογή σε Σκωτία και Ουαλία αναμένεται.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-11-23-midday/uk-energy-costs.json",
+      "reader_url": "articles/2026-11-23-midday/uk-energy-costs.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-23T01:05:07+00:00",
+          "retrieved_at": "2026-11-23T04:21:16.442771+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/38a3d13815c7a00ae687b9620db7f8754acd0190297beedf0a9499db92ae0e30.webp"
+    },
+    {
+      "story_id": "aradippou-koshi-capacity-warning-2026-11-23",
+      "identity": "aradippou-koshi-capacity-warning-2026-11-23",
+      "edition_id": "2026-11-23-midday",
+      "date": "2026-11-23",
+      "slot": "midday",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T11:35:27.918824+00:00",
+      "headline": "Αραδίππου: προειδοποίηση για τα όρια της μονάδας Κόσιης",
+      "finding": "Ο δήμαρχος Αραδίππου Χριστόδουλος Πάρτου ζητεί ταχύτερες αποφάσεις για τα απορρίμματα, προειδοποιώντας ότι η μονάδα Κόσιης πλησιάζει στα όρια δυναμικότητάς της, αναφέρει το Cyprus Mail. Κατά τον ίδιο, λίγο κάτω από 60% των αποβλήτων καταλήγει σε ταφή. Εκτιμά ότι καλύτερη διαλογή σε Λάρνακα, Αμμόχωστο και Λευκωσία και τρίτη γραμμή διαλογής θα μπορούσαν να περιορίσουν το ποσοστό περίπου στο 40%.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-23-midday/koshi-waste.json",
+      "reader_url": "articles/2026-11-23-midday/koshi-waste.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/23/aradippou-mayor-calls-for-urgent-action-on-waste-management",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-23T02:24:00+00:00",
+          "retrieved_at": "2026-11-23T04:21:17.545590+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/79ac6c9cf8b90a8f57b904a07d85875be62da942edf6256f392dcf295c501060.webp"
+    },
+    {
+      "story_id": "coastline-cyprus-ai-research-2026-11-23",
+      "identity": "coastline-cyprus-ai-research-2026-11-23",
+      "edition_id": "2026-11-23-midday",
+      "date": "2026-11-23",
+      "slot": "midday",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T11:35:27.918824+00:00",
+      "headline": "COASTLINE: κυπριακός συντονισμός έρευνας για τις μεταβαλλόμενες ακτές",
+      "finding": "Το ευρωπαϊκά χρηματοδοτούμενο COASTLINE συνδυάζει δορυφορικές εικόνες, δεδομένα drones, επιτόπιες μετρήσεις και τεχνητή νοημοσύνη, αναφέρει το Cyprus Mail. Ερευνητές σε Κύπρο, Ελλάδα και Ιταλία εργάζονται σε πρόγραμμα που ξεκίνησε τον Ιανουάριο 2024 και ολοκληρώνεται στο τέλος του 2027. Στην Κύπρο αξιοποιούνται δημόσια δεδομένα για εκτίμηση κινδύνων σε παράκτιους αρχαιολογικούς χώρους.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-11-23-midday/coastline-ai.json",
+      "reader_url": "articles/2026-11-23-midday/coastline-ai.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/23/cyprus-led-research-project-uses-ai-to-track-europes-changing-coastlines",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-23T04:00:00+00:00",
+          "retrieved_at": "2026-11-23T04:21:17.016714+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5727df3bacb4fbb1ec8411e16663fb83074c2e2bcaca608ed374cba7d263b42f.webp"
+    },
+    {
+      "story_id": "psg-nice-doue-treatment-2026-11-21",
+      "identity": "psg-nice-doue-treatment-2026-11-21",
+      "edition_id": "2026-11-23-midday",
+      "date": "2026-11-23",
+      "slot": "midday",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T11:35:27.918824+00:00",
+      "headline": "Παρί: αποχώρηση Doué με φορείο στη νίκη επί της Νις",
+      "finding": "Στο δημοσίευμα του Guardian της 21ης Νοεμβρίου, ο Désiré Doué αποχώρησε με φορείο μετά από φροντίδα στο δεξί γόνατο στη νίκη 3–2 της Παρί επί της Νις. Είχε σκοράρει πριν από το περιστατικό.",
+      "section": "sports",
+      "priority": 12,
+      "article_path": "articles/2026-11-23-midday/psg-nice-doue.json",
+      "reader_url": "articles/2026-11-23-midday/psg-nice-doue.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/football/2026/nov/21/european-football-borussia-dortmund-psg-real-madrid",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-21T20:25:53+00:00",
+          "retrieved_at": "2026-11-23T04:21:17.467219+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/126388981849dd3db72ce263bdf4f3fad87bfe2530257c4838e938fbfaadd981.webp"
     },
     {
       "story_id": "belgium-atc-strike-2026-11-23",

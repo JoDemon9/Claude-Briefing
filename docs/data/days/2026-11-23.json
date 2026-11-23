@@ -10,13 +10,18 @@
       "type": "morning",
       "url": "morning/2026-11-23.html",
       "published_at": "2026-11-23T05:41:12.447708+00:00"
+    },
+    {
+      "id": "2026-11-23-midday",
+      "type": "midday",
+      "url": "midday/2026-11-23.html",
+      "published_at": "2026-11-23T11:35:27.918824+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "belgium-atc-strike-2026-11-23",
+  "lead_story_id": "merkury-claim-2026-11-23",
   "stories": [
     {
       "story_id": "belgium-atc-strike-2026-11-23",
@@ -40,6 +45,27 @@
       "priority": 1
     },
     {
+      "story_id": "merkury-claim-2026-11-23",
+      "first_seen_at": "2026-11-23T11:35:27.918824+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-midday",
+          "article_id": "libya-warship-claim",
+          "source_story_id": "merkury-claim-2026-11-23",
+          "url": "articles/2026-11-23-midday/libya-warship-claim.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "libya-warship-claim",
+        "source_story_id": "merkury-claim-2026-11-23",
+        "url": "articles/2026-11-23-midday/libya-warship-claim.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
       "story_id": "dymer-drone-strike-2026-11-22",
       "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
       "last_substantive_at": null,
@@ -49,16 +75,64 @@
           "article_id": "dymer-rescue",
           "source_story_id": "dymer-drone-strike-2026-11-22",
           "url": "articles/2026-11-23-morning/dymer-rescue.html"
+        },
+        {
+          "edition_id": "2026-11-23-midday",
+          "article_id": "dymer-rescue",
+          "source_story_id": "dymer-drone-strike-2026-11-22",
+          "url": "articles/2026-11-23-midday/dymer-rescue.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-23-morning",
+        "edition_id": "2026-11-23-midday",
         "article_id": "dymer-rescue",
         "source_story_id": "dymer-drone-strike-2026-11-22",
-        "url": "articles/2026-11-23-morning/dymer-rescue.html"
+        "url": "articles/2026-11-23-midday/dymer-rescue.html"
       },
       "section": "world",
       "priority": 2
+    },
+    {
+      "story_id": "wang-ai-warning-2026-11-23",
+      "first_seen_at": "2026-11-23T11:35:27.918824+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-midday",
+          "article_id": "wang-ai-warning",
+          "source_story_id": "wang-ai-warning-2026-11-23",
+          "url": "articles/2026-11-23-midday/wang-ai-warning.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "wang-ai-warning",
+        "source_story_id": "wang-ai-warning-2026-11-23",
+        "url": "articles/2026-11-23-midday/wang-ai-warning.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "ai-premarket-2026-11-23",
+      "first_seen_at": "2026-11-23T11:35:27.918824+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-midday",
+          "article_id": "ai-premarket",
+          "source_story_id": "ai-premarket-2026-11-23",
+          "url": "articles/2026-11-23-midday/ai-premarket.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "ai-premarket",
+        "source_story_id": "ai-premarket-2026-11-23",
+        "url": "articles/2026-11-23-midday/ai-premarket.html"
+      },
+      "section": "world",
+      "priority": 3
     },
     {
       "story_id": "manchester-coop-live-evacuation-2026-11-22",
@@ -82,6 +156,27 @@
       "priority": 3
     },
     {
+      "story_id": "cyprus-eu-audit-2026-11-23",
+      "first_seen_at": "2026-11-23T11:35:27.918824+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-midday",
+          "article_id": "eu-audit-balance",
+          "source_story_id": "cyprus-eu-audit-2026-11-23",
+          "url": "articles/2026-11-23-midday/eu-audit-balance.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "eu-audit-balance",
+        "source_story_id": "cyprus-eu-audit-2026-11-23",
+        "url": "articles/2026-11-23-midday/eu-audit-balance.html"
+      },
+      "section": "cyprus",
+      "priority": 4
+    },
+    {
       "story_id": "nvidia-kennedy-reaction-2026-11-22",
       "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
       "last_substantive_at": null,
@@ -103,27 +198,6 @@
       "priority": 4
     },
     {
-      "story_id": "uk-energy-household-options-2026-11-23",
-      "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-11-23-morning",
-          "article_id": "uk-energy-costs",
-          "source_story_id": "uk-energy-household-options-2026-11-23",
-          "url": "articles/2026-11-23-morning/uk-energy-costs.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-11-23-morning",
-        "article_id": "uk-energy-costs",
-        "source_story_id": "uk-energy-household-options-2026-11-23",
-        "url": "articles/2026-11-23-morning/uk-energy-costs.html"
-      },
-      "section": "world",
-      "priority": 5
-    },
-    {
       "story_id": "kakopetria-forensic-response-2026-11-23",
       "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
       "last_substantive_at": null,
@@ -133,13 +207,67 @@
           "article_id": "kakopetria-forensics",
           "source_story_id": "kakopetria-forensic-response-2026-11-23",
           "url": "articles/2026-11-23-morning/kakopetria-forensics.html"
+        },
+        {
+          "edition_id": "2026-11-23-midday",
+          "article_id": "kakopetria-school",
+          "source_story_id": "kakopetria-forensic-response-2026-11-23",
+          "url": "articles/2026-11-23-midday/kakopetria-school.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-23-morning",
-        "article_id": "kakopetria-forensics",
+        "edition_id": "2026-11-23-midday",
+        "article_id": "kakopetria-school",
         "source_story_id": "kakopetria-forensic-response-2026-11-23",
-        "url": "articles/2026-11-23-morning/kakopetria-forensics.html"
+        "url": "articles/2026-11-23-midday/kakopetria-school.html"
+      },
+      "section": "cyprus",
+      "priority": 5
+    },
+    {
+      "story_id": "uk-energy-household-options-2026-11-23",
+      "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-morning",
+          "article_id": "uk-energy-costs",
+          "source_story_id": "uk-energy-household-options-2026-11-23",
+          "url": "articles/2026-11-23-morning/uk-energy-costs.html"
+        },
+        {
+          "edition_id": "2026-11-23-midday",
+          "article_id": "uk-energy-costs",
+          "source_story_id": "uk-energy-household-options-2026-11-23",
+          "url": "articles/2026-11-23-midday/uk-energy-costs.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "uk-energy-costs",
+        "source_story_id": "uk-energy-household-options-2026-11-23",
+        "url": "articles/2026-11-23-midday/uk-energy-costs.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
+      "story_id": "cyprus-india-maritime-2026-11-23",
+      "first_seen_at": "2026-11-23T11:35:27.918824+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-midday",
+          "article_id": "india-maritime",
+          "source_story_id": "cyprus-india-maritime-2026-11-23",
+          "url": "articles/2026-11-23-midday/india-maritime.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "india-maritime",
+        "source_story_id": "cyprus-india-maritime-2026-11-23",
+        "url": "articles/2026-11-23-midday/india-maritime.html"
       },
       "section": "cyprus",
       "priority": 6
@@ -154,15 +282,42 @@
           "article_id": "koshi-waste",
           "source_story_id": "aradippou-koshi-capacity-warning-2026-11-23",
           "url": "articles/2026-11-23-morning/koshi-waste.html"
+        },
+        {
+          "edition_id": "2026-11-23-midday",
+          "article_id": "koshi-waste",
+          "source_story_id": "aradippou-koshi-capacity-warning-2026-11-23",
+          "url": "articles/2026-11-23-midday/koshi-waste.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-23-morning",
+        "edition_id": "2026-11-23-midday",
         "article_id": "koshi-waste",
         "source_story_id": "aradippou-koshi-capacity-warning-2026-11-23",
-        "url": "articles/2026-11-23-morning/koshi-waste.html"
+        "url": "articles/2026-11-23-midday/koshi-waste.html"
       },
       "section": "cyprus",
+      "priority": 7
+    },
+    {
+      "story_id": "fury-disclosure-2026-11-23",
+      "first_seen_at": "2026-11-23T11:35:27.918824+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-midday",
+          "article_id": "fury-disclosure",
+          "source_story_id": "fury-disclosure-2026-11-23",
+          "url": "articles/2026-11-23-midday/fury-disclosure.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "fury-disclosure",
+        "source_story_id": "fury-disclosure-2026-11-23",
+        "url": "articles/2026-11-23-midday/fury-disclosure.html"
+      },
+      "section": "sports",
       "priority": 7
     },
     {
@@ -175,13 +330,19 @@
           "article_id": "coastline-ai",
           "source_story_id": "coastline-cyprus-ai-research-2026-11-23",
           "url": "articles/2026-11-23-morning/coastline-ai.html"
+        },
+        {
+          "edition_id": "2026-11-23-midday",
+          "article_id": "coastline-ai",
+          "source_story_id": "coastline-cyprus-ai-research-2026-11-23",
+          "url": "articles/2026-11-23-midday/coastline-ai.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-23-morning",
+        "edition_id": "2026-11-23-midday",
         "article_id": "coastline-ai",
         "source_story_id": "coastline-cyprus-ai-research-2026-11-23",
-        "url": "articles/2026-11-23-morning/coastline-ai.html"
+        "url": "articles/2026-11-23-midday/coastline-ai.html"
       },
       "section": "cyprus",
       "priority": 8
@@ -259,13 +420,19 @@
           "article_id": "psg-nice-doue",
           "source_story_id": "psg-nice-doue-treatment-2026-11-21",
           "url": "articles/2026-11-23-morning/psg-nice-doue.html"
+        },
+        {
+          "edition_id": "2026-11-23-midday",
+          "article_id": "psg-nice-doue",
+          "source_story_id": "psg-nice-doue-treatment-2026-11-21",
+          "url": "articles/2026-11-23-midday/psg-nice-doue.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-23-morning",
+        "edition_id": "2026-11-23-midday",
         "article_id": "psg-nice-doue",
         "source_story_id": "psg-nice-doue-treatment-2026-11-21",
-        "url": "articles/2026-11-23-morning/psg-nice-doue.html"
+        "url": "articles/2026-11-23-midday/psg-nice-doue.html"
       },
       "section": "sports",
       "priority": 12
@@ -438,6 +605,174 @@
         "article_id": "manchester-evacuation",
         "source_story_id": "manchester-coop-live-evacuation-2026-11-22",
         "url": "articles/2026-11-23-morning/manchester-evacuation.html"
+      }
+    },
+    {
+      "id": "26109f7da12278bea2ce3ccc383e61af9361873c18199dfc5e274f807e336f16",
+      "kind": "provenance",
+      "at": "2026-11-23T11:35:27.918824+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-india-maritime-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "india-maritime",
+        "source_story_id": "cyprus-india-maritime-2026-11-23",
+        "url": "articles/2026-11-23-midday/india-maritime.html"
+      }
+    },
+    {
+      "id": "3184eb329dd43bbc8d4c53ed9d84d35927c89b518f2a28bca86abfe5edb48f3b",
+      "kind": "provenance",
+      "at": "2026-11-23T11:35:27.918824+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "coastline-cyprus-ai-research-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "coastline-ai",
+        "source_story_id": "coastline-cyprus-ai-research-2026-11-23",
+        "url": "articles/2026-11-23-midday/coastline-ai.html"
+      }
+    },
+    {
+      "id": "3c5ef44fd224fb2fb955d13b988031d47eb1e8d39caa3874d1a155b6ab7d13b6",
+      "kind": "provenance",
+      "at": "2026-11-23T11:35:27.918824+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "wang-ai-warning-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "wang-ai-warning",
+        "source_story_id": "wang-ai-warning-2026-11-23",
+        "url": "articles/2026-11-23-midday/wang-ai-warning.html"
+      }
+    },
+    {
+      "id": "3ce3e91778a35fe0008a34454913ca5f8e69fa39d5ecae242c0d61c5b62e7709",
+      "kind": "provenance",
+      "at": "2026-11-23T11:35:27.918824+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "fury-disclosure-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "fury-disclosure",
+        "source_story_id": "fury-disclosure-2026-11-23",
+        "url": "articles/2026-11-23-midday/fury-disclosure.html"
+      }
+    },
+    {
+      "id": "3eff318703a0ed7d534895ae3def7fd63a26f9b52788796ab1f629e4fc15cdf6",
+      "kind": "provenance",
+      "at": "2026-11-23T11:35:27.918824+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "aradippou-koshi-capacity-warning-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "koshi-waste",
+        "source_story_id": "aradippou-koshi-capacity-warning-2026-11-23",
+        "url": "articles/2026-11-23-midday/koshi-waste.html"
+      }
+    },
+    {
+      "id": "6303753fb1bc48cee5b61bff11ec70f2869081aee75b2dd0a3313475b58c8948",
+      "kind": "provenance",
+      "at": "2026-11-23T11:35:27.918824+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-energy-household-options-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "uk-energy-costs",
+        "source_story_id": "uk-energy-household-options-2026-11-23",
+        "url": "articles/2026-11-23-midday/uk-energy-costs.html"
+      }
+    },
+    {
+      "id": "7e4ffc00ee7de7cc0df2a15eb92a9b727733aed02bffb308873b32597dad158d",
+      "kind": "provenance",
+      "at": "2026-11-23T11:35:27.918824+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "psg-nice-doue-treatment-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "psg-nice-doue",
+        "source_story_id": "psg-nice-doue-treatment-2026-11-21",
+        "url": "articles/2026-11-23-midday/psg-nice-doue.html"
+      }
+    },
+    {
+      "id": "82fcfd9d570848645519a880fb5147061a8ca29e2fd3227c4e48793607ffdcfb",
+      "kind": "provenance",
+      "at": "2026-11-23T11:35:27.918824+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ai-premarket-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "ai-premarket",
+        "source_story_id": "ai-premarket-2026-11-23",
+        "url": "articles/2026-11-23-midday/ai-premarket.html"
+      }
+    },
+    {
+      "id": "a2d244edad1d16f98b89aa5070a8e1a0779f8daf0e17394c6dbe25c33604a6e1",
+      "kind": "provenance",
+      "at": "2026-11-23T11:35:27.918824+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "kakopetria-forensic-response-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "kakopetria-school",
+        "source_story_id": "kakopetria-forensic-response-2026-11-23",
+        "url": "articles/2026-11-23-midday/kakopetria-school.html"
+      }
+    },
+    {
+      "id": "d90805e34d830d779d06f03c55f2cf5bc2020ffdf6e528f4be5c2fc78c8b4d39",
+      "kind": "provenance",
+      "at": "2026-11-23T11:35:27.918824+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "merkury-claim-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "libya-warship-claim",
+        "source_story_id": "merkury-claim-2026-11-23",
+        "url": "articles/2026-11-23-midday/libya-warship-claim.html"
+      }
+    },
+    {
+      "id": "ead040d4e2efc8fe6391238217951d926c27fe994323a1e3111016740254f84d",
+      "kind": "provenance",
+      "at": "2026-11-23T11:35:27.918824+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "dymer-drone-strike-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "dymer-rescue",
+        "source_story_id": "dymer-drone-strike-2026-11-22",
+        "url": "articles/2026-11-23-midday/dymer-rescue.html"
+      }
+    },
+    {
+      "id": "f9be714c950af1648ed0d19558cbc194086196b21cdbd9f1ddb0e8fd624e141e",
+      "kind": "provenance",
+      "at": "2026-11-23T11:35:27.918824+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-eu-audit-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-midday",
+        "article_id": "eu-audit-balance",
+        "source_story_id": "cyprus-eu-audit-2026-11-23",
+        "url": "articles/2026-11-23-midday/eu-audit-balance.html"
       }
     }
   ],
@@ -647,17 +982,17 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η προγραμματισμένη αναστολή τακτικών υπηρεσιών ελέγχου εναέριας κυκλοφορίας στο Βέλγιο μετατρέπει την απεργία σε άμεσο πρόβλημα μετακίνησης. Για επιβάτες και εταιρείες, το τεστ είναι η επιβεβαίωση κάθε πτήσης και η επαναφορά υπηρεσιών, όχι η υπόθεση ότι όλος ο εναέριος χώρος λειτουργεί ενιαία. Στο Ντίμερ, ο νεότερος ουκρανικός απολογισμός και οι διασώσεις αφορούν το πλήγμα της Κυριακής, με τους αριθμούς αποδιδόμενους στις αρχές. Στην Κύπρο, η διαφωνία για ιατροδικαστική παρουσία στην Κακοπετριά αναδεικνύει ζήτημα υπηρεσιακής ανταπόκρισης. Η προγραμματισμένη νεκροτομή και η συνάντηση των υπουργείων είναι τα επόμενα συγκεκριμένα σημεία ελέγχου, χωρίς προεξόφληση αιτίας θανάτου ή ευθύνης.",
+        "text": "Η προχρηματιστηριακή ανάκαμψη που περιγράφει το CNBC αφορά διαφορετική συνεδρίαση από τα προηγούμενα κανονικά κλεισίματα. Για τους επενδυτές, το επόμενο τεστ είναι αν διατηρείται στο κανονικό ωράριο, χωρίς να αποδίδεται αυτομάτως σε κάποια συγκεκριμένη δήλωση. Η προειδοποίηση Wang για έλεγχο της AI είναι εκτίμηση στελέχους, όχι πιστοποίηση νέας τεχνολογικής ικανότητας. Στην Κύπρο, η αναφορά σε καθαρό ευρωπαϊκό όφελος για το 2025 αφορά απολογισμό μετά την αφαίρεση συνεισφορών. Για την αξιολόγηση της επίδρασης, χρειάζεται κατανομή ανά πρόγραμμα και υλοποίηση έργων, όχι εξίσωση του συνολικού αριθμού με διαθέσιμη νέα ενίσχυση κάθε δικαιούχου.",
         "story_ids": [
-          "belgium-atc-strike-2026-11-23",
-          "dymer-drone-strike-2026-11-22",
-          "kakopetria-forensic-response-2026-11-23"
+          "ai-premarket-2026-11-23",
+          "wang-ai-warning-2026-11-23",
+          "cyprus-eu-audit-2026-11-23"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-23T05:43:20.414378+00:00",
-  "updated_at": "2026-11-23T05:43:20.414378+00:00",
-  "input_sha256": "fb6c1be7d9e533b484b559c312cf05249e20ce6671399f15019ac860a1c0e586"
+  "updated_at": "2026-11-23T11:38:17.135911+00:00",
+  "input_sha256": "841984620a4f63288040e018c2143bea004231c176c8a24676315a6e03174746"
 }
