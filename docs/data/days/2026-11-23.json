@@ -1,0 +1,663 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-23",
+  "timezone": "Europe/Athens",
+  "status": "published",
+  "url": "daily/2026-11-23.html",
+  "editions": [
+    {
+      "id": "2026-11-23-morning",
+      "type": "morning",
+      "url": "morning/2026-11-23.html",
+      "published_at": "2026-11-23T05:41:12.447708+00:00"
+    }
+  ],
+  "missing_slots": [
+    "midday",
+    "evening"
+  ],
+  "lead_story_id": "belgium-atc-strike-2026-11-23",
+  "stories": [
+    {
+      "story_id": "belgium-atc-strike-2026-11-23",
+      "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-morning",
+          "article_id": "belgium-atc-strike",
+          "source_story_id": "belgium-atc-strike-2026-11-23",
+          "url": "articles/2026-11-23-morning/belgium-atc-strike.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "belgium-atc-strike",
+        "source_story_id": "belgium-atc-strike-2026-11-23",
+        "url": "articles/2026-11-23-morning/belgium-atc-strike.html"
+      },
+      "section": "world",
+      "priority": 1
+    },
+    {
+      "story_id": "dymer-drone-strike-2026-11-22",
+      "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-morning",
+          "article_id": "dymer-rescue",
+          "source_story_id": "dymer-drone-strike-2026-11-22",
+          "url": "articles/2026-11-23-morning/dymer-rescue.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "dymer-rescue",
+        "source_story_id": "dymer-drone-strike-2026-11-22",
+        "url": "articles/2026-11-23-morning/dymer-rescue.html"
+      },
+      "section": "world",
+      "priority": 2
+    },
+    {
+      "story_id": "manchester-coop-live-evacuation-2026-11-22",
+      "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-morning",
+          "article_id": "manchester-evacuation",
+          "source_story_id": "manchester-coop-live-evacuation-2026-11-22",
+          "url": "articles/2026-11-23-morning/manchester-evacuation.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "manchester-evacuation",
+        "source_story_id": "manchester-coop-live-evacuation-2026-11-22",
+        "url": "articles/2026-11-23-morning/manchester-evacuation.html"
+      },
+      "section": "world",
+      "priority": 3
+    },
+    {
+      "story_id": "nvidia-kennedy-reaction-2026-11-22",
+      "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-morning",
+          "article_id": "nvidia-reaction",
+          "source_story_id": "nvidia-kennedy-reaction-2026-11-22",
+          "url": "articles/2026-11-23-morning/nvidia-reaction.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "nvidia-reaction",
+        "source_story_id": "nvidia-kennedy-reaction-2026-11-22",
+        "url": "articles/2026-11-23-morning/nvidia-reaction.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "uk-energy-household-options-2026-11-23",
+      "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-morning",
+          "article_id": "uk-energy-costs",
+          "source_story_id": "uk-energy-household-options-2026-11-23",
+          "url": "articles/2026-11-23-morning/uk-energy-costs.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "uk-energy-costs",
+        "source_story_id": "uk-energy-household-options-2026-11-23",
+        "url": "articles/2026-11-23-morning/uk-energy-costs.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
+      "story_id": "kakopetria-forensic-response-2026-11-23",
+      "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-morning",
+          "article_id": "kakopetria-forensics",
+          "source_story_id": "kakopetria-forensic-response-2026-11-23",
+          "url": "articles/2026-11-23-morning/kakopetria-forensics.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "kakopetria-forensics",
+        "source_story_id": "kakopetria-forensic-response-2026-11-23",
+        "url": "articles/2026-11-23-morning/kakopetria-forensics.html"
+      },
+      "section": "cyprus",
+      "priority": 6
+    },
+    {
+      "story_id": "aradippou-koshi-capacity-warning-2026-11-23",
+      "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-morning",
+          "article_id": "koshi-waste",
+          "source_story_id": "aradippou-koshi-capacity-warning-2026-11-23",
+          "url": "articles/2026-11-23-morning/koshi-waste.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "koshi-waste",
+        "source_story_id": "aradippou-koshi-capacity-warning-2026-11-23",
+        "url": "articles/2026-11-23-morning/koshi-waste.html"
+      },
+      "section": "cyprus",
+      "priority": 7
+    },
+    {
+      "story_id": "coastline-cyprus-ai-research-2026-11-23",
+      "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-morning",
+          "article_id": "coastline-ai",
+          "source_story_id": "coastline-cyprus-ai-research-2026-11-23",
+          "url": "articles/2026-11-23-morning/coastline-ai.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "coastline-ai",
+        "source_story_id": "coastline-cyprus-ai-research-2026-11-23",
+        "url": "articles/2026-11-23-morning/coastline-ai.html"
+      },
+      "section": "cyprus",
+      "priority": 8
+    },
+    {
+      "story_id": "akel-presidential-cooperation-2026-11-23",
+      "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-morning",
+          "article_id": "akel-cooperation",
+          "source_story_id": "akel-presidential-cooperation-2026-11-23",
+          "url": "articles/2026-11-23-morning/akel-cooperation.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "akel-cooperation",
+        "source_story_id": "akel-presidential-cooperation-2026-11-23",
+        "url": "articles/2026-11-23-morning/akel-cooperation.html"
+      },
+      "section": "cyprus",
+      "priority": 9
+    },
+    {
+      "story_id": "larnaca-prodromos-motorcyclist-collision-2026-11-22",
+      "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-morning",
+          "article_id": "larnaca-collision",
+          "source_story_id": "larnaca-prodromos-motorcyclist-collision-2026-11-22",
+          "url": "articles/2026-11-23-morning/larnaca-collision.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "larnaca-collision",
+        "source_story_id": "larnaca-prodromos-motorcyclist-collision-2026-11-22",
+        "url": "articles/2026-11-23-morning/larnaca-collision.html"
+      },
+      "section": "cyprus",
+      "priority": 10
+    },
+    {
+      "story_id": "thitikul-cme-third-title-2026-11-22",
+      "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-morning",
+          "article_id": "thitikul-title",
+          "source_story_id": "thitikul-cme-third-title-2026-11-22",
+          "url": "articles/2026-11-23-morning/thitikul-title.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "thitikul-title",
+        "source_story_id": "thitikul-cme-third-title-2026-11-22",
+        "url": "articles/2026-11-23-morning/thitikul-title.html"
+      },
+      "section": "sports",
+      "priority": 11
+    },
+    {
+      "story_id": "psg-nice-doue-treatment-2026-11-21",
+      "first_seen_at": "2026-11-23T05:41:12.447708+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-23-morning",
+          "article_id": "psg-nice-doue",
+          "source_story_id": "psg-nice-doue-treatment-2026-11-21",
+          "url": "articles/2026-11-23-morning/psg-nice-doue.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "psg-nice-doue",
+        "source_story_id": "psg-nice-doue-treatment-2026-11-21",
+        "url": "articles/2026-11-23-morning/psg-nice-doue.html"
+      },
+      "section": "sports",
+      "priority": 12
+    }
+  ],
+  "updates": [
+    {
+      "id": "0f629c771e6fe6e4d4d60ec0cb38760696885e678b69102d1eca881c6b451b19",
+      "kind": "provenance",
+      "at": "2026-11-23T05:41:12.447708+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "belgium-atc-strike-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "belgium-atc-strike",
+        "source_story_id": "belgium-atc-strike-2026-11-23",
+        "url": "articles/2026-11-23-morning/belgium-atc-strike.html"
+      }
+    },
+    {
+      "id": "12024b0455706bab3504e4e6fe352aaa38d44beeda2d3393da19eaf3a750a766",
+      "kind": "provenance",
+      "at": "2026-11-23T05:41:12.447708+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-energy-household-options-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "uk-energy-costs",
+        "source_story_id": "uk-energy-household-options-2026-11-23",
+        "url": "articles/2026-11-23-morning/uk-energy-costs.html"
+      }
+    },
+    {
+      "id": "15a34b0415d314d13c30f66e5ff8d075cb4f9a7571881c63159ebba47d174721",
+      "kind": "provenance",
+      "at": "2026-11-23T05:41:12.447708+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "psg-nice-doue-treatment-2026-11-21",
+      "origin": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "psg-nice-doue",
+        "source_story_id": "psg-nice-doue-treatment-2026-11-21",
+        "url": "articles/2026-11-23-morning/psg-nice-doue.html"
+      }
+    },
+    {
+      "id": "1813ce3c31319ba0b49a30e13cba7f38e8939339964b850d0a4ea7911c94c7f2",
+      "kind": "provenance",
+      "at": "2026-11-23T05:41:12.447708+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "larnaca-prodromos-motorcyclist-collision-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "larnaca-collision",
+        "source_story_id": "larnaca-prodromos-motorcyclist-collision-2026-11-22",
+        "url": "articles/2026-11-23-morning/larnaca-collision.html"
+      }
+    },
+    {
+      "id": "1a8e0fce4d9a0ae7b092ba8ea93c4428bffec04ae37bce377ccff783d3423465",
+      "kind": "provenance",
+      "at": "2026-11-23T05:41:12.447708+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "coastline-cyprus-ai-research-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "coastline-ai",
+        "source_story_id": "coastline-cyprus-ai-research-2026-11-23",
+        "url": "articles/2026-11-23-morning/coastline-ai.html"
+      }
+    },
+    {
+      "id": "1ee27f907ac38d6d500a337a14080a0a0d30739da19200117ce9d5332dca7d70",
+      "kind": "provenance",
+      "at": "2026-11-23T05:41:12.447708+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "aradippou-koshi-capacity-warning-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "koshi-waste",
+        "source_story_id": "aradippou-koshi-capacity-warning-2026-11-23",
+        "url": "articles/2026-11-23-morning/koshi-waste.html"
+      }
+    },
+    {
+      "id": "5944c0f1e50296dcf6e583ae57f6265535486c035002f3fbe2958ff0da015e8d",
+      "kind": "provenance",
+      "at": "2026-11-23T05:41:12.447708+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-kennedy-reaction-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "nvidia-reaction",
+        "source_story_id": "nvidia-kennedy-reaction-2026-11-22",
+        "url": "articles/2026-11-23-morning/nvidia-reaction.html"
+      }
+    },
+    {
+      "id": "69fbd34e5a7d9296ee0597bc4e16c0deed2ae22d5889af1c8a11d2b521a6ab14",
+      "kind": "provenance",
+      "at": "2026-11-23T05:41:12.447708+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "kakopetria-forensic-response-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "kakopetria-forensics",
+        "source_story_id": "kakopetria-forensic-response-2026-11-23",
+        "url": "articles/2026-11-23-morning/kakopetria-forensics.html"
+      }
+    },
+    {
+      "id": "74bcda9083181b8d0acb1db49a904d55719ec5962e92ed181832984168f3ea8e",
+      "kind": "provenance",
+      "at": "2026-11-23T05:41:12.447708+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "akel-presidential-cooperation-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "akel-cooperation",
+        "source_story_id": "akel-presidential-cooperation-2026-11-23",
+        "url": "articles/2026-11-23-morning/akel-cooperation.html"
+      }
+    },
+    {
+      "id": "afa0f9cbdb115e88bac7676e3945fc64ab8ffb92710486a5c1bf4b5bbb4615ba",
+      "kind": "provenance",
+      "at": "2026-11-23T05:41:12.447708+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "thitikul-cme-third-title-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "thitikul-title",
+        "source_story_id": "thitikul-cme-third-title-2026-11-22",
+        "url": "articles/2026-11-23-morning/thitikul-title.html"
+      }
+    },
+    {
+      "id": "c7214c9ae0f9158a237b36da4003ccbd52bb05acd6152b5872504f5b33fdc33d",
+      "kind": "provenance",
+      "at": "2026-11-23T05:41:12.447708+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "dymer-drone-strike-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "dymer-rescue",
+        "source_story_id": "dymer-drone-strike-2026-11-22",
+        "url": "articles/2026-11-23-morning/dymer-rescue.html"
+      }
+    },
+    {
+      "id": "d99847ee6d2c154df53425750e21a656d602114aab20c4b887c456488386f160",
+      "kind": "provenance",
+      "at": "2026-11-23T05:41:12.447708+00:00",
+      "summary": "Συμμετοχή της morning έκδοσης.",
+      "source_urls": [],
+      "story_id": "manchester-coop-live-evacuation-2026-11-22",
+      "origin": {
+        "edition_id": "2026-11-23-morning",
+        "article_id": "manchester-evacuation",
+        "source_story_id": "manchester-coop-live-evacuation-2026-11-22",
+        "url": "articles/2026-11-23-morning/manchester-evacuation.html"
+      }
+    }
+  ],
+  "opportunities": [
+    {
+      "action": "Δες την επίσημη ανακοίνωση ως ιστορικό πλαίσιο. Αναμένουμε επαληθευμένη νέα προκήρυξη πριν εμφανίσουμε ενεργή αίτηση.",
+      "application_kind": "instructions",
+      "application_url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+      "change_note": "Πρωινός επανέλεγχος της επίσημης σελίδας: παραμένει η ληγμένη δεύτερη πρόσκληση του 2024 και δεν παρουσιάζεται ως νέα ή ανοικτή αίτηση.",
+      "deadline": "2024-07-31T23:59:00+03:00",
+      "deadline_note": "Ιστορική προθεσμία της 2ης πρόσκλησης, όχι ημερομηνία νέας αίτησης. Νέα ενεργή πρόσκληση δεν επιβεβαιώθηκε στον παρόντα έλεγχο.",
+      "deadline_type": "fixed",
+      "eligibility": "Η προκήρυξη του 2024 όριζε νέους 18–29, άνδρες 30–50 και γυναίκες 30–55. Νέα πρόσκληση μπορεί να αλλάξει τους όρους· δεν έχει κριθεί προσωπική επιλεξιμότητα.",
+      "id": "cy-new-entrepreneurship-2024-call2",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΕΕ",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-23T04:30:48.639313+00:00",
+          "url": "https://www.businessincyprus.gov.cy/news/strengthening-new-entrepreneurship-grant-scheme-2nd-announcement-2024/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "reporting_group": "ΥΕΕΒ · Πρόσκληση 14/6/2024",
+          "retrieved_at": "2026-10-15T16:39:24.850175+00:00",
+          "url": "https://www.industry.gov.cy/assets/modules/wnp/articles/202404/77/docs/anakoinosiypovolis.pdf",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Ιστορική πρόσκληση του 2024 που έχει λήξει. Παραμένει μόνο στην παρακολούθηση για τυχόν νέα επίσημη προκήρυξη, όχι στις ενεργές αιτήσεις.",
+      "support": "Παλιοί όροι: 70% επιλέξιμης δαπάνης για 18–29, 60% για τις άλλες ομάδες, με μέγιστο επιλέξιμο προϋπολογισμό €120.000.",
+      "title": "Νέα Επιχειρηματική Δραστηριότητα · παλιά 2η προκήρυξη",
+      "verified_at": "2026-10-23T07:36:00+03:00"
+    },
+    {
+      "action": "Αν έχεις GO, προετοίμασε πλήρη πρόταση. Διαφορετικά ξεκίνα τη σύντομη αίτηση χωρίς να θεωρείς εξασφαλισμένη συμμετοχή στον γύρο Νοεμβρίου.",
+      "application_kind": "form",
+      "application_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIC-2026-ACCELERATOR-01",
+      "change_note": "Επανελέγχθηκε η επίσημη σελίδα EIC: TRL 6–8, επιχορήγηση κάτω από €2,5 εκατ., επενδυτικό σκέλος €1–10 εκατ. και επόμενη πλήρης πρόταση στις 4/11, 17:00 Βρυξελλών, μόνο μετά από GO.",
+      "deadline": "2026-11-04T18:00:00+02:00",
+      "deadline_note": "4/11 στις 17:00 Βρυξελλών = 18:00 Κύπρου. Αφορά πλήρη πρόταση μετά το GO. Οι σύντομες προτάσεις υποβάλλονται συνεχώς· αξιολόγηση συνήθως 4–6 εβδομάδες.",
+      "deadline_type": "fixed",
+      "eligibility": "Μία startup/ΜμΕ στην ΕΕ ή συνδεδεμένη χώρα, με καινοτομία TRL 6–8. Για πλήρη πρόταση προηγείται θετική αξιολόγηση (GO) της σύντομης πρότασης ή επιλέξιμη ειδική διαδρομή.",
+      "id": "eu-eic-accelerator-2026",
+      "jurisdiction": "ΕΕ · περιλαμβάνει την Κύπρο",
+      "kind": "grant",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Innovation Council",
+          "reporting_group": "European Innovation Council",
+          "retrieved_at": "2026-10-24T13:43:13+03:00",
+          "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Στήριξη νεοφυών και μικρομεσαίων επιχειρήσεων με ανατρεπτική καινοτομία σε στάδιο ανάπτυξης και κλιμάκωσης. Δεν είναι γενική επιδότηση ίδρυσης επιχείρησης.",
+      "support": "Επιχορήγηση κάτω από €2,5 εκατ.· χωριστά επενδυτικό σκέλος €1–10 εκατ., που δεν αποτελεί επιχορήγηση.",
+      "title": "EIC Accelerator: επόμενη πλήρης πρόταση 4 Νοεμβρίου",
+      "verified_at": "2026-10-24T13:43:13+03:00"
+    },
+    {
+      "action": "Μην υποβάλεις νέα αίτηση. Παρακολούθησε μόνο επίσημη επαναπροκήρυξη ή ανακοίνωση για επιλαχόντες.",
+      "application_kind": "none",
+      "application_url": null,
+      "change_note": "Το ΥΕΕΒ ανακοίνωσε ολοκλήρωση υποβολής προτάσεων λόγω υπερκάλυψης προϋπολογισμού. Η προηγούμενη ένδειξη ανοικτής πρόσκλησης διορθώθηκε.",
+      "deadline": null,
+      "deadline_note": "Η υποβολή ολοκληρώθηκε στις 21/10 λόγω υπερκάλυψης του διαθέσιμου προϋπολογισμού.",
+      "deadline_type": "unknown",
+      "eligibility": "Φυσικά πρόσωπα με κατοικίες με άδεια οικοδομής πριν το 2008.",
+      "id": "cy-home-energy-2026",
+      "jurisdiction": "Κυπριακή Δημοκρατία / ΥΕΕΒ",
+      "kind": "grant",
+      "opens_at": "2026-10-20T09:00:00+03:00",
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": "2026-10-21",
+          "publisher": "ΥΕΕΒ",
+          "reporting_group": "ΥΕΕΒ",
+          "retrieved_at": "2026-10-23T10:33:45.530855+00:00",
+          "url": "https://www.industry.gov.cy",
+          "used_for_claims": true
+        }
+      ],
+      "status": "closed",
+      "summary": "Επιδότηση ενεργειακής αναβάθμισης υφιστάμενων κατοικιών. Η προκήρυξη αφορά φωτοβολταϊκά, θερμομόνωση και αντλίες θερμότητας.",
+      "support": "Έως €32.000 για ενεργειακή αναβάθμιση κατηγορίας Α.",
+      "title": "Σχέδιο Χορηγιών «Εξοικονομώ – Αναβαθμίζω στις Κατοικίες 2026»",
+      "verified_at": "2026-10-23T13:33:46+03:00"
+    },
+    {
+      "action": "Έλεγξε τα όρια και τη διαδικασία προηγούμενης κοινοποίησης στο κράτος εγκατάστασης. Ο σύνδεσμος δίνει οδηγίες, όχι κυπριακό έντυπο.",
+      "application_kind": "instructions",
+      "application_url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+      "change_note": "Επανελέγχθηκαν στις 24/10 η επίσημη ευρωπαϊκή σελίδα και η διαδικασία διασυνοριακής απαλλαγής. Το καθεστώς παραμένει προαιρετικό και ανοικτό, με ενωσιακό όριο €100.000 και προηγούμενη κοινοποίηση.",
+      "deadline": null,
+      "deadline_note": "Δεν πρόκειται για γύρο χορηγιών. Η απαλλαγή ξεκινά μετά την έγκριση/επιβεβαίωση EX· ισχύουν ξεχωριστές υποχρεώσεις τριμηνιαίας αναφοράς.",
+      "deadline_type": "rolling",
+      "eligibility": "Επιχείρηση εγκατεστημένη στην ΕΕ: ενωσιακός τζίρος έως €100.000 στο τρέχον και προηγούμενο έτος, καθώς και το εθνικό/κλαδικό όριο κάθε χώρας απαλλαγής.",
+      "id": "eu-cross-border-sme-vat",
+      "jurisdiction": "ΕΕ / Κύπρος · διασυνοριακές πωλήσεις",
+      "kind": "legal_right",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · DG TAXUD",
+          "reporting_group": "European Commission · DG TAXUD",
+          "retrieved_at": "2026-10-24T07:33:51+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "European Commission · SME VAT",
+          "reporting_group": "European Commission · SME VAT",
+          "retrieved_at": "2026-10-24T07:33:47+03:00",
+          "url": "https://sme-vat-rules.ec.europa.eu/index_en",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "reporting_group": "Κυπριακή Δημοκρατία · Business in Cyprus",
+          "retrieved_at": "2026-10-24T07:33:52+03:00",
+          "url": "https://www.businessincyprus.gov.cy/news/new-vat-rules-for-small-enterprises/",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Το ευρωπαϊκό καθεστώς μικρών επιχειρήσεων επιτρέπει απαλλαγή ΦΠΑ σε επιλέξιμες διασυνοριακές πωλήσεις. Απαιτεί προηγούμενη κοινοποίηση· δεν εφαρμόζεται αυτόματα.",
+      "support": "Πιθανή απλούστευση υποχρεώσεων ΦΠΑ, με απώλεια δικαιώματος έκπτωσης ΦΠΑ για τις απαλλασσόμενες πράξεις. Αξιολόγησε το καθαρό όφελος πριν επιλέξεις.",
+      "title": "Προαιρετική απαλλαγή ΦΠΑ για μικρές επιχειρήσεις",
+      "verified_at": "2026-10-24T07:44:30+03:00"
+    },
+    {
+      "action": "Ετοίμασε επιχειρηματικό σχέδιο και επίλεξε ενδιάμεσο οργανισμό στην ηλεκτρονική αίτηση.",
+      "application_kind": "form",
+      "application_url": "https://webgate.ec.europa.eu/erasmus-entrepreneurs/",
+      "change_note": "Επανελέγχθηκαν η επίσημη δυνατότητα αίτησης, τα κριτήρια και η FAQ προθεσμίας στις 24/10. Η εγγραφή παραμένει ανοικτή χωρίς καταληκτική ημερομηνία· δεν υπονοείται προσωπική επιλεξιμότητα.",
+      "deadline": null,
+      "deadline_note": "Η επίσημη FAQ αναφέρει ότι δεν υπάρχει καταληκτική ημερομηνία εγγραφής. Η επιλογή και η συμφωνία ανταλλαγής ακολουθούν την αίτηση.",
+      "deadline_type": "rolling",
+      "eligibility": "Άνω των 18, χωρίς ανώτατο ηλικιακό όριο. Βιώσιμο επιχειρηματικό σχέδιο και πρόθεση ίδρυσης ή συνολική επιχειρηματική εμπειρία κάτω από τρία χρόνια· μόνιμη κατοικία σε συμμετέχουσα χώρα.",
+      "id": "eu-erasmus-new-entrepreneurs",
+      "jurisdiction": "ΕΕ · κάτοικοι συμμετεχουσών χωρών",
+      "kind": "benefit",
+      "opens_at": null,
+      "review_due": true,
+      "sources": [
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/",
+          "used_for_claims": true
+        },
+        {
+          "access": "read",
+          "kind": "primary",
+          "published_at": null,
+          "publisher": "Erasmus for Young Entrepreneurs · FAQ",
+          "reporting_group": "Erasmus for Young Entrepreneurs",
+          "retrieved_at": "2026-10-24T07:43:00+03:00",
+          "url": "https://www.erasmus-entrepreneurs.eu/page.php?cid=6&faqcat=15&faqid=131&pid=019",
+          "used_for_claims": true
+        }
+      ],
+      "status": "open",
+      "summary": "Ανταλλαγή με έμπειρο επιχειρηματία στο εξωτερικό, με οικονομική συνεισφορά σε ταξίδι και διαβίωση. Το «Young» αφορά τη νέα επιχειρηματική εμπειρία.",
+      "support": "Οικονομική συνεισφορά για την ανταλλαγή, με ενδεχόμενη ανάγκη συμπληρωματικών ίδιων πόρων. Το ακριβές ποσό απαιτεί συμφωνία με τον φορέα· δεν είναι γενικό κεφάλαιο ίδρυσης startup.",
+      "title": "Erasmus for Young Entrepreneurs",
+      "verified_at": "2026-10-24T07:43:00+03:00"
+    }
+  ],
+  "overview": {
+    "kind": "reviewed",
+    "points": [
+      {
+        "text": "Η προγραμματισμένη αναστολή τακτικών υπηρεσιών ελέγχου εναέριας κυκλοφορίας στο Βέλγιο μετατρέπει την απεργία σε άμεσο πρόβλημα μετακίνησης. Για επιβάτες και εταιρείες, το τεστ είναι η επιβεβαίωση κάθε πτήσης και η επαναφορά υπηρεσιών, όχι η υπόθεση ότι όλος ο εναέριος χώρος λειτουργεί ενιαία. Στο Ντίμερ, ο νεότερος ουκρανικός απολογισμός και οι διασώσεις αφορούν το πλήγμα της Κυριακής, με τους αριθμούς αποδιδόμενους στις αρχές. Στην Κύπρο, η διαφωνία για ιατροδικαστική παρουσία στην Κακοπετριά αναδεικνύει ζήτημα υπηρεσιακής ανταπόκρισης. Η προγραμματισμένη νεκροτομή και η συνάντηση των υπουργείων είναι τα επόμενα συγκεκριμένα σημεία ελέγχου, χωρίς προεξόφληση αιτίας θανάτου ή ευθύνης.",
+        "story_ids": [
+          "belgium-atc-strike-2026-11-23",
+          "dymer-drone-strike-2026-11-22",
+          "kakopetria-forensic-response-2026-11-23"
+        ]
+      }
+    ]
+  },
+  "follow_ups": [],
+  "created_at": "2026-11-23T05:43:20.414378+00:00",
+  "updated_at": "2026-11-23T05:43:20.414378+00:00",
+  "input_sha256": "fb6c1be7d9e533b484b559c312cf05249e20ce6671399f15019ac860a1c0e586"
+}

@@ -1,0 +1,84 @@
+{
+  "analysis_sources": [
+    "https://www.aljazeera.com/news/2026/11/23/belgiums-airports-set-to-shut-down-due-to-anti-austerity-strike?traffic_source=rss",
+    "https://mobil.aa.com.tr/en/europe/national-strike-to-halt-commercial-flights-in-belgium-on-monday/4133558"
+  ],
+  "category": "Πρώτο θέμα",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 1,
+    "section": "world"
+  },
+  "delta_update": "Η ανακοίνωση αφορά συγκεκριμένο χρονικό παράθυρο τακτικών υπηρεσιών· δεν εξομοιώνεται με κατάργηση κάθε υπηρεσίας ασφαλείας.",
+  "driver_tags": [
+    "transport",
+    "europe"
+  ],
+  "edition_id": "2026-11-23-morning",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Βέλγιο: αναστολή τακτικού ελέγχου πτήσεων τη Δευτέρα",
+  "id": "belgium-atc-strike",
+  "image": {
+    "alt": "Belgium’s airports set to shut down due to anti-austerity strike",
+    "attribution": "Al Jazeera",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Belgium’s airports set to shut down due to anti-austerity strike · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.aljazeera.com/news/2026/11/23/belgiums-airports-set-to-shut-down-due-to-anti-austerity-strike?traffic_source=rss",
+    "original_url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b03a567-1795401063.jpg?resize=1920%2C1440",
+    "retrieved_at": "2026-11-23T04:21:24.915546+00:00",
+    "source_review": {
+      "checked_at": "2026-11-23T04:21:24.915546+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "723bb9b97352d905",
+      "rights_basis": "publisher-attribution",
+      "sha256": "54d2c384607b231972e84216d3940e14ad6c030df688454cab5472c93e73b58b"
+    },
+    "source_url": "https://www.aljazeera.com/news/2026/11/23/belgiums-airports-set-to-shut-down-due-to-anti-austerity-strike?traffic_source=rss",
+    "url": "assets/editorial/source/54d2c384607b231972e84216d3940e14ad6c030df688454cab5472c93e73b58b.webp"
+  },
+  "mechanics_and_incentives": "Η ανεπαρκής στελέχωση περιορίζει τον ασφαλή χειρισμό της συνήθους κυκλοφορίας, μεταφέροντας το λειτουργικό πρόβλημα στα προγράμματα των εταιρειών.",
+  "published_at": "2026-11-23T05:41:12.447708+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "watch_next": "Ενημερώσεις εταιρειών και αεροδρομίων και η επαναφορά υπηρεσιών μετά το ανακοινωμένο διάστημα θα δείξουν την πραγματική έκταση της διαταραχής."
+  },
+  "second_order_effects": "Επιβάτες με αναχώρηση, άφιξη ή ανταπόκριση χρειάζονται επιβεβαίωση της δικής τους πτήσης· δεν τεκμηριώνεται ίδιο αποτέλεσμα για κάθε διαδρομή.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Η Skeyes ανακοίνωσε αδυναμία παροχής τακτικών υπηρεσιών στα βελγικά αεροδρόμια και στον εναέριο χώρο που διαχειρίζεται τη Δευτέρα 23 Νοεμβρίου, 07:00–21:00 τοπική ώρα, δηλαδή 08:00–22:00 Κύπρου. Το Al Jazeera συνδέει την αναστολή με συμμετοχή ελεγκτών στην εθνική απεργία κατά των κυβερνητικών μέτρων. Διατηρούνται υπηρεσίες έκτακτης ανάγκης και κρίσιμες για την ασφάλεια, σύμφωνα με την αναφορά του Anadolu."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-23T03:15:55+00:00",
+      "publisher": "Al Jazeera",
+      "reporting_group": "Al Jazeera",
+      "retrieved_at": "2026-11-23T04:21:16.043268+00:00",
+      "url": "https://www.aljazeera.com/news/2026/11/23/belgiums-airports-set-to-shut-down-due-to-anti-austerity-strike?traffic_source=rss",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": null,
+      "publisher": "Anadolu",
+      "reporting_group": "RTBF-Skeyes",
+      "retrieved_at": "2026-11-23T05:36:40.140Z",
+      "url": "https://mobil.aa.com.tr/en/europe/national-strike-to-halt-commercial-flights-in-belgium-on-monday/4133558",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "belgium-atc-strike-2026-11-23",
+  "story_identity": "belgium-atc-strike-2026-11-23",
+  "summary": "Η Skeyes ανακοίνωσε αδυναμία παροχής τακτικών υπηρεσιών στα βελγικά αεροδρόμια και στον εναέριο χώρο που διαχειρίζεται τη Δευτέρα 23 Νοεμβρίου, 07:00–21:00 τοπική ώρα, δηλαδή 08:00–22:00 Κύπρου. Το Al Jazeera συνδέει την αναστολή με συμμετοχή ελεγκτών στην εθνική απεργία κατά των κυβερνητικών μέτρων. Διατηρούνται υπηρεσίες έκτακτης ανάγκης και κρίσιμες για την ασφάλεια, σύμφωνα με την αναφορά του Anadolu.",
+  "updated_at": "2026-11-23T05:41:12.447708+00:00",
+  "url": "articles/2026-11-23-morning/belgium-atc-strike.html"
+}

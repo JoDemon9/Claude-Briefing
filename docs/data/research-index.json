@@ -889,6 +889,14 @@
       "published_at": "2026-11-22T05:45:01.166646+00:00",
       "url": "morning/2026-11-22.html",
       "fingerprint": "dd7d08543b13466573631869e3319be6c4cb9e3ff3c510a8bdf8e801e45d8bf5"
+    },
+    {
+      "id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "type": "morning",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "url": "morning/2026-11-23.html",
+      "fingerprint": "9a3930763cff4739b19cfe3594debe6d429fa10c3b59bca6f323e72c0f32d101"
     }
   ],
   "stories": [
@@ -34417,6 +34425,346 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/eb5095e4cdb0c20f72c0a302a3678c91001ab74a447234e5d3e797e6eadcea1a.webp"
+    },
+    {
+      "story_id": "belgium-atc-strike-2026-11-23",
+      "identity": "belgium-atc-strike-2026-11-23",
+      "edition_id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "slot": "morning",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T05:41:12.447708+00:00",
+      "headline": "Βέλγιο: αναστολή τακτικού ελέγχου πτήσεων τη Δευτέρα",
+      "finding": "Η Skeyes ανακοίνωσε αδυναμία παροχής τακτικών υπηρεσιών στα βελγικά αεροδρόμια και στον εναέριο χώρο που διαχειρίζεται τη Δευτέρα 23 Νοεμβρίου, 07:00–21:00 τοπική ώρα, δηλαδή 08:00–22:00 Κύπρου. Το Al Jazeera συνδέει την αναστολή με συμμετοχή ελεγκτών στην εθνική απεργία κατά των κυβερνητικών μέτρων. Διατηρούνται υπηρεσίες έκτακτης ανάγκης και κρίσιμες για την ασφάλεια, σύμφωνα με την αναφορά του Anadolu.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-23-morning/belgium-atc-strike.json",
+      "reader_url": "articles/2026-11-23-morning/belgium-atc-strike.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/23/belgiums-airports-set-to-shut-down-due-to-anti-austerity-strike?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-23T03:15:55+00:00",
+          "retrieved_at": "2026-11-23T04:21:16.043268+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://mobil.aa.com.tr/en/europe/national-strike-to-halt-commercial-flights-in-belgium-on-monday/4133558",
+          "publisher": "Anadolu",
+          "reporting_group": "RTBF-Skeyes",
+          "published_at": null,
+          "retrieved_at": "2026-11-23T05:36:40.140Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/54d2c384607b231972e84216d3940e14ad6c030df688454cab5472c93e73b58b.webp"
+    },
+    {
+      "story_id": "dymer-drone-strike-2026-11-22",
+      "identity": "dymer-drone-strike-2026-11-22",
+      "edition_id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "slot": "morning",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T05:41:12.447708+00:00",
+      "headline": "Ντίμερ: διασώσεις παιδιού και ηλικιωμένης μετά το πλήγμα της Κυριακής",
+      "finding": "Επτάχρονο αγόρι ανασύρθηκε ζωντανό ύστερα από 14 ώρες από πολυκατοικία στο Ντίμερ, αναφέρει το BBC επικαλούμενο Ουκρανούς αξιωματούχους. Οι αρχές αποδίδουν εννέα θανάτους στα ρωσικά πλήγματα στην περιοχή. Διασώθηκε επίσης 79χρονη, η οποία νοσηλεύεται. Το πλήγμα στο κτίριο έγινε στις 05:00 τοπική ώρα την Κυριακή 22 Νοεμβρίου, σύμφωνα με τον υπουργό Εσωτερικών.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-23-morning/dymer-rescue.json",
+      "reader_url": "articles/2026-11-23-morning/dymer-rescue.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-23T02:37:02+00:00",
+          "retrieved_at": "2026-11-23T04:21:16.480964+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5c35fc415f1d82a4fc59fcc2d651a11b4061c9b7a2a7535ebfeb58cd481086e1.webp"
+    },
+    {
+      "story_id": "manchester-coop-live-evacuation-2026-11-22",
+      "identity": "manchester-coop-live-evacuation-2026-11-22",
+      "edition_id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "slot": "morning",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T05:41:12.447708+00:00",
+      "headline": "Εκκένωση συναυλίας στο Co-op Live του Μάντσεστερ",
+      "finding": "Πάνω από 12.000 θεατές απομακρύνθηκαν με ασφάλεια από το Co-op Live προς το τέλος της συναυλίας του Don Toliver την Κυριακή, μεταδίδει ο Guardian. Περισσότερα από 50 άτομα εξετάστηκαν, ορισμένα με ενοχλήσεις στα μάτια και στην αναπνοή, και ένας ασθενής μεταφέρθηκε στο νοσοκομείο. Το δημοσίευμα αναφέρεται σε φερόμενο περιστατικό δακρυγόνου, όχι σε επιβεβαιωμένη ταυτοποίηση ουσίας ή δράστη.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-23-morning/manchester-evacuation.json",
+      "reader_url": "articles/2026-11-23-morning/manchester-evacuation.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-23T03:27:53+00:00",
+          "retrieved_at": "2026-11-23T04:21:17.525899+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f27f8ff235eacbd42844e4f563a8bbaa9c29fe2edcbb4aa834c532aac17e6e52.webp"
+    },
+    {
+      "story_id": "nvidia-kennedy-reaction-2026-11-22",
+      "identity": "nvidia-kennedy-reaction-2026-11-22",
+      "edition_id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "slot": "morning",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T05:41:12.447708+00:00",
+      "headline": "NVIDIA: πολιτική αντίδραση με φόντο την αλλαγή διοίκησης",
+      "finding": "Ο Ρεπουμπλικανός γερουσιαστής Τζον Κένεντι σχολίασε επικριτικά την υπόθεση του Τζένσεν Χουάνγκ, αναφέρει ο Φιλελεύθερος στις 22 Νοεμβρίου. Η NVIDIA είχε ανακοινώσει στις 12 Νοεμβρίου την παραίτηση Χουάνγκ και τον ορισμό της Colette Kress ως προσωρινής διευθύνουσας συμβούλου. Η πολιτική αντίδραση δεν συνιστά πόρισμα για κατασκοπεία ούτε τεκμηριώνει διαρροή εταιρικών δεδομένων.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-23-morning/nvidia-reaction.json",
+      "reader_url": "articles/2026-11-23-morning/nvidia-reaction.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kosmos/article/1799217/to-pio-akrivo-sex-apo-tin-epochi-tis-oreas-elenis-gerousiastis-chlevazi-ton-proin-epikefalis-tis-nvidia-gia-tin-exosizigiki-tou-schesi",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-22T20:44:53+00:00",
+          "retrieved_at": "2026-11-23T04:21:17.246344+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+          "publisher": "NVIDIA Newsroom",
+          "reporting_group": "NVIDIA",
+          "published_at": null,
+          "retrieved_at": "2026-11-23T05:36:40.140Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6d75ca30ff528af1ae9800c5134c76bb3874c49644a5d63a866925b49269f980.webp"
+    },
+    {
+      "story_id": "uk-energy-household-options-2026-11-23",
+      "identity": "uk-energy-household-options-2026-11-23",
+      "edition_id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "slot": "morning",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T05:41:12.447708+00:00",
+      "headline": "Βρετανία: πρόβλεψη ενεργειακών αυξήσεων και επιλογές νοικοκυριών",
+      "finding": "Το BBC αναφέρει πρόβλεψη ανόδου ενεργειακών τιμών κατά 26% για εκατομμύρια βρετανικά νοικοκυριά τον Ιανουάριο και παρουσιάζει τρόπους περιορισμού κατανάλωσης. Η πληρωμή με πάγια εντολή περιγράφεται ως συνήθως φθηνότερη από το standard credit. Η αναφερόμενη ενίσχυση £100 αφορά στην Αγγλία κατοικίες των ζωνών δημοτικού φόρου A–D· αντίστοιχη εφαρμογή σε Σκωτία και Ουαλία αναμένεται.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-11-23-morning/uk-energy-costs.json",
+      "reader_url": "articles/2026-11-23-morning/uk-energy-costs.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-23T01:05:07+00:00",
+          "retrieved_at": "2026-11-23T04:21:16.442771+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/38a3d13815c7a00ae687b9620db7f8754acd0190297beedf0a9499db92ae0e30.webp"
+    },
+    {
+      "story_id": "kakopetria-forensic-response-2026-11-23",
+      "identity": "kakopetria-forensic-response-2026-11-23",
+      "edition_id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "slot": "morning",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T05:41:12.447708+00:00",
+      "headline": "Κακοπετριά: αντίδραση για την ιατροδικαστική παρουσία και προγραμματισμένη νεκροτομή",
+      "finding": "Ο Φιλελεύθερος αναφέρει αντίδραση της Αστυνομίας και του υπουργού Δικαιοσύνης για την απουσία ιατροδικαστικής αυτοψίας στη σκηνή όπου εντοπίστηκε νεκρή 17χρονη σε ξενοδοχείο στην Κακοπετριά. Ο υπουργός επικαλείται υποχρέωση ανταπόκρισης του εφημερεύοντος ιατροδικαστή. Η νεκροτομή προγραμματίστηκε για σήμερα, Δευτέρα 23 Νοεμβρίου, στις 11:30, ενώ θα ακολουθήσει νέα συνάντηση με τον υπουργό Υγείας.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-23-morning/kakopetria-forensics.json",
+      "reader_url": "articles/2026-11-23-morning/kakopetria-forensics.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1799220/thanatos-17chronis-stin-kakopetria-sfodri-antidrasi-gia-tin-apousia-iatrodikasti-fitiris-eprepe-na-itan-paron-nea-sinantisi-me-ton-ipourgo-igias",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-23T04:16:38+00:00",
+          "retrieved_at": "2026-11-23T04:21:21.052214+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/cf17e0e8ffce00da5997d7f855b159de706d402dbaa73b9af2d4a3d9a865e153.webp"
+    },
+    {
+      "story_id": "aradippou-koshi-capacity-warning-2026-11-23",
+      "identity": "aradippou-koshi-capacity-warning-2026-11-23",
+      "edition_id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "slot": "morning",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T05:41:12.447708+00:00",
+      "headline": "Αραδίππου: προειδοποίηση για τα όρια της μονάδας Κόσιης",
+      "finding": "Ο δήμαρχος Αραδίππου Χριστόδουλος Πάρτου ζητεί ταχύτερες αποφάσεις για τα απορρίμματα, προειδοποιώντας ότι η μονάδα Κόσιης πλησιάζει στα όρια δυναμικότητάς της, αναφέρει το Cyprus Mail. Κατά τον ίδιο, λίγο κάτω από 60% των αποβλήτων καταλήγει σε ταφή. Εκτιμά ότι καλύτερη διαλογή σε Λάρνακα, Αμμόχωστο και Λευκωσία και τρίτη γραμμή διαλογής θα μπορούσαν να περιορίσουν το ποσοστό περίπου στο 40%.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-23-morning/koshi-waste.json",
+      "reader_url": "articles/2026-11-23-morning/koshi-waste.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/23/aradippou-mayor-calls-for-urgent-action-on-waste-management",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-23T02:24:00+00:00",
+          "retrieved_at": "2026-11-23T04:21:17.545590+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/79ac6c9cf8b90a8f57b904a07d85875be62da942edf6256f392dcf295c501060.webp"
+    },
+    {
+      "story_id": "coastline-cyprus-ai-research-2026-11-23",
+      "identity": "coastline-cyprus-ai-research-2026-11-23",
+      "edition_id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "slot": "morning",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T05:41:12.447708+00:00",
+      "headline": "COASTLINE: κυπριακός συντονισμός έρευνας για τις μεταβαλλόμενες ακτές",
+      "finding": "Το ευρωπαϊκά χρηματοδοτούμενο COASTLINE συνδυάζει δορυφορικές εικόνες, δεδομένα drones, επιτόπιες μετρήσεις και τεχνητή νοημοσύνη, αναφέρει το Cyprus Mail. Ερευνητές σε Κύπρο, Ελλάδα και Ιταλία εργάζονται σε πρόγραμμα που ξεκίνησε τον Ιανουάριο 2024 και ολοκληρώνεται στο τέλος του 2027. Στην Κύπρο αξιοποιούνται δημόσια δεδομένα για εκτίμηση κινδύνων σε παράκτιους αρχαιολογικούς χώρους.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-11-23-morning/coastline-ai.json",
+      "reader_url": "articles/2026-11-23-morning/coastline-ai.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/23/cyprus-led-research-project-uses-ai-to-track-europes-changing-coastlines",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-23T04:00:00+00:00",
+          "retrieved_at": "2026-11-23T04:21:17.016714+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5727df3bacb4fbb1ec8411e16663fb83074c2e2bcaca608ed374cba7d263b42f.webp"
+    },
+    {
+      "story_id": "akel-presidential-cooperation-2026-11-23",
+      "identity": "akel-presidential-cooperation-2026-11-23",
+      "edition_id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "slot": "morning",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T05:41:12.447708+00:00",
+      "headline": "ΑΚΕΛ: προτεραιότητα οι συνεργασίες ενόψει Προεδρικών",
+      "finding": "Η ηγεσία του ΑΚΕΛ εντείνει την προσπάθεια συγκρότησης προοδευτικού άξονα συνεργασιών, πέρα από τη συζήτηση ονομάτων υποψηφίων, αναφέρει ο Φιλελεύθερος. Θα επιδιώξει συνάντηση με τη ΔΗΠΑ, αν και το δημοσίευμα διαπιστώνει περιορισμένο έδαφος διαλόγου. Για το ΔΗΚΟ περιγράφει έντονη αντιπαράθεση της προηγούμενης εβδομάδας και κατάρρευση της σχετικής προοπτικής συνεννόησης. Δεν παρουσιάζεται συμφωνημένη συμμαχία.",
+      "section": "cyprus",
+      "priority": 9,
+      "article_path": "articles/2026-11-23-morning/akel-cooperation.json",
+      "reader_url": "articles/2026-11-23-morning/akel-cooperation.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1799179/patai-gkazi-gia-sinergasies-i-prosochi-tou-akel-strammeni-sti-dimiourgia-axona-enopsi-proedrikon-eklogon",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-23T04:03:00+00:00",
+          "retrieved_at": "2026-11-23T04:21:17.417516+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7b32bd4e7e055b27543a0758db975b0f6c23798bad82aaf6ba3362ec366b36e5.webp"
+    },
+    {
+      "story_id": "larnaca-prodromos-motorcyclist-collision-2026-11-22",
+      "identity": "larnaca-prodromos-motorcyclist-collision-2026-11-22",
+      "edition_id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "slot": "morning",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T05:41:12.447708+00:00",
+      "headline": "Λάρνακα: σοβαρός τραυματισμός μοτοσικλετιστή σε σύγκρουση",
+      "finding": "Τριαντάχρονος μοτοσικλετιστής τραυματίστηκε σοβαρά σε σύγκρουση με όχημα στην περιοχή Προδρόμου στη Λάρνακα το βράδυ της Κυριακής, σύμφωνα με το SigmaLive που επικαλείται την Αστυνομία. Μεταφέρθηκε στο Γενικό Νοσοκομείο Λάρνακας. Το δημοσίευμα αποδίδει σε πληροφορίες ότι ο άλλος οδηγός εγκατέλειψε πεζός τη σκηνή, αφήνοντας το όχημα. Οι συνθήκες διερευνώνται· δεν τεκμηριώνεται έκδοση εντάλματος ή σύλληψη.",
+      "section": "cyprus",
+      "priority": 10,
+      "article_path": "articles/2026-11-23-morning/larnaca-collision.json",
+      "reader_url": "articles/2026-11-23-morning/larnaca-collision.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1338707/sovaro-trokhaio-sti-larnaka-sto-nosokomio-30khronos-motosikletistis",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-22T21:38:05+00:00",
+          "retrieved_at": "2026-11-23T04:21:17.730866+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/34e0d8dab2b867bad5b57e9211166821c8033dd8e0a0bc044b34c5a534a9368a.webp"
+    },
+    {
+      "story_id": "thitikul-cme-third-title-2026-11-22",
+      "identity": "thitikul-cme-third-title-2026-11-22",
+      "edition_id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "slot": "morning",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T05:41:12.447708+00:00",
+      "headline": "Γκολφ: τρίτος διαδοχικός τίτλος της Thitikul στο φινάλε του LPGA",
+      "finding": "Η Jeeno Thitikul κατέκτησε τρίτο διαδοχικό CME Group Tour Championship, με τελευταίο γύρο 65 χτυπημάτων, επτά κάτω από το par, αναφέρει το BBC στις 22 Νοεμβρίου. Η Akie Iwai ήταν δεύτερη και η Nelly Korda τρίτη.",
+      "section": "sports",
+      "priority": 11,
+      "article_path": "articles/2026-11-23-morning/thitikul-title.json",
+      "reader_url": "articles/2026-11-23-morning/thitikul-title.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/golf/articles/ckjwjvwexd12o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-22T21:54:08+00:00",
+          "retrieved_at": "2026-11-23T04:21:16.611419+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/9ce4c7c212de5a61e545115e514885004f898dfba45dbc7542c0b5a87e1ea50d.webp"
+    },
+    {
+      "story_id": "psg-nice-doue-treatment-2026-11-21",
+      "identity": "psg-nice-doue-treatment-2026-11-21",
+      "edition_id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "slot": "morning",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T05:41:12.447708+00:00",
+      "headline": "Παρί: αποχώρηση Doué με φορείο στη νίκη επί της Νις",
+      "finding": "Στο δημοσίευμα του Guardian της 21ης Νοεμβρίου, ο Désiré Doué αποχώρησε με φορείο μετά από φροντίδα στο δεξί γόνατο στη νίκη 3–2 της Παρί επί της Νις. Είχε σκοράρει πριν από το περιστατικό.",
+      "section": "sports",
+      "priority": 12,
+      "article_path": "articles/2026-11-23-morning/psg-nice-doue.json",
+      "reader_url": "articles/2026-11-23-morning/psg-nice-doue.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/football/2026/nov/21/european-football-borussia-dortmund-psg-real-madrid",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-21T20:25:53+00:00",
+          "retrieved_at": "2026-11-23T04:21:17.467219+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/126388981849dd3db72ce263bdf4f3fad87bfe2530257c4838e938fbfaadd981.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
