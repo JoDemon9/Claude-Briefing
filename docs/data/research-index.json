@@ -891,6 +891,14 @@
       "fingerprint": "dd7d08543b13466573631869e3319be6c4cb9e3ff3c510a8bdf8e801e45d8bf5"
     },
     {
+      "id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "type": "evening",
+      "published_at": "2026-11-23T17:42:11.633849+00:00",
+      "url": "evening/2026-11-23.html",
+      "fingerprint": "d6bec95f2022266fb9a63243cba25c883a58cba2507dd8b7b9d9acd98c59df93"
+    },
+    {
       "id": "2026-11-23-midday",
       "date": "2026-11-23",
       "type": "midday",
@@ -34433,6 +34441,381 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/eb5095e4cdb0c20f72c0a302a3678c91001ab74a447234e5d3e797e6eadcea1a.webp"
+    },
+    {
+      "story_id": "nvidia-huang-return-2026-11-23",
+      "identity": "nvidia-huang-return-2026-11-23",
+      "edition_id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "slot": "evening",
+      "published_at": "2026-11-23T17:42:11.633849+00:00",
+      "available_at": "2026-11-23T17:42:11.633849+00:00",
+      "headline": "NVIDIA: επάνοδος Χουάνγκ με άμεση ισχύ",
+      "finding": "Η NVIDIA ανακοίνωσε στις 23 Νοεμβρίου την άμεση επαναφορά του Τζένσεν Χουάνγκ ως προέδρου, διευθύνοντος συμβούλου και μέλους του διοικητικού συμβουλίου. Η απόφαση ήταν ομόφωνη. Το CNBC καταγράφει ισχυρή άνοδο της μετοχής μετά την ανακοίνωση, εντός της συνεδρίασης. Η εταιρεία διευκρινίζει ότι η ανεξάρτητη έρευνα του συμβουλίου θα συνεχιστεί μέχρι την ολοκλήρωσή της.",
+      "section": "world",
+      "priority": 1,
+      "article_path": "articles/2026-11-23-evening/nvidia-return.json",
+      "reader_url": "articles/2026-11-23-evening/nvidia-return.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-23T13:59:23+00:00",
+          "retrieved_at": "2026-11-23T16:21:25.192973+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+          "publisher": "NVIDIA",
+          "reporting_group": "NVIDIA",
+          "published_at": null,
+          "retrieved_at": "2026-11-23T17:34:39.434Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/846d5bec698a270750034364022f0847733964bcb879afd88e85a9a8c99f79ea.webp"
+    },
+    {
+      "story_id": "next-incident-2026-11-23",
+      "identity": "next-incident-2026-11-23",
+      "edition_id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "slot": "evening",
+      "published_at": "2026-11-23T17:42:11.633849+00:00",
+      "available_at": "2026-11-23T17:42:11.633849+00:00",
+      "headline": "Next: μη εξουσιοδοτημένη πρόσβαση μέσω προμηθευτή",
+      "finding": "Η Next αναφέρει μη εξουσιοδοτημένη πρόσβαση σε δεδομένα της μέσω προμηθευτή και εκτιμά ότι δεν εκτέθηκαν προσωπικά στοιχεία ικανά να οδηγήσουν σε απάτη, σύμφωνα με τον Guardian. Δεν παρέχεται ανεξάρτητη επιβεβαίωση της εκτίμησης.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-23-evening/next-supplier.json",
+      "reader_url": "articles/2026-11-23-evening/next-supplier.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/business/2026/nov/23/next-issues-cyber-attack-warning-after-benign-data-accessed-by-hackers",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-23T14:50:31+00:00",
+          "retrieved_at": "2026-11-23T16:21:24.928584+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/86cb6ffb39582a90ea0f1c2bf17142505159169920c677e971e31f2693647400.webp"
+    },
+    {
+      "story_id": "merkury-claim-2026-11-23",
+      "identity": "merkury-claim-2026-11-23",
+      "edition_id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "slot": "evening",
+      "published_at": "2026-11-23T11:35:27.918824+00:00",
+      "available_at": "2026-11-23T17:42:11.633849+00:00",
+      "headline": "Λιβύη: το BBC επαλήθευσε εικόνα φλεγόμενου πλοίου",
+      "finding": "Το BBC επαλήθευσε πλοίο που φλέγεται στη Βεγγάζη, χωρίς στο απόσπασμα επιβεβαίωση βύθισης της Merkury. Ο Ζελένσκι αναφέρει πλήγμα και σε εμπορικό πλοίο· παραμένει ασαφές αν οι αναφορές τοπικών αρχών σε τραυματίες αφορούν την ίδια επίθεση.",
+      "section": "world",
+      "priority": 3,
+      "article_path": "articles/2026-11-23-evening/libya-video.json",
+      "reader_url": "articles/2026-11-23-evening/libya-video.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-23T11:34:10+00:00",
+          "retrieved_at": "2026-11-23T16:21:23.986798+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a9f821af8b41f10c458ced4e8b47b2f3f1d4bed06704bf1bd15518855587e32b.webp"
+    },
+    {
+      "story_id": "limnes-ruling-2026-11-18",
+      "identity": "limnes-ruling-2026-11-18",
+      "edition_id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "slot": "evening",
+      "published_at": "2026-11-23T17:42:11.633849+00:00",
+      "available_at": "2026-11-23T17:42:11.633849+00:00",
+      "headline": "Λίμνες: απόφαση της 18ης Νοεμβρίου για παράνομη κράτηση",
+      "finding": "Ο Φιλελεύθερος παρουσιάζει απόφαση του Ανωτάτου της 18ης Νοεμβρίου, που έκρινε παράνομη την κράτηση Ινδού υπηκόου στις Λίμνες και διέταξε άμεση απελευθέρωση. Είχαν προηγηθεί ακύρωση διαταγμάτων από το Διοικητικό Δικαστήριο στις 21 Οκτωβρίου και προσφυγή στις 30 Οκτωβρίου. Το δικαστήριο εντόπισε κενά στην απόδειξη επίδοσης νέων διαταγμάτων.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-23-evening/limnes-ruling.json",
+      "reader_url": "articles/2026-11-23-evening/limnes-ruling.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1799561/paranomi-i-kratisi-indou-ipikoou-stis-limnes-afstiro-minima-anotatou-gia-ti-mi-simmorfosi-ton-archon-me-dikastiki-apofasi",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-23T15:34:57+00:00",
+          "retrieved_at": "2026-11-23T16:21:25.406983+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1799561/paranomi-i-kratisi-indou-ipikoou-stis-limnes-afstiro-minima-anotatou-gia-ti-mi-simmorfosi-ton-archon-me-dikastiki-apofasi/",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": null,
+          "retrieved_at": "2026-11-23T17:34:52.864Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/bce0f89a2e3a93f19b17e7e1082f58049026c8b6bd9e7e5c3d5f6acfab70f485.webp"
+    },
+    {
+      "story_id": "kakopetria-forensic-response-2026-11-23",
+      "identity": "kakopetria-forensic-response-2026-11-23",
+      "edition_id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "slot": "evening",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T17:42:11.633849+00:00",
+      "headline": "Κακοπετριά: νέα αστυνομική τοποθέτηση μετά τη νεκροτομή",
+      "finding": "Η Αστυνομία δήλωσε στο ΚΥΠΕ ότι, μετά τη νεκροτομή και τις έως τώρα έρευνες, δεν προκύπτουν στοιχεία σκόπιμης πρόκλησης θανάτου της 17χρονης, αναφέρει το SigmaLive. Δεν δίνεται οριστική αιτία θανάτου στο απόσπασμα.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-23-evening/kakopetria-autopsy.json",
+      "reader_url": "articles/2026-11-23-evening/kakopetria-autopsy.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1338814/astinomia-ghia-17khroni-den-prokyptoyn-stoikhia-ghia-skopimi-proklisi-thanatoy",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-23T15:55:25+00:00",
+          "retrieved_at": "2026-11-23T16:21:25.172050+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/2bdbade7514e3c9d019677f677d952c3866230da2d43e8fbd0c1f2b11cd48879.webp"
+    },
+    {
+      "story_id": "cyprus-eu-budget-2026-11-23",
+      "identity": "cyprus-eu-budget-2026-11-23",
+      "edition_id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "slot": "evening",
+      "published_at": "2026-11-23T17:42:11.633849+00:00",
+      "available_at": "2026-11-23T17:42:11.633849+00:00",
+      "headline": "Χριστοδουλίδης: προτεραιότητα η γεωργία και η συνοχή",
+      "finding": "Ο Χριστοδουλίδης ζητεί διατήρηση γεωργικής χρηματοδότησης και συνοχής στον επόμενο πολυετή προϋπολογισμό της ΕΕ, αναφέρει το Cyprus Mail. Πρόκειται για διαπραγματευτική θέση, χωρίς τεκμηρίωση οριστικής συμφωνίας ή νέων κυπριακών κονδυλίων.",
+      "section": "cyprus",
+      "priority": 6,
+      "article_path": "articles/2026-11-23-evening/eu-budget-position.json",
+      "reader_url": "articles/2026-11-23-evening/eu-budget-position.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/23/christodoulides-next-eu-budget-must-preserve-agriculture-cohesion-spending",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-23T15:25:17+00:00",
+          "retrieved_at": "2026-11-23T16:21:24.639555+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/bea23b10a99664ee213aa91a7919d9736fd04bf4bfbda2c60b06c0753d98999a.webp"
+    },
+    {
+      "story_id": "augsburger-pressure-2026-11-23",
+      "identity": "augsburger-pressure-2026-11-23",
+      "edition_id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "slot": "evening",
+      "published_at": "2026-11-23T17:42:11.633849+00:00",
+      "available_at": "2026-11-23T17:42:11.633849+00:00",
+      "headline": "Padel: το «PRESSURE» παρουσιάζει την εμπειρία Augsburger",
+      "finding": "Το Padel Addict παρουσιάζει το «PRESSURE», ντοκιμαντέρ για το πώς ο Leo Augsburger αντιμετώπισε την ήττα της Αργεντινής από την Ισπανία στον τελικό Ντόχα και επέστρεψε στη νίκη στο Dubai P1.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-23-evening/augsburger-pressure.json",
+      "reader_url": "articles/2026-11-23-evening/augsburger-pressure.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/leo-augsburger-abre-la-herida-del-mundial-en-su-documental-pressure",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-23T15:44:19+00:00",
+          "retrieved_at": "2026-11-23T16:21:26.651635+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/357702cb2e796b4229ed1a60f921384830f1645eec231229911e6aca78502ae4.webp"
+    },
+    {
+      "story_id": "marquez-eighth-title-2026-11-22",
+      "identity": "marquez-eighth-title-2026-11-22",
+      "edition_id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "slot": "evening",
+      "published_at": "2026-11-23T17:42:11.633849+00:00",
+      "available_at": "2026-11-23T17:42:11.633849+00:00",
+      "headline": "MotoGP: όγδοος τίτλος για τον Marc Márquez",
+      "finding": "Ο Marc Márquez κατέκτησε την Κυριακή όγδοο τίτλο MotoGP στο Πορτιμάο της Πορτογαλίας, ισοφαρίζοντας το ρεκόρ, αναφέρει το BBC. Ο Giacomo Agostini του παρέδωσε χρυσό κράνος στη σχετική παρουσίαση.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-23-evening/marquez-title.json",
+      "reader_url": "articles/2026-11-23-evening/marquez-title.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/motorsport/videos/cr930y14v3n4o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-23T15:50:48+00:00",
+          "retrieved_at": "2026-11-23T16:21:23.981978+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/8cba3bea846ff058b6227aaffd4181af9fc485606dfc29845b0c2a7bc72f6f5e.webp"
+    },
+    {
+      "story_id": "wang-ai-warning-2026-11-23",
+      "identity": "wang-ai-warning-2026-11-23",
+      "edition_id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "slot": "evening",
+      "published_at": "2026-11-23T11:35:27.918824+00:00",
+      "available_at": "2026-11-23T17:42:11.633849+00:00",
+      "headline": "Wang: προειδοποίηση για τον έλεγχο της AI",
+      "finding": "Ο Wang της Meta προειδοποιεί για απώλεια ελέγχου συστημάτων που αυτοβελτιώνονται, αναφέρει το Al Jazeera. Επικαλείται ισχυρισμό απόδειξης της υπόθεσης Riemann με Claude. Το Ctech σημειώνει ότι δεν έχει γίνει αποδεκτός ως οριστικό μαθηματικό αποτέλεσμα.",
+      "section": "world",
+      "priority": 2,
+      "article_path": "articles/2026-11-23-evening/wang-ai-warning.json",
+      "reader_url": "articles/2026-11-23-evening/wang-ai-warning.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/economy/2026/11/23/ai-superintelligence-arriving-warns-top-meta-executive?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-23T09:08:07+00:00",
+          "retrieved_at": "2026-11-23T10:21:18.648391+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.calcalistech.com/ctechnews/article/hked2tbjqx",
+          "publisher": "Ctech",
+          "reporting_group": "Ctech",
+          "published_at": null,
+          "retrieved_at": "2026-11-23T11:29:58.083Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/66ba41cfd158bc1ab770e856e159f774a3d911202974f9c8bf21b952e575e999.webp"
+    },
+    {
+      "story_id": "uk-energy-household-options-2026-11-23",
+      "identity": "uk-energy-household-options-2026-11-23",
+      "edition_id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "slot": "evening",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T17:42:11.633849+00:00",
+      "headline": "Βρετανία: πρόβλεψη ενεργειακών αυξήσεων και επιλογές νοικοκυριών",
+      "finding": "Το BBC αναφέρει πρόβλεψη ανόδου ενεργειακών τιμών κατά 26% για εκατομμύρια βρετανικά νοικοκυριά τον Ιανουάριο και παρουσιάζει τρόπους περιορισμού κατανάλωσης. Η πληρωμή με πάγια εντολή περιγράφεται ως συνήθως φθηνότερη από το standard credit. Η αναφερόμενη ενίσχυση £100 αφορά στην Αγγλία κατοικίες των ζωνών δημοτικού φόρου A–D· αντίστοιχη εφαρμογή σε Σκωτία και Ουαλία αναμένεται.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-11-23-evening/uk-energy-costs.json",
+      "reader_url": "articles/2026-11-23-evening/uk-energy-costs.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-23T01:05:07+00:00",
+          "retrieved_at": "2026-11-23T04:21:16.442771+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/38a3d13815c7a00ae687b9620db7f8754acd0190297beedf0a9499db92ae0e30.webp"
+    },
+    {
+      "story_id": "aradippou-koshi-capacity-warning-2026-11-23",
+      "identity": "aradippou-koshi-capacity-warning-2026-11-23",
+      "edition_id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "slot": "evening",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T17:42:11.633849+00:00",
+      "headline": "Αραδίππου: προειδοποίηση για τα όρια της μονάδας Κόσιης",
+      "finding": "Ο δήμαρχος Αραδίππου Χριστόδουλος Πάρτου ζητεί ταχύτερες αποφάσεις για τα απορρίμματα, προειδοποιώντας ότι η μονάδα Κόσιης πλησιάζει στα όρια δυναμικότητάς της, αναφέρει το Cyprus Mail. Κατά τον ίδιο, λίγο κάτω από 60% των αποβλήτων καταλήγει σε ταφή. Εκτιμά ότι καλύτερη διαλογή σε Λάρνακα, Αμμόχωστο και Λευκωσία και τρίτη γραμμή διαλογής θα μπορούσαν να περιορίσουν το ποσοστό περίπου στο 40%.",
+      "section": "cyprus",
+      "priority": 7,
+      "article_path": "articles/2026-11-23-evening/koshi-waste.json",
+      "reader_url": "articles/2026-11-23-evening/koshi-waste.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/23/aradippou-mayor-calls-for-urgent-action-on-waste-management",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-23T02:24:00+00:00",
+          "retrieved_at": "2026-11-23T04:21:17.545590+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/79ac6c9cf8b90a8f57b904a07d85875be62da942edf6256f392dcf295c501060.webp"
+    },
+    {
+      "story_id": "coastline-cyprus-ai-research-2026-11-23",
+      "identity": "coastline-cyprus-ai-research-2026-11-23",
+      "edition_id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "slot": "evening",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T17:42:11.633849+00:00",
+      "headline": "COASTLINE: κυπριακός συντονισμός έρευνας για τις μεταβαλλόμενες ακτές",
+      "finding": "Το ευρωπαϊκά χρηματοδοτούμενο COASTLINE συνδυάζει δορυφορικές εικόνες, δεδομένα drones, επιτόπιες μετρήσεις και τεχνητή νοημοσύνη, αναφέρει το Cyprus Mail. Ερευνητές σε Κύπρο, Ελλάδα και Ιταλία εργάζονται σε πρόγραμμα που ξεκίνησε τον Ιανουάριο 2024 και ολοκληρώνεται στο τέλος του 2027. Στην Κύπρο αξιοποιούνται δημόσια δεδομένα για εκτίμηση κινδύνων σε παράκτιους αρχαιολογικούς χώρους.",
+      "section": "cyprus",
+      "priority": 8,
+      "article_path": "articles/2026-11-23-evening/coastline-ai.json",
+      "reader_url": "articles/2026-11-23-evening/coastline-ai.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/23/cyprus-led-research-project-uses-ai-to-track-europes-changing-coastlines",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-23T04:00:00+00:00",
+          "retrieved_at": "2026-11-23T04:21:17.016714+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5727df3bacb4fbb1ec8411e16663fb83074c2e2bcaca608ed374cba7d263b42f.webp"
+    },
+    {
+      "story_id": "psg-nice-doue-treatment-2026-11-21",
+      "identity": "psg-nice-doue-treatment-2026-11-21",
+      "edition_id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "slot": "evening",
+      "published_at": "2026-11-23T05:41:12.447708+00:00",
+      "available_at": "2026-11-23T17:42:11.633849+00:00",
+      "headline": "Παρί: αποχώρηση Doué με φορείο στη νίκη επί της Νις",
+      "finding": "Στο δημοσίευμα του Guardian της 21ης Νοεμβρίου, ο Désiré Doué αποχώρησε με φορείο μετά από φροντίδα στο δεξί γόνατο στη νίκη 3–2 της Παρί επί της Νις. Είχε σκοράρει πριν από το περιστατικό.",
+      "section": "sports",
+      "priority": 12,
+      "article_path": "articles/2026-11-23-evening/psg-nice-doue.json",
+      "reader_url": "articles/2026-11-23-evening/psg-nice-doue.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/football/2026/nov/21/european-football-borussia-dortmund-psg-real-madrid",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-21T20:25:53+00:00",
+          "retrieved_at": "2026-11-23T04:21:17.467219+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/126388981849dd3db72ce263bdf4f3fad87bfe2530257c4838e938fbfaadd981.webp"
     },
     {
       "story_id": "merkury-claim-2026-11-23",
