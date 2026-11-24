@@ -1,0 +1,77 @@
+{
+  "analysis_sources": [
+    "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
+  ],
+  "baseline_origin": {
+    "edition_id": "2026-11-24-midday",
+    "fingerprint": "77432f4979da11d36618456b41a4d99099683a9e2639e07eee2e5bd707a52662"
+  },
+  "category": "Διεθνή",
+  "change_status": "UNCHANGED",
+  "daily": {
+    "events": [],
+    "priority": 9,
+    "section": "world"
+  },
+  "driver_tags": [
+    "world",
+    "us",
+    "nvidia",
+    "technology",
+    "finance"
+  ],
+  "edition_id": "2026-11-24-evening",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "NVIDIA: νεότερη αποτίμηση της επανόδου Χουάνγκ και ακρόαση την 1η Δεκεμβρίου",
+  "id": "nvidia-session",
+  "image": {
+    "alt": "US President Donald Trump stands with Jensen Huang in Washington DC on 8 October 2026",
+    "attribution": "BBC News",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · US President Donald Trump stands with Jensen Huang in Washington DC on 8 October 2026 · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+    "original_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c94d/live/cfb736f0-e78a-11f1-a5c2-c57ab9df3111.jpg",
+    "retrieved_at": "2026-11-24T04:21:34.007336+00:00",
+    "source_review": {
+      "checked_at": "2026-11-24T04:21:34.007336+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "3b33252d2b292f74",
+      "rights_basis": "publisher-attribution",
+      "sha256": "6786054061df47275487d1cdd79aa416ff293d8996814e8d1e1fec67b4328f9e"
+    },
+    "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+    "url": "assets/editorial/source/6786054061df47275487d1cdd79aa416ff293d8996814e8d1e1fec67b4328f9e.webp"
+  },
+  "newspaper_analysis": [
+    "Η αύξηση χρηματιστηριακής αξίας αποτυπώνει αποτίμηση επενδυτών· δεν είναι ισόποση είσπραξη της εταιρείας ή αύξηση λειτουργικών κερδών."
+  ],
+  "published_at": "2026-11-23T17:42:11.633849+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Το BBC στις 24 Νοεμβρίου προσθέτει χρηματιστηριακή και θεσμική συνέχεια στην επαναφορά του Τζένσεν Χουάνγκ της προηγουμένης. Αναφέρει άνοδο της μετοχής κατά 31% μετά τον επαναδιορισμό τη Δευτέρα, με αύξηση χρηματιστηριακής αξίας περίπου ενός τρισεκατομμυρίου δολαρίων. Ο Χουάνγκ προγραμματίζεται να δώσει κλειστή συνέντευξη σε τρεις επιτροπές της Βουλής των Αντιπροσώπων την 1η Δεκεμβρίου."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-24T01:11:54+00:00",
+      "publisher": "BBC",
+      "reporting_group": "BBC",
+      "retrieved_at": "2026-11-24T04:21:24.012217+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "nvidia-huang-return-2026-11-23",
+  "story_identity": "nvidia-huang-return-2026-11-23",
+  "summary": "Το BBC στις 24 Νοεμβρίου προσθέτει χρηματιστηριακή και θεσμική συνέχεια στην επαναφορά του Τζένσεν Χουάνγκ της προηγουμένης. Αναφέρει άνοδο της μετοχής κατά 31% μετά τον επαναδιορισμό τη Δευτέρα, με αύξηση χρηματιστηριακής αξίας περίπου ενός τρισεκατομμυρίου δολαρίων. Ο Χουάνγκ προγραμματίζεται να δώσει κλειστή συνέντευξη σε τρεις επιτροπές της Βουλής των Αντιπροσώπων την 1η Δεκεμβρίου.",
+  "updated_at": "2026-11-24T05:43:00.799042+00:00",
+  "url": "articles/2026-11-24-evening/nvidia-session.html"
+}
