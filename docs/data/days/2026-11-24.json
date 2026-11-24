@@ -16,12 +16,16 @@
       "type": "midday",
       "url": "midday/2026-11-24.html",
       "published_at": "2026-11-24T11:42:17.476040+00:00"
+    },
+    {
+      "id": "2026-11-24-evening",
+      "type": "evening",
+      "url": "evening/2026-11-24.html",
+      "published_at": "2026-11-24T17:41:56.445247+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "north-sea-gps-2026-11-09",
+  "missing_slots": [],
+  "lead_story_id": "eu-budget-2027-2026-11-24",
   "stories": [
     {
       "story_id": "cyprus-energy-2026-11-24",
@@ -33,13 +37,19 @@
           "article_id": "energy",
           "source_story_id": "cyprus-energy-2026-11-24",
           "url": "articles/2026-11-24-midday/energy.html"
+        },
+        {
+          "edition_id": "2026-11-24-evening",
+          "article_id": "energy",
+          "source_story_id": "cyprus-energy-2026-11-24",
+          "url": "articles/2026-11-24-evening/energy.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-24-midday",
+        "edition_id": "2026-11-24-evening",
         "article_id": "energy",
         "source_story_id": "cyprus-energy-2026-11-24",
-        "url": "articles/2026-11-24-midday/energy.html"
+        "url": "articles/2026-11-24-evening/energy.html"
       },
       "section": "cyprus",
       "priority": 1
@@ -60,13 +70,19 @@
           "article_id": "gesy-sensors",
           "source_story_id": "gesy-sensors-2026-11-24",
           "url": "articles/2026-11-24-midday/gesy-sensors.html"
+        },
+        {
+          "edition_id": "2026-11-24-evening",
+          "article_id": "gesy-sensors",
+          "source_story_id": "gesy-sensors-2026-11-24",
+          "url": "articles/2026-11-24-evening/gesy-sensors.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-24-midday",
+        "edition_id": "2026-11-24-evening",
         "article_id": "gesy-sensors",
         "source_story_id": "gesy-sensors-2026-11-24",
-        "url": "articles/2026-11-24-midday/gesy-sensors.html"
+        "url": "articles/2026-11-24-evening/gesy-sensors.html"
       },
       "section": "cyprus",
       "priority": 1
@@ -81,13 +97,19 @@
           "article_id": "eu-budget",
           "source_story_id": "cyprus-epp-budget-2026-11-24",
           "url": "articles/2026-11-24-midday/eu-budget.html"
+        },
+        {
+          "edition_id": "2026-11-24-evening",
+          "article_id": "eu-budget",
+          "source_story_id": "cyprus-epp-budget-2026-11-24",
+          "url": "articles/2026-11-24-evening/eu-budget.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-24-midday",
+        "edition_id": "2026-11-24-evening",
         "article_id": "eu-budget",
         "source_story_id": "cyprus-epp-budget-2026-11-24",
-        "url": "articles/2026-11-24-midday/eu-budget.html"
+        "url": "articles/2026-11-24-evening/eu-budget.html"
       },
       "section": "cyprus",
       "priority": 2
@@ -114,6 +136,27 @@
       "priority": 2
     },
     {
+      "story_id": "platres-careers-2026-11-24",
+      "first_seen_at": "2026-11-24T17:41:56.445247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-24-evening",
+          "article_id": "platres",
+          "source_story_id": "platres-careers-2026-11-24",
+          "url": "articles/2026-11-24-evening/platres.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "platres",
+        "source_story_id": "platres-careers-2026-11-24",
+        "url": "articles/2026-11-24-evening/platres.html"
+      },
+      "section": "cyprus",
+      "priority": 2
+    },
+    {
       "story_id": "cyprus-efad-board-2026-2029",
       "first_seen_at": "2026-11-24T05:43:00.799042+00:00",
       "last_substantive_at": null,
@@ -130,6 +173,27 @@
         "article_id": "cyprus-efad",
         "source_story_id": "cyprus-efad-board-2026-2029",
         "url": "articles/2026-11-24-morning/cyprus-efad.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
+      "story_id": "dhekelia-cleanup-2026-11-13",
+      "first_seen_at": "2026-11-24T17:41:56.445247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-24-evening",
+          "article_id": "dhekelia",
+          "source_story_id": "dhekelia-cleanup-2026-11-13",
+          "url": "articles/2026-11-24-evening/dhekelia.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "dhekelia",
+        "source_story_id": "dhekelia-cleanup-2026-11-13",
+        "url": "articles/2026-11-24-evening/dhekelia.html"
       },
       "section": "cyprus",
       "priority": 3
@@ -154,6 +218,27 @@
       },
       "section": "cyprus",
       "priority": 3
+    },
+    {
+      "story_id": "eu-budget-2027-2026-11-24",
+      "first_seen_at": "2026-11-24T17:41:56.445247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-24-evening",
+          "article_id": "eu-budget-2027",
+          "source_story_id": "eu-budget-2027-2026-11-24",
+          "url": "articles/2026-11-24-evening/eu-budget-2027.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "eu-budget-2027",
+        "source_story_id": "eu-budget-2027-2026-11-24",
+        "url": "articles/2026-11-24-evening/eu-budget-2027.html"
+      },
+      "section": "world",
+      "priority": 4
     },
     {
       "story_id": "karaolos-plan-2026-11-23",
@@ -204,6 +289,27 @@
       "priority": 4
     },
     {
+      "story_id": "gaza-abu-nahel-killed-2026-11-24",
+      "first_seen_at": "2026-11-24T17:41:56.445247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-24-evening",
+          "article_id": "gaza",
+          "source_story_id": "gaza-abu-nahel-killed-2026-11-24",
+          "url": "articles/2026-11-24-evening/gaza.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "gaza",
+        "source_story_id": "gaza-abu-nahel-killed-2026-11-24",
+        "url": "articles/2026-11-24-evening/gaza.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
       "story_id": "third-age-nicosia-2026-12-10",
       "first_seen_at": "2026-11-24T05:43:00.799042+00:00",
       "last_substantive_at": null,
@@ -234,13 +340,19 @@
           "article_id": "ukraine-power",
           "source_story_id": "ukraine-power-2026-11-24",
           "url": "articles/2026-11-24-midday/ukraine-power.html"
+        },
+        {
+          "edition_id": "2026-11-24-evening",
+          "article_id": "ukraine-power",
+          "source_story_id": "ukraine-power-2026-11-24",
+          "url": "articles/2026-11-24-evening/ukraine-power.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-24-midday",
+        "edition_id": "2026-11-24-evening",
         "article_id": "ukraine-power",
         "source_story_id": "ukraine-power-2026-11-24",
-        "url": "articles/2026-11-24-midday/ukraine-power.html"
+        "url": "articles/2026-11-24-evening/ukraine-power.html"
       },
       "section": "world",
       "priority": 5
@@ -276,16 +388,70 @@
           "article_id": "kurtaj",
           "source_story_id": "kurtaj-sentence-2026-11-23",
           "url": "articles/2026-11-24-midday/kurtaj.html"
+        },
+        {
+          "edition_id": "2026-11-24-evening",
+          "article_id": "kurtaj",
+          "source_story_id": "kurtaj-sentence-2026-11-23",
+          "url": "articles/2026-11-24-evening/kurtaj.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-24-midday",
+        "edition_id": "2026-11-24-evening",
         "article_id": "kurtaj",
         "source_story_id": "kurtaj-sentence-2026-11-23",
-        "url": "articles/2026-11-24-midday/kurtaj.html"
+        "url": "articles/2026-11-24-evening/kurtaj.html"
       },
       "section": "world",
       "priority": 6
+    },
+    {
+      "story_id": "mexico-major-schedule-2026-11-24",
+      "first_seen_at": "2026-11-24T17:41:56.445247+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-24-evening",
+          "article_id": "mexico-padel",
+          "source_story_id": "mexico-major-schedule-2026-11-24",
+          "url": "articles/2026-11-24-evening/mexico-padel.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "mexico-padel",
+        "source_story_id": "mexico-major-schedule-2026-11-24",
+        "url": "articles/2026-11-24-evening/mexico-padel.html"
+      },
+      "section": "sports",
+      "priority": 6
+    },
+    {
+      "story_id": "afcon-dispute-2026-11-23",
+      "first_seen_at": "2026-11-24T05:43:00.799042+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-24-morning",
+          "article_id": "afcon-dispute",
+          "source_story_id": "afcon-dispute-2026-11-23",
+          "url": "articles/2026-11-24-morning/afcon-dispute.html"
+        },
+        {
+          "edition_id": "2026-11-24-evening",
+          "article_id": "afcon",
+          "source_story_id": "afcon-dispute-2026-11-23",
+          "url": "articles/2026-11-24-evening/afcon.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "afcon",
+        "source_story_id": "afcon-dispute-2026-11-23",
+        "url": "articles/2026-11-24-evening/afcon.html"
+      },
+      "section": "sports",
+      "priority": 7
     },
     {
       "story_id": "augsburger-pressure-2026-11-23",
@@ -393,13 +559,19 @@
           "article_id": "nvidia-session",
           "source_story_id": "nvidia-huang-return-2026-11-23",
           "url": "articles/2026-11-24-midday/nvidia-session.html"
+        },
+        {
+          "edition_id": "2026-11-24-evening",
+          "article_id": "nvidia-session",
+          "source_story_id": "nvidia-huang-return-2026-11-23",
+          "url": "articles/2026-11-24-evening/nvidia-session.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-24-midday",
+        "edition_id": "2026-11-24-evening",
         "article_id": "nvidia-session",
         "source_story_id": "nvidia-huang-return-2026-11-23",
-        "url": "articles/2026-11-24-midday/nvidia-session.html"
+        "url": "articles/2026-11-24-evening/nvidia-session.html"
       },
       "section": "world",
       "priority": 9
@@ -426,27 +598,6 @@
       "priority": 10
     },
     {
-      "story_id": "afcon-dispute-2026-11-23",
-      "first_seen_at": "2026-11-24T05:43:00.799042+00:00",
-      "last_substantive_at": null,
-      "references": [
-        {
-          "edition_id": "2026-11-24-morning",
-          "article_id": "afcon-dispute",
-          "source_story_id": "afcon-dispute-2026-11-23",
-          "url": "articles/2026-11-24-morning/afcon-dispute.html"
-        }
-      ],
-      "selected": {
-        "edition_id": "2026-11-24-morning",
-        "article_id": "afcon-dispute",
-        "source_story_id": "afcon-dispute-2026-11-23",
-        "url": "articles/2026-11-24-morning/afcon-dispute.html"
-      },
-      "section": "sports",
-      "priority": 11
-    },
-    {
       "story_id": "penge-rsm-win-2026-11-23",
       "first_seen_at": "2026-11-24T05:43:00.799042+00:00",
       "last_substantive_at": null,
@@ -462,13 +613,19 @@
           "article_id": "penge-rsm",
           "source_story_id": "penge-rsm-win-2026-11-23",
           "url": "articles/2026-11-24-midday/penge-rsm.html"
+        },
+        {
+          "edition_id": "2026-11-24-evening",
+          "article_id": "penge-rsm",
+          "source_story_id": "penge-rsm-win-2026-11-23",
+          "url": "articles/2026-11-24-evening/penge-rsm.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-24-midday",
+        "edition_id": "2026-11-24-evening",
         "article_id": "penge-rsm",
         "source_story_id": "penge-rsm-win-2026-11-23",
-        "url": "articles/2026-11-24-midday/penge-rsm.html"
+        "url": "articles/2026-11-24-evening/penge-rsm.html"
       },
       "section": "sports",
       "priority": 12
@@ -824,6 +981,188 @@
         "source_story_id": "cyprus-epp-budget-2026-11-24",
         "url": "articles/2026-11-24-midday/eu-budget.html"
       }
+    },
+    {
+      "id": "14cf577faf7f5ad3413bab763bf594d857d1a184ba069ee7569cbb594604961e",
+      "kind": "provenance",
+      "at": "2026-11-24T17:41:56.445247+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "eu-budget-2027-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "eu-budget-2027",
+        "source_story_id": "eu-budget-2027-2026-11-24",
+        "url": "articles/2026-11-24-evening/eu-budget-2027.html"
+      }
+    },
+    {
+      "id": "1ef4f8710a6b1abf79ffec0eaadacf14d75c6fe372203b74ac129820c4b4b905",
+      "kind": "provenance",
+      "at": "2026-11-24T17:41:56.445247+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "dhekelia-cleanup-2026-11-13",
+      "origin": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "dhekelia",
+        "source_story_id": "dhekelia-cleanup-2026-11-13",
+        "url": "articles/2026-11-24-evening/dhekelia.html"
+      }
+    },
+    {
+      "id": "237e8a873f124319bf335e87156897a39fad61e9050d00fe5b561d0929fb8c2c",
+      "kind": "provenance",
+      "at": "2026-11-24T17:41:56.445247+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "mexico-major-schedule-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "mexico-padel",
+        "source_story_id": "mexico-major-schedule-2026-11-24",
+        "url": "articles/2026-11-24-evening/mexico-padel.html"
+      }
+    },
+    {
+      "id": "44b0481e781ddf96d395b8a52a835553255eef0f90e7dfb9ae868b295f0adbd5",
+      "kind": "provenance",
+      "at": "2026-11-24T17:41:56.445247+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "platres-careers-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "platres",
+        "source_story_id": "platres-careers-2026-11-24",
+        "url": "articles/2026-11-24-evening/platres.html"
+      }
+    },
+    {
+      "id": "8169e074684e2f42d353ea8b4bcdacbd87ffaee7e924ba56a15061223702dbaa",
+      "kind": "provenance",
+      "at": "2026-11-24T17:41:56.445247+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "gesy-sensors-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "gesy-sensors",
+        "source_story_id": "gesy-sensors-2026-11-24",
+        "url": "articles/2026-11-24-evening/gesy-sensors.html"
+      }
+    },
+    {
+      "id": "a189282e520c6d6b87be5c2bb2215e20f86a2ab843488a6085d5fa7550950233",
+      "kind": "provenance",
+      "at": "2026-11-24T17:41:56.445247+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-epp-budget-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "eu-budget",
+        "source_story_id": "cyprus-epp-budget-2026-11-24",
+        "url": "articles/2026-11-24-evening/eu-budget.html"
+      }
+    },
+    {
+      "id": "a4db98c3dbf809ae11b52eb8c6ea93313ee7cc82a7bce2f3040229ffc75180a3",
+      "kind": "provenance",
+      "at": "2026-11-24T17:41:56.445247+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-huang-return-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "nvidia-session",
+        "source_story_id": "nvidia-huang-return-2026-11-23",
+        "url": "articles/2026-11-24-evening/nvidia-session.html"
+      }
+    },
+    {
+      "id": "aaa7e6ca6eab4749bb5889b94d4509d811f22391d5faa3ee88e64eb87742c300",
+      "kind": "provenance",
+      "at": "2026-11-24T17:41:56.445247+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "gaza-abu-nahel-killed-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "gaza",
+        "source_story_id": "gaza-abu-nahel-killed-2026-11-24",
+        "url": "articles/2026-11-24-evening/gaza.html"
+      }
+    },
+    {
+      "id": "b7013b2bf293d3793d42e997c3294b01614f504365bdbd1658fca29ebaf2f1b8",
+      "kind": "provenance",
+      "at": "2026-11-24T17:41:56.445247+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "afcon-dispute-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "afcon",
+        "source_story_id": "afcon-dispute-2026-11-23",
+        "url": "articles/2026-11-24-evening/afcon.html"
+      }
+    },
+    {
+      "id": "c3f73c61e36119ec60c4665edf1fb8dadd34d8fa4d2293f37e3353738679a979",
+      "kind": "provenance",
+      "at": "2026-11-24T17:41:56.445247+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "kurtaj-sentence-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "kurtaj",
+        "source_story_id": "kurtaj-sentence-2026-11-23",
+        "url": "articles/2026-11-24-evening/kurtaj.html"
+      }
+    },
+    {
+      "id": "cba4849a6b9aa5eba1b3481268e82573fb230c33220c1c1c55b998aa16997ce0",
+      "kind": "provenance",
+      "at": "2026-11-24T17:41:56.445247+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-power-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "ukraine-power",
+        "source_story_id": "ukraine-power-2026-11-24",
+        "url": "articles/2026-11-24-evening/ukraine-power.html"
+      }
+    },
+    {
+      "id": "da1731578172f86638c912ce557bf658c75ce586247e437cbe228d5b77c2dc80",
+      "kind": "provenance",
+      "at": "2026-11-24T17:41:56.445247+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "penge-rsm-win-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "penge-rsm",
+        "source_story_id": "penge-rsm-win-2026-11-23",
+        "url": "articles/2026-11-24-evening/penge-rsm.html"
+      }
+    },
+    {
+      "id": "db5db407353f82c2c5d89d748ccd7127f3fc232eb1c5e40908b30a24e3bb7bde",
+      "kind": "provenance",
+      "at": "2026-11-24T17:41:56.445247+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-energy-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-24-evening",
+        "article_id": "energy",
+        "source_story_id": "cyprus-energy-2026-11-24",
+        "url": "articles/2026-11-24-evening/energy.html"
+      }
     }
   ],
   "opportunities": [
@@ -1032,16 +1371,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Στην Κύπρο, τεστ των ενεργειακών εξαγγελιών είναι η λειτουργία έργων και η επίδραση στο κόστος. Στη Βόρεια Θάλασσα, η ανάλυση τεκμηριώνει παρεμβολές GPS, χωρίς ταυτοποίηση υπευθύνου: ουσιώδης διάκριση στην αξιολόγηση κινδύνου.",
+        "text": "Οι κυπριακές προειδοποιήσεις για αποκοπές ΑΠΕ απαιτούν μετρήσιμη αξιοποίηση παραγωγής και όφελος λογαριασμών. Ο ετήσιος προϋπολογισμός ΕΕ 2027 αναμένει κοινοβουλευτική έγκριση· είναι διαφορετικός από το επόμενο πολυετές πλαίσιο. Επόμενα τεστ: η ψήφος της 25ης Νοεμβρίου και η υλοποίηση ενεργειακών έργων.",
         "story_ids": [
           "cyprus-energy-2026-11-24",
-          "north-sea-gps-2026-11-09"
+          "eu-budget-2027-2026-11-24"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-24T05:45:02.851840+00:00",
-  "updated_at": "2026-11-24T11:44:24.441169+00:00",
-  "input_sha256": "93d368fb812f85cf61e9f3c37281ea4ab1a3e64af9fea4c631bebc93e3d1af7d"
+  "updated_at": "2026-11-24T17:44:37.313267+00:00",
+  "input_sha256": "d62f4b72ca97bde8700194963d4866e4d9c3505846a522a21205bdff12e26aa6"
 }

@@ -2611,6 +2611,27 @@
       "coverage": "structured"
     },
     {
+      "edition_id": "2026-11-24-evening",
+      "as_of": "2026-11-24T17:41:56.445247+00:00",
+      "records": [
+        {
+          "owner": "2026-11-24-evening",
+          "checked_at": "2026-11-24T16:21:26.120942+00:00",
+          "id": "weather-limassol",
+          "kind": "weather",
+          "label": "Μοντέλο καιρού · Λεμεσός",
+          "recheck_at": "2026-11-24T18:00:00+00:00",
+          "sources": [
+            "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=34.68&lon=33.04"
+          ],
+          "valid_from": "2026-11-24T16:00:00+00:00",
+          "valid_until": "2026-11-24T18:00:00+00:00",
+          "state": "current"
+        }
+      ],
+      "coverage": "structured"
+    },
+    {
       "edition_id": "2026-11-24-midday",
       "as_of": "2026-11-24T11:42:17.476040+00:00",
       "records": [
