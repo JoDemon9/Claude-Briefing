@@ -10,14 +10,40 @@
       "type": "morning",
       "url": "morning/2026-11-24.html",
       "published_at": "2026-11-24T05:43:00.799042+00:00"
+    },
+    {
+      "id": "2026-11-24-midday",
+      "type": "midday",
+      "url": "midday/2026-11-24.html",
+      "published_at": "2026-11-24T11:42:17.476040+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "eu-russia-package-22-2026-11-23",
+  "lead_story_id": "north-sea-gps-2026-11-09",
   "stories": [
+    {
+      "story_id": "cyprus-energy-2026-11-24",
+      "first_seen_at": "2026-11-24T11:42:17.476040+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-24-midday",
+          "article_id": "energy",
+          "source_story_id": "cyprus-energy-2026-11-24",
+          "url": "articles/2026-11-24-midday/energy.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "energy",
+        "source_story_id": "cyprus-energy-2026-11-24",
+        "url": "articles/2026-11-24-midday/energy.html"
+      },
+      "section": "cyprus",
+      "priority": 1
+    },
     {
       "story_id": "gesy-sensors-2026-11-24",
       "first_seen_at": "2026-11-24T05:43:00.799042+00:00",
@@ -28,16 +54,43 @@
           "article_id": "gesy-sensors",
           "source_story_id": "gesy-sensors-2026-11-24",
           "url": "articles/2026-11-24-morning/gesy-sensors.html"
+        },
+        {
+          "edition_id": "2026-11-24-midday",
+          "article_id": "gesy-sensors",
+          "source_story_id": "gesy-sensors-2026-11-24",
+          "url": "articles/2026-11-24-midday/gesy-sensors.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-24-morning",
+        "edition_id": "2026-11-24-midday",
         "article_id": "gesy-sensors",
         "source_story_id": "gesy-sensors-2026-11-24",
-        "url": "articles/2026-11-24-morning/gesy-sensors.html"
+        "url": "articles/2026-11-24-midday/gesy-sensors.html"
       },
       "section": "cyprus",
       "priority": 1
+    },
+    {
+      "story_id": "cyprus-epp-budget-2026-11-24",
+      "first_seen_at": "2026-11-24T11:42:17.476040+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-24-midday",
+          "article_id": "eu-budget",
+          "source_story_id": "cyprus-epp-budget-2026-11-24",
+          "url": "articles/2026-11-24-midday/eu-budget.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "eu-budget",
+        "source_story_id": "cyprus-epp-budget-2026-11-24",
+        "url": "articles/2026-11-24-midday/eu-budget.html"
+      },
+      "section": "cyprus",
+      "priority": 2
     },
     {
       "story_id": "kyrenia-ferry-hearing-2026-11-23",
@@ -82,6 +135,27 @@
       "priority": 3
     },
     {
+      "story_id": "emel-pupils-complaint-2026-11-24",
+      "first_seen_at": "2026-11-24T11:42:17.476040+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-24-midday",
+          "article_id": "school-bus",
+          "source_story_id": "emel-pupils-complaint-2026-11-24",
+          "url": "articles/2026-11-24-midday/school-bus.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "school-bus",
+        "source_story_id": "emel-pupils-complaint-2026-11-24",
+        "url": "articles/2026-11-24-midday/school-bus.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
       "story_id": "karaolos-plan-2026-11-23",
       "first_seen_at": "2026-11-24T05:43:00.799042+00:00",
       "last_substantive_at": null,
@@ -91,15 +165,42 @@
           "article_id": "karaolos-plan",
           "source_story_id": "karaolos-plan-2026-11-23",
           "url": "articles/2026-11-24-morning/karaolos-plan.html"
+        },
+        {
+          "edition_id": "2026-11-24-midday",
+          "article_id": "karaolos-plan",
+          "source_story_id": "karaolos-plan-2026-11-23",
+          "url": "articles/2026-11-24-midday/karaolos-plan.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-24-morning",
+        "edition_id": "2026-11-24-midday",
         "article_id": "karaolos-plan",
         "source_story_id": "karaolos-plan-2026-11-23",
-        "url": "articles/2026-11-24-morning/karaolos-plan.html"
+        "url": "articles/2026-11-24-midday/karaolos-plan.html"
       },
       "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "north-sea-gps-2026-11-09",
+      "first_seen_at": "2026-11-24T11:42:17.476040+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-24-midday",
+          "article_id": "gps",
+          "source_story_id": "north-sea-gps-2026-11-09",
+          "url": "articles/2026-11-24-midday/gps.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "gps",
+        "source_story_id": "north-sea-gps-2026-11-09",
+        "url": "articles/2026-11-24-midday/gps.html"
+      },
+      "section": "world",
       "priority": 4
     },
     {
@@ -124,6 +225,27 @@
       "priority": 5
     },
     {
+      "story_id": "ukraine-power-2026-11-24",
+      "first_seen_at": "2026-11-24T11:42:17.476040+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-24-midday",
+          "article_id": "ukraine-power",
+          "source_story_id": "ukraine-power-2026-11-24",
+          "url": "articles/2026-11-24-midday/ukraine-power.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "ukraine-power",
+        "source_story_id": "ukraine-power-2026-11-24",
+        "url": "articles/2026-11-24-midday/ukraine-power.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
       "story_id": "eu-russia-package-22-2026-11-23",
       "first_seen_at": "2026-11-24T05:43:00.799042+00:00",
       "last_substantive_at": null,
@@ -145,6 +267,48 @@
       "priority": 6
     },
     {
+      "story_id": "kurtaj-sentence-2026-11-23",
+      "first_seen_at": "2026-11-24T11:42:17.476040+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-24-midday",
+          "article_id": "kurtaj",
+          "source_story_id": "kurtaj-sentence-2026-11-23",
+          "url": "articles/2026-11-24-midday/kurtaj.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "kurtaj",
+        "source_story_id": "kurtaj-sentence-2026-11-23",
+        "url": "articles/2026-11-24-midday/kurtaj.html"
+      },
+      "section": "world",
+      "priority": 6
+    },
+    {
+      "story_id": "augsburger-pressure-2026-11-23",
+      "first_seen_at": "2026-11-24T11:42:17.476040+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-24-midday",
+          "article_id": "padel-pressure",
+          "source_story_id": "augsburger-pressure-2026-11-23",
+          "url": "articles/2026-11-24-midday/padel-pressure.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "padel-pressure",
+        "source_story_id": "augsburger-pressure-2026-11-23",
+        "url": "articles/2026-11-24-midday/padel-pressure.html"
+      },
+      "section": "sports",
+      "priority": 7
+    },
+    {
       "story_id": "trump-removal-appeal-2026-11-23",
       "first_seen_at": "2026-11-24T05:43:00.799042+00:00",
       "last_substantive_at": null,
@@ -154,13 +318,19 @@
           "article_id": "trump-jurisdiction",
           "source_story_id": "trump-removal-appeal-2026-11-23",
           "url": "articles/2026-11-24-morning/trump-jurisdiction.html"
+        },
+        {
+          "edition_id": "2026-11-24-midday",
+          "article_id": "trump-jurisdiction",
+          "source_story_id": "trump-removal-appeal-2026-11-23",
+          "url": "articles/2026-11-24-midday/trump-jurisdiction.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-24-morning",
+        "edition_id": "2026-11-24-midday",
         "article_id": "trump-jurisdiction",
         "source_story_id": "trump-removal-appeal-2026-11-23",
-        "url": "articles/2026-11-24-morning/trump-jurisdiction.html"
+        "url": "articles/2026-11-24-midday/trump-jurisdiction.html"
       },
       "section": "world",
       "priority": 7
@@ -187,6 +357,27 @@
       "priority": 8
     },
     {
+      "story_id": "infantino-flights-2026-11-24",
+      "first_seen_at": "2026-11-24T11:42:17.476040+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-24-midday",
+          "article_id": "infantino-flights",
+          "source_story_id": "infantino-flights-2026-11-24",
+          "url": "articles/2026-11-24-midday/infantino-flights.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "infantino-flights",
+        "source_story_id": "infantino-flights-2026-11-24",
+        "url": "articles/2026-11-24-midday/infantino-flights.html"
+      },
+      "section": "sports",
+      "priority": 8
+    },
+    {
       "story_id": "nvidia-huang-return-2026-11-23",
       "first_seen_at": "2026-11-24T05:43:00.799042+00:00",
       "last_substantive_at": null,
@@ -196,13 +387,19 @@
           "article_id": "nvidia-session",
           "source_story_id": "nvidia-huang-return-2026-11-23",
           "url": "articles/2026-11-24-morning/nvidia-session.html"
+        },
+        {
+          "edition_id": "2026-11-24-midday",
+          "article_id": "nvidia-session",
+          "source_story_id": "nvidia-huang-return-2026-11-23",
+          "url": "articles/2026-11-24-midday/nvidia-session.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-24-morning",
+        "edition_id": "2026-11-24-midday",
         "article_id": "nvidia-session",
         "source_story_id": "nvidia-huang-return-2026-11-23",
-        "url": "articles/2026-11-24-morning/nvidia-session.html"
+        "url": "articles/2026-11-24-midday/nvidia-session.html"
       },
       "section": "world",
       "priority": 9
@@ -259,13 +456,19 @@
           "article_id": "penge-rsm",
           "source_story_id": "penge-rsm-win-2026-11-23",
           "url": "articles/2026-11-24-morning/penge-rsm.html"
+        },
+        {
+          "edition_id": "2026-11-24-midday",
+          "article_id": "penge-rsm",
+          "source_story_id": "penge-rsm-win-2026-11-23",
+          "url": "articles/2026-11-24-midday/penge-rsm.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-24-morning",
+        "edition_id": "2026-11-24-midday",
         "article_id": "penge-rsm",
         "source_story_id": "penge-rsm-win-2026-11-23",
-        "url": "articles/2026-11-24-morning/penge-rsm.html"
+        "url": "articles/2026-11-24-midday/penge-rsm.html"
       },
       "section": "sports",
       "priority": 12
@@ -438,6 +641,188 @@
         "article_id": "trump-jurisdiction",
         "source_story_id": "trump-removal-appeal-2026-11-23",
         "url": "articles/2026-11-24-morning/trump-jurisdiction.html"
+      }
+    },
+    {
+      "id": "0c64d5d63242ddac342ef3ec27b5884b0ea6a2a2d3c5d505392b214defa0e06d",
+      "kind": "provenance",
+      "at": "2026-11-24T11:42:17.476040+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "nvidia-huang-return-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "nvidia-session",
+        "source_story_id": "nvidia-huang-return-2026-11-23",
+        "url": "articles/2026-11-24-midday/nvidia-session.html"
+      }
+    },
+    {
+      "id": "0d3df4ab11da3e7d472d71f0ad8dad767aa5fb39a93a8712dfdd0ab29d804de6",
+      "kind": "provenance",
+      "at": "2026-11-24T11:42:17.476040+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "gesy-sensors-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "gesy-sensors",
+        "source_story_id": "gesy-sensors-2026-11-24",
+        "url": "articles/2026-11-24-midday/gesy-sensors.html"
+      }
+    },
+    {
+      "id": "0f41a22e23dc6e24a1967c1b009919867471a00067961d1b22fbde63fb01a4a5",
+      "kind": "provenance",
+      "at": "2026-11-24T11:42:17.476040+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "karaolos-plan-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "karaolos-plan",
+        "source_story_id": "karaolos-plan-2026-11-23",
+        "url": "articles/2026-11-24-midday/karaolos-plan.html"
+      }
+    },
+    {
+      "id": "2f1cc05d725a6ba63ebac42bba93f991370eed3517567d11a0a9f109ec6182c7",
+      "kind": "provenance",
+      "at": "2026-11-24T11:42:17.476040+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "kurtaj-sentence-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "kurtaj",
+        "source_story_id": "kurtaj-sentence-2026-11-23",
+        "url": "articles/2026-11-24-midday/kurtaj.html"
+      }
+    },
+    {
+      "id": "3018e6b3b7475c37dc08db516cc399fc352ef420971f20ac70332dbb9b61ada3",
+      "kind": "provenance",
+      "at": "2026-11-24T11:42:17.476040+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "augsburger-pressure-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "padel-pressure",
+        "source_story_id": "augsburger-pressure-2026-11-23",
+        "url": "articles/2026-11-24-midday/padel-pressure.html"
+      }
+    },
+    {
+      "id": "48086be44785493a1f22451ee1d2aa1e8fedb7503e966a1a8c851456ebdd945b",
+      "kind": "provenance",
+      "at": "2026-11-24T11:42:17.476040+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "ukraine-power-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "ukraine-power",
+        "source_story_id": "ukraine-power-2026-11-24",
+        "url": "articles/2026-11-24-midday/ukraine-power.html"
+      }
+    },
+    {
+      "id": "4aa933013ea6695f29d5faeff312fa7225e2a99ed33eb527f0afb40bd12ea3de",
+      "kind": "provenance",
+      "at": "2026-11-24T11:42:17.476040+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-energy-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "energy",
+        "source_story_id": "cyprus-energy-2026-11-24",
+        "url": "articles/2026-11-24-midday/energy.html"
+      }
+    },
+    {
+      "id": "52df1ebf175dd5e8a89e363614938b99f8fb74eff7cfdf3ed577b9644fb0f2c4",
+      "kind": "provenance",
+      "at": "2026-11-24T11:42:17.476040+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "north-sea-gps-2026-11-09",
+      "origin": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "gps",
+        "source_story_id": "north-sea-gps-2026-11-09",
+        "url": "articles/2026-11-24-midday/gps.html"
+      }
+    },
+    {
+      "id": "6e238384c6e7960940ec5463a63a1539ba3f9d589c6b0605648ac2f27d211194",
+      "kind": "provenance",
+      "at": "2026-11-24T11:42:17.476040+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "penge-rsm-win-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "penge-rsm",
+        "source_story_id": "penge-rsm-win-2026-11-23",
+        "url": "articles/2026-11-24-midday/penge-rsm.html"
+      }
+    },
+    {
+      "id": "76d60bbacb7c1de2ad4aa255cbe1b9032a987012c905888f5e3f021e847bcb9f",
+      "kind": "provenance",
+      "at": "2026-11-24T11:42:17.476040+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "trump-removal-appeal-2026-11-23",
+      "origin": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "trump-jurisdiction",
+        "source_story_id": "trump-removal-appeal-2026-11-23",
+        "url": "articles/2026-11-24-midday/trump-jurisdiction.html"
+      }
+    },
+    {
+      "id": "9d03e57b8717fbdaeea2178dfc945062653ae77d1197362954b4920a54d48159",
+      "kind": "provenance",
+      "at": "2026-11-24T11:42:17.476040+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "infantino-flights-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "infantino-flights",
+        "source_story_id": "infantino-flights-2026-11-24",
+        "url": "articles/2026-11-24-midday/infantino-flights.html"
+      }
+    },
+    {
+      "id": "cac4d411d90b96a89f3d5a0667237c68a0d11f4ed54b0b6887795c985dbb8c52",
+      "kind": "provenance",
+      "at": "2026-11-24T11:42:17.476040+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "emel-pupils-complaint-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "school-bus",
+        "source_story_id": "emel-pupils-complaint-2026-11-24",
+        "url": "articles/2026-11-24-midday/school-bus.html"
+      }
+    },
+    {
+      "id": "d419aa8ceb50891b03c72f0cf5ecea286cc698f55e6cba9e19e5c228ad2116b8",
+      "kind": "provenance",
+      "at": "2026-11-24T11:42:17.476040+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-epp-budget-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-24-midday",
+        "article_id": "eu-budget",
+        "source_story_id": "cyprus-epp-budget-2026-11-24",
+        "url": "articles/2026-11-24-midday/eu-budget.html"
       }
     }
   ],
@@ -647,16 +1032,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Δύο αποφάσεις που παρουσιάζονται ως διεύρυνση πολιτικής εξαρτώνται ακόμη από θεσμικά βήματα. Στο ΓεΣΥ, η δικαστική αναστολή καθυστερεί τις νέες επιλογές αισθητήρων γλυκόζης, με πρακτική σημασία για ασθενείς και οικογένειες· το επόμενο τεστ είναι η εξέλιξη της προσφυγής και η δυνατότητα υπογραφής συμβάσεων. Στην ΕΕ, η Επιτροπή προτείνει νέους περιορισμούς στη ρωσική χρηματοδότηση και στην αθλητική εκπροσώπηση, αλλά απαιτείται ομοφωνία των κρατών. Η διάκριση μεταξύ ανακοίνωσης και εφαρμογής καθορίζει πότε αλλάζουν πραγματικά οι επιλογές των ασθενών και οι υποχρεώσεις διοργανωτών και χρηματοπιστωτικών φορέων. Σήμερα παρακολουθούμε τις συγκεκριμένες πράξεις που θα μετατρέψουν κάθε σχέδιο σε εφαρμόσιμη απόφαση.",
+        "text": "Στην Κύπρο, τεστ των ενεργειακών εξαγγελιών είναι η λειτουργία έργων και η επίδραση στο κόστος. Στη Βόρεια Θάλασσα, η ανάλυση τεκμηριώνει παρεμβολές GPS, χωρίς ταυτοποίηση υπευθύνου: ουσιώδης διάκριση στην αξιολόγηση κινδύνου.",
         "story_ids": [
-          "gesy-sensors-2026-11-24",
-          "eu-russia-package-22-2026-11-23"
+          "cyprus-energy-2026-11-24",
+          "north-sea-gps-2026-11-09"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-24T05:45:02.851840+00:00",
-  "updated_at": "2026-11-24T05:45:02.851840+00:00",
-  "input_sha256": "8f549de2da38a4a0a77127b9e5a8bf7ed7b8caabbbd4219ca2b24657cbaf7e12"
+  "updated_at": "2026-11-24T11:44:24.441169+00:00",
+  "input_sha256": "93d368fb812f85cf61e9f3c37281ea4ab1a3e64af9fea4c631bebc93e3d1af7d"
 }

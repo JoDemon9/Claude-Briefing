@@ -915,6 +915,14 @@
       "fingerprint": "9a3930763cff4739b19cfe3594debe6d429fa10c3b59bca6f323e72c0f32d101"
     },
     {
+      "id": "2026-11-24-midday",
+      "date": "2026-11-24",
+      "type": "midday",
+      "published_at": "2026-11-24T11:42:17.476040+00:00",
+      "url": "midday/2026-11-24.html",
+      "fingerprint": "77432f4979da11d36618456b41a4d99099683a9e2639e07eee2e5bd707a52662"
+    },
+    {
       "id": "2026-11-24-morning",
       "date": "2026-11-24",
       "type": "morning",
@@ -35504,6 +35512,389 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/126388981849dd3db72ce263bdf4f3fad87bfe2530257c4838e938fbfaadd981.webp"
+    },
+    {
+      "story_id": "cyprus-energy-2026-11-24",
+      "identity": "cyprus-energy-2026-11-24",
+      "edition_id": "2026-11-24-midday",
+      "date": "2026-11-24",
+      "slot": "midday",
+      "published_at": "2026-11-24T11:42:17.476040+00:00",
+      "available_at": "2026-11-24T11:42:17.476040+00:00",
+      "headline": "Ενέργεια: αποθήκευση, έξυπνη ζήτηση και εκκρεμή έργα",
+      "finding": "Ο υπουργός Ενέργειας ανέφερε στις 24 Νοεμβρίου: η εγκατεστημένη φωτοβολταϊκή ισχύς υπερβαίνει τα 1.040 MW, έναντι μέσης ζήτησης περίπου 650 MW. Προωθούνται ηλεκτροκίνηση, αντλίες θερμότητας και έξυπνη φόρτιση για αξιοποίηση πλεονάσματος. Αναμένεται πρώτη δυναμικότητα αποθήκευσης 120 MW μέχρι το καλοκαίρι του 2027. Η Πική επανέλαβε προτεραιότητα ολοκλήρωσης Βασιλικού και αξιοποίησης κοιτασμάτων.",
+      "section": "cyprus",
+      "priority": 1,
+      "article_path": "articles/2026-11-24-midday/energy.json",
+      "reader_url": "articles/2026-11-24-midday/energy.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1799797/ilektriko-revma-schedio-axiopiisis-tis-iliakis-energias-me-ilektrokinisi-ke-antlies-thermotitas-ti-anakinose-o-damianos",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-24T09:23:26+00:00",
+          "retrieved_at": "2026-11-24T10:21:28.964091+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.sigmalive.com/news/politics/1338898/piki-ghia-energheia-oi-3-meghales-proteraiotites-tis-kivernisis-ghia-tin-kypro",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-24T08:57:04+00:00",
+          "retrieved_at": "2026-11-24T10:21:28.153208+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1799769/piki-gia-energia-protereotita-sto-vasiliko-ke-ta-kitasmata-fisikou-aeriou-i-schediasmi-tis-kivernisis",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-24T08:45:51+00:00",
+          "retrieved_at": "2026-11-24T10:21:28.911880+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/3a146cad413dfd391e29fd32af76e20c9cfa621e1f28efbd9f65303bd4870db8.webp"
+    },
+    {
+      "story_id": "cyprus-epp-budget-2026-11-24",
+      "identity": "cyprus-epp-budget-2026-11-24",
+      "edition_id": "2026-11-24-midday",
+      "date": "2026-11-24",
+      "slot": "midday",
+      "published_at": "2026-11-24T11:42:17.476040+00:00",
+      "available_at": "2026-11-24T11:42:17.476040+00:00",
+      "headline": "Προϋπολογισμός ΕΕ: αίτημα συμφωνίας εντός 2026",
+      "finding": "Ο Χριστοδουλίδης ζήτησε στις 24 Νοεμβρίου, σε τηλεδιάσκεψη ηγετών ΕΛΚ, συμφωνία μακροπρόθεσμου προϋπολογισμού ΕΕ μέχρι τέλους έτους. Κατά την Cyprus Mail, το πλαίσιο Κόστα προτείνει 1,58 τρισ. ευρώ σε τιμές 2025· δεν είναι εγκεκριμένες πιστώσεις.",
+      "section": "cyprus",
+      "priority": 2,
+      "article_path": "articles/2026-11-24-midday/eu-budget.json",
+      "reader_url": "articles/2026-11-24-midday/eu-budget.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/24/christodoulides-tells-epp-leaders-eu-budget-deal-must-be-reached-by-years-end",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-24T09:56:00+00:00",
+          "retrieved_at": "2026-11-24T10:21:27.509614+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/e50b3c0df804a0f795a8e19f8264c4f06c1caa2fc61e6549bdc004a26e6d8a3f.webp"
+    },
+    {
+      "story_id": "emel-pupils-complaint-2026-11-24",
+      "identity": "emel-pupils-complaint-2026-11-24",
+      "edition_id": "2026-11-24-midday",
+      "date": "2026-11-24",
+      "slot": "midday",
+      "published_at": "2026-11-24T11:42:17.476040+00:00",
+      "available_at": "2026-11-24T11:42:17.476040+00:00",
+      "headline": "Μαθητική μεταφορά: καταγγελία και αναφορά βλάβης",
+      "finding": "Μητέρα κατήγγειλε στη Sigma ότι οδηγός κατέβασε μαθητές Γυμνασίου πριν το σχολείο, ασυνόδευτους, μετά από αδιαθεσία μαθήτριας. Μετέφερε επίσης ενημέρωση του σχολείου από την ΕΜΕΛ περί βλάβης. Οι εκδοχές μεταφέρονται μέσω της μητέρας, χωρίς ανεξάρτητο πόρισμα.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-24-midday/school-bus.json",
+      "reader_url": "articles/2026-11-24-midday/school-bus.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1338916/kataghghelia-oti-odighos-leoforioy-afise-mathites-ston-dromo-pws-apanta-i-emel",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-24T10:10:49+00:00",
+          "retrieved_at": "2026-11-24T10:21:27.905979+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7141fddf76941749571a70f0dee93b4564613e7fdc42e5f7b6ee092ef7731ffb.webp"
+    },
+    {
+      "story_id": "north-sea-gps-2026-11-09",
+      "identity": "north-sea-gps-2026-11-09",
+      "edition_id": "2026-11-24-midday",
+      "date": "2026-11-24",
+      "slot": "midday",
+      "published_at": "2026-11-24T11:42:17.476040+00:00",
+      "available_at": "2026-11-24T11:42:17.476040+00:00",
+      "headline": "GPS: παρεμβολές χωρίς ταυτοποίηση υπευθύνου",
+      "finding": "Δημοσίευμα της 24ης Νοεμβρίου συνδέει πιθανώς ρωσικό πλοίο με παρεμβολές GPS της 9ης Νοεμβρίου. Η πρωτογενής ανάλυση του John Wiseman με HEXBIRD καταγράφει περίπου 140 επηρεαζόμενα αεροσκάφη στην περιοχή της νότιας Βόρειας Θάλασσας και γειτονικών χωρών, επί περίπου 19 λεπτά. Τα δεδομένα δεν δείχνουν ποιος χειριζόταν τον πομπό ούτε το κίνητρό του.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-24-midday/gps.json",
+      "reader_url": "articles/2026-11-24-midday/gps.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kosmos/article/1799807/i-rosia-metaferi-ton-ivridiko-polemo-sta-anichta-tis-vretanias-rosiko-polemiko-plio-ipopto-gia-paremvoles-se-140-ptisis-pos-blokari-ta-gps-ton-aeroskafon",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-24T10:00:45+00:00",
+          "retrieved_at": "2026-11-24T10:21:28.364765+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://hexbird.io/artifact-frame/eyJhcnRpZmFjdElkIjoiYmNhZWVhZDctZjJjMS00ZmEzLWE1MzMtZjgzZjNkYzIwMTQxIiwidmVyc2lvbiI6MTUsImFwcE9yaWdpbiI6Imh0dHBzOi8vaGV4YmlyZC5pbyIsImV4cGlyZXNBdCI6MTc5NTA1MDAwMDAwMH0.fdKGjczJIgZmuFyA4v-iRHiZVw-mLmTJBOvtr1Ztvh0/15/",
+          "publisher": "HEXBIRD",
+          "reporting_group": "HEXBIRD",
+          "published_at": null,
+          "retrieved_at": "2026-11-24T11:36:08.649Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/49d7a4508680f875a5f484c23eb82862678c163fa04245e90de34b4f7d5618b8.webp"
+    },
+    {
+      "story_id": "ukraine-power-2026-11-24",
+      "identity": "ukraine-power-2026-11-24",
+      "edition_id": "2026-11-24-midday",
+      "date": "2026-11-24",
+      "slot": "midday",
+      "published_at": "2026-11-24T11:42:17.476040+00:00",
+      "available_at": "2026-11-24T11:42:17.476040+00:00",
+      "headline": "Ουκρανία: ζητείται ταχύτερη αποκατάσταση ρεύματος",
+      "finding": "Ο Ζελένσκι ζητεί ταχύτερη αποκατάσταση ηλεκτροδότησης μετά τα ρωσικά πλήγματα, αναφέρει ο Guardian στις 24 Νοεμβρίου. Δηλώνει κινητοποίηση πόρων και συζητήσεις για παραγωγή και επισκευές. Το απόσπασμα μεταφέρει προεδρική τοποθέτηση, χωρίς μέτρηση αποκατάστασης ή χρόνο ομαλοποίησης.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-11-24-midday/ukraine-power.json",
+      "reader_url": "articles/2026-11-24-midday/ukraine-power.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-24T10:20:59+00:00",
+          "retrieved_at": "2026-11-24T10:21:28.010230+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/4c0ad56d648d429b6d104e19ebe47962bca0e189ef6fcbb24f3b70111ab1691b.webp"
+    },
+    {
+      "story_id": "kurtaj-sentence-2026-11-23",
+      "identity": "kurtaj-sentence-2026-11-23",
+      "edition_id": "2026-11-24-midday",
+      "date": "2026-11-24",
+      "slot": "midday",
+      "published_at": "2026-11-24T11:42:17.476040+00:00",
+      "available_at": "2026-11-24T11:42:17.476040+00:00",
+      "headline": "Βρετανία: ποινή και αποφυλάκιση υπό όρους Κουρτάζ",
+      "finding": "Η City of London Police επιβεβαιώνει επταετή ποινή και αποφυλάκιση υπό όρους του Άριον Κουρτάζ στις 23 Νοεμβρίου στο Woolwich Crown Court. Η ποινή μειώθηκε λόγω νοσοκομειακού περιορισμού. Κατά το BBC, αφορά την παραβίαση Rockstar του 2022· δεν αποτελεί αθώωση.",
+      "section": "world",
+      "priority": 6,
+      "article_path": "articles/2026-11-24-midday/kurtaj.json",
+      "reader_url": "articles/2026-11-24-midday/kurtaj.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-23T14:08:50+00:00",
+          "retrieved_at": "2026-11-24T10:21:27.733633+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.cityoflondon.police.uk/news/city-of-london/news/2026/november/man-who-committed-cyber-attacks-on-gaming-companies-and-telecoms-industry-sentenced/",
+          "publisher": "City of London Police",
+          "reporting_group": "City of London Police",
+          "published_at": "2026-11-23T16:16:00+00:00",
+          "retrieved_at": "2026-11-24T11:36:08.649Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/50af11997ec2a633f9b968d04ed0911e98f7eaf344750da9f4a30977bc4da116.webp"
+    },
+    {
+      "story_id": "augsburger-pressure-2026-11-23",
+      "identity": "augsburger-pressure-2026-11-23",
+      "edition_id": "2026-11-24-midday",
+      "date": "2026-11-24",
+      "slot": "midday",
+      "published_at": "2026-11-24T11:42:17.476040+00:00",
+      "available_at": "2026-11-24T11:42:17.476040+00:00",
+      "headline": "Augsburger: το «PRESSURE»",
+      "finding": "Το Padel Addict στις 23 Νοεμβρίου παρουσιάζει το «PRESSURE»: την ψυχολογική πορεία του Leo Augsburger μετά την ήττα της Αργεντινής από την Ισπανία στη Ντόχα, μέχρι τη νίκη στο Dubai P1.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-24-midday/padel-pressure.json",
+      "reader_url": "articles/2026-11-24-midday/padel-pressure.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/leo-augsburger-abre-la-herida-del-mundial-en-su-documental-pressure",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-23T15:44:19+00:00",
+          "retrieved_at": "2026-11-24T04:21:27.214732+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/357702cb2e796b4229ed1a60f921384830f1645eec231229911e6aca78502ae4.webp"
+    },
+    {
+      "story_id": "infantino-flights-2026-11-24",
+      "identity": "infantino-flights-2026-11-24",
+      "edition_id": "2026-11-24-midday",
+      "date": "2026-11-24",
+      "slot": "midday",
+      "published_at": "2026-11-24T11:42:17.476040+00:00",
+      "available_at": "2026-11-24T11:42:17.476040+00:00",
+      "headline": "FIFA: 39 ιδιωτικές πτήσεις Ινφαντίνο κατά BBC",
+      "finding": "Το BBC κατέγραψε τουλάχιστον 39 ιδιωτικές πτήσεις Ινφαντίνο από τον Αύγουστο, με δεδομένα πτήσεων και νηολόγια Qatar Executive. Η FIFA δεν αμφισβήτησε τον αριθμό. Η εταιρεία συνδέεται με τον χορηγό Qatar Airways.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-24-midday/infantino-flights.json",
+      "reader_url": "articles/2026-11-24-midday/infantino-flights.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/cmkgk22w3vlvo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-24T06:16:53+00:00",
+          "retrieved_at": "2026-11-24T10:21:26.420421+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7b7cb8a1f68d35c4ca9d15ba18ea90d111e6dc2c75b8906761fc7da5f155df00.webp"
+    },
+    {
+      "story_id": "gesy-sensors-2026-11-24",
+      "identity": "gesy-sensors-2026-11-24",
+      "edition_id": "2026-11-24-midday",
+      "date": "2026-11-24",
+      "slot": "midday",
+      "published_at": "2026-11-24T05:43:00.799042+00:00",
+      "available_at": "2026-11-24T11:42:17.476040+00:00",
+      "headline": "ΓεΣΥ: δικαστική αναστολή καθυστερεί τις νέες επιλογές αισθητήρων",
+      "finding": "Ο νέος διαγωνισμός του ΟΑΥ για αισθητήρες συνεχούς παρακολούθησης γλυκόζης κατέληξε στα δικαστήρια, αναφέρει ο Φιλελεύθερος στις 24 Νοεμβρίου. Μετά την απόρριψη προσφυγής από την Αναθεωρητική Αρχή, η εταιρεία προσέφυγε στο Διοικητικό Δικαστήριο στις 5 Νοεμβρίου. Ακολούθησε διάταγμα αναστολής της απόφασης και της υπογραφής συμβάσεων. Η εκκρεμότητα αφορά τη διεύρυνση των διαθέσιμων επιλογών μέσω ΓεΣΥ.",
+      "section": "cyprus",
+      "priority": 1,
+      "article_path": "articles/2026-11-24-midday/gesy-sensors.json",
+      "reader_url": "articles/2026-11-24-midday/gesy-sensors.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/igia-news/igia-stin-kipro/article/1799656/sta-dikastiria-ta-analosima-diavitikon-tou-gesi-sto-perimene-i-asthenis",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-24T04:08:00+00:00",
+          "retrieved_at": "2026-11-24T04:21:24.901404+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/bb01db25aad0bb865f00efd950c340950430297e6d647eb32478526e05669789.webp"
+    },
+    {
+      "story_id": "karaolos-plan-2026-11-23",
+      "identity": "karaolos-plan-2026-11-23",
+      "edition_id": "2026-11-24-midday",
+      "date": "2026-11-24",
+      "slot": "midday",
+      "published_at": "2026-11-24T05:43:00.799042+00:00",
+      "available_at": "2026-11-24T11:42:17.476040+00:00",
+      "headline": "Καράολος: ανακοίνωση σχεδίου πρόσβασης έξω από τα περίκλειστα Βαρώσια",
+      "finding": "Ο Ουνάλ Ουστέλ ανακοίνωσε σχέδιο διάθεσης στο κοινό και στους τουρίστες έκτασης 2.880 στρεμμάτων στον Καράολο, όπου βρίσκεται το στρατόπεδο Γκιουλσερέν, στην κατεχόμενη Αμμόχωστο. Η Sigma τοποθετεί ρητά την έκταση έξω από την περίκλειστη περιοχή των Βαρωσίων. Η εξαγγελία έγινε στην παρουσίαση του κομματικού «Οράματος 2033» και συνδέθηκε από τον ίδιο με ενίσχυση του τουρισμού. Δεν τεκμηριώνεται ήδη πραγματοποιημένο άνοιγμα.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-24-midday/karaolos-plan.json",
+      "reader_url": "articles/2026-11-24-midday/karaolos-plan.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/kypriako/1338843/oystel-tha-aniksei-tin-periokhi-karaolos-stin-ammokhosto",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-23T21:49:15+00:00",
+          "retrieved_at": "2026-11-24T04:21:25.043606+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c13c0c30e1176a013f5661572450b85fed3da1d428750332bdaed22a35657fad.webp"
+    },
+    {
+      "story_id": "trump-removal-appeal-2026-11-23",
+      "identity": "trump-removal-appeal-2026-11-23",
+      "edition_id": "2026-11-24-midday",
+      "date": "2026-11-24",
+      "slot": "midday",
+      "published_at": "2026-11-24T05:43:00.799042+00:00",
+      "available_at": "2026-11-24T11:42:17.476040+00:00",
+      "headline": "ΗΠΑ: νέα εξέταση της ομοσπονδιακής δικαιοδοσίας στην υπόθεση Τραμπ",
+      "finding": "Τριμελές τμήμα του δευτεροβάθμιου ομοσπονδιακού δικαστηρίου ανέτρεψε στις 23 Νοεμβρίου την απόφαση που κρατούσε την υπόθεση των πληρωμών αποσιώπησης του Ντόναλντ Τραμπ στην πολιτειακή δικαιοσύνη της Νέας Υόρκης. Όπως αναφέρει το Al Jazeera, ομοσπονδιακός δικαστής καλείται να επανεξετάσει άμεσα τη μεταφορά, χωρίς καθορισμένη προθεσμία. Η εξέλιξη ανοίγει ξανά το ζήτημα δικαιοδοσίας· δεν αποτελεί οριστική μεταφορά ούτε ακύρωση καταδίκης.",
+      "section": "world",
+      "priority": 7,
+      "article_path": "articles/2026-11-24-midday/trump-jurisdiction.json",
+      "reader_url": "articles/2026-11-24-midday/trump-jurisdiction.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/24/appeals-court-renews-trump-bid-for-federal-jurisdiction-in-hush-money-case?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-24T01:17:48+00:00",
+          "retrieved_at": "2026-11-24T04:21:23.941300+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f55597614565a34f82dc568f2c5ed8cdf0b698f61ead417945df051c1d2035ec.webp"
+    },
+    {
+      "story_id": "nvidia-huang-return-2026-11-23",
+      "identity": "nvidia-huang-return-2026-11-23",
+      "edition_id": "2026-11-24-midday",
+      "date": "2026-11-24",
+      "slot": "midday",
+      "published_at": "2026-11-23T17:42:11.633849+00:00",
+      "available_at": "2026-11-24T11:42:17.476040+00:00",
+      "headline": "NVIDIA: νεότερη αποτίμηση της επανόδου Χουάνγκ και ακρόαση την 1η Δεκεμβρίου",
+      "finding": "Το BBC στις 24 Νοεμβρίου προσθέτει χρηματιστηριακή και θεσμική συνέχεια στην επαναφορά του Τζένσεν Χουάνγκ της προηγουμένης. Αναφέρει άνοδο της μετοχής κατά 31% μετά τον επαναδιορισμό τη Δευτέρα, με αύξηση χρηματιστηριακής αξίας περίπου ενός τρισεκατομμυρίου δολαρίων. Ο Χουάνγκ προγραμματίζεται να δώσει κλειστή συνέντευξη σε τρεις επιτροπές της Βουλής των Αντιπροσώπων την 1η Δεκεμβρίου.",
+      "section": "world",
+      "priority": 9,
+      "article_path": "articles/2026-11-24-midday/nvidia-session.json",
+      "reader_url": "articles/2026-11-24-midday/nvidia-session.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-24T01:11:54+00:00",
+          "retrieved_at": "2026-11-24T04:21:24.012217+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6786054061df47275487d1cdd79aa416ff293d8996814e8d1e1fec67b4328f9e.webp"
+    },
+    {
+      "story_id": "penge-rsm-win-2026-11-23",
+      "identity": "penge-rsm-win-2026-11-23",
+      "edition_id": "2026-11-24-midday",
+      "date": "2026-11-24",
+      "slot": "midday",
+      "published_at": "2026-11-24T05:43:00.799042+00:00",
+      "available_at": "2026-11-24T11:42:17.476040+00:00",
+      "headline": "Γκολφ: πρώτος τίτλος PGA Tour για τον Μάρκο Πεντζ",
+      "finding": "Ο Μάρκο Πεντζ κέρδισε το RSM Classic με birdie στην πρώτη πρόσθετη τρύπα τετραμερούς μπαράζ, αναφέρει το BBC στις 23 Νοεμβρίου. Ήταν η πρώτη του νίκη στο PGA Tour.",
+      "section": "sports",
+      "priority": 12,
+      "article_path": "articles/2026-11-24-midday/penge-rsm.json",
+      "reader_url": "articles/2026-11-24-midday/penge-rsm.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/golf/articles/cv0l3nxgw5jno?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-23T21:27:58+00:00",
+          "retrieved_at": "2026-11-24T04:21:24.541705+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/617c90c107bdb7fe2d93dc28ee3159badd7b74ae072734abe4e102f412f884d4.webp"
     },
     {
       "story_id": "gesy-sensors-2026-11-24",
