@@ -937,6 +937,14 @@
       "published_at": "2026-11-24T05:43:00.799042+00:00",
       "url": "morning/2026-11-24.html",
       "fingerprint": "99683f29511e48e32e1ccb2aa8c79e9c8a9781080c514d4f0b2a3ff9177f176c"
+    },
+    {
+      "id": "2026-11-25-midday",
+      "date": "2026-11-25",
+      "type": "midday",
+      "published_at": "2026-11-25T11:44:27.756946+00:00",
+      "url": "midday/2026-11-25.html",
+      "fingerprint": "777e084f8d82af613610415fd853c99c59b17db4b9d198e4de892b809ceb41bf"
     }
   ],
   "stories": [
@@ -36634,6 +36642,219 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/617c90c107bdb7fe2d93dc28ee3159badd7b74ae072734abe4e102f412f884d4.webp"
+    },
+    {
+      "story_id": "cyprus-support-2026-11-25",
+      "identity": "cyprus-support-2026-11-25",
+      "edition_id": "2026-11-25-midday",
+      "date": "2026-11-25",
+      "slot": "midday",
+      "published_at": "2026-11-25T11:44:27.756946+00:00",
+      "available_at": "2026-11-25T11:44:27.756946+00:00",
+      "headline": "Στήριξη: κάρτα και εφάπαξ",
+      "finding": "Το ΡΙΚ στις 25 Νοεμβρίου αναφέρει δέσμη στοχευμένης στήριξης οικογενειών με παιδιά και εισόδημα έως €100.000, με ποσά ανά παιδί. Ο μειωμένος φόρος καυσίμων παρατείνεται έως 31 Μαρτίου 2027. Η CY ONE CARD είναι προπληρωμένη: αρχικά €200 για θέρμανση και καύσιμα σε χαμηλοσυνταξιούχους. Ο Σύνδεσμος Καταναλωτών στηρίζει τη στόχευση· ο ΔΗΣΥ θεωρεί νέα μόνο δύο μέτρα.",
+      "section": "cyprus",
+      "priority": 1,
+      "article_path": "articles/2026-11-25-midday/support-card.json",
+      "reader_url": "articles/2026-11-25-midday/support-card.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1800332/cheretizi-ta-nea-metra-stirixis-o-kipriakos-sindesmos-katanaloton-ti-lei-gia-ti-cy-one-card",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-25T10:12:53+00:00",
+          "retrieved_at": "2026-11-25T10:21:34.152501+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.sigmalive.com/news/politics/1339108/dhsy-h-kivernisi-eksighgheile-oysiastika-2-metra-anakoyfisis-anti-12",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-25T10:09:42+00:00",
+          "retrieved_at": "2026-11-25T10:21:34.315754+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://news.rik.cy/el/article/2026/11/25/neo-paketo-metron-sterixes-ton-politon-akakoinose-o-proedros/",
+          "publisher": "ΡΙΚ",
+          "reporting_group": "RIK",
+          "published_at": null,
+          "retrieved_at": "2026-11-25T11:32:25.387Z",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/48c2d1c10ee4c14216e8a9859a40e9999a4141f687e68f6dc275932b852ee38f.webp"
+    },
+    {
+      "story_id": "medical-appeal-2026-11-20",
+      "identity": "medical-appeal-2026-11-20",
+      "edition_id": "2026-11-25-midday",
+      "date": "2026-11-25",
+      "slot": "midday",
+      "published_at": "2026-11-25T11:44:27.756946+00:00",
+      "available_at": "2026-11-25T11:44:27.756946+00:00",
+      "headline": "Εφετείο: αποζημίωση αμέλειας",
+      "finding": "Το Εφετείο στις 20 Νοεμβρίου διατήρησε αποζημίωση περίπου €314.612 για ιατρική αμέλεια, αναφέρει η Cyprus Mail. Απέρριψε ως επιστημονικά αστήρικτη την παραδοχή ότι έγκαιρη παραπομπή θα έσωζε έντερο και πόδι, χωρίς να ανατρέψει την αποζημίωση.",
+      "section": "cyprus",
+      "priority": 2,
+      "article_path": "articles/2026-11-25-midday/medical-appeal.json",
+      "reader_url": "articles/2026-11-25-midday/medical-appeal.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/25/court-of-appeal-upholds-e314000-compensation-for-medical-negligence",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-25T10:19:24+00:00",
+          "retrieved_at": "2026-11-25T10:21:33.868051+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/a8029d37d1369dae665db2d9b77ef6db53d2220ba3eca38f71a8ac42bf370270.webp"
+    },
+    {
+      "story_id": "special-ed-2026-11-25",
+      "identity": "special-ed-2026-11-25",
+      "edition_id": "2026-11-25-midday",
+      "date": "2026-11-25",
+      "slot": "midday",
+      "published_at": "2026-11-25T11:44:27.756946+00:00",
+      "available_at": "2026-11-25T11:44:27.756946+00:00",
+      "headline": "Ειδική εκπαίδευση στη Βουλή",
+      "finding": "Στην Επιτροπή Παιδείας συζητείται νομοσχέδιο ειδικής εκπαίδευσης. Η ΠΟΣΥΓΟΠΕΑ περιέγραψε εκπαιδευτικό υπεύθυνο για 20 παιδιά, τέσσερα ειδικής εκπαίδευσης, αναφέρει η Sigma στις 25 Νοεμβρίου. Είναι συγκεκριμένο παράδειγμα, όχι συνολική στατιστική· δεν τεκμηριώνεται ψήφιση νόμου.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-25-midday/special-education.json",
+      "reader_url": "articles/2026-11-25-midday/special-education.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1339075/enwpion-boylis-i-eidiki-ekpaidefsi-xreiazomaste-stiriksi-ghia-ola-ta-paidia",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-25T10:06:17+00:00",
+          "retrieved_at": "2026-11-25T10:21:34.165667+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/23e709c91fa23c4611546bcea6595e504eaed9c70f87b16c0b4c9b5820420383.webp"
+    },
+    {
+      "story_id": "nvidia-huang-return-2026-11-23",
+      "identity": "nvidia-huang-return-2026-11-23",
+      "edition_id": "2026-11-25-midday",
+      "date": "2026-11-25",
+      "slot": "midday",
+      "published_at": "2026-11-23T17:42:11.633849+00:00",
+      "available_at": "2026-11-25T11:44:27.756946+00:00",
+      "headline": "NVIDIA: στήριξη Blanche, ανοιχτοί έλεγχοι",
+      "finding": "Το BBC στις 25 Νοεμβρίου μεταφέρει ότι ο υπουργός Δικαιοσύνης Todd Blanche στηρίζει τη NVIDIA, χωρίς να σχολιάζει αν ερευνάται στις ΗΠΑ. Άλλη υπόθεση είναι η Megaspeed: Εμπόριο και Δικαιοσύνη ανακοίνωσαν έρευνα από το 2024 για πιθανές παραβάσεις εξαγωγών. Η μετοχή έκλεισε στις 24 Νοεμβρίου σχεδόν 6% χαμηλότερα, μετά το άλμα της Δευτέρας.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-25-midday/nvidia-governance.json",
+      "reader_url": "articles/2026-11-25-midday/nvidia-governance.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-25T03:44:07+00:00",
+          "retrieved_at": "2026-11-25T10:21:32.913135+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6266c7d79f92045c97b372e7697665b7a1849738a5dafa78cb774180d1f1edb2.webp"
+    },
+    {
+      "story_id": "ai-debt-risk-2026-11-25",
+      "identity": "ai-debt-risk-2026-11-25",
+      "edition_id": "2026-11-25-midday",
+      "date": "2026-11-25",
+      "slot": "midday",
+      "published_at": "2026-11-25T11:44:27.756946+00:00",
+      "available_at": "2026-11-25T11:44:27.756946+00:00",
+      "headline": "AI: χρηματοδότηση μεγάλων επενδύσεων",
+      "finding": "Το CNBC μεταφέρει πρόβλεψη Man Group: οι δαπάνες για πάγια Microsoft, Amazon, Meta και Alphabet θα υπερβούν τα μετρητά των δραστηριοτήτων τους το 2026 και 2027. Το Al Jazeera περιγράφει τεχνολογικές πιέσεις στις ασιατικές αγορές.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-11-25-midday/ai-debt.json",
+      "reader_url": "articles/2026-11-25-midday/ai-debt.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-25T06:29:46+00:00",
+          "retrieved_at": "2026-11-25T10:21:33.551446+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-25T03:31:59+00:00",
+          "retrieved_at": "2026-11-25T10:21:33.082493+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/94f532e65a1d72998d41b6cee68e3233a433a9ce02de36e72f360364b491f79a.webp"
+    },
+    {
+      "story_id": "eurostar-strike-2026-11-25",
+      "identity": "eurostar-strike-2026-11-25",
+      "edition_id": "2026-11-25-midday",
+      "date": "2026-11-25",
+      "slot": "midday",
+      "published_at": "2026-11-25T11:44:27.756946+00:00",
+      "available_at": "2026-11-25T11:44:27.756946+00:00",
+      "headline": "Eurostar: απεργιακές ακυρώσεις",
+      "finding": "Η France 24 αναφέρει απεργιακές ακυρώσεις Eurostar στις 25 Νοεμβρίου. Η εταιρεία δεν διευκρίνισε ποιοι απεργούν ή γιατί. Δήλωσε δυνατότητα αλλαγής ταξιδιού ή πλήρους επιστροφής για επηρεαζόμενους επιβάτες, χωρίς κατάσταση κάθε δρομολογίου στο απόσπασμα.",
+      "section": "world",
+      "priority": 6,
+      "article_path": "articles/2026-11-25-midday/eurostar-strike.json",
+      "reader_url": "articles/2026-11-25-midday/eurostar-strike.html",
+      "sources": [
+        {
+          "url": "https://www.france24.com/en/europe/20261125-surprise-eurostar-strike-cancels-london-paris-and-brussels-trains",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-11-25T10:02:32+00:00",
+          "retrieved_at": "2026-11-25T10:21:33.426243+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/b13a9025514a059937a9c11b432c8901a22acd5829a8a6dfad2895180b1de3b8.webp"
+    },
+    {
+      "story_id": "cl-draws-2026-11-24",
+      "identity": "cl-draws-2026-11-24",
+      "edition_id": "2026-11-25-midday",
+      "date": "2026-11-25",
+      "slot": "midday",
+      "published_at": "2026-11-25T11:44:27.756946+00:00",
+      "available_at": "2026-11-25T11:44:27.756946+00:00",
+      "headline": "Ισοπαλίες για Σίτι και Άρσεναλ",
+      "finding": "Η France 24 αναφέρει 2–2 της Σίτι με τη Νάπολι στις 24 Νοεμβρίου, με δύο επιστροφές στο σκορ, και 1–1 της Άρσεναλ με τη Ντόρτμουντ.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-25-midday/cl-draws.json",
+      "reader_url": "articles/2026-11-25-midday/cl-draws.html",
+      "sources": [
+        {
+          "url": "https://www.france24.com/en/sport/20261124-champions-league-real-madrid-thrash-psv-5-1-in-comeback-win-as-manchester-city-held-by-napoli",
+          "publisher": "France 24",
+          "reporting_group": "France 24",
+          "published_at": "2026-11-24T22:59:39+00:00",
+          "retrieved_at": "2026-11-25T10:21:33.573926+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/9137b129ade3c9a9db926229db4ff608eafe921e93e2202eb2b216e56353291a.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
