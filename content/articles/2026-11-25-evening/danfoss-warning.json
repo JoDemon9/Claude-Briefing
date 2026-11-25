@@ -1,0 +1,67 @@
+{
+  "analysis_sources": [],
+  "category": "Διεθνή",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 5,
+    "section": "world"
+  },
+  "delta_update": "Το BleepingComputer μεταφέρει προειδοποίηση της CISA για κρίσιμη ευπάθεια στους Danfoss AK-SM 8xxA, κεντρικούς ελεγκτές ψύξης, κλιματισμού και φωτισμού καταστημάτων τροφίμων. Καταγράφουν θερμοκρασίες και ενεργοποιούν ειδοποιήσεις. Η παγκόσμια εγκατεστημένη βάση δεν ποσοτικοποιείται. Το διαθέσιμο απόσπασμα δεν τεκμηριώνει περιστατικό παραβίασης, επηρεαζόμενες εκδόσεις ή διορθωτική έκδοση.",
+  "driver_tags": [
+    "world",
+    "technology",
+    "cybersecurity"
+  ],
+  "edition_id": "2026-11-25-evening",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Προειδοποίηση CISA για ελεγκτές ψύξης Danfoss",
+  "id": "danfoss-warning",
+  "image": {
+    "alt": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+    "attribution": "BleepingComputer",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · CISA warns of critical unpatched flaw in Danfoss refrigeration controllers · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers",
+    "original_url": "https://www.bleepstatic.com/content/hl-images/2026/11/25/danfoss.jpg",
+    "retrieved_at": "2026-11-25T16:26:47.525614+00:00",
+    "source_review": {
+      "checked_at": "2026-11-25T16:26:47.525614+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "3387a9f1692b8701",
+      "rights_basis": "publisher-attribution",
+      "sha256": "f192fcfff205a70f6f2435c6751c1766c74dd9d780930e2102a61fa768a7a18e"
+    },
+    "source_url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers",
+    "url": "assets/editorial/source/f192fcfff205a70f6f2435c6751c1766c74dd9d780930e2102a61fa768a7a18e.webp"
+  },
+  "published_at": "2026-11-25T17:38:19.065910+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Το BleepingComputer μεταφέρει προειδοποίηση της CISA για κρίσιμη ευπάθεια στους Danfoss AK-SM 8xxA, κεντρικούς ελεγκτές ψύξης, κλιματισμού και φωτισμού καταστημάτων τροφίμων. Καταγράφουν θερμοκρασίες και ενεργοποιούν ειδοποιήσεις. Η παγκόσμια εγκατεστημένη βάση δεν ποσοτικοποιείται. Το διαθέσιμο απόσπασμα δεν τεκμηριώνει περιστατικό παραβίασης, επηρεαζόμενες εκδόσεις ή διορθωτική έκδοση."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-25T16:13:40+00:00",
+      "publisher": "BleepingComputer",
+      "reporting_group": "BleepingComputer",
+      "retrieved_at": "2026-11-25T16:26:39.658433+00:00",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "danfoss-controller-warning-2026-11-25",
+  "story_identity": "danfoss-controller-warning-2026-11-25",
+  "summary": "Το BleepingComputer μεταφέρει προειδοποίηση της CISA για κρίσιμη ευπάθεια στους Danfoss AK-SM 8xxA, κεντρικούς ελεγκτές ψύξης, κλιματισμού και φωτισμού καταστημάτων τροφίμων. Καταγράφουν θερμοκρασίες και ενεργοποιούν ειδοποιήσεις. Η παγκόσμια εγκατεστημένη βάση δεν ποσοτικοποιείται. Το διαθέσιμο απόσπασμα δεν τεκμηριώνει περιστατικό παραβίασης, επηρεαζόμενες εκδόσεις ή διορθωτική έκδοση.",
+  "updated_at": "2026-11-25T17:38:19.065910+00:00",
+  "url": "articles/2026-11-25-evening/danfoss-warning.html"
+}
