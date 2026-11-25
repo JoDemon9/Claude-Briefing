@@ -10,13 +10,18 @@
       "type": "midday",
       "url": "midday/2026-11-25.html",
       "published_at": "2026-11-25T11:44:27.756946+00:00"
+    },
+    {
+      "id": "2026-11-25-evening",
+      "type": "evening",
+      "url": "evening/2026-11-25.html",
+      "published_at": "2026-11-25T17:38:19.065910+00:00"
     }
   ],
   "missing_slots": [
-    "morning",
-    "evening"
+    "morning"
   ],
-  "lead_story_id": "nvidia-huang-return-2026-11-23",
+  "lead_story_id": "eu-budget-2027-2026-11-24",
   "stories": [
     {
       "story_id": "cyprus-support-2026-11-25",
@@ -28,13 +33,40 @@
           "article_id": "support-card",
           "source_story_id": "cyprus-support-2026-11-25",
           "url": "articles/2026-11-25-midday/support-card.html"
+        },
+        {
+          "edition_id": "2026-11-25-evening",
+          "article_id": "support-card",
+          "source_story_id": "cyprus-support-2026-11-25",
+          "url": "articles/2026-11-25-evening/support-card.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-25-midday",
+        "edition_id": "2026-11-25-evening",
         "article_id": "support-card",
         "source_story_id": "cyprus-support-2026-11-25",
-        "url": "articles/2026-11-25-midday/support-card.html"
+        "url": "articles/2026-11-25-evening/support-card.html"
+      },
+      "section": "cyprus",
+      "priority": 1
+    },
+    {
+      "story_id": "neighbourhood-policing-2026-11-25",
+      "first_seen_at": "2026-11-25T17:38:19.065910+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-25-evening",
+          "article_id": "neighbourhood-policing",
+          "source_story_id": "neighbourhood-policing-2026-11-25",
+          "url": "articles/2026-11-25-evening/neighbourhood-policing.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "neighbourhood-policing",
+        "source_story_id": "neighbourhood-policing-2026-11-25",
+        "url": "articles/2026-11-25-evening/neighbourhood-policing.html"
       },
       "section": "cyprus",
       "priority": 1
@@ -49,16 +81,64 @@
           "article_id": "medical-appeal",
           "source_story_id": "medical-appeal-2026-11-20",
           "url": "articles/2026-11-25-midday/medical-appeal.html"
+        },
+        {
+          "edition_id": "2026-11-25-evening",
+          "article_id": "medical-appeal",
+          "source_story_id": "medical-appeal-2026-11-20",
+          "url": "articles/2026-11-25-evening/medical-appeal.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-25-midday",
+        "edition_id": "2026-11-25-evening",
         "article_id": "medical-appeal",
         "source_story_id": "medical-appeal-2026-11-20",
-        "url": "articles/2026-11-25-midday/medical-appeal.html"
+        "url": "articles/2026-11-25-evening/medical-appeal.html"
       },
       "section": "cyprus",
       "priority": 2
+    },
+    {
+      "story_id": "teacher-permanency-2026-11-25",
+      "first_seen_at": "2026-11-25T17:38:19.065910+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-25-evening",
+          "article_id": "teacher-permanency",
+          "source_story_id": "teacher-permanency-2026-11-25",
+          "url": "articles/2026-11-25-evening/teacher-permanency.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "teacher-permanency",
+        "source_story_id": "teacher-permanency-2026-11-25",
+        "url": "articles/2026-11-25-evening/teacher-permanency.html"
+      },
+      "section": "cyprus",
+      "priority": 2
+    },
+    {
+      "story_id": "kombos-property-policy-2026-11-25",
+      "first_seen_at": "2026-11-25T17:38:19.065910+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-25-evening",
+          "article_id": "kombos-property",
+          "source_story_id": "kombos-property-policy-2026-11-25",
+          "url": "articles/2026-11-25-evening/kombos-property.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "kombos-property",
+        "source_story_id": "kombos-property-policy-2026-11-25",
+        "url": "articles/2026-11-25-evening/kombos-property.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "special-ed-2026-11-25",
@@ -80,6 +160,27 @@
       },
       "section": "cyprus",
       "priority": 3
+    },
+    {
+      "story_id": "eu-budget-2027-2026-11-24",
+      "first_seen_at": "2026-11-25T17:38:19.065910+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-25-evening",
+          "article_id": "eu-budget-final",
+          "source_story_id": "eu-budget-2027-2026-11-24",
+          "url": "articles/2026-11-25-evening/eu-budget-final.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "eu-budget-final",
+        "source_story_id": "eu-budget-2027-2026-11-24",
+        "url": "articles/2026-11-25-evening/eu-budget-final.html"
+      },
+      "section": "world",
+      "priority": 4
     },
     {
       "story_id": "nvidia-huang-return-2026-11-23",
@@ -112,13 +213,40 @@
           "article_id": "ai-debt",
           "source_story_id": "ai-debt-risk-2026-11-25",
           "url": "articles/2026-11-25-midday/ai-debt.html"
+        },
+        {
+          "edition_id": "2026-11-25-evening",
+          "article_id": "ai-debt",
+          "source_story_id": "ai-debt-risk-2026-11-25",
+          "url": "articles/2026-11-25-evening/ai-debt.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-25-midday",
+        "edition_id": "2026-11-25-evening",
         "article_id": "ai-debt",
         "source_story_id": "ai-debt-risk-2026-11-25",
-        "url": "articles/2026-11-25-midday/ai-debt.html"
+        "url": "articles/2026-11-25-evening/ai-debt.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
+      "story_id": "danfoss-controller-warning-2026-11-25",
+      "first_seen_at": "2026-11-25T17:38:19.065910+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-25-evening",
+          "article_id": "danfoss-warning",
+          "source_story_id": "danfoss-controller-warning-2026-11-25",
+          "url": "articles/2026-11-25-evening/danfoss-warning.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "danfoss-warning",
+        "source_story_id": "danfoss-controller-warning-2026-11-25",
+        "url": "articles/2026-11-25-evening/danfoss-warning.html"
       },
       "section": "world",
       "priority": 5
@@ -133,13 +261,40 @@
           "article_id": "eurostar-strike",
           "source_story_id": "eurostar-strike-2026-11-25",
           "url": "articles/2026-11-25-midday/eurostar-strike.html"
+        },
+        {
+          "edition_id": "2026-11-25-evening",
+          "article_id": "eurostar-strike",
+          "source_story_id": "eurostar-strike-2026-11-25",
+          "url": "articles/2026-11-25-evening/eurostar-strike.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-25-midday",
+        "edition_id": "2026-11-25-evening",
         "article_id": "eurostar-strike",
         "source_story_id": "eurostar-strike-2026-11-25",
-        "url": "articles/2026-11-25-midday/eurostar-strike.html"
+        "url": "articles/2026-11-25-evening/eurostar-strike.html"
+      },
+      "section": "world",
+      "priority": 6
+    },
+    {
+      "story_id": "uk-energy-support-2026-11-25",
+      "first_seen_at": "2026-11-25T17:38:19.065910+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-25-evening",
+          "article_id": "uk-energy-support",
+          "source_story_id": "uk-energy-support-2026-11-25",
+          "url": "articles/2026-11-25-evening/uk-energy-support.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "uk-energy-support",
+        "source_story_id": "uk-energy-support-2026-11-25",
+        "url": "articles/2026-11-25-evening/uk-energy-support.html"
       },
       "section": "world",
       "priority": 6
@@ -154,16 +309,64 @@
           "article_id": "cl-draws",
           "source_story_id": "cl-draws-2026-11-24",
           "url": "articles/2026-11-25-midday/cl-draws.html"
+        },
+        {
+          "edition_id": "2026-11-25-evening",
+          "article_id": "cl-draws",
+          "source_story_id": "cl-draws-2026-11-24",
+          "url": "articles/2026-11-25-evening/cl-draws.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-25-midday",
+        "edition_id": "2026-11-25-evening",
         "article_id": "cl-draws",
         "source_story_id": "cl-draws-2026-11-24",
-        "url": "articles/2026-11-25-midday/cl-draws.html"
+        "url": "articles/2026-11-25-evening/cl-draws.html"
       },
       "section": "sports",
       "priority": 7
+    },
+    {
+      "story_id": "mexico-major-r32-2026-11-25",
+      "first_seen_at": "2026-11-25T17:38:19.065910+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-25-evening",
+          "article_id": "mexico-major-r32",
+          "source_story_id": "mexico-major-r32-2026-11-25",
+          "url": "articles/2026-11-25-evening/mexico-major-r32.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "mexico-major-r32",
+        "source_story_id": "mexico-major-r32-2026-11-25",
+        "url": "articles/2026-11-25-evening/mexico-major-r32.html"
+      },
+      "section": "sports",
+      "priority": 7
+    },
+    {
+      "story_id": "ireland-australia-selection-2026-11-25",
+      "first_seen_at": "2026-11-25T17:38:19.065910+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-25-evening",
+          "article_id": "ireland-stockdale",
+          "source_story_id": "ireland-australia-selection-2026-11-25",
+          "url": "articles/2026-11-25-evening/ireland-stockdale.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "ireland-stockdale",
+        "source_story_id": "ireland-australia-selection-2026-11-25",
+        "url": "articles/2026-11-25-evening/ireland-stockdale.html"
+      },
+      "section": "sports",
+      "priority": 8
     }
   ],
   "updates": [
@@ -263,6 +466,188 @@
         "article_id": "support-card",
         "source_story_id": "cyprus-support-2026-11-25",
         "url": "articles/2026-11-25-midday/support-card.html"
+      }
+    },
+    {
+      "id": "161242051caf5d55143bb31b752bf65cb93de0e5842a1165a4f5648fea3f1f32",
+      "kind": "provenance",
+      "at": "2026-11-25T17:38:19.065910+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "eurostar-strike-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "eurostar-strike",
+        "source_story_id": "eurostar-strike-2026-11-25",
+        "url": "articles/2026-11-25-evening/eurostar-strike.html"
+      }
+    },
+    {
+      "id": "25b2cd41b2c202cbf1abecb9b36958eb6c57b3abcff9962b5d59421c0866c14c",
+      "kind": "provenance",
+      "at": "2026-11-25T17:38:19.065910+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "mexico-major-r32-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "mexico-major-r32",
+        "source_story_id": "mexico-major-r32-2026-11-25",
+        "url": "articles/2026-11-25-evening/mexico-major-r32.html"
+      }
+    },
+    {
+      "id": "29ab3a65679cc575ce8f51167eeb6d2f54e35e90384795180bbef068a77aed30",
+      "kind": "provenance",
+      "at": "2026-11-25T17:38:19.065910+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "neighbourhood-policing-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "neighbourhood-policing",
+        "source_story_id": "neighbourhood-policing-2026-11-25",
+        "url": "articles/2026-11-25-evening/neighbourhood-policing.html"
+      }
+    },
+    {
+      "id": "3ac544e0e4c643ab68516d302fd729211bea353d5f0f55ace398b06e63e7b33d",
+      "kind": "provenance",
+      "at": "2026-11-25T17:38:19.065910+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "ireland-australia-selection-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "ireland-stockdale",
+        "source_story_id": "ireland-australia-selection-2026-11-25",
+        "url": "articles/2026-11-25-evening/ireland-stockdale.html"
+      }
+    },
+    {
+      "id": "5572e6c10ed5f23fa70deaa08f5ebe9c80df9ae4dc4a3b84a358cd365d2fa5c4",
+      "kind": "provenance",
+      "at": "2026-11-25T17:38:19.065910+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "medical-appeal-2026-11-20",
+      "origin": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "medical-appeal",
+        "source_story_id": "medical-appeal-2026-11-20",
+        "url": "articles/2026-11-25-evening/medical-appeal.html"
+      }
+    },
+    {
+      "id": "559ce5ec7ab1921fd5be5016d3edc0f0bd9215d7163e3fc4c82bd185ef1383c1",
+      "kind": "provenance",
+      "at": "2026-11-25T17:38:19.065910+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-support-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "support-card",
+        "source_story_id": "cyprus-support-2026-11-25",
+        "url": "articles/2026-11-25-evening/support-card.html"
+      }
+    },
+    {
+      "id": "5cdaf4fa9828a3ca5c3b23a436f05e20144d79f91ec567ea4d3f828db63b8611",
+      "kind": "provenance",
+      "at": "2026-11-25T17:38:19.065910+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "teacher-permanency-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "teacher-permanency",
+        "source_story_id": "teacher-permanency-2026-11-25",
+        "url": "articles/2026-11-25-evening/teacher-permanency.html"
+      }
+    },
+    {
+      "id": "6c40e98c7c04b2cf3a0cccfa552942c9f2a9a84629029e26f402cd4d8827c18e",
+      "kind": "provenance",
+      "at": "2026-11-25T17:38:19.065910+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "danfoss-controller-warning-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "danfoss-warning",
+        "source_story_id": "danfoss-controller-warning-2026-11-25",
+        "url": "articles/2026-11-25-evening/danfoss-warning.html"
+      }
+    },
+    {
+      "id": "7685517561bb6ab25c4d5e51a6ef10d4dc2b587b4586a29f6d393b8081e59ab7",
+      "kind": "provenance",
+      "at": "2026-11-25T17:38:19.065910+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "ai-debt-risk-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "ai-debt",
+        "source_story_id": "ai-debt-risk-2026-11-25",
+        "url": "articles/2026-11-25-evening/ai-debt.html"
+      }
+    },
+    {
+      "id": "84ace1f3a99b61b88aa3282cad82dd84bb28ba194a4a16cd278e87ce653b1ace",
+      "kind": "provenance",
+      "at": "2026-11-25T17:38:19.065910+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "kombos-property-policy-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "kombos-property",
+        "source_story_id": "kombos-property-policy-2026-11-25",
+        "url": "articles/2026-11-25-evening/kombos-property.html"
+      }
+    },
+    {
+      "id": "9ce5c9042e9888648483bd1f2ced0747333d098a0ba543550a3d249ddf3b9a39",
+      "kind": "provenance",
+      "at": "2026-11-25T17:38:19.065910+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "uk-energy-support-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "uk-energy-support",
+        "source_story_id": "uk-energy-support-2026-11-25",
+        "url": "articles/2026-11-25-evening/uk-energy-support.html"
+      }
+    },
+    {
+      "id": "9d506998a20c81dfc050516d0e9fe46167c5bacc72b91c18495a1cb21cccc0b4",
+      "kind": "provenance",
+      "at": "2026-11-25T17:38:19.065910+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cl-draws-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "cl-draws",
+        "source_story_id": "cl-draws-2026-11-24",
+        "url": "articles/2026-11-25-evening/cl-draws.html"
+      }
+    },
+    {
+      "id": "e5aa8b2d4ca9937a8d4058cf57d97033400d9f36176f450c15158e922c6fd3fb",
+      "kind": "provenance",
+      "at": "2026-11-25T17:38:19.065910+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "eu-budget-2027-2026-11-24",
+      "origin": {
+        "edition_id": "2026-11-25-evening",
+        "article_id": "eu-budget-final",
+        "source_story_id": "eu-budget-2027-2026-11-24",
+        "url": "articles/2026-11-25-evening/eu-budget-final.html"
       }
     }
   ],
@@ -472,16 +857,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η στήριξη κρίνεται από ποσά και εφαρμογή. Ζητούμενα είναι οι οδηγίες χορήγησης και, στη NVIDIA, οι σαφείς διευκρινίσεις για ελέγχους· οι δημόσιες δηλώσεις δεν είναι νομικό πόρισμα.",
+        "text": "Οι κενές θέσεις στην κοινοτική αστυνόμευση και τα νομικά κωλύματα στις μονιμοποιήσεις εκπαιδευτικών αναδεικνύουν δύο διαφορετικά εμπόδια στην ενίσχυση δημόσιων υπηρεσιών. Επόμενοι έλεγχοι είναι οι καλύψεις θέσεων και οι προτάσεις των οργανώσεων έως το Σαββατοκύριακο.",
         "story_ids": [
-          "cyprus-support-2026-11-25",
-          "nvidia-huang-return-2026-11-23"
+          "neighbourhood-policing-2026-11-25",
+          "teacher-permanency-2026-11-25"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-25T11:46:31.257186+00:00",
-  "updated_at": "2026-11-25T11:46:31.257186+00:00",
-  "input_sha256": "825c1655203b09eee5785edb3b1e8268af6fc1b06b0b2de906e94ee2be2b3f87"
+  "updated_at": "2026-11-25T17:41:02.336329+00:00",
+  "input_sha256": "18f680b7a9094ac948eb916a59fc242f6cde97a01d93acb84739050dc4111621"
 }
