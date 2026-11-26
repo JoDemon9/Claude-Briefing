@@ -1,0 +1,84 @@
+{
+  "analysis_sources": [
+    "https://www.gendigital.com/blog/insights/research/remus-stealer-email-interception-analysis"
+  ],
+  "category": "Πρώτο θέμα",
+  "change_status": "NEW",
+  "daily": {
+    "events": [],
+    "priority": 4,
+    "section": "world"
+  },
+  "delta_update": "Το τεχνικό εύρημα διευκρινίζει τον μηχανισμό πίσω από τις διαφημιζόμενες υποσχέσεις διαρκούς πρόσβασης.",
+  "driver_tags": [
+    "world",
+    "technology",
+    "cybersecurity"
+  ],
+  "edition_id": "2026-11-26-evening",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Remus: κακόβουλη επέκταση, όχι Gmail zero-day",
+  "id": "remus-gmail",
+  "image": {
+    "alt": "Remus malware steals Gmail messages via fake Google Sheets extension",
+    "attribution": "BleepingComputer",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · Remus malware steals Gmail messages via fake Google Sheets extension · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension",
+    "original_url": "https://www.bleepstatic.com/content/hl-images/2026/11/25/Gmail.jpg",
+    "retrieved_at": "2026-11-26T16:21:26.171214+00:00",
+    "source_review": {
+      "checked_at": "2026-11-26T16:21:26.171214+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "63032969212b1643",
+      "rights_basis": "publisher-attribution",
+      "sha256": "9ba340b4cb6e33315f565c714642fc6b04694706b931a074c9726ef927d1bf66"
+    },
+    "source_url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension",
+    "url": "assets/editorial/source/9ba340b4cb6e33315f565c714642fc6b04694706b931a074c9726ef927d1bf66.webp"
+  },
+  "mechanics_and_incentives": "Η επέκταση χρησιμοποιεί την έγκυρη συνεδρία του θύματος. Με αποσύνδεση ή ανάκληση συνεδριών η υποκλοπή σταματά· μπορεί όμως να επανέλθει μετά από νέα σύνδεση, εφόσον η επέκταση παραμένει εγκατεστημένη.",
+  "published_at": "2026-11-26T17:30:42.840109+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "watch_next": "Ο ουσιαστικός έλεγχος αφορά την παρουσία της κακόβουλης επέκτασης και την κατάσταση της συσκευής, πέρα από την αλλαγή κωδικού."
+  },
+  "second_order_effects": "Ο κίνδυνος αφορά μολυσμένους browsers και τους συνδεδεμένους λογαριασμούς τους. Δεν τεκμηριώνεται παραβίαση όλων των χρηστών ή της υποδομής Gmail.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Το BleepingComputer στις 26 Νοεμβρίου περιγράφει το Remus που υποκλέπτει μηνύματα μέσω πλαστής επέκτασης «Google Sheets». Η πρωτογενής ανάλυση της Gen, δημοσιευμένη στις 24 Νοεμβρίου, εντοπίζει κακόβουλη εγκατάσταση στον Chrome, χωρίς εκμετάλλευση ευπάθειας του Gmail. Ο ισχυρισμός περί zero-day προερχόταν από τους πωλητές του κακόβουλου λογισμικού."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": null,
+      "publisher": "Gen Threat Labs",
+      "reporting_group": "Gen Digital",
+      "retrieved_at": "2026-11-26T17:27:56.432Z",
+      "url": "https://www.gendigital.com/blog/insights/research/remus-stealer-email-interception-analysis",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-26T15:23:28+00:00",
+      "publisher": "BleepingComputer",
+      "reporting_group": "BleepingComputer",
+      "retrieved_at": "2026-11-26T16:21:18.962962+00:00",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "remus-gmail-2026-11-26",
+  "story_identity": "remus-gmail-2026-11-26",
+  "summary": "Το BleepingComputer στις 26 Νοεμβρίου περιγράφει το Remus που υποκλέπτει μηνύματα μέσω πλαστής επέκτασης «Google Sheets». Η πρωτογενής ανάλυση της Gen, δημοσιευμένη στις 24 Νοεμβρίου, εντοπίζει κακόβουλη εγκατάσταση στον Chrome, χωρίς εκμετάλλευση ευπάθειας του Gmail. Ο ισχυρισμός περί zero-day προερχόταν από τους πωλητές του κακόβουλου λογισμικού.",
+  "updated_at": "2026-11-26T17:30:42.840109+00:00",
+  "url": "articles/2026-11-26-evening/remus-gmail.html"
+}
