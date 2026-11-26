@@ -955,6 +955,14 @@
       "fingerprint": "777e084f8d82af613610415fd853c99c59b17db4b9d198e4de892b809ceb41bf"
     },
     {
+      "id": "2026-11-26-midday",
+      "date": "2026-11-26",
+      "type": "midday",
+      "published_at": "2026-11-26T11:39:01.122941+00:00",
+      "url": "midday/2026-11-26.html",
+      "fingerprint": "05b6aacd36b10c829e77eabd28715085bbae67256fada6785bfe3e235e84d5fa"
+    },
+    {
       "id": "2026-11-26-morning",
       "date": "2026-11-26",
       "type": "morning",
@@ -37246,6 +37254,346 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/9137b129ade3c9a9db926229db4ff608eafe921e93e2202eb2b216e56353291a.webp"
+    },
+    {
+      "story_id": "cyprus-power-risk-2026-11-26",
+      "identity": "cyprus-power-risk-2026-11-26",
+      "edition_id": "2026-11-26-midday",
+      "date": "2026-11-26",
+      "slot": "midday",
+      "published_at": "2026-11-26T11:39:01.122941+00:00",
+      "available_at": "2026-11-26T11:39:01.122941+00:00",
+      "headline": "ΔΗΣΥ: προειδοποίηση για μελλοντική επάρκεια ρεύματος",
+      "finding": "Ο ΔΗΣΥ προειδοποιεί ότι 750 MW συμβατικής ισχύος κινδυνεύουν να αποσυρθούν εντός τριετίας, ενώ καθυστερούν φυσικό αέριο, διασύνδεση και αποθήκευση, μεταφέρει το SigmaLive. Πρόκειται για πολιτική εκτίμηση, χωρίς ανεξάρτητη επιβεβαίωση χρονοδιαγράμματος απόσυρσης ή σημερινής ανεπάρκειας.",
+      "section": "cyprus",
+      "priority": 1,
+      "article_path": "articles/2026-11-26-midday/electricity-warning.json",
+      "reader_url": "articles/2026-11-26-midday/electricity-warning.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1339283/dimosioghrafiki-dhsy-kampanaki-ghia-eparkeia-kai-akrivo-ilektriko-reuma",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-26T10:18:35+00:00",
+          "retrieved_at": "2026-11-26T10:21:42.768120+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ebed52d2f14af76042dee7724d26e599668d0ca87ad5e6a95abd644c57a1f9b9.webp"
+    },
+    {
+      "story_id": "cyprus-mff-2026-11-26",
+      "identity": "cyprus-mff-2026-11-26",
+      "edition_id": "2026-11-26-midday",
+      "date": "2026-11-26",
+      "slot": "midday",
+      "published_at": "2026-11-26T11:39:01.122941+00:00",
+      "available_at": "2026-11-26T11:39:01.122941+00:00",
+      "headline": "Χριστοδουλίδης: μικρότερος ορίζοντας για το ΠΔΠ",
+      "finding": "Ο Νίκος Χριστοδουλίδης ζήτησε στη Σύνοδο της 26ης Νοεμβρίου μικρότερο ορίζοντα για το Πολυετές Δημοσιονομικό Πλαίσιο, κρίνοντας υπερβολικά τα επτά χρόνια λόγω αβεβαιότητας. Ο Φιλελεύθερος μεταφέρει πρόταση, χωρίς συμφωνημένη αλλαγή του πλαισίου.",
+      "section": "cyprus",
+      "priority": 2,
+      "article_path": "articles/2026-11-26-midday/mff-horizon.json",
+      "reader_url": "articles/2026-11-26-midday/mff-horizon.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/oikonomia/kypros/article/1800823/proipologismos-tis-ee-i-kokkines-grammes-tis-kiprou-ke-i-diafonia-me-ti-germania-esiodoxos-gia-simfonia-o-proedros-christodoulidis",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-26T10:20:17+00:00",
+          "retrieved_at": "2026-11-26T10:21:43.622851+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/41247df857e7cb50297b06ed4e9d45a5639fac21d1def27ea79001ddd2b25e83.webp"
+    },
+    {
+      "story_id": "tc-eu-aid-2026-11-26",
+      "identity": "tc-eu-aid-2026-11-26",
+      "edition_id": "2026-11-26-midday",
+      "date": "2026-11-26",
+      "slot": "midday",
+      "published_at": "2026-11-26T11:39:01.122941+00:00",
+      "available_at": "2026-11-26T11:39:01.122941+00:00",
+      "headline": "€37,25 εκατ. για την τουρκοκυπριακή κοινότητα",
+      "finding": "Η Cyprus Mail αναφέρει πίστωση €37,25 εκατ. για οικονομική ανάπτυξη της τουρκοκυπριακής κοινότητας στον προϋπολογισμό της ΕΕ για το 2027, περίπου €3 εκατ. περισσότερα από φέτος. Δεν παρέχονται όροι ατομικής επιλεξιμότητας ή ημερομηνίες εκταμίευσης.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-26-midday/community-allocation.json",
+      "reader_url": "articles/2026-11-26-midday/community-allocation.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/26/turkish-cypriots-allocated-e37m-in-next-years-eu-budget",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-26T06:47:23+00:00",
+          "retrieved_at": "2026-11-26T10:21:42.574451+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/df0599b6b1a3ddc4992b4cd83745dccb3aa1f681559cbc790601f8b9f988c4e9.webp"
+    },
+    {
+      "story_id": "korea-rate-2026-11-26",
+      "identity": "korea-rate-2026-11-26",
+      "edition_id": "2026-11-26-midday",
+      "date": "2026-11-26",
+      "slot": "midday",
+      "published_at": "2026-11-26T11:39:01.122941+00:00",
+      "available_at": "2026-11-26T11:39:01.122941+00:00",
+      "headline": "Νότια Κορέα: αύξηση επιτοκίου στο 3,25%",
+      "finding": "Η Bank of Korea αύξησε στις 26 Νοεμβρίου το βασικό επιτόκιο κατά 25 μονάδες βάσης, από 3% σε 3,25%, με ψήφους 5–2. Επικαλείται ενισχυμένη ανάπτυξη, πληθωρισμό που αναμένεται να παραμείνει πάνω από τον στόχο και κινδύνους χρηματοπιστωτικής σταθερότητας. Το Al Jazeera καταγράφει πληθωρισμό Οκτωβρίου 2,8%, έναντι στόχου 2%.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-26-midday/korea-rate.json",
+      "reader_url": "articles/2026-11-26-midday/korea-rate.html",
+      "sources": [
+        {
+          "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400423&menuNo=400423&nttId=11067086&programType=newsDataEng&relate=Y",
+          "publisher": "Bank of Korea",
+          "reporting_group": "Bank of Korea",
+          "published_at": null,
+          "retrieved_at": "2026-11-26T11:34:17.794Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.aljazeera.com/economy/2026/11/26/south-koreas-central-bank-hikes-interest-rates-raises-gdp-growth-forecast?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-26T05:49:40+00:00",
+          "retrieved_at": "2026-11-26T10:21:41.534910+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0d452bb6bb381151303321aec8ac0d027ab4661ed15abd42d840d8a6cf655801.webp"
+    },
+    {
+      "story_id": "gaza-casualties-2026-11-26",
+      "identity": "gaza-casualties-2026-11-26",
+      "edition_id": "2026-11-26-midday",
+      "date": "2026-11-26",
+      "slot": "midday",
+      "published_at": "2026-11-26T11:39:01.122941+00:00",
+      "available_at": "2026-11-26T11:39:01.122941+00:00",
+      "headline": "Γάζα: αναφορές για τουλάχιστον εννέα νεκρούς",
+      "finding": "Η Cyprus Mail μεταφέρει αναφορές γιατρών για τουλάχιστον εννέα Παλαιστίνιους νεκρούς από ισραηλινές επιδρομές και πυρά, από τη νύχτα έως την Πέμπτη, περιλαμβανομένου του διορισμένου από τη Χαμάς υφυπουργού Παιδείας. Ο απολογισμός αποδίδεται στις ιατρικές πηγές, χωρίς ισραηλινή απάντηση στο απόσπασμα.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-11-26-midday/gaza-casualties.json",
+      "reader_url": "articles/2026-11-26-midday/gaza-casualties.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/26/israeli-strikes-kill-nine-in-gaza-despite-ceasefire",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-26T09:34:28+00:00",
+          "retrieved_at": "2026-11-26T10:21:42.576747+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/96d3d33e350dd7ae643e5b9c40423bbfe46dd77987face1f860c5a4674bc1c1b.webp"
+    },
+    {
+      "story_id": "pcati-report-2026-11-25",
+      "identity": "pcati-report-2026-11-25",
+      "edition_id": "2026-11-26-midday",
+      "date": "2026-11-26",
+      "slot": "midday",
+      "published_at": "2026-11-26T11:39:01.122941+00:00",
+      "available_at": "2026-11-26T11:39:01.122941+00:00",
+      "headline": "Έκθεση PCATI για καταγγελίες βασανιστηρίων",
+      "finding": "Ο Guardian παρουσιάζει έκθεση της PCATI που εξετάζει 42 καταγγελίες κατά ανακριτών της Shin Bet την τελευταία δεκαετία. Οι Times of Israel αναφέρουν ότι η οργάνωση δεν χαρακτηρίζει το δείγμα αντιπροσωπευτικό. Το υπουργείο Δικαιοσύνης αντιτείνει ότι οι καταγγελίες χρειάζονται πρόσθετα στοιχεία και εξετάζονται προσεκτικά. Δεν υπάρχει νέα δικαστική κρίση στο υλικό.",
+      "section": "world",
+      "priority": 6,
+      "article_path": "articles/2026-11-26-midday/pcati-report.json",
+      "reader_url": "articles/2026-11-26-midday/pcati-report.html",
+      "sources": [
+        {
+          "url": "https://www.timesofisrael.com/israeli-ngo-palestinian-suspects-convicted-over-confessions-extracted-under-torture/",
+          "publisher": "The Times of Israel",
+          "reporting_group": "The Times of Israel",
+          "published_at": null,
+          "retrieved_at": "2026-11-26T11:34:17.794Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/nov/26/israel-officially-sanctions-torture-palestinian-prisoners-confessions-report",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-26T10:00:52+00:00",
+          "retrieved_at": "2026-11-26T10:21:42.928263+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c34f2568715a21295b85d050dbb262e18695d6ae33a502b2582132ecc8d33a4d.webp"
+    },
+    {
+      "story_id": "mexico-major-r16-2026-11-26",
+      "identity": "mexico-major-r16-2026-11-26",
+      "edition_id": "2026-11-26-midday",
+      "date": "2026-11-26",
+      "slot": "midday",
+      "published_at": "2026-11-26T11:39:01.122941+00:00",
+      "available_at": "2026-11-26T11:39:01.122941+00:00",
+      "headline": "Mexico Major: πρόγραμμα για τη φάση των 16",
+      "finding": "Το Padel Addict ανακοινώνει για τις 26 Νοεμβρίου 16 αγώνες σε τέσσερα γήπεδα, με ταυτόχρονη έναρξη στις 16:00 τοπική ώρα Ακαπούλκο. Σε κάθε γήπεδο προβλέπονται τέσσερις αναμετρήσεις, εναλλάξ γυναικών και ανδρών.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-26-midday/mexico-major-r16.json",
+      "reader_url": "articles/2026-11-26-midday/mexico-major-r16.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/horarios-partidos-donde-ver-octavos-mexico-major-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-26T09:33:19+00:00",
+          "retrieved_at": "2026-11-26T10:21:45.088242+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/efab3c16a2bb706760ae23033e527291cf87640ff0e2cd1cb8baf52cfe1ae2d8.webp"
+    },
+    {
+      "story_id": "kmi-pay-2026-11-26",
+      "identity": "kmi-pay-2026-11-26",
+      "edition_id": "2026-11-26-midday",
+      "date": "2026-11-26",
+      "slot": "midday",
+      "published_at": "2026-11-26T11:39:01.122941+00:00",
+      "available_at": "2026-11-26T11:39:01.122941+00:00",
+      "headline": "Premier League: αξιολόγηση και αμοιβές διαιτητών",
+      "finding": "Το BBC εξετάζει το Key Match Incidents Panel, του οποίου οι ψήφοι δημοσιοποιούνται κάθε Τετάρτη. Αναφέρει ότι γνώμες πρώην παικτών επηρεάζουν σημαντικό μέρος της ετήσιας αμοιβής των διαιτητών.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-26-midday/referee-assessment.json",
+      "reader_url": "articles/2026-11-26-midday/referee-assessment.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/cq20x16zxxzeo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-26T07:28:18+00:00",
+          "retrieved_at": "2026-11-26T10:21:41.825347+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/b171b3463084bbb3629d57365c54bc1c0de3e0dfda9c0dcb32fc31e96e4d6013.webp"
+    },
+    {
+      "story_id": "cyprus-bank-npl-2026-11-26",
+      "identity": "cyprus-bank-npl-2026-11-26",
+      "edition_id": "2026-11-26-midday",
+      "date": "2026-11-26",
+      "slot": "midday",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T11:39:01.122941+00:00",
+      "headline": "Τράπεζες: σταθερός λόγος ΜΕΔ, €700 εκατ. αναδιαρθρώσεων",
+      "finding": "Η Cyprus Mail μεταφέρει στοιχεία της Κεντρικής Τράπεζας για το τέλος Αυγούστου 2026: ο λόγος μη εξυπηρετούμενων δανείων παρέμεινε στο 1,5%, ενώ η κάλυψή τους με προβλέψεις αυξήθηκε στο 64,7% από 64,5% τον προηγούμενο μήνα. Τα αναδιαρθρωμένα δάνεια ανέρχονταν σε €700 εκατ.",
+      "section": "cyprus",
+      "priority": 1,
+      "article_path": "articles/2026-11-26-midday/cyprus-bank-npl.json",
+      "reader_url": "articles/2026-11-26-midday/cyprus-bank-npl.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/26/restructured-loans-reach-e700m-as-cyprus-npl-ratio-stays-flat",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-26T04:20:00+00:00",
+          "retrieved_at": "2026-11-26T04:21:28.672290+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5a38382ef114ca10df881d372ce9b81418167237f70d9aebcc17da9339c518d3.webp"
+    },
+    {
+      "story_id": "disy-internal-ballot-2026-11-28",
+      "identity": "disy-internal-ballot-2026-11-28",
+      "edition_id": "2026-11-26-midday",
+      "date": "2026-11-26",
+      "slot": "midday",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T11:39:01.122941+00:00",
+      "headline": "ΔΗΣΥ: προσκλητήριο συμμετοχής στην κάλπη του Σαββάτου",
+      "finding": "Ο Φιλελεύθερος μεταφέρει εκτιμήσεις μελών και ηγεσίας του ΔΗΣΥ για προσέλευση περίπου 15.000 μελών στην εσωκομματική διαδικασία του Σαββάτου, 28 Νοεμβρίου. Πρόκειται για εκτίμηση, όχι καταμετρημένη συμμετοχή. Η επίσημη ανακοίνωση αποτελεσμάτων προγραμματίζεται στις 20:00 στο οίκημα της Πινδάρου, παρουσία των δύο υποψηφίων, και θα ακολουθήσει δήλωση της προέδρου του κόμματος.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-26-midday/disy-ballot.json",
+      "reader_url": "articles/2026-11-26-midday/disy-ballot.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1800624/sinagermiko-prosklitirio-simmetochis-anisichia-gia-chamila-noumera-stin-kalpi-tou-savvatou",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-26T04:03:00+00:00",
+          "retrieved_at": "2026-11-26T04:21:28.894604+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0b9f686c4d4366dcd8c3af7f962689ac7fffb5263825fe55eb9e6e3d64203b22.webp"
+    },
+    {
+      "story_id": "trump-nvidia-disclosures-2026-11-25",
+      "identity": "trump-nvidia-disclosures-2026-11-25",
+      "edition_id": "2026-11-26-midday",
+      "date": "2026-11-26",
+      "slot": "midday",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T11:39:01.122941+00:00",
+      "headline": "BBC: 44 συναλλαγές NVIDIA στα χαρτοφυλάκια Τραμπ",
+      "finding": "Το BBC, εξετάζοντας τις οικονομικές δηλώσεις του Ντόναλντ Τραμπ, καταγράφει τουλάχιστον 44 αγορές ή πωλήσεις NVIDIA φέτος. Για Ιανουάριο–Σεπτέμβριο οι δηλώσεις τοποθετούν τις αγορές μεταξύ $5,2–17 εκατ. και τις πωλήσεις μεταξύ $4,4–12 εκατ. Τα εύρη δεν δίνουν ακριβές καθαρό αποτέλεσμα ή σημερινή θέση και από μόνα τους δεν αποδεικνύουν χρήση προνομιακής πληροφόρησης.",
+      "section": "world",
+      "priority": 7,
+      "article_path": "articles/2026-11-26-midday/trump-disclosures.json",
+      "reader_url": "articles/2026-11-26-midday/trump-disclosures.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-25T16:42:11+00:00",
+          "retrieved_at": "2026-11-26T04:21:27.657354+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7e0f0a6dffd2e5508368484d35739a8c50486b158307d95336330051b2d1fc20.webp"
+    },
+    {
+      "story_id": "spain-election-preview-2026-11-26",
+      "identity": "spain-election-preview-2026-11-26",
+      "edition_id": "2026-11-26-midday",
+      "date": "2026-11-26",
+      "slot": "midday",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T11:39:01.122941+00:00",
+      "headline": "Ισπανία: εκλογικό Σαββατοκύριακο με ανοιχτή έκβαση",
+      "finding": "Οι ανταποκριτές Sam Jones και Ashifa Kassam του Guardian εξετάζουν τις ισπανικές εκλογές του προσεχούς Σαββατοκύριακου και το ενδεχόμενο αντικατάστασης του Pedro Sánchez, ύστερα από οκτώ χρόνια στην εξουσία. Το αναγνώσιμο συνοδευτικό κείμενο της εκπομπής δεν παρέχει αποτελέσματα, ποσοστά δημοσκοπήσεων ή κατανομή εδρών. Συνεπώς στηρίζει προεκλογική επισκόπηση, χωρίς πρόβλεψη νικητή ή επιβεβαιωμένης μετεκλογικής πλειοψηφίας.",
+      "section": "world",
+      "priority": 9,
+      "article_path": "articles/2026-11-26-midday/spain-election-preview.json",
+      "reader_url": "articles/2026-11-26-midday/spain-election-preview.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/news/audio/2026/nov/26/spains-election-the-end-of-a-leftwing-icon-podcast",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-26T03:00:43+00:00",
+          "retrieved_at": "2026-11-26T04:21:28.843432+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/857bdfccae6efdc09d0bb0b8bb3a98211ec0b8f05c73e24736eb6d2712cdb378.webp"
     },
     {
       "story_id": "cyprus-bank-npl-2026-11-26",

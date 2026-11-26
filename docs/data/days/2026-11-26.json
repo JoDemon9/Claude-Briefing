@@ -10,13 +10,18 @@
       "type": "morning",
       "url": "morning/2026-11-26.html",
       "published_at": "2026-11-26T05:30:05.478637+00:00"
+    },
+    {
+      "id": "2026-11-26-midday",
+      "type": "midday",
+      "url": "midday/2026-11-26.html",
+      "published_at": "2026-11-26T11:39:01.122941+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "nvidia-creditwatch-2026-11-25",
+  "lead_story_id": "korea-rate-2026-11-26",
   "stories": [
     {
       "story_id": "cyprus-bank-npl-2026-11-26",
@@ -28,13 +33,40 @@
           "article_id": "cyprus-bank-npl",
           "source_story_id": "cyprus-bank-npl-2026-11-26",
           "url": "articles/2026-11-26-morning/cyprus-bank-npl.html"
+        },
+        {
+          "edition_id": "2026-11-26-midday",
+          "article_id": "cyprus-bank-npl",
+          "source_story_id": "cyprus-bank-npl-2026-11-26",
+          "url": "articles/2026-11-26-midday/cyprus-bank-npl.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-26-morning",
+        "edition_id": "2026-11-26-midday",
         "article_id": "cyprus-bank-npl",
         "source_story_id": "cyprus-bank-npl-2026-11-26",
-        "url": "articles/2026-11-26-morning/cyprus-bank-npl.html"
+        "url": "articles/2026-11-26-midday/cyprus-bank-npl.html"
+      },
+      "section": "cyprus",
+      "priority": 1
+    },
+    {
+      "story_id": "cyprus-power-risk-2026-11-26",
+      "first_seen_at": "2026-11-26T11:39:01.122941+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-26-midday",
+          "article_id": "electricity-warning",
+          "source_story_id": "cyprus-power-risk-2026-11-26",
+          "url": "articles/2026-11-26-midday/electricity-warning.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "electricity-warning",
+        "source_story_id": "cyprus-power-risk-2026-11-26",
+        "url": "articles/2026-11-26-midday/electricity-warning.html"
       },
       "section": "cyprus",
       "priority": 1
@@ -61,6 +93,27 @@
       "priority": 2
     },
     {
+      "story_id": "cyprus-mff-2026-11-26",
+      "first_seen_at": "2026-11-26T11:39:01.122941+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-26-midday",
+          "article_id": "mff-horizon",
+          "source_story_id": "cyprus-mff-2026-11-26",
+          "url": "articles/2026-11-26-midday/mff-horizon.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "mff-horizon",
+        "source_story_id": "cyprus-mff-2026-11-26",
+        "url": "articles/2026-11-26-midday/mff-horizon.html"
+      },
+      "section": "cyprus",
+      "priority": 2
+    },
+    {
       "story_id": "paralimni-deryneia-projects-2026-11-26",
       "first_seen_at": "2026-11-26T05:30:05.478637+00:00",
       "last_substantive_at": null,
@@ -82,6 +135,27 @@
       "priority": 3
     },
     {
+      "story_id": "tc-eu-aid-2026-11-26",
+      "first_seen_at": "2026-11-26T11:39:01.122941+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-26-midday",
+          "article_id": "community-allocation",
+          "source_story_id": "tc-eu-aid-2026-11-26",
+          "url": "articles/2026-11-26-midday/community-allocation.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "community-allocation",
+        "source_story_id": "tc-eu-aid-2026-11-26",
+        "url": "articles/2026-11-26-midday/community-allocation.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
       "story_id": "disy-internal-ballot-2026-11-28",
       "first_seen_at": "2026-11-26T05:30:05.478637+00:00",
       "last_substantive_at": null,
@@ -91,15 +165,42 @@
           "article_id": "disy-ballot",
           "source_story_id": "disy-internal-ballot-2026-11-28",
           "url": "articles/2026-11-26-morning/disy-ballot.html"
+        },
+        {
+          "edition_id": "2026-11-26-midday",
+          "article_id": "disy-ballot",
+          "source_story_id": "disy-internal-ballot-2026-11-28",
+          "url": "articles/2026-11-26-midday/disy-ballot.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-26-morning",
+        "edition_id": "2026-11-26-midday",
         "article_id": "disy-ballot",
         "source_story_id": "disy-internal-ballot-2026-11-28",
-        "url": "articles/2026-11-26-morning/disy-ballot.html"
+        "url": "articles/2026-11-26-midday/disy-ballot.html"
       },
       "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "korea-rate-2026-11-26",
+      "first_seen_at": "2026-11-26T11:39:01.122941+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-26-midday",
+          "article_id": "korea-rate",
+          "source_story_id": "korea-rate-2026-11-26",
+          "url": "articles/2026-11-26-midday/korea-rate.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "korea-rate",
+        "source_story_id": "korea-rate-2026-11-26",
+        "url": "articles/2026-11-26-midday/korea-rate.html"
+      },
+      "section": "world",
       "priority": 4
     },
     {
@@ -124,6 +225,27 @@
       "priority": 5
     },
     {
+      "story_id": "gaza-casualties-2026-11-26",
+      "first_seen_at": "2026-11-26T11:39:01.122941+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-26-midday",
+          "article_id": "gaza-casualties",
+          "source_story_id": "gaza-casualties-2026-11-26",
+          "url": "articles/2026-11-26-midday/gaza-casualties.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "gaza-casualties",
+        "source_story_id": "gaza-casualties-2026-11-26",
+        "url": "articles/2026-11-26-midday/gaza-casualties.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
       "story_id": "nvidia-creditwatch-2026-11-25",
       "first_seen_at": "2026-11-26T05:30:05.478637+00:00",
       "last_substantive_at": null,
@@ -145,6 +267,48 @@
       "priority": 6
     },
     {
+      "story_id": "pcati-report-2026-11-25",
+      "first_seen_at": "2026-11-26T11:39:01.122941+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-26-midday",
+          "article_id": "pcati-report",
+          "source_story_id": "pcati-report-2026-11-25",
+          "url": "articles/2026-11-26-midday/pcati-report.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "pcati-report",
+        "source_story_id": "pcati-report-2026-11-25",
+        "url": "articles/2026-11-26-midday/pcati-report.html"
+      },
+      "section": "world",
+      "priority": 6
+    },
+    {
+      "story_id": "mexico-major-r16-2026-11-26",
+      "first_seen_at": "2026-11-26T11:39:01.122941+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-26-midday",
+          "article_id": "mexico-major-r16",
+          "source_story_id": "mexico-major-r16-2026-11-26",
+          "url": "articles/2026-11-26-midday/mexico-major-r16.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "mexico-major-r16",
+        "source_story_id": "mexico-major-r16-2026-11-26",
+        "url": "articles/2026-11-26-midday/mexico-major-r16.html"
+      },
+      "section": "sports",
+      "priority": 7
+    },
+    {
       "story_id": "trump-nvidia-disclosures-2026-11-25",
       "first_seen_at": "2026-11-26T05:30:05.478637+00:00",
       "last_substantive_at": null,
@@ -154,16 +318,43 @@
           "article_id": "trump-disclosures",
           "source_story_id": "trump-nvidia-disclosures-2026-11-25",
           "url": "articles/2026-11-26-morning/trump-disclosures.html"
+        },
+        {
+          "edition_id": "2026-11-26-midday",
+          "article_id": "trump-disclosures",
+          "source_story_id": "trump-nvidia-disclosures-2026-11-25",
+          "url": "articles/2026-11-26-midday/trump-disclosures.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-26-morning",
+        "edition_id": "2026-11-26-midday",
         "article_id": "trump-disclosures",
         "source_story_id": "trump-nvidia-disclosures-2026-11-25",
-        "url": "articles/2026-11-26-morning/trump-disclosures.html"
+        "url": "articles/2026-11-26-midday/trump-disclosures.html"
       },
       "section": "world",
       "priority": 7
+    },
+    {
+      "story_id": "kmi-pay-2026-11-26",
+      "first_seen_at": "2026-11-26T11:39:01.122941+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-26-midday",
+          "article_id": "referee-assessment",
+          "source_story_id": "kmi-pay-2026-11-26",
+          "url": "articles/2026-11-26-midday/referee-assessment.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "referee-assessment",
+        "source_story_id": "kmi-pay-2026-11-26",
+        "url": "articles/2026-11-26-midday/referee-assessment.html"
+      },
+      "section": "sports",
+      "priority": 8
     },
     {
       "story_id": "panos-fragnesia-chain-2026-11-25",
@@ -196,13 +387,19 @@
           "article_id": "spain-election-preview",
           "source_story_id": "spain-election-preview-2026-11-26",
           "url": "articles/2026-11-26-morning/spain-election-preview.html"
+        },
+        {
+          "edition_id": "2026-11-26-midday",
+          "article_id": "spain-election-preview",
+          "source_story_id": "spain-election-preview-2026-11-26",
+          "url": "articles/2026-11-26-midday/spain-election-preview.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-26-morning",
+        "edition_id": "2026-11-26-midday",
         "article_id": "spain-election-preview",
         "source_story_id": "spain-election-preview-2026-11-26",
-        "url": "articles/2026-11-26-morning/spain-election-preview.html"
+        "url": "articles/2026-11-26-midday/spain-election-preview.html"
       },
       "section": "world",
       "priority": 9
@@ -403,6 +600,174 @@
         "article_id": "australia-economy-debate",
         "source_story_id": "australia-economy-debate-2026-11-26",
         "url": "articles/2026-11-26-morning/australia-economy-debate.html"
+      }
+    },
+    {
+      "id": "04c4d03323a6609a4e31ff61c8b19525d3c11c03413bed898d65860c13cc1ed0",
+      "kind": "provenance",
+      "at": "2026-11-26T11:39:01.122941+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "spain-election-preview-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "spain-election-preview",
+        "source_story_id": "spain-election-preview-2026-11-26",
+        "url": "articles/2026-11-26-midday/spain-election-preview.html"
+      }
+    },
+    {
+      "id": "143356f7a4954a96af65c68c372fabac8d4d1198732be690fb6f649cad125c10",
+      "kind": "provenance",
+      "at": "2026-11-26T11:39:01.122941+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-power-risk-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "electricity-warning",
+        "source_story_id": "cyprus-power-risk-2026-11-26",
+        "url": "articles/2026-11-26-midday/electricity-warning.html"
+      }
+    },
+    {
+      "id": "4c76d816fc3bd5e9554f08fdd409f3067fa80fca6ade0f67322c0903a7db15e9",
+      "kind": "provenance",
+      "at": "2026-11-26T11:39:01.122941+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "mexico-major-r16-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "mexico-major-r16",
+        "source_story_id": "mexico-major-r16-2026-11-26",
+        "url": "articles/2026-11-26-midday/mexico-major-r16.html"
+      }
+    },
+    {
+      "id": "565077ee953da690c55129a38db0b3b5a863911e28f4f94055d98864b87dd758",
+      "kind": "provenance",
+      "at": "2026-11-26T11:39:01.122941+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "trump-nvidia-disclosures-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "trump-disclosures",
+        "source_story_id": "trump-nvidia-disclosures-2026-11-25",
+        "url": "articles/2026-11-26-midday/trump-disclosures.html"
+      }
+    },
+    {
+      "id": "78281ad48fd7b45975dea762e096abf1bb955a5846834e50ca5baa1ce3306273",
+      "kind": "provenance",
+      "at": "2026-11-26T11:39:01.122941+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "gaza-casualties-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "gaza-casualties",
+        "source_story_id": "gaza-casualties-2026-11-26",
+        "url": "articles/2026-11-26-midday/gaza-casualties.html"
+      }
+    },
+    {
+      "id": "8eb1876f0e802ba397fe0b086db0dded1920c8578152cceef9fcabf449ff03f2",
+      "kind": "provenance",
+      "at": "2026-11-26T11:39:01.122941+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-mff-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "mff-horizon",
+        "source_story_id": "cyprus-mff-2026-11-26",
+        "url": "articles/2026-11-26-midday/mff-horizon.html"
+      }
+    },
+    {
+      "id": "9304fb925087c3e9f25645873c07ef0f3f0e607472834fa9f2c39e6464960d3a",
+      "kind": "provenance",
+      "at": "2026-11-26T11:39:01.122941+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "disy-internal-ballot-2026-11-28",
+      "origin": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "disy-ballot",
+        "source_story_id": "disy-internal-ballot-2026-11-28",
+        "url": "articles/2026-11-26-midday/disy-ballot.html"
+      }
+    },
+    {
+      "id": "966b66148f44dc1ebd701e01db75955d6a39f28b41a84b685a8c1a9e409e0d2f",
+      "kind": "provenance",
+      "at": "2026-11-26T11:39:01.122941+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "kmi-pay-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "referee-assessment",
+        "source_story_id": "kmi-pay-2026-11-26",
+        "url": "articles/2026-11-26-midday/referee-assessment.html"
+      }
+    },
+    {
+      "id": "bfc3de61da469d00757564845143300d59aaeb09439ecdb62d0a21829adfdba2",
+      "kind": "provenance",
+      "at": "2026-11-26T11:39:01.122941+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "pcati-report-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "pcati-report",
+        "source_story_id": "pcati-report-2026-11-25",
+        "url": "articles/2026-11-26-midday/pcati-report.html"
+      }
+    },
+    {
+      "id": "c1a86660bfa4761b86578681ec24ca90dd89c7d174a83ca2a5961ce3a553bb2d",
+      "kind": "provenance",
+      "at": "2026-11-26T11:39:01.122941+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "korea-rate-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "korea-rate",
+        "source_story_id": "korea-rate-2026-11-26",
+        "url": "articles/2026-11-26-midday/korea-rate.html"
+      }
+    },
+    {
+      "id": "d8f334cfb6e9af06fdcaa503a1281d1ec23b2805e31cf73b05eb26ed3d6c8e11",
+      "kind": "provenance",
+      "at": "2026-11-26T11:39:01.122941+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-bank-npl-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "cyprus-bank-npl",
+        "source_story_id": "cyprus-bank-npl-2026-11-26",
+        "url": "articles/2026-11-26-midday/cyprus-bank-npl.html"
+      }
+    },
+    {
+      "id": "da83c0af6bce986a58c1a4f4fb0c1e5464469d36f3ef23433a5e547fe81b0084",
+      "kind": "provenance",
+      "at": "2026-11-26T11:39:01.122941+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "tc-eu-aid-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-midday",
+        "article_id": "community-allocation",
+        "source_story_id": "tc-eu-aid-2026-11-26",
+        "url": "articles/2026-11-26-midday/community-allocation.html"
       }
     }
   ],
@@ -612,16 +977,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η προειδοποίηση της S&P για πιθανή υποβάθμιση της NVIDIA μεταφέρει την προσοχή στην εταιρική διακυβέρνηση και στον πιστωτικό κίνδυνο. Για τους ομολογιούχους κρίσιμη είναι η έκβαση της επανεξέτασης, ενώ η χρηματιστηριακή πορεία δεν αρκεί για να λύσει τα ερωτήματα εποπτείας της διοίκησης. Στην Κύπρο, τα στοιχεία τέλους Αυγούστου δείχνουν σταθερό λόγο μη εξυπηρετούμενων δανείων και ελαφρώς αυξημένη κάλυψη με προβλέψεις. Για τράπεζες και δανειολήπτες χρειάζεται συνέχεια στα στοιχεία αποπληρωμών, χωρίς να διαβάζεται η δημοσίευση ως σημερινή μέτρηση ή υπόσχεση φθηνότερου δανεισμού. Οι επόμενοι έλεγχοι είναι η απόφαση του οίκου και οι νεότερες τραπεζικές δημοσιεύσεις.",
+        "text": "Η Νότια Κορέα αύξησε το επιτόκιο εν μέσω ανάπτυξης και επίμονου πληθωρισμού. Στην Κύπρο, η προειδοποίηση του ΔΗΣΥ για μελλοντική επάρκεια ηλεκτρισμού χρειάζεται έλεγχο με το πραγματικό χρονοδιάγραμμα μονάδων και έργων.",
         "story_ids": [
-          "nvidia-creditwatch-2026-11-25",
-          "cyprus-bank-npl-2026-11-26"
+          "korea-rate-2026-11-26",
+          "cyprus-power-risk-2026-11-26"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-26T05:32:52.622490+00:00",
-  "updated_at": "2026-11-26T05:32:52.622490+00:00",
-  "input_sha256": "d44509f62d7212deae398b1161b4d71768e965a521f335b552cef4911646a42a"
+  "updated_at": "2026-11-26T11:41:15.450031+00:00",
+  "input_sha256": "d453a15986d853116c14356f455ebb5968c5b3471559ec887afe15692f39f861"
 }
