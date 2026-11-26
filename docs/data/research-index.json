@@ -955,6 +955,14 @@
       "fingerprint": "777e084f8d82af613610415fd853c99c59b17db4b9d198e4de892b809ceb41bf"
     },
     {
+      "id": "2026-11-26-evening",
+      "date": "2026-11-26",
+      "type": "evening",
+      "published_at": "2026-11-26T17:30:42.840109+00:00",
+      "url": "evening/2026-11-26.html",
+      "fingerprint": "459a6056b876b88c255775108224715bcccf662efa57266443b2e9c15503a537"
+    },
+    {
       "id": "2026-11-26-midday",
       "date": "2026-11-26",
       "type": "midday",
@@ -37254,6 +37262,346 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/9137b129ade3c9a9db926229db4ff608eafe921e93e2202eb2b216e56353291a.webp"
+    },
+    {
+      "story_id": "cyprus-mff-2026-11-26",
+      "identity": "cyprus-mff-2026-11-26",
+      "edition_id": "2026-11-26-evening",
+      "date": "2026-11-26",
+      "slot": "evening",
+      "published_at": "2026-11-26T11:39:01.122941+00:00",
+      "available_at": "2026-11-26T17:30:42.840109+00:00",
+      "headline": "ΥΠΟΙΚ: αυξημένη συνεισφορά στο υπό διαπραγμάτευση ΠΔΠ",
+      "finding": "Ο Μάκης Κεραυνός δήλωσε ότι το νέο διαπραγματευτικό πακέτο για το Πολυετές Δημοσιονομικό Πλαίσιο 2028–2034 προβλέπει αύξηση της κυπριακής συνεισφοράς κατά 64,5%, έναντι αύξησης του συνολικού ευρωπαϊκού προϋπολογισμού κατά 24,6%. Κατά το SigmaLive, εκτιμά ότι με τα σημερινά δεδομένα η Κύπρος καθίσταται καθαρός συνεισφορέας.",
+      "section": "cyprus",
+      "priority": 1,
+      "article_path": "articles/2026-11-26-evening/cyprus-mff.json",
+      "reader_url": "articles/2026-11-26-evening/cyprus-mff.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/politics/1339345/ypik-auksithike-i-sineisfora-kyproy-ston-efropaiko-proypologhismo-kata-645",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-26T15:55:56+00:00",
+          "retrieved_at": "2026-11-26T16:21:19.474631+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/249b09b38b0de9edc2843850a07de3f87ab0631eae194e738ae1111a40535b0c.webp"
+    },
+    {
+      "story_id": "cyprus-defense-budget-2026-11-26",
+      "identity": "cyprus-defense-budget-2026-11-26",
+      "edition_id": "2026-11-26-evening",
+      "date": "2026-11-26",
+      "slot": "evening",
+      "published_at": "2026-11-26T17:30:42.840109+00:00",
+      "available_at": "2026-11-26T17:30:42.840109+00:00",
+      "headline": "Πάλμας: αύξηση €250 εκατ. για εξοπλισμούς",
+      "finding": "Μετά τη συνεδρία της Επιτροπής Άμυνας, ο Βασίλης Πάλμας δήλωσε ότι ο φετινός προϋπολογισμός για εξοπλιστικά προγράμματα και αμυντική θωράκιση είναι αυξημένος κατά €250 εκατ., αναφέρει ο Φιλελεύθερος. Το απόσπασμα δεν δίνει συγκεκριμένες συμβάσεις, παραδόσεις ή αναλυτική βάση σύγκρισης· δεν επιτρέπει εξίσωση της αύξησης κονδυλίων με ήδη παραληφθέντα συστήματα.",
+      "section": "cyprus",
+      "priority": 2,
+      "article_path": "articles/2026-11-26-evening/defense-budget.json",
+      "reader_url": "articles/2026-11-26-evening/defense-budget.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1800932/enischiete-i-amintiki-thorakisi-tis-kiprou-afximenos-kata-e250-ekat-o-proipologismos-gia-exoplismous",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-26T15:10:47+00:00",
+          "retrieved_at": "2026-11-26T16:21:19.410969+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/11aaa8aa68a3178c0e95ba3dd6a84fdf27416e3ebc44d7e5c3bac2015478fa4e.webp"
+    },
+    {
+      "story_id": "kakopetria-forensic-cooperation-2026-11-26",
+      "identity": "kakopetria-forensic-cooperation-2026-11-26",
+      "edition_id": "2026-11-26-evening",
+      "date": "2026-11-26",
+      "slot": "evening",
+      "published_at": "2026-11-26T17:30:42.840109+00:00",
+      "available_at": "2026-11-26T17:30:42.840109+00:00",
+      "headline": "Κακοπετριά: αντικρουόμενες εκδοχές για την ιατροδικαστική παρουσία",
+      "finding": "Αστυνομικές πηγές δήλωσαν στην Cyprus Mail ότι κλήθηκε επανειλημμένα ιατροδικαστής μετά τον θάνατο στην Κακοπετριά, αντικρούοντας την εκδοχή της επικεφαλής της υπηρεσίας. Το δημοσίευμα επισημαίνει απουσία επίσημης συμφωνίας συνεργασίας αστυνομίας και ιατροδικαστικής υπηρεσίας, παρά προτάσεις που διαβιβάστηκαν στη Νομική Υπηρεσία τον Απρίλιο του 2025. Οι αντικρουόμενες αναφορές δεν αποτελούν πόρισμα ευθύνης.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-26-evening/forensic-cooperation.json",
+      "reader_url": "articles/2026-11-26-evening/forensic-cooperation.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/26/police-insist-forensic-pathologist-was-called-to-scene-of-kakopetria-tragedy",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-26T16:01:14+00:00",
+          "retrieved_at": "2026-11-26T16:21:19.185935+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/fae43e1c731d8ab1b8fdd5fff8fb038282be8526a88ff4a9abee49432021063a.webp"
+    },
+    {
+      "story_id": "remus-gmail-2026-11-26",
+      "identity": "remus-gmail-2026-11-26",
+      "edition_id": "2026-11-26-evening",
+      "date": "2026-11-26",
+      "slot": "evening",
+      "published_at": "2026-11-26T17:30:42.840109+00:00",
+      "available_at": "2026-11-26T17:30:42.840109+00:00",
+      "headline": "Remus: κακόβουλη επέκταση, όχι Gmail zero-day",
+      "finding": "Το BleepingComputer στις 26 Νοεμβρίου περιγράφει το Remus που υποκλέπτει μηνύματα μέσω πλαστής επέκτασης «Google Sheets». Η πρωτογενής ανάλυση της Gen, δημοσιευμένη στις 24 Νοεμβρίου, εντοπίζει κακόβουλη εγκατάσταση στον Chrome, χωρίς εκμετάλλευση ευπάθειας του Gmail. Ο ισχυρισμός περί zero-day προερχόταν από τους πωλητές του κακόβουλου λογισμικού.",
+      "section": "world",
+      "priority": 4,
+      "article_path": "articles/2026-11-26-evening/remus-gmail.json",
+      "reader_url": "articles/2026-11-26-evening/remus-gmail.html",
+      "sources": [
+        {
+          "url": "https://www.gendigital.com/blog/insights/research/remus-stealer-email-interception-analysis",
+          "publisher": "Gen Threat Labs",
+          "reporting_group": "Gen Digital",
+          "published_at": null,
+          "retrieved_at": "2026-11-26T17:27:56.432Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension",
+          "publisher": "BleepingComputer",
+          "reporting_group": "BleepingComputer",
+          "published_at": "2026-11-26T15:23:28+00:00",
+          "retrieved_at": "2026-11-26T16:21:18.962962+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/9ba340b4cb6e33315f565c714642fc6b04694706b931a074c9726ef927d1bf66.webp"
+    },
+    {
+      "story_id": "trump-rutte-russia-2026-11-26",
+      "identity": "trump-rutte-russia-2026-11-26",
+      "edition_id": "2026-11-26-evening",
+      "date": "2026-11-26",
+      "slot": "evening",
+      "published_at": "2026-11-26T17:30:42.840109+00:00",
+      "available_at": "2026-11-26T17:30:42.840109+00:00",
+      "headline": "Τραμπ–Ρούτε: προειδοποίηση κατά διεύρυνσης του πολέμου",
+      "finding": "Το CNBC αναφέρει κοινή δήλωση Τραμπ και Ρούτε που καλεί τη Ρωσία να αποφύγει ενέργειες διεύρυνσης του πολέμου στην Ουκρανία. Το SigmaLive, μέσω ΑΠΕ-ΜΠΕ, μεταφέρει χωριστή ανάρτηση Τραμπ που ζητά τερματισμό της στρατιωτικής επιθετικότητας. Πρόκειται για διπλωματικές τοποθετήσεις, χωρίς ανακοινωμένη συμφωνία ή επαληθευμένη αλλαγή στρατιωτικής δράσης στα αποσπάσματα.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-11-26-evening/russia-diplomacy.json",
+      "reader_url": "articles/2026-11-26-evening/russia-diplomacy.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-26T10:45:45+00:00",
+          "retrieved_at": "2026-11-26T16:21:18.766965+00:00",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.sigmalive.com/news/international/1339343/tramp-zitise-apo-poutin-na-termatisei-kathe-stratiotiki-epithetiki-energheia",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-26T15:50:01+00:00",
+          "retrieved_at": "2026-11-26T16:21:19.265914+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/fec70bff8540f193089c5b2d96e3d17f0c1f42ae5d4175da6e60819e287e8665.webp"
+    },
+    {
+      "story_id": "cairo-gaza-mediation-2026-11-26",
+      "identity": "cairo-gaza-mediation-2026-11-26",
+      "edition_id": "2026-11-26-evening",
+      "date": "2026-11-26",
+      "slot": "evening",
+      "published_at": "2026-11-26T17:30:42.840109+00:00",
+      "available_at": "2026-11-26T17:30:42.840109+00:00",
+      "headline": "Κατάρ–Αίγυπτος: συνομιλίες για τη Γάζα",
+      "finding": "Ο εμίρης του Κατάρ Ταμίμ μπιν Χάμαντ Αλ Θάνι και ο Αιγύπτιος πρόεδρος Αμπντέλ Φατάχ αλ Σίσι συζήτησαν στο Κάιρο περιφερειακές εντάσεις και την εφαρμογή της εκεχειρίας στη Γάζα. Το Al Jazeera επικαλείται ανακοινώσεις αιγυπτιακής προεδρίας και καταρινού Εμιρικού Γραφείου για κοινή διαμεσολάβηση, χωρίς νέα συμφωνία ή συγκεκριμένο χρονοδιάγραμμα εφαρμογής.",
+      "section": "world",
+      "priority": 6,
+      "article_path": "articles/2026-11-26-evening/cairo-gaza-talks.json",
+      "reader_url": "articles/2026-11-26-evening/cairo-gaza-talks.html",
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/11/26/qatari-egyptian-leaders-discuss-gaza-ceasefire-and-regional-security?traffic_source=rss",
+          "publisher": "Al Jazeera",
+          "reporting_group": "Al Jazeera",
+          "published_at": "2026-11-26T15:45:59+00:00",
+          "retrieved_at": "2026-11-26T16:21:18.377143+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/576ecb142d0e236e9be279b4aeb34bb5efac352ebbf06fa940fccc372eaf5387.webp"
+    },
+    {
+      "story_id": "cyprus-bank-npl-2026-11-26",
+      "identity": "cyprus-bank-npl-2026-11-26",
+      "edition_id": "2026-11-26-evening",
+      "date": "2026-11-26",
+      "slot": "evening",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T17:30:42.840109+00:00",
+      "headline": "Τράπεζες: σταθερός λόγος ΜΕΔ, €700 εκατ. αναδιαρθρώσεων",
+      "finding": "Η Cyprus Mail μεταφέρει στοιχεία της Κεντρικής Τράπεζας για το τέλος Αυγούστου 2026: ο λόγος μη εξυπηρετούμενων δανείων παρέμεινε στο 1,5%, ενώ η κάλυψή τους με προβλέψεις αυξήθηκε στο 64,7% από 64,5% τον προηγούμενο μήνα. Τα αναδιαρθρωμένα δάνεια ανέρχονταν σε €700 εκατ.",
+      "section": "cyprus",
+      "priority": 1,
+      "article_path": "articles/2026-11-26-evening/cyprus-bank-npl.json",
+      "reader_url": "articles/2026-11-26-evening/cyprus-bank-npl.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/26/restructured-loans-reach-e700m-as-cyprus-npl-ratio-stays-flat",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-26T04:20:00+00:00",
+          "retrieved_at": "2026-11-26T04:21:28.672290+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5a38382ef114ca10df881d372ce9b81418167237f70d9aebcc17da9339c518d3.webp"
+    },
+    {
+      "story_id": "cyprus-power-risk-2026-11-26",
+      "identity": "cyprus-power-risk-2026-11-26",
+      "edition_id": "2026-11-26-evening",
+      "date": "2026-11-26",
+      "slot": "evening",
+      "published_at": "2026-11-26T11:39:01.122941+00:00",
+      "available_at": "2026-11-26T17:30:42.840109+00:00",
+      "headline": "ΔΗΣΥ: προειδοποίηση για μελλοντική επάρκεια ρεύματος",
+      "finding": "Ο ΔΗΣΥ προειδοποιεί ότι 750 MW συμβατικής ισχύος κινδυνεύουν να αποσυρθούν εντός τριετίας, ενώ καθυστερούν φυσικό αέριο, διασύνδεση και αποθήκευση, μεταφέρει το SigmaLive. Πρόκειται για πολιτική εκτίμηση, χωρίς ανεξάρτητη επιβεβαίωση χρονοδιαγράμματος απόσυρσης ή σημερινής ανεπάρκειας.",
+      "section": "cyprus",
+      "priority": 1,
+      "article_path": "articles/2026-11-26-evening/electricity-warning.json",
+      "reader_url": "articles/2026-11-26-evening/electricity-warning.html",
+      "sources": [
+        {
+          "url": "https://www.sigmalive.com/news/local/1339283/dimosioghrafiki-dhsy-kampanaki-ghia-eparkeia-kai-akrivo-ilektriko-reuma",
+          "publisher": "Sigmalive",
+          "reporting_group": "Sigmalive",
+          "published_at": "2026-11-26T10:18:35+00:00",
+          "retrieved_at": "2026-11-26T10:21:42.768120+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/ebed52d2f14af76042dee7724d26e599668d0ca87ad5e6a95abd644c57a1f9b9.webp"
+    },
+    {
+      "story_id": "gaza-casualties-2026-11-26",
+      "identity": "gaza-casualties-2026-11-26",
+      "edition_id": "2026-11-26-evening",
+      "date": "2026-11-26",
+      "slot": "evening",
+      "published_at": "2026-11-26T11:39:01.122941+00:00",
+      "available_at": "2026-11-26T17:30:42.840109+00:00",
+      "headline": "Γάζα: αναφορές για τουλάχιστον εννέα νεκρούς",
+      "finding": "Η Cyprus Mail μεταφέρει αναφορές γιατρών για τουλάχιστον εννέα Παλαιστίνιους νεκρούς από ισραηλινές επιδρομές και πυρά, από τη νύχτα έως την Πέμπτη, περιλαμβανομένου του διορισμένου από τη Χαμάς υφυπουργού Παιδείας. Ο απολογισμός αποδίδεται στις ιατρικές πηγές, χωρίς ισραηλινή απάντηση στο απόσπασμα.",
+      "section": "world",
+      "priority": 5,
+      "article_path": "articles/2026-11-26-evening/gaza-casualties.json",
+      "reader_url": "articles/2026-11-26-evening/gaza-casualties.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/26/israeli-strikes-kill-nine-in-gaza-despite-ceasefire",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-26T09:34:28+00:00",
+          "retrieved_at": "2026-11-26T10:21:42.576747+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/96d3d33e350dd7ae643e5b9c40423bbfe46dd77987face1f860c5a4674bc1c1b.webp"
+    },
+    {
+      "story_id": "trump-nvidia-disclosures-2026-11-25",
+      "identity": "trump-nvidia-disclosures-2026-11-25",
+      "edition_id": "2026-11-26-evening",
+      "date": "2026-11-26",
+      "slot": "evening",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T17:30:42.840109+00:00",
+      "headline": "BBC: 44 συναλλαγές NVIDIA στα χαρτοφυλάκια Τραμπ",
+      "finding": "Το BBC, εξετάζοντας τις οικονομικές δηλώσεις του Ντόναλντ Τραμπ, καταγράφει τουλάχιστον 44 αγορές ή πωλήσεις NVIDIA φέτος. Για Ιανουάριο–Σεπτέμβριο οι δηλώσεις τοποθετούν τις αγορές μεταξύ $5,2–17 εκατ. και τις πωλήσεις μεταξύ $4,4–12 εκατ. Τα εύρη δεν δίνουν ακριβές καθαρό αποτέλεσμα ή σημερινή θέση και από μόνα τους δεν αποδεικνύουν χρήση προνομιακής πληροφόρησης.",
+      "section": "world",
+      "priority": 7,
+      "article_path": "articles/2026-11-26-evening/trump-disclosures.json",
+      "reader_url": "articles/2026-11-26-evening/trump-disclosures.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-25T16:42:11+00:00",
+          "retrieved_at": "2026-11-26T04:21:27.657354+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7e0f0a6dffd2e5508368484d35739a8c50486b158307d95336330051b2d1fc20.webp"
+    },
+    {
+      "story_id": "mexico-major-r16-2026-11-26",
+      "identity": "mexico-major-r16-2026-11-26",
+      "edition_id": "2026-11-26-evening",
+      "date": "2026-11-26",
+      "slot": "evening",
+      "published_at": "2026-11-26T11:39:01.122941+00:00",
+      "available_at": "2026-11-26T17:30:42.840109+00:00",
+      "headline": "Mexico Major: πρόγραμμα για τη φάση των 16",
+      "finding": "Το Padel Addict ανακοινώνει για τις 26 Νοεμβρίου 16 αγώνες σε τέσσερα γήπεδα, με ταυτόχρονη έναρξη στις 16:00 τοπική ώρα Ακαπούλκο. Σε κάθε γήπεδο προβλέπονται τέσσερις αναμετρήσεις, εναλλάξ γυναικών και ανδρών.",
+      "section": "sports",
+      "priority": 7,
+      "article_path": "articles/2026-11-26-evening/mexico-major-r16.json",
+      "reader_url": "articles/2026-11-26-evening/mexico-major-r16.html",
+      "sources": [
+        {
+          "url": "https://www.padeladdict.com/horarios-partidos-donde-ver-octavos-mexico-major-2026",
+          "publisher": "Padel Addict",
+          "reporting_group": "Padel Addict",
+          "published_at": "2026-11-26T09:33:19+00:00",
+          "retrieved_at": "2026-11-26T10:21:45.088242+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/efab3c16a2bb706760ae23033e527291cf87640ff0e2cd1cb8baf52cfe1ae2d8.webp"
+    },
+    {
+      "story_id": "kmi-pay-2026-11-26",
+      "identity": "kmi-pay-2026-11-26",
+      "edition_id": "2026-11-26-evening",
+      "date": "2026-11-26",
+      "slot": "evening",
+      "published_at": "2026-11-26T11:39:01.122941+00:00",
+      "available_at": "2026-11-26T17:30:42.840109+00:00",
+      "headline": "Premier League: αξιολόγηση και αμοιβές διαιτητών",
+      "finding": "Το BBC εξετάζει το Key Match Incidents Panel, του οποίου οι ψήφοι δημοσιοποιούνται κάθε Τετάρτη. Αναφέρει ότι γνώμες πρώην παικτών επηρεάζουν σημαντικό μέρος της ετήσιας αμοιβής των διαιτητών.",
+      "section": "sports",
+      "priority": 8,
+      "article_path": "articles/2026-11-26-evening/referee-assessment.json",
+      "reader_url": "articles/2026-11-26-evening/referee-assessment.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/cq20x16zxxzeo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-26T07:28:18+00:00",
+          "retrieved_at": "2026-11-26T10:21:41.825347+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/b171b3463084bbb3629d57365c54bc1c0de3e0dfda9c0dcb32fc31e96e4d6013.webp"
     },
     {
       "story_id": "cyprus-power-risk-2026-11-26",

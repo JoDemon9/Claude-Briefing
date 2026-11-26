@@ -16,12 +16,16 @@
       "type": "midday",
       "url": "midday/2026-11-26.html",
       "published_at": "2026-11-26T11:39:01.122941+00:00"
+    },
+    {
+      "id": "2026-11-26-evening",
+      "type": "evening",
+      "url": "evening/2026-11-26.html",
+      "published_at": "2026-11-26T17:30:42.840109+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "korea-rate-2026-11-26",
+  "missing_slots": [],
+  "lead_story_id": "remus-gmail-2026-11-26",
   "stories": [
     {
       "story_id": "cyprus-bank-npl-2026-11-26",
@@ -39,13 +43,46 @@
           "article_id": "cyprus-bank-npl",
           "source_story_id": "cyprus-bank-npl-2026-11-26",
           "url": "articles/2026-11-26-midday/cyprus-bank-npl.html"
+        },
+        {
+          "edition_id": "2026-11-26-evening",
+          "article_id": "cyprus-bank-npl",
+          "source_story_id": "cyprus-bank-npl-2026-11-26",
+          "url": "articles/2026-11-26-evening/cyprus-bank-npl.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-26-midday",
+        "edition_id": "2026-11-26-evening",
         "article_id": "cyprus-bank-npl",
         "source_story_id": "cyprus-bank-npl-2026-11-26",
-        "url": "articles/2026-11-26-midday/cyprus-bank-npl.html"
+        "url": "articles/2026-11-26-evening/cyprus-bank-npl.html"
+      },
+      "section": "cyprus",
+      "priority": 1
+    },
+    {
+      "story_id": "cyprus-mff-2026-11-26",
+      "first_seen_at": "2026-11-26T11:39:01.122941+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-26-midday",
+          "article_id": "mff-horizon",
+          "source_story_id": "cyprus-mff-2026-11-26",
+          "url": "articles/2026-11-26-midday/mff-horizon.html"
+        },
+        {
+          "edition_id": "2026-11-26-evening",
+          "article_id": "cyprus-mff",
+          "source_story_id": "cyprus-mff-2026-11-26",
+          "url": "articles/2026-11-26-evening/cyprus-mff.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "cyprus-mff",
+        "source_story_id": "cyprus-mff-2026-11-26",
+        "url": "articles/2026-11-26-evening/cyprus-mff.html"
       },
       "section": "cyprus",
       "priority": 1
@@ -60,13 +97,19 @@
           "article_id": "electricity-warning",
           "source_story_id": "cyprus-power-risk-2026-11-26",
           "url": "articles/2026-11-26-midday/electricity-warning.html"
+        },
+        {
+          "edition_id": "2026-11-26-evening",
+          "article_id": "electricity-warning",
+          "source_story_id": "cyprus-power-risk-2026-11-26",
+          "url": "articles/2026-11-26-evening/electricity-warning.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-26-midday",
+        "edition_id": "2026-11-26-evening",
         "article_id": "electricity-warning",
         "source_story_id": "cyprus-power-risk-2026-11-26",
-        "url": "articles/2026-11-26-midday/electricity-warning.html"
+        "url": "articles/2026-11-26-evening/electricity-warning.html"
       },
       "section": "cyprus",
       "priority": 1
@@ -93,25 +136,46 @@
       "priority": 2
     },
     {
-      "story_id": "cyprus-mff-2026-11-26",
-      "first_seen_at": "2026-11-26T11:39:01.122941+00:00",
+      "story_id": "cyprus-defense-budget-2026-11-26",
+      "first_seen_at": "2026-11-26T17:30:42.840109+00:00",
       "last_substantive_at": null,
       "references": [
         {
-          "edition_id": "2026-11-26-midday",
-          "article_id": "mff-horizon",
-          "source_story_id": "cyprus-mff-2026-11-26",
-          "url": "articles/2026-11-26-midday/mff-horizon.html"
+          "edition_id": "2026-11-26-evening",
+          "article_id": "defense-budget",
+          "source_story_id": "cyprus-defense-budget-2026-11-26",
+          "url": "articles/2026-11-26-evening/defense-budget.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-26-midday",
-        "article_id": "mff-horizon",
-        "source_story_id": "cyprus-mff-2026-11-26",
-        "url": "articles/2026-11-26-midday/mff-horizon.html"
+        "edition_id": "2026-11-26-evening",
+        "article_id": "defense-budget",
+        "source_story_id": "cyprus-defense-budget-2026-11-26",
+        "url": "articles/2026-11-26-evening/defense-budget.html"
       },
       "section": "cyprus",
       "priority": 2
+    },
+    {
+      "story_id": "kakopetria-forensic-cooperation-2026-11-26",
+      "first_seen_at": "2026-11-26T17:30:42.840109+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-26-evening",
+          "article_id": "forensic-cooperation",
+          "source_story_id": "kakopetria-forensic-cooperation-2026-11-26",
+          "url": "articles/2026-11-26-evening/forensic-cooperation.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "forensic-cooperation",
+        "source_story_id": "kakopetria-forensic-cooperation-2026-11-26",
+        "url": "articles/2026-11-26-evening/forensic-cooperation.html"
+      },
+      "section": "cyprus",
+      "priority": 3
     },
     {
       "story_id": "paralimni-deryneia-projects-2026-11-26",
@@ -204,6 +268,27 @@
       "priority": 4
     },
     {
+      "story_id": "remus-gmail-2026-11-26",
+      "first_seen_at": "2026-11-26T17:30:42.840109+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-26-evening",
+          "article_id": "remus-gmail",
+          "source_story_id": "remus-gmail-2026-11-26",
+          "url": "articles/2026-11-26-evening/remus-gmail.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "remus-gmail",
+        "source_story_id": "remus-gmail-2026-11-26",
+        "url": "articles/2026-11-26-evening/remus-gmail.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
       "story_id": "cyprus-north-fuel-cut-2026-11-25",
       "first_seen_at": "2026-11-26T05:30:05.478637+00:00",
       "last_substantive_at": null,
@@ -234,16 +319,64 @@
           "article_id": "gaza-casualties",
           "source_story_id": "gaza-casualties-2026-11-26",
           "url": "articles/2026-11-26-midday/gaza-casualties.html"
+        },
+        {
+          "edition_id": "2026-11-26-evening",
+          "article_id": "gaza-casualties",
+          "source_story_id": "gaza-casualties-2026-11-26",
+          "url": "articles/2026-11-26-evening/gaza-casualties.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-26-midday",
+        "edition_id": "2026-11-26-evening",
         "article_id": "gaza-casualties",
         "source_story_id": "gaza-casualties-2026-11-26",
-        "url": "articles/2026-11-26-midday/gaza-casualties.html"
+        "url": "articles/2026-11-26-evening/gaza-casualties.html"
       },
       "section": "world",
       "priority": 5
+    },
+    {
+      "story_id": "trump-rutte-russia-2026-11-26",
+      "first_seen_at": "2026-11-26T17:30:42.840109+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-26-evening",
+          "article_id": "russia-diplomacy",
+          "source_story_id": "trump-rutte-russia-2026-11-26",
+          "url": "articles/2026-11-26-evening/russia-diplomacy.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "russia-diplomacy",
+        "source_story_id": "trump-rutte-russia-2026-11-26",
+        "url": "articles/2026-11-26-evening/russia-diplomacy.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
+      "story_id": "cairo-gaza-mediation-2026-11-26",
+      "first_seen_at": "2026-11-26T17:30:42.840109+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-26-evening",
+          "article_id": "cairo-gaza-talks",
+          "source_story_id": "cairo-gaza-mediation-2026-11-26",
+          "url": "articles/2026-11-26-evening/cairo-gaza-talks.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "cairo-gaza-talks",
+        "source_story_id": "cairo-gaza-mediation-2026-11-26",
+        "url": "articles/2026-11-26-evening/cairo-gaza-talks.html"
+      },
+      "section": "world",
+      "priority": 6
     },
     {
       "story_id": "nvidia-creditwatch-2026-11-25",
@@ -297,13 +430,19 @@
           "article_id": "mexico-major-r16",
           "source_story_id": "mexico-major-r16-2026-11-26",
           "url": "articles/2026-11-26-midday/mexico-major-r16.html"
+        },
+        {
+          "edition_id": "2026-11-26-evening",
+          "article_id": "mexico-major-r16",
+          "source_story_id": "mexico-major-r16-2026-11-26",
+          "url": "articles/2026-11-26-evening/mexico-major-r16.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-26-midday",
+        "edition_id": "2026-11-26-evening",
         "article_id": "mexico-major-r16",
         "source_story_id": "mexico-major-r16-2026-11-26",
-        "url": "articles/2026-11-26-midday/mexico-major-r16.html"
+        "url": "articles/2026-11-26-evening/mexico-major-r16.html"
       },
       "section": "sports",
       "priority": 7
@@ -324,13 +463,19 @@
           "article_id": "trump-disclosures",
           "source_story_id": "trump-nvidia-disclosures-2026-11-25",
           "url": "articles/2026-11-26-midday/trump-disclosures.html"
+        },
+        {
+          "edition_id": "2026-11-26-evening",
+          "article_id": "trump-disclosures",
+          "source_story_id": "trump-nvidia-disclosures-2026-11-25",
+          "url": "articles/2026-11-26-evening/trump-disclosures.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-26-midday",
+        "edition_id": "2026-11-26-evening",
         "article_id": "trump-disclosures",
         "source_story_id": "trump-nvidia-disclosures-2026-11-25",
-        "url": "articles/2026-11-26-midday/trump-disclosures.html"
+        "url": "articles/2026-11-26-evening/trump-disclosures.html"
       },
       "section": "world",
       "priority": 7
@@ -345,13 +490,19 @@
           "article_id": "referee-assessment",
           "source_story_id": "kmi-pay-2026-11-26",
           "url": "articles/2026-11-26-midday/referee-assessment.html"
+        },
+        {
+          "edition_id": "2026-11-26-evening",
+          "article_id": "referee-assessment",
+          "source_story_id": "kmi-pay-2026-11-26",
+          "url": "articles/2026-11-26-evening/referee-assessment.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-26-midday",
+        "edition_id": "2026-11-26-evening",
         "article_id": "referee-assessment",
         "source_story_id": "kmi-pay-2026-11-26",
-        "url": "articles/2026-11-26-midday/referee-assessment.html"
+        "url": "articles/2026-11-26-evening/referee-assessment.html"
       },
       "section": "sports",
       "priority": 8
@@ -769,6 +920,174 @@
         "source_story_id": "tc-eu-aid-2026-11-26",
         "url": "articles/2026-11-26-midday/community-allocation.html"
       }
+    },
+    {
+      "id": "01b0bf4f9d9efb25aa18a295871df140753daa5bb4786ab377283549dbedc8af",
+      "kind": "provenance",
+      "at": "2026-11-26T17:30:42.840109+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-mff-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "cyprus-mff",
+        "source_story_id": "cyprus-mff-2026-11-26",
+        "url": "articles/2026-11-26-evening/cyprus-mff.html"
+      }
+    },
+    {
+      "id": "1aedda73275fb536a764201dbefdd60568b617962ff2c0a544ff5ecac02028b7",
+      "kind": "provenance",
+      "at": "2026-11-26T17:30:42.840109+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "kmi-pay-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "referee-assessment",
+        "source_story_id": "kmi-pay-2026-11-26",
+        "url": "articles/2026-11-26-evening/referee-assessment.html"
+      }
+    },
+    {
+      "id": "39f4eaabf63e08621f5b8692cfa0a8bc41925b458267a416d0de87ffc72fc564",
+      "kind": "provenance",
+      "at": "2026-11-26T17:30:42.840109+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-defense-budget-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "defense-budget",
+        "source_story_id": "cyprus-defense-budget-2026-11-26",
+        "url": "articles/2026-11-26-evening/defense-budget.html"
+      }
+    },
+    {
+      "id": "588b011464a3068c73acf6938977fdd7111cb460d96a5287a7818b9bbe48b896",
+      "kind": "provenance",
+      "at": "2026-11-26T17:30:42.840109+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "gaza-casualties-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "gaza-casualties",
+        "source_story_id": "gaza-casualties-2026-11-26",
+        "url": "articles/2026-11-26-evening/gaza-casualties.html"
+      }
+    },
+    {
+      "id": "61f3cfa390fea3b6805562dd37439d8963f9309a37fc52c66b29d35333d89bb5",
+      "kind": "provenance",
+      "at": "2026-11-26T17:30:42.840109+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "trump-rutte-russia-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "russia-diplomacy",
+        "source_story_id": "trump-rutte-russia-2026-11-26",
+        "url": "articles/2026-11-26-evening/russia-diplomacy.html"
+      }
+    },
+    {
+      "id": "73e0c1be0420153083c916a5866356154f9e20411c4779d194155a1dd20c3bc9",
+      "kind": "provenance",
+      "at": "2026-11-26T17:30:42.840109+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "remus-gmail-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "remus-gmail",
+        "source_story_id": "remus-gmail-2026-11-26",
+        "url": "articles/2026-11-26-evening/remus-gmail.html"
+      }
+    },
+    {
+      "id": "819830d7caaf245c78815b87e3f1f0ee884e9380b3f7bd1d0a976bd43469e3fb",
+      "kind": "provenance",
+      "at": "2026-11-26T17:30:42.840109+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "trump-nvidia-disclosures-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "trump-disclosures",
+        "source_story_id": "trump-nvidia-disclosures-2026-11-25",
+        "url": "articles/2026-11-26-evening/trump-disclosures.html"
+      }
+    },
+    {
+      "id": "879f9b1f1bb4fd1d2795c34124c420d4c089a790a9d53ab62c7ebe8b847595bd",
+      "kind": "provenance",
+      "at": "2026-11-26T17:30:42.840109+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "kakopetria-forensic-cooperation-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "forensic-cooperation",
+        "source_story_id": "kakopetria-forensic-cooperation-2026-11-26",
+        "url": "articles/2026-11-26-evening/forensic-cooperation.html"
+      }
+    },
+    {
+      "id": "8f448134888ea4d9a1c34b98e7261478013f6a5582b2ec3de9cfc5653eddffe8",
+      "kind": "provenance",
+      "at": "2026-11-26T17:30:42.840109+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-bank-npl-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "cyprus-bank-npl",
+        "source_story_id": "cyprus-bank-npl-2026-11-26",
+        "url": "articles/2026-11-26-evening/cyprus-bank-npl.html"
+      }
+    },
+    {
+      "id": "8feba1af564d197592e09c700c160a4ea6a55bfe403ae0c8a13520c6c3b5d7c4",
+      "kind": "provenance",
+      "at": "2026-11-26T17:30:42.840109+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cairo-gaza-mediation-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "cairo-gaza-talks",
+        "source_story_id": "cairo-gaza-mediation-2026-11-26",
+        "url": "articles/2026-11-26-evening/cairo-gaza-talks.html"
+      }
+    },
+    {
+      "id": "c80486abd6d907b49cd150051b8002875148d12a178e2489879b3be4fb7dcea7",
+      "kind": "provenance",
+      "at": "2026-11-26T17:30:42.840109+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "mexico-major-r16-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "mexico-major-r16",
+        "source_story_id": "mexico-major-r16-2026-11-26",
+        "url": "articles/2026-11-26-evening/mexico-major-r16.html"
+      }
+    },
+    {
+      "id": "e1c4ee303cdca2fde2f1d1234cd48b19eab2f66aaf7e31eb5a1b145b0fc8be3c",
+      "kind": "provenance",
+      "at": "2026-11-26T17:30:42.840109+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-power-risk-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-26-evening",
+        "article_id": "electricity-warning",
+        "source_story_id": "cyprus-power-risk-2026-11-26",
+        "url": "articles/2026-11-26-evening/electricity-warning.html"
+      }
     }
   ],
   "opportunities": [
@@ -977,16 +1296,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Η Νότια Κορέα αύξησε το επιτόκιο εν μέσω ανάπτυξης και επίμονου πληθωρισμού. Στην Κύπρο, η προειδοποίηση του ΔΗΣΥ για μελλοντική επάρκεια ηλεκτρισμού χρειάζεται έλεγχο με το πραγματικό χρονοδιάγραμμα μονάδων και έργων.",
+        "text": "Η έρευνα για το Remus μεταφέρει το βάρος στην ασφάλεια του μολυσμένου browser: η ανάκληση συνεδριών σταματά την πρόσβαση, αλλά η εγκατεστημένη επέκταση μπορεί να επανέλθει με νέα σύνδεση. Στην Κύπρο, τα αυξημένα ποσοστά συνεισφοράς που αναφέρει ο ΥΠΟΙΚ αφορούν διαπραγματευτικό πακέτο για το ΠΔΠ, χωρίς οριστική συμφωνία ή ήδη καταβληθέντα ποσά.",
         "story_ids": [
-          "korea-rate-2026-11-26",
-          "cyprus-power-risk-2026-11-26"
+          "remus-gmail-2026-11-26",
+          "cyprus-mff-2026-11-26"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-26T05:32:52.622490+00:00",
-  "updated_at": "2026-11-26T11:41:15.450031+00:00",
-  "input_sha256": "d453a15986d853116c14356f455ebb5968c5b3471559ec887afe15692f39f861"
+  "updated_at": "2026-11-26T17:32:37.845195+00:00",
+  "input_sha256": "221361fad91a77f045d8d503fa606c11fcbc3702a920a31c20d1951ccf2e472e"
 }
