@@ -953,6 +953,14 @@
       "published_at": "2026-11-25T11:44:27.756946+00:00",
       "url": "midday/2026-11-25.html",
       "fingerprint": "777e084f8d82af613610415fd853c99c59b17db4b9d198e4de892b809ceb41bf"
+    },
+    {
+      "id": "2026-11-26-morning",
+      "date": "2026-11-26",
+      "type": "morning",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "url": "morning/2026-11-26.html",
+      "fingerprint": "3617ef5999007e4cd3c84c16b3a438df8d0659efee52cdd8ce6e60e37af46c15"
     }
   ],
   "stories": [
@@ -37238,6 +37246,311 @@
       ],
       "freshness": [],
       "image_asset": "assets/editorial/source/9137b129ade3c9a9db926229db4ff608eafe921e93e2202eb2b216e56353291a.webp"
+    },
+    {
+      "story_id": "cyprus-bank-npl-2026-11-26",
+      "identity": "cyprus-bank-npl-2026-11-26",
+      "edition_id": "2026-11-26-morning",
+      "date": "2026-11-26",
+      "slot": "morning",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T05:30:05.478637+00:00",
+      "headline": "Τράπεζες: σταθερός λόγος ΜΕΔ, €700 εκατ. αναδιαρθρώσεων",
+      "finding": "Η Cyprus Mail μεταφέρει στοιχεία της Κεντρικής Τράπεζας για το τέλος Αυγούστου 2026: ο λόγος μη εξυπηρετούμενων δανείων παρέμεινε στο 1,5%, ενώ η κάλυψή τους με προβλέψεις αυξήθηκε στο 64,7% από 64,5% τον προηγούμενο μήνα. Τα αναδιαρθρωμένα δάνεια ανέρχονταν σε €700 εκατ.",
+      "section": "cyprus",
+      "priority": 1,
+      "article_path": "articles/2026-11-26-morning/cyprus-bank-npl.json",
+      "reader_url": "articles/2026-11-26-morning/cyprus-bank-npl.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/26/restructured-loans-reach-e700m-as-cyprus-npl-ratio-stays-flat",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-26T04:20:00+00:00",
+          "retrieved_at": "2026-11-26T04:21:28.672290+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/5a38382ef114ca10df881d372ce9b81418167237f70d9aebcc17da9339c518d3.webp"
+    },
+    {
+      "story_id": "cyprus-betting-alerts-2026-11-26",
+      "identity": "cyprus-betting-alerts-2026-11-26",
+      "edition_id": "2026-11-26-morning",
+      "date": "2026-11-26",
+      "slot": "morning",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T05:30:05.478637+00:00",
+      "headline": "ΚΟΠ: ειδοποιήσεις για ύποπτο στοιχηματισμό",
+      "finding": "Ο Φιλελεύθερος αναφέρει ειδοποίηση της UEFA προς την ΚΟΠ για πιθανό κόκκινο φάκελο στον αγώνα Apollon Ladies–Ομόνοια, που έληξε 2–0. Για το Καρμιώτισσα–Απόλλωνας της 25ης Οκτωβρίου 2026, η ενημέρωση αναφέρεται σε εύρημα της συμβεβλημένης εταιρείας και ενδεχόμενη στοιχηματική απάτη. Οι ειδοποιήσεις αποτελούν ενδείξεις προς εξέταση· δεν τεκμηριώνουν από μόνες τους ενοχή συλλόγου ή προσώπου.",
+      "section": "cyprus",
+      "priority": 2,
+      "article_path": "articles/2026-11-26-morning/cyprus-betting-alerts.json",
+      "reader_url": "articles/2026-11-26-morning/cyprus-betting-alerts.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1800654/uefa-se-kop-axioperiergo-stichima-sto-apollon-ladies-omonia-ke-sto-karmiotissa-apollonas-anafora-se-stichimatiki-apati-ti-dilonoun-loizidis-ke-skordis",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-26T04:02:00+00:00",
+          "retrieved_at": "2026-11-26T04:21:28.523580+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f0a64df4db7c79007e41bf16403062996b4796ff94c3ea635e57acc9b30cbd42.webp"
+    },
+    {
+      "story_id": "paralimni-deryneia-projects-2026-11-26",
+      "identity": "paralimni-deryneia-projects-2026-11-26",
+      "edition_id": "2026-11-26-morning",
+      "date": "2026-11-26",
+      "slot": "morning",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T05:30:05.478637+00:00",
+      "headline": "Παραλίμνι–Δερύνεια: απολογισμός έργων άνω των €20 εκατ.",
+      "finding": "Σύμφωνα με τον δημοτικό απολογισμό που παρουσιάζει ο Φιλελεύθερος, ο Δήμος Παραλιμνίου–Δερύνειας ολοκλήρωσε έργα άνω των €20 εκατ. την τελευταία διετία. Αναφέρονται χωριστά περίπου €45 εκατ. λειτουργικών εξόδων για υπηρεσίες και μισθοδοσία. Αυτά δεν αποτελούν πρόσθετα ολοκληρωμένα έργα. Στο απόσπασμα περιλαμβάνονται επίσης επόμενες φάσεις με εκκρεμότητες αδειοδότησης, που δεν πρέπει να προσμετρώνται ως ήδη παραδοθείσες.",
+      "section": "cyprus",
+      "priority": 3,
+      "article_path": "articles/2026-11-26-morning/paralimni-projects.json",
+      "reader_url": "articles/2026-11-26-morning/paralimni-projects.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/kipros/koinonia/article/1800637/oloklirose-erga-ano-ton-e20-ekat-o-dimos-paralimniou-derinias",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-26T04:16:00+00:00",
+          "retrieved_at": "2026-11-26T04:21:28.550350+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/f90d7410fe72f3b75566792a14f90f3b42be6ab76f206e6f4732fa49c9cdb32c.webp"
+    },
+    {
+      "story_id": "disy-internal-ballot-2026-11-28",
+      "identity": "disy-internal-ballot-2026-11-28",
+      "edition_id": "2026-11-26-morning",
+      "date": "2026-11-26",
+      "slot": "morning",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T05:30:05.478637+00:00",
+      "headline": "ΔΗΣΥ: προσκλητήριο συμμετοχής στην κάλπη του Σαββάτου",
+      "finding": "Ο Φιλελεύθερος μεταφέρει εκτιμήσεις μελών και ηγεσίας του ΔΗΣΥ για προσέλευση περίπου 15.000 μελών στην εσωκομματική διαδικασία του Σαββάτου, 28 Νοεμβρίου. Πρόκειται για εκτίμηση, όχι καταμετρημένη συμμετοχή. Η επίσημη ανακοίνωση αποτελεσμάτων προγραμματίζεται στις 20:00 στο οίκημα της Πινδάρου, παρουσία των δύο υποψηφίων, και θα ακολουθήσει δήλωση της προέδρου του κόμματος.",
+      "section": "cyprus",
+      "priority": 4,
+      "article_path": "articles/2026-11-26-morning/disy-ballot.json",
+      "reader_url": "articles/2026-11-26-morning/disy-ballot.html",
+      "sources": [
+        {
+          "url": "https://www.philenews.com/politiki/article/1800624/sinagermiko-prosklitirio-simmetochis-anisichia-gia-chamila-noumera-stin-kalpi-tou-savvatou",
+          "publisher": "Philenews",
+          "reporting_group": "Philenews",
+          "published_at": "2026-11-26T04:03:00+00:00",
+          "retrieved_at": "2026-11-26T04:21:28.894604+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/0b9f686c4d4366dcd8c3af7f962689ac7fffb5263825fe55eb9e6e3d64203b22.webp"
+    },
+    {
+      "story_id": "cyprus-north-fuel-cut-2026-11-25",
+      "identity": "cyprus-north-fuel-cut-2026-11-25",
+      "edition_id": "2026-11-26-morning",
+      "date": "2026-11-26",
+      "slot": "morning",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T05:30:05.478637+00:00",
+      "headline": "Κατεχόμενα: ανακοινώθηκε σχέδιο μείωσης της βενζίνης",
+      "finding": "Η Cyprus Mail αναφέρει ότι οι τουρκοκυπριακές αρχές ανακοίνωσαν το βράδυ της 25ης Νοεμβρίου σχέδιο μείωσης της τιμής της βενζίνης σχεδόν κατά 8%, ενόψει εκλογών. Το απόσπασμα τεκμηριώνει την ανακοίνωση, χωρίς επιβεβαίωση εφαρμογής ή πλήρεις νέες τιμές ανά καύσιμο. Δεν αφορά τιμοκατάλογο πρατηρίων στις ελεγχόμενες από τη Δημοκρατία περιοχές.",
+      "section": "cyprus",
+      "priority": 5,
+      "article_path": "articles/2026-11-26-morning/north-fuel-plan.json",
+      "reader_url": "articles/2026-11-26-morning/north-fuel-plan.html",
+      "sources": [
+        {
+          "url": "https://cyprus-mail.com/2026/11/25/turkish-cypriot-authorities-slash-fuel-prices-with-election-looming",
+          "publisher": "Cyprus Mail",
+          "reporting_group": "Cyprus Mail",
+          "published_at": "2026-11-25T18:02:02+00:00",
+          "retrieved_at": "2026-11-26T04:21:29.204737+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/6e4441bfbffa03c64fcd64c7d4e52b58c6b9faa09cce41925ba415352e499559.webp"
+    },
+    {
+      "story_id": "nvidia-creditwatch-2026-11-25",
+      "identity": "nvidia-creditwatch-2026-11-25",
+      "edition_id": "2026-11-26-morning",
+      "date": "2026-11-26",
+      "slot": "morning",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T05:30:05.478637+00:00",
+      "headline": "NVIDIA: κίνδυνος υποβάθμισης λόγω διακυβέρνησης",
+      "finding": "Το CNBC αναφέρει ότι η S&P προειδοποιεί για πιθανή υποβάθμιση της NVIDIA κατά μία βαθμίδα εντός 90 ημερών, εάν παραμείνουν αδυναμίες διοίκησης και εταιρικής διακυβέρνησης. Η εξέλιξη ακολουθεί την απομάκρυνση και επαναφορά του Jensen Huang. Η εταιρεία είχε εκδώσει ομόλογα $25 δισ. τον Ιούνιο, μετά την αναβάθμισή της από AA− σε AA.",
+      "section": "world",
+      "priority": 6,
+      "article_path": "articles/2026-11-26-morning/nvidia-creditwatch.json",
+      "reader_url": "articles/2026-11-26-morning/nvidia-creditwatch.html",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+          "publisher": "CNBC",
+          "reporting_group": "CNBC",
+          "published_at": "2026-11-26T02:57:32+00:00",
+          "retrieved_at": "2026-11-26T04:21:27.941232+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/bf7485804d3bcc5d51f39078d9cb80cf7304e61de30a429324b56d3566f008ac.webp"
+    },
+    {
+      "story_id": "trump-nvidia-disclosures-2026-11-25",
+      "identity": "trump-nvidia-disclosures-2026-11-25",
+      "edition_id": "2026-11-26-morning",
+      "date": "2026-11-26",
+      "slot": "morning",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T05:30:05.478637+00:00",
+      "headline": "BBC: 44 συναλλαγές NVIDIA στα χαρτοφυλάκια Τραμπ",
+      "finding": "Το BBC, εξετάζοντας τις οικονομικές δηλώσεις του Ντόναλντ Τραμπ, καταγράφει τουλάχιστον 44 αγορές ή πωλήσεις NVIDIA φέτος. Για Ιανουάριο–Σεπτέμβριο οι δηλώσεις τοποθετούν τις αγορές μεταξύ $5,2–17 εκατ. και τις πωλήσεις μεταξύ $4,4–12 εκατ. Τα εύρη δεν δίνουν ακριβές καθαρό αποτέλεσμα ή σημερινή θέση και από μόνα τους δεν αποδεικνύουν χρήση προνομιακής πληροφόρησης.",
+      "section": "world",
+      "priority": 7,
+      "article_path": "articles/2026-11-26-morning/trump-disclosures.json",
+      "reader_url": "articles/2026-11-26-morning/trump-disclosures.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-25T16:42:11+00:00",
+          "retrieved_at": "2026-11-26T04:21:27.657354+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/7e0f0a6dffd2e5508368484d35739a8c50486b158307d95336330051b2d1fc20.webp"
+    },
+    {
+      "story_id": "panos-fragnesia-chain-2026-11-25",
+      "identity": "panos-fragnesia-chain-2026-11-25",
+      "edition_id": "2026-11-26-morning",
+      "date": "2026-11-26",
+      "slot": "morning",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T05:30:05.478637+00:00",
+      "headline": "PAN-OS: επιθέσεις μέσω εκτεθειμένων διεπαφών διαχείρισης",
+      "finding": "Το BleepingComputer στις 25 Νοεμβρίου περιγράφει αλυσίδα εκμετάλλευσης PHP2Shell και Fragnesia σε συσκευές Palo Alto Networks με διεπαφές διαχείρισης εκτεθειμένες στο διαδίκτυο. Σε ανακοίνωση με ημερομηνία 3 Νοεμβρίου, η CSA Σιγκαπούρης περιγράφει κλιμάκωση σε δικαιώματα root μετά την αρχική παραβίαση. Δεν προκύπτει ότι κάθε εγκατάσταση PAN-OS έχει παραβιαστεί ούτε προσδιορίζονται θύματα στο διαθέσιμο υλικό.",
+      "section": "world",
+      "priority": 8,
+      "article_path": "articles/2026-11-26-morning/panos-exploitation.json",
+      "reader_url": "articles/2026-11-26-morning/panos-exploitation.html",
+      "sources": [
+        {
+          "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-157/",
+          "publisher": "Cyber Security Agency of Singapore",
+          "reporting_group": "CSA Singapore",
+          "published_at": null,
+          "retrieved_at": "2026-11-26T05:26:43.524Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks",
+          "publisher": "BleepingComputer",
+          "reporting_group": "BleepingComputer",
+          "published_at": "2026-11-25T22:05:09+00:00",
+          "retrieved_at": "2026-11-26T04:21:28.309534+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/c86988a0ab251d985518b914d8f7d45258846a714d628d96728420aa73405fe3.webp"
+    },
+    {
+      "story_id": "spain-election-preview-2026-11-26",
+      "identity": "spain-election-preview-2026-11-26",
+      "edition_id": "2026-11-26-morning",
+      "date": "2026-11-26",
+      "slot": "morning",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T05:30:05.478637+00:00",
+      "headline": "Ισπανία: εκλογικό Σαββατοκύριακο με ανοιχτή έκβαση",
+      "finding": "Οι ανταποκριτές Sam Jones και Ashifa Kassam του Guardian εξετάζουν τις ισπανικές εκλογές του προσεχούς Σαββατοκύριακου και το ενδεχόμενο αντικατάστασης του Pedro Sánchez, ύστερα από οκτώ χρόνια στην εξουσία. Το αναγνώσιμο συνοδευτικό κείμενο της εκπομπής δεν παρέχει αποτελέσματα, ποσοστά δημοσκοπήσεων ή κατανομή εδρών. Συνεπώς στηρίζει προεκλογική επισκόπηση, χωρίς πρόβλεψη νικητή ή επιβεβαιωμένης μετεκλογικής πλειοψηφίας.",
+      "section": "world",
+      "priority": 9,
+      "article_path": "articles/2026-11-26-morning/spain-election-preview.json",
+      "reader_url": "articles/2026-11-26-morning/spain-election-preview.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/news/audio/2026/nov/26/spains-election-the-end-of-a-leftwing-icon-podcast",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-26T03:00:43+00:00",
+          "retrieved_at": "2026-11-26T04:21:28.843432+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/857bdfccae6efdc09d0bb0b8bb3a98211ec0b8f05c73e24736eb6d2712cdb378.webp"
+    },
+    {
+      "story_id": "australia-economy-debate-2026-11-26",
+      "identity": "australia-economy-debate-2026-11-26",
+      "edition_id": "2026-11-26-morning",
+      "date": "2026-11-26",
+      "slot": "morning",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T05:30:05.478637+00:00",
+      "headline": "Αυστραλία: πολιτική αντιπαράθεση για την οικονομία",
+      "finding": "Ο Guardian καταγράφει τον Angus Taylor να ζητά από τον Anthony Albanese οικονομικό δείκτη που βελτιώθηκε φέτος. Ο πρωθυπουργός επικαλέστηκε 14,7 εκατ. εργαζομένους έναντι 13,5 εκατ. όταν ανέλαβε και μισθολογικό χάσμα φύλων 11,3% έναντι 14,2%. Πρόκειται για ισχυρισμούς στην πολιτική αντιπαράθεση. Οι συγκρίσεις αφορούν τη θητεία του, χωρίς να απαντούν αυτομάτως στην ερώτηση για τη φετινή μεταβολή.",
+      "section": "world",
+      "priority": 10,
+      "article_path": "articles/2026-11-26-morning/australia-economy-debate.json",
+      "reader_url": "articles/2026-11-26-morning/australia-economy-debate.html",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
+          "publisher": "The Guardian",
+          "reporting_group": "The Guardian",
+          "published_at": "2026-11-26T04:19:20+00:00",
+          "retrieved_at": "2026-11-26T04:21:29.157925+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/9d1e011938113271a9e6042003d7544fd8e2e5386e8ed22a66906fb52bc56b85.webp"
+    },
+    {
+      "story_id": "swat-cricket-mehran-2026-11-26",
+      "identity": "swat-cricket-mehran-2026-11-26",
+      "edition_id": "2026-11-26-morning",
+      "date": "2026-11-26",
+      "slot": "morning",
+      "published_at": "2026-11-26T05:30:05.478637+00:00",
+      "available_at": "2026-11-26T05:30:05.478637+00:00",
+      "headline": "Κρίκετ: αναγνωρίστηκε ο Mehran μετά το εντυπωσιακό πιάσιμο",
+      "finding": "Το BBC μεταφέρει ότι οι διοργανωτές του Swat Premier League ανακοίνωσαν έπαθλο 10.000 πακιστανικών ρουπιών για τον Mehran, σύμφωνα με τον ίδιο, με χρηματοδότηση του πακιστανικού στρατού. Οι Swat Strikers νίκησαν τους GKR Dir με διαφορά 34 runs.",
+      "section": "sports",
+      "priority": 11,
+      "article_path": "articles/2026-11-26-morning/swat-cricket.json",
+      "reader_url": "articles/2026-11-26-morning/swat-cricket.html",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/ckwy8gj013elo?at_medium=RSS&at_campaign=rss",
+          "publisher": "BBC",
+          "reporting_group": "BBC",
+          "published_at": "2026-11-25T23:50:02+00:00",
+          "retrieved_at": "2026-11-26T04:21:32.984097+00:00",
+          "kind": "reporting"
+        }
+      ],
+      "freshness": [],
+      "image_asset": "assets/editorial/source/4dd2a9bcf23c7bc79ab18d8adc2cca07842e1fbc189f777bfc05f1d78b7d53e0.webp"
     }
   ],
   "scope": "Published context with original times; never a claim of fresh verification."
