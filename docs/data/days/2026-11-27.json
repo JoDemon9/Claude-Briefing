@@ -10,14 +10,40 @@
       "type": "morning",
       "url": "morning/2026-11-27.html",
       "published_at": "2026-11-27T05:35:13.426014+00:00"
+    },
+    {
+      "id": "2026-11-27-midday",
+      "type": "midday",
+      "url": "midday/2026-11-27.html",
+      "published_at": "2026-11-27T11:40:11.333255+00:00"
     }
   ],
   "missing_slots": [
-    "midday",
     "evening"
   ],
-  "lead_story_id": "nz-election-final-2026-11-27",
+  "lead_story_id": "cyprus-shipping-summit-2026-11-27",
   "stories": [
+    {
+      "story_id": "cyprus-shipping-summit-2026-11-27",
+      "first_seen_at": "2026-11-27T11:40:11.333255+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-midday",
+          "article_id": "shipping-summit",
+          "source_story_id": "cyprus-shipping-summit-2026-11-27",
+          "url": "articles/2026-11-27-midday/shipping-summit.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "shipping-summit",
+        "source_story_id": "cyprus-shipping-summit-2026-11-27",
+        "url": "articles/2026-11-27-midday/shipping-summit.html"
+      },
+      "section": "cyprus",
+      "priority": 1
+    },
     {
       "story_id": "cyprus-trilateral-2026-11-27",
       "first_seen_at": "2026-11-27T05:35:13.426014+00:00",
@@ -28,16 +54,43 @@
           "article_id": "cyprus-trilateral",
           "source_story_id": "cyprus-trilateral-2026-11-27",
           "url": "articles/2026-11-27-morning/cyprus-trilateral.html"
+        },
+        {
+          "edition_id": "2026-11-27-midday",
+          "article_id": "cyprus-trilateral",
+          "source_story_id": "cyprus-trilateral-2026-11-27",
+          "url": "articles/2026-11-27-midday/cyprus-trilateral.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-27-morning",
+        "edition_id": "2026-11-27-midday",
         "article_id": "cyprus-trilateral",
         "source_story_id": "cyprus-trilateral-2026-11-27",
-        "url": "articles/2026-11-27-morning/cyprus-trilateral.html"
+        "url": "articles/2026-11-27-midday/cyprus-trilateral.html"
       },
       "section": "cyprus",
       "priority": 1
+    },
+    {
+      "story_id": "cyprus-culture-credits-2026-11-27",
+      "first_seen_at": "2026-11-27T11:40:11.333255+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-midday",
+          "article_id": "culture-credits",
+          "source_story_id": "cyprus-culture-credits-2026-11-27",
+          "url": "articles/2026-11-27-midday/culture-credits.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "culture-credits",
+        "source_story_id": "cyprus-culture-credits-2026-11-27",
+        "url": "articles/2026-11-27-midday/culture-credits.html"
+      },
+      "section": "cyprus",
+      "priority": 2
     },
     {
       "story_id": "livestock-worker-support-2026-11-27",
@@ -49,13 +102,19 @@
           "article_id": "livestock-support",
           "source_story_id": "livestock-worker-support-2026-11-27",
           "url": "articles/2026-11-27-morning/livestock-support.html"
+        },
+        {
+          "edition_id": "2026-11-27-midday",
+          "article_id": "livestock-support",
+          "source_story_id": "livestock-worker-support-2026-11-27",
+          "url": "articles/2026-11-27-midday/livestock-support.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-27-morning",
+        "edition_id": "2026-11-27-midday",
         "article_id": "livestock-support",
         "source_story_id": "livestock-worker-support-2026-11-27",
-        "url": "articles/2026-11-27-morning/livestock-support.html"
+        "url": "articles/2026-11-27-midday/livestock-support.html"
       },
       "section": "cyprus",
       "priority": 2
@@ -82,6 +141,27 @@
       "priority": 3
     },
     {
+      "story_id": "cyprus-india-maritime-2026-11-27",
+      "first_seen_at": "2026-11-27T11:40:11.333255+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-midday",
+          "article_id": "india-maritime",
+          "source_story_id": "cyprus-india-maritime-2026-11-27",
+          "url": "articles/2026-11-27-midday/india-maritime.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "india-maritime",
+        "source_story_id": "cyprus-india-maritime-2026-11-27",
+        "url": "articles/2026-11-27-midday/india-maritime.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
       "story_id": "anti-corruption-powers-2026-11-27",
       "first_seen_at": "2026-11-27T05:35:13.426014+00:00",
       "last_substantive_at": null,
@@ -100,6 +180,27 @@
         "url": "articles/2026-11-27-morning/anti-corruption-powers.html"
       },
       "section": "cyprus",
+      "priority": 4
+    },
+    {
+      "story_id": "drupal-installer-second-flaw-2026-11-25",
+      "first_seen_at": "2026-11-27T11:40:11.333255+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-midday",
+          "article_id": "drupal-installer",
+          "source_story_id": "drupal-installer-second-flaw-2026-11-25",
+          "url": "articles/2026-11-27-midday/drupal-installer.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "drupal-installer",
+        "source_story_id": "drupal-installer-second-flaw-2026-11-25",
+        "url": "articles/2026-11-27-midday/drupal-installer.html"
+      },
+      "section": "world",
       "priority": 4
     },
     {
@@ -124,6 +225,48 @@
       "priority": 5
     },
     {
+      "story_id": "spain-election-ai-video-2026-11-26",
+      "first_seen_at": "2026-11-27T11:40:11.333255+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-midday",
+          "article_id": "spain-video",
+          "source_story_id": "spain-election-ai-video-2026-11-26",
+          "url": "articles/2026-11-27-midday/spain-video.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "spain-video",
+        "source_story_id": "spain-election-ai-video-2026-11-26",
+        "url": "articles/2026-11-27-midday/spain-video.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
+      "story_id": "mexico-major-upsets-2026-11-27",
+      "first_seen_at": "2026-11-27T11:40:11.333255+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-midday",
+          "article_id": "mexico-major-upsets",
+          "source_story_id": "mexico-major-upsets-2026-11-27",
+          "url": "articles/2026-11-27-midday/mexico-major-upsets.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "mexico-major-upsets",
+        "source_story_id": "mexico-major-upsets-2026-11-27",
+        "url": "articles/2026-11-27-midday/mexico-major-upsets.html"
+      },
+      "section": "sports",
+      "priority": 6
+    },
+    {
       "story_id": "nz-election-final-2026-11-27",
       "first_seen_at": "2026-11-27T05:35:13.426014+00:00",
       "last_substantive_at": null,
@@ -133,13 +276,19 @@
           "article_id": "nz-final-results",
           "source_story_id": "nz-election-final-2026-11-27",
           "url": "articles/2026-11-27-morning/nz-final-results.html"
+        },
+        {
+          "edition_id": "2026-11-27-midday",
+          "article_id": "nz-final-results",
+          "source_story_id": "nz-election-final-2026-11-27",
+          "url": "articles/2026-11-27-midday/nz-final-results.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-27-morning",
+        "edition_id": "2026-11-27-midday",
         "article_id": "nz-final-results",
         "source_story_id": "nz-election-final-2026-11-27",
-        "url": "articles/2026-11-27-morning/nz-final-results.html"
+        "url": "articles/2026-11-27-midday/nz-final-results.html"
       },
       "section": "world",
       "priority": 6
@@ -154,15 +303,42 @@
           "article_id": "kuwait-attack",
           "source_story_id": "kuwait-italian-technicians-2026-11-26",
           "url": "articles/2026-11-27-morning/kuwait-attack.html"
+        },
+        {
+          "edition_id": "2026-11-27-midday",
+          "article_id": "kuwait-attack",
+          "source_story_id": "kuwait-italian-technicians-2026-11-26",
+          "url": "articles/2026-11-27-midday/kuwait-attack.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-27-morning",
+        "edition_id": "2026-11-27-midday",
         "article_id": "kuwait-attack",
         "source_story_id": "kuwait-italian-technicians-2026-11-26",
-        "url": "articles/2026-11-27-morning/kuwait-attack.html"
+        "url": "articles/2026-11-27-midday/kuwait-attack.html"
       },
       "section": "world",
+      "priority": 7
+    },
+    {
+      "story_id": "southampton-boro-preview-2026-11-27",
+      "first_seen_at": "2026-11-27T11:40:11.333255+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-midday",
+          "article_id": "saints-boro",
+          "source_story_id": "southampton-boro-preview-2026-11-27",
+          "url": "articles/2026-11-27-midday/saints-boro.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "saints-boro",
+        "source_story_id": "southampton-boro-preview-2026-11-27",
+        "url": "articles/2026-11-27-midday/saints-boro.html"
+      },
+      "section": "sports",
       "priority": 7
     },
     {
@@ -184,6 +360,27 @@
         "url": "articles/2026-11-27-morning/australia-extremes.html"
       },
       "section": "world",
+      "priority": 8
+    },
+    {
+      "story_id": "india-olympics-bid-2026-11-27",
+      "first_seen_at": "2026-11-27T11:40:11.333255+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-midday",
+          "article_id": "india-olympics",
+          "source_story_id": "india-olympics-bid-2026-11-27",
+          "url": "articles/2026-11-27-midday/india-olympics.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "india-olympics",
+        "source_story_id": "india-olympics-bid-2026-11-27",
+        "url": "articles/2026-11-27-midday/india-olympics.html"
+      },
+      "section": "sports",
       "priority": 8
     },
     {
@@ -217,13 +414,19 @@
           "article_id": "asia-ai-investment",
           "source_story_id": "asia-ai-investment-2026-11-27",
           "url": "articles/2026-11-27-morning/asia-ai-investment.html"
+        },
+        {
+          "edition_id": "2026-11-27-midday",
+          "article_id": "asia-ai-investment",
+          "source_story_id": "asia-ai-investment-2026-11-27",
+          "url": "articles/2026-11-27-midday/asia-ai-investment.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-27-morning",
+        "edition_id": "2026-11-27-midday",
         "article_id": "asia-ai-investment",
         "source_story_id": "asia-ai-investment-2026-11-27",
-        "url": "articles/2026-11-27-morning/asia-ai-investment.html"
+        "url": "articles/2026-11-27-midday/asia-ai-investment.html"
       },
       "section": "world",
       "priority": 10
@@ -439,6 +642,188 @@
         "source_story_id": "australia-weather-hazards-2026-11-27",
         "url": "articles/2026-11-27-morning/australia-extremes.html"
       }
+    },
+    {
+      "id": "129dc3d88866791a966d69396adc5944d19fc2c6e23943300be09ba93d6bf2a9",
+      "kind": "provenance",
+      "at": "2026-11-27T11:40:11.333255+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-trilateral-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "cyprus-trilateral",
+        "source_story_id": "cyprus-trilateral-2026-11-27",
+        "url": "articles/2026-11-27-midday/cyprus-trilateral.html"
+      }
+    },
+    {
+      "id": "282d0d1ec28130cdada1e409569668bc445b3a8a3418e29f43825729281c79c3",
+      "kind": "provenance",
+      "at": "2026-11-27T11:40:11.333255+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "mexico-major-upsets-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "mexico-major-upsets",
+        "source_story_id": "mexico-major-upsets-2026-11-27",
+        "url": "articles/2026-11-27-midday/mexico-major-upsets.html"
+      }
+    },
+    {
+      "id": "5745dac26369b7a5a97e82045ad37be34ffc4fd0ba729d83deeaf196bb550d08",
+      "kind": "provenance",
+      "at": "2026-11-27T11:40:11.333255+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "india-olympics-bid-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "india-olympics",
+        "source_story_id": "india-olympics-bid-2026-11-27",
+        "url": "articles/2026-11-27-midday/india-olympics.html"
+      }
+    },
+    {
+      "id": "59626ca55092a412d68c10be333ea40cc53f9fce462ac829310e1513543503a0",
+      "kind": "provenance",
+      "at": "2026-11-27T11:40:11.333255+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-culture-credits-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "culture-credits",
+        "source_story_id": "cyprus-culture-credits-2026-11-27",
+        "url": "articles/2026-11-27-midday/culture-credits.html"
+      }
+    },
+    {
+      "id": "736fc3bed2afbcf3ed467795a8bb80283a93839f49f102b3d313ad5ac5eb6547",
+      "kind": "provenance",
+      "at": "2026-11-27T11:40:11.333255+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "kuwait-italian-technicians-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "kuwait-attack",
+        "source_story_id": "kuwait-italian-technicians-2026-11-26",
+        "url": "articles/2026-11-27-midday/kuwait-attack.html"
+      }
+    },
+    {
+      "id": "775fca8073d3c1cab96d89ebe99f50dc25b1350a792840d114945857d98a88d0",
+      "kind": "provenance",
+      "at": "2026-11-27T11:40:11.333255+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-india-maritime-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "india-maritime",
+        "source_story_id": "cyprus-india-maritime-2026-11-27",
+        "url": "articles/2026-11-27-midday/india-maritime.html"
+      }
+    },
+    {
+      "id": "8a5ce205f4ead752e80b87f32fe3545fdb3379bff0d118fb16de1fbd552a7d8e",
+      "kind": "provenance",
+      "at": "2026-11-27T11:40:11.333255+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "nz-election-final-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "nz-final-results",
+        "source_story_id": "nz-election-final-2026-11-27",
+        "url": "articles/2026-11-27-midday/nz-final-results.html"
+      }
+    },
+    {
+      "id": "a004897e8eb72ec5e1f3ef0dc69bc2fb44f56493aa8f2faa689c72d131c90882",
+      "kind": "provenance",
+      "at": "2026-11-27T11:40:11.333255+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "southampton-boro-preview-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "saints-boro",
+        "source_story_id": "southampton-boro-preview-2026-11-27",
+        "url": "articles/2026-11-27-midday/saints-boro.html"
+      }
+    },
+    {
+      "id": "ba533f47e6f90dd83a43101994665cbcc6d835afeb29689b5c631772f4d45b4b",
+      "kind": "provenance",
+      "at": "2026-11-27T11:40:11.333255+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-shipping-summit-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "shipping-summit",
+        "source_story_id": "cyprus-shipping-summit-2026-11-27",
+        "url": "articles/2026-11-27-midday/shipping-summit.html"
+      }
+    },
+    {
+      "id": "bdc3b44134c8607d507dd0760bcb0d59ce02eb04696ea419a3ede8f6799dfe82",
+      "kind": "provenance",
+      "at": "2026-11-27T11:40:11.333255+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "asia-ai-investment-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "asia-ai-investment",
+        "source_story_id": "asia-ai-investment-2026-11-27",
+        "url": "articles/2026-11-27-midday/asia-ai-investment.html"
+      }
+    },
+    {
+      "id": "c6ca2abd0342c1777383bfa25c8cfebc6e0d85e4709c638da5f47055801b354a",
+      "kind": "provenance",
+      "at": "2026-11-27T11:40:11.333255+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "livestock-worker-support-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "livestock-support",
+        "source_story_id": "livestock-worker-support-2026-11-27",
+        "url": "articles/2026-11-27-midday/livestock-support.html"
+      }
+    },
+    {
+      "id": "d69f31b02ffe6bc638acb9b2c62f6a90c722db6c64a23be2bbadbcc308b7c66a",
+      "kind": "provenance",
+      "at": "2026-11-27T11:40:11.333255+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "spain-election-ai-video-2026-11-26",
+      "origin": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "spain-video",
+        "source_story_id": "spain-election-ai-video-2026-11-26",
+        "url": "articles/2026-11-27-midday/spain-video.html"
+      }
+    },
+    {
+      "id": "f2dd38f6f88a88bef5b6f368e988f711e61c7eaaaccb44d7aa80aa53a93def2d",
+      "kind": "provenance",
+      "at": "2026-11-27T11:40:11.333255+00:00",
+      "summary": "Συμμετοχή της midday έκδοσης.",
+      "source_urls": [],
+      "story_id": "drupal-installer-second-flaw-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-27-midday",
+        "article_id": "drupal-installer",
+        "source_story_id": "drupal-installer-second-flaw-2026-11-25",
+        "url": "articles/2026-11-27-midday/drupal-installer.html"
+      }
     }
   ],
   "opportunities": [
@@ -647,16 +1032,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Τα επίσημα αποτελέσματα στη Νέα Ζηλανδία αφαιρούν την απόλυτη πλειοψηφία από τα τρία κυβερνητικά κόμματα και καθιστούν αναγκαία πρόσθετη κοινοβουλευτική στήριξη. Για τους ψηφοφόρους, η καταμέτρηση καθορίζει πλέον τους συσχετισμούς, αλλά η κυβερνητική λύση απαιτεί συμφωνίες και δεν προκύπτει αυτόματα από τις έδρες. Στο Κυπριακό, η αναφορά σε τριμερή τον Δεκέμβριο παραμένει προσδοκία που χρειάζεται συγκεκριμένη ημερομηνία, προσκλήσεις και συμφωνημένη ατζέντα. Το κοινό κάλεσμα προς τον Γκουτέρες δημιουργεί σημείο εκκίνησης για διάλογο, χωρίς να ισοδυναμεί με συμφωνία για νέα οδοφράγματα. Επόμενα τεστ είναι οι ανακοινώσεις κυβερνητικής συνεργασίας στη Νέα Ζηλανδία και οι επίσημες προσκλήσεις για την τριμερή.",
+        "text": "Οι ναυτιλιακές παρεμβάσεις συνδέουν ενεργειακή ασφάλεια, καθαρότερα καύσιμα και ανταγωνιστικότητα, χωρίς να αποτελούν νέους κανονισμούς. Οι πρόσθετες πολιτιστικές πιστώσεις έχουν διαφορετικό χαρακτήρα: αφορούν συγκεκριμένα κονδύλια. Επόμενο τεστ είναι η εφαρμογή των χρηματοδοτήσεων και οι πραγματικές επενδυτικές αποφάσεις.",
         "story_ids": [
-          "nz-election-final-2026-11-27",
-          "cyprus-trilateral-2026-11-27"
+          "cyprus-shipping-summit-2026-11-27",
+          "cyprus-culture-credits-2026-11-27"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-27T05:38:11.741556+00:00",
-  "updated_at": "2026-11-27T05:38:11.741556+00:00",
-  "input_sha256": "ff79ffd973a1e05a1084141e3f6bd3485921cb43fef3d6952aff2c6a3ed78cf5"
+  "updated_at": "2026-11-27T11:42:52.682937+00:00",
+  "input_sha256": "1c2280d7a7916617ee07b2d8f40cd59167233cbbd0cd54203b01943edd7d62e5"
 }
