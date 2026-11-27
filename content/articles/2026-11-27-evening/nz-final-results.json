@@ -1,0 +1,87 @@
+{
+  "analysis_sources": [
+    "https://elections.nz/media-and-news/2026/2026-general-election-official-results"
+  ],
+  "baseline_origin": {
+    "edition_id": "2026-11-27-midday",
+    "fingerprint": "25cde702e0085559ba0768e84b8de37c20c56b77f55a0e5942989d7883601f25"
+  },
+  "category": "Διεθνή",
+  "change_status": "UNCHANGED",
+  "daily": {
+    "events": [],
+    "priority": 6,
+    "section": "world"
+  },
+  "driver_tags": [
+    "world",
+    "new-zealand",
+    "elections"
+  ],
+  "edition_id": "2026-11-27-evening",
+  "evidence_note": "Βάση: προανακτημένα αποσπάσματα πηγών· όχι ισχυρισμός ανάγνωσης ολόκληρου άρθρου.",
+  "headline": "Νέα Ζηλανδία: 65 έδρες για τον κυβερνητικό συνασπισμό",
+  "id": "nz-final-results",
+  "image": {
+    "alt": "New Zealand election: final results show ruling coalition needs minor party to govern",
+    "attribution": "the Guardian",
+    "caption": "Φωτογραφία από το άρθρο της πηγής · New Zealand election: final results show ruling coalition needs minor party to govern · Προσαρμογή μεγέθους και μετατροπή σε WebP.",
+    "license": "Publisher editorial attribution",
+    "license_url": "https://www.theguardian.com/world/2026/nov/27/new-zealand-nz-election-2026-final-results",
+    "original_url": "https://i.guim.co.uk/img/media/15bb64d1f1fa3f1840538248518d963a2c8d39e8/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e59803feeecc1af1d51cb6e9eb9cd1e2",
+    "retrieved_at": "2026-11-27T04:21:24.203517+00:00",
+    "source_review": {
+      "checked_at": "2026-11-27T04:21:24.203517+00:00",
+      "method": "publisher-metadata-v1",
+      "perceptual_hash": "98d999999a9a3958",
+      "rights_basis": "publisher-attribution",
+      "sha256": "ea7fde0d3188e53b299cc734daef09e8f8309fe6e6ecf8dcf5e0974ac2e1ce89"
+    },
+    "source_url": "https://www.theguardian.com/world/2026/nov/27/new-zealand-nz-election-2026-final-results",
+    "url": "assets/editorial/source/ea7fde0d3188e53b299cc734daef09e8f8309fe6e6ecf8dcf5e0974ac2e1ce89.webp"
+  },
+  "mechanics_and_incentives": "Το άθροισμα των εδρών δεν δίνει αυτοδυναμία στα τρία κόμματα. Η πρόσθετη στήριξη απαιτεί πολιτική συμφωνία· δεν προκύπτει αυτόματα επειδή ένα μικρότερο κόμμα διαθέτει επαρκείς έδρες.",
+  "published_at": "2026-11-27T05:35:13.426014+00:00",
+  "reader_mode": "source",
+  "related_story_ids": [],
+  "scenarios": {
+    "watch_next": "Η Επιτροπή ορίζει τις 2 Δεκεμβρίου ως προθεσμία αιτήσεων δικαστικής επανακαταμέτρησης. Παράλληλα αναμένονται οι επίσημες ανακοινώσεις συνεργασίας."
+  },
+  "second_order_effects": "Η κυβερνητική συνέχεια και οι όροι συνεργασίας παραμένουν αντικείμενο διαπραγμάτευσης, χωρίς επιβεβαιωμένη νέα συμμαχία.",
+  "sections": [
+    {
+      "heading": "Δημοσιευμένα γεγονότα",
+      "kind": "reported",
+      "paragraphs": [
+        "Η Εκλογική Επιτροπή ανακοίνωσε τα επίσημα αποτελέσματα των εκλογών της 7ης Νοεμβρίου: National 40 έδρες, ACT 13 και New Zealand First 12, συνολικά 65 σε Βουλή 130 εδρών. Για απόλυτη πλειοψηφία απαιτούνται 66. Το Opportunity διαθέτει επτά έδρες, ενώ ο Guardian περιγράφει ανάγκη πρόσθετης στήριξης για τον Κρίστοφερ Λούξον."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": null,
+      "publisher": "Electoral Commission New Zealand",
+      "reporting_group": "Elections NZ",
+      "retrieved_at": "2026-11-27T05:29:48.700Z",
+      "url": "https://elections.nz/media-and-news/2026/2026-general-election-official-results",
+      "used_for_claims": true
+    },
+    {
+      "access": "read",
+      "kind": "reporting",
+      "published_at": "2026-11-27T02:38:15+00:00",
+      "publisher": "The Guardian",
+      "reporting_group": "The Guardian",
+      "retrieved_at": "2026-11-27T04:21:17.326528+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/27/new-zealand-nz-election-2026-final-results",
+      "used_for_claims": true
+    }
+  ],
+  "story_id": "nz-election-final-2026-11-27",
+  "story_identity": "nz-election-final-2026-11-27",
+  "summary": "Η Εκλογική Επιτροπή ανακοίνωσε τα επίσημα αποτελέσματα των εκλογών της 7ης Νοεμβρίου: National 40 έδρες, ACT 13 και New Zealand First 12, συνολικά 65 σε Βουλή 130 εδρών. Για απόλυτη πλειοψηφία απαιτούνται 66. Το Opportunity διαθέτει επτά έδρες, ενώ ο Guardian περιγράφει ανάγκη πρόσθετης στήριξης για τον Κρίστοφερ Λούξον.",
+  "updated_at": "2026-11-27T05:35:13.426014+00:00",
+  "url": "articles/2026-11-27-evening/nz-final-results.html"
+}
