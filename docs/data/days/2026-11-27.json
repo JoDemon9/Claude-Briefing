@@ -16,12 +16,16 @@
       "type": "midday",
       "url": "midday/2026-11-27.html",
       "published_at": "2026-11-27T11:40:11.333255+00:00"
+    },
+    {
+      "id": "2026-11-27-evening",
+      "type": "evening",
+      "url": "evening/2026-11-27.html",
+      "published_at": "2026-11-27T17:42:46.821070+00:00"
     }
   ],
-  "missing_slots": [
-    "evening"
-  ],
-  "lead_story_id": "cyprus-shipping-summit-2026-11-27",
+  "missing_slots": [],
+  "lead_story_id": "kyrenia-filojet-remand-2026-11-27",
   "stories": [
     {
       "story_id": "cyprus-shipping-summit-2026-11-27",
@@ -60,13 +64,40 @@
           "article_id": "cyprus-trilateral",
           "source_story_id": "cyprus-trilateral-2026-11-27",
           "url": "articles/2026-11-27-midday/cyprus-trilateral.html"
+        },
+        {
+          "edition_id": "2026-11-27-evening",
+          "article_id": "cyprus-trilateral",
+          "source_story_id": "cyprus-trilateral-2026-11-27",
+          "url": "articles/2026-11-27-evening/cyprus-trilateral.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-27-midday",
+        "edition_id": "2026-11-27-evening",
         "article_id": "cyprus-trilateral",
         "source_story_id": "cyprus-trilateral-2026-11-27",
-        "url": "articles/2026-11-27-midday/cyprus-trilateral.html"
+        "url": "articles/2026-11-27-evening/cyprus-trilateral.html"
+      },
+      "section": "cyprus",
+      "priority": 1
+    },
+    {
+      "story_id": "kyrenia-filojet-remand-2026-11-27",
+      "first_seen_at": "2026-11-27T17:42:46.821070+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-evening",
+          "article_id": "kyrenia-remand",
+          "source_story_id": "kyrenia-filojet-remand-2026-11-27",
+          "url": "articles/2026-11-27-evening/kyrenia-remand.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "kyrenia-remand",
+        "source_story_id": "kyrenia-filojet-remand-2026-11-27",
+        "url": "articles/2026-11-27-evening/kyrenia-remand.html"
       },
       "section": "cyprus",
       "priority": 1
@@ -81,13 +112,19 @@
           "article_id": "culture-credits",
           "source_story_id": "cyprus-culture-credits-2026-11-27",
           "url": "articles/2026-11-27-midday/culture-credits.html"
+        },
+        {
+          "edition_id": "2026-11-27-evening",
+          "article_id": "culture-credits",
+          "source_story_id": "cyprus-culture-credits-2026-11-27",
+          "url": "articles/2026-11-27-evening/culture-credits.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-27-midday",
+        "edition_id": "2026-11-27-evening",
         "article_id": "culture-credits",
         "source_story_id": "cyprus-culture-credits-2026-11-27",
-        "url": "articles/2026-11-27-midday/culture-credits.html"
+        "url": "articles/2026-11-27-evening/culture-credits.html"
       },
       "section": "cyprus",
       "priority": 2
@@ -115,6 +152,27 @@
         "article_id": "livestock-support",
         "source_story_id": "livestock-worker-support-2026-11-27",
         "url": "articles/2026-11-27-midday/livestock-support.html"
+      },
+      "section": "cyprus",
+      "priority": 2
+    },
+    {
+      "story_id": "paphos-mayor-hearing-2026-11-27",
+      "first_seen_at": "2026-11-27T17:42:46.821070+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-evening",
+          "article_id": "paphos-hearing",
+          "source_story_id": "paphos-mayor-hearing-2026-11-27",
+          "url": "articles/2026-11-27-evening/paphos-hearing.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "paphos-hearing",
+        "source_story_id": "paphos-mayor-hearing-2026-11-27",
+        "url": "articles/2026-11-27-evening/paphos-hearing.html"
       },
       "section": "cyprus",
       "priority": 2
@@ -162,6 +220,27 @@
       "priority": 3
     },
     {
+      "story_id": "eac-outages-2026-12-01",
+      "first_seen_at": "2026-11-27T17:42:46.821070+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-evening",
+          "article_id": "eac-planned-outage",
+          "source_story_id": "eac-outages-2026-12-01",
+          "url": "articles/2026-11-27-evening/eac-planned-outage.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "eac-planned-outage",
+        "source_story_id": "eac-outages-2026-12-01",
+        "url": "articles/2026-11-27-evening/eac-planned-outage.html"
+      },
+      "section": "cyprus",
+      "priority": 3
+    },
+    {
       "story_id": "anti-corruption-powers-2026-11-27",
       "first_seen_at": "2026-11-27T05:35:13.426014+00:00",
       "last_substantive_at": null,
@@ -192,13 +271,40 @@
           "article_id": "drupal-installer",
           "source_story_id": "drupal-installer-second-flaw-2026-11-25",
           "url": "articles/2026-11-27-midday/drupal-installer.html"
+        },
+        {
+          "edition_id": "2026-11-27-evening",
+          "article_id": "drupal-installer",
+          "source_story_id": "drupal-installer-second-flaw-2026-11-25",
+          "url": "articles/2026-11-27-evening/drupal-installer.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-27-midday",
+        "edition_id": "2026-11-27-evening",
         "article_id": "drupal-installer",
         "source_story_id": "drupal-installer-second-flaw-2026-11-25",
-        "url": "articles/2026-11-27-midday/drupal-installer.html"
+        "url": "articles/2026-11-27-evening/drupal-installer.html"
+      },
+      "section": "world",
+      "priority": 4
+    },
+    {
+      "story_id": "quebec-bill21-ruling-2026-11-27",
+      "first_seen_at": "2026-11-27T17:42:46.821070+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-evening",
+          "article_id": "quebec-ruling",
+          "source_story_id": "quebec-bill21-ruling-2026-11-27",
+          "url": "articles/2026-11-27-evening/quebec-ruling.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "quebec-ruling",
+        "source_story_id": "quebec-bill21-ruling-2026-11-27",
+        "url": "articles/2026-11-27-evening/quebec-ruling.html"
       },
       "section": "world",
       "priority": 4
@@ -225,6 +331,27 @@
       "priority": 5
     },
     {
+      "story_id": "eu-longterm-budget-epp-2026-11-27",
+      "first_seen_at": "2026-11-27T17:42:46.821070+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-evening",
+          "article_id": "eu-budget-epp",
+          "source_story_id": "eu-longterm-budget-epp-2026-11-27",
+          "url": "articles/2026-11-27-evening/eu-budget-epp.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "eu-budget-epp",
+        "source_story_id": "eu-longterm-budget-epp-2026-11-27",
+        "url": "articles/2026-11-27-evening/eu-budget-epp.html"
+      },
+      "section": "world",
+      "priority": 5
+    },
+    {
       "story_id": "spain-election-ai-video-2026-11-26",
       "first_seen_at": "2026-11-27T11:40:11.333255+00:00",
       "last_substantive_at": null,
@@ -246,6 +373,27 @@
       "priority": 5
     },
     {
+      "story_id": "iran-tech-ai-threat-2026-11-27",
+      "first_seen_at": "2026-11-27T17:42:46.821070+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-evening",
+          "article_id": "iran-tech-threat",
+          "source_story_id": "iran-tech-ai-threat-2026-11-27",
+          "url": "articles/2026-11-27-evening/iran-tech-threat.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "iran-tech-threat",
+        "source_story_id": "iran-tech-ai-threat-2026-11-27",
+        "url": "articles/2026-11-27-evening/iran-tech-threat.html"
+      },
+      "section": "world",
+      "priority": 6
+    },
+    {
       "story_id": "mexico-major-upsets-2026-11-27",
       "first_seen_at": "2026-11-27T11:40:11.333255+00:00",
       "last_substantive_at": null,
@@ -255,13 +403,19 @@
           "article_id": "mexico-major-upsets",
           "source_story_id": "mexico-major-upsets-2026-11-27",
           "url": "articles/2026-11-27-midday/mexico-major-upsets.html"
+        },
+        {
+          "edition_id": "2026-11-27-evening",
+          "article_id": "mexico-major-upsets",
+          "source_story_id": "mexico-major-upsets-2026-11-27",
+          "url": "articles/2026-11-27-evening/mexico-major-upsets.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-27-midday",
+        "edition_id": "2026-11-27-evening",
         "article_id": "mexico-major-upsets",
         "source_story_id": "mexico-major-upsets-2026-11-27",
-        "url": "articles/2026-11-27-midday/mexico-major-upsets.html"
+        "url": "articles/2026-11-27-evening/mexico-major-upsets.html"
       },
       "section": "sports",
       "priority": 6
@@ -282,16 +436,43 @@
           "article_id": "nz-final-results",
           "source_story_id": "nz-election-final-2026-11-27",
           "url": "articles/2026-11-27-midday/nz-final-results.html"
+        },
+        {
+          "edition_id": "2026-11-27-evening",
+          "article_id": "nz-final-results",
+          "source_story_id": "nz-election-final-2026-11-27",
+          "url": "articles/2026-11-27-evening/nz-final-results.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-27-midday",
+        "edition_id": "2026-11-27-evening",
         "article_id": "nz-final-results",
         "source_story_id": "nz-election-final-2026-11-27",
-        "url": "articles/2026-11-27-midday/nz-final-results.html"
+        "url": "articles/2026-11-27-evening/nz-final-results.html"
       },
       "section": "world",
       "priority": 6
+    },
+    {
+      "story_id": "arsenal-slegers-departure-2026-11-27",
+      "first_seen_at": "2026-11-27T17:42:46.821070+00:00",
+      "last_substantive_at": null,
+      "references": [
+        {
+          "edition_id": "2026-11-27-evening",
+          "article_id": "arsenal-slegers",
+          "source_story_id": "arsenal-slegers-departure-2026-11-27",
+          "url": "articles/2026-11-27-evening/arsenal-slegers.html"
+        }
+      ],
+      "selected": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "arsenal-slegers",
+        "source_story_id": "arsenal-slegers-departure-2026-11-27",
+        "url": "articles/2026-11-27-evening/arsenal-slegers.html"
+      },
+      "section": "sports",
+      "priority": 7
     },
     {
       "story_id": "kuwait-italian-technicians-2026-11-26",
@@ -372,13 +553,19 @@
           "article_id": "india-olympics",
           "source_story_id": "india-olympics-bid-2026-11-27",
           "url": "articles/2026-11-27-midday/india-olympics.html"
+        },
+        {
+          "edition_id": "2026-11-27-evening",
+          "article_id": "india-olympics",
+          "source_story_id": "india-olympics-bid-2026-11-27",
+          "url": "articles/2026-11-27-evening/india-olympics.html"
         }
       ],
       "selected": {
-        "edition_id": "2026-11-27-midday",
+        "edition_id": "2026-11-27-evening",
         "article_id": "india-olympics",
         "source_story_id": "india-olympics-bid-2026-11-27",
-        "url": "articles/2026-11-27-midday/india-olympics.html"
+        "url": "articles/2026-11-27-evening/india-olympics.html"
       },
       "section": "sports",
       "priority": 8
@@ -824,6 +1011,188 @@
         "source_story_id": "drupal-installer-second-flaw-2026-11-25",
         "url": "articles/2026-11-27-midday/drupal-installer.html"
       }
+    },
+    {
+      "id": "0d9ce72663aa551033ac6c44a255b02c3a01f9ed946e68c9c21947704c4f03fb",
+      "kind": "provenance",
+      "at": "2026-11-27T17:42:46.821070+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "quebec-bill21-ruling-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "quebec-ruling",
+        "source_story_id": "quebec-bill21-ruling-2026-11-27",
+        "url": "articles/2026-11-27-evening/quebec-ruling.html"
+      }
+    },
+    {
+      "id": "1ac379b6a1c9f35d6c458bf4ac07ff544e8f8e863980a7f37fb5ccc664c1dd3a",
+      "kind": "provenance",
+      "at": "2026-11-27T17:42:46.821070+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "eu-longterm-budget-epp-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "eu-budget-epp",
+        "source_story_id": "eu-longterm-budget-epp-2026-11-27",
+        "url": "articles/2026-11-27-evening/eu-budget-epp.html"
+      }
+    },
+    {
+      "id": "283c316062ee93fa199aa1cb93e909e690a2f3f3e753a0bc1fbf2847733ba36a",
+      "kind": "provenance",
+      "at": "2026-11-27T17:42:46.821070+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "kyrenia-filojet-remand-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "kyrenia-remand",
+        "source_story_id": "kyrenia-filojet-remand-2026-11-27",
+        "url": "articles/2026-11-27-evening/kyrenia-remand.html"
+      }
+    },
+    {
+      "id": "3f0d71d279f3ee94ffe880d323d26db397bf41705bf5736a2740c95d1427f019",
+      "kind": "provenance",
+      "at": "2026-11-27T17:42:46.821070+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "drupal-installer-second-flaw-2026-11-25",
+      "origin": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "drupal-installer",
+        "source_story_id": "drupal-installer-second-flaw-2026-11-25",
+        "url": "articles/2026-11-27-evening/drupal-installer.html"
+      }
+    },
+    {
+      "id": "4e93a31a511c46cb4944ef398e16793d4bf94b4c51c0270d595803f4148b27ad",
+      "kind": "provenance",
+      "at": "2026-11-27T17:42:46.821070+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "india-olympics-bid-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "india-olympics",
+        "source_story_id": "india-olympics-bid-2026-11-27",
+        "url": "articles/2026-11-27-evening/india-olympics.html"
+      }
+    },
+    {
+      "id": "6ba7946e6c2a7f139566e1357fdba615b9e56464727d631a960b141639e5ff27",
+      "kind": "provenance",
+      "at": "2026-11-27T17:42:46.821070+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "iran-tech-ai-threat-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "iran-tech-threat",
+        "source_story_id": "iran-tech-ai-threat-2026-11-27",
+        "url": "articles/2026-11-27-evening/iran-tech-threat.html"
+      }
+    },
+    {
+      "id": "73db97632a8634d02544964a26046392b5897ce579e8951e6cf735dc0cc58773",
+      "kind": "provenance",
+      "at": "2026-11-27T17:42:46.821070+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-trilateral-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "cyprus-trilateral",
+        "source_story_id": "cyprus-trilateral-2026-11-27",
+        "url": "articles/2026-11-27-evening/cyprus-trilateral.html"
+      }
+    },
+    {
+      "id": "900e2f39205f67910a9351d12ba1fc489d6090a73721e04c0551dad3bd6c3a11",
+      "kind": "provenance",
+      "at": "2026-11-27T17:42:46.821070+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "paphos-mayor-hearing-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "paphos-hearing",
+        "source_story_id": "paphos-mayor-hearing-2026-11-27",
+        "url": "articles/2026-11-27-evening/paphos-hearing.html"
+      }
+    },
+    {
+      "id": "bb662215da84f5980cdee4339bafbc5c76cb7c5e95c43b5a07c94b3332f72a33",
+      "kind": "provenance",
+      "at": "2026-11-27T17:42:46.821070+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "mexico-major-upsets-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "mexico-major-upsets",
+        "source_story_id": "mexico-major-upsets-2026-11-27",
+        "url": "articles/2026-11-27-evening/mexico-major-upsets.html"
+      }
+    },
+    {
+      "id": "cc64b70701083eef984cf8ee7f143ebbc2b7c16621e6163ca5c9c248e789d3d5",
+      "kind": "provenance",
+      "at": "2026-11-27T17:42:46.821070+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "eac-outages-2026-12-01",
+      "origin": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "eac-planned-outage",
+        "source_story_id": "eac-outages-2026-12-01",
+        "url": "articles/2026-11-27-evening/eac-planned-outage.html"
+      }
+    },
+    {
+      "id": "d30f1445b6c1413d8ef33da77ead66d19b9b179cab3c0fbfd0b83226b3d44de4",
+      "kind": "provenance",
+      "at": "2026-11-27T17:42:46.821070+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "nz-election-final-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "nz-final-results",
+        "source_story_id": "nz-election-final-2026-11-27",
+        "url": "articles/2026-11-27-evening/nz-final-results.html"
+      }
+    },
+    {
+      "id": "d5297025243888efce8c4a9e6a0bf0ab493e1f5d5b83d4641a07587bab10cc5c",
+      "kind": "provenance",
+      "at": "2026-11-27T17:42:46.821070+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "cyprus-culture-credits-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "culture-credits",
+        "source_story_id": "cyprus-culture-credits-2026-11-27",
+        "url": "articles/2026-11-27-evening/culture-credits.html"
+      }
+    },
+    {
+      "id": "f32478966fd69462278f679950309128d87d968e695dc75f2304fdfd7363248b",
+      "kind": "provenance",
+      "at": "2026-11-27T17:42:46.821070+00:00",
+      "summary": "Συμμετοχή της evening έκδοσης.",
+      "source_urls": [],
+      "story_id": "arsenal-slegers-departure-2026-11-27",
+      "origin": {
+        "edition_id": "2026-11-27-evening",
+        "article_id": "arsenal-slegers",
+        "source_story_id": "arsenal-slegers-departure-2026-11-27",
+        "url": "articles/2026-11-27-evening/arsenal-slegers.html"
+      }
     }
   ],
   "opportunities": [
@@ -1032,16 +1401,16 @@
     "kind": "reviewed",
     "points": [
       {
-        "text": "Οι ναυτιλιακές παρεμβάσεις συνδέουν ενεργειακή ασφάλεια, καθαρότερα καύσιμα και ανταγωνιστικότητα, χωρίς να αποτελούν νέους κανονισμούς. Οι πρόσθετες πολιτιστικές πιστώσεις έχουν διαφορετικό χαρακτήρα: αφορούν συγκεκριμένα κονδύλια. Επόμενο τεστ είναι η εφαρμογή των χρηματοδοτήσεων και οι πραγματικές επενδυτικές αποφάσεις.",
+        "text": "Στον Καναδά, η επικύρωση του νόμου του Κεμπέκ διατηρεί τους περιορισμούς θρησκευτικών συμβόλων, αλλά η εξαίρεση για τους βουλευτές δείχνει ότι η επίκληση συνταγματικής παρέκκλισης έχει όρια. Η εφαρμογή της απόφασης είναι το επόμενο θεσμικό τεστ. Στην ΕΕ, η υπό όρους άρνηση του ΕΛΚ αυξάνει τη διαπραγματευτική σημασία του Ευρωκοινοβουλίου για τον επόμενο πολυετή προϋπολογισμό. Για τους δυνητικούς δικαιούχους, κρίσιμο παραμένει το τελικό κείμενο περικοπών και η κοινοβουλευτική συναίνεση, όχι η σημερινή δήλωση πρόθεσης.",
         "story_ids": [
-          "cyprus-shipping-summit-2026-11-27",
-          "cyprus-culture-credits-2026-11-27"
+          "quebec-bill21-ruling-2026-11-27",
+          "eu-longterm-budget-epp-2026-11-27"
         ]
       }
     ]
   },
   "follow_ups": [],
   "created_at": "2026-11-27T05:38:11.741556+00:00",
-  "updated_at": "2026-11-27T11:42:52.682937+00:00",
-  "input_sha256": "1c2280d7a7916617ee07b2d8f40cd59167233cbbd0cd54203b01943edd7d62e5"
+  "updated_at": "2026-11-27T17:45:38.103587+00:00",
+  "input_sha256": "e397f7dbd0264440dca0b1685adccbb0cf5e3214b24467ac31f2f98463509b70"
 }
